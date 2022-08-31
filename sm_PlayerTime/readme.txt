@@ -15,6 +15,16 @@ v1.8
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 2. REST in Pawn: https://forums.alliedmods.net/showthread.php?t=298024
 
+-Important-
+1. Install first and start Server, auto-generate cfg\sourcemod\sm_PlayerTime.cfg file
+2. Close Server, Go https://steamcommunity.com/dev/apikey to register your write down your Steam Web API.
+3. Modify cvar 'sm_playtime_apikey' in sm_PlayerTime.cfg file
+4. Start Server 
+
+-Note-
+* Both player total time played from Steam Personal Page and from In Game Stats are different.
+* If play does not set "My basic details: Public" and "Game details: Public" in "Privacy Settings", total time played is unknown.
+
 -ConVar-
 cfg/sourcemod/sm_PlayerTime.cfg
 // If 1, Announce the time played on record when player joins the server.
@@ -44,9 +54,23 @@ sm_playtime_block_unknown "0"
 // If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
 sm_playtime_log "1"
 
-// Get player time played from 0: Steam Personal Page, 1: In Game Achievement.
+// Get player time played from 0: Steam Personal Page, 1: In Game Stats.
 sm_playtime_method "0"
 
 -Command-
 **Check total time played of every player in game
 	"sm_timedisplay"
+
+
+-------中文說明-------
+當玩家連線進來伺服器之後，顯示玩家的遊戲時數
+
+-重要步驟-
+1. 先安裝插件，開啟伺服器，會自動產生　cfg\sourcemod\sm_PlayerTime.cfg 檔案
+2. 關閉伺服器，到 https://steamcommunity.com/dev/apikey 註冊您的 Steam Web API 金鑰
+3. 開啟sm_PlayerTime.cfg檔案，修改指令'sm_playtime_apikey'並寫下自己的序號
+4. 開啟伺服器
+
+-注意事項-
+* '從Steam頁面上抓取遊戲時數' 跟 '從遊戲統計資料抓取的遊戲時數' 會有所不同
+* 如果玩家在自己的'Steam隱私設定'中沒有設置 "我的基本資料:公開" 和 "遊戲資料:公開"，那麼遊戲時數會顯示未知.
