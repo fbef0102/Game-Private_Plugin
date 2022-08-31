@@ -11,6 +11,7 @@
 4. 編譯完成的檔案將會在addons\sourcemod\scripting\compiled\ 資料夾裡面<br/>
 -視窗如果顯示編譯失敗，代表缺少安裝必要的檔案或者源碼有錯誤，請洽作者
 5. 將編譯完成的.smx檔案丟入伺服器裡addons\sourcemod\plugins\ 資料夾裡面即可<br/>
+-編譯完成的檔案都通用於Windows、Linux、macOs系統，不會有不相容的問題
 - - - -
 # 如何成為伺服器的管理員
 1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"

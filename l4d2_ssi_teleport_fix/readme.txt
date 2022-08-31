@@ -1,6 +1,9 @@
 Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. 
 (傳送比較遠的特感到靠近倖存者的特感隊友附近)
 
+-----This plugin is private, Please contact me-----
+(https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
+
 -Apply to-
 L4D2
 

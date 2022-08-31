@@ -1,6 +1,9 @@
 This plugin is for demonstration of some animations from Fortnite in L4D1/2
 (搞笑動作模組: 表情與舞蹈)
 
+-----This plugin is private, Please contact me-----
+(https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
+
 -Apply to-
 L4D1/2
 

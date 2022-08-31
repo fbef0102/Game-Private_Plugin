@@ -1,6 +1,10 @@
 Spawn special infected without the director limits!
 (不受數量與遊戲限制生成特感)
 
+-----This plugin is private, Please contact me-----
+(https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
+
+
 -Apply to-
 L4D1/2
 
