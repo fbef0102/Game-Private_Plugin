@@ -1,6 +1,6 @@
-# L4D_Private-Plugin by Harry Potter
+# Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
-My L4D1/2 Unpublic Private Plugin (Charge) 
+My Unpublic Private Plugin (Charge) 
 > 2022/8/30
 
 # 私人插件列表 Private Plugins List
