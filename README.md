@@ -10,7 +10,7 @@ My Unpublic Private Plugin (Charge)
 Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)<br/>
 Accept small change or English translation<br/>
 
-**插件適用於L4D1和2　Apply to L4D1/2 both**
+▼ **插件適用於L4D1和2　Apply to L4D1/2 both**
   * <b>1vSpecials</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
   * <b>sm_PlayerTime</b>: Showing the time played on record in steam profile while player joins the server
   * <b>server_vpn_hop</b>: Type Command to show Vpn List
@@ -24,8 +24,8 @@ Accept small change or English translation<br/>
   * <b>l4d_gun_blastpushback</b>: Doraemon Aircannon (多啦A夢的空氣砲)
   * <b>l4d_player_spritetrail</b>: l4d player tail effect (env_spritetrail)
   * <b>l4d_player_tail</b>: l4d player tail effect (prop_dynamic_override)
-
-**只適用於L4D2　Apply to L4D2 only**
+- - - -
+▼ **只適用於L4D2　Apply to L4D2 only**
   * <b>l4d_saferom_prevent_kit</b>: Block Player from using Kit in Saferoom
   * <b>l4d2_ssi_teleport_fix</b>: Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. (傳送比較遠的特感到靠近倖存者的特感隊友附近)
   * <b>l4d_wlimits</b>: Restrict weapons individually or together
@@ -34,8 +34,8 @@ Accept small change or English translation<br/>
   * <b>l4d_together</b>: A simple anti - runner system , punish the runner by spawn SI behind her.
   * <b>l4d2_zoom_level</b>: Everyone can change zoom level for snipers by command.
   * <b>l4d2_scripted_hud</b>: Display text for up to 4 scripted HUD slots on the screen.
-
-**只適用於L4D1　Apply to L4D1 only**
+- - - -
+▼ **只適用於L4D1　Apply to L4D1 only**
 - - - -
 # 自我介紹
 台灣人，讀過資訊工程學系，略懂電腦程式碼<br/>
