@@ -5,9 +5,9 @@ My Unpublic Private Plugin (Charge)
 
 # 私人插件列表 Private Plugins List
 >持續更新中<br/>
-在這裡的插件均須收費交易，100-250台幣 (20-50人民幣、28-65港幣)，請聯繫我[本人](https://github.com/fbef0102/Game-Private_Plugin#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9)<br/>
+在這裡的插件均須收費交易，100-500台幣 (20-100人民幣、28-130港幣)，請聯繫我[本人](https://github.com/fbef0102/Game-Private_Plugin#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9)<br/>
 可接受小幅度的修改或漢化處理<br/>
-Will update more, every plugin here is private (US$5~10 dollars), please [contact me](https://github.com/fbef0102/Game-Private_Plugin#introduce-myself)<br/>
+Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://github.com/fbef0102/Game-Private_Plugin#introduce-myself)<br/>
 Accept small change or English translation<br/>
 
 **插件適用於L4D1和2　Apply to L4D1/2 both**
@@ -97,6 +97,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✔踩過所有的地雷，曾處理過大廳連線、崩潰、掉線、模組衝突、錯誤等問題<br/>
 ✔製作nav、修改地圖機關、放上障礙物做成地圖迷宮<br/>
 ✔確認學到知識或插件測試成功才會收錢<br/>
+✔用過網空下載，將額外的音樂檔案、模組貼圖發送給客戶端下載<br/>
 
 ✗不受理不屬於我的插件的問題，請聯繫原作者<br/>
 ✗不做RPG、誇張特效、VIP、等級系統....<br/>
