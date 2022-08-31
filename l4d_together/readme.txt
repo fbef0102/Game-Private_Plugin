@@ -8,7 +8,7 @@ L4D2
 v1.1
 
 -Require-
-1. spawn_infected_nolimit: https://github.com/fbef0102/Game-Private_Plugin/tree/master/spawn_infected_nolimit
+1. spawn_infected_nolimit: https://github.com/fbef0102/Game-Private_Plugin/tree/main/spawn_infected_nolimit
 
 -ConVar-
 cfg/sourcemod/l4d_together.cfg

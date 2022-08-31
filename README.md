@@ -5,9 +5,9 @@ My Unpublic Private Plugin (Charge)
 
 # 私人插件列表 Private Plugins List
 >持續更新中<br/>
-在這裡的插件均須收費交易，100-250台幣 (20-50人民幣、28-65港幣)<br/>
+在這裡的插件均須收費交易，100-250台幣 (20-50人民幣、28-65港幣)，請聯繫我本人(聯繫方式在下方)<br/>
 可接受小幅度的修改或漢化處理<br/>
-Will update more, every plguin here is private, need to pay moeny<br/>
+Will update more, every plugin here is private (US$5~10 dollars), please contact me(link below)<br/>
 Accept small change or English translation<br/>
 
 **插件適用於L4D1和2　Apply to L4D1/2 both**
