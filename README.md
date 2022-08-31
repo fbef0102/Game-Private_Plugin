@@ -42,7 +42,7 @@ Accept small change or English translation<br/>
 Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上<br/>
 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要遊玩影片為一代對抗模式與二代三方圖戰役模式 <br/>
 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)，有四~五年的經驗<br/>
-⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬 Not professional skill
+⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬
 
 **▶Left 4 Dead**
 * 惡靈勢力一代[Roto-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod)的主要開發者
