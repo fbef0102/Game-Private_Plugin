@@ -117,3 +117,5 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✗ Won't do any VIP, RPG, or any admin group plugin<br/>
 ✗ I know nothing much about .vpk mod, don't ask me
 - - - -
+# Others
+* [Questions問題集合區](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
