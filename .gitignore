@@ -1,0 +1,3 @@
+#ignore smx and source code
+*.sp
+*.smx

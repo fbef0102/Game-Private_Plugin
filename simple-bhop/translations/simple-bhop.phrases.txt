@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"EnableBHop"
+	{
+		"en"			"Your Bunny Hopping disabled."
+		"zho"			"你的 Bhop 已關閉."
+		"chi"			"你的 Bhop 已关闭."
+	}
+	"DisableBHop"
+	{
+		"en"			"Your Bunny Hopping enabled. Hold jump to Bunny Hop!"
+		"zho"			"你的 Bhop 已開啟. 按住跳躍鍵進行連跳!"
+		"chi"			"你的 Bhop 已开启. 按住跳跃键进行连跳!"
+	}
+	"InformBHop"
+	{
+		"en"			"This server is running Bunny Hop! Type !bhop to enable."
+		"zho"			"此伺服器運作 {olive}Bhop插件{default}! 輸入 {green}!bhop{default} 開啟連跳技能."
+		"chi"			"此伺服器运作 {olive}Bhop插件{default}! 输入 {green}!bhop{default} 开启连跳技能."
+	}
+	"Access"
+	{
+		"en"			"You don't have access."
+		"zho"			"沒有權限使用此指令."
+		"chi"			"没有权限使用此指令."
+	}
+}

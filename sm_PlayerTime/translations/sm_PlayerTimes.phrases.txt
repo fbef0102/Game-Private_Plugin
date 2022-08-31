@@ -1,0 +1,63 @@
+"Phrases"
+{
+	"MSG_BAN_Short"
+	{
+		"en"	"Your Game Time played is too short, not allowed in this server."
+		"zho"	"此服務器不允許遊戲時間太短的玩家加入."
+		"chi"	"此服务器不允许游戏时间太短的玩家加入。"
+	}
+	"MSG_BAN_Long"
+	{
+		"en"	"Your Game Time played is too long, not allowed in this server."
+		"zho"	"此服務器不允許遊戲時間太長的玩家加入."
+		"chi"	"此服务器不允许游戏时间太长的玩家加入。"
+	}
+	"MSG_BAN_Unknown"
+	{
+		"en"	"Your Game Time played is unknown, not allowed in this server."
+		"zho"	"此服務器不允許隱藏個人資料的玩家加入."
+		"chi"	"此服务器不允许隐藏个人资料的玩家加入。"
+	}
+	"Display_Time_Steam"
+	{
+		"en"	"%N's time played on record: %d hrs %d mins. (Steam)"
+		"zho"	"%N 的遊戲總時數: %d 小時 %d 分. (Steam)"
+		"chi"	"%N 的游戏总时数: %d 小时 %d 分. (Steam)"
+	}
+	"Display_Time_Game"
+	{
+		"en"	"%N's time played on record: %d hrs %d mins. (Game Stats)"
+		"zho"	"%N 的遊戲總時數: %d 小時 %d 分. (Game Stats)"
+		"chi"	"%N 的游戏总时数: %d 小时 %d 分. (Game Stats)"
+	}
+	"Display_Unknown"
+	{
+		"en"	"%N's time played on record: Unknown."
+		"zho"	"%N 的遊戲總時數: 未知"
+		"chi"	"%N 的游戏总时数: 未知"
+	}
+	"Notify_Unknown_Steam"
+	{
+		"en"	"{olive}%N{default} has joined server，total time played: {green}Unknown (Steam)"
+		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}Unknown (Steam)"
+		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}Unknown (Steam)"
+	}
+	"Notify_Time_Steam"
+	{
+		"en"	"{olive}%N{default} has joined server，total time played: {green}%d hr %d min (Steam)"
+		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Steam)"
+		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Steam)"
+	}
+	"Notify_Unknown_Game"
+	{
+		"en"	"{olive}%N{default} has joined server，total time played: {green}Unknown (Game Stats)"
+		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
+		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
+	}
+	"Notify_Time_Game"
+	{
+		"en"	"{olive}%N{default} has joined server，total time played: {green}%d hr %d min (Game Stats)"
+		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Game Stats)"
+		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Game Stats)"
+	}
+}

@@ -1,0 +1,33 @@
+"Games"
+{
+	"left4dead2"
+	{
+		"Signatures"
+		{
+			"CGetFov"
+			{
+				"library"    "server"
+				"linux"        "@_ZN11CBasePlayer6GetFOVEv"
+				"windows"    "\xE9\x0B\xD2\xFF\xFF"
+				/* E9 0B D2 FF FF */
+			} 
+			
+			"CGetDefaultFov"
+			{
+				"library"    "server"
+				"linux"        "@_ZNK11CBasePlayer13GetDefaultFOVEv"
+				"windows"     "\x8B\x81\x2A\x2A\x2A\x2A\x85\x2A\x75\x2A\x8B"
+				/* 8B 81 ? ? ? ? 85 ? 75 ? 8B */
+				/* Courtesy of Crasher */
+			} 
+		}
+		"Offsets"
+		{
+			"GetZoomLevel"
+			{
+				"windows"	"451"
+				"linux"		"453"
+			}
+		}
+	}
+}
