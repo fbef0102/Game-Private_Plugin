@@ -2,6 +2,7 @@ Start Saferoom door anti open
 (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
 
 -----This plugin is private, Please contact me-----
+-----此為私人插件, 請聯繫本人-----
 (https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
 
 -Apply to-
