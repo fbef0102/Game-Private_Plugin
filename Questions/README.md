@@ -146,7 +146,7 @@
 * 伺服器的後台輸入```sm exts list```
   ```
     ] sm exts list
-    [SM] Displaying 17 extensions:
+    [SM] Displaying 11 extensions:
     [01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
     [02] Webternet (1.11.0.6905): Extension for interacting with URLs
     [02] Top Menus (1.11.0.6905): Creates sorted nested menus
@@ -168,17 +168,10 @@
   ```
     ] meta list
     Listing 11 plugins:
-      [01] L4DToolZ (1.1.0.1) by Accelerator, Ivailosp
-      [02] Pounce Damage Uncap (1.1.0.0) by Michael "ProdigySim" Busby
-      [03] SourceMod (1.11.0.6905) by AlliedModders LLC
-      [04] Stripper (1.2.2) by BAILOPAN
-      [05] Actions (2.6) by BHaType
-      [06] Equinox DoS Protect (1.0) by Zephyrus
-      [07] [L4D2] 8+ Players BugFixes (1.0.2) by V10, Accelerator, $atanic $pirit
-      [08] VoiceHook (3.0) by Accelerator
-      [09] SDK Tools (1.11.0.6905) by AlliedModders LLC
-      [10] SDK Hooks (1.11.0.6905) by AlliedModders LLC
-      [11] DHooks (1.11.0.6905) by AlliedModders LLC
+      [01] SourceMod (1.11.0.6905) by AlliedModders LLC
+      [02] SDK Tools (1.11.0.6905) by AlliedModders LLC
+      [03] SDK Hooks (1.11.0.6905) by AlliedModders LLC
+      [04] DHooks (1.11.0.6905) by AlliedModders LLC
   ```
 </details>
 
@@ -188,7 +181,7 @@
 * 伺服器的後台輸入```sm plugins list```
   ```
     ] sm plugins list
-    [SM] Listing 129 plugins:
+    [SM] Listing 11 plugins:
       001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
       002 "Admin Help" (1.11.0.6905) by AlliedModders LLC
       003 "Admin Menu" (1.11.0.6905) by AlliedModders LLC
