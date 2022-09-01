@@ -189,7 +189,7 @@ l4d2_scripted_hud_hud2_x_speed "0.0"
 
 // Y (vertical) position of the text.
 // Note: setting it to less than 0.0 may cut/hide the text at screen.
-l4d2_scripted_hud_hud2_y "0.015"
+l4d2_scripted_hud_hud2_y "0.1"
 
 // Animated Y (vertical) direction that the text will move.
 // 0 = Top to Bottom, 1 = Bottom to Top.
