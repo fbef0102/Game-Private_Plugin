@@ -4,10 +4,6 @@ l4d player tail effect (prop_dynamic_override)
 -----此為私人插件, 請聯繫本人-----
 (https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
 
-
--效果-
-線條色塊，逐漸變色
-
 -Video-
 https://streamable.com/gbrudd
 
@@ -22,12 +18,15 @@ v1.2
 2. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 
 -Similar Plugin-
-Choose plugin you like (一樣的尾巴特效，看自己喜歡用哪一種)
-l4d_player_spritetrail: https://github.com/fbef0102/Private-Work/tree/master/Private_Plugins/l4d_player_spritetrail
+l4d_player_spritetrail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail
+
+-Note-
+* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
+* Tail could temporarily disappear if player stop moving
 
 -ConVar-
 cfg/sourcemod/l4d_player_tail.cfg
-// Players with these flags have access to use tail command. (Empty = Everyone, -1: Nobody)
+// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
 l4d_player_tail_access_flag ""
 
 // If 1, Enable Tail effect for Bot Infected
@@ -54,7 +53,7 @@ l4d_player_tail_endwidth "1.0"
 // The default attached tail height
 l4d_player_tail_height "5.0"
 
-// How long the beam is shown
+// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
 l4d_player_tail_lifetime "5.0"
 
 // The width of the beam to the beginning.
@@ -68,6 +67,19 @@ l4d_player_tail_startwidth "10.0"
 	sm_harrypotter
 	sm_hy
 
+-------中文說明-------
+玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+
+-效果-
+線條色塊，逐漸變色
+
+-相似插件-
+l4d_player_spritetrail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail
+(一樣的尾巴特效，看自己喜歡用哪一種)
+
+-注意事項-
+* "l4d_player_tail_lifetime must" 指令數值大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
+* 如果倖存者不動，尾巴特效會短暫消失，建議"l4d_player_tail_lifetime" 指令數值不要設置太高
 
 
 

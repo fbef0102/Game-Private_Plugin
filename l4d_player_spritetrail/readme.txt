@@ -4,10 +4,6 @@ l4d player tail effect (env_spritetrail)
 -----此為私人插件, 請聯繫本人-----
 (https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
 
-
--效果-
-色塊均勻，統一變色
-
 -Video-
 https://streamable.com/247ivq
 
@@ -23,12 +19,15 @@ v1.2
 3. left4dhooks: https://forums.alliedmods.net/showthread.php?t=321696
 
 -Similar Plugin-
-Choose plugin you like (一樣的尾巴特效，看自己喜歡用哪一種)
-l4d_player_tail: https://github.com/fbef0102/Private-Work/tree/master/Private_Plugins/l4d_player_tail
+Choose plugin you like
+l4d_player_tail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail
+
+-Note-
+* l4d_player_spritetrail_lifetime must greater than or equal to l4d_player_spritetrail_changecolor_interval
 
 -ConVar-
 cfg/sourcemod/l4d_player_spritetrail.cfg
-// Players with these flags have access to have tail effect and use command. (Empty = Everyone, -1: Nobody)
+// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
 l4d_player_spritetrail_access_flag ""
 
 // If 1, Enable Tail effect for Bot Infected
@@ -68,6 +67,18 @@ l4d_player_spritetrail_startwidth "15.0"
 	sm_tails
 	sm_harrypotter
 	sm_hy
+	
+-------中文說明-------
+玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+
+-效果-
+色塊均勻，統一變色
+
+-相似插件-
+l4d_player_tail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail
+
+-注意事項-
+* "l4d_player_tail_lifetime must" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
 
 
 
