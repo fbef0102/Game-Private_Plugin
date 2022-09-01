@@ -47,6 +47,12 @@ Accept small change or English translation<br/>
 </details>
 
 - - - -
+# 公開的插件列表 Public Plugins List
+* [惡靈勢力一代插件 L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
+* [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
+* [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+
+- - - -
 # 自我介紹
 台灣人，讀過資訊工程學系，略懂電腦程式碼<br/>
 Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上<br/>
