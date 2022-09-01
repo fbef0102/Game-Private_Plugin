@@ -65,6 +65,13 @@ sm_playtime_method "0"
 -------中文說明-------
 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
 
+-功能-
+1. 可顯示玩家Steam頁面上遊戲時數 或 遊戲統計資料抓取的遊戲時數
+2. 可運作其他的遊戲
+3. logs記錄檔
+4. 遊戲時數過少的菜B八將會被踢出伺服器
+5. 遊戲時數過高的大佬將會被踢出伺服器
+
 -重要步驟-
 1. 先安裝插件，開啟伺服器，會自動產生　cfg\sourcemod\sm_PlayerTime.cfg 檔案
 2. 關閉伺服器，到 https://steamcommunity.com/dev/apikey 註冊您的 Steam Web API 金鑰

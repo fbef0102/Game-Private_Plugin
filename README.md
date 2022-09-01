@@ -44,6 +44,7 @@ Accept small change or English translation<br/>
 * <b>l4d_together</b>: A simple anti - runner system , punish the runner by spawn SI behind her.
 * <b>l4d2_zoom_level</b>: Everyone can change zoom level for snipers by command.
 * <b>l4d2_scripted_hud</b>: Display text for up to 4 scripted HUD slots on the screen.
+	* 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 </details>
 
 <details>
