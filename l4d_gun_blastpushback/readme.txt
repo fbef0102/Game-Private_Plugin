@@ -1,4 +1,4 @@
-Doraemon Aircannon (多啦A夢的空氣砲)
+Doraemon Aircannon
 
 -----This plugin is private, Please contact me-----
 -----此為私人插件, 請聯繫本人-----
@@ -60,17 +60,19 @@ l4d_gun_blastpushback_weapon "14,21,32,33"
 // (L4D1) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
 l4d_gun_blastpushback_weapon "6,12,13"
 
--插件原理-
-拿出特定的武器 (l4d_gun_blastpushback_weapon)
-按下右鍵推產生一個空氣砲
-在有效範圍內 (l4d_gun_blastpushback_range)
-擊中準心指向的目標並在目標產生一個空氣砲
-空氣砲附近的範圍內 (l4d_gun_blastpushback_range)
-所有生物受到衝擊傷害 (l4d_gun_blastpushback_damage)
+-----中文說明書-----
+多啦A夢的空氣砲
 
-特感會被力道彈開 (l4d_gun_blastpushback_push)、
-Witch會被震暈、
-普通殭屍會被震暈
+-功能-
+1. 右鍵推產生一個空氣砲，特感與普通殭屍會被力道彈開
+
+-插件原理-
+拿出特定的武器，
+按下右鍵推產生一個空氣砲，
+在有效範圍內
+擊中準心指向的目標並在目標產生一個空氣砲，
+空氣砲附近的範圍內，
+所有生物受到衝擊傷害，特感會被力道彈開、Witch會被震暈、普通殭屍會被震暈
 
 
 

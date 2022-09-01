@@ -23,7 +23,7 @@ Choose plugin you like
 l4d_player_tail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail
 
 -Note-
-* l4d_player_spritetrail_lifetime must greater than or equal to l4d_player_spritetrail_changecolor_interval
+* "l4d_player_spritetrail_lifetime" must greater than or equal to "l4d_player_spritetrail_changecolor_interval"
 
 -ConVar-
 cfg/sourcemod/l4d_player_spritetrail.cfg
@@ -71,6 +71,11 @@ l4d_player_spritetrail_startwidth "15.0"
 -------中文說明-------
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 
+-功能-
+1. 可自定義尾巴特效的寬度，消逝時間
+2. 玩家可打命令自行決定尾巴的顏色
+3. 尾巴過一段時間會隨機變色
+
 -效果-
 色塊均勻，統一變色
 
@@ -78,7 +83,7 @@ l4d_player_spritetrail_startwidth "15.0"
 l4d_player_tail: https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail
 
 -注意事項-
-* "l4d_player_tail_lifetime must" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
+* "l4d_player_spritetrail_lifetime" 指令數值必須大於或等於 "l4d_player_spritetrail_changecolor_interval" 指令數值
 
 
 

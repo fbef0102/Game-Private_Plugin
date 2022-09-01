@@ -18,14 +18,8 @@
 	}
 	"c1m2_streets"
 	{
-		"tank_ban_flow"
-		{
-			"One way drop"
-			{
-				"min"		"49"
-				"max"		"55"
-			}
-		}
+		"no_tank" "1"
+		"no_witch" "1"
 	}
 	"c1m3_mall"
 	{
@@ -64,5 +58,10 @@
 				"max"		"100"
 			}
 		}
+	}
+	"c2m5_concert"
+	{
+		"no_tank" "0"
+		"no_witch" "1"
 	}
 }

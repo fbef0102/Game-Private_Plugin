@@ -15,17 +15,22 @@ Accept small change or English translation<br/>
 
 * <b>1vSpecials</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
 * <b>sm_PlayerTime</b>: Showing the time played on record in steam profile while player joins the server
+	* 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
 * <b>server_vpn_hop</b>: Type Command to show Vpn List
 * <b>kickthevoter</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
 * <b>l4d_vote_block</b>: Unable to call valve vote depending on gamemode and difficulty.
 * <b>antisaferoomdooropen</b>: Start Saferoom door anti open (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
 * <b>coopbosses_ifier</b>: Sets a tank and witch spawn point on every map in coop mode
+	* 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 * <b>spawn_infected_nolimit</b>: Spawn special infected without the director limits! (不受數量與遊戲限制生成特感)
 * <b>fortnite_l4d1&2</b>: This plugin is for demonstration of some animations from Fortnite in L4D1/2 (搞笑動作模組: 表情與舞蹈)
 * <b>simple-bhop</b>: Let users Bunny Hop with simplicity (簡單的連跳插件)
-* <b>l4d_gun_blastpushback</b>: Doraemon Aircannon (多啦A夢的空氣砲)
+* <b>l4d_gun_blastpushback</b>: Doraemon Aircannon
+	* 多啦A夢的空氣砲
 * <b>l4d_player_spritetrail</b>: l4d player tail effect (env_spritetrail)
+	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 * <b>l4d_player_tail</b>: l4d player tail effect (prop_dynamic_override)
+	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 </details>
 
 <details>
