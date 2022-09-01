@@ -4,28 +4,40 @@ Display text for up to 4 scripted HUD slots on the screen.
 -----此為私人插件, 請聯繫本人-----
 (https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
 
+-Video-
+https://streamable.com/bhtrhj
 
 -Apply to-
 L4D2
 
 -Changelog-
 v1.0.3
-- Kill Infected Counter status by Harry (HUD3_Text)
+- Kill Infected Counter Rank by Harry (HUD3_Text)
 
 v1.0.2
 -Original Post by Marttt: https://forums.alliedmods.net/showthread.php?p=2740016
 
--Install-
+-Important-
 Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
 	* If you run a coop server. Rename it to "coop.nut"
 	* If you run a versus server. Rename it to "versus.nut"
 	* If you run a survival server. Rename it to "survival.nut"
 	* If you run a scavenge server. Rename it as "scavenge.nut"
 	* If you run some mutation gamemode. Rename it to "<mutation>.nut"
+	* You can create multi .nut files
 (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
 
+
+-Default HUD_Text-
+* HUD1_Text: -data\l4d2_scripted_hud.cfg "HUD1" text
+* HUD2_Text: Tank Health
+* HUD3_Text: Kill Infected Counter Rank
+* HUD4_Text: Player Speaking
+
 -Note-
+* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load "l4d2_scripted_hud_hud?_text"(? is 1~4) cvar text. If both empty, then load GetHUD*_Text functions
 * The limit of each HUD text is up to 127 characters.
+* HUD Text can be moved and animated effect, please read cfg.
  
 -ConVar-
 cfg/sourcemod/l4d2_scripted_hud.cfg
@@ -44,11 +56,11 @@ l4d2_scripted_hud_hud1_beep "0"
 
 // Makes the text blink from white to red.
 // 0 = OFF, 1 = ON.
-l4d2_scripted_hud_hud1_blink "0"
+l4d2_scripted_hud_hud1_blink "1"
 
 // Makes the text blink from white to red while a tank is alive.
 // 0 = OFF, 1 = ON.
-l4d2_scripted_hud_hud1_blink_tank "1"
+l4d2_scripted_hud_hud1_blink_tank "0"
 
 // Overwrite the HUD flag.
 // For debug purposes only.
@@ -93,7 +105,7 @@ l4d2_scripted_hud_hud1_x_min "0.0"
 
 // Animated X (horizontal) movement speed of the text.
 // 0 = OFF.
-l4d2_scripted_hud_hud1_x_speed "0.0"
+l4d2_scripted_hud_hud1_x_speed "0.002"
 
 // Y (vertical) position of the text.
 // Note: setting it to less than 0.0 may cut/hide the text at screen.
@@ -152,7 +164,7 @@ l4d2_scripted_hud_hud2_text_align "1"
 
 // Makes the text visible.
 // 0 = OFF, 1 = ON.
-l4d2_scripted_hud_hud2_visible "0"
+l4d2_scripted_hud_hud2_visible "1"
 
 // Text area Width.
 l4d2_scripted_hud_hud2_width "1.5"
@@ -223,7 +235,7 @@ l4d2_scripted_hud_hud3_number "5"
 
 // Which team should see the text.
 // 0 = ALL, 1 = SURVIVOR, 2 = INFECTED.
-l4d2_scripted_hud_hud3_team "0"
+l4d2_scripted_hud_hud3_team "1"
 
 // The text you want to display in the HUD.
 // Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD*_Text functions.
@@ -291,7 +303,7 @@ l4d2_scripted_hud_hud4_blink "0"
 
 // Makes the text blink from white to red while a tank is alive.
 // 0 = OFF, 1 = ON.
-l4d2_scripted_hud_hud4_blink_tank "1"
+l4d2_scripted_hud_hud4_blink_tank "0"
 
 // Overwrite the HUD flag.
 // For debug purposes only.
@@ -315,7 +327,7 @@ l4d2_scripted_hud_hud4_text_align "1"
 
 // Makes the text visible.
 // 0 = OFF, 1 = ON.
-l4d2_scripted_hud_hud4_visible "0"
+l4d2_scripted_hud_hud4_visible "1"
 
 // Text area Width.
 l4d2_scripted_hud_hud4_width "1.5"
@@ -357,3 +369,27 @@ l4d2_scripted_hud_hud4_y_speed "0.0"
 
 // Interval in seconds to update the HUD.
 l4d2_scripted_hud_update_interval "0.1"
+
+-------中文說明-------
+在玩家畫面上方四個Hud位置顯示文字
+
+-安裝步驟-
+確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
+	* 戰役模式. 改成名 "coop.nut"
+	* 對抗模式. 改成名 "versus.nut"
+	* 生存模式. 改成名 "survival.nut"
+	* 清道夫模式. 改成名 "scavenge.nut"
+	* 突變模式. 改成名 "<突變模式英文名>.nut"
+	* 可以創建多個.nut檔案
+(如果已有.nut檔案，可以先備份)
+
+-預設的 HUD 文字-
+* HUD1: -data\l4d2_scripted_hud.cfg "HUD1" 文字，自行修改
+* HUD2: Tank 血量
+* HUD3: 擊殺特感統計排行榜
+* HUD4: 玩家語音說話
+
+-Note-
+* 插件先載入 data\l4d2_scripted_hud.cfg "HUD_Texts" 讀取文字. 如果空白則讀取 "l4d2_scripted_hud_hud?_text"(? is 1~4) 指令文字. 如果兩者皆空, 使用插件預設的 GetHUD*_Text 顯示文字
+* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
+* 可利用指令達成文字移動或閃紅色的效果，請自行閱讀文字
