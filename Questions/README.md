@@ -4,7 +4,7 @@
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
     - [如何安裝Sourcemod](#如何安裝sourcemod)
     - [如何執行專屬伺服器](#如何執行專屬伺服器)
-    - [如何檢查版本](#如何開啟遊戲控制台)
+    - [如何檢查版本](#如何檢查版本)
     - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
     - [如何編譯源碼](#如何編譯源碼)
     - [如何安裝插件](#如何安裝插件)
@@ -85,7 +85,8 @@
 ## 如何檢查版本
 <details>
   <summary>查找伺服器的後台 (點我展開)</summary>
-  - 開啟伺服器之後尋找"命令列"<br/>
+
+* 開啟伺服器之後尋找"命令列"<br/>
   <img src="https://i.imgur.com/c0jp5XQ.png" alt="c0jp5XQ.png" width="600" height = "400">
   
   > __Note__<br/>
@@ -94,8 +95,8 @@
 
 <details>
   <summary>檢查遊戲平台版本 (點我展開)</summary>
-  - 伺服器的後台輸入version
   
+* 伺服器的後台輸入```version```
   ```
   ] version
   Version 2.2.2.5 (left4dead2)
@@ -106,8 +107,8 @@
 
 <details>
   <summary>檢查sourcemod平台版本 (點我展開)</summary>
-  - 伺服器的後台輸入sm version
-  
+
+* 伺服器的後台輸入```sm version```
   ```
   ] sm version
    SourceMod Version Information:
@@ -123,8 +124,8 @@
 
 <details>
   <summary>檢查metamod平台版本 (點我展開)</summary>
-  - 伺服器的後台輸入meta version
-  
+
+* 伺服器的後台輸入```meta version```
   ```
   ] meta version
    Metamod:Source Version Information
@@ -141,64 +142,64 @@
 
 <details>
   <summary>檢查所有Extension版本 (點我展開)</summary>
-  - 伺服器的後台輸入sm exts list
-  
+
+* 伺服器的後台輸入```sm exts list```
   ```
-] sm exts list
-[SM] Displaying 17 extensions:
-[01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
-[02] Webternet (1.11.0.6905): Extension for interacting with URLs
-[02] Top Menus (1.11.0.6905): Creates sorted nested menus
-[04] SDK Tools (1.11.0.6905): Source SDK Tools
-[05] BinTools (1.11.0.6905): Low-level C/C++ Calling API
-[06] SDK Hooks (1.11.0.6905): Source SDK Hooks
-[07] Client Preferences (1.11.0.6905): Saves client preference settings
-[08] SQLite (1.11.0.6905): SQLite Driver
-[09] DHooks (1.11.0.6905): Dynamic Hooks
-[10] Regex (1.11.0.6905): Provides regex natives for plugins
-[11] GeoIP (1.11.0.6905): Geographical IP information
+    ] sm exts list
+    [SM] Displaying 17 extensions:
+    [01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
+    [02] Webternet (1.11.0.6905): Extension for interacting with URLs
+    [02] Top Menus (1.11.0.6905): Creates sorted nested menus
+    [04] SDK Tools (1.11.0.6905): Source SDK Tools
+    [05] BinTools (1.11.0.6905): Low-level C/C++ Calling API
+    [06] SDK Hooks (1.11.0.6905): Source SDK Hooks
+    [07] Client Preferences (1.11.0.6905): Saves client preference settings
+    [08] SQLite (1.11.0.6905): SQLite Driver
+    [09] DHooks (1.11.0.6905): Dynamic Hooks
+    [10] Regex (1.11.0.6905): Provides regex natives for plugins
+    [11] GeoIP (1.11.0.6905): Geographical IP information
   ```
 </details>
 
 <details>
   <summary>檢查所有Meta Plugin版本 (點我展開)</summary>
-  - 伺服器的後台輸入meta list
   
+* 伺服器的後台輸入```meta list```
   ```
-] meta list
-Listing 11 plugins:
-  [01] L4DToolZ (1.1.0.1) by Accelerator, Ivailosp
-  [02] Pounce Damage Uncap (1.1.0.0) by Michael "ProdigySim" Busby
-  [03] SourceMod (1.11.0.6905) by AlliedModders LLC
-  [04] Stripper (1.2.2) by BAILOPAN
-  [05] Actions (2.6) by BHaType
-  [06] Equinox DoS Protect (1.0) by Zephyrus
-  [07] [L4D2] 8+ Players BugFixes (1.0.2) by V10, Accelerator, $atanic $pirit
-  [08] VoiceHook (3.0) by Accelerator
-  [09] SDK Tools (1.11.0.6905) by AlliedModders LLC
-  [10] SDK Hooks (1.11.0.6905) by AlliedModders LLC
-  [11] DHooks (1.11.0.6905) by AlliedModders LLC
+    ] meta list
+    Listing 11 plugins:
+      [01] L4DToolZ (1.1.0.1) by Accelerator, Ivailosp
+      [02] Pounce Damage Uncap (1.1.0.0) by Michael "ProdigySim" Busby
+      [03] SourceMod (1.11.0.6905) by AlliedModders LLC
+      [04] Stripper (1.2.2) by BAILOPAN
+      [05] Actions (2.6) by BHaType
+      [06] Equinox DoS Protect (1.0) by Zephyrus
+      [07] [L4D2] 8+ Players BugFixes (1.0.2) by V10, Accelerator, $atanic $pirit
+      [08] VoiceHook (3.0) by Accelerator
+      [09] SDK Tools (1.11.0.6905) by AlliedModders LLC
+      [10] SDK Hooks (1.11.0.6905) by AlliedModders LLC
+      [11] DHooks (1.11.0.6905) by AlliedModders LLC
   ```
 </details>
 
 <details>
   <summary>檢查所有插件版本 (點我展開)</summary>
-  - 伺服器的後台輸入sm plugins list
   
+* 伺服器的後台輸入```sm plugins list```
   ```
-] sm plugins list
-[SM] Listing 129 plugins:
-  001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
-  002 "Admin Help" (1.11.0.6905) by AlliedModders LLC
-  003 "Admin Menu" (1.11.0.6905) by AlliedModders LLC
-  004 "Anti-Flood" (1.11.0.6905) by AlliedModders LLC
-  005 "Basic Ban Commands" (1.11.0.6905) by AlliedModders LLC
-  006 "Basic Chat" (1.11.0.6905) by AlliedModders LLC
-  007 "Basic Comm Control" (1.11.0.6905) by AlliedModders LLC
-  008 "Basic Commands" (1.10.0.6502) by AlliedModders LLC
-  009 "Basic Info Triggers" (1.11.0.6905) by AlliedModders LLC
-  010 "Basic Votes" (1.11.0.6905) by AlliedModders LLC
-  011 "Client Preferences" (1.11.0.6905) by AlliedModders LLC
+    ] sm plugins list
+    [SM] Listing 129 plugins:
+      001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
+      002 "Admin Help" (1.11.0.6905) by AlliedModders LLC
+      003 "Admin Menu" (1.11.0.6905) by AlliedModders LLC
+      004 "Anti-Flood" (1.11.0.6905) by AlliedModders LLC
+      005 "Basic Ban Commands" (1.11.0.6905) by AlliedModders LLC
+      006 "Basic Chat" (1.11.0.6905) by AlliedModders LLC
+      007 "Basic Comm Control" (1.11.0.6905) by AlliedModders LLC
+      008 "Basic Commands" (1.10.0.6502) by AlliedModders LLC
+      009 "Basic Info Triggers" (1.11.0.6905) by AlliedModders LLC
+      010 "Basic Votes" (1.11.0.6905) by AlliedModders LLC
+      011 "Client Preferences" (1.11.0.6905) by AlliedModders LLC
   ```
 </details>
 
