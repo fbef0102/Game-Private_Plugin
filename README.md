@@ -65,13 +65,13 @@ Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/7656119802678491
 </details>
 
 <details>
-  <summary><b>Left 4 Dead 2</b></summary>
+  <summary><b>Left 4 Dead 2 (點我展開)</b></summary>
 
 * 惡靈勢力二代[反抗模式 Resistance](https://steamcommunity.com/groups/left4dead2_resistance)的主要開發者
 </details>
 
 <details>
-  <summary><b>其他作品</b></summary>
+  <summary><b>其他作品 (點我展開)</b></summary>
 
 * [一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
@@ -89,7 +89,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
 
 <details>
-  <summary><b>Left 4 Dead ( Click to expand!)</b></summary>
+  <summary><b>Left 4 Dead (Click to expand!)</b></summary>
 
 * The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
 * 2019 Nostalgic Summer China Cup - Assistant Director
@@ -99,13 +99,13 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 </details>
 
 <details>
-  <summary><b>Left 4 Dead 2 ( Click to expand!)</b></summary>
+  <summary><b>Left 4 Dead 2 (Click to expand!)</b></summary>
 
 * The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
 </details>
 
 <details>
-  <summary><b>Others ( Click to expand!)</b></summary>
+  <summary><b>Others (Click to expand!)</b></summary>
 
 * [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
