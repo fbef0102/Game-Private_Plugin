@@ -295,13 +295,13 @@
    2. 切換地圖或重啟伺服器
 
    * 沒有自動產生相對應的.cfg文件
-   1. server.cfg 寫入指令－＞儲存
+   1. cfg\server.cfg 寫入指令－＞儲存
    2. 切換地圖或重啟伺服器
    > __Note__<br/>
      有的插件會自動產生.cfg文件，有的插件即使自帶指令也不會產生.cfg文件，全看原作者心情
   
 * 官方原有的指令
-   1. server.cfg 寫入指令－＞儲存
+   1. cfg\server.cfg 寫入指令－＞儲存
    2. 切換地圖或重啟伺服器
    > __Note__<br/>
       有些官方指令需要加上sm_cvar 才會生效，譬如```sm_cvar sb_stop 1```
@@ -370,7 +370,6 @@
    * 位於sourcemod\gamedata裡面的檔案，是幫插件抓取windows與linux各種奇葩涵式的文件
 * 插件cfg文件 = plugin cfg file
    * 位於cfg\sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令
-      * 不是每個插件都會自動產生cfg
 * 記錄檔 = log file
    * 位於sourcemod\logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件錯誤原因
 * Cvar = ConVar = 指令
