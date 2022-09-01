@@ -306,9 +306,12 @@ Listing 11 plugins:
       有些官方指令需要加上sm_cvar 才會生效，譬如```sm_cvar sb_stop 1```
 
 * 遊戲中途修改指令
-  * 法一：伺服器後台直接輸入指令名稱，譬如
+  * 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
     ```
     ] a4d_always_force_bosses 1
+    
+    ] sm_cvar sb_stop 0
+    [SM] Changed cvar "sb_stop" to "0".
     ```
   * 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
     ```
@@ -320,12 +323,15 @@ Listing 11 plugins:
     ```
 - - - -
 ## 如何檢查指令值
-* 法一：伺服器後台直接輸入指令名稱，譬如
+* 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
   ```
   ] a4d_always_force_bosses
   "a4d_always_force_bosses" = "0"
   notify
   - Whether or not bosses will be forced to spawn all the time.
+
+  ] sm_cvar sb_stop
+  [SM] Value of cvar "sb_stop": "1"
   ```
 * 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
   ```
