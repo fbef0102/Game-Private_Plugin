@@ -8,6 +8,9 @@ l4d player tail effect (env_spritetrail)
 -效果-
 色塊均勻，統一變色
 
+-Video-
+https://streamable.com/247ivq
+
 -Apply to-
 L4D1/2
 
@@ -34,7 +37,7 @@ l4d_player_spritetrail_bot_infected_enable "1"
 // If 1, Enable Tail effect for Bot Survivor
 l4d_player_spritetrail_bot_survivor_enable "1"
 
-// Timer interval to change tail color
+// Time interval to change tail color to random (0=Don't change color)
 l4d_player_spritetrail_changecolor_interval "5.0"
 
 // The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
@@ -56,10 +59,11 @@ l4d_player_spritetrail_height "10.0"
 l4d_player_spritetrail_lifetime "4.0"
 
 // The width of the beam to the beginning.
-l4d_player_spritetrail_startwidth "30.0"
+l4d_player_spritetrail_startwidth "15.0"
 
 -Command-
-** Toggle the attached tailed.
+** Toggle the attached tailed. Usage: sm_tail [R G B|off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]
+** !tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0
 	sm_tail
 	sm_tails
 	sm_harrypotter
