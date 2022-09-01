@@ -13,37 +13,37 @@ Accept small change or English translation<br/>
 <details>
   <summary><b>插件適用於L4D1和2　Apply to L4D1/2 both (點我展開 Click to expand!)</b></summary>
 
-* <b>1vSpecials</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
-* <b>sm_PlayerTime</b>: Showing the time played on record in steam profile while player joins the server
+* <b>[1vSpecials](/1vSpecials)</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
+* <b>[sm_PlayerTime](/sm_PlayerTime)</b>: Showing the time played on record in steam profile while player joins the server
 	* 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
-* <b>server_vpn_hop</b>: Type Command to show Vpn List
-* <b>kickthevoter</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
-* <b>l4d_vote_block</b>: Unable to call valve vote depending on gamemode and difficulty.
-* <b>antisaferoomdooropen</b>: Start Saferoom door anti open (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
-* <b>coopbosses_ifier</b>: Sets a tank and witch spawn point on every map in coop mode
+* <b>[server_vpn_hop](/server_vpn_hop)</b>: Type Command to show Vpn List
+* <b>[[kickthevoter](/kickthevoter)</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
+* <b>[l4d_vote_block](/l4d_vote_block)</b>: Unable to call valve vote depending on gamemode and difficulty.
+* <b>[antisaferoomdooropen](/antisaferoomdooropen)</b>: Start Saferoom door anti open (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
+* <b>[coopbosses_ifier](/coopbosses_ifier)</b>: Sets a tank and witch spawn point on every map in coop mode
 	* 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-* <b>spawn_infected_nolimit</b>: Spawn special infected without the director limits! (不受數量與遊戲限制生成特感)
-* <b>fortnite_l4d1&2</b>: This plugin is for demonstration of some animations from Fortnite in L4D1/2 (搞笑動作模組: 表情與舞蹈)
-* <b>simple-bhop</b>: Let users Bunny Hop with simplicity (簡單的連跳插件)
-* <b>l4d_gun_blastpushback</b>: Doraemon Aircannon
+* <b>[spawn_infected_nolimit](/spawn_infected_nolimit)</b>: Spawn special infected without the director limits! (不受數量與遊戲限制生成特感)
+* <b>[fortnite_l4d1&2](/fortnite_l4d1)</b>: This plugin is for demonstration of some animations from Fortnite in L4D1/2 (搞笑動作模組: 表情與舞蹈)
+* <b>[simple-bhop](/simple)</b>: Let users Bunny Hop with simplicity (簡單的連跳插件)
+* <b>[l4d_gun_blastpushback](/l4d_gun_blastpushback)</b>: Doraemon Aircannon
 	* 多啦A夢的空氣砲
-* <b>l4d_player_spritetrail</b>: l4d player tail effect (env_spritetrail)
+* <b>[l4d_player_spritetrail](/l4d_player_spritetrail)</b>: l4d player tail effect (env_spritetrail)
 	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-* <b>l4d_player_tail</b>: l4d player tail effect (prop_dynamic_override)
+* <b>[l4d_player_tail](/l4d_player_tail)</b>: l4d player tail effect (prop_dynamic_override)
 	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 </details>
 
 <details>
   <summary><b>只適用於L4D2　Apply to L4D2 only (點我展開 Click to expand!)</b></summary>
 
-* <b>l4d_saferom_prevent_kit</b>: Block Player from using Kit in Saferoom
-* <b>l4d2_ssi_teleport_fix</b>: Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. (傳送比較遠的特感到靠近倖存者的特感隊友附近)
-* <b>l4d_wlimits</b>: Restrict weapons individually or together
-* <b>l4d2_bile_out_nav_negate_createbot</b>: If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
-* <b>l4d2_unstuck</b>: Allows players to get themselves unstuck from charger glitches and level clips
-* <b>l4d_together</b>: A simple anti - runner system , punish the runner by spawn SI behind her.
-* <b>l4d2_zoom_level</b>: Everyone can change zoom level for snipers by command.
-* <b>l4d2_scripted_hud</b>: Display text for up to 4 scripted HUD slots on the screen.
+* <b>[l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit)</b>: Block Player from using Kit in Saferoom
+* <b>[l4d2_ssi_teleport_fix](/l4d2_ssi_teleport_fix)</b>: Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. (傳送比較遠的特感到靠近倖存者的特感隊友附近)
+* <b>[l4d_wlimits](/l4d_wlimits)</b>: Restrict weapons individually or together
+* <b>[l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot)</b>: If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+* <b>[l4d2_unstuck](/l4d2_unstuck)</b>: Allows players to get themselves unstuck from charger glitches and level clips
+* <b>[l4d_together](/l4d_together)</b>: A simple anti - runner system , punish the runner by spawn SI behind her.
+* <b>[l4d2_zoom_level](/l4d2_zoom_level)</b>: Everyone can change zoom level for snipers by command.
+* <b>[l4d2_scripted_hud](/l4d2_scripted_hud)</b>: Display text for up to 4 scripted HUD slots on the screen.
 	* 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 </details>
 
