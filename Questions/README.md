@@ -29,7 +29,7 @@
 4. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
    ![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
    - ```force_install_dir ./My_Server/```
-      - My_Server是創建資料夾名稱，可自取，伺服器所有檔案將會安裝在這裡
+      - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
@@ -46,7 +46,7 @@
 
 2. 等到出現Loading Steam API...OK，依序輸入以下指令
    - ```force_install_dir ./My_Server/```
-      - My_Server是創建資料夾名稱，可自取，伺服器所有檔案將會安裝在這裡
+      - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
