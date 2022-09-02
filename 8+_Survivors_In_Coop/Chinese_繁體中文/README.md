@@ -1,7 +1,7 @@
 # 安裝總攬
 > 2022/9/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
-    - [前言](#前言])
+    - [前言](#前言)
     - [準備檔案](#準備檔案)
     - [必要檔案](#必要檔案)
     - [額外檔案](#額外檔案)
@@ -27,7 +27,7 @@
 1. l4dtoolz EXTENSION: 解鎖伺服器人數限制
    - 如果你是專屬伺服器，在 cfg/server.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
-    ```
+    ```php
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
     sv_visiblemaxplayers 8 //number is same as above
     sv_force_unreserved 1 //your server will stay unreserved and allow players to connect using connect command, this command sets sv_allow_lobby_connect_only 0.
