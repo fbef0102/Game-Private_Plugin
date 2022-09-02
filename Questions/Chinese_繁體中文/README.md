@@ -14,6 +14,7 @@
     - [如何修改指令](#如何修改指令)
     - [如何檢查指令值](#如何檢查指令值)
     - [專業術語介紹](#專業術語介紹)
+    - [其他](#其他)
 > __Note__<br/>
   本處教學一律是Sourcemod，與AMX Mod X無任何關係
 - - - -
@@ -376,3 +377,6 @@
    * 官方原有或插件產生的Cvar，譬如sv_cheats、sv_maxplayers
 * Cmd = Command = 命令
    * 插件產生的Command，譬如sm_admin、!ban、/kick
+- - - -
+## 其他
+* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
