@@ -353,7 +353,7 @@
    * 伺服器本身
 * 專屬伺服器 = Dedicated Server
    * 過其他三方軟體開啟伺服器
-* 區域伺服器 = Local Server
+* 區域伺服器 = Local Server = Listen Server
    * 客戶端自己打開遊戲大廳創建遊戲房
 * 遊戲控制台 = Game Console
    * 客戶端的控制台
