@@ -237,7 +237,80 @@
 
 2. 若安裝包有其他的文件，放入相同資料夾即可
    - 翻譯文件放入addons\sourcemod\translations
+		<details>
+		<summary>判斷是否為翻譯文件 (點我展開)</summary>
+		此處為範例
+		
+		```
+		"Phrases"
+		{
+			"You're spectating. Join any team to play."
+			{
+				"en"	"You're spectating. Join any team to play."
+				"zho"	"輸入 !join 加入遊戲..."
+				"chi"	"输入 !join 加入游戏..."
+			}	
+			"[AFK] Inactivity detected! 1"
+			{
+				"#format"		"{1:d}"
+				"en"	"[AFK] Inactivity detected! You'll be moved to spectators in {1} seconds!"
+				"zho"	"[AFK] 偵測閒置! 你將於 {1} 秒後強制旁觀."
+				"chi"	"[AFK] 探测闲置! 你将于 {1} 秒后强制旁观."
+			}	
+		}
+		```
+		</details>
+		
    - Gamedata文件放入addons\sourcemod\gamedata
+		<details>
+		<summary>判斷是否為Gamedata文件 (點我展開)</summary>
+		此處為範例
+		
+		```
+		"Games"
+		{
+			"left4dead" // Credit: Psykotikism
+			{
+				"Signatures" 
+				{
+
+					"TakeOverBot"
+					{
+						"library"	"server"
+						"linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
+						"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x53\x55\x56\x57\x8D\x2A\x2A\x2A\x8B"
+								/* ? ? ? ? ? ? 53 55 56 57 8D ? ? ? 8B */
+					}
+				}
+			}
+
+			"left4dead2" //credit: ProdigySim, Shadowysn
+			{
+				"Addresses"
+				{
+					"NextBotCreatePlayerBot.jumptable"
+					{
+						"windows"
+						{
+							"signature"	"CTerrorPlayer::ReplaceWithBot.jumptable"
+							"offset"	"7"
+						}
+					}
+				}
+				"Signatures"
+			{
+				"TakeOverBot"
+				{
+					"library"	"server"
+					"linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
+					"windows"	"\x55\x8B\xEC\x81\xEC\x2A\x2A\x2A\x2A\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x53\x56\x8D\x85"
+					/* 55 8B EC 81 EC ? ? ? ? A1 ? ? ? ? 33 C5 89 45 FC 53 56 8D 85 */
+				}
+			}
+		}
+		```
+		</details>
+		
    - 其他文件依照說明書指示放入
    
 3. 重啟伺服器即可完成
