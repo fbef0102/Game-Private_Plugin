@@ -93,7 +93,7 @@
 17. [Save Weapon Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2757629&postcount=113): L4D2 coop save weapon when map transition if more than 4 players.
 
 18. [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
-    - The Passing Fix - download[<b>"Stripper_passingfix.7z"</b>](https://forums.alliedmods.net/attachment.php?attachmentid=171117&d=1535074649) for the passing to prevent players using L4D1 characters from being teleported/killed in this campaign.
+    - The Passing Fix - download <b>"Stripper_passingfix.7z"</b> (see Attached Files in [L4D2]Character_manager thread) for the passing to prevent players using L4D1 characters from being teleported/killed in this campaign.
       - Unzip all cfg files in addons\stripper\maps\ 相同資料夾
     - Remove no.5 Survivor Identity Fix for 5+ Survivors while using this plugin.
 
