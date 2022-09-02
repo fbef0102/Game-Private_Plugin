@@ -55,3 +55,6 @@ l4d_together_modes_tog "0"
 // Numbers of survivor required. (must be greater than or equal to 2 unless you are idiot)
 l4d_together_survivr_required "3"
 
+-Command-
+None
+

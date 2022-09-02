@@ -63,3 +63,6 @@ l4d_vote_block_modes_tog_restartgame "0"
 // Turn on vote 'Return to Lobby' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
 l4d_vote_block_modes_tog_returntolobby "0"
 
+-Command-
+None
+

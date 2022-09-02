@@ -43,3 +43,6 @@ ssitp_tp2_range_min "150"
 // If 1, infected players can be teleported to the player thats about to be seen by the survivors.
 ssitp_tp2_visiblethreats "0"
 
+-Command-
+None
+

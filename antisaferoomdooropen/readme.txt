@@ -40,3 +40,5 @@ l4d_anti_saferoom_force_start_time "60"
 // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
 l4d_anti_saferoom_modes_tog "1"
 
+-Command-
+None

@@ -373,6 +373,9 @@ l4d2_scripted_hud_hud4_y_speed "0.0"
 // Interval in seconds to update the HUD.
 l4d2_scripted_hud_update_interval "0.1"
 
+-Command-
+None
+
 -------中文說明-------
 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 

@@ -61,3 +61,6 @@ kick_the_voter_surv_map_access "z"
 // Players with these flags can call restart Survival maps. (Empty = Everyone, -1: Nobody)
 kick_the_voter_surv_restart_access "z"
 
+-Command-
+None
+

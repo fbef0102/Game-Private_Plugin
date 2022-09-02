@@ -60,6 +60,8 @@ l4d_rpg_friendly_fire_immune_range "30"
 // Protect divisor default for victim. (Must be Integer)
 l4d_rpg_friendly_fire_protect_divide "1"
 
+-Command-
+None
 
 -----中文說明-----
 反傷插件，但是有更多的RPG功能

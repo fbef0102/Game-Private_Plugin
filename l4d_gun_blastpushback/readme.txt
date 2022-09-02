@@ -61,6 +61,9 @@ l4d_gun_blastpushback_weapon "14,21,32,33"
 // (L4D1) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
 l4d_gun_blastpushback_weapon "6,12,13"
 
+-Command-
+None
+
 -----中文說明書-----
 多啦A夢的空氣砲
 

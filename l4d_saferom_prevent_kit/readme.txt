@@ -25,3 +25,6 @@ l4d_saferom_prevent_kit_messagetime "2.5"
 // If 1, Prevent players from using first aid kit in starting checkpoint area.
 l4d_saferom_prevent_kit_start "0"
 
+-Command-
+None
+

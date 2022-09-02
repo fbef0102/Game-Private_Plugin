@@ -19,3 +19,6 @@ v1.0
 cfg/sourcemod/l4d2_bile_out_nav_negate.cfg
 // Enable/Disable the plugin.
 l4d2_bile_out_nav_negate_enable "1"
+
+-Command-
+None
