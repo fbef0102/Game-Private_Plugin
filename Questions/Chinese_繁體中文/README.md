@@ -103,7 +103,7 @@
   <summary>檢查遊戲平台版本 (點我展開)</summary>
   
 * 伺服器的後台輸入```version```
-  ```
+  ```php
   ] version
   Version 2.2.2.5 (left4dead2)
   Network Version 2.1.0.0
@@ -115,7 +115,7 @@
   <summary>檢查sourcemod平台版本 (點我展開)</summary>
 
 * 伺服器的後台輸入```sm version```
-  ```
+  ```php
   ] sm version
    SourceMod Version Information:
       SourceMod Version: 1.11.0.6905
@@ -132,7 +132,7 @@
   <summary>檢查metamod平台版本 (點我展開)</summary>
 
 * 伺服器的後台輸入```meta version```
-  ```
+  ```php
   ] meta version
    Metamod:Source Version Information
       Metamod:Source version 1.11.0-dev+1148
@@ -150,7 +150,7 @@
   <summary>檢查所有Extension版本 (點我展開)</summary>
 
 * 伺服器的後台輸入```sm exts list```
-  ```
+  ```php
     ] sm exts list
     [SM] Displaying 11 extensions:
     [01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
@@ -171,7 +171,7 @@
   <summary>檢查所有Meta Plugin版本 (點我展開)</summary>
   
 * 伺服器的後台輸入```meta list```
-  ```
+  ```php
     ] meta list
     Listing 11 plugins:
       [01] SourceMod (1.11.0.6905) by AlliedModders LLC
@@ -185,7 +185,7 @@
   <summary>檢查所有插件版本 (點我展開)</summary>
   
 * 伺服器的後台輸入```sm plugins list```
-  ```
+  ```php
     ] sm plugins list
     [SM] Listing 11 plugins:
       001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
@@ -212,7 +212,7 @@
 
 3. 到伺服器位置addons\sourcemod\configs\ 資料夾找到一個檔案為admins_simple.ini，用筆記本打開文件，在最底下方新增一行內容
    - STEAM_X:X:XXXXXX 為你的steam ID
-   ```
+   ```php
    "STEAM_X:X:XXXXXX" "99:z" //這位玩家是管理員
    ```
    
@@ -245,7 +245,7 @@
       <details>
         <summary>範例 (點我展開)</summary>
 
-        ```
+        ```php
       ] sm plugins info trigger_horde_notify
         Filename: trigger_horde_notify.smx
         Title: [L4D & L4D2] trigger_horde_notify
@@ -262,7 +262,7 @@
       <details>
         <summary>範例 (點我展開)</summary>
 
-        ```
+        ```php
       L 03/28/2022 - 02:24:27: [SM] Exception reported: g_pDirector not available ().
       L 03/28/2022 - 02:24:27: [SM] Blaming: left4dhooks.smx
       L 03/28/2022 - 02:24:27: [SM] Call stack trace:
@@ -309,24 +309,24 @@
 
 * 遊戲中途修改指令
   * 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
-    ```
+    ```php
     ] a4d_always_force_bosses 1
     
     ] sm_cvar sb_stop 0
     [SM] Changed cvar "sb_stop" to "0".
     ```
   * 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
-    ```
+    ```php
     ] sm_cvar a4d_always_force_bosses 1
     ```
   * 法三：遊戲內管理員在聊天視窗輸入指令，前面加上```!cvar```
-    ```
+    ```php
       Harry : !cvar a4d_always_force_bosses 1
     ```
 - - - -
 ## 如何檢查指令值
 * 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
-  ```
+  ```php
   ] a4d_always_force_bosses
   "a4d_always_force_bosses" = "0"
   notify
@@ -334,14 +334,14 @@
 
   ] sm_cvar sb_stop
   [SM] Value of cvar "sb_stop": "1"
-  ```
+  ```php
 * 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
-  ```
+  ```php
   ] sm_cvar a4d_always_force_bosses
   [SM] cvar a4d_always_force_bosses 的值為 0
   ```
 * 法三：遊戲內管理員在聊天視窗輸入指令，前面加上```!cvar```
-  ```
+  ```php
     Harry : !cvar a4d_always_force_bosses
     [SM] cvar a4d_always_force_bosses 的值為 0
   ```
