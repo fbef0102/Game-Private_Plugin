@@ -9,6 +9,7 @@
     - [其他](#其他)
 - - - -
 ## 前言
+* AlliedModders 論壇的貼文: https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
    - 開區域房容易卡頓和崩潰，因為Sourcemod本來就不支援區域伺服器，請自行斟酌
