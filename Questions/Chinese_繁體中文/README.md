@@ -394,7 +394,7 @@
 1. 到伺服器後台上，輸入```sm plugins load xxxxxx```
 	- xxxxxx為插件的檔案名稱
   ```php
-	sm plugins load blocktrolls
+	] sm plugins load blocktrolls
 	[SM] Loaded plugin blocktrolls.smx successfully.
   ```
 2. 切換地圖
@@ -406,7 +406,7 @@
 1. 到伺服器後台上，輸入```sm plugins reload xxxxxx```
 	- xxxxxx為插件的檔案名稱
   ```php
-	sm plugins reload blocktrolls
+	] sm plugins reload blocktrolls
 	[SM] Plugin Block Trolls reloaded successfully.
   ```
 2. 切換地圖
@@ -434,7 +434,7 @@
 	* 到伺服器後台上，輸入```sm cvars xxxxxx```
 		- xxxxxx為插件的檔案名稱
 	```php	
-	sm cvars show_mic
+	] sm cvars show_mic
 	[SM] Listing 3 convars for: [L4D2] Voice Announce + Show MIC Hat.
 	  [Name]                           [Value]
 	  show_mic_center_hat_enable       1
@@ -507,7 +507,7 @@
 	* 到伺服器後台上，輸入```sm cvars xxxxxx```
 		- xxxxxx為插件的檔案名稱
 	```php	
-	sm cmds server_GagMuteBanEx
+	] sm cmds server_GagMuteBanEx
 	[SM] Listing commands for: GagMuteBanEx
 	  [Name]            [Type]   [Help]
 	  sm_exban          admin        sm_exban to Open exBan Steamid Menu or sm_exban <name> <minutes>
@@ -522,7 +522,7 @@
   * 法一：伺服器後台輸入命令名稱
 	- 有些命令不支援伺服器後台
     ```php
-	sm_admin
+	] sm_admin
 	[SM] This command can only be used in-game.
     ```
   * 法二：遊戲內管理員在控制台輸入命令
@@ -533,7 +533,7 @@
   * 法三：遊戲內管理員在聊天視窗輸入命令，前面加上```!```符號或```/```符號
     ```php
       Harry : !admin
-	  Harry : /admin
+      Harry : /admin
     ```
 > __Note__<br/>
 有些命令需要繼續輸入其他資料(又稱參數)，否則沒有效果，請自行摸索
