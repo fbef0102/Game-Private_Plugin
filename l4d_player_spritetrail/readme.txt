@@ -13,7 +13,7 @@ L4D1/2
 -Changelog-
 v1.2
 
--Require-
+-Require 必要安裝-
 1. [L4D2] SpriteTrail Fix by 000: https://forums.alliedmods.net/showthread.php?t=339197
 2. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 3. left4dhooks: https://forums.alliedmods.net/showthread.php?t=321696

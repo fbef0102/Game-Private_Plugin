@@ -14,7 +14,7 @@ v1.1
 v0.0
 Original Post by BHaType: https://forums.alliedmods.net/showthread.php?t=317993
 
--Require-
+-Require 必要安裝-
 None
 
 -ConVar-

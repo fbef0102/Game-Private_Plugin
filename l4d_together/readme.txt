@@ -11,7 +11,7 @@ L4D2
 -Changelog-
 v1.1
 
--Require-
+-Require 必要安裝-
 1. spawn_infected_nolimit: https://github.com/fbef0102/Game-Private_Plugin/tree/main/spawn_infected_nolimit
 
 -ConVar-

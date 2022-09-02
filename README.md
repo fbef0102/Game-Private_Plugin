@@ -31,6 +31,8 @@ Accept small change or English translation<br/>
 	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 * <b>[l4d_player_tail](/l4d_player_tail)</b>: l4d player tail effect (prop_dynamic_override)
 	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+* <b>[anti-friendly_fire_RPG](/anti-friendly_fire_RPG)</b>: shoot teammate = shoot yourself RPG
+	* 反傷插件，但是有更多的功能
 </details>
 
 <details>

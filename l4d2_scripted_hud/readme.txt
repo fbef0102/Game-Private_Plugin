@@ -17,6 +17,9 @@ v1.0.3
 v1.0.2
 -Original Post by Marttt: https://forums.alliedmods.net/showthread.php?p=2740016
 
+-Require 必要安裝-
+Nnoe
+
 -Important-
 Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
 	* If you run a coop server. Rename it to "coop.nut"

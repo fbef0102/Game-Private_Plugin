@@ -13,7 +13,7 @@ v1.1
 v1.0.0
 Original Post by ReFlexPoison: https://forums.alliedmods.net/showthread.php?p=1905436
 
--Require-
+-Require 必要安裝-
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 
 -ConVar-

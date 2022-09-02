@@ -11,7 +11,7 @@ L4D1/2
 -Changelog-
 v1.1
 
--Require-
+-Require 必要安裝-
 1. builtinvotes: https://github.com/L4D-Community/builtinvotes/actions
 
 -ConVar-

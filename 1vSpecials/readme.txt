@@ -11,6 +11,9 @@ L4D1/2
 v2.3
 -Remake code
 
+-Require 必要安裝-
+None
+
 -ConVar-
 cfg/sourcemod/1vSpecials.cfg
 // If 1, this plugin only takes effect when infected attacking bot.

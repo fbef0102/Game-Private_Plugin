@@ -10,7 +10,7 @@ L4D2
 -Changelog-
 v2.1
 
--Require-
+-Require 必要安裝-
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 
 -ConVar-

@@ -11,7 +11,7 @@ L4D1/2
 -Changelog-
 v1.8
 
--Require-
+-Require 必要安裝-
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 2. REST in Pawn: https://forums.alliedmods.net/showthread.php?t=298024
 

@@ -16,7 +16,7 @@ v1.2.3
 v1.2.2
 Original Post by Shadowysn: https://forums.alliedmods.net/showthread.php?t=320849
 
--Require-
+-Require 必要安裝-
 None
 
 -ConVar-

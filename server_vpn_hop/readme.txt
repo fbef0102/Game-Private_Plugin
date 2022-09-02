@@ -10,6 +10,9 @@ L4D1/2
 -Changelog-
 v1.0
 
+-Require 必要安裝-
+None
+
 -ConVar-
 no cfg file
 //0=Plugin off, 1=Plugin on.

@@ -11,7 +11,7 @@ L4D2
 -Changelog-
 v1.6
 
--Require-
+-Require 必要安裝-
 None
 
 -ConVar-

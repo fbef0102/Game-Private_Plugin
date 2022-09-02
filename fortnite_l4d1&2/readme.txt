@@ -15,7 +15,7 @@ v1.4.4
 v1.4.3
 Original Post by Franc1sco & foxhound27: https://forums.alliedmods.net/showpost.php?p=2712458&postcount=165
 
--Require-
+-Require 必要安裝-
 None
 
 -ConVar-
