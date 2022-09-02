@@ -1,31 +1,32 @@
-# 安裝總攬
-> 2022/9/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#安裝總攬)
-    - [前言](#前言])
-    - [準備檔案](#準備檔案)
-    - [必要檔案](#必要檔案)
-    - [額外檔案](#額外檔案)
-    - [娛樂檔案](#娛樂檔案)
-    - [其他](#其他)
+# Navigation
+> 2022/9/2 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+- [Navigation](#navigation)
+    - [Introduction](#introduction])
+    - [Prepare](#prepare)
+    - [Install](#install)
+    - [Optional](#optional)
+    - [Fun](#fun)
+    - [Others](#others)
 - - - -
-## 前言
-* 專屬伺服器可以開到8位以上的玩家加入戰役模式
-* 區域伺服器只能到8位玩家，無法再增加
-   - 開區域房容易卡頓和崩潰，因為Sourcemod本來就不支援區域伺服器，請自行斟酌
+## Introduction
+* [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
+* Dedicated Server can unlock 8+ or more player slots
+* Local listen Server only 8 players and unable to unlock 8+ or more player slots
+   - Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
 - - - -
-## 準備檔案
+## Prepare
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 2. [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
 3. [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
 4. [[L4D & L4D2] Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-5. [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): 可讓大廳有八個位子 <br/>
-   - 🟥只適用於區域伺服器🟥
-   - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
+5. [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
+   - 🟥Listen server only🟥
+   - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
-## 必要檔案
-1. l4dtoolz EXTENSION: 解鎖伺服器人數限制
-   - 如果你是專屬伺服器，在 cfg/server.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
-   - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
+## Install
+1. l4dtoolz EXTENSION: Unlock server limit
+   - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
+   - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
     ```
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
     sv_visiblemaxplayers 8 //number is same as above
@@ -34,7 +35,7 @@
     sm_cvar precache_all_survivors 1 // Precache/Load all models of survivors to prevent crash
     sm_cvar sv_consistency 0 // the server enforces file consistency (1: Enable, 0: Disable) 
     ```
-   - 可參考我的[Server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
+   - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
 2. [l4dmultislots (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): 生成bot給第五位玩家取代並加入倖存者陣營
 
@@ -64,9 +65,9 @@
 10. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰
     - 🟥只適用於Windows 系統🟥
    
-## 額外檔案
+## Optional
 > __Note__<br/>
-  此處額外檔案可以不用裝，自行決定
+  You can choose not to use any of optional plugins
 11. [AFK and Join Team Commands Improved Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands): 提供多種命令轉換隊伍陣營 (譬如: !afk, !survivors, !infected), 但不可濫用.
 
 12. [Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動
@@ -97,7 +98,7 @@
 21. [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
     - 🟥只適用於專屬伺服器🟥
    
-## 娛樂檔案
+## Fun
 1. [Survivor Respawn (哈利版本)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): 當玩家死亡時，過一段時間自動復活
 
 2. [M60_GrenadeLauncher_patches](https://forums.alliedmods.net/showthread.php?t=323408): 允許M60與榴彈發射器補充彈藥
@@ -129,6 +130,6 @@
 15. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
 
 - - - -
-## 其他
+## Others
 * [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
 
