@@ -14,6 +14,7 @@
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
    - 開區域房容易卡頓和崩潰，因為Sourcemod本來就不支援區域伺服器，請自行斟酌
+* 此處教學包含修正5+以上玩家會發生的問題
 - - - -
 ## 準備檔案
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)

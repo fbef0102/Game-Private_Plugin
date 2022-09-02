@@ -14,6 +14,7 @@
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
    - Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
+* Including 5+ players fix
 - - - -
 ## Prepare
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
