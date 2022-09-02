@@ -374,7 +374,16 @@ l4d2_scripted_hud_update_interval "0.1"
 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 
 -功能-
-1. 可自定義文字
+1. 可自定義文字顯示內容
+2. 可利用指令達成文字移動或閃紅色的效果，請自行閱讀文字
+3. 多達四個HUD，可個別顯示或關閉文字
+
+
+-預設的 HUD 文字-
+* HUD1: -data\l4d2_scripted_hud.cfg "HUD1" 文字，自行修改
+* HUD2: Tank 血量
+* HUD3: 擊殺特感統計排行榜
+* HUD4: 玩家語音說話
 
 -安裝步驟-
 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
@@ -386,13 +395,6 @@ l4d2_scripted_hud_update_interval "0.1"
 	* 可以創建多個.nut檔案
 (如果已有.nut檔案，可以先備份)
 
--預設的 HUD 文字-
-* HUD1: -data\l4d2_scripted_hud.cfg "HUD1" 文字，自行修改
-* HUD2: Tank 血量
-* HUD3: 擊殺特感統計排行榜
-* HUD4: 玩家語音說話
-
 -Note-
 * 插件先載入 data\l4d2_scripted_hud.cfg "HUD_Texts" 讀取文字. 如果空白則讀取 "l4d2_scripted_hud_hud?_text"(? is 1~4) 指令文字. 如果兩者皆空, 使用插件預設的 GetHUD*_Text 顯示文字
 * 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
-* 可利用指令達成文字移動或閃紅色的效果，請自行閱讀文字
