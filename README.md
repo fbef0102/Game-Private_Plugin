@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/1 updated
+> 2022/9/2 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -161,4 +161,5 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✗ I know nothing much about .vpk mod, don't ask me
 - - - -
 # Others
-* [Questions問題集合區](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [如何戰役模式開八人房 8+ survivors in coop (Including 5+ players fix)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/8+_Survivors_In_Coop)
