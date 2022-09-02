@@ -1,7 +1,7 @@
 # Navigation
 > 2022/9/2 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
-    - [Introduction](#introduction])
+    - [Introduction](#introduction)
     - [Prepare](#prepare)
     - [Install](#install)
     - [Optional](#optional)
@@ -27,7 +27,7 @@
 1. l4dtoolz EXTENSION: Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
-    ```
+    ```php
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
     sv_visiblemaxplayers 8 //number is same as above
     sv_force_unreserved 1 //your server will stay unreserved and allow players to connect using connect command, this command sets sv_allow_lobby_connect_only 0.
