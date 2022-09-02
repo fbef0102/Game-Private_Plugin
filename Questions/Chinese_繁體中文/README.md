@@ -379,4 +379,4 @@
    * 插件產生的Command，譬如sm_admin、!ban、/kick
 - - - -
 ## 其他
-* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [如何戰役模式開八人房 8+ survivors in coop (Including 5+ players fix)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/8+_Survivors_In_Coop)
