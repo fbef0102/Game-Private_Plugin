@@ -79,8 +79,13 @@
 ![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
 
 * Liunx
-1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -port 27016 +exec server +sv_lan 0```
-   - 可自行添加其他參數
+1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
+   - ```xxxxxx``` 為設定的遊戲
+	   - 如果是L4D1，xxxxxx改成left4dead
+	   - 如果是L4D2，xxxxxx改成left4dead2
+	   - 如果是CSGO，xxxxxx改成csgo
+   - 可自行添加其他參數，譬如
+	   - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
 - - - -
 ## 如何檢查版本
 <details>
