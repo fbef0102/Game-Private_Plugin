@@ -92,14 +92,14 @@
 
 19. [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 
-20. [8 survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2726779&postcount=38): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
+20. [8 survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2726779&postcount=38): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
     - 解壓縮檔案到addons\stripper\maps\ 相同資料夾
 
 21. [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
     - 🟥只適用於專屬伺服器🟥
    
 ## 娛樂檔案
-1. [Survivor Respawn (哈利版本)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): 當玩家死亡時，過一段時間自動復活
+1. [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
 
 2. [M60_GrenadeLauncher_patches](https://forums.alliedmods.net/showthread.php?t=323408): 允許M60與榴彈發射器補充彈藥
 
@@ -111,9 +111,9 @@
 
 6. [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 使用腎上腺素之時，武器射速、裝彈速度、近戰武器揮砍速度、動畫起身速度變快
 
-7. [L4D2 gifts](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): 當特感被殺死之後掉落禮物，倖存者碰到禮物可得到強力武器與彈藥
+7. [L4D2 gifts (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): 當特感被殺死之後掉落禮物，倖存者碰到禮物可得到強力武器與彈藥
 
-8. [deathcheck](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): 所有玩家包括AI Bot死亡才會回合結束
+8. [deathcheck (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): 所有玩家包括AI Bot死亡才會回合結束
 
 9. [CSO SupplyBox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): 地圖上隨機掉落補給箱，支援倖存者得到強力武器
 
@@ -121,7 +121,7 @@
 
 11. [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
 
-12. [Death Soul](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
+12. [Death Soul (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
 
 13. [Graves (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): 為人類屍體造一個墓碑以做紀念
 
