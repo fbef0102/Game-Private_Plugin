@@ -3,7 +3,7 @@ A simple anti - runner system , punish the runner by spawn SI behind her.
 
 -----This plugin is private, Please contact me-----
 -----此為私人插件, 請聯繫本人-----
-(https://github.com/fbef0102/Game-Private_Plugin#%E7%A7%81%E4%BA%BA%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-private-plugins-list)
+(https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
 -Apply to-
 L4D2

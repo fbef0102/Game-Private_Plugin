@@ -7,24 +7,31 @@
     - [額外檔案](#額外檔案)
     - [娛樂檔案](#娛樂檔案)
     - [其他](#其他)
+	
 - - - -
 ## 前言
 * [English](../English)
+* 本篇教學適用於L4D1和L4D2
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
    - 開區域房容易卡頓和崩潰，因為Sourcemod本來就不支援區域伺服器，請自行斟酌
 * 此處教學包含修正5+以上玩家會發生的問題
+
 - - - -
 ## 準備檔案
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 2. [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
 3. [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
-4. [[L4D & L4D2] Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
+4. [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 5. [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): 可讓大廳有八個位子 <br/>
    - 🟥只適用於區域伺服器🟥
    - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
 
+> __Note__<br/>
+  請閱讀[如何安裝伺服器並執行](/Questions/Chinese_繁體中文#問題總攬)，在此不再贅述
+  
+- - - -
 ## 必要檔案
 1. l4dtoolz EXTENSION: 解鎖伺服器人數限制
    - 如果你是專屬伺服器，在 cfg/server.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
@@ -66,7 +73,8 @@
 
 10. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰
     - 🟥只適用於Windows 系統🟥
-   
+	
+- - - -
 ## 額外檔案
 > __Note__<br/>
   此處額外檔案可以不用裝，自行決定
@@ -99,7 +107,8 @@
 
 21. [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
     - 🟥只適用於專屬伺服器🟥
-   
+	
+- - - -
 ## 娛樂檔案
 1. [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
 

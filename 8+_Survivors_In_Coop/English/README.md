@@ -7,24 +7,28 @@
     - [Optional](#optional)
     - [Fun](#fun)
     - [Others](#others)
+	
 - - - -
 ## Introduction
 * [繁體中文](../Chinese_繁體中文)
+* This tutorial applies to L4D1 and L4D2
 * [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
    - Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
 * Including 5+ players fix
+
 - - - -
 ## Prepare
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 2. [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
 3. [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
-4. [[L4D & L4D2] Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
+4. [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 5. [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
    - 🟥Listen server only🟥
    - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
+- - - -
 ## Install
 1. l4dtoolz EXTENSION: Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
@@ -66,7 +70,8 @@
 
 10. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.
     - 🟥Windows servers only🟥
-   
+
+- - - -
 ## Optional
 > __Note__<br/>
   You can choose not to use any of optional plugins
@@ -99,7 +104,8 @@
 
 21. [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
     - 🟥Doesn't work in listen server🟥
-   
+
+- - - -
 ## Fun
 1. [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.
 
