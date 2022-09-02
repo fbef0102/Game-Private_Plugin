@@ -10,9 +10,11 @@
     - [如何安裝插件](#如何安裝插件)
     - [如何檢查插件成功運作](#如何檢查插件成功運作)
     - [如何移除插件](#如何移除插件)
+    - [如何更新插件](#如何更新插件)
+    - [如何手動管理插件](#如何手動管理插件)
     - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
-    - [如何修改指令](#如何修改指令)
     - [如何檢查指令值](#如何檢查指令值)
+    - [如何修改指令](#如何修改指令)
     - [專業術語介紹](#專業術語介紹)
     - [其他](#其他)
 > __Note__<br/>
@@ -236,7 +238,7 @@
    - 插件名稱可自行修改，不要取中文，想自己吃鱉就試試
 
 2. 若安裝包有其他的文件，放入相同資料夾即可
-   - 翻譯文件放入addons\sourcemod\translations
+   - 翻譯文件.txt 放入addons\sourcemod\translations
 		<details>
 		<summary>判斷是否為翻譯文件 (點我展開)</summary>
 		此處為範例
@@ -261,7 +263,7 @@
 		```
 		</details>
 		
-   - Gamedata文件放入addons\sourcemod\gamedata
+   - Gamedata文件.txt 放入addons\sourcemod\gamedata
 		<details>
 		<summary>判斷是否為Gamedata文件 (點我展開)</summary>
 		此處為範例
@@ -357,7 +359,60 @@
 ## 如何移除插件
 1. 將不想要的.smx插件從addons\sourcemod\plugins移除
    - 刪除或是移動到別的資料夾
-2. 重新地圖或重啟伺服器
+2. 切換地圖或重啟伺服器
+- - - -
+## 如何更新插件
+1. 當發現作者更新了插件版本之後
+   - 可以選擇自己拿到新版本的源碼.sp檔案進行編譯
+   - 或者直接拿編譯好的.smx檔案
+2. 把.smx檔案放入addons\sourcemod\plugins覆蓋即可
+   - 若有其他的文件，放入相同資料夾覆蓋即可
+3. 切換地圖或重啟伺服器
+4. 到伺服器後台上，輸入```sm plugins info xxxxxx```，確認版本有更新
+   - xxxxxx為插件的檔案名稱
+- - - -
+## 如何手動管理插件
+<details>
+  <summary>遊戲中途卸載插件 (點我展開)</summary>
+  
+1. 到伺服器後台上，輸入```sm plugins unload xxxxxx```
+	- xxxxxx為插件的檔案名稱
+  ```php
+	] sm plugins unload blocktrolls
+	[SM] Plugin Block Trolls unloaded successfully.
+  ```
+</details>
+
+> __Warning__<br/>
+  不建議遊戲中塗卸載插件，可能導致伺服器殘留插件的作用<br/>
+  即使遊戲中途卸載插件，只要.smx插件檔案還在addons\sourcemod\plugins目錄之下，載入下一張地圖插件依然會生效
+
+<details>
+  <summary>遊戲中途載入插件 (點我展開)</summary>
+  
+1. 到伺服器後台上，輸入```sm plugins load xxxxxx```
+	- xxxxxx為插件的檔案名稱
+  ```php
+	sm plugins load blocktrolls
+	[SM] Loaded plugin blocktrolls.smx successfully.
+  ```
+2. 切換地圖
+</details> 
+
+<details>
+  <summary>遊戲中途重新載入插件 (點我展開)</summary>
+  
+1. 到伺服器後台上，輸入```sm plugins reload xxxxxx```
+	- xxxxxx為插件的檔案名稱
+  ```php
+	sm plugins reload blocktrolls
+	[SM] Plugin Block Trolls reloaded successfully.
+  ```
+2. 切換地圖
+</details> 
+
+> __Warning__<br/>
+  不建議遊戲中塗載入或重新載入插件，可能導致插件沒有作用<br/>
 - - - -
 ## 如何開啟遊戲控制台
 - 開啟遊戲，選項－＞鍵盤／滑鼠－＞允許使用開發人員命令列－＞已啟用
@@ -365,6 +420,47 @@
    <img src="https://i.imgur.com/g0fue7B.png" alt="g0fue7B.png" width="1000" height = "90">
 > __Note__<br/>
   與伺服器後台為不同的概念<br/>
+- - - -
+## 如何檢查指令值
+* 查看官方指令有哪些
+	* [L4D Cvars](https://developer.valvesoftware.com/wiki/List_of_L4D_Cvars)
+	* [L4D2 Cvars](https://developer.valvesoftware.com/wiki/List_of_L4D2_Cvars)
+	* [CSS Cvars](https://developer.valvesoftware.com/wiki/List_of_CS:S_Cvars)
+	* [CSGO Cvars](https://developer.valvesoftware.com/wiki/List_of_CS:GO_Cvars)
+	* 其他遊戲自行搜索
+	
+* 查看插件指令有哪些
+	* 到伺服器後台上，輸入```sm cvars xxxxxx```
+		- xxxxxx為插件的檔案名稱
+	```php	
+	sm cvars show_mic
+	[SM] Listing 3 convars for: [L4D2] Voice Announce + Show MIC Hat.
+	  [Name]                           [Value]
+	  show_mic_center_hat_enable       1
+	  show_mic_center_text_enable      0
+	  show_mic_version                 1.0
+	```
+* 查看指令目前的值
+	* 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
+	  ```php
+	  ] a4d_always_force_bosses
+	  "a4d_always_force_bosses" = "0"
+	  notify
+	  - Whether or not bosses will be forced to spawn all the time.
+
+	  ] sm_cvar sb_stop
+	  [SM] Value of cvar "sb_stop": "1"
+	  ```php
+	* 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
+	  ```php
+	  ] sm_cvar a4d_always_force_bosses
+	  [SM] cvar a4d_always_force_bosses 的值為 0
+	  ```
+	* 法三：遊戲內管理員在聊天視窗輸入指令，前面加上```!cvar```
+	  ```php
+		Harry : !cvar a4d_always_force_bosses
+		[SM] cvar a4d_always_force_bosses 的值為 0
+	  ```
 - - - -
 ## 如何修改指令
 * 插件自帶的指令
@@ -402,28 +498,8 @@
     ```php
       Harry : !cvar a4d_always_force_bosses 1
     ```
-- - - -
-## 如何檢查指令值
-* 法一：伺服器後台輸入直接指令名稱，官方指令請前面加上```sm_cvar```
-  ```php
-  ] a4d_always_force_bosses
-  "a4d_always_force_bosses" = "0"
-  notify
-  - Whether or not bosses will be forced to spawn all the time.
-
-  ] sm_cvar sb_stop
-  [SM] Value of cvar "sb_stop": "1"
-  ```php
-* 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
-  ```php
-  ] sm_cvar a4d_always_force_bosses
-  [SM] cvar a4d_always_force_bosses 的值為 0
-  ```
-* 法三：遊戲內管理員在聊天視窗輸入指令，前面加上```!cvar```
-  ```php
-    Harry : !cvar a4d_always_force_bosses
-    [SM] cvar a4d_always_force_bosses 的值為 0
-  ```
+> __Warning__<br/>
+即使遊戲中途修改指令，載入下一張地圖之後指令可能會恢復原狀，請利用.cfg文件修改指令
 - - - -
 ## 專業術語介紹
 * 客戶端 = client 或 Player
