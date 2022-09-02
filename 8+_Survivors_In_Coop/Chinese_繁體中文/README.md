@@ -9,6 +9,7 @@
     - [其他](#其他)
 - - - -
 ## 前言
+* [English](../English)
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加

@@ -9,6 +9,7 @@
     - [Others](#others)
 - - - -
 ## Introduction
+* [繁體中文](../Chinese_繁體中文)
 * [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
