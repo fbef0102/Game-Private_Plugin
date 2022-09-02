@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/9/1 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/9/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
     - [如何安裝Sourcemod](#如何安裝sourcemod)
@@ -15,6 +15,7 @@
     - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
     - [如何檢查指令值](#如何檢查指令值)
     - [如何修改指令](#如何修改指令)
+    - [如何使用插件的命令](#如何使用插件的命令)
     - [專業術語介紹](#專業術語介紹)
     - [其他](#其他)
 > __Note__<br/>
@@ -501,6 +502,42 @@
 > __Warning__<br/>
 即使遊戲中途修改指令，載入下一張地圖之後指令可能會恢復原狀，請利用.cfg文件修改指令
 - - - -
+## 如何使用插件的命令
+* 查看插件命令有哪些
+	* 到伺服器後台上，輸入```sm cvars xxxxxx```
+		- xxxxxx為插件的檔案名稱
+	```php	
+	sm cmds server_GagMuteBanEx
+	[SM] Listing commands for: GagMuteBanEx
+	  [Name]            [Type]   [Help]
+	  sm_exban          admin        sm_exban to Open exBan Steamid Menu or sm_exban <name> <minutes>
+	  sm_exbanid        admin        sm_exbansteam <minutes> <STEAM_ID>
+	  sm_exbansteam     admin        sm_exbansteam <minutes> <STEAM_ID>
+	  sm_exbansteamid   admin        sm_exbansteam <minutes> <STEAM_ID>
+	  sm_exgag          admin        sm_exgag to Open exGag Menu or sm_exgag <name> <minutes>
+	  sm_exmute         admin        sm_exmute to Open exMute Menu or sm_exmute <name> <minutes>
+	```
+
+* 使用命令
+  * 法一：伺服器後台輸入命令名稱
+	- 有些命令不支援伺服器後台
+    ```php
+	sm_admin
+	[SM] This command can only be used in-game.
+    ```
+  * 法二：遊戲內管理員在控制台輸入命令
+    ```php
+	] sm_ban
+	[SourceBans++] Usage: sm_ban <#userid|name> <time|0> [reason]
+    ```
+  * 法三：遊戲內管理員在聊天視窗輸入命令，前面加上```!```符號或```/```符號
+    ```php
+      Harry : !admin
+	  Harry : /admin
+    ```
+> __Note__<br/>
+有些命令需要繼續輸入其他資料(又稱參數)，否則沒有效果，請自行摸索
+- - - -
 ## 專業術語介紹
 * 客戶端 = client 或 Player
    * 開啟遊戲的玩家
@@ -528,10 +565,12 @@
    * 位於cfg\sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令
 * 記錄檔 = log file
    * 位於sourcemod\logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件錯誤原因
-* Cvar = ConVar = 指令
+* 指令 = Cvar = ConVar
    * 官方原有或插件產生的Cvar，譬如sv_cheats、sv_maxplayers
-* Cmd = Command = 命令
+* 命令 = Cmd = Command
    * 插件產生的Command，譬如sm_admin、!ban、/kick
+* 參數 = parameter
+   * 給予命令所需要的資料
 - - - -
 ## 其他
 * [如何戰役模式開八人房 8+ survivors in coop (Including 5+ players fix)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/8+_Survivors_In_Coop)
