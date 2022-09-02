@@ -450,7 +450,7 @@
 
 	  ] sm_cvar sb_stop
 	  [SM] Value of cvar "sb_stop": "1"
-	  ```php
+	  ```
 	* 法二：遊戲內管理員在控制台輸入指令，前面加上```sm_cvar```
 	  ```php
 	  ] sm_cvar a4d_always_force_bosses
