@@ -44,7 +44,6 @@ v1.8
 
 * cfg/sourcemod/sm_PlayerTime.cfg
 	```php
-	cfg/sourcemod/sm_PlayerTime.cfg
 	// If 1, Announce the time played on record when player joins the server.
 	sm_playtime_announce "1"
 
