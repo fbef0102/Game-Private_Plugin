@@ -17,9 +17,10 @@ L4D2
 ```
 v1.0.6
 - Support L4D1
-```
+
 v1.0.5
 - Original Post by sorallll: https://forums.alliedmods.net/showthread.php?t=336707
+```
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
