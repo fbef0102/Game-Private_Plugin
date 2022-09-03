@@ -10,7 +10,7 @@
 	
 - - - -
 ## Introduction
-> What's the simplest to install 8-survivors-coop without bug and error ?
+> What's the simplest way to install 8-survivors-coop without bug and error?
 * [繁體中文](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
 * This tutorial applies to L4D1 and L4D2
 * [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
