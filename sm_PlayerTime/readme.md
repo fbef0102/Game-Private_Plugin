@@ -5,6 +5,14 @@ Showing the time played on record in steam profile while player joins the server
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Image | 圖示
+	* image 1
+	<br/>![sm_PlayerTime_1](image/sm_PlayerTime_1.jpg)
+	* image 2
+	<br/>![sm_PlayerTime_2](image/sm_PlayerTime_2.jpg)
+	* image 3
+	<br/>![sm_PlayerTime_3](image/sm_PlayerTime_3.jpg)
+
 * Apply to | 適用於
 ```
 L4D1
