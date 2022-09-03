@@ -1,11 +1,11 @@
 # Description | 內容
-l4d player tail effect (prop_dynamic_override)
+l4d player tail effect (env_spritetrail)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://streamable.com/gbrudd)
+* [Video | 影片展示](https://streamable.com/247ivq)
 
 * Image | 圖示
 	* image 1
@@ -26,54 +26,54 @@ v1.2
 ```
 
 * Require | 必要安裝
-	1. left4dhooks: https://forums.alliedmods.net/showthread.php?t=321696
-	2. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
+	1. [SpriteTrail Fix by 000](https://forums.alliedmods.net/showthread.php?t=339197)
+	2. left4dhooks: https://forums.alliedmods.net/showthread.php?t=321696
+	3. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
 
 * Similar Plugin | 相似插件
-	* [l4d_player_spritetrail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail)
+	* [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)
 	> 一樣式尾巴特效，看自己喜歡用哪一種
 
 * Note | 注意事項
-	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
-	* Tail could temporarily disappear if player stop moving
+	* "l4d_player_spritetrail_lifetime" must greater than or equal to "l4d_player_spritetrail_changecolor_interval"
 
 <details>
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
 
-* cfg/sourcemod/l4d_player_tail.cfg
+* cfg/sourcemod/l4d_player_spritetrail.cfg
 	```php
 	// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
-	l4d_player_tail_access_flag ""
+	l4d_player_spritetrail_access_flag ""
 
 	// If 1, Enable Tail effect for Bot Infected
-	l4d_player_tail_bot_infected_enable "1"
+	l4d_player_spritetrail_bot_infected_enable "1"
 
 	// If 1, Enable Tail effect for Bot Survivor
-	l4d_player_tail_bot_survivor_enable "1"
+	l4d_player_spritetrail_bot_survivor_enable "1"
 
 	// Time interval to change tail color to random (0=Don't change color)
-	l4d_player_tail_changecolor_interval "4.0"
+	l4d_player_spritetrail_changecolor_interval "5.0"
 
 	// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-	l4d_player_tail_color "-1 -1 -1"
+	l4d_player_spritetrail_color "-1 -1 -1"
 
 	// Transparency of the tail (10-255).
-	l4d_player_tail_color_alpha "100"
+	l4d_player_spritetrail_color_alpha "155"
 
 	// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
-	l4d_player_tail_default_value "1"
+	l4d_player_spritetrail_default_value "1"
 
 	// The width of the beam when it has full expanded.
-	l4d_player_tail_endwidth "1.0"
+	l4d_player_spritetrail_endwidth "3.0"
 
 	// The default attached tail height
-	l4d_player_tail_height "5.0"
+	l4d_player_spritetrail_height "10.0"
 
-	// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
-	l4d_player_tail_lifetime "5.0"
+	// How long the beam is shown
+	l4d_player_spritetrail_lifetime "4.0"
 
 	// The width of the beam to the beginning.
-	l4d_player_tail_startwidth "10.0"
+	l4d_player_spritetrail_startwidth "15.0"
 	```
 </details>
 
@@ -100,10 +100,7 @@ v1.2
 	3. 尾巴過一段時間會隨機變色
 
 * 效果
-<br/>線條色塊，逐漸變色
+<br/>色塊均勻，統一變色
 
 * 注意事項
-	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
-	* 如果倖存者不動，尾巴特效會短暫消失，建議"l4d_player_tail_lifetime" 指令數值不要設置太高
-	
-
+	* "l4d_player_spritetrail_lifetime" 指令數值必須大於或等於 "l4d_player_spritetrail_changecolor_interval" 指令數值
