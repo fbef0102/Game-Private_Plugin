@@ -33,6 +33,8 @@ Accept small change or English translation<br/>
 	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 * <b>[anti-friendly_fire_RPG](/anti-friendly_fire_RPG)</b>: shoot teammate = shoot yourself RPG
 	* 反傷插件，但是有更多的功能
+* <b>[skip_tank_taunt](/skip_tank_taunt)</b>: Skip Tank Victory + Speed up Obstacle animation playback
+	* Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 </details>
 
 <details>
