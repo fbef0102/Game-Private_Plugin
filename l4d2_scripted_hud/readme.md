@@ -5,11 +5,11 @@ Display text for up to 4 scripted HUD slots on the screen.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://streamable.com/bhtrhj)
+* [Video | 影片展示](https://youtu.be/IDYCZaJoZ4c)
 
 * Image | 圖示
 	* image 1
-	<br/>![l4d2_scripted_hud](image/l4d2_scripted_hud.jpg)
+	<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
 
 * Apply to | 適用於
 ```

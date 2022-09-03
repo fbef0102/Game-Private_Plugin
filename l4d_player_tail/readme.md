@@ -5,13 +5,16 @@ l4d player tail effect (prop_dynamic_override)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://streamable.com/gbrudd)
+* [Video | 影片展示](https://youtu.be/tUjLWu1Hg2w)
 
 * Image | 圖示
 	* image 1
 	<br/>![l4d_player_tail_1](image/l4d_player_tail_1.jpg)
+	* image 2
 	<br/>![l4d_player_tail_2](image/l4d_player_tail_2.jpg)
+	* image 3
 	<br/>![l4d_player_tail_3](image/l4d_player_tail_3.jpg)
+	* image 4
 	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
 
 * Apply to | 適用於
