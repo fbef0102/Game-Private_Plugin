@@ -140,7 +140,7 @@ v1.3
 * 原理
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取75，當人類路程走到75%路程，生成Tank
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取40，當人類路程走到40%路程，生成Witch
-	* 如果輔助文件禁止50~70%生成Boss，則隨機值不會取50~70
+	* 如果輔助文件禁止50 ~ 70%生成Boss，則隨機值不會取50 ~ 70
 
 * Data設定範例
 	* data/mapinfo.txt
