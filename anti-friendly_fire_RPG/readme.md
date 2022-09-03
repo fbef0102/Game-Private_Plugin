@@ -7,12 +7,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://streamable.com/43511i)
 
-* Image | 圖示
-	* image 1
-	<br/>![l4d_player_spritetrail_1](image/l4d_player_spritetrail_1.jpg)
-	<br/>![l4d_player_spritetrail_2](image/l4d_player_spritetrail_2.jpg)
-	<br/>![l4d_player_spritetrail_3](image/l4d_player_spritetrail_3.jpg)
-
 * Apply to | 適用於
 ```
 L4D1
