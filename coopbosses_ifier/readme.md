@@ -136,6 +136,46 @@ v1.3
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取40，當人類路程走到40%路程，生成Witch
 	* 如果輔助文件禁止50~70%生成Boss，則隨機值不會取50~70
 
+* Data設定範例
+	* data/mapinfo.txt
+	```php
+	"MapInfo"
+	{
+		"c1m2_streets"　//地圖名
+		{
+			"no_tank" "0" 		//可在該地圖生成Tank
+			"no_witch" "1"	 	//該地圖禁止生成Witch
+		}
+		"c2m2_fairgrounds" //地圖名
+		{
+			"tank_ban_flow" //禁止Tank生成的路段
+			{
+				"tank ban test" //隨便取名
+				{
+					"min"		"0" //0~20%禁止生成Tank
+					"max"		"20"
+				}
+				"tank ban test 2" //隨便取名
+				{
+					"min"		"50" //50~80%禁止生成Tank
+					"max"		"80"
+				}
+			}
+			"witch_ban_flow" //禁止Witch生成的路段
+			{
+				"witch ban test"　 //隨便取名
+				{
+					"min"		"50" //50~100%禁止生成Witch
+					"max"		"100"
+				}
+			}
+		}
+	}
+	```
+> 每一張地圖都有地形或地圖問題，
+　在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存
+　(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+
 <details>
 <summary>指令中文介紹 (點我展開)</summary>
 
@@ -188,43 +228,3 @@ v1.3
 	sm_bossvote <數字> <數字>
 	```
 </details>
-
-* Data設定範例
-	* data/mapinfo.txt
-	```php
-	"MapInfo"
-	{
-		"c1m2_streets"　//地圖名
-		{
-			"no_tank" "0" 		//可在該地圖生成Tank
-			"no_witch" "1"	 	//該地圖禁止生成Witch
-		}
-		"c2m2_fairgrounds" //地圖名
-		{
-			"tank_ban_flow" //禁止Tank生成的路段
-			{
-				"tank ban test" //隨便取名
-				{
-					"min"		"0" //0~20%禁止生成Tank
-					"max"		"20"
-				}
-				"tank ban test 2" //隨便取名
-				{
-					"min"		"50" //50~80%禁止生成Tank
-					"max"		"80"
-				}
-			}
-			"witch_ban_flow" //禁止Witch生成的路段
-			{
-				"witch ban test"　 //隨便取名
-				{
-					"min"		"50" //50~100%禁止生成Witch
-					"max"		"100"
-				}
-			}
-		}
-	}
-	```
-> 每一張地圖都有地形或地圖問題，
-　在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存
-　(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
