@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/9/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/9/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
     - [如何安裝Sourcemod](#如何安裝sourcemod)
@@ -80,6 +80,11 @@
 * Windows
 1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器 <br/>
 ![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
+	- 各項目依照自己的喜好設定
+	- 網路選擇網際網路 (廢話)
+	- 玩家上限是假的，即使設定32人，伺服器人數受到遊戲限制
+		- L4D 戰役模式最多4人、對抗模式最多8人
+	- 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
 
 * Liunx
 1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
