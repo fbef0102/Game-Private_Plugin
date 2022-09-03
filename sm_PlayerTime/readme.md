@@ -21,13 +21,13 @@ v1.8
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	2. [REST in Pawn](https://forums.alliedmods.net/showthread.php?t=298024)
 
-* Important
+* Important | 重要步驟
 	1. Install first and start Server, auto-generate cfg\sourcemod\sm_PlayerTime.cfg file
-	2. Close Server, Go https://steamcommunity.com/dev/apikey to register your write down your Steam Web API.
+	2. Close Server, Go [Steam Website](https://steamcommunity.com/dev/apikey) to register your write down your Steam Web API.
 	3. Modify cvar 'sm_playtime_apikey' in sm_PlayerTime.cfg file
 	4. Start Server 
 
-* Note
+* Note | 注意事項
 	* Both player total time played from Steam Personal Page and from In Game Stats are different.
 	* If play does not set "My basic details: Public" and "Game details: Public" in "Privacy Settings", total time played is unknown.
 
@@ -35,47 +35,47 @@ v1.8
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
 
 * cfg/sourcemod/sm_PlayerTime.cfg
-```php
-cfg/sourcemod/sm_PlayerTime.cfg
-// If 1, Announce the time played on record when player joins the server.
-sm_playtime_announce "1"
+	```php
+	cfg/sourcemod/sm_PlayerTime.cfg
+	// If 1, Announce the time played on record when player joins the server.
+	sm_playtime_announce "1"
 
-// Steam developer web API key. (https://steamcommunity.com/dev/apikey)
-sm_playtime_apikey "XXXXXXXXXXXXXXXXXXXX"
+	// Steam developer web API key. (https://steamcommunity.com/dev/apikey)
+	sm_playtime_apikey "XXXXXXXXXXXXXXXXXXXX"
 
-// Application ID of current game. HL2:DM (320), CS:S (240), CS:GO (730), TF2 (440), L4D (500), L4D2 (550)
-sm_playtime_appid "550"
+	// Application ID of current game. HL2:DM (320), CS:S (240), CS:GO (730), TF2 (440), L4D (500), L4D2 (550)
+	sm_playtime_appid "550"
 
-// Ban duration (Mins) (0=Permanent)
-sm_playtime_block_ban_time "1440"
+	// Ban duration (Mins) (0=Permanent)
+	sm_playtime_block_ban_time "1440"
 
-// Check and unblock players with these flags. (Empty = Everyone, -1: Nobody)
-sm_playtime_block_immue_flag "z"
+	// Check and unblock players with these flags. (Empty = Everyone, -1: Nobody)
+	sm_playtime_block_immue_flag "z"
 
-// Any player whose total time played on record is higher this value can not join the server. (Mins) (0=off)
-sm_playtime_block_long "0"
+	// Any player whose total time played on record is higher this value can not join the server. (Mins) (0=off)
+	sm_playtime_block_long "0"
 
-// Any player whose total time played on record is below this value can not join the server. (Mins) (0=off)
-sm_playtime_block_short "6000"
+	// Any player whose total time played on record is below this value can not join the server. (Mins) (0=off)
+	sm_playtime_block_short "6000"
 
-// Any player whose total time played on record is unknown can not join the server. (0=off)
-sm_playtime_block_unknown "0"
+	// Any player whose total time played on record is unknown can not join the server. (0=off)
+	sm_playtime_block_unknown "0"
 
-// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
-sm_playtime_log "1"
+	// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
+	sm_playtime_log "1"
 
-// Get player time played from 0: Steam Personal Page, 1: In Game Stats.
-sm_playtime_method "0"
-```
+	// Get player time played from 0: Steam Personal Page, 1: In Game Stats.
+	sm_playtime_method "0"
+	```
 </details>
 
 <details>
 <summary>Command (Click to expand!) | 指令 (點我展開)</summary>
 
-<b>** Check total time played of every player in game</b>
-```
-sm_timedisplay
-```
+<b>* Check total time played of every player in game</b>
+	```
+	sm_timedisplay
+	```
 </details>
 
 - - - -
@@ -92,7 +92,7 @@ sm_timedisplay
 
 * 重要步驟
 	1. 先安裝插件，開啟伺服器，會自動產生　cfg\sourcemod\sm_PlayerTime.cfg 檔案
-	2. 關閉伺服器，到 https://steamcommunity.com/dev/apikey 註冊您的 Steam Web API 金鑰
+	2. 關閉伺服器，到 [官網](https://steamcommunity.com/dev/apikey) 註冊您的 Steam Web API 金鑰
 	3. 開啟sm_PlayerTime.cfg檔案，修改指令'sm_playtime_apikey'並寫下自己的序號
 	4. 開啟伺服器
 
