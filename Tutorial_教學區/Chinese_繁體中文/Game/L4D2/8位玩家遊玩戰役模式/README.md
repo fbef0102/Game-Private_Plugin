@@ -29,7 +29,7 @@
    - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
 
 > __Note__<br/>
-  請閱讀[如何安裝伺服器並執行](/Questions/Chinese_繁體中文#問題總攬)，在此不再贅述
+  請閱讀[如何安裝伺服器並執行](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#問題總攬)，在此不再贅述
   
 - - - -
 ## 必要檔案
