@@ -31,16 +31,9 @@ v1.0.5
 * cfg/sourcemod/skip_tank_taunt.cfg
 	```php
 	// Obstacle animation playback rate
-	// -
-	// Default: "2.5"
-	// Minimum: "0.000000"
 	tank_obstacle_animation_playbackrate "2.5"
 
 	// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip
-	// -
-	// Default: "1"
-	// Minimum: "0.000000"
-	// Maximum: "1.000000"
 	tank_victory_animation_skip "1"
 	```
 </details>
