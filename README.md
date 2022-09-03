@@ -11,7 +11,7 @@ My Unpublic Private Plugin (Charge)
 Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)<br/>
 Accept small change or English translation<br/>
 <details>
-  <summary><b>插件適用於L4D1和2　Apply to L4D1/2 both (點我展開 Click to expand!)</b></summary>
+  <summary><b>Apply to L4D1/2 both (Click to expand!) | 適用於L4D1和2 (點我展開) </b></summary>
 
 * <b>[1vSpecials](/1vSpecials)</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
 * <b>[sm_PlayerTime](/sm_PlayerTime)</b>: Showing the time played on record in steam profile while player joins the server
@@ -36,7 +36,7 @@ Accept small change or English translation<br/>
 </details>
 
 <details>
-  <summary><b>只適用於L4D2　Apply to L4D2 only (點我展開 Click to expand!)</b></summary>
+  <summary><b>Apply to L4D2 only (Click to expand!) | 只適用於L4D2 (點我展開) </b></summary>
 
 * <b>[l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit)</b>: Block Player from using Kit in Saferoom
 * <b>[l4d2_ssi_teleport_fix](/l4d2_ssi_teleport_fix)</b>: Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. (傳送比較遠的特感到靠近倖存者的特感隊友附近)
@@ -50,7 +50,7 @@ Accept small change or English translation<br/>
 </details>
 
 <details>
-  <summary><b>只適用於L4D1　Apply to L4D1 only (點我展開 Click to expand!)</b></summary>
+  <summary><b>Apply to L4D1 only (Click to expand!) | 只適用於L4D1 (點我展開) </b></summary>
 
 </details>
 
@@ -163,4 +163,5 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✗ I know nothing much about .vpk mod, don't ask me
 - - - -
 # Others
-* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [Questions | 問題集合區](/Questions_問題區)
+* [Tutorial  | 教學區](/Tutorial_教學區)
