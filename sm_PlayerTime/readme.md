@@ -80,7 +80,7 @@ v1.8
 <summary>Command (Click to expand!) | 指令 (點我展開)</summary>
 
 * <b>Check total time played of every player in game</b>
-	```
+	```php
 	sm_timedisplay
 	```
 </details>

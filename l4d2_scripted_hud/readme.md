@@ -52,7 +52,7 @@ v1.0.2
 <details>
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
 
-* cfg/sourcemod/sm_PlayerTime.cfg
+* cfg/sourcemod/l4d2_scripted_hud.cfg
 	```php
 	// Enable/Disable the plugin.
 	// 0 = Disable, 1 = Enable.
