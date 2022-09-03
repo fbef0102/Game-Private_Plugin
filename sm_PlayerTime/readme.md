@@ -77,7 +77,7 @@ v1.8
 </details>
 
 <details>
-<summary>Command (Click to expand!) | 指令 (點我展開)</summary>
+<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
 
 * <b>Check total time played of every player in game</b>
 	```php

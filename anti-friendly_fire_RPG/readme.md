@@ -71,7 +71,7 @@ v1.5
 </details>
 
 <details>
-<summary>Command (Click to expand!) | 指令 (點我展開)</summary>
+<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
 None
 </details>
 

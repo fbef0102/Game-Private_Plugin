@@ -104,7 +104,7 @@ v1.3
 </details>
 
 <details>
-<summary>Command (Click to expand!) | 指令 (點我展開)</summary>
+<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
 
 * <b>force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)</b>
 	```php
@@ -211,7 +211,7 @@ v1.3
 </details>
 
 <details>
-<summary>使用命令中文介紹 (點我展開)</summary>
+<summary>命令中文介紹 (點我展開)</summary>
 
 * 自己決定 witch 路程，請在出去安全室之前決定好
 	```php
