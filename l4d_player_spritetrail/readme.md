@@ -9,10 +9,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* image 1
-	<br/>![l4d_player_tail_1](image/l4d_player_tail_1.jpg)
-	<br/>![l4d_player_tail_2](image/l4d_player_tail_2.jpg)
-	<br/>![l4d_player_tail_3](image/l4d_player_tail_3.jpg)
-	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
+	<br/>![l4d_player_spritetrail_1](image/l4d_player_spritetrail_1.jpg)
+	<br/>![l4d_player_spritetrail_2](image/l4d_player_spritetrail_2.jpg)
+	<br/>![l4d_player_spritetrail_3](image/l4d_player_spritetrail_3.jpg)
 
 * Apply to | 適用於
 ```
