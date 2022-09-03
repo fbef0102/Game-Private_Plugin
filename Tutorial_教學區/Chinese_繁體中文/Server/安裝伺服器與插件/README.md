@@ -574,4 +574,4 @@
    * 給予命令所需要的資料
 - - - -
 ## 其他
-* [如何戰役模式開八人房 8+ survivors in coop (Including 5+ players fix)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/8+_Survivors_In_Coop)
+* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)

@@ -11,7 +11,7 @@
 - - - -
 ## 前言
 > 本篇教學完成之後，你的伺服器可以多達８位玩家加入戰役模式大亂鬥
-* [English](../English)
+* [English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
 * 本篇教學適用於L4D1和L4D2
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
@@ -30,7 +30,7 @@
    - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
 
 > __Note__<br/>
-  請閱讀[如何安裝伺服器並執行](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#問題總攬)，在此不再贅述
+  請閱讀[如何安裝伺服器與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#問題總攬)，在此不再贅述
   
 - - - -
 ## 必要檔案
