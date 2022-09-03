@@ -106,22 +106,22 @@ v1.3
 <details>
 <summary>Command (Click to expand!) | 命令 (點我展開)</summary>
 
-* <b>force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)</b>
+* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 	```php
 	sm_setwitch <number>
 	```
-* <b>force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)</b>
+* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 	```php
 	sm_settank <number>
 	```
-* <b>Display Spawn percent for boss</b>
+* **Display Spawn percent for boss**
 	```php
 	sm_boss
 	sm_tank
 	sm_witch
 	sm_t
 	```
-* <b>Let's vote to set those Boss Spawns!</b>
+* **Let's vote to set those Boss Spawns!**
 	```php
 	sm_voteboss	<tank> <witch>
 	sm_bossvote <tank> <witch>
