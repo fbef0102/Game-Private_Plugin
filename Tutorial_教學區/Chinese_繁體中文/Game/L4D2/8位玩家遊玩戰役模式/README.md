@@ -10,6 +10,7 @@
 	
 - - - -
 ## 前言
+> 本篇教學完成之後，你的伺服器可以有８位以上的玩家加入戰役模式大亂鬥
 * [English](../English)
 * 本篇教學適用於L4D1和L4D2
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
