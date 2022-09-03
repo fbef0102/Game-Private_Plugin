@@ -19,7 +19,7 @@ v1.5
 ```
 
 * Require | 必要安裝
-	1. left4dhooks: https://forums.alliedmods.net/showthread.php?t=321696
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 <details>
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
