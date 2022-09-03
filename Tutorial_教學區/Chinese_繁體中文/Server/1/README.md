@@ -365,7 +365,8 @@
    - 或者直接拿編譯好的.smx檔案
 2. 把.smx檔案放入addons\sourcemod\plugins覆蓋即可
    - 若有其他的文件，放入相同資料夾覆蓋即可
-3. 切換地圖或重啟伺服器
+   - 🟥若cfg\sourcemod\ 有對應的.cfg文件則必須手動刪除🟥
+3. 重啟伺服器
 4. 到伺服器後台上，輸入```sm plugins info xxxxxx```，確認版本有更新
    - xxxxxx為插件的檔案名稱
 - - - -
