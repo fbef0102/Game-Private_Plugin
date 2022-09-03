@@ -72,7 +72,7 @@ v1.8
 <details>
 <summary>Command (Click to expand!) | 指令 (點我展開)</summary>
 
-<b>* Check total time played of every player in game</b>
+* <b>Check total time played of every player in game</b>
 	```
 	sm_timedisplay
 	```
