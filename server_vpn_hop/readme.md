@@ -6,7 +6,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
 * Image | 圖示
-	* say !vpn
+	* vpn/server list
 	<br/>![server_vpn_hop_1](image/server_vpn_hop_1.jpg)
 
 * Apply to | 適用於
