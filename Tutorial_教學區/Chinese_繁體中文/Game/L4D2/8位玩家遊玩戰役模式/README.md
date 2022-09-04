@@ -34,7 +34,7 @@
   
 - - - -
 ## 必要檔案
-1. l4dtoolz EXTENSION: 解鎖伺服器人數限制
+1. [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): 解鎖伺服器人數限制
    - 如果你是專屬伺服器，在 cfg/server.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
