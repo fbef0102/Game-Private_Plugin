@@ -1,5 +1,5 @@
 # Navigation
-> 2022/9/2 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/9/4 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
@@ -45,6 +45,12 @@
    - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
 2. [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in coop/survival/realism when 5+ player joins the server.
+   - How could I control the number of bots spawned at the start
+      - cfg/sourcemod/l4dmultislots.cfg
+		```php
+		l4d_multislots_max_survivors "8"
+		l4d_multislots_spawn_survivors_roundstart "1" 
+		```
 
 3. [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
 
