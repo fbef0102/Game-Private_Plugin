@@ -31,7 +31,7 @@
 
 - - - -
 ## Install
-1. l4dtoolz EXTENSION: Unlock server limit
+1. [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
     ```php
