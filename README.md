@@ -18,7 +18,7 @@ Accept small change or English translation<br/>
 	* 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
 * <b>[server_vpn_hop](/server_vpn_hop)</b>: Type Command to show Vpn List
 	* 輸入指令顯示 Server/Vpn 列表
-* <b>[[kickthevoter](/kickthevoter)</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
+* <b>[kickthevoter](/kickthevoter)</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
 * <b>[l4d_vote_block](/l4d_vote_block)</b>: Unable to call valve vote depending on gamemode and difficulty.
 * <b>[antisaferoomdooropen](/antisaferoomdooropen)</b>: Start Saferoom door anti open (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
 * <b>[coopbosses_ifier](/coopbosses_ifier)</b>: Sets a tank and witch spawn point on every map in coop mode
