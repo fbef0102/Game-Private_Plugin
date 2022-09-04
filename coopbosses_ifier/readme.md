@@ -8,9 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://streamable.com/43511i)
 
 * Image | 圖示
-	* image 1
+	* display message when leaving out saferoom
 	<br/>![coopbosses_ifier_1](image/coopbosses_ifier_1.jpg)
-	* image 2
+	* display message when this plugin spawns tank/witch
 	<br/>![coopbosses_ifier_2](image/coopbosses_ifier_2.jpg)
 
 * Apply to | 適用於
