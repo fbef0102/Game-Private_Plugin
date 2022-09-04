@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2022/9/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/9/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
@@ -48,7 +48,13 @@
    - 可參考我的[Server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
 2. [l4dmultislots (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): 生成bot給第五位玩家取代並加入倖存者陣營
-
+   - 如何回合開始就有8個Bot?
+      - cfg/sourcemod/l4dmultislots.cfg 設置
+		```php
+		l4d_multislots_max_survivors "8"
+		l4d_multislots_spawn_survivors_roundstart "1" 
+		```
+      
 3. [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
 4. <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): 修正相同模組的玩家卻只會能有一位角色發出遊戲角色語音</s> 
