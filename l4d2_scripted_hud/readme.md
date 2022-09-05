@@ -419,3 +419,6 @@ None
 	* 插件先載入 data\l4d2_scripted_hud.cfg "HUD_Texts" 讀取文字. 如果空白則讀取 "l4d2_scripted_hud_hud?_text"(? is 1~4) 指令文字. 如果兩者皆空, 使用插件預設的 GetHUD*_Text 顯示文字
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
 	* 每個Hud文字可有滑動特效跟閃紅光，請詳細閱讀指令
+	
+> __Warning__<br/>
+安裝上這個插件之後，畫面會比較卡，多個Tank存活期間尤為明顯，自行斟酌安裝
