@@ -24,6 +24,7 @@ Accept small change or English translation<br/>
 
 * **Infected | 特感**
   * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
+    * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
   * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
     * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
