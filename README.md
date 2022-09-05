@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/2 updated
+> 2022/9/5 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -21,6 +21,7 @@ Accept small change or English translation<br/>
   * [sm_PlayerTime](/sm_PlayerTime): Showing the time played on record in steam profile while player joins the server
     * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
   * [l4d_vote_block](/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
+    * 根據遊戲模式和難度禁止使用Esc->投票
 
 * **Infected | 特感**
   * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
@@ -52,6 +53,8 @@ Accept small change or English translation<br/>
     * 簡單的連跳插件
   * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
   	* 多啦A夢的空氣砲
+  * [l4d2_survivor_damage_modify](/l4d2_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common
+  	* 傷害保護插件，可自行調整 Tank/Witch/特感/小殭屍 對人類造成的傷害比
 
 * **Fun | 娛樂**
   * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
