@@ -1,0 +1,167 @@
+"Phrases"
+{
+	"Server slots count locked!"
+	{
+		"en"		"Server slots count locked!"
+		"zho"		"伺服器人數上限鎖住!"
+		"chi"		"服务器人数上限已锁定!"
+	}
+	"Server slots count unlocked!"
+	{
+		"en"		"Server slots count unlocked!"
+		"zho"		"伺服器人數上限解鎖!"
+		"chi"		"服务器人数上限已解锁!"
+	}
+	"locked by config or admin.1"
+	{
+		"en"		"You can not change slots count. It's locked by config or admin."
+		"zho"		"你不能更改伺服器人數上限，權限被文件或管理員鎖住"
+		"chi"		"你不能更改服务器人数上限，权限被文件或管理员锁住"
+	}
+	"locked by config or admin.2"
+	{
+		"en"		"You can not kick specs. It's locked by config."
+		"zho"		"你不能踢掉旁觀，被文件鎖住"
+		"chi"		"你不能踢掉旁观，被文件锁住"
+	}
+	"kicks all spectators"
+	{
+		"en"		"kicks all spectators"
+		"zho"		"踢掉所有旁觀者"
+		"chi"		"踢掉所有旁观者"
+	}
+	"Usage"
+	{
+		"#format"	"{1:d},{2:d},{3:s}"
+		"en"		"{default}Usage: {olive}{3}{default} (Number of slots between {olive}{1} {default}and {olive}{2}{default})"
+		"zho"		"{default}使用方式: {olive}{3}{default} (數字介於 {olive}{1}{default} 和 {olive}{2}{default} 之間)"
+		"chi"		"{default}使用方式: {olive}{3}{default} (数字介于 {olive}{1}{default} 和 {olive}{2}{default} 之间)"
+	}
+	"Same as current"
+	{
+		"#format"	"{1:d}"
+		"en"		"{default}Server already has {olive}{1} {default}slots."
+		"zho"		"{default}伺服器已有 {olive}{1} {default}空位."
+		"chi"		"{default}服务器已有 {olive}{1} {default}空位."
+	}
+	"No spectators"
+	{
+		"en"		"There is no spectators."
+		"zho"		"目前沒有旁觀者"
+		"chi"		"目前没有旁观者"
+	}
+	"Slot vote title"
+	{
+		"#format"	"{1:d}"
+		"en"		"Current slots: {1}\n-------------------------\nChoose new value:"
+		"zho"		"目前空位 : {1}\n-------------------------\n選擇新數值:"
+		"chi"		"目前空位 : {1}\n-------------------------\n选择新数值:"
+	}
+	"Slots"
+	{
+		"en"		"slots"
+		"zho"		"空位上限"
+		"chi"		"空位上限"
+	}
+	"All spectators kicked"
+	{
+		"en"		"All spectators were successfully kicked."
+		"zho"		"所有旁觀者已成功被踢出去."
+		"chi"		"所有旁观者已成功被踢出去"
+	}
+	"Spectator kick reason"
+	{
+		"en"		"You have been voted off"
+		"zho"		"你已被投票踢出"
+		"chi"		"你已被投票踢出"
+	}
+	"Vote denied"
+	{
+		"en"		"Vote cannot be started now, try again later."
+		"zho"		"目前無法發起投票，請稍後再試"
+		"chi"		"目前无法发起投票，请稍后再试"
+	}
+	"Spectator response"
+	{
+		"en"		"Spectators can not call votes."
+		"zho"		"旁觀者不得發起投票"
+		"chi"		"旁观者不得发起投票"
+	}
+	"ADM IMMUNE"
+	{
+		"#format"	"{1:s}"
+		"en"		"Can not kick {olive}{1}{default}(ADM) from spectators."
+		"zho"		"無法從旁觀者中踢掉 {olive}{1}{default}(管理員)."
+		"chi"		"无法从旁观者中踢掉 {olive}{1}{default}(管理员)."
+	}
+	"Change_Server_Slots"
+	{
+		"en"			"Change Server Slots"
+		"zho"			"更改伺服器人數上限"
+		"chi"			"改变服务器人数上限"
+	}
+	"votes3_12"
+	{
+		"#format"	"{1:i}"
+		"en"	"You must wait for {red}{1}{default} sec then start a new vote!"
+		"zho"	"你必須等待 {red}{1}{default} 秒才能發起新投票"
+		"chi"	"你必须等待 {red}{1}{default} 秒才能发起新投票"
+	}
+	"votes3_13"
+	{
+		"en"	"Vote cannot be started."
+		"zho"	"無法發起新投票."
+		"chi"	"无法发起新投票。"
+	}
+	"Not enough players."
+	{
+		"#format"	"{1:i}"
+		"en"	"Not enough {red}{1}{default} players."
+		"zho"	"伺服器人數沒達到 {red}{1}{default} 位玩家."
+		"chi"	"服务器人数未达到{red}{1}{default} 位玩家。"
+	}
+	"Agree"
+	{
+		"en"	"Agree"
+		"zho"	"同意"
+		"chi"	"同意"
+	}
+	"Disagree"
+	{
+		"en"	"Disagree"
+		"zho"	"不同意"
+		"chi"	"不同意"
+	}
+	"starts a vote"
+	{
+		"en"	"starts a vote"
+		"zho"	"發起新投票"
+		"chi"	"发起新投票"
+	}
+	"A vote is already in progress!"
+	{
+		"en"	"A vote is already in progress!"
+		"zho"	"一項投票正在進行中! 你這笨蛋"
+		"chi"	"一个投票正在进行中！傻逼！"
+	}
+	"No votes"
+	{
+		"en"	"No votes"
+		"zho"	"沒人投票"
+		"chi"	"没人投票"
+	}
+	"Vote fail."
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"en"	"{red}Vote fail.{default} At least {red}{1}%%{default} to agree.(agree: {green}{2}%%{default}, total: {green}{3}{default} votes)"
+		"zho"	"{red}投票不通過.{default} 至少要 {red}{1}%%{default} 同意(同意比: {green}{2}%%{default}, 全票: {green}{3}{default})"
+		"chi"	"{red}投票不通过。{default} 至少要 {red}{1}%%{default} 同意(同意比例： {green}{2}%%{default},全票： {green}{3}{default})"
+	}
+	"Vote pass."
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"	"{blue}Vote pass.{default}(agree: {green}{1}%%{default}, total: {green}{2}{default} votes)"
+		"zho"	"{blue}投票通過.{default}(同意比: {green}{1}%%{default}, 全票: {green}{2}{default})"
+		"chi"	"{blue}投票通过.{default}(同意比例: {green}{1}%%{default}, 全票: {green}{2}{default})"
+	}
+}

@@ -13,47 +13,93 @@ Accept small change or English translation<br/>
 <details>
   <summary><b>Apply to L4D1/2 both (Click to expand!) | 適用於L4D1和2 (點我展開) </b></summary>
 
-* <b>[1vSpecials](/1vSpecials)</b>: Special infected incaps survivors and die + set each scratch damage + skip getup animation
-* <b>[sm_PlayerTime](/sm_PlayerTime)</b>: Showing the time played on record in steam profile while player joins the server
-	* 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
-* <b>[server_vpn_hop](/server_vpn_hop)</b>: Type Command to show Vpn List
-	* 輸入指令顯示 Server/Vpn 列表
-* <b>[kickthevoter](/kickthevoter)</b>: Make It So The Person Calling The Vote Gets Kicked! (使用Esc->投票的人將會被反踢出去伺服器)
-* <b>[l4d_vote_block](/l4d_vote_block)</b>: Unable to call valve vote depending on gamemode and difficulty.
-* <b>[antisaferoomdooropen](/antisaferoomdooropen)</b>: Start Saferoom door anti open (起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域)
-* <b>[coopbosses_ifier](/coopbosses_ifier)</b>: Sets a tank and witch spawn point on every map in coop mode
-	* 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-* <b>[spawn_infected_nolimit](/spawn_infected_nolimit)</b>: Spawn special infected without the director limits! (不受數量與遊戲限制生成特感)
-* <b>[fortnite_l4d1&2](/fortnite_l4d1)</b>: This plugin is for demonstration of some animations from Fortnite in L4D1/2 (搞笑動作模組: 表情與舞蹈)
-* <b>[simple-bhop](/simple)</b>: Let users Bunny Hop with simplicity (簡單的連跳插件)
-* <b>[l4d_gun_blastpushback](/l4d_gun_blastpushback)</b>: Doraemon Aircannon
-	* 多啦A夢的空氣砲
-* <b>[l4d_player_spritetrail](/l4d_player_spritetrail)</b>: l4d player tail effect (env_spritetrail)
-	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-* <b>[l4d_player_tail](/l4d_player_tail)</b>: l4d player tail effect (prop_dynamic_override)
-	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-* <b>[anti-friendly_fire_RPG](/anti-friendly_fire_RPG)</b>: shoot teammate = shoot yourself RPG
-	* 反傷插件，但是有更多的功能
-* <b>[skip_tank_taunt](/skip_tank_taunt)</b>: Skip Tank Victory + Speed up Obstacle animation playback
-	* Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
+* **Server | 伺服器**
+  * [server_vpn_hop](/server_vpn_hop): Type Command to show Vpn List
+    * 輸入指令顯示 Server/Vpn 列表
+  * [l4d_slot_vote](/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
+    * 允許玩家使用命令更改伺服器人數上限 + 踢除非管理員的所有旁觀者
+  * [sm_PlayerTime](/sm_PlayerTime): Showing the time played on record in steam profile while player joins the server
+    * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
+  * [l4d_vote_block](/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
+
+* **Infected | 特感**
+  * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
+  * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+    * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+  * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
+    * 輔助插件，不受數量與遊戲限制生成特感
+
+* **Tank | 坦克**
+  * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
+  	* Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
+
+* **Fuck you Griefer  | 善意處置白目玩家**
+  * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+    * 使用Esc->投票的人將會被反踢出去伺服器
+  * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+  	* 反傷插件，但是有更多的功能
+  * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
+    * 特感代替月亮懲罰離隊伍較遠的玩家
+
+* **Survivor | 人類**
+  * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open
+    * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
+  * [simple-bhop](/simple): Let users Bunny Hop with simplicity
+    * 簡單的連跳插件
+  * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
+  	* 多啦A夢的空氣砲
+
+* **Fun | 娛樂**
+  * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
+  	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+  * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
+  	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+  * [fortnite_l4d1&2](/fortnite_l4d1): This plugin is for demonstration of some animations from Fortnite in L4D1/2
+    * 搞笑動作模組: 表情與舞蹈
+
 </details>
 
 <details>
   <summary><b>Apply to L4D2 only (Click to expand!) | 只適用於L4D2 (點我展開) </b></summary>
 
-* <b>[l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit)</b>: Block Player from using Kit in Saferoom
-* <b>[l4d2_ssi_teleport_fix](/l4d2_ssi_teleport_fix)</b>: Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors. (傳送比較遠的特感到靠近倖存者的特感隊友附近)
-* <b>[l4d_wlimits](/l4d_wlimits)</b>: Restrict weapons individually or together
-* <b>[l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot)</b>: If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
-* <b>[l4d2_unstuck](/l4d2_unstuck)</b>: Allows players to get themselves unstuck from charger glitches and level clips
-* <b>[l4d_together](/l4d_together)</b>: A simple anti - runner system , punish the runner by spawn SI behind her.
-* <b>[l4d2_zoom_level](/l4d2_zoom_level)</b>: Everyone can change zoom level for snipers by command.
-* <b>[l4d2_scripted_hud](/l4d2_scripted_hud)</b>: Display text for up to 4 scripted HUD slots on the screen.
-	* 在玩家畫面上方四個Hud位置顯示不同的特殊文字
+* **Server | 伺服器**
+<br/>None
+
+* **Infected | 特感**
+  * [l4d2_ssi_teleport_fix](/l4d2_ssi_teleport_fix): Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors.
+    * 傳送比較遠的特感到靠近倖存者的特感隊友附近
+  * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+    * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
+
+* **Tank | 坦克**
+<br/>None
+
+* **Fuck you Griefer  | 善意處置白目玩家**
+<br/>None
+
+* **Survivor | 人類**
+  * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
+  	* 在安全區域內禁止人類使用治療包
+  * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
+  	* 限制每個武器可以拿取的數量，超過就不能拿取
+  * [l4d2_unstuck](/l4d2_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
+  	* 玩家使用指令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
+  * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
+  	* 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
+
+* **Fun | 娛樂**
+<br/>None
+
+* **Survivor | 人類**
+  * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
+    * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
+
 </details>
 
 <details>
   <summary><b>Apply to L4D1 only (Click to expand!) | 只適用於L4D1 (點我展開) </b></summary>
+
+<br/>None
 
 </details>
 
