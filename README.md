@@ -39,7 +39,7 @@ Accept small change or English translation<br/>
   * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
   	* 反傷插件，但是有更多的功能
   * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
-    * 特感代替月亮懲罰離隊伍較遠的玩家
+    * 離隊伍太遠的玩家，特感代替月亮懲罰你
 
 * **Survivor | 人類**
   * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open
