@@ -34,6 +34,9 @@ Accept small change or English translation<br/>
   * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
   	* Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 
+* **Witch | 女巫**
+<br/>None
+
 * **Fuck you Griefer  | 善意處置白目玩家**
   * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
     * 使用Esc->投票的人將會被反踢出去伺服器
@@ -73,6 +76,9 @@ Accept small change or English translation<br/>
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
 
 * **Tank | 坦克**
+<br/>None
+
+* **Witch | 女巫**
 <br/>None
 
 * **Fuck you Griefer  | 善意處置白目玩家**
