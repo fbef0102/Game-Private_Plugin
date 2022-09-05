@@ -32,9 +32,11 @@ v1.3
 
 * Optional | 輔助插件
 1. [readyup](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/readyup.sp): Ready Plugin
+	* 準備插件，讓Boss路程預先顯示在Ready Hud上面
 
 * Related | 相關插件
 1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
+	* 使用指令顯示人類目前的路程
 
 * Data Example | Data設定範例
 	* data/mapinfo.txt
