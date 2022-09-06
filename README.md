@@ -53,8 +53,8 @@ Accept small change or English translation<br/>
     * 簡單的連跳插件
   * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
   	* 多啦A夢的空氣砲
-  * [l4d2_survivor_damage_modify](/l4d2_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common
-  	* 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍 對人類造成的傷害比
+  * [l4d_survivor_damage_modify](/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
+  	* 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
 
 * **Fun | 娛樂**
   * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)

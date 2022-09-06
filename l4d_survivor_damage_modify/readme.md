@@ -1,11 +1,11 @@
 # Description | 內容
- Modify damage done to survivors from Tank, SI, Witch, Common
+ Modify damage done to survivors from Tank, SI, Witch, Common, Fall
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/FX56ce89cM0)
+* [Video | 影片展示](https://youtu.be/B71bUV5u6D4)
 
 * Image | 圖示
 <br/>None
@@ -34,7 +34,7 @@ v1.0
 <details>
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
 
-* cfg/sourcemod/l4d2_survivor_damage_modify.cfg
+* cfg/sourcemod/l4d_survivor_damage_modify.cfg
 	```php
 	// Enable gun damage modify plugin. [0-Disable,1-Enable]
 	l4d2_survivor_damage_modify_enable "1"
@@ -63,6 +63,9 @@ v1.0
 	// If 1, Enable damage modify to incapacitated AI survivor player from Tank/Witch/S.I./common.
 	l4d_survivor_damage_modify_AI_incap_enable "1"
 
+	// Modfiy Damage done to incapacitated AI survivor player from fall multi.
+	l4d_survivor_damage_modify_AI_incap_fall_multi "1.0"
+
 	// Modfiy Damage done to incapacitated AI survivor player from Tank multi.
 	l4d_survivor_damage_modify_AI_incap_tank_multi "1.0"
 
@@ -77,6 +80,9 @@ v1.0
 
 	// If 1, Enable damage modify to standing AI survivor player from Tank/Witch/S.I./common.
 	l4d_survivor_damage_modify_AI_stand_enable "1"
+
+	// Modfiy Damage done to standing AI survivor player from fall multi.
+	l4d_survivor_damage_modify_AI_stand_fall_multi "1.0"
 
 	// Modfiy Damage done to standing AI survivor player from Tank multi.
 	l4d_survivor_damage_modify_AI_stand_tank_multi "1.0"
@@ -108,6 +114,9 @@ v1.0
 	// If 1, Enable damage modify to incapacitated human survivor player from Tank/Witch/S.I./common.
 	l4d_survivor_damage_modify_human_incap_enable "1"
 
+	// Modfiy Damage done to incapacitated human survivor player from fall multi.
+	l4d_survivor_damage_modify_human_incap_fall_multi "1.0"
+
 	// Modfiy Damage done to incapacitated human survivor player from Tank multi.
 	l4d_survivor_damage_modify_human_incap_tank_multi "1.0"
 
@@ -122,6 +131,9 @@ v1.0
 
 	// If 1, Enable damage modify to standing human survivor player from Tank/Witch/S.I./common.
 	l4d_survivor_damage_modify_human_stand_enable "1"
+
+	// Modfiy Damage done to standing human survivor player from fall multi.
+	l4d_survivor_damage_modify_human_stand_fall_multi "1.0"
 
 	// Modfiy Damage done to standing human survivor player from Tank multi.
 	l4d_survivor_damage_modify_human_stand_tank_multi "1.0"
@@ -139,7 +151,7 @@ v1.0
 
 - - - -
 # 中文說明
-傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍 對人類造成的傷害比
+傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
 
 * 功能
 	1. 可調整所有傷害比，也可以設置成完全不受到傷害
