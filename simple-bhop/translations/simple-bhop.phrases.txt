@@ -2,19 +2,19 @@
 {
 	"EnableBHop"
 	{
-		"en"			"Your Bunny Hopping disabled."
-		"zho"			"你的 Bhop 已關閉."
-		"chi"			"你的 Bhop 已关闭."
+		"en"			"Your {green}Bunny Hopping{default} disabled."
+		"zho"			"你的 {green}Bhop{default} 已關閉."
+		"chi"			"你的 {green}Bhop{default} 已关闭."
 	}
 	"DisableBHop"
 	{
-		"en"			"Your Bunny Hopping enabled. Hold jump to Bunny Hop!"
-		"zho"			"你的 Bhop 已開啟. 按住跳躍鍵進行連跳!"
-		"chi"			"你的 Bhop 已开启. 按住跳跃键进行连跳!"
+		"en"			"Your {green}Bunny Hopping{default} enabled. Hold {olive}jump{default} to Bunny Hop!"
+		"zho"			"你的 {green}Bhop{default} 已開啟. 按住 {olive}跳躍鍵{default} 進行連跳!"
+		"chi"			"你的 {green}Bhop{default} 已开启. 按住 {olive}跳跃键{default} 进行连跳!"
 	}
 	"InformBHop"
 	{
-		"en"			"This server is running Bunny Hop! Type !bhop to enable."
+		"en"			"This server is running {olive}Bunny Hop{default}! Type {green}!bhop{default} to enable."
 		"zho"			"此伺服器運作 {olive}Bhop插件{default}! 輸入 {green}!bhop{default} 開啟連跳技能."
 		"chi"			"此伺服器运作 {olive}Bhop插件{default}! 输入 {green}!bhop{default} 开启连跳技能."
 	}
@@ -23,5 +23,23 @@
 		"en"			"You don't have access."
 		"zho"			"沒有權限使用此指令."
 		"chi"			"没有权限使用此指令."
+	}
+	"Surivor"
+	{
+		"en"			"Survivor is not allowed to bhop."
+		"zho"			"倖存者不被允許使用連跳."
+		"chi"			"生还者不被允许使用连跳."
+	}
+	"Infected"
+	{
+		"en"			"Current Infected Class is not allowed to bhop."
+		"zho"			"您目前的特感種類不允許連跳."
+		"chi"			"您目前的特感种类不允许连跳."
+	}
+	"Alive"
+	{
+		"en"			"You are not alive."
+		"zho"			"您必須是存活狀態."
+		"chi"			"您必须是存活状态."
 	}
 }
