@@ -30,6 +30,8 @@ Accept small change or English translation<br/>
     * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
     * 輔助插件，不受數量與遊戲限制生成特感
+  * [l4d2_zcs](/l4d2_zcs): Allows infected team players to change their class in ghost mode.
+    * 特感玩家可以在靈魂狀態自行切換特感種類
 
 * **Tank | 坦克**
   * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
@@ -49,8 +51,6 @@ Accept small change or English translation<br/>
 * **Survivor | 人類**
   * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open
     * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
-  * [simple-bhop](/simple): Let users Bunny Hop with simplicity
-    * 簡單的連跳插件
   * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
   	* 多啦A夢的空氣砲
   * [l4d_survivor_damage_modify](/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
@@ -63,6 +63,8 @@ Accept small change or English translation<br/>
   	* 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
   * [fortnite_l4d1&2](/fortnite_l4d1): This plugin is for demonstration of some animations from Fortnite in L4D1/2
     * 搞笑動作模組: 表情與舞蹈
+  * [simple-bhop](/simple): Let users Bunny Hop with simplicity
+    * 簡單的連跳插件
 
 </details>
 

@@ -7,6 +7,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/eBcvlDVxPVk)
 
+* Image | 圖示
+<br/>None
+
 * Apply to | 適用於
 ```
 L4D1
