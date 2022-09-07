@@ -367,7 +367,7 @@ L4D2
 		* Dead Eyes
 		<br/>Description: Special Infecteds always hide and seek, buy this item to see them all!!
 		<br/>![Dead_Eyes](image/Dead_Eyes.jpg)
-		\
+		
 		* No Friendly Fire
 		<br/>Description: Are you tired of stupid friendly fire ? You are gonna love this item.
 
