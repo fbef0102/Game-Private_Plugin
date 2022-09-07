@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> 人類商城
 	<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
 	* survivor shop list
-	> all players' deposit
+	> 所有玩家的銀行儲值
 	<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
 	* display message
 	> 顯示有人購物
@@ -46,7 +46,7 @@ L4D2
 		* Add Infected Shop
 		* You can earn credits by doing damage to survivors as an infected.
 		* You can earn credits by helping each other as a survivor.
-		* Save player's money with Cookies, it means that money can be saved to database across 	* lient connections, map changes and even server restarts.
+		* Save player's money with Cookies, it means that money can be saved to database across client connections, map changes and even server restarts.
 		* Add short buy commands, directly buy item.
 		* Repeat purchase item you bought last time.
 		* Buy time cooldown, can't buy quickly.
@@ -59,7 +59,7 @@ L4D2
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
-	3. To unlock all melee weapons in all campaigns, you MUST use the [Mission and Weapons - Info Editor]("https://forums.alliedmods.net/showthread.php?t=310586") plugin which supersedes the extension.
+	3. To unlock all melee weapons in all campaigns, you MUST use the [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586) plugin which supersedes the extension.
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -349,66 +349,66 @@ L4D2
 
 	* **Survivor Shop**
 		* Fire
-		<br/>Do you feel annoying that you are surrounded by common infecteds?
+		<br/>Description: Do you feel annoying that you are surrounded by common infecteds?
 		No need to throw molotov or use melee, create fire around you!!
 
 		* Fire Infeceted
-		<br/>Tank throws a rock on the roof and smoker uses his tongue from nowhere, buy this item to burn them all!!
+		<br/>Description: Tank throws a rock on the roof and smoker uses his tongue from nowhere, buy this item to burn them all!!
 
 		* Adrenaline_Power
-		<br/>Gain Adrenaline Power RIGHT NOW!! Move Faster and Save Faster
+		<br/>Description: Gain Adrenaline Power RIGHT NOW!! Move Faster and Save Faster
 
 		* Teleport
-		<br/>Are you always alone and behind your team? Don't worry, buy this item to teleport back to your team.
+		<br/>Description: Are you always alone and behind your team? Don't worry, buy this item to teleport back to your team.
 
 		* Infinite Ammo
-		<br/>Just shoot the enemy and no need to reload your gun. Enjoy the fun
+		<br/>Description: Just shoot the enemy and no need to reload your gun. Enjoy the fun
 
 		* Dead Eyes
-		<br/>Special Infecteds always hide and seek, buy this item to see them all!!
+		<br/>Description: Special Infecteds always hide and seek, buy this item to see them all!!
 		<br/>![Dead_Eyes](image/Dead_Eyes.jpg)
 		\
 		* No Friendly Fire
-		<br/>Are you tired of stupid friendly fire ? You are gonna love this item.
+		<br/>Description: Are you tired of stupid friendly fire ? You are gonna love this item.
 
 		* Kill Commons
-		<br/>Hate zombies, hate horde? Kill them all
+		<br/>Description: Hate zombies, hate horde? Kill them all
 
 		* Kill Witches
-		<br/>No longer you hear witch crying!
+		<br/>Description: No longer you hear witch crying!
 
 		* Heal Survivors
-		<br/>Your teammates are all down, buy this item to bring your team back to fight again.. No Surrender !!!
+		<br/>Description: Your teammates are all down, buy this item to bring your team back to fight again.. No Surrender !!!
 
 		* Jump+1
-		<br/>Now you are super mario, jump and skip the path quickly.
+		<br/>Description: Now you are super mario, jump and skip the path quickly.
 
 		* Slay Infected Attacker
-		<br/>Smoker drags you, Hunter pounces you, Jockey rides on you, charger charges you, and you can't do anything. Now buy this item to slay the infected and be free again.
+		<br/>Description: Smoker drags you, Hunter pounces you, Jockey rides on you, charger charges you, and you can't do anything. Now buy this item to slay the infected and be free again.
 
 		* Respawn Alive
-		<br/>Dead person isn't a good survivor, activate spell card: Dead Reborn
+		<br/>Description: Dead person isn't a good survivor, activate spell card: Dead Reborn
 
 		* Ice World
-		<br/>Freeze All Infected, they can't move and attack. The most powerful item :D
+		<br/>Description: Freeze All Infected, they can't move and attack. The most powerful item :D
 		<br/>![Ice_World](image/Ice_World.jpg)
 
 	* **Infected Shop**
 		* Full Health
-		<br/>You can have second chance.
+		<br/>Description: You can have second chance.
 
 		* Zombie Horde
-		<br/>Mob Incoming !!! Keep survivors busy.
+		<br/>Description: Mob Incoming !!! Keep survivors busy.
 
 		* Spawn Witch
-		<br/>Choose your location wisely and spawn a witch, survivors will feel very hard to complete the mission.
+		<br/>Description: Choose your location wisely and spawn a witch, survivors will feel very hard to complete the mission.
 		<br/>![Spawn_Witch](image/Spawn_Witch.jpg)
 
 		* Teleport
-		<br/>Do you want to attack immediately? Give survivors a surprise !
+		<br/>Description: Do you want to attack immediately? Give survivors a surprise !
 
 		* God Mode
-		<br/>Being immune every damage from survivors, they can't stumble you, they can't shove you. No one can stop you, You are THE GOD!
+		<br/>Description: Being immune every damage from survivors, they can't stumble you, they can't shove you. No one can stop you, You are THE GOD!
 		<br/>![God_Mode](image/God_Mode.jpg)
 </details>
 
@@ -417,9 +417,7 @@ L4D2
 
 * Database | 資料庫
 	* sm_shop_CookiesCached_enable "1", this uses CookiesCached to save player money
-	<br/>使用指令 sm_shop_CookiesCached_enable "1" 能幫玩家儲值金額到本地伺服器上
 	* if you want to cross server database, set sm_shop_database "shop" and set *sourcemod\configs\databases.cfg*
-	<br/>想要跨伺服器儲值金額, 設定 sm_shop_database "shop" 然後設定文件 *sourcemod\configs\databases.cfg*
 	```php
 	"shop"
 	{
@@ -625,43 +623,41 @@ L4D2
 
 	* **Survivor Shop**
 		* 振火神通
-		<br/>原地著火
+		<br/>說明:原地著火
 
 		* 炎之呼吸
-		<br/>所有特感著火
+		<br/>說明:所有特感著火
 
 		* 注射興奮劑 (短暫時間)
-		<br/>直接獲得腎上腺素效果
+		<br/>說明:直接獲得腎上腺素效果
 
 		* 飛雷神之術
-		<br/>傳送到附近的隊友身上
+		<br/>說明:傳送到附近的隊友身上
 
 		* 無限子彈 (短暫時間)
 
 		* 心靈透視
-		<br/>直接看到特感與小殭屍位置
+		<br/>說明:直接看到特感與小殭屍位置
 		<br/>![Dead_Eyes](image/Dead_Eyes.jpg)
 		
 		* 不會造成與受到友傷 (當前回合)
-		<br/>Are you tired of stupid friendly fire ? You are gonna love this item.
 
 		* 殺死所有普通殭屍
-		<br/>Hate zombies, hate horde? Kill them all
 
 		* 殺死所有Witch
 
 		* 團隊治癒+100
 
 		* 超級瑪利歐 跳躍+1 (當前回合)
-		<br/>空中二段跳
+		<br/>說明:空中二段跳
 
 		* 處死攻擊你的特感
 
 		* 魔法卡: 死者甦醒
-		<br/>從死亡狀態直接復活
+		<br/>說明:從死亡狀態直接復活
 
 		* 冰凍世界 (短暫時間)
-		<br/>凍結所有特感，所有特感均不能移動與攻擊
+		<br/>說明:凍結所有特感，所有特感均不能移動與攻擊
 		<br/>![Ice_World](image/Ice_World.jpg)
 
 	* **Infected Shop**
@@ -673,10 +669,10 @@ L4D2
 		<br/>![Spawn_Witch](image/Spawn_Witch.jpg)
 
 		* 異時空傳送門
-		<br/>直接傳送到人類身上
+		<br/>說明:直接傳送到人類身上
 
 		* "God 上帝模式 (短暫時間)
-		<br/>不會被震暈、不會被推開、不會受傷，無人能擋
+		<br/>說明:不會被震暈、不會被推開、不會受傷，無人能擋
 		<br/>![God_Mode](image/God_Mode.jpg)
 </details>
 
