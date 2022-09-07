@@ -1,0 +1,3 @@
+[09/07/22 15:50:17] <..........[₮ŵ]><STEAM_X:X:XXXXXX> tried starting a ChangeDifficulty vote but a vote is in progress.
+[09/07/22 15:55:07] <..........[₮ŵ]><STEAM_X:X:XXXXXX> was prevented from starting a ChangeDifficulty vote.  Reason: Not Enough Access
+[09/07/22 15:55:14] ..........[₮ŵ] has been banned for 60 mins. (Reason: call a vote)
