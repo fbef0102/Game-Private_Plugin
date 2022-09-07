@@ -20,7 +20,7 @@ Accept small change or English translation<br/>
     * [sm_PlayerTime](/sm_PlayerTime): Showing the time played on record in steam profile while player joins the server
       * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
     * [l4d_vote_block](/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
-      * 根據遊戲模式和難度禁止使用Esc->投票
+      * 根據遊戲模式和難度禁止使用Esc->發起投票
 
   * **Infected | 特感**
     * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
@@ -41,7 +41,7 @@ Accept small change or English translation<br/>
 
   * **Fuck you Griefer  | 善意處置白目玩家**
     * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
-      * 使用Esc->投票的人將會被反踢出去伺服器
+      * 使用Esc->發起投票的人將會被反踢出去伺服器
     * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
       * 反傷插件，但是有更多的功能
     * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.

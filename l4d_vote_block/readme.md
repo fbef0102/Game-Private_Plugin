@@ -26,6 +26,10 @@ L4D2
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
+* Related Plugin | 相關插件
+	* [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+		> 使用Esc->發起投票的人將會被反踢出去伺服器
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_vote_block.cfg
@@ -86,7 +90,7 @@ L4D2
 
 - - - -
 # 中文說明
-根據遊戲模式和難度禁止使用Esc->投票
+根據遊戲模式和難度禁止使用Esc->發起投票
 
 * 功能
 	1. 禁止旁觀者使用Esc->投票
