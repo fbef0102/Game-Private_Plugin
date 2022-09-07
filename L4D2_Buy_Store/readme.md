@@ -621,7 +621,7 @@ L4D2
 
 * <details><summary>特殊商品中文介紹 (點我展開)</summary>
 
-	* **Survivor Shop**
+	* **人類商品**
 		* 振火神通
 		<br/>說明: 原地著火
 
@@ -660,7 +660,7 @@ L4D2
 		<br/>說明: 凍結所有特感，所有特感均不能移動與攻擊
 		<br/>![Ice_World](image/Ice_World.jpg)
 
-	* **Infected Shop**
+	* **特感商品**
 		* 滿血回復
 
 		* 屍潮降臨
