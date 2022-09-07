@@ -10,8 +10,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message when leaving out saferoom
+	> 出門顯示Boss路程
 	<br/>![coopbosses_ifier_1](image/coopbosses_ifier_1.jpg)
 	* display message when this plugin spawns tank/witch
+	> Boss生成時顯示訊息
 	<br/>![coopbosses_ifier_2](image/coopbosses_ifier_2.jpg)
 
 * Apply to | 適用於
