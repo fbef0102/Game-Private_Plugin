@@ -74,7 +74,8 @@ Accept small change or English translation<br/>
 * <details><summary><b>Apply to L4D2 only (Click to expand!) | 只適用於L4D2 (點我展開) </b></summary>
 
   * **Server | 伺服器**
-  <br/>None
+    * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
+      * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 
   * **Infected | 特感**
     * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
@@ -102,10 +103,6 @@ Accept small change or English translation<br/>
   * **Fun | 娛樂**
     * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
       * 人類與特感的購物商城 (附有特殊商品與資料庫)
-
-  * **Survivor | 人類**
-    * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
-      * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 
 </details>
 
