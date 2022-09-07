@@ -100,7 +100,8 @@ Accept small change or English translation<br/>
       * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
 
   * **Fun | 娛樂**
-  <br/>None
+    * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
+      * 人類與特感的購物商城 (附有特殊商品與資料庫)
 
   * **Survivor | 人類**
     * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
