@@ -30,7 +30,7 @@ Accept small change or English translation<br/>
     * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
     * 輔助插件，不受數量與遊戲限制生成特感
-  * [l4d2_zcs](/l4d2_zcs): Allows infected team players to change their class in ghost mode.
+  * [l4d_zcs](/l4d_zcs): Allows infected team players to change their class in ghost mode.
     * 特感玩家可以在靈魂狀態自行切換特感種類
 
 * **Tank | 坦克**

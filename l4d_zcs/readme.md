@@ -38,7 +38,7 @@ v0.9.6
 <details>
 <summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
 
-* cfg/sourcemod/l4d2_zcs.cfg
+* cfg/sourcemod/l4d_zcs.cfg
 	```php
 	// Players with these flags have access to change class. (Empty = Everyone, -1: Nobody)
 	zcs_access_level ""
