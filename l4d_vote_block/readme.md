@@ -24,7 +24,7 @@ L4D2
 </details>
 
 * Require | 必要安裝
-	1. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * <details><summary>ConVar | 指令</summary>
 

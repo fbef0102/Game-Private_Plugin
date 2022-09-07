@@ -24,7 +24,7 @@ L4D2
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	2. [REST in Pawn](https://forums.alliedmods.net/showthread.php?t=298024)
 
 * Important | 重要步驟

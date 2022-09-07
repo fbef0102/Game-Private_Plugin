@@ -29,7 +29,7 @@ L4D2
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 
 * Optional | 輔助插件

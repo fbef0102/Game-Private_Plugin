@@ -29,7 +29,7 @@ L4D2
 * Require | 必要安裝
 	1. [SpriteTrail Fix by 000](https://forums.alliedmods.net/showthread.php?t=339197)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	3. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	3. [[[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
 	* [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)

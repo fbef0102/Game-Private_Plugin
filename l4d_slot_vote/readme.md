@@ -23,7 +23,7 @@ L4D2
 
 * Require | 必要安裝
 	1. You still need to use [l4dtoolz](https://github.com/Accelerator74/l4dtoolz/releases) to unlock server slots limit
-	2. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * <details><summary>ConVar | 指令</summary>
 
