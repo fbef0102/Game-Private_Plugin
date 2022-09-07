@@ -82,7 +82,7 @@ L4D2
 * 原理
     * <details><summary>以下面的指令解釋 (點我展開)</summary>
 
-        > 舉例: 當有AI特感Hunter距離倖存者800公尺之外，且有另一隻特感Jockey位於距離倖存者150 ~ 700 公尺之間，將Hunter傳送到Jockey身邊
+        > 效果: 當有AI特感Hunter距離倖存者800公尺之外，且有另一隻特感Jockey位於距離倖存者150 ~ 700 公尺之間，將Hunter傳送到Jockey身邊
         ```php
         // Infected player will be teleported if his distance from survivors is outside this range.
         ssitp_tp1_range "800"
