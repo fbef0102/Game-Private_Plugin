@@ -31,6 +31,8 @@ Accept small change or English translation<br/>
       * 輔助插件，不受數量與遊戲限制生成特感
     * [l4d_zcs](/l4d_zcs): Allows infected team players to change their class in ghost mode.
       * 特感玩家可以在靈魂狀態自行切換特感種類
+    * [l4d_ssi_teleport_fix](/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
+      * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
 
   * **Tank | 坦克**
     * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
@@ -75,8 +77,6 @@ Accept small change or English translation<br/>
   <br/>None
 
   * **Infected | 特感**
-    * [l4d2_ssi_teleport_fix](/l4d2_ssi_teleport_fix): Teleport Infected player (Not Tank) to the teammate who is much nearer to survivors.
-      * 傳送比較遠的特感到靠近倖存者的特感隊友附近
     * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
       * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
 
