@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 L4D2
 ```
 
-* <details><summary> Changelog | 版本日誌</summary>
+* <details><summary> Changelog (Click to expand!) | 版本日誌 (點我展開)</summary>
 
 	* v1.0.3
 		* Kill Infected Counter Rank by Harry (HUD3_Text)
@@ -385,6 +385,7 @@ L4D2
 </details>
 
 * <details><summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+
 None
 </details>
 
