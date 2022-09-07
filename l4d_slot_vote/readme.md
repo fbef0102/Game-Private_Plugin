@@ -16,19 +16,18 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v2.3
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.3
+</details>
 
 * Require | 必要安裝
 	1. You still need to use [l4dtoolz](https://github.com/Accelerator74/l4dtoolz/releases) to unlock server slots limit
 	2. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_slot_vote.cfg
+	* cfg/sourcemod/l4d_slot_vote.cfg
 	```php
 	// Pass vote percentage.
 	sm_matchvotes_s "0.60"
@@ -53,29 +52,28 @@ v2.3
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **Vote to change Server Slots, Admin can change without vote (Require:Admin_Generic)**
-	```php
-	sm_slots <number>
-	sm_maxslots <number>
-	```
-* **Vote to kick all non-admin spectators, Admin can kick without vote (Require:Admin_Generic)**
-	```php
-	sm_nospec
-	sm_nospecs
-	sm_kickspec
-	sm_kickspecs
-	```
-* **Lock server slots Server, so nobody can change server slots (Server Console Only)**
-	```php
-	sm_lock_slots
-	```
-* **Unlock server slots Server, so anyone can change server slots (Server Console Only)**
-	```php
-	sm_unlock_slots
-	```
+	* **Vote to change Server Slots, Admin can change without vote (Require:Admin_Generic)**
+		```php
+		sm_slots <number>
+		sm_maxslots <number>
+		```
+	* **Vote to kick all non-admin spectators, Admin can kick without vote (Require:Admin_Generic)**
+		```php
+		sm_nospec
+		sm_nospecs
+		sm_kickspec
+		sm_kickspecs
+		```
+	* **Lock server slots Server, so nobody can change server slots (Server Console Only)**
+		```php
+		sm_lock_slots
+		```
+	* **Unlock server slots Server, so anyone can change server slots (Server Console Only)**
+		```php
+		sm_unlock_slots
+		```
 </details>
 
 - - - -

@@ -13,34 +13,32 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.0.6
-- Support L4D1
+* <details><summary>Changelog | 版本日誌</summary>
 
-v1.0.5
-- [Original Post by sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
-```
+	* v1.0.6
+		* Support L4D1
+
+	* v1.0.5
+		* [Original Post by sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/skip_tank_taunt.cfg
-	```php
-	// Obstacle animation playback rate
-	tank_obstacle_animation_playbackrate "2.5"
+	* cfg/sourcemod/skip_tank_taunt.cfg
+		```php
+		// Obstacle animation playback rate
+		tank_obstacle_animation_playbackrate "2.5"
 
-	// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip
-	tank_victory_animation_skip "1"
-	```
+		// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip
+		tank_victory_animation_skip "1"
+		```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
-None
+* <details><summary>Command | 命令</summary>
+	None
 </details>
 
 - - - -

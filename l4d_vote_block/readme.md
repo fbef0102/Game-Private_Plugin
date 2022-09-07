@@ -18,18 +18,17 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.0
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0
+</details>
 
 * Require | 必要安裝
 	1. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_vote_block.cfg
+    * cfg/sourcemod/l4d_vote_block.cfg
 	```php
     // 0=Plugin off, 1=Plugin on.
     l4d_vote_block_allow "1"
@@ -81,9 +80,8 @@ v1.0
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
-None
+* <details><summary>Command | 命令</summary>
+    None
 </details>
 
 - - - -

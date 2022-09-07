@@ -15,10 +15,10 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.0
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -47,29 +47,27 @@ v1.0
 	}
 	```
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/server_vpn_hop.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	server_vpn_hop_allow "1"
-	```
+	* cfg/sourcemod/server_vpn_hop.cfg
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		server_vpn_hop_allow "1"
+		```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **Show Server/Vpn List.**
-	```php
-	sm_vpn
-	sm_server
-	```
-* **Reloads the data config.** (Admin Required: ADMFLAG_ROOT)
-	```php
-	sm_vpn_reload
-	sm_server_reload
-	```
+	* **Show Server/Vpn List.**
+		```php
+		sm_vpn
+		sm_server
+		```
+	* **Reloads the data config.** (Admin Required: ADMFLAG_ROOT)
+		```php
+		sm_vpn_reload
+		sm_server_reload
+		```
 </details>
 
 - - - -

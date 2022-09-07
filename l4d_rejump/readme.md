@@ -18,17 +18,19 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-//paegus @ 2009 - 2021
-//Harry @ 2022
-v1.2
-- Remake code
-- More Cvars
+* <details><summary>Changelog | 版本日誌</summary>
 
-v1.0.1
-- [Original Post by paegus](https://forums.alliedmods.net/showthread.php?p=895212)
-```
+	```php
+	//paegus @ 2009 - 2021
+	//Harry @ 2022
+	```
+	* v1.2
+		* Remake code
+		* More Cvars
+
+	* v1.0.1
+		* [Original Post by paegus](https://forums.alliedmods.net/showthread.php?p=895212)
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -37,10 +39,9 @@ v1.0.1
 	* [simple-bhop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/simple-bhop): Let users Bunny Hop with simplicity 
 		> 簡單的連跳插件
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_rejump.cfg
+	* cfg/sourcemod/l4d_rejump.cfg
 	```php
 	// Players with these flags have access to use double jump. (Empty = Everyone, -1: Nobody)
 	l4d_rejump_access_flag "z"
@@ -62,9 +63,8 @@ v1.0.1
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
-None
+* <details><summary>Command | 命令</summary>
+	None
 </details>
 
 - - - -

@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 L4D2
 ```
 
-* <details><summary> Changelog (Click to expand!) | 版本日誌 (點我展開)</summary>
+* <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0.3
 		* Kill Infected Counter Rank by Harry (HUD3_Text)
@@ -49,7 +49,7 @@ L4D2
 	* The limit of each HUD text is up to 127 characters.
 	* HUD Text can be moved and animated effect, please read cfg.
 
-* <details><summary> ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_scripted_hud.cfg
 	```php
@@ -384,7 +384,7 @@ L4D2
 	```
 </details>
 
-* <details><summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 	None
 </details>
 

@@ -19,11 +19,9 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.8
--Remake Code
-```
+* <details><summary>Changelog | 版本日誌</summary>
+	* v1.8
+</details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
@@ -39,10 +37,9 @@ v1.8
 	* Both player total time played from Steam Personal Page and from In Game Stats are different.
 	* If play does not set "My basic details: Public" and "Game details: Public" in "Privacy Settings", total time played is unknown.
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/sm_PlayerTime.cfg
+	* cfg/sourcemod/sm_PlayerTime.cfg
 	```php
 	// If 1, Announce the time played on record when player joins the server.
 	sm_playtime_announce "1"
@@ -76,13 +73,12 @@ v1.8
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **Check total time played of every player in game**
-	```php
-	sm_timedisplay
-	```
+	* **Check total time played of every player in game**
+		```php
+		sm_timedisplay
+		```
 </details>
 
 - - - -

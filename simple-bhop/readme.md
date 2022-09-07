@@ -16,10 +16,10 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.2
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2
+</details>
 
 * Require | 必要安裝
 	1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
@@ -28,10 +28,9 @@ v1.2
 	* [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
 		> 超級瑪利歐，空中使用月步，多次連跳
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/simple-bhop.cfg
+	* cfg/sourcemod/simple-bhop.cfg
 	```php
 	// Players with these flags have access to use command to bhop. (Empty = Everyone, -1: Nobody)
 	sm_bhop_access_flag ""
@@ -56,13 +55,12 @@ v1.2
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **Enable/Disable Bunny Hopping for client**
-	```php
-	sm_bhop
-	```
+	* **Enable/Disable Bunny Hopping for client**
+		```php
+		sm_bhop
+		```
 </details>
 
 - - - -

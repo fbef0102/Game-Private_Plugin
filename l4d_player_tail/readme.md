@@ -23,10 +23,9 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.2
-```
+* <details><summary>Changelog | 版本日誌</summary>
+	* v1.2
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -40,10 +39,9 @@ v1.2
 	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
 	* Tail could temporarily disappear if player stop moving
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_player_tail.cfg
+	* cfg/sourcemod/l4d_player_tail.cfg
 	```php
 	// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
 	l4d_player_tail_access_flag ""
@@ -80,17 +78,16 @@ v1.2
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **Toggle the attached tailed. Usage: sm_tail [R G B|off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]**
-* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
-	```php
-	sm_tail "11"
-	sm_tails
-	sm_harrypotter
-	sm_hy
-	```
+	* **Toggle the attached tailed. Usage: sm_tail [R G B|off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]**
+	* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
+		```php
+		sm_tail
+		sm_tails
+		sm_harrypotter
+		sm_hy
+		```
 </details>
 
 - - - -
@@ -103,7 +100,7 @@ v1.2
 	3. 尾巴過一段時間會隨機變色
 
 * 效果
-<br/>線條色塊，逐漸變色
+	* 線條色塊，逐漸變色
 
 * 注意事項
 	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值

@@ -16,29 +16,30 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-//[X]BetaAlpha @ 2010-2011
-//Harry @ 2022
-v1.0
-- Remake Code
-- Remove Gamedata
-- Remove Unnecessary cvars
-- Add more cvars
-- Optimize Code
+* <details><summary>Changelog | 版本日誌</summary>
 
-v0.9.6
-- [Original Post by [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
-```
+	```php
+	//[X]BetaAlpha @ 2010-2011
+	//Harry @ 2022
+	```
+	* v1.0
+		* Remake Code
+		* Remove Gamedata
+		* Remove Unnecessary cvars
+		* Add more cvars
+		* Optimize Code
+
+	* v0.9.6
+		* [Original Post by [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_zcs.cfg
+	* cfg/sourcemod/l4d_zcs.cfg
 	```php
 	// Players with these flags have access to change class. (Empty = Everyone, -1: Nobody)
 	zcs_access_level ""
@@ -126,9 +127,8 @@ v0.9.6
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
-None
+* <details><summary>Command | 命令</summary>
+	None
 </details>
 
 - - - -

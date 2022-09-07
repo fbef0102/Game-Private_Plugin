@@ -16,10 +16,10 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.0
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -31,10 +31,9 @@ v1.0
 2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
 	* 修改槍械傷害比和近戰武器傷害比的插件
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/l4d_survivor_damage_modify.cfg
+	* cfg/sourcemod/l4d_survivor_damage_modify.cfg
 	```php
 	// Enable gun damage modify plugin. [0-Disable,1-Enable]
 	l4d2_survivor_damage_modify_enable "1"
@@ -143,10 +142,8 @@ v1.0
 	```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
-
-<br/>None
+* <details><summary>Command | 命令</summary>
+	None
 </details>
 
 - - - -

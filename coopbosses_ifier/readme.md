@@ -22,10 +22,10 @@ L4D1
 L4D2
 ```
 
-* Changelog | 版本日誌
-```
-v1.3
-```
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -77,60 +77,58 @@ v1.3
 	}
 	```
 
-<details>
-<summary>ConVar (Click to expand!) 指令 (點我展開)</summary>
+* <details><summary>ConVar | 指令</summary>
 
-* cfg/sourcemod/coopbosses_ifier.cfg
-	```php
-	// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
-	l4d_coop_boss_avoid_tank_spawn "10"
+	* cfg/sourcemod/coopbosses_ifier.cfg
+		```php
+		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
+		l4d_coop_boss_avoid_tank_spawn "10"
 
-	// Disable Tank spawn in Final Map
-	l4d_coop_boss_final_tank_spawn_disable "1"
+		// Disable Tank spawn in Final Map
+		l4d_coop_boss_final_tank_spawn_disable "1"
 
-	// Disable Witch spawn in Final Map
-	l4d_coop_boss_final_witch_spawn_disable "1"
+		// Disable Witch spawn in Final Map
+		l4d_coop_boss_final_witch_spawn_disable "1"
 
-	// Max fraction of map flow for tank/witch spawn location in coop
-	l4d_coop_boss_flow_max "80"
+		// Max fraction of map flow for tank/witch spawn location in coop
+		l4d_coop_boss_flow_max "80"
 
-	// Min fraction of map flow for tank/witch spawn location in coop
-	l4d_coop_boss_flow_min "20"
+		// Min fraction of map flow for tank/witch spawn location in coop
+		l4d_coop_boss_flow_min "20"
 
-	// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
-	l4d_coop_boss_vote "1"
+		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
+		l4d_coop_boss_vote "1"
 
-	// How many players at least to vote Boss Spawns.
-	l4d_coop_boss_vote_need_player "4"
+		// How many players at least to vote Boss Spawns.
+		l4d_coop_boss_vote_need_player "4"
 
-	// How many players at least to vote Boss Spawns.
-	l4d_coop_boss_vote_need_player "4"
-	```
+		// How many players at least to vote Boss Spawns.
+		l4d_coop_boss_vote_need_player "4"
+		```
 </details>
 
-<details>
-<summary>Command (Click to expand!) | 命令 (點我展開)</summary>
+* <details><summary>Command | 命令</summary>
 
-* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
-	```php
-	sm_setwitch <number>
-	```
-* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
-	```php
-	sm_settank <number>
-	```
-* **Display Spawn percent for boss**
-	```php
-	sm_boss
-	sm_tank
-	sm_witch
-	sm_t
-	```
-* **Let's vote to set those Boss Spawns!**
-	```php
-	sm_voteboss	<tank> <witch>
-	sm_bossvote <tank> <witch>
-	```
+	* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+		```php
+		sm_setwitch <number>
+		```
+	* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+		```php
+		sm_settank <number>
+		```
+	* **Display Spawn percent for boss**
+		```php
+		sm_boss
+		sm_tank
+		sm_witch
+		sm_t
+		```
+	* **Let's vote to set those Boss Spawns!**
+		```php
+		sm_voteboss	<tank> <witch>
+		sm_bossvote <tank> <witch>
+		```
 </details>
 
 - - - -
@@ -187,55 +185,53 @@ v1.3
 在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
 (譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
 
-<details>
-<summary>指令中文介紹 (點我展開)</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
-* cfg/sourcemod/coopbosses_ifier.cfg
-	```php
-	// Tank 附近前後10% (20除以2) 避開生成witch
-	l4d_coop_boss_avoid_tank_spawn "10"
+	* cfg/sourcemod/coopbosses_ifier.cfg
+		```php
+		// Tank 附近前後10% (20除以2) 避開生成witch
+		l4d_coop_boss_avoid_tank_spawn "10"
 
-	// 如果為1，最後一關預設不生成Tank
-	l4d_coop_boss_final_tank_spawn_disable "1"
+		// 如果為1，最後一關預設不生成Tank
+		l4d_coop_boss_final_tank_spawn_disable "1"
 
-	// 如果為1，最後一關預設不生成Witch
-	l4d_coop_boss_final_witch_spawn_disable "1"
+		// 如果為1，最後一關預設不生成Witch
+		l4d_coop_boss_final_witch_spawn_disable "1"
 
-	// 最遠80%生成 Tank/witch
-	l4d_coop_boss_flow_max "80"
+		// 最遠80%生成 Tank/witch
+		l4d_coop_boss_flow_max "80"
 
-	// 最近20%生成 Tank/witch
-	l4d_coop_boss_flow_min "20"
+		// 最近20%生成 Tank/witch
+		l4d_coop_boss_flow_min "20"
 
-	// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
-	l4d_coop_boss_vote "1"
+		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
+		l4d_coop_boss_vote "1"
 
-	// 發起!voteboss投票所需的玩家數量 
-	l4d_coop_boss_vote_need_player "4"
-	```
+		// 發起!voteboss投票所需的玩家數量 
+		l4d_coop_boss_vote_need_player "4"
+		```
 </details>
 
-<details>
-<summary>命令中文介紹 (點我展開)</summary>
+* <details><summary>命令中文介紹 (點我展開)</summary>
 
-* 自己決定 witch 路程，請在出去安全室之前決定好
-	```php
-	sm_setwitch <數字>
-	```
-* 自己決定 tank 路程，請在出去安全室之前決定好
-	```php
-	sm_settank <數字>
-	```
-* 打印該回合 Tank/Witch 路程
-	```php
-	sm_boss
-	sm_tank
-	sm_witch
-	sm_t
-	```
-* 投票決定Tank/Witch的路程 ，請在出去安全室之前決定好
-	```php
-	sm_voteboss <數字> <數字>
-	sm_bossvote <數字> <數字>
-	```
+	* **自己決定 witch 路程，請在出去安全室之前決定好**
+		```php
+		sm_setwitch <數字>
+		```
+	* **自己決定 tank 路程，請在出去安全室之前決定好**
+		```php
+		sm_settank <數字>
+		```
+	* **打印該回合 Tank/Witch 路程**
+		```php
+		sm_boss
+		sm_tank
+		sm_witch
+		sm_t
+		```
+	* **投票決定Tank/Witch的路程 ，請在出去安全室之前決定好**
+		```php
+		sm_voteboss <數字> <數字>
+		sm_bossvote <數字> <數字>
+		```
 </details>
