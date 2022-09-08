@@ -164,4 +164,10 @@
 		"zho"	"{blue}投票通過.{default}(同意比: {green}{1}%%{default}, 全票: {green}{2}{default})"
 		"chi"	"{blue}投票通过.{default}(同意比例: {green}{1}%%{default}, 全票: {green}{2}{default})"
 	}
+	"Unable to call vote"
+	{
+		"en"	"Unbale to call vote. It's locked by config. "
+		"zho"	"你不能發起投票，被文件鎖住"
+		"chi"	"你不能发起投票，被文件锁住"
+	}
 }

@@ -49,6 +49,9 @@ L4D2
 
 	// Minimum # of players in game to start the vote
 	sm_slotvote_player_limit "3"
+
+	// If 1, non-admin can not call vote to change slots or kick
+	sm_slotvote_player_vote_block "1"
 	```
 </details>
 
@@ -87,3 +90,4 @@ L4D2
 	1. 玩家可投票調整伺服器的人數上限，管理員可以不用投票
 	2. 投票踢出所有非管理員的旁觀者，管理員可以不用投票
 	3. 至少需要一定的玩家數量才能投票
+	4. 可設置非管理員的玩家不准發起投票
