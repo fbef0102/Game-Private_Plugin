@@ -55,6 +55,9 @@ L4D2
 	// (L4D2) Which zombie class can also use double jump, 0=None, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank. Add numbers together. (127=All)
 	l4d_rejump_infected_class "127"
 
+	// (L4D1) Which zombie class can also use double jumpy, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
+	l4d_rejump_infected_class "15"
+
 	// The maximum number of re-jumps allowed while already jumping.
 	l4d_rejump_max "2"
 
@@ -71,11 +74,11 @@ L4D2
 # 中文說明
 超級瑪利歐，空中使用月步，多次跳躍
 
+* 原理
+	* 在空中再按一次跳躍鍵
+
 * 功能
 	1. 可設置空中跳躍次數
 	2. 可設置人類是否能月步
 	3. 可設置特定的特感種類是否能月步
 	4. 設定跳躍的高度
-
-* 原理
-	* 在空中再按一次跳躍鍵

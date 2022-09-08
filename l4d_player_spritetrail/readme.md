@@ -29,7 +29,7 @@ L4D2
 * Require | 必要安裝
 	1. [SpriteTrail Fix by 000](https://forums.alliedmods.net/showthread.php?t=339197)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	3. [[[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	3. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
 	* [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)
@@ -80,7 +80,6 @@ L4D2
 * <details><summary>Command | 命令</summary>
 
 	* **Toggle the attached tailed. Usage: sm_tail [R G B|off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]**
-	* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
 		```php
 		sm_tail
 		sm_tails
@@ -93,13 +92,24 @@ L4D2
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 
+* 效果
+	* 色塊均勻，統一變色
+
 * 功能
 	1. 可自定義尾巴特效的寬度，消逝時間
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
 
-* 效果
-	* 色塊均勻，統一變色
-
 * 注意事項
 	* "l4d_player_spritetrail_lifetime" 指令數值必須大於或等於 "l4d_player_spritetrail_changecolor_interval" 指令數值
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
+		```php
+		sm_tail
+		sm_tails
+		sm_harrypotter
+		sm_hy
+		```
+</details>

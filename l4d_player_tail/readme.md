@@ -81,7 +81,6 @@ L4D2
 * <details><summary>Command | 命令</summary>
 
 	* **Toggle the attached tailed. Usage: sm_tail [R G B|off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]**
-	* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
 		```php
 		sm_tail
 		sm_tails
@@ -94,16 +93,27 @@ L4D2
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 
+* 效果
+	* 線條色塊，逐漸變色
+
 * 功能
 	1. 可自定義尾巴特效的寬度，消逝時間
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
 
-* 效果
-	* 線條色塊，逐漸變色
-
 * 注意事項
 	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
 	* 如果倖存者不動，尾巴特效會短暫消失，建議"l4d_player_tail_lifetime" 指令數值不要設置太高
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **!tail <顏色名稱或R G B>. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: !tail red 或是 !tail 255 0 0**
+		```php
+		sm_tail
+		sm_tails
+		sm_harrypotter
+		sm_hy
+		```
+</details>
 	
 

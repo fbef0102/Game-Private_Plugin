@@ -135,15 +135,15 @@ L4D2
 # 中文說明
 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
-* 功能
-	1. 可決定每一關是否該生成 Tank/Witch
-	2. 可自行調整關卡，每個章節某些路段禁止生成生成 Tank/Witch
-	3. 可自行調製整地圖最遠到哪與最近到哪生成 Tank/Witch
-
 * 原理
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取75，當人類路程走到75%路程，生成Tank
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取40，當人類路程走到40%路程，生成Witch
 	* 如果輔助文件禁止50 ~ 70%生成Boss，則隨機值不會取50 ~ 70
+
+* 功能
+	1. 可決定每一關是否該生成 Tank/Witch
+	2. 可自行調整關卡，每個章節某些路段禁止生成生成 Tank/Witch
+	3. 可自行調製整地圖最遠到哪與最近到哪生成 Tank/Witch
 
 * Data設定範例
 	* data/mapinfo.txt

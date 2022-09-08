@@ -54,7 +54,7 @@ L4D2
     l4d_gun_blastpushback_push "400"
 
     // How long after using the Doraemon Aircannon before it can be used again.
-    l4d_gun_blastpushback_push_time "2.0"
+    l4d_gun_blastpushback_push_time "0.5"
 
     // Doraemon Aircannon explosion radius override.
     l4d_gun_blastpushback_radius "150"
@@ -81,6 +81,25 @@ L4D2
 # 中文說明
 多啦A夢的空氣砲
 
+* 原理
+    * <details><summary>以下面的指令解釋 (點我展開)</summary>
+
+        > 效果: 拿出近戰武器，按下右鍵推產生一個空氣砲，在800公尺範圍內擊中準心指向的目標，並在目標150公尺周圍內產生影響，所有物件受到衝擊30點傷害，特感會被力道彈開、Witch會被震暈、普通殭屍會被震暈
+        ```php
+        // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details. 
+        l4d_gun_blastpushback_weapon "21"
+
+        // How far the Doraemon Aircannon can affect entities.
+        l4d_gun_blastpushback_range "800"
+
+        // Doraemon Aircannon explosion radius override.
+        l4d_gun_blastpushback_radius "150"
+
+        // How much damage the Doraemon Aircannon does when fired.
+        l4d_gun_blastpushback_damage "30"
+        ```
+    </details>
+
 * 功能
     1. 右鍵推產生一個空氣砲，特感與普通殭屍會被力道彈開
     2. 空氣砲範圍
@@ -89,7 +108,3 @@ L4D2
     4. 能影響隊友
     5. Tank與Witch可以被空氣砲震暈
     6. 空氣砲能打散物件，包括車子
-
-* 原理
-* 拿出特定的武器，按下右鍵推產生一個空氣砲，在有效範圍內擊中準心指向的目標，並在目標周圍產生影響
-* 空氣砲打中的目標範圍內，所有物件受到衝擊傷害，特感會被力道彈開、Witch會被震暈、普通殭屍會被震暈
