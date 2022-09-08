@@ -191,7 +191,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 # 交易插件需求
 **有任何問題或製作插件需求請聯繫**<br/>
 **除非是我插件有bug或相關的問題，否則詢問知識或教學均收小費，以小時計算**<br/>
-**可接受PayPal、台灣本地銀行轉帳**<br/>
+**可接受PayPal、支付寶、台灣本地銀行轉帳**<br/>
 ✔開過windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲 <br/>
 ✔Sourcemod插件有四年以上的經驗，處理過對抗、戰役、寫實、生存<br/>
 ✔將舊插件重寫為Sourcemod 1.11以上能適用的新版本<br/>
@@ -215,7 +215,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
-**Accept paypal、Taiwan local bank ATM**<br/>
+**Accept paypal、Alipay、Taiwan local bank ATM**<br/>
 ✔ 5 years of experience in Sourcepawn code, dedicated server, local server, and plugin<br/>
 
 ✗ Won't do any VIP, RPG, or any admin group plugin<br/>
