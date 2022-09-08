@@ -56,6 +56,8 @@ Accept small change or English translation<br/>
       * 多啦A夢的空氣砲
     * [l4d_survivor_damage_modify](/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
       * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
+    * [l4d_unstuck](/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
+      * 玩家使用命令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
 
   * **Fun | 娛樂**
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
@@ -95,8 +97,6 @@ Accept small change or English translation<br/>
       * 在安全區域內禁止人類使用治療包
     * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
       * 限制每個武器可以拿取的數量，超過就不能拿取
-    * [l4d2_unstuck](/l4d2_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
-      * 玩家使用指令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
     * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
       * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
 

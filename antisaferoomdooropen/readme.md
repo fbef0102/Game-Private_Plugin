@@ -61,7 +61,6 @@ L4D2
 </details>
 
 * <details><summary>Command | 命令</summary>
-
 	None
 </details>
 

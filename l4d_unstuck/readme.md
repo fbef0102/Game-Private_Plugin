@@ -1,0 +1,71 @@
+# Description | 內容
+Allows players to get themselves unstuck from charger glitches and level clips
+
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* [Video | 影片展示](https://youtu.be/BQwz0jjFRzo)
+
+* Image | 圖示
+	* display message after command
+	> 輸入命令之後的提示
+	<br/>![l4d_unstuck_1](image/l4d_unstuck_1.jpg)
+
+* Apply to | 適用於
+```
+L4D1
+L4D2
+```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//CUatTHEFINISH @ 2009
+	//Harry @ 2022
+	```
+	* v1.4
+		* Remake code
+		* More Cvars
+		* Support L4D1
+
+	* v1.0.6
+		* [Original Post by CUatTHEFINISH](https://forums.alliedmods.net/showthread.php?t=110041)
+</details>
+
+* Require | 必要安裝
+<br/>None
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_unstick.cfg
+	```php
+	// If 1, Announces each round start that the !stuck command is available.
+	l4d_unstick_announce "1"
+
+	// Amount of times the client can use !stuck per round
+	l4d_unstick_teleports "2"
+	```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	* **Unstuck yourself**
+		```php
+		sm_stuck
+		```
+	* **Admin helps player unstick (Adm required: ADMFLAG_GENERIC)**
+		```php
+		sm_unstick <name>
+		```
+</details>
+
+- - - -
+# 中文說明
+玩家使用命令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
+
+* 原理
+	* 卡住的時候輸入命令，玩家會自動被傳送到附近解除卡住狀態
+
+* 功能
+	1. 設置每回合可使用命令的次數
