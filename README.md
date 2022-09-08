@@ -50,6 +50,8 @@ Accept small change or English translation<br/>
       * 離隊伍太遠的玩家，特感代替月亮懲罰你
 
   * **Survivor | 人類**
+    * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
+      * 在安全區域內禁止人類使用治療包
     * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
       * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
     * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
@@ -93,8 +95,6 @@ Accept small change or English translation<br/>
   <br/>None
 
   * **Survivor | 人類**
-    * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
-      * 在安全區域內禁止人類使用治療包
     * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
       * 限制每個武器可以拿取的數量，超過就不能拿取
     * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.

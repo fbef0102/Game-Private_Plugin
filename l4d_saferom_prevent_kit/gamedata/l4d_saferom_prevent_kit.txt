@@ -36,4 +36,36 @@
 			}
 		}
 	}
+	"left4dead"
+	{
+		"Signatures"
+		{
+			/*
+			* Unique String: "Healing Friend..."
+			*/
+			"CTerrorPlayer::StartHealing"
+			{
+				"library"	"server"
+				"windows"	"\x83\xEC\x0C\x55\x8B\x6C\x24\x14\x85\xED"
+				"linux"		"@_ZN13CTerrorPlayer12StartHealingEPS_"
+			}
+		}
+		"Functions"
+		{
+			"PlayerStartHealing"
+			{
+				"signature"		"CTerrorPlayer::StartHealing"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"entity"
+				"arguments"
+				{
+					"healtarget"
+					{
+						"type" "cbaseentity"
+					}
+				}
+			}
+		}
+	}
 }
