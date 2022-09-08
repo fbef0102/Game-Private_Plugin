@@ -44,7 +44,7 @@ L4D2
 	l4d_unstick_announce "1"
 
 	// Amount of times the client can use !stuck per round
-	l4d_unstick_teleports "2"
+	l4d_unstick_teleports "10"
 	```
 </details>
 
