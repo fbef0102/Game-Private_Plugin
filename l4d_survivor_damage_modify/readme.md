@@ -26,11 +26,11 @@ L4D2
 <br/>None
 
 * Related | 相關插件
-1. [anti-friendly_fire_RPG](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-	* 反傷插件，但是有更多的RPG功能
+	1. [anti-friendly_fire_RPG](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+		* 反傷插件，但是有更多的RPG功能
 
-2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
-	* 修改槍械傷害比和近戰武器傷害比的插件
+	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
+		* 修改槍械傷害比和近戰武器傷害比的插件
 
 * <details><summary>ConVar | 指令</summary>
 

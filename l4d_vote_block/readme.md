@@ -28,7 +28,7 @@ L4D2
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Related Plugin | 相關插件
-	* [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+	1. [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
 		> 使用Esc->發起投票的人將會被反踢出去伺服器
 
 * <details><summary>ConVar | 指令</summary>

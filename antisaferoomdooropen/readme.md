@@ -27,7 +27,7 @@ L4D2
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * Related Plugin | 相關插件
-	* [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
+	1. [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
 		> 終點安全門鎖住直到時間結束
 
 * <details><summary>ConVar | 指令</summary>

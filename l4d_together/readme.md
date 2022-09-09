@@ -35,7 +35,7 @@ L4D2
     1. [spawn_infected_nolimit](https://github.com/fbef0102/Game-Private_Plugin/tree/main/spawn_infected_nolimit)
 
 * Related Plugin | 相關插件
-	* [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
+	1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
 		> 離隊伍太遠的玩家將被傳送或是減速
 
 * <details><summary>ConVar | 指令</summary>

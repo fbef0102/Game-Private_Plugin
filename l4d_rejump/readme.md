@@ -36,7 +36,7 @@ L4D2
 <br/>None
 
 * Related Plugin | 相關插件
-	* [simple-bhop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/simple-bhop): Let users Bunny Hop with simplicity 
+	1. [simple-bhop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/simple-bhop): Let users Bunny Hop with simplicity 
 		> 簡單的連跳插件
 
 * <details><summary>ConVar | 指令</summary>

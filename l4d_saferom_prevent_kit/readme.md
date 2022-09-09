@@ -33,7 +33,7 @@ L4D2
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Related Plugin | 相關插件
-	* [Bot Healing Values](https://forums.alliedmods.net/showthread.php?t=338889): Set the health value bots require before using First Aid, Pain Pills or Adrenaline.
+	1. [Bot Healing Values](https://forums.alliedmods.net/showthread.php?t=338889): Set the health value bots require before using First Aid, Pain Pills or Adrenaline.
 		> 限制Bot在生命值低於數值之前不准使用醫療物品
 
 * <details><summary>ConVar | 指令</summary>

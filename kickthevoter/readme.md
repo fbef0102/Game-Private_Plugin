@@ -28,7 +28,7 @@ L4D2
     1. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 
 * Related Plugin | 相關插件
-	* [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
+	1. [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
 		> 根據遊戲模式和難度禁止使用Esc->發起投票
 
 * <details><summary>ConVar | 指令</summary>

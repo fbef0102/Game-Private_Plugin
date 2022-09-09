@@ -48,6 +48,8 @@ Accept small change or English translation<br/>
       * 反傷插件，但是有更多的功能
     * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
       * 離隊伍太遠的玩家，特感代替月亮懲罰你
+    * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
+      * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
 
   * **Survivor | 人類**
     * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
@@ -89,9 +91,6 @@ Accept small change or English translation<br/>
   <br/>None
 
   * **Witch | 女巫**
-  <br/>None
-
-  * **Fuck you Griefer  | 善意處置白目玩家**
   <br/>None
 
   * **Survivor | 人類**

@@ -25,7 +25,7 @@ L4D2
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Related Plugin | 相關插件
-	* [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
+	1. [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
 		> 超級瑪利歐，空中使用月步，多次連跳
 
 * <details><summary>ConVar | 指令</summary>

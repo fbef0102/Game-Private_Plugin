@@ -31,7 +31,7 @@ L4D2
 <br/>None
 
 * Related Plugin | 相關插件
-	* [l4d_together](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
+	1. [l4d_together](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
 		> 離隊伍太遠的玩家，特感代替月亮懲罰你
 
 
