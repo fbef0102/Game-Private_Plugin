@@ -26,7 +26,7 @@ L4D2
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [INC] Multi Colors]([https://forums.alliedmods.net/showthread.php?t=247770)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * <details><summary>ConVar | 指令</summary>
 
