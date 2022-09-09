@@ -41,7 +41,7 @@ Accept small change or English translation<br/>
   * **Witch | 女巫**
   <br/>None
 
-  * **Fuck you Griefer  | 善意處置白目玩家**
+  * **Fuck you Griefer  | 和諧締造者－專治傻Ｂ玩家**
     * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
       * 使用Esc->發起投票的人將會被反踢出去伺服器
     * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
