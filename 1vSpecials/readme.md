@@ -21,6 +21,7 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v2.3
+	    * Original Request by Anzu
 </details>
 
 * Require | 必要安裝

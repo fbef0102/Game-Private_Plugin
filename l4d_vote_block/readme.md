@@ -21,6 +21,7 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0
+	    * Original Request by in2002
 </details>
 
 * Require | 必要安裝

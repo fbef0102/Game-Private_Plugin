@@ -9,6 +9,7 @@ L4D2
 
 -Changelog-
 v2.1
+Original Request by 壹梦
 
 -Require 必要安裝-
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770

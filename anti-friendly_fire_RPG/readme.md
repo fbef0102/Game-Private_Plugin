@@ -19,6 +19,7 @@ L4D2
 * <details><summary>Changelog (Click to expand!) | 版本日誌 (點我展開)</summary>
 
 	* v1.5
+		* Original Request by 壹梦
 </details>
 
 * Require | 必要安裝
