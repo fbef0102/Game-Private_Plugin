@@ -31,6 +31,7 @@ L4D2
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	4. [[INC] readyup](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
 1. [readyup](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/readyup.sp): Ready Plugin

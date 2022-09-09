@@ -12,6 +12,7 @@ v2.1
 
 -Require 必要安裝-
 1. [INC] Multi Colors: https://forums.alliedmods.net/showthread.php?t=247770
+2. [INC] l4d2_weapons: https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc
 
 -ConVar-
 cfg/sourcemod/l4d_weapon_limits.cfg
