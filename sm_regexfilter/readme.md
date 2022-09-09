@@ -11,6 +11,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* punish player who said dirty word
 	> 屏蔽敏感字詞並懲罰玩家
 	<br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
+	* freedom of speech is gone
+	> 示範圖
+	<br/>![sm_regexfilter_1](image/sm_regexfilter_2.jpg)
 
 * Apply to | 適用於
 ```
