@@ -21,7 +21,7 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0
-	* Original Request by 壹梦
+	    * Original Request by 壹梦
 </details>
 
 * Require | 必要安裝
