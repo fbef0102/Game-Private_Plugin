@@ -66,6 +66,8 @@ Accept small change or English translation<br/>
       * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
     * [L4D2_Stats_Percentage_UP](/L4D2_Stats_Percentage_UP): Simple MVP Statistics after command or in the end of the round
       * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
+    * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
+      * 誰是黑白狀態(最後一條生命)
 
   * **Fun | 娛樂**
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
