@@ -41,7 +41,7 @@ Accept small change or English translation<br/>
   * **Witch | 女巫**
   <br/>None
 
-  * **Fuck you Griefer  | 和諧締造者－專治傻Ｂ玩家**
+  * **Fuck you Griefer  | 和諧締造者－專治傻Ｂ**
     * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
       * 使用Esc->發起投票的人將會被反踢出去伺服器
     * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
@@ -49,7 +49,7 @@ Accept small change or English translation<br/>
     * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
       * 離隊伍太遠的玩家，特感代替月亮懲罰你
     * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
-      * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
+      * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死
 
   * **Survivor | 人類**
     * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
