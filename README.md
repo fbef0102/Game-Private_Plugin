@@ -10,7 +10,7 @@ My Unpublic Private Plugin (Charge)
 可接受小幅度的修改或漢化處理<br/>
 Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)<br/>
 Accept small change or English translation<br/>
-* <details><summary><b>Apply to L4D1/2 both (Click to expand!) | 適用於L4D1和2 (點我展開) </b></summary>
+* <details><summary><b>L4D1/2 Plugin List (Click to expand!) | L4D1和2插件列表 (點我展開) </b></summary>
 
   * **Server | 伺服器**
     * [server_vpn_hop](/server_vpn_hop): Type Command to show Vpn List
@@ -21,6 +21,8 @@ Accept small change or English translation<br/>
       * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
     * [l4d_vote_block](/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
       * 根據遊戲模式和難度禁止使用Esc->發起投票
+    * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
+      * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
 
   * **Infected | 特感**
     * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
@@ -33,6 +35,8 @@ Accept small change or English translation<br/>
       * 特感玩家可以在靈魂狀態自行切換特感種類
     * [l4d_ssi_teleport_fix](/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
       * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
+    * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+      * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
 
   * **Tank | 坦克**
     * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
@@ -40,16 +44,6 @@ Accept small change or English translation<br/>
 
   * **Witch | 女巫**
   <br/>None
-
-  * **Fuck you Griefer  | 和諧締造者－專治傻Ｂ**
-    * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
-      * 使用Esc->發起投票的人將會被反踢出去伺服器
-    * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-      * 反傷插件，但是有更多的功能
-    * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
-      * 離隊伍太遠的玩家，特感代替月亮懲罰你
-    * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
-      * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死
 
   * **Survivor | 人類**
     * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
@@ -62,6 +56,10 @@ Accept small change or English translation<br/>
       * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
     * [l4d_unstuck](/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
       * 玩家使用命令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
+    * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
+      * 限制每個武器可以拿取的數量，超過就不能拿取
+    * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
+      * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
 
   * **Fun | 娛樂**
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
@@ -74,40 +72,22 @@ Accept small change or English translation<br/>
       * 簡單的連跳插件
     * [l4d_rejump](/l4d_rejump): Allows multi-jumping on air.
       * 超級瑪利歐，空中使用月步，多次跳躍
-
-</details>
-
-* <details><summary><b>Apply to L4D2 only (Click to expand!) | 只適用於L4D2 (點我展開) </b></summary>
-
-  * **Server | 伺服器**
-    * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
-      * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
-
-  * **Infected | 特感**
-    * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
-      * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
-
-  * **Tank | 坦克**
-  <br/>None
-
-  * **Witch | 女巫**
-  <br/>None
-
-  * **Survivor | 人類**
-    * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
-      * 限制每個武器可以拿取的數量，超過就不能拿取
-    * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
-      * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
-
-  * **Fun | 娛樂**
     * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
       * 人類與特感的購物商城 (附有特殊商品與資料庫)
 
-</details>
-
-* <details><summary><b>Apply to L4D1 only (Click to expand!) | 只適用於L4D1 (點我展開) </b></summary>
-
-  None
+  * **Fuck you Griefer | 和平締造者-專治傻B合集**
+    * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
+      * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
+    * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
+      * (公開) 抵達安全室之後，未在時間內進入終點安全室的玩家將處死
+    * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+      * 使用Esc->發起投票的人將會被反踢出去伺服器
+    * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+      * 反傷插件，但是有更多的功能
+    * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
+      * 離隊伍太遠的玩家，特感代替月亮懲罰你
+    * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
+      * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
 
 </details>
 
