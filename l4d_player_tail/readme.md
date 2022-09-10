@@ -33,7 +33,7 @@ L4D2
 	2. [[[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
-	* [l4d_player_spritetrail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail)
+	1. [l4d_player_spritetrail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail)
 	> 一樣式尾巴特效，看自己喜歡用哪一種
 
 * Note | 注意事項

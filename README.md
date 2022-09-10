@@ -43,6 +43,8 @@ Accept small change or English translation<br/>
       * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
     * [l4d2_tdr](/l4d2_tdr): Displays Damage Information on Tank Death.
       * Tank死亡時顯示對Tank造成傷害統計表
+    * [l4d_tank_count](/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
+      * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
 
   * **Witch | 女巫**
   <br/>None

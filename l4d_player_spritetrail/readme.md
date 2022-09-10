@@ -32,7 +32,7 @@ L4D2
 	3. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
-	* [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)
+	1. [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)
 	> 一樣式尾巴特效，看自己喜歡用哪一種
 
 * Note | 注意事項

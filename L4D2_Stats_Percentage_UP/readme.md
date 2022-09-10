@@ -36,7 +36,7 @@ L4D2 Coop/Survival/Realism
 <br/>None
 
 * Similar Plugin | 相似插件
-	* [kills](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/kills): Show statistics of surviviors (kill S.I, C.I. and FF)on round end
+	1. [kills](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/kills): Show statistics of surviviors (kill S.I, C.I. and FF)on round end
 		> 擊殺殭屍與特殊感染者統計
 
 * <details><summary>ConVar | 指令</summary>

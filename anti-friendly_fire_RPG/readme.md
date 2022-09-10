@@ -26,7 +26,7 @@ L4D2
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * Similar Plugin | 相似插件
-	* [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
+	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
 		> 簡單版反傷插件
 
 * <details><summary>ConVar | 指令</summary>
