@@ -14,8 +14,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 ```
-L4D1
-L4D2
+L4D1 Coop/Survival/Realism
+L4D2 Coop/Survival/Realism
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -53,3 +53,6 @@ L4D2
 - - - -
 # 中文說明
 Tank死亡時顯示對Tank造成傷害統計表
+
+* 原理
+	* 不適用於對抗模式

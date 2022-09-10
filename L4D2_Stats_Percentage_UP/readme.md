@@ -19,8 +19,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 ```
-L4D1
-L4D2
+L4D1 Coop/Survival/Realism
+L4D2 Coop/Survival/Realism
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -55,3 +55,6 @@ L4D2
 - - - -
 # 中文說明
 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
+
+* 原理
+	* 不適用於對抗模式
