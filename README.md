@@ -41,6 +41,8 @@ Accept small change or English translation<br/>
   * **Tank | 坦克**
     * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
       * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
+    * [l4d2_tdr](/l4d2_tdr): Displays Damage Information on Tank Death.
+      * Tank死亡時顯示對Tank造成傷害統計表
 
   * **Witch | 女巫**
   <br/>None
