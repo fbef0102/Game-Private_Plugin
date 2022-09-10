@@ -60,6 +60,8 @@ Accept small change or English translation<br/>
       * 限制每個武器可以拿取的數量，超過就不能拿取
     * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
       * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
+    * [L4D2_Stats_Percentage_UP](/L4D2_Stats_Percentage_UP): Simple MVP Statistics after command or in the end of the round
+      * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
 
   * **Fun | 娛樂**
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
