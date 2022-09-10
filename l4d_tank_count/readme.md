@@ -27,7 +27,8 @@ L4D2 Coop/Survival/Realism
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
 	1. [l4d2_tdr](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d2_tdr): Displays Damage Information on Tank Death.
