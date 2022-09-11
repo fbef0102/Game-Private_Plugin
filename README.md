@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/5 updated
+> 2022/9/10 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -190,7 +190,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✔曾處理過大廳連線、崩潰、掉線、模組衝突、錯誤等問題<br/>
 ✔你碰到的地雷我都踩過、你掉落的陷阱坑我都跳過、你遇到的問題我都解決過<br/>
 
-✗不受理不屬於我的插件的問題，請聯繫原作者<br/>
+✗不受理不屬於我的插件的問題，要問要修改除非付錢否則請聯繫原作者<br/>
 ✗不做RPG、誇張特效、VIP、等級系統....<br/>
 ✗不想重複插件說明書已寫過的步驟或內容<br/>
 ✗請略懂點英文，插件不做個人修改提示處理，請自行下載修改文字達成自己喜歡的樣子<br/>
@@ -199,6 +199,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✗情緒勒索、道德綁架、學生價、討價還價、白嫖，一律黑名單<br/>
 ✗插件不是萬能的，並不是每個需求100％能做到<br/>
 ✗我有選擇拒絕受理任何插件製作需求<br/>
+✗只想詢問一些問題視態度與時間酌收小費與鐘點費，我人沒那麼好24小時閒著回答
 
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
@@ -206,7 +207,8 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✔ 5 years of experience in Sourcepawn code, dedicated server, local server, and plugin<br/>
 
 ✗ Won't do any VIP, RPG, or any admin group plugin<br/>
-✗ I know nothing much about .vpk mod, don't ask me
+✗ I know nothing much about .vpk mod, don't ask me<br/>
+✗ I have right to decline any plugin request 
 - - - -
 # Others
 * [Questions | 問題集合區](/Questions_問題區)
