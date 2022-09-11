@@ -199,7 +199,7 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✗情緒勒索、道德綁架、學生價、討價還價、白嫖，一律黑名單<br/>
 ✗插件不是萬能的，並不是每個需求100％能做到<br/>
 ✗我有選擇拒絕受理任何插件製作需求<br/>
-✗只想詢問一些問題視態度與時間酌收小費與鐘點費，我人沒那麼好24小時閒著回答
+✗只想詢問一些問題視態度與時間酌收小費與鐘點費
 
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
