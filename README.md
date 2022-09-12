@@ -90,6 +90,8 @@ Accept small change or English translation<br/>
       * (公開) 抵達安全室之後，未在時間內進入終點安全室的玩家將處死
     * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
       * 使用Esc->發起投票的人將會被反踢出去伺服器
+    * [anti-friendly_fire_V2](/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
+      * 反傷插件，第二版本
     * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
       * 反傷插件，但是有更多的功能
     * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
