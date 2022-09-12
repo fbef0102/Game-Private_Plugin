@@ -28,6 +28,8 @@ L4D2
 * Similar Plugin | 相似插件
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
 		> 簡單版反傷插件
+	2. [anti-friendly_fire_V2](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
+		> 簡單版反傷插件，第二版本
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -86,8 +88,9 @@ L4D2
 反傷插件，但是有更多的RPG功能
 
 * 原理
-<br/>攻擊隊友會在攻擊者身上產生計數器加１，
-當每次對隊友造成傷害時，倍數反彈給自己的傷害，而隊友受到傷害的傷害遞減減少
+	* 攻擊隊友會在攻擊者身上產生計數器加１，當每次對隊友造成傷害時，倍數反彈給自己的傷害，而隊友受到傷害的傷害遞減減少
+	* 插件自帶傷害提示
+	* 切勿與其他會修改友傷的插件並用
 
 * 功能
 	1. 過一段時間總計算友傷，然後反彈給攻擊者
