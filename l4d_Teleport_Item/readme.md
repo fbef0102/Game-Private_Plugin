@@ -9,6 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* teleport all items on the map
+	> 生存模式節省搬運時間必備插件
 	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
 
 * Apply to | 適用於
