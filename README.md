@@ -86,6 +86,8 @@ Accept small change or English translation<br/>
   * **Object | 物件**
     * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
       * 打開菜單傳送地圖上所有物品到身邊
+    * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
+      * 刪除安全室的治療包並替換成別的物品
 
   * **Fuck you Griefer | 和平締造者-專治傻B合集**
     * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
