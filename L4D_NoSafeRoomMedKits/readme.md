@@ -35,7 +35,7 @@ L4D2 Versus/Coop
 		* Support ending saferoom
 		* Support Coop Map Transition
 
-	* v1.0.2 by alasfourom
+	* [v1.0.2 by alasfourom](https://forums.alliedmods.net/showpost.php?p=2787349&postcount=33)
 		* Added 3 Convars For Personal Use
 
 	* v1.0.1
