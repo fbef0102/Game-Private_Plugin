@@ -5,7 +5,7 @@ Start Saferoom door anti open + teleport survivor back to safe area when leaving
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/VdvQwpDcs1A)
+* [Video | 影片展示](https://youtu.be/4i7VQkWrEKg)
 
 * Image | 圖示
 	* display timeleft when someone tries to open door
@@ -34,7 +34,7 @@ L4D2
 
 	* cfg/sourcemod/antisaferoomdooropen.cfg
 	```php
-    // Allow player to leave safe area after this amount of time. (useful if map doesn't have first saferoom door)
+    // Allow player to leave safe area after this amount of time. (useful if map doesn't have Start saferoom door)
     l4d_anti_left_start_area_time "41"
 
     // Enable anti saferoom door close  plugin. [0-Disable,1-Enable]
@@ -42,6 +42,18 @@ L4D2
 
     // Enable anti saferoom door fade after open drop. [0-Disable,1-Enable]
     l4d_anti_saferoom_door_fade "1"
+
+    // If 1, replace saferoom door with fake door after door open
+    l4d_anti_saferoom_door_fake "1"
+
+    // Set A Glow For The Saferoom Doors
+    l4d_anti_saferoom_door_glow_enable "1"
+
+    // Set The Glow Range For Saferoom Doors
+    l4d_anti_saferoom_door_glow_range "500"
+
+    // Set Saferoom Lock Glow Color, (0-255) Separated By Spaces.
+    l4d_anti_saferoom_door_lock_glow_color "255 0 0"
 
     // saferoom door anti open by survivor after this amount of time
     l4d_anti_saferoom_door_open "40"
@@ -51,6 +63,9 @@ L4D2
 
     // If 1, return player to safe area if player spawns or takes over bot before door open.
     l4d_anti_saferoom_door_return_player "1"
+
+    // Set Saferoom Unlock Glow Color, (0-255) Separated By Spaces.
+    l4d_anti_saferoom_door_unlock_glow_color "0 255 0"
 
     // saferoom door auto open after this amount of time, even if survivors are still inside the safe room.
     l4d_anti_saferoom_force_start_time "60"
@@ -75,3 +90,5 @@ L4D2
 	1. 自訂時間
 	2. 安全門開啟後自動消失
 	3. 沒有安全門的第一關也適用
+    4. 自定義顏色與發光距離
+    5. 可關閉顏色
