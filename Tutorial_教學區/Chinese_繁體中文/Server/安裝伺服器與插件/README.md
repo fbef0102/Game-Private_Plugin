@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/9/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/9/17 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
     - [如何安裝Sourcemod](#如何安裝sourcemod)
@@ -16,6 +16,7 @@
     - [如何檢查指令值](#如何檢查指令值)
     - [如何修改指令](#如何修改指令)
     - [如何使用插件的命令](#如何使用插件的命令)
+    - [如何更新專屬伺服器](#如何更新專屬伺服器)
     - [專業術語介紹](#專業術語介紹)
     - [其他](#其他)
 > __Note__ 本處教學一律是Sourcemod，與AMX Mod X無任何關係
@@ -538,6 +539,40 @@
 > __Note__<br/>
 有些命令只有管理員才能使用<br/>
 有些命令需要繼續輸入其他資料(又稱參數)，否則沒有效果，請自行摸索<br/>
+- - - -
+## 如何更新專屬伺服器
+> __Note__<br/>
+當遊戲更新版本之後伺服器也要更新，必須自己手動更新伺服器檔案<br/>
+又或者你覺得伺服器有檔案損毀需要驗證完整性
+
+* Windows
+1. 執行steamcmd.exe，等它自己跑完套件與更新包
+
+2. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
+   ![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
+   - ```force_install_dir My_Server```
+      - My_Server是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
+   - ```login anonymous```
+   - ```app_update XXXXXX validate```
+      - XXXXXX 為遊戲伺服器的App ID
+      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+
+3. 完成安裝之後輸入exit結束steamcmd
+
+* Liunx
+1. 啟用終端機執行steamcmd.exe (你可能需要root 權限)
+   - ```./steamcmd.sh```
+
+2. 等到出現Loading Steam API...OK，依序輸入以下指令
+   - ```force_install_dir ./My_Server/```
+      - My_Server是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
+   - ```login anonymous```
+   - ```app_update XXXXXX validate```
+      - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
+      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+
+3. 完成安裝之後輸入exit結束steamcmd
+
 - - - -
 ## 專業術語介紹
 * 客戶端 = client 或 Player
