@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/10 updated
+> 2022/9/18 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -10,9 +10,9 @@ My Unpublic Private Plugin (Charge)
 可接受小幅度的修改或漢化處理<br/>
 Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)<br/>
 Accept small change or English translation<br/>
-* <details><summary><b>L4D1/2 Plugin List (Click to expand!) | L4D1和2插件列表 (點我展開) </b></summary>
+* **L4D1/2 Plugin List | L4D1和2插件列表**
+  * <details><summary><b>Server | 伺服器</b></summary>
 
-  * **Server | 伺服器**
     * [server_vpn_hop](/server_vpn_hop): Type Command to show Vpn List
       * 輸入指令顯示 Server/Vpn 列表
     * [l4d_slot_vote](/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
@@ -23,8 +23,10 @@ Accept small change or English translation<br/>
       * 根據遊戲模式和難度禁止使用Esc->發起投票
     * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
       * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
+  </details>
 
-  * **Infected | 特感**
+  * <details><summary><b>Infected | 特感</b></summary>
+
     * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
       * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
     * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
@@ -37,19 +39,25 @@ Accept small change or English translation<br/>
       * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
     * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
       * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
+  </details>
 
-  * **Tank | 坦克**
+  * <details><summary><b>Tank | 坦克</b></summary>
+
     * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
       * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
     * [l4d2_tdr](/l4d2_tdr): Displays Damage Information on Tank Death.
       * Tank死亡時顯示對Tank造成傷害統計表
     * [l4d_tank_count](/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
       * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
+  </details>
 
-  * **Witch | 女巫**
-  <br/>None
+  * <details><summary><b>Witch | 女巫</b></summary>
+    
+    None
+  </details>
 
-  * **Survivor | 人類**
+  * <details><summary><b>Survivor | 人類</b></summary>
+
     * [l4d_saferom_prevent_kit](/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
       * 在安全區域內禁止人類使用治療包
     * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
@@ -68,8 +76,16 @@ Accept small change or English translation<br/>
       * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
     * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
       * 誰是黑白狀態(最後一條生命)
+  </details>
 
-  * **Fun | 娛樂**
+  * <details><summary><b>Bot | AI提高智商合集</b></summary>
+
+    * [l4d_bot_healing](/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
+      * 目標生命值低於一定血量之時，Bot不會使用治療包與傳送藥丸 (目標區分為自己、隊友Bot、真人玩家)
+  </details>
+
+  * <details><summary><b>Fun | 娛樂</b></summary>
+
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
       * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
     * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
@@ -82,12 +98,26 @@ Accept small change or English translation<br/>
       * 超級瑪利歐，空中使用月步，多次跳躍
     * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
       * 人類與特感的購物商城 (附有特殊商品與資料庫)
+  </details>
 
-  * **Object | 物件**
+  * <details><summary><b>Object | 物件</b></summary>
+
     * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
       * 刪除安全室的治療包並替換成別的物品
+  </details>
 
-  * **Fuck you Griefer | 和平締造者-專治傻B合集**
+  * <details><summary><b>Survival | 生存模式</b></summary> 
+
+    * [survival_hp](/survival_hp): Restore Health when survival begins.
+      * 生存計時開始時候，回復所有倖存者血量
+    * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
+      * 打開菜單傳送地圖上所有物品到身邊
+    * [who_shot_gas](/who_shot_gas): Type !gas to disaply who shot the last gas can.
+      * 誰他馬打爆最後一個汽油桶
+  </details>
+
+  * <details><summary><b>Fuck you Griefer | 和平締造者-專治傻B合集</b></summary>
+
     * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
       * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
     * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
@@ -102,16 +132,7 @@ Accept small change or English translation<br/>
       * 離隊伍太遠的玩家，特感代替月亮懲罰你
     * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
       * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
-
-  * **Survival | 生存模式** 
-    * [survival_hp](/survival_hp): Restore Health when survival begins.
-      * 生存計時開始時候，回復所有倖存者血量
-    * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
-      * 打開菜單傳送地圖上所有物品到身邊
-    * [who_shot_gas](/who_shot_gas): Type !gas to disaply who shot the last gas can.
-      * 誰他馬打爆最後一個汽油桶
-
-</details>
+  </details>
 
 - - - -
 # 公開的插件列表 Public Plugins List
