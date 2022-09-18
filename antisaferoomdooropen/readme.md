@@ -59,10 +59,10 @@ L4D2
     l4d_anti_saferoom_door_open "40"
 
     // If 1, Spawn player to safe area if player dies before door open
-    l4d_anti_saferoom_door_open_spawn_player "1"
+    l4d_anti_saferoom_door_open_spawn_player "0"
 
     // If 1, return player to safe area if player spawns or takes over bot before door open.
-    l4d_anti_saferoom_door_return_player "1"
+    l4d_anti_saferoom_door_return_player "0"
 
     // Set Saferoom Unlock Glow Color, (0-255) Separated By Spaces.
     l4d_anti_saferoom_door_unlock_glow_color "0 255 0"
