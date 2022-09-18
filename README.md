@@ -62,8 +62,6 @@ Accept small change or English translation<br/>
       * 在安全區域內禁止人類使用治療包
     * [antisaferoomdooropen](/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
       * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
-    * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
-      * 多啦A夢的空氣砲
     * [l4d_survivor_damage_modify](/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
       * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
     * [l4d_unstuck](/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
@@ -78,7 +76,7 @@ Accept small change or English translation<br/>
       * 誰是黑白狀態(最後一條生命)
   </details>
 
-  * <details><summary><b>Bot | AI提高智商合集</b></summary>
+  * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
 
     * [l4d_bot_healing](/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
       * 目標生命值低於一定血量之時，Bot不會使用治療包與傳送藥丸 (目標區分為自己、隊友Bot、真人玩家)
@@ -86,6 +84,8 @@ Accept small change or English translation<br/>
 
   * <details><summary><b>Fun | 娛樂</b></summary>
 
+    * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
+      * 多啦A夢的空氣砲
     * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
       * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
     * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
