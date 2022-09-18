@@ -84,8 +84,6 @@ Accept small change or English translation<br/>
       * 人類與特感的購物商城 (附有特殊商品與資料庫)
 
   * **Object | 物件**
-    * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
-      * 打開菜單傳送地圖上所有物品到身邊
     * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
       * 刪除安全室的治療包並替換成別的物品
 
@@ -108,6 +106,10 @@ Accept small change or English translation<br/>
   * **Survival | 生存模式** 
     * [survival_hp](/survival_hp): Restore Health when survival begins.
       * 生存計時開始時候，回復所有倖存者血量
+    * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
+      * 打開菜單傳送地圖上所有物品到身邊
+    * [who_shot_gas](/who_shot_gas): Type !gas to disaply who shot the last gas can.
+      * 誰他馬打爆最後一個汽油桶
 
 </details>
 
