@@ -105,6 +105,10 @@ Accept small change or English translation<br/>
     * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
       * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
 
+  * **Survival | 生存模式** 
+    * [survival_hp](/survival_hp): Restore Health when survival begins.
+      * 生存計時開始時候，回復所有倖存者血量
+
 </details>
 
 - - - -
