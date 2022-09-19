@@ -5,7 +5,7 @@ Special infected incaps survivors and die + set each scratch damage + skip getup
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/E3dha5uPseQ)
+* [Video | 影片展示](https://youtu.be/qW71sz3tP5w)
 
 * Image | 圖示
 	* display health remaining
@@ -25,7 +25,8 @@ L4D2
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Related Plugin | 相關插件
 	1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
@@ -64,6 +65,9 @@ L4D2
     // If 1, Kill All Infected. 0=Only Kill Attacker
     sm_1vSpecials_kill_all "0"
 
+    // If 1, this plugin only takes effect when infected attacking bot.
+    sm_1vSpecials_remove_godframe "1"
+
     // If 1, Skip Survivor Get Up Animation.
     sm_1vSpecials_skip_getup "1"
 
@@ -92,3 +96,4 @@ L4D2
 	3. 可設置被控之後造成固定的傷害再處死
     4. 顯示特感剩餘血量
     5. 也可適用於真人特感
+    6. 不會受到GodFrame影響
