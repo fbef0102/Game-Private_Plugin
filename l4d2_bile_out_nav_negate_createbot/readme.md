@@ -42,6 +42,10 @@ L4D2
 	None
 </details>
 
+> __Warning__ <br/>
+it works for 90% of all areas<br/>
+Not 100% successful everywhere, few positions are still bugged
+
 - - - -
 # 中文說明
 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
