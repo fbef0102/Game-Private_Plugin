@@ -65,7 +65,7 @@ L4D2
     // If 1, Kill All Infected. 0=Only Kill Attacker
     sm_1vSpecials_kill_all "0"
 
-    // If 1, this plugin only takes effect when infected attacking bot.
+    // If 1, this plugin removes god frame when capped by special infected.
     sm_1vSpecials_remove_godframe "1"
 
     // If 1, Skip Survivor Get Up Animation.
