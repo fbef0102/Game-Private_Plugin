@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/18 updated
+> 2022/9/21 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -47,6 +47,8 @@ Accept small change or English translation<br/>
     * Tank死亡時顯示對Tank造成傷害統計表
   * [l4d_tank_count](/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
     * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
+  * [l4d_tank_speed_boost](/l4d_tank_speed_boost): Increase Tank speed until hitting survivors
+    * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
