@@ -32,13 +32,13 @@ L4D2
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
 	```php
 	// Increase the tank animation speed each time.
-	l4d_tank_animation_boost_add "0.1"
+	l4d_tank_animation_boost_add "0.05"
 
 	// Maximum tank animation speed.
 	l4d_tank_animation_boost_max "2.50"
 
 	// Increase the tank movement speed each time.
-	l4d_tank_speed_boost_add "0.02"
+	l4d_tank_speed_boost_add "0.05"
 
 	// Time interval to increase the tank movement & animation speed. (0=off)
 	l4d_tank_speed_boost_interval "2.5"
