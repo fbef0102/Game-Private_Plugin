@@ -33,8 +33,6 @@ Accept small change or English translation<br/>
     * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
     * 輔助插件，不受數量與遊戲限制生成特感
-  * [l4d_zcs](/l4d_zcs): Allows infected team players to change their class in ghost mode.
-    * 特感玩家可以在靈魂狀態自行切換特感種類
   * [l4d_ssi_teleport_fix](/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
   * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
@@ -104,6 +102,18 @@ Accept small change or English translation<br/>
 
   * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
     * 刪除安全室的治療包並替換成別的物品
+</details>
+
+* <details><summary><b>Coop | 戰役模式</b></summary> 
+
+  * [l4d_full_hp_map_transition](/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
+    * 戰役模式通關之時回復並設定倖存者血量
+</details>
+
+* <details><summary><b>Versus | 對抗模式</b></summary> 
+
+  * [l4d_zcs](/l4d_zcs): Allows infected team players to change their class in ghost mode.
+    * 特感玩家可以在靈魂狀態自行切換特感種類
 </details>
 
 * <details><summary><b>Survival | 生存模式</b></summary> 

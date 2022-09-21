@@ -12,8 +12,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 ```
-L4D1
-L4D2
+L4D1 Versus
+L4D2 Versus
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
