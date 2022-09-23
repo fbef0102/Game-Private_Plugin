@@ -29,10 +29,10 @@ L4D2
 
 	* cfg/sourcemod/skip_tank_taunt.cfg
 		```php
-		// Obstacle animation playback rate
+		// Obstacle animation playback rate (0=off)
 		tank_obstacle_animation_playbackrate "2.5"
 
-		// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip
+		// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip (0=off)
 		tank_victory_animation_skip "1"
 		```
 </details>
