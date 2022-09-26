@@ -39,6 +39,12 @@ Accept small change or English translation<br/>
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
 </details>
 
+* <details><summary><b>Smoker | Smoker</b></summary>
+
+  * [l4d_smoker_pull_weapon_drop](/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
+    * 被Smoker拉走的時候強制掉落身上的武器或物品
+</details>
+
 * <details><summary><b>Tank | 坦克</b></summary>
 
   * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
