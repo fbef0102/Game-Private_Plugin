@@ -42,7 +42,7 @@ Accept small change or English translation<br/>
 * <details><summary><b>Smoker | Smoker</b></summary>
 
   * [l4d_smoker_pull_weapon_drop](/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
-    * 被Smoker拉走的時候強制掉落身上的武器或物品
+    * 被Smoker拉走的時候強制掉落手上的武器
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
