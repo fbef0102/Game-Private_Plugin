@@ -505,7 +505,7 @@
 - - - -
 ## 如何使用插件的命令
 * 查看插件命令有哪些
-	* 到伺服器後台上，輸入```sm cvars xxxxxx```
+	* 到伺服器後台上，輸入```sm cmds xxxxxx```
 		- xxxxxx為插件的檔案名稱
 	```php	
 	] sm cmds server_GagMuteBanEx
