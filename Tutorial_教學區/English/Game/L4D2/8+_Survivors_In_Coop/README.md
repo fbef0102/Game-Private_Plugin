@@ -146,5 +146,5 @@
 
 - - - -
 ## Others
-* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80)
 
