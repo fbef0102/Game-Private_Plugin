@@ -127,11 +127,13 @@ Accept small change or English translation<br/>
 * <details><summary><b>Survival | 生存模式</b></summary> 
 
   * [survival_hp](/survival_hp): Restore Health when survival begins.
-    * 生存計時開始時候，回復所有倖存者血量
+    * 生存模式計時開始時候，回復所有倖存者血量
   * [l4d_Teleport_Item](/l4d_Teleport_Item): Open Menu to teleport items on the map.
     * 打開菜單傳送地圖上所有物品到身邊
   * [who_shot_gas](/who_shot_gas): Type !gas to disaply who shot the last gas can.
     * 誰他馬打爆最後一個汽油桶
+  * [l4d2_survival_spectator_reset](/l4d2_survival_spectator_reset): If player is spectator when survival begins or player changes team after survival begins, he can not get the survival time record.
+    * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
 </details>
 
 * <details><summary><b>Fuck you Griefer | 和平締造者-專治傻B合集</b></summary>

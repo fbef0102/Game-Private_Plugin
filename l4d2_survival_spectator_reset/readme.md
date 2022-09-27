@@ -1,5 +1,5 @@
 # Description | 內容
-Restore Health when survival begins.
+If player is spectator when survival begins or player changes team after survival begins, he can not get the survival time record.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -9,40 +9,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* display message when survival begins
-	計時開始時提示訊息
-	<br/>![survival_hp_1](image/survival_hp_1.jpg)
+<br/>None
 
 * Apply to | 適用於
 ```
-L4D1 Survival
 L4D2 Survival
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	```php
 	* v1.0
 		* Original Request by Dam Dam
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+<br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
-	None
+	* cfg/sourcemod/l4d2_survival_spectator_reset.cfg
+	```php
+	// 0=Plugin off, 1=Plugin on.
+	l4d2_survival_spectator_reset_enable "1"
+	```
 </details>
 
 * <details><summary>Command | 命令</summary>
-
+	
 	None
 </details>
 
 - - - -
 # 中文說明
-生存模式計時開始時候，回復所有倖存者血量
+生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
 
 * 原理
-	* 只適用於生存模式
-	* 確保倖存者能完整血量遊玩生存關卡
+	* 生存計時之時，旁觀者無法獲得生存時間紀錄
+	* 生存計時之後，只要倖存者玩家閒置或切換成旁觀者，無法獲得生存時間紀錄
+
+* 功能
+	1. 可設置插件開關
