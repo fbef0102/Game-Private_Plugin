@@ -32,6 +32,9 @@ L4D2 Survival
 	```php
 	// 0=Plugin off, 1=Plugin on.
 	l4d2_survival_spectator_reset_enable "1"
+
+	// If 1, idle player can not get time record after survival begins
+	l4d2_survival_spectator_reset_idle "0"
 	```
 </details>
 
@@ -50,3 +53,4 @@ L4D2 Survival
 
 * 功能
 	1. 可設置插件開關
+	2. 可設置閒置玩家能否得到時間紀錄
