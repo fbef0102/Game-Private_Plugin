@@ -39,7 +39,7 @@ Accept small change or English translation<br/>
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
 </details>
 
-* <details><summary><b>Smoker | Smoker</b></summary>
+* <details><summary><b>Smoker | 舌頭</b></summary>
 
   * [l4d_smoker_pull_weapon_drop](/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
     * 被Smoker拉走的時候強制掉落手上的武器
