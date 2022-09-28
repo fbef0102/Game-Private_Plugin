@@ -23,7 +23,7 @@ L4D2
 		* Remove water slowdown, couch speed control, only gunfire slowdown control
 		* Add all weapons gunfire slowdown control including Minigun and 50cal Machine gun
 		* Add AI infected and Player infected cvars
-		* Modify gunfire calculation formula
+		* Modify gunfire slowdown calculation formula
 		* Support L4D1
 
 	* v2.7.1
@@ -111,6 +111,25 @@ L4D2
 	None
 </details>
 
+* <details><summary>Gunfire Slowdown Calculation Formula</summary>
+	
+	> Effect: Tank current speed is 210<br/>
+	If AI Tank being shot by ak47 bullet, speed is 210 - 210 * 0.17 * 0.6 = 188<br/>
+	If Tank Player being shot by ak47 bullet, speed is 210 - 210 * 0.1 * 0.6 = 197<br/>
+	```php
+	l4d2_slowdown_gunfire_tank "0.17"
+	l4d2_slowdown_gunfire_tank_player "0.1"
+	l4d2_slowdown_ak_percent "0.6"
+	```
+
+	> Effect: If AI Infected being shot by any weapon, game default slowdown settings<br/>
+	If Infected Player being shot by any weapon, no slowdown<br/>
+	```php
+	l4d2_slowdown_gunfire_si "-1.0"
+	l4d2_slowdown_gunfire_player "0.0"
+	```
+</details>
+
 - - - -
 # 中文說明
 依據槍械種類修改特感隊伍的槍緩速度
@@ -122,15 +141,15 @@ L4D2
 
         > 效果: 假設Tank目前移動速度為210<br/>
 		當AI Tank被AK47射中時，速度變成210 - 210 * 0.17 * 0.6 = 188<br/>
-		當真人 Tank被AK47射中時，速度變成210 - 210 * 0.1 * 0.6 = 197<br/>
+		當真人Tank被AK47射中時，速度變成210 - 210 * 0.1 * 0.6 = 197<br/>
         ```php
 		l4d2_slowdown_gunfire_tank "0.17"
 		l4d2_slowdown_gunfire_tank_player "0.1"
 		l4d2_slowdown_ak_percent "0.6"
         ```
 
-        > 效果: 當AI 特感被任一槍械射中時，槍緩速度為遊戲預設計算方式<br/>
-		當真人 特感被任一槍械射中時，沒有槍緩副作用<br/>
+        > 效果: 當AI特感被任一槍械射中時，槍緩速度為遊戲預設計算方式<br/>
+		當真人特感被任一槍械射中時，沒有槍緩減速<br/>
         ```php
 		l4d2_slowdown_gunfire_si "-1.0"
 		l4d2_slowdown_gunfire_player "0.0"
@@ -138,6 +157,6 @@ L4D2
     </details>
 
 * 功能
-	1. 可設置沒有槍緩副作用
+	1. 可設置沒有槍緩減速
 	2. 可分別對AI特感與真人玩家設置不同的槍緩
 	3. 可設置所有武器的槍緩速度包括地圖上的機槍砲塔
