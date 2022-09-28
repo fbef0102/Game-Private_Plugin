@@ -37,6 +37,8 @@ Accept small change or English translation<br/>
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
   * [l4d2_bile_out_nav_negate_createbot](/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
+  * [l4d_si_slowdown](/l4d_si_slowdown): Manages the gunfire slowdown for infected team
+    * 依據槍械種類修改特感隊伍的槍緩速度
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -47,6 +49,10 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Tank | 坦克</b></summary>
 
+  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
+    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
+  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+    * (公開) Tank不會丟出石頭而是丟出特感
   * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
     * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
   * [l4d2_tdr](/l4d2_tdr): Displays Damage Information on Tank Death.
@@ -57,11 +63,6 @@ Accept small change or English translation<br/>
     * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
   * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
     * Tank的石頭自動追蹤倖存者
-  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
-    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
-  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-    * (公開) Tank不會丟出石頭而是丟出特感
-    
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
