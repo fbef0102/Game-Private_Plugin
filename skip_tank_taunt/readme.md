@@ -28,6 +28,14 @@ L4D2
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
+* Similar Plugin | 相似插件
+	1. [l4d_tank_speed_boost](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_tank_speed_boost): Increase Tank speed until hitting survivorsanimation playback version
+		> Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
+
+* Related Plugin | 相關插件
+	1. [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
+		> 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/skip_tank_taunt.cfg

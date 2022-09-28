@@ -55,6 +55,13 @@ Accept small change or English translation<br/>
     * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
   * [l4d_tank_speed_boost](/l4d_tank_speed_boost): Increase Tank speed until hitting survivors
     * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
+  * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
+    * Tank的石頭自動追蹤倖存者
+  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
+    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
+  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+    * (公開) Tank不會丟出石頭而是丟出特感
+    
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
