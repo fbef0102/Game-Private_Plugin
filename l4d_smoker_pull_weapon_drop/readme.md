@@ -32,6 +32,9 @@ L4D2
 		// 0=Plugin off, 1=Plugin on.
 		l4d_smoker_pull_weapon_drop_enable "1"
 
+		// Probability to drop weapon.
+		l4d_smoker_pull_weapon_drop_probability "100"
+
 		// Drop survivor weapon when 0=Grabbed, 1=Pulled.
 		l4d_smoker_pull_weapon_drop_type "0"
 
@@ -54,3 +57,4 @@ L4D2
 * 功能
 	1. 可調整被拉一瞬間或者一秒後才掉落
 	2. 可調整為身上武器或物品隨機掉落
+	3. 設定掉落機率
