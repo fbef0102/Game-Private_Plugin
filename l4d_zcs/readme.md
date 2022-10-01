@@ -20,9 +20,9 @@ L4D2 Versus
 
 	```php
 	//[X]BetaAlpha @ 2010-2011
-	//Harry @ 2022
+	//HarryPotter @ 2022
 	```
-	* v1.0
+	* v1.1
 		* Remake Code
 		* Remove Gamedata
 		* Remove Unnecessary cvars
@@ -56,11 +56,17 @@ L4D2 Versus
 	// If 1, Allow player to select previous infected class.
 	zcs_allow_last_class "0"
 
-	// Allow player to select class when Tank only (0=Anytime)
-	zcs_allow_spawn_tank "0"
+	// Allow player to select class only during Tank (0=Anytime)
+	zcs_allow_spawn_tank_only "0"
+
+	// Allow Boomer Ghost player to select class. (0=Not Allow)
+	zcs_boomer_ghost_allow "1"
 
 	// How many Boomers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_boomer_limit "-1"
+
+	// Allow Charger Ghost player to select class. (0=Not Allow)
+	zcs_charger_ghost_allow "1"
 
 	// How many Chargers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_charger_limit "-1"
@@ -89,14 +95,23 @@ L4D2 Versus
 	// If 1, Enable Zombie Character Select debug log.
 	zcs_debug "0"
 
+	// Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
+	zcs_determine_class_when_ghost "0"
+
 	// Enable/Disable Zombie Character Select plugin.
 	zcs_enable "1"
 
 	// (L4D2 only) Enable/Disable Valve Infected Bots.
 	zcs_enable_value_bots "1"
 
+	// Allow Hunter Ghost player to select class. (0=Not Allow)
+	zcs_hunter_ghost_allow "1"
+
 	// How many Hunters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_hunter_limit "-1"
+
+	// Allow Jockey Ghost player to select class. (0=Not Allow)
+	zcs_jockey_ghost_allow "1"
 
 	// How many Jockeys allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_jockey_limit "-1"
@@ -119,8 +134,14 @@ L4D2 Versus
 	// If 1, Display infected class limits panel.
 	zcs_show_hud_panel "1"
 
+	// Allow Smoker Ghost player to select class. (0=Not Allow)
+	zcs_smoker_ghost_allow "1"
+
 	// How many Smokers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_smoker_limit "-1"
+
+	// Allow Spitter Ghost player to select class. (0=Not Allow)
+	zcs_spitter_ghost_allow "1"
 
 	// How many Spitters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 	zcs_spitter_limit "-1"
