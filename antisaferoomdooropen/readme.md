@@ -20,7 +20,7 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v2.2
+	* v2.3
 </details>
 
 * Require | 必要安裝
@@ -34,10 +34,10 @@ L4D2
 
 	* cfg/sourcemod/antisaferoomdooropen.cfg
 	```php
-    // Allow player to leave safe area after this amount of time. (useful if map doesn't have Start saferoom door)
+    // Allow player to leave safe area after this amount of time. (0=off) (useful if map doesn't have Start saferoom door)
     l4d_anti_left_start_area_time "41"
 
-    // Enable anti saferoom door close  plugin. [0-Disable,1-Enable]
+    // Enable anti saferoom door open plugin. [0-Disable,1-Enable]
     l4d_anti_saferoom_door_enable "1"
 
     // Enable anti saferoom door fade after open drop. [0-Disable,1-Enable]
@@ -55,7 +55,7 @@ L4D2
     // Set Saferoom Lock Glow Color, (0-255) Separated By Spaces.
     l4d_anti_saferoom_door_lock_glow_color "255 0 0"
 
-    // saferoom door anti open by survivor after this amount of time
+    // saferoom door anti open by survivor after this amount of time.
     l4d_anti_saferoom_door_open "40"
 
     // If 1, Spawn player to safe area if player dies before door open
@@ -67,7 +67,7 @@ L4D2
     // Set Saferoom Unlock Glow Color, (0-255) Separated By Spaces.
     l4d_anti_saferoom_door_unlock_glow_color "0 255 0"
 
-    // saferoom door auto open after this amount of time, even if survivors are still inside the safe room.
+    // saferoom door auto open after this amount of time, even if survivors are still inside the safe room. (0=off)
     l4d_anti_saferoom_force_start_time "60"
 
     // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
