@@ -1,5 +1,5 @@
 # Navigation
-> 2022/9/4 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/10/3 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
@@ -111,6 +111,8 @@
 
 21. [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
     - 🟥Doesn't work in listen server🟥
+    
+22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
 - - - -
 ## Fun
