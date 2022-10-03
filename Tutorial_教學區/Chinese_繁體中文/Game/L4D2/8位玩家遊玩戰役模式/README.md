@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2022/9/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
@@ -114,6 +114,8 @@
 
 21. [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
     - 🟥只適用於專屬伺服器🟥
+    
+22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
 	
 - - - -
 ## 娛樂檔案
