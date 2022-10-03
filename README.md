@@ -155,9 +155,9 @@ Accept small change or English translation<br/>
   * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
     * 使用Esc->發起投票的人將會被反踢出去伺服器
   * [anti-friendly_fire_V2](/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
-    * 反傷插件，第二版本
+    * 隊友開槍射你會反彈傷害，第二版本
   * [anti-friendly_fire_RPG](/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-    * 反傷插件，但是有更多的功能
+    * 隊友開槍射你會反彈傷害，RPG版本
   * [l4d_together](/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
     * 離隊伍太遠的玩家，特感代替月亮懲罰你
   * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
