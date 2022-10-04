@@ -60,13 +60,15 @@
 4. <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): 修正相同模組的玩家卻只會能有一位角色發出遊戲角色語音</s> 
     - 🟦Valve已經修正，無須安裝🟦
 
-5. [Survivor Identity Fix for 5+ Survivors (Shadowysn 版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): 修正5+多人遊戲裡，當真人玩家取代Bot或閒置的時候，他的角色模型被改變
+5. [Survivor Identity Fix for 5+ Survivors (Shadowysn 版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
+    - 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
+    - 修正第五人以上玩家死亡的時候，屍體在別的角色身上
 
-6. [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): 修正5+多人遊戲裡，當真人玩家閒置的時候，玩家變成完全旁觀者，無法取代Bot
+6. [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): 修正5+多人遊戲裡，使用閒置的時候，閒置錯成別的相同模組角色的bot，如果相同模組角色已經有真人玩家取代或閒置，則會變成完全旁觀者
 
 7. [l4dafkfix_deadbot](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dafkfix_deadbot): 修正5+多人遊戲裡，當真人玩家閒置的時候如果他的Bot死亡，真人玩家不會取代死亡Bot而是變成完全旁觀者
 
-8. [lfd_both_fixUpgradePack (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): 修正5+多人遊戲裡，燃燒彈與高爆彈無法拿取
+8. [lfd_both_fixUpgradePack (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): 修正高爆彈與燃燒彈無法被重複角色模組的倖存者撿起來
 
 9. 以下兩種方案擇一安裝
    - A方案: 8+ players Bug Fixes EXTENSION ([Windows](https://forums.alliedmods.net/showpost.php?p=2721138&postcount=295), [Linux](https://forums.alliedmods.net/showpost.php?p=2752412&postcount=301))
@@ -91,8 +93,11 @@
 
 13. [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動
 
-14. [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): 多人玩家互相友傷能有更多的角色語音互動
+14. [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127)
     - 🟥只適用於專屬伺服器🟥
+    - 修正五人以上友傷沒有語音
+    - 修正玩家被hunter撲/被Charger撞沒有語音
+    - 修正一代角色看見隊友屍體沒有反應
    
 15. [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?p=2202855): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
     - 🟥只適用於專屬伺服器🟥
@@ -116,7 +121,7 @@
     - 🟥只適用於專屬伺服器🟥
     
 22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
-	
+    - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
 - - - -
 ## 娛樂檔案
 1. [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
