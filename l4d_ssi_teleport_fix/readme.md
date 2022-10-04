@@ -17,6 +17,9 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+	* v1.8
+        * Request by Yabi
+        * Teleport infected to teammate who is near the first ahead survivor
 
 	* v1.6
 	    * Original Request by 壹梦
@@ -53,6 +56,9 @@ L4D2
     // Infected player will be teleported if his distance from survivors is outside this range.
     ssitp_tp1_range "800"
 
+    // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
+    ssitp_tp2_near_ahead_survivor "0"
+
     // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
     ssitp_tp2_range_max "700"
 
@@ -87,6 +93,12 @@ L4D2
         // Teleport to the Infected player whose distance from survivors is outside min range
         ssitp_tp2_range_min "150"
         ```
+
+        > 效果: 特感只傳送到距離最前方的倖存者比較近的特感
+        ```php
+        // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
+        ssitp_tp2_near_ahead_survivor "1"
+        ```
     </details>
 
 	* 可配合多特感插件使得每一波特感的攻擊對倖存者造巨大的壓力
@@ -97,3 +109,4 @@ L4D2
     3. 不會傳送真人特感玩家，但會把AI特感傳送到真人特感玩家
     4. 可設置就算被人類看到也要傳送特感
     5. 可設置傳送距離
+    6. 
