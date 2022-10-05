@@ -16,6 +16,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_player_tail_3](image/l4d_player_tail_3.jpg)
 	* image 4
 	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
+	* custom tail model
+	> 自製特效貼圖
+	<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
 
 * Apply to | 適用於
 ```
@@ -30,7 +33,7 @@ L4D2
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * Similar Plugin | 相似插件
 	1. [l4d_player_spritetrail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail)
@@ -74,6 +77,9 @@ L4D2
 	// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
 	l4d_player_tail_lifetime "5.0"
 
+	// Tail Sprite model.
+	l4d_player_tail_sprite_model "materials/sprites/store/trails/8bitmushroom.vmt"
+
 	// The width of the beam to the beginning.
 	l4d_player_tail_startwidth "10.0"
 	```
@@ -101,6 +107,7 @@ L4D2
 	1. 可自定義尾巴特效的寬度，消逝時間
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
+	4. 自定義尾巴的圖案，可以用自製的貼圖
 
 * 注意事項
 	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
