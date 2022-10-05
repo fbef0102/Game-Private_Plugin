@@ -33,7 +33,7 @@ L4D2
 
 * Similar Plugin | 相似插件
 	1. [l4d_player_tail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_tail)
-	> 一樣式尾巴特效，看自己喜歡用哪一種
+	> 一樣是尾巴特效，看自己喜歡用哪一種
 
 * Note | 注意事項
 	* "l4d_player_spritetrail_lifetime" must greater than or equal to "l4d_player_spritetrail_changecolor_interval"
@@ -99,6 +99,7 @@ L4D2
 	1. 可自定義尾巴特效的寬度，消逝時間
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
+	4. 無法改變尾巴的貼圖
 
 * 注意事項
 	* "l4d_player_spritetrail_lifetime" 指令數值必須大於或等於 "l4d_player_spritetrail_changecolor_interval" 指令數值

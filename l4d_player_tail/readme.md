@@ -27,7 +27,7 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
-	* v1.2
+	* v1.3
 	    * Original Request by 壹梦
 </details>
 
@@ -37,7 +37,7 @@ L4D2
 
 * Similar Plugin | 相似插件
 	1. [l4d_player_spritetrail](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_player_spritetrail)
-	> 一樣式尾巴特效，看自己喜歡用哪一種
+	> 一樣是尾巴特效，看自己喜歡用哪一種
 
 * Note | 注意事項
 	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
@@ -63,7 +63,7 @@ L4D2
 	l4d_player_tail_color "-1 -1 -1"
 
 	// Transparency of the tail (10-255).
-	l4d_player_tail_color_alpha "100"
+	l4d_player_tail_color_alpha "150"
 
 	// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
 	l4d_player_tail_default_value "1"
@@ -76,6 +76,9 @@ L4D2
 
 	// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
 	l4d_player_tail_lifetime "5.0"
+
+	// If 1, setup small beam sprite in middle of tail
+	l4d_player_tail_middle_beam "1"
 
 	// Tail Sprite model.
 	l4d_player_tail_sprite_model "materials/sprites/store/trails/8bitmushroom.vmt"
