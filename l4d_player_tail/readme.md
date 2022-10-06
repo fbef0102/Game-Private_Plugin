@@ -137,6 +137,11 @@ L4D2
 		sm_harrypotter
 		sm_hy
 		```
+		
+	* **打開尾巴菜單介面**
+		```php
+		sm_tailmenu
+		```
 </details>
 	
 
