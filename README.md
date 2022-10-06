@@ -39,6 +39,8 @@ Accept small change or English translation<br/>
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
   * [l4d_si_slowdown](/l4d_si_slowdown): Manages the gunfire slowdown for infected team
     * 依據槍械種類修改特感隊伍的槍緩速度
+  * [l4d_kick_stuck_infected](/l4d_kick_stuck_infected): Kick special infected bots if they don't attack and can't be seen by survivors within certain time
+    * AI 特感一段時間內不攻擊或卡住將會被處死
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
