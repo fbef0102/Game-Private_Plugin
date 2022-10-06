@@ -19,6 +19,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* custom tail model
 	> 自製特效貼圖
 	<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
+	* Tail menu
+	> 菜單介面選擇尾巴的顏色或貼圖
+	<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
 
 * Apply to | 適用於
 ```
@@ -28,6 +31,11 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 	* v1.3
+	    * Request by Alfari
+		* Add menu to choose color and sprite model
+		* Support custom sprite model
+
+	* v1.2
 	    * Original Request by 壹梦
 </details>
 
@@ -94,8 +102,11 @@ L4D2
 		```php
 		sm_tail
 		sm_tails
-		sm_harrypotter
-		sm_hy
+		```
+
+	* **Open tail menu**
+		```php
+		sm_tailmenu
 		```
 </details>
 
@@ -111,6 +122,7 @@ L4D2
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
 	4. 自定義尾巴的圖案，可以用自製的貼圖
+	5. 菜單介面選擇尾巴的顏色或貼圖
 
 * 注意事項
 	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
