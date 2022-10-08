@@ -114,6 +114,8 @@ Accept small change or English translation<br/>
     * 超級瑪利歐，空中使用月步，多次跳躍
   * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
     * 人類與特感的購物商城 (附有特殊商品與資料庫)
+  * [l4d_ranking_system](/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
+    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
 </details>
 
 * <details><summary><b>Object | 物件</b></summary>
