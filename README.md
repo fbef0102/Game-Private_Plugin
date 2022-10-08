@@ -29,8 +29,6 @@ Accept small change or English translation<br/>
 
   * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
-  * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-    * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [spawn_infected_nolimit](/spawn_infected_nolimit): Spawn special infected without the director limits!
     * 輔助插件，不受數量與遊戲限制生成特感
   * [l4d_ssi_teleport_fix](/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
@@ -51,8 +49,6 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Tank | 坦克</b></summary>
 
-  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
-    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
     * (公開) Tank不會丟出石頭而是丟出特感
   * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
@@ -126,8 +122,12 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
 
+  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
+    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_full_hp_map_transition](/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
     * 戰役模式通關之時回復並設定倖存者血量
+  * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+    * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 
