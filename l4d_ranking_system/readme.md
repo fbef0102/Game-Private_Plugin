@@ -15,6 +15,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Name tag in chatbox 
 	> 聊天視窗給予Rank稱號
 	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
+	* CSGO Rank
+	> 抄襲CSGO Rank
+	<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
 
 * Apply to | 適用於
 ```
