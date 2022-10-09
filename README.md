@@ -86,6 +86,10 @@ Accept small change or English translation<br/>
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
     * 誰是黑白狀態(最後一條生命)
+  * [readyup](/readyup): Ready-up plugin
+    * 準備插件
+  * [pause](/pause): Pause plugin
+    * 暫停遊戲的插件
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
@@ -127,13 +131,15 @@ Accept small change or English translation<br/>
   * [l4d_full_hp_map_transition](/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
     * 戰役模式通關之時回復並設定倖存者血量
   * [coopbosses_ifier](/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-    * 在戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+    * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 
 
   * [l4d_zcs](/l4d_zcs): Allows infected team players to change their class in ghost mode.
     * 特感玩家可以在靈魂狀態自行切換特感種類
+  * [versusbosses_ifier](/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus
+    * 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
 * <details><summary><b>Survival | 生存模式</b></summary> 

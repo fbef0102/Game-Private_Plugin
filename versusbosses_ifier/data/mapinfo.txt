@@ -1,0 +1,67 @@
+"MapInfo"
+{
+	"c1m1_hotel"
+	{
+		"tank_ban_flow"
+		{
+			"Before elevator exit"
+			{
+				"min"		"38"
+				"max"		"79"
+			}
+			"Early spawns"
+			{
+				"min"		"0"
+				"max"		"24"
+			}
+		}
+	}
+	"c1m2_streets"
+	{
+		"tank_map_off" "1"
+		"witch_map_off" "1"
+	}
+	"c1m3_mall"
+	{
+		"tank_ban_flow"
+		{
+			"Event escalators"
+			{
+				"min"		"64"
+				"max"		"68"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Event"
+			{
+				"min"		"53"
+				"max"		"75"
+			}
+		}
+	}
+	"c2m2_fairgrounds"
+	{
+		"tank_ban_flow"
+		{
+			"tank ban test"
+			{
+				"min"		"0"
+				"max"		"50"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"witch ban test"
+			{
+				"min"		"50"
+				"max"		"100"
+			}
+		}
+	}
+	"c2m5_concert"
+	{
+		"tank_map_off" "1"
+		"witch_map_off" "1"
+	}
+}
