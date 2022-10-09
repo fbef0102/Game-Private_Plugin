@@ -23,6 +23,10 @@ Accept small change or English translation<br/>
     * 根據遊戲模式和難度禁止使用Esc->發起投票
   * [l4d2_scripted_hud](/l4d2_scripted_hud): Display text for up to 4 scripted HUD slots on the screen.
     * 在玩家畫面上方四個Hud位置顯示不同的特殊文字
+  * [readyup](/readyup): Ready-up plugin
+    * 準備才能開始遊戲的插件
+  * [pause](/pause): Pause plugin
+    * 暫停遊戲的插件
 </details>
 
 * <details><summary><b>Infected | 特感</b></summary>
@@ -86,10 +90,6 @@ Accept small change or English translation<br/>
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
     * 誰是黑白狀態(最後一條生命)
-  * [readyup](/readyup): Ready-up plugin
-    * 準備插件
-  * [pause](/pause): Pause plugin
-    * 暫停遊戲的插件
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
