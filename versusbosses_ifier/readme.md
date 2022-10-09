@@ -35,7 +35,7 @@ L4D2 versus
 	4. [[INC] readyup](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
-	1. [readyup](https://github.com/fbef0102/Game-Private_Plugin/tree/main/readyup.sp): Ready Plugin
+	1. [readyup](https://github.com/fbef0102/Game-Private_Plugin/tree/main/readyup): Ready Plugin
 		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
 
 * Related | 相關插件
