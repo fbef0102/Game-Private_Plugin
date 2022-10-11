@@ -172,6 +172,8 @@ Accept small change or English translation<br/>
     * 離隊伍太遠的玩家，特感代替月亮懲罰你
   * [sm_regexfilter](/sm_regexfilter): Filter dirty words via Regular Expressions
     * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
+  * [l4d_elevator_getin_timer](/l4d_elevator_getin_timer): When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the evelator/CEDA Trailer, slay him
+    * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
 </details>
 
 - - - -
