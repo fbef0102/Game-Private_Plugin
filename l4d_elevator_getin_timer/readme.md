@@ -121,11 +121,11 @@ L4D2
 			"num"		"1"		// 該地圖電梯總數
 			"1"
 			{
-				"button_name"					"elevator_button" 	// 電梯按鈕的專屬targetname (不能修改)
-				"trigger_multiple_hammerid"		"1227567" 			// 電梯區域的專屬hammerid (不能修改)
-				"get_inside_time"				"30"				// 倒數計時秒數
-				"outside_damage"				"10"				// 每秒對電梯外的玩家造成的傷害
-				"message"						"elevator"			// 通知所有這是電梯 (可自行修改)
+				"button_name"				"elevator_button" 	// 電梯按鈕的專屬targetname (不能修改)
+				"trigger_multiple_hammerid"		"1227567" 		// 電梯區域的專屬hammerid (不能修改)
+				"get_inside_time"			"30"			// 倒數計時秒數
+				"outside_damage"			"10"			// 每秒對電梯外的玩家造成的傷害
+				"message"				"elevator"		// 通知所有人這是電梯 (可自行修改)
 			}
 		}
 		"c5m2_park"
@@ -133,12 +133,12 @@ L4D2
 			"num"		"1"
 			"1"
 			{
-				"ceda_trailer"					"1"							// 這是CEDA拖車
-				"door_name"						"finale_cleanse_exit_door"	// CEDA拖車末端門的專屬targetname (不能修改)
-				"trigger_multiple_hammerid"		"456409" 					// CEDA拖車區域的專屬hammerid (不能修改)
-				"get_inside_time"				"50"	 					// 倒數計時秒數
-				"outside_damage"				"10" 						// 每秒對電梯CEDA拖車外的玩家造成的傷害
-				"message"						"elevator" 					// 通知所有這是CEDA拖車 (可自行修改)
+				"ceda_trailer"				"1"				// 這是CEDA拖車
+				"door_name"				"finale_cleanse_exit_door"	// CEDA拖車末端門的專屬targetname (不能修改)
+				"trigger_multiple_hammerid"		"456409" 			// CEDA拖車區域的專屬hammerid (不能修改)
+				"get_inside_time"			"50"	 			// 倒數計時秒數
+				"outside_damage"			"10" 				// 每秒對電梯CEDA拖車外的玩家造成的傷害
+				"message"				"elevator" 			// 通知所有人這是CEDA拖車 (可自行修改)
 			}
 		}
 	}
