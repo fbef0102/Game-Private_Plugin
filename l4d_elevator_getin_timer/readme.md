@@ -69,11 +69,11 @@ L4D2
 			"num"		"1"		//total numbers of evelator in this map
 			"1"
 			{
-				"button_name"					"elevator_button" //evelator button targetname (please do not modify)
-				"trigger_multiple_hammerid"		"1227567" //evelator trigger multiple hammerid (please do not modify)
-				"get_inside_time"				"30"	//a timer will display how many time left
-				"outside_damage"				"10"	//cause the damage to players outside the evelator
-				"message"						"elevator"	//info everyone this is evelator
+				"button_name"				"elevator_button" //evelator button targetname (please do not modify)
+				"trigger_multiple_hammerid"		"1227567" 	//evelator trigger multiple hammerid (please do not modify)
+				"get_inside_time"			"30"		//a timer will display how many time left
+				"outside_damage"			"10"		//cause the damage to players outside the evelator
+				"message"				"elevator"	//info everyone this is evelator
 			}
 		}
 		"c5m2_park"
@@ -81,12 +81,12 @@ L4D2
 			"num"		"1"
 			"1"
 			{
-				"ceda_trailer"					"1"	// CEDA Trailer
-				"door_name"						"finale_cleanse_exit_door"	// CEDA Trailer Exit door targetname (please do not modify)
-				"trigger_multiple_hammerid"		"456409" //CEDA Trailer trigger multiple hammerid (please do not modify)
-				"get_inside_time"				"50"	 //a timer will display how many time left
-				"outside_damage"				"10" 	//cause the damage to players outside the CEDA Trailer
-				"message"						"CEDA Trailer" //info everyone this is CEDA Trailer
+				"ceda_trailer"				"1"			// CEDA Trailer
+				"door_name"				"finale_cleanse_exit_door" // CEDA Trailer Exit door targetname (please do not modify)
+				"trigger_multiple_hammerid"		"456409" 		//CEDA Trailer trigger multiple hammerid (please do not modify)
+				"get_inside_time"			"50"	 		//a timer will display how many time left
+				"outside_damage"			"10" 			//cause the damage to players outside the CEDA Trailer
+				"message"				"CEDA Trailer" 		//info everyone this is CEDA Trailer
 			}
 		}
 	}
