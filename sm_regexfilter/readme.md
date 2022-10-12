@@ -32,7 +32,7 @@ L4D2
         * Add "replaceall" option
         * Fix memory leak
     * v1.2
-        * [Original Post by Twilight Suzuka](https://forums.alliedmods.net/showthread.php?t=71867)
+        * [By Twilight Suzuka](https://forums.alliedmods.net/showthread.php?t=71867)
 </details>
 
 * Require | 必要安裝

@@ -30,6 +30,7 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
 	* v1.3
 	    * Request by Alfari
 		* Add menu to choose color and sprite model

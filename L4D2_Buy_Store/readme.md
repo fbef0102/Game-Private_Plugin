@@ -31,6 +31,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 L4D2
 ```
 
+* Translation Support | 支援翻譯
+```
+English
+繁體中文
+简体中文
+```
+
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v4.7
@@ -53,7 +60,7 @@ L4D2
 		* No Special Item and database
 
 	* v1.0
-		* [Original Post by Explait](https://forums.alliedmods.net/showthread.php?t=322108)
+		* [By Explait](https://forums.alliedmods.net/showthread.php?t=322108)
 </details>
 
 * Require | 必要安裝

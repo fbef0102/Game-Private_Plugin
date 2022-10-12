@@ -29,7 +29,7 @@ L4D2
         * Rmove white glow when player is not black and white
 	
     * v1.31
-        * [Original Post by DarkNoghri](https://forums.alliedmods.net/showthread.php?p=951787)
+        * [By DarkNoghri](https://forums.alliedmods.net/showthread.php?p=951787)
 </details>
 
 * Require | 必要安裝

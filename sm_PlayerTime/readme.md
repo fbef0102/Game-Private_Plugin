@@ -19,7 +19,15 @@ L4D1
 L4D2
 ```
 
+* Translation Support | 支援翻譯
+```
+English
+繁體中文
+简体中文
+```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
 	* v1.8
 	    * Original Request by 壹梦
 </details>

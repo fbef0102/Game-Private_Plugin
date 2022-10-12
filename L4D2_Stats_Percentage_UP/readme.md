@@ -29,7 +29,7 @@ L4D2 Coop/Survival/Realism
 	    * More accurate damage done to tank
 
     * v1.0
-        * [Original Post by alasfourom](https://forums.alliedmods.net/showpost.php?p=2788307&postcount=2)
+        * [By alasfourom](https://forums.alliedmods.net/showpost.php?p=2788307&postcount=2)
 </details>
 
 * Require | 必要安裝

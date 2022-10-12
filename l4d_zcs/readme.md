@@ -30,7 +30,7 @@ L4D2 Versus
 		* Optimize Code
 
 	* v0.9.6
-		* [Original Post by [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
+		* [By [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
 </details>
 
 * Require | 必要安裝

@@ -19,6 +19,7 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
     * v1.1
 	    * Request by 壹梦
 	    * Add cmd: sm_zoom

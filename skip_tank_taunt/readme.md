@@ -22,7 +22,7 @@ L4D2
 		* Support L4D1
 
 	* v1.0.5
-		* [Original Post by sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
+		* [By sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
 </details>
 
 * Require | 必要安裝

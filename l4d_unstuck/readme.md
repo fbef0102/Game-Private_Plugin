@@ -30,7 +30,7 @@ L4D2
 		* Support L4D1
 
 	* v1.0.6
-		* [Original Post by CUatTHEFINISH](https://forums.alliedmods.net/showthread.php?t=110041)
+		* [By CUatTHEFINISH](https://forums.alliedmods.net/showthread.php?t=110041)
 </details>
 
 * Require | 必要安裝

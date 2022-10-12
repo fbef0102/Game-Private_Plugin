@@ -17,6 +17,7 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
 	* v1.8
         * Request by Yabi
         * Teleport infected to teammate who is near the first ahead survivor

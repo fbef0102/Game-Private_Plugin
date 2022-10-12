@@ -1,0 +1,178 @@
+// English by HarryPotter
+// Traditional Chinese by HarryPotter
+// Simplified Chinese by HarryPotter
+
+"Phrases"
+{
+	"Bill"
+	{
+		"en"	"Bill"
+		"zho"	"比爾"
+		"chi"	"比尔"
+	}
+	"Zoey"
+	{
+		"en"	"Zoey"
+		"zho"	"若依"
+		"chi"	"佐伊"
+	}
+	"Louis"
+	{
+		"en"	"Louis"
+		"zho"	"路易斯"
+		"chi"	"路易斯"
+	}
+	"Francis"
+	{
+		"en"	"Francis"
+		"zho"	"法蘭西斯"
+		"chi"	"弗朗西斯"
+	}
+	"Bill (Model)"
+	{
+		"en"	"Bill (Model)"
+		"zho"	"比爾 (外觀)"
+		"chi"	"比尔 (外观)"
+	}
+	"Zoey (Model)"
+	{
+		"en"	"Zoey (Model)"
+		"zho"	"若依 (外觀)"
+		"chi"	"佐伊 (外观)"
+	}
+	"Louis (Model)"
+	{
+		"en"	"Louis (Model)"
+		"zho"	"路易斯 (外觀)"
+		"chi"	"路易斯 (外观)"
+	}
+	"Francis (Model)"
+	{
+		"en"	"Francis (Model)"
+		"zho"	"法蘭西斯 (外觀)"
+		"chi"	"弗朗西斯 (外观)"
+	}
+	"Nick"
+	{
+		"en"	"Nick"
+		"zho"	"尼克"
+		"chi"	"Nick"
+	}
+	"Rochelle"
+	{
+		"en"	"Rochelle"
+		"zho"	"蘿雪兒"
+		"chi"	"Rochelle"
+	}
+	"Coach"
+	{
+		"en"	"Coach"
+		"zho"	"教練"
+		"chi"	"Coach"
+	}
+	"Ellis"
+	{
+		"en"	"Ellis"
+		"zho"	"艾利斯"
+		"chi"	"Ellis"
+	}
+	"Nick (Model)"
+	{
+		"en"	"Nick (Model)"
+		"zho"	"尼克 (外觀)"
+		"chi"	"Nick (外观)"
+	}
+	"Rochelle (Model)"
+	{
+		"en"	"Rochelle (Model)"
+		"zho"	"蘿雪兒 (外觀)"
+		"chi"	"Rochelle (外观)"
+	}
+	"Coach (Model)"
+	{
+		"en"	"Coach (Model)"
+		"zho"	"教練 (外觀)"
+		"chi"	"Coach (外观)"
+	}
+	"Ellis (Model)"
+	{
+		"en"	"Ellis (Model)"
+		"zho"	"艾利斯 (外觀)"
+		"chi"	"Ellis (外观)"
+	}
+	"Target is not in Game, choose again!"
+	{
+		"en"	"Target is not in Game, choose again!"
+		"zho"	"目標玩家不存在，請重新選擇！"
+		"chi"	"目标玩家不存在，请重新选择！"
+	}
+	"AnnounceCharSelect"
+	{
+		"en"	"Type {green}!csm{default} in chat to change your {olive}character{default} (outside appearance, abilities and sounds) or {olive}model{default} (outside apperance)."
+		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀, 手 和 語音) 或是 {olive}模組{default} (只有外觀)."
+		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观, 手 和 语音) 或是 {olive}模组{default} (只有外观)."
+	}
+	"AnnounceCharSelect2"
+	{
+		"en"	"Type !csm in chat to change your character or model."
+		"zho"	"聊天視窗輸入 !csm 可更換角色(外觀, 手 和 語音)或是模組(只有外觀)."
+		"chi"	"聊天视窗输入 !csm 可更换角色(外观, 手 和 语音)或是模组(只有外观)."
+	}
+	"Character Select Menu is currently disabled."
+	{
+		"en"	"Character Select Menu is currently disabled."
+		"zho"	"CSM角色選擇介面目前不能使用"
+		"chi"	"CSM角色选择界面目前不能使用"
+	}
+	"You don't have access"
+	{
+		"en"	"You don't have access to use Character Select Menu"
+		"zho"	"你沒有權限使用 CSM角色選擇介面"
+		"chi"	"你没有权限使用 CSM角色选择界面"
+	}
+	"Character Select Menu is only available to survivors."
+	{
+		"en"	"Character Select Menu is only available to survivors."
+		"zho"	"只限倖存者使用 CSM角色選擇介面"
+		"chi"	"只限生还者使用 CSM角色选择界面"
+	}
+	"You must be alive to use the Character Select Menu!"
+	{
+		"en"	"You must be alive to use the Character Select Menu!"
+		"zho"	"死人不能使用 CSM角色選擇介面"
+		"chi"	"死人不能使用 CSM角色选择界面"
+	}
+	"limit"
+	{
+		"en"	"You cannot change your character again until next round (limit reached)."
+		"zho"	"直到下回合之前不能使用 CSM角色選擇介面 (次數已達限制)"
+		"chi"	"直到下回合之前不能使用 CSM角色选择界面 (次数已达限制)"
+	}
+	"Your character"
+	{
+		"#format" 		"{1:t}"
+		"en"	"Your character is now {green}{1}{default}"
+		"zho"	"你的角色目前為 {green}{1}{default}"
+		"chi"	"你的角色目前为 {green}{1}{default}"
+	}
+	"Your character2"
+	{
+		"#format" 		"{1:t}"
+		"en"	"Your character is now {1}"
+		"zho"	"你的角色目前為 {1}"
+		"chi"	"你的角色目前为 {1}"
+	}
+	"Choose a character"
+	{
+		"en"	"Your character is now {1}"
+		"zho"	"角色選擇列表"
+		"chi"	"角色选择列表"
+	}
+	"Player List"
+	{
+		"en"	"Player List"
+		"zho"	"玩家列表"
+		"chi"	"玩家列表"
+	}
+}
+

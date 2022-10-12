@@ -23,7 +23,7 @@ L4D2
 		* Add Cvars to tell if Target is self or teammate bot or teammate real player
 
 	* v2.1
-		* [Original Post by SilverShot](https://forums.alliedmods.net/showthread.php?t=338889)
+		* [By SilverShot](https://forums.alliedmods.net/showthread.php?t=338889)
 </details>
 
 * Require | 必要安裝

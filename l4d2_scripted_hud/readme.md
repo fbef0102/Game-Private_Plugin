@@ -22,7 +22,7 @@ L4D2
 		* Kill Infected Counter Rank by Harry (HUD3_Text)
 
 	* v1.0.2
-		* [Original Post by Marttt](https://forums.alliedmods.net/showthread.php?p=2740016)
+		* [By Marttt](https://forums.alliedmods.net/showthread.php?p=2740016)
 </details>
 
 * Require | 必要安裝

@@ -31,7 +31,7 @@ L4D2
 		* Add rock's self kill timer
 
 	* v1.0
-		* [Original Post by Pan Xiaohai](https://forums.alliedmods.net/showthread.php?t=134537)
+		* [By Pan Xiaohai](https://forums.alliedmods.net/showthread.php?t=134537)
 </details>
 
 * Require | 必要安裝

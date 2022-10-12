@@ -16,9 +16,25 @@ L4D1
 L4D2
 ```
 
+* Translation Support | 支援翻譯
+```
+English
+繁體中文
+简体中文
+```
+
 * <details><summary>Changelog | 版本日誌</summary>
 
+	```php
+	//ReFlexPoison @ 2013
+	//Harry @ 2022
+	```
 	* v1.2
+		* Remake Code
+		* Add more cvars
+
+    * v1.0
+	    * [By ReFlexPoison](https://forums.alliedmods.net/showthread.php?p=1905436)
 </details>
 
 * Require | 必要安裝

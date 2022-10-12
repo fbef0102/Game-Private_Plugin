@@ -29,7 +29,7 @@ L4D2
 		* More Cvars
 
 	* v1.0.1
-		* [Original Post by paegus](https://forums.alliedmods.net/showthread.php?p=895212)
+		* [By paegus](https://forums.alliedmods.net/showthread.php?p=895212)
 </details>
 
 * Require | 必要安裝

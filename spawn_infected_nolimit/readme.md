@@ -19,12 +19,11 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
 	* v1.2.3
 		* Create Native by Harry
 
 	* v1.2.2
-		* [Original Post by Shadowysn](https://forums.alliedmods.net/showthread.php?t=320849)
+		* [By Shadowysn](https://forums.alliedmods.net/showthread.php?t=320849)
 </details>
 
 * Require | 必要安裝

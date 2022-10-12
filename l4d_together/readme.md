@@ -28,7 +28,7 @@ L4D2
         * More cvars
 
 	* v1.0.2
-		* [Original Post by panxiaohai](https://forums.alliedmods.net/showthread.php?p=2740016)
+		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?p=2740016)
 </details>
 
 * Require | 必要安裝

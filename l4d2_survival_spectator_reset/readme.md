@@ -18,7 +18,6 @@ L4D2 Survival
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
 	* v1.0
 		* Original Request by Dam Dam
 </details>
