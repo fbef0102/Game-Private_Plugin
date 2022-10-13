@@ -1,0 +1,113 @@
+/*Credit: Mutant_Tanks
+* https://github.com/Psykotikism/Mutant_Tanks/blob/master/addons/sourcemod/gamedata/mutant_tanks.txt
+*/
+"Games"
+{
+	"left4dead"
+	{
+		"Offsets"
+		{
+			/**
+			 * Tank::GetIntentionInterface()
+			 *
+			 * How to find on Linux/Mac:
+			 * 1. Locate the function.
+			 * 2. Multiply the member variable offset by 4.
+			 *
+			 * How to find on Windows:
+			 * 1. Find the function's offsets with asherkin's VTable dump.
+			 * 2. In IDA Pro, go to the ".rdata" section of the Windows binary.
+			 * 3. Search for "Tank::`vftable'" to jump to the "Tank" vtable.
+			 * 4. Compare your dump's offsets with asherkin's dump's offsets to find the target function.
+			 * 5. Look for the target function in the target binary.
+			 * 6. Multiply the member variable offset by 4.
+			 **/
+			"Tank::GetIntentionInterface::Intention"
+			{
+				"linux"		"11940"
+				"mac"		"11940"
+				"windows"	"11924"
+			}
+
+			/**
+			 * Action<Tank>::FirstContainedResponder()
+			 *
+			 * How to find:
+			 * 1. Use asherkin's VTable dump.
+			 **/
+			"Action<Tank>::FirstContainedResponder"
+			{
+				"linux"		"2"
+				"mac"		"2"
+				"windows"	"1"
+			}
+
+			/**
+			 * TankIdle::GetName()
+			 *
+			 * How to find:
+			 * 1. Use asherkin's VTable dump.
+			 **/
+			"TankIdle::GetName"
+			{
+				"linux"		"36"
+				"mac"		"36"
+				"windows"	"35"
+			}
+		}
+	}
+
+	"left4dead2"
+	{
+		"Offsets"
+		{
+			/**
+			 * Tank::GetIntentionInterface()
+			 *
+			 * How to find on Linux/Mac:
+			 * 1. Locate the function.
+			 * 2. Multiply the member variable offset by 4.
+			 *
+			 * How to find on Windows:
+			 * 1. Find the function's offsets with asherkin's VTable dump.
+			 * 2. In IDA Pro, go to the ".rdata" section of the Windows binary.
+			 * 3. Search for "Tank::`vftable'" to jump to the "Tank" vtable.
+			 * 4. Compare your dump's offsets with asherkin's dump's offsets to find the target function.
+			 * 5. Look for the target function in the target binary.
+			 * 6. Multiply the member variable offset by 4.
+			 **/
+			"Tank::GetIntentionInterface::Intention"
+			{
+				"linux"		"17176"
+				"mac"		"17176"
+				"windows"	"17204"
+			}
+
+			/**
+			 * Action<Tank>::FirstContainedResponder()
+			 *
+			 * How to find:
+			 * 1. Use asherkin's VTable dump.
+			 **/
+			"Action<Tank>::FirstContainedResponder"
+			{
+				"linux"		"2"
+				"mac"		"2"
+				"windows"	"1"
+			}
+
+			/**
+			 * TankIdle::GetName()
+			 *
+			 * How to find:
+			 * 1. Use asherkin's VTable dump.
+			 **/
+			"TankIdle::GetName"
+			{
+				"linux"		"41"
+				"mac"		"41"
+				"windows"	"40"
+			}
+		}
+	}
+}
