@@ -114,6 +114,8 @@
     
 22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
+23. [l4d_h_csm (Harry Version)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+    - typ !csm to open menu
 - - - -
 ## Fun
 1. [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.

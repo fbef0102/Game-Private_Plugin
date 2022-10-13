@@ -122,6 +122,9 @@
     
 22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
     - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
+
+23. [l4d_h_csm (哈利版本)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+    - 此為CSM插件重製版，輸入!csm打開角色選擇介面
 - - - -
 ## 娛樂檔案
 1. [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活

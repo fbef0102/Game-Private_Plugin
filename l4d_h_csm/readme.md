@@ -11,8 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* display message
 	> 訊息
 	<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
-	* display menu
-	> CSM 角色選擇介面
+	* typ !csm to open menu
+	> 輸入!csm 打開角色選擇介面
 	<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
 
 * Apply to | 適用於
@@ -76,7 +76,8 @@ English
 </details>
 
 * Notice
-    * If you only change model only, charactor voice still not changed. To fix this problem, install [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
+	* Either changing character or changinge model, you could encounter bunch of bugs, such as charger stop bug, witch incorrect target bug..., read [8+_Survivors_In_Coop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop#require) to install require plugins to fix.
+    * If you change model only, charactor voice still not changed. To fix this problem, install [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
 - - - -
 # 中文說明
@@ -89,6 +90,7 @@ English
 	* 三方圖自動判定主角為一代還是二代角色
 
 * 注意事項
+	* 無論是改變角色或是只切換模組，可能會遇到很多麻煩的bug，譬如Witch追錯人、Charger無法撞開玩家等等之類，請閱讀這篇文章[8位玩家遊玩戰役模式](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F#%E5%BF%85%E8%A6%81%E6%AA%94%E6%A1%88) 安裝必要檔案以修正.
     * 選擇更換模組只有外觀改變，語音還是原本的角色，如果要修正語音請安裝[l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
 * 功能
