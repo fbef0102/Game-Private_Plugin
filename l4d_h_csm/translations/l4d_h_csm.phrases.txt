@@ -109,8 +109,8 @@
 	"AnnounceCharSelect"
 	{
 		"en"	"Type {green}!csm{default} in chat to change your {olive}character{default} (outside appearance, abilities and sounds) or {olive}model{default} (outside apperance)."
-		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀, 手 和 語音) 或是 {olive}模組{default} (只有外觀)."
-		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观, 手 和 语音) 或是 {olive}模组{default} (只有外观)."
+		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀,手和語音) 或是 {olive}模組{default} (只有外觀)."
+		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观,手和语音) 或是 {olive}模组{default} (只有外观)."
 	}
 	"AnnounceCharSelect2"
 	{
