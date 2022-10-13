@@ -3,7 +3,7 @@
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
-    - [Install](#install)
+    - [Require](#require)
     - [Optional](#optional)
     - [Fun](#fun)
     - [Others](#others)
@@ -30,7 +30,7 @@
    - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
 - - - -
-## Install
+## Require
 1. [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
