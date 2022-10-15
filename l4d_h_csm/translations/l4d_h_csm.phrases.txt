@@ -109,8 +109,8 @@
 	"AnnounceCharSelect"
 	{
 		"en"	"Type {green}!csm{default} in chat to change your {olive}character{default} (outside appearance, abilities and sounds) or {olive}model{default} (outside apperance)."
-		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀,手和語音) 或是 {olive}模組{default} (只有外觀)."
-		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观,手和语音) 或是 {olive}模组{default} (只有外观)."
+		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀, 手 和 語音) 或是 {olive}模組{default} (只有外觀)."
+		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观, 手 和 语音) 或是 {olive}模组{default} (只有外观)."
 	}
 	"AnnounceCharSelect2"
 	{
@@ -120,33 +120,37 @@
 	}
 	"Character Select Menu is currently disabled."
 	{
-		"en"	"Character Select Menu is currently disabled."
-		"zho"	"CSM角色選擇介面目前不能使用"
-		"chi"	"CSM角色选择界面目前不能使用"
+		"#format" 		"{1:t}"
+		"en"	"Character Select {1} is currently disabled."
+		"zho"	"CSM角色選擇{1}目前不能使用"
+		"chi"	"CSM角色选择{1}目前不能使用"
 	}
 	"You don't have access"
 	{
-		"en"	"You don't have access to use Character Select Menu"
-		"zho"	"你沒有權限使用 CSM角色選擇介面"
-		"chi"	"你没有权限使用 CSM角色选择界面"
+		"#format" 		"{1:t}"
+		"en"	"You don't have access to use Character Select {1}"
+		"zho"	"你沒有權限使用 CSM角色選擇{1}"
+		"chi"	"你没有权限使用 CSM角色选择{1}"
 	}
 	"Character Select Menu is only available to survivors."
 	{
-		"en"	"Character Select Menu is only available to survivors."
-		"zho"	"只限倖存者使用 CSM角色選擇介面"
-		"chi"	"只限生还者使用 CSM角色选择界面"
+		"#format" 		"{1:t}"
+		"en"	"Character Select {1} is only available to survivors."
+		"zho"	"只限倖存者使用 CSM角色選擇{1}"
+		"chi"	"只限生还者使用 CSM角色选择{1}"
 	}
 	"You must be alive to use the Character Select Menu!"
 	{
-		"en"	"You must be alive to use the Character Select Menu!"
-		"zho"	"死人不能使用 CSM角色選擇介面"
-		"chi"	"死人不能使用 CSM角色选择界面"
+		"#format" 		"{1:t}"
+		"en"	"You must be alive to use the Character Select {1}!"
+		"zho"	"死人不能使用 CSM角色選擇{1}"
+		"chi"	"死人不能使用 CSM角色选择{1}"
 	}
 	"limit"
 	{
 		"en"	"You cannot change your character again until next round (limit reached)."
-		"zho"	"直到下回合之前不能使用 CSM角色選擇介面 (次數已達限制)"
-		"chi"	"直到下回合之前不能使用 CSM角色选择界面 (次数已达限制)"
+		"zho"	"直到下回合之前不能更換角色或模型 (次數已達限制)"
+		"chi"	"直到下回合之前不能使用角色或模型 (次数已达限制)"
 	}
 	"Your character"
 	{
@@ -173,6 +177,18 @@
 		"en"	"Player List"
 		"zho"	"玩家列表"
 		"chi"	"玩家列表"
+	}
+	"Menu"
+	{
+		"en"	"Menu"
+		"zho"	"介面"
+		"chi"	"界面"
+	}
+	"Command"
+	{
+		"en"	"Command"
+		"zho"	"命令"
+		"chi"	"命令"
 	}
 }
 

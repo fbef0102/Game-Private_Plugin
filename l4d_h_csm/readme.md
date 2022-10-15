@@ -38,6 +38,7 @@ English
 		* Remake code
 		* Remove unuseful cvars
 		* Safely change character and model
+		* Add command to change model directly
 		* Request by Yabi
 
 	* 2.5a/b
@@ -72,11 +73,66 @@ English
 
 * <details><summary>Command | 命令</summary>
 	
-	None
+	* **Brings up a menu to select a different character**
+		```php
+		sm_csm
+		```
+
+	* **Brings up a menu to select a client's character (Adm required: ADMFLAG_GENERIC)**
+		```php
+		sm_csc
+		```
+
+	* **Change character model to Coach**
+		```php
+		sm_c
+		sm_coach
+		```
+
+	* **Change character model to Nick**
+		```php
+		sm_n
+		sm_nick
+		```
+
+	* **Change character model to Ellis**
+		```php
+		sm_e
+		sm_ellis
+		```
+
+	* **Change character model to Rochelle**
+		```php
+		sm_r
+		sm_rochelle
+		```
+	* **Change character model to Louis**
+		```php
+		sm_l
+		sm_louis
+		```
+
+	* **Change character model to bill**
+		```php
+		sm_b
+		sm_bill
+		```
+
+	* **Change character model to Zoey**
+		```php
+		sm_z
+		sm_zoey
+		```
+
+	* **Change character model to Franics**
+		```php
+		sm_f
+		sm_franics
+		```
 </details>
 
 * Notice
-	* Either changing character or changinge model, you could encounter bunch of bugs, such as charger stop bug, witch incorrect target bug..., read [8+_Survivors_In_Coop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop#require) to install require plugins to fix.
+	* Either changing character or changinge model only, you could encounter bunch of bugs, such as charger stop bug, witch incorrect target bug..., read [8+_Survivors_In_Coop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop#require) to install require plugins to fix.
     * If you change model only, charactor voice still not changed. To fix this problem, install [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
 - - - -
