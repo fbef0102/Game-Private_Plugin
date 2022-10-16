@@ -136,7 +136,7 @@ L4D2
 				"trigger_multiple_hammerid"		"456409" 			// CEDA拖車區域的專屬hammerid (不能修改)
 				"get_inside_time"			"50"	 			// 倒數計時秒數
 				"outside_damage"			"10" 				// 每秒對電梯CEDA拖車外的玩家造成的傷害
-				"message"				"elevator" 			// 通知所有人這是CEDA拖車 (可自行修改)
+				"message"				"CEDA Trailer" 			// 通知所有人這是CEDA拖車 (可自行修改)
 			}
 		}
 	}
