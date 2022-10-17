@@ -64,4 +64,9 @@
 		"no_tank" "0"
 		"no_witch" "1"
 	}
+	"c6m1_riverbank"
+	{
+		"witch_bride_map" "1"
+		"no_witch" "1"
+	}
 }

@@ -1,5 +1,5 @@
 # Description | 內容
-Sets a tank and witch spawn point on every map in versus
+Sets a tank and witch spawn point on every map in versus + Makes Versus Boss Spawns obey cvars
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -23,6 +23,8 @@ L4D2 versus
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+	* v1.4
+	    * Makes Versus Boss Spawns obey cvars
 
 	* v1.3
 	    * Original Request by Anzu
@@ -109,6 +111,12 @@ L4D2 versus
 		```php
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
 		l4d_versus_boss_avoid_tank_spawn "10"
+
+		// Enable forcing boss spawns to obey boss spawn cvars
+		l4d_versus_boss_spawn_cvars "1"
+
+		// Don't override boss spawning rules on Static Tank Spawn maps (c7m1, c13m2)
+		l4d_versus_boss_spawn_except_static "1"
 
 		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
 		l4d_versus_boss_vote "1"

@@ -18,8 +18,14 @@
 	}
 	"c1m2_streets"
 	{
-		"tank_map_off" "1"
-		"witch_map_off" "1"
+		"tank_ban_flow"
+		{
+			"One way drop"
+			{
+				"min"		"49"
+				"max"		"55"
+			}
+		}
 	}
 	"c1m3_mall"
 	{
@@ -40,28 +46,425 @@
 			}
 		}
 	}
+	"c1m4_atrium"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c2m1_highway"
+	{
+		"witch_ban_flow"
+		{
+			"One way drop platforms"
+			{
+				"min"		"71"
+				"max"		"73"
+			}
+		}
+	}
 	"c2m2_fairgrounds"
+	{
+		"witch_ban_flow"
+		{
+			"Ladder"
+			{
+				"min"		"54"
+				"max"		"58"
+			}
+			"Start of event"
+			{
+				"min"		"78"
+				"max"		"87"
+			}
+		}
+	}
+	"c2m3_coaster"
 	{
 		"tank_ban_flow"
 		{
-			"tank ban test"
+			"Coaster Start"
+			{
+				"min"		"56"
+				"max"		"100"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Start of coaster"
+			{
+				"min"		"53"
+				"max"		"70"
+			}
+		}
+	}
+	"c2m4_barns"
+	{
+		"witch_ban_flow"
+		{
+			"Event 2nd stage"
+			{
+				"min"		"83"
+				"max"		"100"
+			}
+		}
+	}
+	"c3m1_plankcountry"
+	{
+		"tank_ban_flow"
+		{
+			"Before ferry (bugged spawn)"
+			{
+				"min"		"45"
+				"max"		"62"
+			}
+		}
+	}
+	"c4m1_milltown_a"
+	{
+		"tank_ban_flow"
+		{
+			"Early spawns"
+			{
+				"min"		"0"
+				"max"		"20"
+			}
+		}
+	}
+	"c4m2_sugarmill_a"
+	{
+		"tank_ban_flow"
+		{
+			"Field"
+			{
+				"min"		"80"
+				"max"		"100"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Field"
+			{
+				"min"		"80"
+				"max"		"100"
+			}
+		}
+	}
+	"c4m3_sugarmill_b"
+	{
+		"tank_ban_flow"
+		{
+			"Elevator"
+			{
+				"min"		"30"
+				"max"		"36"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Field and elevator"
+			{
+				"min"		"0"
+				"max"		"29"
+			}
+		}
+	}
+	"c4m4_milltown_b"
+	{
+		"witch_ban_flow"
+		{
+			"Ladder"
+			{
+				"min"		"33"
+				"max"		"54"
+			}
+		}
+	}
+	"c4m5_milltown_escape"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c5m1_waterfront"
+	{
+		"tank_ban_flow"
+		{
+			"Early spawns"
+			{
+				"min"		"0"
+				"max"		"38"
+			}
+		}
+	}
+	"c5m2_park"
+	{
+		"tank_ban_flow"
+		{
+			"CEDA trailer"
+			{
+				"min"		"49"
+				"max"		"54"
+			}
+		}
+	}
+	"c5m3_cemetery"
+	{
+		"tank_ban_flow"
+		{
+			"Sewer and parking lot"
+			{
+				"min"		"54"
+				"max"		"70"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Bus"
+			{
+				"min"		"0"
+				"max"		"29"
+			}
+			"Sewer and early parking lot"
+			{
+				"min"		"52"
+				"max"		"63"
+			}
+		}
+	}
+	"c5m4_quarter"
+	{
+		"tank_ban_flow"
+		{
+			"Last one way drop"
+			{
+				"min"		"80"
+				"max"		"100"
+			}
+		}
+	}
+	"c5m5_bridge"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c6m1_riverbank"
+	{
+		"witch_map_off"	"1"
+		"witch_bride_map" "1"
+	}
+	"c6m2_bedlam"
+	{
+		"tank_ban_flow"
+		{
+			"Event (bugged spawn)"
+			{
+				"min"		"74"
+				"max"		"100"
+			}
+		}
+	}
+	"c6m3_port"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c7m1_docks"
+	{
+		"tank_map_off"	"1"
+		"static_tank_map"	"1"
+	}
+	"c7m2_barge"
+	{
+		"tank_ban_flow"
+		{
+			"Event (bugged spawn)"
+			{
+				"min"		"72"
+				"max"		"78"
+			}
+		}
+	}
+	"c7m3_port"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c8m3_sewers"
+	{
+		"tank_ban_flow"
+		{
+			"Late warehouse and before one way drop"
+			{
+				"min"		"50"
+				"max"		"70"
+			}
+			"During event"
+			{
+				"min"		"29"
+				"max"		"35"
+			}
+			"Early spawns"
+			{
+				"min"		"0"
+				"max"		"22"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Ladder"
+			{
+				"min"		"84"
+				"max"		"100"
+			}
+		}
+	}
+	"c8m4_interior"
+	{
+		"tank_ban_flow"
+		{
+			"Before elevator (bugged spawn)"
+			{
+				"min"		"42"
+				"max"		"81"
+			}
+		}
+	}
+	"c8m5_rooftop"
+	{
+		"tank_ban_flow"
+		{
+			"Early spawn"
+			{
+				"min"		"0"
+				"max"		"45"
+			}
+		}
+	}
+	"c10m1_caves"
+	{
+		"witch_ban_flow"
+		{
+			"Ladders"
+			{
+				"min"		"29"
+				"max"		"35"
+			}
+		}
+	}
+	"c10m4_mainstreet"
+	{
+		"tank_ban_flow"
+		{
+			"Start of event"
+			{
+				"min"		"68"
+				"max"		"75"
+			}
+		}
+	}
+	"c11m4_terminal"
+	{
+		"witch_ban_flow"
+		{
+			"Behind fence"
+			{
+				"min"		"31"
+				"max"		"43"
+			}
+		}
+	}
+	"c12m1_hilltop"
+	{
+		"tank_ban_flow"
+		{
+			"Early spawns"
 			{
 				"min"		"0"
 				"max"		"50"
 			}
 		}
-		"witch_ban_flow"
+	}
+	"c12m3_bridge"
+	{
+		"tank_ban_flow"
 		{
-			"witch ban test"
+			"Late spawns (bugged spawn)"
 			{
-				"min"		"50"
+				"min"		"81"
 				"max"		"100"
 			}
 		}
 	}
-	"c2m5_concert"
+	"c12m4_barn"
 	{
-		"tank_map_off" "1"
-		"witch_map_off" "1"
+		"tank_ban_flow"
+		{
+			"Warehouse"
+			{
+				"min"		"39"
+				"max"		"54"
+			}
+		}
+	}
+	"c12m5_cornfield"
+	{
+		"tank_ban_flow"
+		{
+			"After one way drop"
+			{
+				"min"		"80"
+				"max"		"100"
+			}
+		}
+	}
+	"c13m1_alpinecreek"
+	{
+		"tank_ban_flow"
+		{
+			"After one way drop"
+			{
+				"min"		"87"
+				"max"		"100"
+			}
+		}
+	}
+	"c13m2_southpinestream"
+	{
+		"tank_map_off"	"1"
+		"static_tank_map"	"1"
+		"tank_ban_flow"
+		{
+			"Event"
+			{
+				"min"		"82"
+				"max"		"100"
+			}
+		}
+	}
+	"c13m3_memorialbridge"
+	{
+		"tank_ban_flow"
+		{
+			"Event and bridge descent"
+			{
+				"min"		"52"
+				"max"		"64"
+			}
+		}
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"tank_map_off"	"1"
+		"witch_map_off"	"1"
+	}
+	"c14m2_lighthouse"
+	{
+		"tank_ban_flow"
+		{
+			"Early spawns"
+			{
+				"min"		"0"
+				"max"		"30"
+			}
+		}
 	}
 }
