@@ -87,7 +87,7 @@ L4D2 Coop/Versus/Realism
 		//Item density, Items per 100 yards square
 		sm_cvar director_pain_pill_density 		"6.48"
 		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 		"6.48"
+		sm_cvar director_defibrillator_density 	"6.48"
 		sm_cvar director_molotov_density 		"6.48"
 		sm_cvar director_pipe_bomb_density 		"6.48"
 		sm_cvar director_vomitjar_density 		"6.48"
@@ -199,7 +199,7 @@ L4D2 Coop/Versus/Realism
 		//物品生成密度，每 100 碼平方單位生成的數量 (數字越大，地圖上物品數量越多)
 		sm_cvar director_pain_pill_density 		"6.48"
 		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 		"6.48"
+		sm_cvar director_defibrillator_density 	"6.48"
 		sm_cvar director_molotov_density 		"6.48"
 		sm_cvar director_pipe_bomb_density 		"6.48"
 		sm_cvar director_vomitjar_density 		"6.48"
