@@ -18,10 +18,8 @@ L4D2 Coop
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
 	* v1.3
 		* Original Request by 壹梦
-	```
 </details>
 
 * Require | 必要安裝

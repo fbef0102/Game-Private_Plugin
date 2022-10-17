@@ -26,6 +26,7 @@ English
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v2.3
+		* Initial Release
 </details>
 
 * Require | 必要安裝

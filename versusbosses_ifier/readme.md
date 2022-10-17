@@ -23,6 +23,7 @@ L4D2 versus
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
 	* v1.4
 	    * Makes Versus Boss Spawns obey cvars
 
@@ -39,6 +40,10 @@ L4D2 versus
 * Optional | 輔助插件
 	1. [readyup](https://github.com/fbef0102/Game-Private_Plugin/tree/main/readyup): Ready Plugin
 		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
+
+* Similar Plugin | 相似插件
+	1. [coopbosses_ifier](https://github.com/fbef0102/Game-Private_Plugin/tree/main/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * Related | 相關插件
 	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
