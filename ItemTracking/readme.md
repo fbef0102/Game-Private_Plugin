@@ -17,6 +17,7 @@ L4D2 Coop/Versus/Realism
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+	
 	* v1.0h
 	    * Request by Anzu
 		* Individual plugin
