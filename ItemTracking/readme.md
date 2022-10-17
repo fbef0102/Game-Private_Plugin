@@ -37,28 +37,28 @@ L4D2 Coop/Versus/Realism
 		"c4m1_milltown_a" //Map Name
 		{
 			"start_point"		"-6008.747070 7381.954590 192.909424" //start safe area center point (do not modify)
-			"end_point"			"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
+			"end_point"		"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
 			"start_dist"		"100.000000" //start safe area distance (do not modify)
 			"start_extra_dist"	"500.000000" //start safe area distance extra (do not modify)
-			"end_dist"			"275.000000" //end safe area/final area distance extra (do not modify)
+			"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
 			"ItemLimits"
 			{
 				"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (Use cvar "pills_limit" if no keyvalue)
 				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (Use cvar "adrenaline_limit" if no keyvalue)
 				"first_aid_kit"	"0" // Remove any kits outside saferoom/final area (Use cvar "kits_limit" if no keyvalue)
 				"defibrillator"	"0" // Remove any defibrillators outside saferoom/final area (Use cvar "defib_limit" if no keyvalue)
-				"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (Use cvar "pipebomb_limit" if no keyvalue)
-				"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (Use cvar "molotov_limit" if no keyvalue)
-				"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (Use cvar "vomitjar_limit" if no keyvalue)
+				"pipe_bomb"	"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (Use cvar "pipebomb_limit" if no keyvalue)
+				"molotov"	"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (Use cvar "molotov_limit" if no keyvalue)
+				"vomitjar"	"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (Use cvar "vomitjar_limit" if no keyvalue)
 				"StartArea_Removed"
 				{
 					"pain_pills"	"1" // Remove any pills in start safe area (Do Not Remove if no keyvalue)
 					"adrenaline"	"1" // Remove any adrenalines in start safe area (Do Not Remove if no keyvalue)
 					"first_aid_kit"	"1" // Remove any kits in start safe area (Do Not Remove if no keyvalue)
 					"defibrillator"	"1" // Remove any defibrillators in start safe area (Do Not Remove if no keyvalue)
-					"pipe_bomb"		"0" // Do Not Remove any pipebombs in start safe area (Do Not Remove if no keyvalue)
-					"molotov"		"0" // Do Not Remove any molotovs in start safe area (Do Not Remove if no keyvalue)
-					"vomitjar"		"0" // Do Not Remove any vomitjars in start safe area (Do Not Remove if no keyvalue)
+					"pipe_bomb"	"0" // Do Not Remove any pipebombs in start safe area (Do Not Remove if no keyvalue)
+					"molotov"	"0" // Do Not Remove any molotovs in start safe area (Do Not Remove if no keyvalue)
+					"vomitjar"	"0" // Do Not Remove any vomitjars in start safe area (Do Not Remove if no keyvalue)
 				}
 				"EndArea_Removed"
 				{
@@ -66,9 +66,9 @@ L4D2 Coop/Versus/Realism
 					"adrenaline"	"0" // Do Not Remove any adrenalines in end safe area & final area (Do Not Remove if no keyvalue)
 					"first_aid_kit"	"0" // Do Not Remove any kits in end safe area & final area (Do Not Remove if no keyvalue)
 					"defibrillator"	"0" // Do Not Remove any defibrillators in end safe area & final area (Do Not Remove if no keyvalue)
-					"pipe_bomb"		"1" // Remove any pipebombs in end safe area & final area (Do Not Remove if no keyvalue)
-					"molotov"		"1" // Remove any molotovs in end safe area & final area (Do Not Remove if no keyvalue)
-					"vomitjar"		"1" // Remove any vomitjars in end safe area & final area (Do Not Remove if no keyvalue)
+					"pipe_bomb"	"1" // Remove any pipebombs in end safe area & final area (Do Not Remove if no keyvalue)
+					"molotov"	"1" // Remove any molotovs in end safe area & final area (Do Not Remove if no keyvalue)
+					"vomitjar"	"1" // Remove any vomitjars in end safe area & final area (Do Not Remove if no keyvalue)
 				}
 			}
 		}
@@ -82,7 +82,7 @@ L4D2 Coop/Versus/Realism
 		//Item density, Items per 100 yards square
 		sm_cvar director_pain_pill_density 		"6.48"
 		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 	"6.48"
+		sm_cvar director_defibrillator_density 		"6.48"
 		sm_cvar director_molotov_density 		"6.48"
 		sm_cvar director_pipe_bomb_density 		"6.48"
 		sm_cvar director_vomitjar_density 		"6.48"
@@ -140,7 +140,6 @@ L4D2 Coop/Versus/Realism
 * 功能
 	1. 可決定每一關的物品生成數量與限制
 	2. 第二回合之後強制所有物品位置與數量要與第一關相同
-	3. 指令設置預設控制物品數量
 
 * Data設定範例
 	* data/mapinfo.txt
@@ -148,10 +147,10 @@ L4D2 Coop/Versus/Realism
 	"MapInfo"
 	{
 		"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
-		"end_point"			"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
+		"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
 		"start_dist"		"100.000000" //始安全區域範圍 (不要亂改)
 		"start_extra_dist"	"500.000000" //始安全區域額外範圍 (不要亂改)
-		"end_dist"			"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
+		"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
 		"c4m1_milltown_a" //地圖名
 		{
 			"ItemLimits"
@@ -167,29 +166,26 @@ L4D2 Coop/Versus/Realism
 				{
 					"pain_pills"    "1" //移除起始安全區域內藥丸 (如果沒有寫此行，預設不移除)
 					"adrenaline"    "1" //移除起始安全區域內腎上腺素 (如果沒有寫此行，預設不移除)
-					"first_aid_kit"    "1" //移除起始安全區域內治療包 (如果沒有寫此行，預設不移除)
-					"defibrillator"    "1" //移除起始安全區域內電擊器 (如果沒有寫此行，預設不移除)
-					"pipe_bomb"        "0" //不移除起始安全區域內土製炸彈 (如果沒有寫此行，預設不移除)
-					"molotov"        "0" //不移除起始安全區域內汽油彈 (如果沒有寫此行，預設不移除)
-					"vomitjar"        "0" //不移除起始安全區域內膽汁瓶 (如果沒有寫此行，預設不移除)
+					"first_aid_kit" "1" //移除起始安全區域內治療包 (如果沒有寫此行，預設不移除)
+					"defibrillator" "1" //移除起始安全區域內電擊器 (如果沒有寫此行，預設不移除)
+					"pipe_bomb"     "0" //不移除起始安全區域內土製炸彈 (如果沒有寫此行，預設不移除)
+					"molotov"       "0" //不移除起始安全區域內汽油彈 (如果沒有寫此行，預設不移除)
+					"vomitjar"      "0" //不移除起始安全區域內膽汁瓶 (如果沒有寫此行，預設不移除)
 				}
 				"EndArea_Removed"
 				{
 					"pain_pills"    "0" //不移除起始安全區域內藥丸 (如果沒有寫此行，預設不移除)
 					"adrenaline"    "0" //不移除起始安全區域內腎上腺素 (如果沒有寫此行，預設不移除)
-					"first_aid_kit"    "0" //不移除起始安全區域內治療包 (如果沒有寫此行，預設不移除)
-					"defibrillator"    "0" //不移除起始安全區域內電擊器 (如果沒有寫此行，預設不移除)
-					"pipe_bomb"        "1" //移除起始安全區域內土製炸彈 (如果沒有寫此行，預設不移除)
-					"molotov"        "1" //移除起始安全區域內汽油彈 (如果沒有寫此行，預設不移除)
-					"vomitjar"        "1" //移除起始安全區域內膽汁瓶 (如果沒有寫此行，預設不移除)
+					"first_aid_kit" "0" //不移除起始安全區域內治療包 (如果沒有寫此行，預設不移除)
+					"defibrillator" "0" //不移除起始安全區域內電擊器 (如果沒有寫此行，預設不移除)
+					"pipe_bomb"     "1" //移除起始安全區域內土製炸彈 (如果沒有寫此行，預設不移除)
+					"molotov"       "1" //移除起始安全區域內汽油彈 (如果沒有寫此行，預設不移除)
+					"vomitjar"      "1" //移除起始安全區域內膽汁瓶 (如果沒有寫此行，預設不移除)
 				}
 			}
 		}
 	}
 	```
-> 每一張地圖都有地形或地圖問題，<br/>
-在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
-(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
@@ -198,7 +194,7 @@ L4D2 Coop/Versus/Realism
 		//物品生成密度，每 100 碼平方單位生成的數量 (數字越大，地圖上物品數量越多)
 		sm_cvar director_pain_pill_density 		"6.48"
 		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 	"6.48"
+		sm_cvar director_defibrillator_density 		"6.48"
 		sm_cvar director_molotov_density 		"6.48"
 		sm_cvar director_pipe_bomb_density 		"6.48"
 		sm_cvar director_vomitjar_density 		"6.48"
