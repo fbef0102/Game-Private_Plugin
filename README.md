@@ -124,6 +124,8 @@ Accept small change or English translation<br/>
 
   * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
     * 刪除安全室的治療包並替換成別的物品
+  * [ItemTracking](/ItemTracking): Control items limit on map
+    * 控制地圖上的物品數量與限制
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
