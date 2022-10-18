@@ -32,7 +32,7 @@ L4D2 coop/realism
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
-	4. [[INC] readyup](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/readyup.inc)
+	4. Optional - [[INC] readyup](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
 	1. [readyup](https://github.com/fbef0102/Game-Private_Plugin/tree/main/readyup): Ready Plugin
