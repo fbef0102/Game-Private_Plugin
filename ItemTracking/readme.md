@@ -48,32 +48,32 @@ L4D2 Coop/Versus/Realism
 			"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
 			"ItemLimits"
 			{
-				"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (Use cvar "pills_limit" if no keyvalue)
-				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (Use cvar "adrenaline_limit" if no keyvalue)
-				"first_aid_kit"	"0" // Remove any kits outside saferoom/final area (Use cvar "kits_limit" if no keyvalue)
-				"defibrillator"	"0" // Remove any defibrillators outside saferoom/final area (Use cvar "defib_limit" if no keyvalue)
-				"pipe_bomb"	"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (Use cvar "pipebomb_limit" if no keyvalue)
-				"molotov"	"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (Use cvar "molotov_limit" if no keyvalue)
-				"vomitjar"	"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (Use cvar "vomitjar_limit" if no keyvalue)
+				"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (0=Remove All, use cvar "pills_limit" if no keyvalue)
+				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
+				"first_aid_kit"	"0" // Remove any kits outside saferoom/final area (0=Remove All, use cvar "kits_limit" if no keyvalue)
+				"defibrillator"	"0" // Remove any defibrillators outside saferoom/final area (0=Remove All, use cvar "defib_limit" if no keyvalue)
+				"pipe_bomb"	"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
+				"molotov"	"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (0=Remove All, use cvar "molotov_limit" if no keyvalue)
+				"vomitjar"	"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
 				"StartArea_Removed"
 				{
-					"pain_pills"	"1" // Remove any pills in start safe area (Do Not Remove if no keyvalue)
-					"adrenaline"	"1" // Remove any adrenalines in start safe area (Do Not Remove if no keyvalue)
-					"first_aid_kit"	"1" // Remove any kits in start safe area (Do Not Remove if no keyvalue)
-					"defibrillator"	"1" // Remove any defibrillators in start safe area (Do Not Remove if no keyvalue)
-					"pipe_bomb"	"0" // Do Not Remove any pipebombs in start safe area (Do Not Remove if no keyvalue)
-					"molotov"	"0" // Do Not Remove any molotovs in start safe area (Do Not Remove if no keyvalue)
-					"vomitjar"	"0" // Do Not Remove any vomitjars in start safe area (Do Not Remove if no keyvalue)
+					"pain_pills"	"1" // 0=Don't Remove 1=Remove any pills in start safe area (Do Not Remove if no keyvalue)
+					"adrenaline"	"1" // 0=Don't Remove 1=Remove any adrenalines in start safe area (Do Not Remove if no keyvalue)
+					"first_aid_kit"	"1" // 0=Don't Remove 1=Remove any kits in start safe area (Do Not Remove if no keyvalue)
+					"defibrillator"	"1" // 0=Don't Remove 1=Remove any defibrillators in start safe area (Do Not Remove if no keyvalue)
+					"pipe_bomb"	"0" // 0=Don't Remove 1=Remove any pipebombs in start safe area (Do Not Remove if no keyvalue)
+					"molotov"	"0" // 0=Don't Remove 1=Remove any molotovs in start safe area (Do Not Remove if no keyvalue)
+					"vomitjar"	"0" // 0=Don't Remove 1=Remove any vomitjars in start safe area (Do Not Remove if no keyvalue)
 				}
 				"EndArea_Removed"
 				{
-					"pain_pills"	"0" // Do Not Remove any pills in end safe area & final area (Do Not Remove if no keyvalue)
-					"adrenaline"	"0" // Do Not Remove any adrenalines in end safe area & final area (Do Not Remove if no keyvalue)
-					"first_aid_kit"	"0" // Do Not Remove any kits in end safe area & final area (Do Not Remove if no keyvalue)
-					"defibrillator"	"0" // Do Not Remove any defibrillators in end safe area & final area (Do Not Remove if no keyvalue)
-					"pipe_bomb"	"1" // Remove any pipebombs in end safe area & final area (Do Not Remove if no keyvalue)
-					"molotov"	"1" // Remove any molotovs in end safe area & final area (Do Not Remove if no keyvalue)
-					"vomitjar"	"1" // Remove any vomitjars in end safe area & final area (Do Not Remove if no keyvalue)
+					"pain_pills"	"0" // 0=Don't Remove 1=Remove any pills in end safe area & final area (Do Not Remove if no keyvalue)
+					"adrenaline"	"0" // 0=Don't Remove 1=Remove any adrenalines in end safe area & final area (Do Not Remove if no keyvalue)
+					"first_aid_kit"	"0" // 0=Don't Remove 1=Remove any kits in end safe area & final area (Do Not Remove if no keyvalue)
+					"defibrillator"	"0" // 0=Don't Remove 1=Remove any defibrillators in end safe area & final area (Do Not Remove if no keyvalue)
+					"pipe_bomb"	"1" // 0=Don't Remove 1=Remove any pipebombs in end safe area & final area (Do Not Remove if no keyvalue)
+					"molotov"	"1" // 0=Don't Remove 1=Remove any molotovs in end safe area & final area (Do Not Remove if no keyvalue)
+					"vomitjar"	"1" // 0=Don't Remove 1=Remove any vomitjars in end safe area & final area (Do Not Remove if no keyvalue)
 				}
 			}
 		}
