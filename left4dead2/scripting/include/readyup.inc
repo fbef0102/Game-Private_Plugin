@@ -120,7 +120,7 @@ native bool IsInReady();
  *
  * @return          True if no target if specified, or previous ready panel state of target.
  */
-//native bool ToggleReadyPanel(bool show, int target = 0);
+native bool ToggleReadyPanel(bool show, int target = 0);
 
 public SharedPlugin __pl_readyup =
 {
@@ -136,12 +136,13 @@ public SharedPlugin __pl_readyup =
 #if !defined REQUIRE_PLUGIN
 public void __pl_readyup_SetNTVOptional()
 {
-        MarkNativeAsOptional("GetFooterStringAtIndex");
-        MarkNativeAsOptional("FindIndexOfFooterString");
-        MarkNativeAsOptional("EditFooterStringAtIndex");
-        MarkNativeAsOptional("AddStringToReadyFooter");
-        MarkNativeAsOptional("IsInReady");
-        MarkNativeAsOptional("IsClientCaster");
-        MarkNativeAsOptional("IsIDCaster");
+	MarkNativeAsOptional("GetFooterStringAtIndex");
+	MarkNativeAsOptional("FindIndexOfFooterString");
+	MarkNativeAsOptional("EditFooterStringAtIndex");
+	MarkNativeAsOptional("AddStringToReadyFooter");
+	MarkNativeAsOptional("IsInReady");
+	MarkNativeAsOptional("IsClientCaster");
+	MarkNativeAsOptional("IsIDCaster");
+	MarkNativeAsOptional("ToggleReadyPanel");
 }
 #endif
