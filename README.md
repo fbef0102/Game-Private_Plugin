@@ -165,7 +165,7 @@ Accept small change or English translation<br/>
   * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
     * (公開) 倖存者必須等待時間到並集合才能打開終點安全門，有更多功能
   * [anti_end_saferoomdoor](/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
-    * 所有人抵達安全室之前，不得關門
+    * 所有人抵達終點安全室之前，不得關門
   * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
     * 使用Esc->發起投票的人將會被反踢出去伺服器
   * [anti-friendly_fire_V2](/anti-friendly_fire_V2): shoot teammate = shoot yourself V2

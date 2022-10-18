@@ -63,6 +63,9 @@ English
 	// Sets the number of times clients can change their character per round.
 	l4d_h_csm_change_limit "9999"
 
+	// If 1, close Character Select Menu after select
+	l4d_h_csm_close_menu "0"
+
 	// 0=Plugin off, 1=Plugin on.
 	l4d_h_csm_enable "1"
 
