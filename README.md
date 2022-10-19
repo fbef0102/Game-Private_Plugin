@@ -144,6 +144,8 @@ Accept small change or English translation<br/>
     * 特感玩家可以在靈魂狀態自行切換特感種類
   * [versusbosses_ifier](/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus
     * 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+  * [l4d_trade_player](/l4d_trade_player): Type !trade to open a menu to select two players to swap, one from survivor team and another one from infected team.
+    * 輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
 </details>
 
 * <details><summary><b>Survival | 生存模式</b></summary> 
