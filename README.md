@@ -65,6 +65,8 @@ Accept small change or English translation<br/>
     * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
   * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
     * Tank的石頭自動追蹤倖存者
+  * [l4d_NoEscapeTank](/l4d_NoEscapeTank): No Tank Spawn as the rescue vehicle is coming
+    * 救援載具來臨之後不會有Tank來襲
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
