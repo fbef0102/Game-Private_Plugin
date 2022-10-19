@@ -7,17 +7,35 @@
 		"start_dist"		"100.000000" //start safe area distance (do not modify)
 		"start_extra_dist"	"0.000000" //start safe area distance extra (do not modify)
 		"end_dist"			"200.000000" //end safe area/final area distance extra (do not modify)
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"first_aid_kit"	"0" // Remove any kits outside saferoom/final area
-			"StartArea_Removed"
-			{
-				"first_aid_kit"	"0" // Do Not Remove any kits in start safe area
-			}
-			"EndArea_Removed"
-			{
-				"first_aid_kit"	"1" // Remove any kits in end safe area & final area
-			}
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c1m2_streets"
@@ -27,13 +45,35 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"250.000000"
 		"end_dist"			"200.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"first_aid_kit"	"0" // Remove any kits outside saferoom/final area
-			"EndArea_Removed"
-			{
-				"first_aid_kit"	"1" // Remove any kits in end safe area & final area
-			}
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c1m3_mall"
@@ -43,9 +83,35 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"150.000000"
 		"end_dist"			"200.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"first_aid_kit"	"0" // Remove any kits outside saferoom/final area
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c1m4_atrium"
@@ -55,9 +121,35 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"150.000000"
 		"end_dist"			"150.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0" // Remove any pills outside saferoom/final area
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c2m1_highway"
@@ -67,6 +159,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"150.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c2m2_fairgrounds"
 	{
@@ -75,6 +197,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"150.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c2m3_coaster"
 	{
@@ -83,6 +235,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"150.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c2m4_barns"
 	{
@@ -91,6 +273,36 @@
 		"start_dist"		"100.000000"
 		"start_extra_dist"	"150.000000"
 		"end_dist"			"250.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c2m5_concert"
 	{
@@ -99,9 +311,35 @@
 		"start_dist"		"100.000000"
 		"start_extra_dist"	"300.000000"
 		"end_dist"			"150.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0"
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c3m1_plankcountry"
@@ -111,6 +349,36 @@
 		"start_dist"		"100.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"200.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c3m2_swamp"
 	{
@@ -119,6 +387,36 @@
 		"start_dist"		"100.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"200.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c3m3_shantytown"
 	{
@@ -127,6 +425,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"200.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c3m4_plantation"
 	{
@@ -135,47 +463,73 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"200.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0"
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c4m1_milltown_a" //Map Name
 	{
 		"start_point"		"-6008.747070 7381.954590 192.909424" //start safe area center point (do not modify)
-		"end_point"			"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
+		"end_point"		"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
 		"start_dist"		"100.000000" //start safe area distance (do not modify)
 		"start_extra_dist"	"500.000000" //start safe area distance extra (do not modify)
-		"end_dist"			"275.000000" //end safe area/final area distance extra (do not modify)
-		"ItemLimits"
+		"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (Use cvar "pills_limit" if no keyvalue)
-			"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (Use cvar "adrenaline_limit" if no keyvalue)
-			"first_aid_kit"	"0" // Remove any kits outside saferoom/final area (Use cvar "kits_limit" if no keyvalue)
-			"defibrillator"	"0" // Remove any defibrillators outside saferoom/final area (Use cvar "defib_limit" if no keyvalue)
-			"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (Use cvar "pipebomb_limit" if no keyvalue)
-			"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (Use cvar "molotov_limit" if no keyvalue)
-			"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (Use cvar "vomitjar_limit" if no keyvalue)
-			"StartArea_Removed"
-			{
-				"pain_pills"	"1" // Remove any pills in start safe area (Do Not Remove if no keyvalue)
-				"adrenaline"	"1" // Remove any adrenalines in start safe area (Do Not Remove if no keyvalue)
-				"first_aid_kit"	"1" // Remove any kits in start safe area (Do Not Remove if no keyvalue)
-				"defibrillator"	"1" // Remove any defibrillators in start safe area (Do Not Remove if no keyvalue)
-				"pipe_bomb"		"0" // Do Not Remove any pipebombs in start safe area (Do Not Remove if no keyvalue)
-				"molotov"		"0" // Do Not Remove any molotovs in start safe area (Do Not Remove if no keyvalue)
-				"vomitjar"		"0" // Do Not Remove any vomitjars in start safe area (Do Not Remove if no keyvalue)
-			}
-			"EndArea_Removed"
-			{
-				"pain_pills"	"0" // Do Not Remove any pills in end safe area & final area (Do Not Remove if no keyvalue)
-				"adrenaline"	"0" // Do Not Remove any adrenalines in end safe area & final area (Do Not Remove if no keyvalue)
-				"first_aid_kit"	"0" // Do Not Remove any kits in end safe area & final area (Do Not Remove if no keyvalue)
-				"defibrillator"	"0" // Do Not Remove any defibrillators in end safe area & final area (Do Not Remove if no keyvalue)
-				"pipe_bomb"		"1" // Remove any pipebombs in end safe area & final area (Do Not Remove if no keyvalue)
-				"molotov"		"1" // Remove any molotovs in end safe area & final area (Do Not Remove if no keyvalue)
-				"vomitjar"		"1" // Remove any vomitjars in end safe area & final area (Do Not Remove if no keyvalue)
-			}
+			"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pills_limit" if no keyvalue)
+			"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
+			"first_aid_kit"	"2" // Randomly Remove kits until 2 kits left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "kits_limit" if no keyvalue)
+			"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "defib_limit" if no keyvalue)
+			"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
+			"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "molotov_limit" if no keyvalue)
+			"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"2" // Randomly remove pills until 2 pills left in start safe area (-1=No Limit;0=Remove All, use cvar "pills_start_area_limit" if no keyvalue)
+			"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in start safe area (-1=No Limit;0=Remove All, use cvar "adrenaline_start_area_limit" if no keyvalue)
+			"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in start safe area (-1=No Limit;0=Remove All, use cvar "kits_start_area_limit" if no keyvalue)
+			"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in start safe area (-1=No Limit;0=Remove All, use cvar "defib_start_area_limit" if no keyvalue)
+			"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in start safe area (-1=No Limit;0=Remove All, use cvar "pipebomb_start_area_limit" if no keyvalue)
+			"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=No Limit;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
+			"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=No Limit;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
+			"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
+			"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
+			"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
+			"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
+			"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
+			"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
 		}
 	}
 	"c4m2_sugarmill_a"
@@ -185,6 +539,36 @@
 		"start_dist"		"100.000000"
 		"start_extra_dist"	"250.000000"
 		"end_dist"			"150.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c4m3_sugarmill_b"
 	{
@@ -193,6 +577,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"300.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c4m4_milltown_b"
 	{
@@ -201,6 +615,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"275.000000"
 		"end_dist"			"200.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c4m5_milltown_escape"
 	{
@@ -209,9 +653,35 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"350.000000"
 		"end_dist"			"100.000000"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0"
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c5m1_waterfront"
@@ -221,6 +691,36 @@
 		"start_dist"		"75.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"250.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c5m2_park"
 	{
@@ -229,6 +729,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"250.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c5m3_cemetery"
 	{
@@ -237,6 +767,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"250.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c5m4_quarter"
 	{
@@ -245,6 +805,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"200.000000"
 		"end_dist"			"350.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c5m5_bridge"
 	{
@@ -253,6 +843,36 @@
 		"start_extra_dist"	"264.157257"
 		"end_point"			"3001.944092 6272.879395 494.284149"
 		"end_dist"			"130.807541"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c6m1_riverbank"
 	{
@@ -261,6 +881,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c6m2_bedlam"
 	{
@@ -269,6 +919,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c6m3_port"
 	{
@@ -277,6 +957,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c7m1_docks"
 	{
@@ -285,6 +995,36 @@
 		"start_dist"		"75.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c7m2_barge"
 	{
@@ -293,6 +1033,36 @@
 		"start_dist"		"75.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c7m3_port"
 	{
@@ -301,6 +1071,36 @@
 		"start_dist"		"75.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"75.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c8m1_apartment"
 	{
@@ -309,6 +1109,36 @@
 		"start_extra_dist"	"605.247620"
 		"end_point"			"2883.220703 2962.613037 -204.742737"
 		"end_dist"			"336.442200"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c8m2_subway"
 	{
@@ -317,6 +1147,36 @@
 		"start_extra_dist"	"323.406708"
 		"end_point"			"11008.688477 4657.793945 49.151138"
 		"end_dist"			"180.738693"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c8m3_sewers"
 	{
@@ -325,6 +1185,36 @@
 		"start_dist"		"50.000000"
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"75.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c8m4_interior"
 	{
@@ -333,6 +1223,36 @@
 		"start_extra_dist"	"409.338440"
 		"end_point"			"11459.563477 15087.968750 5565.974609"
 		"end_dist"			"332.486664"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c8m5_rooftop"
 	{
@@ -341,6 +1261,36 @@
 		"start_extra_dist"	"421.803650"
 		"end_point"			"5675.121582 8443.446289 6142.031250"
 		"end_dist"			"100.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c9m1_alleys"
 	{
@@ -349,6 +1299,36 @@
 		"start_extra_dist"	"1502.202637"
 		"end_point"			"153.076584 -1426.919556 -139.968750"
 		"end_dist"			"210.283035"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c9m2_lots"
 	{
@@ -357,9 +1337,35 @@
 		"start_extra_dist"	"301.270020"
 		"end_point"			"7095.529297 6474.146484 45.645901"
 		"end_dist"			"1387.183838"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0"
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c10m1_caves"
@@ -369,6 +1375,36 @@
 		"start_extra_dist"	"587.266541"
 		"end_point"			"-10784.895508 -4906.771973 318.224670"
 		"end_dist"			"403.989594"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c10m2_drainage"
 	{
@@ -377,6 +1413,36 @@
 		"start_extra_dist"	"399.942505"
 		"end_point"			"-8339.282227 -5592.915039 0.031253"
 		"end_dist"			"322.081451"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c10m3_ranchhouse"
 	{
@@ -385,6 +1451,36 @@
 		"start_extra_dist"	"327.413300"
 		"end_point"			"-2673.776611 107.736259 316.727081"
 		"end_dist"			"327.768036"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c10m4_mainstreet"
 	{
@@ -393,6 +1489,36 @@
 		"start_extra_dist"	"307.155029"
 		"end_point"			"1309.379883 -5479.276367 -26.821182"
 		"end_dist"			"324.451355"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c10m5_houseboat"
 	{
@@ -401,6 +1527,36 @@
 		"start_extra_dist"	"317.183868"
 		"end_point"			"3805.135254 -4660.525391 -151.968750"
 		"end_dist"			"795.922058"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c11m1_greenhouse"
 	{
@@ -409,6 +1565,36 @@
 		"start_extra_dist"	"577.638000"
 		"end_point"			"5274.120605 2715.548584 88.261955"
 		"end_dist"			"314.896759"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c11m2_offices"
 	{
@@ -417,6 +1603,36 @@
 		"start_extra_dist"	"333.408081"
 		"end_point"			"7934.695801 6070.557617 48.318222"
 		"end_dist"			"310.929138"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c11m3_garage"
 	{
@@ -425,6 +1641,36 @@
 		"start_extra_dist"	"304.760986"
 		"end_point"			"-343.016815 3583.830566 332.031250"
 		"end_dist"			"187.318344"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c11m4_terminal"
 	{
@@ -433,6 +1679,36 @@
 		"start_extra_dist"	"206.287918"
 		"end_point"			"3276.041992 4504.324707 181.974670"
 		"end_dist"			"343.399078"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c11m5_runway"
 	{
@@ -441,9 +1717,35 @@
 		"start_extra_dist"	"344.831299"
 		"end_point"			"-5196.772949 9229.695312 -191.968750"
 		"end_dist"			"538.437988"
-		"ItemLimits"
+		"ItemLimits_Outside" // control items outside saferoom/final area
 		{
-			"pain_pills"	"0"
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
 		}
 	}
 	"c12m1_hilltop"
@@ -453,6 +1755,36 @@
 		"start_extra_dist"	"753.082764"
 		"end_point"			"-6468.546387 -6767.946777 377.974670"
 		"end_dist"			"275.937225"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c12m2_traintunnel"
 	{
@@ -461,6 +1793,36 @@
 		"start_extra_dist"	"270.500549"
 		"end_point"			"-870.702148 -10408.813477 -63.968750"
 		"end_dist"			"261.087494"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c12m3_bridge"
 	{
@@ -469,6 +1831,36 @@
 		"start_extra_dist"	"264.843231"
 		"end_point"			"7754.335938 -11443.834961 440.031250"
 		"end_dist"			"264.020966"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c12m4_barn"
 	{
@@ -477,6 +1869,36 @@
 		"start_extra_dist"	"264.932068"
 		"end_point"			"10398.775391 -310.353424 2.031253"
 		"end_dist"			"316.505157"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c12m5_cornfield"
 	{
@@ -485,6 +1907,36 @@
 		"start_extra_dist"	"315.198547"
 		"end_point"			"6972.038086 1354.824463 274.312256"
 		"end_dist"			"183.031281"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c13m1_alpinecreek"
 	{
@@ -493,6 +1945,36 @@
 		"start_extra_dist"	"437.938110"
 		"end_point"			"1186.061401 -1247.817627 389.251373"
 		"end_dist"			"604.894531"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c13m2_southpinestream"
 	{
@@ -501,6 +1983,36 @@
 		"start_extra_dist"	"604.901245"
 		"end_point"			"470.932892 8823.397461 -368.968750"
 		"end_dist"			"324.996063"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c13m3_memorialbridge"
 	{
@@ -509,6 +2021,36 @@
 		"start_extra_dist"	"321.877747"
 		"end_point"			"6097.708496 -6337.365234 422.031250"
 		"end_dist"			"356.709808"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c13m4_cutthroatcreek"
 	{
@@ -517,6 +2059,36 @@
 		"start_extra_dist"	"349.184357"
 		"end_point"			"-1823.846191 -1815.961670 -250.417389"
 		"end_dist"			"254.989624"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c14m1_junkyard"
 	{
@@ -525,6 +2097,36 @@
 		"start_extra_dist"	"500.000000"
 		"end_point"			"-2992.162842 10403.122070 -92.863403"
 		"end_dist"			"350.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 	"c14m2_lighthouse"
 	{
@@ -533,5 +2135,35 @@
 		"start_extra_dist"	"350.000000"
 		"end_point"			"-4318.968750 3638.318115 872.031250"
 		"end_dist"			"500.000000"
+		"ItemLimits_Outside" // control items outside saferoom/final area
+		{
+			"pain_pills"	"2" 
+			"adrenaline"	"2" 
+			"first_aid_kit"	"2" 
+			"defibrillator"	"2" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1" 
+			"vomitjar"		"1" 
+		}
+		"ItemLimits_StartArea"	// control items in start safe area
+		{
+			"pain_pills"	"1" 
+			"adrenaline"	"1" 
+			"first_aid_kit"	"4" 
+			"defibrillator"	"1" 
+			"pipe_bomb"		"1" 
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
+		"ItemLimits_EndArea" // control items in end safe area & final area
+		{
+			"pain_pills"	"1"
+			"adrenaline"	"1"
+			"first_aid_kit"	"-1"
+			"defibrillator"	"1"
+			"pipe_bomb"		"1"
+			"molotov"		"1"
+			"vomitjar"		"1"
+		}
 	}
 }
