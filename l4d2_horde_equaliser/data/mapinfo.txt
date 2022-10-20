@@ -1,0 +1,51 @@
+"MapInfo"
+{
+	"c1m2_streets"
+	{
+		"horde_limit"		"120"
+	}
+	"c1m3_mall"
+	{
+		"horde_limit"		"150"
+	}
+	"c2m2_fairgrounds"
+	{
+		"horde_limit"		"120"
+	}
+	"c2m3_coaster"
+	{
+		"horde_limit"		"240"
+	}
+	"c2m4_barns"
+	{
+		"horde_limit"		"150"
+	}
+	"c5m2_park"
+	{
+		"horde_limit"		"180"
+	}
+	"c6m2_bedlam"
+	{
+		"horde_limit"		"150"
+	}
+	"c10m4_mainstreet"
+	{
+		"horde_limit"		"120"
+	}
+	"c12m3_bridge"
+	{
+		"horde_limit"		"90"
+	}
+	"c12m4_barn"
+	{
+		"horde_limit"		"90"
+	}
+	"c13m2_southpinestream"
+	{
+		"horde_limit"		"120"
+	}
+	"c5m2_darkpark"
+	{
+		"horde_limit"		"180"
+	}
+}

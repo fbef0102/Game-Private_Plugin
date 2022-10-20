@@ -1,0 +1,105 @@
+# Description | 內容
+Make certain event hordes finite
+
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* Video | 影片展示
+<br/>None
+
+* Image | 圖示
+	* display message
+	> 剩餘屍潮通知
+	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
+
+* Apply to | 適用於
+```
+L4D2 Coop/Versus/Realism
+```
+
+* <details><summary>Changelog | 版本日誌</summary>
+	
+	* v1.0h
+	    * Request by Anzu
+		* Individual plugin
+		* Auto generate cfg
+
+	* v0.0
+	    * [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_horde_equaliser.sp)
+</details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* Data Example
+	* data/mapinfo.txt
+	```php
+	"MapInfo"
+	{
+		"c2m3_coaster"//Map Name
+		{
+			"horde_limit"		"240"	//replace infinite horde with finite event of 240 commons
+		}
+	}
+	```
+
+* <details><summary>Related Official ConVar</summary>
+
+	* write down the follong cvars in cfg/server.cfg
+		```php
+		// 0=Enable 1=Disable mob rushes
+		sm_cvar director_no_mobs	"1"
+		```
+</details>
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d2_horde_equaliser.cfg
+		```php
+		// Play the incoming mob sound at checkpoints (each 1/4 of total commons killed off) to simulate L4D1 behaviour
+		l4d2_horde_equaliser_checkpoint_sound "1"
+
+		// Put infinite hordes on a 'hold up' during Tank fights
+		l4d2_horde_equaliser_no_tank_horde "0"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	None
+</details>
+
+- - - -
+# 中文說明
+控制地圖上的無限屍潮機關，將無限屍潮改為有限的殭屍數量
+
+* 原理
+	* 當有人開啟地圖上的機關之後，將無限屍潮改為有限，殭屍清完之後便不會再有屍潮來襲
+	* 必須設定data/mapinfo.txt否則無效
+	* 對抗模式下某些關卡的無限屍潮對於倖存者來說過於艱難通關
+
+* 功能
+	1. 可調整每一關的有限屍潮數量
+	2. 可調整Tank來臨時關閉無限屍潮
+
+* Data設定範例
+	* data/mapinfo.txt
+	```php
+	"MapInfo"
+	{
+		"c2m3_coaster"//地圖名
+		{
+			"horde_limit"		"240"	// 將無限屍潮改為有限的240隻殭屍數量
+		}
+	}
+	```
+
+* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
+
+	* 以下指令寫入文件 cfg/server.cfg，可自行調整
+		```php
+		// 0=開啟 1=關閉 自然屍潮
+		sm_cvar director_no_mobs	"1"
+		```
+</details>

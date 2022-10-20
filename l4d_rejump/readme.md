@@ -5,7 +5,7 @@ Allows multi-jumping on air.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/Tf7BMHgJXl4)
+* [Video | 影片展示](https://youtu.be/KymZ6Q7EYOk)
 
 * Image | 圖示
 	* Geppo 
@@ -72,12 +72,12 @@ L4D2
 
 - - - -
 # 中文說明
-超級瑪利歐，空中使用月步，多次跳躍
+成為超級瑪利歐，人類與特感能在空中使用月步，多次跳躍
 
 * 原理
 	* 在空中再按一次跳躍鍵
 	* Hunter飛行時候可以再跳躍
-	* Jockey準備騎人的時候可以再跳躍
+	* Jockey在空中可以再跳躍
 
 * 功能
 	1. 可設置空中跳躍次數

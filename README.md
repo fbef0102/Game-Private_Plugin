@@ -29,7 +29,7 @@ Accept small change or English translation<br/>
     * 暫停遊戲的插件
 </details>
 
-* <details><summary><b>Infected | 特感</b></summary>
+* <details><summary><b>Special Infected | 特感</b></summary>
 
   * [1vSpecials](/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
@@ -53,25 +53,27 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Tank | 坦克</b></summary>
 
-  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-    * (公開) Tank不會丟出石頭而是丟出特感
-  * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
-    * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
   * [l4d2_tdr](/l4d2_tdr): Displays Damage Information on Tank Death.
     * Tank死亡時顯示對Tank造成傷害統計表
   * [l4d_tank_count](/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
     * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
-  * [l4d_tank_speed_boost](/l4d_tank_speed_boost): Increase Tank speed until hitting survivors
-    * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
-  * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
-    * Tank的石頭自動追蹤倖存者
   * [l4d_NoEscapeTank](/l4d_NoEscapeTank): No Tank Spawn as the rescue vehicle is coming
     * 救援載具來臨之後不會有Tank來襲
+  * [skip_tank_taunt](/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
+    * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
+  * [l4d_tank_speed_boost](/l4d_tank_speed_boost): Increase Tank speed until hitting survivors
+    * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
   
   None
+</details>
+
+* <details><summary><b>Common Infected | 殭屍</b></summary>
+
+  * [1vSpecials](/1vSpecials): Make certain event hordes finite
+    * 控制地圖上的無限屍潮機關，將無限屍潮改為有限的殭屍數量
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
@@ -104,8 +106,6 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
 
-  * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
-    * 多啦A夢的空氣砲
   * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
     * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
   * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
@@ -114,8 +114,6 @@ Accept small change or English translation<br/>
     * 搞笑動作模組: 表情與舞蹈
   * [simple-bhop](/simple-bhop): Let users Bunny Hop with simplicity
     * 簡單的連跳插件
-  * [l4d_rejump](/l4d_rejump): Allows multi-jumping on air.
-    * 超級瑪利歐，空中使用月步，多次跳躍
   * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
     * 人類與特感的購物商城 (附有特殊商品與資料庫)
   * [l4d_ranking_system](/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
@@ -182,6 +180,19 @@ Accept small change or English translation<br/>
     * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
   * [l4d_elevator_getin_timer](/l4d_elevator_getin_timer): When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the evelator/CEDA Trailer, slay him
     * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
+</details>
+
+* <details><summary><b>Nothing is Impossible | 無理改造版</b></summary>
+
+  * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
+    * 人類擁有多啦A夢的空氣砲
+  * [l4d_rejump](/l4d_rejump): Allows multi-jumping on air.
+    * 成為超級瑪利歐，人類與特感能在空中使用月步，多次跳躍
+  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+    * (公開) Tank不會丟出石頭而是丟出特感
+  * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
+    * Tank的石頭自動追蹤倖存者
+    
 </details>
 
 - - - -
