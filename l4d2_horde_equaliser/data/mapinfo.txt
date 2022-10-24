@@ -44,8 +44,4 @@
 	{
 		"horde_limit"		"120"
 	}
-	"c5m2_darkpark"
-	{
-		"horde_limit"		"180"
-	}
 }
