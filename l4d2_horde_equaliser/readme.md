@@ -19,6 +19,9 @@ L4D2 Coop/Versus/Realism
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h
+	    * Set the horde limit according to 'survivor limit'
 	
 	* v1.0h
 	    * Request by Anzu
@@ -37,9 +40,16 @@ L4D2 Coop/Versus/Realism
 	```php
 	"MapInfo"
 	{
-		"c2m3_coaster"//Map Name
+		"c2m3_coaster" //Map Name
 		{
-			"horde_limit"		"240"	//replace infinite horde with finite event of 240 commons
+			"horde_limit" //Set the horde limit according to 'survivor limit'
+			{
+				"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
+				"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
+				"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
+				"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
+				"survivor_1"	"60"// replace infinite horde with finite event of 60 commons when survivor limit is 1
+			}
 		}
 	}
 	```
@@ -90,7 +100,14 @@ L4D2 Coop/Versus/Realism
 	{
 		"c2m3_coaster"//地圖名
 		{
-			"horde_limit"		"240"	// 將無限屍潮改為有限的240隻殭屍數量
+			"horde_limit" // 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
+			{
+				"survivor_5" 	"300" // 當五位倖存者時，將無限屍潮改為有限的300隻殭屍數量
+				"survivor_4"	"240" // 當四位倖存者時，將無限屍潮改為有限的240隻殭屍數量
+				"survivor_3"	"180" // 當三位倖存者時，將無限屍潮改為有限的180隻殭屍數量
+				"survivor_2"	"120" // 當兩位倖存者時，將無限屍潮改為有限的120隻殭屍數量
+				"survivor_1"	"60" // 當僅有一位倖存者時，將無限屍潮改為有限的60隻殭屍數量
+			}
 		}
 	}
 	```

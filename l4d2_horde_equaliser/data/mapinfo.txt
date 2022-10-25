@@ -14,7 +14,14 @@
 	}
 	"c2m3_coaster"
 	{
-		"horde_limit"		"240"
+		"horde_limit"
+		{
+			"survivor_5" 	"300"
+			"survivor_4"	"240"
+			"survivor_3"	"180"
+			"survivor_2"	"120"
+			"survivor_1"	"60"
+		}
 	}
 	"c2m4_barns"
 	{
