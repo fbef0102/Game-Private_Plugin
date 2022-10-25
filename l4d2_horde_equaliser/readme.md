@@ -91,7 +91,8 @@ L4D2 Coop/Versus/Realism
 
 * 功能
 	1. 可調整每一關的有限屍潮數量
-	2. 可調整Tank來臨時關閉無限屍潮
+	2. 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
+	3. 可調整Tank來臨時關閉無限屍潮
 
 * Data設定範例
 	* data/mapinfo.txt
