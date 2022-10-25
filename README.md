@@ -86,10 +86,6 @@ Accept small change or English translation<br/>
     * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
   * [l4d_unstuck](/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
     * 玩家使用命令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
-  * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
-    * 限制每個武器可以拿取的數量，超過就不能拿取
-  * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
-    * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [L4D2_Stats_Percentage_UP](/L4D2_Stats_Percentage_UP): Simple MVP Statistics after command or in the end of the round
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
@@ -107,7 +103,7 @@ Accept small change or English translation<br/>
 * <details><summary><b>Fun | 娛樂</b></summary>
 
   * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
-    * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+    * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
   * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
     * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
   * [fortnite_l4d1&2](/fortnite_l4d1): This plugin is for demonstration of some animations from Fortnite in L4D1/2
@@ -120,12 +116,22 @@ Accept small change or English translation<br/>
     * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
 </details>
 
-* <details><summary><b>Object | 物件</b></summary>
+* <details><summary><b>Items | 物品</b></summary>
 
   * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
     * 刪除安全室的治療包並替換成別的物品
   * [ItemTracking](/ItemTracking): Control items limit on map
     * 控制地圖上的物品數量與限制
+  * [Trails_Projectile](/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
+    * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
+</details>
+
+* <details><summary><b>Weapons | 武器</b></summary>
+
+  * [l4d_wlimits](/l4d_wlimits): Restrict weapons individually or together
+    * 限制每個武器可以拿取的數量，超過就不能拿取
+  * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
+    * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

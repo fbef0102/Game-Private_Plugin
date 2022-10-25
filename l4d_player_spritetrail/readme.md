@@ -91,7 +91,7 @@ L4D2
 
 - - - -
 # 中文說明
-玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
 
 * 效果
 	* 色塊均勻，統一變色
