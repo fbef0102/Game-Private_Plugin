@@ -1,5 +1,5 @@
 # Description | 內容
-Increase Tank speed until hitting survivors
+Tank's rock will trace survivor until hit something.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
