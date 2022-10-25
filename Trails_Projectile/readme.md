@@ -21,10 +21,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     > 榴彈
 	<br/>![Trails_Projectile_4](image/Trails_Projectile_4.jpg)
 	* Spitter projectile
-    > Spitter唾液物
+    > 唾液物
 	<br/>![Trails_Projectile_5](image/Trails_Projectile_5.jpg)
 	* Tank Rock
-    > 汽油彈
+    > 石頭
 	<br/>![Trails_Projectile_6](image/Trails_Projectile_6.jpg)
 
 * Apply to | 適用於
