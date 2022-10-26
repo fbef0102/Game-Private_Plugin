@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/9/21 updated
+> 2022/10/26 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -72,7 +72,7 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Common Infected | 殭屍</b></summary>
 
-  * [1vSpecials](/1vSpecials): Make certain event hordes finite
+  * [l4d2_horde_equaliser](/l4d2_horde_equaliser): Make certain event hordes finite
     * 控制地圖上的無限屍潮機關，將無限屍潮改為有限的殭屍數量
 </details>
 
