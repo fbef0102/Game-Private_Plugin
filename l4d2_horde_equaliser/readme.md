@@ -58,8 +58,9 @@ L4D2 Coop/Versus/Realism
 
 	* write down the follong cvars in cfg/server.cfg
 		```php
-		// 0=Enable 1=Disable mob rushes
-		sm_cvar director_no_mobs	"1"
+		// Nature horde interval (second)
+		sm_cvar z_mob_spawn_min_interval_normal 3600
+		sm_cvar z_mob_spawn_max_interval_normal 3600
 		```
 </details>
 
@@ -115,9 +116,10 @@ L4D2 Coop/Versus/Realism
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
-	* 以下指令寫入文件 cfg/server.cfg，可自行調整
+	* 以下指令寫入文件 cfg/server.cfg，不可自行調整
 		```php
-		// 0=開啟 1=關閉 自然屍潮
-		sm_cvar director_no_mobs	"1"
+		// 自然屍潮間隔 (秒數)，3600秒相當於一小時，必須關閉自然屍潮否則無效
+		sm_cvar z_mob_spawn_min_interval_normal 3600
+		sm_cvar z_mob_spawn_max_interval_normal 3600
 		```
 </details>
