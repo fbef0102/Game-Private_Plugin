@@ -59,8 +59,15 @@ L4D2 Coop/Versus/Realism
 	* write down the follong cvars in cfg/server.cfg
 		```php
 		// Nature horde interval (second)
-		sm_cvar z_mob_spawn_min_interval_normal 3600
-		sm_cvar z_mob_spawn_max_interval_normal 3600
+		sm_cvar z_mob_spawn_min_interval_easy            3600
+		sm_cvar z_mob_spawn_min_interval_normal          3600
+		sm_cvar z_mob_spawn_min_interval_hard            3600
+		sm_cvar z_mob_spawn_min_interval_expert          3600
+
+		sm_cvar z_mob_spawn_max_interval_easy            3600
+		sm_cvar z_mob_spawn_max_interval_normal          3600
+		sm_cvar z_mob_spawn_max_interval_hard            3600
+		sm_cvar z_mob_spawn_max_interval_expert          3600
 		```
 </details>
 
@@ -119,7 +126,14 @@ L4D2 Coop/Versus/Realism
 	* 以下指令寫入文件 cfg/server.cfg，不可自行調整
 		```php
 		// 自然屍潮間隔 (秒數)，3600秒相當於一小時，必須關閉自然屍潮否則無效
-		sm_cvar z_mob_spawn_min_interval_normal 3600
-		sm_cvar z_mob_spawn_max_interval_normal 3600
+		sm_cvar z_mob_spawn_min_interval_easy            3600 //簡單難度
+		sm_cvar z_mob_spawn_min_interval_normal          3600 //一般難度 (對抗模式下為一般難度)
+		sm_cvar z_mob_spawn_min_interval_hard            3600 //進階難度
+		sm_cvar z_mob_spawn_min_interval_expert          3600 //專家難度
+		
+		sm_cvar z_mob_spawn_max_interval_easy            3600
+		sm_cvar z_mob_spawn_max_interval_normal          3600
+		sm_cvar z_mob_spawn_max_interval_hard            3600
+		sm_cvar z_mob_spawn_max_interval_expert          3600
 		```
 </details>
