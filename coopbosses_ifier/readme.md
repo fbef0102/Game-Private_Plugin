@@ -49,8 +49,8 @@ L4D2 coop/realism
 	{
 		"c1m2_streets"　//Map Name
 		{
-			"no_tank" "0" 		//Allow to spawn tank in this map
-			"no_witch" "1"	 	//This map is prohibited to spawn witch
+			"tank_map_off" "1" 		//This map is prohibited to spawn tank
+			"witch_map_off" "1"	 	//This map is prohibited to spawn witch
 		}
 		"c2m2_fairgrounds" //Map Name
 		{
@@ -98,11 +98,14 @@ L4D2 coop/realism
 		// Min fraction of map flow for tank/witch spawn location in coop
 		l4d_coop_boss_flow_min "20"
 
+		// Enable forcing boss spawns to obey boss spawn cvars
+		l4d_coop_boss_spawn_cvars "1"
+
+		// Don't override boss spawning rules on Static Tank Spawn maps (c7m1, c13m2)
+		l4d_coop_boss_spawn_except_static "1"
+
 		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
 		l4d_coop_boss_vote "1"
-
-		// How many players at least to vote Boss Spawns.
-		l4d_coop_boss_vote_need_player "4"
 
 		// How many players at least to vote Boss Spawns.
 		l4d_coop_boss_vote_need_player "4"
@@ -155,8 +158,8 @@ L4D2 coop/realism
 	{
 		"c1m2_streets"　//地圖名
 		{
-			"no_tank" "0" 		//可在該地圖生成Tank
-			"no_witch" "1"	 	//該地圖禁止生成Witch
+			"tank_map_off" "1" 		//該地圖禁止生成Tank
+			"witch_map_off" "1"	 	//該地圖禁止生成Witch
 		}
 		"c2m2_fairgrounds" //地圖名
 		{
@@ -206,6 +209,12 @@ L4D2 coop/realism
 
 		// 最近20%生成 Tank/witch
 		l4d_coop_boss_flow_min "20"
+
+		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
+		l4d_coop_boss_spawn_cvars "1"
+
+		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (譬如c7m1, c13m2，不要修改此指令除非你知道在幹嗎)
+		l4d_coop_boss_spawn_except_static "1"
 
 		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
 		l4d_coop_boss_vote "1"

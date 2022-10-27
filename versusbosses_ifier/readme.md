@@ -239,6 +239,12 @@ L4D2 versus
 		// Tank 附近前後10% (20除以2) 避開生成witch
 		l4d_versus_boss_avoid_tank_spawn "10"
 
+		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
+		l4d_versus_boss_spawn_cvars "1"
+
+		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (譬如c7m1, c13m2，不要修改此指令除非你知道在幹嗎)
+		l4d_versus_boss_spawn_except_static "1"
+
 		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
 		l4d_versus_boss_vote "1"
 
