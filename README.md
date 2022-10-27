@@ -114,6 +114,8 @@ Accept small change or English translation<br/>
     * 人類與特感的購物商城 (附有特殊商品與資料庫)
   * [l4d_ranking_system](/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
     * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+  * [Trails_Projectile](/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
+    * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
 </details>
 
 * <details><summary><b>Items | 物品</b></summary>
@@ -122,8 +124,6 @@ Accept small change or English translation<br/>
     * 刪除安全室的治療包並替換成別的物品
   * [ItemTracking](/ItemTracking): Control items limit on map
     * 控制地圖上的物品數量與限制
-  * [Trails_Projectile](/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
-    * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
