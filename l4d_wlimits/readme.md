@@ -60,12 +60,39 @@ L4D2
     l4d_wlimits_add 0 1 weapon_hunting_rifle
     ```
 
+    * All weapons class name
+    ```php
+    weapon_pistol
+    weapon_pistol_magnum
+    weapon_pumpshotgun
+    weapon_shotgun_chrome
+    weapon_smg
+    weapon_smg_silenced
+    weapon_autoshotgun
+    weapon_shotgun_spas
+    weapon_hunting_rifle
+    weapon_sniper_military
+    weapon_smg
+    weapon_rifle
+    weapon_rifle_desert
+    weapon_rifle_ak47
+    weapon_grenade_launcher
+    weapon_rifle_m60
+    weapon_melee
+    weapon_chainsaw
+    weapon_smg_mp5
+    weapon_rifle_sg552
+    weapon_sniper_scout
+    weapon_sniper_awp
+    ```
+
 - - - -
 # 中文說明
 限制每個武器可以拿取的數量，超過就不能拿取
 
 * 原理
     * 當要撿起武器時，計算隊友之中已經拿取的數量，超過便不能撿起武器 
+    * 適用真人玩家與Bot
 
 * 功能
 	1. 設置每一個武器限制，也可以不設置
@@ -87,4 +114,30 @@ L4D2
     l4d_wlimits_add 1 0 weapon_pistol_magnum
     l4d_wlimits_add 0 0 weapon_melee
     l4d_wlimits_add 0 1 weapon_hunting_rifle
+    ```
+
+    * 所有武器名稱
+    ```php
+    手槍 => weapon_pistol
+    麥格農手槍 => weapon_pistol_magnum
+    木製單發散彈槍 => weapon_pumpshotgun
+    鐵製單發散彈槍 => weapon_shotgun_chrome
+    Uzi烏茲衝鋒槍 => weapon_smg
+    消音衝鋒槍 => weapon_smg_silenced
+    自動連發散彈槍 => weapon_autoshotgun
+    自動連發戰鬥散彈槍=> weapon_shotgun_spas
+    獵槍 => weapon_hunting_rifle
+    軍用狙擊槍 => weapon_sniper_military
+    Uzi烏茲衝鋒槍 => weapon_smg
+    M16步槍 => weapon_rifle
+    三連發步槍 => weapon_rifle_desert
+    AK47 => weapon_rifle_ak47
+    榴彈發射器 => weapon_grenade_launcher
+    M60機關槍 => weapon_rifle_m60
+    近戰武器 => weapon_melee
+    電鋸 => weapon_chainsaw
+    CSS-MP5衝鋒槍 => weapon_smg_mp5
+    CSS-SG552步槍 => weapon_rifle_sg552
+    CSS-Scout狙擊槍 => weapon_sniper_scout
+    CSS-AWP狙擊槍 => weapon_sniper_awp
     ```
