@@ -27,6 +27,8 @@ Accept small change or English translation<br/>
     * 準備才能開始遊戲的插件
   * [pause](/pause): Pause plugin
     * 暫停遊戲的插件
+  * [l4d_restartmap_command](/l4d_restartmap_command): Admin say !restartmap to restart current level
+    * 管理員輸入!restartmap能重新地圖關卡
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
