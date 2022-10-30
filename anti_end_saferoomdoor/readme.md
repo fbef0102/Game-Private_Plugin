@@ -21,6 +21,9 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	```php
+	* v1.1 (2022-10-30)
+		* Ignore players hanging from ledge or incapacitated outside the end saferoom area
+
 	* v1.0
 		* Original Request by Alfari
 	```
@@ -40,6 +43,12 @@ L4D2
 	```php
 	// Changes how message displays. (0=Off; 1=In chat; 2=In Hint Box; 3=In center text)
 	anti_end_saferoomdoor_announce_type "1"
+
+	// Ignore players hanging from ledge outside end saferoom area
+	anti_end_saferoomdoor_ignore_hanging "1"
+
+	// Ignore players incapacitated end saferoom area
+	anti_end_saferoomdoor_ignore_incap "1"
 
 	// What percentage of the ALIVE survivors must be inside the end saferoom door before close. 
 	anti_end_saferoomdoor_percentage_survivors_inside_saferoom "100"
