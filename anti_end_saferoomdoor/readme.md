@@ -21,6 +21,9 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	```php
+	* v1.2 (2022-11-3)
+		* When first survivor uses the eEnd Saferoom door, unlock End Saferoom door after a period of time.
+
 	* v1.1 (2022-10-30)
 		* Ignore players hanging from ledge or incapacitated outside the end saferoom area
 
@@ -52,6 +55,9 @@ L4D2
 
 	// What percentage of the ALIVE survivors must be inside the end saferoom door before close. 
 	anti_end_saferoomdoor_percentage_survivors_inside_saferoom "100"
+
+	// When first survivor uses the End Saferoom door, unlock End Saferoom door after a period of time. (0=off)
+	anti_end_saferoomdoor_unlock_time "60.0"
 	```
 </details>
 
