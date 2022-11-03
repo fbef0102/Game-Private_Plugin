@@ -24,9 +24,10 @@ L4D2
 	//DarkNoghri @ 2009-2010
 	//Harry @ 2022
     ```
-	* v1.6
+	* v1.7 (2022-11-03)
         * Remake Code
         * Rmove white glow when player is not black and white
+        * Add Glow cvars
 	
     * v1.31
         * [By DarkNoghri](https://forums.alliedmods.net/showthread.php?p=951787)
@@ -39,14 +40,20 @@ L4D2
 
 	* cfg/sourcemod/l4d_blackandwhite.cfg
 	```php
-    // (L4D2 only) 0=turns glow off, 1=turns glow on.
+    // (L4D2 only) 0=turns black&white glow off, 1=turns glow on.
     l4d_bandw_glow "0"
 
-    // 0=turns notifications off, 1=notifies survivors, 2=notifies all, 3=notifies infected.
+    // 0 turns notifications off, 1 notifies survivors, 2 notifies all, 3 notifies infected.
     l4d_bandw_notice "1"
 
-    // 0=prints to chat, 1=displays hint box.
+    // 0 prints to chat, 1 displays hint box.
     l4d_bandw_type "1"
+
+    // (L4D2 only) color of black&white glow, split up with 
+    thirdstrike_glow_color "255 255 255"
+
+    // (L4D2 only) max black&white glow range 
+    thirdstrike_glow_range "1600"
 	```
 </details>
 
@@ -58,6 +65,8 @@ L4D2
 # 中文說明
 誰是黑白狀態(最後一條生命)
 
-* 功能
+* 原理
 	1. 救起玩家之後判定玩家是否為黑白狀態
-    2. 只有二代才能有白色光環
+
+* 功能
+    1. 可設置光圈顏色與範圍 (只有二代才能)
