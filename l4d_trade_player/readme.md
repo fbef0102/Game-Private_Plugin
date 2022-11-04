@@ -20,6 +20,9 @@ L4D2 versus
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2022-11-04)
+	    * Add vote limit per map
+
 	* v1.0
 	    * Original Request by larrybrains
 </details>
