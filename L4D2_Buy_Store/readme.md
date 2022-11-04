@@ -40,7 +40,7 @@ English
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v4.7
+	* v5.0 (2022-11-05)
 		* Add Survivor/Infected Special items
 		* Support Database
 
