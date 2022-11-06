@@ -73,9 +73,6 @@ L4D2
     l4d2_melee_durability_machete "4000"
 
     // 0=Permanent durability, durability of Pitchfork.
-    // -
-    // Default: "3100"
-    // Minimum: "0.000000"
     l4d2_melee_durability_pitchfork "3100"
 
     // Secondary weapon given to survivor after run out of melee durability. (1: Pistol, 2: Dual Pistol, 3: Magnum)
