@@ -134,6 +134,8 @@ Accept small change or English translation<br/>
     * 限制每個武器可以拿取的數量，超過就不能拿取
   * [l4d2_zoom_level](/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
+  * [l4d2_melee_durability](/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+    * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
