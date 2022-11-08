@@ -47,7 +47,8 @@ Dutch
 	* v5.0 (2022-11-05)
 		* Add Survivor/Infected Special items
 		* Support Database
-
+		* Points Transfer
+		
 	* [4.6](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
 		* Remke code
 		* Translation Support
