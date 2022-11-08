@@ -36,6 +36,10 @@ L4D2
 English
 繁體中文
 简体中文
+Spanish
+Russian
+Portuguese
+Dutch
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
