@@ -28,6 +28,11 @@ L4D2 Survival
 	    * Initial Release
 </details>
 
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+    3. [[INC] l4d2_weapons](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc)
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_survival_setup.cfg

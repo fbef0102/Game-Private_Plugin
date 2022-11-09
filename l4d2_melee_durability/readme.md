@@ -16,12 +16,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 ```
 L4D2
 ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0 (2022-11-06)
 	    * Initial Release
 </details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 
 * <details><summary>ConVar | 指令</summary>
 
