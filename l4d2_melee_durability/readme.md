@@ -5,7 +5,7 @@ Every melee weapons have durability, once run out durability, the melee weapon w
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/Z_nAxsSVJvQ)
+* [Video | 影片展示](https://youtu.be/8jsq8NT08S8)
 
 * Image | 圖示
 	* Display melee durability

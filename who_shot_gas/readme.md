@@ -9,9 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
+	* who is the culprit
+	> 打爆汽油桶的兇手
+	<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
 	* display the last players who shot the gas
 	> 顯示最後幾位引爆汽油桶的玩家
-	<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
+	<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
 
 * Apply to | 適用於
 ```

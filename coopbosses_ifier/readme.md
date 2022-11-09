@@ -42,7 +42,7 @@ L4D2 coop/realism
 	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
 		> 使用指令顯示人類目前的路程
 
-* Data Example | Data設定範例
+* Data Example
 	* data/mapinfo.txt
 	```php
 	"MapInfo"

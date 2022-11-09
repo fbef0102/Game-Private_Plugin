@@ -170,10 +170,14 @@ Accept small change or English translation<br/>
     * 誰他馬打爆最後一個汽油桶
   * [l4d2_survival_spectator_reset](/l4d2_survival_spectator_reset): If player is spectator when survival begins or player changes team after survival begins, he can not get the survival time record.
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
+  * [l4d_survival_setup](/l4d_survival_setup): Set up weapon slots before survival starts
+    * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
 </details>
 
 * <details><summary><b>Fuck you Griefer | 和平締造者-專治傻B合集</b></summary>
 
+  * [l4d_vocalize_antiflood](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
+    * (公開) 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
   * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
     * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
   * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
