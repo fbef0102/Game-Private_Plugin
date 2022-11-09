@@ -18,6 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 ```
 L4D2
 ```
+[L4D1 Version](https://github.com/fbef0102/L4D1-Competitive-Plugins/tree/master/l4d_limitweapon)
 
 * <details><summary>Changelog | 版本日誌</summary>
 
