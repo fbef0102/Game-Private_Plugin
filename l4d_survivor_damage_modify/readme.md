@@ -1,11 +1,11 @@
 # Description | 內容
- Modify damage done to survivors from Tank, SI, Witch, Common, Fall
+Modify damage done to survivors from Tank, SI, Witch, Common, Fall
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/B71bUV5u6D4)
+* [Video | 影片展示](https://youtu.be/coMcm3INpuQ)
 
 * Image | 圖示
 <br/>None

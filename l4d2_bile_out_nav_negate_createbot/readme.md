@@ -5,7 +5,7 @@ If Vomit jar is thrown at the place which is out of map (NAV), negate bile effec
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/JeqWmsOiqJY)
+* [Video | 影片展示](https://youtu.be/tfYESng3F3Y)
 
 * Image | 圖示
 	* display message

@@ -5,7 +5,7 @@ Allows players to get themselves unstuck from charger glitches and level clips
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/BQwz0jjFRzo)
+* [Video | 影片展示](https://youtu.be/bNnXzVkRd1s)
 
 * Image | 圖示
 	* display message after command
@@ -38,13 +38,13 @@ L4D2
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_unstick.cfg
+	* cfg/sourcemod/l4d_unstuck.cfg
 	```php
 	// If 1, Announces each round start that the !stuck command is available.
-	l4d_unstick_announce "1"
+	l4d_unstuck_announce "1"
 
 	// Amount of times the client can use !stuck per round
-	l4d_unstick_teleports "10"
+	l4d_unstuck_teleports "10"
 	```
 </details>
 

@@ -5,7 +5,7 @@ When someone presses the elevator button or enters the CEDA Trailer, a timer wil
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/Fa4b321hZ-0)
+* [Video | 影片展示](https://youtu.be/B1oghdYb_gE)
 
 * Image | 圖示
 	* display message

@@ -5,7 +5,7 @@ Start Saferoom door anti open + teleport survivor back to safe area when leaving
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/4i7VQkWrEKg)
+* [Video | 影片展示](https://youtu.be/b3A14C7Qie8)
 
 * Image | 圖示
 	* display timeleft when someone tries to open door

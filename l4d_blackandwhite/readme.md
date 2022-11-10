@@ -5,7 +5,7 @@ Notify people when player is black and white.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/waEnN2M3Vm0)
+* [Video | 影片展示](https://youtu.be/4nknrYtI8rM)
 
 * Image | 圖示
 	* display who is black and white

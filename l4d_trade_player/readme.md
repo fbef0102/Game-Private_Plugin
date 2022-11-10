@@ -5,7 +5,7 @@ Type !trade to open a menu to select two players to swap, one from survivor team
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/SR9FpGzSo8Q)
+* [Video | 影片展示](https://youtu.be/-AK10jtCpnc)
 
 * Image | 圖示
 	* would like to initiate a trade to swap player 1 with player 2, do you accept?

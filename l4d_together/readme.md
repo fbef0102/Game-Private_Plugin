@@ -5,7 +5,7 @@ A simple anti - runner system , punish the runner by spawn SI behind her.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/v3J2hSxMZGw)
+* [Video | 影片展示](https://youtu.be/L6slnUSsTSI)
 
 * Image | 圖示
 <br/>None

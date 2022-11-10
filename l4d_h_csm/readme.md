@@ -5,7 +5,7 @@ Allows players to change their L4D1/2 character or model in-game!
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/C9xKKmD8KwU)
+* [Video | 影片展示](https://youtu.be/NoMHRxnKnFI)
 
 * Image | 圖示
 	* display message

@@ -5,7 +5,7 @@ Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/g9y5xFTC4d4)
+* [Video | 影片展示](https://youtu.be/c_0ACD0VLQA)
 
 * Image | 圖示
 	* Molotov projectile

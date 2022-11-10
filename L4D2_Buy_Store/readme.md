@@ -7,7 +7,7 @@ L4D2 Human and Zombie Shop by HarryPoter
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/OkWg2p4VgBs)
+* [Video | 影片展示](https://youtu.be/LP0ALxlbaZE)
 
 * Image | 圖示
 	* survivor shop list

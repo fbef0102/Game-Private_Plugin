@@ -1,11 +1,11 @@
 # Description | 內容
- Open Menu to teleport items on the map.
+Open Menu to teleport items on the map.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/MAbylydxWtU)
+* [Video | 影片展示](https://youtu.be/hlEiyPxE_Eo)
 
 * Image | 圖示
 	* teleport all items on the map

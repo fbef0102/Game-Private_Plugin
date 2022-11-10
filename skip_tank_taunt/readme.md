@@ -5,7 +5,7 @@ Skip Tank Victory + Speed up Obstacle animation playback
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/yrI7SFZZ_M0)
+* [Video | 影片展示](https://youtu.be/UYLsDKxyHs8)
 
 * Image | 圖示
 <br/>None

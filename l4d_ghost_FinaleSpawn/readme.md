@@ -5,7 +5,7 @@ Adjust ghost infected spawn range on finales
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/fp-4wtSD3lo)
+* [Video | 影片展示](https://youtu.be/sXjPd-sALGs)
 <br/>None
 
 * Image | 圖示

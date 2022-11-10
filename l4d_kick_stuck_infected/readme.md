@@ -5,7 +5,7 @@ Kick special infected bots if they don't attack and can't be seen by survivors w
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/MwzpdAQhD70)
+* [Video | 影片展示](https://youtu.be/2lRBgSPvUUU)
 
 * Image | 圖示
 	* Message

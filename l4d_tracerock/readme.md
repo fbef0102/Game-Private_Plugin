@@ -5,7 +5,7 @@ Tank's rock will trace survivor until hit something.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/2My1Tf1emNA)
+* [Video | 影片展示](https://youtu.be/W45JutNDX0Q)
 
 * Image | 圖示
 	* trace rock
