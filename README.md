@@ -29,6 +29,8 @@ Accept small change or English translation<br/>
     * 暫停遊戲的插件
   * [l4d_restartmap_command](/l4d_restartmap_command): Admin say !restartmap to restart current level
     * 管理員輸入!restartmap能重新地圖關卡
+  * [l4d_random_map_vote](/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
+    * 投票更換地圖，但是地圖是隨機挑選的
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -208,7 +210,6 @@ Accept small change or English translation<br/>
     * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
     * Tank的石頭自動追蹤倖存者
-    
 </details>
 
 - - - -
