@@ -110,7 +110,7 @@ Accept small change or English translation<br/>
     * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
   * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
     * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-  * [fortnite_l4d1&2](/fortnite_l4d1): This plugin is for demonstration of some animations from Fortnite in L4D1/2
+  * [fortnite_l4d1&2](/fortnite_l4d1&2): Emotes and Dance in L4D1/2
     * 搞笑動作模組: 表情與舞蹈
   * [simple-bhop](/simple-bhop): Let users Bunny Hop with simplicity
     * 簡單的連跳插件
