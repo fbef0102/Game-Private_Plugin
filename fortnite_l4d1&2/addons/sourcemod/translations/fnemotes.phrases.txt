@@ -53,7 +53,7 @@
 	{
 		"en"			"[{olive}Emotes{default}]{darkred} It is on cooldown!"
 		"tr"			"[{olive}Emotes{default}]{darkred} Biraz bekle!"		
-		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo
+		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo"
 		"zho"			"[{olive}Emotes{default}]{darkred} 冷卻時間未到!"
 		"chi"			"[{olive}Emotes{default}]{darkred} 冷却时间未到!"
 	}
