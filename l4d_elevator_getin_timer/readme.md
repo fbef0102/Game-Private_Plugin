@@ -23,6 +23,9 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2022-11-15)
+		* Cause the damage to incapacitated players outside the evelator/CEDA Trailer
+
 	* v1.0
 		* Initial Release
 </details>
@@ -71,6 +74,7 @@ L4D2
 				"trigger_multiple_hammerid"		"1227567" 	//evelator trigger multiple hammerid (please do not modify)
 				"get_inside_time"			"30"		//a timer will display how many time left
 				"outside_damage"			"10"		//cause the damage to players outside the evelator
+				"outside_damage_incap"		"100"	//cause the damage to incapacitated players outside the evelator
 				"message"				"elevator"	//info everyone this is evelator
 			}
 		}
@@ -84,6 +88,7 @@ L4D2
 				"trigger_multiple_hammerid"		"456409" 		//CEDA Trailer trigger multiple hammerid (please do not modify)
 				"get_inside_time"			"50"	 		//a timer will display how many time left
 				"outside_damage"			"10" 			//cause the damage to players outside the CEDA Trailer
+				"outside_damage_incap"		"100"			//cause the damage to incapacitated players outside the CEDA Trailer
 				"message"				"CEDA Trailer" 		//info everyone this is CEDA Trailer
 			}
 		}
@@ -123,6 +128,7 @@ L4D2
 				"trigger_multiple_hammerid"		"1227567" 		// 電梯區域的專屬hammerid (不能修改)
 				"get_inside_time"			"30"			// 倒數計時秒數
 				"outside_damage"			"10"			// 每秒對電梯外的玩家造成的傷害
+				"outside_damage_incap"		"100"			//每秒對電梯外的倒地或掛邊玩家造成的傷害
 				"message"				"elevator"		// 通知所有人這是電梯 (可自行修改)
 			}
 		}
@@ -135,7 +141,8 @@ L4D2
 				"door_name"				"finale_cleanse_exit_door"	// CEDA拖車末端門的專屬targetname (不能修改)
 				"trigger_multiple_hammerid"		"456409" 			// CEDA拖車區域的專屬hammerid (不能修改)
 				"get_inside_time"			"50"	 			// 倒數計時秒數
-				"outside_damage"			"10" 				// 每秒對電梯CEDA拖車外的玩家造成的傷害
+				"outside_damage"			"10" 				// 每秒對CEDA拖車外的玩家造成的傷害
+				"outside_damage_incap"		"100"				//每秒對CEDA拖車外的倒地或掛邊玩家造成的傷害
 				"message"				"CEDA Trailer" 			// 通知所有人這是CEDA拖車 (可自行修改)
 			}
 		}

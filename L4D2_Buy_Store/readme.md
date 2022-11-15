@@ -44,7 +44,7 @@ Dutch
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v5.0 (2022-11-05)
+	* v5.0 (2022-11-15)
 		* Add Survivor/Infected Special items
 		* Support Database
 		* Points Transfer
@@ -364,11 +364,17 @@ Dutch
 		<br/>Description: Do you feel annoying that you are surrounded by common infecteds?
 		No need to throw molotov or use melee, create fire around you!!
 
-		* Fire Infeceted
-		<br/>Description: Tank throws a rock on the roof and smoker uses his tongue from nowhere, buy this item to burn them all!!
+		* Boom
+		<br/>Description: Create the pipebomb from you and it is going to explode!!
 
 		* Adrenaline_Power
 		<br/>Description: Gain Adrenaline Power RIGHT NOW!! Move Faster and Save Faster
+
+		* Revive
+		<br/>Description: Save yourself when handing from ledge or incapacitated
+
+		* Fire Infeceted
+		<br/>Description: Tank throws a rock on the roof and smoker uses his tongue from nowhere, buy this item to burn them all!!
 
 		* Teleport
 		<br/>Description: Are you always alone and behind your team? Don't worry, buy this item to teleport back to your team.
@@ -639,11 +645,17 @@ Dutch
 		* 振火神通
 		<br/>說明: 原地著火
 
-		* 炎之呼吸
-		<br/>說明: 所有特感著火
+		* 爆爆王
+		<br/>說明: 創造一顆即將要爆炸的土製炸彈
 
 		* 注射興奮劑 (短暫時間)
 		<br/>說明: 直接獲得腎上腺素效果
+
+		* 拯救自己
+		<br/>說明: 掛邊或倒地時自救
+
+		* 炎之呼吸
+		<br/>說明: 所有特感著火
 
 		* 飛雷神之術
 		<br/>說明: 傳送到附近的隊友身上
