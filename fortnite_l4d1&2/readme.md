@@ -151,6 +151,9 @@ Turkish
 * 如何設定檔案
 	1. 準備清單
 		* 下載所有文件（插件和模組檔案與音樂）。
+		* 文件名
+			* 確保沒有文件有空格或特殊字符，如“長破折號”(–) 等。
+			* 不能有中文
 		* 將它們放在正確的資料夾中（“Left 4 Dead Dedicated Server\left4dead”或“Left 4 Dead 2 Dedicated Server\left4dead2”資料夾，具體取決於您的遊戲）。
 		* 準備你的網空並可以支援FastDL, 不知道什麼是FastDL請自行Google
 		
