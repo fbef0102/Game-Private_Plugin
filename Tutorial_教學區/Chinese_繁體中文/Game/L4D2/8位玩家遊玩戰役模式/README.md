@@ -35,8 +35,8 @@
 - - - -
 ## 必要檔案
 1. [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): 解鎖伺服器人數限制
-   - 如果你是專屬伺服器，在 cfg/server.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
-   - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫在以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果你是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
     sv_visiblemaxplayers 8 //number is same as above
