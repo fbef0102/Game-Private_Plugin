@@ -32,7 +32,7 @@ Spanish
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0h
+	* v1.0h (2022-11-17)
 		* Remove unnecessary codes and cvars
 		* Add Spectator/Dead Survivor Flashlight Only
 

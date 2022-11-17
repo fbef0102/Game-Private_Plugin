@@ -96,6 +96,11 @@ Accept small change or English translation<br/>
     * 誰是黑白狀態(最後一條生命)
   * [l4d_h_csm](/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+</details>
+
+* <details><summary><b>Spectator | 旁觀者</b></summary>
+  * [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): A spectator who watching the survivor at first person view can now see the infected model glows though the wall
+    * (公開) 旁觀者能看到特感的光圈，主要是用來更好的觀看體驗
   * [l4d_flashlight_speconly](/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
     * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
@@ -140,6 +145,8 @@ Accept small change or English translation<br/>
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [l4d2_melee_durability](/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
     * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+  * [l4d_dynamic_muzzle_flash](/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
+    * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -162,6 +169,14 @@ Accept small change or English translation<br/>
     * 輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
   * [l4d_ghost_FinaleSpawn](/l4d_ghost_FinaleSpawn): Adjust ghost infected spawn range on finales
     * 在救援關卡調整靈魂特感的復活距離
+</details>
+
+* <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
+
+  * [l4d_expertrealism](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_expertrealism): L4D1/2 Real Realism Mode (No Glow + No Hud)
+    * (公開) L4D1/2 真寫實模式 (沒有光圈與介面)
+  * [l4d_dynamic_muzzle_flash](/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
+    * 槍口增加逼真的閃光
 </details>
 
 * <details><summary><b>Survival | 生存模式</b></summary> 
