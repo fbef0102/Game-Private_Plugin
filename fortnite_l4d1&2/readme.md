@@ -50,6 +50,12 @@ Turkish
 * Require | 必要安裝
 <br/>None
 
+* Related Plugin | 相關插件
+	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
+		> 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
+	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
+		> 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
