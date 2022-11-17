@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_dynamic_muzzle_flash_1](image/l4d_dynamic_muzzle_flash_1.jpg)
 	* M60 Muzzle Flash
 	> M60槍口逼真光源
-	<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
+	<br/>![l4d_dynamic_muzzle_flash_2](image/l4d_dynamic_muzzle_flash_2.jpg)
 
 * Apply to | 適用於
 ```
