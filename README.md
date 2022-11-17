@@ -96,6 +96,8 @@ Accept small change or English translation<br/>
     * 誰是黑白狀態(最後一條生命)
   * [l4d_h_csm](/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+  * [l4d_flashlight_speconly](/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
+    * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>

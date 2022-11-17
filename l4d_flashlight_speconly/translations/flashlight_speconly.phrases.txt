@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"Flashlight Intro"
+	{
+		"en"		"Toggle chat command: {green}!lightspec{default}. Colors: red, green, blue, purple, orange, yellow, white. Or 3 values 0-255. EG: {green}!lightspec red{default} or {green}!lightspec 255 0 0"
+		"zho"		"開啟發光效果: 輸入{green}!lightspec{default}. 顏色: red, green, blue, purple, orange, yellow, white. 或是 3 個 0-255 RGB之值. 譬如: {green}!lightspec red{default} 或 {green}!lightspec 255 0 0"
+		"chi" 		"开启发光效果: 输入{green}!lightspec{default}. 颜色: red, green, blue, purple, orange, yellow, white. 或是3 个0-255 RGB之值. 譬如: {green}!lightspec red{default} 或 {green}!lightspec 255 0 0"
+		"ru"		"Включите фонарик командой в чате: {green}!lightspec{default}. Выберете цвет red, green, blue, purple, orange, yellow, white. Пр: {green}!lightspec red"
+		"es"		"Comando para conmutar colores: {green}lightspec{default}. Colores: red, green, blue, purple, orange, yellow, white. O 3 valores entre 0-255. EJ: {green}lightspec red{default} o {green}lightspec 255 0 0"
+	}
+	"Flashlight Usage"
+	{
+		"en"		"Usage: {green}!lightspec <color name|R G B>{default}. Colors: red, green, blue, purple, orange, yellow, white. Or 3 values 0-255. EG: {green}!lightspec red{default} or {green}!lightspec 255 0 0"
+		"zho"		"使用方式: 輸入{green}!lightspec <顏色名稱或RGB>{default}. 顏色: red, green, blue, purple, orange, yellow, white. 或 3個0-255 RGB之值. 譬如: {green}!lightspec red{default} 或 {green}!lightspec 255 0 0"
+		"chi" 		"使用方式: 输入{green}!lightspec <颜色名称或RGB>{default}. 颜色: red, green, blue, purple, orange, yellow, white. 或 3个0-255 RGB之值. 譬如: {green}!lightspec red{default} 或 {green}!lightspec 255 0 0"
+		"ru"		"Помощь: {green}!lightspec{default} <R G B> Выберете цвет из 3 RGB значений 0-255: красный, зеленый, синий. Пр: {green}!lightspec 255 0 0"
+		"es"		"Modo: {green}lightspec <color name|R G B>{default}. Colores: red, green, blue, purple, orange, yellow, white. O 3 valores entre 0-255. EG: {green}lightspec red{default} o {green}lightspec 255 0 0"
+	}
+}
