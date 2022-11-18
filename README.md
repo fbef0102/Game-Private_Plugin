@@ -93,8 +93,6 @@ Accept small change or English translation<br/>
     * 玩家使用命令解除自身卡住的狀態 (譬如卡死在地形或牆壁)
   * [L4D2_Stats_Percentage_UP](/L4D2_Stats_Percentage_UP): Simple MVP Statistics after command or in the end of the round
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
-  * [l4d_blackandwhite](/l4d_blackandwhite): Notify people when player is black and white.
-    * 誰是黑白狀態(最後一條生命)
   * [l4d_h_csm](/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
 </details>
