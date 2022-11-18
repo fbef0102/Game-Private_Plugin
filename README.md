@@ -195,14 +195,14 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Fuck you Griefer | 和平締造者-專治傻B合集</b></summary>
 
-  * [l4d_vocalize_antiflood](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
-    * (公開) 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
   * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
     * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
   * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
     * (公開) 倖存者必須等待時間到並集合才能打開終點安全門，有更多功能
   * [L4DVSAutoSpectateOnAFK](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/L4DVSAutoSpectateOnAFK): Forces survivors and infected to spectate if they're AFK after certain time
     * (公開) AFK的玩家將會被旁觀並且踢出伺服器
+  * [l4d_vocalize_antiflood](/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
+    * 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
   * [anti_end_saferoomdoor](/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
     * 所有人抵達終點安全室之前，不得關門
   * [kickthevoter](/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
