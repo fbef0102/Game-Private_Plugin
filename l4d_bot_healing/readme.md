@@ -20,6 +20,7 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v2.2
+		* Request by 壹梦
 		* Add Cvars to tell if Target is self or teammate bot or teammate real player
 
 	* v2.1

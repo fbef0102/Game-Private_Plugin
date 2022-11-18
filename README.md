@@ -109,6 +109,8 @@ Accept small change or English translation<br/>
 
   * [l4d_bot_healing](/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
     * 目標生命值低於一定血量之時，Bot不會使用治療包與傳送藥丸 (目標區分為自己、隊友Bot、真人玩家)
+  * [l4d2_sb_fix](/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
+    * 強化AI Bot的智商與行為
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
