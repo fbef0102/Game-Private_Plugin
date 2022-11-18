@@ -29,7 +29,7 @@ L4D2
 * Require | 必要安裝
 <br/>None
 
-* Important | 重要步驟
+* Important
 	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
 		* If you run a coop server. Rename it to "coop.nut"
 		* If you run a versus server. Rename it to "versus.nut"
@@ -39,13 +39,13 @@ L4D2
 		* You can create multi .nut files
 	> __Note__ (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
 
-* Default HUD_Text | 預設顯示內容
+* Default HUDX_Text
 	* HUD1_Text: -data\l4d2_scripted_hud.cfg "HUD1" text
 	* HUD2_Text: Tank Health
 	* HUD3_Text: Kill Infected Counter Rank
 	* HUD4_Text: Player Speaking
 
-* Note | 注意事項
+* Note
 	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load "l4d2_scripted_hud_hud?_text"(? is 1~4) cvar text. If both empty, then load GetHUD*_Text functions
 	* The limit of each HUD text is up to 127 characters.
 	* HUD Text can be moved and animated effect, please read cfg.
@@ -395,10 +395,10 @@ L4D2
 
 * 功能
 	1. 可自定義文字顯示內容
-	2. 可利用指令達成文字移動或閃紅色的效果，請自行閱讀文字
+	2. 可利用指令達成文字移動或閃紅色的效果，請自行閱讀指令列表
 	3. 多達四個HUD，可個別顯示或關閉文字
 
-* 預設的 HUD 文字-
+* 預設的 HUDX 文字-
 	* HUD1: -data\l4d2_scripted_hud.cfg "HUD1" 文字，自行修改
 	* HUD2: Tank 血量
 	* HUD3: 擊殺特感統計排行榜
@@ -415,7 +415,7 @@ L4D2
 	> __Note__ (如果已有.nut檔案，可以先備份)
 
 * 注意事項
-	* 插件先載入 data\l4d2_scripted_hud.cfg "HUD_Texts" 讀取文字. 如果空白則讀取 "l4d2_scripted_hud_hud?_text"(? is 1~4) 指令文字. 如果兩者皆空, 使用插件預設的 GetHUD*_Text 顯示文字
+	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 "l4d2_scripted_hud_hudX_text" 指令文字. 如果兩者皆空, 使用插件預設的 GetHUDX_Text 顯示文字 (X 是 1~4)
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
 	* 每個Hud文字可有滑動特效跟閃紅光，請詳細閱讀指令
 	

@@ -5,11 +5,12 @@ My Unpublic Private Plugin (Charge)
 
 - - - -
 # 私人插件列表 Private Plugins List
->持續更新中<br/>
-在這裡的插件均須收費交易，100-500台幣 (20-100人民幣、28-130港幣)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)<br/>
-可接受小幅度的修改或漢化處理<br/>
-Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)<br/>
-Accept small change or English translation<br/>
+>持續更新中
+* 在這裡的插件均須收費交易，100-500台幣 (20-100人民幣、28-130港幣)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)
+* 可接受小幅度的修改或漢化處理
+	* 想增加或改動插件功能，視難易度增加費用
+* Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
+* Accept small change or English translation
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
