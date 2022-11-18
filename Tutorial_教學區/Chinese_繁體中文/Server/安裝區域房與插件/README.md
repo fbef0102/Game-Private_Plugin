@@ -480,7 +480,7 @@
 
    * 沒有自動產生相對應的.cfg文件
       1. cfg\listenserver.cfg 寫入指令－＞儲存
-         * 如果沒有server.cfg檔案可以創建
+         * 如果沒有listenserver.cfg檔案可以創建
       2. 切換地圖或重啟遊戲
 
 > __Note__ 有的插件會自動產生.cfg文件，有的插件即使自帶指令也不會產生.cfg文件，全看原作者心情
