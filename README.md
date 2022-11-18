@@ -9,6 +9,7 @@ My Unpublic Private Plugin (Charge)
 * 在這裡的插件均須收費交易，100-500台幣 (20-100人民幣、28-130港幣)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)
 * 可接受小幅度的修改或漢化處理
 	* 想增加或改動插件功能，視難易度增加費用
+* 有任何新點子或想法可以聯繫並提出來討論
 * Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
 * Accept small change or English translation
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -244,7 +245,8 @@ My Unpublic Private Plugin (Charge)
 # 自我介紹
 台灣人，讀過資訊工程學系，略懂電腦程式碼<br/>
 Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上<br/>
-🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要遊玩影片為一代對抗模式與二代三方圖戰役模式 <br/>
+🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要是遊玩影片，一代對抗模式與二代三方圖戰役模式 <br/>
+🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)，上傳遊戲插件與修改自製的遊戲地圖或遊戲模組，可以參觀使用 <br/>
 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)，有四~五年的經驗<br/>
 ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬
 
@@ -278,7 +280,8 @@ Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/7656119802678491
 # Introduce MySelf
 Taiwanese, majored in in Department of Computer Science & Engineering<br/>
 People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years <br/>
-🔥[Youtube](https://www.youtube.com/c/HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube <br/>
+🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube <br/>
+🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods <br/>
 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Five years of experience in Sourcepawn code <br/>
 ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
 
@@ -312,10 +315,10 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 - - - -
 # 交易插件需求
 **有任何問題或製作插件需求請聯繫**<br/>
-**除非是我插件有bug或相關的問題，否則詢問知識或教學均收小費，以小時計算**<br/>
+**除非是我插件有bug或相關的問題，否則詢問知識或教學均收小費**<br/>
 **可接受PayPal、支付寶、台灣本地銀行轉帳**<br/>
 ✔開過windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲 <br/>
-✔Sourcemod插件有四年以上的經驗，處理過對抗、戰役、寫實、生存<br/>
+✔Sourcemod插件有五年以上的經驗，處理過對抗、戰役、寫實、生存<br/>
 ✔將舊插件重寫為Sourcemod 1.11以上能適用的新版本<br/>
 ✔Alliedmod論壇上所有適用於惡靈勢力的插件90%已看過並瞭若指掌<br/>
 ✔惡靈勢力官方指令80%已測試過功能，如何利用官方指令玩出新花樣<br/>
@@ -324,26 +327,30 @@ People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913),
 ✔用過網空下載，將額外的音樂檔案、模組貼圖發送給客戶端下載<br/>
 ✔曾處理過大廳連線、崩潰、掉線、模組衝突、錯誤等問題<br/>
 ✔你碰到的地雷我都踩過、你掉落的陷阱坑我都跳過、你遇到的問題我都解決過<br/>
+✔想詢問一些問題視態度與時間酌收小費
 
 ✗不受理不屬於我的插件的問題，要問要修改除非付錢否則請聯繫原作者<br/>
 ✗不做RPG、誇張特效、VIP、等級系統....<br/>
 ✗不想重複插件說明書已寫過的步驟或內容<br/>
-✗請略懂點英文，插件不做個人修改提示處理，請自行下載修改文字達成自己喜歡的樣子<br/>
+✗對Mod不太瞭解，非專業模組大佬<br/>
+✗文字訊息請自行改成自己喜歡的樣子<br/>
 ✗不受理盜版，勿擾<br/>
 ✗不幫忙架設伺服器但可教學，一切自己來<br/>
 ✗情緒勒索、道德綁架、學生價、討價還價、白嫖，一律黑名單<br/>
 ✗插件不是萬能的，並不是每個需求100％能做到<br/>
-✗我有選擇拒絕受理任何插件製作需求<br/>
-✗只想詢問一些問題視態度與時間酌收小費與鐘點費
+✗拒絕不合理的插件需求<br/>
 
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
 **Accept paypal、Alipay、Taiwan local bank ATM**<br/>
-✔ 5 years of experience in Sourcepawn code, dedicated server, local server, and plugin<br/>
+✔ Dealed with windoes, linux, local server, dedicated server<br/>
+✔ Possess 5-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival<br/>
+✔ Remake code, support sourcemod v1.11, convert code to latest syntax.<br/>
 
 ✗ Won't do any VIP, RPG, or any admin group plugin<br/>
 ✗ I know nothing much about .vpk mod, don't ask me<br/>
-✗ I have right to decline any plugin request 
+✗ Decline any unreasonable plugin request, the source plugins can not do 100% things<br/>
+
 - - - -
 # Others
 * [Questions | 問題集合區](/Questions_問題區)
