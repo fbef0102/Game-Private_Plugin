@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/11/18 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
@@ -25,7 +25,10 @@
 ## 如何開啟遊戲控制台
 - 開啟遊戲，選項－＞鍵盤／滑鼠－＞允許使用開發人員命令列－＞已啟用
    - 各個遊戲選項設定有所不同
-   <img src="https://i.imgur.com/g0fue7B.png" alt="g0fue7B.png" width="1000" height = "90">
+   <br/><img src="https://i.imgur.com/g0fue7B.png" alt="g0fue7B.png" width="1000" height = "90">
+- 鍵盤上左上角按下 ~ 符號開啟控制台
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202613546-5d3d2a5f-8ff2-4832-b0a5-82c5e3dd7b47.png)
+
 > __Note__ 與伺服器後台為不同的概念<br/>
 - - - -
 ## 如何安裝專屬伺服器
@@ -633,4 +636,5 @@
    * 給予命令所需要的資料
 - - - -
 ## 其他
+* [安裝區域房與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝區域房與插件/README.md)
 * [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
