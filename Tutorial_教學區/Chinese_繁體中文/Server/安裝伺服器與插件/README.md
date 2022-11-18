@@ -8,6 +8,7 @@
     - [如何執行專屬伺服器](#如何執行專屬伺服器)
     - [如何檢查版本](#如何檢查版本)
     - [如何進去我的伺服器](#如何進去我的伺服器)
+    - [如何從大廳匹配到專屬伺服器](#如何從大廳匹配到專屬伺服器)
     - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
     - [如何編譯源碼](#如何編譯源碼)
     - [如何安裝插件](#如何安裝插件)
@@ -115,8 +116,15 @@
 	   - 如果是L4D1，xxxxxx改成left4dead
 	   - 如果是L4D2，xxxxxx改成left4dead2
 	   - 如果是CSGO，xxxxxx改成csgo
+   - ```-port 27020``` 為設定的Port
+	   - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+   - ```+log on``` 打開伺服器紀錄儀
+   - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
+   - ```+sv_lan 0``` 改成網際網路
    - 可自行添加其他參數，譬如
 	   - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
+      - ```+sv_password 12345``` 伺服器密碼為12345
+
 - - - -
 ## 如何檢查版本
 <details>
@@ -234,7 +242,7 @@
 - - - -
 ## 如何進去我的伺服器
 1. 先要知道伺服器的IP地址，到伺服器的後台輸入```status``` <br/>
-   <img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
    - hostname 	為房名
    - version 	為遊戲伺服器的版本
    - udp/ip		為伺服器的IP
@@ -243,17 +251,39 @@
    - os		為電腦系統
    - map	為當前地圖
    - players		為伺服器內的玩家狀態
-2. 啟動遊戲－＞打開控制台－＞輸入connect x.x.x.x:yyyyy <br/>
-   <img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
-   - x.x.x.x:yyyyy 為你的伺服器公網IP
+	 
+2. 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` <br/>
+	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
+   - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器出問題，請自行Google找原因
    
 3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
-	<img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
-   
 > __Warning__ 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
+- - - -
+## 如何從大廳匹配到專屬伺服器
+1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
+	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+   - **udp/ip**	為伺服器的IP
+		- 前半部 **192.168.50.106:27016** 是**虛擬IP**
+		- 後半部 被塗黑的部分 是**公網IP**
+
+2. 啟動遊戲－＞創建大廳戲－＞伺服器類型選擇 **"最佳可用專屬"**－＞打開控制台－＞輸入```mm_dedicated_force_servers x.x.x.x:yyyyy```
+	<br/>![20221118172823_1](https://user-images.githubusercontent.com/12229810/202670198-c754f690-ed83-416a-88b8-359108012141.jpg)
+   - ```x.x.x.x:yyyyy``` 為伺服器的公網IP
+   - 不能輸入虛擬IP，否則只有你能進去
+   - 可以輸入其他人的專屬伺服器公網IP
+	
+3. 邀請朋友或等路人進來或者你自己一個人－＞開始遊戲
+
+4. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器 <br/>
+	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+	
+> __Warning__ 
+> * 只有當伺服器沒有人才可以從大廳匹配進去
+> * 如果伺服器有人，那請透過```connect x.x.x.x:yyyyy```方式連線進去　
 - - - -
 ## 如何成為伺服器的管理員
 1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"
@@ -409,6 +439,7 @@
 1. 將不想要的.smx插件從addons\sourcemod\plugins移除
    - 刪除或是移動到別的資料夾
 2. 切換地圖或重啟伺服器
+
 - - - -
 ## 如何更新插件
 1. 當發現作者更新了插件版本之後
@@ -420,6 +451,7 @@
 3. 重啟伺服器
 4. 到伺服器後台上，輸入```sm plugins info xxxxxx```，確認版本有更新
    - xxxxxx為插件的檔案名稱
+
 - - - -
 ## 如何手動管理插件
 <details>
