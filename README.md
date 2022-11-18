@@ -147,8 +147,6 @@ Accept small change or English translation<br/>
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [l4d2_melee_durability](/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
     * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
-  * [l4d_dynamic_muzzle_flash](/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
-    * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -229,6 +227,8 @@ Accept small change or English translation<br/>
     * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
     * Tank的石頭自動追蹤倖存者
+  * [l4d2_scope_wallhack](/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
+    * 倖存者打開狙擊鏡能透視看到特感
 </details>
 
 - - - -
