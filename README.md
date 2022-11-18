@@ -71,7 +71,8 @@ Accept small change or English translation<br/>
 
 * <details><summary><b>Witch | 女巫</b></summary>
   
-  None
+  * [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+    * (公開) Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
 </details>
 
 * <details><summary><b>Common Infected | 殭屍</b></summary>
@@ -99,6 +100,7 @@ Accept small change or English translation<br/>
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
+
   * [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): A spectator who watching the survivor at first person view can now see the infected model glows though the wall
     * (公開) 旁觀者能看到特感的光圈，主要是用來更好的觀看體驗
   * [l4d_flashlight_speconly](/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.

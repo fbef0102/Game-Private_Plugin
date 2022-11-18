@@ -6,6 +6,7 @@
     - [必要檔案](#必要檔案)
     - [額外檔案](#額外檔案)
     - [娛樂檔案](#娛樂檔案)
+    - [懶人包](#懶人包)
     - [其他](#其他)
 	
 - - - -
@@ -16,7 +17,7 @@
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
-   - 開區域房容易卡頓和崩潰，因為Sourcemod本來就不支援區域伺服器，請自行斟酌
+   - 因為Sourcemod本來就不支援區域伺服器，請自行斟酌
 * 此處教學包含修正5+以上玩家會發生的問題
 
 - - - -
@@ -125,37 +126,43 @@
 
 23. [l4d_h_csm (哈利版本)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
     - 此為CSM插件重製版，輸入!csm打開角色選擇介面
+
 - - - -
 ## 娛樂檔案
 1. [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
 
-2. [M60_GrenadeLauncher_patches](https://forums.alliedmods.net/showthread.php?t=323408): 允許M60與榴彈發射器補充彈藥
+2. [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
 
-3. [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
+3. [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
 
-4. [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store): 殺死殭屍獲得金額, 使用!buy購買強力補給品與特殊商品
+4. [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 使用腎上腺素之時，武器射速、裝彈速度、近戰武器揮砍速度、動畫起身速度變快
 
-5. [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
+5. [L4D2 gifts (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): 當特感被殺死之後掉落禮物，倖存者碰到禮物可得到強力武器與彈藥
 
-6. [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 使用腎上腺素之時，武器射速、裝彈速度、近戰武器揮砍速度、動畫起身速度變快
+6. [deathcheck (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): 所有玩家包括AI Bot死亡才會回合結束
 
-7. [L4D2 gifts (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): 當特感被殺死之後掉落禮物，倖存者碰到禮物可得到強力武器與彈藥
+7. [CSO SupplyBox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): 地圖上隨機掉落補給箱，支援倖存者得到強力武器
 
-8. [deathcheck (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): 所有玩家包括AI Bot死亡才會回合結束
+8. [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): 使用角色語音"看"，可讓物品標記光圈，亦可以標記特感或地點
 
-9. [CSO SupplyBox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): 地圖上隨機掉落補給箱，支援倖存者得到強力武器
+9. [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
 
-10. [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): 使用角色語音"看"，可讓物品標記光圈，亦可以標記特感或地點
+10. [Death Soul (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
 
-11. [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
+11. [Graves (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): 為人類屍體造一個墓碑以做紀念
 
-12. [Death Soul (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
+12. [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
 
-13. [Graves (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): 為人類屍體造一個墓碑以做紀念
+13. [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
 
-14. [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
+14. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
 
-15. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
+- - - -
+## 懶人包
+1. L4D2-多人戰役整合包: 只適用於Windows系統的區域房
+    * 含準備檔案、必要檔案、額外檔案、娛樂檔案
+    * 無須設定任何伺服器或網路防火牆，只要創建遊戲大廳便可，一鍵安裝，隨裝即用
+    * 此懶人包為私人收費，請聯繫
 
 - - - -
 ## 其他

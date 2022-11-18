@@ -6,6 +6,7 @@
     - [Require](#require)
     - [Optional](#optional)
     - [Fun](#fun)
+    - [Lazy Package](#lazy-package)
     - [Others](#others)
 	
 - - - -
@@ -120,33 +121,38 @@
 ## Fun
 1. [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.
 
-2. [M60_GrenadeLauncher_patches](https://forums.alliedmods.net/showthread.php?t=323408): Allows M60 and Grenade Launcher to function as any other weapon. Not dropping on empty and picking up ammo to refill
+2. [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 
-3. [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+3. [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
-4. [L4D2 Survivors And Infected Shop Improved](https://forums.alliedmods.net/showpost.php?p=2731889&postcount=18): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
+4. [Adrenaline & Pills Powerups Improved](https://forums.alliedmods.net/showpost.php?p=2748223&postcount=15): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
 
-5. [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
+5. [L4D2 gifts (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
 
-6. [Adrenaline & Pills Powerups Improved](https://forums.alliedmods.net/showpost.php?p=2748223&postcount=15): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
+6. [deathcheck (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): Prevents mission loss(Round_End) until all human players have died.
 
-7. [L4D2 gifts (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
+7. [CSO SupplyBox](https://forums.alliedmods.net/showthread.php?t=335862): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
 
-8. [deathcheck (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): Prevents mission loss(Round_End) until all human players have died.
+8. [Back 4 Blood Item hint Improved](https://forums.alliedmods.net/showpost.php?p=2765332&postcount=29): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
-9. [CSO SupplyBox](https://forums.alliedmods.net/showthread.php?t=335862): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+9. [Witch target override Improved](https://forums.alliedmods.net/showpost.php?p=2732048&postcount=9) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
 
-10. [Back 4 Blood Item hint Improved](https://forums.alliedmods.net/showpost.php?p=2765332&postcount=29): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+10. [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
 
-11. [Witch target override Improved](https://forums.alliedmods.net/showpost.php?p=2732048&postcount=9) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+11. [Graves (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2771370&postcount=24): When a survivor die, on his body appear a grave.
 
-12. [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
+12. [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
-13. [Graves (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2771370&postcount=24): When a survivor die, on his body appear a grave.
+13. [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
 
-14. [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
+14. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
 
-15. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
+- - - -
+## Lazy Package
+1. L4D2-Multiplayers_Coop: Apply to Windows listen server
+    * Prepare + Require + Optional + Fun
+    * All you need to do is to creat game lobby and start game
+    * Private, please contact
 
 - - - -
 ## Others
