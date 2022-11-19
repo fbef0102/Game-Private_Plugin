@@ -86,6 +86,7 @@
 
 4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案<br/>
    ![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
+
 - - - -
 ## 如何執行專屬伺服器
 * Windows
@@ -301,7 +302,9 @@
 
 3. 編譯完成的檔案將會在addons\sourcemod\scripting\compiled\ 資料夾裡面
    - 視窗如果顯示編譯失敗，代表缺少安裝必要的檔案或者源碼有錯誤，請洽作者
+      * [常見的編譯錯誤訊息](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E6%8F%92%E4%BB%B6/README.md#常見的編譯錯誤訊息)
    - 編譯完成的檔案都通用於Windows、Linux、macOs系統，不會有不相容的問題
+
 - - - -
 ## 如何安裝插件
 1. 無論是自己編譯好的插件或是從網路上下載的插件，將檔案放入addons\sourcemod\plugins
@@ -407,6 +410,7 @@
       </details>
 
 2. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
+   * [常見的插件錯誤訊息](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E6%8F%92%E4%BB%B6/README.md#常見的插件錯誤訊息)
 
 3. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止
    - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
