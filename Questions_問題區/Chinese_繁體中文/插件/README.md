@@ -348,8 +348,17 @@
 - - - -
 ## 哪裡能詢問插件問題
 * [AlliedModders](https://forums.alliedmods.net/index.php)，建議註冊一個用戶
+* 英文網站，只能全英文交流，只會中文建議找會說中文的大佬尋求幫助
 * 我們要詢問的是Sourcemod，而非AMX Mod X，小心別PO錯版
-  * [插件需求與想法](https://forums.alliedmods.net/forumdisplay.php?f=60)
+  * [插件需求與想法](https://forums.alliedmods.net/forumdisplay.php?f=60): 貼出你的新點子或需求，
+  * [插件綜合討論](https://forums.alliedmods.net/forumdisplay.php?f=58): 一般討論伺服器或插件現況，
+  * [插件源碼問題](https://forums.alliedmods.net/forumdisplay.php?f=107): 有源碼程式上的問題需要幫助
 
+* 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
+  <br/>![未命名](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
+* <details><summary><b>淺規則</b></summary>
+    
+  如果提出願意付費，能吸引很多大佬前來幫忙
+  </details>
 
 
