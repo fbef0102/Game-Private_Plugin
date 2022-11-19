@@ -72,26 +72,27 @@
 ## 如何安裝Sourcemod
 1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
-   - 紅色圖案代表此版本尚未支援該系統平台<br/>
-   ![image](https://user-images.githubusercontent.com/12229810/187821617-5f82e0c3-def7-4d7f-ab50-0b98b238e0ac.png)
+   - 紅色圖案代表此版本尚未支援該系統平台
+   - [sourcemod下載有分兩種](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E4%BC%BA%E6%9C%8D%E5%99%A8/README.md#為什麼sourcemod下載有分兩種)
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187821617-5f82e0c3-def7-4d7f-ab50-0b98b238e0ac.png)
 
 2. [MetaMod](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
-   - 紅色圖案代表此版本尚未支援該系統平台<br/>
-   ![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
+   - 紅色圖案代表此版本尚未支援該系統平台
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
  
-3. 將所有檔案解壓縮到伺服器路徑上，最後會看起來如圖片所示<br/>
-   ![image](https://user-images.githubusercontent.com/12229810/187822314-2080b3ea-2fbb-4b87-bffb-4b76bfe7181a.png)
-   ![image](https://user-images.githubusercontent.com/12229810/187822434-27c04668-bdc1-40b0-9e43-bec71629e929.png)
+3. 將所有檔案解壓縮到伺服器路徑上，最後會看起來如圖片所示
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187822314-2080b3ea-2fbb-4b87-bffb-4b76bfe7181a.png)
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187822434-27c04668-bdc1-40b0-9e43-bec71629e929.png)
 
-4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案<br/>
-   ![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
+4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
 
 - - - -
 ## 如何執行專屬伺服器
 * Windows
-1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器 <br/>
-![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
+1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器
+<br/>![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
 
 2. 各項目依照自己的喜好設定
 	- 伺服器名稱無法填寫中文

@@ -2,6 +2,7 @@
 > 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [為什麼進不去伺服器](#為什麼進不去伺服器)
+    - [為什麼Sourcemod下載有分兩種](#為什麼sourcemod下載有分兩種)
 	
 - - - -
 ## 為什麼進不去伺服器
@@ -80,3 +81,20 @@
   * 解決方式: 確認你所使用的地圖跟伺服器安裝的地圖，版本是一樣的，最好的方式是從同一個網站上下載
 </details>
 
+- - - -
+## 為什麼sourcemod下載有分兩種
+[Sourcemod官網](https://www.sourcemod.net/downloads.php)上有Stable Builds和Dev Builds
+<br/>![未命名](https://user-images.githubusercontent.com/12229810/202843043-4c84313e-540b-4cae-862c-1a1ceedca34c.jpg)
+<br/>不只Sourcemod，連[Metamod](https://www.sourcemm.net/)也有這兩種，差別在哪？
+<br/>![未命名](https://user-images.githubusercontent.com/12229810/202843249-a04ee5fe-2247-429e-af31-096692f1d72a.jpg)
+
+* Stable Builds 是穩定版本
+  * 是經過Sourcemod團隊測試之後無任何重大的bug才提供下載
+  * 伺服器穩定且不易崩潰，穩定度高
+  * 大部分的插件作者編寫源碼都是透過Stable Builds版本編譯
+  * 建議運行最新的穩定版本，但是當出現較新的版本時，你不需要著急去更新
+
+* Dev Builds 是開發版本
+  * 還在測試階段，Sourcemod團隊目前正在改良開發的新版本
+  * 也許會有新功能可以用，但這是寫源碼的開發者才需要考慮的
+  * 伺服器不穩定且容易出問題，想要把伺服器當白老鼠測試可以安裝
