@@ -3,6 +3,7 @@
 - [總攬](#問題總攬)
     - [為什麼進不去伺服器](#為什麼進不去伺服器)
     - [為什麼Sourcemod下載有分兩種](#為什麼sourcemod下載有分兩種)
+    - [為什麼啟動伺服器後無法開啟遊戲](#為什麼啟動伺服器後無法開啟遊戲)
 	
 - - - -
 ## 為什麼進不去伺服器
@@ -61,8 +62,8 @@
     1. Steam沒有登入或Steam被登出
     2. 你不是用正版
     3. 你或者伺服器網路改變了
-    4. 網路與伺服器不相容 (常見的原因是大陸伺服器被網路長城剔除)
-  * 解決方式: 離開遊戲，重新啟動Steam平台，再不行就[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)，再不行就重啟伺服器，再不行就去跟Steam Valve抱怨
+    4. 網路與伺服器不相容 (常見的原因是國外玩家在大陸伺服器被網路長城剔除)
+  * 解決方式: 離開遊戲，網路重連並確保順暢，重新啟動Steam平台，再不行就[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)，再不行就重啟伺服器，再不行就去跟Steam Valve抱怨
 </details>
 
 * <details><summary>問題7: 斷線，畫面出現<b>STEAM UserID STEAM_XXXXXXXXX is banned</b></summary>
@@ -79,6 +80,28 @@
 
   * 原因: 地圖與伺服器的版本不同
   * 解決方式: 確認你所使用的地圖跟伺服器安裝的地圖，版本是一樣的，最好的方式是從同一個網站上下載
+</details>
+
+* <details><summary>問題9: 斷線，畫面出現<b>STEAM validation rejected</b></summary>
+
+  <img width="223" alt="unknown" src="https://user-images.githubusercontent.com/12229810/202856292-62046c4e-1dc8-4253-ab46-48a4a688ba51.png">
+
+  * 原因一: steam帳號驗證失敗，steam沒有登入或網路被改變
+    * 解決方式: 重啟steam平台登入
+
+  * 原因二: 伺服器裡面已經有你的steam帳戶在裡面，通常發生於你遊戲崩潰或斷線，但伺服器的分身還在裡面（不動了）
+    * 解決方式: 
+      * 法一: 請管理員把伺服器內的分身踢出去
+      * 法二: 重啟伺服器
+      * 法三: 分身不動等待被伺服器自動踢出 (伺服器會每隔一段時間偵測玩家是否無回應網路數據，無回應會踢出伺服器)
+
+  * 原因三: 你的遊戲與專屬伺服器都在同一台電腦上，steam無法分辨
+    * 解決方式: 
+      * 法一: 使用不同台電腦安裝專屬伺服器
+      * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
+
+  * 原因四: 你使用離線模式遊玩單人模式，但伺服器一直要求驗證你的線上steam帳戶
+    * 解決方式: 遊戲控制台輸入sv_lan 1
 </details>
 
 - - - -
@@ -98,3 +121,13 @@
   * 還在測試階段，Sourcemod團隊目前正在改良開發的新版本
   * 也許會有新功能可以用，但這是寫源碼的開發者才需要考慮的
   * 伺服器不穩定且容易出問題，想要把伺服器當白老鼠測試可以安裝
+
+- - - -
+## 為什麼啟動伺服器後無法開啟遊戲
+我明明啟動的是Left 4 Dead 2 Dedicated Server，為什麼steam會顯示我是遊玩Left 4 Dead 2，而且還不能打開遊戲
+<br/>![未命名](https://user-images.githubusercontent.com/12229810/202857120-696d4a1b-ce57-45f2-8055-5d8e9ca6311c.jpg)
+
+* 原因: steam 與 Left 4 Dead 的問題，從遊戲發售至今沒有解決過，再問就是Valve吃大便
+* 解決方式: 
+  * 法一: 使用不同台電腦安裝專屬伺服器
+  * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
