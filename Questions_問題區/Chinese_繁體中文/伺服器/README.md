@@ -30,10 +30,10 @@
   * 原因: 模組衝突或三方圖太多，伺服器的檔案與你的檔案不一致
   * 解決方式:
     * 法一：你自己把模組或三方圖都刪除
-      * 法二：
-          * 區域房請房主在遊戲控制台打上```sv_consistency 0```
-          * 專屬伺服器請到伺服器後台輸入```sv_consistency 0```
-          * 如果是你自己創建大廳請打開遊戲控制台輸入```sv_consistency 0```
+    * 法二：
+        * 區域房請房主在遊戲控制台打上```sv_consistency 0```
+        * 專屬伺服器請到伺服器後台輸入```sv_consistency 0```
+        * 如果是你自己創建大廳請打開遊戲控制台輸入```sv_consistency 0```
 </details>
 
 * <details><summary>問題4: 控制台已經輸入<b>sv_consistency 0</b>，畫面還是出現<b>Server is enforcing consistency for this file</b></summary>
