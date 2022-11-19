@@ -11,8 +11,8 @@
 
   * 原因: 遊戲與伺服器的版本不同
   * 解決方式: 確認遊戲與伺服器升級到最新版本
-      * 遊戲: [驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md/#驗證遊戲檔案的完整性)
-      * 伺服器: [更新專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何更新專屬伺服器)
+      * 遊戲: [驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
+      * 伺服器: [更新專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何更新專屬伺服器)
 </details>
 
 * <details><summary>問題2: 無法連線進去專屬伺服器，畫面出現<b>connection failed after 10 retries</b></summary>
@@ -20,7 +20,7 @@
   ![image](https://user-images.githubusercontent.com/12229810/202834826-a7aff8f7-85c8-450e-b78a-e8d4d4099eb5.png)
 
   * 原因: 找不到伺服器
-  * 解決方式: 確認伺服器存在並且透過公網IP，不要虛擬IP，[如何進去我的伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何進去我的伺服器)
+  * 解決方式: 確認伺服器存在並且透過公網IP，不要虛擬IP，[如何進去我的伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何進去我的伺服器)
 </details>
 
 * <details><summary>問題3: 無法連線進去伺服器，畫面出現<b>Server is enforcing consistency for this file</b></summary>
@@ -41,7 +41,7 @@
   ![未命名](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
 
   * 原因: 檔案衝突太多了，多到無法忽視，遊戲救不你了
-  * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md/#驗證遊戲檔案的完整性)
+  * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
 </details>
 
 * <details><summary>問題5: 阻擋連線，畫面出現<b>steam please remove "-insecure" from the launch options...</b></summary>
@@ -61,7 +61,7 @@
     2. 你不是用正版
     3. 你或者伺服器網路改變了
     4. 網路與伺服器不相容 (常見的原因是大陸伺服器被網路長城剔除)
-  * 解決方式: 離開遊戲，重新啟動Steam平台，再不行就[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md/#驗證遊戲檔案的完整性)，再不行就重啟伺服器，再不行就去跟Steam Valve抱怨
+  * 解決方式: 離開遊戲，重新啟動Steam平台，再不行就[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)，再不行就重啟伺服器，再不行就去跟Steam Valve抱怨
 </details>
 
 * <details><summary>問題7: 斷線，畫面出現<b>STEAM UserID STEAM_XXXXXXXXX is banned</b></summary>

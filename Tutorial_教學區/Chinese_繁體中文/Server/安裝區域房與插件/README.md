@@ -56,7 +56,7 @@
 - - - -
 ## 如何判定伺服器為區域或專屬
 - 進入遊戲之後打開遊戲的控制台，打上```status```
-	- [如何開啟遊戲控制台](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/README.md/#如何開啟遊戲控制台)
+	- [如何開啟遊戲控制台](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/README.md#如何開啟遊戲控制台)
 	```php
 	] status
 	hostname: Resident Evil
@@ -70,7 +70,7 @@
 	
 - - - -
 ## 區域房如何安裝Sourcemod
-1. 先打開[你的遊戲主目錄的資料夾](/Tutorial_教學區/Chinese_繁體中文/Game/README.md/#打開遊戲主目錄的資料夾)
+1. 先打開[你的遊戲主目錄的資料夾](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#打開遊戲主目錄的資料夾)
 
 2. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
@@ -110,7 +110,7 @@
 > 
 - - - -
 ## 如何檢查版本
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何檢查版本)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何檢查版本)
 * 在區域房裡，伺服器後台為房主的遊戲控制台
 
 - - - -
@@ -121,37 +121,37 @@
 
 - - - -
 ## 如何成為伺服器的管理員
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何成為伺服器的管理員)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何成為伺服器的管理員)
 	 
 - - - -
 ## 如何編譯源碼
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何編譯源碼)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
  
 - - - -
 ## 如何安裝插件
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何安裝插件)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
 
 - - - -
 ## 如何檢查插件成功運作
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何檢查插件成功運作)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何檢查插件成功運作)
 * 在區域房裡，伺服器後台為房主的遊戲控制台
 
 - - - -
 ## 如何移除插件
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何移除插件)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何移除插件)
 
 - - - -
 ## 如何更新插件
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何更新插件)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何更新插件)
 
 - - - -
 ## 如何手動管理插件
-* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何手動管理插件)
+* [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何手動管理插件)
 * 在區域房裡，伺服器後台為房主的遊戲控制台
 
 - - - -
 ## 如何檢查指令值
-[查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何檢查指令值)
+[查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何檢查指令值)
 * 在區域房裡，伺服器後台為房主的遊戲控制台
 
 - - - -
@@ -187,7 +187,7 @@
 
 - - - -
 ## 如何使用插件的命令
-[查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md/#如何使用插件的命令)
+[查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何使用插件的命令)
 * 在區域房裡，伺服器後台為房主的遊戲控制台
 
 - - - -
