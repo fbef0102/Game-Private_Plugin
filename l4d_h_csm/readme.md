@@ -85,53 +85,6 @@ English
 		```php
 		sm_csc
 		```
-
-	* **Change character model to Coach**
-		```php
-		sm_c
-		sm_coach
-		```
-
-	* **Change character model to Nick**
-		```php
-		sm_n
-		sm_nick
-		```
-
-	* **Change character model to Ellis**
-		```php
-		sm_e
-		sm_ellis
-		```
-
-	* **Change character model to Rochelle**
-		```php
-		sm_r
-		sm_rochelle
-		```
-	* **Change character model to Louis**
-		```php
-		sm_l
-		sm_louis
-		```
-
-	* **Change character model to bill**
-		```php
-		sm_b
-		sm_bill
-		```
-
-	* **Change character model to Zoey**
-		```php
-		sm_z
-		sm_zoey
-		```
-
-	* **Change character model to Franics**
-		```php
-		sm_f
-		sm_franics
-		```
 </details>
 
 * Notice
