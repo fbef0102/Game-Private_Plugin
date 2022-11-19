@@ -356,7 +356,7 @@
 
 * 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
   <br/>![未命名](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
-* <details><summary><b>淺規則</b></summary>
+* <details><summary><b>潛規則</b></summary>
     
   如果提出願意付費，能吸引很多大佬前來幫忙
   </details>
