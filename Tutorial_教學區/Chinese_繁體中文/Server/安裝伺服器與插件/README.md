@@ -1,8 +1,7 @@
 # 問題總攬
-> 2022/11/18 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [如何選擇區域伺服器或專屬伺服器](#如何選擇區域伺服器或專屬伺服器)
-    - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
     - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
     - [如何安裝Sourcemod](#如何安裝sourcemod)
     - [如何執行專屬伺服器](#如何執行專屬伺服器)
@@ -30,16 +29,6 @@
 - 你可以自由選擇Sourcemod要安裝在專屬伺服器還是區域伺服器
 	- 我推薦專屬伺服器，因為所有插件都支援專屬伺服器
 	- 絕大部分的插件作者不會鳥你區域伺服器出現問題
-
-- - - -
-## 如何開啟遊戲控制台
-- 開啟遊戲，選項－＞鍵盤／滑鼠－＞允許使用開發人員命令列－＞已啟用
-   - 各個遊戲選項設定有所不同
-   <br/><img src="https://i.imgur.com/g0fue7B.png" alt="g0fue7B.png" width="1000" height = "90">
-- 鍵盤上左上角按下 ~ 符號開啟控制台
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202613546-5d3d2a5f-8ff2-4832-b0a5-82c5e3dd7b47.png)
-
-> __Note__ 與伺服器後台為不同的概念<br/>
 
 - - - -
 ## 如何安裝專屬伺服器
@@ -300,11 +289,13 @@
    
 4. 儲存，重啟伺服器，進入遊戲之後聊天視窗輸入!admin，如果左邊有介面跑出來代表已經成功為伺服器的管理員
    <img src="https://i.imgur.com/XDBkYkY.png" alt="XDBkYkY.png" width="300" height = "200">
+
 - - - -
 ## 如何編譯源碼
 1. 此處用Windows系統方便操作，將想要編譯的源碼檔案丟入addons\sourcemod\scripting\ 資料夾裡面
    - 源碼檔案的副檔名是.sp
    - 看不到副檔名者請自行google"如何顯示副檔名"
+
 2. 接著拖曳.sp檔案到同資料夾底下的compile.exe <br/>
    ![image](https://i.imgur.com/PrWaypt.gif)
 
@@ -619,7 +610,7 @@
 
 2. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
    ![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
-   - ```force_install_dir My_Server_Path```
+   - ```force_install_dir "My_Server_Path"```
       - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
    - ```login anonymous```
    - ```app_update XXXXXX validate```
@@ -633,7 +624,7 @@
    - ```./steamcmd.sh```
 
 2. 等到出現Loading Steam API...OK，依序輸入以下指令
-   - ```force_install_dir My_Server_Path```
+   - ```force_install_dir "My_Server_Path"```
       - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
    - ```login anonymous```
    - ```app_update XXXXXX validate```
