@@ -104,6 +104,18 @@
     * 解決方式: 遊戲控制台輸入sv_lan 1
 </details>
 
+* <details><summary>問題10: 斷線，畫面出現<b>區域伺服器，僅限本地用戶端</b></summary>
+
+  ![20221120190732_1](https://user-images.githubusercontent.com/12229810/202898826-60b6b5dd-3b1c-4298-918b-25b241e9e2e5.jpg)
+
+  * 原因: 伺服器限制只有相同網域的玩家才能進入
+  * 解決方式: 
+    1. 到伺服器後台檢查指令```sv_lan```是否為0
+    2. 關閉伺服器，[執行專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何執行專屬伺服器)的時候，網路務必選擇**網際網路**
+    3. 檢查cfg文件不能修改```sv_lan```
+    4. 如果伺服器有運行參數，請輸入```+sv_lan 0```
+</details>
+
 - - - -
 ## 為什麼sourcemod下載有分兩種
 [Sourcemod官網](https://www.sourcemod.net/downloads.php)上有Stable Builds和Dev Builds
