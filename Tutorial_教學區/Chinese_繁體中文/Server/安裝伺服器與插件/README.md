@@ -47,7 +47,7 @@
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
 5. 完成安裝之後輸入exit結束steamcmd
 
@@ -64,7 +64,7 @@
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
 3. 完成安裝之後輸入exit結束steamcmd
 
@@ -620,7 +620,7 @@
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID
-      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
 3. 完成安裝之後輸入exit結束steamcmd
 
@@ -634,7 +634,7 @@
    - ```login anonymous```
    - ```app_update XXXXXX validate```
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 22840 為L4Dead - Dedicated Server，22860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
 3. 完成安裝之後輸入exit結束steamcmd
 
