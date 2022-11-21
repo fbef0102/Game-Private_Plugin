@@ -107,32 +107,6 @@ My Unpublic Private Plugin (Charge)
     * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
 
-* <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
-
-  * [l4d_bot_healing](/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
-    * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
-  * [l4d2_sb_fix](/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
-    * 強化AI Bot的智商與行為
-</details>
-
-* <details><summary><b>Fun | 娛樂</b></summary>
-
-  * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
-    * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
-  * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
-    * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-  * [fortnite_l4d1&2](/fortnite_l4d1&2): Emotes and Dance in L4D1/2
-    * 搞笑動作模組: 表情與舞蹈
-  * [simple-bhop](/simple-bhop): Let users Bunny Hop with simplicity
-    * 簡單的連跳插件
-  * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
-    * 人類與特感的購物商城 (附有特殊商品與資料庫)
-  * [l4d_ranking_system](/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
-    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
-  * [Trails_Projectile](/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
-    * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
-</details>
-
 * <details><summary><b>Items | 物品</b></summary>
 
   * [L4D_NoSafeRoomMedKits](/L4D_NoSafeRoomMedKits): No Safe Room Medkits
@@ -195,7 +169,7 @@ My Unpublic Private Plugin (Charge)
     * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
 </details>
 
-* <details><summary><b>Fuck you Griefer | 和平締造者-專治傻B合集</b></summary>
+* <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
   * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
     * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
@@ -221,14 +195,42 @@ My Unpublic Private Plugin (Charge)
     * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
 </details>
 
+* <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
+
+  * [l4d_bot_healing](/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
+    * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
+  * [l4d2_sb_fix](/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
+    * 強化AI Bot的智商與行為
+</details>
+
+* <details><summary><b>Fun | 娛樂</b></summary>
+
+  * [l4d2_karma_kill](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_karma_kill): Very Very loudly announces the predicted event of a player leaving the map and or life through height or drown.
+    * (公開) 被Charger撞飛、Tank打飛、Jockey騎走墬樓、自殺跳樓等等會有慢動作特效
+  * [l4d_player_spritetrail](/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
+    * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
+  * [l4d_player_tail](/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
+    * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
+  * [fortnite_l4d1&2](/fortnite_l4d1&2): Emotes and Dance in L4D1/2
+    * 搞笑動作模組: 表情與舞蹈
+  * [simple-bhop](/simple-bhop): Let users Bunny Hop with simplicity
+    * 簡單的連跳插件
+  * [L4D2_Buy_Store](/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
+    * 人類與特感的購物商城 (附有特殊商品與資料庫)
+  * [l4d_ranking_system](/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
+    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+  * [Trails_Projectile](/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
+    * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
+</details>
+
 * <details><summary><b>Nothing is Impossible | 無理改造版</b></summary>
 
+  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+    * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_gun_blastpushback](/l4d_gun_blastpushback): Doraemon Aircannon
     * 人類擁有多啦A夢的空氣砲
   * [l4d_rejump](/l4d_rejump): Allows multi-jumping on air.
     * 成為超級瑪利歐，人類與特感能在空中使用月步，多次跳躍
-  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-    * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_tracerock](/l4d_tracerock): Tank's rock will trace survivor until hit something.
     * Tank的石頭自動追蹤倖存者
   * [l4d2_scope_wallhack](/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
