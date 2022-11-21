@@ -34,6 +34,10 @@ English
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022
 	```
+	* v1.1h (2022-11-22)
+		* Change prop m_survivorCharacter when change l4d1 or l4d2 model only 
+		* Save Menu Position
+
 	* v1.0h
 		* Remake code
 		* Remove unuseful cvars
