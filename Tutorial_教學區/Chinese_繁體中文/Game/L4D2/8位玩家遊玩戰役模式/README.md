@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2022/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/11/22 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
@@ -116,8 +116,7 @@
 
 19. [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 
-20. [8 survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2726779&postcount=38): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
-    - 解壓縮檔案到addons\stripper\maps\ 相同資料夾
+20. [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
 
 21. [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
     - 🟥只適用於專屬伺服器🟥

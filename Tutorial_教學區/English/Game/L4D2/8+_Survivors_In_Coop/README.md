@@ -1,5 +1,5 @@
 # Navigation
-> 2022/10/3 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/11/22 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
@@ -107,8 +107,7 @@
 
 19. [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2773718&postcount=16): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
 
-20. [8 survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2726779&postcount=38): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
-    - Unzip all cfg files in addons\stripper\maps\
+20. [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
 
 21. [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
     - 🟥Doesn't work in listen server🟥
