@@ -152,6 +152,34 @@
 		"zho"	"直到下回合之前不能更換角色或模型 (次數已達限制)"
 		"chi"	"直到下回合之前不能使用角色或模型 (次数已达限制)"
 	}
+	"Adm changes your character"
+	{
+		"#format" 		"{1:t}"
+		"en"	"Adm({lightgreen}%N{default}) changes your character to {green}{1}{default}"
+		"zho"	"管理員({lightgreen}%N{default}) 改變你的角色為 {green}{1}{default}"
+		"chi"	"管理员({lightgreen}%N{default}) 改变你的角色为 {green}{1}{default}"
+	}
+	"Adm changes your character2"
+	{
+		"#format" 		"{1:t}"
+		"en"	"Adm(%N) changes your character to {1}"
+		"zho"	"管理員(%N) 改變你的角色為 {1}"
+		"chi"	"管理员(%N) 改变你的角色为 {1}"
+	}
+	"You change client character"
+	{
+		"#format" 		"{1:t}"
+		"en"	"You change {olive}%N{default}'s character to {green}{1}{default}"
+		"zho"	"你改變 {olive}%N{default} 的角色為 {green}{1}{default}"
+		"chi"	"你改变 {olive}%N{default} 的角色为 {green}{1}{default}"
+	}
+	"You change client character2"
+	{
+		"#format" 		"{1:t}"
+		"en"	"You change %N's character to {1}"
+		"zho"	"你改變 %N 的角色為 {1}"
+		"chi"	"你改变 %N 的角色为 {1}"
+	}
 	"Your character"
 	{
 		"#format" 		"{1:t}"
