@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message when survival begins
-	計時開始時提示訊息
+	> 計時開始時提示訊息
 	<br/>![survival_hp_1](image/survival_hp_1.jpg)
 
 * Apply to | 適用於

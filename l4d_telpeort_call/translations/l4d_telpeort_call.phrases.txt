@@ -1,0 +1,115 @@
+﻿"Phrases"
+{
+	"Title"
+	{
+		"en"		"Teleport Menu (!call)"
+		"zho"		"傳送功能 指令 !call"
+		"chi"		"传送功能 指令 !call"
+	}
+	"warp_all_survivors_here"
+	{
+		"en"		"Warp all survivors here"
+		"zho"		"傳到身邊 (所有倖存者)"
+		"chi"		"传到身边 (所有生还者)"
+	}
+	"warp_all_survivors_to_start_area"
+	{
+		"en"		"Warp all survivors to start area"
+		"zho"		"回到起點 (所有倖存者)"
+		"chi"		"回到起点 (所有生还者)"
+	}
+	"warp_all_survivors_to_checkpoint"
+	{
+		"en"		"Warp all survivors to checkpoint"
+		"zho"		"傳送到終點 (所有倖存者)"
+		"chi"		"传送到终点 (所有生还者)"
+	}
+	"warp_all_survivors_to_finale"
+	{
+		"en"		"Warp all survivors to finale "
+		"zho"		"傳送到救援區域 (所有倖存者)"
+		"chi"		"传送到救援区域 (所有生还者)"
+	}
+	"warp_survivor_here"
+	{
+		"en"		"Warp player here"
+		"zho"		"傳到身邊 (選擇玩家)"
+		"chi"		"传到身边 (选择玩家)"
+	}
+	"warp_to_start_area"
+	{
+		"en"		"Warp player to start area"
+		"zho"		"回到起點 (選擇玩家)"
+		"chi"		"回到起点 (选择玩家)"
+	}
+	"warp_to_checkpoint"
+	{
+		"en"		"Warp youself to checkpoint"
+		"zho"		"傳送到終點 (選擇玩家)"
+		"chi"		"传送到终点 (选择玩家)"
+	}
+	"Current Map is Final"
+	{
+		"en"		"Can't teleport (current Map is final)"
+		"zho"		"無法傳送 (當前地圖是最後一關)"
+		"chi"		"无法传送 (当前地图是最后一关)"
+	}
+	"Current Map is not Final"
+	{
+		"en"		"Can't teleport (current Map is not final)"
+		"zho"		"無法傳送 (當前地圖不是救援關卡)"
+		"chi"		"无法传送 (当前地图不是救援关卡)"
+	}
+	"EndCheckpointDoor not found"
+	{
+		"en"		"Can't teleport (end saferoom door not found)"
+		"zho"		"無法傳送 (找不到終點門)"
+		"chi"		"无法传送 (找不到终点门)"
+	}
+	"Admin calls teleport (C)"
+	{
+		"#format"		"{1:t}"
+		"en"		"Admin calls teleport function: {green}{1}"
+		"zho"		"管理員呼叫傳送功能: {green}{1}"
+		"chi"		"管理员呼叫传送功能: {green}{1}"
+	}
+	"Admin calls teleport"
+	{
+		"#format"		"{1:t}"
+		"en"		"Admin calls teleport function: {1}"
+		"zho"		"管理員呼叫傳送功能: {1}"
+		"chi"		"管理员呼叫传送功能: {1}"
+	}
+	"Admin calls teleport for you (C)"
+	{
+		"#format"		"{1:t}"
+		"en"		"Admin calls teleport function for you: {green}{1}"
+		"zho"		"管理員對您使用傳送功能: {green}{1}"
+		"chi"		"管理员对您使用传送功能: {green}{1}"
+	}
+	"Admin calls teleport for you"
+	{
+		"#format"		"{1:t}"
+		"en"		"Admin calls teleport function: {1}"
+		"zho"		"管理員對您使用傳送功能: {1}"
+		"chi"		"管理员对您使用传送功能: {1}"
+	}
+	"Choose Player"
+	{
+		"en"		"Choose Player"
+		"zho"		"選擇玩家"
+		"chi"		"选择玩家"
+	}
+	"No Any alive player"
+	{
+		"en"		"There Are No Any alive player"
+		"zho"		"目前沒有活著的玩家"
+		"chi"		"目前没有活着的玩家"
+	}	
+	"Invalid"
+	{
+		"en"		"Target is not a valid alive player, choose again!"
+		"zho"		"傳送對象不是一個活著的玩家，請重新選擇！"
+		"chi"		"传送对象不是一个活着的玩家，请重新选择！"
+	}
+}
