@@ -1,5 +1,5 @@
 # Description | 內容
-Sets a tank and witch spawn point on every map in coop mode
+Sets a tank and witch spawn point on every map in versus + Makes Versus Boss Spawns obey cvars
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -11,18 +11,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* display message when leaving out saferoom
 	> 出門顯示Boss路程
-	<br/>![coopbosses_ifier_1](image/coopbosses_ifier_1.jpg)
+	<br/>![versusbosses_ifier_1](image/versusbosses_ifier_1.jpg)
 	* display message when this plugin spawns tank/witch
 	> Boss生成時顯示訊息
-	<br/>![coopbosses_ifier_2](image/coopbosses_ifier_2.jpg)
+	<br/>![versusbosses_ifier_2](image/versusbosses_ifier_2.jpg)
 
 * Apply to | 適用於
 ```
-L4D1 coop
-L4D2 coop/realism
+L4D1 versus
+L4D2 versus
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4
+	    * Makes Versus Boss Spawns obey cvars
 
 	* v1.3
 	    * Original Request by Anzu
@@ -32,11 +35,15 @@ L4D2 coop/realism
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
-	4. Optional - [[INC] readyup](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/readyup.inc)
+	4. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
-	1. [readyup](https://github.com/fbef0102/Game-Private_Plugin/tree/main/readyup): Ready Plugin
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
 		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
+
+* Similar Plugin | 相似插件
+	1. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * Related | 相關插件
 	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
@@ -79,46 +86,58 @@ L4D2 coop/realism
 	}
 	```
 
+* <details><summary>Related Official ConVar</summary>
+
+	* write down the follong cvars in cfg/server.cfg
+		```php
+		// Adjust tank spawns: 100% chance on every map (0.00 ~ 1.00)
+		sm_cvar versus_tank_chance_intro 		"1" //first map
+		sm_cvar versus_tank_chance_finale 		"1" //regular map
+		sm_cvar versus_tank_chance 				"1" //final map
+
+		// Adjust witch spawns: 100% chance on every map (0.00 ~ 1.00)
+		sm_cvar versus_witch_chance_intro 		"1" //first map
+		sm_cvar versus_witch_chance_finale 		"1" //regular map
+		sm_cvar versus_witch_chance 			"1" //final map
+
+		// Adjust boss spawn completion rates: Boss have been prevented from spawning before 20% and after 85
+		sm_cvar versus_boss_flow_min_intro 		"0.20" //first map
+		sm_cvar versus_boss_flow_max_intro 		"0.85"
+		sm_cvar versus_boss_flow_min 			"0.25" //regular map
+		sm_cvar versus_boss_flow_max 			"0.85"
+		sm_cvar versus_boss_flow_min_finale 	"0.20"
+		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map
+		```
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/coopbosses_ifier.cfg
+	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
-		l4d_coop_boss_avoid_tank_spawn "10"
-
-		// Disable Tank spawn in Final Map
-		l4d_coop_boss_final_tank_spawn_disable "1"
-
-		// Disable Witch spawn in Final Map
-		l4d_coop_boss_final_witch_spawn_disable "1"
-
-		// Max fraction of map flow for tank/witch spawn location in coop
-		l4d_coop_boss_flow_max "80"
-
-		// Min fraction of map flow for tank/witch spawn location in coop
-		l4d_coop_boss_flow_min "20"
+		l4d_versus_boss_avoid_tank_spawn "10"
 
 		// Enable forcing boss spawns to obey boss spawn cvars
-		l4d_coop_boss_spawn_cvars "1"
+		l4d_versus_boss_spawn_cvars "1"
 
 		// Don't override boss spawning rules on Static Tank Spawn maps (c7m1, c13m2)
-		l4d_coop_boss_spawn_except_static "1"
+		l4d_versus_boss_spawn_except_static "1"
 
 		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
-		l4d_coop_boss_vote "1"
+		l4d_versus_boss_vote "1"
 
 		// How many players at least to vote Boss Spawns.
-		l4d_coop_boss_vote_need_player "4"
+		l4d_versus_boss_vote_need_player "4"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
-	* **Adm forces witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+	* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 		```php
 		sm_setwitch <number>
 		```
-	* **Adm forces tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+	* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 		```php
 		sm_settank <number>
 		```
@@ -138,13 +157,11 @@ L4D2 coop/realism
 
 - - - -
 # 中文說明
-戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * 原理
 	* 覆蓋原本的導演生成系統，由此插件決定何時生成Tank與Witch
-	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取75，當人類路程走到75%路程，生成Tank
-	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取40，當人類路程走到40%路程，生成Witch
-	* 如果輔助文件禁止50 ~ 70%生成Boss，則隨機值不會取50 ~ 70
+	* 由官方指令與data/mapinfo.txt輔助文件決定每一關的路程範圍，請查看Data設定範例與相關的官方指令中文介紹
 
 * 功能
 	1. 可決定每一關是否該生成 Tank/Witch
@@ -191,36 +208,48 @@ L4D2 coop/realism
 在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
 (譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
 
+* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
+
+	* 以下指令寫入文件 cfg/server.cfg，可自行調整
+		```php
+		// 每張地圖100%生成Tank (0.00 ~ 1.00)
+		sm_cvar versus_tank_chance_intro 		"1" //第一關
+		sm_cvar versus_tank_chance_finale 		"1" //普通關卡
+		sm_cvar versus_tank_chance 				"1" //最後一關
+
+		// 每張地圖100%生成Witch (0.00 ~ 1.00)
+		sm_cvar versus_witch_chance_intro 		"1" //第一關
+		sm_cvar versus_witch_chance_finale 		"1" //普通關卡
+		sm_cvar versus_witch_chance 			"1" //最後一關
+
+		// 決定關卡的Boss生成路程: 25% ~ 85%
+		sm_cvar versus_boss_flow_min_intro 		"0.20" //第一關
+		sm_cvar versus_boss_flow_max_intro 		"0.85"
+		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
+		sm_cvar versus_boss_flow_max 			"0.85"
+		sm_cvar versus_boss_flow_min_finale 	"0.20"
+		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
+		```
+</details>
+
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/coopbosses_ifier.cfg
+	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
 		// Tank 附近前後10% (20除以2) 避開生成witch
-		l4d_coop_boss_avoid_tank_spawn "10"
-
-		// 如果為1，最後一關預設不生成Tank
-		l4d_coop_boss_final_tank_spawn_disable "1"
-
-		// 如果為1，最後一關預設不生成Witch
-		l4d_coop_boss_final_witch_spawn_disable "1"
-
-		// 最遠80%生成 Tank/witch
-		l4d_coop_boss_flow_max "80"
-
-		// 最近20%生成 Tank/witch
-		l4d_coop_boss_flow_min "20"
+		l4d_versus_boss_avoid_tank_spawn "10"
 
 		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
-		l4d_coop_boss_spawn_cvars "1"
+		l4d_versus_boss_spawn_cvars "1"
 
 		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (譬如c7m1, c13m2，不要修改此指令除非你知道在幹嗎)
-		l4d_coop_boss_spawn_except_static "1"
+		l4d_versus_boss_spawn_except_static "1"
 
 		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
-		l4d_coop_boss_vote "1"
+		l4d_versus_boss_vote "1"
 
 		// 發起!voteboss投票所需的玩家數量 
-		l4d_coop_boss_vote_need_player "4"
+		l4d_versus_boss_vote_need_player "4"
 		```
 </details>
 
