@@ -97,7 +97,7 @@ My Unpublic Private Plugin (Charge)
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_h_csm](/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
-  * [l4d_telpeort_call](/l4d_h_csm): Teleport Call Menu
+  * [l4d_telpeort_call](/l4d_telpeort_call): Teleport Call Menu
     * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
 </details>
 
