@@ -263,7 +263,8 @@
 	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
-   - 如果都無法連線代表網路的路由器出問題，請自行Google找原因
+   - 如果都無法連線代表網路的路由器(無線基地台、Router)需要調整
+      * 申請固定IP，並更改路由器的路由表(Routing Table/Forwarding Table)，每個品牌操作方式不太一樣，請自行google
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
    
 3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
