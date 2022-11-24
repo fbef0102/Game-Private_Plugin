@@ -19,8 +19,10 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0.3
-		* Kill Infected Counter Rank by Harry (HUD3_Text)
+	* v1.0.4 (2022-11-24)
+		* Request by Yabi
+		* Kill Infected Counter Rank (HUD3_Text)
+		* Time and Survivor/Infected count (HUD1_Text)
 
 	* v1.0.2
 		* [By Marttt](https://forums.alliedmods.net/showthread.php?p=2740016)
@@ -40,7 +42,7 @@ L4D2
 	> __Note__ (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
 
 * Default HUDX_Text
-	* HUD1_Text: -data\l4d2_scripted_hud.cfg "HUD1" text
+	* HUD1_Text: Time and Survivor/Infected count
 	* HUD2_Text: Tank Health
 	* HUD3_Text: Kill Infected Counter Rank
 	* HUD4_Text: Player Speaking
@@ -89,7 +91,7 @@ L4D2
 
 	// The text you want to display in the HUD.
 	// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD*_Text functions.
-	l4d2_scripted_hud_hud1_text "HUD 1 TEXT"
+	l4d2_scripted_hud_hud1_text ""
 
 	// Aligns the text horizontally.
 	// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
@@ -395,11 +397,11 @@ L4D2
 
 * 功能
 	1. 可自定義文字顯示內容
-	2. 可利用指令達成文字移動或閃紅色的效果，請自行閱讀指令列表
+	2. 可利用指令達成文字移動或閃紅色的動畫效果，請自行閱讀指令列表
 	3. 多達四個HUD，可個別顯示或關閉文字
 
-* 預設的 HUDX 文字-
-	* HUD1: -data\l4d2_scripted_hud.cfg "HUD1" 文字，自行修改
+* 預設的 HUDX 文字
+	* HUD1: 目前遊戲時間、倖存者數量、感染者數量
 	* HUD2: Tank 血量
 	* HUD3: 擊殺特感統計排行榜
 	* HUD4: 玩家語音說話
@@ -415,9 +417,9 @@ L4D2
 	> __Note__ (如果已有.nut檔案，可以先備份)
 
 * 注意事項
-	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 "l4d2_scripted_hud_hudX_text" 指令文字. 如果兩者皆空, 使用插件預設的 GetHUDX_Text 顯示文字 (X 是 1~4)
-	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
-	* 每個Hud文字可有滑動特效跟閃紅光，請詳細閱讀指令
+	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 "l4d2_scripted_hud_hudX_text" 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUDX_Text 顯示文字 (X 是 1~4)
+	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
+	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
 	
 > __Warning__<br/>
 安裝上這個插件之後，畫面會比較卡，多個Tank存活期間尤為明顯，自行斟酌安裝
