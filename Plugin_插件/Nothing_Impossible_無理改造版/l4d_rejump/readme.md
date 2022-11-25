@@ -24,9 +24,14 @@ L4D2
 	//paegus @ 2009 - 2021
 	//Harry @ 2022
 	```
-	* v1.2
+	* v1.0h (2022-11-26)
 		* Remake code
 		* More Cvars
+		* Survivor + Infected
+		* Disable jump after a tank punch
+		* Disable jump when incapped by special infected
+		* Disable jump if not jump off the ledge first
+		* Detect height and disable second jump
 
 	* v1.0.1
 		* [By paegus](https://forums.alliedmods.net/showthread.php?p=895212)
@@ -52,6 +57,9 @@ L4D2
 	// 0=Plugin off, 1=Plugin on.
 	l4d_rejump_enabled "1"
 
+	// Disable jump if height is too low compared to previous jump for survivors.
+	l4d_rejump_height_disble "200.0"
+
 	// (L4D2) Which zombie class can also use double jump, 0=None, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank. Add numbers together. (127=All)
 	l4d_rejump_infected_class "127"
 
@@ -63,6 +71,9 @@ L4D2
 
 	// If 1, survivor can also use double jump.
 	l4d_rejump_survivor_enable "1"
+
+	// If 1, disable jump after survivor gets a tank punch.
+	l4d_rejump_tank_punch_disble "1"
 	```
 </details>
 
@@ -84,3 +95,11 @@ L4D2
 	2. 可設置人類是否能月步
 	3. 可設置特定的特感種類是否能月步
 	4. 設定跳躍的高度
+
+* 注意事項
+<br>人類有以下情況不能再次跳躍
+	1. 正在被特感控住
+	2. 沒有先跳躍起來在空中
+	3. 被Tank打到或石頭砸到
+	4. 嘗試從屋頂跳下去減輕摔傷
+

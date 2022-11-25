@@ -85,6 +85,8 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
+  * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+    * (公開) 使用語音雷達"看"可以標記任何物品、武器、地點、特感
   * [l4d_saferom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
   * [antisaferoomdooropen](/Plugin_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
@@ -123,8 +125,6 @@ My Unpublic Private Plugin (Charge)
     * 限制每個武器可以拿取的數量，超過就不能拿取
   * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
-  * [l4d2_melee_durability](/Plugin_插件/Weapons_武器/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-    * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -153,8 +153,12 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d_expertrealism](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_expertrealism): L4D1/2 Real Realism Mode (No Glow + No Hud)
     * (公開) L4D1/2 真寫實模式 (沒有光圈與介面)
+  * [weapon_csgo_reload](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_weapon_csgo_reload): Weapon Quickswitch Reloading in L4D1+2
+    * (公開) 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
   * [l4d_dynamic_muzzle_flash](/Plugin_插件/Real_Realism_真寫實模式/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
     * 槍口增加逼真的閃光
+  * [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+    * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary><b>Survival | 生存模式</b></summary> 
@@ -225,7 +229,7 @@ My Unpublic Private Plugin (Charge)
     * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
 </details>
 
-* <details><summary><b>Nothing is Impossible | 無理改造版</b></summary>
+* <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
 
   * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
     * (公開) Tank不會丟出石頭而是丟出特感
@@ -237,6 +241,12 @@ My Unpublic Private Plugin (Charge)
     * Tank的石頭自動追蹤倖存者
   * [l4d2_scope_wallhack](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
     * 倖存者打開狙擊鏡能透視看到特感
+</details>
+
+* <details><summary><b>Miscellaneous | 雜項</b></summary>
+
+  * [l4d_wlimits](/Plugin_插件/Miscellaneous_雜項/l4d_wlimits): Restrict weapons individually or together
+    * 限制每個武器可以拿取的數量，超過就不能拿取
 </details>
 
 - - - -
