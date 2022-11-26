@@ -9,8 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* image 1
+	* Layout 1
+	> 版面一
 	<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
+	* Layout 2
+	> 版面二
+	<br/>![l4d2_scripted_hud_2](image/l4d2_scripted_hud_2.jpg)
 
 * Apply to | 適用於
 ```
@@ -18,6 +22,12 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0.5 (2022-11-27)
+		* Request by Shadow
+		* HUD3_TEXT + C.I.+S.I.+Tank+Witch kills rank
+		* HUD4_TEXT + Survivor health
+		* Add cvars to switch HUDX_TEXT text
 
 	* v1.0.4 (2022-11-24)
 		* Request by Yabi
@@ -44,11 +54,16 @@ L4D2
 * Default HUDX_Text
 	* HUD1_Text: Time and Survivor/Infected count
 	* HUD2_Text: Tank Health
-	* HUD3_Text: Kill Infected Counter Rank
+	* HUD3_Text: 
+		1. S.I. kills rank
+		2. C.I.+S.I.+Tank+Witch kills rank
 	* HUD4_Text: Player Speaking
+		1. MIC Speaking
+		2. Survivor health
+	> To Switch Default HUDX_Text, please modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~4)
 
 * Note
-	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load "l4d2_scripted_hud_hud?_text"(? is 1~4) cvar text. If both empty, then load GetHUD*_Text functions
+	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~4) cvar text. If both empty, then load GetHUD*_Text functions
 	* The limit of each HUD text is up to 127 characters.
 	* HUD Text can be moved and animated effect, please read cfg.
 
@@ -237,6 +252,11 @@ L4D2
 	// 0 = OFF, 1 = ON.
 	l4d2_scripted_hud_hud3_blink_tank "0"
 
+	// Which text to display in GetHUD3_Text by default?
+	// 0=S.I. kills rank
+	// 1=C.I.+S.I.+Tank+Witch kills rank
+	l4d2_scripted_hud_hud3_display "1"
+
 	// Overwrite the HUD flag.
 	// For debug purposes only.
 	// 0 = OFF.
@@ -245,7 +265,7 @@ L4D2
 	// Text area Height.
 	l4d2_scripted_hud_hud3_height "0.026"
 
-	// How many ranks to display Kill S.I. counter status
+	// How many ranks to display Kill counter status
 	l4d2_scripted_hud_hud3_number "5"
 
 	// Which team should see the text.
@@ -319,6 +339,11 @@ L4D2
 	// Makes the text blink from white to red while a tank is alive.
 	// 0 = OFF, 1 = ON.
 	l4d2_scripted_hud_hud4_blink_tank "0"
+
+	// Which text to display in GetHUD4_Text by default?
+	// 0=MIC Speaking
+	// 1=Survivor health
+	l4d2_scripted_hud_hud4_display "1"
 
 	// Overwrite the HUD flag.
 	// For debug purposes only.
@@ -403,8 +428,13 @@ L4D2
 * 預設的 HUDX 文字
 	* HUD1: 目前遊戲時間、倖存者數量、感染者數量
 	* HUD2: Tank 血量
-	* HUD3: 擊殺特感統計排行榜
-	* HUD4: 玩家語音說話
+	* HUD3: 
+		1. 特感擊殺統計排行榜
+		2. 擊殺統計排行榜 (普通感染者+特感+Tank+Witch)
+	* HUD4: 
+		1. 玩家語音說話
+		2. 倖存者血量狀態
+	> 切換預設的 HUDX 文字請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~4)
 
 * 安裝步驟
 	* 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
@@ -417,7 +447,7 @@ L4D2
 	> __Note__ (如果已有.nut檔案，可以先備份)
 
 * 注意事項
-	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 "l4d2_scripted_hud_hudX_text" 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUDX_Text 顯示文字 (X 是 1~4)
+	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUDX_Text 文字 (X 是 1~4)
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
 	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
 	
