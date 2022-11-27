@@ -408,7 +408,7 @@ L4D2
 	l4d2_scripted_hud_hud4_y_speed "0.0"
 
 	// Interval in seconds to update the HUD.
-	l4d2_scripted_hud_update_interval "0.1"
+	l4d2_scripted_hud_update_interval "0.5"
 	```
 </details>
 
