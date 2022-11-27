@@ -125,6 +125,8 @@ My Unpublic Private Plugin (Charge)
     * 限制每個武器可以拿取的數量，超過就不能拿取
   * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
+  * [l4d2_lasersight](/Plugin_插件/Weapons_武器/l4d2_lasersight): L4D2 Upgrade Laser Sights by using commands
+    * 玩家使用指令升級紅外線雷射
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -147,6 +149,8 @@ My Unpublic Private Plugin (Charge)
     * 輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
   * [l4d_ghost_FinaleSpawn](/Plugin_插件/Versus_對抗模式/l4d_ghost_FinaleSpawn): Adjust ghost infected spawn range on finales
     * 在救援關卡調整靈魂特感的復活距離
+  * [l4d_ghost_checkpoint_spawn](/Plugin_插件/Versus_對抗模式/l4d_ghost_checkpoint_spawn): Changes to conditions for ghost spawning in start/end areas.
+    * 靈魂特感能夠在安全室內復活
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
@@ -199,6 +203,8 @@ My Unpublic Private Plugin (Charge)
     * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
   * [l4d_elevator_getin_timer](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_elevator_getin_timer): When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the evelator/CEDA Trailer, slay him
     * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
+  * [teamlock_vote](/Plugin_插件/Anti_Griefer_防惡意路人/teamlock_vote): Calls a vote to enable / disable locking teams in place once game starts (so no spectators can join in mid-game)
+    * 遊戲開始後旁觀者或路人不能跳隊到倖存者或感染者遊玩
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
@@ -245,8 +251,12 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
-  * [l4d_wlimits](/Plugin_插件/Miscellaneous_雜項/l4d_wlimits): Restrict weapons individually or together
-    * 限制每個武器可以拿取的數量，超過就不能拿取
+  * [grave_break](/Plugin_插件/Miscellaneous_雜項/grave_break): say !breakgrave to break all graves
+    * 輸入 !breakgrave 打破地圖上所有墓碑
+  * [laser_block](/Plugin_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
+    * 遊戲開始後不能升級紅外線雷射
+  * [l4d_headshot_reward_sound](/Plugin_插件/Miscellaneous_雜項/l4d_headshot_reward_sound): Play Reward Sound when headshot
+    * 特感或普通感染者爆頭的時候有獎勵提示與音效
 </details>
 
 - - - -
