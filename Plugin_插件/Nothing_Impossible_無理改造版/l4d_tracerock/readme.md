@@ -8,6 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/W45JutNDX0Q)
 
 * Image | 圖示
+	* Tank Missile
+	> 導彈
+	<br/>![l4d_tracerock_2](image/l4d_tracerock_2.jpg)
 	* trace rock
 	> 追蹤石
 	<br/>![l4d_tracerock_1](image/l4d_tracerock_1.jpg)
