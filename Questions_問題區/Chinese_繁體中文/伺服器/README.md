@@ -116,6 +116,35 @@
     4. 如果伺服器有運行參數，請輸入```+sv_lan 0```
 </details>
 
+* <details><summary>問題11:進不去遊戲，時常Loading到一半卡住，打開控制台出現<b>Downloading http://........</b></summary>
+
+  ![sm_downloader_1](https://user-images.githubusercontent.com/12229810/204160082-89f3150b-7cee-4c46-b38d-c58b86460252.jpg)
+
+  * 原因: 伺服器有自製的檔案，而你沒有，所以伺服器強迫你下載自製的檔案
+  * 解決方式: 
+      * 法一: 選項→多人連線→自訂伺服器內容→無
+      <br/>![未命名](https://user-images.githubusercontent.com/12229810/204160227-0edf6c14-ab6d-4139-95b5-730d43ca4fb3.jpg)
+      * 法二: 等待他自己下載完畢
+      * 法三: 去換伺服器遊玩吧
+</details>
+
+* <details><summary>問題12:進不去遊戲，時常Loading到一半卡住無回應</summary>
+
+  * 原因一: 模組或三方圖太多
+  * 原因二: 遊戲檔案損毀
+  * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
+
+</details>
+
+* <details><summary>問題13: 模組或三方圖裝太多，進不去遊戲，我不想要刪除模組或三方圖，請問該怎麼做？</b></summary>
+
+  控制台已經輸入<b>sv_consistency 0</b>，但還是進不去朋友房間或朋友進不來自己創建的遊戲房間
+  <br/>可能模組或三方圖裝太多，但是我不想要刪除模組或三方圖，請問有什麼方法？
+
+  * 解決方式: 既然你不願意刪除模組或三方圖，那沒人可以幫你
+
+</details>
+
 - - - -
 ## 為什麼sourcemod下載有分兩種
 [Sourcemod官網](https://www.sourcemod.net/downloads.php)上有Stable Builds和Dev Builds
