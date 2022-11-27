@@ -42,7 +42,7 @@ English
 		* Delete commands
 
 	* v1.0.2
-        * [Original Post by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=241588)
+        * [Original Plugin by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=241588)
 </details>
 
 * Require | 必要安裝

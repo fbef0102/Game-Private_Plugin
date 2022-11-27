@@ -29,10 +29,6 @@ My Unpublic Private Plugin (Charge)
     * 準備才能開始遊戲的插件
   * [pause](/Plugin_插件/Server_伺服器/pause): Pause plugin
     * 暫停遊戲的插件
-  * [l4d_restartmap_command](/Plugin_插件/Server_伺服器/l4d_restartmap_command): Admin say !restartmap to restart current level
-    * 管理員輸入!restartmap能重新地圖關卡
-  * [l4d_random_map_vote](/Plugin_插件/Server_伺服器/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
-    * 投票更換地圖，但是地圖是隨機挑選的
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -101,6 +97,10 @@ My Unpublic Private Plugin (Charge)
     * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
   * [l4d_telpeort_call](/Plugin_插件/Survivor_人類/l4d_telpeort_call): Teleport Call Menu
     * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
+  * [l4d_headshot_reward_sound](/Plugin_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
+    * 特感或普通感染者爆頭的時候有獎勵提示與音效
+  * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them.
+    * 根據玩家生命值狀態給予輪廓光圈適當的顏色
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -255,8 +255,10 @@ My Unpublic Private Plugin (Charge)
     * 輸入 !breakgrave 打破地圖上所有墓碑
   * [laser_block](/Plugin_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
     * 遊戲開始後不能升級紅外線雷射
-  * [l4d_headshot_reward_sound](/Plugin_插件/Miscellaneous_雜項/l4d_headshot_reward_sound): Play Reward Sound when headshot
-    * 特感或普通感染者爆頭的時候有獎勵提示與音效
+  * [l4d_restartmap_command](/Plugin_插件/Miscellaneous_雜項/l4d_restartmap_command): Admin say !restartmap to restart current level
+    * 管理員輸入!restartmap能重新地圖關卡
+  * [l4d_random_map_vote](/Plugin_插件/Miscellaneous_雜項/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
+    * 投票更換地圖，但是地圖是隨機挑選的
 </details>
 
 - - - -
