@@ -55,7 +55,7 @@ L4D2
 	
 	* **Display Item menu**
 	```php
-	sm_tp
+	sm_tpmenu
 	```
 </details>
 
