@@ -43,6 +43,23 @@
       </details>
 
 3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
+   - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
+      <details>
+        <summary>錯誤原文範例 (點我展開)</summary>
+
+        ```php
+        L 03/28/2022 - 02:24:27: [SM] Exception reported: XXXXXXXXXXXXXXXXXXXX
+        L 03/28/2022 - 02:24:27: [SM] Blaming: xxxxxxxxxx.smx
+        L 03/28/2022 - 02:24:27: [SM] Call stack trace:
+        L 03/28/2022 - 02:24:27: [SM]   [0] ThrowNativeError
+        L 03/28/2022 - 02:24:27: [SM]   [1] Line 5394, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::ValidateAddress
+        L 03/28/2022 - 02:24:27: [SM]   [2] Line 6131, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::Native_CDirector_IsAnySurvivorInStartArea
+        L 03/28/2022 - 02:24:27: [SM]   [4] L4D_IsAnySurvivorInStartArea
+        L 03/28/2022 - 02:24:27: [SM]   [5] Line 172, f:\Stuff\EVERYTHING ELSE\Left 4 Dead 2 Dedicated Servers\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::OnPluginStart
+        ```
+      </details>
+
+4. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止才能安心 
 
 - - - -
 ## 常見的插件錯誤訊息
@@ -250,6 +267,16 @@
   * 解決方式: 直接回報作者
 </details>
 
+* <details><summary>錯誤13: <b>Language phrase XXXXX not found</b></summary>
+
+  ```php
+  Exception reported: Language phrase "BAW_3" not found (arg 6)
+  ```
+
+  * 原因: 找不到翻譯文件裡面對應的翻譯句子
+  * 解決方式: 確認你有安裝插件需要的翻譯文件，如果有了但是報錯請回報給作者
+</details>
+
 - - - -
 ## 常見的編譯錯誤訊息
 > * [請依照正確的流程進行編譯](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)，不要再透過網路上的編譯
@@ -344,7 +371,7 @@
 * Sourcemod不限制任何人修改，歡迎任何人編輯並發布自己的作品，讓遊戲玩法更豐富多元
 * 拿到網路上或別人的源碼，如果你有想法或者單純漢化或者修正錯誤可以自己修改
 * 請記得標記原開發者，擅自修改作者為自己讓人誤會是完全缺德的行為
-* 一但你修改源碼之後，如果插件有錯誤想要回報，**大部分的插件作者完全不會鳥你**
+* 一但你修改源碼之後，如果插件有錯誤想要回報，**大部分的原插件作者完全不會鳥你**
 * 遇到技術或程式上的問題，可以請教論壇上的大佬們，我通常建議把你修改後的源碼發給對方過目
 
 - - - -
