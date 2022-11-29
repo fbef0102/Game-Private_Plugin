@@ -22,6 +22,7 @@
 ## 為什麼插件沒有運作
 > 在你向插件作者詢問 **"插件沒有作用"** 之前，可以先來做些自我檢查
 1. 只要依照插件說明書，都會成功運作，請先確認
+  <br/>✔ 有安裝插件的最新版本
   <br/>✔ 有安裝說明書指示的必要檔案
   <br/>✔ 有依照說明書指示的重要步驟
   <br/>✔ 有安裝插件輔助的文件
@@ -29,23 +30,22 @@
 
 2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
    - xxxxxx為插件的檔案名稱
-      <details>
-        <summary>範例 (點我展開)</summary>
-
-        ```php
+      ```php
       ] sm plugins info test
-        Filename: test.smx
-        Title: [L4D & L4D2] Test
-        Author: HarryPotter
-        Version: 1.0
-        Error: Error detected in plugin startup (see error logs)
-        ```
-      </details>
+      Filename: test.smx
+      Title: [L4D & L4D2] Test
+      Author: HarryPotter
+      Version: 1.0
+      Error: Error detected in plugin startup (see error logs)
+      ```
+   - 檢查Author是否跟原作者一樣，**否則插件肯定不是他寫的**
+   - 檢查Version是否跟作者貼文上所寫的版本一樣
+   - 檢查是否有Error
 
 3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
    - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
-      <details>
-        <summary>錯誤原文範例 (點我展開)</summary>
+   - 要是你有修改源碼請誠實招來，*當原作者發現錯誤的行數不相符會放生不想鳥你*
+      <details><summary>錯誤原文範例 (點我展開)</summary>
 
         ```php
         L 03/28/2022 - 02:24:27: [SM] Exception reported: XXXXXXXXXXXXXXXXXXXX
