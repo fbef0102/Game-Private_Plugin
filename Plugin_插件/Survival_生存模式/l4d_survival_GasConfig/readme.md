@@ -63,9 +63,9 @@ L4D2 Survival
         sm_gasmenu
         ```
     
-    * **Loads the gas menu**
+    * **Moves all the gascans to the player**
         ```php
-        sm_gasmenu
+        sm_gashere
         ```
 </details>
 
