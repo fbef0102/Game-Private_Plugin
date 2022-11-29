@@ -33,6 +33,10 @@ L4D2 Survival
 	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
     3. [[INC] l4d2_weapons](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc)
 
+* Related Plugin | 相關插件
+	1. [l4d_survival_GasConfig](/Plugin_插件/Survival_生存模式/l4d_survival_GasConfig): Save and load gas configs
+        > 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放位置
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_survival_setup.cfg

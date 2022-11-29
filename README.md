@@ -177,6 +177,8 @@ My Unpublic Private Plugin (Charge)
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
   * [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
     * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
+  * [l4d_survival_GasConfig](/Plugin_插件/Survival_生存模式/l4d_survival_GasConfig): Save and load gas configs
+    * 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
 </details>
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
