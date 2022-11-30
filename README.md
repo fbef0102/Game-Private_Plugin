@@ -33,6 +33,8 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Special Infected | 特感</b></summary>
 
+  * [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
+    * (公開) 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
   * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
   * [spawn_infected_nolimit](/Plugin_插件/Special_Infected_特感/spawn_infected_nolimit): Spawn special infected without the director limits!
@@ -81,6 +83,8 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
+  * [l4d2_supply_woodbox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+    * (公開) 地圖上隨機出現補給箱，提供人類強力支援 (仿CSO惡靈降世 補給箱)
   * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
     * (公開) 使用語音雷達"看"可以標記任何物品、武器、地點、特感
   * [l4d_saferom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
