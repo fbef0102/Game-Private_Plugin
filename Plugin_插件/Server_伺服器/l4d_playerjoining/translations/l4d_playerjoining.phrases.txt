@@ -1,0 +1,67 @@
+"Phrases"
+{
+    "Spectators"
+    {
+        "en"    "{lightgreen}Spectators"
+        "zho"   "{lightgreen}旁觀者"
+        "chi"   "{lightgreen}旁观者"
+    }
+    "Survivors"
+    {
+        "en"    "{blue}Survivors"
+        "zho"   "{blue}倖存者"
+        "chi"   "{blue}生还者"
+    }
+    "Infected"
+    {
+        "en"    "{red}Infected"
+        "zho"   "{red}感染者"
+        "chi"   "{red}感染者"
+    }
+    "Change_Team"
+    {
+        "#format"		"{1:t}"
+        "en"        "{green}%N{default} has joined the {1}."
+        "zho"       "{green}%N{default} 已加入 {1}."
+        "chi"       "{green}%N{default} 已加入 {1}."
+    }
+    "Connect_Server"
+    {
+        "#format"		"{1:s},{2:s},{3:s}"
+        "en"        "{green}{1}{default} has connected to the server {green}({2}, {3})"
+        "zho"       "{green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
+        "chi"       "{green}{1}{default} 正在连线伺服器 {green}({2}, {3})"
+    }
+    "LAN Country Desc"
+    {
+        "en"        "Local Network"
+        "zho"       "區域網路"
+        "chi"       "区域网路"
+    }
+    "Unknown Country Desc"
+    {
+        "en"        "Unknown Country"
+        "zho"       "未知國家"
+        "chi"       "未知国家"
+    }
+    "LAN City Desc"
+    {
+        "en"        "Local City"
+        "zho"       "當地城市"
+        "chi"       "当地城市"
+    }
+    "Unknown City Desc"
+    {
+        "en"        "Somewhere"
+        "zho"       "未知城市"
+        "chi"       "未知城市"
+    }
+    "Left_Server"
+    {
+        "#format"		"{1:s},{2:s}"
+        "en"        "{green}{1}{default} has left the server {green}({2})"
+        "zho"       "{green}{1}{default} 離開了伺服器 {green}({2})"
+        "chi"       "{green}{1}{default} 离开了伺服器 {green}({2})"
+    }
+}
+
