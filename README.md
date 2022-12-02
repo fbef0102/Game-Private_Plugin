@@ -225,6 +225,8 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d2_karma_kill](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_karma_kill): Very Very loudly announces the predicted event of a player leaving the map and or life through height or drown.
     * (公開) 被Charger撞飛、Tank打飛、Jockey騎走墬樓、自殺跳樓等等會有慢動作特效
+  * [l4d2_gifts](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
+    * (公開) 殺死特感會掉落禮物盒，會獲得驚喜物品，聖誕嘉年華
   * [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
     * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
   * [l4d_player_tail](/Plugin_插件/Fun_娛樂/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
