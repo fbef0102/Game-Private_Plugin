@@ -166,5 +166,5 @@
 
 - - - -
 ## 其他
-* [問題集合區 Questions](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Questions)
+* [問題集合區 Questions](/Questions_問題區)
 
