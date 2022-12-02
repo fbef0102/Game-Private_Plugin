@@ -6,6 +6,8 @@
 	- [設定自己的cfg](#設定自己的cfg)
     - [設定啟動選項](#設定啟動選項)
     - [驗證遊戲檔案的完整性](#驗證遊戲檔案的完整性)
+    - [啟動遊戲指導系統](#啟動遊戲指導系統)
+    - [下載自訂伺服器內容](#下載自訂伺服器內容)
 
 - - - -
 ## 如何開啟遊戲控制台
@@ -124,3 +126,48 @@
 * 如何驗證
     * 依照圖片指示即可驗證，Steam平台會自動偵測所有遊戲檔案，如果有與官方不同會復原
     <br/>![未命名](https://user-images.githubusercontent.com/12229810/202832213-6b357823-bb9c-46a7-813e-acf12ef27edf.jpg)
+
+- - - -
+## 啟動遊戲指導系統
+* 甚麼是遊戲指導系統?
+    * 遊戲中提示你使用治療包、撿起武器、開機關等等
+    <br/>![image](https://user-images.githubusercontent.com/12229810/205222467-8b471f77-a8bf-4522-809a-723c99d03db6.png)
+    <br/>![image](https://user-images.githubusercontent.com/12229810/205222837-c572aab1-0a58-4859-a0e6-43841aaa1ecf.png)
+
+* 如何開啟?
+    * 法一: 打開遊戲控制台輸入```gameinstructor_enable 1```，0 為關閉
+        ```php     
+        ] gameinstructor_enable 1
+        ```
+    * 法二: ESC->選項->多人連線->遊戲指導系統->已啟用
+    <br/>![未命名](https://user-images.githubusercontent.com/12229810/203991469-2b7dcba2-d70b-47ac-aed1-a18442c6d2de.jpg)
+
+* 何時需要開啟?
+    * 遊玩三方圖，需要知道地圖上的機關如何啟動或路線怎麼走
+        * 像是[Resident Evil](https://steamcommunity.com/sharedfiles/filedetails/?id=533677587)、[Questionable Ethics](https://steamcommunity.com/sharedfiles/filedetails/?id=2783476025&searchtext=question)等等
+    * 有插件會修改遊戲指導系統
+        * 像是[l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/blob/master/l4d2_item_hint)等等
+        <br/>![l4d2_item_hint](https://raw.githubusercontent.com/fbef0102/L4D2-Plugins/master/l4d2_item_hint/image/l4d2_item_hint_3.jpg)
+    * 你剛買這遊戲的時候，還是新手
+
+- - - -
+## 下載自訂伺服器內容
+* 自訂伺服器內容?
+    * 遊戲提供社群玩家自己架設伺服器並創造多樣化的玩法，在某些伺服器當中，會使用自製的模組或檔案，提供玩家下載
+        * [播放自製音樂](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart): 所有人能聽到音樂
+        <br/>![l4d_MusicMapStart_2](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/l4d_MusicMapStart/image/l4d_MusicMapStart_2.jpg)
+        * [自製地圖塗鴉](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): 所有人能看到圖案
+        <br/>![map-decals_3](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/map-decals/image/map-decals_3.jpg)
+        * [自製角色模組](https://forums.alliedmods.net/showthread.php?p=2429012): 所有人能看到Ada Wong人物
+        <br/>![image](https://user-images.githubusercontent.com/12229810/205225817-b240eec1-a877-4d01-921d-d937e87a8998.png)
+
+* 如何開啟?
+    * ESC->選項->多人連線->自訂伺服器內容->全部允許
+    <br/>![未命名](https://user-images.githubusercontent.com/12229810/205226195-796cf18f-1382-4fc4-8999-b8c05eb01f76.jpg)
+    * 開啟之後，在連線伺服器的過程中會自動下載自製檔案(如果有的話)
+    <br/>![sm_downloader_1](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/sm_downloader/image/sm_downloader_1.jpg)
+
+* 我可以關閉嗎?
+    * 可以關閉但是我不推薦，進去社群玩家伺服器之後不會自動下載檔案，聽不見自製音樂、看不見自製模組
+    * 當然有些玩家不喜歡被強迫下載一堆自製檔案，也不喜歡社群玩家建立的伺服器內容
+    
