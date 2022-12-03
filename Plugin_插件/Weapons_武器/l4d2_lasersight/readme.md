@@ -23,7 +23,7 @@ L4D2
 	//HarryPotter @ 2022
 	```
     * v1.0h (2022-11-27)
-	    * Request by GGTrash
+	    * Request by GGM
 	    * Remake code
         * Add cvars amd command limit
 

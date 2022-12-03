@@ -1,0 +1,10 @@
+"Phrases"
+{
+    "WelcomeMessage"
+    {
+        "en"  "Welcome to China Survival server. {olive}Admin: Harry, {green}SteamGroup : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
+        "zho" "歡迎來到中國生存模式伺服器。{olive}管理員: Harry, {green}群組 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
+        "chi" "欢迎来到中国生存模式服务器。{olive}管理员: Harry, {green}群组 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
+    }
+}
+

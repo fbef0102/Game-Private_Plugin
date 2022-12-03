@@ -269,6 +269,8 @@ My Unpublic Private Plugin (Charge)
     * 投票更換地圖，但是地圖是隨機挑選的
   * [AnnouceLaserAmmo](/Plugin_插件/Miscellaneous_雜項/AnnouceLaserAmmo): Display instruction hint when someone uses ammo or laser sight
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
+  * [server_welcome_message](/Plugin_插件/Miscellaneous_雜項/server_welcome_message): Display Welcome Message to new players (support translation)
+    * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
 </details>
 
 - - - -

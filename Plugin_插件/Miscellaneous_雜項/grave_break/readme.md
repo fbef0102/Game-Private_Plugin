@@ -22,7 +22,7 @@ L4D2 C10M3
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2022-11-27)
-		* Request by GGTrash
+		* Request by GGM
 		* Initial Release
 </details>
 
