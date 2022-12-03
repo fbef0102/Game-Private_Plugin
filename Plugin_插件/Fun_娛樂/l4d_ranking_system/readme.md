@@ -115,7 +115,7 @@ L4D2
 	2. 可設置殺死不同的特感獲得不同的經驗值
 
 * 資料庫設定
-	* 跨伺服器儲值金額，設定 l4d_ranking_system_database "rank"，然後設定文件 *sourcemod\configs\databases.cfg*
+	* 支援跨伺服器儲值經驗值，設定 l4d_ranking_system_database "rank"，然後設定文件 *sourcemod\configs\databases.cfg*
 	```php
 	"rank"
 	{
