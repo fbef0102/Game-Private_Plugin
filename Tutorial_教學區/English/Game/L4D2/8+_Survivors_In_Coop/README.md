@@ -1,5 +1,5 @@
 # Navigation
-> 2022/11/22 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/12/3 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
@@ -22,17 +22,17 @@
 
 - - - -
 ## Prepare
-1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
-2. [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
-3. [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
-4. [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-5. [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
+* [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
+* [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
+* [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
+* [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
+* [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
    - 🟥Listen server only🟥
    - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
 - - - -
 ## Require
-1. [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): Unlock server limit
+* [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
     ```php
@@ -45,7 +45,7 @@
     ```
    - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
-2. [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in coop/survival/realism when 5+ player joins the server.
+* [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in coop/survival/realism when 5+ player joins the server.
    - How could I control the number of bots spawned at the start
       - cfg/sourcemod/l4dmultislots.cfg
 		```php
@@ -53,20 +53,20 @@
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
 
-3. [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
+* [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
 
-4. <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): When two or more same characters in the game only 1 become source of voices from all same characters</s> 
+* <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): When two or more same characters in the game only 1 become source of voices from all same characters</s> 
     - 🟦Valve already fixed🟦
 
-5. [Survivor Identity Fix for 5+ Survivors (Shadowysn Version)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): Fix bug where a survivor will change identity when a player connects/disconnects if there are 5+ survivors
+* [Survivor Identity Fix for 5+ Survivors (Shadowysn Version)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): Fix bug where a survivor will change identity when a player connects/disconnects if there are 5+ survivors
 
-6. [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): Fixes survivor going AFK game function.
+* [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): Fixes survivor going AFK game function.
 
-7. [l4dafkfix_deadbot](https://forums.alliedmods.net/showpost.php?p=2772050&postcount=54): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
+* [l4dafkfix_deadbot](https://forums.alliedmods.net/showpost.php?p=2772050&postcount=54): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
 
-8. [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
+* [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
 
-9. Choose one Method
+* Choose one Method
    - A Method: 8+ players Bug Fixes EXTENSION ([Windows](https://forums.alliedmods.net/showpost.php?p=2721138&postcount=295), [Linux](https://forums.alliedmods.net/showpost.php?p=2752412&postcount=301))
      - Survivor finale score bug
      - Charger stop bug
@@ -76,79 +76,82 @@
      - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Fixes charging only allowing to hit 1 of each survivor character index and allows charger smashing into the same survivor more than once, survivors no longer become a brick wall after being charger smashed once.
      - [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Fixes witch going after wrong clone survivor
 
-10. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.
+* [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.
     - 🟥Windows servers only🟥
 
 - - - -
 ## Optional
 > __Note__<br/>
   You can choose not to use any of optional plugins
-11. [AFK and Join Team Commands Improved Version](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32): Add more commands to let the player spectate and join team. (!afk, !survivors, !infected, etc.), but no changing team abuse.
+* [AFK and Join Team Commands Improved Version](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32): Add more commands to let the player spectate and join team. (!afk, !survivors, !infected, etc.), but no changing team abuse.
 
-12. [Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.
+* [Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.
 
-13. [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.
+* [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.
 
-14. [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
+* [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
     - 🟥Doesn't work in listen server🟥
    
-15. [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?p=2202855): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
+* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?p=2202855): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
     - 🟥Doesn't work in listen server🟥
 
-16. [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?p=2273230): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
+* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?p=2273230): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
     - 🟥Doesn't work in listen server🟥
    
-17. [Save Weapon Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2757629&postcount=113): L4D2 coop save weapon when map transition if more than 4 players.
+* [Save Weapon Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2757629&postcount=113): L4D2 coop save weapon when map transition if more than 4 players.
 
-18. [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
+* [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
     - The Passing Fix - download <b>"Stripper_passingfix.7z"</b> (see Attached Files in [L4D2]Character_manager thread) for the passing to prevent players using L4D1 characters from being teleported/killed in this campaign.
       - Unzip all cfg files in addons\stripper\maps\ 
-    - Remove no.5 Survivor Identity Fix for 5+ Survivors while using this plugin.
+    - Remove **Survivor Identity Fix for 5+ Survivors** while using this plugin.
 
-19. [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2773718&postcount=16): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
+* [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2773718&postcount=16): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
 
-20. [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
+* [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
 
-21. [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
+* [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
     - 🟥Doesn't work in listen server🟥
     
-22. [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
+* [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
-23. [l4d_h_csm (Harry Version)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+* [l4d_h_csm (Harry Version)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     - typ !csm to open menu
+
+* [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
+
 - - - -
 ## Fun
-1. [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.
+* [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.
 
-2. [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+* [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 
-3. [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
+* [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
-4. [Adrenaline & Pills Powerups Improved](https://forums.alliedmods.net/showpost.php?p=2748223&postcount=15): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
+* [Adrenaline & Pills Powerups Improved](https://forums.alliedmods.net/showpost.php?p=2748223&postcount=15): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
 
-5. [L4D2 gifts (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
+* [L4D2 gifts (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
 
-6. [deathcheck (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): Prevents mission loss(Round_End) until all human players have died.
+* [deathcheck (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): Prevents mission loss(Round_End) until all human players have died.
 
-7. [CSO SupplyBox](https://forums.alliedmods.net/showthread.php?t=335862): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+* [CSO SupplyBox](https://forums.alliedmods.net/showthread.php?t=335862): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
 
-8. [Back 4 Blood Item hint Improved](https://forums.alliedmods.net/showpost.php?p=2765332&postcount=29): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+* [Back 4 Blood Item hint Improved](https://forums.alliedmods.net/showpost.php?p=2765332&postcount=29): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
-9. [Witch target override Improved](https://forums.alliedmods.net/showpost.php?p=2732048&postcount=9) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+* [Witch target override Improved](https://forums.alliedmods.net/showpost.php?p=2732048&postcount=9) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
 
-10. [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
+* [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
 
-11. [Graves (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2771370&postcount=24): When a survivor die, on his body appear a grave.
+* [Graves (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2771370&postcount=24): When a survivor die, on his body appear a grave.
 
-12. [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
+* [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
-13. [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
+* [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
 
-14. [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
+* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
 
 - - - -
 ## Lazy Package
-1. L4D2-Multiplayers_Coop: Apply to Windows listen server
+* L4D2-Multiplayers_Coop: Apply to Windows listen server
     * Prepare + Require + Optional + Fun
     * All you need to do is to creat game lobby and start game
     * Private, please contact
