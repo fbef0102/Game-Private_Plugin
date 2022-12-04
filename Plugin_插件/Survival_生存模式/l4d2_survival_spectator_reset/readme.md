@@ -1,5 +1,5 @@
 # Description | 內容
-If player is spectator when survival begins or player changes team after survival begins, he can not get the survival time record.
+If player is spectator or player changes team after survival begins, he can not get the survival time record.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -18,6 +18,10 @@ L4D2 Survival
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1
+		* Original Request by GGM
+		* players who were in the survivor team when survival begins will be recorded. Even if they disconnected or leave the team, as long as they return to the team before the end of the round, their time record can still be kept. (this round)
+
 	* v1.0
 		* Original Request by Dam Dam
 </details>
@@ -34,6 +38,10 @@ L4D2 Survival
 
 	// If 1, idle player can not get time record after survival begins
 	l4d2_survival_spectator_reset_idle "0"
+
+	// If 1, players who were in the survivor team when survival begins will be recorded.
+	// Even if they disconnected or leave the team, as long as they return to the team before the end of the round, their time record can still be kept. (this round)
+	l4d2_survival_spectator_reset_save_SteamID "1"
 	```
 </details>
 
@@ -47,9 +55,11 @@ L4D2 Survival
 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
 
 * 原理
-	* 生存計時之時，旁觀者無法獲得生存時間紀錄
-	* 生存計時之後，只要倖存者玩家閒置或切換成旁觀者，無法獲得生存時間紀錄
+	* 在官方生存模式當中，旁觀者能獲得生存時間紀錄，很多人因此漁翁得利 (去你馬Valve)
+	* 旁觀者無法獲得生存時間紀錄
+	* 只要倖存者玩家閒置或切換成旁觀者，無法獲得生存時間紀錄
 
 * 功能
-	1. 可設置插件開關
-	2. 可設置閒置玩家能否得到時間紀錄
+	* 可設置插件開關
+	* 可設置閒置玩家能否得到時間紀錄
+	* 插件會紀錄玩家的Steam ID，只有生存計時開始時就在倖存者隊伍的玩家。即使斷線、離開隊伍，只要回合結束前回到隊伍，仍可獲得時間記錄(該回合)

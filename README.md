@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/11/23 updated
+> 2022/12/4 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -177,7 +177,7 @@ My Unpublic Private Plugin (Charge)
     * 打開菜單傳送地圖上所有物品到身邊
   * [who_shot_gas](/Plugin_插件/Survival_生存模式/who_shot_gas): Type !gas to disaply who shot the last gas can.
     * 誰他馬打爆最後一個汽油桶
-  * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator when survival begins or player changes team after survival begins, he can not get the survival time record.
+  * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator or player changes team after survival begins, he can not get the survival time record.
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
   * [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
     * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
