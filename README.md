@@ -257,6 +257,8 @@ My Unpublic Private Plugin (Charge)
     * Tank的石頭自動追蹤倖存者
   * [l4d2_scope_wallhack](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
     * 倖存者打開狙擊鏡能透視看到特感
+  * [l4d_climb](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_climb): Makes Everyone Climb On Walls.
+    * 人類與特感能爬牆
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

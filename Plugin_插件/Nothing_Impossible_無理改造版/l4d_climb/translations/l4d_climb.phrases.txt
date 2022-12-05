@@ -1,0 +1,27 @@
+﻿"Phrases"
+{
+	"Unknown model!"
+	{
+		"en"		"Unknown model!"
+		"zho"		"未知模組!"
+		"chi"		"未知模组!"
+	}
+	"Too Quick To Jump!"
+	{
+		"en"		"Too Quick To Jump!"
+		"zho"		"太快跳躍"
+		"chi"		"太快跳跃"
+	}
+	"You were stuck!"
+	{
+		"en"		"You were stuck!"
+		"zho"		"你卡住了!"
+		"chi"		"你卡住了!"
+	}
+	"Climb Wall"
+	{
+		"en"		"{lightgreen}Press {green}Jump+E {lightgreen}to {green}climb the wall!"
+		"zho"		"{lightgreen}使用 {green}跳躍+E鍵 {lightgreen}可以 {green}爬行牆壁!"
+		"chi"		"{lightgreen}使用 {green}跳跃+E键 {lightgreen}可以 {green}爬行墙壁!"
+	}
+}
