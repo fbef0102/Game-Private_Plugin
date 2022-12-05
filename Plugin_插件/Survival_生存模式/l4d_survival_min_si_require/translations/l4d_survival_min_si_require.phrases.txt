@@ -1,0 +1,16 @@
+﻿"Phrases"
+{
+	"Minimum SI"
+	{
+		"#format"	"{1:d}"
+		"en"		"Minimum SI/Min requirement for full-team category on this map is {green}{1}{default}."
+		"zho"		"地圖的特感擊殺最低要求是 {green}{1}{default}."
+		"chi"		"地图的特感击杀最低要求是 {green}{1}{default}."
+	}
+	"Minimum SI Command"
+	{
+		"en"		"To check the current SI count type {green}!stats or !sicount"
+		"zho"		"查詢特感擊殺數 , 請在聊天欄打 {green}!stats 或 !sicount"
+		"chi"		"查询特感击杀数 , 请在聊天栏打 {green}!stats 或 !sicount"
+	}
+}

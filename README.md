@@ -183,6 +183,8 @@ My Unpublic Private Plugin (Charge)
     * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
   * [l4d_survival_GasConfig](/Plugin_插件/Survival_生存模式/l4d_survival_GasConfig): Save and load gas configs
     * 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
+  * [l4d_survival_min_si_require](/Plugin_插件/Survival_生存模式/l4d_survival_GasConfig): Display Minimum SI requirement for full-team on each survival map.
+    * 在聊天欄顯示該生存地圖的最少特感擊殺數
 </details>
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
