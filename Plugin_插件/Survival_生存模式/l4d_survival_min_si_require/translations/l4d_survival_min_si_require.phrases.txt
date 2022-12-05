@@ -10,7 +10,7 @@
 	"Minimum SI Command"
 	{
 		"en"		"To check the current SI count type {green}!stats or !sicount"
-		"zho"		"查詢特感擊殺數 , 請在聊天欄打 {green}!stats 或 !sicount"
-		"chi"		"查询特感击杀数 , 请在聊天栏打 {green}!stats 或 !sicount"
+		"zho"		"查詢特感擊殺數，請在聊天欄打 {green}!stats 或 !sicount"
+		"chi"		"查询特感击杀数, 请在聊天栏打 {green}!stats 或 !sicount"
 	}
 }
