@@ -221,9 +221,9 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
 
-  * [l4d_bot_healing](/Plugin_插件/Bot_IQ_200_Bot智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
+  * [l4d_bot_healing](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
     * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
-  * [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot智商加強/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
+  * [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
     * 強化AI Bot的智商與行為
 </details>
 
