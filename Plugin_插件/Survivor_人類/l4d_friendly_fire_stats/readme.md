@@ -48,10 +48,10 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_friendly_fire_stats.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	l4d_friendly_fire_stats_enable "1"
-	```
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_friendly_fire_stats_enable "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
