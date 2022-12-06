@@ -20,6 +20,10 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2022-12-6)
+		* Request by Yabi
+		* Display welcome message each time after changing map
+
 	* v1.0 (2022-12-4)
 		* Request by GGM
 		* Initial Release
@@ -30,7 +34,14 @@ L4D2
 
 * <details><summary>ConVar | 指令</summary>
 
-	None
+	* cfg/sourcemod/server_welcome_message.cfg
+		```php
+		// Delay to display welcome message after new player joins server
+		server_welcome_message_delay "5.0"
+
+		// If 1, display welcome message each time after changing map
+		server_welcome_message_each_map "0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -48,6 +59,7 @@ L4D2
 
 * 原理
 	* 玩家加入伺服器後，根據玩家的語言顯示歡迎訊息
+	* 只顯示一次，玩家重新進入伺服器才再顯示 (切換關卡後不會顯示)
 
 * 功能
 	* 可以自行修改歡迎訊息，到translations\server_welcome_message.phrases.txt修改

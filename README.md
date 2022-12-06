@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/12/4 updated
+> 2022/12/6 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -105,6 +105,8 @@ My Unpublic Private Plugin (Charge)
     * 特感或普通感染者爆頭的時候有獎勵提示與音效
   * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them.
     * 根據玩家生命值狀態給予輪廓光圈適當的顏色
+  * [l4d_friendly_fire_stats](/Plugin_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.
+    * 顯示造成與受到的友傷以及兇手，有友傷統計
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
