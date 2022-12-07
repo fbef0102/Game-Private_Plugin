@@ -9,11 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Display Menu
-    > 輸入!gasmenu打開設定介面
-	<br/>![l4d_survival_GasConfig_1](image/l4d_survival_GasConfig_1.jpg)
+        > 輸入!gasmenu打開設定介面
+        <br/>![l4d_survival_GasConfig_1](image/l4d_survival_GasConfig_1.jpg)
+	* Personal config
+        > 個人的gas config
+        <br/>![l4d_survival_GasConfig_2](image/l4d_survival_GasConfig_2.jpg)
 	* Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
-    > 載入不同的汽油桶擺放配置
-	<br/>![l4d_survival_GasConfig_2](image/l4d_survival_GasConfig_2.jpg)
+        > 載入不同的汽油桶擺放配置
+        <br/>![l4d_survival_GasConfig_3](image/l4d_survival_GasConfig_3.jpg)
 
 * Apply to | 適用於
 ```
@@ -22,6 +25,11 @@ L4D2 Survival
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1h (2022-12-7)
+        * Request by GGM
+        * Add personal gas config
+        * Fix memory leak
 
     * v1.0h (2022-11-29)
 	    * Request by Horizon
@@ -51,8 +59,14 @@ L4D2 Survival
 
     * cfg/sourcemod/l4d_survival_GasConfig.cfg
         ```php
-        // Max number of gas setups to allow per map
-        l4d_survival_GasConfig_limit "20"
+        // Players with these flags have access to use ADM gas menu
+        l4d_survival_GasConfig_adm_flag "z"
+
+        // Max number of personal gas setups to allow per map (0=Not Allow any personal gas setups)
+        l4d_survival_GasConfig_personal_limit "5"
+
+        // Max number of shared gas setups to allow per map
+        l4d_survival_GasConfig_shared_limit "10"
         ```
 </details>
 
@@ -77,19 +91,22 @@ L4D2 Survival
 # 中文說明
 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
 
-* 如何使用
-    1. 先擺放好地圖上的汽油桶位置
-    2. 輸入!gasmenu -> "Create Gas Config And Save" -> 聊天視窗輸入文字為這個配置命名
-    3. 輸入!gasmenu -> "Set Map Default Config" -> 選擇剛才命名的配置
-    4. 重新地圖
-
 * 原理
     * 載入地圖或者回合重新開始時，自動擺放好玩家設定的汽油桶位置
     * 所有設定會自動保存到配置文件中
+    * 配置分成私人與共享，只有管理員能創造與刪除共享配置
     * 節省生存模式搬運物品時間
 
 * 功能
     * 支援汽油桶、瓦斯桶、氧氣罐、煙火盒、火焰包、高爆彈
+
+* 如何使用
+    1. 先擺放好地圖上的汽油桶位置
+    2. 儲存配置
+        * 共享配置：管理員可以輸入!gasmenu -> "Create Shared Gas Config And Save" -> 聊天視窗輸入文字為這個配置命名
+        * 私人配置：所有人可以輸入!gasmenu -> "Personal Configs" -> "Create Gas Config And Save" -> 聊天視窗輸入文字為這個配置命名
+    3. 管理員輸入!gasmenu -> "Set Map Default Config" -> 選擇剛才命名的共享配置
+    4. 重新地圖
 
 * Data 文件
 	* 此插件會自動創建文件於data/GasConfigs資料夾，用來儲存汽油桶的擺放位置設定
