@@ -24,6 +24,10 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2022-12-8)
+		* Request by GGM
+		* New Cvar, Reset All FF data when next game starts
+
 	* v1.0 (2022-12-6)
 		* Request by GGM
 		* Initial Release
@@ -51,6 +55,9 @@ L4D2
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d_friendly_fire_stats_enable "1"
+
+		// Reset All FF data when 0=Map Change, 1=Next Game starts/Survival begins, 2=Next New Round.
+		l4d_friendly_fire_stats_reset_when "1"
 		```
 </details>
 
