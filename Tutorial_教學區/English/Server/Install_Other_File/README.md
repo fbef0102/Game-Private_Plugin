@@ -19,10 +19,13 @@
 * Installation
 	1. Go to [Stripper:Source](https://forums.alliedmods.net/showthread.php?t=39439) and click SNAPSHOTS
 	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+
 	2. Search the latest version and download files depending on your system
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
+
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```stripper``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859157-102eceeb-e5c7-4fbd-95b9-d01d2c82d963.png)
+
 	4. Restart Server，type ```stripper_version``` in serve console
 		```php
 		] stripper_version
@@ -43,11 +46,26 @@
 * Installation
 	1. Go to [accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz) and click Releases
 	<br/>![_(%L7(%@Z%DZ(974L7%XE00](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+
 	2. Download files depending on your game，L4D1 or L4D2
 	<br/>![4`U5GY0 SAN5_O19FKOSUKV](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
+
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
-	4. Restart Server，type ```stripper_version``` in serve console
+
+	4. Write down the following cvars in cfg/server.cfg
+		* If you don't have server.cfg, then create it
+		```php
+		// Server slot is 18, free to modify value
+		sv_maxplayers 18
+		sv_visiblemaxplayers 18
+
+		// Don't change the following cvars
+		sv_allow_lobby_connect_only 0
+		sv_force_unreserved 1
+		```
+
+	5. Restart Server，type ```stripper_version``` in serve console
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -65,10 +83,13 @@
 * Installation
 	1. Go to [accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler) and click Releases
 	<br/>![_Q95S({QEHUBC0TJ4BCSVDB](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+
 	2. Download files depending on your game，L4D1 or L4D2
 	<br/>![YT%1 VRS SYC_WX}E3YIOE6](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
+
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
 	<br/>![(@CS(}HMX}BFZ7QYJZ`%(1J](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+
 	4. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
 		```php
@@ -110,14 +131,19 @@
 
 * Installation
 	1. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases
+
 	2. [Go to account](https://www.maxmind.com/en/account/) -> My License Keys -> Create new license key.  
+
 	3. Go to this page: https://www.maxmind.com/en/accounts/XXXXXX/geoip/downloads
 		* XXXXXX is your account ID
 		<br/>![ID](https://user-images.githubusercontent.com/12229810/205027221-05798d84-08ab-40c3-8d54-ef66a892c295.jpg)
+
 	4. Seach "GeoLite2 Country" and "GeoLite2 City" -> download databases.
 	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
 	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
+
 	5. Put mmdb database files to path addons/sourcemod/configs/geoip/ folder
+	
 	6. Recompile all plugins that use geoip.inc, done.
 
 - - - -

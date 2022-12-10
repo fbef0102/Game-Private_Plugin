@@ -19,10 +19,13 @@
 * 安裝步驟
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS
 	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+
 	2. 往下找最新的版本，依照各自的電腦系統下載對應的版本
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
+
 	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```stripper``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859157-102eceeb-e5c7-4fbd-95b9-d01d2c82d963.png)
+
 	4. 重啟伺服器，控制台輸入```stripper_version```確認安裝成功
 		```php
 		] stripper_version
@@ -43,11 +46,26 @@
 * 安裝步驟
 	1. 到[accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz)點擊Releases
 	<br/>![_(%L7(%@Z%DZ(974L7%XE00](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+
 	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
 	<br/>![4`U5GY0 SAN5_O19FKOSUKV](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
+
 	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
-	4. 重啟伺服器，控制台輸入```meta list```確認安裝成功
+
+	4. 到cfg/server.cfg寫上以下指令
+		* 沒有server.cfg檔案則新建
+		```php
+		// 伺服器人數上限改成18，可以自行修改數值
+		sv_maxplayers 18
+		sv_visiblemaxplayers 18
+
+		//以下指令不准改
+		sv_allow_lobby_connect_only 0
+		sv_force_unreserved 1
+		```
+
+	5. 重啟伺服器，控制台輸入```meta list```確認安裝成功
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -65,10 +83,13 @@
 * 安裝步驟
 	1. 到[accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler)點擊Releases
 	<br/>![_Q95S({QEHUBC0TJ4BCSVDB](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+
 	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
 	<br/>![YT%1 VRS SYC_WX}E3YIOE6](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
+
 	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
 	<br/>![(@CS(}HMX}BFZ7QYJZ`%(1J](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+
 	4. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 		```php
@@ -121,14 +142,19 @@
 
 * 安裝步驟
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)
+
 	2. [到個人帳戶](https://www.maxmind.com/en/account/) -> My License Keys -> Create new license key
+
 	3. 到這個網頁: https://www.maxmind.com/en/accounts/XXXXXX/geoip/downloads
 		* XXXXXX 是你的帳戶ID
 		<br/>![ID](https://user-images.githubusercontent.com/12229810/205027221-05798d84-08ab-40c3-8d54-ef66a892c295.jpg)
+
 	4. 搜尋 "GeoLite2 Country" 和 "GeoLite2 City" -> 下載資料庫
 	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
 	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
+
 	5. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 addons/sourcemod/configs/geoip/ 資料夾
+	
 	6. 重新編譯有使用 geoip.inc 的插件，大功告成
 
 - - - -
