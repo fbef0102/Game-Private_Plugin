@@ -342,7 +342,7 @@
   test.sp(55) : error 147: new-style declarations are required
   ```
 
-  * 原因: 程式並不是新語法
+  * 原因: 程式並不是新語法，Sourcemod自從1.7版本之後語法大改，在那以前的舊語法如果重新編譯可能會有問題，通常你只要不是拿到十年前的源始碼，不會有這種錯誤
   * 解決方式: 回報給作者
 </details>
 

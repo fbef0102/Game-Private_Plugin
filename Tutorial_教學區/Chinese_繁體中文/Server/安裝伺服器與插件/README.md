@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/12/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/12/9 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [前言介紹](#前言介紹)
     - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -640,10 +640,17 @@
 又或者你覺得伺服器有檔案損毀需要驗證完整性
 
 * Windows
-1. 執行steamcmd.exe，等它自己跑完套件與更新包
+1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
-2. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
-   ![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
+2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
+   - 譬如D:\steamcmd
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
+
+3. 執行steamcmd.exe，等它自己跑完套件與更新包
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
+
+4. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
    - ```force_install_dir "My_Server_Path"```
       - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
    - ```login anonymous```
@@ -651,13 +658,21 @@
       - XXXXXX 為遊戲伺服器的App ID
       - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
-3. 完成安裝之後輸入exit結束steamcmd
+   <br/>![image](https://user-images.githubusercontent.com/12229810/206717020-0742eb67-29f0-4f03-9225-e2130dc51520.png)
+
+5. 完成安裝之後輸入exit結束steamcmd
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
 * Liunx
-1. 啟用終端機執行steamcmd.exe (你可能需要root 權限)
+1. 啟用終端機輸入以下指令 (你可能需要root 權限)
+   - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
+   - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
+   - ```tar -xvzf steamcmd_linux.tar.gz```
    - ```./steamcmd.sh```
+   <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
 2. 等到出現Loading Steam API...OK，依序輸入以下指令
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
    - ```force_install_dir "My_Server_Path"```
       - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
    - ```login anonymous```
@@ -665,7 +680,11 @@
       - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
       - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
+   <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
+
+
 3. 完成安裝之後輸入exit結束steamcmd
+   <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
 * 如果是要更新Sourcemod版本，那就全部刪除，打掉重練，從頭第一個步驟開始
 	- 插件、cfg可以備份

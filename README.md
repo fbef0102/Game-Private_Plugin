@@ -263,6 +263,8 @@ My Unpublic Private Plugin (Charge)
     * 倖存者打開狙擊鏡能透視看到特感
   * [l4d_climb](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_climb): Makes Everyone Climb On Walls.
     * 人類與特感能爬牆
+  * [l4d_pushdrag](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to move the objects and players
+    * 漂浮咒，溫咖癲啦唯啊薩
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
