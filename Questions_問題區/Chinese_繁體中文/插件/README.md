@@ -43,8 +43,9 @@
    - 檢查是否有Error
 
 3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
+   <br/>![Q$8Z SZT(IE M_M@_%_ Z3I](https://user-images.githubusercontent.com/12229810/206925606-cd9c3ebe-eae5-492e-b12c-76b41cd0c8df.png)
    - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
-   - 要是你有修改源碼請誠實招來，*當原作者發現錯誤的行數不相符會放生不想鳥你*
+   - 🟥要是你有修改源碼請誠實招來，當原作者發現錯誤的行數不相符會放生不想鳥你🟥
       <details><summary>錯誤原文範例 (點我展開)</summary>
 
         ```php
@@ -281,7 +282,7 @@
 ## 常見的編譯錯誤訊息
 > * [請依照正確的流程進行編譯](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)，不要再透過網路上的編譯
 > * 如果錯誤還是存在或看不懂錯誤訊息，直接洽談作者，將錯誤原文發給開發者
-> * 如果源碼有被你修改導致編譯有錯誤，只好自己研究或請教論壇上的大佬們
+> * 如果源碼有被你修改導致編譯有錯誤，原作者不會鳥你，只能自己研究或請教論壇上的大佬們
 
 > __Note__ 
 > <br/>錯誤訊息只要是warning開頭的，都可以忽略。如果還是很在意，直接回報給作者修改。
@@ -382,9 +383,10 @@
   * [插件需求與想法](https://forums.alliedmods.net/forumdisplay.php?f=60): 貼出你的新點子或需求，
   * [插件綜合討論](https://forums.alliedmods.net/forumdisplay.php?f=58): 一般討論伺服器或插件現況，
   * [插件源碼問題](https://forums.alliedmods.net/forumdisplay.php?f=107): 有源碼程式上的問題需要幫助
-
+* 插件有問題請直接找到原作者對應的貼文底下留言，不要找不相關的人事物
 * 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
   <br/>![未命名](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
+
 * <details><summary><b>潛規則</b></summary>
     
   如果提出願意付費，能吸引很多大佬前來幫忙
