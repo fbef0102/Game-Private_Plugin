@@ -24,6 +24,10 @@ L4D2
 	//paegus @ 2009 - 2021
 	//Harry @ 2022
 	```
+	* v1.1h (2022-12-12)
+		* Request by R.A.
+		* Add one cvar: player needs to use jump key first before second jump in air.
+
 	* v1.0h (2022-11-26)
 		* Remake code
 		* More Cvars
@@ -65,6 +69,9 @@ L4D2
 
 	// (L4D1) Which zombie class can also use double jumpy, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
 	l4d_rejump_infected_class "15"
+
+	// If 1, player needs to use jump key first before second jump in air.
+	l4d_rejump_jumpkey_first "1"
 
 	// The maximum number of re-jumps allowed while already jumping.
 	l4d_rejump_max "2"
