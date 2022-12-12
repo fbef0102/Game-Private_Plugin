@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2022/12/10 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/12/12 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
 	- [安裝Stripper](#安裝Stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -121,7 +121,7 @@
 	> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
 	> * 調整tickate必須一起修改server.cfg與啟動選項
 
-* <details><summary>為什麼windows系統下伺服器的TickrateEnabler只能跑到64?</b></summary>
+* <details><summary>問題1: 為什麼windows系統下伺服器的TickrateEnabler只能跑到64?</b></summary>
 
   ![未命名](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
@@ -130,6 +130,18 @@
 	* 法一：去跟微軟抱怨
 	* 法二：windows降級到windows 7
 	* 法三：租一台linux系統
+</details>
+
+* <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
+
+  ![GU3EKL9CM6H@QH3F_K%4DX9](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+
+  * 原因: 受限於你的螢幕fps影響，只會影響你這位玩家，你的螢幕fps超過100以上才能享有100 tickrate
+  <br/>![N5$W`)6APLJVT$~OOQ)N$SN](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+  * 解決方式: 
+	* 法一：升級你的顯卡
+	* 法二：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
+  	<br/>![35U M~E{`{Q$ N}BAOB2P](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
 </details>
 
 - - - -
