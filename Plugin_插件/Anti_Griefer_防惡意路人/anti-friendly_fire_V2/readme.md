@@ -12,12 +12,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
-* <details><summary>Changelog (Click to expand!) | 版本日誌 (點我展開)</summary>
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5
+		* Request by Yabi
+		* Translation Support
 
 	* v1.4
 		* Original Request by Yabi
@@ -25,6 +36,7 @@ L4D2
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Similar Plugin | 相似插件
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
@@ -82,13 +94,13 @@ L4D2
 	* 切勿與其他會修改友傷的插件並用
 
 * 功能
-	1. 過一段時間總計算友傷，然後反彈給攻擊者
-	2. 可設置倒地者不受到友傷
-	3. 可設置近戰武器不造成友傷
-	4. 可設置隊友太近不會造成友傷
-	5. 可設置火焰不造成友傷
-	6. 可設置土製炸彈、瓦斯罐、氧氣罐不造成友傷
-	7. 被Charger抓住的玩家不會受到友傷
+	* 過一段時間總計算友傷，然後反彈給攻擊者
+	* 可設置倒地者不受到友傷
+	* 可設置近戰武器不造成友傷
+	* 可設置隊友太近不會造成友傷
+	* 可設置火焰不造成友傷
+	* 可設置土製炸彈、瓦斯罐、氧氣罐不造成友傷
+	* 被Charger抓住的玩家不會受到友傷
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

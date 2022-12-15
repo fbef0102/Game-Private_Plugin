@@ -11,12 +11,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
-* <details><summary>Changelog (Click to expand!) | 版本日誌 (點我展開)</summary>
+* <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.5
 		* Original Request by 壹梦
