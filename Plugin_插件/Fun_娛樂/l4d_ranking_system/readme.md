@@ -10,22 +10,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Your Rank
-	> 全球菁英
-	<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
+		> 全球菁英
+		<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
 	* Name tag in chatbox 
-	> 聊天視窗給予Rank稱號
-	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
+		> 聊天視窗給予Rank稱號
+		<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
 	* CSGO Rank
-	> 抄襲CSGO Rank
-	<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
+		> 抄襲CSGO Rank
+		<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1
+		* Supporty MySQL and Local-SQLite
 
 	* v1.0
 		* Original Request by Alfari
@@ -89,18 +92,27 @@ L4D2
 </details>
 
 * Database
-	* if you want to cross server database, set l4d_ranking_system_database "rank" and set *sourcemod\configs\databases.cfg*
-	```php
-	"rank"
-	{
-		"driver"			"default"
-		"host"				"x.x.x.x"
-		"database"			"yourdatabase"
-		"user"				"youruser"
-		"pass"				"yourpass"
-		"port"				"yourport"
-	}
-	```
+	* set ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
+		```php
+		"rank"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
+	* Or local sqlite
+		```php
+		"rank"
+		{
+			"driver"			"sqlite"
+			"database"			"rank_system"
+		}
+		```
+
 
 - - - -
 # 中文說明
@@ -115,15 +127,23 @@ L4D2
 	2. 可設置殺死不同的特感獲得不同的經驗值
 
 * 資料庫設定
-	* 支援跨伺服器儲值經驗值，設定 l4d_ranking_system_database "rank"，然後設定文件 *sourcemod\configs\databases.cfg*
-	```php
-	"rank"
-	{
-		"driver"			"default"
-		"host"				"x.x.x.x"
-		"database"			"yourdatabase"
-		"user"				"youruser"
-		"pass"				"yourpass"
-		"port"				"yourport"
-	}
-	```
+	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		```php
+		"rank"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
+	* 或者本地資料庫
+		```php
+		"rank"
+		{
+			"driver"			"sqlite"
+			"database"			"rank_system"
+		}
+		```

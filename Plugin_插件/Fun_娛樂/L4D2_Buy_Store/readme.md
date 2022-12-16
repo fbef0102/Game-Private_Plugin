@@ -11,36 +11,36 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* survivor shop list
-	> 人類商城
-	<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
+		> 人類商城
+		<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
 	* survivor shop list
-	> 所有玩家的銀行儲值
-	<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
+		> 所有玩家的銀行儲值
+		<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
 	* display message
-	> 顯示有人購物
-	<br/>![L4D2_Buy_Store_3](image/L4D2_Buy_Store_3.jpg)
+		> 顯示有人購物
+		<br/>![L4D2_Buy_Store_3](image/L4D2_Buy_Store_3.jpg)
 	* infectec shop list
-	> 特感商城
-	<br/>![L4D2_Buy_Store_4](image/L4D2_Buy_Store_4.jpg)
+		> 特感商城
+		<br/>![L4D2_Buy_Store_4](image/L4D2_Buy_Store_4.jpg)
 	* buy command
-	> 使用命令直接購物
-	<br/>![L4D2_Buy_Store_5](image/L4D2_Buy_Store_5.jpg)
+		> 使用命令直接購物
+		<br/>![L4D2_Buy_Store_5](image/L4D2_Buy_Store_5.jpg)
 
 * Apply to | 適用於
-```
-L4D2
-```
+	```
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-Spanish
-Russian
-Portuguese
-Dutch
-```
+	```
+	English
+	繁體中文
+	简体中文
+	Spanish
+	Russian
+	Portuguese
+	Dutch
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -292,16 +292,18 @@ Dutch
 		Survivor Special
 		{
 			"!buy Fire"						-> Fire Yourself
+			"!buy Boom"						-> Drop Pipebomb
 			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
+			"!buy Revive"					-> Save Yorself
 			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
 			"!buy Teleport"					-> Teleport to teammate
 			"!buy Infinite_Ammo"			-> Infinite Ammo
+			"!buy No_FF"					-> No Friendly Fire
 			"!buy Dead_Eyes"				-> Dead-Eyes
 			"!buy Kill_Commons"				-> Kill Commons
 			"!buy Kill_Witches"				-> Kill Witches
-			"!buy Jump+1"					-> Jump+1
 			"!buy Heal_Survivors"			-> Heal Survivors
-			"!buy No_FF"					-> No Friendly Fire
+			"!buy Jump+1"					-> Jump+1
 			"!buy Slay_Infected"			-> Slay Infected Attacker
 			"!buy Respawn"					-> Respawn Alive
 			"!buy Freeze_Infected"			-> Freeze-Infected
@@ -357,7 +359,7 @@ Dutch
 		```
 </details>
 
-* <details><summary>Specail Item | 特殊商品</summary>
+* <details><summary>Specail Item</summary>
 
 	* **Survivor Shop**
 		* Fire
@@ -430,23 +432,23 @@ Dutch
 		<br/>![God_Mode](image/God_Mode.jpg)
 </details>
 
-* How to modify the item price | 如何設定各商品金額
-	* L4D2_Buy_Store.sp line 162 ~ 268
+* How to modify the item price
+	* L4D2_Buy_Store.sp line 167 ~ 272
 
-* Database | 資料庫
-	* sm_shop_CookiesCached_enable "1", this uses CookiesCached to save player money
+* Database
+	* ```sm_shop_CookiesCached_enable "1"```, this uses CookiesCached to save player money
 	* if you want to cross server database, set sm_shop_database "shop" and set *sourcemod\configs\databases.cfg*
-	```php
-	"shop"
-	{
-		"driver"			"default"
-		"host"				"x.x.x.x"
-		"database"			"yourdatabase"
-		"user"				"youruser"
-		"pass"				"yourpass"
-		"port"				"yourport"
-	}
-	```
+		```php
+		"shop"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
 
 - - - -
 # 中文說明
@@ -455,12 +457,14 @@ Dutch
 * 功能
 	1. (人類) 殺死特感與小殭屍獲取金額
 	2. (特感) 對倖存者造成傷害獲取金額
-	3. 有特殊商品
-	4. 自定義各項商品的金額
-	5. 自定義獲取的金額
-	6. 通關與滅團都有獎勵
-	7. 可設置購物冷卻時間
-	8. 特感玩家能幫自己購買特感復活，亦能購買Tank與Witch
+	3. 自定義各項商品的金額
+	4. 自定義獲取的金額
+	5. 通關與滅團都有獎勵
+	6. 可設置購物冷卻時間
+	7. 特感玩家能幫自己購買特感復活，亦能購買Tank與Witch
+	8. 有特殊商品
+	9. 金錢轉移
+	10. 跨伺服器資料庫儲存設定
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
@@ -556,16 +560,18 @@ Dutch
 		Survivor Special
 		{
 			"!buy Fire"						-> Fire Yourself
+			"!buy Boom"						-> Drop Pipebomb
 			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
+			"!buy Revive"					-> Save Yorself
 			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
 			"!buy Teleport"					-> Teleport to teammate
 			"!buy Infinite_Ammo"			-> Infinite Ammo
+			"!buy No_FF"					-> No Friendly Fire
 			"!buy Dead_Eyes"				-> Dead-Eyes
 			"!buy Kill_Commons"				-> Kill Commons
 			"!buy Kill_Witches"				-> Kill Witches
-			"!buy Jump+1"					-> Jump+1
 			"!buy Heal_Survivors"			-> Heal Survivors
-			"!buy No_FF"					-> No Friendly Fire
+			"!buy Jump+1"					-> Jump+1
 			"!buy Slay_Infected"			-> Slay Infected Attacker
 			"!buy Respawn"					-> Respawn Alive
 			"!buy Freeze_Infected"			-> Freeze-Infected
@@ -622,22 +628,22 @@ Dutch
 </details>
 
 * 如何設定各商品金額
-	* 源碼檔案第162到268行
+	* 源碼檔案第167到272行
 
 * 資料庫設定
 	* 使用指令 sm_shop_CookiesCached_enable "1" 能幫玩家儲值金額到本地伺服器上
-	* 如果想要跨伺服器儲值金額，設定 sm_shop_database "shop"，然後設定文件 *sourcemod\configs\databases.cfg*
-	```php
-	"shop"
-	{
-		"driver"			"default"
-		"host"				"x.x.x.x"
-		"database"			"yourdatabase"
-		"user"				"youruser"
-		"pass"				"yourpass"
-		"port"				"yourport"
-	}
-	```
+	* 或者想要跨伺服器儲值金額，設定 sm_shop_database "shop"，然後設定文件 *sourcemod\configs\databases.cfg*
+		```php
+		"shop"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
 
 * <details><summary>特殊商品中文介紹 (點我展開)</summary>
 
