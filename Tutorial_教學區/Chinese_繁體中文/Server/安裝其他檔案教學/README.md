@@ -94,15 +94,15 @@
 		* 沒有server.cfg檔案則新建
 		```php
 		// 這是100 Tick的設定，可以自由修改數值
-		sm_cvar sv_minrate 				"100000"
-		sm_cvar sv_maxrate 				"100000"
-		sm_cvar sv_minupdaterate 		"101"
-		sm_cvar sv_maxupdaterate 		"101"
-		sm_cvar sv_mincmdrate 			"101"
-		sm_cvar sv_maxcmdrate 			"101"
-		sm_cvar rate					"100000"
-		sm_cvar net_splitpacket_maxrate "50000"
-		sm_cvar fps_max    
+		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
+		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
+		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
+		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
+		sm_cvar rate					"100000" 	// tickrate * 1000
+		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+		sm_cvar fps_max					"0"
 		```
 	
 	5. 伺服器啟動選項輸入參數
@@ -173,3 +173,4 @@
 ## 其他
 * [安裝伺服器與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件)
 * [安裝區域房與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝區域房與插件)
+* [Questions_問題區](/Questions_問題區/Chinese_繁體中文/伺服器)

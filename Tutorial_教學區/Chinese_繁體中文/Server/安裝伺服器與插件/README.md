@@ -46,56 +46,56 @@
 - - - -
 ## 如何安裝專屬伺服器
 * Windows
-1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+   1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
-2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
-   - 譬如D:\steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
+   2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
+      - 譬如D:\steamcmd
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
 
-3. 執行steamcmd.exe，等它自己跑完套件與更新包
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
+   3. 執行steamcmd.exe，等它自己跑完套件與更新包
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
 
-4. 等到出現Loading Steam API...OK，依序輸入以下指令
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
-   - ```force_install_dir ./My_Server/```
-      - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-   - ```login anonymous```
-   - ```app_update XXXXXX validate```
-      - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
-      
-   ![image](https://user-images.githubusercontent.com/12229810/202984758-372b99de-daa2-46af-a3b7-8979c5f03928.png)
+   4. 等到出現Loading Steam API...OK，依序輸入以下指令
+      <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
+      - ```force_install_dir ./My_Server/```
+         - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
+      - ```login anonymous```
+      - ```app_update XXXXXX validate```
+         - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
+         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+         
+      ![image](https://user-images.githubusercontent.com/12229810/202984758-372b99de-daa2-46af-a3b7-8979c5f03928.png)
 
-5. 完成安裝之後輸入exit結束steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202986791-dd6d7649-0f2e-43a3-bfaa-7ab92d5c1bcc.png)
+   5. 完成安裝之後輸入exit結束steamcmd
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202986791-dd6d7649-0f2e-43a3-bfaa-7ab92d5c1bcc.png)
 
-6. 到所安裝的路徑查看伺服器檔案
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202986953-7909125c-5bed-48ba-93f6-ec27c27cde46.png)
+   6. 到所安裝的路徑查看伺服器檔案
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202986953-7909125c-5bed-48ba-93f6-ec27c27cde46.png)
 
 * Liunx
-1. 啟用終端機輸入以下指令 (你可能需要root 權限)
-   - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
-   - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
-   - ```tar -xvzf steamcmd_linux.tar.gz```
-   - ```./steamcmd.sh```
-   <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
+   1. 啟用終端機輸入以下指令 (你可能需要root 權限)
+      - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
+      - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
+      - ```tar -xvzf steamcmd_linux.tar.gz```
+      - ```./steamcmd.sh```
+      <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
-2. 等到出現Loading Steam API...OK，依序輸入以下指令
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
-   - ```force_install_dir ./My_Server/```
-      - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-   - ```login anonymous```
-   - ```app_update XXXXXX validate```
-      - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+   2. 等到出現Loading Steam API...OK，依序輸入以下指令
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
+      - ```force_install_dir ./My_Server/```
+         - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
+      - ```login anonymous```
+      - ```app_update XXXXXX validate```
+         - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
+         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
-   ![image](https://user-images.githubusercontent.com/12229810/202987482-28d1c832-90d5-40e3-b50d-62942668c30d.png)
+      ![image](https://user-images.githubusercontent.com/12229810/202987482-28d1c832-90d5-40e3-b50d-62942668c30d.png)
 
-3. 完成安裝之後輸入exit結束steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
+   3. 完成安裝之後輸入exit結束steamcmd
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
-4. 到所安裝的路徑查看伺服器檔案
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202990809-157f0743-bc4c-41a3-bbb2-a481ef3b7f96.png)
+   4. 到所安裝的路徑查看伺服器檔案
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202990809-157f0743-bc4c-41a3-bbb2-a481ef3b7f96.png)
 
 - - - -
 ## 如何安裝Sourcemod
@@ -120,143 +120,148 @@
 - - - -
 ## 如何執行專屬伺服器
 * Windows
-1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器
-<br/>![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
+   1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器
+   <br/>![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
 
-2. 各項目依照自己的喜好設定
-	- 伺服器名稱無法填寫中文
-	- 網路選擇網際網路 (廢話)
-	- 玩家上限是假的，即使設定32人，伺服器人數受到遊戲限制
-		- L4D 戰役模式最多4人、對抗模式最多8人
-	- 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+   2. 各項目依照自己的喜好設定
+      - 伺服器名稱無法填寫中文
+      - 網路選擇網際網路 (廢話)
+      - 玩家上限是假的，即使設定32人，伺服器人數受到遊戲限制
+         - L4D 戰役模式最多4人、對抗模式最多8人
+      - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
 
 * Liunx
-1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
-   - ```xxxxxx``` 為設定的遊戲
-	   - 如果是L4D1，xxxxxx改成left4dead
-	   - 如果是L4D2，xxxxxx改成left4dead2
-	   - 如果是CSGO，xxxxxx改成csgo
-   - ```-port 27020``` 為設定的Port
-	   - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
-   - ```+log on``` 打開伺服器紀錄儀
-   - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
-   - ```+sv_lan 0``` 改成網際網路
-   - 可自行添加其他參數，譬如
-	   - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
-      - ```+sv_password 12345``` 伺服器密碼為12345
+   1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
+      - ```xxxxxx``` 為設定的遊戲
+         - 如果是L4D1，xxxxxx改成left4dead
+         - 如果是L4D2，xxxxxx改成left4dead2
+         - 如果是CSGO，xxxxxx改成csgo
+      - ```-port 27020``` 為設定的Port
+         - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+      - ```+log on``` 打開伺服器紀錄儀
+      - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
+      - ```+sv_lan 0``` 改成網際網路
+      - 可自行添加其他參數，譬如
+         - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
+         - ```+sv_password 12345``` 伺服器密碼為12345
 
 - - - -
 ## 如何檢查版本
-<details>
-  <summary>查找伺服器的後台 (點我展開)</summary>
+* <details><summary>查找伺服器的後台 (點我展開)</summary>
 
-* 開啟伺服器之後尋找"命令列"<br/>
-  <img src="https://i.imgur.com/c0jp5XQ.png" alt="c0jp5XQ.png" width="600" height = "400">
+   * 開啟伺服器之後尋找"命令列"
+   <br/><img src="https://i.imgur.com/c0jp5XQ.png" alt="c0jp5XQ.png" width="600" height = "400">
+   
+   > __Note__ 若是用其他的開服軟體，請自行摸索找到後台 
+</details>
+
+* <details><summary>檢查遊戲平台版本 (點我展開)</summary>
   
-  > __Note__ 若是用其他的開服軟體，請自行摸索找到後台 
+   * 伺服器的後台輸入```version```
+      ```php
+      ] version
+      Version 2.2.2.5 (left4dead2)
+      Network Version 2.1.0.0
+      Exe build: 16:48:59 Feb  4 2022 (8490) (550)
+      ```
 </details>
 
-<details>
-  <summary>檢查遊戲平台版本 (點我展開)</summary>
+* <details><summary>檢查sourcemod平台版本 (點我展開)</summary>
+
+   * 伺服器的後台輸入```sm version```
+      ```php
+      ] sm version
+         SourceMod Version Information:
+            SourceMod Version: 1.11.0.6905
+            SourcePawn Engine: 1.11.0.6905, jit-x86 (build 1.11.0.6905)
+            SourcePawn API: v1 = 5, v2 = 16
+            Compiled on: Jul  3 2022 01:15:17
+            Built from: https://github.com/alliedmodders/sourcemod/commit/5e3a1896
+            Build ID: 6905:5e3a1896
+            http://www.sourcemod.net/
+      ```
+</details>
+
+* <details><summary>檢查metamod平台版本 (點我展開)</summary>
+
+   * 伺服器的後台輸入```meta version```
+      ```php
+      ] meta version
+         Metamod:Source Version Information
+            Metamod:Source version 1.11.0-dev+1148
+            Plugin interface version: 16:14
+            SourceHook version: 5:5
+            Loaded As: Valve Server Plugin
+            Compiled on: Jun 24 2022 14:34:21
+            Built from: https://github.com/alliedmodders/metamod-source/commit/4bdc218
+            Build ID: 1148:4bdc218
+            http://www.metamodsource.net/
+      ```
+</details>
+
+* <details><summary>檢查所有Extension版本 (點我展開)</summary>
+
+   * 伺服器的後台輸入```sm exts list```
+      ```php
+         ] sm exts list
+         [SM] Displaying 11 extensions:
+         [01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
+         [02] Webternet (1.11.0.6905): Extension for interacting with URLs
+         [02] Top Menus (1.11.0.6905): Creates sorted nested menus
+         [04] SDK Tools (1.11.0.6905): Source SDK Tools
+         [05] BinTools (1.11.0.6905): Low-level C/C++ Calling API
+         [06] SDK Hooks (1.11.0.6905): Source SDK Hooks
+         [07] Client Preferences (1.11.0.6905): Saves client preference settings
+         [08] SQLite (1.11.0.6905): SQLite Driver
+         [09] DHooks (1.11.0.6905): Dynamic Hooks
+         [10] Regex (1.11.0.6905): Provides regex natives for plugins
+         [11] GeoIP (1.11.0.6905): Geographical IP information
+      ```
+</details>
+
+* <details><summary>檢查所有Meta Plugin版本 (點我展開)</summary>
   
-* 伺服器的後台輸入```version```
-  ```php
-  ] version
-  Version 2.2.2.5 (left4dead2)
-  Network Version 2.1.0.0
-  Exe build: 16:48:59 Feb  4 2022 (8490) (550)
-  ```
+   * 伺服器的後台輸入```meta list```
+      ```php
+         ] meta list
+         Listing 11 plugins:
+            [01] SourceMod (1.11.0.6905) by AlliedModders LLC
+            [02] SDK Tools (1.11.0.6905) by AlliedModders LLC
+            [03] SDK Hooks (1.11.0.6905) by AlliedModders LLC
+            [04] DHooks (1.11.0.6905) by AlliedModders LLC
+      ```
 </details>
 
-<details>
-  <summary>檢查sourcemod平台版本 (點我展開)</summary>
-
-* 伺服器的後台輸入```sm version```
-  ```php
-  ] sm version
-   SourceMod Version Information:
-      SourceMod Version: 1.11.0.6905
-      SourcePawn Engine: 1.11.0.6905, jit-x86 (build 1.11.0.6905)
-      SourcePawn API: v1 = 5, v2 = 16
-      Compiled on: Jul  3 2022 01:15:17
-      Built from: https://github.com/alliedmodders/sourcemod/commit/5e3a1896
-      Build ID: 6905:5e3a1896
-      http://www.sourcemod.net/
-  ```
-</details>
-
-<details>
-  <summary>檢查metamod平台版本 (點我展開)</summary>
-
-* 伺服器的後台輸入```meta version```
-  ```php
-  ] meta version
-   Metamod:Source Version Information
-      Metamod:Source version 1.11.0-dev+1148
-      Plugin interface version: 16:14
-      SourceHook version: 5:5
-      Loaded As: Valve Server Plugin
-      Compiled on: Jun 24 2022 14:34:21
-      Built from: https://github.com/alliedmodders/metamod-source/commit/4bdc218
-      Build ID: 1148:4bdc218
-      http://www.metamodsource.net/
-  ```
-</details>
-
-<details>
-  <summary>檢查所有Extension版本 (點我展開)</summary>
-
-* 伺服器的後台輸入```sm exts list```
-  ```php
-    ] sm exts list
-    [SM] Displaying 11 extensions:
-    [01] Automatic Updater (1.11.0.6905): Updates SourceMod gamedata files
-    [02] Webternet (1.11.0.6905): Extension for interacting with URLs
-    [02] Top Menus (1.11.0.6905): Creates sorted nested menus
-    [04] SDK Tools (1.11.0.6905): Source SDK Tools
-    [05] BinTools (1.11.0.6905): Low-level C/C++ Calling API
-    [06] SDK Hooks (1.11.0.6905): Source SDK Hooks
-    [07] Client Preferences (1.11.0.6905): Saves client preference settings
-    [08] SQLite (1.11.0.6905): SQLite Driver
-    [09] DHooks (1.11.0.6905): Dynamic Hooks
-    [10] Regex (1.11.0.6905): Provides regex natives for plugins
-    [11] GeoIP (1.11.0.6905): Geographical IP information
-  ```
-</details>
-
-<details>
-  <summary>檢查所有Meta Plugin版本 (點我展開)</summary>
+* <details><summary>檢查所有插件版本 (點我展開)</summary>
   
-* 伺服器的後台輸入```meta list```
-  ```php
-    ] meta list
-    Listing 11 plugins:
-      [01] SourceMod (1.11.0.6905) by AlliedModders LLC
-      [02] SDK Tools (1.11.0.6905) by AlliedModders LLC
-      [03] SDK Hooks (1.11.0.6905) by AlliedModders LLC
-      [04] DHooks (1.11.0.6905) by AlliedModders LLC
-  ```
+   * 伺服器的後台輸入```sm plugins list```
+   ```php
+      ] sm plugins list
+      [SM] Listing 11 plugins:
+         001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
+         002 "Admin Help" (1.11.0.6905) by AlliedModders LLC
+         003 "Admin Menu" (1.11.0.6905) by AlliedModders LLC
+         004 "Anti-Flood" (1.11.0.6905) by AlliedModders LLC
+         005 "Basic Ban Commands" (1.11.0.6905) by AlliedModders LLC
+         006 "Basic Chat" (1.11.0.6905) by AlliedModders LLC
+         007 "Basic Comm Control" (1.11.0.6905) by AlliedModders LLC
+         008 "Basic Commands" (1.10.0.6502) by AlliedModders LLC
+         009 "Basic Info Triggers" (1.11.0.6905) by AlliedModders LLC
+         010 "Basic Votes" (1.11.0.6905) by AlliedModders LLC
+         011 "Client Preferences" (1.11.0.6905) by AlliedModders LLC
+   ```
 </details>
 
-<details>
-  <summary>檢查所有插件版本 (點我展開)</summary>
-  
-* 伺服器的後台輸入```sm plugins list```
-  ```php
-    ] sm plugins list
-    [SM] Listing 11 plugins:
-      001 "Admin File Reader" (1.11.0.6905) by AlliedModders LLC
-      002 "Admin Help" (1.11.0.6905) by AlliedModders LLC
-      003 "Admin Menu" (1.11.0.6905) by AlliedModders LLC
-      004 "Anti-Flood" (1.11.0.6905) by AlliedModders LLC
-      005 "Basic Ban Commands" (1.11.0.6905) by AlliedModders LLC
-      006 "Basic Chat" (1.11.0.6905) by AlliedModders LLC
-      007 "Basic Comm Control" (1.11.0.6905) by AlliedModders LLC
-      008 "Basic Commands" (1.10.0.6502) by AlliedModders LLC
-      009 "Basic Info Triggers" (1.11.0.6905) by AlliedModders LLC
-      010 "Basic Votes" (1.11.0.6905) by AlliedModders LLC
-      011 "Client Preferences" (1.11.0.6905) by AlliedModders LLC
-  ```
+* <details><summary>檢查其他插件版本 (點我展開)</summary>
+
+   * 伺服器的後台輸入```plugin_print```
+      ```php
+         ] plugin_print
+         Loaded plugins:
+         ---------------------
+         0:      "Metamod:Source 1.11.0-dev+1148"
+         ---------------------
+      ```
 </details>
 
 - - - -
@@ -278,6 +283,7 @@
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器(無線基地台、Router)需要調整
       * 申請固定IP，並更改路由器的路由表(Routing Table/Forwarding Table)，每個品牌操作方式不太一樣，請自行google
+      * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
    
 3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
@@ -643,47 +649,47 @@
 又或者你覺得伺服器有檔案損毀需要驗證完整性
 
 * Windows
-1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+   1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
-2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
-   - 譬如D:\steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
+   2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
+      - 譬如D:\steamcmd
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
 
-3. 執行steamcmd.exe，等它自己跑完套件與更新包
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
+   3. 執行steamcmd.exe，等它自己跑完套件與更新包
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
 
-4. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
-   - ```force_install_dir "My_Server_Path"```
-      - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
-   - ```login anonymous```
-   - ```app_update XXXXXX validate```
-      - XXXXXX 為遊戲伺服器的App ID
-      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+   4. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
+      <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
+      - ```force_install_dir "My_Server_Path"```
+         - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
+      - ```login anonymous```
+      - ```app_update XXXXXX validate```
+         - XXXXXX 為遊戲伺服器的App ID
+         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
-   <br/>![image](https://user-images.githubusercontent.com/12229810/206717020-0742eb67-29f0-4f03-9225-e2130dc51520.png)
+      <br/>![image](https://user-images.githubusercontent.com/12229810/206717020-0742eb67-29f0-4f03-9225-e2130dc51520.png)
 
-5. 完成安裝之後輸入exit結束steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
+   5. 完成安裝之後輸入exit結束steamcmd
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
 * Liunx
-1. 啟用終端機輸入以下指令 (你可能需要root 權限)
-   - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
-   - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
-   - ```tar -xvzf steamcmd_linux.tar.gz```
-   - ```./steamcmd.sh```
-   <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
+   1. 啟用終端機輸入以下指令 (你可能需要root 權限)
+      - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
+      - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
+      - ```tar -xvzf steamcmd_linux.tar.gz```
+      - ```./steamcmd.sh```
+      <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
-2. 等到出現Loading Steam API...OK，依序輸入以下指令
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
-   - ```force_install_dir "My_Server_Path"```
-      - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
-   - ```login anonymous```
-   - ```app_update XXXXXX validate```
-      - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-      - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+   2. 等到出現Loading Steam API...OK，依序輸入以下指令
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
+      - ```force_install_dir "My_Server_Path"```
+         - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
+      - ```login anonymous```
+      - ```app_update XXXXXX validate```
+         - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
+         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
 
-   <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
+      <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
 
 
 3. 完成安裝之後輸入exit結束steamcmd
