@@ -101,7 +101,7 @@
       * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
 
   * 原因四: 你使用離線模式遊玩單人模式，但伺服器一直要求驗證你的線上steam帳戶
-    * 解決方式: 遊戲控制台輸入sv_lan 1
+    * 解決方式: 遊戲控制台輸入```sv_lan 1```
 </details>
 
 * <details><summary>問題10: 斷線，畫面出現<b>區域伺服器，僅限本地用戶端</b></summary>
