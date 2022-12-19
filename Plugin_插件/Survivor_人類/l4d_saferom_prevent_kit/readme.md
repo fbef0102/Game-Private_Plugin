@@ -10,22 +10,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message in starting safe area
-    > 起始安全區域不能打包
-	<br/>![l4d_saferom_prevent_kit_1](image/l4d_saferom_prevent_kit_1.jpg)
+		> 起始安全區域不能打包
+		<br/>![l4d_saferom_prevent_kit_1](image/l4d_saferom_prevent_kit_1.jpg)
 	* display message in ending safe area
-    > 終點安全區域不能打包
-	<br/>![l4d_saferom_prevent_kit_2](image/l4d_saferom_prevent_kit_2.jpg)
+		> 終點安全區域不能打包
+		<br/>![l4d_saferom_prevent_kit_2](image/l4d_saferom_prevent_kit_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.1
+	* v1.2
+	    * Fixed teleporting players in the final when using kits. Thanks to "Shadow" for reporting.
+
+	* v1.0
 	    * Original Request by 壹梦
+		* Initial Release
 </details>
 
 * Require | 必要安裝
