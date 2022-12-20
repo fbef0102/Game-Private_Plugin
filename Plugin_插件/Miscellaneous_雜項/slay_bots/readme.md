@@ -67,7 +67,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-輸入指令處死Bots
+輸入指令一次處死多個Bots
 
 * 原理
 	* 管理員輸入指令處死所有的倖存者bot

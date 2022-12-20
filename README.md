@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/12/6 updated
+> 2022/12/21 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -281,6 +281,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
   * [server_welcome_message](/Plugin_插件/Miscellaneous_雜項/server_welcome_message): Display Welcome Message to new players (support translation)
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
+  * [server_welcome_message](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
+    * 輸入指令一次處死多個Bots
 </details>
 
 - - - -
