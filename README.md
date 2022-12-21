@@ -29,6 +29,10 @@ My Unpublic Private Plugin (Charge)
     * 準備才能開始遊戲的插件
   * [pause](/Plugin_插件/Server_伺服器/pause): Pause plugin
     * 暫停遊戲的插件
+  * [l4d_playerjoining](/Plugin_插件/Server_伺服器/l4d_playerjoining): Informs other players when a client connects to the server and changes teams.
+    * 當玩家更換隊伍、連線、離開伺服器之時，通知所有玩家
+  * [server_welcome_message](/Plugin_插件/Server_伺服器/server_welcome_message): Display Welcome Message to new players (support translation)
+    * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -274,15 +278,15 @@ My Unpublic Private Plugin (Charge)
   * [laser_block](/Plugin_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
     * 遊戲開始後不能升級紅外線雷射
   * [l4d_restartmap_command](/Plugin_插件/Miscellaneous_雜項/l4d_restartmap_command): Admin say !restartmap to restart current level
-    * 管理員輸入!restartmap能重新地圖關卡
+    * 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
   * [l4d_random_map_vote](/Plugin_插件/Miscellaneous_雜項/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
     * 投票更換地圖，但是地圖是隨機挑選的
   * [AnnouceLaserAmmo](/Plugin_插件/Miscellaneous_雜項/AnnouceLaserAmmo): Display instruction hint when someone uses ammo or laser sight
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
-  * [server_welcome_message](/Plugin_插件/Miscellaneous_雜項/server_welcome_message): Display Welcome Message to new players (support translation)
-    * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
-  * [server_welcome_message](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
+  * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
+  * [l4d_medkit_status](/Plugin_插件/Miscellaneous_雜項/l4d_medkit_status): Report Medkit Status when someone used Medkits
+    * 當有人使用治療包時回報治療包使用數量與狀態
 </details>
 
 - - - -
