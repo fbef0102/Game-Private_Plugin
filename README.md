@@ -285,8 +285,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
-  * [l4d_medkit_status](/Plugin_插件/Miscellaneous_雜項/l4d_medkit_status): Report Medkit Status when someone used Medkits
-    * 當有人使用治療包時回報治療包使用數量與狀態
+  * [l4d_medkit_status](/Plugin_插件/Miscellaneous_雜項/l4d_medkit_status): Report Personal Medkit Status when player used Medkits
+    * 使用治療包時提示個人的治療包使用數量與狀態
 </details>
 
 - - - -

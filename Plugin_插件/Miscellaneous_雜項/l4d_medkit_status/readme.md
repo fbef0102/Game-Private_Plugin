@@ -1,5 +1,5 @@
 # Description | 內容
-Report Medkit Status when someone used Medkits
+Report Personal Medkit Status when player used Medkits
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,9 +8,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* Image
+* Image | 圖示
 	* Display message
-	<br/>![l4d_medkit_status_1](image/l4d_medkit_status_1.jpg)
+		> 顯示訊息
+		<br/>![l4d_medkit_status_1](image/l4d_medkit_status_1.jpg)
+
+	* All Player Medkit Status
+		> 所有玩家的治療包使用量
+		<br/>![l4d_medkit_status_2](image/l4d_medkit_status_2.jpg)
 
 * Apply to | 適用於
 	```
@@ -20,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0 (2022-12-21)
+	* v1.0 (2022-12-23)
 		* Request by GGM
 		* Initial Release
 </details>
@@ -37,29 +42,38 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_medkit_status_announce_type "1"
 
 		// Display message to Which player. (1=Person doing the healing, 2=Person being healed, 3=Both)
-		l4d_medkit_status_display_player "3"
+		l4d_medkit_status_display_player "1"
 
 		// 0=Plugin off, 1=Plugin on.
 		l4d_medkit_status_enable "1"
 
-		// If 1, enable this plugin once survivors leaving saferoom or survival begins (0=Always Enable)
-		l4d_medkit_status_game_start_enable "0"
+		// If 1, start to count medkit used once survivors leaving saferoom or survival begins (0=Always count)
+		l4d_medkit_status_game_start_enable "1"
+
+		// Reset all players data when 0=Map Change, 1=Next New Round, 2=Next Game starts/Survival begins.
+		l4d_medkit_status_reset_when "2"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
-	None
+	* **Display All Medkits Stats.**
+		```php
+		sm_med
+		```
 </details>
 
 - - - -
 # 中文說明
-當有人使用治療包時回報治療包使用數量與狀態
+使用治療包時提示個人的治療包使用數量與狀態
 
 * 原理
 	* 顯示目前為止使用的治療包數量以及距離上一次使用治療包的時間
+	* 倖存者Bot也有
+	* 即使玩家離線仍然保留數據
 
 * 功能
-	* 可設置遊戲開始後才顯示訊息
+	* 輸入!med顯示所有人的治療包使用數量
+	* 可設置遊戲開始後才計算治療包使用狀態
 		* 離開安全室或生存模式計時開始
-	* 可設置哪位玩家能看到訊息
+	* 可設置何時清除數據
