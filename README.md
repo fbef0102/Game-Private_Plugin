@@ -193,6 +193,8 @@ My Unpublic Private Plugin (Charge)
     * 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
   * [l4d_survival_min_si_require](/Plugin_插件/Survival_生存模式/l4d_survival_min_si_require): Display Minimum SI requirement for full-team on each survival map.
     * 在聊天欄顯示該生存地圖的最少特感擊殺數
+  * [l4d_survival_auto_recover](/Plugin_插件/Survival_生存模式/l4d_survival_auto_recover): Auto save survivors if incapacitated or hanging from ledge before survival begins
+    * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並回復所有血量
 </details>
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>

@@ -41,8 +41,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_medkit_status_announce_type "1"
 
-		// Display message to Which player. (1=Person doing the healing, 2=Person being healed, 3=Both)
-		l4d_medkit_status_display_player "1"
+		// Count medkit to which player. (1=Person doing the healing, 2=Person being healed)
+		l4d_medkit_status_count_player "1"
 
 		// 0=Plugin off, 1=Plugin on.
 		l4d_medkit_status_enable "1"
@@ -73,7 +73,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 即使玩家離線仍然保留數據
 
 * 功能
-	* 輸入!med顯示所有人的治療包使用數量
+	* 輸入```!med```顯示所有人的治療包使用數量
 	* 可設置遊戲開始後才計算治療包使用狀態
 		* 離開安全室或生存模式計時開始
 	* 可設置何時清除數據

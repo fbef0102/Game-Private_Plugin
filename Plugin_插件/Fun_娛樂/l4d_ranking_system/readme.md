@@ -27,6 +27,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2022-12-23)
+		* Request by Anzu
+		* Show rank hud when new player joins and new round starts
+
 	* v1.1
 		* Supporty MySQL and Local-SQLite
 
@@ -36,50 +40,55 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	2. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+
+* Optional | 輔助插件
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		> 準備插件，新的回合開始時顯示Rank Hud
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_ranking_system.cfg
-	```php
-	// Giving exp for killing a boomer
-	l4d_ranking_system_boomk_illed "10"
+		```php
+		// Giving exp for killing a boomer
+		l4d_ranking_system_boomk_illed "10"
 
-	// Giving exp for killing a charger
-	l4d_ranking_system_charger_killed "30"
+		// Giving exp for killing a charger
+		l4d_ranking_system_charger_killed "30"
 
-	// Database to save ranking system. (MySQL & SQLite supported)
-	l4d_ranking_system_database "rank"
+		// Database to save ranking system. (MySQL & SQLite supported)
+		l4d_ranking_system_database "rank"
 
-	// 0=Plugin off, 1=Plugin on.
-	l4d_ranking_system_allow "1"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_ranking_system_allow "1"
 
-	// Giving exp for killing a hunter
-	l4d_ranking_system_hunter_killed "20"
+		// Giving exp for killing a hunter
+		l4d_ranking_system_hunter_killed "20"
 
-	// Giving exp for killing a jockey
-	l4d_ranking_system_jockey_killed "25"
+		// Giving exp for killing a jockey
+		l4d_ranking_system_jockey_killed "25"
 
-	// Numbers of real survivor player require to active this plugin.
-	l4d_ranking_system_player_require "4"
+		// Numbers of real survivor player require to active this plugin.
+		l4d_ranking_system_player_require "4"
 
-	// Giving exp for killing a smoker
-	l4d_ranking_system_smoker_killed "20"
+		// Giving exp for killing a smoker
+		l4d_ranking_system_smoker_killed "20"
 
-	// Giving exp for killing a spitter
-	l4d_ranking_system_spitter_killed "10"
+		// Giving exp for killing a spitter
+		l4d_ranking_system_spitter_killed "10"
 
-	// Giving exp for killing a tank
-	l4d_ranking_system_tank_killed "200"
+		// Giving exp for killing a tank
+		l4d_ranking_system_tank_killed "200"
 
-	// How many top rank players to display in 'Top Players' menu
-	l4d_ranking_system_top_rank_numbers "10"
+		// How many top rank players to display in 'Top Players' menu
+		l4d_ranking_system_top_rank_numbers "10"
 
-	// Giving exp for killing a witch
-	l4d_ranking_system_witch_killed "80"
+		// Giving exp for killing a witch
+		l4d_ranking_system_witch_killed "80"
 
-	// Giving exp for killing a zombie
-	l4d_ranking_system_zombie_killed "1"
-	```
+		// Giving exp for killing a zombie
+		l4d_ranking_system_zombie_killed "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

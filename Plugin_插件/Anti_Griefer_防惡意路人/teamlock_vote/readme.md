@@ -9,17 +9,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Calls a vote to enable / disable locking teams
-	> 投票開啟或關閉隊伍鎖住功能
-	<br/>![teamlock_vote_1](image/teamlock_vote_1.jpg)
+		> 投票開啟或關閉隊伍鎖住功能
+		<br/>![teamlock_vote_1](image/teamlock_vote_1.jpg)
 	* Display message
-	> 遊戲開始後提示隊伍鎖住功能
-	<br/>![teamlock_vote_2](image/teamlock_vote_2.jpg)
+		> 遊戲開始後提示隊伍鎖住功能
+		<br/>![teamlock_vote_2](image/teamlock_vote_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -46,7 +46,7 @@ L4D2
 	// 0=Plugin off, 1=Plugin on.
 	teamlock_vote_enable "1"
 
-	// If 1, players can not start teamlock vote after game starts.
+	// If 1, players can not start teamlock vote after game starts/survival begins.
 	teamlock_vote_game_block "1"
 
 	// Numbers of real survivor and infected player required to start a teamlock vote.

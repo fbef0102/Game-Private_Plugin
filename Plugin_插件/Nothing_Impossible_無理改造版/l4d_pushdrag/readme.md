@@ -19,10 +19,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d_pushdrag_3](image/l4d_pushdrag_3.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -30,6 +30,9 @@ L4D2
 	//panxiaohai @ 2010
 	//HarryPotter @ 2022
 	```
+	* v1.1h
+		* Drag and throw prop_fuel_barrel
+
 	* v1.0h
 		* Request by 所長
 		* Remake Code
