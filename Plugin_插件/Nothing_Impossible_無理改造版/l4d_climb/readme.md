@@ -48,7 +48,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 

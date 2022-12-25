@@ -36,7 +36,7 @@ L4D2
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related | 相關插件
     1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'

@@ -30,8 +30,8 @@ English
 </details>
 
 * Require | 必要安裝
-	1. You still need to use [l4dtoolz](https://github.com/Accelerator74/l4dtoolz/releases) to unlock server slots limit
-	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [l4dtoolz](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server slots limit
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 

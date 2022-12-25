@@ -44,7 +44,7 @@ Spanish
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
 	1. [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): A spectator who watching the survivor at first person view can now see the infected model glows though the wall

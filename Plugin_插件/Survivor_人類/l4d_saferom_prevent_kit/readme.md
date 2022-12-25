@@ -34,7 +34,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
 	1. [Bot Healing Values](/Plugin_插件/Bot_IQ_200_Bot智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)

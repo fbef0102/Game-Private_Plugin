@@ -34,7 +34,7 @@ L4D2
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Similar Plugin | 相似插件
 	1. [l4dffannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dffannounce): Notifies selected team(s) when someone is on final strike and add glow

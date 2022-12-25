@@ -36,7 +36,7 @@ English
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Similar Plugin | 相似插件
 	1. [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce): Replacement of default player connection message, allows for custom connection messages

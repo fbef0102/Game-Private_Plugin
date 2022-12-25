@@ -38,7 +38,7 @@ English
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://forums.alliedmods.net/showthread.php?t=247770)
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
 	1. [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
