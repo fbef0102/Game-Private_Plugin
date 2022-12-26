@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2022/12/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2022/12/27 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
@@ -110,7 +110,7 @@
 * [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
 
 * [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
-    - 安裝此插件會導致在The Passing地圖中一代角色玩家會被傳送到地圖之外或死亡，想要修正此問題請安裝<b>"Stripper_passingfix.7z"</b>(位於此插件貼文附檔區)
+    - 安裝此插件會導致在The Passing地圖或含有一代NPC的三方圖當中，一代角色的玩家會被傳送到地圖之外或死亡，想要修正此問題請安裝<b>"Stripper_passingfix.7z"</b>(位於此插件貼文附檔區)
       - 解壓縮檔案到addons\stripper\maps\ 相同資料夾
     - 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
