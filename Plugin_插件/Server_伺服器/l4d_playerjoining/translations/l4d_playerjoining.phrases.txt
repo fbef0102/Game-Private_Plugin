@@ -27,6 +27,9 @@
     }
     "Connect_Server"
     {
+        // {1} Name
+        // {2} Country
+        // {2} City
         "#format"		"{1:s},{2:s},{3:s}"
         "en"        "{green}{1}{default} has connected to the server {green}({2}, {3})"
         "zho"       "{green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
