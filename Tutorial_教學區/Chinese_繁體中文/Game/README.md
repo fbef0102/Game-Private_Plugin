@@ -150,6 +150,13 @@
         <br/>![l4d2_item_hint](https://raw.githubusercontent.com/fbef0102/L4D2-Plugins/master/l4d2_item_hint/image/l4d2_item_hint_3.jpg)
     * 你剛買這遊戲的時候，還是新手
 
+* <details><summary>問題1: 為什麼打開了還是看不到 ?</b></summary>
+
+  * 原因一： 遊戲指導系統是交由遊戲導演決定，依照當下的倖存者狀態顯示各種恰當的遊戲提示，避免玩家螢幕全塞滿混雜的訊息
+  * 原因二： 伺服器端有修改指令 ```sv_gameinstructor_disable 1```，這會關閉伺服器內所有玩家的遊戲指導系統
+  * 原因三： 遊玩了寫實模式，寫實模式會關掉大部分的遊戲提示，只留下機關路線提示
+</details>
+
 - - - -
 ## 下載自訂伺服器內容
 * 自訂伺服器內容?

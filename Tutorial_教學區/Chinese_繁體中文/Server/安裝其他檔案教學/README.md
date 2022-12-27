@@ -77,8 +77,8 @@
 * TickrateEnabler 用途是什麼?
    * 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
 	  * 不知道Tickrate是甚麼請自行Google
-	  * 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
-   * 高Tickrate很吃電腦的cpu，自行斟酌安裝
+	  * 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps，但是fps越高
+   * 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
 * 安裝步驟
 	1. 到[accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler)點擊Releases
@@ -136,12 +136,12 @@
 
   ![GU3EKL9CM6H@QH3F_K%4DX9](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
 
-  * 原因: 受限於你的螢幕fps影響，只會影響你這位玩家，你的螢幕fps超過100以上才能享有100 tickrate
+  * 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
   <br/>![N5$W`)6APLJVT$~OOQ)N$SN](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
   * 解決方式: 
-	* 法一：升級你的顯卡
-	* 法二：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
+	* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
   	<br/>![35U M~E{`{Q$ N}BAOB2P](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
+	* 法二：法一沒有用那就去升級你的顯卡
 </details>
 
 - - - -
