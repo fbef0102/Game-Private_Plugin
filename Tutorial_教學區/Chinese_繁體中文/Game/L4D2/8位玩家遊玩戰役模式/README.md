@@ -24,7 +24,7 @@
 ## 準備檔案
 * [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
-* [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
+* [Stripper:Source](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): 可讓大廳有八個位子 <br/>
    - 🟥只適用於區域伺服器🟥
@@ -36,7 +36,7 @@
   
 - - - -
 ## 必要檔案
-* [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): 解鎖伺服器人數限制
+* [l4dtoolz EXTENSION](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz): 解鎖伺服器人數限制
    - 如果你是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php

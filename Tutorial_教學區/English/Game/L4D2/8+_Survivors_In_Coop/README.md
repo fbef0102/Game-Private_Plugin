@@ -24,7 +24,7 @@
 ## Prepare
 * [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
-* [Stripper:Source](http://www.bailopan.net/stripper/snapshots/1.2/)
+* [Stripper:Source](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
    - 🟥Listen server only🟥
@@ -32,7 +32,7 @@
 
 - - - -
 ## Require
-* [l4dtoolz EXTENSION](https://github.com/Accelerator74/l4dtoolz/releases): Unlock server limit
+* [l4dtoolz EXTENSION](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
    - write down cvars in cfg/server.cfg if you are dedicated servers (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if you are listen servers (🟥if file doesn't exist, create it🟥)
     ```php
