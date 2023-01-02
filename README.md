@@ -127,6 +127,10 @@ My Unpublic Private Plugin (Charge)
     * 刪除安全室的治療包並替換成別的物品
   * [ItemTracking](/Plugin_插件/Items_物品/ItemTracking): Control items limit on map
     * 控制地圖上的物品數量與限制
+  * [AnnouceLaserAmmo](/Plugin_插件/Items_物品/AnnouceLaserAmmo): Display instruction hint when someone uses ammo or laser sight
+    * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
+  * [l4d_medkit_status](/Plugin_插件/Items_物品/l4d_medkit_status): Report Personal Medkit Status when player used Medkits
+    * 使用治療包時提示個人的治療包使用數量與狀態
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -283,12 +287,8 @@ My Unpublic Private Plugin (Charge)
     * 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
   * [l4d_random_map_vote](/Plugin_插件/Miscellaneous_雜項/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
     * 投票更換地圖，但是地圖是隨機挑選的
-  * [AnnouceLaserAmmo](/Plugin_插件/Miscellaneous_雜項/AnnouceLaserAmmo): Display instruction hint when someone uses ammo or laser sight
-    * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
-  * [l4d_medkit_status](/Plugin_插件/Miscellaneous_雜項/l4d_medkit_status): Report Personal Medkit Status when player used Medkits
-    * 使用治療包時提示個人的治療包使用數量與狀態
 </details>
 
 - - - -
