@@ -33,6 +33,8 @@ My Unpublic Private Plugin (Charge)
     * 當玩家更換隊伍、連線、離開伺服器之時，通知所有玩家
   * [server_welcome_message](/Plugin_插件/Server_伺服器/server_welcome_message): Display Welcome Message to new players (support translation)
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
+  * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
+    * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
