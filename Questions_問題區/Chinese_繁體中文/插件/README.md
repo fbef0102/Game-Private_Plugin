@@ -1,5 +1,5 @@
 # 插件問題總攬
-> 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/1/5 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [前言準備](#前言準備)
     - [為什麼插件沒有運作](#為什麼插件沒有運作)
@@ -29,7 +29,7 @@
   <br/>✔ Sourcemod版本符合插件的要求
 
 2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
-   - xxxxxx為插件的檔案名稱
+    - xxxxxx為插件的檔案名稱
       ```php
       ] sm plugins info test
       Filename: test.smx
@@ -41,6 +41,14 @@
    - 檢查Author是否跟原作者一樣，**否則插件肯定不是他寫的**
    - 檢查Version是否跟作者貼文上所寫的版本一樣
    - 檢查是否有Error
+
+    * <details><summary>為什麼顯示: <b>XXX.smx is not loaded.</b></summary>
+
+      ![image](https://user-images.githubusercontent.com/12229810/210702001-0b65c878-8a45-48b9-978a-6047026f6c94.png)
+
+      * 原因: 你沒有把.smx檔案放入正確的路徑
+      * 解決方式: 請確認.smx檔案位於 addons\sourcemod\plugins 資料夾底下
+    </details>
 
 3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
    <br/>![Q$8Z SZT(IE M_M@_%_ Z3I](https://user-images.githubusercontent.com/12229810/206925606-cd9c3ebe-eae5-492e-b12c-76b41cd0c8df.png)
