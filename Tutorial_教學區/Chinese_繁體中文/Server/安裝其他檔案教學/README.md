@@ -121,7 +121,7 @@
 	> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
 	> * 調整tickate必須一起修改server.cfg與啟動選項
 
-* <details><summary>問題1: 為什麼windows系統下伺服器的TickrateEnabler只能跑到64?</b></summary>
+* <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
 
   ![未命名](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
@@ -130,6 +130,7 @@
 	* 法一：去跟微軟抱怨
 	* 法二：windows降級到windows 7
 	* 法三：租一台linux系統
+	* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
 </details>
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
