@@ -1,10 +1,11 @@
 # 問題總攬
-> 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/1/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [為什麼進不去伺服器](#為什麼進不去伺服器)
     - [為什麼Sourcemod下載有分兩種](#為什麼sourcemod下載有分兩種)
     - [為什麼啟動伺服器後無法開啟遊戲](#為什麼啟動伺服器後無法開啟遊戲)
-	
+    - [Sourcemod支援區域伺服器嗎](#sourcemod支援區域伺服器嗎)
+
 - - - -
 ## 為什麼進不去伺服器
 * <details><summary>問題1: 我嘗試進入專屬伺服器，無法進去，打開控制台出現<b>Invalid host version, expecting 2226, got 2225</b></summary>
@@ -136,7 +137,7 @@
 
 </details>
 
-* <details><summary>問題13: 模組或三方圖裝太多，進不去遊戲，我不想要刪除模組或三方圖，請問該怎麼做？</b></summary>
+* <details><summary>問題13: 模組或三方圖裝太多，進不去遊戲，我不想要刪除模組或三方圖，請問該怎麼做？</summary>
 
   控制台已經輸入<b>sv_consistency 0</b>，但還是進不去朋友房間或朋友進不來自己創建的遊戲房間
   <br/>可能模組或三方圖裝太多，但是我不想要刪除模組或三方圖，請問有什麼方法？
@@ -172,3 +173,37 @@
 * 解決方式: 
   * 法一: 使用不同台電腦安裝專屬伺服器
   * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
+
+- - - -
+## Sourcemod支援區域伺服器嗎
+> 區域伺服器也稱區域房，英文名是Listen Server
+* 不支援，盡管[Sourcemod官方](https://wiki.alliedmods.net/Installing_SourceMod_(simple))一再強調SourceMod不能運作在區域伺服器上，依然有許多人把Sourcemod安裝到區域房並開房與朋友遊玩
+* 推薦大家把[Sourcemod安裝在專屬伺服器](/Tutorial_教學區/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md)，所有插件都支援專屬伺服器且較穩定，[與專屬伺服器有巨大差別](/Tutorial_教學區/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%8D%80%E5%9F%9F%E6%88%BF%E8%88%87%E6%8F%92%E4%BB%B6/README.md#%E8%88%87%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9C%89%E4%BD%95%E5%B7%AE%E5%88%A5)
+
+* <details><summary>為什麼不支援?</summary>
+
+  * 因為區域房你既是玩家也是伺服器，會導致很多插件在運行上有問題，特別是跟語音有關的插件無法在區域房運作
+</details>
+
+* <details><summary>我安裝放入很多插件會怎麼樣?</summary>
+
+  * 區域房資源有限，裝多了插件會變得比較卡，畢竟遊戲只是讓你開房跟大家遊玩而非變成伺服器
+  * 有些插件不支援區域房，即使硬裝也不會運作還反而拖累伺服器變得卡頓
+  * 大部分插件作者不會理你也不會幫助你區域房安裝插件出現問題，除非安裝專屬伺服器
+</details>
+
+* <details><summary>為什麼有些人依然會安裝區域房?</summary>
+
+  * 原因一：淺顯易懂的操作
+    * 開區域房不需要太多專業知識與操作，也不需要設定網路等等
+  * 原因二：單純跟朋友遊玩
+    * 插件不需要太多，畢竟Sourcemod有簡單的換圖、踢人、處死功能，應付各種突發狀況足夠了
+  * 原因三：自己測試插件
+    * 有些插件作者專門開區域房測試自己寫的插件
+  * 原因四：測試並研究遊戲
+    * 有些玩家會自己開房測是遊戲各種玩法，借助Sourcemod能節省時間與精力，無須慢慢打官方指令
+      1. 譬如生成Tank觀察他的攻擊方式，然後學會反擊
+      2. 研究地圖上並嘗試通關
+      3. 學會當Hunter自我練習高撲
+      4. 開發者製作nav或者製作地圖
+</details>
