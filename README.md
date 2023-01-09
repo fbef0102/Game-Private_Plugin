@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2022/12/21 updated
+> 2023/1/9 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -79,6 +79,10 @@ My Unpublic Private Plugin (Charge)
   
   * [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witchs auto follow survivors
     * (公開) Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
+  * [l4d_witch_behind_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_behind_fix): The witch turns back if nearby survivor scares her behind
+    * (公開) 當有人在背後驚嚇Witch，Witch會秒轉身攻擊
+  * [l4d_witch_realism_door_fix](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_witch_realism_door_fix): Fixing witch can't break the door on Realism Normal、Advanced、Expert
+    * (公開) 修正Witch在寫實模式下的一般難度、進階難度、專家難度，無法抓破門
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
