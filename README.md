@@ -35,6 +35,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
   * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
     * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
+  * [l4d_ragdoll_clear](/Plugin_插件/Server_伺服器/l4d_ragdoll_clear): Clear survivor/common infected/S.I./Witch ragdolls when they die.
+    * 當人類、普通感染者、特感、Witch死亡時，他們的屍體立即消失並清除
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -283,16 +285,22 @@ My Unpublic Private Plugin (Charge)
     * 漂浮咒，溫咖癲啦唯啊薩
 </details>
 
+* <details><summary><b>Map | 關卡</b></summary>
+
+  * (公開) [sm_l4d_mapchanger](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/sm_l4d_mapchanger): Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out (Apply to survival).
+    * 最後一關結束時自動換圖 + 滅團N次後切換到下一個關卡 (生存模式也適用)
+  * [l4d_restartmap_command](/Plugin_插件/Map_關卡/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
+    * 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
+  * [l4d_random_map_vote](/Plugin_插件/Map_關卡/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
+    * 投票更換地圖，但是地圖是隨機挑選的
+</details>
+
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
   * [grave_break](/Plugin_插件/Miscellaneous_雜項/grave_break): say !breakgrave to break all graves
     * 輸入 !breakgrave 打破地圖上所有墓碑
   * [laser_block](/Plugin_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
     * 遊戲開始後不能升級紅外線雷射
-  * [l4d_restartmap_command](/Plugin_插件/Miscellaneous_雜項/l4d_restartmap_command): Admin say !restartmap to restart current level
-    * 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
-  * [l4d_random_map_vote](/Plugin_插件/Miscellaneous_雜項/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
-    * 投票更換地圖，但是地圖是隨機挑選的
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
 </details>
@@ -305,113 +313,121 @@ My Unpublic Private Plugin (Charge)
 
 - - - -
 # 自我介紹
-台灣人，讀過資訊工程學系，略懂電腦程式碼<br/>
-Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上<br/>
-🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要是遊玩影片，一代對抗模式與二代三方圖戰役模式 <br/>
-🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)，上傳遊戲插件與修改自製的遊戲地圖或遊戲模組，可以參觀使用 <br/>
-📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)，有四~五年的經驗<br/>
-⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬
+* 台灣人，讀過資訊工程學系，略懂電腦程式碼
+* Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上
+* 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要是遊玩影片，一代對抗模式與二代三方圖戰役模式
+* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)，上傳遊戲插件與修改自製的遊戲地圖或遊戲模組，可以參觀使用
+* 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)，有四~五年的經驗
+* ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬
 
-<details>
-  <summary><b>Left 4 Dead (點我展開)</b></summary>
+* <details><summary><b>Left 4 Dead</b></summary>
 
-* 惡靈勢力一代[Roto-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod)的主要開發者
-* 2019 夏季中國懷舊杯 - 協辦人
-* 2019 夏季中國懷舊杯 - 第二名 - IB隊伍成員
-* 2022 懷舊世界盃 - 協辦人
-* 2022 懷舊世界盃 - 第三名 - IB隊伍成員
+  * 惡靈勢力一代[Roto-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod)的主要開發者
+  * 2019 夏季中國懷舊杯 - 協辦人
+  * 2019 夏季中國懷舊杯 - 第二名 - IB隊伍成員
+  * 2022 懷舊世界盃 - 協辦人
+  * 2022 懷舊世界盃 - 第三名 - IB隊伍成員
 </details>
 
-<details>
-  <summary><b>Left 4 Dead 2 (點我展開)</b></summary>
+* <details><summary><b>Left 4 Dead 2</b></summary>
 
-* 惡靈勢力二代[反抗模式 Resistance](https://steamcommunity.com/groups/left4dead2_resistance)的主要開發者
+  * 惡靈勢力二代[反抗模式 Resistance](https://steamcommunity.com/groups/left4dead2_resistance)的主要開發者
 </details>
 
-<details>
-  <summary><b>其他作品 (點我展開)</b></summary>
+* <details><summary><b>其他作品</b></summary>
 
-* [一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
-* [二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
-* [一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
-* [一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
-* [二代伺服器架設檔案](https://github.com/fbef0102/L4D2-Server4Dead)
-* [二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
+  * [二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
+  * [一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
+  * [一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
+  * [二代伺服器架設檔案](https://github.com/fbef0102/L4D2-Server4Dead)
+  * [二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
 </details>
 
 # Introduce MySelf
-Taiwanese, majored in in Department of Computer Science & Engineering<br/>
-People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years <br/>
-🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube <br/>
-🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods <br/>
-📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Five years of experience in Sourcepawn code <br/>
-⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
+* Taiwanese, majored in in Department of Computer Science & Engineering
+* People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years 
+* 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
+* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
+* 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Five years of experience in Sourcepawn code
+* ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
 
-<details>
-  <summary><b>Left 4 Dead (Click to expand!)</b></summary>
+* <details><summary><b>Left 4 Dead</b></summary>
 
-* The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
-* 2019 Nostalgic Summer China Cup - Assistant Director
-* 2019 Nostalgic Summer China Cup - 2nd - Team IB
-* 2022 Nostalgic Tournament - Assistant Director
-* 2022 Nostalgic Tournament - 3rd - Team IB
+  * The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
+  * 2019 Nostalgic Summer China Cup - Assistant Director
+  * 2019 Nostalgic Summer China Cup - 2nd - Team IB
+  * 2022 Nostalgic Tournament - Assistant Director
+  * 2022 Nostalgic Tournament - 3rd - Team IB
 </details>
 
-<details>
-  <summary><b>Left 4 Dead 2 (Click to expand!)</b></summary>
+* <details><summary><b>Left 4 Dead 2</b></summary>
 
-* The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
+  * The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
 </details>
 
-<details>
-  <summary><b>Others (Click to expand!)</b></summary>
+* <details><summary><b>Others</b></summary>
 
-* [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
-* [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
-* [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
-* [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
-* [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
-* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
+  * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
+  * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+  * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
+  * [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
+  * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
 </details>
 
 - - - -
 # 交易插件需求
 **有任何問題或製作插件需求請聯繫**<br/>
 **除非是我插件有bug或相關的問題，否則詢問知識或教學均收小費**<br/>
-**可接受PayPal、支付寶、台灣本地銀行轉帳**<br/>
-✔開過windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲 <br/>
-✔Sourcemod插件有五年以上的經驗，處理過對抗、戰役、寫實、生存<br/>
-✔將舊插件重寫為Sourcemod 1.11以上能適用的新版本<br/>
-✔Alliedmod論壇上所有適用於惡靈勢力的插件90%已看過並瞭若指掌<br/>
-✔惡靈勢力官方指令80%已測試過功能，如何利用官方指令玩出新花樣<br/>
-✔製作nav、修改地圖機關、放上障礙物做成地圖迷宮<br/>
-✔確認學到知識或插件測試成功才會收錢<br/>
-✔用過網空下載，將額外的音樂檔案、模組貼圖發送給客戶端下載<br/>
-✔曾處理過大廳連線、崩潰、掉線、模組衝突、錯誤等問題<br/>
-✔你碰到的地雷我都踩過、你掉落的陷阱坑我都跳過、你遇到的問題我都解決過<br/>
-✔想詢問一些問題視態度與時間酌收小費
+**可接受PayPal、支付寶、台灣本地銀行轉帳**
 
-✗不受理不屬於我的插件的問題，要問要修改除非付錢否則請聯繫原作者<br/>
-✗不做RPG、誇張特效、VIP、等級系統....<br/>
-✗不想重複插件說明書已寫過的步驟或內容<br/>
-✗對Mod不太瞭解，非專業模組大佬<br/>
-✗文字訊息請自行改成自己喜歡的樣子<br/>
-✗不受理盜版，勿擾<br/>
-✗不幫忙架設伺服器但可教學，一切自己來<br/>
-✗情緒勒索、道德綁架、學生價、討價還價、白嫖，一律黑名單<br/>
-✗插件不是萬能的，並不是每個需求100％能做到<br/>
-✗拒絕不合理的插件需求<br/>
+* <details><summary><b>擅長的領域</b></summary>
+
+  * ✔windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲
+  * ✔五年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存
+  * ✔舊插件重寫為Sourcemod 1.11以上能適用的新版本
+  * ✔製作nav改寫AI路徑、修改地圖機關、新增障礙物做成地圖迷宮
+  * ✔網空下載，額外的音樂檔案、模組貼圖
+  * ✔大廳連線、崩潰、掉線、模組衝突、錯誤等問題
+  * ✔地雷、陷阱坑、問題
+</details>
+
+* <details><summary><b>不受理的範圍</b></summary>
+
+  * ✗非法、作弊、不合理的插件需求
+  * ✗花錢就是大爺的慣老闆心態
+  * ✗不是每個需求都能100%做到的，插件不是萬能
+  * ✗英文程度0分
+  * ✗一切任何不屬於我的插件的相關問題，要問要修改除非付錢否則請聯繫原作者
+  * ✗RPG、誇張特效、VIP、等級系統....
+  * ✗重複插件說明書已寫過的步驟或內容
+  * ✗Mod，非專業模組大佬
+  * ✗修改文字訊息，請自行改成自己喜歡的樣子
+  * ✗盜版、舊版本遊戲或SM
+  * ✗架設伺服器，不幫忙但可教學，一切自己來
+  * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖、態度不佳
+</details>
 
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
 **Accept paypal、Alipay、Taiwan local bank ATM**<br/>
-✔ Dealed with windoes, linux, local server, dedicated server<br/>
-✔ Possess 5-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival<br/>
-✔ Remake code, support sourcemod v1.11, convert code to latest syntax.<br/>
+* <details><summary><b>Master Skills</b></summary>
 
-✗ Won't do any VIP, RPG, or any admin group plugin<br/>
-✗ I know nothing much about .vpk mod, don't ask me<br/>
-✗ Decline any unreasonable plugin request, the source plugins can not do 100% things<br/>
+  * ✔ Dealed with windoes, linux, local server, dedicated server
+  * ✔ Possess 5-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
+  * ✔ Remake code, support sourcemod v1.11, convert code to latest syntax.
+</details>
+
+* <details><summary><b>Ask for help Rule</b></summary>
+
+  * ✗ Won't do any VIP, RPG, or any admin group plugin
+  * ✗ I know nothing much about .vpk mod, don't ask me
+  * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
+  * ✗ Use google to translate English...
+  * ✗ Non-steam
+  * ✗ Old game version、Sourcemod
+</details>
 
 - - - -
 # Others

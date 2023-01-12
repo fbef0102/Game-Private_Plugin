@@ -5,6 +5,9 @@ Display a sourcemod panel when players press the SCORE key.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Video | 影片展示
+<br/>None
+
 * Image | 圖示
 	* A = Afk (Idle Player), X = Dead, ~ = Incapacitated, + = Alive, H = Hanging from ledge, 0 = Spectator, number = HP
 		> A = Afk (閒置玩家), X = 死亡, ~ = 倒地, + = 活著站立, H = 掛邊, 0 = 旁觀者, 數字為玩家的血量
@@ -101,8 +104,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 適合用於多人連線的伺服器，因為遊戲內的記分板最多只能顯示五個人類與五個特感玩家狀態
 
 * 功能
-	1. 可設置介面顯示時間
-	2. 可設置每個狀態的特殊符號
+	* 可設置介面顯示時間
+	* 可設置每個狀態的特殊符號
 
 * 注意事項
 	* 原本遊戲的記分板依然會顯示，那是客戶端的文件，伺服器無法阻擋 (認真你就輸了)
