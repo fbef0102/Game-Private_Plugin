@@ -31,7 +31,7 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.4
+	* v1.4 (2023-1-13)
 		* Request by Alfari
 		* Add a convar, access flags to open tail menu
 
