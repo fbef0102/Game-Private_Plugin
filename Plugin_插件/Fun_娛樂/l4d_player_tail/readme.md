@@ -17,11 +17,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* image 4
 	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
 	* custom tail model
-	> 自製特效貼圖
-	<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
+		> 自製特效貼圖
+		<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
 	* Tail menu
-	> 菜單介面選擇尾巴的顏色或貼圖
-	<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
+		> 菜單介面選擇尾巴的顏色或貼圖
+		<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
 
 * Apply to | 適用於
 ```
@@ -30,6 +30,10 @@ L4D2
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4
+		* Request by Alfari
+		* Add a convar, access flags to open tail menu
 
 	* v1.3
 	    * Request by Alfari
@@ -55,46 +59,49 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_player_tail.cfg
-	```php
-	// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
-	l4d_player_tail_access_flag ""
+		```php
+		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
+		l4d_player_tail_command_access_flag ""
 
-	// If 1, Enable Tail effect for Bot Infected
-	l4d_player_tail_bot_infected_enable "1"
+		// If 1, Enable Tail effect for Bot Infected
+		l4d_player_tail_bot_infected_enable "1"
 
-	// If 1, Enable Tail effect for Bot Survivor
-	l4d_player_tail_bot_survivor_enable "1"
+		// If 1, Enable Tail effect for Bot Survivor
+		l4d_player_tail_bot_survivor_enable "1"
 
-	// Time interval to change tail color to random (0=Don't change color)
-	l4d_player_tail_changecolor_interval "4.0"
+		// Time interval to change tail color to random (0=Don't change color)
+		l4d_player_tail_changecolor_interval "4.0"
 
-	// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-	l4d_player_tail_color "-1 -1 -1"
+		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_player_tail_color "-1 -1 -1"
 
-	// Transparency of the tail (10-255).
-	l4d_player_tail_color_alpha "150"
+		// Transparency of the tail (10-255).
+		l4d_player_tail_color_alpha "150"
 
-	// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
-	l4d_player_tail_default_value "1"
+		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
+		l4d_player_tail_default_value "1"
 
-	// The width of the beam when it has full expanded.
-	l4d_player_tail_endwidth "1.0"
+		// The width of the beam when it has full expanded.
+		l4d_player_tail_endwidth "1.0"
 
-	// The default attached tail height
-	l4d_player_tail_height "5.0"
+		// The default attached tail height
+		l4d_player_tail_height "5.0"
 
-	// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
-	l4d_player_tail_lifetime "5.0"
+		// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
+		l4d_player_tail_lifetime "5.0"
 
-	// If 1, setup small beam sprite in middle of tail
-	l4d_player_tail_middle_beam "1"
+		// Players with these flags have access to open tail menu. (Empty = Everyone, -1: Nobody)
+		l4d_player_tail_menu_access_flag ""
 
-	// Tail Sprite model.
-	l4d_player_tail_sprite_model "materials/sprites/store/trails/8bitmushroom.vmt"
+		// If 1, setup small beam sprite in middle of tail
+		l4d_player_tail_middle_beam "1"
 
-	// The width of the beam to the beginning.
-	l4d_player_tail_startwidth "10.0"
-	```
+		// Tail Sprite model.
+		l4d_player_tail_sprite_model "materials/sprites/laserbeam.vmt"
+
+		// The width of the beam to the beginning.
+		l4d_player_tail_startwidth "10.0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

@@ -13,26 +13,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Dance
-    > 跳舞
-	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
+		> 跳舞
+		<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
 	* Menu
-    > 介面
-	<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
+		> 介面
+		<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-Spanish
-Turkish
-```
+	```
+	English
+	繁體中文
+	简体中文
+	Spanish
+	Turkish
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -42,6 +42,8 @@ Turkish
 	    * fix translation error
 	    * fix file error
 		* Compatibility support for SourceMod 1.11. Fixed various warnings.
+		* Combine L4D1 and L4D2 required files
+		* Add convar to disable dance dounce and stop downloading sound files
 
     * v1.4.3
 	    * [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
@@ -59,34 +61,34 @@ Turkish
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
-	```php
-	// admin flag for dances (empty for all players)
-	sm_dances_admin_flag_menu ""
+		```php
+		// admin flag for dances (empty for all players)
+		sm_dances_admin_flag_menu ""
 
-	// admin flag for emotes (empty for all players)
-	sm_emotes_admin_flag_menu ""
+		// admin flag for emotes (empty for all players)
+		sm_emotes_admin_flag_menu ""
 
-	// Cooldown for emotes in seconds. -1 or 0 = no cooldown.
-	sm_emotes_cooldown "3.0"
+		// Cooldown for emotes in seconds. -1 or 0 = no cooldown.
+		sm_emotes_cooldown "3.0"
 
-	// Hide enemy players when dancing
-	sm_emotes_hide_enemies "0"
+		// Hide enemy players when dancing
+		sm_emotes_hide_enemies "0"
 
-	// Hide weapons when dancing
-	sm_emotes_hide_weapons "1"
+		// Hide weapons when dancing
+		sm_emotes_hide_weapons "1"
 
-	// Enable/Disable sounds for emotes.
-	sm_emotes_sounds "1"
+		// Enable/Disable sounds for emotes.
+		sm_emotes_sounds "1"
 
-	// Sound volume for the emotes.
-	sm_emotes_soundvolume "1.0"
+		// Sound volume for the emotes.
+		sm_emotes_soundvolume "1.0"
 
-	// Sets the playback speed of the animation. default (1.0)
-	sm_emotes_speed "0.80"
+		// Sets the playback speed of the animation. default (1.0)
+		sm_emotes_speed "0.80"
 
-	// Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
-	sm_emotes_teleportonend "0"
-	```
+		// Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
+		sm_emotes_teleportonend "0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
