@@ -313,12 +313,13 @@ My Unpublic Private Plugin (Charge)
 
 - - - -
 # 自我介紹
-* 台灣人，讀過資訊工程學系，略懂電腦程式碼
+* 台灣人，資訊工程學系，略懂電腦程式碼
 * Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上
-* 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)，主要是遊玩影片，一代對抗模式與二代三方圖戰役模式
-* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)，上傳遊戲插件與修改自製的遊戲地圖或遊戲模組，可以參觀使用
-* 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)，有四~五年的經驗
-* ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)，非專業的模組大佬
+* 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)：分享L4D1與L4D2遊玩影片，偶爾會拍其他遊戲或短影片
+* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)：分享自己製作的遊戲插件、地圖、模組，
+偶爾會利用遊戲拍些迷因影片
+* 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)：有六年的經驗
+* ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)：非專業的模組大佬
 
 * <details><summary><b>Left 4 Dead</b></summary>
 
@@ -349,7 +350,7 @@ My Unpublic Private Plugin (Charge)
 * People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years 
 * 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
 * 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
-* 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Five years of experience in Sourcepawn code
+* 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Six years of experience in Sourcepawn code
 * ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
 
 * <details><summary><b>Left 4 Dead</b></summary>
@@ -396,17 +397,17 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>不受理的範圍</b></summary>
 
   * ✗非法、作弊、不合理的插件需求
-  * ✗花錢就是大爺的慣老闆心態
+  * ✗花錢就是大爺的慣老闆
   * ✗不是每個需求都能100%做到的，插件不是萬能
-  * ✗英文程度0分
-  * ✗一切任何不屬於我的插件的相關問題，要問要修改除非付錢否則請聯繫原作者
+  * ✗不接受Google翻譯或AI翻譯的破英文
+  * ✗任何不屬於我的插件的相關問題，要問要修改除非付錢否則請聯繫原作者
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
   * ✗Mod，非專業模組大佬
   * ✗修改文字訊息，請自行改成自己喜歡的樣子
   * ✗盜版、舊版本遊戲或SM
   * ✗架設伺服器，不幫忙但可教學，一切自己來
-  * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖、態度不佳
+  * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖
 </details>
 
 # Plugin Request
