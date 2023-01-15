@@ -9,24 +9,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message
-	> 訊息
-	<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
+		> 訊息
+		<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
 	* typ !csm to open menu
-	> 輸入!csm 打開角色選擇介面
-	<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
+		> 輸入!csm 打開角色選擇介面
+		<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-```
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -34,6 +34,11 @@ English
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022
 	```
+	* v1.2h (2023-1-15)
+		* Request by eviltechno
+		* Support L4D1
+		* Use CookiesCached to save player character. Player will have same character if rejoin server next time.
+
 	* v1.1h (2022-11-22)
 		* Change prop m_survivorCharacter when change l4d1 or l4d2 model only 
 		* Save Menu Position
@@ -60,22 +65,25 @@ English
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_h_csm.cfg
-	```php
-	// Players with these flags have access to open Character Select Menu (Empty = Everyone, -1: Nobody)
-	l4d_h_csm_access_flag ""
+		```php
+		// Players with these flags have access to open Character Select Menu (Empty = Everyone, -1: Nobody)
+		l4d_h_csm_access_flag ""
 
-	// Sets the number of times clients can change their character per round.
-	l4d_h_csm_change_limit "9999"
+		// Sets the number of times clients can change their character per round.
+		l4d_h_csm_change_limit "9999"
 
-	// If 1, close Character Select Menu after select
-	l4d_h_csm_close_menu "0"
+		// If 1, close Character Select Menu after select
+		l4d_h_csm_close_menu "0"
 
-	// 0=Plugin off, 1=Plugin on.
-	l4d_h_csm_enable "1"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_h_csm_enable "1"
 
-	// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-	l4d_h_csm_type "1"
-	```
+		// If 1, use CookiesCached to save player character. Player will have same character if rejoin server next time.
+		l4d_h_csm_save_character_enable "1"
+
+		// changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_h_csm_type "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
