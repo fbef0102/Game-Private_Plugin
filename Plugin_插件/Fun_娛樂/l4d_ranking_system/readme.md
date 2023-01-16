@@ -27,6 +27,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2023-1-16)
+		* Request by Alfari
+		* Add 
+			1. number of SI kills
+			2. number of Witch kills
+			3. number of CI Kills
+			4. number of Tank Kills
+			5. number of SI headshots
+			6. number of CI headshots
+			7. and how long player playing on this server start from joined date
+
+
 	* v1.2 (2022-12-23)
 		* Request by Anzu
 		* Show rank hud when new player joins and new round starts
@@ -35,7 +47,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Supporty MySQL and Local-SQLite
 
 	* v1.0
-		* Original Request by Alfari
+		* Request by Alfari
+		* Initial Release
 </details>
 
 * Require | 必要安裝
