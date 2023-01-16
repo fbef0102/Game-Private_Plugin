@@ -11,24 +11,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
+	```
+	L4D1
+	L4D2
 ```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-```
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
 	```php
 	//ReFlexPoison @ 2013
-	//Harry @ 2022
+	//Harry @ 2023
 	```
+	* v1.3 (2023-1-16)
+		* Fixed lag when first jump
+
 	* v1.2
 		* Remake Code
 		* Add more cvars
@@ -47,28 +50,28 @@ English
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/simple-bhop.cfg
-	```php
-	// Players with these flags have access to use command to bhop. (Empty = Everyone, -1: Nobody)
-	sm_bhop_access_flag ""
+		```php
+		// Players with these flags have access to use command to bhop. (Empty = Everyone, -1: Nobody)
+		sm_bhop_access_flag ""
 
-	// (L4D2) Which infected class can be allowed to bhop while plugin is enabled? 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank (0=None, 127=All)
-	sm_bhop_allow_infected_flag "127"
+		// (L4D2) Which infected class can be allowed to bhop while plugin is enabled? 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank (0=None, 127=All)
+		sm_bhop_allow_infected_flag "127"
 
-	// (L4D1) Which infected class can be allowed to bhop while plugin is enabled? 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank (0=None, 15=All)
-	sm_bhop_allow_infected_flag "15"
+		// (L4D1) Which infected class can be allowed to bhop while plugin is enabled? 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank (0=None, 15=All)
+		sm_bhop_allow_infected_flag "15"
 
-	// Allow Survivors to bhop while plugin is enabled
-	sm_bhop_allow_survivor "1"
+		// Allow Survivors to bhop while plugin is enabled
+		sm_bhop_allow_survivor "1"
 
-	// Enable Simple Bunny Hop
-	sm_bhop_enabled "1"
+		// Enable Simple Bunny Hop
+		sm_bhop_enabled "1"
 
-	// Disable fall damage for bhoppers
-	sm_bhop_falldamage "1"
+		// Disable fall damage for bhoppers
+		sm_bhop_falldamage "1"
 
-	// Enable information notification
-	sm_bhop_inform "1"
-	```
+		// Enable information notification
+		sm_bhop_inform "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
