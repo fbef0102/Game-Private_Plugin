@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/1/9 updated
+> 2023/1/17 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -91,6 +91,8 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d2_horde_equaliser](/Plugin_插件/Common_Infected_普通感染者/l4d2_horde_equaliser): Make certain event hordes finite
     * 控制地圖上的無限屍潮機關，將無限屍潮改為有限的殭屍數量
+  * [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on the map (Support The Last Stand New Model)
+    * 地圖上生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>

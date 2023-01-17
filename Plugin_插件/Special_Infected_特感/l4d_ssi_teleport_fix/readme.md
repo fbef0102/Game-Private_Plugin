@@ -11,10 +11,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -38,37 +38,37 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_ssi_teleport_fix.cfg
-	```php
-    // Teleport boomer to tank?
-    ssitp_boomer2tank "0"
+        ```php
+        // Teleport boomer to tank?
+        ssitp_boomer2tank "0"
 
-    // Time interval to check si.
-    ssitp_check_interval "1.0"
+        // Time interval to check si.
+        ssitp_check_interval "1.0"
 
-    // Cold Down Time in seconds an infected can not be teleported again.
-    ssitp_tp1_cooltime "2.0"
+        // Cold Down Time in seconds an infected can not be teleported again.
+        ssitp_tp1_cooltime "2.0"
 
-    // Prevent SI from taking damage for this seconds after being teleported. (0=Disable)
-    ssitp_tp1_god_time "0.6"
+        // Prevent SI from taking damage for this seconds after being teleported. (0=Disable)
+        ssitp_tp1_god_time "0.6"
 
-    // Limit per teleport.
-    ssitp_tp1_limit "2"
+        // Limit per teleport.
+        ssitp_tp1_limit "2"
 
-    // Infected player will be teleported if his distance from survivors is outside this range.
-    ssitp_tp1_range "800"
+        // Infected player will be teleported if his distance from survivors is outside this range.
+        ssitp_tp1_range "800"
 
-    // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
-    ssitp_tp2_near_ahead_survivor "0"
+        // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
+        ssitp_tp2_near_ahead_survivor "0"
 
-    // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
-    ssitp_tp2_range_max "700"
+        // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
+        ssitp_tp2_range_max "700"
 
-    // Teleport to the Infected player whose distance from survivors is outside min range
-    ssitp_tp2_range_min "150"
+        // Teleport to the Infected player whose distance from survivors is outside min range
+        ssitp_tp2_range_min "150"
 
-    // If 1, infected players can be teleported to the player thats about to be seen by the survivors.
-    ssitp_tp2_visiblethreats "0"
-	```
+        // If 1, infected players will be teleported to the only player who is near the first ahead survivor.
+        ssitp_tp2_visiblethreats "1"
+        ```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -102,7 +102,10 @@ L4D2
         ```
     </details>
 
-	* 可配合多特感插件使得每一波特感的攻擊對倖存者造巨大的壓力
+* 用意在哪?
+    * 可配合多特感插件使得每一波特感的攻擊對倖存者造成巨大的壓力
+    * 有效解決許多特感長期站著不動也不攻擊的智商與行為
+    * 增加伺服器遊玩難度
 
 * 功能
 	1. 可設置檢查特感的時間間隔

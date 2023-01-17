@@ -67,6 +67,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 當普通感染者、特感、Witch死亡時，屍體立即消失並清除
 	* 當人類死亡時，屍體消逝並刪除
 
+* 用意在哪?
+	* 地圖乾淨俐落，不要有任何礙眼的屍體
+	* 減少屍體增加伺服器與玩家畫面的流暢度
+	* 有的玩家單純不想看到屍體與血腥畫面，希望屍體消失
+
 * 功能
 	* 可設置是否刪除普通感染者的屍體
 	* 可設置是否刪除Witch的屍體
@@ -77,8 +82,3 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項
 	* 另一種刪除屍體的方法為指令```l4d_ragdoll_clear_method 1```，慢慢地消逝，但是偶而不會有作用
 	* 如果你希望慢慢消逝地普通感染者、特感、Witch不需要指令控制分類，那推薦你使用由silvers大老製作的[l4d_ragdoll_fader](https://forums.alliedmods.net/showpost.php?p=2677866&postcount=62)
-
-* 用意在哪?
-	* 地圖乾淨俐落，不要有任何礙眼的屍體
-	* 減少屍體增加伺服器與玩家畫面的流暢度
-	* 有的玩家單純不想看到屍體與血腥畫面，希望屍體消失
