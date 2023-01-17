@@ -116,6 +116,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 導演系統生成普通感染者的時候，將其變成特殊一般感染者
+	* 不影響地圖上既有的特殊一般感染者，譬如黑色嘉年華地圖本身會生成小丑，即使這個插件關閉小丑生成也沒用
 
 * 功能
 	* 可調整機率生成特殊一般感染者
