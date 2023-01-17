@@ -57,8 +57,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Infected player will be teleported if his distance from survivors is outside this range.
         ssitp_tp1_range "800"
 
-        // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
-        ssitp_tp2_near_ahead_survivor "0"
+        // If 1, infected players will be teleported to the only player who is near the first ahead survivor.
+        ssitp_tp2_near_ahead_survivor "1"
 
         // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
         ssitp_tp2_range_max "700"
@@ -97,7 +97,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         > 效果: 特感只傳送到距離最前方的倖存者比較近的特感
         ```php
-        // If 1, infected players can be teleported to the player only when the player is near the first ahead survivor
+        // If 1, infected players will be teleported to the only player who is near the first ahead survivor.
         ssitp_tp2_near_ahead_survivor "1"
         ```
     </details>
