@@ -71,7 +71,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// How many jimmy gibbs jr allowed on the field (0= No Limit)
 		// If limit reached, spawn other uncommon. (Does not affect director spawn)
-		l4d2_spawn_uncommons_jimmy_on_the_field "0"
+		l4d2_spawn_uncommons_jimmy_on_the_field "1"
 
 		// When a jimmy gibbs jr is spawned, how long in seconds should pass before another can spawn. 
 		// If time is not up yet, spawn other uncommon. (Does not affect director spawn)
@@ -102,7 +102,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Official ConVar</summary>
 
 	* [Unlock Fallen Survivor](https://developer.valvesoftware.com/wiki/L4D2_Director_Scripts/AllowFallenSurvivorItem)
-	* This plugin already modified ```z_fallen_max_count 100``` and ```z_fallen_kill_suppress_time 0```, you don't need to change the following cvars
+	* This plugin already modified ```z_fallen_max_count``` and ```z_fallen_kill_suppress_time```, you don't need to change the following cvars
 
 	| ConVar/Command  				| Parameters or default value 	| Descriptor  			| Effect|
 	| -------------|:-----------------:|:-------------:|:-------------:|
@@ -129,7 +129,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
 	* [解鎖墮落生還者生成限制](https://developer.valvesoftware.com/wiki/L4D2_Director_Scripts/AllowFallenSurvivorItem)
-	* 這個插件已經修改指令 ```z_fallen_max_count 100``` 與 ```z_fallen_kill_suppress_time 0```, 你無須更動以下任何指令
+	* 這個插件已經修改指令 ```z_fallen_max_count``` 與 ```z_fallen_kill_suppress_time```, 你無須更動以下任何指令
 
 	| 指令  				| 預設值 	| 單位  			| 影響|
 	| -------------|:-----------------:|:-------------:|:-------------:|
