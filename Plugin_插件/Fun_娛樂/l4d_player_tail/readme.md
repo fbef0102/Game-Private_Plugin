@@ -31,6 +31,11 @@ L4D2
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5 (2023-1-22)
+		* Fixed client crash: received failure code 6.
+		* Fixed missing model.
+		* Delete a convar ```l4d_player_tail_sprite_model```
+
 	* v1.4 (2023-1-13)
 		* Request by Alfari
 		* Add a convar, access flags to open tail menu
@@ -95,9 +100,6 @@ L4D2
 
 		// If 1, setup small beam sprite in middle of tail
 		l4d_player_tail_middle_beam "1"
-
-		// Tail Sprite model.
-		l4d_player_tail_sprite_model "materials/sprites/laserbeam.vmt"
 
 		// The width of the beam to the beginning.
 		l4d_player_tail_startwidth "10.0"
