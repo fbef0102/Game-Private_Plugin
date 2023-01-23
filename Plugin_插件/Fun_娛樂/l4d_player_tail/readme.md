@@ -24,12 +24,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2023-1-23)
+		* Request by Alfari
+		* Support database to save personal tail settings. (MySQL & SQLite supported)
+		* Add a convar ```l4d_player_tail_database```
 
 	* v1.5 (2023-1-22)
 		* Fixed client crash: received failure code 6.
@@ -65,9 +70,6 @@ L4D2
 
 	* cfg/sourcemod/l4d_player_tail.cfg
 		```php
-		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
-		l4d_player_tail_command_access_flag ""
-
 		// If 1, Enable Tail effect for Bot Infected
 		l4d_player_tail_bot_infected_enable "1"
 
@@ -82,6 +84,12 @@ L4D2
 
 		// Transparency of the tail (10-255).
 		l4d_player_tail_color_alpha "150"
+
+		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
+		l4d_player_tail_command_access_flag ""
+
+		// Database to save personal tail settings. (MySQL & SQLite supported, Empty = Off)
+		l4d_player_tail_database "tail"
 
 		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
 		l4d_player_tail_default_value "1"
@@ -120,6 +128,28 @@ L4D2
 		```
 </details>
 
+* Database
+	* set ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
+		```php
+		"tail"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
+	* Or local sqlite
+		```php
+		"tail"
+		{
+			"driver"			"sqlite"
+			"database"			"L4D_Player_Tail"
+		}
+		```
+
 - - - -
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
@@ -133,10 +163,11 @@ L4D2
 	3. 尾巴過一段時間會隨機變色
 	4. 自定義尾巴的圖案，可以用自製的貼圖
 	5. 菜單介面選擇尾巴的顏色或貼圖
+	6. 支援資料庫儲存玩家的設定
 
 * 注意事項
-	* "l4d_player_tail_lifetime" 指令數值必須大於或等於 "l4d_player_tail_changecolor_interval" 指令數值
-	* 如果倖存者不動，尾巴特效會短暫消失，建議"l4d_player_tail_lifetime" 指令數值不要設置太高
+	* ```l4d_player_tail_lifetime``` 指令數值必須大於或等於 ```l4d_player_tail_changecolor_interval``` 指令數值
+	* 如果倖存者不動，尾巴特效會短暫消失，建議```l4d_player_tail_lifetime``` 指令數值不要設置太高
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
@@ -153,5 +184,27 @@ L4D2
 		sm_tailmenu
 		```
 </details>
+
+* 資料庫設定
+	* 支援跨伺服器儲值經驗值，設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		```php
+		"tail"
+		{
+			"driver"			"default"
+			"host"				"x.x.x.x"
+			"database"			"yourdatabase"
+			"user"				"youruser"
+			"pass"				"yourpass"
+			"port"				"yourport"
+		}
+		```
+	* 或者本地資料庫
+		```php
+		"tail"
+		{
+			"driver"			"sqlite"
+			"database"			"L4D_Player_Tail"
+		}
+		```
 	
 
