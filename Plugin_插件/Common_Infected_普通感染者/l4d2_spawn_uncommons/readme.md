@@ -58,22 +58,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If limit reached, spawn other uncommon. (Does not affect director spawn)
 		l4d2_spawn_uncommons_clown_on_the_field "2"
 
-		// How many fallen survivors allowed on the field (0= No Limit, Override official cvar: z_fallen_max_count)
+		// How many fallen survivors allowed on the field (Override official cvar: z_fallen_max_count)
 		// If limit reached, spawn other uncommon. (Does not affect director spawn)
 		l4d2_spawn_uncommons_fallen_on_the_field "2"
 
-		// When a Fallen Survivor is spawned, how long in seconds should pass before another can spawn. (Override official cvar: z_fallen_kill_suppress_time)
+		// When a Fallen Survivor is killed, how long in seconds should pass before another can spawn. (Override official cvar: z_fallen_kill_suppress_time)
 		// If time is not up yet, spawn other uncommon. (Does not affect director spawn)
 		l4d2_spawn_uncommons_fallen_suppress_time "180"
 
 		// Health value the uncommons get set to. 0 = Game default health
 		l4d2_spawn_uncommons_health_override "0"
 
-		// How many jimmy gibbs jr allowed on the field (0= No Limit)
+		// How many jimmy gibbs jr allowed on the field 
 		// If limit reached, spawn other uncommon. (Does not affect director spawn)
 		l4d2_spawn_uncommons_jimmy_on_the_field "1"
 
-		// When a jimmy gibbs jr is spawned, how long in seconds should pass before another can spawn. 
+		// When a jimmy gibbs jr is killed, how long in seconds should pass before another can spawn. 
 		// If time is not up yet, spawn other uncommon. (Does not affect director spawn)
 		l4d2_spawn_uncommons_jimmy_suppress_time "300"
 
