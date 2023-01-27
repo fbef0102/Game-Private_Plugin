@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/1/17 updated
+> 2023/1/27 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -121,6 +121,8 @@ My Unpublic Private Plugin (Charge)
     * 根據玩家生命值狀態給予輪廓光圈適當的顏色
   * [l4d_friendly_fire_stats](/Plugin_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.
     * 顯示造成與受到的友傷以及兇手，有友傷統計
+  * [l4d_dead_save_nodify](/Plugin_插件/Survivor_人類/l4d_dead_save_nodify): Notify people when survivor is dead or someone uses defibrillator to revive
+    * 當玩家死亡或者從地獄被救活時，提示導演系統訊息
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
