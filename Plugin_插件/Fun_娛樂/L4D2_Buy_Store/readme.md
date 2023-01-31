@@ -45,6 +45,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v5.0 (2022-11-15)
+		* Add short buy commands, directly buy item.
+		* Repeat purchase item you bought last time.
 		* Add Survivor/Infected Special items
 		* Support Database
 		* Points Transfer
@@ -59,8 +61,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* You can earn credits by doing damage to survivors as an infected.
 		* You can earn credits by helping each other as a survivor.
 		* Save player's money with Cookies, it means that money can be saved to database across client connections, map changes and even server restarts.
-		* Add short buy commands, directly buy item.
-		* Repeat purchase item you bought last time.
 		* Buy time cooldown, can't buy quickly.
 		* No Special Item and database
 
@@ -218,128 +218,130 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* say "!buy" or "b" to open shop menu
 		* say "!buy rifle_ak47" or "b rifle_ak47" to directly buy Ak47 weapon
 		* **short command list**
-		> I won't add more short commands, don't ask
-		```php
-		Weapon
-		{
-			"!buy pistol" 				-> Pistol
-			"!buy pistol_magnum"		-> Magnum
-			"!buy pumpshotgun"			-> Pumpshotgun
-			"!buy shotgun_chrome"		-> Chrome Shotgun
-			"!buy smg"					-> Smg
-			"!buy smg_silenced"			-> Silenced Smg
-			"!buy smg_mp5"				-> MP5
-			"!buy rifle"				-> Rifle
-			"!buy rifle_ak47"			-> AK47
-			"!buy rifle_desert"			-> Desert Rifle
-			"!buy rifle_sg552"			-> SG552
-			"!buy shotgun_spas"			-> Spas Shotgun
-			"!buy autoshotgun"			-> Autoshotgun
-			"!buy hunting_rifle"		-> Hunting Rifle
-			"!buy sniper_military"		-> Military Sniper
-			"!buy sniper_scout"			-> SCOUT
-			"!buy sniper_awp"			-> AWP
-			"!buy rifle_m60"			-> M60 Machine Gun
-			"!buy grenade_launcher"		-> Grenade Launcher
-		}
+			```php
+			Weapon
+			{
+				"!buy pistol" 				-> Pistol
+				"!buy pistol_magnum"		-> Magnum
+				"!buy pumpshotgun"			-> Pumpshotgun
+				"!buy shotgun_chrome"		-> Chrome Shotgun
+				"!buy smg"					-> Smg
+				"!buy smg_silenced"			-> Silenced Smg
+				"!buy smg_mp5"				-> MP5
+				"!buy rifle"				-> Rifle
+				"!buy rifle_ak47"			-> AK47
+				"!buy rifle_desert"			-> Desert Rifle
+				"!buy rifle_sg552"			-> SG552
+				"!buy shotgun_spas"			-> Spas Shotgun
+				"!buy autoshotgun"			-> Autoshotgun
+				"!buy hunting_rifle"		-> Hunting Rifle
+				"!buy sniper_military"		-> Military Sniper
+				"!buy sniper_scout"			-> SCOUT
+				"!buy sniper_awp"			-> AWP
+				"!buy rifle_m60"			-> M60 Machine Gun
+				"!buy grenade_launcher"		-> Grenade Launcher
+			}
 
-		Melee
-		{
-			"!buy chainsaw"				-> Chainsaw
-			"!buy baseball_bat"			-> Baseball Bat
-			"!buy cricket_bat"			-> Cricket Bat
-			"!buy crowbar"				-> Crowbar
-			"!buy electric_guitar"		-> Electric Guitar
-			"!buy fireaxe"				-> Fire Axe
-			"!buy frying_pan"			-> Frying Pan
-			"!buy katana"				-> Katana
-			"!buy machete"				-> Machete
-			"!buy tonfa"				-> Tonfa
-			"!buy golfclub"				-> Golf Club
-			"!buy knife"				-> Knife
-			"!buy pitchfork"			-> Pitchfork
-			"!buy shovel"				-> Shovel
-		}
+			Melee
+			{
+				"!buy chainsaw"				-> Chainsaw
+				"!buy baseball_bat"			-> Baseball Bat
+				"!buy cricket_bat"			-> Cricket Bat
+				"!buy crowbar"				-> Crowbar
+				"!buy electric_guitar"		-> Electric Guitar
+				"!buy fireaxe"				-> Fire Axe
+				"!buy frying_pan"			-> Frying Pan
+				"!buy katana"				-> Katana
+				"!buy machete"				-> Machete
+				"!buy tonfa"				-> Tonfa
+				"!buy golfclub"				-> Golf Club
+				"!buy knife"				-> Knife
+				"!buy pitchfork"			-> Pitchfork
+				"!buy shovel"				-> Shovel
+			}
 
-		Medic and Throwable
-		{
-			"!buy health_100"			-> Health+100
-			"!buy defibrillator"		-> Defibrillator
-			"!buy first_aid_kit"		-> First Aid Kit
-			"!buy pain_pills"			-> Pain Pill
-			"!buy adrenaline"			-> Adrenaline
-			"!buy pipe_bomb"			-> Pipe Bomb
-			"!buy molotov"				-> Molotov
-			"!buy vomitjar"				-> Vomitjar
-		}
+			Medic and Throwable
+			{
+				"!buy health_100"			-> Health+100
+				"!buy defibrillator"		-> Defibrillator
+				"!buy first_aid_kit"		-> First Aid Kit
+				"!buy pain_pills"			-> Pain Pill
+				"!buy adrenaline"			-> Adrenaline
+				"!buy pipe_bomb"			-> Pipe Bomb
+				"!buy molotov"				-> Molotov
+				"!buy vomitjar"				-> Vomitjar
+			}
 
-		Other
-		{
-			"!buy ammo"								-> Ammo
-			"!buy laser_sight"						-> Laser Sight
-			"!buy incendiary_ammo"					-> Incendiary Ammo
-			"!buy explosive_ammo"					-> Explosive Ammo
-			"!buy weapon_upgradepack_incendiary"	-> Incendiary Pack
-			"!buy weapon_upgradepack_explosive"		-> Explosive Pack
-			"!buy propanetank"						-> Propane Tank
-			"!buy oxygentank"						-> Oxygen Tank
-			"!buy fireworkcrate"					-> Firework Crate
-			"!buy gascan"							-> Gascan
-			"!buy cola_bottles"						-> Cola Bottles
-			"!buy gnome"							-> Gnome
-		}
+			Other
+			{
+				"!buy ammo"								-> Ammo
+				"!buy laser_sight"						-> Laser Sight
+				"!buy incendiary_ammo"					-> Incendiary Ammo
+				"!buy explosive_ammo"					-> Explosive Ammo
+				"!buy weapon_upgradepack_incendiary"	-> Incendiary Pack
+				"!buy weapon_upgradepack_explosive"		-> Explosive Pack
+				"!buy propanetank"						-> Propane Tank
+				"!buy oxygentank"						-> Oxygen Tank
+				"!buy fireworkcrate"					-> Firework Crate
+				"!buy gascan"							-> Gascan
+				"!buy cola_bottles"						-> Cola Bottles
+				"!buy gnome"							-> Gnome
+			}
 
-		Survivor Special
-		{
-			"!buy Fire"						-> Fire Yourself
-			"!buy Boom"						-> Drop Pipebomb
-			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
-			"!buy Revive"					-> Save Yorself
-			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
-			"!buy Teleport"					-> Teleport to teammate
-			"!buy Infinite_Ammo"			-> Infinite Ammo
-			"!buy No_FF"					-> No Friendly Fire
-			"!buy Dead_Eyes"				-> Dead-Eyes
-			"!buy Kill_Commons"				-> Kill Commons
-			"!buy Kill_Witches"				-> Kill Witches
-			"!buy Heal_Survivors"			-> Heal Survivors
-			"!buy Jump+1"					-> Jump+1
-			"!buy Slay_Infected"			-> Slay Infected Attacker
-			"!buy Respawn"					-> Respawn Alive
-			"!buy Freeze_Infected"			-> Freeze-Infected
-		}
+			Survivor Special
+			{
+				"!buy Fire"						-> Fire Yourself
+				"!buy Boom"						-> Drop Pipebomb
+				"!buy Adrenaline_Power"			-> Gain Adrenaline Power
+				"!buy Revive"					-> Save Yorself
+				"!buy Fire_Infeceted"			-> All Infected Gets On Fire
+				"!buy Teleport"					-> Teleport to teammate
+				"!buy Infinite_Ammo"			-> Infinite Ammo
+				"!buy No_FF"					-> No Friendly Fire
+				"!buy Dead_Eyes"				-> Dead-Eyes
+				"!buy Kill_Commons"				-> Kill Commons
+				"!buy Kill_Witches"				-> Kill Witches
+				"!buy Heal_Survivors"			-> Heal Survivors
+				"!buy Jump+1"					-> Jump+1
+				"!buy Slay_Infected"			-> Slay Infected Attacker
+				"!buy Respawn"					-> Respawn Alive
+				"!buy Freeze_Infected"			-> Freeze-Infected
+			}
 
-		Infected Spawn
-		{
-			"!buy Suicide" 	-> Suicide
-			"!buy Smoker" 	-> Smoker
-			"!buy Boomer" 	-> Boomer
-			"!buy Hunter" 	-> Hunter
-			"!buy Spitter" 	-> Spitter
-			"!buy Jockey" 	-> Jockey
-			"!buy Charger" 	-> Charger
-			"!buy Tank" 	-> Tank
-		}
+			Infected Spawn
+			{
+				"!buy Suicide" 	-> Suicide
+				"!buy Smoker" 	-> Smoker
+				"!buy Boomer" 	-> Boomer
+				"!buy Hunter" 	-> Hunter
+				"!buy Spitter" 	-> Spitter
+				"!buy Jockey" 	-> Jockey
+				"!buy Charger" 	-> Charger
+				"!buy Tank" 	-> Tank
+			}
 
-		Infected Special
-		{
-			"!buy Health" 	-> Full Health
-			"!buy Teleport" -> Teleport to survivor
-			"!buy Immune" 	-> Immune Everything
-			"!buy Horde" 	-> Zombie Horde
-			"!buy Witch" 	-> Witch
-		}
-		```
+			Infected Special
+			{
+				"!buy Health" 	-> Full Health
+				"!buy Teleport" -> Teleport to survivor
+				"!buy Immune" 	-> Immune Everything
+				"!buy Horde" 	-> Zombie Horde
+				"!buy Witch" 	-> Witch
+			}
+			```
+
 	* **repeat purchase item you bought last time**
 		```php
 		sm_repeatbuy
 		sm_lastbuy
 		```
+
 	* **donate money to another player (Or use "Credits Transfer" in shop menu)**
 		```php
 		sm_pay <name> <money>
 		sm_donate <name> <money>
 		```
+
 	* **See all players' or specific player's deposit**
 		```php
 		sm_inspectbank [name]
@@ -347,16 +349,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_lookbank [name]
 		sm_allbank [name]
 		```
+
 	* **Adm gives/reduces money (ADMFLAG_BAN)**
 		```php
 		sm_givemoney <name> <+-money>
 		sm_givecredit <name> <+-money>
 		```
+
 	* **Adm removes player's all money (ADMFLAG_BAN)**
 		```php
 		sm_clearmoney <name>
 		sm_deductmoney <name>
 		```
+
 </details>
 
 * <details><summary>Specail Item</summary>
@@ -486,128 +491,130 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 聊天視窗打 !buy 或 b 開啟商城列表
 		* 聊天視窗打 !buy rifle_ak47 或 b rifle_ak47 直接購買AK47槍
 		* **購物短名列表**
-		> 我不會增加更多短名，不要問
-		```php
-		Weapon
-		{
-			"!buy pistol" 				-> Pistol
-			"!buy pistol_magnum"		-> Magnum
-			"!buy pumpshotgun"			-> Pumpshotgun
-			"!buy shotgun_chrome"		-> Chrome Shotgun
-			"!buy smg"					-> Smg
-			"!buy smg_silenced"			-> Silenced Smg
-			"!buy smg_mp5"				-> MP5
-			"!buy rifle"				-> Rifle
-			"!buy rifle_ak47"			-> AK47
-			"!buy rifle_desert"			-> Desert Rifle
-			"!buy rifle_sg552"			-> SG552
-			"!buy shotgun_spas"			-> Spas Shotgun
-			"!buy autoshotgun"			-> Autoshotgun
-			"!buy hunting_rifle"		-> Hunting Rifle
-			"!buy sniper_military"		-> Military Sniper
-			"!buy sniper_scout"			-> SCOUT
-			"!buy sniper_awp"			-> AWP
-			"!buy rifle_m60"			-> M60 Machine Gun
-			"!buy grenade_launcher"		-> Grenade Launcher
-		}
+			```php
+			快速購買武器
+			{
+				"!buy pistol" 				-> 手槍
+				"!buy pistol_magnum"		-> 沙漠之鷹
+				"!buy pumpshotgun"			-> 木製霰彈槍
+				"!buy shotgun_chrome"		-> 鐵製霰彈槍
+				"!buy smg"					-> 機槍
+				"!buy smg_silenced"			-> 消音機槍
+				"!buy smg_mp5"				-> MP5衝鋒槍
+				"!buy rifle"				-> 步槍
+				"!buy rifle_ak47"			-> AK47
+				"!buy rifle_desert"			-> 三連發步槍
+				"!buy rifle_sg552"			-> SG552步槍
+				"!buy shotgun_spas"			-> 戰鬥霰彈槍
+				"!buy autoshotgun"			-> 連發霰彈槍
+				"!buy hunting_rifle"		-> 獵槍
+				"!buy sniper_military"		-> 軍用狙擊槍
+				"!buy sniper_scout"			-> SCOUT狙擊槍
+				"!buy sniper_awp"			-> AWP
+				"!buy rifle_m60"			-> 殲滅者 M60
+				"!buy grenade_launcher"		-> 榴彈發射器
+			}
 
-		Melee
-		{
-			"!buy chainsaw"				-> Chainsaw
-			"!buy baseball_bat"			-> Baseball Bat
-			"!buy cricket_bat"			-> Cricket Bat
-			"!buy crowbar"				-> Crowbar
-			"!buy electric_guitar"		-> Electric Guitar
-			"!buy fireaxe"				-> Fire Axe
-			"!buy frying_pan"			-> Frying Pan
-			"!buy katana"				-> Katana
-			"!buy machete"				-> Machete
-			"!buy tonfa"				-> Tonfa
-			"!buy golfclub"				-> Golf Club
-			"!buy knife"				-> Knife
-			"!buy pitchfork"			-> Pitchfork
-			"!buy shovel"				-> Shovel
-		}
+			快速購買近戰武器
+			{
+				"!buy chainsaw"				-> 奪魂鋸
+				"!buy baseball_bat"			-> 球棒
+				"!buy cricket_bat"			-> 板球拍
+				"!buy crowbar"				-> 鐵撬
+				"!buy electric_guitar"		-> 電吉他
+				"!buy fireaxe"				-> 斧頭
+				"!buy frying_pan"			-> 平底鍋
+				"!buy katana"				-> 武士刀
+				"!buy machete"				-> 開山刀
+				"!buy tonfa"				-> 警棍
+				"!buy golfclub"				-> 高爾夫球棒
+				"!buy knife"				-> 小刀
+				"!buy pitchfork"			-> 草叉
+				"!buy shovel"				-> 鐵鏟
+			}
 
-		Medic and Throwable
-		{
-			"!buy health_100"			-> Health+100
-			"!buy defibrillator"		-> Defibrillator
-			"!buy first_aid_kit"		-> First Aid Kit
-			"!buy pain_pills"			-> Pain Pill
-			"!buy adrenaline"			-> Adrenaline
-			"!buy pipe_bomb"			-> Pipe Bomb
-			"!buy molotov"				-> Molotov
-			"!buy vomitjar"				-> Vomitjar
-		}
+			快速購買醫療與投擲物品
+			{
+				"!buy health_100"			-> 生命值+100
+				"!buy defibrillator"		-> 電擊器
+				"!buy first_aid_kit"		-> 治療包
+				"!buy pain_pills"			-> 止痛藥丸
+				"!buy adrenaline"			-> 腎上腺素
+				"!buy pipe_bomb"			-> 土製炸彈
+				"!buy molotov"				-> 火瓶
+				"!buy vomitjar"				-> 膽汁
+			}
 
-		Other
-		{
-			"!buy ammo"								-> Ammo
-			"!buy laser_sight"						-> Laser Sight
-			"!buy incendiary_ammo"					-> Incendiary Ammo
-			"!buy explosive_ammo"					-> Explosive Ammo
-			"!buy weapon_upgradepack_incendiary"	-> Incendiary Pack
-			"!buy weapon_upgradepack_explosive"		-> Explosive Pack
-			"!buy propanetank"						-> Propane Tank
-			"!buy oxygentank"						-> Oxygen Tank
-			"!buy fireworkcrate"					-> Firework Crate
-			"!buy gascan"							-> Gascan
-			"!buy cola_bottles"						-> Cola Bottles
-			"!buy gnome"							-> Gnome
-		}
+			快速購買其他物品
+			{
+				"!buy ammo"								-> 彈藥補給
+				"!buy laser_sight"						-> 雷射裝置
+				"!buy incendiary_ammo"					-> 火焰子彈
+				"!buy explosive_ammo"					-> 高爆子彈
+				"!buy weapon_upgradepack_incendiary"	-> 火焰包
+				"!buy weapon_upgradepack_explosive"		-> 高爆彈
+				"!buy propanetank"						-> 瓦斯桶
+				"!buy oxygentank"						-> 氧氣罐
+				"!buy fireworkcrate"					-> 煙火盒
+				"!buy gascan"							-> 汽油
+				"!buy cola_bottles"						-> 可樂瓶
+				"!buy gnome"							-> 精靈小矮人
+			}
 
-		Survivor Special
-		{
-			"!buy Fire"						-> Fire Yourself
-			"!buy Boom"						-> Drop Pipebomb
-			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
-			"!buy Revive"					-> Save Yorself
-			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
-			"!buy Teleport"					-> Teleport to teammate
-			"!buy Infinite_Ammo"			-> Infinite Ammo
-			"!buy No_FF"					-> No Friendly Fire
-			"!buy Dead_Eyes"				-> Dead-Eyes
-			"!buy Kill_Commons"				-> Kill Commons
-			"!buy Kill_Witches"				-> Kill Witches
-			"!buy Heal_Survivors"			-> Heal Survivors
-			"!buy Jump+1"					-> Jump+1
-			"!buy Slay_Infected"			-> Slay Infected Attacker
-			"!buy Respawn"					-> Respawn Alive
-			"!buy Freeze_Infected"			-> Freeze-Infected
-		}
+			快速購買人類特殊物品
+			{
+				"!buy Fire"						-> 振火神通
+				"!buy Boom"						-> 爆爆王
+				"!buy Adrenaline_Power"			-> 注射興奮劑
+				"!buy Revive"					-> 拯救自己
+				"!buy Fire_Infeceted"			-> 炎之呼吸
+				"!buy Teleport"					-> 飛雷神之術
+				"!buy Infinite_Ammo"			-> 無限子彈
+				"!buy No_FF"					-> 不會造成與受到友傷
+				"!buy Dead_Eyes"				-> 心靈透視
+				"!buy Kill_Commons"				-> 殺死所有普通殭屍
+				"!buy Kill_Witches"				-> 殺死所有Witch
+				"!buy Heal_Survivors"			-> 團隊治癒+100
+				"!buy Jump+1"					-> 超級瑪利歐
+				"!buy Slay_Infected"			-> 處死攻擊你的特感
+				"!buy Respawn"					-> 魔法卡: 死者甦醒
+				"!buy Freeze_Infected"			-> 冰凍世界
+			}
 
-		Infected Spawn
-		{
-			"!buy Suicide" 	-> Suicide
-			"!buy Smoker" 	-> Smoker
-			"!buy Boomer" 	-> Boomer
-			"!buy Hunter" 	-> Hunter
-			"!buy Spitter" 	-> Spitter
-			"!buy Jockey" 	-> Jockey
-			"!buy Charger" 	-> Charger
-			"!buy Tank" 	-> Tank
-		}
+			快速購買特感種類
+			{
+				"!buy Suicide" 	-> 自殺
+				"!buy Smoker" 	-> Smoker
+				"!buy Boomer" 	-> Boomer
+				"!buy Hunter" 	-> Hunter
+				"!buy Spitter" 	-> Spitter
+				"!buy Jockey" 	-> Jockey
+				"!buy Charger" 	-> Charger
+				"!buy Tank" 	-> Tank
+			}
 
-		Infected Special
-		{
-			"!buy Health" 	-> Full Health
-			"!buy Teleport" -> Teleport to survivor
-			"!buy Immune" 	-> Immune Everything
-			"!buy Horde" 	-> Zombie Horde
-			"!buy Witch" 	-> Witch
-		}
-		```
+			快速購買特感特殊物品
+			{
+				"!buy Health" 	-> 滿血回復
+				"!buy Teleport" -> 異時空傳送門
+				"!buy Immune" 	-> God 上帝模式
+				"!buy Horde" 	-> 屍潮降臨
+				"!buy Witch" 	-> 召喚Witch
+			}
+			```
+
 	* **重複購買上次的商品**
 		```php
 		sm_repeatbuy
 		sm_lastbuy
 		```
+
 	* **捐贈金額給其他人 (或在商城列表使用"金錢轉移")**
 		```php
 		sm_pay <name> <money>
 		sm_donate <name> <money>
 		```
+
 	* **查看所有玩家的銀行儲值**
 		```php
 		sm_inspectbank [name]
@@ -615,16 +622,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_lookbank [name]
 		sm_allbank [name]
 		```
+
 	* **管理員打錢 (權限：ADMFLAG_BAN)**
 		```php
 		sm_givemoney <name> <+-money>
 		sm_givecredit <name> <+-money>
 		```
+
 	* **管理員沒收玩家的金錢 (權限：ADMFLAG_BAN)**
 		```php
 		sm_clearmoney <name>
 		sm_deductmoney <name>
 		```
+
 </details>
 
 * 如何設定各商品金額
@@ -703,7 +713,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 異時空傳送門
 		<br/>說明: 直接傳送到人類身上
 
-		* "God 上帝模式 (短暫時間)
+		* God 上帝模式 (短暫時間)
 		<br/>說明: 不會被震暈、不會被推開、不會受傷，無人能擋
 		<br/>![God_Mode](image/God_Mode.jpg)
 </details>

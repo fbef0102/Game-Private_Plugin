@@ -918,8 +918,8 @@
 	{
 		"en"	"Gnome"
 		"pt"	"Gnomo"
-		"zho"	"治療小矮人"
-		"chi"	"治愈小侏儒"
+		"zho"	"精靈小矮人"
+		"chi"	"小侏儒"
 		"es"	"Gnomo"
 		"ru"	"Гном"
 	}
