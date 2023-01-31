@@ -63,6 +63,12 @@ My Unpublic Private Plugin (Charge)
     * 被Smoker拉走的時候強制掉落手上的武器
 </details>
 
+* <details><summary><b>Jockey | Jockey</b></summary>
+
+  * [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
+    * 增強Jockey，賦予多種超能力成為小小的暴君
+</details>
+
 * <details><summary><b>Tank | 坦克</b></summary>
 
   * [l4d2_tdr](/Plugin_插件/Tank_坦克/l4d2_tdr): Displays Damage Information on Tank Death.

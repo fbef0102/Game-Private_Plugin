@@ -22,7 +22,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0h
+	```php
+	//AtomicStryker @ 2009-2011
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-1-26)
 	    * Request by Shadow
 		* Remake Code
 		* Convert code to latest syntax
