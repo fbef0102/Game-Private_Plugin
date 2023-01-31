@@ -55,6 +55,8 @@ My Unpublic Private Plugin (Charge)
     * 依據槍械種類修改特感隊伍的槍緩速度
   * [l4d_kick_stuck_infected](/Plugin_插件/Special_Infected_特感/l4d_kick_stuck_infected): Kick special infected bots if they don't attack and can't be seen by survivors within certain time
     * AI 特感一段時間內不攻擊或卡住將會被處死
+  * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
+    * 特感在爬梯或蹲下期間自動加速移動
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

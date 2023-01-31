@@ -8,6 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/2lkefzNmEsk)
 
 * Image | 圖示
+	* The Small Tyrant
+		> 小暴君
+		<br/>![l4d2_Sinister_Jockey_0](image/l4d2_Sinister_Jockey_0.jpg)
 	* Ghost Stalker ability: become nearly invisible when spawn
 		> 能力: 隱形殺手 - 身體接近透明
 		<br/>![l4d2_Sinister_Jockey_1](image/l4d2_Sinister_Jockey_1.jpg)
@@ -67,7 +70,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Amount to multiply the damage dealt by the Jockey when dropping. (Def 1.0)
 		l4d2_Sinister_Jockey_gravitypouncemultiplier "1.0"
 
-		// Enables the Human Shield ability, the Jockey to use the Survivor as a human shield while riding. (Def 1)
+		// Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding. (Def 1)
 		l4d2_Sinister_Jockey_humanshield "1"
 
 		// Percent of damage the Jockey avoids using a Survivor as a shield. (Def 0.4)
