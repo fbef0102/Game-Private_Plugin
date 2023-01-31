@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
-	* Dance
+	* Dance (Up to 84 Emotes and Dance)
 		> 跳舞
 		<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
 	* Menu
@@ -144,7 +144,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 搞笑動作模組: 表情與舞蹈
 
 * 原理
-    * 玩家的模組做特殊的動作
+    * 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 動作分成兩種: 表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 	* 請自備網空安裝模組與音樂檔案，客戶端才會下載檔案
