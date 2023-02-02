@@ -18,12 +18,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D1 Survival
-	L4D2 Survival
+	L4D1
+	L4D2
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2023-2-2)
+		* Request by GGM
+		* Add a cvar ```l4d_survival_auto_recover_non-survival_default_value```
+		* Support other game mode
+		
 	* v1.0
 		* Request by GGM
 		* Initial Release
@@ -38,9 +43,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * cfg/sourcemod/l4d_survival_auto_recover.cfg
         ```php
-		// Enable autorecover by default? [1-Enable/0-Disable]
-		l4d_survival_auto_recover_default_value "1"
-
 		// Delay to start another a autorecover vote after vote ends.
 		l4d_survival_auto_recover_delay "60"
 
@@ -50,11 +52,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, players can not call autorecover vote after survival begins.
 		l4d_survival_auto_recover_game_block "1"
 
+		// Enable autorecover by default in non-survival mode? [1-Enable/0-Disable]
+		// Maximum: "1.000000"
+		l4d_survival_auto_recover_non-survival_default_value "0"
+
 		// Numbers of real survivor and infected player required to start a autorecover vote.
 		l4d_survival_auto_recover_required "2"
 
 		// Auto save survivors if 1: Incap, 2: Hang from ledge, 3: Both
 		l4d_survival_auto_recover_save_type "3"
+
+		// Enable autorecover by default in survival mode? [1-Enable/0-Disable]
+		l4d_survival_auto_recover_survival_default_value "1"
         ```
 </details>
 
@@ -73,6 +82,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 生存計時開始之前，倒地或掛邊自動救起來並回血
 	* 生存計時開始之後，此插件不會有任何效果
+	* 其他非生存的模式也可以使用此插件，但是倖存者走出安全區域之後，此插件不會有任何效果
 
 * 功能
 	* 生存計時開始前輸入```!autorecover```可開關自救回血功能
