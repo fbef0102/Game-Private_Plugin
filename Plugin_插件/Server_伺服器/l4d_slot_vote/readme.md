@@ -11,19 +11,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-```
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.4 (2023-2-2)
+		* Request by GGTrash
+		* Use the L4D2 built-in vote screens for l4d2
+		* Require "builtinvotes" extension (l4d2 only)
 
 	* v2.3
 		* Initial Release
@@ -32,35 +37,42 @@ English
 * Require | 必要安裝
 	1. [l4dtoolz](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server slots limit
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_slot_vote.cfg
-	```php
-	// Pass vote percentage.
-	sm_matchvotes_s "0.60"
+		```php
+		// Players with these flags can change slot or kick spectators directly without vote
+		l4d_slot_vote_admin_flag "z"
 
-	// If 1, Enabled this plugin.
-	sm_slot_vote_enabled "1"
+		// Delay to start another a teamlock vote after vote ends.
+		l4d_slot_vote_delay "5"
 
-	// Maximum allowed number of server slots (this value must be equal or greater than sm_slot_vote_min).
-	sm_slot_vote_max "28"
+		// If 1, Enabled this plugin.
+		l4d_slot_vote_enabled "1"
 
-	// Minimum allowed number of server slots (this value must be equal or lesser than sm_slot_vote_max).
-	sm_slot_vote_min "9"
+		// Players with these flags have immune to be kicked in spectator team.
+		l4d_slot_vote_immue_kick_flag "z"
 
-	// Players with these flags have immune to be kicked in spectator team.
-	sm_slotvote_immue_kick_flag "z"
+		// If 1, players can type comamnd to votekick all spectators.
+		l4d_slot_vote_kick_spec "1"
 
-	// If 1, players can type comamnd to votekick all non-admin spectators.
-	sm_slotvote_kick_spec "1"
+		// Maximum allowed number of server slots (this value must be equal or greater than l4d_slot_vote_min).
+		l4d_slot_vote_max "28"
 
-	// Minimum # of players in game to start the vote
-	sm_slotvote_player_limit "3"
+		// Minimum allowed number of server slots (this value must be equal or lesser than l4d_slot_vote_max).
+		l4d_slot_vote_min "9"
 
-	// If 1, non-admin can not call vote to change slots or kick
-	sm_slotvote_player_vote_block "1"
-	```
+		// (L4D1) Pass vote percentage.
+		l4d_slot_vote_pass_percentage "0.60"
+
+		// Minimum # of players in game to start the vote
+		l4d_slot_vote_player_limit "3"
+
+		// If 1, non-admin can not call vote to change slots or kick spectators
+		l4d_slot_vote_player_vote_block "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -70,6 +82,7 @@ English
 		sm_slots <number>
 		sm_maxslots <number>
 		```
+
 	* **Vote to kick all non-admin spectators, Admin can kick without vote (Require:Admin_Generic)**
 		```php
 		sm_nospec
@@ -77,14 +90,17 @@ English
 		sm_kickspec
 		sm_kickspecs
 		```
+
 	* **Lock server slots Server, so nobody can change server slots (Server Console Only)**
 		```php
 		sm_lock_slots
 		```
+
 	* **Unlock server slots Server, so anyone can change server slots (Server Console Only)**
 		```php
 		sm_unlock_slots
 		```
+
 </details>
 
 - - - -
@@ -93,9 +109,10 @@ English
 
 * 原理
 	* 時常有一群傻B來伺服器掛機旁觀不知道衝三小所以才有了此插件
+	* 也可以更改伺服器人數上限，方便管理
 
 * 功能
-	1. 玩家可投票調整伺服器的人數上限，管理員可以不用投票
-	2. 投票踢出所有非管理員的旁觀者，管理員可以不用投票
-	3. 至少需要一定的玩家數量才能投票
-	4. 可設置非管理員的玩家不准發起投票
+	* 玩家可投票調整伺服器的人數上限，管理員可以不用投票
+	* 投票踢出所有非管理員的旁觀者，管理員可以不用投票
+	* 可設置至少需要一定的玩家數量才能投票
+	* 可設置非管理員的玩家不准發起投票

@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/1/27 updated
+> 2023/2/2 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -57,6 +57,12 @@ My Unpublic Private Plugin (Charge)
     * AI 特感一段時間內不攻擊或卡住將會被處死
   * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
     * 特感在爬梯或蹲下期間自動加速移動
+</details>
+
+* <details><summary><b>Boomer | Boomer</b></summary>
+
+  * [l4d_Nauseating_boomer](/Plugin_插件/Boomer_Boomer/l4d_Nauseating_boomer): Allows for unique Boomer abilities to spread its nauseating bile.
+    * 增強Boomer，賦予多種超能力成為超級肥宅
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

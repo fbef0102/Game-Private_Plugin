@@ -36,6 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Request by Shadow
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
 		* Delete "Bacterial Feet ability", "Marionette ability", "Rodeo Jump ability", they cause too many bugs.
 
 	* v1.3
@@ -90,12 +91,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* write down the follong cvars in cfg/server.cfg
 		```php
-		// Jockey Run Speed (default: 250, maximum: 450)
-		z_jockey_speed 		"250"
+		// Jockey Movement Speed (default: 250, maximum: 450)
+		sm_cvar z_jockey_speed 		"250"
 
 		// Jockey Ridding Speed, speed = survivor speed * 0.8 (default: 0.8, maximum: 1.0)
-		z_jockey_control_max "0.8"
-		z_jockey_control_min "0.8"
+		sm_cvar z_jockey_control_max "0.8"
+		sm_cvar z_jockey_control_min "0.8"
 		```
 </details>
 
@@ -109,10 +110,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力3: 重力高撲 - 跟Hunter一樣有高撲傷害
 
 * 功能
-	1. 可設定各能力的開關
-	2. 可設定隱形殺手的透明程度
-	3. 可設定騎人盾牌的轉移傷害程度
-	4. 可設定重力高撲的最大傷害
+	* 可設定各能力的開關
+	* 可設定隱形殺手的透明程度
+	* 可設定騎人盾牌的轉移傷害程度
+	* 可設定重力高撲的最大傷害
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
