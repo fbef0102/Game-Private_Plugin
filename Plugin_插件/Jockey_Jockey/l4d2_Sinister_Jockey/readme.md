@@ -51,6 +51,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> AI jockey 騎人的時候，自動跳高
 	2. [Jockey jump by DieTeetasse](https://forums.alliedmods.net/showthread.php?t=122213): Adding the ability that the jockey can jump with a survivor
 		> Jockey 真人玩家騎人的時候，可以按空白鍵跳高
+	3. [Jockey Ride Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on Jockey ride
+		> 被Jockey騎的時候致盲
 
 * <details><summary>ConVar | 指令</summary>
 
