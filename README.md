@@ -5,13 +5,51 @@ My Unpublic Private Plugin (Charge)
 
 - - - -
 # 私人插件列表 Private Plugins List
->持續更新中
-* 在這裡的插件均須收費交易，100-500台幣 (20-100人民幣、28-130港幣)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)
-* 可接受小幅度的修改或漢化處理
-	* 想增加或改動插件功能，視難易度增加費用
-* 有任何新點子或想法可以聯繫並提出來討論
-* Will update more, every plugin here is private (US$5~20 dollars), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
-* Accept small change or English translation
+> 持續更新中
+* 在這裡的插件均須收費交易，100台幣以上 (25人民幣以上、28港幣以上)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)
+  * 可接受小幅度的修改或漢化處理
+  * 想增加或改動插件功能，需增加費用
+  * 有任何新點子或想法可以聯繫並提出來討論
+* 問題
+  * <details><summary><b>支援的支付方式</b></summary>
+
+    * Paypal
+    * 台灣本地銀行轉帳
+    * 支付宝
+  </details>
+
+  * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
+
+    * 支援翻譯
+    * 支援資料庫
+    * 多個指令與命令功能
+    * 支援Gamedata (windows、linux)
+    * 支援其他遊戲
+    * 支援其他插件不衝突
+  </details>
+
+> Will update more
+* Will update more, every plugin here is private (US$6 dollars above), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
+  * Accept small change or English translation
+  * Add new request and discuss
+* Q&A
+  * <details><summary><b>How to pay</b></summary>
+
+    * Paypal
+    * Taiwanese local bank
+    * Alipay
+  </details>
+  
+  * <details><summary><b>Why high-priced?</b></summary>
+
+    * Support Translation
+    * Support Database
+    * Multi cvars and commands
+    * Support Gamedata (windows、linux)
+    * Support other games
+    * Support other plugins
+  </details>
+
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
@@ -324,6 +362,7 @@ My Unpublic Private Plugin (Charge)
 </details>
 
 - - - -
+
 # 公開的插件列表 Public Plugins List
 * [惡靈勢力一代插件 L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
@@ -363,38 +402,6 @@ My Unpublic Private Plugin (Charge)
   * [二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
 </details>
 
-# Introduce MySelf
-* Taiwanese, majored in in Department of Computer Science & Engineering
-* People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years 
-* 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
-* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
-* 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Six years of experience in Sourcepawn code
-* ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
-
-* <details><summary><b>Left 4 Dead</b></summary>
-
-  * The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
-  * 2019 Nostalgic Summer China Cup - Assistant Director
-  * 2019 Nostalgic Summer China Cup - 2nd - Team IB
-  * 2022 Nostalgic Tournament - Assistant Director
-  * 2022 Nostalgic Tournament - 3rd - Team IB
-</details>
-
-* <details><summary><b>Left 4 Dead 2</b></summary>
-
-  * The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
-</details>
-
-* <details><summary><b>Others</b></summary>
-
-  * [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
-  * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
-  * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
-  * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
-  * [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
-  * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
-</details>
-
 - - - -
 # 交易插件需求
 **有任何問題或製作插件需求請聯繫**<br/>
@@ -428,6 +435,39 @@ My Unpublic Private Plugin (Charge)
   * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖
 </details>
 
+# Introduce MySelf
+* Taiwanese, majored in in Department of Computer Science & Engineering
+* People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years 
+* 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
+* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
+* 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Six years of experience in Sourcepawn code
+* ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
+
+* <details><summary><b>Left 4 Dead</b></summary>
+
+  * The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
+  * 2019 Nostalgic Summer China Cup - Assistant Director
+  * 2019 Nostalgic Summer China Cup - 2nd - Team IB
+  * 2022 Nostalgic Tournament - Assistant Director
+  * 2022 Nostalgic Tournament - 3rd - Team IB
+</details>
+
+* <details><summary><b>Left 4 Dead 2</b></summary>
+
+  * The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
+</details>
+
+* <details><summary><b>Others</b></summary>
+
+  * [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
+  * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
+  * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+  * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
+  * [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
+  * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
+</details>
+
+- - - -
 # Plugin Request
 **If have question or plugin request, please contact me**<br/>
 **Accept paypal、Alipay、Taiwan local bank ATM**<br/>

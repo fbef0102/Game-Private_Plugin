@@ -184,6 +184,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// Boomer Movement Speed (default: 175, maximum: 450)
 		sm_cvar z_exploding_speed "175"
+
+		// Boomer Ability Movement (default: 3000)
+		// set 0 to move while vomit (Only apply to player)
+		sm_cvar z_vomit_fatigue "0"
+		```
 </details>
 
 - - - -
@@ -215,5 +220,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// Boomer 移動速度 (預設: 175, 最大: 450)
 		sm_cvar z_exploding_speed "175"
+
+		// Boomer可以一邊嘔吐一邊移動 (預設: 3000)
+		// 設置0可以滿速移動 (AI不適用)
+		sm_cvar z_vomit_fatigue "0"
 		```
 </details>
