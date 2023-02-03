@@ -72,10 +72,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_Nauseating_boomer.cfg
 		```php
-		// Enables Bile Belly ability: It is hard to cause direct damage to the Boomer. (Def 1)
+		// Enables Bile Belly ability: It is hard to cause direct damage to the Boomer.
 		l4d_Nauseating_boomer_bilebelly_enable "1"
 
-		// Percent of damage the Boomer avoids thanks to it's belly. (Def 0.5)
+		// Percent of damage the Boomer avoids thanks to it's belly.
 		l4d_Nauseating_boomer_bilebellyamount "0.8"
 
 		// Enables Bile Blast ability: When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
@@ -87,43 +87,43 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (L4D2) Slay power vertical multiplier
 		l4d_Nauseating_boomer_bileblast_power_vertical_multiplier "1.5"
 
-		// Amount of damage caused in the inner range of Bile Blast. (Def 15)
+		// Amount of damage caused in the inner range of Bile Blast.
 		l4d_Nauseating_boomer_bileblastinnerdamage "15.0"
 
-		// Power behind the inner range of Bile Blast. (Def 200.0)
+		// Power behind the inner range of Bile Blast.
 		l4d_Nauseating_boomer_bileblastinnerpower "200.0"
 
-		// Range the inner blast radius will extend from Bile Blast. (Def 200.0)
+		// Range the inner blast radius will extend from Bile Blast.)
 		l4d_Nauseating_boomer_bileblastinnerrange "200.0"
 
-		// Amount of damage caused in the outer range of Bile Blast. (Def 5)
+		// Amount of damage caused in the outer range of Bile Blast.
 		l4d_Nauseating_boomer_bileblastouterdamage "5.0"
 
-		// Power behind the outer range of Bile Blast. (Def 100.0)
+		// Power behind the outer range of Bile Blast.
 		l4d_Nauseating_boomer_bileblastouterpower "100.0"
 
-		// Range the outer blast radius will extend from Bile Blast. (Def 300.0)
+		// Range the outer blast radius will extend from Bile Blast.
 		l4d_Nauseating_boomer_bileblastouterrange "300.0"
 
-		// Enables Bile Shower ability: When the Boomer vomits on survivor, it will summon a large mob of common infected. (Def 1)
+		// Enables Bile Shower ability: When the Boomer vomits on survivor, it will summon a large mob of common infected.
 		l4d_Nauseating_boomer_bileshower_enable "1"
 
-		// Number of mobs to summon. (Def 1)
+		// Number of mobs to summon.
 		l4d_Nauseating_boomer_bileshower_mob "1"
 
-		// Time in seconds to summon extra mobs. (Def 5)
+		// Time in seconds to summon extra mobs.
 		l4d_Nauseating_boomer_bileshower_time "5"
 
-		// Chance that the Boomer's claws will cause a burning bile wound. (100 = 100%) (Def 100)
+		// Chance that the Boomer's claws will cause a burning bile wound. (100 = 100%)
 		l4d_Nauseating_boomer_bileswipe_chance "100"
 
-		// How much damage is inflicted by Bile Swipe each second. (Def 1)
+		// How much damage is inflicted by Bile Swipe each second.
 		l4d_Nauseating_boomer_bileswipe_damage "1"
 
-		// For how many seconds does the Bile Swipe last. (Def 4)
+		// For how many seconds does the Bile Swipe last.
 		l4d_Nauseating_boomer_bileswipe_duration "4"
 
-		// Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors. (Def 1)
+		// Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors.
 		l4d_Nauseating_boomer_bileswipe_enable "1"
 
 		// Boomer flashbang screen color, three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
@@ -132,28 +132,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Enables Explode FlashBang ability: Flashbang effect when the boomer explodes.
 		l4d_Nauseating_boomer_flashbang_enable "1"
 
-		// Enables Flatulence ability: The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud. (Def 1)
+		// Enables Flatulence ability: The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
 		l4d_Nauseating_boomer_flatulence_enable "1"
 
-		// Chance that survivors affected by the Flatulence cloud will be biled. (20 = 20%) (Def 20)
+		// Chance that survivors affected by the Flatulence cloud will be biled. (20 = 20%)
 		l4d_Nauseating_boomer_flatulence_chance "10"
 
-		// Amount of damage caused to Survivors standing in a Flatulence cloud. (Def 4)
+		// Amount of damage caused to Survivors standing in a Flatulence cloud.
 		l4d_Nauseating_boomer_flatulence_damage "4"
 
-		// Period of time the Flatulence cloud persists. (Def 10.0)
+		// Period of time the Flatulence cloud persists.
 		l4d_Nauseating_boomer_flatulence_life "13.0"
 
-		// Frequency that survivors standing in the Flatulence cloud will cause damage. (Def 2.0)
+		// Frequency that survivors standing in the Flatulence cloud will cause damage.
 		l4d_Nauseating_boomer_flatulence_period "2.0"
 
 		// If 1, Enable the Flatulence cloud Shake 
 		l4d_Nauseating_boomer_flatulence_shake "1"
 
-		// Area size of the Flatulence cloud. (Def 100.0)
+		// Area size of the Flatulence cloud.
 		l4d_Nauseating_boomer_flatulence_size "100.0"
 
-		// Time interval the Boomer expel a bile gas again. (Def 60.0)
+		// Time interval the Boomer expel a bile gas again.
 		l4d_Nauseating_boomer_flatulence_time "25.0"
 
 		// How long is the HUD hidden for after vomit

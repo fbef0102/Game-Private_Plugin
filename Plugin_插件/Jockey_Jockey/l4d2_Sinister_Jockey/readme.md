@@ -61,25 +61,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Enables the Ghost Stalker ability, allowing the Jockey to become nearly invisible.
 		l4d2_Sinister_Jockey_ghoststalker "1"
 
-		// Modifies the opacity of the Jockey to become closer to invisible (0-255) (Def 20)
+		// Modifies the opacity of the Jockey to become closer to invisible (0-255)
 		l4d2_Sinister_Jockey_ghoststalkervisibility "100"
 
-		// Enables the Gravity Pounce ability, the Jockey can inflict damage based on how far he drops on a Survivor. (Def 1)
+		// Enables the Gravity Pounce ability, the Jockey can inflict damage based on how far he drops on a Survivor.
 		l4d2_Sinister_Jockey_gravitypounce "1"
 
-		// Maximum amount of damage the Jockey can inflict while dropping (Should be Survivor health max). (Def 100)
+		// Maximum amount of damage the Jockey can inflict while dropping (Should be Survivor health max).
 		l4d2_Sinister_Jockey_gravitypouncecap "100"
 
-		// Amount to multiply the damage dealt by the Jockey when dropping. (Def 1.0)
+		// Amount to multiply the damage dealt by the Jockey when dropping.
 		l4d2_Sinister_Jockey_gravitypouncemultiplier "1.0"
 
-		// Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding. (Def 1)
+		// Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding.
 		l4d2_Sinister_Jockey_humanshield "1"
 
-		// Percent of damage the Jockey avoids using a Survivor as a shield. (Def 0.4)
+		// Percent of damage the Jockey avoids using a Survivor as a shield.
 		l4d2_Sinister_Jockey_humanshieldamount "0.7"
 
-		// How much damage is inflicted to the Survivor being used as a Huamn Shield. (Def 2, 0=No damage)
+		// How much damage is inflicted to the Survivor being used as a Huamn Shield. (0=No damage)
 		l4d2_Sinister_Jockey_humanshielddamage "2.0"
 		```
 </details>
