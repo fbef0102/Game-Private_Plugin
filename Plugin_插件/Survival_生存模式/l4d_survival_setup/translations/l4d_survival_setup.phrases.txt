@@ -1,0 +1,147 @@
+﻿"Phrases"
+{
+	"Auto Setup Menu"
+	{
+		"zho"		"生存裝備設定介面"
+		"chi"		"生存装备设定界面"
+		"en"		"Auto Setup Menu"
+	}
+	"Turn On"
+	{
+		"zho"		"開啟自動裝備"
+		"chi"		"开启自动装备"
+		"en"		"Turn On"
+	}
+	"Turn Off"
+	{
+		"zho"		"關閉自動裝備"
+		"chi"		"关闭自动装备"
+		"en"		"Turn Off"
+	}
+	"Define Setup"
+	{
+		"zho"		"設定裝備"
+		"chi"		"设定装备"
+		"en"		"Define Setup"
+	}
+	"Remove Setup"
+	{
+		"zho"		"移除裝備"
+		"chi"		"移除装备"
+		"en"		"Remove Setup"
+	}
+	"Define Primary Weapon"
+	{
+		"zho"		"設定主武器"
+		"chi"		"设定主武器"
+		"en"		"Define Primary Weapon"
+	}
+	"Define Secondary Weapon"
+	{
+		"zho"		"設定副武器"
+		"chi"		"设定副武器"
+		"en"		"Define Secondary Weapon"
+	}
+	"Define Throwable Setup"
+	{
+		"zho"		"設定投擲物品"
+		"chi"		"设定投掷物品"
+		"en"		"Define Throwable Setup"
+	}
+	"Primary Weapon"
+	{
+		"zho"		"主武器"
+		"chi"		"主武器"
+		"en"		"Primary Weapon"
+	}
+	"Secondary Weapon"
+	{
+		"zho"		"副武器"
+		"chi"		"副武器"
+		"en"		"Secondary Weapon"
+	}
+	"Throwable Setup"
+	{
+		"zho"		"投擲物品"
+		"chi"		"投掷物品"
+		"en"		"Throwable Setup"
+	}
+	"[NOT DEFINED]"
+	{
+		"zho"		"[未定義]"
+		"chi"		"[未定义]"
+		"en"		"[NOT DEFINED]"
+	}
+	"Turn Off Laser Sight"
+	{
+		"zho"		"關閉 雷射紅外線"
+		"chi"		"关闭 雷射激光"
+		"en"		"Turn Off Laser Sight"
+	}
+	"Turn On Laser Sight"
+	{
+		"zho"		"開啟 雷射紅外線"
+		"chi"		"开启 雷射激光"
+		"en"		"Turn On Laser Sight"
+	}
+	"Setup is disable in this map."
+	{
+		"zho"		"這張地圖不能使用生存裝備設定"
+		"chi"		"这张地图不能使用生存装备设定"
+		"en"		"Setup is disable in this map."
+	}
+	"You can't set up after survival begins"
+	{
+		"zho"		"生存計時開始之後不能使用"
+		"chi"		"生存计时开始之后不能使用"
+		"en"		"You can't set up after survival begins."
+	}
+	"You can't set up in non-survival mode"
+	{
+		"zho"		"僅限生存模式使用"
+		"chi"		"仅限生存模式使用"
+		"en"		"You can't set up in non-survival mode"
+	}
+	"You can't set up because you are not survivor"
+	{
+		"zho"		"僅限倖存者使用"
+		"chi"		"仅限生还者使用"
+		"en"		"You can't set up because you are not survivor."
+	}
+	"You can't set up because you are dead"
+	{
+		"zho"		"僅限活人使用"
+		"chi"		"仅限活人使用"
+		"en"		"You can't set up because you are dead."
+	}
+	"Not pointing at a valid weapon"
+	{
+		"zho"		"指向不合法的武器"
+		"chi"		"指向不合法的武器"
+		"en"		"Not pointing at a valid weapon"
+	}
+	"Not pointing at a primary weapon"
+	{
+		"zho"		"指向不合法的主武器"
+		"chi"		"指向不合法的主武器"
+		"en"		"Not pointing at a primary weapon"
+	}
+	"Not pointing at a secondary weapon"
+	{
+		"zho"		"指向不合法的副武器"
+		"chi"		"指向不合法的副武器"
+		"en"		"Not pointing at a secondary weapon"
+	}
+	"Not pointing at a throwable weapon"
+	{
+		"zho"		"指向不合法的投擲物品"
+		"chi"		"指向不合法的投掷物品"
+		"en"		"Not pointing at a throwable weapon"
+	}
+	"The weapon is not at original location."
+	{
+		"zho"		"武器已不在原本的位置上"
+		"chi"		"武器已不在原本的位置上"
+		"en"		"The weapon is not at original location."
+	}
+}
