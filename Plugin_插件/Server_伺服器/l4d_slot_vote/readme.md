@@ -8,7 +8,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/HyKyNw80x7Y)
 
 * Image | 圖示
-<br/>None
+	* Change server slots
+	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_1.jpg)
+	* Kick all spectators
+	<br/>![l4d_slot_vote_2](image/l4d_slot_vote_2.jpg)
 
 * Apply to | 適用於
 	```
@@ -107,12 +110,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 允許玩家使用命令更改伺服器人數上限 + 踢除非管理員的所有旁觀者
 
-* 原理
-	* 時常有一群傻B來伺服器掛機旁觀不知道衝三小所以才有了此插件
-	* 也可以更改伺服器人數上限，方便管理
+* 圖示
+	* 更改伺服器人數上限
+	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_3.jpg)
+	* 踢出所有非管理員的旁觀者
+	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_3.jpg)
 
-* 功能
+* 原理
 	* 玩家可投票調整伺服器的人數上限，管理員可以不用投票
 	* 投票踢出所有非管理員的旁觀者，管理員可以不用投票
+
+* 用意在哪
+	* 時常有一群傻B來伺服器掛機旁觀不知道衝三小所以才有了此插件
+	* 也可以更改伺服器人數上限，方便管理人員進出
+
+* 功能
 	* 可設置至少需要一定的玩家數量才能投票
 	* 可設置非管理員的玩家不准發起投票
