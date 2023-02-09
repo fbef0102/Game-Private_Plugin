@@ -35,7 +35,8 @@ L4D2
 * Related Plugin | 相關插件
 	1. [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
 		> 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
-
+	2. [l4d_sweep_fist_patch by Forgetest](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_sweep_fist_patch): Patch memory bytes to allow multi-punch for tank in Coop Mode
+		> 戰役模式之下Tank可以一拳打飛多個倖存者而非只能一個
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/skip_tank_taunt.cfg
