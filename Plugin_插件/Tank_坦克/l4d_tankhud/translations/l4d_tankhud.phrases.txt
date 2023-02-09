@@ -1,0 +1,28 @@
+﻿"Phrases"
+{
+	"On"
+	{
+		"en"	"On"
+		"zho"	"開啟"
+		"chi"	"开启"
+	}
+	"Off"
+	{
+		"en"	"Off"
+		"zho"	"關閉"
+		"chi"	"关闭"
+	}
+	"l4d_tankhud1"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{olive}TS{default}] {green}Tankhud{default} is now {olive}{1}{default}."
+		"zho"		"[{olive}TS{default}] {green}Tankhud{default} 目前 {olive}{1}{default}."
+		"chi"		"[{olive}TS{default}] {green}Tankhud{default} 目前 {olive}{1}{default}."
+	}
+	"l4d_tankhud2"
+	{
+		"en"		"[{olive}TS{default}] As a {green}Tank{default}, you won't see {green}Tankhud{default}."
+		"zho"		"[{olive}TS{default}] 身為一個 {green}Tank{default}, 你不會看見 {green}Tankhud{default}."
+		"chi"		"[{olive}TS{default}] 身为一个 {green}Tank{default}, 你不会看见 {green}Tankhud{default}."
+	}
+}
