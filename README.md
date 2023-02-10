@@ -75,6 +75,8 @@ My Unpublic Private Plugin (Charge)
     * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
   * [l4d_ragdoll_clear](/Plugin_插件/Server_伺服器/l4d_ragdoll_clear): Clear survivor/common infected/S.I./Witch ragdolls when they die.
     * 當人類、普通感染者、特感、Witch死亡時，他們的屍體立即消失並清除
+  * [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
+    * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>

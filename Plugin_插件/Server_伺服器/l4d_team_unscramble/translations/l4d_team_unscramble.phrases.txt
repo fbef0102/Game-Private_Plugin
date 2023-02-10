@@ -1,0 +1,17 @@
+﻿"Phrases"
+{
+	"#1"
+	{
+		"en"		"Voting is not enabled until {green}unscramble{default} is completed"
+		"zho"		"直到 {green}Unscramble{default} 程序結束之前不能投票"
+		"chi"		"直到 {green}Unscramble{default} 程序结束之前不能投票"
+		"ru"		"Во время подключения игроков голосования не доступны"
+	}
+	"#2"
+	{
+		"en"		"{green}Unscramble{default} completed. Change of team is allowed."
+		"zho"		"{green}Unscramble{default} 程序結束，可以切換隊伍"
+		"chi"		"{green}Unscramble{default} 程序结束，可以切换队伍"
+		"ru"		"Все игроки подключились. Смена команд разрешена."
+	}
+}

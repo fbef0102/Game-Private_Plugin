@@ -27,6 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2023-2-10)
+		* Display different SI requirement numbers based on how many alive survivors when survival begins
+
 	* v1.0
 		* Request by GGM
 		* Initial Release
@@ -57,11 +60,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"c1m2_streets" // map name
 			{
-				"SI_Requirement"	"12" // number
+				"SI_Requirement_4"	"12" // if 4 alive survivors
+				"SI_Requirement_3"	"9" // if 3 alive survivors
+				"SI_Requirement_2"	"6" // if 2 alive survivors
+				"SI_Requirement_1"	"3" // if 1 alive survivor
 			}
 			"c1m4_atrium"
 			{
-				"SI_Requirement"	"11"
+				"SI_Requirement_4"	"15" // if 4 alive survivors
+				"SI_Requirement_3"	"10" // if 3 alive survivors
+				"SI_Requirement_2"	"5" // if 2 alive survivors
+				"SI_Requirement_1"	"4" // if 1 alive survivor
 			}
 		}
 		```
@@ -85,11 +94,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"c1m2_streets" // 地圖名
 			{
-				"SI_Requirement"	"12" // 填寫數字
+				"SI_Requirement_4"	"12" // 此地圖(4人隊伍)每分鐘特感擊殺最低要求是 12
+				"SI_Requirement_3"	"9" // 此地圖(3人隊伍)每分鐘特感擊殺最低要求是 9
+				"SI_Requirement_2"	"6" // 此地圖(2人隊伍)每分鐘特感擊殺最低要求是 6
+				"SI_Requirement_1"	"3" // 此地圖(只有1人)每分鐘特感擊殺最低要求是 3
 			}
 			"c1m4_atrium"
 			{
-				"SI_Requirement"	"11"
+				"SI_Requirement_4"	"15" // 此地圖(4人隊伍)每分鐘特感擊殺最低要求是 15
+				"SI_Requirement_3"	"10" // 此地圖(3人隊伍)每分鐘特感擊殺最低要求是 10
+				"SI_Requirement_2"	"5" // 此地圖(2人隊伍)每分鐘特感擊殺最低要求是 5
+				"SI_Requirement_1"	"4" // 此地圖(只有1人)每分鐘特感擊殺最低要求是 4
 			}
 		}
 		```
