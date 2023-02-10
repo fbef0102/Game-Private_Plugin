@@ -10,21 +10,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message when leaving out saferoom
-	> 出門顯示Boss路程
-	<br/>![versusbosses_ifier_1](image/versusbosses_ifier_1.jpg)
+		> 出門顯示Boss路程
+		<br/>![versusbosses_ifier_1](image/versusbosses_ifier_1.jpg)
 	* display message when this plugin spawns tank/witch
-	> Boss生成時顯示訊息
-	<br/>![versusbosses_ifier_2](image/versusbosses_ifier_2.jpg)
+		> Boss生成時顯示訊息
+		<br/>![versusbosses_ifier_2](image/versusbosses_ifier_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1 versus
-L4D2 versus
-```
+	```
+	L4D1 versus
+	L4D2 versus
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.4
+	* v1.4h (2023-2-11)
+		* Fix plugin does not work if there is no any start safe area in some custom maps
 	    * Makes Versus Boss Spawns obey cvars
 
 	* v1.3
@@ -51,40 +52,40 @@ L4D2 versus
 
 * Data Example
 	* data/mapinfo.txt
-	```php
-	"MapInfo"
-	{
-		"c1m2_streets"　//Map Name
+		```php
+		"MapInfo"
 		{
-			"tank_map_off" "1" 		//This map is prohibited to spawn tank
-			"witch_map_off" "1"	 	//This map is prohibited to spawn witch
-		}
-		"c2m2_fairgrounds" //Map Name
-		{
-			"tank_ban_flow" //ban tank flow
+			"c1m2_streets"　//Map Name
 			{
-				"tank ban test" //Whatever name
+				"tank_map_off" "1" 		//This map is prohibited to spawn tank
+				"witch_map_off" "1"	 	//This map is prohibited to spawn witch
+			}
+			"c2m2_fairgrounds" //Map Name
+			{
+				"tank_ban_flow" //ban tank flow
 				{
-					"min"		"0" //0~20% is prohibited to spawn tank
-					"max"		"20"
+					"tank ban test" //Whatever name
+					{
+						"min"		"0" //0~20% is prohibited to spawn tank
+						"max"		"20"
+					}
+					"tank ban test 2" //Whatever name
+					{
+						"min"		"50" //50~80% is prohibited to spawn tank
+						"max"		"80"
+					}
 				}
-				"tank ban test 2" //Whatever name
+				"witch_ban_flow" //ban witch flow
 				{
-					"min"		"50" //50~80% is prohibited to spawn tank
-					"max"		"80"
+					"witch ban test"　 //Whatever name
+					{
+						"min"		"50" //50~100% is prohibited to spawn tank
+						"max"		"100"
+					}
 				}
 			}
-			"witch_ban_flow" //ban witch flow
-			{
-				"witch ban test"　 //Whatever name
-				{
-					"min"		"50" //50~100% is prohibited to spawn tank
-					"max"		"100"
-				}
-			}
 		}
-	}
-	```
+		```
 
 * <details><summary>Related Official ConVar</summary>
 
@@ -137,10 +138,12 @@ L4D2 versus
 		```php
 		sm_setwitch <number>
 		```
+
 	* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 		```php
 		sm_settank <number>
 		```
+
 	* **Display Spawn percent for boss**
 		```php
 		sm_boss
@@ -148,6 +151,7 @@ L4D2 versus
 		sm_witch
 		sm_t
 		```
+
 	* **Let's vote to set those Boss Spawns!**
 		```php
 		sm_voteboss	<tank> <witch>
@@ -170,40 +174,40 @@ L4D2 versus
 
 * Data設定範例
 	* data/mapinfo.txt
-	```php
-	"MapInfo"
-	{
-		"c1m2_streets"　//地圖名
+		```php
+		"MapInfo"
 		{
-			"tank_map_off" "1" 		//該地圖禁止生成Tank
-			"witch_map_off" "1"	 	//該地圖禁止生成Witch
-		}
-		"c2m2_fairgrounds" //地圖名
-		{
-			"tank_ban_flow" //禁止Tank生成的路段
+			"c1m2_streets"　//地圖名
 			{
-				"tank ban test" //隨便取名
+				"tank_map_off" "1" 		//該地圖禁止生成Tank
+				"witch_map_off" "1"	 	//該地圖禁止生成Witch
+			}
+			"c2m2_fairgrounds" //地圖名
+			{
+				"tank_ban_flow" //禁止Tank生成的路段
 				{
-					"min"		"0" //0~20%禁止生成Tank
-					"max"		"20"
+					"tank ban test" //隨便取名
+					{
+						"min"		"0" //0~20%禁止生成Tank
+						"max"		"20"
+					}
+					"tank ban test 2" //隨便取名
+					{
+						"min"		"50" //50~80%禁止生成Tank
+						"max"		"80"
+					}
 				}
-				"tank ban test 2" //隨便取名
+				"witch_ban_flow" //禁止Witch生成的路段
 				{
-					"min"		"50" //50~80%禁止生成Tank
-					"max"		"80"
+					"witch ban test"　 //隨便取名
+					{
+						"min"		"50" //50~100%禁止生成Witch
+						"max"		"100"
+					}
 				}
 			}
-			"witch_ban_flow" //禁止Witch生成的路段
-			{
-				"witch ban test"　 //隨便取名
-				{
-					"min"		"50" //50~100%禁止生成Witch
-					"max"		"100"
-				}
-			}
 		}
-	}
-	```
+		```
 > 每一張地圖都有地形或地圖問題，<br/>
 在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
 (譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
@@ -259,10 +263,12 @@ L4D2 versus
 		```php
 		sm_setwitch <數字>
 		```
+
 	* **管理員決定 tank 路程，請在出去安全室之前決定好 (權限：ADMFLAG_BAN)**
 		```php
 		sm_settank <數字>
 		```
+
 	* **打印該回合 Tank/Witch 路程**
 		```php
 		sm_boss
@@ -270,6 +276,7 @@ L4D2 versus
 		sm_witch
 		sm_t
 		```
+		
 	* **投票決定Tank/Witch的路程 ，請在出去安全室之前決定好**
 		```php
 		sm_voteboss <數字> <數字>
