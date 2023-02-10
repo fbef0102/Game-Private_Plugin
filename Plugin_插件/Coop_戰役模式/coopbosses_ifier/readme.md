@@ -40,7 +40,7 @@ L4D2 coop/realism
 
 * Similar Plugin | 相似插件
 	1. [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+		> 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * Related | 相關插件
 	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
