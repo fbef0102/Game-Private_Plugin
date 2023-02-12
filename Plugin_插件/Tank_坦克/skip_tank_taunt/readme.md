@@ -11,18 +11,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0.7 (2023-2-11)
+		* Request by 小颯
+		* Add a convar ```tank_stumble_playbackrate 3.0```, "Tank stumble animation playback rate (0=off)
 
 	* v1.0.6
 		* Support L4D1
 
 	* v1.0.5
-		* [By sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
+		* [Original Plugin by sorallll](https://forums.alliedmods.net/showthread.php?t=336707)
 </details>
 
 * Require | 必要安裝
@@ -44,6 +48,9 @@ L4D2
 		// Obstacle animation playback rate (0=off)
 		tank_obstacle_animation_playbackrate "2.5"
 
+		// Tank stumble animation playback rate (0=off)
+		tank_stumble_playbackrate "3.0"
+
 		// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip (0=off)
 		tank_victory_animation_skip "1"
 		```
@@ -58,8 +65,9 @@ L4D2
 Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 
 * 原理
-	* 戰役模式之下的Tank打中倖存者之時偶而會有咆哮姿勢，浪費Tank攻擊時間
+	* 戰役/寫實模式之下的Tank打中倖存者之時偶而會有咆哮與勝利姿勢，浪費Tank攻擊時間
 
 * 功能
-	1. 調整爬行速度
-	2. 開關咆哮勝利動畫
+	* 可調整爬行速度
+	* 可開關咆哮勝利動畫
+	* 可調整Tank被震暈的動畫速度
