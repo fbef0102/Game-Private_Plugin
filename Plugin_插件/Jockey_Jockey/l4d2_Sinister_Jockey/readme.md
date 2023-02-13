@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014
 	//HarryPotter @ 2022-2023
 	```
-	* v1.1h (2023-2-13)
+	* v1.1h (2023-2-14)
 		* Rename all cvars
 		* Remake Human Shield ability and make new damage calculation formula
 
@@ -78,8 +78,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_Sinister_Jockey_gravitypounce_multiplier "1.0"
 
 		// Damage that inflicted to the Survivor while Human Shield ability enabled.
-		// Damge = the damage jockey avoids / this cvar valve (0=No damage)
-		l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+		// Damge = the damage jockey received / this cvar valve (0=No damage)
+		l4d2_Sinister_Jockey_humanshield_divisor "30.0"
 
 		// If 1, Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding.
 		l4d2_Sinister_Jockey_humanshield_enable "1"
@@ -99,9 +99,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> Example: Jockey gets AWP shot while ridding a survivor<br/>
 	AWP 1 shot damage = 90<br/>
 	Jockey receive damage = 90 * 0.7 = 63<br/>
-	Survivor receive damage = (90 - 63) / 10.0 = 2.7<br/>
+	Survivor receive damage = 63 / 30.0 = 2.1<br/>
 	```php
-	l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+	l4d2_Sinister_Jockey_humanshield_divisor "30.0"
 	l4d2_Sinister_Jockey_humanshield_enable "1"
 	l4d2_Sinister_Jockey_humanshield_percent "0.7"
 	```
@@ -140,9 +140,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> 舉例: Jockey 騎倖存者的時被AWP射中一槍<br/>
 	AWP 一槍傷害 = 90<br/>
 	Jockey 受到的傷害 = 90 * 0.7 = 63<br/>
-	倖存者 受到的傷害 = (90 - 63) / 10.0 = 2.7<br/>
+	倖存者 受到的傷害 = 63 / 30.0 = 2.1<br/>
 	```php
-	l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+	l4d2_Sinister_Jockey_humanshield_divisor "30.0"
 	l4d2_Sinister_Jockey_humanshield_enable "1"
 	l4d2_Sinister_Jockey_humanshield_percent "0.7"
 	```

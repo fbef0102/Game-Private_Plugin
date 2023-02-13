@@ -43,6 +43,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Marttt @ 2019
 	//HarryPotter @ 2022-2023
 	```
+	* v1.1h (2023-2-14)
+		* Rename some cvars
+		* Correct melee damage when enable Bile Belly ability
+
 	* v1.0h (2023-2-2)
 		* Request by Shadow
 		* Remake code, convert code to latest syntax
@@ -76,7 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_Nauseating_boomer_bilebelly_enable "1"
 
 		// Percent of damage the Boomer avoids thanks to it's belly.
-		l4d_Nauseating_boomer_bilebellyamount "0.8"
+		l4d_Nauseating_boomer_bilebelly_amount "0.8"
 
 		// Enables Bile Blast ability: When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
 		l4d_Nauseating_boomer_bileblast_enable "1"
@@ -88,22 +92,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_Nauseating_boomer_bileblast_power_vertical_multiplier "1.5"
 
 		// Amount of damage caused in the inner range of Bile Blast.
-		l4d_Nauseating_boomer_bileblastinnerdamage "15.0"
+		l4d_Nauseating_boomer_bileblast_inner_damage "15.0"
 
 		// Power behind the inner range of Bile Blast.
-		l4d_Nauseating_boomer_bileblastinnerpower "200.0"
+		l4d_Nauseating_boomer_bileblast_inner_power "200.0"
 
 		// Range the inner blast radius will extend from Bile Blast.)
-		l4d_Nauseating_boomer_bileblastinnerrange "200.0"
+		l4d_Nauseating_boomer_bileblast_inner_range "200.0"
 
 		// Amount of damage caused in the outer range of Bile Blast.
-		l4d_Nauseating_boomer_bileblastouterdamage "5.0"
+		l4d_Nauseating_boomer_bileblast_outer_damage "5.0"
 
 		// Power behind the outer range of Bile Blast.
-		l4d_Nauseating_boomer_bileblastouterpower "100.0"
+		l4d_Nauseating_boomer_bileblast_outer_power "100.0"
 
 		// Range the outer blast radius will extend from Bile Blast.
-		l4d_Nauseating_boomer_bileblastouterrange "300.0"
+		l4d_Nauseating_boomer_bileblast_outer_range "300.0"
 
 		// Enables Bile Shower ability: When the Boomer vomits on survivor, it will summon a large mob of common infected.
 		l4d_Nauseating_boomer_bileshower_enable "1"
