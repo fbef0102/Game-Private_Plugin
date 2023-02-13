@@ -24,6 +24,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5h (2023-2-14)
+		* Fix director still spawns tank and witch if we disable boss spawn in current map
+
 	* v1.4h (2023-2-11)
 		* Fix plugin does not work if there is no any start safe area in some custom maps
 
