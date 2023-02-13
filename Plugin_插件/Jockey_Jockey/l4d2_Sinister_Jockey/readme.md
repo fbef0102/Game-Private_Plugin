@@ -32,6 +32,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014
 	//HarryPotter @ 2022-2023
 	```
+	* v1.1h (2023-2-13)
+		* Rename all cvars
+		* Remake Human Shield ability and make new damage calculation formula
+
 	* v1.0h (2023-1-31)
 		* Request by Shadow
 		* Remake code, convert code to latest syntax
@@ -58,35 +62,49 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d2_Sinister_Jockey.cfg
 		```php
-		// Enables the Ghost Stalker ability, allowing the Jockey to become nearly invisible.
-		l4d2_Sinister_Jockey_ghoststalker "1"
+		// If 1, Enables the Ghost Stalker ability, allowing the Jockey to become nearly invisible.
+		l4d2_Sinister_Jockey_ghoststalker_enable "1"
 
 		// Modifies the opacity of the Jockey to become closer to invisible (0-255)
-		l4d2_Sinister_Jockey_ghoststalkervisibility "100"
-
-		// Enables the Gravity Pounce ability, the Jockey can inflict damage based on how far he drops on a Survivor.
-		l4d2_Sinister_Jockey_gravitypounce "1"
+		l4d2_Sinister_Jockey_ghoststalker_visibility "100"
 
 		// Maximum amount of damage the Jockey can inflict while dropping (Should be Survivor health max).
-		l4d2_Sinister_Jockey_gravitypouncecap "100"
+		l4d2_Sinister_Jockey_gravitypounce_cap "100"
+
+		// If 1, Enables the Gravity Pounce ability, the Jockey can inflict damage based on how far he drops on a Survivor.
+		l4d2_Sinister_Jockey_gravitypounce_enable "1"
 
 		// Amount to multiply the damage dealt by the Jockey when dropping.
-		l4d2_Sinister_Jockey_gravitypouncemultiplier "1.0"
+		l4d2_Sinister_Jockey_gravitypounce_multiplier "1.0"
 
-		// Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding.
-		l4d2_Sinister_Jockey_humanshield "1"
+		// Damage that inflicted to the Survivor while Human Shield ability enabled.
+		// Damge = the damage jockey avoids / this cvar valve (0=No damage)
+		l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+
+		// If 1, Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding.
+		l4d2_Sinister_Jockey_humanshield_enable "1"
 
 		// Percent of damage the Jockey avoids using a Survivor as a shield.
-		l4d2_Sinister_Jockey_humanshieldamount "0.7"
-
-		// How much damage is inflicted to the Survivor being used as a Huamn Shield. (0=No damage)
-		l4d2_Sinister_Jockey_humanshielddamage "2.0"
+		l4d2_Sinister_Jockey_humanshield_percent "0.7"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* <details><summary>Human Shield Calculation Formula</summary>
+	
+	> Example: Jockey gets AWP shot while ridding a survivor<br/>
+	AWP 1 shot damage = 90<br/>
+	Jockey receive damage = 90 * 0.7 = 63<br/>
+	Survivor receive damage = (90 - 63) / 10.0 = 2.7<br/>
+	```php
+	l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+	l4d2_Sinister_Jockey_humanshield_enable "1"
+	l4d2_Sinister_Jockey_humanshield_percent "0.7"
+	```
 </details>
 
 * <details><summary>Related Official ConVar</summary>
@@ -116,6 +134,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設定隱形殺手的透明程度
 	* 可設定騎人盾牌的轉移傷害程度
 	* 可設定重力高撲的最大傷害
+
+* <details><summary>騎人盾牌的傷害計算 (點我展開)</summary>
+	
+	> 舉例: Jockey 騎倖存者的時被AWP射中一槍<br/>
+	AWP 一槍傷害 = 90<br/>
+	Jockey 受到的傷害 = 90 * 0.7 = 63<br/>
+	倖存者 受到的傷害 = (90 - 63) / 10.0 = 2.7<br/>
+	```php
+	l4d2_Sinister_Jockey_humanshield_divisor "10.0"
+	l4d2_Sinister_Jockey_humanshield_enable "1"
+	l4d2_Sinister_Jockey_humanshield_percent "0.7"
+	```
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
