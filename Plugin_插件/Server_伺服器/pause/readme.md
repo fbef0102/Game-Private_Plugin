@@ -9,17 +9,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Pause hud
-	> 準備介面
-	<br/>![pause_1](image/pause_1.jpg)
+		> 準備介面
+		<br/>![pause_1](image/pause_1.jpg)
 	* Message
-	> 顯示訊息
-	<br/>![pause_2](image/pause_2.jpg)
+		> 顯示訊息
+		<br/>![pause_2](image/pause_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1 Coop/Versus
-L4D2 Coop/Versus/Realism
-```
+	```
+	L4D1 Coop/Versus
+	L4D2 Coop/Versus/Realism
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -108,5 +108,5 @@ L4D2 Coop/Versus/Realism
 	* 還有陣營沒有準備好，那遊戲就一直暫停下去
 
 * 功能
-	1. 可設置解除暫停的倒數秒數
-	2. 管理員可以強制暫停，也只有管理員能解除暫停
+	* 可設置解除暫停的倒數秒數
+	* 管理員可以強制暫停，也只有管理員能解除暫停

@@ -9,14 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* would like to initiate a trade to swap player 1 with player 2, do you accept?
-	> 多數決投票通過
-	<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
+		> 多數決投票通過
+		<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1 versus
-L4D2 versus
-```
+	```
+	L4D1 versus
+	L4D2 versus
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -67,4 +67,4 @@ L4D2 versus
 	* 覺得隊友太爛，對面隊伍太強，實力不平衡可以使用這插件
 
 * 功能
-	1. 設置投票間隔時間
+	* 設置投票間隔時間
