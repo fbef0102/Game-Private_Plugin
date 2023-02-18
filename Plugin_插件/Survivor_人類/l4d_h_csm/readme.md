@@ -57,6 +57,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.
+		> 修正在二代地圖上生成Zoey角色會導致遊戲崩潰
 
 * Related Plugin | 相關插件
 	1. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model
