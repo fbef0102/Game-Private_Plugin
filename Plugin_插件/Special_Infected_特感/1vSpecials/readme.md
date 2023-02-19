@@ -22,6 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * v2.4 (2023-2-19)
         * Remake all cvars description
+        * Set each Special Infected claw damage
         * Add new cvars
             ```php
             // Boomer claw Dmg. (-1=Default value dmg)
@@ -76,8 +77,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Jockey claw Dmg. (-1=Default value dmg)
         1vSpecials_jockey_claw_dmg "-1"
 
-        // If 1, Kill All Infected. 0=Only Kill Attacker
-        1vSpecials_kill_all "0"
+        // 1=Kill All Infected, 2=Only Kill Attacker (0=Off)
+        1vSpecials_kill_all "2"
 
         // If 1, this plugin removes god frame when capped by special infected.
         1vSpecials_remove_godframe "1"
@@ -97,6 +98,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
+
 	None
 </details>
 
