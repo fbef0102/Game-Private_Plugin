@@ -1,5 +1,6 @@
 # Description | 內容
-Showing the time played on record in steam profile while player joins the server
+Showing the time played on record in Game Stats while player joins the server
+(Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -31,23 +32,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9 (2023-2-21)
+		* Remake code and require SteamWorks
+		* Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings
+
 	* v1.8
 	    * Original Request by 壹梦
 </details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [REST in Pawn](https://forums.alliedmods.net/showthread.php?t=298024)
-
-* Important | 重要步驟
-	1. Install first and start Server, auto-generate cfg\sourcemod\sm_PlayerTime.cfg file
-	2. Close Server, Go [Steam Website](https://steamcommunity.com/dev/apikey) to register your write down your Steam Web API.
-	3. Modify cvar 'sm_playtime_apikey' in sm_PlayerTime.cfg file
-	4. Start Server 
-
-* Note | 注意事項
-	* Both player total time played from Steam Personal Page and from In Game Stats are different.
-	* If play does not set "My basic details: Public" and "Game details: Public" in "Privacy Settings", total time played is unknown.
+	2. [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,9 +50,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// If 1, Announce the time played on record when player joins the server.
 		sm_playtime_announce "1"
-
-		// Steam developer web API key. (https://steamcommunity.com/dev/apikey)
-		sm_playtime_apikey "XXXXXXXXXXXXXXXXXXXX"
 
 		// Application ID of current game. HL2:DM (320), CS:S (240), CS:GO (730), TF2 (440), L4D (500), L4D2 (550)
 		sm_playtime_appid "550"
@@ -79,9 +71,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
 		sm_playtime_log "1"
-
-		// Get player time played from 0: Steam Personal Page, 1: In Game Stats.
-		sm_playtime_method "0"
 		```
 </details>
 
@@ -97,20 +86,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
 
+* 原理
+	* 玩家進來伺服器之時，抓取他的實際遊玩時數 (與'Steam個人檔案上顯示的遊戲時數'會有所不同)
+	* 即使玩家的steam個人資料或頁面設定為未公開，依然可以抓取實際遊玩時數
+
 * 功能
-	* 可顯示玩家Steam頁面上遊戲時數 或 遊戲統計資料抓取的遊戲時數
 	* 可運作其他的遊戲
 	* logs記錄檔
 	* 遊戲時數過少的菜B八將會被踢出伺服器
 	* 遊戲時數過高的大佬將會被踢出伺服器
 	* 遊戲時數未知的神祕高手將會被踢出伺服器
-
-* 重要步驟
-	1. 先安裝插件，開啟伺服器，會自動產生　cfg\sourcemod\sm_PlayerTime.cfg 檔案
-	2. 關閉伺服器，到 [官網](https://steamcommunity.com/dev/apikey) 註冊您的 Steam Web API 金鑰
-	3. 開啟sm_PlayerTime.cfg檔案，修改指令'sm_playtime_apikey'並寫下自己的序號
-	4. 開啟伺服器
-
-* 注意事項
-	* '從Steam頁面上抓取遊戲時數' 跟 '從遊戲統計資料抓取的遊戲時數' 會有所不同
-	* 如果玩家在自己的'Steam隱私設定'中沒有設置 "我的基本資料:公開" 和 "遊戲資料:公開"，那麼遊戲時數會顯示未知.

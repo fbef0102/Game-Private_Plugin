@@ -1,5 +1,5 @@
 # Description | 內容
-Display text for up to 4 scripted HUD slots on the screen.
+Display text for up to 5 scripted HUD slots on the screen.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -65,7 +65,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Default HUDX_Text</summary>
 
-	To Switch Default HUDX_Text, please modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~4)
+	To Switch Default HUDX_Text, please modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~5)
 	* HUD1_Text: 
 		1. Time and Survivor/Infected count
 	* HUD2_Text: 
@@ -88,7 +88,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Note
-	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~4) cvar text. If both empty, then load GetHUD*_Text functions
+	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~5) cvar text. If both empty, then load GetHUD*_Text functions
 	* The limit of each HUD text is up to 127 characters.
 	* HUD Text can be moved and animated effect, please read cfg.
 
@@ -486,16 +486,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-在玩家畫面上方四個Hud位置顯示不同的特殊文字
+在玩家畫面上方五個Hud位置顯示不同的特殊文字
 
 * 功能
 	1. 可自定義文字顯示內容
 	2. 可利用指令達成文字移動或閃紅色的動畫效果，請自行閱讀指令列表
-	3. 多達四個HUD，可個別顯示或關閉文字
+	3. 多達五個HUD，可個別顯示或關閉文字
 
 * <details><summary>預設的 HUDX 文字 (點我展開)</summary>
 
-	若要換預設的 HUDX 文字請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~4)
+	若要換預設的 HUDX 文字請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~5)
 	* HUD1: 
 		1. 目前遊戲時間、倖存者數量、感染者數量
 	* HUD2: 
@@ -528,7 +528,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> __Note__ (如果已有.nut檔案，可以先備份)
 
 * 注意事項
-	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUDX_Text 文字 (X 是 1~4)
+	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUD?_Text 文字 (? 是 1~5)
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
 	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
 	
