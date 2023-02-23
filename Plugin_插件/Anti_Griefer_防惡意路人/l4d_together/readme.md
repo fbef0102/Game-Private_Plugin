@@ -8,7 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/L6slnUSsTSI)
 
 * Image | 圖示
-<br/>None
+	* Don't be a dick
+        > 代替月亮來懲罰你
+        <br/>![l4d_together_1](image/l4d_together_1.jpg)
 
 * Apply to | 適用於
     ```

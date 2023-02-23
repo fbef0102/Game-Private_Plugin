@@ -48,7 +48,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
 	1. [Jockey Auto Jump by Silvers](https://forums.alliedmods.net/showthread.php?t=316613): Makes the Jockey automatically jump when riding a survivor.

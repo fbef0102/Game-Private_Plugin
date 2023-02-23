@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/2/10 updated
+> 2023/2/23 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -29,7 +29,7 @@ My Unpublic Private Plugin (Charge)
   </details>
 
 > Will update more
-* Will update more, every plugin here is private (US$6 dollars above), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
+* Every plugin here is private (US$6 dollars above), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
   * Accept small change or English translation
   * Add new request and discuss
 * Q&A
@@ -113,6 +113,12 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
     * 增強Jockey，賦予多種超能力成為小小的暴君
+</details>
+
+* <details><summary><b>Spitter | Spitter</b></summary>
+
+  * [L4D2_Spitter_Supergirl](/Plugin_插件/Spitter_Spitter/L4D2_Spitter_Supergirl): Adds a host of abilities to the Spitter to add Supergirl like powers.
+    * 增強Spitter，賦予多種超能力成為超能小妹妹
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
