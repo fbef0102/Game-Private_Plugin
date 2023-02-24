@@ -20,12 +20,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0h (2023-2-24)
+	* v1.0h (2023-2-25)
 		* Request by 小颯
 		* Remake Code
 		* Individual plugin
 		* Auto generate cfg
-		* Add cvar
+		* Add cvars
 
 	* v1.2.2
 		* [From SirPlease/L4D2-Competitive-Rewor](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_ultra_witch.sp)
@@ -39,7 +39,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/l4d_ultra_witch.cfg
 		```php
 		// If 1, The Witch's hit sends survivor flying.
-		l4d_ultra_witch_flying "1"
+		l4d_ultra_witch_flying_enable "1"
+
+		// (L4D2) Which method to send survivor flying.
+		// 0=Flings a player to the ground, like they were hit by a Charger
+		// 1=Punch player, like they were hit by a Tank
+		l4d_ultra_witch_flying_method "1"
 
 		// If 1, Instantly incap survivor if witch's hit damage is greater than or equal to survivor hard health
 		l4d_ultra_witch_hard_health_realism "0"
@@ -69,11 +74,12 @@ Witch不會一抓倒地，而是擊飛倖存者
 
 * 用意在哪?
 	* 在RPG伺服器當中，倖存者的血量破百，容易殺死Witch
-	* 取消秒殺或倒地，增加遊戲樂趣
+	* 取消秒殺或倒地，擊飛倖存者，增加遊戲樂趣
 
 * 功能
 	* 可設置擊飛開關
 	* 可設置開關，當Witch傷害大於目標倖存者的實血則秒殺或倒地
+	* 可設置擊飛倖存者的方式
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
