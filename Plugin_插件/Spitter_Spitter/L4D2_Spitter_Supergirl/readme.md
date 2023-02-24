@@ -144,7 +144,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Write down the follong cvars in cfg/server.cfg
 		```php
 		// Spitter Movement Speed (default: 210, maximum: 450)
-		z_spitter_speed  210
+		sm_cvar z_spitter_speed  210
+		```
 </details>
 
 - - - -
@@ -182,5 +183,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 以下指令寫入文件 cfg/server.cfg，可自行調整
 		```php
 		// Spitter 移動速度 (預設: 210, 最大: 450)
-		z_spitter_speed  210
+		sm_cvar z_spitter_speed  210
+		```
 </details>

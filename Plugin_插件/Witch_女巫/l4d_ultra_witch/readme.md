@@ -1,0 +1,85 @@
+# Description | 內容
+The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
+
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* [Video | 影片展示](https://youtu.be/MVJp78Fmils)
+
+* Image | 圖示
+	* Send the survivor flying
+        > 抓飛倖存者
+        <br/>![l4d_ultra_witch_1](image/l4d_ultra_witch_1.gif)
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2023-2-24)
+		* Request by 小颯
+		* Remake Code
+		* Individual plugin
+		* Auto generate cfg
+		* Add cvar
+
+	* v1.2.2
+		* [From SirPlease/L4D2-Competitive-Rewor](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_ultra_witch.sp)
+</details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_ultra_witch.cfg
+		```php
+		// If 1, The Witch's hit sends survivor flying.
+		l4d_ultra_witch_flying "1"
+
+		// If 1, Instantly incap survivor if witch's hit damage is greater than or equal to survivor hard health
+		l4d_ultra_witch_hard_health_realism "0"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	None
+</details>
+
+* <details><summary>Related Official ConVar</summary>
+
+	* Write down the follong cvars in cfg/server.cfg
+		```php
+		// This command sets the amount of damage a witch attack deals (Default: 100)
+		sm_cvar z_witch_damage 50
+		```
+</details>
+
+- - - -
+# 中文說明
+Witch不會一抓倒地，而是擊飛倖存者
+
+* 原理
+	* 使用官方指令修改Witch的傷害，Witch不會一抓倒地或死亡而是擊飛目標倖存者
+
+* 用意在哪?
+	* 在RPG伺服器當中，倖存者的血量破百，容易殺死Witch
+	* 取消秒殺或倒地，增加遊戲樂趣
+
+* 功能
+	* 可設置擊飛開關
+	* 可設置開關，當Witch傷害大於目標倖存者的實血則秒殺或倒地
+
+* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
+
+	* 以下指令寫入文件 cfg/server.cfg，可自行調整
+		```php
+		// Witch攻擊一次站立的倖存者的傷害 (預設: 100)
+		sm_cvar z_witch_damage 50
+		```
+</details>

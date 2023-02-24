@@ -145,6 +145,8 @@ My Unpublic Private Plugin (Charge)
     * (公開) 當有人在背後驚嚇Witch，Witch會秒轉身攻擊
   * [l4d_witch_realism_door_fix](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_witch_realism_door_fix): Fixing witch can't break the door on Realism Normal、Advanced、Expert
     * (公開) 修正Witch在寫實模式下的一般難度、進階難度、專家難度，無法抓破門
+  * [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
+    * Witch不會一抓倒地，而是擊飛倖存者
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
