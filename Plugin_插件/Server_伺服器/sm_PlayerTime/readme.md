@@ -10,12 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br>None
 
 * Image | 圖示
-	* image 1
+	* Name, country, city, play time
 	<br/>![sm_PlayerTime_1](image/sm_PlayerTime_1.jpg)
-	* image 2
-	<br/>![sm_PlayerTime_2](image/sm_PlayerTime_2.jpg)
-	* image 3
-	<br/>![sm_PlayerTime_3](image/sm_PlayerTime_3.jpg)
 
 * Apply to | 適用於
 	```
@@ -31,6 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.0 (2023-2-26)
+		* Add country and city
 
 	* v1.9 (2023-2-21)
 		* Remake code and require SteamWorks

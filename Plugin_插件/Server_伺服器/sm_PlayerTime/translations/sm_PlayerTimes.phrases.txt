@@ -38,26 +38,50 @@
 	}
 	"Notify_Unknown_Steam"
 	{
-		"en"	"{olive}%N{default} has joined server，total time played: {green}Unknown (Steam)"
-		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}Unknown (Steam)"
-		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}Unknown (Steam)"
+		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}Unknown (Steam)"
+		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Steam)"
+		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}Unknown (Steam)"
 	}
 	"Notify_Time_Steam"
 	{
-		"en"	"{olive}%N{default} has joined server，total time played: {green}%d hr %d min (Steam)"
-		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Steam)"
-		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Steam)"
+		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}%d hr %d min (Steam)"
+		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Steam)"
+		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Steam)"
 	}
 	"Notify_Unknown_Game"
 	{
-		"en"	"{olive}%N{default} has joined server，total time played: {green}Unknown (Game Stats)"
-		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
-		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
+		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}Unknown (Game Stats)"
+		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
+		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
 	}
 	"Notify_Time_Game"
 	{
-		"en"	"{olive}%N{default} has joined server，total time played: {green}%d hr %d min (Game Stats)"
-		"zho"	"{olive}%N{default} 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Game Stats)"
-		"chi"	"{olive}%N{default} 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Game Stats)"
+		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}%d hr %d min (Game Stats)"
+		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Game Stats)"
+		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Game Stats)"
 	}
+    "LAN Country Desc"
+    {
+        "en"        "Local Network"
+        "zho"       "區域網路"
+        "chi"       "区域网路"
+    }
+    "Unknown Country Desc"
+    {
+        "en"        "Unknown Country"
+        "zho"       "未知國家"
+        "chi"       "未知国家"
+    }
+    "LAN City Desc"
+    {
+        "en"        "Local City"
+        "zho"       "當地城市"
+        "chi"       "当地城市"
+    }
+    "Unknown City Desc"
+    {
+        "en"        "Somewhere"
+        "zho"       "未知城市"
+        "chi"       "未知城市"
+    }
 }
