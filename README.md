@@ -226,7 +226,7 @@ My Unpublic Private Plugin (Charge)
   * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
     * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
-    * 戰役模式通關之時回復並設定倖存者血量
+    * 戰役模式通關之時恢复並設定倖存者血量
   * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
@@ -260,7 +260,7 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>Survival | 生存模式</b></summary> 
 
   * [survival_hp](/Plugin_插件/Survival_生存模式/survival_hp): Restore Health when survival begins.
-    * 生存模式計時開始時候，回復所有倖存者血量
+    * 生存模式計時開始時候，恢复所有倖存者血量
   * [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
     * 打開菜單傳送地圖上所有物品到身邊
   * [who_shot_gas](/Plugin_插件/Survival_生存模式/who_shot_gas): Type !gas to disaply who shot the last gas can.
@@ -274,7 +274,7 @@ My Unpublic Private Plugin (Charge)
   * [l4d_survival_min_si_require](/Plugin_插件/Survival_生存模式/l4d_survival_min_si_require): Display Minimum SI requirement for full-team on each survival map.
     * 在聊天欄顯示該生存地圖的最少特感擊殺數
   * [l4d_survival_auto_recover](/Plugin_插件/Survival_生存模式/l4d_survival_auto_recover): Auto save survivors if incapacitated or hanging from ledge before survival begins
-    * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並回復所有血量
+    * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢复所有血量
 </details>
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>

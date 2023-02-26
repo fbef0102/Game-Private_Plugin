@@ -595,7 +595,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 			快速購買特感特殊物品
 			{
-				"!buy Health" 	-> 滿血回復
+				"!buy Health" 	-> 滿血恢复
 				"!buy Teleport" -> 異時空傳送門
 				"!buy Immune" 	-> God 上帝模式
 				"!buy Horde" 	-> 屍潮降臨
@@ -703,7 +703,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![Ice_World](image/Ice_World.jpg)
 
 	* **特感商品**
-		* 滿血回復
+		* 滿血恢复
 
 		* 屍潮降臨
 

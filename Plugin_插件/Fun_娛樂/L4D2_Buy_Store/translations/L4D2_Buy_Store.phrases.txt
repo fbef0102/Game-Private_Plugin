@@ -1442,7 +1442,7 @@
 	{
 		"en"	"Give full health"
 		"pt"	"Saúde 100%"
-		"zho"	"滿血回復"
+		"zho"	"滿血恢复"
 		"chi"	"满血回复"
 		"es"	"Dar salud completa"
 		"ru"	"Полное здоровье"
