@@ -207,6 +207,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
   * [l4d_medkit_status](/Plugin_插件/Items_物品/l4d_medkit_status): Report Personal Medkit Status when player used Medkits
     * 使用治療包時提示個人的治療包使用數量與狀態
+  * [who_shot_gas](/Plugin_插件/Items_物品/who_shot_gas): Type !gas to disaply who shot the last gas can. + Announce when gas can being shot.
+    * 誰他馬打爆汽油桶
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -263,8 +265,6 @@ My Unpublic Private Plugin (Charge)
     * 生存模式計時開始時候，恢复所有倖存者血量
   * [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
     * 打開菜單傳送地圖上所有物品到身邊
-  * [who_shot_gas](/Plugin_插件/Survival_生存模式/who_shot_gas): Type !gas to disaply who shot the last gas can.
-    * 誰他馬打爆最後一個汽油桶
   * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator or player changes team after survival begins, he can not get the survival time record.
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
   * [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts

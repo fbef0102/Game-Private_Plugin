@@ -1,0 +1,44 @@
+"Phrases"
+{
+	"There are no gas cans been shot yet."
+	{
+		"en"		"[{olive}TS{default}] There are no gas cans been shot yet."
+		"zho"		"[{olive}TS{default}] 還沒有汽油桶被擊中"
+		"chi"		"[{olive}TS{default}] 还没有汽油桶被击中"
+	}
+	"SHOT_GAS_1"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}gas can"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}最後一個汽油桶"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}最后一个汽油桶"
+	}
+	"SHOT_GAS_2"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}2nd gas can"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第二個汽油桶"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第二个汽油桶"
+	}
+	"SHOT_GAS_3"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}3rd gas can"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第三個汽油桶"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第三个汽油桶"
+	}
+	"SHOT_GAS_4"
+	{
+		"#format"	"{1:s}, {2:d}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}{2}th gas can"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第{2}個汽油桶"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第{2}个汽油桶"
+	}
+	"SHOT_GAS_WHO"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} shot {green}the gas can"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}一個汽油桶"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}一个汽油桶"
+	}
+}
