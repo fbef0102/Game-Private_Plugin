@@ -9,15 +9,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message
-    > 顯示膽汁效果無效
-	<br/>![l4d2_bile_out_nav_negate_createbot_1](image/l4d2_bile_out_nav_negate_createbot_1.jpg)
+		> 顯示膽汁效果無效
+		<br/>![l4d2_bile_out_nav_negate_createbot_1](image/l4d2_bile_out_nav_negate_createbot_1.jpg)
 
 * Apply to | 適用於
-```
-L4D2
-```
+	```
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1
+		* Translation Support
 
 	* v1.0
 	    * Original Request by 壹梦
@@ -31,10 +41,10 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_bile_out_nav_negate.cfg
-	```php
-    // Enable/Disable the plugin.
-    l4d2_bile_out_nav_negate_enable "1"
-	```
+		```php
+		// Enable/Disable the plugin.
+		l4d2_bile_out_nav_negate_enable "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -54,6 +64,9 @@ Not 100% successful everywhere, few positions are still bugged
     * 當膽汁瓶落地時會生出一個假Bot然後判斷假Bot可否到達膽汁瓶的位置，如果無法抵達，將刪除膽汁的效果 (膽汁的綠煙還在)
 
 * 功能
-	1. 90%大部分的地圖都能判斷成功
-    2. 不是每個地方都能100%成功，受到地圖的NAV與地形影響
+	* 開關插件
+
+> __Warning__ <br/>
+90%大部分的地圖都能判斷成功<br/>
+不是每個地方都能100%成功，受到地圖的NAV與地形影響
 

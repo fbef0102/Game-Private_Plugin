@@ -1,0 +1,147 @@
+"Phrases"
+{
+// The following uses bracket style color tags (see colors.inc)
+	"PanelHide"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+		"chi"		"[{olive}Readyup{default}] 准备面板已 {red}关闭{default}"
+		"zho"		"[{olive}Readyup{default}] 準備介面已 {red}關閉{default}"
+	}
+	
+	"PanelShow"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+		"chi"		"[{olive}Readyup{default}] 准备面板已 {blue}开启{default}"
+		"zho"		"[{olive}Readyup{default}] 準備介面已 {blue}開啟{default}"
+	}
+	
+	"ForceStartAdmin"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+		"chi"		"[{green}!{default}] {blue}大佬 {default}({olive}{1}{default}) {green}强制{default}了{blue}游戏开始"
+		"zho"		"[{green}!{default}] {blue}管理員 {default}({olive}{1}{default}) {green}強制{default}了{blue}遊戲開始"
+	}
+	
+	"VoteInProgress"
+	{
+		"en"		"[{olive}Readyup{default}] There's {olive}a vote {green}in progress{default}."
+		"chi"		"[{olive}Readyup{default}] 现在有{olive}投票{green}正在进行{default}"
+		"zho"		"[{olive}Readyup{default}] 現在有{olive}投票{green}正在進行{default}"
+	}
+	
+	"VoteDelay"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}Readyup{default}] Wait for another {blue}{1}s {default}to call a vote."
+		"chi"		"[{olive}Readyup{default}] 请等待 {blue}{1}秒 {default}以发起下一轮投票"
+		"zho"		"[{olive}Readyup{default}] 請等待 {blue}{1}秒 {default}才能發起下一輪投票"
+	}
+	
+	"Player marked unready"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}marked unready{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {green}取消了准备{default})"
+		"zho"		"{default}[{green}!{default}] {green}倒數中止！ {default}({teamcolor}{1} {green}取消了準備{default})"
+	}
+	
+	"Player switched team"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {olive}切换了阵营{default})"
+		"zho"		"{default}[{green}!{default}] {green}倒數中止！ {default}({teamcolor}{1} {olive}切換了隊伍陣營{default})"
+	}
+	
+	"Player disconnected"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {green}离开了游戏{default})"
+		"zho"		"{default}[{green}!{default}] {green}倒數中止！ {default}({teamcolor}{1} {green}離開了遊戲{default})"
+	}
+	
+	"Admin aborted"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+		"chi"		"{default}[{green}!{default}] {green}叫停强制开始！ {default}({green}由 {olive}{1} {green}发起{default})"
+		"zho"		"{default}[{green}!{default}] {green}強制停止開始！ {default}({green}{olive}{1} {green}有問題{default})"
+	}
+	
+	
+// The following are not allowed to use any color tag
+	"HintReady"
+	{
+		"en"		"You are ready.\nSay !unready / Press F2 to unready."
+		"chi"		"你已经准备了\n输入 !unready / 按 F2 取消准备"
+		"zho"		"你已經準備了\n輸入 !unready / 按 F2 取消準備"
+	}
+	
+	"HintUnready"
+	{
+		"en"		"You are not ready.\nSay !ready / Press F1 to ready up."
+		"chi"		"你还没有准备\n输入 !ready / 按 F1 确认准备"
+		"zho"		"你還沒有準備\n輸入 !ready / 按 F1 確認准備"
+	}
+	
+	"LiveCountdownBegin"
+	{
+		"en"		"Going live!\nSay !unready / Press F2 to cancel"
+		"chi"		"比赛即将开始！\n输入 !unready / 按 F2 中断倒数"
+		"zho"		"比賽即將開始！\n輸入 !unready / 按 F2 中斷倒數"
+	}
+	
+	"LiveCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Live in: {1}\nSay !unready / Press F2 to cancel"
+		"chi"		"请各就各位：{1} \n输入 !unready / 按 F2 中断倒数"
+		"zho"		"請各就各位：{1} \n輸入 !unready / 按 F2 中斷倒數"
+	}
+	
+	"LiveCountdownCancelled"
+	{
+		"en"		"Countdown Cancelled!"
+		"chi"		"倒数中止！"
+		"zho"		"倒數中止！"
+	}
+	
+	"RoundIsLive"
+	{
+		"en"		"Round is live!"
+		"chi"		"对局开始！"
+		"zho"		"遊戲回合開始！"
+	}
+	
+	"InitiateAutoStart"
+	{
+		"en"		"Game will automatically start!"
+		"chi"		"对局将会自动开始！"
+		"zho"		"回合將會自動開始！"
+	}
+	
+	"AutoStartCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Game starts in: {1}"
+		"chi"		"对局开始于：{1}"
+		"zho"		"回合開始於：{1}"
+
+	}
+	
+	"AutoStartWaiting"
+	{
+		"en"		"Waiting for loading players..."
+		"chi"		"等待玩家加入..."
+		"zho"		"等待玩家加入..."
+	}
+	
+	"AutoStartNotEnoughPlayers"
+	{
+		"en"		"More players are required..."
+		"chi"		"玩家数量不足..."
+		"zho"		"玩家數量不足..."
+	}
+}
