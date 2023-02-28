@@ -57,6 +57,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* Vomit Recovery: Recovery Boomer vomit cd when get shoved or get hurt by survivor
 			* Explode FlashBang: Flashbang effect when the boomer explodes.
 		* Translation Support
+		* Replace Gamedata with left4dhooks
 
 	* v1.2a
 		* [Marttt's fork](https://forums.alliedmods.net/showpost.php?p=2645757&postcount=51)

@@ -42,6 +42,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance
 		* Delete "Bacterial Feet ability", "Marionette ability", "Rodeo Jump ability", they cause too many bugs.
+		* Replace Gamedata with left4dhooks
 
 	* v1.3
 		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234267)
@@ -58,6 +59,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Jockey 真人玩家騎人的時候，可以按空白鍵跳高
 	3. [Jockey Ride Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on Jockey ride
 		> 被Jockey騎的時候致盲
+	4. [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding survivors after they would be incapacitated
+		> Jockey可以繼續騎即將要倒地的倖存者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -97,7 +100,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Human Shield Calculation Formula</summary>
 	
-	> Example: Jockey gets AWP shot while ridding a survivor<br/>
+	> Example: Jockey gets AWP shot while riding a survivor<br/>
 	AWP 1 shot damage = 90<br/>
 	Jockey receive damage = 90 * 0.7 = 63<br/>
 	Survivor receive damage = 63 / 30.0 = 2.1<br/>
@@ -115,7 +118,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Jockey Movement Speed (default: 250, maximum: 450)
 		sm_cvar z_jockey_speed 		"250"
 
-		// Jockey Ridding Speed, speed = survivor speed * 0.8 (default: 0.8, maximum: 1.0)
+		// Jockey Riding Speed, speed = survivor speed * 0.8 (default: 0.8, maximum: 1.0)
 		sm_cvar z_jockey_control_max "0.8"
 		sm_cvar z_jockey_control_min "0.8"
 		```

@@ -39,6 +39,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Optimize code and improve performance
 		* Rename all cvars
 		* Delete "Acidic Slobber ability", "Acidic Splash".
+		* Replace Gamedata with left4dhooks
 
 	* v1.5
 		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=122802)
