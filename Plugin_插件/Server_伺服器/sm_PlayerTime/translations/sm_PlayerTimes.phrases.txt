@@ -18,47 +18,33 @@
 		"zho"	"此服務器不允許隱藏個人資料的玩家加入."
 		"chi"	"此服务器不允许隐藏个人资料的玩家加入。"
 	}
-	"Display_Time_Steam"
-	{
-		"en"	"%N's time played on record: %d hrs %d mins. (Steam)"
-		"zho"	"%N 的遊戲總時數: %d 小時 %d 分. (Steam)"
-		"chi"	"%N 的游戏总时数: %d 小时 %d 分. (Steam)"
-	}
 	"Display_Time_Game"
 	{
-		"en"	"%N's time played on record: %d hrs %d mins. (Game Stats)"
-		"zho"	"%N 的遊戲總時數: %d 小時 %d 分. (Game Stats)"
-		"chi"	"%N 的游戏总时数: %d 小时 %d 分. (Game Stats)"
+		"#format"		"{1:N},{2:d},{3:d}"
+		"en"	"{1}'s time played on record: {2} hrs {3} mins. (Game Stats)"
+		"zho"	"{1} 的遊戲總時數: {2} 小時 {3} 分. (Game Stats)"
+		"chi"	"{1} 的游戏总时数: {2} 小时 {3} 分. (Game Stats)"
 	}
 	"Display_Unknown"
 	{
-		"en"	"%N's time played on record: Unknown."
-		"zho"	"%N 的遊戲總時數: 未知"
-		"chi"	"%N 的游戏总时数: 未知"
-	}
-	"Notify_Unknown_Steam"
-	{
-		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}Unknown (Steam)"
-		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Steam)"
-		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}Unknown (Steam)"
-	}
-	"Notify_Time_Steam"
-	{
-		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}%d hr %d min (Steam)"
-		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Steam)"
-		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Steam)"
+		"#format"		"{1:N}"
+		"en"	"{1}'s time played on record: Unknown."
+		"zho"	"{1} 的遊戲總時數: 未知"
+		"chi"	"{1} 的游戏总时数: 未知"
 	}
 	"Notify_Unknown_Game"
 	{
-		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}Unknown (Game Stats)"
-		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
-		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
+		"#format"		"{1:N},{2:s},{3:s},{4:.1f}" //1=Name, 2=Country, 3=City, 4=Lerp
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown{default} | Lerp: {green}{4} (Game Stats)"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown | Lerp: {green}{4} (Game Stats)"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown | Lerp: {green}{4} (Game Stats)"
 	}
 	"Notify_Time_Game"
 	{
-		"en"	"{olive}%N{default} ({lightgreen}%s, %s{default}) has joined server，total time played: {green}%d hr %d min (Game Stats)"
-		"zho"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了伺服器，遊戲總時數: {green}%d 小時 %d 分 (Game Stats)"
-		"chi"	"{olive}%N{default} ({lightgreen}%s, %s{default}) 加入了服务器，游戏总时数: {green}%d 小时 %d 分 (Game Stats)"
+		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d},{6:.1f}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min, 6=Lerp
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min{default} | Lerp: {green}{6} (Game Stats)"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分{default} | Lerp: {green}{6} (Game Stats)"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分{default} | Lerp: {green}{6} (Game Stats)"
 	}
     "LAN Country Desc"
     {

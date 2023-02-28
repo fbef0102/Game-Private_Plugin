@@ -37,6 +37,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2023-3-1)
+		* Request by JACK
+		* Add cvars
+			```php
+			// If 1, Ignore gas can if ignited by fire
+			who_shot_gas_ignore_fire "0"
+
+			// If 1, Ignore gas can if ignited by special infected (Ex. Spitter)
+			who_shot_gas_ignore_infected "1"
+			```
+
 	* v1.2 (2023-2-28)
 		* Request by JACK
 		* Add Commands, 
@@ -74,6 +85,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Ignore gas can being shot before game starts (Survival/Scavenge)
 		who_shot_gas_ignore "1"
+
+		// If 1, Ignore gas can if ignited by fire
+		who_shot_gas_ignore_fire "0"
+
+		// If 1, Ignore gas can if ignited by special infected (Ex. Spitter)
+		who_shot_gas_ignore_infected "1"
 
 		// Output to the chat last X players to explodes (last hit) a gascan. (0=OFF)
 		who_shot_gas_number "5"
