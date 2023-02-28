@@ -9,30 +9,30 @@
 	"SHOT_GAS_1"
 	{
 		"#format"	"{1:s}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}gas can"
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}最後一個汽油桶"
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}最后一个汽油桶"
+		"en"		"[{olive}!{default}] {olive}{1}{default} shot the last {green}gas can"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 摧毀了 {green}最後一個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 摧毁了 {green}最后一个汽油桶"
 	}
 	"SHOT_GAS_2"
 	{
 		"#format"	"{1:s}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}2nd gas can"
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第二個汽油桶"
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第二个汽油桶"
+		"en"		"[{olive}!{default}] {olive}{1}{default} shot the last {green}2nd gas can"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 摧毀了 {green}倒數第二個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 摧毁了 {green}倒数第二个汽油桶"
 	}
 	"SHOT_GAS_3"
 	{
 		"#format"	"{1:s}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}3rd gas can"
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第三個汽油桶"
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第三个汽油桶"
+		"en"		"[{olive}!{default}] {olive}{1}{default} shot the last {green}3rd gas can"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 摧毀了 {green}倒數第三個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 摧毁了 {green}倒数第三个汽油桶"
 	}
 	"SHOT_GAS_4"
 	{
-		"#format"	"{1:s}, {2:d}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} shot the last {green}{2}th gas can"
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}倒數第{2}個汽油桶"
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}倒数第{2}个汽油桶"
+		"#format"	"{1:s},{2:d}"
+		"en"		"[{olive}!{default}] {olive}{1}{default} shot the last {green}{2}th gas can"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 摧毀了 {green}倒數第{2}個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 摧毁了 {green}倒数第{2}个汽油桶"
 	}
 	"SHOT_GAS_WHO"
 	{
@@ -40,5 +40,24 @@
 		"en"		"[{olive}TS{default}] {olive}{1}{default} shot {green}the gas can"
 		"zho"		"[{olive}TS{default}] {olive}{1}{default} 摧毀了 {green}一個汽油桶"
 		"chi"		"[{olive}TS{default}] {olive}{1}{default} 摧毁了 {green}一个汽油桶"
+	}
+	"DESTORY_GAS"
+	{
+		"#format"	"{1:N},{2:d}"
+		"en"		"[{olive}!{default}] {olive}{1}{default} has destoryed {green}{2}{default} gas can"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 總共摧毀了 {green}{2}{default} 個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 总共摧毁了 {green}{2}{default} 个汽油桶"
+	}
+	"Who Shot Last Gas"
+	{
+		"en"		"[{olive}TS{default}] Who Shot Last Gas:"
+		"zho"		"[{olive}TS{default}] 打爆最後的汽油桶列表:"
+		"chi"		"[{olive}TS{default}] 打爆最后的汽油桶列表:"
+	}
+	"DESTORY_GAS_Stats"
+	{
+		"en"		"[{olive}TS{default}] Destory Gas Stats:"
+		"zho"		"[{olive}TS{default}] 摧毀汽油桶列表:"
+		"chi"		"[{olive}TS{default}] 摧毁汽油桶列表:"
 	}
 }

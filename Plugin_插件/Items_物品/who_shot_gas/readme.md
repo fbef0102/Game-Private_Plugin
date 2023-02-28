@@ -12,12 +12,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* who is the culprit
 		> 打爆汽油桶的兇手
 		<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
-	* display the last players who shot the gas
-		> 顯示最後幾位引爆汽油桶的玩家
+	* display the last players who shot the gas (Survival Only)
+		> 顯示最後幾位引爆汽油桶的玩家 (僅限生存模式)
 		<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
 	* announce message when player destroyed the gas
 		> 即時顯示
-		<br/>![who_shot_gas_2](image/who_shot_gas_3.jpg)
+		<br/>![who_shot_gas_3](image/who_shot_gas_3.jpg)
+	* display all players' gascan destroyed stats. (L4D2 Scavenge Only)
+		> 顯示玩家摧毀汽油桶的數量 (僅限清道夫模式)
+		<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
 
 * Apply to | 適用於
 	```
@@ -33,6 +36,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2023-2-28)
+		* Request by JACK
+		* Add Commands, 
+			```php
+			sm_surgas, "Output to the chat the last player to explodes (last hit) a gascan. (Survival Only)"
+
+			sm_scavgas, "Output to the chat all players' gascan destroyed stats. (L4D2 Scavenge Only)"
+			```
 
 	* v1.1 (2023-2-28)
 		* Request by JACK
@@ -70,9 +82,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 	
-	* **Output to the chat the last player to explodes (last hit) a gascan.**
+	* **Output to the chat the last player to explodes (last hit) a gascan. (Survival Only)**
 		```php
-		sm_gas
+		sm_surgas
+		```
+
+	* **Output to the chat all players' gascan destroyed stats. (L4D2 Scavenge Only)**
+		```php
+		sm_scavgas
 		```
 </details>
 
