@@ -279,6 +279,12 @@ My Unpublic Private Plugin (Charge)
     * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢复所有血量
 </details>
 
+* <details><summary><b>Scavenge | 清道夫模式</b></summary> 
+
+  * [l4d2_scavenge_special_rule_end](/Plugin_插件/Scavenge_清道夫模式/l4d2_scavenge_special_rule_end): Display Scavenge score and time, checks various win conditions mid-round and forece end if necessary.
+    * 顯示回合分數與時間，清道夫模式下新增不同的特殊勝利規則
+</details>
+
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
   * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him

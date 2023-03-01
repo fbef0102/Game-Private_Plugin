@@ -143,6 +143,7 @@
 	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
 
 	5. Put mmdb database files to path addons/sourcemod/configs/geoip/ folder
+	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
 	
 	6. Recompile all plugins that use geoip.inc, done.
 

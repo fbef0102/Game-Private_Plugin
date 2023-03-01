@@ -1,0 +1,56 @@
+"Phrases"
+{
+	"FIRST_HALF"
+	{
+		"en"		"    First"
+		"zho"		"前半"
+		"chi"		"前轮"
+	}
+
+	"SECOND_HALF"
+	{
+		"en"		"Second"
+		"zho"		"後半"
+		"chi"		"后轮"
+	}
+
+	"Display"
+	{
+		"#format"	"{1:i},{2:t},{3:d},{4:.1f},{5:d},{6:05.2f}"
+		"en"		"[{red}TIME{default}] #R{green}{1} {default}{2} - Gas: {green}{3}{default} <{olive}{4}%%{default}>, Time: {olive}{5}:{6}"
+		"zho"		"[{red}TIME{default}] #回合{green}{1} {default}{2} - 汽油桶: {green}{3}{default} <{olive}{4}%%{default}>, 花費時間: {olive}{5}:{6}"
+		"chi"		"[{red}TIME{default}] #回合{green}{1} {default}{2} - 汽油桶: {green}{3}{default} <{olive}{4}%%{default}>, 花费时间: {olive}{5}:{6}"
+	}
+	
+	"EndRoundEarlyOnTime"
+	{
+		"#format"	"{1:i}"
+		"en"		"[{olive}Scavenge{default}] #R{green}{1} {default}force ended early [{lightgreen}win condition{default}]"
+		"zho"		"[{olive}Scavenge{default}] #回合{green}{1} {default}強制提早結束 [{lightgreen}特殊規則獲勝{default}]"
+		"chi"		"[{olive}Scavenge{default}] #回合{green}{1} {default}强制提早结束 [{lightgreen}特殊规则获胜{default}]"
+	}
+
+	"EndRoundEarlyOnTime_ZeroGasLiveWin" //雙方倒入0桶，後輪活得比前輪久一秒，強制結束回合，後輪隊伍獲勝
+	{
+		"#format"	"{1:i}"
+		"en"		"[{olive}Scavenge{default}] #{green}{1} {default}force ended early [{lightgreen}Both Team Zero Gas, but second team lives longer{default}]"
+		"zho"		"[{olive}Scavenge{default}] #回合{green}{1} {default}強制提早結束 [{lightgreen}雙方倒入0桶，後半回合隊伍存活時間比較長{default}]"
+		"chi"		"[{olive}Scavenge{default}] #回合{green}{1} {default}强制提早结束 [{lightgreen}双方倒入0桶，后轮队伍存活时间比较长{default}]"
+	}
+
+	"EndRoundEarlyOnTime_NotFillSameGas_WithinTimeWin"  //前輪有倒入油桶，後輪尚未在相同時間內倒入相同數量的油桶，強制結束回合，前輪隊伍獲勝
+	{
+		"#format"	"{1:i}"
+		"en"		"[{olive}Scavenge{default}] #{green}{1} {default}force ended early [{lightgreen}Second Team does not fill the same number of gascan within same time{default}]"
+		"zho"		"[{olive}Scavenge{default}] #回合{green}{1} {default}強制提早結束 [{lightgreen}尚未在相同時間內倒入相等數量的油桶{default}]"
+		"chi"		"[{olive}Scavenge{default}] #回合{green}{1} {default}强制提早结束 [{lightgreen}尚未在相同时间内倒入相等数量的油桶{default}]"
+	}
+
+	"EndRoundEarlyOnTime_FillSameGas_LessTimeWin" //雙方倒入相同的油桶數且地圖上還剩餘油桶，後輪所花費的時間比前輪短，強制結束回合，後輪隊伍獲勝
+	{
+		"#format"	"{1:i}"
+		"en"		"[{olive}Scavenge{default}] #{green}{1} {default}force ended early [{lightgreen}Second Team fill the same number of gascan but cost less time{default}]"
+		"zho"		"[{olive}Scavenge{default}] #回合{green}{1} {default}強制提早結束 [{lightgreen}倒入相等數量的油桶，但花費時間比較短{default}]"
+		"chi"		"[{olive}Scavenge{default}] #回合{green}{1} {default}强制提早结束 [{lightgreen}倒入相等数量的油桶，但花费时间比较短{default}]"
+	}
+}

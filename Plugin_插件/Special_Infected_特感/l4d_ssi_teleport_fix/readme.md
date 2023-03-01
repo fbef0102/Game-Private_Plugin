@@ -81,26 +81,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
 
 * 原理
-    * <details><summary>以下面的指令解釋 (點我展開)</summary>
-
-        > 效果: 當有AI特感Hunter距離倖存者800公尺之外，且有另一隻特感Jockey位於距離倖存者150 ~ 700 公尺之間，將Hunter傳送到Jockey身邊
-        ```php
-        // Infected player will be teleported if his distance from survivors is outside this range.
-        ssitp_tp1_range "800"
-
-        // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
-        ssitp_tp2_range_max "700"
-
-        // Teleport to the Infected player whose distance from survivors is outside min range
-        ssitp_tp2_range_min "150"
-        ```
-
-        > 效果: 特感只傳送到距離最前方的倖存者比較近的特感
-        ```php
-        // If 1, infected players will be teleported to the only player who is near the first ahead survivor.
-        ssitp_tp2_near_ahead_survivor "1"
-        ```
-    </details>
+    * 比較遠的特感傳送到距離倖存者比較近的特感身上
 
 * 用意在哪?
     * 可配合多特感插件使得每一波特感的攻擊對倖存者造成巨大的壓力
@@ -113,3 +94,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     3. 不會傳送真人特感玩家，但會把AI特感傳送到真人特感玩家
     4. 可設置就算被人類看到也要傳送特感
     5. 可設置傳送距離
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    ```php
+    // 可傳送Boommer到Tank身上?
+    ssitp_boomer2tank "0"
+
+    // 每1.0秒檢查所有特感並傳送
+    ssitp_check_interval "1.0"
+
+    // 傳送一次後，經過2.0秒後才可在被傳送一次
+    ssitp_tp1_cooltime "2.0"
+
+    // 被傳送後的無敵時間
+    ssitp_tp1_god_time "0.6"
+
+    // 一次可以傳送兩隻特感
+    ssitp_tp1_limit "2"
+
+    // 為1時，特感只傳送到距離最前方的倖存者比較近的特感
+    ssitp_tp2_near_ahead_survivor "1"
+
+    // 為1時，就算被倖存者看到也要傳送特感
+    ssitp_tp2_visiblethreats "1"
+    ```
+
+    > 以下指令效果: 當有AI特感Hunter距離倖存者800公尺之外，且有另一隻特感Jockey位於距離倖存者150 ~ 700 公尺之間，將Hunter傳送到Jockey身邊
+    ```php
+    // Infected player will be teleported if his distance from survivors is outside this range.
+    ssitp_tp1_range "800"
+
+    // Teleport to the Infected player whose distance from survivors is inside max range, value must less than or equal to 'ssitp_tp1_range'.
+    ssitp_tp2_range_max "700"
+
+    // Teleport to the Infected player whose distance from survivors is outside min range
+    ssitp_tp2_range_min "150"
+    ```
+</details>
