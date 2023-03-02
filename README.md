@@ -381,12 +381,21 @@ My Unpublic Private Plugin (Charge)
     * 輸入指令一次處死多個Bots
 </details>
 
+###### **CS Plugin List | CSS插件列表**
+* <details><summary><b>Server | 伺服器</b></summary>
+
+  * [css_texture_manager_block](/CS_插件/Server_伺服器/css_texture_manager_block): Kicks out clients who are potentially attempting to enable mathack
+    * 踢出可能試圖使用作弊指令的客戶
+</details>
+
 - - - -
 
 # 公開的插件列表 Public Plugins List
 * [惡靈勢力一代插件 L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
 * [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+* [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+* [CS:S插件作品列表 CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
 
 - - - -
 # 自我介紹
@@ -414,12 +423,13 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>其他作品</b></summary>
 
-  * [一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
-  * [二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
-  * [一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
-  * [一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
-  * [二代伺服器架設檔案](https://github.com/fbef0102/L4D2-Server4Dead)
-  * [二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [惡靈勢力一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
+  * [惡靈勢力二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
+  * [惡靈勢力一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
+  * [惡靈勢力一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
+  * [惡靈勢力二代伺服器架設檔案](https://github.com/fbef0102/L4D2-Server4Dead)
+  * [惡靈勢力二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [CS:S插件作品列表](https://github.com/fbef0102/CSS-Plugins)
 </details>
 
 - - - -
@@ -485,6 +495,7 @@ My Unpublic Private Plugin (Charge)
   * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
   * [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
   * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
 </details>
 
 - - - -
