@@ -388,6 +388,18 @@ My Unpublic Private Plugin (Charge)
     * 踢出可能試圖使用作弊指令的客戶
 </details>
 
+* <details><summary><b>Hostage | 人質</b></summary>
+
+  * [css_hostage_invulnerable](/CS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
+    * 人質不會受傷死亡
+</details>
+
+* <details><summary><b>Map | 關卡</b></summary>
+
+  * [l4d_restartmap_command](/Plugin_插件/Map_關卡/l4d_restartmap_command): Admin say !restartmap to restart current map 
+    * 管理員輸入!restartmap能重新地圖關卡
+</details>
+
 - - - -
 
 # 公開的插件列表 Public Plugins List
