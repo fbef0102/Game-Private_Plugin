@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/2/23 updated
+> 2023/3/3 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -381,7 +381,7 @@ My Unpublic Private Plugin (Charge)
     * 輸入指令一次處死多個Bots
 </details>
 
-###### **CS Plugin List | CSS插件列表**
+###### **CS Plugin List | CS插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
   * [css_texture_manager_block](/CS_插件/Server_伺服器/css_texture_manager_block): Kicks out clients who are potentially attempting to enable mathack
