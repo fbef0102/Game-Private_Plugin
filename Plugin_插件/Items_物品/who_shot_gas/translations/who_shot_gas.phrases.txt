@@ -43,10 +43,10 @@
 	}
 	"DESTORY_GAS"
 	{
-		"#format"	"{1:N},{2:d}"
-		"en"		"[{olive}!{default}] {olive}{1}{default} has destoryed {green}{2}{default} gas can"
-		"zho"		"[{olive}!{default}] {olive}{1}{default} 總共摧毀了 {green}{2}{default} 個汽油桶"
-		"chi"		"[{olive}!{default}] {olive}{1}{default} 总共摧毁了 {green}{2}{default} 个汽油桶"
+		"#format"	"{1:N},{2:d},{3:d},{4:d}"
+		"en"		"[{olive}!{default}] {olive}{1}{default} has destoryed gas can, {red}Red: {2} {default}/{green} Yellow: {3} {default}/{olive} Green: {4}"
+		"zho"		"[{olive}!{default}] {olive}{1}{default} 摧毀了 {red}紅:{2} {default}/{green} 黃:{3} {default}/{olive} 綠:{4} {default}個汽油桶"
+		"chi"		"[{olive}!{default}] {olive}{1}{default} 摧毁了 {red}Red:{2} {default}/{green} 黃:{3} {default}/{olive} 绿:{4} {default}个汽油桶"
 	}
 	"Who Shot Last Gas"
 	{

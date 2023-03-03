@@ -12,14 +12,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* who is the culprit
 		> 打爆汽油桶的兇手
 		<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
-	* display the last players who shot the gas (Survival Only)
-		> 顯示最後幾位引爆汽油桶的玩家 (僅限生存模式)
+	* display the last players who shot the gas
+		> 指令!shotgas顯示
 		<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
 	* announce message when player destroyed the gas
 		> 即時顯示
 		<br/>![who_shot_gas_3](image/who_shot_gas_3.jpg)
-	* display all players' gascan destroyed stats. (L4D2 Scavenge Only)
-		> 顯示玩家摧毀汽油桶的數量 (僅限清道夫模式)
+	* display all players' gascan destroyed stats.
+		> 指令!gas顯示
 		<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
 
 * Apply to | 適用於
@@ -36,6 +36,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2023-3-4)
+		* Request by JACK
+		* Count red / yellow / green gascan separately
 
 	* v1.3 (2023-3-1)
 		* Request by JACK
@@ -80,11 +84,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/who_shot_gas.cfg
 		```php
-		// If 1, Announce when gas can being shot.
-		who_shot_gas_announce_when_destroy "1"
+		// (L4D2) If 1, Announce when green gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_green "1"
+
+		// If 1, Announce when red gas can being shot.
+		who_shot_gas_announce_when_destroy_red "1"
+
+		// (L4D2) If 1, Announce when yellow gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_yellow "1"
 
 		// If 1, Ignore gas can being shot before game starts (Survival/Scavenge)
-		who_shot_gas_ignore "1"
+		who_shot_gas_ignore_before_game "1"
 
 		// If 1, Ignore gas can if ignited by fire
 		who_shot_gas_ignore_fire "0"
@@ -99,14 +109,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 	
-	* **Output to the chat the last player to explodes (last hit) a gascan. (Survival Only)**
+	* **Output to the chat the last player to explodes (last hit) a gascan.**
 		```php
-		sm_surgas
+		sm_shotgas
 		```
 
-	* **Output to the chat all players' gascan destroyed stats. (L4D2 Scavenge Only)**
+	* **Output to the chat all players' gascan destroyed stats.**
 		```php
-		sm_scavgas
+		sm_gas
 		```
 </details>
 
@@ -119,5 +129,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 生存/清道夫模式下計時開始之前，忽略被摧毀的汽油桶
 
 * 功能
-	* 可輸入指令!gas查看誰摧毀最後幾個汽油桶
+	* 可輸入指令!shotgas查看誰摧毀最後幾個汽油桶
+	* 可輸入指令!gas查看玩家摧毀汽油桶的數量
 	* 可開關即時顯示
