@@ -388,6 +388,18 @@ My Unpublic Private Plugin (Charge)
     * 踢出可能試圖使用作弊指令的客戶
 </details>
 
+* <details><summary><b>Player | 玩家</b></summary>
+
+  * [css_team_noblock](/CS_插件/Player_玩家/css_team_noblock): Prevents collisions with teammates.
+    * 隊友可以穿透不擋路
+</details>
+
+* <details><summary><b>Weapons | 武器</b></summary>
+
+  * [css_weapon_csgo_reload](/CS_插件/Weapons_武器/css_weapon_csgo_reload): Modern weapon reload, like csgo quick reloading
+    * 將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
+</details>
+
 * <details><summary><b>Hostage | 人質</b></summary>
 
   * [css_hostage_invulnerable](/CS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
