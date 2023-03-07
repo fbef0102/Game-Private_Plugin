@@ -15,8 +15,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Run through teammates
         > 穿透隊友
         <br/>![css_team_noblock_2](image/css_team_noblock_2.gif)
-	* Grendates still collide with teammates
-        > 投擲物品不會穿透隊友
+	* Grendates fly through teammates
+        > 投擲物品穿透隊友
         <br/>![css_team_noblock_3](image/css_team_noblock_3.gif)
 
 * Apply to | 適用於
@@ -30,6 +30,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//tigerox @ 2011
 	//HarryPotter @ 2023
 	```
+    * v1.1h (2023-3-8)
+        * Grenades just fly through your own teammates.
+
     * v1.0h (2023-3-6)
         * Request by Tanja
 	    * Remake code
@@ -41,7 +44,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br/>None
+<br/None
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -49,6 +52,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```php
         // 0=Plugin off, 1=Plugin on.
         css_team_noblock_enable "1"
+
+        // If 1, Grenades just fly through your own teammates.
+        css_team_noblock_grenade_enable "1"
         ```
 </details>
 
@@ -64,9 +70,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 穿透隊友不會造成擋路
     * 只跟敵人身體有碰撞
-	* 投擲物品或丟棄的武器不會穿透隊友也不會造成隊友卡住
+	* 手榴彈可以穿透隊友
 
 * 功能
-    * 可開關
+    * 可設置手榴彈是否穿透隊友
 
 

@@ -8,7 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/gIbID8wfX8k)
 
 * Image | 圖示
-<br/>None
+	* Right Mouse to change their class
+		> 右鍵更換特感種類
+		<br/>![l4d_zcs_1.gif](image/l4d_zcs_1.gif)
 
 * Apply to | 適用於
 	```
