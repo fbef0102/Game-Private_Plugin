@@ -9,17 +9,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* punish player who said dirty word
-	> 屏蔽敏感字詞並懲罰玩家
-	<br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
+        > 屏蔽敏感字詞並懲罰玩家
+        <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 	* Ya?
-	> 示範圖
-	<br/>![sm_regexfilter_2](image/sm_regexfilter_2.jpg)
+        > 示範圖
+        <br/>![sm_regexfilter_2](image/sm_regexfilter_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -43,6 +43,8 @@ L4D2
         * 沒有隊伍頻道，任何人打字說話一律大家都看得見
     2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
         * 封鎖/禁音/禁字-強化版
+    3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
+        * 紀錄玩家的聊天紀錄到文件裡
 
 * Data Example | Data設定範例
 	* data/regexrestrict.cfg
