@@ -386,6 +386,8 @@ My Unpublic Private Plugin (Charge)
 
   * [css_texture_manager_block](/CS_插件/Server_伺服器/css_texture_manager_block): Kicks out clients who are potentially attempting to enable mathack
     * 踢出可能試圖使用作弊指令的客戶
+  * [css_PlayerTime](/CS_插件/Server_伺服器/css_PlayerTime): Showing the time played on record in Game Stats and country while player joins the server
+    * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數與地區
 </details>
 
 * <details><summary><b>Player | 玩家</b></summary>
