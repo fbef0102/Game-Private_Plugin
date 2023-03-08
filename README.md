@@ -398,6 +398,8 @@ My Unpublic Private Plugin (Charge)
 
   * [css_weapon_csgo_reload](/CS_插件/Weapons_武器/css_weapon_csgo_reload): Modern weapon reload, like csgo quick reloading
     * 將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
+  * [css_drop_on_death](/CS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
+    * 死亡時掉落所有武器、刀、手榴彈與防彈背心
 </details>
 
 * <details><summary><b>Hostage | 人質</b></summary>
