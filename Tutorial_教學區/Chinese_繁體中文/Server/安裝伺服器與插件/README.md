@@ -62,7 +62,10 @@
       - ```login anonymous```
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+            - 222840 為L4Dead - Dedicated Server
+            - 222860 為L4D2 - Dedicated Server
+            - 232330 為CSS - Dedicated Server
+            - 740 為CSGO - Dedicated Server
          
       ![image](https://user-images.githubusercontent.com/12229810/202984758-372b99de-daa2-46af-a3b7-8979c5f03928.png)
 
@@ -87,7 +90,10 @@
       - ```login anonymous```
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+            - 222840 為L4Dead - Dedicated Server
+            - 222860 為L4D2 - Dedicated Server
+            - 232330 為CSS - Dedicated Server
+            - 740 為CSGO - Dedicated Server
 
       ![image](https://user-images.githubusercontent.com/12229810/202987482-28d1c832-90d5-40e3-b50d-62942668c30d.png)
 
@@ -135,6 +141,7 @@
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
+         - 如果是CSS，xxxxxx改成cstrike
          - 如果是CSGO，xxxxxx改成csgo
       - ```-port 27020``` 為設定的Port
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
@@ -667,7 +674,10 @@
       - ```login anonymous```
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID
-         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+            - 222840 為L4Dead - Dedicated Server
+            - 222860 為L4D2 - Dedicated Server
+            - 232330 為CSS - Dedicated Server
+            - 740 為CSGO - Dedicated Server
 
       <br/>![image](https://user-images.githubusercontent.com/12229810/206717020-0742eb67-29f0-4f03-9225-e2130dc51520.png)
 
@@ -689,7 +699,10 @@
       - ```login anonymous```
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-         - 222840 為L4Dead - Dedicated Server，222860 為L4D2 - Dedicated Server，740 為CSGO - Dedicated Server
+            - 222840 為L4Dead - Dedicated Server
+            - 222860 為L4D2 - Dedicated Server
+            - 232330 為CSS - Dedicated Server
+            - 740 為CSGO - Dedicated Server
 
       <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
 
