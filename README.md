@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/3/3 updated
+> 2023/3/9 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -247,6 +247,8 @@ My Unpublic Private Plugin (Charge)
     * 在救援關卡調整靈魂特感的復活距離
   * [l4d_ghost_checkpoint_spawn](/Plugin_插件/Versus_對抗模式/l4d_ghost_checkpoint_spawn): Changes to conditions for ghost spawning in start/end areas.
     * 靈魂特感能夠在安全室內復活
+  * [l4d2_versus_scoremod](/Plugin_插件/Versus_對抗模式/l4d2_versus_scoremod): Override versus score depending on survivor health and damage bonus
+    * 根據玩家的血量與傷害改變對抗模式的過關分數
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 

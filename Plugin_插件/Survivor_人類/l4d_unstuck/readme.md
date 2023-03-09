@@ -9,21 +9,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message after command
-	> 輸入命令之後的提示
-	<br/>![l4d_unstuck_1](image/l4d_unstuck_1.jpg)
+		> 輸入命令之後的提示
+		<br/>![l4d_unstuck_1](image/l4d_unstuck_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
 	```php
 	//CUatTHEFINISH @ 2009
-	//Harry @ 2022
+	//Harry @ 2022-2023
 	```
+	* v1.5 (2023-3-8)
+		* Translation Support
+		* Infected can use too
+
 	* v1.4
 		* Remake code
 		* More Cvars
@@ -39,13 +50,16 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_unstuck.cfg
-	```php
-	// If 1, Announces each round start that the !stuck command is available.
-	l4d_unstuck_announce "1"
+		```php
+		// If 1, Announces each round start that the !stuck command is available.
+		l4d_unstuck_announce "1"
 
-	// Amount of times the client can use !stuck per round
-	l4d_unstuck_teleports "10"
-	```
+		// If 1, Infected player can use !stuck command too.
+		l4d_unstuck_infected_enable "1"
+
+		// Amount of times the client can use !stuck per round
+		l4d_unstuck_teleports "10"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -54,6 +68,7 @@ L4D2
 		```php
 		sm_stuck
 		```
+
 	* **Admin helps player unstick (Adm required: ADMFLAG_GENERIC)**
 		```php
 		sm_unstick <name>
@@ -66,6 +81,8 @@ L4D2
 
 * 原理
 	* 卡住的時候輸入命令，玩家會自動被傳送到附近解除卡住狀態
+	* 特感也能使用
 
 * 功能
-	1. 設置每回合可使用命令的次數
+	* 可設置每回合可使用命令的次數
+	* 可設置特感是否也能使用

@@ -1,0 +1,86 @@
+//Please use notpad++ or vscode to open this file, so you will see the special ascii character
+//= \x01 (SOH) - Use normal color from this point forward
+//= \x02 (STX) - Use team color up to the end of the player name
+//= \x03 (ETX) - Use team color from this point forward
+//= \x04 (EOT) - Use location color from this point forward 
+//= \x05 (ENQ) - Use achievement color from this point forward
+
+"Phrases"
+{
+	"Bonus_1"
+	{
+		"#format"	"{1:d},{2:d},{3:.1f},{4:s}"
+		"en"		"R#1 Bonus: {1}/{2} <{3}%%> [{4}]"
+		"zho"		"回合#1 獎勵分: {1}/{2} <{3}%%> [{4}]"
+		"chi"		"回合#1 奖励分: {1}/{2} <{3}%%> [{4}]"
+	}
+	"Bonus_2"
+	{
+		"#format"	"{1:d},{2:d},{3:.1f}"
+		"en"		"R#{1} Bonus: {2} <{3}>"
+		"zho"		"回合#1 獎勵分: {1}/{2} <{3}%%>"
+		"chi"		"回合#1 奖励分: {1}/{2} <{3}%%>"
+	}
+	"Bonus_3"
+	{
+		"#format"	"{1:d},{2:.1f},{3:d},{4:.1f},{5:d},{6:.1f}"
+		"en"		"[HB: {1} <{2}%%> | DB: {3} <{4}%%> | Pill: {5} <{6}%%>]"
+		"zho"		"[HB: {1} <{2}%%> | DB: {3} <{4}%%> | Pill: {5} <{6}%%>]"
+		"chi"		"[HB: {1} <{2}%%> | DB: {3} <{4}%%> | Pill: {5} <{6}%%>]"
+	}
+	"Bonus_4"
+	{
+		"#format"	"{1:d},{2:.1f}"
+		"en"		"R#1 Bonus: {1} <{2}%%>"
+		"zho"		"回合#1 獎勵分: {1} <{2}%%>"
+		"chi"		"回合#1 奖励分: {1} <{2}%%>"
+	}
+	"Bonus_5"
+	{
+		"#format"	"{1:d},{2:d},{3:.1f},{4:.0f},{5:.0f},{6:.0f}"
+		"en"		"R#{1} Bonus: {2} <{3}%%> [HB: {4}%% | DB: {5}%% | Pill: {6}%%]"
+		"zho"		"回合#{1} 獎勵分: {2} <{3}%%> [HB: {4}%% | DB: {5}%% | Pill: {6}%%]"
+		"chi"		"回合#{1} 奖励分: {2} <{3}%%> [HB: {4}%% | DB: {5}%% | Pill: {6}%%]"
+	}
+	"Bonus_6"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:.1f},{5:s}"
+		"en"		"R#{1} Bonus: {2}/{3} <{4}%%> [{5}]"
+		"zho"		"回合#{1} 獎勵分: {2}/{3} <{4}%%> [{5}]"
+		"chi"		"回合#{1} 奖励分: {2}/{3} <{4}%%> [{5}]"
+	}
+	"Bonus_7"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"R#{1} Diff: {2}"
+		"zho"		"回合#{1} 分差: {2}"
+		"chi"		"回合#{1} 分差: {2}"
+	}
+	"Bonus_8"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"R#{1} Diff: {2} above"
+		"zho"		"回合#{1} 分數逆轉: {2} 以上"
+		"chi"		"回合#{1} 分数逆转: {2} 以上"
+	}
+	"Bonus_9"
+	{
+		"#format"	"{1:d},{2:d},{3:d}"
+		"en"		"R#{1} Diff Win: {2} + {3} 以上"
+		"zho"		"回合#{1} 分數逆轉: {2} + {3} 以上"
+		"chi"		"回合#{1} 分数逆转: {2} + {3} 以上"
+	}
+	"Bonus_10"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"TIEBREAKER: Team %#1 - {1}, Team %#2 - {2}"
+		"zho"		"平局: 隊伍 %#1 - {1}, 隊伍 %#2 - {2}"
+		"chi"		"平局: 队伍 %#1 - {1}, 队伍 %#2 - {2}"
+	}
+	"Bonus_11"
+	{
+		"en"		"Teams have performed absolutely equal! Impossible to decide a clear round winner"
+		"zho"		"兩隊平分秋色"
+		"chi"		"两队平分秋色"
+	}
+}

@@ -1,0 +1,57 @@
+"Phrases"
+{
+	"Infected HeadShot"
+	{
+		"en"		"S.I. HeadShot+1"
+		"zho"		"特感爆頭+1"
+		"chi"		"特感爆头+1"
+	}
+	"Common HeadShot"
+	{
+		"en"		"HeadShot+1"
+		"zho"		"爆頭+1"
+		"chi"		"爆头+1"
+	}
+	"Headshot Sound Menu"
+	{
+		"en"		"Headshot Sound Menu"
+		"zho"		"爆頭音效介面"
+		"chi"		"爆头音效界面"
+	}
+	"S.I. Headshot Sound"
+	{
+		"en"		"S.I. Headshot Sound"
+		"zho"		"特感爆頭音效"
+		"chi"		"特感爆头音效"
+	}
+	"Common Headshot Sound"
+	{
+		"en"		"Common Headshot Sound"
+		"zho"		"普通殭屍爆頭音效"
+		"chi"		"僵尸爆头音效"
+	}
+	"Off"
+	{
+		"en"		"Off"
+		"zho"		"關閉"
+		"chi"		"关闭"
+	}
+	"Random"
+	{
+		"en"		"Random"
+		"zho"		"隨機"
+		"chi"		"随机"
+	}
+	"Current"
+	{
+		"en"		"(Current)"
+		"zho"		"(目前)"
+		"chi"		"(目前)"
+	}
+	"Current"
+	{
+		"en"		"(Current)"
+		"zho"		"(目前)"
+		"chi"		"(目前)"
+	}
+}

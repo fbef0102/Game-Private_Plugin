@@ -12,17 +12,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_telpeort_call_1](image/l4d_telpeort_call_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-```
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -42,21 +42,21 @@ English
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_telpeort_call.cfg
-	```php
-	// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-	l4d_telpeort_call_announce_type "1"
+		```php
+		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_telpeort_call_announce_type "1"
 
-	// 0=Plugin off, 1=Plugin on.
-	l4d_telpeort_call_enable "1"
-	```
+		// 0=Plugin off, 1=Plugin on.
+		l4d_telpeort_call_enable "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
 	* **Teleport Call Menu (Adm required: ADMFLAG_ROOT)**
-	```php
-	sm_call
-	```
+		```php
+		sm_call
+		```
 </details>
 
 - - - -

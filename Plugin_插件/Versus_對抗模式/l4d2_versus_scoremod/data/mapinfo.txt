@@ -1,0 +1,107 @@
+"MapInfo"
+{
+	"c1m1_hotel"
+	{
+		"max_distance"		"400"
+	}
+	"c1m4_atrium"
+	{
+		"max_distance"		"800"
+	}
+	"c2m4_barns"
+	{
+		"max_distance"		"500"
+	}
+	"c3m2_swamp"
+	{
+		"max_distance"		"500"
+	}
+	"c3m3_shantytown"
+	{
+		"max_distance"		"600"
+	}
+	"c4m1_milltown_a"
+	{
+		"max_distance"		"400"
+	}
+	"c4m2_sugarmill_a"
+	{
+		"max_distance"		"600"
+	}
+	"c4m3_sugarmill_b"
+	{
+		"max_distance"		"500"
+	}
+	"c4m4_milltown_b"
+	{
+		"max_distance"		"400"
+	}
+	"c4m5_milltown_escape"
+	{
+		"max_distance"		"400"
+	}
+	"c5m1_waterfront"
+	{
+		"max_distance"		"300"
+	}
+	"c5m5_bridge"
+	{
+		"max_distance"		"500"
+	}
+	"c6m2_bedlam"
+	{
+		"max_distance"		"700"
+	}
+	"c7m2_barge"
+	{
+		"max_distance"		"700"
+	}
+	"c7m3_port"
+	{
+		"max_distance"		"700"
+	}
+	"c8m4_interior"
+	{
+		"max_distance"		"500"
+	}
+	"c9m1_alleys"
+	{
+		"max_distance"		"600"
+	}
+	"c9m2_lots"
+	{
+		"max_distance"		"800"
+	}
+	"c11m1_greenhouse"
+	{
+		"max_distance"		"300"
+	}
+	"c11m4_terminal"
+	{
+		"max_distance"		"500"
+	}
+	"c12m1_hilltop"
+	{
+		"max_distance"		"300"
+	}
+	"c12m2_traintunnel"
+	{
+		"max_distance"		"400"
+	}
+	"c12m3_bridge"
+	{
+		"max_distance"		"500"
+	}
+	"c12m4_barn"
+	{
+		"max_distance"		"500"
+	}
+	"c13m1_alpinecreek"
+	{
+		"max_distance"		"300"
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"max_distance"		"600"
+	}
+}

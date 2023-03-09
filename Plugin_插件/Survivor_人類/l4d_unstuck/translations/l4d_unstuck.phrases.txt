@@ -1,0 +1,36 @@
+﻿"Phrases"
+{
+	"attempts left this round"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] You have been unstuck! You have {green}{1}{default} attempts left this round."
+		"zho"		"[{olive}TS{default}] 已解除卡住! 這回合還剩餘 {green}{1}{default} 次機會"
+		"chi"		"[{olive}TS{default}] 已解除卡住! 这回合还剩余 {green}{1}{default} 次机会"
+	}
+	"attempt left this round"
+	{
+		"en"		"[{olive}TS{default}] You have been unstuck! You have {green}1{default} attempt left this round."
+		"zho"		"[{olive}TS{default}] 已解除卡住! 這回合還剩餘 {green}1{default} 次機會"
+		"chi"		"[{olive}TS{default}] 已解除卡住! 这回合还剩余 {green}1{default} 次机会"
+	}
+	"out of uses"
+	{
+		"en"		"[{olive}TS{default}] You have been unstuck! However, you are {green}out of uses{default} for this command until the next round."
+		"zho"		"[{olive}TS{default}] 已解除卡住! 機會已用完，等待下回合"
+		"chi"		"[{olive}TS{default}] 已解除卡住! 机会已用完，等待下回合"
+	}
+	"Admin_Stuck"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] You unstuck {olive}{1}{default}."
+		"zho"		"[{olive}TS{default}] 已幫玩家 {olive}{1}{default} 解除卡住"
+		"chi"		"[{olive}TS{default}] 已帮玩家 {olive}{1}{default} 解除卡住"
+	}
+	"Info"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] If you become glitched and unable to move, type {green}!stuck{default} to free yourself ({lightgreen}{1}{default} uses per round)."
+		"zho"		"[{olive}TS{default}] 如果卡住無法動彈，輸入 {green}!stuck{default} 解除卡住 (每回合 {lightgreen}{1}{default} 次機會)."
+		"chi"		"[{olive}TS{default}] 如果卡住无法动弹，输入 {green}!stuck{default} 解除卡住 (每回合 {lightgreen}{1}{default} 次机会)."
+	}
+}
