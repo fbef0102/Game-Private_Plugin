@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 	L4D1
 	L4D2
-```
+	```
 
 * Translation Support | 支援翻譯
 	```
