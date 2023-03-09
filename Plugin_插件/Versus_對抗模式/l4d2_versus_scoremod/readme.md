@@ -104,6 +104,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Data Example
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c1m1_hotel" //Map Name
+			{
+				"max_distance"		"400" // This map distance score (Optional)
+			}
+			"c1m4_atrium"
+			{
+				"max_distance"		"800"
+			}
+		}
+		```
+
 - - - -
 # 中文說明
 根據玩家的血量與傷害改變對抗模式的過關分數
@@ -120,3 +136,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可修改地圖距離分數
 	* 可設置隊伍平分的時候給予額外的獎勵分數
 	* 可設置是否計算治療包、電擊器、藥丸、腎上腺素
+
+* Data設定範例
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c1m1_hotel"//地圖名
+			{
+				"max_distance"		"400" //這張地圖的路程距離分數，數字越大，分數越高 (可以不填寫)
+			}
+			"c1m4_atrium"
+			{
+				"max_distance"		"800"
+			}
+		}
+		```
