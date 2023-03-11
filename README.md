@@ -313,6 +313,8 @@ My Unpublic Private Plugin (Charge)
     * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
   * [teamlock_vote](/Plugin_插件/Anti_Griefer_防惡意路人/teamlock_vote): Calls a vote to enable / disable locking teams in place once game starts (so no spectators can join in mid-game)
     * 遊戲開始後旁觀者或路人不能跳隊到倖存者或感染者遊玩
+  * [l4d_mute_player_list](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_mute_player_list): Player can personally mute someone chat text and mic voice.
+    * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
