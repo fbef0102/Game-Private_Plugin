@@ -1,0 +1,29 @@
+"Phrases"
+{
+	"out of durability (C)"
+	{
+		"en"			"[{olive}TS{default}] Melee weapon is out of {green}durability{default}!"
+		"chi"			"[{olive}TS{default}] 近戰武器已 {green}耗盡耐力{default}!"
+		"zho"			"[{olive}TS{default}] 近战武器已 {green}耗尽耐力{default}!"
+	}
+	"out of durability"
+	{
+		"en"			"Melee weapon is out of durability!"
+		"chi"			"近戰武器已 耗盡耐力!"
+		"zho"			"近战武器已 耗尽耐力!"
+	}
+	"durability (C)"
+	{
+		"#format"		"{1:.1f}"
+		"en"			"[{olive}TS{default}] Melee weapon {green}durability{default}: {olive}{1}%%"
+		"chi"			"[{olive}TS{default}] 近戰武器 {green}耐力值{default}: {olive}{1}%%"
+		"zho"			"[{olive}TS{default}] 近战武器 {green}耐力值{default}: {olive}{1}%%"
+	}
+	"durability"
+	{
+		"#format"		"{1:.1f}"
+		"en"			"Melee weapon durability: {1}%%"
+		"chi"			"近戰武器耐力值: {olive}{1}%%"
+		"zho"			"近战武器耐力值: {olive}{1}%%"
+	}
+}

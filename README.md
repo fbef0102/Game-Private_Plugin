@@ -85,7 +85,7 @@ My Unpublic Private Plugin (Charge)
     * (公開) 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
   * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
-  * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
+  * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player to the teammate who is much nearer to survivors.
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
   * [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team
     * 依據槍械種類修改特感隊伍的槍緩速度

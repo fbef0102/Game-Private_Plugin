@@ -28,7 +28,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0
+	* v1.1 (2023-3-13)
+		* Admin will not be blocked and muted by other players.
+
+	* v1.0 (2023-3-12)
 		* Initial Release
 </details>
 
@@ -45,6 +48,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 0=Plugin off, 1=Plugin on.
 		l4d_mute_player_list_enable "1"
+
+		// Players with these flags will not be in the mute list. (Empty = Everyone, -1: Nobody)
+		l4d_mute_player_list_ignore_flag "z"
 		```
 </details>
 
@@ -68,8 +74,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 每一位玩家可以輸入!mutemenu，選擇其他玩家採取動作，封鎖語音或聊天文字
-	* 封鎖語音: 聽不見這位玩家發出的語音 (其他人依然能聽見)
-	* 封鎖聊天文字: 看不見這位玩家輸入的聊天文字 (其他人依然能看見)
+		* 封鎖語音: 聽不見這位玩家發出的語音 (其他人依然能聽見)
+		* 封鎖聊天文字: 看不見這位玩家輸入的聊天文字 (其他人依然能看見)
+	* 管理員不會被封鎖
 
 * 用意在哪?
 	* 經常有惡意路人進來播放音樂或者輸入文字打廣告，這時候管理員不一定每次都在伺服器裡面
@@ -77,3 +84,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 功能
 	* 可設置提示顯示位置
+	* 可設置管理員也能被封鎖

@@ -10,16 +10,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message when survival begins
-	> 計時開始時提示訊息
-	<br/>![survival_hp_1](image/survival_hp_1.jpg)
+		> 計時開始時提示訊息
+		<br/>![survival_hp_1](image/survival_hp_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1 Survival
-L4D2 Survival
-```
+	```
+	L4D1 Survival
+	L4D2 Survival
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-3-13)
+		* Survivors won't take any damage before game starts
 
 	* v1.0
 		* Original Request by Dam Dam
@@ -31,7 +34,14 @@ L4D2 Survival
 
 * <details><summary>ConVar | 指令</summary>
 
-	None
+	* cfg/sourcemod/survival_hp.cfg
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		survival_hp_enable "1"
+
+		// If 1, survivors won't take any damage before game starts
+		survival_hp_god_before_game "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -44,5 +54,8 @@ L4D2 Survival
 生存模式計時開始時候，恢复所有倖存者血量
 
 * 原理
-	* 只適用於生存模式
 	* 確保倖存者能完整血量遊玩生存關卡
+	* 生存模式計時之前，倖存者不會受到任何傷害　(依然會掛邊、墬樓死亡)
+
+* 功能
+	* 可開關倖存者無敵狀態

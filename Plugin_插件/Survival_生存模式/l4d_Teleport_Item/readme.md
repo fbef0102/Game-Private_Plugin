@@ -9,14 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* teleport all items on the map
-	> 生存模式節省搬運時間必備插件
-	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
+		> 生存模式節省搬運時間必備插件
+		<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -30,33 +30,33 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_Teleport_Item.cfg
-	```php
-	// Players with these flags have access to use command to open menu. (Empty = Everyone, -1: Nobody)
-	l4d_Teleport_Item__access_flag ""
+		```php
+		// Players with these flags have access to use command to open menu. (Empty = Everyone, -1: Nobody)
+		l4d_Teleport_Item__access_flag ""
 
-	// 0=Plugin off, 1=Plugin on.
-	l4d_Teleport_Item_allow "1"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_Teleport_Item_allow "1"
 
-	// Turn off the plugin in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-	l4d_Teleport_Item_map_off ""
+		// Turn off the plugin in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
+		l4d_Teleport_Item_map_off ""
 
-	// Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
-	l4d_Teleport_Item_modes ""
+		// Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
+		l4d_Teleport_Item_modes ""
 
-	// Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
-	l4d_Teleport_Item_modes_off ""
+		// Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
+		l4d_Teleport_Item_modes_off ""
 
-	// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-	l4d_Teleport_Item_modes_tog "0"
-	```
+		// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+		l4d_Teleport_Item_modes_tog "0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
 	* **Display Item menu**
-	```php
-	sm_tpmenu
-	```
+		```php
+		sm_tpmenu
+		```
 </details>
 
 - - - -
