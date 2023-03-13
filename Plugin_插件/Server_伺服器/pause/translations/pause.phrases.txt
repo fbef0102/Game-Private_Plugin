@@ -1,0 +1,157 @@
+"Phrases"
+{
+	"Pause_1"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Load{default}>{olive}{1} {default}is now {blue}fully loaded {default} in game"
+		"zho"	"<{olive}Load{default}>{olive}{1} {default}現在已經 {blue}完全載入 {default} 遊戲"
+		"chi"	"<{olive}Load{default}>{olive}{1} {default}现在已经 {blue}完全载入 {default} 游戏"
+	}
+	"Pause_2"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> {blue}{1} {olive}paused {default}the game!"
+		"zho"	"<{olive}Pause{default}> {blue}{1} {olive}暫停了 {default}遊戲!"
+		"chi"	"<{olive}Pause{default}> {blue}{1} {olive}暂停了 {default}游戏!"
+	}
+	"Pause_3"
+	{
+		"en"	"<{olive}Pause{default}> {green}Game Paused!"
+		"zho"	"<{olive}Pause{default}> {green}遊戲暫停!"
+		"chi"	"<{olive}Pause{default}> {green}游戏暂停!"
+	}
+	"Pause_4"
+	{
+		"#format"		"{1:d}"
+		"en"	"<{olive}Pause{default}> Pausing in: {olive}{1}"
+		"zho"	"<{olive}Pause{default}> 將於 {olive}{1} {default}秒後暫停"
+		"chi"	"<{olive}Pause{default}> 将于 {olive}{1} {default}秒后暂停"
+	}
+	"Pause_5"
+	{
+		"#format"		"{1:N},{2:t},{3:t}"
+		"en"	"<{olive}Pause{default}> {blue}{1}{2} {default}marked {blue}{3} {default}ready."
+		"zho"	"<{olive}Pause{default}> {blue}{1}{2} {default}標記 {blue}{3} {default}為準備."
+		"chi"	"<{olive}Pause{default}> {blue}{1}{2} {default}标记 {blue}{3} {default}为准备."
+	}
+	"Initiator"
+	{
+		"en"	" (Initiator)"
+		"zho"	" (發起者)"
+		"chi"	" (发起者)"
+	}
+	"empty"
+	{
+		"en"	""
+	}
+	"Pause_6"
+	{
+		"#format"		"{1:N},{2:t},{3:t}"
+		"en"	"<{olive}Pause{default}> {red}{1}{2} {default}marked {red}{3} {default}ready."
+		"zho"	"<{olive}Pause{default}> {red}{1}{2} {default}標記 {red}{3} {default}為準備."
+		"chi"	"<{olive}Pause{default}> {red}{1}{2} {default}标记 {red}{3} {default}为准备."
+	}
+	"Pause_7"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> {blue}{1} {default}marked {olive}Initiator {default}ready."
+		"zho"	"<{olive}Pause{default}> {blue}{1} {default}標記 {olive}發起者 {default}為準備."
+		"chi"	"<{olive}Pause{default}> {blue}{1} {default}标记 {olive}发起者 {default}为准备."
+	}
+	"Pause_8"
+	{
+		"en"	"<{olive}Pause{default}> {blue}Teams {default}are ready. Wait for {blue}Admin{default} to {green}confirm{default}."
+		"zho"	"<{olive}Pause{default}> {blue}雙方隊伍 {default}已準備. 等待 {blue}管理員{default} {green}確認{default}."
+		"chi"	"<{olive}Pause{default}> {blue}双方队伍 {default}已准备. 等待 {blue}管理员{default} {green}确认{default}."
+	}
+	"Pause_9"
+	{
+		"#format"		"{1:N},{2:t},{3:t}"
+		"en"	"<{olive}Pause{default}> {blue}{1}{2} {default}marked {blue}{3} {default}not ready."
+		"zho"	"<{olive}Pause{default}> {blue}{1}{2} {default}標記 {blue}{3} {default}為尚未準備."
+		"chi"	"<{olive}Pause{default}> {blue}{1}{2} {default}标记 {blue}{3} {default}为尚未准备."
+	}
+	"Pause_10"
+	{
+		"#format"		"{1:N},{2:t},{3:t}"
+		"en"	"<{olive}Pause{default}> {red}{1}{2} {default}marked {red}{3} {default}not ready."
+		"zho"	"<{olive}Pause{default}> {red}{1}{2} {default}標記 {red}{3} {default}為尚未準備."
+		"chi"	"<{olive}Pause{default}> {red}{1}{2} {default}标记 {red}{3} {default}为尚未准备."
+	}
+	"Pause_11"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> {blue}{1} {default}marked {olive}Initiator {default}not ready."
+		"zho"	"<{olive}Pause{default}> {blue}{1} {default}標記 {olive}發起者 {default}為尚未準備."
+		"chi"	"<{olive}Pause{default}> {blue}{1} {default}标记 {olive}发起者 {default}为尚未准备."
+	}
+	"None"
+	{
+		"en"	"None"
+		"zho"	"未知隊伍"
+		"chi"	"未知队伍"
+	}
+	"Survivors"
+	{
+		"en"	"Survivors"
+		"zho"	"倖存者"
+		"chi"	"生还者"
+	}
+	"Infected"
+	{
+		"en"	"Infected"
+		"zho"	"特感"
+		"chi"	"感染者"
+	}
+	"Show_Cmd"
+	{
+		"en"	"<{olive}Pause{default}> Panel is now {blue}on{default}."
+		"zho"	"<{olive}Pause{default}> 暫停介面已 {blue}開啟{default}."
+		"chi"	"<{olive}Pause{default}> 暂停界面已 {blue}开启{default}."
+	}
+	"Hide_Cmd"
+	{
+		"en"	"<{olive}Pause{default}> Panel is now {blue}off{default}."
+		"zho"	"<{olive}Pause{default}> 暫停介面已 {blue}關閉{default}."
+		"chi"	"<{olive}Pause{default}> 暂停界面已 {blue}关闭{default}."
+	}
+	"Pause_12"
+	{
+		"en"	"<{olive}Delay{default}> {blue}Pause has been delayed due to a pick-up in progress!"
+		"zho"	"<{olive}Delay{default}> {blue}暫停延遲，等待救援過程結束!"
+		"chi"	"<{olive}Delay{default}> {blue}暂停延迟，等待救援过程结束!"
+	}
+	"Pause_13"
+	{
+		"en"	"<{olive}Going live!{default}> {green}Say {olive}!unready {green}or {olive}!nr {green}to cancel"
+		"zho"	"<{olive}Going live!{default}> {green}說 {olive}!unready {green}準備或 {olive}!nr {green}取消準備"
+		"chi"	"<{olive}Going live!{default}> {green}说 {olive}!unready {green}准备或 {olive}!nr {green}取消准备"
+	}
+	"Pause_14"
+	{
+		"#format"		"{1:d}"
+		"en"	"<{olive}Live{default}> {blue}Live in{default}: {olive}{1}{default}..."
+		"zho"	"<{olive}Live{default}> {blue}遊戲將於{default} {olive}{1}{default} 秒後開始"
+		"chi"	"<{olive}Live{default}> {blue}游戏将于{default} {olive}{1}{default} 秒后开始"
+	}
+	"Game Continue"
+	{
+		"en"	"Game Continue!"
+		"zho"	"遊戲繼續!"
+		"chi"	"游戏继续!"
+	}
+	"Pause_15"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Cancel{default}> {blue}{1} {default}cancelled the countdown!"
+		"zho"	"<{olive}Cancel{default}> {blue}{1} {default}取消了倒數!"
+		"chi"	"<{olive}Cancel{default}> {blue}{1} {default}取消了倒数!"
+	}
+	"Console"
+	{
+		"#format"		"{1:s}"
+		"en"	"Console : {1}"
+		"zho"	"控制台 : {1}"
+		"chi"	"控制面板 : {1}"
+	}
+}

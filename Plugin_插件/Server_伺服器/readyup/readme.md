@@ -17,8 +17,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D1 Coop/Versus
-	L4D2 Coop/Versus/Realism
+	L4D1
+	L4D2
 	```
 	
 * Translation Support | 支援翻譯

@@ -45,7 +45,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
 
 * Similar Plugin | 相似插件
-	1. [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+	1. [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus mode
 		> 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * Related | 相關插件

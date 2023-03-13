@@ -467,4 +467,76 @@
 			}
 		}
 	}
+	"l4d_vs_hospital04_interior"
+	{
+		"tank_ban_flow"
+		{
+			"Elevator"
+			{
+				"min"		"46"
+				"max"		"80"
+			}
+		}
+	}
+	"l4d_vs_airport01_greenhouse"
+	{
+		"tank_ban_flow"
+		{
+			"Before Green House"
+			{
+				"min"		"0"
+				"max"		"35"
+			}
+		}
+	}
+	"l4d_vs_airport05_runway"
+	{
+		"tank_ban_flow"
+		{
+			"Before Plane"
+			{
+				"min"		"0"
+				"max"		"49"
+			}
+			"After Plane"
+			{
+				"min"		"56"
+				"max"		"100"
+			}
+		}
+		"witch_ban_flow"
+		{
+			"Before Plane"
+			{
+				"min"		"0"
+				"max"		"49"
+			}
+			"After Plane"
+			{
+				"min"		"66"
+				"max"		"100"
+			}
+		}
+	}
+	"l4d_vs_farm01_hilltop"
+	{
+		"tank_ban_flow"
+		{
+			"Too early"
+			{
+				"min"		"0"
+				"max"		"34"
+			}
+		}
+	}
+	"l4d_river01_docks"
+	{
+		"static_tank_map" "1" // there is already a tank in this map
+		"tank_map_off" "1" // plugin will not spawn a tank in this map
+	}
+	"l4d_river03_port"
+	{
+		"tank_map_off" 	"1"
+		"witch_map_off" "1"
+	}
 }
