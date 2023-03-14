@@ -35,16 +35,16 @@
 	"Notify_Unknown_Game"
 	{
 		"#format"		"{1:N},{2:s},{3:s},{4:.1f}" //1=Name, 2=Country, 3=City, 4=Lerp
-		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown{default} | Lerp: {green}{4} (Game Stats)"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown | Lerp: {green}{4} (Game Stats)"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown | Lerp: {green}{4} (Game Stats)"
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown (Game Stats)"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
 	}
 	"Notify_Time_Game"
 	{
 		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d},{6:.1f}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min, 6=Lerp
-		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min{default} | Lerp: {green}{6} (Game Stats)"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分{default} | Lerp: {green}{6} (Game Stats)"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分{default} | Lerp: {green}{6} (Game Stats)"
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min (Game Stats)"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分 (Game Stats)"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分 (Game Stats)"
 	}
     "LAN Country Desc"
     {

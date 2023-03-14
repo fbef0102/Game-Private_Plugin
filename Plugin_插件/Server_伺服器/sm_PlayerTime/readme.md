@@ -28,12 +28,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.2 (2023-3-14)
+		* Remove lerp
+		* Delay to display message, so player can see his own time played on record.
+
 	* v2.1 (2023-3-1)
-		* Request by ligal
 		* Add lerp
 
 	* v2.0 (2023-2-26)
-		* Request by ligal
 		* Add country and city
 
 	* v1.9 (2023-2-21)
