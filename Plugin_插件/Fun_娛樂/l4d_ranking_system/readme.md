@@ -53,7 +53,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin

@@ -30,8 +30,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.1h (2023-3-14)
+	* v1.1h (2023-3-15)
 		* Translation Support
+		* F1 to ready / F2 to unready
 
 	* v1.0h
 	    * Request by Anzu
@@ -55,13 +56,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_pause_blips "1"
 
 		// Number of seconds to count down before the round goes live.
-		l4d_pause_delay "3"
-
-		// Require or not the pause initiator should ready before unpausing the game
-		sm_initiatorready "1"
+		l4d_pause_countdown "3"
 
 		// Delay to apply before a pause happens.  Could be used to prevent Tactical Pauses
-		sm_pausedelay "0"
+		l4d_pause_delay "0"
+
+		// Require or not the pause initiator should ready before unpausing the game
+		l4d_pause_initiator_ready "1"
 		```
 </details>
 
@@ -72,6 +73,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_pause
 		sm_p
 		```
+
 	* **Marks your team as ready for an unpause**
 		```php
 		sm_unpause
