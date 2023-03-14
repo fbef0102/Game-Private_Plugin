@@ -24,6 +24,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6h (2023-3-14)
+		* Add convar to enable or disable plugin
+		* Add convar to enable or disable boss spawn in first map
+		
 	* v1.5h (2023-2-14)
 		* Fix director still spawns tank and witch if we disable boss spawn in current map
 
@@ -96,11 +100,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
 		l4d_coop_boss_avoid_tank_spawn "10"
 
-		// Disable Tank spawn in Final Map
+		// 0=Plugin off, 1=Plugin on.
+		l4d_coop_boss_enable "1"
+
+		// If 1, Disable Tank spawn in Final Map
 		l4d_coop_boss_final_tank_spawn_disable "1"
 
-		// Disable Witch spawn in Final Map
+		// If 1, Disable Witch spawn in Final Map
 		l4d_coop_boss_final_witch_spawn_disable "1"
+
+		// If 1, Disable Tank spawn in First Map
+		l4d_coop_boss_first_tank_spawn_disable "1"
+
+		// If 1, Disable Witch spawn in First Map
+		l4d_coop_boss_first_witch_spawn_disable "1"
 
 		// Max fraction of map flow for tank/witch spawn location in coop
 		l4d_coop_boss_flow_max "80"
@@ -108,13 +121,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Min fraction of map flow for tank/witch spawn location in coop
 		l4d_coop_boss_flow_min "20"
 
-		// Enable forcing boss spawns to obey boss spawn cvars
+		// If 1, Disable director's witch/tank.
 		l4d_coop_boss_spawn_cvars "1"
 
-		// Don't override boss spawning rules on Static Tank Spawn maps (c7m1, c13m2)
+		// If 1, Don't override director boss spawning rules on Static Tank Spawn maps (Need to write keyvalue "static_tank_map" "1")
 		l4d_coop_boss_spawn_except_static "1"
 
-		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
+		// If 1, Allow players to use !voteboss set boss spawns.
 		l4d_coop_boss_vote "1"
 
 		// How many players at least to vote Boss Spawns.
@@ -157,7 +170,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 覆蓋原本的導演生成系統，由此插件決定何時生成Tank與Witch
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取75，當人類路程走到75%路程，生成Tank
 	* 從"l4d_coop_boss_flow_max 80"與"l4d_coop_boss_flow_min 20"指令數值之間取隨機值，假設隨機取40，當人類路程走到40%路程，生成Witch
-	* 如果輔助文件禁止50 ~ 70%生成Boss，則隨機值不會取50 ~ 70
+	* 如果輔助文件禁止50 ~ 70%生成Boss，則隨機值不會取50 ~ 70區間
 
 * 功能
 	1. 可決定每一關是否該生成 Tank/Witch

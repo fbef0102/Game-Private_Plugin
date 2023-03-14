@@ -248,6 +248,7 @@
 	}
 	"c6m1_riverbank"
 	{
+		"static_tank_map" "1"
 		"witch_map_off"	"1"
 		"witch_bride_map" "1"
 	}
