@@ -80,8 +80,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_up
 		sm_ready
 		sm_r
+		```
+		or
+		```php
+		Press F1
+		```
+
+	* **Mark yourself as not ready if you have set yourself as ready**
+		```php
 		sm_unready
 		sm_nr
+		```
+		or
+		```php
+		Press F2
 		```
 
 	* **Toggles your team's ready status**

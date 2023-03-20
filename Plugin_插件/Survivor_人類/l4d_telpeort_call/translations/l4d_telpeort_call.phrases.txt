@@ -44,7 +44,7 @@
 	}
 	"warp_to_checkpoint"
 	{
-		"en"		"Warp youself to checkpoint"
+		"en"		"Warp player to checkpoint"
 		"zho"		"傳送到終點 (選擇玩家)"
 		"chi"		"传送到终点 (选择玩家)"
 	}

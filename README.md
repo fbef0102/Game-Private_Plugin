@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/3/9 updated
+> 2023/3/21 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -287,10 +287,10 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
-  * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
-    * (公開) 救援來臨之後，未在時間內上救援飛機逃亡的玩家將處死
+  * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
+    * (公開) 救援來臨之後，未在時間內上救援載具逃亡的玩家將處死
   * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
-    * (公開) 倖存者必須等待時間到並集合才能打開終點安全門，有更多功能
+    * (公開) 倖存者必須等待時間到並合力對抗屍潮與Tank才能打開終點安全門
   * [L4DVSAutoSpectateOnAFK](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/L4DVSAutoSpectateOnAFK): Forces survivors and infected to spectate if they're AFK after certain time
     * (公開) AFK的玩家將會被旁觀並且踢出伺服器
   * [l4d_vocalize_antiflood](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit

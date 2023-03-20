@@ -91,18 +91,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_ready
 		sm_r
-		sm_witch
-		sm_t
 		```
-	* **Toggle your ready status**
+		or
 		```php
-		sm_toggleready
+		Press F1
 		```
 
 	* **Mark yourself as not ready if you have set yourself as ready**
 		```php
 		sm_unready
 		sm_nr
+		```
+		or
+		```php
+		Press F2
+		```
+		
+	* **Toggle your ready status**
+		```php
+		sm_toggleready
 		```
 
 	* **Registers a player as a caster so the round will not go live unless they are ready (Adm required: ADMFLAG_BAN)**
