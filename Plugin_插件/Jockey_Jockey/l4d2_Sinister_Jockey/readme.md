@@ -113,7 +113,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Official ConVar</summary>
 
-	* write down the follong cvars in cfg/server.cfg
+	* write down the following cvars in cfg/server.cfg
 		```php
 		// Jockey Movement Speed (default: 250, maximum: 450)
 		sm_cvar z_jockey_speed 		"250"

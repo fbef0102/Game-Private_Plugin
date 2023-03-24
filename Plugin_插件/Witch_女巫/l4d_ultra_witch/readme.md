@@ -58,7 +58,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Official ConVar</summary>
 
-	* Write down the follong cvars in cfg/server.cfg
+	* Write down the following cvars in cfg/server.cfg
 		```php
 		// This command sets the amount of damage a witch attack deals (Default: 100)
 		sm_cvar z_witch_damage 50

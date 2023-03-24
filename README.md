@@ -95,16 +95,22 @@ My Unpublic Private Plugin (Charge)
     * 特感在爬梯或蹲下期間自動加速移動
 </details>
 
+* <details><summary><b>Smoker | 舌頭</b></summary>
+
+  * [l4d_smoker_pull_weapon_drop](/Plugin_插件/Smoker_舌頭/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
+    * 被Smoker拉走的時候強制掉落手上的武器
+</details>
+
 * <details><summary><b>Boomer | Boomer</b></summary>
 
   * [l4d_Nauseating_boomer](/Plugin_插件/Boomer_Boomer/l4d_Nauseating_boomer): Allows for unique Boomer abilities to spread its nauseating bile.
     * 增強Boomer，賦予多種超能力成為超級肥宅
 </details>
 
-* <details><summary><b>Smoker | 舌頭</b></summary>
+* <details><summary><b>Hunter | Hunter</b></summary>
 
-  * [l4d_smoker_pull_weapon_drop](/Plugin_插件/Smoker_舌頭/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
-    * 被Smoker拉走的時候強制掉落手上的武器
+  * [l4d_hunter_destructive](/Plugin_插件/Hunter_Hunter/l4d_hunter_destructive): Allows for unique Hunter abilities to the destructive beast.
+    * 增強Hunter，賦予多種超能力成為毀滅性的野獸
 </details>
 
 * <details><summary><b>Jockey | Jockey</b></summary>

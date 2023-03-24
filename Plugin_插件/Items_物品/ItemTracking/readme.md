@@ -84,7 +84,7 @@ L4D2 Coop/Versus/Realism
 
 * <details><summary>Related Official ConVar</summary>
 
-	* write down the follong cvars in cfg/server.cfg
+	* write down the following cvars in cfg/server.cfg
 		```php
 		//Item density, Items per 100 yards square
 		sm_cvar director_pain_pill_density 		"6.48"

@@ -32,6 +32,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2010-2017
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-3-22)
+		* Control maximum spit puddles each time Acid Pool drops.
+
 	* v1.0h (2023-2-23)
 		* Request by Shadow
 		* Remake code, convert code to latest syntax
@@ -68,6 +71,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Enables Acidic Pool ability: Due to the unstable nature of the Spitter's body, periodically a pool of Spit will leak out beneath her feet.
 		L4D2_Spitter_Supergirl_acidicpool_enable "1"
+
+		// Maximum spit puddles each time Acid Pool drops (inferno flames).
+		// Note: Must be at least 2 to display particles.
+		L4D2_Spitter_Supergirl_acidicpool_puddle_max "2"
 
 		// Chance that when a Spitter claws a Survivor they will take damage over time. (100 = 100%).
 		L4D2_Spitter_Supergirl_acidswipe_chance "100"
@@ -142,7 +149,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Official ConVar</summary>
 
-	* Write down the follong cvars in cfg/server.cfg
+	* Write down the following cvars in cfg/server.cfg
 		```php
 		// Spitter Movement Speed (default: 210, maximum: 450)
 		sm_cvar z_spitter_speed  210
@@ -165,7 +172,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 功能
 	* 可設定各能力的開關
 	* 可設定混合酸液的機率
-	* 可設定酸性點滴的時間間隔
+	* 可設定酸性點滴的時間間隔與掉落在地上的酸液範圍
 	* 可設定腐蝕侵爪的傷害值與機率
 	* 可設定無敵小妹的無敵時間
 	* 可設定超能移動的移動時間

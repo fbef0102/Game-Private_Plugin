@@ -67,7 +67,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Official ConVar</summary>
 
-	* write down the follong cvars in cfg/server.cfg
+	* write down the following cvars in cfg/server.cfg
 		```php
 		// Jockey Recharge after dismounting (Default: 6)
 		sm_cvar z_leap_interval_post_ride "6"
