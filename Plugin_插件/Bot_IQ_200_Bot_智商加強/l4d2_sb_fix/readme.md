@@ -174,8 +174,8 @@ L4D2
 		```
 </details>
 
-* About | 說明
-	* Main items that can be improve bots by introducing this plugin.
+* About
+	* Improve bots
 		* Help a pinning Survivor.
 		* Attack a Common Infected.
 		* Attack a Special Infected.
@@ -186,13 +186,20 @@ L4D2
 		* Restrict switching to the sub weapon.
 		* And the action during incapacitated.
 
-	* Sourcemod v1.11 is required.
-	* Make sure "sb_fix_enabled" in the CVars is 1.
 	* Select the improved bot with the following CVars.
 		* If "sb_fix_select_type" is 0, it is always all enabled.
 		* If "sb_fix_select_type" is 1, the number of people set in "sb_fix_select_number" will be randomly select.
 		* If "sb_fix_select_type" is 2, select the bot of the character entered in "sb_fix_select_character_name".
 		* For 1 and 2, bots that improve after left the safe room are selected.
+
+* <details><summary>Related Official ConVar</summary>
+
+	* write down the following cvars in cfg/server.cfg
+		```php
+		// The total number of melee weapons allowed on the team. 0 = bots never use melee
+		sm_cvar sb_max_team_melee_weapons 0
+		```
+</details>
 
 - - - -
 # 中文說明
@@ -200,8 +207,35 @@ L4D2
 
 * 原理
 	* 強制幫AI Bot對特感開槍、拯救隊友、拿取武器與物品
-	* 出門才會生效
+	* 強化Bot
+		* 快速幫助被特感抓住的玩家
+		* 快速攻擊普通感染者.
+		* 快速攻擊特感.
+		* 快速攻擊Tank.
+		* 能夠主動推飛撲過來的Hunter與Jockey.
+		* 能夠主動打掉Tank扔出去的石頭.
+		* 快速殺死Witch (當有散彈槍的時候).
+		* 限制切換到副武器，避免Bot整場都在用手槍耍白癡.
+		* 隊友倒地時的行為.
+	* 遊戲開始之後，Bot才會強化並生效
+		* 出安全室之後
+		* 生存計時開始之後
+		* 清道夫計時開始之後
 
 * 功能
-	1. 可設置選擇多少Bot變強，如果強化太多的Bot可能會導致卡頓，請留意
-	2. 各強化功能調整 
+	* 根據指令設定強化指定的Bot.
+		* 如果 ```sb_fix_select_type 0```，所有Bot都是強化版
+		* 如果 ```sb_fix_select_type 1``` 且有設置```sb_fix_select_number x```， 則隨機挑選X位Bot為強化版
+		* 如果 ```sb_fix_select_type 2``` 且有設置```sb_fix_select_character_name <Name>```， 則指定Bot角色進行強化
+			* 譬如```sb_fix_select_character_name "nick,zoey"```，只強化Nick跟Zoey
+		* 如果強化太多的Bot可能會導致卡頓，請留意
+	* 各強化功能調整
+
+* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
+
+	* 以下指令寫入文件 cfg/server.cfg，可自行調整
+		```php
+		// 允許撿起近戰武器的Bot數量. 0=Bot永遠不拿近戰武器
+		sm_cvar sb_max_team_melee_weapons 0
+		```
+</details>
