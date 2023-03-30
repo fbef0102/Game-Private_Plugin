@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"Required (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"[{olive}TS{default}] {green}{1}{default} survivors have reached the end saferoom ({green}{2}{default} required)"
+		"zho"		"[{olive}TS{default}] {green}{1}{default} 倖存者已抵達終點安全室 (還需 {green}{2}{default} 名)"
+		"chi"		"[{olive}TS{default}] {green}{1}{default} 幸存者已抵达终点安全室 (还需 {green}{2}{default} 名)"
+	}
+	
+	"Required"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"[TS] {1} survivors have reached the end saferoom ({2} required)"
+		"zho"		"[TS] {1} 倖存者已抵達終點安全室 (還需 {2} 名)"
+		"chi"		"[TS] {1} 幸存者已抵达终点安全室 (还需 {2} 名)"
+	}
+{
+	"Unlocked (C)"
+	{
+		"#format"	"{1:.1f}"
+		"en"		"[{olive}TS{default}] {green}Door{default} will be unlocked in {green}{1}{default} seconds, wait for required survivors to get inside or hold out."
+		"zho"		"[{olive}TS{default}] {green}大門{default} 將於 {green}{1}{default} 秒後開啟，等待倖存者們到齊或者時間到."
+		"chi"		"[{olive}TS{default}] {green}大门{default} 将于 {green}{1}{default} 秒后开启，等待幸存者们到齐或者时间到."
+	}
+	
+	"Unlocked"
+	{
+		"#format"	"{1:.1f}"
+		"en"		"[TS] Door will be unlocked in %.2f seconds, wait for required survivors to get inside or hold out"
+		"zho"		"[TS] 大門將於 {1} 秒後開啟，等待倖存者們到齊或者時間到."
+		"chi"		"[TS] 大门将于 {1} 秒后开启，等待幸存者们到齐或者时间到."
+	}
+}

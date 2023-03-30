@@ -12,9 +12,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D2
-```
+	```
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -37,133 +37,133 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_sb_fix.cfg
-	```php
-	// Bash a flying Hunter or Jockey. <0: Disable, 1: Enable | def: 1>
-	sb_fix_bash_enabled "1"
+		```php
+		// Bash a flying Hunter or Jockey. <0: Disable, 1: Enable | def: 1>
+		sb_fix_bash_enabled "1"
 
-	// Chance of bash a flying Hunter. (Even 100 doesn't can perfectly shove). <1 ~ 100 | def: 100>
-	sb_fix_bash_hunter_chance "100"
+		// Chance of bash a flying Hunter. (Even 100 doesn't can perfectly shove). <1 ~ 100 | def: 100>
+		sb_fix_bash_hunter_chance "100"
 
-	// Range to bash/search a flying Hunter. <1 ~ 500 | def: 145>
-	sb_fix_bash_hunter_range "145"
+		// Range to bash/search a flying Hunter. <1 ~ 500 | def: 145>
+		sb_fix_bash_hunter_range "145"
 
-	// Chance of bash a flying Jockey. (Even 100 doesn't can perfectly shove). <1 ~ 100 | def: 100>
-	sb_fix_bash_jockey_chance "100"
+		// Chance of bash a flying Jockey. (Even 100 doesn't can perfectly shove). <1 ~ 100 | def: 100>
+		sb_fix_bash_jockey_chance "100"
 
-	// Range to bash/search a flying Jockey. <1 ~ 500 | def: 125>
-	sb_fix_bash_jockey_range "125"
+		// Range to bash/search a flying Jockey. <1 ~ 500 | def: 125>
+		sb_fix_bash_jockey_range "125"
 
-	// Time interval to check Bot function. (To decrease lag)
-	sb_fix_bot_interval "0.2"
+		// Time interval to check Bot function. (To decrease lag)
+		sb_fix_bot_interval "0.2"
 
-	// Enable Bot unlimited ammo (backup ammo). <0:Disable, 1:Enable | def: 1>
-	sb_fix_bot_unlimited_ammo "1"
+		// Enable Bot unlimited ammo (backup ammo). <0:Disable, 1:Enable | def: 1>
+		sb_fix_bot_unlimited_ammo "1"
 
-	// Deal with Common Infecteds. <0: Disable, 1: Enable | def: 1>
-	sb_fix_ci_enabled "1"
+		// Deal with Common Infecteds. <0: Disable, 1: Enable | def: 1>
+		sb_fix_ci_enabled "1"
 
-	// Allow to deal with the melee weapon. <0: Disable 1: Enable | def: 1>
-	sb_fix_ci_melee_allow "1"
+		// Allow to deal with the melee weapon. <0: Disable 1: Enable | def: 1>
+		sb_fix_ci_melee_allow "1"
 
-	// If "sb_fix_ci_melee_allow" is enabled, range to deal with the melee weapon. <1 ~ 500 | def: 160>
-	sb_fix_ci_melee_range "160"
+		// If "sb_fix_ci_melee_allow" is enabled, range to deal with the melee weapon. <1 ~ 500 | def: 160>
+		sb_fix_ci_melee_range "160"
 
-	// Range to shoot/search a Common Infected. <1 ~ 2000 | def: 500>
-	sb_fix_ci_range "500"
+		// Range to shoot/search a Common Infected. <1 ~ 2000 | def: 500>
+		sb_fix_ci_range "500"
 
-	// [For debug] Print the action status. <0:Disable, 1:Enable>
-	sb_fix_debug "0"
+		// [For debug] Print the action status. <0:Disable, 1:Enable>
+		sb_fix_debug "0"
 
-	// Disallow switching to the secondary weapon until the primary weapon is out of ammo. <0:No, 1:Yes | def: 1>
-	sb_fix_dont_switch_secondary "1"
+		// Disallow switching to the secondary weapon until the primary weapon is out of ammo. <0:No, 1:Yes | def: 1>
+		sb_fix_dont_switch_secondary "1"
 
-	// Enable the plugin. <0: Disable, 1: Enable>
-	sb_fix_enabled "1"
+		// Enable the plugin. <0: Disable, 1: Enable>
+		sb_fix_enabled "1"
 
-	// Help a pinning survivor. <0: Disable, 1: Enable | def: 1>
-	sb_fix_help_enabled "1"
+		// Help a pinning survivor. <0: Disable, 1: Enable | def: 1>
+		sb_fix_help_enabled "1"
 
-	// Range to shoot/search a pinning survivor. <1 ~ 3000 | def: 1200>
-	sb_fix_help_range "1200"
+		// Range to shoot/search a pinning survivor. <1 ~ 3000 | def: 1200>
+		sb_fix_help_range "1200"
 
-	// If "sb_fix_help_shove_type" is 2 or more, it is shove only while reloading. <0: No, 1: Yes | def: 0>
-	sb_fix_help_shove_reloading "0"
+		// If "sb_fix_help_shove_type" is 2 or more, it is shove only while reloading. <0: No, 1: Yes | def: 0>
+		sb_fix_help_shove_reloading "0"
 
-	// Whether to help by shove. <0: Not help by shove, 1: Smoker only, 2: Smoker and Jockey, 3: Smoker, Jockey and Hunter | def: 2>
-	sb_fix_help_shove_type "2"
+		// Whether to help by shove. <0: Not help by shove, 1: Smoker only, 2: Smoker and Jockey, 3: Smoker, Jockey and Hunter | def: 2>
+		sb_fix_help_shove_type "2"
 
-	// Enable Incapacitated Cmd. <0: Disable, 1: Enable | def: 1>
-	sb_fix_incapacitated_enabled "1"
+		// Enable Incapacitated Cmd. <0: Disable, 1: Enable | def: 1>
+		sb_fix_incapacitated_enabled "1"
 
-	// Priority given to dealt a Smoker that is try to pinning self. <0: No, 1: Yes | def: 1>
-	sb_fix_prioritize_ownersmoker "1"
+		// Priority given to dealt a Smoker that is try to pinning self. <0: No, 1: Yes | def: 1>
+		sb_fix_prioritize_ownersmoker "1"
 
-	// Shoot a tank rock. <0: Disable, 1: Enable | def: 1>
-	sb_fix_rock_enabled "1"
+		// Shoot a tank rock. <0: Disable, 1: Enable | def: 1>
+		sb_fix_rock_enabled "1"
 
-	// Range to shoot/search a tank rock. <1 ~ 2000 | def: 700>
-	sb_fix_rock_range "700"
+		// Range to shoot/search a tank rock. <1 ~ 2000 | def: 700>
+		sb_fix_rock_range "700"
 
-	// If "sb_fix_select_type" is 2, Enter the character name to improved. separate by commas (no spaces). Example: "nick,francis,bill"
-	sb_fix_select_character_name ""
+		// If "sb_fix_select_type" is 2, Enter the character name to improved. separate by commas (no spaces). Example: "nick,francis,bill"
+		sb_fix_select_character_name ""
 
-	// If 1, Notify Smart AI list in chatbox.
-	sb_fix_select_chat "1"
+		// If 1, Notify Smart AI list in chatbox.
+		sb_fix_select_chat "1"
 
-	// If 1, Notify Smart AI list in hintbox.
-	sb_fix_select_hint "1"
+		// If 1, Notify Smart AI list in hintbox.
+		sb_fix_select_hint "1"
 
-	// If "sb_fix_select_type" is 1, Enter the number of survivor bots. <0 ~ 4>
-	sb_fix_select_number "1"
+		// If "sb_fix_select_type" is 1, Enter the number of survivor bots. <0 ~ 4>
+		sb_fix_select_number "1"
 
-	// If 1, Play Sound when notify Smart AI list.
-	sb_fix_select_sound "1"
+		// If 1, Play Sound when notify Smart AI list.
+		sb_fix_select_sound "1"
 
-	// Which survivor bots to improved. <0: All, 1: Randomly select X people when left the safe area, 2: Enter the character name of the survivor bot to improve in "sb_fix_select_character_name">
-	sb_fix_select_type "0"
+		// Which survivor bots to improved. <0: All, 1: Randomly select X people when left the safe area, 2: Enter the character name of the survivor bot to improve in "sb_fix_select_character_name">
+		sb_fix_select_type "0"
 
-	// Deal with Special Infecteds. <0: Disable, 1: Enable | def: 1>
-	sb_fix_si_enabled "1"
+		// Deal with Special Infecteds. <0: Disable, 1: Enable | def: 1>
+		sb_fix_si_enabled "1"
 
-	// Ignore a Boomer near Survivors (and shove a Boomer). <0: No, 1: Yes | def: 1>
-	sb_fix_si_ignore_boomer "1"
+		// Ignore a Boomer near Survivors (and shove a Boomer). <0: No, 1: Yes | def: 1>
+		sb_fix_si_ignore_boomer "1"
 
-	// Range to ignore a Boomer. <1 ~ 900 | def: 200>
-	sb_fix_si_ignore_boomer_range "200"
+		// Range to ignore a Boomer. <1 ~ 900 | def: 200>
+		sb_fix_si_ignore_boomer_range "200"
 
-	// Range to shoot/search a Special Infected. <1 ~ 3000 | def: 500>
-	sb_fix_si_range "500"
+		// Range to shoot/search a Special Infected. <1 ~ 3000 | def: 500>
+		sb_fix_si_range "500"
 
-	// When a Special Infected and a Tank is together within the specified range, which to prioritize. <0: Nearest, 1: Special Infected, 2: Tank | def: 0>
-	sb_fix_si_tank_priority_type "0"
+		// When a Special Infected and a Tank is together within the specified range, which to prioritize. <0: Nearest, 1: Special Infected, 2: Tank | def: 0>
+		sb_fix_si_tank_priority_type "0"
 
-	// Deal with Tanks. <0: Disable, 1: Enable | def: 1>
-	sb_fix_tank_enabled "1"
+		// Deal with Tanks. <0: Disable, 1: Enable | def: 1>
+		sb_fix_tank_enabled "1"
 
-	// Range to shoot/search a Tank. <1 ~ 3000 | def: 1200>
-	sb_fix_tank_range "1200"
+		// Range to shoot/search a Tank. <1 ~ 3000 | def: 1200>
+		sb_fix_tank_range "1200"
 
-	// Shoot a rage Witch. <0: Disable, 1: Enable | def: 1>
-	sb_fix_witch_enabled "1"
+		// Shoot a rage Witch. <0: Disable, 1: Enable | def: 1>
+		sb_fix_witch_enabled "1"
 
-	// Range to shoot/search a rage Witch. <1 ~ 2000 | def: 1500>
-	sb_fix_witch_range "1500"
+		// Range to shoot/search a rage Witch. <1 ~ 2000 | def: 1500>
+		sb_fix_witch_range "1500"
 
-	// Range to shoot/search a Witch that incapacitated a survivor. <0 ~ 2000 | def: 1000>
-	sb_fix_witch_range_incapacitated "1000"
+		// Range to shoot/search a Witch that incapacitated a survivor. <0 ~ 2000 | def: 1000>
+		sb_fix_witch_range_incapacitated "1000"
 
-	// Range to shoot/search a Witch that killed a survivor. <0 ~ 2000 | def: 0>
-	sb_fix_witch_range_killed "0"
+		// Range to shoot/search a Witch that killed a survivor. <0 ~ 2000 | def: 0>
+		sb_fix_witch_range_killed "0"
 
-	// [Witch] If have the shotgun, controls the attack timing. <0: Disable, 1: Enable | def: 1>
-	sb_fix_witch_shotgun_control "1"
+		// [Witch] If have the shotgun, controls the attack timing. <0: Disable, 1: Enable | def: 1>
+		sb_fix_witch_shotgun_control "1"
 
-	// If a Witch is within distance of the values, stop the attack. <1 ~ 1000 | def: 300>
-	sb_fix_witch_shotgun_range_max "300"
+		// If a Witch is within distance of the values, stop the attack. <1 ~ 1000 | def: 300>
+		sb_fix_witch_shotgun_range_max "300"
 
-	// If a Witch is at distance of the values or more, stop the attack. <1 ~ 500 | def: 70>
-	sb_fix_witch_shotgun_range_min "70"
-	```
+		// If a Witch is at distance of the values or more, stop the attack. <1 ~ 500 | def: 70>
+		sb_fix_witch_shotgun_range_min "70"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

@@ -12,10 +12,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -37,43 +37,43 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_bot_healing.cfg
-	```php
-	// 0=Ignored. 1=Only allowing healing when self is black and white
-	l4d_bot_healing_die_first_self "0"
+		```php
+		// 0=Ignored. 1=Only allowing healing when self is black and white
+		l4d_bot_healing_die_first_self "0"
 
-	// 0=Ignored. 1=Only allowing healing when target bot is black and white
-	l4d_bot_healing_die_first_target_bot "1"
+		// 0=Ignored. 1=Only allowing healing when target bot is black and white
+		l4d_bot_healing_die_first_target_bot "1"
 
-	// 0=Ignored. 1=Only allowing healing when target player is black and white
-	l4d_bot_healing_die_first_target_player "1"
+		// 0=Ignored. 1=Only allowing healing when target player is black and white
+		l4d_bot_healing_die_first_target_player "1"
 
-	// 0=Ignored. 1=Only allowing giving pills when self is black and white
-	l4d_bot_healing_die_pills_self "0"
+		// 0=Ignored. 1=Only allowing giving pills when self is black and white
+		l4d_bot_healing_die_pills_self "0"
 
-	// 0=Ignored. 1=Only allowing giving pills when target bot is black and white
-	l4d_bot_healing_die_pills_target_bot "0"
+		// 0=Ignored. 1=Only allowing giving pills when target bot is black and white
+		l4d_bot_healing_die_pills_target_bot "0"
 
-	// 0=Ignored. 1=Only allowing giving pills when target player is black and white
-	l4d_bot_healing_die_pills_target_player "0"
+		// 0=Ignored. 1=Only allowing giving pills when target player is black and white
+		l4d_bot_healing_die_pills_target_player "0"
 
-	// Allow bots to use First Aid when self health is below this value. (0=Prohibit)
-	l4d_bot_healing_first_self "30.0"
+		// Allow bots to use First Aid when self health is below this value. (0=Prohibit)
+		l4d_bot_healing_first_self "30.0"
 
-	// Allow bots to use First Aid when target bot health is below this value. (0=Prohibit)
-	l4d_bot_healing_first_target_bot "30.0"
+		// Allow bots to use First Aid when target bot health is below this value. (0=Prohibit)
+		l4d_bot_healing_first_target_bot "30.0"
 
-	// Allow bots to use First Aid when target player health is below this value. (0=Prohibit)
-	l4d_bot_healing_first_target_player "30.0"
+		// Allow bots to use First Aid when target player health is below this value. (0=Prohibit)
+		l4d_bot_healing_first_target_player "30.0"
 
-	// Allow bots to use Pills or Adrenaline when self health is below this value. (0=Prohibit)
-	l4d_bot_healing_pills_self "50.0"
+		// Allow bots to use Pills or Adrenaline when self health is below this value. (0=Prohibit)
+		l4d_bot_healing_pills_self "50.0"
 
-	// Allow bots to use Pills or Adrenaline when target bot health is below this value. (0=Prohibit)
-	l4d_bot_healing_pills_target_bot "50.0"
+		// Allow bots to use Pills or Adrenaline when target bot health is below this value. (0=Prohibit)
+		l4d_bot_healing_pills_target_bot "50.0"
 
-	// Allow bots to use Pills or Adrenaline when target player health is below this value. (0=Prohibit)
-	l4d_bot_healing_pills_target_player "50.0"
-	```
+		// Allow bots to use Pills or Adrenaline when target player health is below this value. (0=Prohibit)
+		l4d_bot_healing_pills_target_player "50.0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

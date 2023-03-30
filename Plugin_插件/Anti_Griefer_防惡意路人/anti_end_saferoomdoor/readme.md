@@ -13,14 +13,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![anti_end_saferoomdoor_1](image/anti_end_saferoomdoor_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
+	* v1.3 (2023-3-30)
+		* Translation Support
+
 	* v1.2 (2022-11-3)
 		* When first survivor uses the eEnd Saferoom door, unlock End Saferoom door after a period of time.
 
@@ -29,7 +38,6 @@ L4D2
 
 	* v1.0
 		* Original Request by Alfari
-	```
 </details>
 
 * Require | 必要安裝
@@ -43,22 +51,22 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/anti_end_saferoomdoor.cfg
-	```php
-	// Changes how message displays. (0=Off; 1=In chat; 2=In Hint Box; 3=In center text)
-	anti_end_saferoomdoor_announce_type "1"
+		```php
+		// Changes how message displays. (0=Off; 1=In chat; 2=In Hint Box; 3=In center text)
+		anti_end_saferoomdoor_announce_type "1"
 
-	// Ignore players hanging from ledge outside end saferoom area
-	anti_end_saferoomdoor_ignore_hanging "1"
+		// Ignore players hanging from ledge outside end saferoom area
+		anti_end_saferoomdoor_ignore_hanging "1"
 
-	// Ignore players incapacitated end saferoom area
-	anti_end_saferoomdoor_ignore_incap "1"
+		// Ignore players incapacitated end saferoom area
+		anti_end_saferoomdoor_ignore_incap "1"
 
-	// What percentage of the ALIVE survivors must be inside the end saferoom door before close. 
-	anti_end_saferoomdoor_percentage_survivors_inside_saferoom "100"
+		// What percentage of the ALIVE survivors must be inside the end saferoom door before close. 
+		anti_end_saferoomdoor_percentage_survivors_inside_saferoom "100"
 
-	// When first survivor uses the End Saferoom door, unlock End Saferoom door after a period of time. (0=off)
-	anti_end_saferoomdoor_unlock_time "60.0"
-	```
+		// When first survivor uses the End Saferoom door, unlock End Saferoom door after a period of time. (0=off)
+		anti_end_saferoomdoor_unlock_time "60.0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

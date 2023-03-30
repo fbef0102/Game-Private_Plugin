@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/3/27 updated
+> 2023/3/30 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -125,6 +125,8 @@ My Unpublic Private Plugin (Charge)
 
   * [L4D2_Spitter_Supergirl](/Plugin_插件/Spitter_Spitter/L4D2_Spitter_Supergirl): Adds a host of abilities to the Spitter to add Supergirl like powers.
     * 增強Spitter，賦予多種超能力成為超能小妹妹
+  * [l4d2_spitter_spit_hell](/Plugin_插件/Spitter_Spitter/l4d2_spitter_spit_hell): A pool of Spit starts to damage survivors immediately instead of zero damage while spreading
+    * Spitter的酸液剛開始擴散之時對人類是0傷害改變成能造成傷害
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
@@ -327,6 +329,8 @@ My Unpublic Private Plugin (Charge)
     * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
   * [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
     * 強化AI Bot的智商與行為
+  * [l4d_grenade_throwing_bots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_grenade_throwing_bots): Allows Bots To Throw Grenades Themselves.
+    * AI Bot可以主動扔膽汁瓶、燃燒瓶、土製炸彈，提高智商不會亂丟
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
