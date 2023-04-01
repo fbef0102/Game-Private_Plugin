@@ -1,0 +1,48 @@
+"Phrases"
+{
+	"Pill"
+	{
+		"en"		"a pill"
+		"zho"		"一顆藥丸"
+		"chi"		"一颗药丸"
+	}
+
+	"Adrenaline"
+	{
+		"en"		"an adrenaline shot"
+		"zho"		"一針腎上腺素"
+		"chi"		"一针肾上腺素"
+	}
+
+	"Save (C)"
+	{
+		"#format"	"{1:t},{2:N}"
+		"en"		"[{olive}TS{default}] You throwed {green}{1}{default} at {olive}{2}"
+		"zho"		"[{olive}TS{default}] 你朝向 {olive}{2}{default} 扔出了 {green}{1}{default} 快速救起"
+		"chi"		"[{olive}TS{default}] 你朝向 {olive}{2}{default} 扔出了 {green}{1}{default} 快速救起"
+	}
+	
+	"Save"
+	{
+		"#format"	"{1:t},{2:N}"
+		"en"		"You throwed {1} at {2}"
+		"zho"		"你朝向 {2} 扔出了 {1} 快速救起"
+		"chi"		"你朝向 {2} 扔出了 {1} 快速救起"
+	}
+
+	"Subject (C)"
+	{
+		"#format"	"{1:N},{2:t}"
+		"en"		"[{olive}TS{default}] {olive}{1}{default} throwed {green}{2}{default} at you"
+		"zho"		"[{olive}TS{default}] {olive}{1}{default} 對你扔出了 {green}{2}{default} 快速救起"
+		"chi"		"[{olive}TS{default}] {olive}{1}{default} 对你扔出了 {green}{2}{default} 快速救起"
+	}
+	
+	"Subject"
+	{
+		"#format"	"{1:N},{2:t}"
+		"en"		"{1} throwed {2} at you"
+		"zho"		"{1} 對你扔出了 {2} 快速救起"
+		"chi"		"{1} 对你扔出了 {2} 快速救起"
+	}
+}

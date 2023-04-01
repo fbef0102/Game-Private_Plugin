@@ -1,12 +1,11 @@
 # 安裝總攬
-> 2022/12/27 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/4/1 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
     - [必要檔案](#必要檔案)
     - [額外檔案](#額外檔案)
     - [娛樂檔案](#娛樂檔案)
-    - [懶人包](#懶人包)
     - [其他](#其他)
 	
 - - - -
@@ -37,8 +36,8 @@
 - - - -
 ## 必要檔案
 * [l4dtoolz EXTENSION](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz): 解鎖伺服器人數限制
-   - 如果你是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
-   - 如果你是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
     sv_visiblemaxplayers 8 //number is same as above
@@ -51,6 +50,8 @@
 
 * [l4dmultislots (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): 生成bot給第五位玩家取代並加入倖存者陣營
    - 如何回合開始就有8個Bot?
+      - 安裝插件之後運行伺服器，等待插件自己生成 cfg/sourcemod/l4dmultislots.cfg 文件
+        * 這個文件會自己創建，如果沒有創建表示你安裝l4dmultislots失敗
       - cfg/sourcemod/l4dmultislots.cfg 設置
 		```php
 		l4d_multislots_max_survivors "8"
@@ -135,6 +136,8 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
 
+* [5+ Survivors More Supply](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
+
 * [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 使用腎上腺素之時，武器射速、裝彈速度、近戰武器揮砍速度、動畫起身速度變快
@@ -155,16 +158,9 @@
 
 * [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
 
-* [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
+* [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
-
-- - - -
-## 懶人包
-* L4D2-多人戰役整合包: 只適用於Windows系統的區域房
-    * 含準備檔案、必要檔案、額外檔案、娛樂檔案
-    * 無須設定任何伺服器或網路防火牆，只要創建遊戲大廳便可，一鍵安裝，隨裝即用
-    * 此懶人包為私人收費，請聯繫
 
 - - - -
 ## 其他

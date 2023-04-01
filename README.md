@@ -143,6 +143,8 @@ My Unpublic Private Plugin (Charge)
     * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
   * [l4d_tankhud](/Plugin_插件/Tank_坦克/l4d_tankhud): Show tank hud for infected team and spectators
     * 為特感者隊伍與旁觀者展示Tank介面，顯示血量與控制權
+  * [l4d_burn_tank_penalty](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Get slowdown while burning the tank
+    * 燃燒Tank的玩家會被減速慢行
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -195,6 +197,10 @@ My Unpublic Private Plugin (Charge)
     * 顯示造成與受到的友傷以及兇手，有友傷統計
   * [l4d_dead_save_nodify](/Plugin_插件/Survivor_人類/l4d_dead_save_nodify): Notify people when survivor is dead or someone uses defibrillator to revive
     * 當玩家死亡或者從地獄被救活時，提示導演系統訊息
+  * [l4d_pill_adrenaline_save](/Plugin_插件/Survivor_人類/l4d_pill_adrenaline_save): Player can throw adrenaline shot/pill at incapacitated teammates and help them get up immediately.
+    * 玩家可以朝向倒地玩家扔手中的藥丸或腎上腺素，幫助他們快速救起
+  * [l4d_more_supply](/Plugin_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
+    * 隨著玩家人數越多，地圖上的資源可以重複拿很多次
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -371,6 +377,8 @@ My Unpublic Private Plugin (Charge)
     * 人類與特感能爬牆
   * [l4d_pushdrag](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to move the objects and players
     * 漂浮咒，溫咖癲啦唯啊薩
+  * [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
+    * 管理員輸入指令能透視看到特感
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

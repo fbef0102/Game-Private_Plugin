@@ -9,13 +9,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Sniper scope wallhack
-	> 一流的狙擊手只要開狙擊鏡就能透視
-	<br/>![l4d2_scope_wallhack_1](image/l4d2_scope_wallhack_1.jpg)
+		> 一流的狙擊手只要開狙擊鏡就能透視
+		<br/>![l4d2_scope_wallhack_1](image/l4d2_scope_wallhack_1.jpg)
 
 * Apply to | 適用於
-```
-L4D2
-```
+	```
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -27,61 +27,65 @@ L4D2
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
+* Similar Plugin | 相似插件
+	1. [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
+		> 管理員輸入指令能透視看到特感
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_scope_wallhack.cfg
-	```php
-	// Alive SI glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2_scope_wallhack_alive_color "255 0 0"
+		```php
+		// Alive SI glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2_scope_wallhack_alive_color "255 0 0"
 
-	// If 1, enable Alive SI glow.
-	l4d2_scope_wallhack_alive_enable "1"
+		// If 1, enable Alive SI glow.
+		l4d2_scope_wallhack_alive_enable "1"
 
-	// If 1, add a flashing effect on Alive SI glow.
-	l4d2_scope_wallhack_alive_flashing "1"
+		// If 1, add a flashing effect on Alive SI glow.
+		l4d2_scope_wallhack_alive_flashing "1"
 
-	// Alive SI glow range, 0=No limit
-	l4d2_scope_wallhack_alive_glow_range "2000"
+		// Alive SI glow range, 0=No limit
+		l4d2_scope_wallhack_alive_glow_range "2000"
 
-	// Common Infected glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2_scope_wallhack_common_color "255 155 0"
+		// Common Infected glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2_scope_wallhack_common_color "255 155 0"
 
-	// If 1, enable Common Infected glow.
-	l4d2_scope_wallhack_common_enable "1"
+		// If 1, enable Common Infected glow.
+		l4d2_scope_wallhack_common_enable "1"
 
-	// If 1, add a flashing effect on Common Infected glow.
-	l4d2_scope_wallhack_common_flashing "1"
+		// If 1, add a flashing effect on Common Infected glow.
+		l4d2_scope_wallhack_common_flashing "1"
 
-	// Common Infected glow range, 0=No limit
-	l4d2_scope_wallhack_common_glow_range "2000"
+		// Common Infected glow range, 0=No limit
+		l4d2_scope_wallhack_common_glow_range "2000"
 
-	// Ghost SI glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2_scope_wallhack_ghost_color "0 0 255"
+		// Ghost SI glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2_scope_wallhack_ghost_color "0 0 255"
 
-	// If 1, enable Ghost SI glow.
-	l4d2_scope_wallhack_ghost_enable "1"
+		// If 1, enable Ghost SI glow.
+		l4d2_scope_wallhack_ghost_enable "1"
 
-	// If 1, add a flashing effect on Ghost SI glow.
-	l4d2_scope_wallhack_ghost_flashing "1"
+		// If 1, add a flashing effect on Ghost SI glow.
+		l4d2_scope_wallhack_ghost_flashing "1"
 
-	// Ghost SI glow range, 0=No limit
-	l4d2_scope_wallhack_ghost_glow_range "2000"
+		// Ghost SI glow range, 0=No limit
+		l4d2_scope_wallhack_ghost_glow_range "2000"
 
-	// Which weapon have wallhack scope? 1=Hunting Rifle, 2=Sniper Military, 4=Sniper AWP, 8=Sniper Scout, 16=SG552. 31=All. Add numbers together. (0=Off)
-	l4d2_scope_wallhack_types "15"
+		// Which weapon have wallhack scope? 1=Hunting Rifle, 2=Sniper Military, 4=Sniper AWP, 8=Sniper Scout, 16=SG552. 31=All. Add numbers together. (0=Off)
+		l4d2_scope_wallhack_types "15"
 
-	// Witch glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2_scope_wallhack_witch_color "155 0 255"
+		// Witch glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2_scope_wallhack_witch_color "155 0 255"
 
-	// If 1, enable Witch glow.
-	l4d2_scope_wallhack_witch_enable "1"
+		// If 1, enable Witch glow.
+		l4d2_scope_wallhack_witch_enable "1"
 
-	// If 1, add a flashing effect on Witch glow.
-	l4d2_scope_wallhack_witch_flashing "1"
+		// If 1, add a flashing effect on Witch glow.
+		l4d2_scope_wallhack_witch_flashing "1"
 
-	// Witch glow range, 0=No limit
-	l4d2_scope_wallhack_witch_glow_range "2000"
-	```
+		// Witch glow range, 0=No limit
+		l4d2_scope_wallhack_witch_glow_range "2000"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

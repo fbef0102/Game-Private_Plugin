@@ -31,6 +31,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//CUatTHEFINISH @ 2009
 	//Harry @ 2022-2023
 	```
+	* v1.6 (2023-4-1)
+        * Replace Gamedata with left4dhooks
+
 	* v1.5 (2023-3-8)
 		* Translation Support
 		* Infected can use too
@@ -45,7 +48,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 

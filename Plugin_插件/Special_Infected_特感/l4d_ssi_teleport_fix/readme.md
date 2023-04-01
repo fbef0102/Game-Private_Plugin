@@ -18,6 +18,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0 (2023-4-1)
+        * Replace Gamedata with left4dhooks
+
 	* v1.9 (2023-3-13)
         * Select special infected class to teleport
         * Each S.I. teleport range

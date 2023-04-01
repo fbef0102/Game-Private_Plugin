@@ -11,10 +11,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>None
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -36,22 +36,22 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
-	```php
-	// Increase the tank animation speed each time.
-	l4d_tank_animation_boost_add "0.05"
+		```php
+		// Increase the tank animation speed each time.
+		l4d_tank_animation_boost_add "0.05"
 
-	// Maximum tank animation speed.
-	l4d_tank_animation_boost_max "2.50"
+		// Maximum tank animation speed.
+		l4d_tank_animation_boost_max "2.50"
 
-	// Increase the tank movement speed each time.
-	l4d_tank_speed_boost_add "0.05"
+		// Increase the tank movement speed each time.
+		l4d_tank_speed_boost_add "0.05"
 
-	// Time interval to increase the tank movement & animation speed. (0=off)
-	l4d_tank_speed_boost_interval "2.5"
+		// Time interval to increase the tank movement & animation speed. (0=off)
+		l4d_tank_speed_boost_interval "2.5"
 
-	// Maximum tank movement speed.
-	l4d_tank_speed_boost_max "2.50"
-	```
+		// Maximum tank movement speed.
+		l4d_tank_speed_boost_max "2.50"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

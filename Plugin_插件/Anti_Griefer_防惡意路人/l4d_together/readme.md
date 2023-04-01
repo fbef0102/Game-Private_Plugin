@@ -22,8 +22,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//panxiaohai @ 2009 - 2011
-	//Harry @ 2021 - 2022
+	//Harry @ 2021 - 2023
 	```
+	* v1.6 (2023-4-1)
+        * Replace Gamedata with left4dhooks
+
 	* v1.5
         * Remake Code
         * New infected spawn method
@@ -34,7 +37,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-    1. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
 * Related Plugin | 相關插件
 	1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
@@ -124,27 +128,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 離隊伍太遠的玩家，特感代替月亮懲罰你
 
 * 原理
-    * <details><summary>以下面的指令解釋 (點我展開)</summary>
-
-        > 效果: 假設目前有4位存活的倖存者，當有位脫隊的倖存者距離2位以上隊友超過2000公尺且長達5 ~ 15秒之間，在脫隊的倖存者周圍持續生成特感，每次兩隻
-        ```php
-        //　脫隊的倖存者已距離隊伍50%以上數量的隊友太遠
-        l4d_together_alive_survivor_percentage "50"
-
-        //  最大生成秒數生成特感懲罰脫隊的倖存者
-        l4d_together_loner_punish_interval_max "15.0"
-
-        //  最小生成秒數生成特感懲罰脫隊的倖存者
-        l4d_together_loner_punish_interval_min "5.0"
-
-        // 一次生成兩隻特感懲罰脫隊的倖存者
-        l4d_together_loner_punish_infected_number "2"
-
-        // 當玩家距離隊伍2000公尺範圍之後，他就是脫隊的倖存者
-        l4d_together_loner_range "2000.0"
-        ```
-    </details>
-
     * 總有人不顧隊伍死活直接往前衝，或當拖油瓶遲遲不前進，這插件會在脫隊的玩家附近持續生成特感懲罰
 
 * 功能
@@ -154,3 +137,67 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 可控制一次生成特感的數量
     * 特感生成不會受到遊戲限制與導演系統影響
     * 插件生成的特感如果沒有控到人隨即消失
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_together.cfg
+        ```php
+        // 當玩家距離隊伍50%以上數量的隊友太遠，他就是脫隊的倖存者
+        l4d_together_alive_survivor_percentage "50"
+
+        // 至少要有兩位以上的活著的倖存者，此插件才會啟動. (此數值必須大於2)
+        l4d_together_alive_survivor_required "2"
+
+        // 0=關閉插件, 1=開啟插件
+        l4d_together_enable "1"
+
+        // 訊息如何顯示? (0: 關閉, 1: 聊天視窗; 2: 黑底提示窗; 3: 螢幕中心)
+        l4d_together_loner_punish_announce_type "2"
+
+        // 為1時，即使是AI Bot脫隊也會被懲罰
+        l4d_together_loner_punish_fakeclient "0"
+
+        // 為1時，特感抓住脫隊的倖存者直到倒地之後會自動消失
+        l4d_together_loner_punish_infected_incap_kick "1"
+
+        // 一次生成兩隻特感懲罰脫隊的倖存者
+        l4d_together_loner_punish_infected_number "2"
+
+        // 由此插件生成的特感，如果8秒內不抓住玩家則自動消失 (0: 不消失)
+        l4d_together_loner_punish_infected_spawn_kick "8.0"
+
+        // (僅限二代) 生成的特感有哪些, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. 將數字加給來
+        l4d_together_loner_punish_infected_type "0"
+
+        // (僅限一代) loner punish infected class, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter. 將數字加給來
+        l4d_together_loner_punish_infected_type "0"
+
+        // 最大生成秒數生成特感懲罰脫隊的倖存者
+        l4d_together_loner_punish_interval_max "15.0"
+
+        // 最小生成秒數生成特感懲罰脫隊的倖存者
+        l4d_together_loner_punish_interval_min "5.0"
+
+        // 如何在脫隊的倖存者周圍生成特感, 0=背後, 1=全方位360度生成, 2=在頭上
+        l4d_together_loner_punish_type "1"
+
+        // 當玩家距離隊伍2000公尺範圍之後，他就是脫隊的倖存者
+        l4d_together_loner_range "2000.0"
+
+        // 在以下模式開啟此插件. 0=全部, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 將數字加給來
+        l4d_together_modes_tog "0"
+
+        // 為1時，即使剩下兩位活著的倖存者仍要啟動插件
+        l4d_together_two_alive_survivor_enable "1"
+        ```
+
+
+    *  舉例1: 假設目前有4位存活的倖存者，當有位脫隊的倖存者距離2位以上隊友超過2000公尺且長達5 ~ 15秒之間，在脫隊的倖存者周圍持續生成特感，每次兩隻
+        ```php
+        l4d_together_alive_survivor_percentage "50"
+        l4d_together_loner_range "2000.0"
+        l4d_together_loner_punish_interval_max "15.0"
+        l4d_together_loner_punish_interval_min "5.0"
+        l4d_together_loner_punish_infected_number "2"
+        ```
+</details>

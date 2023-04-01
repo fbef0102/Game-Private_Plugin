@@ -9,26 +9,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Before
-	> 裝載插件之前
-	<br/>![l4d_flashlight_speconly_1](image/l4d_flashlight_speconly_1.jpg)
+		> 裝載插件之前
+		<br/>![l4d_flashlight_speconly_1](image/l4d_flashlight_speconly_1.jpg)
 	* After
-	> 裝載插件之後
-	<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
+		> 裝載插件之後
+		<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+	```
+	L4D1
+	L4D2
+	```
 
 * Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-Russian
-Spanish
-```
+	```
+	English
+	繁體中文
+	简体中文
+	Russian
+	Spanish
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -53,28 +53,28 @@ Spanish
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_flashlight_speconly.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	l4d_flashlight_speconly_allow "1"
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_flashlight_speconly_allow "1"
 
-	// Brightness of the light <10-1000> (changes Distance value).
-	l4d_flashlight_speconly_bright "450.0"
+		// Brightness of the light <10-1000> (changes Distance value).
+		l4d_flashlight_speconly_bright "450.0"
 
-	// The default light color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d_flashlight_speconly_colour "80 80 80"
+		// The default light color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d_flashlight_speconly_colour "80 80 80"
 
-	// Players with these flags may use the sm_lightspec command. (Empty = all).
-	l4d_flashlight_speconly_flags ""
+		// Players with these flags may use the sm_lightspec command. (Empty = all).
+		l4d_flashlight_speconly_flags ""
 
-	// 0=Off, 1=Show intro message to players entering spectator or death.
-	l4d_flashlight_speconly_hints "0"
+		// 0=Off, 1=Show intro message to players entering spectator or death.
+		l4d_flashlight_speconly_hints "0"
 
-	// 0=Let players set their flashlight color, 1=Force to cvar specified.
-	l4d_flashlight_speconly_lock "0"
+		// 0=Let players set their flashlight color, 1=Force to cvar specified.
+		l4d_flashlight_speconly_lock "0"
 
-	// 0=Off, 1=Save client preferences for flashlight color and state.
-	l4d_flashlight_speconly_save "1"
-	```
+		// 0=Off, 1=Save client preferences for flashlight color and state.
+		l4d_flashlight_speconly_save "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -100,7 +100,7 @@ Spanish
 	* 適合用於戰役模式三方圖的伺服器，死亡玩家能在地圖上幫忙探路
 
 * 功能
-	1. 可設置特定權限的人士才能使用旁觀者手電筒
-	2. 可設置手電筒預設的顏色
-	3. 可設置手電筒光亮度
-	4. 有命令能開關手電筒
+	* 可設置特定權限的人士才能使用旁觀者手電筒
+	* 可設置手電筒預設的顏色
+	* 可設置手電筒光亮度
+	* 有命令能開關手電筒
