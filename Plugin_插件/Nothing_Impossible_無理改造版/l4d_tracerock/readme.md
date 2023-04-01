@@ -45,7 +45,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Related Plugin | 相關插件
 	1. [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-		> Tank不會丟出石頭而是丟出特感
+		> Tank不扔石頭而是扔出特感
 
 * <details><summary>ConVar | 指令</summary>
 
