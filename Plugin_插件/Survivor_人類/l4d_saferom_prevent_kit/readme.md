@@ -24,6 +24,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2023-4-3)
+		* Add a cvar
+			```php
+			// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
+			l4d_saferom_prevent_kit_start_time "60.0"
+			```
+
 	* v1.3 (2023-3-13)
 		* Fixed teleporting players in the some trash custom map when using kits. Thanks to "梓" for reporting.
 
@@ -48,17 +55,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/l4d_saferom_prevent_kit.cfg
 		```php
 		// If 1, Prevent players from using first aid kit in the ending checkpoint area.
-		l4d_saferom_prevent_kit_end "1"
+		l4d_saferom_prevent_kit_end_area "1"
 
-		// Time between sending a warning message
+		// Time between sending a warning message (0=Disable message)
 		l4d_saferom_prevent_kit_messagetime "2.5"
 
 		// If 1, Prevent players from using first aid kit in starting checkpoint area.
-		l4d_saferom_prevent_kit_start "1"
+		l4d_saferom_prevent_kit_start_area "1"
+
+		// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
+		l4d_saferom_prevent_kit_start_time "60.0"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
+	
 	None
 </details>
 
