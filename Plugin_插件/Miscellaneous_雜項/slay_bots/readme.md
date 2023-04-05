@@ -8,7 +8,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* Image
+* Image | 圖示
 	* Message
 	<br/>![slay_bots_1](image/slay_bots_1.jpg)
 

@@ -399,6 +399,8 @@ My Unpublic Private Plugin (Charge)
     * 遊戲開始後不能升級紅外線雷射
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
+  * [l4d_block_ff_shake](/Plugin_插件/Miscellaneous_雜項/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
+    * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
 </details>
 
 ###### **CS Plugin List | CS插件列表**
