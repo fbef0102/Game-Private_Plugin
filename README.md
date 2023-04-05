@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/3/30 updated
+> 2023/4/5 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -422,6 +422,8 @@ My Unpublic Private Plugin (Charge)
     * 將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
   * [css_drop_on_death](/CS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
     * 死亡時掉落所有武器、刀、手榴彈與防彈背心
+  * [css_weapon_limit](/CS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
+    * 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
 </details>
 
 * <details><summary><b>Hostage | 人質</b></summary>
@@ -441,7 +443,6 @@ My Unpublic Private Plugin (Charge)
 # 公開的插件列表 Public Plugins List
 * [惡靈勢力一代插件 L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
-* [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
 * [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
 * [CS:S插件作品列表 CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
 
