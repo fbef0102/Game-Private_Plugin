@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/5 updated
+> 2023/4/6 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -359,6 +359,8 @@ My Unpublic Private Plugin (Charge)
     * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
   * [Trails_Projectile](/Plugin_插件/Fun_娛樂/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
     * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
+  * [l4d_character_vocalize_select](/Plugin_插件/Fun_娛樂/l4d_character_vocalize_select): Player can select other character's voice and vocalize
+    * 可以使用所有角色語音並發出對話，能自定義語音列表
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
