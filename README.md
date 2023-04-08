@@ -361,6 +361,8 @@ My Unpublic Private Plugin (Charge)
     * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
   * [l4d_character_vocalize_select](/Plugin_插件/Fun_娛樂/l4d_character_vocalize_select): Player can select other character's voice and vocalize
     * 可以使用所有角色語音並發出對話，能自定義語音列表
+  * [l4d_modme](/Plugin_插件/Fun_娛樂/l4d_modme): Player can become the model you point at.
+    * 玩家外觀可以變成地圖任何一個物件模型
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>

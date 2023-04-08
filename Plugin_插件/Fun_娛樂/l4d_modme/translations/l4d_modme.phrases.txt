@@ -1,0 +1,40 @@
+"Phrases"
+{
+	"This command is disable."
+	{
+		"en"			"This command is disable."
+		"zho"			"此命令關閉中"
+		"chi"			"此命令关闭中"
+	}
+	"You are not alive and in-game"
+	{
+		"en"			"You are not alive and in-game"
+		"zho"			"你不是活著也不是正在遊玩的玩家"
+		"chi"			"你不是活着也不是正在游玩的玩家"
+	}
+	"You don't have access"
+	{
+		"en"			"You don't have access"
+		"zho"			"你沒有權限"
+		"chi"			"你没有权限"
+	}
+	"This entity model is invalid for player."
+	{
+		"en"			"This entity model is invalid for player."
+		"zho"			"非法模型，玩家不能更換"
+		"chi"			"非法模型，玩家不能更换"
+	}
+	"Your model is now"
+	{
+		"#format"		"{1:s}"
+		"en"			"Your model is now: {green} {1}"
+		"zho"			"你現在的模型是: {green} {1}"
+		"chi"			"你现在的模型是: {green} {1}"
+	}
+	"Does not point an entity."
+	{
+		"en"			"Does not point an entity."
+		"zho"			"並未指向物件"
+		"chi"			"并未指向物件"
+	}
+}
