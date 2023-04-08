@@ -51,6 +51,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
     1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	2. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
 
 * <details><summary>ConVar | 指令</summary>
 
