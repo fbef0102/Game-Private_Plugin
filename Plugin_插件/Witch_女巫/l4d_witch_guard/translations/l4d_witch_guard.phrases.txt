@@ -1,0 +1,66 @@
+﻿"Phrases"
+{
+	"View_On"
+	{
+		"zho"		"{olive}Witch守衛者 {green}顯示"
+		"chi"		"{olive}女巫守卫者 {green}显示"
+		"en"		"{olive}Witch Guard view{default} is {green}on"
+	}
+	"View_Off"
+	{
+		"zho"		"{olive}Witch守衛者 {green}隱藏"
+		"chi"		"{olive}女巫守卫者 {green}隐藏"
+		"en"		"{olive}Witch Guard view{default} is {green}off"
+	}
+	"Witch_on_back"
+	{
+		"#format"	"{1:N}"
+		"zho"		"{lightgreen}{1}{default} 放置 {olive}Witch守衛者 {default}於背後."
+		"chi"		"{lightgreen}{1}{default} 放置 {olive}女巫守卫者 {default}于背后"
+		"en"		"{lightgreen}{1}{default} put {olive}a witch guard{default} on their back."
+	}
+	"Keys1"
+	{
+		"#format"	"{1:.1f}"
+		"zho"		"({green}按住 E+ctrl {1}秒後 {default}放置 {olive}Witch守衛者{default})"
+		"chi"		"({green}按住 E+ctrl {1}秒后 {default}放置 {olive}女巫守卫者{default})"
+		"en"		"({green}Hold E+ctrl for {1} seconds {default}to put {olive}the witch guard{default} down)"
+	}
+	"Keys2"
+	{
+		"zho"		"{olive}!witchview {default}- 是否能看到背後的 Witch守衛者"
+		"chi"		"{olive}!witchview {default}- 是否能看到背后的 女巫守卫者"
+		"en"		"{olive}!witchview {default}- toggle to see or hide your own witch guard"
+	}
+	"Put_down"
+	{
+		"zho"		"你放下了 {olive}Witch守衛者"
+		"chi"		"你放下了 {olive}女巫守卫者"
+		"en"		"You put {olive}the witch guard{default} down"
+	}
+	"Building Witch Guard"
+	{
+		"zho"		"正在放下 Witch守衛者 "
+		"chi"		"正在放下 女巫守卫者"
+		"en"		"Building Witch Guard.."
+	}
+	"Stop Building Witch Guard"
+	{
+		"zho"		"已停止放下 Witch守衛者"
+		"chi"		"已停止放下 女巫守卫者"
+		"en"		"Stop Building Witch Guard"
+	}
+	"Adm_1"
+	{
+		"zho"		"管理員給了你 {olive}Witch守衛者"
+		"chi"		"管理员给了你 {olive}女巫守卫者"
+		"en"		"Admin gives you {olive}the witch guard"
+	}
+	"Adm_2"
+	{
+		"#format"	"{1:N}"
+		"zho"		"你給了 {lightgreen}{1} {olive}Witch守衛者"
+		"chi"		"你给了 {lightgreen}{1} {olive}女巫守卫者"
+		"en"		"You gave {lightgreen}{1} {olive}the witch guard"
+	}
+}

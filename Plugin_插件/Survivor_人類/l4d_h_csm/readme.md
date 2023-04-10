@@ -120,6 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 選擇更換模組只有外觀改變，語音還是原本的角色，如果要修正語音請安裝[l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
 * 功能
-	1. 可設置特定權限的人士才能使用CSM角色選擇介面
-	2. 管理員幫真人玩家更換角色或模組
-	3. 可設置更換次數限制
+    * 可設置特定權限的人士才能使用CSM角色選擇介面
+    * 管理員幫真人玩家更換角色或模組
+    * 可設置更換次數限制
+    * 使用Cookies保存玩家選擇的角色，意思是說玩家下次加入遊戲之後自動變成上一次選擇的角色

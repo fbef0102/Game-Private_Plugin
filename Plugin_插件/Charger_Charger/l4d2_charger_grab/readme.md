@@ -1,0 +1,80 @@
+# Description | 內容
+The Charger can grab survivor and drop
+
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* [Video | 影片展示](https://youtu.be/BsXCwzToz0A)
+
+* Image | 圖示
+	* Grab a survivor with melee and able to jump
+		> 徒手抓住倖存者
+		<br/>![l4d2_charger_grab_1](image/l4d2_charger_grab_1.gif)
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-4-11)
+		* Initial Release
+</details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* Related Plugin | 相關插件
+	1. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
+		> 特感可以釋放被抓住的倖存者
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d2_charger_grab.cfg
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d2_charger_grab_allow "1"
+
+		// If 1, Bots can grab survivor.
+		l4d2_charger_grab_bot_enable "1"
+
+		// Cold Down tiem in seconds can human charger grab a survivor again.
+		l4d2_charger_grab_colddown "5.0"
+
+		// If 1, Humans can grab survivor.
+		l4d2_charger_grab_human_enable "1"
+
+		// If 1, allow human chargers to jump while grabbing a survivor.
+		l4d2_charger_grab_jump "1"
+
+		// Allow chargers to carry and drop survivors with the melee button (RMB). 0=Off. 1=Grab Incapped (Not Hanging from ledge). 2=Grab Standing. 4=Drop Incapped. 8=Drop Standing. Add numbers together.
+		l4d2_charger_grab_pickup "15"
+
+		// How long can human charger grab a survivor.
+		l4d2_charger_grab_time "5.0"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	None
+</details>
+
+- - - -
+# 中文說明
+Charger可以徒手抓住人類
+
+* 原理
+	* 扮演Charger特感使用右鍵直接抓住倖存者趴趴走
+	* 抓住期間可以
+		* 空白鍵跳躍
+		* 右鍵釋放，但會有冷卻時間
+		* 左鍵開始捶地板
+	* Bot Charger也適用，但是只能抓住一瞬間然後開始捶地板
+
+* 功能
+	* 可設置釋放後的冷卻時間，冷卻期間不能攻擊也不能衝鋒
+	* 可設置真人Charger能抓住的時間
+	* 可設置抓住倒地的玩家 (掛邊的玩家不能抓)

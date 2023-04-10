@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/6 updated
+> 2023/4/11 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -129,6 +129,10 @@ My Unpublic Private Plugin (Charge)
     * Spitter的酸液剛開始擴散之時對人類是0傷害改變成能造成傷害
 </details>
 
+* <details><summary><b>Charger | Charger</b></summary>
+
+  * [l4d2_charger_grab](/Plugin_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
+    * Charger可以徒手抓住人類
 * <details><summary><b>Tank | 坦克</b></summary>
 
   * [l4d2_tdr](/Plugin_插件/Tank_坦克/l4d2_tdr): Displays Damage Information on Tank Death.
@@ -157,6 +161,10 @@ My Unpublic Private Plugin (Charge)
     * (公開) 修正Witch在寫實模式下的一般難度、進階難度、專家難度，無法抓破門
   * [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
     * Witch不會一抓倒地，而是擊飛倖存者
+  * [l4d_witch_guard](/Plugin_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
+    * 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
+  * [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch
+    * 驚嚇或殺死Witch會引發屍潮來臨
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>

@@ -1,0 +1,27 @@
+﻿"Phrases"
+{
+	"WakeUp (C)"
+	{
+		"en"		"[{olive}TS{default}] {olive}Survivors {default}woke up {green}the witch {default}and alert {lightgreen}horde{default}！"
+		"zho"		"[{olive}TS{default}] {olive}倖存者 {default}驚嚇到 {green}Witch {default}引發了{lightgreen}屍潮來臨{default}！"
+		"chi"		"[{olive}TS{default}] {olive}生还者 {default}惊吓到 {green}Witch {default}引发了{lightgreen}尸潮来临{default}！"
+	}
+	"WakeUp"
+	{
+		"en"		"Survivors woke up the witch and alert horde！"
+		"zho"		"倖存者驚嚇到 Witch 引發了屍潮來臨！"
+		"chi"		"生还者惊吓到 Witch 引发了尸潮来临！"
+	}
+	"Death (C)"
+	{
+		"en"		"[{olive}TS{default}] {olive}Survivors {default}killed {green}the witch {default}and alert {lightgreen}horde{default}！"
+		"zho"		"[{olive}TS{default}] {olive}倖存者 {default}殺死 {green}Witch {default}引發了{lightgreen}屍潮來臨{default}！"
+		"chi"		"[{olive}TS{default}] {olive}生还者 {default}杀死 {green}Witch {default}引发了{lightgreen}尸潮来临{default}！"
+	}
+	"Death"
+	{
+		"en"		"Survivors woke up the witch and alert horde！"
+		"zho"		"倖存者殺死 Witch 引發了屍潮來臨！"
+		"chi"		"生还者杀死 Witch 引发了尸潮来临！"
+	}
+}
