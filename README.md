@@ -132,7 +132,9 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>Charger | Charger</b></summary>
 
   * [l4d2_charger_grab](/Plugin_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
-    * Charger可以徒手抓住人類
+    * Charger可以徒手抓住人類趴趴走
+</details>
+
 * <details><summary><b>Tank | 坦克</b></summary>
 
   * [l4d2_tdr](/Plugin_插件/Tank_坦克/l4d2_tdr): Displays Damage Information on Tank Death.

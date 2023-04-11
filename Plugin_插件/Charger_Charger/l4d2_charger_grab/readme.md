@@ -19,6 +19,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2023-4-11)
+		* Do not grab the player who is hanging from ledge.
+
 	* v1.0 (2023-4-11)
 		* Initial Release
 </details>
@@ -52,6 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Allow chargers to carry and drop survivors with the melee button (RMB). 0=Off. 1=Grab Incapped (Not Hanging from ledge). 2=Grab Standing. 4=Drop Incapped. 8=Drop Standing. Add numbers together.
 		l4d2_charger_grab_pickup "15"
 
+		// If 1, Allow pummel to be started while grabbing a survivor (LMB). 0=Game Behavior
+		l4d2_charger_grab_pummel "1"
+
 		// How long can human charger grab a survivor.
 		l4d2_charger_grab_time "5.0"
 		```
@@ -64,7 +70,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-Charger可以徒手抓住人類
+Charger可以徒手抓住人類趴趴走
 
 * 原理
 	* 扮演Charger特感使用右鍵直接抓住倖存者趴趴走
@@ -75,6 +81,34 @@ Charger可以徒手抓住人類
 	* Bot Charger也適用，但是只能抓住一瞬間然後開始捶地板
 
 * 功能
-	* 可設置釋放後的冷卻時間，冷卻期間不能攻擊也不能衝鋒
-	* 可設置真人Charger能抓住的時間
-	* 可設置抓住倒地的玩家 (掛邊的玩家不能抓)
+	* 詳見"指令中文介紹"
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_charger_grab.cfg
+  		```php
+		// 0=關閉插件, 1=開啟插件
+		l4d2_charger_grab_allow "1"
+
+		// 為1時，AI Charger也能徒手抓倖存者
+		l4d2_charger_grab_bot_enable "1"
+
+		// 能夠再次徒手抓倖存者的冷卻時間
+		l4d2_charger_grab_colddown "5.0"
+
+		// 為1時，真人 Charger也能徒手抓倖存者
+		l4d2_charger_grab_human_enable "1"
+
+		// 為1時，真人 Charger抓住倖存者期間可以按下空白鍵跳躍
+		l4d2_charger_grab_jump "1"
+
+		// 允許真人Charger按下右鍵做出甚麼行為? 0=沒有行為. 1=抓住倒地的玩家(掛邊除外). 2=抓住站立的玩家. 4=釋放倒地的玩家(掛邊除外). 8=釋放站立的玩家. 把想要的行為的數字加起來
+		l4d2_charger_grab_pickup "15"
+
+		// 為1時，真人 Charger抓住倖存者期間可以按下左鍵開始捶地板 0=按下左鍵衝刺
+		l4d2_charger_grab_pummel "1"
+
+		// 允許真人 Charger徒手抓倖存者的時間，時間一到自動捶地板
+		l4d2_charger_grab_time "5.0"
+		```
+</details>
