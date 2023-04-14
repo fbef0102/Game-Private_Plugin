@@ -7,13 +7,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/XQqzDsdo55o)
 
-* Image | 圖示
+* Image
 	* punish player who said dirty word
-        > 屏蔽敏感字詞並懲罰玩家
-        <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
-	* Ya?
-        > 示範圖
-        <br/>![sm_regexfilter_2](image/sm_regexfilter_2.jpg)
+    <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 
 * Apply to | 適用於
     ```
@@ -46,7 +42,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
         * 紀錄玩家的聊天紀錄到文件裡
 
-* Data Example | Data設定範例
+* Data Example
 	* data/regexrestrict.cfg
 	```php
     "Censor"
@@ -67,7 +63,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
     > "replaceall" // Replace the whole sentance with a string
 
-* Valid Flags | 可設置的Flag
+* Valid Flags
     * CASELESS - Ignore Case.
 
 * <details><summary>ConVar | 指令</summary>
@@ -91,16 +87,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
 
+* 圖示
+	* 屏蔽敏感字詞並懲罰玩家
+    <br/>![sm_regexfilter_1_zho](image/zho/sm_regexfilter_1_zho.jpg)
+	* 網路並非法外之地，切勿以身試法，請謹言慎行
+    <br/>![sm_regexfilter_2_zho](image/zho/sm_regexfilter_2_zho.jpg)
+
 * 原理
     * 專門對付口出惡言的噴子
     * 只要打字說出的字詞符合禁詞表內任何一個詞彙，字詞被遮蔽且懲罰玩家
-	* 呼籲玩家網路並非法外之地，切勿以身試法，請謹言慎行
 
 * 功能
-    1. 禁詞表可自行增修
-	2. 可設置權限，管理員的言論不會受到插件的審查
-	3. 敏感字詞可以用其他文字和諧取代
-	4. 可設置要懲罰的動作
+    * 禁詞表可自行增修
+    * 可設置權限，管理員的言論不會受到插件的審查
+    * 敏感字詞可以用其他文字和諧取代
+    * 可設置要懲罰的動作
 
 * Data設定範例
 	* data/regexrestrict.cfg

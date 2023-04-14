@@ -120,7 +120,7 @@
 
 - - - -
 ## Fun
-* [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, is hanging, or is incapped, will respawn after a period of time.
+* [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, will respawn after a period of time.
 
 * [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 

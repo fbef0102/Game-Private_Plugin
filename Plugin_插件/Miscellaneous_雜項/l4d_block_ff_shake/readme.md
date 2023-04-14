@@ -43,13 +43,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Notice
+	* This plugin will disable any friendly fire damage (bullet) between survivors, would conflict with other plugin which modify friendly fire damage.
+
 - - - -
 # 中文說明
 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
 
 * 原理
 	* 官方預設中，開槍打到對友，會使得隊友螢幕晃動且隊友的後座力會降低
-	* 安裝上此插件會關閉友傷且不造成隊友任何影響
+	* 此插件會關閉友傷且不造成隊友任何影響
+
+* 注意事項
+	* 安裝上此插件會使得倖存者的子彈友傷強制變成0 (火燒傷、瓦斯桶爆炸依然會有傷害)，會與其他有關友傷的插件產生衝突
 
 * 功能
 	* 也可以設置右鍵推人不造成隊友晃動
