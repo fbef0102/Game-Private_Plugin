@@ -51,21 +51,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Support Database
 		* Points Transfer
 		
-	* [4.6](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
-		* Remke code
-		* Translation Support
-		* Add The last stand two melee
-		* Unlock All weapons including M60, Grenade_Launcher, and CSS weapons
-		* Unlock All items including cola, gnome and fireworkcrate
-		* Add Infected Shop
-		* You can earn credits by doing damage to survivors as an infected.
-		* You can earn credits by helping each other as a survivor.
-		* Save player's money with Cookies, it means that money can be saved to database across client connections, map changes and even server restarts.
-		* Buy time cooldown, can't buy quickly.
-		* No Special Item and database
-
-	* v1.0
-		* [By Explait](https://forums.alliedmods.net/showthread.php?t=322108)
+	* v4.6
+		* [Old Version](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
 </details>
 
 * Require | 必要安裝

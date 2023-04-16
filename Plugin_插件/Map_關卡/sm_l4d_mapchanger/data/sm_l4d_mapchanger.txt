@@ -1,0 +1,79 @@
+"ForceMissionChangerSettings"
+{
+	"c1m4_atrium"
+	{
+		"next mission map" "c2m1_highway"
+		"next mission name" "L4D2C2"
+	}
+	"c2m5_concert"
+	{
+		"next mission map" "c3m1_plankcountry"
+		"next mission name" "L4D2C3"
+	}
+	"c3m4_plantation"
+	{
+		"next mission map" "c4m1_milltown_a"
+		"next mission name" "L4D2C4"
+	}
+	"c4m5_milltown_escape"
+	{
+		"next mission map" "c5m1_waterfront"
+		"next mission name" "L4D2C5"
+	}
+	"c5m5_bridge"
+	{
+		"next mission map" "c6m1_riverbank"
+		"next mission name" "L4D2C6"
+	}
+	"c6m3_port"
+	{
+		"next mission map" "c7m1_docks"
+		"next mission name" "L4D2C7"
+	}
+	"c7m3_port"
+	{
+		"next mission map" "c8m1_apartment"
+		"next mission name" "L4D2C8"
+	} 
+	"c8m5_rooftop"
+	{
+		"next mission map" "c9m2_lots" 
+		"next mission name" "L4D2C9"
+		
+		"survival_nextmap" "c1m2_streets" 
+		"survival_nextname" "c1m2_streets"
+	
+		"scavenge_nextmap" "c2m1_highway"
+		"scavenge_nextname" "c2m1_highway"
+	}
+	"c9m2_lots"
+	{
+		"next mission map" "c10m1_caves"
+		"next mission name" "L4D2C9"
+	}
+	"c10m5_houseboat"
+	{
+		"next mission map" "c11m1_greenhouse"
+		"next mission name" "L4D2C11"
+	}
+	"c11m5_runway"
+	{
+		"next mission map" "c12m1_hilltop"
+		"next mission name" "L4D2C12"
+	}
+	"c12m5_cornfield"
+	{
+		"next mission map" "c13m1_alpinecreek"
+		"next mission name" "L4D2C13"
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"next mission map" "c14m1_junkyard"
+		"next mission name" "L4D2C14"
+	}
+	"c14m2_lighthouse"
+	{
+		"next mission map" "c1m1_hotel"
+		"next mission name" "L4D2C1"
+	}
+}

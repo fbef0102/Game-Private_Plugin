@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/11 updated
+> 2023/4/17 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -397,12 +397,12 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Map | 關卡</b></summary>
 
-  * (公開) [sm_l4d_mapchanger](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/sm_l4d_mapchanger): Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out (Apply to survival).
-    * 最後一關結束時自動換圖 + 滅團N次後切換到下一個關卡 (生存模式也適用)
-  * [l4d_restartmap_command](/Plugin_插件/Map_關卡/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
+   * [l4d_restartmap_command](/Plugin_插件/Map_關卡/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
     * 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
   * [l4d_random_map_vote](/Plugin_插件/Map_關卡/l4d_random_map_vote): Vote to change map, the map is chosen randomly from data
     * 投票更換地圖，但是地圖是隨機挑選的
+  * [sm_l4d_mapchanger](/Plugin_插件/Map_關卡/sm_l4d_mapchanger): Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out + Vote to next map (Apply to Versus/Survival/Scavenge).
+    * 最後一關結束時自動換圖 + 滅團N次後自動切換到下一個關卡 + 玩家投票下一張地圖 (生存/對抗/清道夫模式也適用)
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

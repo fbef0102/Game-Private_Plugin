@@ -1,0 +1,257 @@
+"Phrases"
+{
+	"Finale Tries Left"
+	{
+		"en"			"[{olive}TS{default}] {green}%d {default}rounds left until the next {lightgreen}campaign{default}."
+		"zho"			"[{olive}TS{default}] 還剩下 {green}%d {default}次機會挑戰 {lightgreen}最後關卡{default}."
+		"chi"			"[{olive}TS{default}] 还剩余 {green}%d {default}次机会挑战 {lightgreen}最终关卡{default}."
+	}
+
+	"Tries Left"
+	{
+		"en"			"[{olive}TS{default}] {green}%d {default}rounds left in this {lightgreen}map{default}."
+		"zho"			"[{olive}TS{default}] 還剩下 {green}%d {default}次機會挑戰 {lightgreen}本關卡{default}."
+		"chi"			"[{olive}TS{default}] 还剩余 {green}%d {default}次机会挑战 {lightgreen}本关卡{default}."
+	}
+
+	"Force Pass Campaign No Tries Left"
+	{
+		"en"			"[{olive}TS{default}] You couldn't pass this campaign in {green}%d {default}rounds, switching to the {lightgreen}next campaign{default}."
+		"zho"			"[{olive}TS{default}] 滅團失敗已達 {green}%d {default}次，正在切換{blue}下一張地圖{default}."
+		"chi"			"[{olive}TS{default}] 团灭次数已达 {green}%d {default}次，正在更换{blue}下一张地图{default}."
+	}
+
+	"Force Pass Map No Tries Left"
+	{
+		"en"			"[{olive}TS{default}] You couldn't pass this map in {green}%d {default}rounds, switching to the {lightgreen}next level{default}."
+		"zho"			"[{olive}TS{default}] 滅團失敗已達 {green}%d {default}次，正在切換{lightgreen}下一關卡{default}."
+		"chi"			"[{olive}TS{default}] 团灭次数已达 {green}%d {default}次，正在更换{lightgreen}下一关卡{default}."
+	}
+
+	"invalid map"
+	{
+		"en"			"invalid map"
+		"zho"			"無效或不存在"
+		"chi"			"无效或不存在"
+	}
+
+	"default"
+	{
+		"en"			"default"
+		"zho"			"指令預設"
+		"chi"			"指令預設"
+	}
+
+	"next level not found"
+	{
+		"en"			"next level not found"
+		"zho"			"過關章節找不到"
+		"chi"			"过关章节找不到"
+	}
+
+	"next level"
+	{
+		"en"			"next level"
+		"zho"			"過關章節"
+		"chi"			"过关章节"
+	}
+
+	"next map"
+	{
+		"en"			"data"
+		"zho"			"資料設定"
+		"chi"			"资料设定"
+	}
+
+	"none"
+	{
+		"en"			"No Change"
+		"zho"			"不換圖"
+		"chi"			"不换图"
+	}
+
+	"Unable to Change Map"
+	{
+		"#format" 	"{1:s},{2:s}"
+		"en"		"[{olive}TS{default}] Unable to change {blue}{1}{default}, reason: {blue}{2}{green} Map does not exist{default}."
+		"zho"		"[{olive}TS{default}] 無法換圖 {blue}{1}{default}, 原因: {blue}{2}{green} 地圖不存在{default}."
+		"chi"		"[{olive}TS{default}] 无法换图 {blue}{1}{default}, 原因: {blue}{2}{green} 地图不存在{default}."
+	}
+	
+	"Map vote advertise (C)"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"[{olive}TS{default}] To vote for the next map, type: {green}{1}{default}\nTo see all the votes, type: {green}{2}"
+		"zho"			"[{olive}TS{default}] 在聊天視窗中輸入 {green}{1}{default} 可以投票下一張地圖\n輸入 {green}{2}{default} 可以查看投票情況"
+		"chi"			"[{olive}TS{default}] 在聊天区域中输入 {green}{1}{default} 可以投票下一张地图\n输入 {green}{2}{default} 可以查看投票情况"
+	}	
+	
+	"Map vote advertise"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"To vote for the next map, type: {1}\nTo see all the votes, type: {2}"
+		"zho"			"在聊天視窗中輸入 {1} 可以投票下一張地圖\n輸入 {2} 可以查看投票情況"
+		"chi"			"在聊天区域中输入 {1} 可以投票下一张地图\n输入 {2} 可以查看投票情况"
+	}	
+	
+	"The next map is currently (C)"
+	{
+		"en"			"[{olive}TS{default}] The next map is currently"
+		"zho"			"[{olive}TS{default}] 下一張地圖是"
+		"chi"			"[{olive}TS{default}] 下一张地图是"
+	}
+
+	"The next map is currently"
+	{
+		"en"			"The next map is currently"
+		"zho"			"下一張地圖是"
+		"chi"			"下一张地图是"
+	}
+	
+	"The next campaign is currently (C)"
+	{
+		"en"			"[{olive}TS{default}] The next campaign is currently"
+		"zho"			"[{olive}TS{default}] 下一張地圖是"
+		"chi"			"[{olive}TS{default}] 下一张地图是"
+	}
+	
+	"The next campaign is currently"
+	{
+		"en"			"The next campaign is currently"
+		"zho"			"下一張地圖是"
+		"chi"			"下一张地图是"
+	}
+	
+	"The next map will be one of (C)"
+	{
+		"en"			"[{olive}TS{default}] The next map will be one of"
+		"zho"			"[{olive}TS{default}] 下一張地圖可能是"
+		"chi"			"[{olive}TS{default}] 下一张地图可能是"
+	}
+	
+	"The next map will be one of"
+	{
+		"en"			"The next map will be one of"
+		"zho"			"下一張地圖可能是"
+		"chi"			"下一张地图可能是"
+	}
+	
+	"The next campaign will be one of (C)"
+	{
+		"en"			"[{olive}TS{default}] The next campaign will be one of"
+		"zho"			"[{olive}TS{default}] 下一張地圖可能是"
+		"chi"			"[{olive}TS{default}] 下一张地图可能是"
+	}
+	
+	"The next campaign will be one of"
+	{
+		"en"			"The next campaign will be one of"
+		"zho"			"下一張地圖可能是"
+		"chi"			"下一张地图可能是"
+	}
+	
+	"Switching to the vote winner"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Switching to the vote winner: {green}{1}{default}."
+		"zho"			"[{olive}TS{default}] 正在切換到投票勝出的地圖: {green}{1}{default}"
+		"chi"			"[{olive}TS{default}] 正在切换到投票胜出的地图: {green}{1}{default}"
+	}
+	
+	"Switching campaign to"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Switching campaign to {green}{1}{default}."
+		"zho"			"[{olive}TS{default}] 正在切換到 {green}{1}{default}."
+		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
+	}
+	
+	"Switching map to"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Switching map to {green}{1}{default}."
+		"zho"			"[{olive}TS{default}] 正在切換到 {green}{1}{default}."
+		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
+	}	
+	
+	"Choose a Map"
+	{
+		"en"			"Choose the Next Map"
+		"zho"			"請選擇下一張地圖"
+		"chi"			"请选择下一张地图"
+	}
+	
+	"Choose a Mission"
+	{
+		"en"			"Choose the Next Campaign"
+		"zho"			"請選擇下一張地圖"
+		"chi"			"请选择下一张地图"
+	}
+	
+	"I dont care" 
+	{
+		"en"			"I Don't Care"
+		"zho"			"我不在乎"
+		"chi"			"我不在乎"
+	}
+	
+	"All maps" 
+	{
+		"en"			"All maps"
+		"zho"			"所有地圖"
+		"chi"			"所有地图"
+	}
+	
+	"Map is now winning the vote"
+	{
+		"#format"		"{1:s}"
+		"en"			"Map {1} is now winning the vote"
+		"zho"			"{1} 目前選票最多,是下一張地圖"
+		"chi"			"{1} 目前选票最多,是下一张地图"
+	}
+	"Mission is now winning the vote"
+	{
+		"#format"		"{1:s}"
+		"en"			"Campaign {1} is now winning the vote"
+		"zho"			"{1} 目前選票最多,是下一張地圖"
+		"chi"			"{1} 目前选票最多,是下一张地图"
+	}
+	"No one has voted yet" 
+	{
+		"en"			"No one has voted yet."
+		"zho"			"目前沒有人投票."
+		"chi"			"目前没有人投票."
+	}
+	"Voting is disable"
+	{
+		"en"			"Voting has been disabled on this server."
+		"zho"			"下一張地圖的投票已經在伺服器上被禁止."
+		"chi"			"下一张地图的投票已经在服务器上被禁止."
+	}
+	"Voting is not available" 
+	{
+		"en"			"[{olive}TS{default}] Voting is only enabled on a Scavenge or finale map."
+		"zho"			"下一張地圖的投票只在戰役的最後一關和清道夫模式可用."
+		"chi"			"下一张地图的投票只在战役的最后一关和清道夫模式可用."
+	}
+	"Votes" 
+	{
+		"en"			"votes"
+		"zho"			"票"
+		"chi"			"票."
+	}
+	"You did not vote" 
+	{
+		"#format"		"{1:s}"
+		"en"			"You did not vote.\nTo vote, type: {1}"
+		"zho"			"你還沒有投票.\n在聊天框中輸入 {1} 來投票."
+		"chi"			"你还没有投票.\n在聊天框中输入 {1} 来投票."
+	}
+	"You voted for" 
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"You voted for {1}.\n- To change your vote, type: {2}\n- To see all the votes, type: {3}"	
+		"zho"			"你投票給了 {1}.\n- 在聊天框中輸入 {2} 來修改你的選票\n- 輸入 {3} 來查看投票情況"
+		"chi"			"你投票给了 {1}.\n- 在聊天框中输入 {2} 来修改选票\n- 输入 {3} 来查看投票情况"	
+	}
+}
