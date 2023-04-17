@@ -8,12 +8,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/PWrf20wtx0Y)
 
 * Image | 圖示
-	* Before
-		> 裝載插件之前
+	* (Free Looking) Before
+		> 裝載插件之前 (自由觀看)
 		<br/>![l4d_flashlight_speconly_1](image/l4d_flashlight_speconly_1.jpg)
-	* After
-		> 裝載插件之後
+	* (Free Looking) After
+		> 裝載插件之後 (自由觀看)
 		<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
+	* (First Person View) Before
+		> 裝載插件之前 (第一人稱視角)
+		<br/>![l4d_flashlight_speconly_3](image/l4d_flashlight_speconly_3.jpg)
+	* (First Person View) After
+		> 裝載插件之後 (第一人稱視角)
+		<br/>![l4d_flashlight_speconly_4](image/l4d_flashlight_speconly_4.jpg)
+	* (Third Person View) Before
+		> 裝載插件之前 (第三人稱視角)
+		<br/>![l4d_flashlight_speconly_5](image/l4d_flashlight_speconly_5.jpg)
+	* (Third Person View) After
+		> 裝載插件之後 (第三人稱視角)
+		<br/>![l4d_flashlight_speconly_6](image/l4d_flashlight_speconly_6.jpg)
 
 * Apply to | 適用於
 	```
@@ -31,6 +43,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2023-4-17)
+		* Support Free Looking, First Person View, Third Person View
+		* Auto turn off flashlight if observe infected first person view
 
 	* v1.1h (2022-12-24)
 		* Enable spectator flash light when new round starts
