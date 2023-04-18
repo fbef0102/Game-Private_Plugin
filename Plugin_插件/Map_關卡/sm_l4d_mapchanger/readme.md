@@ -31,6 +31,10 @@ Force change to next mission when current mission(final stage) end + Force chang
 	//Dionys @ 2008~2009
 	//Harry @ 2019~2023
 	```
+    * v1.1h (2023-4-18)
+        * Optimize code
+		* Fixed next map not working in custom final maps
+
     * v1.0h (2023-4-17)
 		* Support Scavenge Mode. After scavenge match ends, force to change next map
 		* Player can vote the next map in survival/scavenge or next campaign in coop/versus
@@ -162,7 +166,7 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 	* configs\finale.coop.txt.txt
 		```php
-		// The following maps will be treated as finale maps in Coop/Versus mode. Example: c1m1_hotel. Do not delete this line!
+		// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
 		l4d2_deathcraft_05_lighthouse
 		l4d2_minecraft_evolution
 		```
@@ -186,9 +190,14 @@ Force change to next mission when current mission(final stage) end + Force chang
 	* 對抗模式中最後一關當雙方回合結束之時，自動切換到下一張地圖
     * 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
     * 清道夫模式中當比賽結束時，自動切換到下一張地圖
+	* 遊戲開始之後自動出現投票菜單，玩家可以投票決定下一張地圖
+		* 戰役/對抗/寫實模式最後一關出安全室之後
+		* 生存模式計時開始之後
+		* 清道夫模式計時開始之後
 
 * 功能
 	* 可設定滅團的次數，請查看指令
+	* 玩家可以輸入!mapvote投票決定下一張地圖
 	* 可設定文件```data\sm_l4d_mapchanger.txt```決定切換到哪一張地圖
 	* 可設定文件```configs\finale.coop.txt.txt```決定哪些關卡為最終章節
 	* 可設定三方圖沒有人時，自動換回官方圖
@@ -212,9 +221,9 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 			// 沒有寫地圖名的其他關卡，則
 			// 戰役/寫實模式 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.coop.txt的地圖順序
-			// 對抗模式 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.versus.txt的地圖順
-			// 生存模式 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.survival.txt的地圖順
-			// 清道夫模式 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.scavenge.txt的地圖順
+			// 對抗模式 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.versus.txt的地圖順序
+			// 生存模式 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.survival.txt的地圖順序
+			// 清道夫模式 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.scavenge.txt的地圖順序
 		} 
 		```
 

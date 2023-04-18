@@ -1,3 +1,3 @@
-// The following maps will be treated as finale maps in Coop/Versus mode. Example: c1m1_hotel. Do not delete this line!
+// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
 l4d2_deathcraft_05_lighthouse
 l4d2_minecraft_evolution

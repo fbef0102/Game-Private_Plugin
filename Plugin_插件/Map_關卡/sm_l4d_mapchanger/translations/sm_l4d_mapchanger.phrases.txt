@@ -158,6 +158,14 @@
 		"chi"			"[{olive}TS{default}] 正在切换到投票胜出的地图: {green}{1}{default}"
 	}
 	
+	"Switching campaign to (T)"
+	{
+		"#format"		"{1:t}"
+		"en"			"[{olive}TS{default}] Switching campaign to {green}{1}{default}."
+		"zho"			"[{olive}TS{default}] 正在切換到 {green}{1}{default}."
+		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
+	}
+	
 	"Switching campaign to"
 	{
 		"#format"		"{1:s}"
@@ -166,13 +174,21 @@
 		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
 	}
 	
+	"Switching map to (T)"
+	{
+		"#format"		"{1:t}"
+		"en"			"[{olive}TS{default}] Switching map to {green}{1}{default}."
+		"zho"			"[{olive}TS{default}] 正在切換到 {green}{1}{default}."
+		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
+	}	
+	
 	"Switching map to"
 	{
 		"#format"		"{1:s}"
 		"en"			"[{olive}TS{default}] Switching map to {green}{1}{default}."
 		"zho"			"[{olive}TS{default}] 正在切換到 {green}{1}{default}."
 		"chi"			"[{olive}TS{default}] 正在切换到 {green}{1}{default}."
-	}	
+	}
 	
 	"Choose a Map"
 	{
