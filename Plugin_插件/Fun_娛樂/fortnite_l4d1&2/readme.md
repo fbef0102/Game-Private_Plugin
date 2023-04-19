@@ -13,11 +13,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Dance (Up to 84 Emotes and Dance)
-		> 跳舞
+		> 支援自製模組跳舞
 		<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
 	* Menu
 		> 介面
 		<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
+	* Troll
+		> 一起跳
+		<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
 
 * Apply to | 適用於
 	```
