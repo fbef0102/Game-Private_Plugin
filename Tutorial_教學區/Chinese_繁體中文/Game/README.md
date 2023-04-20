@@ -168,7 +168,7 @@
         * [自製角色模組](https://forums.alliedmods.net/showthread.php?p=2429012): 所有人能看到Ada Wong人物
         <br/>![image](https://user-images.githubusercontent.com/12229810/205225817-b240eec1-a877-4d01-921d-d937e87a8998.png)
         * [跳舞動作](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_l4d1%262): 所有人能看到舞蹈動作
-        <br/>![image](https://raw.githubusercontent.com/fbef0102/Game-Private_Plugin/main/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_l4d1%262/image/fortnite_l4d1%262_1.jpg)
+        <br/>![fortnite_l4d1 2_3](https://user-images.githubusercontent.com/12229810/233370478-276b9b8d-7584-49b2-a377-fc159dd916f3.gif)
 
 * 如何開啟?
     * ESC->選項->多人連線->自訂伺服器內容->全部允許
