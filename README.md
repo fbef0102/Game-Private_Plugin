@@ -506,28 +506,27 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>擅長的領域</b></summary>
 
   * ✔windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲
-  * ✔五年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存
-  * ✔舊插件重寫為Sourcemod 1.11以上能適用的新版本
-  * ✔製作nav改寫AI路徑、修改地圖機關、新增障礙物做成地圖迷宮
-  * ✔網空下載，額外的音樂檔案、模組貼圖
-  * ✔大廳連線、崩潰、掉線、模組衝突、錯誤等問題
-  * ✔地雷、陷阱坑、問題
+  * ✔六年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
+  * ✔翻修舊插件，重寫為Sourcemod 1.11以上能適用的新版本
+  * ✔重製十年以上的老插件，檢查程式漏洞，有效解決崩潰、卡頓、記憶體不足等問題
+  * ✔翻譯英文，撰寫各國語言的翻譯文件
+  * ✔製作nav改寫AI路徑、Stripper修改地圖機關、Stripper新增障礙物做成地圖迷宮
+  * ✔FastDL網空下載，額外的音樂檔案、模組貼圖
+  * ✔大廳連線、崩潰、掉線、模組衝突、錯誤等問題解決方式，有一定經驗
+  * ✔所有會碰到的地雷、陷阱坑、問題我大概都知道，有一定經驗
 </details>
 
 * <details><summary><b>不受理的範圍</b></summary>
 
-  * ✗非法、作弊、不合理的插件需求
-  * ✗花錢就是大爺的慣老闆
+  * ✗雲裡霧裡、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
-  * ✗不接受Google翻譯或AI翻譯的破英文
-  * ✗任何不屬於我的插件的相關問題，要問要修改除非付錢否則請聯繫原作者
+  * ✗盜版、舊版本遊戲、舊版本Sourcemod
+  * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付錢
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
-  * ✗Mod，非專業模組大佬
-  * ✗修改文字訊息，請自行改成自己喜歡的樣子
-  * ✗盜版、舊版本遊戲或SM
-  * ✗架設伺服器，不幫忙但可教學，一切自己來
+  * ✗不幫忙架設伺服器、安裝插件，請自己來，但過程遇到任何問題可以詢問教學
   * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖
+  * ✗花錢就是大爺的慣老闆
 </details>
 
 # Introduce MySelf
@@ -570,18 +569,16 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>Master Skills</b></summary>
 
   * ✔ Dealed with windoes, linux, local server, dedicated server
-  * ✔ Possess 5-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
+  * ✔ Possess 6-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
   * ✔ Remake code, support sourcemod v1.11, convert code to latest syntax.
 </details>
 
 * <details><summary><b>Ask for help Rule</b></summary>
 
   * ✗ Won't do any VIP, RPG, or any admin group plugin
-  * ✗ I know nothing much about .vpk mod, don't ask me
+  * ✗ I know nothing much about .vpk mod, don't ask
   * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
-  * ✗ Use google to translate English...
-  * ✗ Non-steam
-  * ✗ Old game version、Sourcemod
+  * ✗ Non-steam、Old game version、Sourcemod
 </details>
 
 - - - -
