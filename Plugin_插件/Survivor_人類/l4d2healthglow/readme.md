@@ -9,13 +9,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Last life, low health, medium health, high health 
-	> 黑白狀態、低生命值、中生命值、高生命值
-	<br/>![l4d2healthglow_1](image/l4d2healthglow_1.jpg)
+		> 黑白狀態、低生命值、中生命值、高生命值
+		<br/>![l4d2healthglow_1](image/l4d2healthglow_1.jpg)
 
 * Apply to | 適用於
-```
-L4D2
-```
+	```
+	L4D2
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -45,64 +45,64 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2healthglow.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	l4d2healthglow_enable "1"
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d2healthglow_enable "1"
 
-	// High Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2healthglow_high_color "0 200 0"
+		// High Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2healthglow_high_color "0 200 0"
 
-	// If 1, High Health Glow Flashing
-	l4d2healthglow_high_flashing "0"
+		// If 1, High Health Glow Flashing
+		l4d2healthglow_high_flashing "0"
 
-	// High Health Glow Mini Range
-	l4d2healthglow_high_mini_range "0"
+		// High Health Glow Mini Range
+		l4d2healthglow_high_mini_range "0"
 
-	// High Health Glow Range
-	l4d2healthglow_high_range "0"
+		// High Health Glow Range
+		l4d2healthglow_high_range "0"
 
-	// Last Life Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2healthglow_last_life_color "127 127 127"
+		// Last Life Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2healthglow_last_life_color "127 127 127"
 
-	// If 1, Last Life Glow Flashing
-	l4d2healthglow_last_life_flashing "1"
+		// If 1, Last Life Glow Flashing
+		l4d2healthglow_last_life_flashing "1"
 
-	// Last Life Glow Mini Range
-	l4d2healthglow_last_life_mini_range "0"
+		// Last Life Glow Mini Range
+		l4d2healthglow_last_life_mini_range "0"
 
-	// Last Life Glow Range
-	l4d2healthglow_last_life_range "0"
+		// Last Life Glow Range
+		l4d2healthglow_last_life_range "0"
 
-	// Low Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2healthglow_low_color "200 0 0"
+		// Low Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2healthglow_low_color "200 0 0"
 
-	// If 1, Low Health Glow Flashing
-	l4d2healthglow_low_flashing "0"
+		// If 1, Low Health Glow Flashing
+		l4d2healthglow_low_flashing "0"
 
-	// Low health must be equal to or lower than this value
-	l4d2healthglow_low_hp "24"
+		// Low health must be equal to or lower than this value
+		l4d2healthglow_low_hp "24"
 
-	// Low Health Glow Mini Range
-	l4d2healthglow_low_mini_range "0"
+		// Low Health Glow Mini Range
+		l4d2healthglow_low_mini_range "0"
 
-	// Low Health Glow Range
-	l4d2healthglow_low_range "0"
+		// Low Health Glow Range
+		l4d2healthglow_low_range "0"
 
-	// Medium Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-	l4d2healthglow_medium_color "200 200 0"
+		// Medium Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2healthglow_medium_color "200 200 0"
 
-	// If 1, Medium Health Glow Flashing
-	l4d2healthglow_medium_flashing "0"
+		// If 1, Medium Health Glow Flashing
+		l4d2healthglow_medium_flashing "0"
 
-	// Medium health must be equal to or lower than this value
-	l4d2healthglow_medium_hp "39"
+		// Medium health must be equal to or lower than this value
+		l4d2healthglow_medium_hp "39"
 
-	// Medium Health Glow Mini Range
-	l4d2healthglow_medium_mini_range "0"
+		// Medium Health Glow Mini Range
+		l4d2healthglow_medium_mini_range "0"
 
-	// Medium health Glow Range
-	l4d2healthglow_medium_range "0"
-	```
+		// Medium health Glow Range
+		l4d2healthglow_medium_range "0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

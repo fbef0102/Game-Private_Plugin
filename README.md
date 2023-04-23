@@ -211,6 +211,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家可以朝向倒地玩家扔手中的藥丸或腎上腺素，幫助他們快速救起
   * [l4d_more_supply](/Plugin_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
     * 隨著玩家人數越多，地圖上的資源可以重複拿很多次
+  * [l4d_reward_hp](/Plugin_插件/Survivor_人類/l4d_reward_hp): Players get hp reward for killing S.I., Tank, Witch or helping each other
+    * 倖存者殺死特感或幫助隊友會獲得血量獎賞
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>

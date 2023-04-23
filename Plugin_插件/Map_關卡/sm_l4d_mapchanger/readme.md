@@ -58,7 +58,7 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg\sourcemod\sm_l4d_mapchanger
+	* cfg\sourcemod\sm_l4d_mapchanger.cfg
 		```php
 		// Enables next mission and how many chances left to advertise to players.
 		sm_l4d_fmc_announce "1"

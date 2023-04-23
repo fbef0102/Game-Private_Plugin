@@ -1,0 +1,129 @@
+"Phrases"
+{
+	"Heal (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for healing teammate"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (治療隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (治疗队友)"
+	}
+	"Heal"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for healing teammate"
+		"zho"			"您恢復了 +{1} 血量 (治療隊友)"
+		"chi"			"您恢复了 +{1} 血量 (治疗队友)"
+	}
+	"KillWitchOneShot (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Witch (One shot)"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (秒殺Witch)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (秒杀女巫)"
+	}
+	"KillWitchOneShot"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for killing a Witch (One shot)"
+		"zho"			"您恢復了 +{1} 血量 (秒殺Witch)"
+		"chi"			"您恢复了 +{1} 血量 (秒杀女巫)"
+	}
+	"KillWitchShots (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Witch"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Witch)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀女巫)"
+	}
+	"KillWitchShots"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for killing Witch"
+		"zho"			"您恢復了 +{1} 血量 (擊殺Witch)"
+		"chi"			"您恢复了 +{1} 血量 (击杀女巫)"
+	}
+	"KillTank (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing tank"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Tank)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Witch)"
+	}
+	"KillTank"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for killing tank"
+		"zho"			"您恢復了 +{1} 血量 (擊殺Tank)"
+		"chi"			"您恢复了 +{1} 血量 (击杀坦克)"
+	}
+	"KillSI (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing S.I."
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺特感)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀特感)"
+	}
+	"KillSI"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for killing S.I."
+		"zho"			"您恢復了 +{1} 血量 (擊殺特感)"
+		"chi"			"您恢复了 +{1} 血量 (击杀特感)"
+	}
+	"Defi (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for saving people with defibrillator"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (復活隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (复活队友)"
+	}
+	"Defi"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for saving people with defibrillator"
+		"zho"			"您恢復了 +{1} 血量 (復活隊友)"
+		"chi"			"您恢复了 +{1} 血量 (复活队友)"
+	}
+	"ReviveHang (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for reviving teammate hanging from ledge"
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (救起掛邊隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (救起挂边队友)"
+	}
+	"ReviveHang"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for reviving teammate hanging from ledge"
+		"zho"			"您恢復了 +{1} 血量 (救起掛邊隊友)"
+		"chi"			"您恢复了 +{1} 血量 (救起挂边队友)"
+	}
+	"ReviveIncap (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for reviving incapacitated teammate."
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (救起倒地隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (救起倒地队友)"
+	}
+	"ReviveIncap"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for reviving incapacitated teammate."
+		"zho"			"您恢復了 +{1} 血量 (救起倒地隊友)"
+		"chi"			"您恢复了 +{1} 血量 (救起倒地队友)"
+	}
+	"Rescue (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for doing the rescue."
+		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (營救倖存者)"
+		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (营救生还者)"
+	}
+	"Rescue"
+	{
+		"#format"		"{1:i}"
+		"en"			"You got +{1} HP Reward for doing the rescue."
+		"zho"			"您恢復了 +{1} 血量 (營救倖存者)"
+		"chi"			"您恢复了 +{1} 血量 (营救生还者)"
+	}
+}
