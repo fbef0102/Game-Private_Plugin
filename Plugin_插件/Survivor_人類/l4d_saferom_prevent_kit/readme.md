@@ -24,6 +24,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5 (2023-4-26)
+		* Add a cvar
+			```php
+			// Prevent players from using first aid kit after X% survivor progress in flow percent on Non-Final Map (0=0ff)
+			l4d_saferom_prevent_kit_survivor_proress "90"
+			```
+
 	* v1.4 (2023-4-3)
 		* Add a cvar
 			```php
@@ -65,6 +72,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
 		l4d_saferom_prevent_kit_start_time "60.0"
+
+		// Prevent players from using first aid kit after X% survivor progress in flow percent on Non-Final Map (0=0ff)
+		l4d_saferom_prevent_kit_survivor_proress "90"
 		```
 </details>
 
@@ -78,10 +88,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 在安全區域內禁止人類使用治療包
 
 * 原理
-	* 被打包的對象如果在安全區域內則無法打包
-    * 設計原意是用來防止戰役模式倖存者通關的時候利用打包Bug
+	* 自己治療自己的時候，如果自己在安全區域內則無法打包
+	* 自己治療別人的時候，被治療的對象如果在安全區域內則無法打包
+	* (v1.5 新增) 自己治療自己的時候，如果自己在地圖95%路程過後則無法打包
+	* (v1.5 新增) 自己治療別人的時候，被治療的對象如果在地圖95%路程過後則無法打包
+
+* 用在意哪?
+    * 防止戰役模式倖存者通關的時候利用打包Bug
+	* 愚蠢的新人一直拿包治療
+	* 拿包跑出去，補完再進來
 
 * 功能
-	1. 可設置起始區域是否能打包
-    2. 可設置終點區域是否能打包
+	* 可設置起始區域是否能打包
+	* 可設置終點區域是否能打包
+	* 可設置走到一定地圖路程過後是否能打包
 

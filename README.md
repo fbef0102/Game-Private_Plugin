@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/17 updated
+> 2023/4/26 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -28,6 +28,20 @@ My Unpublic Private Plugin (Charge)
     * 支援其他插件不衝突
   </details>
 
+  * <details><summary><b>交易的注意事項</b></summary>
+
+    * 情緒勒索、討價還價、白嫖，但一次買多個插件可以打折或優惠價
+    * 花錢就是大爺的態度，雙方都是平等關係
+    * 模糊不清、霧裡看花的說明與需求，勿浪費彼此的時間
+    * 不重複說明書已寫過的步驟或內容，會有插件說明書，不懂可詢問
+    * 先詢問價錢與問題再交易，保障雙方權益
+    * 有特殊需求請先說明，新增功能額外付費
+    * 以交易日期計算只有一年保固期，一年內插件有問題或者出現bug或者有優化可以免費更新修復到好
+      * 因其他插件而造成的衝突或錯誤則不在此限
+      * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
+    * 保密交易，不會公開透露交易資訊與買家個資
+  </details>
+
 > Will update more
 * Every plugin here is private (US$6 dollars above), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
   * Accept small change or English translation
@@ -48,6 +62,17 @@ My Unpublic Private Plugin (Charge)
     * Support Gamedata (windows、linux)
     * Support other games
     * Support other plugins
+  </details>
+
+  * <details><summary><b>Notice</b></summary>
+
+    * Ask price before deal
+    * I won't repeat any questions or steps that have been already mentioned in manual
+    * Extra new request or new function, extra payment
+    * 1-Year warranty since deal, fix any bug for free
+      * Exception: Bug is caused by other plugin conflict.
+      * If the updated version has new extra content, add small payment, no need to re-buy full price again
+    * Privacy Policy, other people will never know our deal
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -123,7 +148,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Spitter | Spitter</b></summary>
 
-  * [L4D2_Spitter_Supergirl](/Plugin_插件/Spitter_Spitter/L4D2_Spitter_Supergirl): Adds a host of abilities to the Spitter to add Supergirl like powers.
+  * [L4D2_Spitter_Supergirl](/Plugin_插件/Spitter_Spitter/L4D2_Spitter_Supergirl): Adds a lot of abilities and powers to the Spitter to become Supergirl.
     * 增強Spitter，賦予多種超能力成為超能小妹妹
   * [l4d2_spitter_spit_hell](/Plugin_插件/Spitter_Spitter/l4d2_spitter_spit_hell): A pool of Spit starts to damage survivors immediately instead of zero damage while spreading
     * Spitter的酸液剛開始擴散之時對人類是0傷害改變成能造成傷害
@@ -133,6 +158,8 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d2_charger_grab](/Plugin_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
     * Charger可以徒手抓住人類趴趴走
+  * [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
+    * 增強Charger，賦予多種超能力成為無人能檔的雷神
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
@@ -520,15 +547,14 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>不受理的範圍</b></summary>
 
-  * ✗雲裡霧裡、不合理的插件需求
+  * ✗不清晰、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
   * ✗盜版、舊版本遊戲、舊版本Sourcemod
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付錢
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
   * ✗不幫忙架設伺服器、安裝插件，請自己來，但過程遇到任何問題可以詢問教學
-  * ✗情緒勒索、道德綁架、學生價、討價還價、白嫖
-  * ✗花錢就是大爺的慣老闆
+  * ✗沒有源碼的插件，請附上來源網址
 </details>
 
 # Introduce MySelf
@@ -581,6 +607,7 @@ My Unpublic Private Plugin (Charge)
   * ✗ I know nothing much about .vpk mod, don't ask
   * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
   * ✗ Non-steam、Old game version、Sourcemod
+  * ✗ Only plugin with no source code, please attach original link
 </details>
 
 - - - -

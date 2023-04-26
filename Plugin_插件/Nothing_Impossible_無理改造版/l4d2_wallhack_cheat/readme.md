@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2
+	L4D2 Any Mode
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -71,6 +71,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 管理員輸入指令!onwk能隔牆看到特感光圈
 	* 也能看到靈魂特感
 	* 提示只有自己會看到
+	* 對抗模式中也能使用，任何模式都適用
 
 * 功能
 	* 可是設置特地權限的人能看到

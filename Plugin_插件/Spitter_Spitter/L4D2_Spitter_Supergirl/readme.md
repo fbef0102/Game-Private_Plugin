@@ -1,5 +1,5 @@
 # Description | 內容
-Adds a host of abilities to the Spitter to add Supergirl like powers.
+Adds a lot of abilities and powers to the Spitter to become Supergirl.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
