@@ -8,18 +8,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* Image | 圖示
+* Image
 	* example
-	> 統計表
 	<br/>![l4d_tank_count_1](image/l4d_tank_count_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1 Coop/Survival/Realism
-L4D2 Coop/Survival/Realism
-```
+	```
+	L4D1 any mode
+	L4D2 any mode
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2023-4-27)
+		* Translation Support
+		* Support Versus mode (only 1 tank alive)
 
 	* v1.3
 	    * More accurate damage done to tank
@@ -48,5 +58,10 @@ L4D2 Coop/Survival/Realism
 # 中文說明
 Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
 
+* 圖示
+	* 統計表
+	<br/>![l4d_tank_count_1_zho](image/zho/l4d_tank_count_1_zho.jpg)
+
 * 原理
-	* 不適用於對抗模式
+	* 適用於對抗模式，但只支援場上一隻Tank的統計
+	* 適用於戰役/生存/寫實模式，支援場上多隻Tank的統計

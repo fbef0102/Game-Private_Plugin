@@ -1,0 +1,37 @@
+"Phrases"
+{
+	"Stats_1"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}!{default}] {blue}Facts{default} of the {green}Tank {default}({red}{1}{default})"
+		"zho"			"[{green}!{default}] {green}Tank{default} 統計表 ({red}{1}{default})"
+		"chi"			"[{green}!{default}] {green}Tank{default} 统计表 ({red}{1}{default})"
+	}
+	"Stats_2"
+	{
+		"en"			"[{green}!{default}] {green}Facts{default} of the {green}Tank"
+		"zho"			"[{green}!{default}] {green}Tank{default} 統計表"
+		"chi"			"[{green}!{default}] {green}Tank{default} 统计表"
+	}
+	"Stats_3"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"en"			"{green}>{default} Punch: {red}{1} {green}/{default} Rock: {red}{2} {green}/{default} Hittable: {red}{3}"
+		"zho"			"{green}>{default} 拳: {red}{1} {green}/{default} 石: {red}{2} {green}/{default} 鐵: {red}{3}"
+		"chi"			"{green}>{default} 拳: {red}{1} {green}/{default} 石: {red}{2} {green}/{default} 铁: {red}{3}"
+	}
+	"Stats_4"
+	{
+		"#format"		"{1:i},{2:i}"
+		"en"			"{green}>{default} Incap: {olive}{1} {green}/{default} Death: {olive}{2}{default} from {blue}Survivors"
+		"zho"			"{green}>{default} 造成{blue}倖存者{default} 倒地: {olive}{1} {green}/{default} 死亡: {olive}{2}"
+		"chi"			"{green}>{default} 造成{blue}生还者{default} 倒地: {olive}{1} {green}/{default} 死亡: {olive}{2}"
+	}
+	"Stats_5"
+	{
+		"#format"		"{1:s},{2:i}"
+		"en"			"{green}>{default} Duration: {lightgreen}{1} {green}/{default} Total damage: {lightgreen}{2}"
+		"zho"			"{green}>{default} 存活時間: {lightgreen}{1} {green}/{default} 總傷害: {lightgreen}{2}"
+		"chi"			"{green}>{default} 存活时间: {lightgreen}{1} {green}/{default} 总伤害: {lightgreen}{2}"
+	}
+}
