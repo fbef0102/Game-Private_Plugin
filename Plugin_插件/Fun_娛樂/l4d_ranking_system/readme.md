@@ -27,6 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2023-4-28)
+		* Optimize Code
+
 	* v1.3 (2023-1-16)
 		* Request by Alfari
 		* Add 

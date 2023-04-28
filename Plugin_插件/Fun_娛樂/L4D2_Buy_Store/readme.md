@@ -44,6 +44,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.1 (2023-4-28)
+		* Optimize Code
+
 	* v5.0 (2022-11-15)
 		* Add short buy commands, directly buy item.
 		* Repeat purchase item you bought last time.
