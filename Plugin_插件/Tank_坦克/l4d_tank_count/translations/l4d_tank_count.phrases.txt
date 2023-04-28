@@ -3,7 +3,7 @@
 	"Stats_1"
 	{
 		"#format"		"{1:N}"
-		"en"			"[{green}!{default}] {blue}Facts{default} of the {green}Tank {default}({red}{1}{default})"
+		"en"			"[{green}!{default}] {olive}Facts{default} of the {green}Tank {default}({red}{1}{default})"
 		"zho"			"[{green}!{default}] {green}Tank{default} 統計表 ({red}{1}{default})"
 		"chi"			"[{green}!{default}] {green}Tank{default} 统计表 ({red}{1}{default})"
 	}
