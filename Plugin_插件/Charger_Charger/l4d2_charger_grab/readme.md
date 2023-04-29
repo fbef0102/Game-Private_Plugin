@@ -30,7 +30,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * Related Plugin | 相關插件
-	1. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
+	1. [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
+		> 增強Charger，賦予多種超能力成為無人能檔的雷神 (Bot 也適用)
+	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
+		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
+	3. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
 		> 特感可以釋放被抓住的倖存者
 
 * <details><summary>ConVar | 指令</summary>

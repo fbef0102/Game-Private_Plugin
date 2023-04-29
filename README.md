@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/26 updated
+> 2023/4/29 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -160,6 +160,8 @@ My Unpublic Private Plugin (Charge)
     * Charger可以徒手抓住人類趴趴走
   * [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
     * 增強Charger，賦予多種超能力成為無人能檔的雷神
+  * [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
+    * Charger可以衝撞帶走倒地的倖存者並撞倒他們
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
