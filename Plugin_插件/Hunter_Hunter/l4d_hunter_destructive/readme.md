@@ -33,6 +33,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014-2014
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-4-30)
+		* New abilitity "Auto Fire": Hunter would get fire automatically when spawn
+
 	* v1.0h (2023-3-24)
 		* Request by Shadow
 		* Remake code, convert code to latest syntax
@@ -65,6 +68,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_hunter_destructive.cfg
 		```php
+		// Chance that the fire will be created when the hunter dies. (100 = 100%).
+		l4d_hunter_destructive_autofire_chance "60"
+
+		// If 1, Hunter would get fire automatically if .
+		l4d_hunter_destructive_autofire_enable "1"
+
 		// Chance that the fire will be created when the hunter dies. (100 = 100%).
 		l4d_hunter_destructive_deathfire_chance "60"
 
@@ -157,6 +166,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力6: 火之意志 - 著火時減少受到的傷害比
 	* 能力7: 惡魔之子 - 抓倒倖存者之後會自動釋放，並尋找下一個攻擊目標
 	* 能力8: 死亡火焰 - 死亡時，其屍體產生火焰
+	* (v1.1h 新增) 能力9: 火影忍者 - Hunter生成時自動著火
 
 * 功能
 	* 可設定各能力的開關
@@ -166,3 +176,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設定流星核彈的衝擊範圍、額外傷害、衝擊力道、高撲距離門檻
 	* 可設定火之意志的減傷比
 	* 可設定死亡火焰的機率
+	* 可設定火影忍者的自動著火機率
