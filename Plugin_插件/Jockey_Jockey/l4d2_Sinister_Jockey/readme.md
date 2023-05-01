@@ -118,9 +118,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Jockey Movement Speed (default: 250, maximum: 450)
 		sm_cvar z_jockey_speed 		"250"
 
-		// Jockey Riding Speed, speed = survivor speed * 0.8 (default: 0.8, maximum: 1.0)
+		// Jockey Riding Speed, speed = survivor speed * 0.8
+		// default: 0.8, maximum: 1.0
 		sm_cvar z_jockey_control_max "0.8"
 		sm_cvar z_jockey_control_min "0.8"
+
+		// Survivor can resist the ridding speed (0=Survivor can't control ridding speed)
+		// default: 0.7, maximum: 1.0
+		sm_cvar z_jockey_control_variance"0.7"
 		```
 </details>
 
@@ -163,5 +168,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 預設: 0.8, 最大: 1.0
 		sm_cvar z_jockey_control_max "0.8"
 		sm_cvar z_jockey_control_min "0.8"
+
+		// 人類可以抵抗Jockey騎走的速度調整 (0=無法使用上下左右抵抗騎走速度)
+		// 預設: 0.7, 最大: 1.0
+		sm_cvar z_jockey_control_variance"0.7"
 		```
 </details>
