@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* The Infected of Thunder
 		> 雷神Charger
-		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.jpg)
+		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.gif)
 	* Inertia Vault ability: While charging the Charger has the ability to leap into the air. (Human player only)
 		> 能力: 太空漫步 - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
 		<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014-2017
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-5-2)
+		* Attach Tesla Particle to charger when charger spawns.
+
 	* v1.0h (2023-4-26)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
@@ -206,7 +209,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 能力1: 粗壯右手 - 倖存者被Charger撞完之後爬起身，會受到持續性傷害。
-	* 能力2: 疾風衝刺 - Charger 衝刺時，如果身上有著火，火焰回熄滅。
+	* 能力2: 霹靂一閃 - Charger 衝刺時，如果身上有著火，火焰回熄滅。
 	* 能力3: 太空漫步 - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
 	* 能力4: 碎地震盪 - 倖存者被Charger衝刺撞到，行走速度會變慢一段時間。
 	* 能力5: 猛男衝擊 - 倖存者被Charger衝刺抓到帶著走時，每0.5秒受到傷害直到衝刺完畢。
@@ -214,6 +217,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力7: 領域展開 - Charger開始衝刺時，產生電擊場把附近的倖存者吸過來，並且造成倖存者受傷。
 	* 能力8: 雷神之捶 - Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家。
 	* 能力9: 靜電感應 - 死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛。
+	* (1.1h 新增) Chager身體圍繞雷電特效
 
 * 功能
 	* 可設定各能力的開關
