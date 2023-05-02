@@ -8,6 +8,7 @@
 
 enum /*L4D2WeaponSlot*/
 {
+	L4D2WeaponSlot_None = -1,
 	L4D2WeaponSlot_Primary,
 	L4D2WeaponSlot_Secondary,
 	L4D2WeaponSlot_Throwable,
@@ -295,62 +296,62 @@ stock const char MeleeWeaponModels[WEPID_MELEES_SIZE][] =
 
 stock const int WeaponSlots[WEPID_SIZE] =
 {
-	-1, // WEPID_NONE
-	1,  // WEPID_PISTOL
-	0,  // WEPID_SMG
-	0,  // WEPID_PUMPSHOTGUN
-	0,  // WEPID_AUTOSHOTGUN
-	0,  // WEPID_RIFLE
-	0,  // WEPID_HUNTING_RIFLE
-	0,  // WEPID_SMG_SILENCED
-	0,  // WEPID_SHOTGUN_CHROME
-	0,  // WEPID_RIFLE_DESERT
-	0,  // WEPID_SNIPER_MILITARY
-	0,  // WEPID_SHOTGUN_SPAS
-	3,  // WEPID_FIRST_AID_KIT
-	2,  // WEPID_MOLOTOV
-	2,  // WEPID_PIPE_BOMB
-	4,  // WEPID_PAIN_PILLS
-	-1, // WEPID_GASCAN
-	-1, // WEPID_PROPANE_TANK
-	-1, // WEPID_OXYGEN_TANK
-	1,  // WEPID_MELEE
-	1,  // WEPID_CHAINSAW
-	0,  // WEPID_GRENADE_LAUNCHER
-	3,  // WEPID_AMMO_PACK
-	4,  // WEPID_ADRENALINE
-	3,  // WEPID_DEFIBRILLATOR
-	2,  // WEPID_VOMITJAR
-	0,  // WEPID_RIFLE_AK47
-	-1, // WEPID_GNOME_CHOMPSKI
-	-1, // WEPID_COLA_BOTTLES
-	-1, // WEPID_FIREWORKS_BOX
-	3,  // WEPID_INCENDIARY_AMMO
-	3,  // WEPID_FRAG_AMMO
-	1,  // WEPID_PISTOL_MAGNUM
-	0,  // WEPID_SMG_MP5
-	0,  // WEPID_RIFLE_SG552
-	0,  // WEPID_SNIPER_AWP
-	0,  // WEPID_SNIPER_SCOUT
-	0,  // WEPID_RIFLE_M60
-	-1, // WEPID_TANK_CLAW
-	-1, // WEPID_HUNTER_CLAW
-	-1, // WEPID_CHARGER_CLAW
-	-1, // WEPID_BOOMER_CLAW
-	-1, // WEPID_SMOKER_CLAW
-	-1, // WEPID_SPITTER_CLAW
-	-1, // WEPID_JOCKEY_CLAW
-	-1, // WEPID_MACHINEGUN
-	-1, // WEPID_FATAL_VOMIT
-	-1, // WEPID_EXPLODING_SPLAT
-	-1, // WEPID_LUNGE_POUNCE
-	-1, // WEPID_LOUNGE
-	-1, // WEPID_FULLPULL
-	-1, // WEPID_CHOKE
-	-1, // WEPID_THROWING_ROCK
-	-1, // WEPID_TURBO_PHYSICS
-	-1, // WEPID_AMMO
-	-1  // WEPID_UPGRADE_ITEM
+	L4D2WeaponSlot_None, // WEPID_NONE
+	L4D2WeaponSlot_Secondary,  // WEPID_PISTOL
+	L4D2WeaponSlot_Primary,  // WEPID_SMG
+	L4D2WeaponSlot_Primary,  // WEPID_PUMPSHOTGUN
+	L4D2WeaponSlot_Primary,  // WEPID_AUTOSHOTGUN
+	L4D2WeaponSlot_Primary,  // WEPID_RIFLE
+	L4D2WeaponSlot_Primary,  // WEPID_HUNTING_RIFLE
+	L4D2WeaponSlot_Primary,  // WEPID_SMG_SILENCED
+	L4D2WeaponSlot_Primary,  // WEPID_SHOTGUN_CHROME
+	L4D2WeaponSlot_Primary,  // WEPID_RIFLE_DESERT
+	L4D2WeaponSlot_Primary,  // WEPID_SNIPER_MILITARY
+	L4D2WeaponSlot_Primary,  // WEPID_SHOTGUN_SPAS
+	L4D2WeaponSlot_HeavyHealthItem,  // WEPID_FIRST_AID_KIT
+	L4D2WeaponSlot_Throwable,  // WEPID_MOLOTOV
+	L4D2WeaponSlot_Throwable,  // WEPID_PIPE_BOMB
+	L4D2WeaponSlot_LightHealthItem,  // WEPID_PAIN_PILLS
+	L4D2WeaponSlot_None, // WEPID_GASCAN
+	L4D2WeaponSlot_None, // WEPID_PROPANE_TANK
+	L4D2WeaponSlot_None, // WEPID_OXYGEN_TANK
+	L4D2WeaponSlot_Secondary,  // WEPID_MELEE
+	L4D2WeaponSlot_Secondary,  // WEPID_CHAINSAW
+	L4D2WeaponSlot_Primary,  // WEPID_GRENADE_LAUNCHER
+	L4D2WeaponSlot_HeavyHealthItem,  // WEPID_AMMO_PACK
+	L4D2WeaponSlot_LightHealthItem,  // WEPID_ADRENALINE
+	L4D2WeaponSlot_HeavyHealthItem,  // WEPID_DEFIBRILLATOR
+	L4D2WeaponSlot_Throwable,  // WEPID_VOMITJAR
+	L4D2WeaponSlot_Primary,  // WEPID_RIFLE_AK47
+	L4D2WeaponSlot_None, // WEPID_GNOME_CHOMPSKI
+	L4D2WeaponSlot_None, // WEPID_COLA_BOTTLES
+	L4D2WeaponSlot_None, // WEPID_FIREWORKS_BOX
+	L4D2WeaponSlot_HeavyHealthItem,  // WEPID_INCENDIARY_AMMO
+	L4D2WeaponSlot_HeavyHealthItem,  // WEPID_FRAG_AMMO
+	L4D2WeaponSlot_Secondary,  // WEPID_PISTOL_MAGNUM
+	L4D2WeaponSlot_Primary,  // WEPID_SMG_MP5
+	L4D2WeaponSlot_Primary,  // WEPID_RIFLE_SG552
+	L4D2WeaponSlot_Primary,  // WEPID_SNIPER_AWP
+	L4D2WeaponSlot_Primary,  // WEPID_SNIPER_SCOUT
+	L4D2WeaponSlot_Primary,  // WEPID_RIFLE_M60
+	L4D2WeaponSlot_None, // WEPID_TANK_CLAW
+	L4D2WeaponSlot_None, // WEPID_HUNTER_CLAW
+	L4D2WeaponSlot_None, // WEPID_CHARGER_CLAW
+	L4D2WeaponSlot_None, // WEPID_BOOMER_CLAW
+	L4D2WeaponSlot_None, // WEPID_SMOKER_CLAW
+	L4D2WeaponSlot_None, // WEPID_SPITTER_CLAW
+	L4D2WeaponSlot_None, // WEPID_JOCKEY_CLAW
+	L4D2WeaponSlot_None, // WEPID_MACHINEGUN
+	L4D2WeaponSlot_None, // WEPID_FATAL_VOMIT
+	L4D2WeaponSlot_None, // WEPID_EXPLODING_SPLAT
+	L4D2WeaponSlot_None, // WEPID_LUNGE_POUNCE
+	L4D2WeaponSlot_None, // WEPID_LOUNGE
+	L4D2WeaponSlot_None, // WEPID_FULLPULL
+	L4D2WeaponSlot_None, // WEPID_CHOKE
+	L4D2WeaponSlot_None, // WEPID_THROWING_ROCK
+	L4D2WeaponSlot_None, // WEPID_TURBO_PHYSICS
+	L4D2WeaponSlot_None, // WEPID_AMMO
+	L4D2WeaponSlot_None  // WEPID_UPGRADE_ITEM
 };
 
 #define GETWEAPONNAME(%0) (IsValidWeaponId(%0) ? (WeaponNames[%0]) : "")
