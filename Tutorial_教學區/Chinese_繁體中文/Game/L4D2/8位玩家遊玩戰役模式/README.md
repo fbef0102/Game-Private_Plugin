@@ -80,7 +80,7 @@
      - Witch 追錯第五位以上的玩家目標
 
    - B方案: Left-4-fix by Lux
-     - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): 無法衝撞第五位以上的玩家
+     - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
      - [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 
 * [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰
