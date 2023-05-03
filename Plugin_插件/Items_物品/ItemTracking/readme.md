@@ -12,9 +12,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Apply to | 適用於
-```
-L4D2 Coop/Versus/Realism
-```
+	```
+	L4D2 Coop/Versus/Realism
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
@@ -35,66 +35,6 @@ L4D2 Coop/Versus/Realism
 * Related | 相關插件
 	1. [coopbosses_ifier](https://github.com/fbef0102/Game-Private_Plugin/tree/main/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
 		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-
-* Data Example
-	* data/mapinfo.txt
-	```php
-	"MapInfo"
-	{
-		"c4m1_milltown_a" //Map Name
-		{
-			"start_point"		"-6008.747070 7381.954590 192.909424" //start safe area center point (do not modify)
-			"end_point"		"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
-			"start_dist"		"100.000000" //start safe area distance (do not modify)
-			"start_extra_dist"	"500.000000" //start safe area distance extra (do not modify)
-			"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
-			"ItemLimits_Outside" // control items outside saferoom/final area
-			{
-				"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pills_limit" if no keyvalue)
-				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
-				"first_aid_kit"	"2" // Randomly Remove kits until 2 kits left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "kits_limit" if no keyvalue)
-				"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "defib_limit" if no keyvalue)
-				"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
-				"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "molotov_limit" if no keyvalue)
-				"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
-			}
-			"ItemLimits_StartArea"	// control items in start safe area
-			{
-				"pain_pills"	"2" // Randomly remove pills until 2 pills left in start safe area (-1=No Limit;0=Remove All, use cvar "pills_start_area_limit" if no keyvalue)
-				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in start safe area (-1=No Limit;0=Remove All, use cvar "adrenaline_start_area_limit" if no keyvalue)
-				"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in start safe area (-1=No Limit;0=Remove All, use cvar "kits_start_area_limit" if no keyvalue)
-				"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in start safe area (-1=No Limit;0=Remove All, use cvar "defib_start_area_limit" if no keyvalue)
-				"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in start safe area (-1=No Limit;0=Remove All, use cvar "pipebomb_start_area_limit" if no keyvalue)
-				"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=No Limit;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
-				"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=No Limit;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
-			}
-			"ItemLimits_EndArea" // control items in end safe area & final area
-			{
-				"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
-				"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
-				"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
-				"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
-				"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
-				"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
-				"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
-			}
-		}
-	}
-	```
-
-* <details><summary>Related Official ConVar</summary>
-
-	* write down the following cvars in cfg/server.cfg
-		```php
-		//Item density, Items per 100 yards square
-		sm_cvar director_pain_pill_density 		"6.48"
-		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 	"6.48"
-		sm_cvar director_molotov_density 		"6.48"
-		sm_cvar director_pipe_bomb_density 		"6.48"
-		sm_cvar director_vomitjar_density 		"6.48"
-		```
-</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -176,6 +116,66 @@ L4D2 Coop/Versus/Realism
 	None
 </details>
 
+* Data Example
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c4m1_milltown_a" //Map Name
+			{
+				"start_point"		"-6008.747070 7381.954590 192.909424" //start safe area center point (do not modify)
+				"end_point"		"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
+				"start_dist"		"100.000000" //start safe area distance (do not modify)
+				"start_extra_dist"	"500.000000" //start safe area distance extra (do not modify)
+				"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
+				"ItemLimits_Outside" // control items outside saferoom/final area
+				{
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pills_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
+					"first_aid_kit"	"2" // Randomly Remove kits until 2 kits left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "kits_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "defib_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "molotov_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
+				}
+				"ItemLimits_StartArea"	// control items in start safe area
+				{
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left in start safe area (-1=No Limit;0=Remove All, use cvar "pills_start_area_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in start safe area (-1=No Limit;0=Remove All, use cvar "adrenaline_start_area_limit" if no keyvalue)
+					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in start safe area (-1=No Limit;0=Remove All, use cvar "kits_start_area_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in start safe area (-1=No Limit;0=Remove All, use cvar "defib_start_area_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in start safe area (-1=No Limit;0=Remove All, use cvar "pipebomb_start_area_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=No Limit;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=No Limit;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
+				}
+				"ItemLimits_EndArea" // control items in end safe area & final area
+				{
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
+					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
+				}
+			}
+		}
+		```
+
+* <details><summary>Related Official ConVar</summary>
+
+	* write down the following cvars in cfg/server.cfg
+		```php
+		//Item density, Items per 100 yards square
+		sm_cvar director_pain_pill_density 		"6.48"
+		sm_cvar director_adrenaline_density		"6.48"
+		sm_cvar director_defibrillator_density 	"6.48"
+		sm_cvar director_molotov_density 		"6.48"
+		sm_cvar director_pipe_bomb_density 		"6.48"
+		sm_cvar director_vomitjar_density 		"6.48"
+		```
+</details>
+
 - - - -
 # 中文說明
 控制地圖上的物品數量與限制
@@ -193,49 +193,49 @@ L4D2 Coop/Versus/Realism
 
 * Data設定範例
 	* data/mapinfo.txt
-	```php
-	"MapInfo"
-	{
-		"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
-		"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
-		"start_dist"		"100.000000" //始安全區域範圍 (不要亂改)
-		"start_extra_dist"	"500.000000" //始安全區域額外範圍 (不要亂改)
-		"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
-		"c4m1_milltown_a" //地圖名
+		```php
+		"MapInfo"
 		{
-			"ItemLimits_Outside" //安全區域&救援區域外
+			"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
+			"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
+			"start_dist"		"100.000000" //始安全區域範圍 (不要亂改)
+			"start_extra_dist"	"500.000000" //始安全區域額外範圍 (不要亂改)
+			"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
+			"c4m1_milltown_a" //地圖名
 			{
-				"pain_pills"    "2" //找到地圖上在安全區域/救援區域外所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_limit)
-				"adrenaline"    "2" //找到地圖上在安全區域/救援區域外所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_limit)
-				"first_aid_kit" "2" //找到地圖上在安全區域/救援區域外所有治療包，然後隨機挑選只留下兩個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_limit)
-				"defibrillator" "2" //找到地圖上在安全區域/救援區域外所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_limit)
-				"pipe_bomb"     "1" //找到地圖上在安全區域/救援區域外所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_limit)
-				"molotov"       "1" //找到地圖上在安全區域/救援區域外所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_limit)
-				"vomitjar"      "1" //找到地圖上在安全區域/救援區域外所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_limit)
-			}
-			"ItemLimits_StartArea" //起始安全區域內
-			{
-				"pain_pills"    "2" //找到地圖上在起始安全區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_start_area_limit)
-				"adrenaline"    "2" //找到地圖上在起始安全區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_start_area_limit)
-				"first_aid_kit" "4" //找到地圖上在起始安全區域內所有治療包，然後隨機挑選只留下4個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_start_area_limit)
-				"defibrillator" "2" //找到地圖上在起始安全區域內所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_start_area_limit)
-				"pipe_bomb"     "1" //找到地圖上在起始安全區域內所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_start_area_limit)
-				"molotov"       "1" //找到地圖上在起始安全區域內所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_start_area_limit)
-				"vomitjar"      "1" //找到地圖上在起始安全區域內所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_start_area_limit)
-			}
-			"ItemLimits_EndArea" //終點安全區域&救援區域內
-			{
-				"pain_pills"    "2" //找到地圖上在終點安全區域&救援區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_end_area_limit)
-				"adrenaline"    "2" //找到地圖上在終點安全區域&救援區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_end_area_limit)
-				"first_aid_kit" "4" //找到地圖上在終點安全區域&救援區域內所有治療包，然後隨機挑選只留下4個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_end_area_limit)
-				"defibrillator" "2" //找到地圖上在終點安全區域&救援區域內所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_end_area_limit)
-				"pipe_bomb"     "1" //找到地圖上在終點安全區域&救援區域內所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_end_area_limit)
-				"molotov"       "1" //找到地圖上在終點安全區域&救援區域內所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_end_area_limit)
-				"vomitjar"      "1" //找到地圖上在終點安全區域&救援區域內所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_end_area_limit)
+				"ItemLimits_Outside" //安全區域&救援區域外
+				{
+					"pain_pills"    "2" //找到地圖上在安全區域/救援區域外所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_limit)
+					"adrenaline"    "2" //找到地圖上在安全區域/救援區域外所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_limit)
+					"first_aid_kit" "2" //找到地圖上在安全區域/救援區域外所有治療包，然後隨機挑選只留下兩個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_limit)
+					"defibrillator" "2" //找到地圖上在安全區域/救援區域外所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_limit)
+					"pipe_bomb"     "1" //找到地圖上在安全區域/救援區域外所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_limit)
+					"molotov"       "1" //找到地圖上在安全區域/救援區域外所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_limit)
+					"vomitjar"      "1" //找到地圖上在安全區域/救援區域外所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_limit)
+				}
+				"ItemLimits_StartArea" //起始安全區域內
+				{
+					"pain_pills"    "2" //找到地圖上在起始安全區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_start_area_limit)
+					"adrenaline"    "2" //找到地圖上在起始安全區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_start_area_limit)
+					"first_aid_kit" "4" //找到地圖上在起始安全區域內所有治療包，然後隨機挑選只留下4個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_start_area_limit)
+					"defibrillator" "2" //找到地圖上在起始安全區域內所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_start_area_limit)
+					"pipe_bomb"     "1" //找到地圖上在起始安全區域內所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_start_area_limit)
+					"molotov"       "1" //找到地圖上在起始安全區域內所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_start_area_limit)
+					"vomitjar"      "1" //找到地圖上在起始安全區域內所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_start_area_limit)
+				}
+				"ItemLimits_EndArea" //終點安全區域&救援區域內
+				{
+					"pain_pills"    "2" //找到地圖上在終點安全區域&救援區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_end_area_limit)
+					"adrenaline"    "2" //找到地圖上在終點安全區域&救援區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_end_area_limit)
+					"first_aid_kit" "4" //找到地圖上在終點安全區域&救援區域內所有治療包，然後隨機挑選只留下4個治療包，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令kits_end_area_limit)
+					"defibrillator" "2" //找到地圖上在終點安全區域&救援區域內所有電擊器，然後隨機挑選只留下兩個電擊器，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令defib_end_area_limit)
+					"pipe_bomb"     "1" //找到地圖上在終點安全區域&救援區域內所有土製炸彈，然後隨機挑選只留下1個，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pipebomb_end_area_limit)
+					"molotov"       "1" //找到地圖上在終點安全區域&救援區域內所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_end_area_limit)
+					"vomitjar"      "1" //找到地圖上在終點安全區域&救援區域內所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_end_area_limit)
+				}
 			}
 		}
-	}
-	```
+		```
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 

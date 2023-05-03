@@ -94,8 +94,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![sm_regexfilter_2_zho](image/zho/sm_regexfilter_2_zho.jpg)
 
 * 原理
-    * 專門對付口出惡言的噴子
     * 只要打字說出的字詞符合禁詞表內任何一個詞彙，字詞被遮蔽且懲罰玩家
+
+* 用意在哪?
+    * 專門對付口出惡言的玩家
+    * 跟管理員吵架，只有管理員能罵人
 
 * 功能
     * 禁詞表可自行增修

@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/4/29 updated
+> 2023/5/3 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -264,6 +264,8 @@ My Unpublic Private Plugin (Charge)
     * 使用治療包時提示個人的治療包使用數量與狀態
   * [who_shot_gas](/Plugin_插件/Items_物品/who_shot_gas): Type !gas to disaply who shot the last gas can. + Announce when gas can being shot.
     * 誰他馬打爆汽油桶
+  * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Replace big guns with other guns + Replace items with other items
+    * 刪除大槍、刪除治療包、刪除其他投擲物與物品，並替換成其他武器或物品
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -352,7 +354,7 @@ My Unpublic Private Plugin (Charge)
     * 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
   * [anti_end_saferoomdoor](/Plugin_插件/Anti_Griefer_防惡意路人/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
     * 所有人抵達終點安全室之前，不得關門
-  * [kickthevoter](/Plugin_插件/Survival_生存模式/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+  * [kickthevoter](/Plugin_插件/Anti_Griefer_防惡意路人/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
     * 使用Esc->發起投票的人將會被反踢出去伺服器
   * [anti-friendly_fire_V2](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
     * 隊友開槍射你會反彈傷害，第二版本

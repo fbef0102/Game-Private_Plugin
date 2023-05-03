@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Apply to | 適用於
 ```
 L4D1 Coop
-L4D2 Coop
+L4D2 Coop/Realism
 ```
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -52,6 +52,7 @@ L4D2 Coop
 	* 最後一條生命黑白狀態也適用
 	* 倒地玩家也適用
 	* 用來解決每次玩家都要故意自殺獲得下一關復活50hp的問題
+	* 也適用於寫實模式
 	
 * 功能
 	1. 可設置要恢复倖存者的血量
