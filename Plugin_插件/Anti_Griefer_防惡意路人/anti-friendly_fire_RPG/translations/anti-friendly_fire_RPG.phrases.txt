@@ -1,0 +1,61 @@
+﻿"Phrases"
+{
+	"FF_dealt (C)"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"		"Reflict {green}{1} {default}dmg to you. (Total FF Dmg: {green}{2}{default}, Time: {green}{3}{default})"
+		"zho"		"反彈 {green}{1} {default}傷害給你. (累積造成傷害: {green}{2}{default}, 次數: {green}{3}{default})"
+		"chi"		"反弹 {green}{1} {default}伤害给你. (累积造成伤害: {green}{2}{default}, 次数: {green}{3}{default})"
+	}
+	"FF_dealt"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"		"Reflict {1} dmg to you. (Total FF Dmg: {2}, Time: {3})"
+		"zho"		"反彈 {1} 傷害給你. (累積造成傷害: {2}, 次數: {3})"
+		"chi"		"反弹 {1} 伤害给你. (累积造成伤害: {2}, 次数: {3})"
+	}
+	"FF_receive (C)"
+	{
+		"#format"		"{1:N},{2:d}"
+		"en"		"{lightgreen}{1}{default} did {green}{2}{default} friendly fire damage to you."
+		"zho"		"{lightgreen}{1}{default} 造成了 {green}{2}{default} 傷害給你."
+		"chi"		"{lightgreen}{1}{default} 造成了 {green}{2}{default} 伤害给你."
+	}
+	"FF_receive"
+	{
+		"#format"		"{1:N},{2:d}"
+		"en"		"{1} did {2} friendly fire damage to you."
+		"zho"		"{1} 造成了 {2} 傷害給你."
+		"chi"		"{1} 造成了 {2} 伤害给你."
+	}
+
+	"Slay_TK (C)"
+	{
+		"#format"		"{1:t}"
+		"en"		"{olive}Slay {green}Team Killer{default}! ({1})"
+		"zho"		"{olive}處死 {green}黑槍者{default}! ({1})"
+		"chi"		"{olive}处死 {green}黑枪者{default}! ({1})"
+	}
+
+	"Slay_TK"
+	{
+		"#format"		"{1:t}"
+		"en"		"Slay Team Killer! ({1})"
+		"zho"		"處死 黑槍者! ({1})"
+		"chi"		"处死 黑枪者! ({1})"
+	}
+
+	"TK much time"
+	{
+		"en"		"Too much TK Time!"
+		"zho"		"TK次數太多!"
+		"chi"		"TK次数太多!."
+	}
+
+	"TK much time"
+	{
+		"en"		"Too much TK Dmg!"
+		"zho"		"TK累積傷害過高!"
+		"chi"		"TK累积伤害过高!"
+	}
+}

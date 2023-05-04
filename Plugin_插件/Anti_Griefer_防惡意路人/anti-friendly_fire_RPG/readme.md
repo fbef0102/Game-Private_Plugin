@@ -16,7 +16,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2023-5-4)
+		* Fixed Melee damage
+		* Translation Support
 
 	* v1.5
 		* Original Request by 壹梦
@@ -24,6 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Similar Plugin | 相似插件
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version

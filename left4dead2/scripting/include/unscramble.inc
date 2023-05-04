@@ -7,6 +7,7 @@
  *  Version:        1.0
  *
  *  Copyright (C) 2020 raziEiL [disawar1] <mr.raz4291@gmail.com>
+ *  Copyright (C) 2023 HarryPotter
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -69,8 +70,8 @@ native bool R2comp_IsUnscrambled();
 
 public SharedPlugin __pl_r2comp_unscramble =
 {
-	name = "r2comp_unscramble",
-	file = "r2comp_unscramble.smx",
+	name = "l4d_team_unscramble",
+	file = "l4d_team_unscramble.smx",
 #if defined REQUIRE_PLUGIN
 	required = 1,
 #else
