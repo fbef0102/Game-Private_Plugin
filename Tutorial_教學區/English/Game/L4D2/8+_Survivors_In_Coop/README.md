@@ -44,7 +44,7 @@
     ```
    - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
-* [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in coop/survival/realism when 5+ player joins the server.
+* [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in server when 5+ player joins the server
    - How could I control the number of bots spawned at the start
       - cfg/sourcemod/l4dmultislots.cfg
 		```php

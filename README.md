@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/5/3 updated
+> 2023/5/6 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -304,6 +304,8 @@ My Unpublic Private Plugin (Charge)
     * 靈魂特感能夠在安全室內復活
   * [l4d2_versus_scoremod](/Plugin_插件/Versus_對抗模式/l4d2_versus_scoremod): Override versus score depending on survivor health and damage bonus
     * 根據玩家的血量與傷害改變對抗模式的過關分數
+  * [l4d_doubletank](/Plugin_插件/Versus_對抗模式/l4d_doubletank): Spawn second player-controlled tank in versus mode
+    * 對抗模式下生成第二隻玩家可以操控的Tank
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
