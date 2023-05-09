@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/5/6 updated
+> 2023/5/9 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -250,6 +250,8 @@ My Unpublic Private Plugin (Charge)
     * (公開) 旁觀者能看到特感的光圈，主要是用來更好的觀看體驗
   * [l4d_flashlight_speconly](/Plugin_插件/Spectator_旁觀者/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
     * 給死亡玩家或旁觀者手電筒，照亮地圖
+  * [l4d_versus_specListener](/Plugin_插件/Spectator_旁觀者/l4d_versus_specListener): Allows spectator listen others team voice and see others team chat for l4d
+    * 旁觀者可以透過聊天視窗看到倖存者和特感的隊伍對話，亦可透過音頻聽到隊伍談話
 </details>
 
 * <details><summary><b>Items | 物品</b></summary>

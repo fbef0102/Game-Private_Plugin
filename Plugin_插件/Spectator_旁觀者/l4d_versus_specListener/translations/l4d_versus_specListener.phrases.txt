@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"On"
+	{
+		"en"	"On"
+		"zho"	"開啟"
+		"chi"	"开启"
+	}
+	"Off"
+	{
+		"en"	"Off"
+		"zho"	"關閉"
+		"chi"	"关闭"
+	}
+	"Listen Mode1"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"	"[{green}ListenMode{default}] {olive}type {green}{2} {olive}{1} {lightgreen}Listen Mode{olive}."
+		"zho"	"[{green}監聽插件{default}] {olive}輸入 {green}{2} {olive}{1} {lightgreen}監聽模式{olive}."
+		"chi"	"[{green}监听插件{default}] {olive}输入 {green}{2} {olive}{1} {lightgreen}监听模式{olive}."
+	}
+	"Listen Mode2"
+	{
+		"#format"	"{1:s}"
+		"en"	"[{green}ListenMode{default}] {lightgreen}Listen Mode{default} is now {olive}{1}{default}."
+		"zho"	"[{green}監聽插件{default}] {lightgreen}監聽模式{default} 已 {olive}{1}{default}."
+		"chi"	"[{green}监听插件{default}] {lightgreen}监听模式{default} 已 {olive}{1}{default}."
+	}
+	"Listen Mode3"
+	{
+		"en"	"{olive}(You can see what {green}Survivor{olive} and {green}Infected{olive} type via chat box, and what they say via mic)"
+		"zho"	"{olive}(你可以透過聊天視窗看到 {green}倖存者{olive}和 {green}特感{olive} 的隊伍對話，亦可透過音頻聽到隊伍談話)"
+		"chi"	"{olive}(你可以透过聊天窗口看到 {green}生还者{olive}和 {green}特感{olive} 的队伍对话，亦可透过音频听到队伍麦克风谈话)"
+	}
+}
