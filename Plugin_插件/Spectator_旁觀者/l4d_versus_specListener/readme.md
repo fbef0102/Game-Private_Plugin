@@ -18,7 +18,7 @@ Allows spectator listen others team voice and see others team chat for l4d
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v3.4 (2023-5-9)
+	* v3.5 (2023-5-9)
         * Spectator can see survivor team chat and infected team chat
         * Support official convar ```sv_alltalk 1```
         * Translation support
@@ -46,6 +46,9 @@ Allows spectator listen others team voice and see others team chat for l4d
 
         // 0=Plugin off, 1=Plugin on.
         l4d_versus_specListener_enable "1"
+
+        // If 1, Show Spectators Survivors and Infected Team chat?
+        l4d_versus_specListener_team_chat_spec "1"
         ```
 </details>
 

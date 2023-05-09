@@ -27,6 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5 (2023-5-9)
+		* Add rank title to player name
+
 	* v1.4 (2023-4-28)
 		* Optimize Code
 
@@ -85,7 +88,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_ranking_system_jockey_killed "25"
 
 		// Numbers of real survivor player require to active this plugin.
-		l4d_ranking_system_player_require "4"
+		l4d_ranking_system_player_require "2"
+
+		// If 1, add rank title to player name
+		l4d_ranking_system_rank_display "1"
 
 		// Giving exp for killing a smoker
 		l4d_ranking_system_smoker_killed "20"
@@ -144,12 +150,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
 
 * 原理
-	* 模仿CSO的Rank，根據玩家的經驗值獲得對應的頭銜名稱
+	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
 	* 必須會設定資料庫，否則玩家的經驗值無法儲存
+	* 將頭銜名稱加入到玩家的名字前
+	* 輸入!rank隨時查看自己或他人資料
 
 * 功能
-	1. 輸入命令查看其他的人排行榜資料
-	2. 可設置殺死不同的特感獲得不同的經驗值
+	* 可設置殺死不同的特感獲得不同的經驗值
+	* 可設置伺服器至少需要的真人玩家才會啟動此插件
+	* 可不要將頭銜名稱加入到玩家的名字前
 
 * 資料庫設定
 	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
