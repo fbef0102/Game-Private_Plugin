@@ -20,6 +20,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2023-5-10)
+		* Add a convar
+			```php
+			// 0=Plugin off, 1=Plugin on.
+			l4d_ultra_witch_enable "1"
+			```
+
 	* v1.0h (2023-2-25)
 		* Request by 小颯
 		* Remake Code
@@ -38,6 +45,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_ultra_witch.cfg
 		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_ultra_witch_enable "1"
+
 		// If 1, The Witch's hit sends survivor flying.
 		l4d_ultra_witch_flying_enable "1"
 

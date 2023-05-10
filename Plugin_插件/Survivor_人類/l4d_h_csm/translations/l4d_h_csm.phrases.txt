@@ -196,7 +196,7 @@
 	}
 	"Choose a character"
 	{
-		"en"	"Your character is now {1}"
+		"en"	"Choose a character"
 		"zho"	"角色選擇列表"
 		"chi"	"角色选择列表"
 	}
