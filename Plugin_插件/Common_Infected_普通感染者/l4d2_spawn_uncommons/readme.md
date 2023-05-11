@@ -1,5 +1,5 @@
 # Description | 內容
-Spawn Uncommon Infected on the map (Support The Last Stand New Model)
+Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,7 +8,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
 
 * Image | 圖示
-	* Spawn uncommon on the map
+	* Spawn uncommon on all maps
 		> 地圖上生成多個特殊一般感染者
 		<br/>![l4d2_spawn_uncommons_1](image/l4d2_spawn_uncommons_1.jpeg)
 	* Add all uncommon models including the last stand update
@@ -116,11 +116,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-地圖上生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
+所有地圖上可生成生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
 
 * 原理
 	* 導演系統生成普通感染者的時候，將其變成特殊一般感染者
-	* 不影響地圖上既有的特殊一般感染者，譬如黑色嘉年華地圖本身會生成小丑，即使這個插件關閉小丑生成也沒用
+	* 不影響地圖上既有的特殊一般感染者，譬如黑色嘉年華地圖本身會生成小丑，即使這個插件關閉小丑生成也不影響地圖本身會生成小丑
+	* 支援三方圖
 
 * 功能
 	* 可調整機率生成特殊一般感染者
