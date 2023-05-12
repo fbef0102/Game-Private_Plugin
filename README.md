@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/5/9 updated
+> 2023/5/12 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -410,6 +410,8 @@ My Unpublic Private Plugin (Charge)
     * 可以使用所有角色語音並發出對話，能自定義語音列表
   * [l4d_modme](/Plugin_插件/Fun_娛樂/l4d_modme): Player can become the model you point at.
     * 玩家外觀可以變成地圖任何一個物件模型
+  * [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
+    * 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
