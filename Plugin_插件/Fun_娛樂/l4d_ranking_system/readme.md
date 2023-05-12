@@ -9,11 +9,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>None
 
 * Image | 圖示
-	* Your Rank
-		> 全球菁英
+	* Your Rank statistics
+		> 你的Rank統計表
 		<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
-	* Name tag in chatbox 
-		> 聊天視窗給予Rank稱號
+	* Add Rank tag to Name
+		> 玩家名字給予Rank稱號
 		<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
 	* CSGO Rank
 		> 抄襲CSGO Rank
@@ -151,14 +151,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
-	* 必須會設定資料庫，否則玩家的經驗值無法儲存
 	* 將頭銜名稱加入到玩家的名字前
 	* 輸入!rank隨時查看自己或他人資料
+	* 必須會設定資料庫，否則玩家的經驗值無法儲存
 
 * 功能
 	* 可設置殺死不同的特感獲得不同的經驗值
 	* 可設置伺服器至少需要的真人玩家才會啟動此插件
 	* 可不要將頭銜名稱加入到玩家的名字前
+	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
 
 * 資料庫設定
 	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*

@@ -456,6 +456,11 @@ My Unpublic Private Plugin (Charge)
     * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
 </details>
 
+* <details><summary><b>只有中文的插件列表</b></summary>
+
+  * [l4d_ranking_system_V3](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+</details>
+
 ###### **CS Plugin List | CS插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
@@ -559,7 +564,7 @@ My Unpublic Private Plugin (Charge)
 
   * ✗不清晰、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
-  * ✗盜版、舊版本遊戲、舊版本Sourcemod
+  * ✗盜版、舊版本的遊戲、舊版本的Sourcemod、舊版本的插件
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付錢
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
@@ -616,7 +621,7 @@ My Unpublic Private Plugin (Charge)
   * ✗ Won't do any VIP, RPG, or any admin group plugin
   * ✗ I know nothing much about .vpk mod, don't ask
   * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
-  * ✗ Non-steam、Old game version、Sourcemod
+  * ✗ Non-steam、old game version、old sourcemod version、old plugin version
   * ✗ Only plugin with no source code, please attach original link
 </details>
 
