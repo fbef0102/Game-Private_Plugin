@@ -1,0 +1,689 @@
+﻿/*
+	Following named colors are supported:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色)
+	 - {blue}		(藍色)
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+"Phrases"
+{
+	"Choose_map"
+	{
+		"en"		"Choose the map"
+		"zho"		"選擇地圖"
+		"chi"		"选择地图"
+	}
+	"Choose_campaign"
+	{
+		"en"		"- Choose the campaign -"
+		"zho"		"- 請選擇地圖 -"
+		"chi"		"- 请选择地图 -"
+	}
+	"No_maps_in_group"
+	{
+		"en"		"[{olive}TS{default}] No custom maps in this server yet."
+		"zho"		"[{olive}TS{default}] 伺服器還沒有三方地圖"
+		"chi"		"[{olive}TS{default}] 服务器还没有三方地图"
+	}
+	"No_Mercy"
+	{
+		"en"		"No Mercy"
+		"zho"		"毫不留情"
+		"chi"		"毫不留情"
+	}
+	"Crash_Course"
+	{
+		"en"		"Crash Course"
+		"zho"		"墜機險途"
+		"chi"		"坠机险途"
+	}
+	"Death_Toll"
+	{
+		"en"		"Death Toll"
+		"zho"		"死亡喪鐘"
+		"chi"		"死亡丧钟"
+	}
+	"Dead_Air"
+	{
+		"en"		"Dead Air"
+		"en"		"死亡機場"
+		"chi"		"寂静时分"
+	}
+	"Blood_Harvest"
+	{
+		"en"		"Blood Harvest"
+		"zho"		"嗜血豐收"
+		"chi"		"血腥收获"
+	}
+	"Sacrifice"
+	{
+		"en"		"Sacrifice"
+		"zho"		"犧牲"
+		"chi"		"牺牲"
+	}
+	"Last_Stand"
+	{
+		"en"		"Last Stand"
+		"zho"		"最後一刻"
+		"chi"		"临死一搏"
+	}
+	"#L4D360UI_Chapter_01_1"
+	{
+		"en"		"Apartments"
+		"zho"		"公寓"
+		"chi"		"公寓"
+	}
+	"#L4D360UI_Chapter_01_2"
+	{
+		"en"		"Subway"
+		"zho"		"地下鐵"
+		"chi"		"地铁"
+	}
+	"#L4D360UI_Chapter_01_3"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道"
+		"chi"		"下水道"
+	}
+	"#L4D360UI_Chapter_01_4"
+	{
+		"en"		"Hospital"
+		"zho"		"醫院"
+		"chi"		"医院"
+	}
+	"#L4D360UI_Chapter_01_5"
+	{
+		"en"		"Rooftop"
+		"zho"		"屋頂"
+		"chi"		"屋顶"
+	}
+	"#L4D360UI_Chapter_02_1"
+	{
+		"en"		"Alleys"
+		"zho"		"小巷"
+		"chi"		"小巷"
+	}
+	"#L4D360UI_Chapter_02_2"
+	{
+		"en"		"Lots"
+		"zho"		"卡車車庫最終章"
+		"chi"		"卡车车库终章"
+	}
+	"#L4D360UI_Chapter_03_1"
+	{
+		"en"		"Caves"
+		"zho"		"高速公路"
+		"chi"		"高速公路"
+	}
+	"#L4D360UI_Chapter_03_2"
+	{
+		"en"		"Drainage"
+		"zho"		"排水管"
+		"chi"		"排水管"
+	}
+	"#L4D360UI_Chapter_03_3"
+	{
+		"en"		"Ranchhouse"
+		"zho"		"教堂"
+		"chi"		"教堂"
+	}
+	"#L4D360UI_Chapter_03_4"
+	{
+		"en"		"Main street"
+		"zho"		"小鎮"
+		"chi"		"小镇"
+	}
+	"#L4D360UI_Chapter_03_5"
+	{
+		"en"		"Houseboat"
+		"zho"		"船屋最終章"
+		"chi"		"船坞终章"
+	}
+	"#L4D360UI_Chapter_04_1"
+	{
+		"en"		"Greenhouse"
+		"zho"		"溫室"
+		"chi"		"花房"
+	}
+	"#L4D360UI_Chapter_04_2"
+	{
+		"en"		"Offices"
+		"zho"		"起重機"
+		"chi"		"起重机"
+	}
+	"#L4D360UI_Chapter_04_3"
+	{
+		"en"		"Garage"
+		"zho"		"建築工地"
+		"chi"		"建筑工地"
+	}
+	"#L4D360UI_Chapter_04_4"
+	{
+		"en"		"Terminal"
+		"zho"		"航空站"
+		"chi"		"航天站"
+	}
+	"#L4D360UI_Chapter_04_5"
+	{
+		"en"		"Runway"
+		"zho"		"跑道最終章"
+		"chi"		"跑道终章"
+	}
+	"#L4D360UI_Chapter_05_1"
+	{
+		"en"		"Hilltop"
+		"zho"		"森林"
+		"chi"		"森林"
+	}
+	"#L4D360UI_Chapter_05_2"
+	{
+		"en"		"Train tunnel"
+		"zho"		"隧道"
+		"chi"		"隧道"
+	}
+	"#L4D360UI_Chapter_05_3"
+	{
+		"en"		"Bridge"
+		"zho"		"橋"
+		"chi"		"桥"
+	}
+	"#L4D360UI_Chapter_05_4"
+	{
+		"en"		"Barn"
+		"zho"		"火車站"
+		"chi"		"火车站"
+	}
+	"#L4D360UI_Chapter_05_5"
+	{
+		"en"		"Cornfield"
+		"zho"		"農場最終章"
+		"chi"		"农场终章"
+	}
+	"#L4D360UI_Chapter_06_1"
+	{
+		"en"		"Docks"
+		"zho"		"碼頭"
+		"chi"		"码头"
+	}
+	"#L4D360UI_Chapter_06_2"
+	{
+		"en"		"Barge"
+		"zho"		"駁船"
+		"chi"		"驳船"
+	}
+	"#L4D360UI_Chapter_06_3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口"
+	}
+	"#L4D360UI_Chapter_07_1"
+	{
+		"en"		"Lighthouse"
+		"zho"		"燈塔"
+		"chi"		"灯塔"
+	}
+	"#L4D360UI_CampaignName_C1"
+	{
+		"en"		"Dead Center"
+		"zho"		"死亡都心"
+		"chi"		"死亡中心"
+	}
+	"#L4D360UI_CampaignName_C2"
+	{
+		"en"		"Dark Carnival"
+		"zho"		"黑色嘉年華"
+		"chi"		"黑色狂欢节"
+	}
+	"#L4D360UI_CampaignName_C3"
+	{
+		"en"		"Swamp Fever"
+		"zho"		"沼澤瘧疾"
+		"chi"		"沼泽激战"
+	}
+	"#L4D360UI_CampaignName_C4"
+	{
+		"en"		"Hard Rain"
+		"zho"		"大雨"
+		"chi"		"暴风骤雨"
+	}
+	"#L4D360UI_CampaignName_C5"
+	{
+		"en"		"The Parish"
+		"zho"		"教區"
+		"chi"		"教区"
+	}
+	"#L4D360UI_CampaignName_C6"
+	{
+		"en"		"The Passing"
+		"zho"		"短暫之時"
+		"chi"		"短暂时刻"
+	}
+	"#L4D360UI_CampaignName_C7"
+	{
+		"en"		"The Sacrifice"
+		"zho"		"犧牲"
+		"chi"		"牺牲"
+	}
+	"#L4D360UI_CampaignName_C8"
+	{
+		"en"		"No Mercy"
+		"zho"		"毫不留情"
+		"chi"		"毫不留情"
+	}
+	"#L4D360UI_CampaignName_C9"
+	{
+		"en"		"Crash Course"
+		"zho"		"墜機險途(速成課程)"
+		"chi"		"坠机险途"
+	}
+	"#L4D360UI_CampaignName_C10"
+	{
+		"en"		"Death Toll"
+		"zho"		"死亡喪鐘"
+		"chi"		"死亡丧钟"
+	}
+	"#L4D360UI_CampaignName_C11"
+	{
+		"en"		"Dead Air"
+		"zho"		"死亡機場"
+		"chi"		"寂静时分"
+	}
+	"#L4D360UI_CampaignName_C12"
+	{
+		"en"		"Blood Harvest"
+		"zho"		"嗜血豐收"
+		"chi"		"血腥收获"
+	}
+	"#L4D360UI_CampaignName_C13"
+	{
+		"en"		"Cold Stream"
+		"zho"		"冷澗溪流"
+		"chi"		"刺骨寒溪"
+	}
+	"#L4D360UI_CampaignName_C14"
+	{
+		"en"		"Last Stand"
+		"zho"		"最後一刻"
+		"chi"		"临死一搏"
+	}
+	"#L4D360UI_LevelName_COOP_C1M1"
+	{
+		"en"		"Hotel"
+		"zho"		"飯店"
+		"chi"		"旅馆"
+	}
+	"#L4D360UI_LevelName_COOP_C1M2"
+	{
+		"en"		"Streets"
+		"zho"		"街道"
+		"chi"		"街道"
+	}
+	"#L4D360UI_LevelName_COOP_C1M3"
+	{
+		"en"		"Mall"
+		"zho"		"購物中心"
+		"chi"		"购物中心"
+	}
+	"#L4D360UI_LevelName_COOP_C1M4"
+	{
+		"en"		"Atrium"
+		"zho"		"中庭"
+		"chi"		"中厅终章"
+	}
+	"#L4D360UI_LevelName_COOP_C2M1"
+	{
+		"en"		"Highway"
+		"zho"		"高速公路"
+		"chi"		"高速公路"
+	}
+	"#L4D360UI_LevelName_COOP_C2M2"
+	{
+		"en"		"Fairgrounds"
+		"zho"		"露天市集"
+		"chi"		"游乐场"
+	}
+	"#L4D360UI_LevelName_COOP_C2M3"
+	{
+		"en"		"Coaster"
+		"zho"		"雲霄飛車"
+		"chi"		"过山车"
+	}
+	"#L4D360UI_LevelName_COOP_C2M4"
+	{
+		"en"		"Barns"
+		"zho"		"穀倉"
+		"chi"		"谷仓"
+	}
+	"#L4D360UI_LevelName_COOP_C2M5"
+	{
+		"en"		"Concert"
+		"zho"		"音樂會"
+		"chi"		"音乐会终章"
+	}
+	"#L4D360UI_LevelName_COOP_C3M1"
+	{
+		"en"		"Plank Country"
+		"zho"		"木工廠"
+		"chi"		"乡村"
+	}
+	"#L4D360UI_LevelName_COOP_C3M2"
+	{
+		"en"		"Swamp"
+		"zho"		"沼澤"
+		"chi"		"沼泽"
+	}
+	"#L4D360UI_LevelName_COOP_C3M3"
+	{
+		"en"		"Shanty Town"
+		"zho"		"貧民窟"
+		"chi"		"贫民窟"
+	}
+	"#L4D360UI_LevelName_COOP_C3M4"
+	{
+		"en"		"Plantation"
+		"zho"		"農場"
+		"chi"		"种植园终章"
+	}
+	"#L4D360UI_LevelName_COOP_C4M1"
+	{
+		"en"		"Milltown"
+		"zho"		"密爾城"
+		"chi"		"密尔城"
+	}
+	"#L4D360UI_LevelName_COOP_C4M2"
+	{
+		"en"		"Sugar Mill"
+		"zho"		"糖廠"
+		"chi"		"糖厂"
+	}
+	"#L4D360UI_LevelName_COOP_C4M3"
+	{
+		"en"		"Mill Escape"
+		"zho"		"逃離工廠"
+		"chi"		"逃离工厂"
+	}
+	"#L4D360UI_LevelName_COOP_C4M4"
+	{
+		"en"		"Return to Town"
+		"zho"		"返回城鎮"
+		"chi"		"重返小镇"
+	}
+	"#L4D360UI_LevelName_COOP_C4M5"
+	{
+		"en"		"Town Escape"
+		"zho"		"逃離城鎮"
+		"chi"		"逃离小镇终章"
+	}
+	"#L4D360UI_LevelName_COOP_C5M1"
+	{
+		"en"		"Waterfront"
+		"zho"		"岸邊"
+		"chi"		"码头"
+	}
+	"#L4D360UI_LevelName_COOP_C5M2"
+	{
+		"en"		"Park"
+		"zho"		"公園"
+		"chi"		"公园"
+	}
+	"#L4D360UI_LevelName_COOP_C5M3"
+	{
+		"en"		"Cemetery"
+		"zho"		"公墓"
+		"chi"		"墓地"
+	}
+	"#L4D360UI_LevelName_COOP_C5M4"
+	{
+		"en"		"Condos"
+		"zho"		"特區"
+		"chi"		"特区"
+	}
+	"#L4D360UI_LevelName_COOP_C5M5"
+	{
+		"en"		"Lift Bridge"
+		"zho"		"橋梁"
+		"chi"		"桥终章"
+	}
+	"#L4D360UI_LevelName_COOP_C6M1"
+	{
+		"en"		"Riverbank"
+		"zho"		"河岸"
+		"chi"		"河畔"
+	}
+	"#L4D360UI_LevelName_COOP_C6M2"
+	{
+		"en"		"Underground"
+		"zho"		"下水道"
+		"chi"		"地下通道"
+	}
+	"#L4D360UI_LevelName_COOP_C6M3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口终章"
+	}
+	"#L4D360UI_LevelName_COOP_C7M1"
+	{
+		"en"		"Docks"
+		"zho"		"碼頭"
+		"chi"		"码头"
+	}
+	"#L4D360UI_LevelName_COOP_C7M2"
+	{
+		"en"		"Barge"
+		"zho"		"駁船"
+		"chi"		"驳船"
+	}
+	"#L4D360UI_LevelName_COOP_C7M3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口终章"
+	}
+	"#L4D360UI_LevelName_COOP_C8M1"
+	{
+		"en"		"Apartments"
+		"zho"		"公寓"
+		"chi"		"公寓"
+	}
+	"#L4D360UI_LevelName_COOP_C8M2"
+	{
+		"en"		"Subway"
+		"zho"		"地下鐵"
+		"chi"		"地铁"
+	}
+	"#L4D360UI_LevelName_COOP_C8M3"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道"
+		"chi"		"下水道"
+	}
+	"#L4D360UI_LevelName_COOP_C8M4"
+	{
+		"en"		"Hospital"
+		"zho"		"醫院"
+		"chi"		"医院"
+	}
+	"#L4D360UI_LevelName_COOP_C8M5"
+	{
+		"en"		"Rooftop"
+		"zho"		"屋頂"
+		"chi"		"屋顶终章"
+	}
+	"#L4D360UI_LevelName_COOP_C9M1"
+	{
+		"en"		"The Alleys"
+		"zho"		"小巷"
+		"chi"		"小巷"
+	}
+	"#L4D360UI_LevelName_COOP_C9M2"
+	{
+		"en"		"The Truck Depot"
+		"zho"		"卡車車庫最終章"
+		"chi"		"卡车停车场终章"
+	}
+	"#L4D360UI_LevelName_COOP_C10M1"
+	{
+		"en"		"The Turnpike"
+		"zho"		"高速公路"
+		"chi"		"收费公路"
+	}
+	"#L4D360UI_LevelName_COOP_C10M2"
+	{
+		"en"		"The Drains"
+		"zho"		"排水管"
+		"chi"		"水沟"
+	}
+	"#L4D360UI_LevelName_COOP_C10M3"
+	{
+		"en"		"The Church"
+		"zho"		"教堂"
+		"chi"		"教堂"
+	}
+	"#L4D360UI_LevelName_COOP_C10M4"
+	{
+		"en"		"The Town"
+		"zho"		"小鎮"
+		"chi"		"小镇"
+	}
+	"#L4D360UI_LevelName_COOP_C10M5"
+	{
+		"en"		"The Boat House"
+		"zho"		"船屋最終章"
+		"chi"		"码头终章"
+	}
+	"#L4D360UI_LevelName_COOP_C11M1"
+	{
+		"en"		"The Greenhouse"
+		"zho"		"溫室"
+		"chi"		"花房"
+	}
+	"#L4D360UI_LevelName_COOP_C11M2"
+	{
+		"en"		"The Crane"
+		"zho"		"起重機"
+		"chi"		"起重机"
+	}
+	"#L4D360UI_LevelName_COOP_C11M3"
+	{
+		"en"		"The Construction Site"
+		"zho"		"建築工地"
+		"chi"		"建筑工地"
+	}
+	"#L4D360UI_LevelName_COOP_C11M4"
+	{
+		"en"		"The Terminal"
+		"zho"		"航空站"
+		"chi"		"航空机场"
+	}
+	"#L4D360UI_LevelName_COOP_C11M5"
+	{
+		"en"		"Runway"
+		"zho"		"跑道最終章"
+		"chi"		"飞机跑道终章"
+	}
+	"#L4D360UI_LevelName_COOP_C12M1"
+	{
+		"en"		"The Woods"
+		"zho"		"森林"
+		"chi"		"森林"
+	}
+	"#L4D360UI_LevelName_COOP_C12M2"
+	{
+		"en"		"The Tunnel"
+		"zho"		"隧道"
+		"chi"		"隧道"
+	}
+	"#L4D360UI_LevelName_COOP_C12M3"
+	{
+		"en"		"The Bridge"
+		"zho"		"橋"
+		"chi"		"桥"
+	}
+	"#L4D360UI_LevelName_COOP_C12M4"
+	{
+		"en"		"The Train Station"
+		"zho"		"火車站"
+		"chi"		"火车站"
+	}
+	"#L4D360UI_LevelName_COOP_C12M5"
+	{
+		"en"		"The Farmhouse"
+		"zho"		"農場最終章"
+		"chi"		"农舍终章"
+	}
+	"#L4D360UI_LevelName_COOP_C13M1"
+	{
+		"en"		"Alpine Creek"
+		"zho"		"山間溯溪"
+		"chi"		"高山小溪"
+	}
+	"#L4D360UI_LevelName_COOP_C13M2"
+	{
+		"en"		"South Pine Stream"
+		"zho"		"南杉溪流"
+		"chi"		"松木之河"
+	}
+	"#L4D360UI_LevelName_COOP_C13M3"
+	{
+		"en"		"Memorial Bridge"
+		"zho"		"紀念大橋"
+		"chi"		"纪念大桥"
+	}
+	"#L4D360UI_LevelName_COOP_C13M4"
+	{
+		"en"		"Cut-throat Creek"
+		"zho"		"斷喉溪澗"
+		"chi"		"残酷溪流终章"
+	}
+	"#L4D360UI_LevelName_COOP_C14M1"
+	{
+		"en"		"The Junkyard"
+		"zho"		"教區橋梁"
+		"chi"		"废物场"
+	}
+	"#L4D360UI_LevelName_COOP_C14M2"
+	{
+		"en"		"Lighthouse Finale"
+		"zho"		"燈塔"
+		"chi"		"灯塔终章"
+	}
+	
+	"no_maps_for_mode"
+	{
+		"en"		"No maps found in configuration for this mode"
+		"zho"		"在此模式的配置中找不到地圖"
+		"chi"		"在此模式的配置中找不到地图"
+	}
+	"map"
+	{
+		"en"		"Map"
+		"zho"		"地圖"
+		"chi"		"地图"
+	}
+
+	"Dead Before Dawn DC"
+	{
+		"en"		"Dead Before Dawn DC"
+		"zho" 		"活人生吃: 導演版"
+		"chi" 		"活死人黎明: 导演版"
+	}
+	"l4d_dbd2dc_anna_is_gone"
+	{
+		"en"		"Dead Before Dawn - Map 1"
+		"zho" 		"活人生吃: 導演版 - 第一關"
+		"chi" 		"活死人黎明: 导演版 - 第一关"
+	}
+	
+	"White Forest"
+	{
+		"en"		"White Forest"
+		"zho" 		"白森林"
+		"chi" 		"白森林"
+	}
+}

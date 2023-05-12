@@ -459,6 +459,7 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>只有中文的插件列表</b></summary>
 
   * [l4d_ranking_system_V3](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+  * [l4d2_vote_change](/Plugin_插件/只有中文的插件列表/l4d2_vote_change): 新型的投票系統
 </details>
 
 ###### **CS Plugin List | CS插件列表**

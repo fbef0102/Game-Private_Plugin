@@ -2,7 +2,7 @@
 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
 
 > __Note__
-<br/>此為私人插件，請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)，
+<br/>此為私人插件，請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 <br/>此插件只有中文沒有英文
 
 * 影片展示
@@ -15,7 +15,7 @@
 	<br/>![l4d_ranking_system_V3_2](image/l4d_ranking_system_V3_2.jpg)
 	* 自訂Rank階級
 	<br/>![l4d_ranking_system_V3_3](image/l4d_ranking_system_V3_3.jpg)
-	* 支援跨伺服器儲值經驗值
+	* 支援跨伺服器儲存資料庫
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
 
 * 適用於
@@ -135,8 +135,7 @@
 	* 必須會設定資料庫，否則此插件無法運作
 
 * 功能
-	* 可設置殺死不同的特感獲得不同的經驗值
-	* 可設置伺服器至少需要的真人玩家才會啟動此插件
+	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
 	* 可不要將頭銜名稱加入到玩家的名字前
 	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
 
