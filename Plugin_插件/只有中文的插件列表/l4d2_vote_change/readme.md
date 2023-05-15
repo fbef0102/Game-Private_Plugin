@@ -35,7 +35,7 @@
 * 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/action)
+	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 
 * <details><summary>指令</summary>
