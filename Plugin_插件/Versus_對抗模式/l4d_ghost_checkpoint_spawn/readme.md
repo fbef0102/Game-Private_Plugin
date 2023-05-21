@@ -24,8 +24,10 @@ L4D2 Versus
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2023-5-22)
+		* Update for l4d2 2.2.2.7 version
+
 	* v1.0h (2022-11-27)
-	    * Request by larrybrains
 		* Auto generate cfg
 		* Allow to spawn after tank has spawned
 
