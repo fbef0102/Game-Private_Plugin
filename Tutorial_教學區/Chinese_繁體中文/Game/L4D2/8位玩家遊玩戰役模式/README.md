@@ -83,7 +83,8 @@
      - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
      - [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 
-* [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰
+* <s>[Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰</s>
+    - 🟦Valve已經修正，無須安裝🟦
     - 🟥只適用於Windows 系統🟥
 	
 - - - -
