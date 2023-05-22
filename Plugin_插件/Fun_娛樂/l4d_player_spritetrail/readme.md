@@ -28,7 +28,7 @@ L4D2
 </details>
 
 * Require | 必要安裝
-	1. [SpriteTrail Fix by 000](https://forums.alliedmods.net/showthread.php?t=339197)
+	1. [SpriteTrail Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spritetrail_fix)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
