@@ -11,14 +11,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* The Unique Boomer
 		> 超級肥宅
 		<br/>![l4d_Nauseating_boomer_0](image/l4d_Nauseating_boomer_0.jpg)
-	* Bile Blast ability: When the Boomer dies, cause a shockwave and send Survivors flying.
-		> 胖子炸彈: 爆炸時造成衝擊波
+	* Bile Blast ability
+		> Bile Blast能力
 		<br/>![l4d_Nauseating_boomer_1](image/l4d_Nauseating_boomer_1.gif)
-	* HideHud ability: The Survivors entire view (HUD) is completely hidden when covered in bile.
-		> 嘔吐盲目: 被膽汁噴到，玩家螢幕上的介面會被隱藏
+	* HideHud ability
+		> HideHud能力
 		<br/>![l4d_Nauseating_boomer_2](image/l4d_Nauseating_boomer_2.gif)
-	* HideHud ability: Flashbang effect when the boomer explodes.
-		> 死亡閃光: 爆炸時附帶閃光彈的效果
+	* Explode FlashBang ability
+		> Explode FlashBang能力
 		<br/>![l4d_Nauseating_boomer_3](image/l4d_Nauseating_boomer_3.gif)
 
 * Apply to | 適用於
@@ -79,13 +79,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_Nauseating_boomer.cfg
 		```php
-		// Enables Bile Belly ability: It is hard to cause direct damage to the Boomer.
+		// If 1, Enables Bile Belly ability: It is hard to cause direct damage to the Boomer.
 		l4d_Nauseating_boomer_bilebelly_enable "1"
 
 		// Percent of damage the Boomer avoids thanks to it's belly.
 		l4d_Nauseating_boomer_bilebelly_amount "0.8"
 
-		// Enables Bile Blast ability: When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
+		// If 1, Enables Bile Blast ability: When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
 		l4d_Nauseating_boomer_bileblast_enable "1"
 
 		// If 1, Bile Blast power ignores wall.
@@ -112,7 +112,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Range the outer blast radius will extend from Bile Blast.
 		l4d_Nauseating_boomer_bileblast_outer_range "300.0"
 
-		// Enables Bile Shower ability: When the Boomer vomits on survivor, it will summon a large mob of common infected.
+		// If 1, Enables Bile Shower ability: When the Boomer vomits on survivor, it will summon a large mob of common infected.
 		l4d_Nauseating_boomer_bileshower_enable "1"
 
 		// Number of mobs to summon.
@@ -130,16 +130,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// For how many seconds does the Bile Swipe last.
 		l4d_Nauseating_boomer_bileswipe_duration "4"
 
-		// Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors.
+		// If 1, Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors.
 		l4d_Nauseating_boomer_bileswipe_enable "1"
 
 		// Boomer flashbang screen color, three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
 		l4d_Nauseating_boomer_flashbang_color "127 235 212"
 
-		// Enables Explode FlashBang ability: Flashbang effect when the boomer explodes.
+		// If 1, Enables Explode FlashBang ability: Flashbang effect when the boomer explodes.
 		l4d_Nauseating_boomer_flashbang_enable "1"
 
-		// Enables Flatulence ability: The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
+		// If 1, Enables Flatulence ability: The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
 		l4d_Nauseating_boomer_flatulence_enable "1"
 
 		// Chance that survivors affected by the Flatulence cloud will be biled. (20 = 20%)
@@ -166,16 +166,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How long is the HUD hidden for after vomit
 		l4d_Nauseating_boomer_hidehud_duration "15.0"
 
-		// Enables HideHud ability: When covered in bile, the Survivors entire view (HUD) is completely covered.
+		// If 1, Enables HideHud ability: When covered in bile, the Survivors entire view (HUD) is completely covered.
 		l4d_Nauseating_boomer_hidehud_enable "1"
 
 		// HUD hidden flag. (1=weapon selection, 2=flashlight, 4=all, 8=health, 16=player dead, 32=needssuit, 64=misc, 128=chat, 256=crosshair, 512=vehicle crosshair, 1024=in vehicle, add numbers together)
 		l4d_Nauseating_boomer_hidehud_flag "64"
 
-		// Recovery Boomer vomit cd when get hurt by survivor
+		// If 1, Recovery Boomer vomit cd when get hurt by survivor
 		l4d_Nauseating_boomer_recovery_hurt_enable "0"
 
-		// Recovery Boomer vomit cd when get shoved by survivor
+		// If 1, Recovery Boomer vomit cd when get shoved by survivor
 		l4d_Nauseating_boomer_recovery_shoved_enable "1"
 		```
 </details>
@@ -185,6 +185,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Details
+	* <b>Bile Belly ability</b> - It is hard to cause direct damage to the Boomer.
+	* <b>Bile Blast ability</b> - When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
+	* <b>HideHud ability</b> - When covered in bile, the Survivors entire view (HUD) is completely covered.
+	* <b>Bile Shower ability</b> - When the Boomer vomits on survivor, it will summon a large mob of common infected.
+	* <b>Explode FlashBang ability</b> - Flashbang effect when the boomer explodes.
+	* <b>Bile Swipe ability</b> - The Boomer has a chance of inflicting burning bile wounds to survivors.
+	* <b>Recovery CD ability</b> - Recovery Boomer vomit cd when get shoved or get hurt by survivor
+	* <b>Flatulence ability</b> - The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
+
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -192,7 +202,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Boomer Movement Speed (default: 175, maximum: 450)
 		sm_cvar z_exploding_speed "175"
 
-		// Boomer Ability Movement (default: 3000)
+		// Boomer ability Movement (default: 3000)
 		// set 0 to move while vomit (Only apply to player)
 		sm_cvar z_vomit_fatigue "0"
 		```
@@ -203,22 +213,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 增強Boomer，賦予多種超能力成為超級肥宅
 
 * 原理
-	* 能力1: 肥肉盾牌 - 降低受到的傷害
-	* 能力2: 胖子炸彈 - 爆炸時造成衝擊波
-	* 能力3: 嘔吐盲目 - 被膽汁噴到，玩家螢幕上的介面會被隱藏
-	* 能力4: 膽汁真香 - 倖存者被膽汁噴到後，召喚比平常多的感染者大軍
-	* 能力5: 死亡閃光 - 爆炸時附帶閃光彈的效果
-	* 能力6: 魔神的右手 - 用手抓人產生的傷害會持續一段時間
-	* 能力7: 怒氣恢复 - 受到倖存者的傷害或者被推時，可以再吐一次
+	* 能力1: <b>Bile Belly</b> - 降低受到的傷害
+	* 能力2: <b>Bile Blast</b> - 爆炸時造成衝擊波
+	* 能力3: <b>HideHud</b> - 被膽汁噴到，玩家螢幕上的介面會被隱藏
+	* 能力4: <b>Bile Shower</b> - 倖存者被膽汁噴到後，召喚比平常多的感染者大軍
+	* 能力5: <b>Explode FlashBang</b> - 爆炸時附帶閃光彈的效果
+	* 能力6: <b>Bile Swipe</b> - 用手抓人產生的傷害會持續一段時間
+	* 能力7: <b>Recovery CD</b> - 受到倖存者的傷害或者被推時，可以再吐一次
+	* 能力8: <b>Flatulence</b> - 每隔一段時間產生煙霧，玩家走進去煙霧裡會受到傷害
 
 * 功能
 	* 可設定各能力的開關
-	* 可設定肥肉盾牌的傷害減少比
-	* 可設定胖子炸彈的範圍、威力與傷害值
-	* 可設定嘔吐盲目要隱藏的介面選項
-	* 可設定膽汁真香的感染者屍潮額外數量
-	* 可設定死亡閃光的閃光顏色
-	* 可設定魔神的右手的傷害值與機率
+	* 可設定Bile Belly的傷害減少比
+	* 可設定Bile Blast的範圍、威力與傷害值
+	* 可設定HideHud要隱藏的介面選項
+	* 可設定Bile Shower的感染者屍潮額外數量
+	* 可設定Explode FlashBang的閃光顏色
+	* 可設定Bile Swipe的傷害值與機率
+	* 可設定Flatulence的煙霧產生間隔、煙霧傷害、煙霧時間
 
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>

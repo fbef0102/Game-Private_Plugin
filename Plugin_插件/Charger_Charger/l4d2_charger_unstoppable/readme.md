@@ -11,17 +11,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* The Infected of Thunder
 		> 雷神Charger
 		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.gif)
-	* Inertia Vault ability: While charging the Charger has the ability to leap into the air. (Human player only)
-		> 能力: 太空漫步 - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
+	* Inertia Vault ability
+		> 太空漫步能力
 		<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
-	* Electric field ability: When charger dead, spawns an anomaly on charger's body that electrocutes people.
-		> 能力: 靜電感應 - 死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛
+	* Electric field ability
+		> Electric field能力
 		<br/>![l4d2_charger_unstoppable_3](image/l4d2_charger_unstoppable_3.gif)
-	* Tesla Fist ability: When the Charger strikes a Survivor with his fist, they are sent flying.
-		> 能力: 雷神之捶 - 當Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家
+	* Tesla Fist ability
+		> Tesla Fist能力
 		<br/>![l4d2_charger_unstoppable_4](image/l4d2_charger_unstoppable_4.gif)
-	* Void Chamber ability: When starting a charge, the force is so powerful that it sucks nearby Survivors.
-		> 能力: 領域展開 - 當Charger開始衝刺時，產生電擊場把附近的倖存者吸過來
+	* Void Chamber ability
+		> Void Chamber能力
 		<br/>![l4d2_charger_unstoppable_5](image/l4d2_charger_unstoppable_5.gif)
 
 * Apply to | 適用於
@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014-2017
 	//HarryPotter @ 2023
 	```
+	* v1.2h (2023-5-27)
+		* Add a conver. When charger spawns, create thunder particle on the right hand.
+
 	* v1.1h (2023-5-2)
 		* Attach Tesla Particle to charger when charger spawns.
 
@@ -103,6 +106,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Enables Extinguish Wind ability: The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
 		l4d2_charger_unstoppable_extinguishingwind_enable "1"
+
+		// If 1, Enables God of the Thunder ability: When charger spawns, create thunder particle on the right hand.
+		l4d2_charger_unstoppable_god_of_the_thunder_enable "1"
 
 		// If 1, Enables Inertia Vault ability: While charging the Charger has the ability to leap into the air. (Human player only)
 		l4d2_charger_unstoppable_inertiavault_enable "1"
@@ -175,6 +181,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Details
+	* <b>Broken Ribs ability</b> - After a pummel ends, the survivor takes damage over time.
+	* <b>Extinguish Wind ability</b> - The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
+	* <b>Inertia Vault ability</b> - While charging the Charger has the ability to leap into the air. (Human player only)
+	* <b>Tesla Fist ability</b> - When the Charger strikes a Survivor with his fist, they are sent flying.
+	* <b>Snapped Leg ability</b> - When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
+	* <b>Stowaway ability</b> - The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
+	* <b>Survivor Aegis ability</b> - While charging, the Charger will use the Survivor as an Aegis to absorb damage it would receive.
+	* <b>Void Chamber</b> - When starting a charge, the force is so powerful that it sucks nearby Survivors.
+	* <b>Electric field</b> - When charger dead, spawns an anomaly on charger's body that electrocutes people.
+	* <b>The God of Thunder</b> - When charger spawns, create thunder particle on the right hand.
+
 * <details><summary>Survivor Aegis Calculation Formula</summary>
 	
 	> Example: Charger gets AWP shot while carrying a survivor<br/>
@@ -208,30 +226,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 增強Charger，賦予多種超能力成為無人能檔的雷神
 
 * 原理
-	* 能力1: 粗壯右手 - 倖存者被Charger撞完之後爬起身，會受到持續性傷害。
-	* 能力2: 霹靂一閃 - Charger 衝刺時，如果身上有著火，火焰回熄滅。
-	* 能力3: 太空漫步 - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
-	* 能力4: 碎地震盪 - 倖存者被Charger衝刺撞到，行走速度會變慢一段時間。
-	* 能力5: 猛男衝擊 - 倖存者被Charger衝刺抓到帶著走時，每0.5秒受到傷害直到衝刺完畢。
-	* 能力6: 神盾磁鐵 - 倖存者被Charger衝刺抓到帶著走時，他可以拿倖存者當作盾牌減少傷害，且能轉移傷害給該倖存者。
-	* 能力7: 領域展開 - Charger開始衝刺時，產生電擊場把附近的倖存者吸過來，並且造成倖存者受傷。
-	* 能力8: 雷神之捶 - Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家。
-	* 能力9: 靜電感應 - 死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛。
-	* (1.1h 新增) Chager身體圍繞雷電特效
+	* 能力1: <b>Broken Ribs</b> - 倖存者被Charger撞完之後爬起身，會受到持續性傷害。
+	* 能力2: <b>Extinguish Wind</b> - Charger 衝刺時，如果身上有著火，火焰回熄滅。
+	* 能力3: <b>Inertia Vault</b> - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
+	* 能力4: <b>Snapped Leg</b> - 倖存者被Charger衝刺撞到，行走速度會變慢一段時間。
+	* 能力5: <b>Stowaway</b> - 倖存者被Charger衝刺抓到帶著走時，每0.5秒受到傷害直到衝刺完畢。
+	* 能力6: <b>Survivor Aegis</b> - 倖存者被Charger衝刺抓到帶著走時，他可以拿倖存者當作盾牌減少傷害，且能轉移傷害給該倖存者。
+	* 能力7: <b>Void Chamber</b> - Charger開始衝刺時，產生電擊場把附近的倖存者吸過來，並且造成倖存者受傷。
+	* 能力8: <b>Tesla Fist</b> - Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家。
+	* 能力9: <b>Electric field</b> - 死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛。
+	* 能力10: <b>God of the Thunder</b> - Chager身上有雷電特效
 
 * 功能
 	* 可設定各能力的開關
-	* 可設定粗壯右手的機率、傷害持續時間、傷害值
+	* 可設定Broken Ribs的機率、傷害持續時間、傷害值
 	* 可設定太空漫步的跳起來力道
-	* 可設定碎地震盪的機率、移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
-	* 可設定猛男衝擊的傷害值
-	* 可設定神盾磁鐵的減傷比
-	* 可設定領域展開的範圍與傷害值
-	* 可設定雷神之捶的傷害值、彈飛力道
-	* 可設定靜電感應的機率、傷害值、範圍、雷電間隔、存在時間
+	* 可設定Snapped Leg的機率、移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
+	* 可設定Stowaway的傷害值
+	* 可設定Survivor Aegis的減傷比
+	* 可設定Void Chamber的範圍與傷害值
+	* 可設定Tesla Fist的傷害值、彈飛力道
+	* 可設定Electric field的機率、傷害值、範圍、雷電間隔、存在時間
 
 
-* <details><summary>神盾磁鐵的傷害計算 (點我展開)</summary>
+* <details><summary>Survivor Aegis的傷害計算 (點我展開)</summary>
 	
 	> 舉例: Charger 衝刺抓到倖存者並帶著走時被AWP射中一槍<br/>
 	AWP 一槍傷害 = 90<br/>

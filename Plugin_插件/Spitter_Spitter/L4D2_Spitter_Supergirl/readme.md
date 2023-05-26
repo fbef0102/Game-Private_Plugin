@@ -11,14 +11,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* The Supergirl
 		> 超能小妹妹
 		<br/>![L4D2_Spitter_Supergirl_0](image/L4D2_Spitter_Supergirl_0.jpg)
-	* Supergirl Gob ability: The Spitter is invulnerable for a brief period while using their ability
-		> 能力: 無敵小妹 - 吐酸液的時候不受到任何傷害
+	* Supergirl Gob ability
+		> Super Girl Protect能力
 		<br/>![L4D2_Spitter_Supergirl_1](image/L4D2_Spitter_Supergirl_1.gif)
-	* Acidic Bile ability: Survivors that have wandered into an acid pool have a chance of being splashed with bile and attracting common infected.
-		> 能力: 混合酸液 - 酸液裡含有膽汁，站上去有機會被噴中
+	* Acidic Bile ability
+		> Acidic Bile能力 - 酸液裡含有膽汁，站上去有機會被噴中
 		<br/>![L4D2_Spitter_Supergirl_2](image/L4D2_Spitter_Supergirl_2.gif)
-	* Acidic Pool ability: Due to the unstable nature of the Spitter's body, periodically a pool of Spit will leak out beneath her feet.
-		> 能力: 酸性點滴 - 每過一段時間Spitter身上掉落一攤酸液
+	* Acidic Pool ability
+		> Acidic Pool能力 - 每過一段時間Spitter身上掉落一攤酸液
 		<br/>![L4D2_Spitter_Supergirl_3](image/L4D2_Spitter_Supergirl_3.gif)
 
 * Apply to | 適用於
@@ -140,9 +140,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Details
+	* <b>Acidic Bile ability</b> - Survivors that have wandered into an acid pool have a chance of being splashed with bile and attracting common infected.
+	* <b>Acid Swipe ability</b> - The Spitter uses her acid coated fingers to swipe at a Survivor, causing damage over time as the wound burns.
+	* <b>Hydra Strike ability</b> - Allows to fire off a second spit rapidly after the Spitter uses ability.
+	* <b>Sticky Goo ability</b> - Any Survivor standing inside a pool of Spit will be stuck in the goo and find it harder to move out quickly.
+	* <b>Super Girl Protect ability</b> - When the Spitter is prepared to launch a spit, the Spitter is invulnerable. (God Mode)
+	* <b>Super Girl Speed ability</b> - The Spitters feet increasing movement speed for a brief period while using their ability.
+	* <b>Acidic Pool ability</b> - Due to the unstable nature of the Spitter's body, periodically a pool of Spit will leak out beneath her feet.
+
 * <details><summary>Known Conflicts</summary>
 	
-	If you don't use any of these plugins or any of these types of plugin at all no need to worry about conflicts.
+	If you don't use any of these plugins at all, no need to worry about conflicts.
 	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?p=2590861)
 		* Don't allow spitter ability movement with this plugin while using "Supergirl Speed" ability.
 </details>
@@ -161,29 +170,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 增強Spitter，賦予多種超能力成為超能小妹妹
 
 * 原理
-	* 能力1: 混合酸液 - 酸液裡含有膽汁，站上去有機會被噴中
-	* 能力2: 酸性點滴 - 每過一段時間Spitter身上掉落一攤酸液
-	* 能力3: 腐蝕侵爪 - 用手抓人產生的傷害會持續一段時間
-	* 能力4: 無敵小妹 - 吐酸液的時候不受到任何傷害
-	* 能力5: 超能移動 - 吐酸液的時候增加移動速度
-	* 能力6: 酸電充能 - 第一次吐酸液之後可以馬上吐第二次
-	* 能力7: 酸性緩速 - 在一攤酸液裡難以移動
+	* 能力1: <b>Acidic Bile</b> - 酸液裡含有膽汁，站上去有機會被噴中
+	* 能力2: <b>Acidic Pool</b> - 每過一段時間Spitter身上掉落一攤酸液
+	* 能力3: <b>Acid Swipe</b> - 用手抓人產生的傷害會持續一段時間
+	* 能力4: <b>Super Girl Protect</b> - 吐酸液的時候不受到任何傷害
+	* 能力5: <b>Super Girl Speed</b> - 吐酸液的時候增加移動速度
+	* 能力6: <b>Hydra Strike</b> - 第一次吐酸液之後可以馬上吐第二次
+	* 能力7: <b>Sticky Goo</b> - 在一攤酸液裡難以移動
 
 * 功能
 	* 可設定各能力的開關
-	* 可設定混合酸液的機率
-	* 可設定酸性點滴的時間間隔與掉落在地上的酸液範圍
-	* 可設定腐蝕侵爪的傷害值與機率
-	* 可設定無敵小妹的無敵時間
-	* 可設定超能移動的移動時間
-	* 可設定酸電充能的充能時間
-	* 可設定酸性緩速的移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
+	* 可設定Acidic Bile的機率
+	* 可設定Acidic Pool的時間間隔與掉落在地上的酸液範圍
+	* 可設定Acid Swipe的傷害值與機率
+	* 可設定Super Girl Protect的無敵時間
+	* 可設定Super Girl Speed的移動時間
+	* 可設定Hydra Strike的充能時間
+	* 可設定Sticky Goo的移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
 
 * <details><summary>會衝突的插件</summary>
 	
 	如果沒安裝以下插件就不需要擔心衝突
 	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?p=2590861)
-		* 這個插件可以讓spitter使用能力時自由移動，與"超能移動"能力會有衝突
+		* 這個插件可以讓spitter使用能力時自由移動，與"Super Girl Speed"能力會有衝突
 </details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>

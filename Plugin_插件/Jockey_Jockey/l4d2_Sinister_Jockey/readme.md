@@ -11,14 +11,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* The Small Tyrant
 		> 小暴君
 		<br/>![l4d2_Sinister_Jockey_0](image/l4d2_Sinister_Jockey_0.jpg)
-	* Ghost Stalker ability: become nearly invisible when spawn
-		> 能力: 隱形殺手 - 身體接近透明
+	* Ghost Stalker ability
+		> Ghost Stalker能力
 		<br/>![l4d2_Sinister_Jockey_1](image/l4d2_Sinister_Jockey_1.jpg)
-	* Human Shield ability: use the Survivor as a human shield while riding
-		> 能力: 騎人盾牌 - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
+	* Human Shield ability
+		> Human Shield能力
 		<br/>![l4d2_Sinister_Jockey_2](image/l4d2_Sinister_Jockey_2.jpg)
-	* Gravity Pounce ability: inflict damage based on how far he drops on a Survivor
-		> 能力: 重力高撲 - 跟Hunter一樣有高撲傷害
+	* Gravity Pounce ability
+		> Gravity Pounce能力
 		<br/>![l4d2_Sinister_Jockey_3](image/l4d2_Sinister_Jockey_3.jpg)
 
 * Apply to | 適用於
@@ -98,6 +98,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Details
+	* <b>Ghost Stalker ability</b> - Allowing the Jockey to become nearly invisible.
+	* <b>Gravity Pounce ability</b> - The Jockey can inflict damage based on how far he drops on a Survivor.
+	* <b>Human Shield ability</b> - The Jockey can use the Survivor as a human shield while riding.
+
 * <details><summary>Human Shield Calculation Formula</summary>
 	
 	> Example: Jockey gets AWP shot while riding a survivor<br/>
@@ -134,17 +139,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 增強Jockey，賦予多種超能力成為小小的暴君
 
 * 原理
-	* 能力1: 隱形殺手 - 身體接近透明
-	* 能力2: 騎人盾牌 - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
-	* 能力3: 重力高撲 - 跟Hunter一樣有高撲傷害
+	* 能力1: <b>Ghost Stalker</b> - 身體接近透明
+	* 能力2: <b>Human Shield</b> - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
+	* 能力3: <b>Gravity Pounce</b> - 跟Hunter一樣有高撲傷害
 
 * 功能
 	* 可設定各能力的開關
-	* 可設定隱形殺手的透明程度
-	* 可設定騎人盾牌的轉移傷害程度
-	* 可設定重力高撲的最大傷害
+	* 可設定Ghost Stalker的透明程度
+	* 可設定Human Shield的轉移傷害程度
+	* 可設定Gravity Pounce的最大傷害
 
-* <details><summary>騎人盾牌的傷害計算 (點我展開)</summary>
+* <details><summary>Human Shield的傷害計算 (點我展開)</summary>
 	
 	> 舉例: Jockey 騎倖存者的時被AWP射中一槍<br/>
 	AWP 一槍傷害 = 90<br/>

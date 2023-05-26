@@ -11,14 +11,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* The destructive Hunter
 		> 毀滅性特感
 		<br/>![l4d_hunter_destructive_1](image/l4d_hunter_destructive_1.jpg)
-	* Sledgehammer ability: the Hunter can inflict extra damage to survivors based on the distance of the pounce.
-		> 重力之錘: Hunter高撲造成額外傷害，距離越遠，傷害越大
+	* Sledgehammer ability
+		> Sledgehammer: Hunter高撲造成額外傷害，距離越遠，傷害越大
 		<br/>![l4d_hunter_destructive_2](image/l4d_hunter_destructive_2.jpg)
-	* Meteor strike ability: the high pounces create meteor strike, inflict extra damage and send nearby survivors flying.
-		> 流星核彈: Hunter高撲造成核彈衝擊，震飛周圍的倖存者
+	* Meteor strike ability
+		> Meteor Strike: Hunter高撲造成核彈衝擊，震飛周圍的倖存者
 		<br/>![l4d_hunter_destructive_3](image/l4d_hunter_destructive_3.gif)
-	* Death Fire ability: create fire where the hunter dies.
-		> 死亡火焰: Hunter死亡時，其屍體產生火焰
+	* Death Fire ability
+		> Death Fire: Hunter死亡時，其屍體產生火焰
 		<br/>![l4d_hunter_destructive_4](image/l4d_hunter_destructive_4.gif)
 
 * Apply to | 適用於
@@ -153,27 +153,38 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Details
+	* <b>Inferno Rage ability</b> - Adds extra damage to survivors when Hunter is on fire
+	* <b>Kevlar Skin ability</b> - Allows the Hunter to be immune to fire damage. (Still get fire)
+	* <b>Sledgehammer ability</b> - Hunter can inflict extra damage to survivors based on the distance of the pounce
+	* <b>Meteor Strike ability</b> - High pounces create meteor strike, inflict extra damage and send nearby survivors flying.
+	* <b>Shunpo ability</b> - Hunter takes damage he will increase his evasiveness and reduce damage taken.
+	* <b>Flame Claw Ignite ability</b> - Allows the Hunter to ignite Survivors with claw while on fire.
+	* <b>Evil Demon ability</b> - after hunter pounce a survivor to incapacitated, he will release and search next target.
+	* <b>Death Fire ability</b> - create fire where the hunter dies.
+	* <b>Get Fire ability</b> - Hunter would get fire automatically when spawn
+
 - - - -
 # 中文說明
 增強Hunter，賦予多種超能力成為毀滅性的野獸
 
 * 原理
-	* 能力1: 野獸皮膚 - 免疫火焰傷害 (依然會著火)
-	* 能力2: 地獄咆哮 - 著火時攻擊倖存者會有額外傷害加成
-	* 能力3: 重力之錘 - 高撲造成額外傷害，距離越遠，傷害越大 (非高撲傷害加成)
-	* 能力4: 煉獄之爪 - 著火時用手抓人產生的傷害會持續一段時間
-	* 能力5: 流星核彈 - 高撲造成核彈衝擊，震飛周圍的倖存者
-	* 能力6: 火之意志 - 著火時減少受到的傷害比
-	* 能力7: 惡魔之子 - 抓倒倖存者之後會自動釋放，並尋找下一個攻擊目標
-	* 能力8: 死亡火焰 - 死亡時，其屍體產生火焰
-	* (v1.1h 新增) 能力9: 火影忍者 - Hunter生成時自動著火
+	* 能力1: <b>Kevlar Skin</b> - 免疫火焰傷害 (依然會著火)
+	* 能力2: <b>Inferno Rage</b> - 著火時攻擊倖存者會有額外傷害加成
+	* 能力3: <b>Sledgehammer</b> - 高撲造成額外傷害，距離越遠，傷害越大 (非高撲傷害加成)
+	* 能力4: <b>Flame Claw Ignite</b> - 著火時用手抓人產生的傷害會持續一段時間
+	* 能力5: <b>Meteor Strike</b> - 高撲造成核彈衝擊，震飛周圍的倖存者
+	* 能力6: <b>Shunpo</b> - 著火時減少受到的傷害比
+	* 能力7: <b>Evil Demon</b> - 抓倒倖存者之後會自動釋放，並尋找下一個攻擊目標
+	* 能力8: <b>Death Fire</b> - 死亡時，其屍體產生火焰
+	* 能力9: <b>Get Fire</b> - Hunter生成時自動著火
 
 * 功能
 	* 可設定各能力的開關
-	* 可設定地獄咆哮的傷害加成
-	* 可設定重力之錘的傷害倍數
-	* 可設定煉獄之爪的右手的傷害值、機率、持續時間
-	* 可設定流星核彈的衝擊範圍、額外傷害、衝擊力道、高撲距離門檻
-	* 可設定火之意志的減傷比
-	* 可設定死亡火焰的機率
-	* 可設定火影忍者的自動著火機率
+	* 可設定Inferno Rage的傷害加成
+	* 可設定Sledgehammer的傷害倍數
+	* 可設定Flame Claw Ignite的右手的傷害值、機率、持續時間
+	* 可設定Meteor Strike的衝擊範圍、額外傷害、衝擊力道、高撲距離門檻
+	* 可設定Shunpo的減傷比
+	* 可設定Death Fire的機率
+	* 可設定Get Fire的自動著火機率

@@ -24,6 +24,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6 (2023-5-27)
+		* Fixed Error after v1.5
+
 	* v1.5 (2023-4-26)
 		* Add a cvar
 			```php
