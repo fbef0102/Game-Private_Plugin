@@ -123,7 +123,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Data 設定範例
 	* data/l4d2_replace_gun_item.cfg
 		```php
-		"l4d2_replace_gun_item"  // Do not modify this line
+		"l4d2_replace_gun_item"  // 別改這行
 		{
 			"Weapons" // 武器列表，別改這行
 			{
