@@ -21,6 +21,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Layout 4
 		> 版面四
 		<br/>![l4d2_scripted_hud_4](image/l4d2_scripted_hud_4.jpg)
+	* Coordinate diagram
+		> HUD座標圖
+		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 
 * Apply to | 適用於
 	```
@@ -52,6 +55,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 <br/>None
+
+* Related Plugin | 相關插件
+	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
+		> L4D2擊殺提示改成CS遊戲的擊殺列表
 
 * Important
 	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
@@ -490,8 +497,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 功能
 	1. 可自定義文字顯示內容
-	2. 可利用指令達成文字移動或閃紅色的動畫效果，請自行閱讀指令列表
-	3. 多達五個HUD，可個別顯示或關閉文字
+	2. 可利用指令移動HUD的位置，查看指令設置X與Y的座標
+	3. 可利用指令達成文字移動或閃紅色的動畫效果，請自行閱讀指令列表
+	4. 多達五個HUD，可個別顯示或關閉文字
 
 * <details><summary>預設的 HUDX 文字 (點我展開)</summary>
 

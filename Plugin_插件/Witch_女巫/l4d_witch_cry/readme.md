@@ -26,6 +26,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* 1.1 (2023-5-28)
+		* Use ```z_spawn mob auto``` instead of L4D_ForcePanicEvent()
+
 	* 1.0 (2023-4-11)
 		* Initial Release
 </details>
