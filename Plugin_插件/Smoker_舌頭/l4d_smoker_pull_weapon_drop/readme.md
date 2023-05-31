@@ -25,6 +25,10 @@ L4D2
 * Require | 必要安裝
 	None
 
+* Related Plugin | 相關插件
+	1. [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
+		> 增強Smoker，賦予多種超能力成為毒性的化學兵器
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_smoker_pull_weapon_drop.cfg

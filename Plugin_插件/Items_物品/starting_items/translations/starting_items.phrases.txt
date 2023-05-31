@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"Notify_Pick (C)"
+	{
+		"en"		"[{olive}TS{default}] You cannot pick this up until game is live."
+		"zho"		"[{olive}TS{default}] 回合開始之前你不能撿起這個物品."
+		"chi"		"[{olive}TS{default}] 回合开始之前你不能捡起这个物品."
+	}
+	"Notify_Pick"
+	{
+		"en"		"You cannot pick this up until game is live."
+		"zho"		"回合開始之前你不能撿起這個物品."
+		"chi"		"回合开始之前你不能捡起这个物品."
+	}
+	"Notify_Shoot (C)"
+	{
+		"en"		"[{olive}TS{default}] You cannot shoot this item until game is live."
+		"zho"		"[{olive}TS{default}] 回合開始之前不能點燃這個物品."
+		"chi"		"[{olive}TS{default}] 回合开始之前不能点燃这个物品."
+	}
+	"Notify_Shoot"
+	{
+		"en"		"You cannot shoot this item until game is live."
+		"zho"		"回合開始之前不能點燃這個物品."
+		"chi"		"回合开始之前不能点燃这个物品."
+	}
+}

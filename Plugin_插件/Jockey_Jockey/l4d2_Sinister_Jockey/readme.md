@@ -157,7 +157,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	倖存者 受到的傷害 = 63 / 30.0 = 2.1<br/>
 	```php
 	l4d2_Sinister_Jockey_humanshield_divisor "30.0"
-	l4d2_Sinister_Jockey_humanshield_enable "1"
 	l4d2_Sinister_Jockey_humanshield_percent "0.7"
 	```
 </details>

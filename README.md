@@ -89,7 +89,7 @@ My Unpublic Private Plugin (Charge)
   * [l4d2_scripted_hud](/Plugin_插件/Server_伺服器/l4d2_scripted_hud): Display text for up to 5 scripted HUD slots on the screen.
     * 在玩家畫面上方五個Hud位置顯示不同的特殊文字
   * [readyup](/Plugin_插件/Server_伺服器/readyup): Ready-up plugin
-    * 準備才能開始遊戲的插件
+    * 所有玩家準備才能開始遊戲的插件
   * [pause](/Plugin_插件/Server_伺服器/pause): Pause plugin
     * 暫停遊戲的插件
   * [l4d_playerjoining](/Plugin_插件/Server_伺服器/l4d_playerjoining): Informs other players when a client connects to the server and changes teams.
@@ -124,6 +124,8 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d_smoker_pull_weapon_drop](/Plugin_插件/Smoker_舌頭/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
     * 被Smoker拉走的時候強制掉落手上的武器
+  * [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
+    * 增強Smoker，賦予多種超能力成為毒性的化學兵器
 </details>
 
 * <details><summary><b>Boomer | Boomer</b></summary>
@@ -268,6 +270,10 @@ My Unpublic Private Plugin (Charge)
     * 誰他馬打爆汽油桶
   * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Replace big guns with other guns + Replace items with other items
     * 刪除大槍、刪除治療包、刪除其他投擲物與物品，並替換成其他武器或物品
+  * [starting_items](/Plugin_插件/Items_物品/starting_items): Survivors can't pick up weapons and items before the start of each round + Gives health items and throwables to survivors at the start of each round
+    * 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資
+  * [l4d2_remix_gascan](/Plugin_插件/Items_物品/l4d2_remix_gascan): Increase gas cans in scavenge events, and to be randomly placed by custom list of gas can locations.
+    * 汽油桶關卡或清道夫模式可以隨機放置自己想要的汽油桶位置與數量
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -374,6 +380,8 @@ My Unpublic Private Plugin (Charge)
     * 遊戲開始後旁觀者或路人不能跳隊到倖存者或感染者遊玩
   * [l4d_mute_player_list](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_mute_player_list): Player can personally mute someone chat text and mic voice.
     * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
+  * [bandisconnected](/Plugin_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server instantly after joined the server + Tracks recently-disconnected players and lets you ban them
+    * 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>

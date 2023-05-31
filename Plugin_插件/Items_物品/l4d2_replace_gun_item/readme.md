@@ -28,6 +28,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Initial Release
 </details>
 
+* Require | 必要安裝
+	1. [[INC] l4d2_weapons](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc)
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_replace_gun_item.cfg

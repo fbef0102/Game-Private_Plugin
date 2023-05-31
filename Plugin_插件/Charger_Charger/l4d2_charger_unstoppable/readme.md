@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 雷神Charger
 		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.gif)
 	* Inertia Vault ability
-		> 太空漫步能力
+		> Inertia Vault能力
 		<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
 	* Electric field ability
 		> Electric field能力
@@ -240,7 +240,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 功能
 	* 可設定各能力的開關
 	* 可設定Broken Ribs的機率、傷害持續時間、傷害值
-	* 可設定太空漫步的跳起來力道
+	* 可設定Inertia Vault的跳起來力道
 	* 可設定Snapped Leg的機率、移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
 	* 可設定Stowaway的傷害值
 	* 可設定Survivor Aegis的減傷比
@@ -257,7 +257,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	倖存者 受到的傷害 = 63 / 30.0 = 2.1<br/>
 	```php
 	l4d2_charger_unstoppable_survivoraegis_divisor "30.0"
-	l4d2_charger_unstoppable_survivoraegis_enable "1"
 	l4d2_charger_unstoppable_survivoraegis_percent "0.7"
 	```
 </details>

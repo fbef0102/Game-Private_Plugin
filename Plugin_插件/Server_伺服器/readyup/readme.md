@@ -152,7 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-準備才能開始遊戲的插件
+所有玩家準備才能開始遊戲的插件
 
 * 原理
 	* 每一回合開始之時，左方顯示準備介面
