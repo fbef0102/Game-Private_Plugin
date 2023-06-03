@@ -232,7 +232,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* <b>Methane Blast</b> - When the Smoker is killed, its dead body causes an explosion.
 	* <b>Methane Leak ability</b> - The Smoker lets out a Methane cloud that causes damage to anyone standing inside
 	* <b>Methane Strike ability</b> - Whoever shoved smoker gets stumble.
-	* <b>Moon Walk ability</b> - Smoker is able to move backwards, either dragging the survivor or stretching his tongue.
+	* <b>Moon Walk ability</b> - Smoker is able to move backwards, either dragging the survivor or stretching his tongue. (Bot apply)
 	* <b>Restrained Hostage ability</b> - The Smoker will use a victim it is currently choking to shield itself from damage.
 	* <b>Smoke Spawn ability</b> - When smoker spawns, create smoke particle around the body.
 	* <b>Smoke Screen ability</b> - The Smokers continually pumps smoke around it's body which helps obscure his form from attacks.
@@ -253,7 +253,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
 	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?p=2590861)
-		* Don't allow smoker ability movement with this plugin while using "Moon Walk" ability.
+		* Don't allow smoker ability movement with this plugin while using "Moon Walk" ability. (Bot也適用)
 </details>
 
 * <details><summary>Related Official ConVar</summary>

@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* The Infected of Thunder
 		> 雷神Charger
-		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.gif)
+		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.jpg)
 	* Inertia Vault ability
 		> Inertia Vault能力
 		<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)

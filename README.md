@@ -6,7 +6,7 @@ My Unpublic Private Plugin (Charge)
 - - - -
 # 私人插件列表 Private Plugins List
 > 持續更新中
-* 在這裡的插件均須收費交易，100台幣以上 (25人民幣以上、28港幣以上)，請聯繫我[本人](https://steamcommunity.com/profiles/76561198026784913)
+* 在這裡的插件均須收費交易，100台幣以上 (25人民幣以上、28港幣以上)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
   * 可接受小幅度的修改或漢化處理
   * 想增加或改動插件功能，需增加費用
   * 有任何新點子或想法可以聯繫並提出來討論
@@ -43,7 +43,7 @@ My Unpublic Private Plugin (Charge)
   </details>
 
 > Will update more
-* Every plugin here is private (US$6 dollars above), please [contact me](https://steamcommunity.com/profiles/76561198026784913)
+* Every plugin here is private (US$6 dollars above), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
   * Add new request and discuss
 * Q&A
