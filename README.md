@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/5/12 updated
+> 2023/6/6 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -182,6 +182,8 @@ My Unpublic Private Plugin (Charge)
     * 為特感者隊伍與旁觀者展示Tank介面，顯示血量與控制權
   * [l4d_burn_tank_penalty](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Get slowdown while burning the tank
     * 燃燒Tank的玩家會被減速慢行
+  * [l4d2_tankonfire_boost](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Increase the speed and power of tanks when on fire.
+    * Tank燃燒時，速度與力量會提升
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
