@@ -44,6 +44,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2023-6-7)
+		* Allow flashlight for dead survivors.
+
 	* v1.2h (2023-4-17)
 		* Support Free Looking, First Person View, Third Person View
 		* Auto turn off flashlight if observe infected first person view
@@ -78,6 +81,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// The default light color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
 		l4d_flashlight_speconly_colour "80 80 80"
+
+		// 0=Off, 1=Create flashlight for dead survivors.
+		l4d_flashlight_speconly_dead_survivor "1"
 
 		// Players with these flags may use the sm_lightspec command. (Empty = all).
 		l4d_flashlight_speconly_flags ""

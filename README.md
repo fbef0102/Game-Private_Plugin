@@ -442,6 +442,8 @@ My Unpublic Private Plugin (Charge)
     * 漂浮咒，溫咖癲啦唯啊薩
   * [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
     * 管理員輸入指令能透視看到特感
+  * [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
+    * 管理員輸入指令能透視看到武器與物資
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

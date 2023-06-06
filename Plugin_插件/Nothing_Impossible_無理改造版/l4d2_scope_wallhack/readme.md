@@ -32,6 +32,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Similar Plugin | 相似插件
 	1. [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
 		> 管理員輸入指令能透視看到特感
+	2. [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
+		> 管理員輸入指令能透視看到武器與物資
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -101,8 +103,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 倖存者使用狙擊槍打開狙擊鏡能隔牆看到特感光圈
-	* 光明正大使用WallHack
+	* 也會看到靈魂特感的光圈
 
 * 功能
 	1. 可設置Tank、Witch、特感、普通感染者的光圈顏色與發光範圍
-	2. 可設置看到靈魂特感的光圈
+	2. 可關閉靈魂特感的光圈
