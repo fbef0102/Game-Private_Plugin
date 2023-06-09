@@ -44,7 +44,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Similar Plugin | 相似插件
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
 		> 簡單版反傷插件
-	2. [anti-friendly_fire_RPG](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+	2. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
 		> 反傷插件，但是有更多的功能
 
 * <details><summary>ConVar | 指令</summary>
