@@ -9,8 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message
-	> 顯示還需要多少倖存者才能解鎖安全門
-	<br/>![anti_end_saferoomdoor_1](image/anti_end_saferoomdoor_1.jpg)
+		> 顯示還需要多少倖存者才能解鎖安全門
+		<br/>![anti_end_saferoomdoor_1](image/anti_end_saferoomdoor_1.jpg)
 
 * Apply to | 適用於
 	```
@@ -83,6 +83,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 一起死或一起通關，單獨落跑到終點安全室的玩家不能關門
 
 * 功能
-	1. 可設置多少倖存者抵達安全室才能關門
-	2. 可設定如何顯示提示
-	3. 可忽略安全室外掛邊或倒地的玩家
+	* 可設置多少倖存者抵達安全室才能關門
+	* 可設定如何顯示提示
+	* 可忽略安全室外掛邊或倒地的玩家

@@ -9,14 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* display message when someone tries to vote
-    > 顯示誰在嘗試投票與投票內容
-	<br/>![l4d_vote_block_1](image/l4d_vote_block_1.jpg)
+        > 顯示誰在嘗試投票與投票內容
+        <br/>![l4d_vote_block_1](image/l4d_vote_block_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -34,58 +34,59 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_vote_block.cfg
-	```php
-    // 0=Plugin off, 1=Plugin on.
-    l4d_vote_block_allow "1"
+        ```php
+        // 0=Plugin off, 1=Plugin on.
+        l4d_vote_block_allow "1"
 
-    // If 1, allow spectator to call vote.
-    l4d_vote_block_allow_spectator "0"
+        // If 1, allow spectator to call vote.
+        l4d_vote_block_allow_spectator "0"
 
-    // Turn on vote 'Change Alltalk' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_changealltalk "0"
+        // Turn on vote 'Change Alltalk' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_changealltalk "0"
 
-    // Turn on vote 'Change Chapter' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_changechapter "0"
+        // Turn on vote 'Change Chapter' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_changechapter "0"
 
-    // Turn on vote 'Change Difficulty' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_changedifficulty "0"
+        // Turn on vote 'Change Difficulty' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_changedifficulty "0"
 
-    // Turn on vote 'Change Mission' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_changemission "0"
+        // Turn on vote 'Change Mission' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_changemission "0"
 
-    // Turn on vote 'Kick' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_kick "0"
+        // Turn on vote 'Kick' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_kick "0"
 
-    // Turn on vote 'Restar Game' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_restartgame "0"
+        // Turn on vote 'Restar Game' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_restartgame "0"
 
-    // Turn on vote 'Return to Lobby' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
-    l4d_vote_block_difficulty_tog_returntolobby "0"
+        // Turn on vote 'Return to Lobby' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        l4d_vote_block_difficulty_tog_returntolobby "0"
 
-    // Turn on vote 'Change Alltalk' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_changealltalk "0"
+        // Turn on vote 'Change Alltalk' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_changealltalk "0"
 
-    // Turn on vote 'Change Chapter' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_changechapter "0"
+        // Turn on vote 'Change Chapter' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_changechapter "0"
 
-    // Turn on vote 'Change Difficulty' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_changedifficulty "0"
+        // Turn on vote 'Change Difficulty' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_changedifficulty "0"
 
-    // Turn on vote 'Change Mission' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_changemission "0"
+        // Turn on vote 'Change Mission' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_changemission "0"
 
-    // Turn on vote 'Kick' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_kick "0"
+        // Turn on vote 'Kick' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_kick "0"
 
-    // Turn on vote 'Restar Game' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_restartgame "0"
+        // Turn on vote 'Restar Game' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_restartgame "0"
 
-    // Turn on vote 'Return to Lobby' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_vote_block_modes_tog_returntolobby "0"
-	```
+        // Turn on vote 'Return to Lobby' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_vote_block_modes_tog_returntolobby "0"
+        ```
 </details>
 
 * <details><summary>Command | 命令</summary>
+    
     None
 </details>
 

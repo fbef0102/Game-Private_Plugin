@@ -8,9 +8,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/b3A14C7Qie8)
 
 * Image | 圖示
-	* display timeleft when someone tries to open door
+	* Display timeleft when someone tries to open door
         > 顯示剩餘秒數
         <br/>![antisaferoomdooropen_1](image/antisaferoomdooropen_1.jpg)
+	* Make the first saferoom door automatically fall
+        > 安全起始大門自由落下
+        <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.gif)
 
 * Apply to | 適用於
     ```

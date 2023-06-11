@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/6/6 updated
+> 2023/6/11 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -102,6 +102,8 @@ My Unpublic Private Plugin (Charge)
     * 當人類、普通感染者、特感、Witch死亡時，他們的屍體立即消失並清除
   * [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
     * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
+  * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
+    * 新型投票系統 (使用官方內建的投票)
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -471,7 +473,6 @@ My Unpublic Private Plugin (Charge)
 * <details><summary><b>只有中文的插件列表</b></summary>
 
   * [l4d_ranking_system_V3](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
-  * [l4d2_vote_change](/Plugin_插件/只有中文的插件列表/l4d2_vote_change): 新型的投票系統
 </details>
 
 ###### **CS Plugin List | CS插件列表**

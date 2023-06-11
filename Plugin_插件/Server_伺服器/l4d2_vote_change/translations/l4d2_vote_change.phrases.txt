@@ -1,0 +1,1147 @@
+﻿/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色)
+	 - {blue}		(藍色)
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red)
+	 - {blue}		(blue)
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"Call Vote"
+	{
+		"en"		"Call Vote"
+		"zho"		"發起投票"
+		"chi"		"发起投票"
+	}
+	"Change Diffciulty"
+	{
+		"en"		"Change Diffciulty"
+		"zho"		"更改難度"
+		"chi"		"更改难度"
+	}
+	"Other"
+	{
+		"en"		"Other"
+		"zho"		"其它"
+		"chi"		"其他"
+	}
+	"Vote Main Menu"
+	{
+		"en"		"Vote Main Menu"
+		"zho"		"投票主列表"
+		"chi"		"投票主列表"
+	}
+	"changemap"
+	{
+		"en"		"Change Valve Map"
+		"zho"		"換官方圖"
+		"chi"		"换官方图"
+	}
+	"changecustommap"
+	{
+		"en"		"Change Custom Map"
+		"zho"		"三方地圖"
+		"chi"		"三方地图"
+	}
+	"restartmap"
+	{
+		"en"		"Restart Level"
+		"zho"		"重啟本關"
+		"chi"		"重启本关"
+	}
+	"kick"
+	{
+		"en"		"Kick Player"
+		"zho"		"踢出玩家"
+		"chi"		"踢出玩家"
+	}
+	"forcespec"
+	{
+		"en"		"Move to Spec"
+		"zho"		"強制玩家旁觀"
+		"chi"		"移动玩家到旁观席"
+	}
+	"hp"
+	{
+		"en"		"Give HP"
+		"zho"		"回滿血"
+		"chi"		"回满血"
+	}
+	"slot"
+	{
+		"en"		"Server Slots"
+		"zho"		"伺服器人數"
+		"chi"		"增减旁观位子"
+	}
+	"ban"
+	{
+		"en"		"Ban Player"
+		"zho"		"封禁玩家"
+		"chi"		"封禁玩家"
+	}
+	"Easy"
+	{
+		"en"		"Easy"
+		"zho"		"简单"
+		"chi"		"簡單"
+	}
+	"Normal"
+	{
+		"en"		"Normal"
+		"zho"		"一般"
+		"chi"		"普通"
+	}
+	"Advanced"
+	{
+		"en"		"Advanced"
+		"zho"		"進階"
+		"chi"		"困难"
+	}
+	"Expert"
+	{
+		"en"		"Expert"
+		"zho"		"專家"
+		"chi"		"专家"
+	}
+	"Unknown"
+	{
+		"en"		"Unknown"
+		"zho"		"未知"
+		"chi"		"未知"
+	}
+	"vote"
+	{
+		"en"		"Start Vote"
+		"zho"		"發起投票"
+		"chi"		"发起投票"
+	}
+	"No Incap"
+	{
+		"en"		"No Incap"
+		"zho"		"倒地即死"
+		"chi"		"倒地即死"
+	}
+	"Enable"
+	{
+		"en"		"Enable"
+		"zho"		"開啟"
+		"chi"		"开启"
+	}
+	"Disable"
+	{
+		"en"		"Disable"
+		"zho"		"關閉"
+		"chi"		"关闭"
+	}
+	"Choose Player"
+	{
+		"en"		"Choose Player"
+		"zho"		"選擇玩家"
+		"chi"		"选择玩家"
+	}
+	"slots (current)"
+	{
+		"en"		"%d slots (current)"
+		"zho"		"%d 個位子 (目前)"
+		"chi"		"%d 个位子 (目前)"
+	}
+	"slots"
+	{
+		"en"		"%d slots"
+		"zho"		"%d 個位子"
+		"chi"		"%d 个位子"
+	}
+	"Ban Reason"
+	{
+		"en"		"Ban Reason"
+		"zho"		"封禁理由"
+		"chi"		"封禁理由"
+	}
+	"Choose Diffciulty"
+	{
+		"#format"	"{1:T}"
+		"en"		"Please Choose Diffciulty (Current: {1})"
+		"zho"		"请选择难度 (当前难度: {1})"
+		"chi"		"請選擇難度 (當前難度: {1})"
+	}
+	"Initiates Vote"
+	{
+		"en"		"[{olive}TS{default}] {blue}%N{default} initiates the vote: {green}%s"
+		"zho"		"[{olive}TS{default}] {blue}%N{default} 發起投票: {green}%s"
+		"chi"		"[{olive}TS{default}] {blue}%N{default} 发起投票: {green}%s"
+	}
+	"Change Map to"
+	{
+		"en"		"Change Map to %s ?"
+		"zho"		"更換地圖至 %s ?"
+		"chi"		"更换地图至 %s ?"
+	}
+	"Restart Level"
+	{
+		"en"		"Restart Level ?"
+		"zho"		"重啟本關 ?"
+		"chi"		"重启本关 ?"
+	}
+	"Kick Player"
+	{
+		"en"		"Kick Player %s ?"
+		"zho"		"踢出玩家 %s ?"
+		"chi"		"踢出玩家 %s ?"
+	}
+	"Move Player to Spec"
+	{
+		"en"		"Move Player %s to Spec ?"
+		"zho"		"強制玩家 %s 移到旁觀 ?"
+		"chi"		"移动玩家 %s 到旁观席 ?"
+	}
+	"Full Health"
+	{
+		"en"		"Give Survivor Full Health ?"
+		"zho"		"倖存者回滿血 ?"
+		"chi"		"生还者回满血 ?"
+	}
+	"Server Slots"
+	{
+		"en"		"Server Slots -> %d ?"
+		"zho"		"伺服器人數改成 -> %d ?"
+		"chi"		"服务器位子修改成 %d 个位子 ?"
+	}
+	"Ban Player Reason"
+	{
+		"en"		"Ban Player: %s, Reason: %s?"
+		"zho"		"封禁玩家: %s, 理由: %s ?"
+		"chi"		"封禁玩家: %s, 理由: %s ?"
+	}
+	"Change diffciulty"
+	{
+		"#format"	"{1:T}"
+		"en"		"Change diffciulty => {1}"
+		"zho"		"更改難度 => {1}"
+		"chi"		"更改难度 => {1}"
+	}
+	"This command is disable."
+	{
+		"en"		"This command is disable."
+		"zho"		"目前投票插件關閉中"
+		"chi"		"目前投票插件关闭中"
+	}
+	"You are not in survivor/infected team."
+	{
+		"en"		"You are not in survivor/infected team."
+		"zho"		"你不在倖存者/特感隊伍"
+		"chi"		"你不在生还者/特感队伍"
+	}
+	"Not In Game"
+	{
+		"en"		"[{olive}TS{default}] Target is not in game, choose again"
+		"zho"		"[{olive}TS{default}] 玩家不存在，請重新選擇!"
+		"chi"		"[{olive}TS{default}] 玩家不存在，请重新选择!"
+	}
+	"Kick Yourself"
+	{
+		"en"		"[{olive}TS{default}] Kick Yourself?"
+		"zho"		"[{olive}TS{default}] 踢你自己幹嗎?"
+		"chi"		"[{olive}TS{default}] 踢你自己干吗?"
+	}
+	"Spec Yourself"
+	{
+		"en"		"[{olive}TS{default}] Spec Yourself?"
+		"zho"		"[{olive}TS{default}] 旁觀你自己幹嗎?"
+		"chi"		"[{olive}TS{default}] 旁观你自己干吗?"
+	}
+	"Ban Yourself"
+	{
+		"en"		"[{olive}TS{default}] Ban Yourself??"
+		"zho"		"[{olive}TS{default}] 封禁你自己幹嗎?"
+		"chi"		"[{olive}TS{default}] 封禁你自己干吗?"
+	}
+	"banned permanently"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been banned permanently!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被永久封禁!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被永久封禁!"
+	}
+	"banned temporarily"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been banned temporarily!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被伺服器暫時封禁!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被服务器暂时封禁!"
+	}
+	"You did not change anything"
+	{
+		"en"		"You did not change anything"
+		"zho"		"你沒有更改任何項目"
+		"chi"		"你没有更改任何项目"
+	}
+	"Same as current diffciulty"
+	{
+		"en"		"Same as current diffciulty, {green}please choose again"
+		"zho"		"與當前的遊戲難度一樣，{green}請重新選擇"
+		"chi"		"与当前的游戏难度一样，{green}请重新选择"
+	}
+	"Vote is disable."
+	{
+		"en"		"[{olive}TS{default}] Vote is disable."
+		"zho"		"[{olive}TS{default}] 目前投票插件關閉中"
+		"chi"		"[{olive}TS{default}] 目前投票插件关闭中"
+	}
+	"You are not in survivor/infected team. (C)"
+	{
+		"en"		"[{olive}TS{default}] You are not in survivor/infected team."
+		"zho"		"[{olive}TS{default}] 你不在倖存者/特感隊伍"
+		"chi"		"[{olive}TS{default}] 你不在生还者/特感队伍"
+	}
+	"Not enough players"
+	{
+		"en"		"[{olive}TS{default}] Not enough {green}%d{default} players in survivor/infected team."
+		"zho"		"[{olive}TS{default}] 倖存者/特感隊伍人數不足 {green}%d{default}位, 無法發起投票."
+		"chi"		"[{olive}TS{default}] 生还者/特感队伍人数不足 {green}%d{default}位, 无法发起投票."
+	}
+	"You cannot start vote"
+	{
+		"en"		"[{olive}TS{default}] You cannot start vote until the current vote ends."
+		"zho"		"[{olive}TS{default}] 當前有投票項目正在進行."
+		"chi"		"[{olive}TS{default}] 当前有投票项目正在进行."
+	}
+	"You must wait"
+	{
+		"en"		"[{olive}TS{default}] You must wait for {green}%d{default} sec then start a new vote!"
+		"zho"		"[{olive}TS{default}] 你必須等待 {green}%d{default} 秒後才能發起投票!"
+		"chi"		"[{olive}TS{default}] 你必须等待 {green}%d{default} 秒后才能发起投票!"
+	}
+	"Error code"
+	{
+		"en"		"[{olive}TS{default}] {default}Vote can't be created... {red}Error code: %d"
+		"zho"		"[{olive}TS{default}] {default}發起投票失敗... {red}錯誤代碼: %d"
+		"chi"		"[{olive}TS{default}] {default}发起投票失败... {red}错误代码: %d"
+	}
+	"forces to pass (C)"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forces to pass the vote"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制通過目前投票項目"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制通过"
+	}
+	"forces to pass"
+	{
+		"en"		"%N Admin forces to pass the vote"
+		"zho"		"%N 管理員強制通過目前投票項目"
+		"chi"		"%N 管理员一票强制通过"
+	}
+	"forces to cancel (C)"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forces to cancel the vote"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制否决目前投票項目"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制否决"
+	}
+	"is immune to be kicked"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} player is immune to be kicked!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被踢!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被踢!"
+	}
+	"tries to kick you"
+	{
+		"en"		"[{olive}TS{default}] {olive}%N{default} tries to kick you, but you are immune"
+		"zho"		"[{olive}TS{default}] {olive}%N{default} 嘗試發起投票踢你，但你免疫"
+		"chi"		"[{olive}TS{default}] {olive}%N{default} 尝试发起投票踢你，但你免疫"
+	}
+	"has been kicked due to vote"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been kicked due to vote!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服務器!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服务器!"
+	}
+	"You have been kicked due to vote"
+	{
+		"en"		"You have been kicked due to vote"
+		"zho"		"你被投票踢出伺服器"
+		"chi"		"你被投票踢出服务器"
+	}
+	"has been force spectated"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been force spectated!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被強制旁觀!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被强制旁观!"
+	}
+	"is not in game"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} is not in game"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家已不存在服務器"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家已不存在服务器"
+	}
+	"Give Survivors full health"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}Give Survivors full health"
+		"zho"		"[{olive}TS{default}] {lightgreen}已回滿所有倖存者的血量"
+		"chi"		"[{olive}TS{default}] {lightgreen}已回满所有生还者的血量"
+	}
+	"Server Slots (C)"
+	{
+		"en"		"[{olive}TS{default}] Server slots -> {lightgreen}%d{default}"
+		"zho"		"[{olive}TS{default}] 伺服器人數已修改成 -> {lightgreen}%d{default}"
+		"chi"		"[{olive}TS{default}] 服务器位子已修改成 {lightgreen}%d{default} 个位子"
+	}
+	"is immune to be banned"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} player is immune to be banned!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
+	}
+	"tries to ban you"
+	{
+		"en"		"[{olive}TS{default}] {olive}%N{default} tries to ban you, but you are immune"
+		"zho"		"[{olive}TS{default}] {olive}%N{default} 嘗試發起投票封禁你，但你免疫"
+		"chi"		"[{olive}TS{default}] {olive}%N{default} 尝试发起投票封禁你，但你免疫"
+	}
+	"has been kicked due to vote"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been kicked due to vote!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服務器!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服务器!"
+	}
+	"You have been banned due to vote"
+	{
+		"en"		"You have been banned due to vote"
+		"zho"		"你被投票封禁"
+		"chi"		"你被投票封禁"
+	}
+	"You have been voted to be forcespectated"
+	{
+		"en"		"[{olive}TS{default}] You have been voted to be forcespectated! Wait {green}%d{default}s to rejoin team again.."
+		"zho"		"[{olive}TS{default}] 你已被投票強制旁觀! 請等待 {green}%d{default} 秒之後才能加入隊伍"
+		"chi"		"[{olive}TS{default}] 你已被投票强制旁观! 请等待 {green}%d{default} 秒之后才能加入队伍"
+	}
+	"You can join team now"
+	{
+		"en"		"[{olive}TS{default}] You can join team now."
+		"zho"		"[{olive}TS{default}] 你現在可以重新加入了加入隊伍"
+		"chi"		"[{olive}TS{default}] 你现在可以重新加入了加入队伍"
+	}
+	"Time Out"
+	{
+		"en"		"Time Out! {green}You didn't input any number!"
+		"zho"		"[{olive}TS{default}] 時間已到! {green}你未輸入任何數字!"
+		"chi"		"[{olive}TS{default}] 时间已到! {green}你未输入任何数字!"
+	}
+	"Cheat"
+	{
+		"en"		"Cheating"
+		"zho"		"作弊"
+		"chi"		"作弊"
+	}
+	"Insult"
+	{
+		"en"		"Insult"
+		"zho"		"辱罵"
+		"chi"		"辱骂"
+	}
+	"Advertis"
+	{
+		"en"		"Advertis"
+		"zho"		"發布廣告"
+		"chi"		"发布广告"
+	}
+	"Asshole"
+	{
+		"en"		"Asshole"
+		"zho"		"北七"
+		"chi"		"傻B"
+	}
+	"Suck my dick"
+	{
+		"en"		"Suck my dick"
+		"zho"		"看你不爽"
+		"chi"		"屌你马"
+	}
+
+	"Choose_map"
+	{
+		"en"		"Choose the map"
+		"zho"		"選擇地圖"
+		"chi"		"选择地图"
+	}
+	"Choose_campaign"
+	{
+		"en"		"- Choose the campaign -"
+		"zho"		"- 請選擇地圖 -"
+		"chi"		"- 请选择地图 -"
+	}
+	"No_maps_in_group"
+	{
+		"en"		"[{olive}TS{default}] No custom maps in this server yet."
+		"zho"		"[{olive}TS{default}] 伺服器還沒有三方地圖"
+		"chi"		"[{olive}TS{default}] 服务器还没有三方地图"
+	}
+	"No_Mercy"
+	{
+		"en"		"No Mercy"
+		"zho"		"毫不留情"
+		"chi"		"毫不留情"
+	}
+	"Crash_Course"
+	{
+		"en"		"Crash Course"
+		"zho"		"墜機險途"
+		"chi"		"坠机险途"
+	}
+	"Death_Toll"
+	{
+		"en"		"Death Toll"
+		"zho"		"死亡喪鐘"
+		"chi"		"死亡丧钟"
+	}
+	"Dead_Air"
+	{
+		"en"		"Dead Air"
+		"en"		"死亡機場"
+		"chi"		"寂静时分"
+	}
+	"Blood_Harvest"
+	{
+		"en"		"Blood Harvest"
+		"zho"		"嗜血豐收"
+		"chi"		"血腥收获"
+	}
+	"Sacrifice"
+	{
+		"en"		"Sacrifice"
+		"zho"		"犧牲"
+		"chi"		"牺牲"
+	}
+	"Last_Stand"
+	{
+		"en"		"Last Stand"
+		"zho"		"最後一刻"
+		"chi"		"临死一搏"
+	}
+	"#L4D360UI_Chapter_01_1"
+	{
+		"en"		"Apartments"
+		"zho"		"公寓"
+		"chi"		"公寓"
+	}
+	"#L4D360UI_Chapter_01_2"
+	{
+		"en"		"Subway"
+		"zho"		"地下鐵"
+		"chi"		"地铁"
+	}
+	"#L4D360UI_Chapter_01_3"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道"
+		"chi"		"下水道"
+	}
+	"#L4D360UI_Chapter_01_4"
+	{
+		"en"		"Hospital"
+		"zho"		"醫院"
+		"chi"		"医院"
+	}
+	"#L4D360UI_Chapter_01_5"
+	{
+		"en"		"Rooftop"
+		"zho"		"屋頂"
+		"chi"		"屋顶"
+	}
+	"#L4D360UI_Chapter_02_1"
+	{
+		"en"		"Alleys"
+		"zho"		"小巷"
+		"chi"		"小巷"
+	}
+	"#L4D360UI_Chapter_02_2"
+	{
+		"en"		"Lots"
+		"zho"		"卡車車庫最終章"
+		"chi"		"卡车车库终章"
+	}
+	"#L4D360UI_Chapter_03_1"
+	{
+		"en"		"Caves"
+		"zho"		"高速公路"
+		"chi"		"高速公路"
+	}
+	"#L4D360UI_Chapter_03_2"
+	{
+		"en"		"Drainage"
+		"zho"		"排水管"
+		"chi"		"排水管"
+	}
+	"#L4D360UI_Chapter_03_3"
+	{
+		"en"		"Ranchhouse"
+		"zho"		"教堂"
+		"chi"		"教堂"
+	}
+	"#L4D360UI_Chapter_03_4"
+	{
+		"en"		"Main street"
+		"zho"		"小鎮"
+		"chi"		"小镇"
+	}
+	"#L4D360UI_Chapter_03_5"
+	{
+		"en"		"Houseboat"
+		"zho"		"船屋最終章"
+		"chi"		"船坞终章"
+	}
+	"#L4D360UI_Chapter_04_1"
+	{
+		"en"		"Greenhouse"
+		"zho"		"溫室"
+		"chi"		"花房"
+	}
+	"#L4D360UI_Chapter_04_2"
+	{
+		"en"		"Offices"
+		"zho"		"起重機"
+		"chi"		"起重机"
+	}
+	"#L4D360UI_Chapter_04_3"
+	{
+		"en"		"Garage"
+		"zho"		"建築工地"
+		"chi"		"建筑工地"
+	}
+	"#L4D360UI_Chapter_04_4"
+	{
+		"en"		"Terminal"
+		"zho"		"航空站"
+		"chi"		"航天站"
+	}
+	"#L4D360UI_Chapter_04_5"
+	{
+		"en"		"Runway"
+		"zho"		"跑道最終章"
+		"chi"		"跑道终章"
+	}
+	"#L4D360UI_Chapter_05_1"
+	{
+		"en"		"Hilltop"
+		"zho"		"森林"
+		"chi"		"森林"
+	}
+	"#L4D360UI_Chapter_05_2"
+	{
+		"en"		"Train tunnel"
+		"zho"		"隧道"
+		"chi"		"隧道"
+	}
+	"#L4D360UI_Chapter_05_3"
+	{
+		"en"		"Bridge"
+		"zho"		"橋"
+		"chi"		"桥"
+	}
+	"#L4D360UI_Chapter_05_4"
+	{
+		"en"		"Barn"
+		"zho"		"火車站"
+		"chi"		"火车站"
+	}
+	"#L4D360UI_Chapter_05_5"
+	{
+		"en"		"Cornfield"
+		"zho"		"農場最終章"
+		"chi"		"农场终章"
+	}
+	"#L4D360UI_Chapter_06_1"
+	{
+		"en"		"Docks"
+		"zho"		"碼頭"
+		"chi"		"码头"
+	}
+	"#L4D360UI_Chapter_06_2"
+	{
+		"en"		"Barge"
+		"zho"		"駁船"
+		"chi"		"驳船"
+	}
+	"#L4D360UI_Chapter_06_3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口"
+	}
+	"#L4D360UI_Chapter_07_1"
+	{
+		"en"		"Lighthouse"
+		"zho"		"燈塔"
+		"chi"		"灯塔"
+	}
+	"#L4D360UI_CampaignName_C1"
+	{
+		"en"		"Dead Center"
+		"zho"		"死亡都心"
+		"chi"		"死亡中心"
+	}
+	"#L4D360UI_CampaignName_C2"
+	{
+		"en"		"Dark Carnival"
+		"zho"		"黑色嘉年華"
+		"chi"		"黑色狂欢节"
+	}
+	"#L4D360UI_CampaignName_C3"
+	{
+		"en"		"Swamp Fever"
+		"zho"		"沼澤瘧疾"
+		"chi"		"沼泽激战"
+	}
+	"#L4D360UI_CampaignName_C4"
+	{
+		"en"		"Hard Rain"
+		"zho"		"大雨"
+		"chi"		"暴风骤雨"
+	}
+	"#L4D360UI_CampaignName_C5"
+	{
+		"en"		"The Parish"
+		"zho"		"教區"
+		"chi"		"教区"
+	}
+	"#L4D360UI_CampaignName_C6"
+	{
+		"en"		"The Passing"
+		"zho"		"短暫之時"
+		"chi"		"短暂时刻"
+	}
+	"#L4D360UI_CampaignName_C7"
+	{
+		"en"		"The Sacrifice"
+		"zho"		"犧牲"
+		"chi"		"牺牲"
+	}
+	"#L4D360UI_CampaignName_C8"
+	{
+		"en"		"No Mercy"
+		"zho"		"毫不留情"
+		"chi"		"毫不留情"
+	}
+	"#L4D360UI_CampaignName_C9"
+	{
+		"en"		"Crash Course"
+		"zho"		"墜機險途(速成課程)"
+		"chi"		"坠机险途"
+	}
+	"#L4D360UI_CampaignName_C10"
+	{
+		"en"		"Death Toll"
+		"zho"		"死亡喪鐘"
+		"chi"		"死亡丧钟"
+	}
+	"#L4D360UI_CampaignName_C11"
+	{
+		"en"		"Dead Air"
+		"zho"		"死亡機場"
+		"chi"		"寂静时分"
+	}
+	"#L4D360UI_CampaignName_C12"
+	{
+		"en"		"Blood Harvest"
+		"zho"		"嗜血豐收"
+		"chi"		"血腥收获"
+	}
+	"#L4D360UI_CampaignName_C13"
+	{
+		"en"		"Cold Stream"
+		"zho"		"冷澗溪流"
+		"chi"		"刺骨寒溪"
+	}
+	"#L4D360UI_CampaignName_C14"
+	{
+		"en"		"Last Stand"
+		"zho"		"最後一刻"
+		"chi"		"临死一搏"
+	}
+	"#L4D360UI_LevelName_COOP_C1M1"
+	{
+		"en"		"Hotel"
+		"zho"		"飯店"
+		"chi"		"旅馆"
+	}
+	"#L4D360UI_LevelName_COOP_C1M2"
+	{
+		"en"		"Streets"
+		"zho"		"街道"
+		"chi"		"街道"
+	}
+	"#L4D360UI_LevelName_COOP_C1M3"
+	{
+		"en"		"Mall"
+		"zho"		"購物中心"
+		"chi"		"购物中心"
+	}
+	"#L4D360UI_LevelName_COOP_C1M4"
+	{
+		"en"		"Atrium"
+		"zho"		"中庭"
+		"chi"		"中厅终章"
+	}
+	"#L4D360UI_LevelName_COOP_C2M1"
+	{
+		"en"		"Highway"
+		"zho"		"高速公路"
+		"chi"		"高速公路"
+	}
+	"#L4D360UI_LevelName_COOP_C2M2"
+	{
+		"en"		"Fairgrounds"
+		"zho"		"露天市集"
+		"chi"		"游乐场"
+	}
+	"#L4D360UI_LevelName_COOP_C2M3"
+	{
+		"en"		"Coaster"
+		"zho"		"雲霄飛車"
+		"chi"		"过山车"
+	}
+	"#L4D360UI_LevelName_COOP_C2M4"
+	{
+		"en"		"Barns"
+		"zho"		"穀倉"
+		"chi"		"谷仓"
+	}
+	"#L4D360UI_LevelName_COOP_C2M5"
+	{
+		"en"		"Concert"
+		"zho"		"音樂會"
+		"chi"		"音乐会终章"
+	}
+	"#L4D360UI_LevelName_COOP_C3M1"
+	{
+		"en"		"Plank Country"
+		"zho"		"木工廠"
+		"chi"		"乡村"
+	}
+	"#L4D360UI_LevelName_COOP_C3M2"
+	{
+		"en"		"Swamp"
+		"zho"		"沼澤"
+		"chi"		"沼泽"
+	}
+	"#L4D360UI_LevelName_COOP_C3M3"
+	{
+		"en"		"Shanty Town"
+		"zho"		"貧民窟"
+		"chi"		"贫民窟"
+	}
+	"#L4D360UI_LevelName_COOP_C3M4"
+	{
+		"en"		"Plantation"
+		"zho"		"農場"
+		"chi"		"种植园终章"
+	}
+	"#L4D360UI_LevelName_COOP_C4M1"
+	{
+		"en"		"Milltown"
+		"zho"		"密爾城"
+		"chi"		"密尔城"
+	}
+	"#L4D360UI_LevelName_COOP_C4M2"
+	{
+		"en"		"Sugar Mill"
+		"zho"		"糖廠"
+		"chi"		"糖厂"
+	}
+	"#L4D360UI_LevelName_COOP_C4M3"
+	{
+		"en"		"Mill Escape"
+		"zho"		"逃離工廠"
+		"chi"		"逃离工厂"
+	}
+	"#L4D360UI_LevelName_COOP_C4M4"
+	{
+		"en"		"Return to Town"
+		"zho"		"返回城鎮"
+		"chi"		"重返小镇"
+	}
+	"#L4D360UI_LevelName_COOP_C4M5"
+	{
+		"en"		"Town Escape"
+		"zho"		"逃離城鎮"
+		"chi"		"逃离小镇终章"
+	}
+	"#L4D360UI_LevelName_COOP_C5M1"
+	{
+		"en"		"Waterfront"
+		"zho"		"岸邊"
+		"chi"		"码头"
+	}
+	"#L4D360UI_LevelName_COOP_C5M2"
+	{
+		"en"		"Park"
+		"zho"		"公園"
+		"chi"		"公园"
+	}
+	"#L4D360UI_LevelName_COOP_C5M3"
+	{
+		"en"		"Cemetery"
+		"zho"		"公墓"
+		"chi"		"墓地"
+	}
+	"#L4D360UI_LevelName_COOP_C5M4"
+	{
+		"en"		"Condos"
+		"zho"		"特區"
+		"chi"		"特区"
+	}
+	"#L4D360UI_LevelName_COOP_C5M5"
+	{
+		"en"		"Lift Bridge"
+		"zho"		"橋梁"
+		"chi"		"桥终章"
+	}
+	"#L4D360UI_LevelName_COOP_C6M1"
+	{
+		"en"		"Riverbank"
+		"zho"		"河岸"
+		"chi"		"河畔"
+	}
+	"#L4D360UI_LevelName_COOP_C6M2"
+	{
+		"en"		"Underground"
+		"zho"		"下水道"
+		"chi"		"地下通道"
+	}
+	"#L4D360UI_LevelName_COOP_C6M3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口终章"
+	}
+	"#L4D360UI_LevelName_COOP_C7M1"
+	{
+		"en"		"Docks"
+		"zho"		"碼頭"
+		"chi"		"码头"
+	}
+	"#L4D360UI_LevelName_COOP_C7M2"
+	{
+		"en"		"Barge"
+		"zho"		"駁船"
+		"chi"		"驳船"
+	}
+	"#L4D360UI_LevelName_COOP_C7M3"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口终章"
+	}
+	"#L4D360UI_LevelName_COOP_C8M1"
+	{
+		"en"		"Apartments"
+		"zho"		"公寓"
+		"chi"		"公寓"
+	}
+	"#L4D360UI_LevelName_COOP_C8M2"
+	{
+		"en"		"Subway"
+		"zho"		"地下鐵"
+		"chi"		"地铁"
+	}
+	"#L4D360UI_LevelName_COOP_C8M3"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道"
+		"chi"		"下水道"
+	}
+	"#L4D360UI_LevelName_COOP_C8M4"
+	{
+		"en"		"Hospital"
+		"zho"		"醫院"
+		"chi"		"医院"
+	}
+	"#L4D360UI_LevelName_COOP_C8M5"
+	{
+		"en"		"Rooftop"
+		"zho"		"屋頂"
+		"chi"		"屋顶终章"
+	}
+	"#L4D360UI_LevelName_COOP_C9M1"
+	{
+		"en"		"The Alleys"
+		"zho"		"小巷"
+		"chi"		"小巷"
+	}
+	"#L4D360UI_LevelName_COOP_C9M2"
+	{
+		"en"		"The Truck Depot"
+		"zho"		"卡車車庫最終章"
+		"chi"		"卡车停车场终章"
+	}
+	"#L4D360UI_LevelName_COOP_C10M1"
+	{
+		"en"		"The Turnpike"
+		"zho"		"高速公路"
+		"chi"		"收费公路"
+	}
+	"#L4D360UI_LevelName_COOP_C10M2"
+	{
+		"en"		"The Drains"
+		"zho"		"排水管"
+		"chi"		"水沟"
+	}
+	"#L4D360UI_LevelName_COOP_C10M3"
+	{
+		"en"		"The Church"
+		"zho"		"教堂"
+		"chi"		"教堂"
+	}
+	"#L4D360UI_LevelName_COOP_C10M4"
+	{
+		"en"		"The Town"
+		"zho"		"小鎮"
+		"chi"		"小镇"
+	}
+	"#L4D360UI_LevelName_COOP_C10M5"
+	{
+		"en"		"The Boat House"
+		"zho"		"船屋最終章"
+		"chi"		"码头终章"
+	}
+	"#L4D360UI_LevelName_COOP_C11M1"
+	{
+		"en"		"The Greenhouse"
+		"zho"		"溫室"
+		"chi"		"花房"
+	}
+	"#L4D360UI_LevelName_COOP_C11M2"
+	{
+		"en"		"The Crane"
+		"zho"		"起重機"
+		"chi"		"起重机"
+	}
+	"#L4D360UI_LevelName_COOP_C11M3"
+	{
+		"en"		"The Construction Site"
+		"zho"		"建築工地"
+		"chi"		"建筑工地"
+	}
+	"#L4D360UI_LevelName_COOP_C11M4"
+	{
+		"en"		"The Terminal"
+		"zho"		"航空站"
+		"chi"		"航空机场"
+	}
+	"#L4D360UI_LevelName_COOP_C11M5"
+	{
+		"en"		"Runway"
+		"zho"		"跑道最終章"
+		"chi"		"飞机跑道终章"
+	}
+	"#L4D360UI_LevelName_COOP_C12M1"
+	{
+		"en"		"The Woods"
+		"zho"		"森林"
+		"chi"		"森林"
+	}
+	"#L4D360UI_LevelName_COOP_C12M2"
+	{
+		"en"		"The Tunnel"
+		"zho"		"隧道"
+		"chi"		"隧道"
+	}
+	"#L4D360UI_LevelName_COOP_C12M3"
+	{
+		"en"		"The Bridge"
+		"zho"		"橋"
+		"chi"		"桥"
+	}
+	"#L4D360UI_LevelName_COOP_C12M4"
+	{
+		"en"		"The Train Station"
+		"zho"		"火車站"
+		"chi"		"火车站"
+	}
+	"#L4D360UI_LevelName_COOP_C12M5"
+	{
+		"en"		"The Farmhouse"
+		"zho"		"農場最終章"
+		"chi"		"农舍终章"
+	}
+	"#L4D360UI_LevelName_COOP_C13M1"
+	{
+		"en"		"Alpine Creek"
+		"zho"		"山間溯溪"
+		"chi"		"高山小溪"
+	}
+	"#L4D360UI_LevelName_COOP_C13M2"
+	{
+		"en"		"South Pine Stream"
+		"zho"		"南杉溪流"
+		"chi"		"松木之河"
+	}
+	"#L4D360UI_LevelName_COOP_C13M3"
+	{
+		"en"		"Memorial Bridge"
+		"zho"		"紀念大橋"
+		"chi"		"纪念大桥"
+	}
+	"#L4D360UI_LevelName_COOP_C13M4"
+	{
+		"en"		"Cut-throat Creek"
+		"zho"		"斷喉溪澗"
+		"chi"		"残酷溪流终章"
+	}
+	"#L4D360UI_LevelName_COOP_C14M1"
+	{
+		"en"		"The Junkyard"
+		"zho"		"教區橋梁"
+		"chi"		"废物场"
+	}
+	"#L4D360UI_LevelName_COOP_C14M2"
+	{
+		"en"		"Lighthouse Finale"
+		"zho"		"燈塔"
+		"chi"		"灯塔终章"
+	}
+	
+	"no_maps_for_mode"
+	{
+		"en"		"No maps found in configuration for this mode"
+		"zho"		"在此模式的配置中找不到地圖"
+		"chi"		"在此模式的配置中找不到地图"
+	}
+	"map"
+	{
+		"en"		"Map"
+		"zho"		"地圖"
+		"chi"		"地图"
+	}
+
+	"Dead Before Dawn DC"
+	{
+		"en"		"Dead Before Dawn DC"
+		"zho" 		"活人生吃: 導演版"
+		"chi" 		"活死人黎明: 导演版"
+	}
+	"l4d_dbd2dc_anna_is_gone"
+	{
+		"en"		"Dead Before Dawn - Map 1"
+		"zho" 		"活人生吃: 導演版 - 第一關"
+		"chi" 		"活死人黎明: 导演版 - 第一关"
+	}
+	
+	"White Forest"
+	{
+		"en"		"White Forest"
+		"zho" 		"白森林"
+		"chi" 		"白森林"
+	}
+}

@@ -89,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_team_unscramble.cfg.cfg
+	* cfg/sourcemod/l4d_team_unscramble.cfg
 		```php
 		// 0=Off, 1=Enables unscramble feature (Puts players on the right team after map/campaign change).
 		rotoblin_allow_unscramble "1"

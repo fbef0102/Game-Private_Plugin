@@ -8,11 +8,12 @@ Force change to next mission when current mission(final stage) end + Force chang
 * Image
 	* Force to change next map when survivors wipe out
 	<br/>![sm_l4d_mapchanger_1](image/sm_l4d_mapchanger_1.jpg)
-	* Vote to next map (including custom map)
+	* Vote to next map (including custom map) when survivors leave the saferoom
+	* Automatic parsing of custom maps vpk files - no need to add map names manually
 	<br/>![sm_l4d_mapchanger_2](image/sm_l4d_mapchanger_2.jpg)
 	* Switching to the vote winner
 	<br/>![sm_l4d_mapchanger_3](image/sm_l4d_mapchanger_3.jpg)
-`
+
 * Apply to | 適用於
     ```
     L4D2 coop/survival/versus/realism/scavenge
@@ -197,6 +198,7 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 * 功能
 	* 可設定滅團的次數，請查看指令
+	* 自動新增三方圖的關卡與地圖名，無須手動新增
 	* 玩家可以輸入!mapvote投票決定下一張地圖
 	* 可設定文件```data\sm_l4d_mapchanger.txt```決定切換到哪一張地圖
 	* 可設定文件```configs\finale.coop.txt.txt```決定哪些關卡為最終章節
