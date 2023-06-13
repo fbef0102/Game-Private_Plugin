@@ -30,6 +30,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mad_hamster @ 2011
 	//HarryPotter @ 2022-2023
 	```
+	* v1.1 (2023-6-14)
+		* Fix players got banned when map change
+
 	* v1.0 (2023-5-31)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
