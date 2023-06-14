@@ -1,0 +1,46 @@
+﻿"Phrases"
+{
+    "LAN Country Desc"
+    {
+        "en"        "Local Network"
+        "zho"       "區域網路"
+        "chi"       "区域网路"
+    }
+    "Unknown Country Desc"
+    {
+        "en"        "Unknown Country"
+        "zho"       "未知國家"
+        "chi"       "未知国家"
+    }
+    "Country_Banned"
+    {
+        "en"        "Your country or area is restricted, please contact admin"
+        "zho"       "您所在的區域暫時無法加入，請聯繫管理員。"
+        "chi"       "您所在的区域暂时无法加入，请联系管理员。"
+    }
+    "Rebuilding..."
+    {
+        "en"        "[BAN COUNTRY] Rebuilding whitelist..."
+        "zho"       "[地區限制] 重新讀取白名單"
+        "chi"       "[地区限制] 重新读取白名单"
+    }
+    "Area Display..."
+    {
+        "en"        "[BAN COUNTRY] Area Whilte List"
+        "zho"       "[地區限制] 地區白名單列表"
+        "chi"       "[地区限制] 地區白名单列表"
+    }
+    "STEAM ID Display..."
+    {
+        "en"        "[BAN COUNTRY] Steam ID Whilte List"
+        "zho"       "[地區限制] Steam ID 豁免名單列表"
+        "chi"       "[地区限制] Steam ID 豁免名单列表"
+    }
+    "Announce"
+    {
+        "#format"	"{1:s},{2:s}"
+        "en"        "[{olive}TS{default}] {blue}{1}{default} got kicked by server (From {green}{2}{default})"
+        "zho"       "[{olive}TS{default}] {blue}{1}{default} 連線途中被踢出伺服器 (來自 {green}{2}{default})"
+        "chi"       "[{olive}TS{default}] {blue}{1}{default} 连线途中被踢出服务器 (来自 {green}{2}{default})"
+    }
+}

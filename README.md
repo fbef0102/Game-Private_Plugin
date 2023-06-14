@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/6/11 updated
+> 2023/6/14 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -104,6 +104,8 @@ My Unpublic Private Plugin (Charge)
     * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
   * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
     * 新型投票系統 (使用官方內建的投票)
+  * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specifi country or area
+    * 限制來自某些國家或地區的玩家，禁止進入伺服器
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
