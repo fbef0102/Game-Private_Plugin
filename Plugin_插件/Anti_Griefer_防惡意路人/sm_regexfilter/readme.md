@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     ```
 	* v1.4 (2023-5-13)
         * Optimize Code
-        *  Change method to detect client say, require "SM-Custom-ChatColors-Menu"
+        *  Change method to detect client say, require "simple-chatprocessor"
 
 	* v1.3
 	    * Remake Code
@@ -37,7 +37,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [SM-Custom-ChatColors-Menu](https://github.com/fbef0102/SM-Custom-ChatColors-Menu)
+	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 
 * Related | 相關插件
 	1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'

@@ -25,6 +25,9 @@
 
 * <details><summary>版本日誌</summary>
 
+	* v1.1h (2023-6-15)
+		* Add smlib and simple-chatprocessor
+
 	* v1.0h (2023-5-12)
 		* Initial Release
 </details>
@@ -32,6 +35,8 @@
 * 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	4. [smlib](https://github.com/bcserv/smlib/tree/transitional_syntax)
 
 * 輔助插件
 	1. [l4d2_skill_detect](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_skill_detect): 顯示人類與特感各種花式技巧 (譬如推開特感、速救隊友、一槍爆頭、近戰砍死、高撲傷害等等)
