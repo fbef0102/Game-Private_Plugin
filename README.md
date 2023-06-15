@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/6/14 updated
+> 2023/6/15 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -426,6 +426,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家外觀可以變成地圖任何一個物件模型
   * [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
     * 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
+  * [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
+    * 根據管理員或玩家身分修改聊天窗口的對話顏色
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
@@ -470,6 +472,8 @@ My Unpublic Private Plugin (Charge)
     * 輸入指令一次處死多個Bots
   * [l4d_block_ff_shake](/Plugin_插件/Miscellaneous_雜項/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
     * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
+  * [remove_invisible_wall](/Plugin_插件/Miscellaneous_雜項/remove_invisible_wall): Use commans to remove all invisible wall on the map
+    * 輸入指令移除地圖上所有的空氣牆
 </details>
 
 * <details><summary><b>只有中文的插件列表</b></summary>
