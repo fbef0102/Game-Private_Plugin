@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* display message when weapon limit reached
         > 顯示武器拿取限制
-        <br/>![l4d_wlimits_1](image/l4d_wlimits_1.jpg)
+        <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
 * Apply to | 適用於
     ```
@@ -48,18 +48,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     
     * **Add a weapon limit**
 		```php
-        l4d_wlimits_add　<limit number> <give ammo if weapon limited is reached> <weapon class name>
+        l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon class name>
 		```
 </details>
 
 * Notice
     * open cfg/server.cfg and write down cmds. For example:
         ```php
-        l4d_wlimits_add 3 1 weapon_smg weapon_smg_silenced
-        l4d_wlimits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
-        l4d_wlimits_add 1 0 weapon_pistol_magnum
-        l4d_wlimits_add 0 0 weapon_melee
-        l4d_wlimits_add 0 1 weapon_hunting_rifle
+        l4d_weapon_limits_add 3 1 weapon_smg weapon_smg_silenced
+        l4d_weapon_limits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
+        l4d_weapon_limits_add 1 0 weapon_pistol_magnum
+        l4d_weapon_limits_add 0 0 weapon_melee
+        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
         ```
 
     * All weapons class name
@@ -103,7 +103,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * **Add a weapon limit**
         ```php
-        l4d_wlimits_add <限制數量> <如果不能撿起限制的武器是否給彈藥> <武器名稱>
+        l4d_weapon_limits_add <限制數量> <如果不能撿起限制的武器是否給彈藥> <武器名稱>
         ```
 </details>
 
@@ -111,11 +111,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項中文說明
     * 打開 cfg/server.cfg 文件並寫下想要限制的武器，譬如
         ```php
-        l4d_wlimits_add 3 1 weapon_smg weapon_smg_silenced
-        l4d_wlimits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
-        l4d_wlimits_add 1 0 weapon_pistol_magnum
-        l4d_wlimits_add 0 0 weapon_melee
-        l4d_wlimits_add 0 1 weapon_hunting_rifle
+        l4d_weapon_limits_add 3 1 weapon_smg weapon_smg_silenced
+        l4d_weapon_limits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
+        l4d_weapon_limits_add 1 0 weapon_pistol_magnum
+        l4d_weapon_limits_add 0 0 weapon_melee
+        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
         ```
 
     * 所有武器名稱

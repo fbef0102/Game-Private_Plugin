@@ -286,7 +286,7 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d_lasertag](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_lasertag): Shows a laser for straight-flying fired projectiles
     * (公開) 開槍會有子彈光線
-  * [l4d_wlimits](/Plugin_插件/Weapons_武器/l4d_wlimits): Restrict weapons individually or together
+  * [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
     * 限制每個武器可以拿取的數量，超過就不能拿取
   * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
