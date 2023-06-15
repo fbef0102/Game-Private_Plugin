@@ -30,6 +30,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//panxiaohai @ 2010
 	//HarryPotter @ 2022-2023
 	```
+	* v1.3h (2023-6-16)
+		* Grab tank rock distance
+		* Grab the incapacitated survivor
+
 	* v1.2h (2023-6-14)
 		* Grab a tank rock, pipe bomb projectile.
 		* Player can press 'Attack2' key to release himself if grabbed by another player.
@@ -40,7 +44,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Drag and throw prop_fuel_barrel
 
 	* v1.0h
-		* Request by 所長
 		* Remake Code
 		* Add more Convars
 		* Safely drag and throw objects
@@ -66,11 +69,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Grab distance within this range
 		l4d_pushdrag_grab_distance "400"
 
+		// If 1, player can grab the incapacitated survivor
+		l4d_pushdrag_grab_incap_enable "1"
+
 		// Which key to grab the objects. (0=Use, 1=Walk, 2=Crouch, 3=Middle Mouse)
 		l4d_pushdrag_grab_key "0"
 
 		// If 1, Prevent players from taking damage with the objects they grab.
 		l4d_pushdrag_grab_protect "1"
+
+		// Grab tank rock distance within this range
+		l4d_pushdrag_grab_rock_distance "400"
 
 		// If 1, player can press 'Attack2' key to release himself if grabbed by another player
 		l4d_pushdrag_grabbed_player_release "1"
@@ -150,11 +159,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 特感也能使用
 
 * 功能
-	1. 可設置抓物品的範圍限制
-	2. 可設置抓物品的按鍵
-	3. 抓物品時不會被物品砸傷到 (譬如車子)
-	4. 可設置抓各種物品的距離、移動速度、飄浮時間
-	5. 可設置抓取物品時，不能使用的按鍵
-	6. 可設置人類能抓取的物品限制
-	7. 可設置特感能抓取的物品限制
+	* 可設置抓物品的範圍限制
+	* 可設置抓物品的按鍵
+	* 抓物品時不會被物品砸傷到 (譬如車子)
+	* 可設置抓各種物品的距離、移動速度、飄浮時間
+	* 可設置抓取物品時，不能使用的按鍵
+	* 可設置人類能抓取的物品限制
+	* 可設置特感能抓取的物品限制
 
