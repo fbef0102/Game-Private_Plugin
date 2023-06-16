@@ -58,7 +58,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
 		> 所有玩家準備才能開始遊戲的插件
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>ConVar</summary>
 
 	* cfg/sourcemod/starting_items.cfg
 		```php
@@ -90,7 +90,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 遊戲開始之前，不准撿起地圖上的武器與物品
 	* 遊戲開始之前，不准點燃汽油桶、瓦斯桶、煙火盒
-	* 遊戲開始之後，插件會給予一些物資
+	* 遊戲開始之後，插件會給予火瓶、腎上腺素、治療包
 	* 這裡指的"遊戲開始"是
 		1. 戰役/對抗/寫實中離開安全室
 		2. 生存模式計時開始
@@ -99,6 +99,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 不影響過關攜帶的武器
 
 * 功能
-	* 可選擇不能撿起的武器欄位
-	* 可選擇插件給予的物資
-	* 可設定提示顯示位置
+	* 查看下方"指令中文介紹"
+
+* <details><summary>指令中文介紹(點我展開)</summary>
+
+	* cfg/sourcemod/starting_items.cfg
+		```php
+		// 訊息顯示位置. (0: 關閉, 1: 聊天窗, 2: 螢幕下方黑底白字窗, 3: 螢幕正中間)
+		starting_items_announce_type "2"
+
+		// 0=插件關閉, 1=插件開啟.
+		starting_items_enable "1"
+
+		// 遊戲開始之前不能撿起的武器或物品
+		// 0: 關閉此功能, 1: 主武器, 2: 副武器, 4: 投擲物品, 8: 醫療包, 電擊器, 燃燒彈包與高爆彈包, 16: 藥丸與腎上腺素, 32: 汽油桶、煙火盒、瓦斯桶、氧氣灌 (請將數字相加起來)
+		starting_items_ready_disable_weapon_slot "63"
+
+		// 遊戲開始之後，插件會給予的物資
+		// 0: 關閉此功能, 1: 醫療包, 2: 電擊器, 4: 藥丸, 8: 腎上腺素, 16: 土製炸彈, 32: 火瓶, 64: 膽汁瓶 (請將數字相加起來)
+		starting_items_round_live_give_flags "41"
+		```
+</details>

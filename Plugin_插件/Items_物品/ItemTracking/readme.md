@@ -116,7 +116,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Data Example
+* <details><summary>Data Example</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -161,6 +162,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * <details><summary>Related Official ConVar</summary>
 
@@ -191,7 +193,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. 可決定每一關的物品生成數量與限制
 	2. 第二回合之後強制所有物品位置與數量要與第一關相同
 
-* Data設定範例
+* <details><summary>Data設定範例</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -236,6 +239,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 

@@ -63,7 +63,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_ssi_teleport_fix_enable "1"
 
         // Players with these flags have access to see S.I. teleport message. (Empty = Everyone, -1: Nobody)
-        l4d_ssi_teleport_fix_message_access_flag ""
+        l4d_ssi_teleport_fix_message_access_flag "-1"
 
         // If 1, AI Boomer will be teleported.
         l4d_ssi_teleport_fix_tp1_boomer "1"
@@ -168,7 +168,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_ssi_teleport_fix_enable "1"
 
         // 擁有這些權限的玩家可以看到提示訊息 (留白=所有人都能看到, -1=沒人能看到)
-        l4d_ssi_teleport_fix_message_access_flag ""
+        l4d_ssi_teleport_fix_message_access_flag "-1"
 
         // 為1時, 可以傳送 AI Boomer
         l4d_ssi_teleport_fix_tp1_boomer "1"

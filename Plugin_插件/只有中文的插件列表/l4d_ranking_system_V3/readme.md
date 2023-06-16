@@ -8,7 +8,8 @@
 * 影片展示
 <br/>無
 
-* 圖示
+* <details><summary>圖示</summary>
+
 	* 打開 Rank System 菜單
 	<br/>![l4d_ranking_system_V3_1](image/l4d_ranking_system_V3_1.jpg)
 	* 玩家名子給予Rank稱號
@@ -17,6 +18,7 @@
 	<br/>![l4d_ranking_system_V3_3](image/l4d_ranking_system_V3_3.jpg)
 	* 支援跨伺服器儲存資料庫
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
+</details>
 
 * 適用於
 	```
@@ -24,6 +26,9 @@
 	```
 
 * <details><summary>版本日誌</summary>
+
+	* v1.2h (2023-6-16)
+		* Delete l4d2_skill_detect
 
 	* v1.1h (2023-6-15)
 		* Add smlib and simple-chatprocessor
@@ -38,9 +43,6 @@
 	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	4. [smlib](https://github.com/bcserv/smlib/tree/transitional_syntax)
 
-* 輔助插件
-	1. [l4d2_skill_detect](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_skill_detect): 顯示人類與特感各種花式技巧 (譬如推開特感、速救隊友、一槍爆頭、近戰砍死、高撲傷害等等)
-
 * <details><summary>指令</summary>
 
 	* cfg/sourcemod/l4d_ranking_system.cfg
@@ -54,26 +56,14 @@
 		// 殺死Charger所獲得的經驗值
 		l4d_ranking_system_charger_killed "7"
 
-		// 秒殺衝鋒的Charger所獲得的經驗值
-		// 需安裝l4d2_skill_detect by Harry
-		l4d_ranking_system_charger_leveled "14"
-
 		// 儲存經驗值、稱號、排行系統的資料庫設定. (支援 MySQL & SQLite)
 		l4d_ranking_system_database "rank"
-
-		// 殺死Hunter所獲得的經驗值
-		// 需安裝l4d2_skill_detect by Harry
-		l4d_ranking_system_hunter_killed "4"
 
 		// 空爆Hunter所獲得的經驗值
 		l4d_ranking_system_hunter_skeeted "8"
 
 		// 殺死Jockey所獲得的經驗值
 		l4d_ranking_system_jockey_killed "6"
-
-		// 空爆Jockey所獲得的經驗值
-		// 需安裝l4d2_skill_detect by Harry
-		l4d_ranking_system_jockey_skeeted "12"
 
 		// 當玩家 1=連線進服後, 2=離開伺服器時, 4=加入倖存者時 提示所有人該玩家的排名. 數字相加起來 (0=關閉提示, 7=全部)
 		l4d_ranking_system_join_leave_notify_flag "7"
@@ -144,7 +134,8 @@
 	* 可不要將頭銜名稱加入到玩家的名字前
 	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
 
-* 資料庫設定
+* <details><summary>資料庫設定</summary>
+
 	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
 		```php
 		"rank"
@@ -165,3 +156,4 @@
 			"database"			"rank_system"
 		}
 		```
+</details>
