@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2023/4/1 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/6/16 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#安裝總攬)
     - [前言](#前言)
     - [準備檔案](#準備檔案)
@@ -93,7 +93,8 @@
   此處額外檔案可以不用裝，自行決定
 * [AFK and Join Team Commands Improved Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands): 提供多種命令轉換隊伍陣營 (譬如: !afk, !survivors, !infected), 但不可濫用.
 
-* [Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動
+* <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動</s>
+    - 🟥會導致伺服器崩潰，等待作者修復🟥
 
 * [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動
 

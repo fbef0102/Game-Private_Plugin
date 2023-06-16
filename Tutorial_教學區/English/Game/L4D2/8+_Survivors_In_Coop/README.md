@@ -1,5 +1,5 @@
 # Navigation
-> 2023/4/1 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/6/16 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
     - [Introduction](#introduction)
     - [Prepare](#prepare)
@@ -85,7 +85,8 @@
   You can choose not to use any of optional plugins
 * [AFK and Join Team Commands Improved Version](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32): Add more commands to let the player spectate and join team. (!afk, !survivors, !infected, etc.), but no changing team abuse.
 
-* [Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.
+* <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.</s>
+    - 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
 * [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.
 
