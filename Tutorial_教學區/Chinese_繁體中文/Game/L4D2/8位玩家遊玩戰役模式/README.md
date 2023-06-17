@@ -11,6 +11,8 @@
 - - - -
 ## 前言
 > 本篇教學完成之後，你的伺服器可以多達８位玩家加入戰役模式大亂鬥
+<br/>![l4dmultislots_1](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/796efe51-2fac-43f2-9899-fef09b52328d)
+<br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
 * [English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
 * 本篇教學適用於L4D1和L4D2
 * [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
