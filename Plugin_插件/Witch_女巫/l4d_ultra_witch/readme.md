@@ -20,6 +20,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2023-6-19)
+		* Remove Gamedata (No need)
+
 	* v1.1h (2023-5-10)
 		* Add a convar
 			```php
