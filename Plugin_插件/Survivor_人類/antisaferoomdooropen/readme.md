@@ -8,10 +8,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/b3A14C7Qie8)
 
 * Image | 圖示
-	* Display timeleft when someone tries to open door
+    * Display timeleft when someone tries to open door
         > 顯示剩餘秒數
         <br/>![antisaferoomdooropen_1](image/antisaferoomdooropen_1.jpg)
-	* Make the first saferoom door automatically fall
+    * Make the first saferoom door automatically fall
         > 安全起始大門自由落下
         <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.gif)
 
@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v2.4 (2023-2-13)
+    * v2.4 (2023-2-13)
         * Request by fe
         * Add a cvar 
             ```c
@@ -31,21 +31,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             antisaferoomdooropen_countdown_announce_type "2"
             ```
 
-	* v2.3
+    * v2.3
         * Initial Release
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
-	1. [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
-		> 終點安全門鎖住直到時間結束
+    1. [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
+        > 終點安全門鎖住直到時間結束
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/antisaferoomdooropen.cfg
+    * cfg/sourcemod/antisaferoomdooropen.cfg
         ```php
         // Changes how count down timer displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
         antisaferoomdooropen_countdown_announce_type "2"

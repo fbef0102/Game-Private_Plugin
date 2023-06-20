@@ -25,7 +25,7 @@
 ## Prepare
 * [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
-* [Stripper:Source](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
+* [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
    - 🟥Listen server only🟥
@@ -33,7 +33,7 @@
 
 - - - -
 ## Require
-* [l4dtoolz EXTENSION](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
+* [l4dtoolz EXTENSION](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
    - write down cvars in cfg/server.cfg if dedicated server (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if listen server (🟥if file doesn't exist, create it🟥)
     ```php
@@ -117,7 +117,7 @@
     
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
-* [l4d_h_csm (Harry Version)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+* [l4d_h_csm (Harry Version)](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     - typ !csm to open menu
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
@@ -128,7 +128,7 @@
 
 * [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 
-* [5+ Survivors More Supply](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
+* [5+ Survivors More Supply](/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
 
 * [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
@@ -150,7 +150,7 @@
 
 * [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
-* [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
+* [L4D2 Survivors And Infected Shop Improved](/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
 

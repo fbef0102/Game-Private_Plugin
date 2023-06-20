@@ -25,7 +25,7 @@
 ## 準備檔案
 * [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
-* [Stripper:Source](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
+* [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): 可讓大廳有八個位子 <br/>
    - 🟥只適用於區域伺服器🟥
@@ -37,7 +37,7 @@
   
 - - - -
 ## 必要檔案
-* [l4dtoolz EXTENSION](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz): 解鎖伺服器人數限制
+* [l4dtoolz EXTENSION](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝l4dtoolz): 解鎖伺服器人數限制
    - 如果是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
@@ -129,7 +129,7 @@
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
     - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
 
-* [l4d_h_csm (哈利版本)](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+* [l4d_h_csm (哈利版本)](/Plugin_插件/Survivor_人類/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
     - 此為CSM插件重製版，輸入!csm打開角色選擇介面
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
@@ -140,7 +140,7 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
 
-* [5+ Survivors More Supply](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
+* [5+ Survivors More Supply](/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
 
 * [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
 
@@ -162,7 +162,7 @@
 
 * [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
 
-* [L4D2 Survivors And Infected Shop Improved](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
+* [L4D2 Survivors And Infected Shop Improved](/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
 

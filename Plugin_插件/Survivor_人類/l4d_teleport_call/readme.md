@@ -9,7 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image
 	* teleport menu
-	<br/>![l4d_telpeort_call_1](image/l4d_telpeort_call_1.jpg)
+	<br/>![l4d_teleport_call_1](image/l4d_teleport_call_1.jpg)
 
 * Apply to | 適用於
 	```
@@ -26,6 +26,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2023-6-20)
+		* Require lef4dhooks v1.33 or above
+		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
+
 	* v1.0h (2022-11-23)
 		* Request by Yabi
 		* Initial Release
@@ -41,13 +45,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_telpeort_call.cfg
+	* cfg/sourcemod/l4d_teleport_call.cfg
 		```php
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		l4d_telpeort_call_announce_type "1"
+		l4d_teleport_call_announce_type "1"
 
 		// 0=Plugin off, 1=Plugin on.
-		l4d_telpeort_call_enable "1"
+		l4d_teleport_call_enable "1"
 		```
 </details>
 
@@ -65,7 +69,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 圖示
 	* 傳送菜單
-	<br/>![l4d_telpeort_call_2](image/l4d_telpeort_call_2.jpg)
+	<br/>![l4d_teleport_call_2](image/l4d_teleport_call_2.jpg)
 
 * 原理
 	* 管理員輸入!call 可以傳送玩家到起點、終點、救援區域或身邊
