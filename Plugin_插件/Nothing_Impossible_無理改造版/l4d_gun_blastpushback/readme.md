@@ -9,14 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Aircannon
-	> 示範圖
-	<br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.jpg)
+        > 示範圖
+        <br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.jpg)
 
 * Apply to | 適用於
-```
-L4D1
-L4D2
-```
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -31,55 +31,56 @@ L4D2
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_gun_blastpushback.cfg
-	```php
-    // 0=Plugin off, 1=Plugin on.
-    l4d_gun_blastpushback_allow "1"
+        ```php
+        // 0=Plugin off, 1=Plugin on.
+        l4d_gun_blastpushback_allow "1"
 
-    // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-    l4d_gun_blastpushback_announce_type "2"
+        // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+        l4d_gun_blastpushback_announce_type "2"
 
-    // How much damage the Doraemon Aircannon does when fired.
-    l4d_gun_blastpushback_damage "30"
+        // How much damage the Doraemon Aircannon does when fired.
+        l4d_gun_blastpushback_damage "30"
 
-    // How much damage the Doraemon Aircannon does when fired. (friendly fire)
-    l4d_gun_blastpushback_damage_ff "1"
+        // How much damage the Doraemon Aircannon does when fired. (friendly fire)
+        l4d_gun_blastpushback_damage_ff "1"
 
-    // Doraemon Aircannon steam particle effect time. (0=Disable)
-    l4d_gun_blastpushback_effect_time "0.5"
+        // Doraemon Aircannon steam particle effect time. (0=Disable)
+        l4d_gun_blastpushback_effect_time "0.5"
 
-    // Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
-    l4d_gun_blastpushback_modes ""
+        // Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
+        l4d_gun_blastpushback_modes ""
 
-    // Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
-    l4d_gun_blastpushback_modes_off ""
+        // Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
+        l4d_gun_blastpushback_modes_off ""
 
-    // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-    l4d_gun_blastpushback_modes_tog "0"
+        // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_gun_blastpushback_modes_tog "0"
 
-    // When hit by the Doraemon Aircannon, push players/infected by this much force.
-    l4d_gun_blastpushback_push "400"
+        // When hit by the Doraemon Aircannon, push players/infected by this much force.
+        l4d_gun_blastpushback_push "400"
 
-    // How long after using the Doraemon Aircannon before it can be used again.
-    l4d_gun_blastpushback_push_time "0.5"
+        // How long after using the Doraemon Aircannon before it can be used again.
+        l4d_gun_blastpushback_push_time "0.5"
 
-    // Doraemon Aircannon explosion radius override.
-    l4d_gun_blastpushback_radius "150"
+        // Doraemon Aircannon explosion radius override.
+        l4d_gun_blastpushback_radius "150"
 
-    // How far the Doraemon Aircannon can affect entities.
-    l4d_gun_blastpushback_range "800"
+        // How far the Doraemon Aircannon can affect entities.
+        l4d_gun_blastpushback_range "800"
 
-    // If 1, Doraemon Aircannon can affect survivors.
-    l4d_gun_blastpushback_survivor "1"
+        // If 1, Doraemon Aircannon can affect survivors.
+        l4d_gun_blastpushback_survivor "1"
 
-    // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
-    l4d_gun_blastpushback_weapon "14,21,32,33"
+        // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
+        l4d_gun_blastpushback_weapon "14,21,32,33"
 
-    // (L4D1) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
-    l4d_gun_blastpushback_weapon "6,12,13"
-	```
+        // (L4D1) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
+        l4d_gun_blastpushback_weapon "6,12,13"
+        ```
 </details>
 
 * <details><summary>Command | 命令</summary>
+   
     None
 </details>
 

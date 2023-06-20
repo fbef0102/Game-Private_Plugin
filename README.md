@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/6/20 updated
+> 2023/6/21 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -450,6 +450,8 @@ My Unpublic Private Plugin (Charge)
     * 管理員輸入指令能透視看到特感
   * [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
     * 管理員輸入指令能透視看到武器與物資
+  * [l4d2_survivor_shove_power](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
+    * 倖存者的拳頭可以推開Tank,、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>
