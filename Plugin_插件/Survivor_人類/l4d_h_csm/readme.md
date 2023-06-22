@@ -34,6 +34,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022
 	```
+	* v1.3h (2023-6-22)
+		* Require left4dhooks v1.33 or above
+
 	* v1.2h (2023-1-15)
 		* Request by eviltechno
 		* Support L4D1

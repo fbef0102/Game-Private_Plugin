@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.7 (2023-6-20)
-        * Require lef4dhooks v1.33 or above
+        * Require left4dhooks v1.33 or above
 
 	* v1.6 (2023-5-27)
 		* Fixed Error after v1.5

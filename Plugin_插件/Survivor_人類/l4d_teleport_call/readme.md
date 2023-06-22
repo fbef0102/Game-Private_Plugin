@@ -27,7 +27,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1h (2023-6-20)
-		* Require lef4dhooks v1.33 or above
+		* Require left4dhooks v1.33 or above
 		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
 
 	* v1.0h (2022-11-23)

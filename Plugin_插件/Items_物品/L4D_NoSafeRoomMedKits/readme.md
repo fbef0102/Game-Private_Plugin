@@ -31,7 +31,7 @@ L4D2 Versus/Coop
 	//Harry @ 2022
 	```
 	* v1.0h (2023-6-20)
-		* Require lef4dhooks v1.33 or above
+		* Require left4dhooks v1.33 or above
 		* Add one Convar
 		* Support ending saferoom
 		* Support Coop Map Transition
