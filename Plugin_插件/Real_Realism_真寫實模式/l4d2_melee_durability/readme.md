@@ -26,6 +26,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2023-6-25)
+		* In coop/realism mode, keep melee durability to next map.
+
 	* v1.1 (2023-3-13)
 		* Translation Support
 
@@ -122,9 +125,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 
 * 原理
-    * 地圖上每個近戰武器都有各自的耐久值，因此即使不同玩家使用同一把近戰，耐力值不會改變
+    * 地圖上每個近戰武器都有各自的耐久值，只要使用近戰揮砍到僵屍或者物件，將會消耗耐力
+    * 耐力消耗之後，移除近戰武器，並自動給予手槍
+    * 在戰役/寫實模式下，近戰武器的耐力值會持續保留到下一關
 
-* 用意在哪
+* 用意在哪?
     * 削弱遊戲的近戰武器，惡靈勢力的近戰武器非常強大
         * 被殭屍包圍可以一刀砍一圈解圍
         * 一刀砍死特感 (Charger 兩刀)

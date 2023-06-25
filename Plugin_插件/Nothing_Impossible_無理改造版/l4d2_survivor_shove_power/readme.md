@@ -19,7 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
     ```
-    L4D1
     L4D2
     ```
 
@@ -29,7 +28,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Initial Release
 
     * 1.15
-	    * [Original Post By Silvers](https://forums.alliedmods.net/showthread.php?t=318694)
+	    * [Original Plugin By Silvers](https://forums.alliedmods.net/showthread.php?t=318694)
 </details>
 
 * Require | 必要安裝
@@ -101,7 +100,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 倖存者的拳頭可以推開Tank,、Witch、Charger、車子，還能拍飛特感、小殭屍、隊友
 
 * 原理
-    * 倖存者右鍵推有特殊效果
+    * 管理員當倖存者時，右鍵推有特殊效果
         * 推隊友時，隊友被擊飛或震退 (不會受傷)
         * 推Tank時，Tank被震退
         * 推Witch時，Witch被震退
@@ -109,7 +108,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 推特感時，特感被拍飛並死亡
         * 推小殭屍時，小殭屍死亡
         * 推車子時，車子被擊飛
-    * 輸入```!sshove```關掉右鍵推的功能
+    * 管理員輸入```!sshove```關掉右鍵推的功能
 
 * 功能
     * 可設置普通玩家也能使用

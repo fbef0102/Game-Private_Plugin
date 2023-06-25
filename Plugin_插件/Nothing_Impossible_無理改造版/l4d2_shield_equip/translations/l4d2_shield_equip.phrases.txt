@@ -1,0 +1,48 @@
+"Phrases"
+{
+	"This command is disable."
+	{
+		"en"		"This command is disable."
+		"zho"		"這項指令目前關閉中."
+		"chi"		"这项指令目前关闭中."
+	}
+	
+	"You don't have access"
+	{
+		"en"		"You don't have access"
+		"zho"		"你沒有權限使用這項指令."
+		"chi"		"你没有权限使用这项指令."
+	}
+	"Remove"
+	{
+		"en"		"[{olive}TS{default}] You remove {green}a shield{default}."
+		"zho"		"[{olive}TS{default}] 你移除了 {green}盾牌{default}."
+		"chi"		"[{olive}TS{default}] 你移除了 {green}盾牌{default}."
+	}
+	"Decrease"
+	{
+		"#format"		"{1:d}"
+		"en"		"Shield -{1} dmg"
+		"zho"		"盾牌減傷 -{1}"
+		"chi"		"盾牌减伤 -{1}"
+	}
+	"Notify"
+	{
+		"en"		"[{olive}TS{default}] You got {green}a shield{default}! It will show when you use {green}certain weapons"
+		"zho"		"[{olive}TS{default}] 已獲得 {green}盾牌{default}! {green}使用特定的武器{default}會裝備在手上"
+		"chi"		"[{olive}TS{default}] 已获得 {green}盾牌{default}! {green}使用特定的武器{default}会装备在手上"
+	}
+	"Shield Dmg"
+	{
+		"#format"		"{1:d}"
+		"en"		"Shield +{1} Dmg"
+		"zho"		"盾牌傷害 +{1}"
+		"chi"		"盾牌伤害 +{1}"
+	}
+	"Shield you have"
+	{
+		"en"		"You already have shield"
+		"zho"		"已有盾牌"
+		"chi"		"已有盾牌"
+	}
+}

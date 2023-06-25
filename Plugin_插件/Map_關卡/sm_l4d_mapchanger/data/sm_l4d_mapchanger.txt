@@ -49,7 +49,7 @@
 	"c9m2_lots"
 	{
 		"next mission map" "c10m1_caves"
-		"next mission name" "L4D2C9"
+		"next mission name" "L4D2C10"
 	}
 	"c10m5_houseboat"
 	{

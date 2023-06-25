@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/6/21 updated
+> 2023/6/25 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -452,6 +452,8 @@ My Unpublic Private Plugin (Charge)
     * 管理員輸入指令能透視看到武器與物資
   * [l4d2_survivor_shove_power](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
     * 倖存者的拳頭可以推開Tank,、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
+  * [l4d2_shield_equip](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
+    * 新武器: 防暴盾牌
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

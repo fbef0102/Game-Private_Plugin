@@ -178,7 +178,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 功能
 	1. 可決定每一關是否該生成 Tank/Witch
-	2. 可自行調整關卡，每個章節某些路段禁止生成生成 Tank/Witch
+	2. 可自行調整關卡，每個章節某些路段禁止生成 Tank/Witch
 	3. 可自行調製整地圖最遠到哪與最近到哪生成 Tank/Witch
 
 * Data設定範例
