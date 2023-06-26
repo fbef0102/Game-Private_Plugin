@@ -68,23 +68,76 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * cfg/sourcemod/l4d2_shield_equip.cfg
         ```php
+        // 0=Plugin off, 1=Plugin on.
+        l4d2_shield_equip_enable "1"
+
+        // Chance that riot uncommon infected would bring the shield and drop shield when killed [0-100]%
+        l4d2_shield_equip_riot_chance "20"
+
+        // Chance that tank would bring the shield and drop shield when tank dies [0.0, 100.0]%
+        l4d2_shield_equip_tank_chance "30"
+
+        // Chance that shield drops when witch dies [0.0, 100.0]%
+        l4d2_shield_equip_witch_chance "40"
+
+        // If survivor has shield, chance that shield dropped when player dies [0-100]%
+        l4d2_shield_equip_death_chance "100"
+
+        // If 1, Enable shield glow when shield is on the ground
+        l4d2_shield_equip_glow_enable "1"
+
+        // Shield Glow Color, three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+        l4d2_shield_equip_glow_color "150 150 150"
+
+        // How near to Shield do players need to be to enable their glow. (0=Any distance)
+        l4d2_shield_equip_glow_range "200"
+
+        // Time in seconds to remove the shield on ground if no one picks up after it drops
+        l4d2_shield_equip_ground_life "30"
+
+        // Scale the shield model in riot uncommon infected. (Default: 1.2)
+        l4d2_shield_equip_riot_scale "1.2"
+
+        // Scale the shield model in survivor. (Default: 1.2)
+        l4d2_shield_equip_survivor_scale "1.2"
+
+        // Scale the shield model in tank. (Default: 1.2)
+        l4d2_shield_equip_tank_scale "1.2"
+
+        // Players with these flags have access to use !shield command to get a shield. (Empty = Everyone, -1: Nobody)
+        l4d2_shield_equip_use_command_flag "z"
+
+        // Empty string to allow all. Allow these weapon IDs being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
+        l4d2_shield_equip_weapon "1,2,14,20,21"
+
+        // Empty string to allow all. Allow these melee weapons being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
+        // (l4d2_shield_equip_weapon must contains 21)
+        l4d2_shield_equip_melee "fireaxe,frying_pan,machete,baseball_bat,crowbar,cricket_bat,tonfa,katana,electric_guitar,knife,golfclub,pitchfork,shovel"
+
+        // If 1, Allow dual pistol being equipped with shield
+        // (l4d2_shield_equip_weapon must contains 1)
+        l4d2_shield_equip_dual_pistol "1"
+
         // If 1, Allows shoving to stagger chargers when survivor has shield on hand
         l4d2_shield_equip_charger_stagger "1"
 
-        // Shield Glow Color, three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
-        l4d2_shield_equip_color "150 150 150"
+        // If 1, Allows shoving to stagger tanks when survivor has shield on hand
+        l4d2_shield_equip_tank_stagger "1"
 
-        // Decrease survivor's damage taken from common infected by [0.0, 100.0]% (100=No Dmg)
+        // If 1, Allows shoving to stagger witch when survivor has shield on hand
+        l4d2_shield_equip_witch_stagger "1"
+
+        // Decrease survivor's damage taken by [0.0, 100.0]% from common infected (100=No Dmg)
         l4d2_shield_equip_damage_from_ci "100.0"
 
-        // Decrease survivor's damage taken from special infected by [0.0, 100.0]% (100=No Dmg)
-        l4d2_shield_equip_damage_from_si "50.0"
+        // Decrease survivor's damage taken by [0.0, 100.0]% from special infected (100=No Dmg)
+        l4d2_shield_equip_damage_from_si "80.0"
 
-        // Decrease survivor's damage taken from tank by [0.0, 100.0]% (100=No Dmg)
+        // Decrease survivor's damage taken by [0.0, 100.0]% from tank (100=No Dmg)
         l4d2_shield_equip_damage_from_tank "50.0"
 
-        // Decrease survivor's damage taken from witch by [0.0, 100.0]% (100=No Dmg)
-        l4d2_shield_equip_damage_from_witch "50.0"
+        // Decrease survivor's damage taken by [0.0, 100.0]% from witch (100=No Dmg)
+        l4d2_shield_equip_damage_from_witch "60.0"
 
         // Damage to common infected by shoving when survivor has shield on hand (0=Off)
         l4d2_shield_equip_damage_to_ci "30"
@@ -98,61 +151,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Damage to witch by shoving when survivor has shield on hand (0=Off)
         l4d2_shield_equip_damage_to_witch "200"
 
-        // If survivor has shield, chance that shield dropped when player dies [0-100]%
-        l4d2_shield_equip_death_chance "100"
-
-        // If 1, Allow dual pistol being equipped with shield
-        // (l4d2_shield_equip_weapon must contains 1)
-        l4d2_shield_equip_dual_pistol "1"
-
-        // 0=Plugin off, 1=Plugin on.
-        l4d2_shield_equip_enable "1"
-
-        // If 1, Enable shield glow when shield is on the ground
-        l4d2_shield_equip_glow "1"
-
-        // Time in seconds to remove the shield on ground if no one picks up after it drops
-        l4d2_shield_equip_ground_life "30"
-
-        // Empty string to allow all. Allow these melee weapons being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
-        // (l4d2_shield_equip_weapon must contains 21)
-        l4d2_shield_equip_melee "fireaxe,frying_pan,machete,baseball_bat,crowbar,cricket_bat,tonfa,katana,electric_guitar,knife,golfclub,pitchfork,shovel"
-
-        // How near to Shield do players need to be to enable their glow. (0=Any distance)
-        l4d2_shield_equip_range "150"
-
-        // Chance that riot uncommon infected would bring the shield and drop shield when killed [0-100]%
-        l4d2_shield_equip_riot_chance "20"
-
-        // Scale the shield model in riot uncommon infected. (Default: 1.2)
-        l4d2_shield_equip_riot_scale "1.2"
-
-        // How to show shield on first person view. 1=When Take damage, 2=When Press E button, 4=Shove, 7=All (0=Always)
+        // How to show shield on first person view. 1=When Take damage, 2=When Press E button, 4=Shove, 7=All. Add numbers together (7=All, 0=Always)
         l4d2_shield_equip_show_type "0"
-
-        // Scale the shield model in survivor. (Default: 1.2)
-        l4d2_shield_equip_survivor_scale "1.2"
-
-        // Chance that tank would bring the shield and drop shield when tank dies [0.0, 100.0]%
-        l4d2_shield_equip_tank_chance "30"
-
-        // Scale the shield model in tank. (Default: 1.2)
-        l4d2_shield_equip_tank_scale "1.2"
-
-        // If 1, Allows shoving to stagger tanks when survivor has shield on hand
-        l4d2_shield_equip_tank_stagger "1"
-
-        // Players with these flags have access to use !shield command to get a shield. (Empty = Everyone, -1: Nobody)
-        l4d2_shield_equip_use_command_flag "z"
-
-        // Empty string to allow all. Allow these weapon IDs being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
-        l4d2_shield_equip_weapon "1,2,14,20,21"
-
-        // Chance that shield drops when witch dies [0.0, 100.0]%
-        l4d2_shield_equip_witch_chance "40"
-
-        // If 1, Allows shoving to stagger witch when survivor has shield on hand
-        l4d2_shield_equip_witch_stagger "1"
         ```
 </details>
 
@@ -187,7 +187,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Witch死亡時一定機率掉落盾牌
         * 管理員輸入!shield，直接獲得盾牌
         * 有盾牌的隊友死亡
-    * 如何使用盾牌
+    * 如何裝備盾牌
         * 拿起近戰武器或者手槍，左手會自動拿盾牌，第一人稱視角也能看到自己的盾牌
     * 如何丟棄盾牌
         * 輸入!dropshield
@@ -199,14 +199,120 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 功能
     * 戰役/寫實模式下能攜帶盾牌過關到下一個關卡
     * 盾牌未使用時會顯示於後背上
-    * 管理員可以輸入!giveshield <玩家名稱>，指定玩家獲得盾牌
-    * 可設置盾牌的發光顏色與發光範圍
-    * 可設置鎮暴警察感染者、Tank、Witch掉落盾牌的機率
-    * 可指定武器同時使用盾牌，不限於近戰武器、手槍
-    * 可設置盾牌減傷比與傷害值
+    * 查看下方指令中文介紹與命令中文介紹
 
 * 注意事項
     * 不需要安裝任何解鎖盾牌武器的模組
     * 使用自製的角色模組會導致身上的盾牌模組位置錯亂
         * 只有觀感問題，功能不會受到任何影響
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d2_shield_equip.cfg
+        ```php
+        // 0=插件啟動, 1=插件關閉.
+        l4d2_shield_equip_enable "1"
+
+        // 防暴警察感染者會裝備盾牌的機率 [0-100]%
+        l4d2_shield_equip_riot_chance "20"
+
+        // Tank身上會裝備盾牌的機率 [0-100]%
+        l4d2_shield_equip_tank_chance "30"
+
+        // Witch死亡時掉落盾牌的機率 [0.0, 100.0]%
+        l4d2_shield_equip_witch_chance "40"
+
+        // 如果玩家攜帶盾牌，死亡時掉落盾牌的機率 [0-100]%
+        l4d2_shield_equip_death_chance "100"
+
+        // 為1時，地上的盾牌會發光
+        l4d2_shield_equip_glow_enable "1"
+
+        // 地上的盾牌光圈顏色 (RGB)
+        l4d2_shield_equip_glow_color "150 150 150"
+
+        // 地上的盾牌光圈可見範圍 (0=無範圍限制)
+        l4d2_shield_equip_glow_range "200"
+
+        // 盾牌掉落或丟棄在地上的存留時間，如果時間到沒有人撿起則移除
+        l4d2_shield_equip_ground_life "30"
+
+        // 在防暴警察身上的盾牌尺寸，數字介於0.0~2.0之間 (預設: 1.2)
+        l4d2_shield_equip_riot_scale "1.2"
+
+        // 在倖存者身上的盾牌尺寸，數字介於0.0~2.0之間 (預設: 1.2)
+        l4d2_shield_equip_survivor_scale "1.2"
+
+        // 在Tank身上的盾牌尺寸，數字介於0.0~2.0之間 (預設: 1.2)
+        l4d2_shield_equip_tank_scale "1.2"
+
+        // 擁有這些權限的玩家可以使用!shield命令獲得盾牌 (留白 = 任何人都能使用, -1: 無人能使用)
+        l4d2_shield_equip_use_command_flag "z"
+
+        // 留白允許全部武器. 寫入武器的ID，只允許這些武器裝備盾牌 (逗號分隔，不要空格). 武器的ID列表請查看插件原始碼
+        l4d2_shield_equip_weapon "1,2,14,20,21"
+
+        // 留白允許全部近戰武器. 寫入近戰武器的名稱，只允許這些近戰武器裝備盾牌 (逗號分隔，不要空格). 近戰武器的名稱列表請查看插件原始碼
+        // (l4d2_shield_equip_weapon 必須有 14)
+        l4d2_shield_equip_melee "fireaxe,frying_pan,machete,baseball_bat,crowbar,cricket_bat,tonfa,katana,electric_guitar,knife,golfclub,pitchfork,shovel"
+
+        // 為1時，允許雙手槍裝備盾牌
+        // (l4d2_shield_equip_weapon 必須有 1)
+        l4d2_shield_equip_dual_pistol "1"
+
+        // 為1時，裝備盾牌時右鍵可以推開Charger
+        l4d2_shield_equip_charger_stagger "1"
+
+        // 為1時，裝備盾牌時右鍵可以推開Tank
+        l4d2_shield_equip_tank_stagger "1"
+
+        // 為1時，裝備盾牌時右鍵可以推開Witch
+        l4d2_shield_equip_witch_stagger "1"
+
+        // 裝備盾牌的倖存者受到小殭屍傷害的減傷比 (100=無傷)
+        l4d2_shield_equip_damage_from_ci "100.0"
+
+        // 裝備盾牌的倖存者受到特感傷害的減傷比 (100=無傷)
+        l4d2_shield_equip_damage_from_si "80.0"
+
+        // 裝備盾牌的倖存者受到Tank傷害的減傷比 (100=無傷)
+        l4d2_shield_equip_damage_from_tank "50.0"
+
+        // 裝備盾牌的倖存者受到Witch傷害的減傷比 (100=無傷)
+        l4d2_shield_equip_damage_from_witch "60.0"
+
+        // 裝備盾牌時，右鍵推對小殭屍造成的傷害值 (0=關閉)
+        l4d2_shield_equip_damage_to_ci "30"
+
+        // 裝備盾牌時，右鍵推對特感造成的傷害值 (0=關閉)
+        l4d2_shield_equip_damage_to_si "100"
+
+        // 裝備盾牌時，右鍵推對Tank造成的傷害值 (0=關閉)
+        l4d2_shield_equip_damage_to_tank "300"
+
+        // 裝備盾牌時，右鍵推對Witch造成的傷害值 (0=關閉)
+        l4d2_shield_equip_damage_to_witch "200"
+
+        // 第一人稱如何顯示盾牌? 1=受傷時, 2=按E時, 4=右鍵推，數字請相加 (7=全部，0=一直顯示)
+        l4d2_shield_equip_show_type "0"
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **給予/移除盾牌**
+		```php
+		sm_shield
+		```
+
+	* **丟棄盾牌**
+		```php
+		sm_dropshield
+		```
+
+	* **管理員指定玩家獲得盾牌 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_giveshield <玩家名稱>
+		```
+</details>
      

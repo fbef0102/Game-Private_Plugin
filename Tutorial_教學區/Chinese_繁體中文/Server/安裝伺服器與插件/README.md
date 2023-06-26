@@ -75,7 +75,7 @@
    6. 到所安裝的路徑查看伺服器檔案
       <br/>![image](https://user-images.githubusercontent.com/12229810/202986953-7909125c-5bed-48ba-93f6-ec27c27cde46.png)
 
-* Liunx
+* Linux
    1. 啟用終端機輸入以下指令 (你可能需要root 權限)
       - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
       - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
@@ -136,7 +136,7 @@
          - L4D 戰役模式最多4人、對抗模式最多8人
       - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
 
-* Liunx
+* Linux
    1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
@@ -684,7 +684,7 @@
    5. 完成安裝之後輸入exit結束steamcmd
       <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
-* Liunx
+* Linux
    1. 啟用終端機輸入以下指令 (你可能需要root 權限)
       - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
       - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
