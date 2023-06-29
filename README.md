@@ -523,7 +523,6 @@ My Unpublic Private Plugin (Charge)
 - - - -
 
 # 公開的插件列表 Public Plugins List
-* [惡靈勢力一代插件 L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
 * [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
 * [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
 * [CS:S插件作品列表 CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
@@ -554,7 +553,6 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>其他作品</b></summary>
 
-  * [惡靈勢力一代插件作品列表](https://github.com/fbef0102/L4D1-Competitive-Plugins)
   * [惡靈勢力二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
   * [惡靈勢力一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
   * [惡靈勢力一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
@@ -618,7 +616,6 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Others</b></summary>
 
-  * [L4D1-Competitive-Plugins](https://github.com/fbef0102/L4D1-Competitive-Plugins)
   * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
   * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
   * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
