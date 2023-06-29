@@ -34,6 +34,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2023-6-30)
+		* Safely create entity and Safely remove entity
+
 	* v1.1h (2023-6-9)
 		* Fixed bots stuck on wall if change team while climing
 
