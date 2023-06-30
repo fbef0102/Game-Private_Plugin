@@ -24,7 +24,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
-	* v1.0 (2023-5-3 update)
+	* v1.1 (2023-7-1)
+	    * Fixed scavenge gascan removed
+
+	* v1.0 (2023-5-3)
 	    * Initial Release
 </details>
 
@@ -38,8 +41,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_replace_gun_item_enable "1"
 
-		// Replace the weapon if the weapon is late spawn during the game
+		// Replace the weapon if the weapon is late spawn during the game.
 		l4d2_replace_gun_item_late_spawn "0"
+
+		// Replace the primary weapon
+		l4d2_replace_gun_item_primary "1"
+
+		// Replace the secondary weapon.
+		l4d2_replace_gun_item_secondary "1"
+
+		// Replace the throwable weapon.
+		l4d2_replace_gun_item_throwable "1"
+
+		// Replace the heavy health item (slot 4 weapon).
+		l4d2_replace_gun_item_heavy_health "1"
+
+		// Replace the light health item (slot 5 weapon).
+		l4d2_replace_gun_item_light_health "1"
+
+		// Replace the Special Items.
+		l4d2_replace_gun_item_special "1"
 		```
 </details>
 
@@ -67,7 +88,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
-* Data Example
+* <details><summary>Data Example</summary>
+
 	* data/l4d2_replace_gun_item.cfg
 		```php
 		"l4d2_replace_gun_item"
@@ -101,10 +123,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
-
-
-
-
+</details>
 
 - - - -
 # 中文說明
@@ -123,7 +142,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可以手動更改配置，替換成自己想要的武器或物品
 	* 可設置不要替換遊戲中途生成或掉落的物資
 
-* Data 設定範例
+* <details><summary>Data 設定範例</summary>
+
 	* data/l4d2_replace_gun_item.cfg
 		```php
 		"l4d2_replace_gun_item"  // 別改這行
@@ -151,7 +171,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				}
 				"weapon_gascan"
 				{
-					// 不會更動黃色與綠色的汽油桶
+					// 不會影響黃色與綠色的汽油桶
 					// 所有汽油桶替換成腎上腺素
 					"replace" "weapon_adrenaline"
 				}
@@ -212,3 +232,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		精靈小矮人 => weapon_gnome
 		可樂瓶 => weapon_cola_bottles
         ```
+</details>

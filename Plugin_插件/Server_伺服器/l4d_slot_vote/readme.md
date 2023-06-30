@@ -37,8 +37,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Initial Release
 </details>
 
-* Require | 必要安裝
-	1. [l4dtoolz](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server slots limit
+* Require
+	1. [l4dtoolz](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 
@@ -115,6 +115,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_3.jpg)
 	* 踢出所有非管理員的旁觀者
 	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_3.jpg)
+
+* 必要安裝
+	1. [l4dtoolz](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): 解鎖伺服器人數上限
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 
 * 原理
 	* 玩家可投票調整伺服器的人數上限，管理員可以不用投票

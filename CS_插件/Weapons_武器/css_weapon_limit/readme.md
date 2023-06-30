@@ -107,7 +107,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 設置每一個武器限制，也可以不設置
     * 設置提示
 
-* <details><summary>指令中文介紹 (點我展開)</summary>
+* <details><summary>命令中文介紹 (點我展開)</summary>
 
     * **Add a weapon limit**
         ```php

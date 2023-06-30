@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
-	* v1.0h (2023-5-31 update)
+	* v1.0h (2023-5-31)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance
