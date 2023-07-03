@@ -108,7 +108,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 子菜單"發起投票"
 	<br/>![l4d2_vote_change_2_zho](image/zho/l4d2_vote_change_2_zho.jpg)
 	* 子菜單"更改難度"
-	<br/>![l4d2_vote_change_3_zho](image/zho/l4d2_vote_change_3_zho3.jpg)
+	<br/>![l4d2_vote_change_3_zho](image/zho/l4d2_vote_change_3_zho.jpg)
 	* 子菜單"其他"
 	<br/>![l4d2_vote_change_4_zho](image/zho/l4d2_vote_change_4_zho.jpg)
 	* 官方圖與三方圖可以選擇關卡 (能自動識別並新增三方圖)

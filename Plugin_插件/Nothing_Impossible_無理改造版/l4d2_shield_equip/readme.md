@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//panxiaohai @ 2013
 	//HarryPotter @ 2023
 	```
+    * v1.1h (2023-7-3)
+        * Hook command listener "```give shield```" to give a shield in console (need sv_cheats 1 or ~FCVAR_CHEAT bit)
+
     * v1.0h (2023-6-25)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.

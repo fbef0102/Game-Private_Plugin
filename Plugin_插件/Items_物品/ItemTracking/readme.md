@@ -13,17 +13,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2 Coop/Versus/Realism
+	L4D2
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.1h (2023-7-3)
+		* Support Coop/Realism/Versus/Survival/Scavenge
+
 	* v1.0h
-	    * Request by Anzu
 		* Individual plugin
 		* More data keyvalue
 		* More Cvars
-		* Control items in start safe area and in end safe area & final area
+		* Control items in start safe area and in end safe area & in final area
 
 	* v0.0
 	    * [From confoglcompmod in SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/ItemTracking.sp)
@@ -40,70 +42,73 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/itemtracking.cfg
 		```php
-		// Limits the number of adrenaline shots in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// If 1, Enable the itemtracking
+		itemtracking_enable "1"
+
+		// If 1, Keep item spawns the same as first sound in coop/realism/survival
+		itemtracking_savespawns_CP "1"
+
+		// If 1, Keep item spawns the same on both rounds in versus/scavenge
+		itemtracking_savespawns_VS "1"
+
+		// Limits the number of adrenaline shots in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		adrenaline_end_area_limit "-1"
 
-		// Limits the number of adrenaline shots on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of adrenaline shots outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		adrenaline_limit "-1"
 
 		// Limits the number of adrenaline shots in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		adrenaline_start_area_limit "-1"
 
-		// Limits the number of defibrillators in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of defibrillators in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		defib_end_area_limit "-1"
 
-		// Limits the number of defibrillators on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of defibrillators outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		defib_limit "-1"
 
 		// Limits the number of defibrillators in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		defib_start_area_limit "-1"
 
-		// If 1, Enable the itemtracking
-		itemtracking_enable "1"
-
-		// If 1, Keep item spawns the same on both rounds (usually enable in versus)
-		itemtracking_savespawns "1"
-
-		// Limits the number of first aid kits in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of first aid kits in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		kits_end_area_limit "-1"
 
-		// Limits the number of first aid kits on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of first aid kits outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		kits_limit "-1"
 
 		// Limits the number of first aid kits in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		kits_start_area_limit "-1"
 
-		// Limits the number of molotovs in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of molotovs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		molotov_end_area_limit "-1"
 
-		// Limits the number of molotovs on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of molotovs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		molotov_limit "-1"
 
 		// Limits the number of molotovs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		molotov_start_area_limit "-1"
 
-		// Limits the number of pain pills in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pain pills in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		pills_end_area_limit "-1"
 
-		// Limits the number of pain pills on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pain pills outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		pills_limit "-1"
 
 		// Limits the number of pain pills in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		pills_start_area_limit "-1"
 
-		// Limits the number of pipe bombs in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pipe bombs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		pipebomb_end_area_limit "-1"
 
-		// Limits the number of pipe bombs on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pipe bombs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		pipebomb_limit "-1"
 
 		// Limits the number of pipe bombs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
 		pipebomb_start_area_limit "-1"
 
-		// Limits the number of bile bombs in end safe area & final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of bile bombs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		vomitjar_end_area_limit "-1"
 
-		// Limits the number of bile bombs on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of bile bombs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
 		vomitjar_limit "-1"
 
 		// Limits the number of bile bombs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
@@ -149,15 +154,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=No Limit;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
 					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=No Limit;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
 				}
-				"ItemLimits_EndArea" // control items in end safe area & final area
+				"ItemLimits_EndArea" // control items in end safe area & in final area
 				{
-					"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
-					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
-					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
-					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
-					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
-					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
-					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
+					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
 				}
 			}
 		}
@@ -185,13 +190,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 覆蓋原本的導演生成系統，由此插件控制地圖上的物品生成數量或限制，參見下方Data設定範例
 	* 目前能控制的物品有治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
-	* 目前能控制的區域有三種: 1. 安全區域&救援區域外 2. 起始安全區域內 3. 終點安全區域&救援區域內
+	* 戰役/對抗/寫實模式下控制的區域有三種
+		1. 安全區域&救援區域外 
+		2. 起始安全區域內 
+		3. 終點安全區域&救援區域內
+	* 生存/清道夫模式下控制全部的區域
 	* 不影響安全區域內的物品
 	* 支援所有官方地圖，三方圖請自行新增與修改
 
 * 功能
-	1. 可決定每一關的物品生成數量與限制
-	2. 第二回合之後強制所有物品位置與數量要與第一關相同
+	* 可決定每一關的物品生成數量與限制
+	* 戰役/寫實/生存模式第二回合之後，強制所有物品位置與數量要與第一回合相同
+	* 對抗/清道夫模式第二回合，強制所有物品位置與數量要與第一回合相同
 
 * <details><summary>Data設定範例</summary>
 
