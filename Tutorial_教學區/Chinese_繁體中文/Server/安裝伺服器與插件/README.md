@@ -81,7 +81,7 @@
       - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
       - ```tar -xvzf steamcmd_linux.tar.gz```
       - ```./steamcmd.sh```
-      <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
    2. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
@@ -274,7 +274,7 @@
 - - - -
 ## 如何進去我的伺服器
 1. 先要知道伺服器的IP地址，到伺服器的後台輸入```status``` <br/>
-	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
    - hostname 	為房名
    - version 	為遊戲伺服器的版本
    - udp/ip		為伺服器的IP
@@ -285,7 +285,7 @@
    - players		為伺服器內的玩家狀態
 	 
 2. 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` <br/>
-	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
+	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器(無線基地台、Router)需要調整
@@ -294,13 +294,13 @@
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
    
 3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
-	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
 > __Warning__ 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
 - - - -
 ## 如何從大廳匹配到專屬伺服器
 1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
-	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
    - **udp/ip**	為伺服器的IP
 		- 前半部 **192.168.50.106:27016** 是**虛擬IP**
 		- 後半部 被塗黑的部分 是**公網IP**
@@ -314,7 +314,7 @@
 3. 邀請朋友或等路人進來或者你自己一個人－＞開始遊戲
 
 4. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器 <br/>
-	<br/><img width="500" alt="未命名" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 	
 > __Warning__ 
 > * 只有當伺服器沒有人才可以從大廳匹配進去
@@ -690,7 +690,7 @@
       - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
       - ```tar -xvzf steamcmd_linux.tar.gz```
       - ```./steamcmd.sh```
-      <br/>![未命名](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
    2. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)

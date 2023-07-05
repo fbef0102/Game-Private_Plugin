@@ -1,0 +1,347 @@
+"Missions"
+{
+	"List"
+	{
+		"Custom"
+		{
+			"Total"		"12"
+			"1"		"The Last Stand"
+			"3"		"Dark Carnival"
+			"4"		"Dead Center"
+			"5"		"Hard Rain"
+			"6"		"Swamp Fever"
+			"7"		"The Parish"
+			"8"		"The Passing"
+			"12"		"Dead Before Dawn"
+			"13"		"Death Aboard 8.0"
+			"15"		"Arena of the Dead v4"
+			"18"		"Precinct 84"
+			"19"		"Suicide Blitz"
+		}
+		"Valve"
+		{
+			"Total"		"7"
+			"1"		"#L4D_Mission_River_Title"
+			"2"		"#L4D360UI_Campaign_Airport"
+			"3"		"#L4D360UI_Campaign_Farm"
+			"4"		"#L4D360UI_Campaign_Garage"
+			"5"		"#L4D360UI_Campaign_Hospital"
+			"6"		"#L4D360UI_Campaign_Lighthouse"
+			"7"		"#L4D360UI_Campaign_Smalltown"
+		}
+	}
+	"Missions"
+	{
+		"The Last Stand"
+		{
+			"Name"		"L4D2C14"
+			"1"
+			{
+				"Map"		"c14m1_junkyard"
+				"DisplayName"		"Junkyard"
+			}
+			"2"
+			{
+				"Map"		"c14m2_lighthouse"
+				"DisplayName"		"Lighthouse"
+			}
+		}
+		"Dark Carnival"
+		{
+			"Name"		"DarkCarnival"
+			"1"
+			{
+				"Map"		"c2m1_highway"
+				"DisplayName"		"Motel"
+			}
+			"2"
+			{
+				"Map"		"c2m4_barns"
+				"DisplayName"		"Stadium Gate"
+			}
+			"3"
+			{
+				"Map"		"c2m5_concert"
+				"DisplayName"		"Concert"
+			}
+		}
+		"Dead Center"
+		{
+			"Name"		"DeadCenter"
+			"1"
+			{
+				"Map"		"c1m4_atrium"
+				"DisplayName"		"Mall Atrium"
+			}
+		}
+		"Hard Rain"
+		{
+			"Name"		"HardRain"
+			"1"
+			{
+				"Map"		"c4m1_milltown_a"
+				"DisplayName"		"Burger Tank"
+			}
+			"2"
+			{
+				"Map"		"c4m2_sugarmill_a"
+				"DisplayName"		"Sugar Mill"
+			}
+		}
+		"Swamp Fever"
+		{
+			"Name"		"SwampFever"
+			"1"
+			{
+				"Map"		"c3m1_plankcountry"
+				"DisplayName"		"Gator Village"
+			}
+			"2"
+			{
+				"Map"		"c3m4_plantation"
+				"DisplayName"		"Plantation"
+			}
+		}
+		"The Parish"
+		{
+			"Name"		"TheParish"
+			"1"
+			{
+				"Map"		"c5m2_park"
+				"DisplayName"		"Bus Depot"
+			}
+			"2"
+			{
+				"Map"		"c5m5_bridge"
+				"DisplayName"		"Bridge"
+			}
+		}
+		"The Passing"
+		{
+			"Name"		"ThePassing"
+			"1"
+			{
+				"Map"		"c6m1_riverbank"
+				"DisplayName"		"Riverbank"
+			}
+			"2"
+			{
+				"Map"		"c6m2_bedlam"
+				"DisplayName"		"Underground"
+			}
+			"3"
+			{
+				"Map"		"c6m3_port"
+				"DisplayName"		"Port"
+			}
+		}
+		"#L4D_Mission_River_Title"
+		{
+			"Name"		"River"
+			"1"
+			{
+				"Map"		"l4d_river01_docks"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Docks"
+			}
+			"2"
+			{
+				"Map"		"l4d_river03_port"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Port"
+			}
+		}
+		"#L4D360UI_Campaign_Airport"
+		{
+			"Name"		"Airport"
+			"1"
+			{
+				"Map"		"l4d_airport02_offices"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Offices"
+			}
+			"2"
+			{
+				"Map"		"l4d_airport03_garage"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Garage"
+			}
+			"3"
+			{
+				"Map"		"l4d_airport04_terminal"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Airport"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_airport05_runway"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Runway"
+			}
+		}
+		"#L4D360UI_Campaign_Farm"
+		{
+			"Name"		"Farm"
+			"1"
+			{
+				"Map"		"l4d_farm02_traintunnel"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_TrainTunnel"
+			}
+			"2"
+			{
+				"Map"		"l4d_farm03_bridge"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Bridge"
+			}
+			"3"
+			{
+				"Map"		"l4d_vs_farm05_cornfield"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Farm"
+			}
+		}
+		"#L4D360UI_Campaign_Garage"
+		{
+			"Name"		"Garage"
+			"1"
+			{
+				"Map"		"l4d_garage01_alleys"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Alleys"
+			}
+			"2"
+			{
+				"Map"		"l4d_garage02_lots"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Depot"
+			}
+		}
+		"#L4D360UI_Campaign_Hospital"
+		{
+			"Name"		"Hospital"
+			"1"
+			{
+				"Map"		"l4d_hospital02_subway"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Subway"
+			}
+			"2"
+			{
+				"Map"		"l4d_hospital03_sewers"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Sewers"
+			}
+			"3"
+			{
+				"Map"		"l4d_hospital04_interior"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Hospital"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_hospital05_rooftop"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Rooftop"
+			}
+		}
+		"#L4D360UI_Campaign_Lighthouse"
+		{
+			"Name"		"Lighthouse"
+			"1"
+			{
+				"Map"		"l4d_sv_lighthouse"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Lighthouse"
+			}
+		}
+		"#L4D360UI_Campaign_Smalltown"
+		{
+			"Name"		"SmallTown"
+			"1"
+			{
+				"Map"		"l4d_smalltown02_drainage"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Drainage"
+			}
+			"2"
+			{
+				"Map"		"l4d_smalltown03_ranchhouse"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Smalltown"
+			}
+			"3"
+			{
+				"Map"		"l4d_smalltown04_mainstreet"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_MainStreet"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_smalltown05_houseboat"
+				"DisplayName"		"#L4D360UI_Holdout_Chapter_Boat"
+			}
+		}
+		"Dead Before Dawn"
+		{
+			"Name"		"dbd"
+		}
+		"Death Aboard 8.0"
+		{
+			"Name"		"deathaboard"
+			"1"
+			{
+				"Map"		"l4d_sv_deathaboard_ship"
+				"DisplayName"		"Ship Survival"
+			}
+			"2"
+			{
+				"Map"		"l4d_deathaboard05_light"
+				"DisplayName"		"Lighthouse Survival"
+			}
+		}
+		"Arena of the Dead v4"
+		{
+			"Name"		"jsarena"
+			"1"
+			{
+				"Map"		"l4d_jsarena01_town"
+				"DisplayName"		"Downtown Survival"
+			}
+			"2"
+			{
+				"Map"		"l4d_jsarena02_alley"
+				"DisplayName"		"The Alleys Survival"
+			}
+			"3"
+			{
+				"Map"		"l4d_jsarena03_roof"
+				"DisplayName"		"The Rooftops Survival"
+			}
+			"4"
+			{
+				"Map"		"l4d_jsarena04_arena"
+				"DisplayName"		"The Arena Survival"
+			}
+		}
+		"Precinct 84"
+		{
+			"Name"		"noprecinctl4d1"
+			"1"
+			{
+				"Map"		"l4d_noprecinct01_crash"
+				"DisplayName"		"Twilight Apartment"
+			}
+			"2"
+			{
+				"Map"		"l4d_noprecinct03_clubd"
+				"DisplayName"		"Chicago Ted Guns"
+			}
+		}
+		"Suicide Blitz"
+		{
+			"Name"		"SuicideBlitz"
+			"1"
+			{
+				"Map"		"l4d_sv_stadium2_underground"
+				"DisplayName"		"Underground Survival"
+			}
+			"2"
+			{
+				"Map"		"l4d_sv_stadium3_city1"
+				"DisplayName"		"The Law Survival"
+			}
+			"3"
+			{
+				"Map"		"l4d_sv_stadium4_city2"
+				"DisplayName"		"The City Survival"
+			}
+			"4"
+			{
+				"Map"		"l4d_stadium5_stadium"
+				"DisplayName"		"Stadium Survival"
+			}
+		}
+	}
+}

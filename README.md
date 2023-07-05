@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/7/3 updated
+> 2023/7/5 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -233,7 +233,7 @@ My Unpublic Private Plugin (Charge)
   * [L4D2_Stats_Percentage_UP](/Plugin_插件/Survivor_人類/L4D2_Stats_Percentage_UP): Simple MVP Statistics after command or in the end of the round
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
-    * 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+    * 允許玩家在遊戲中更換一二代角色
   * [l4d_teleport_call](/Plugin_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu
     * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
   * [l4d_headshot_reward_sound](/Plugin_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
@@ -292,6 +292,8 @@ My Unpublic Private Plugin (Charge)
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [l4d2_lasersight](/Plugin_插件/Weapons_武器/l4d2_lasersight): L4D2 Upgrade Laser Sights by using commands
     * 玩家使用指令升級紅外線雷射
+  * [l4d2_M60_weapon_patch](/Plugin_插件/Weapons_武器/l4d2_M60_weapon_patch): Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill Explosive/Incendiary ammo
+    * 改造M60 機關槍，可以拿取子彈、填充子彈、裝彈變快、升級火焰子彈與高爆子彈
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -464,6 +466,8 @@ My Unpublic Private Plugin (Charge)
     * 投票更換地圖，但是地圖是隨機挑選的
   * [sm_l4d_mapchanger](/Plugin_插件/Map_關卡/sm_l4d_mapchanger): Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out + Vote to next map (Apply to Versus/Survival/Scavenge).
     * 最後一關結束時自動換圖 + 滅團N次後自動切換到下一個關卡 + 玩家投票下一張地圖 (生存/對抗/清道夫模式也適用)
+  * [l4d_all_missions_list](/Plugin_插件/Map_關卡/l4d_all_missions_list): Reads all available custom campaigns and display all available missions in menu
+    * 自動讀取官方地圖與所有三方地圖，並將關卡顯示在列表上，供管理員換圖用
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

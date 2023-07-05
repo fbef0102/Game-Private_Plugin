@@ -1,12 +1,12 @@
 # 安裝總攬
 > 2023/6/16 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#安裝總攬)
-    - [前言](#前言)
-    - [準備檔案](#準備檔案)
-    - [必要檔案](#必要檔案)
-    - [額外檔案](#額外檔案)
-    - [娛樂檔案](#娛樂檔案)
-    - [其他](#其他)
+- [安裝總攬](#安裝總攬)
+  - [前言](#前言)
+  - [準備檔案](#準備檔案)
+  - [必要檔案](#必要檔案)
+  - [額外檔案](#額外檔案)
+  - [娛樂檔案](#娛樂檔案)
+  - [其他](#其他)
 	
 - - - -
 ## 前言
@@ -27,7 +27,7 @@
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-* [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): 可讓大廳有八個位子 <br/>
+* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/download/file/8_slots_lobby.vpk): 可讓大廳有八個位子 <br/>
    - 🟥只適用於區域伺服器🟥
    - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
 

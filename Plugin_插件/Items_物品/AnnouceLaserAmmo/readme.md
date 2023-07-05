@@ -61,6 +61,5 @@ L4D2
     * 無
 
 * 注意事項
-	* 玩家必須啟動遊戲指導系統，ESC->選項->多人連線->遊戲指導系統->已啟用，否則玩家看不見標記提示
-    <br/>![未命名](https://user-images.githubusercontent.com/12229810/203991469-2b7dcba2-d70b-47ac-aed1-a18442c6d2de.jpg)
+	* 玩家必須啟動[遊戲指導系統](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#啟動遊戲指導系統)，ESC->選項->多人連線->遊戲指導系統->已啟用，否則玩家看不見標記提示
     * 伺服器端不要修改指令 ```sv_gameinstructor_disable```，這會關閉所有玩家的遊戲指導系統

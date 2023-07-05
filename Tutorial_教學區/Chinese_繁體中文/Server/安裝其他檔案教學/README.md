@@ -18,7 +18,7 @@
 
 * 安裝步驟
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
 
 	2. 往下找最新的版本，依照各自的電腦系統下載對應的版本
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
@@ -38,7 +38,7 @@
 ## 安裝l4dtoolz
 * l4dtoolz 用途是什麼?
    * 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
    * 最多只能有32位玩家同時在伺服器裡面
 	  * [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 	  * [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
@@ -115,7 +115,7 @@
 		```
 
 	7. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
 
 	> __Warning__ 
 	> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
@@ -123,7 +123,7 @@
 
 * <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
   * 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
   * 解決方式: 

@@ -394,7 +394,7 @@
   * [插件源碼問題](https://forums.alliedmods.net/forumdisplay.php?f=107): 有源碼程式上的問題需要幫助
 * 插件有問題請直接找到原作者對應的貼文底下留言，不要找不相關的人事物
 * 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
-  <br/>![未命名](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
+  <br/>![image](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
 
 * <details><summary><b>潛規則</b></summary>
     
@@ -417,7 +417,7 @@
 
   * 原因: 編碼不對
   * 解決方式: 文件的編碼請確認為UTF-8，可以用筆記本另存新檔的時候設定
-  <br/>![未命名](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
+  <br/>![image](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
 </details>
 
 * <details><summary>提問2: 文件顯示正常，但遊戲不行</summary>
@@ -428,7 +428,7 @@
 
   * 原因: 編碼不對
   * 解決方式: 文件的編碼請確認為UTF-8，可以用筆記本另存新檔的時候設定
-  <br/>![未命名](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
+  <br/>![image](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
 </details>
 
 * <details><summary>提問3: 看不到簡體中文</summary>

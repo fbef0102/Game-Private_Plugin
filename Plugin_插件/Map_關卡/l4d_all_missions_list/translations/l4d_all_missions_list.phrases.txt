@@ -1,0 +1,74 @@
+"Phrases"
+{
+	"List of Maps"
+	{
+		"en"			"List of Maps"
+		"zho"			"地圖列表"
+		"chi"			"地图列表"
+	}
+	
+	"Maps (Valve)"
+	{
+		"en"			"Maps (Valve)"
+		"zho"			"地圖 (官方)"
+		"chi"			"地图 (官方)"
+	}
+
+	"Maps (Custom)"
+	{
+		"en"			"Maps (Custom)"
+		"zho"			"地圖 (非官方)"
+		"chi"			"地图 (非官方)"
+	}
+
+	"List"
+	{
+		"#format"		"{1:T}"
+		"en"			"List of Maps ({1})"
+		"zho"			"地圖列表 ({1})"
+		"chi"			"地图列表 ({1})"
+	}
+
+	"Valve"
+	{
+		"en"			"Valve"
+		"zho"			"官方"
+		"chi"			"官方"
+	}
+
+	"Custom"
+	{
+		"en"			"Custom"
+		"zho"			"非官方"
+		"chi"			"非官方"
+	}
+
+	"[Levels]"
+	{
+		"en"			"[Levels]"
+		"zho"			"[關卡列表]"
+		"chi"			"[关卡列表]"
+	}
+	
+	"Level"
+	{
+		"en"			"M"
+		"zho"			"關卡"
+		"chi"			"关卡"
+	}
+	
+	"Unknown"
+	{
+		"en"			"Unknown"
+		"zho"			"未知"
+		"chi"			"未知"
+	}
+	
+	"Message"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Map does not exist: {green}{1}"
+		"zho"			"[{olive}TS{default}] 此地圖不存在: {green}{1}"
+		"chi"			"[{olive}TS{default}] 此地图不存在: {green}{1}"
+	}
+}

@@ -1,6 +1,8 @@
 #ignore smx and source code
 *.sp
 *.smx
+*.zip
 
 #ignore vscode
 *.vs
+*.vscode

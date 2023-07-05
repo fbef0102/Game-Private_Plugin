@@ -7,13 +7,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/NoMHRxnKnFI)
 
-* Image | 圖示
+* Image
 	* display message
-		> 訊息
-		<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
+	<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
 	* typ !csm to open menu
-		> 輸入!csm 打開角色選擇介面
-		<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
+	<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
 
 * Apply to | 適用於
 	```
@@ -32,7 +30,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//mi123645 @ 2009 - 2010
-	//Harry @ 2022
+	//Harry @ 2022-2023
 	```
 	* v1.3h (2023-6-22)
 		* Require left4dhooks v1.33 or above
@@ -67,7 +65,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model
 		> (公開) 依照目前模組給予相對應的角色語音
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>ConVar</summary>
 
 	* cfg/sourcemod/l4d_h_csm.cfg
 		```php
@@ -91,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>Command</summary>
 	
 	* **Brings up a menu to select a different character**
 		```php
@@ -110,20 +108,57 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+允許玩家在遊戲中更換一二代角色
+
+* 圖示
+	<br/>![l4d_h_csm_1](image/chi/l4d_h_csm_1.jpg)
+	<br/>![l4d_h_csm_2](image/chi/l4d_h_csm_2.jpg)
 
 * 原理
 	* 此為CSM插件重製版，輸入!csm打開角色選擇介面
-	* 一代地圖上玩家可以切換一代角色，不能換二代角色，只可切換二代角色外觀模組
-	* 二代地圖上玩家可以切換二代角色，不能換一代角色，只可切換一代角色外觀模組
-	* 三方圖自動判定主角為一代還是二代角色
+	* 在地圖上自由切換一代或二代角色
+	* 適用於三方圖
+
+* 功能
+    * 參見下方"指令中文介紹"
 
 * 注意事項
 	* 無論是改變角色或是只切換模組，可能會遇到很多麻煩的bug，譬如Witch追錯人、Charger無法撞開玩家等等之類，請閱讀這篇文章[8位玩家遊玩戰役模式](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F#%E5%BF%85%E8%A6%81%E6%AA%94%E6%A1%88) 安裝必要檔案以修正.
-    * 選擇更換模組只有外觀改變，語音還是原本的角色，如果要修正語音請安裝[l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
+    * 選擇更換模組只有外觀改變，手臂、頭像、語音還是原本的角色，如果要修正語音請安裝[l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
-* 功能
-    * 可設置特定權限的人士才能使用CSM角色選擇介面
-    * 管理員幫真人玩家更換角色或模組
-    * 可設置更換次數限制
-    * 使用Cookies保存玩家選擇的角色，意思是說玩家下次加入遊戲之後自動變成上一次選擇的角色
+* <details><summary>指令中文介紹(點我展開)</summary>
+
+	* cfg/sourcemod/l4d_h_csm.cfg
+		```php
+		// 0=啟動插件, 1=關閉插件.
+		l4d_h_csm_enable "1"
+
+		// 擁有這些權限的玩家可以使用!csm命令更換角色 (留白 = 任何人都能使用, -1: 無人能使用)
+		l4d_h_csm_access_flag ""
+
+		// 每一回合限制玩家切換角色的次數
+		l4d_h_csm_change_limit "9999"
+
+		// 為1時，當選擇完畢角色之後自動關閉介面
+		l4d_h_csm_close_menu "0"
+
+		// 使用Cookies保存玩家選擇的角色，意思是說玩家下次加入倖存者之後自動變成上一次選擇的角色
+		l4d_h_csm_save_character_enable "1"
+
+		// 如何顯示提示 (0: 關閉提示, 1:聊天框, 2: 螢幕下方黑底白字窗口, 3: 螢幕正中間)
+		l4d_h_csm_type "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹(點我展開)</summary>
+	
+	* **打開一二代角色選擇介面**
+		```php
+		sm_csm
+		```
+
+	* **管理員強制指定的玩家切換角色 (權限: ADMFLAG_GENERIC)**
+		```php
+		sm_csc
+		```
+</details>

@@ -1,12 +1,12 @@
 # Navigation
 > 2023/6/16 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
-    - [Introduction](#introduction)
-    - [Prepare](#prepare)
-    - [Require](#require)
-    - [Optional](#optional)
-    - [Fun](#fun)
-    - [Others](#others)
+  - [Introduction](#introduction)
+  - [Prepare](#prepare)
+  - [Require](#require)
+  - [Optional](#optional)
+  - [Fun](#fun)
+  - [Others](#others)
 	
 - - - -
 ## Introduction
@@ -27,7 +27,7 @@
 * [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-* [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=546656726): You can have 8 slots lobby. <br/>
+* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/download/file/8_slots_lobby.vpk): You can have 8 slots lobby. <br/>
    - 🟥Listen server only🟥
    - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 

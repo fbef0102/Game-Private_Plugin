@@ -18,7 +18,7 @@
 
 * Installation
 	1. Go to [Stripper:Source](https://forums.alliedmods.net/showthread.php?t=39439) and click SNAPSHOTS
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
 
 	2. Search the latest version and download files depending on your system
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
@@ -38,7 +38,7 @@
 ## l4dtoolz
 *  What is l4dtoolz?
    * To unlock server slots limit, you can have 8+ players in your server
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
    * Max slot limit is 32 in left4dead 1/2
 	  * [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 	  * [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
@@ -115,7 +115,7 @@
 		```
 
 	7. Join server，open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
-	<br/>![未命名](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
 
 	> __Warning__ 
 	> * High Tickrate costs more cpu performance, you can adjust tickrate to 60 or 45

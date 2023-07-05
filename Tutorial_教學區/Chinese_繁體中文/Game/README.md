@@ -1,13 +1,13 @@
 # 問題總攬
 > 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#問題總攬)
-    - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
-    - [打開遊戲主目錄的資料夾](#打開遊戲主目錄的資料夾)
-	- [設定自己的cfg](#設定自己的cfg)
-    - [設定啟動選項](#設定啟動選項)
-    - [驗證遊戲檔案的完整性](#驗證遊戲檔案的完整性)
-    - [啟動遊戲指導系統](#啟動遊戲指導系統)
-    - [下載自訂伺服器內容](#下載自訂伺服器內容)
+- [問題總攬](#問題總攬)
+  - [如何開啟遊戲控制台](#如何開啟遊戲控制台)
+  - [打開遊戲主目錄的資料夾](#打開遊戲主目錄的資料夾)
+  - [設定自己的cfg](#設定自己的cfg)
+  - [設定啟動選項](#設定啟動選項)
+  - [驗證遊戲檔案的完整性](#驗證遊戲檔案的完整性)
+  - [啟動遊戲指導系統](#啟動遊戲指導系統)
+  - [下載自訂伺服器內容](#下載自訂伺服器內容)
 
 - - - -
 ## 如何開啟遊戲控制台
@@ -22,7 +22,7 @@
 - - - -
 ## 打開遊戲主目錄的資料夾
 * 依照圖片指示即可知道遊戲本體的主目錄所在位置
-<br/>![1](https://user-images.githubusercontent.com/12229810/202615257-6e294ed6-e5c3-41c5-bcd7-528e3ae85c9a.jpg)
+![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/836295a9-ba5c-4dab-aa11-4345239c4513)
 
 - - - -
 ## 設定自己的cfg
@@ -34,7 +34,7 @@
 	* 其他遊戲自行搜索
 
 * 在遊戲主目錄找到cfg資料夾，其中autoxec.cfg是每次啟動遊戲時必定執行的文件
-<br/>![未命名](https://user-images.githubusercontent.com/12229810/202833619-c676cf23-a32b-49e9-abf4-d26d9cb94999.jpg)
+<br/>![image](https://user-images.githubusercontent.com/12229810/202833619-c676cf23-a32b-49e9-abf4-d26d9cb94999.jpg)
     * 遊戲啟動時自動執行裡面所有的指令
     * <details><summary>我的autoxec.cfg範例 (點我展開)</summary>
 
@@ -97,13 +97,13 @@
 * 可以自己創建新的文件
     * 在cfg資料夾建立一個文件，改名為```XXX.cfg``` (XXX 自取)
         * 請注意副檔名為.cfg
-        <br/>![未命名](https://user-images.githubusercontent.com/12229810/202833839-b99948d5-cf05-4255-a050-0c12e46018fe.jpg)
+        <br/>![image](https://user-images.githubusercontent.com/12229810/202833839-b99948d5-cf05-4255-a050-0c12e46018fe.jpg)
     * 將想要執行的指令寫入剛創立的文件當中，啟動遊戲之後在控制台輸入```exec xxx.cfg```即可
     <br/>![image](https://user-images.githubusercontent.com/12229810/202833928-10f9cd11-1917-473c-ae66-5f75044477a8.png)
 - - - -
 ## 設定啟動選項
 * 依照圖片指示即可看到啟動選項
-<br/>![未命名](https://user-images.githubusercontent.com/12229810/202832420-0408e769-4c30-4eb1-8e7a-be4ad97db4a3.jpg)
+<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/280a5029-31bb-450b-90b5-7ee5fa3feb50)
 
 * 常見啟動參數介紹
     * ```-lv``` - 低暴力模式，遊戲看不到噴血、屍體、斷手斷腳等畫面。遊戲會比較順暢
@@ -125,7 +125,7 @@
 
 * 如何驗證
     * 依照圖片指示即可驗證，Steam平台會自動偵測所有遊戲檔案，如果有與官方不同會復原
-    <br/>![未命名](https://user-images.githubusercontent.com/12229810/202832213-6b357823-bb9c-46a7-813e-acf12ef27edf.jpg)
+    <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/ef207e8d-219e-41ba-a831-0696ad34f41e)
 
 - - - -
 ## 啟動遊戲指導系統
@@ -140,7 +140,7 @@
         ] gameinstructor_enable 1
         ```
     * 法二: ESC->選項->多人連線->遊戲指導系統->已啟用
-    <br/>![未命名](https://user-images.githubusercontent.com/12229810/203991469-2b7dcba2-d70b-47ac-aed1-a18442c6d2de.jpg)
+    <br/>![image](https://user-images.githubusercontent.com/12229810/203991469-2b7dcba2-d70b-47ac-aed1-a18442c6d2de.jpg)
 
 * 何時需要開啟?
     * 遊玩三方圖，需要知道地圖上的機關如何啟動或路線怎麼走
@@ -172,7 +172,7 @@
 
 * 如何開啟?
     * ESC->選項->多人連線->自訂伺服器內容->全部允許
-    <br/>![未命名](https://user-images.githubusercontent.com/12229810/205226195-796cf18f-1382-4fc4-8999-b8c05eb01f76.jpg)
+    <br/>![image](https://user-images.githubusercontent.com/12229810/205226195-796cf18f-1382-4fc4-8999-b8c05eb01f76.jpg)
     * 開啟之後，在連線伺服器的過程中會自動下載自製檔案(如果有的話)
     <br/>![sm_downloader_1](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/sm_downloader/image/sm_downloader_1.jpg)
 

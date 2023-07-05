@@ -28,7 +28,7 @@
 
 * <details><summary>問題3: 無法連線進去伺服器，畫面出現<b>Server is enforcing consistency for this file</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
 
   * 原因: 模組衝突或三方圖太多，伺服器的檔案與你的檔案不一致
   * 解決方式:
@@ -41,7 +41,7 @@
 
 * <details><summary>問題4: 控制台已經輸入<b>sv_consistency 0</b>，畫面還是出現<b>Server is enforcing consistency for this file</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
 
   * 原因: 檔案衝突太多了，多到無法忽視，遊戲救不你了
   * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
@@ -49,7 +49,7 @@
 
 * <details><summary>問題5: 阻擋連線，畫面出現<b>steam please remove "-insecure" from the launch options...</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/202835547-39874460-7779-4dc8-9a72-6668bc0cdd09.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/202835547-39874460-7779-4dc8-9a72-6668bc0cdd09.jpg)
 
   * 原因: 啟動選項有輸入```-insecure```
   * 解決方式: 到[啟動選項](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/README.md#設定啟動選項)把```-insecure```刪除
@@ -57,7 +57,7 @@
 
 * <details><summary>問題6: 斷線，畫面出現<b>No Steam Logon</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/202835844-70dce289-6f1a-4454-818f-22be03382dc5.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/202835844-70dce289-6f1a-4454-818f-22be03382dc5.jpg)
 
   * 原因: 伺服器檢測到你沒有Steam帳密，把你踢出伺服器，原因很多種，就連[CSGO職業比賽途中](https://www.youtube.com/watch?v=YfIeQCEGglc)都會出現這問題，大部分都跟網路有關。
     1. Steam沒有登入或Steam被登出
@@ -69,7 +69,7 @@
 
 * <details><summary>問題7: 斷線，畫面出現<b>STEAM UserID STEAM_XXXXXXXXX is banned</b></summary>
 
-  ![未命名](https://user-images.githubusercontent.com/12229810/202836166-3744c17a-b99d-4d7a-9710-c7a15377634b.jpg)
+  ![image](https://user-images.githubusercontent.com/12229810/202836166-3744c17a-b99d-4d7a-9710-c7a15377634b.jpg)
 
   * 原因: 你被伺服器封鎖了列入黑名單
   * 解決方式: 認命吧，請去跟伺服器管理員溝通
@@ -124,7 +124,7 @@
   * 原因: 伺服器有自製的檔案，而你沒有，所以伺服器強迫你下載自製的檔案
   * 解決方式: 
       * 法一: 選項→多人連線→自訂伺服器內容→無
-      <br/>![未命名](https://user-images.githubusercontent.com/12229810/204160227-0edf6c14-ab6d-4139-95b5-730d43ca4fb3.jpg)
+      <br/>![image](https://user-images.githubusercontent.com/12229810/204160227-0edf6c14-ab6d-4139-95b5-730d43ca4fb3.jpg)
       * 法二: 等待他自己下載完畢
       * 法三: 去換伺服器遊玩吧
 </details>
@@ -149,9 +149,9 @@
 - - - -
 ## 為什麼sourcemod下載有分兩種
 [Sourcemod官網](https://www.sourcemod.net/downloads.php)上有Stable Builds和Dev Builds
-<br/>![未命名](https://user-images.githubusercontent.com/12229810/202843043-4c84313e-540b-4cae-862c-1a1ceedca34c.jpg)
+<br/>![image](https://user-images.githubusercontent.com/12229810/202843043-4c84313e-540b-4cae-862c-1a1ceedca34c.jpg)
 <br/>不只Sourcemod，連[Metamod](https://www.sourcemm.net/)也有這兩種，差別在哪？
-<br/>![未命名](https://user-images.githubusercontent.com/12229810/202843249-a04ee5fe-2247-429e-af31-096692f1d72a.jpg)
+<br/>![image](https://user-images.githubusercontent.com/12229810/202843249-a04ee5fe-2247-429e-af31-096692f1d72a.jpg)
 
 * Stable Builds 是穩定版本
   * 是經過Sourcemod團隊測試之後無任何重大的bug才提供下載
@@ -167,7 +167,7 @@
 - - - -
 ## 為什麼啟動伺服器後無法開啟遊戲
 我明明啟動的是Left 4 Dead 2 Dedicated Server，為什麼steam會顯示我是遊玩Left 4 Dead 2，而且還不能打開遊戲
-<br/>![未命名](https://user-images.githubusercontent.com/12229810/202857120-696d4a1b-ce57-45f2-8055-5d8e9ca6311c.jpg)
+<br/>![image](https://user-images.githubusercontent.com/12229810/202857120-696d4a1b-ce57-45f2-8055-5d8e9ca6311c.jpg)
 
 * 原因: steam 與 Left 4 Dead 的問題，從遊戲發售至今沒有解決過，再問就是Valve吃大便
 * 解決方式: 

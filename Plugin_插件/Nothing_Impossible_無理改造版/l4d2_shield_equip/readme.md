@@ -190,6 +190,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Witch死亡時一定機率掉落盾牌
         * 管理員輸入!shield，直接獲得盾牌
         * 有盾牌的隊友死亡
+        * 開啟sv_cheats 1，於遊戲控制台輸入```give shield```
     * 如何裝備盾牌
         * 拿起近戰武器或者手槍，左手會自動拿盾牌，第一人稱視角也能看到自己的盾牌
     * 如何丟棄盾牌
