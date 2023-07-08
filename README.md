@@ -466,8 +466,8 @@ My Unpublic Private Plugin (Charge)
     * 投票更換地圖，但是地圖是隨機挑選的
   * [sm_l4d_mapchanger](/Plugin_插件/Map_關卡/sm_l4d_mapchanger): Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out + Vote to next map (Apply to Versus/Survival/Scavenge).
     * 最後一關結束時自動換圖 + 滅團N次後自動切換到下一個關卡 + 玩家投票下一張地圖 (生存/對抗/清道夫模式也適用)
-  * [l4d_all_missions_list](/Plugin_插件/Map_關卡/l4d_all_missions_list): Reads all available custom campaigns and display all available missions in menu
-    * 自動讀取官方地圖與所有三方地圖，並將關卡顯示在列表上，供管理員換圖用
+  * [l4d_all_missions_list](/Plugin_插件/Map_關卡/l4d_all_missions_list): Reads all available custom campaigns and display all available missions in menu, provide for admin to change map directly or for player to call vote to change map
+    * 自動讀取官方地圖與所有三方地圖，並將關卡顯示在列表上，供管理員換圖用或者普通玩家投票換圖
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

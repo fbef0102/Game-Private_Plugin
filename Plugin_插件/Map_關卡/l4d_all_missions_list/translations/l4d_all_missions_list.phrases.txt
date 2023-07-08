@@ -64,11 +64,34 @@
 		"chi"			"未知"
 	}
 	
-	"Message"
+	"Does Not Exist"
 	{
 		"#format"		"{1:s}"
 		"en"			"[{olive}TS{default}] Map does not exist: {green}{1}"
 		"zho"			"[{olive}TS{default}] 此地圖不存在: {green}{1}"
 		"chi"			"[{olive}TS{default}] 此地图不存在: {green}{1}"
+	}
+	
+	"Change map"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Change map to {green}{1}{default}..."
+		"zho"			"[{olive}TS{default}] 正在切換地圖至 {green}{1}..."
+		"chi"			"[{olive}TS{default}] 正在切换地图至 {green}{1}..."
+	}	
+	
+	"Vote"
+	{
+		"#format"		"{1:N},{2:d},{3:s},{4:s}"
+		"en"			"[{olive}TS{default}] {lightgreen}{1}{default} initiates a vote to change: Map {green}{2}{default} of {green}{3}{default} [{olive}{4}{default}]"
+		"zho"			"[{olive}TS{default}] {lightgreen}{1}{default} 發起投票切換地圖至: {green}{3}{default} 第{green}{2}{default}關 [{olive}{4}{default}]"
+		"chi"			"[{olive}TS{default}] {lightgreen}{1}{default} 发起投票切换地图至: {green}{3}{default} 第{green}{2}{default}关 [{olive}{4}{default}]"
+	}	
+	
+	"Map is changing"
+	{
+		"en"			"[{olive}TS{default}] Map is changing..."
+		"zho"			"[{olive}TS{default}] 地圖正在切換..."
+		"chi"			"[{olive}TS{default}] 地图正在切换..."
 	}
 }

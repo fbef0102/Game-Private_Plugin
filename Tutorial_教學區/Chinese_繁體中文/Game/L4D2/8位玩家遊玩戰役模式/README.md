@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2023/6/16 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -49,6 +49,9 @@
     sm_cvar sv_consistency 0 // the server enforces file consistency (1: Enable, 0: Disable) 
     ```
    - 可參考我的[Server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
+
+* [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
+    - 🟥只適用於專屬伺服器🟥
 
 * [l4dmultislots (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): 生成bot給第五位玩家取代並加入倖存者陣營
    - 如何回合開始就有8個Bot?
@@ -122,9 +125,6 @@
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 
 * [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
-
-* [Remove Lobby Reservation (Silvers版本)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP加入伺服器
-    - 🟥只適用於專屬伺服器🟥
     
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
     - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話

@@ -1,5 +1,5 @@
 # Navigation
-> 2023/6/16 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/8 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -45,6 +45,9 @@
     sm_cvar sv_consistency 0 // the server enforces file consistency (1: Enable, 0: Disable) 
     ```
    - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
+
+* [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
+    - 🟥Doesn't work in listen server🟥
 
 * [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in server when 5+ player joins the server
    - How could I control the number of bots spawned at the start
@@ -111,9 +114,6 @@
 * [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2773718&postcount=16): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
 
 * [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
-
-* [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
-    - 🟥Doesn't work in listen server🟥
     
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
