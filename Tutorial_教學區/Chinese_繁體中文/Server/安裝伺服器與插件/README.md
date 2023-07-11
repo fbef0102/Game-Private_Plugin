@@ -1,27 +1,27 @@
 # 問題總攬
-> 2023/1/5 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#問題總攬)
-    - [前言介紹](#前言介紹)
-    - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
-    - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
-    - [如何安裝Sourcemod](#如何安裝sourcemod)
-    - [如何執行專屬伺服器](#如何執行專屬伺服器)
-    - [如何檢查版本](#如何檢查版本)
-    - [如何進去我的伺服器](#如何進去我的伺服器)
-    - [如何從大廳匹配到專屬伺服器](#如何從大廳匹配到專屬伺服器)
-    - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
-    - [如何編譯源碼](#如何編譯源碼)
-    - [如何安裝插件](#如何安裝插件)
-    - [如何檢查插件成功運作](#如何檢查插件成功運作)
-    - [如何移除插件](#如何移除插件)
-    - [如何更新插件](#如何更新插件)
-    - [如何手動管理插件](#如何手動管理插件)
-    - [如何檢查指令值](#如何檢查指令值)
-    - [如何修改指令](#如何修改指令)
-    - [如何使用插件的命令](#如何使用插件的命令)
-    - [如何更新專屬伺服器](#如何更新專屬伺服器)
-    - [專業術語介紹](#專業術語介紹)
-    - [其他](#其他)
+> 2023/7/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+- [問題總攬](#問題總攬)
+  - [前言介紹](#前言介紹)
+  - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
+  - [如何安裝專屬伺服器](#如何安裝專屬伺服器)
+  - [如何安裝Sourcemod](#如何安裝sourcemod)
+  - [如何執行專屬伺服器](#如何執行專屬伺服器)
+  - [如何檢查版本](#如何檢查版本)
+  - [如何進去我的伺服器](#如何進去我的伺服器)
+  - [如何從大廳匹配到專屬伺服器](#如何從大廳匹配到專屬伺服器)
+  - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
+  - [如何編譯源碼](#如何編譯源碼)
+  - [如何安裝插件](#如何安裝插件)
+  - [如何檢查插件成功運作](#如何檢查插件成功運作)
+  - [如何移除插件](#如何移除插件)
+  - [如何更新插件](#如何更新插件)
+  - [如何手動管理插件](#如何手動管理插件)
+  - [如何檢查指令值](#如何檢查指令值)
+  - [如何修改指令](#如何修改指令)
+  - [如何使用插件的命令](#如何使用插件的命令)
+  - [如何更新專屬伺服器](#如何更新專屬伺服器)
+  - [專業術語介紹](#專業術語介紹)
+  - [其他](#其他)
 > __Note__ 本處教學一律是Sourcemod，與AMX Mod X無任何關係
 
 - - - -
@@ -102,6 +102,29 @@
 
    4. 到所安裝的路徑查看伺服器檔案
       <br/>![image](https://user-images.githubusercontent.com/12229810/202990809-157f0743-bc4c-41a3-bbb2-a481ef3b7f96.png)
+
+   5. **Linux要安裝環境庫才能繼續下一個步驟，視環境系統輸入對應的指令**，[參考來源](https://linuxgsm.com/servers/l4d2server/)
+      * Ubuntu =< 20.04
+         ```
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
+         ```
+      * Ubuntu => 20.10
+         ```
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
+         ```
+      * Debian =< 10
+         ```
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6
+         ```
+      * Debian => 11
+         ```
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6
+         ```
+      * CentOS
+        ```
+        yum install epel-release
+        yum install curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686
+        ```
 
 - - - -
 ## 如何安裝Sourcemod

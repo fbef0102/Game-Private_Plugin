@@ -166,7 +166,7 @@ My Unpublic Private Plugin (Charge)
     * Charger可以徒手抓住人類趴趴走
   * [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
     * 增強Charger，賦予多種超能力成為無人能檔的雷神
-  * [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
+  * [l4d2_charger_charge_incap](/Plugin_插件/Charger_Charger/l4d2_charger_charge_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
     * Charger可以衝撞帶走倒地的倖存者並撞倒他們
 </details>
 
@@ -250,6 +250,8 @@ My Unpublic Private Plugin (Charge)
     * 隨著玩家人數越多，地圖上的資源可以重複拿很多次
   * [l4d_reward_hp](/Plugin_插件/Survivor_人類/l4d_reward_hp): Players get hp reward for killing S.I., Tank, Witch or helping each other
     * 倖存者殺死特感或幫助隊友會獲得血量獎賞
+  * [l4d2_survivor_shove_power](/Plugin_插件/Survivor_人類/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
+    * 倖存者的拳頭可以推開Tank,、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -452,8 +454,6 @@ My Unpublic Private Plugin (Charge)
     * 管理員輸入指令能透視看到特感
   * [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
     * 管理員輸入指令能透視看到武器與物資
-  * [l4d2_survivor_shove_power](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
-    * 倖存者的拳頭可以推開Tank,、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
   * [l4d2_shield_equip](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
     * 新武器: 防暴盾牌
 </details>

@@ -43,11 +43,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_zcs.cfg
 		```php
+		// Enable/Disable Zombie Character Select plugin.
+		zcs_enable "1"
+
 		// Players with these flags have access to change class. (Empty = Everyone, -1: Nobody)
 		zcs_access_level ""
 
 		// If 1, Allow player to select class even when ghost infected player is too far from survivors (is going to despawn).
-		zcs_allow_cull_switch "0"
+		zcs_allow_cull_switch "1"
 
 		// If 1, Allow player to select class after returning to ghost from spawn.
 		zcs_allow_despawn_switch "0"
@@ -57,9 +60,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Allow player to select previous infected class.
 		zcs_allow_last_class "0"
-
-		// Allow player to select class only during Tank (0=Anytime)
-		zcs_allow_spawn_tank_only "0"
 
 		// Allow Boomer Ghost player to select class. (0=Not Allow)
 		zcs_boomer_ghost_allow "1"
@@ -99,12 +99,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
 		zcs_determine_class_when_ghost "0"
-
-		// Enable/Disable Zombie Character Select plugin.
-		zcs_enable "1"
-
-		// (L4D2 only) Enable/Disable Valve Infected Bots.
-		zcs_enable_value_bots "1"
 
 		// Allow Hunter Ghost player to select class. (0=Not Allow)
 		zcs_hunter_ghost_allow "1"
@@ -159,10 +153,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 特感玩家可以在靈魂狀態自行切換特感種類
 
+* 原理
+	* 靈魂狀態時，使用滑鼠右鍵切換特趕類型
+	* 重新回到靈魂狀態不得再次切換
+
 * 功能
-	1. 預設是滑鼠右鍵切換
-	2. 重新回到靈魂狀態不得再次切換
-	3. 可限制每個特感種類的數量
-	4. 可限制每個特感種類的冷卻時間，譬如當真人Charger玩家死亡時，20秒內不能選擇Charger
-	5. 可限制只能在Tank期間切換
-	6. 可限制特定的靈魂特感種類不能切換，譬如靈魂Charger玩家不能切換種類
+	1. 可限制每個特感種類的數量
+	2. 可限制每個特感種類的冷卻時間，譬如當真人Charger玩家死亡時，20秒內不能選擇Charger
