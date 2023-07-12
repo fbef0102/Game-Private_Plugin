@@ -1,10 +1,10 @@
 # 問題總攬
 > 2023/1/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#問題總攬)
-    - [為什麼進不去伺服器](#為什麼進不去伺服器)
-    - [為什麼Sourcemod下載有分兩種](#為什麼sourcemod下載有分兩種)
-    - [為什麼啟動伺服器後無法開啟遊戲](#為什麼啟動伺服器後無法開啟遊戲)
-    - [Sourcemod支援區域伺服器嗎](#sourcemod支援區域伺服器嗎)
+- [問題總攬](#問題總攬)
+  - [為什麼進不去伺服器](#為什麼進不去伺服器)
+  - [為什麼sourcemod下載有分兩種](#為什麼sourcemod下載有分兩種)
+  - [為什麼啟動伺服器後無法開啟遊戲](#為什麼啟動伺服器後無法開啟遊戲)
+  - [Sourcemod支援區域伺服器嗎](#sourcemod支援區域伺服器嗎)
 
 - - - -
 ## 為什麼進不去伺服器
@@ -23,7 +23,8 @@
   ![image](https://user-images.githubusercontent.com/12229810/202834826-a7aff8f7-85c8-450e-b78a-e8d4d4099eb5.png)
 
   * 原因: 找不到伺服器
-  * 解決方式: 確認伺服器存在並且透過公網IP，不要虛擬IP，[如何進去我的伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何進去我的伺服器)
+  * 解決方式: 確認伺服器存在並且透過公網IP，不要虛擬IP，且必須保證外網能連線進這個公網IP
+  * [如何進去我的伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何進去我的伺服器)
 </details>
 
 * <details><summary>問題3: 無法連線進去伺服器，畫面出現<b>Server is enforcing consistency for this file</b></summary>

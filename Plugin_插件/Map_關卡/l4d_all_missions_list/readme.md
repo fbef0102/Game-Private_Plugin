@@ -39,6 +39,8 @@ Reads all available custom campaigns and display all available missions in menu,
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	4. [[INC] localizer](https://github.com/dragokas/SM-Localizer/blob/master/localizer.inc)
 
 * Related Plugin | 相關插件
 	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out

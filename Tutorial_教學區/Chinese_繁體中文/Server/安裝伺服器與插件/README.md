@@ -140,8 +140,8 @@
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
  
 3. 將所有檔案解壓縮到伺服器路徑上，最後會看起來如圖片所示
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187822314-2080b3ea-2fbb-4b87-bffb-4b76bfe7181a.png)
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187822434-27c04668-bdc1-40b0-9e43-bec71629e929.png)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/a11b6bcf-9091-454b-9012-dd788d6c9d08)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/7c905fc5-1e83-410d-96d1-89b12fb063df)
 
 4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案
    <br/>![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
@@ -312,7 +312,7 @@
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器(無線基地台、Router)需要調整
-      * 申請固定IP，並更改路由器的路由表(Routing Table/Forwarding Table)，每個品牌操作方式不太一樣，請自行google
+      * 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)，每個品牌操作方式不太一樣，請自行google
       * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
    

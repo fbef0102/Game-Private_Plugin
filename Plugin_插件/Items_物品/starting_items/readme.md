@@ -36,6 +36,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.1h (2023-7-12)
+		* Fixed plugin is not working in coop/realism mode
+	
 	* v1.0h (2023-5-31)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
