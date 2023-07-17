@@ -8,7 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	* Layout 1 (Survivor)
 		> 版面一 (人類方)
 		<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
@@ -24,6 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Coordinate diagram
 		> HUD座標圖
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
+</details>
 
 * Apply to | 適用於
 	```
@@ -539,6 +541,3 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUD?_Text 文字 (? 是 1~5)
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
 	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
-	
-> __Warning__<br/>
-安裝上這個插件之後，畫面會比較卡，多個Tank存活期間尤為明顯，自行斟酌安裝

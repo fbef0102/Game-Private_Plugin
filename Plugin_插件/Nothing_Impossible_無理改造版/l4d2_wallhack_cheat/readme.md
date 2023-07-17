@@ -19,6 +19,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2023-7-17)
+    	* Fixed glow still appear after team change
+
 	* v1.1 (2023-5-17)
 		* Optimize code and improve performance
 
@@ -46,7 +49,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Ghost SI glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
 		l4d2_wallhack_cheat_ghost_color "255 255 255"
 
-		// Players with these flags have access to use command to toggle Speatator watching cheat. (Empty = Everyone, -1: Nobody)
+		// Players with these flags have access to use command to toggle wall hack watching cheat. (Empty = Everyone, -1: Nobody)
 		l4d2_wallhack_cheat_use_command_flag "z"
 
 		// Witch glow color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
