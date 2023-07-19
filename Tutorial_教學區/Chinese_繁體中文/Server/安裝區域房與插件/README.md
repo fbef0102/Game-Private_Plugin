@@ -1,5 +1,5 @@
 # 問題總攬
-> 2022/11/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [甚麼是區域房](#甚麼是區域房)
   - [與專屬伺服器有何差別](#與專屬伺服器有何差別)
@@ -109,13 +109,18 @@
 	* 法一：單人遊戲
 	* 法二：指令開房，打開遊戲控制台輸入```map xxxx```
 		* ```xxxx``` 為地圖名
+		* [如何開啟遊戲控制台](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/README.md#如何開啟遊戲控制台)
 	* 法三：創建大廳 => 伺服器類型選擇 "區域伺服器" => 開始遊戲
 	<br/>![image](https://user-images.githubusercontent.com/12229810/202614882-84d06875-02a9-4663-a1b5-fdbbdc74857e.jpg)
 
+4. 檢查Sourcemod是否有正常運作
+	* 按下~鍵打開控制台，輸入```sm verison```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9bbcfbf0-f647-4347-bdfd-af07856310ab)
+   
 > __Warning__
 > * 要關掉Sourcemod與插件直接在啟動選項刪除-insecure
 > * 啟動選項輸入-insecure會導致你無法進入有VAC保護的伺服器
-> 
+
 - - - -
 ## 如何檢查版本
 * [查看這篇](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何檢查版本)

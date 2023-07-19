@@ -1,5 +1,5 @@
 # 問題總攬
-> 2023/7/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -145,7 +145,6 @@
 
 4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案
    <br/>![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
-
 - - - -
 ## 如何執行專屬伺服器
 * Windows
@@ -153,11 +152,18 @@
    <br/>![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
 
    2. 各項目依照自己的喜好設定
-      - 伺服器名稱無法填寫中文
-      - 網路選擇網際網路 (廢話)
-      - 玩家上限是假的，即使設定32人，伺服器人數受到遊戲限制
+      - 伺服器名稱: 無法填寫中文
+      - 網路: 選擇網際網路 (廢話)
+      - 玩家上限: 假的，即使設定32人，伺服器人數受到遊戲限制
          - L4D 戰役模式最多4人、對抗模式最多8人
-      - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+      - 🟥UDP Port: 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+      - 管理密碼: 隨便，不要寫中文
+      - 保護 (Valve防作弊系統): 勾選可開啟VAC反作弊檢測 (廢話)
+   3. 檢查Sourcemod是否有正常運作
+      - 到伺服器的後台
+      <br/>![image](https://i.imgur.com/c0jp5XQ.png)
+      - 輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9ecceb3a-da57-4f9c-9451-664271201998)
 
 * Linux
    1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
@@ -174,13 +180,16 @@
       - 可自行添加其他參數，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
          - ```+sv_password 12345``` 伺服器密碼為12345
-
+   2. 檢查Sourcemod是否有正常運作
+      - 輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1ab526d2-c634-4f56-a6f5-78ed25f85645)
+      
 - - - -
 ## 如何檢查版本
 * <details><summary>查找伺服器的後台 (點我展開)</summary>
 
    * 開啟伺服器之後尋找"命令列"
-   <br/><img src="https://i.imgur.com/c0jp5XQ.png" alt="c0jp5XQ.png" width="600" height = "400">
+   <br/>![image](https://i.imgur.com/c0jp5XQ.png)
    
    > __Note__ 若是用其他的開服軟體，請自行摸索找到後台 
 </details>
@@ -345,10 +354,10 @@
 - - - -
 ## 如何成為伺服器的管理員
 1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"
-   <img src="https://i.imgur.com/EbO0fC1.png" alt="EbO0fC1.png" width="1100" height = "400">
+   ![image](https://i.imgur.com/EbO0fC1.png)
 
 2. 點擊[Steam ID Finder](https://steamid.xyz/)，將複製的網址貼上去提交，會得到自己的steam ID
-   <img src="https://i.imgur.com/xHfmmq6.png" alt="xHfmmq6.png" width="600" height = "200">
+   ![image](https://i.imgur.com/xHfmmq6.png)
 
 3. 到伺服器位置addons\sourcemod\configs\ 資料夾找到一個檔案為admins_simple.ini，用筆記本打開文件，在最底下方新增一行內容
    - STEAM_X:X:XXXXXX 為你的steam ID
@@ -357,7 +366,7 @@
    ```
    
 4. 儲存，重啟伺服器，進入遊戲之後聊天視窗輸入!admin，如果左邊有介面跑出來代表已經成功為伺服器的管理員
-   <img src="https://i.imgur.com/XDBkYkY.png" alt="XDBkYkY.png" width="300" height = "200">
+   ![image](https://i.imgur.com/XDBkYkY.png)
 
 - - - -
 ## 如何編譯源碼

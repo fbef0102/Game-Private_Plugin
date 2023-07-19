@@ -251,7 +251,7 @@ My Unpublic Private Plugin (Charge)
   * [l4d_reward_hp](/Plugin_插件/Survivor_人類/l4d_reward_hp): Players get hp reward for killing S.I., Tank, Witch or helping each other
     * 倖存者殺死特感或幫助隊友會獲得血量獎賞
   * [l4d2_survivor_shove_power](/Plugin_插件/Survivor_人類/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
-    * 倖存者的拳頭可以推開Tank,、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
+    * 倖存者的拳頭可以推開Tank、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>

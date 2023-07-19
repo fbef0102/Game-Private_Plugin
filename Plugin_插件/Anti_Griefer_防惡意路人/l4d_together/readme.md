@@ -118,7 +118,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     // How many infected spawn every time to punish the loner
     l4d_together_loner_punish_infected_number "2"
 
-     // If someone is away from survivor team, he is the loner
+    // If someone is away from survivor team, he is the loner
     l4d_together_loner_range "2000.0"
     ```
 </details>
@@ -128,15 +128,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 離隊伍太遠的玩家，特感代替月亮懲罰你
 
 * 原理
-    * 總有人不顧隊伍死活直接往前衝，或當拖油瓶遲遲不前進，這插件會在脫隊的玩家附近持續生成特感懲罰
+    * 當玩家距離隊伍太遠，他就是脫隊的倖存者
+    * 這插件會在脫隊的玩家附近持續生成特感 (生成距離很近)
+
+* 用意在哪
+    * 總有人不顧隊伍死活直接往前衝，或當拖油瓶遲遲不前進
 
 * 功能
-    * 人類隊伍剩餘兩個人也能觸發
-    * 可調整遠離的判定範圍
-    * 可控制生成哪些特感種類
-    * 可控制一次生成特感的數量
-    * 特感生成不會受到遊戲限制與導演系統影響
-    * 插件生成的特感如果沒有控到人隨即消失
+    * 查看下方 "指令中文介紹"
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

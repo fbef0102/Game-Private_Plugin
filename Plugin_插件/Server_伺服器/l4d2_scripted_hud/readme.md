@@ -34,20 +34,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.0h (2023-07-19)
+		* Optimize code and improve performance
+
 	* v1.1.0 (2023-02-13)
-		* Request by fe
 		* Display Survivors, Infected, and Spectator MIC Speaking text separately
 		* Add HUD 5 for Infected Mic Speaking
 		* Add Center text for Spectator Mic Speaking
 
 	* v1.0.5 (2022-11-27)
-		* Request by Shadow
 		* HUD3_TEXT + C.I.+S.I.+Tank+Witch kills rank
 		* HUD4_TEXT + Survivor health
 		* Add cvars to switch HUDX_TEXT text
 
 	* v1.0.4 (2022-11-24)
-		* Request by Yabi
 		* Kill Infected Counter Rank (HUD3_Text)
 		* Time and Survivor/Infected count (HUD1_Text)
 
@@ -159,7 +159,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud1_x "0.02"
+		l4d2_scripted_hud_hud1_x "0.0"
 
 		// Animated X (horizontal) direction that the text will move.
 		// 0 = Right to Left, 1 = Left to Right.
@@ -318,7 +318,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud3_text_align "1"
 
-		// Makes the text visible.
+		// Makes the text visible. (l4d2_scripted_hud_hud2_visible must be 1 first¯\\_(ツ)_/¯)
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud3_visible "1"
 
@@ -392,7 +392,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_scripted_hud_hud4_height "0.026"
 
 		// Which team should see the text.
-		// 0 = ALL, 1 = SURVIVOR, 2 = INFECTED.
+		// 0 = ALL, 1 = SURVIVOR, 2 = INFECTED. (Does not work if GetHUD4_Text is Survivor Mic Speaking)
 		l4d2_scripted_hud_hud4_team "0"
 
 		// The text you want to display in the HUD.

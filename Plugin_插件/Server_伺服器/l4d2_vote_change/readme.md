@@ -42,11 +42,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Initial Release
 </details>
 
-* Require | 必要安裝
+* Require
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
+	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -116,6 +117,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 使用官方的內建投票圖形UI
 	<br/>![l4d2_vote_change_6_zho](image/zho/l4d2_vote_change_6_zho.jpg)
 </details>
+
+* 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
+	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz)
+
 
 * 原理
 	* 輸入!newvotes -> 選擇項目 -> 發起投票 -> F1同意 或 F2不同意
