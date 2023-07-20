@@ -238,8 +238,8 @@ My Unpublic Private Plugin (Charge)
     * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
   * [l4d_headshot_reward_sound](/Plugin_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
     * 特感或普通感染者爆頭的時候有獎勵提示與音效
-  * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them.
-    * 根據玩家生命值狀態給予輪廓光圈適當的顏色
+  * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them + survivors always glow with a non-disappearing aura for infected (Even if survivor doesn't move or walk)
+    * 根據玩家生命值狀態給予輪廓光圈適當的顏色 + 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
   * [l4d_friendly_fire_stats](/Plugin_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.
     * 顯示造成與受到的友傷以及兇手，有友傷統計
   * [l4d_dead_save_nodify](/Plugin_插件/Survivor_人類/l4d_dead_save_nodify): Notify people when survivor is dead or someone uses defibrillator to revive

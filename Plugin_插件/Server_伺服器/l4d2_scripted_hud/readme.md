@@ -318,7 +318,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud3_text_align "1"
 
-		// Makes the text visible. (l4d2_scripted_hud_hud2_visible must be 1 first¯\\_(ツ)_/¯)
+		// Makes the text visible.
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud3_visible "1"
 
