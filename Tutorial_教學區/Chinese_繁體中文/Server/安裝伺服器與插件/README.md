@@ -1,5 +1,5 @@
 # 問題總攬
-> 2023/7/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/22 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -149,12 +149,12 @@
 ## 如何執行專屬伺服器
 * Windows
    1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187820705-ac77fc1b-6817-44d5-929f-c5b4b46c526b.png)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/24b50c81-2c72-4c3c-a89c-3d8850339eb3)
 
    2. 各項目依照自己的喜好設定
       - 伺服器名稱: 無法填寫中文
       - 網路: 選擇網際網路 (廢話)
-      - 玩家上限: 假的，即使設定32人，伺服器人數受到遊戲限制
+      - 玩家上限: 請選32，即使設定32人，伺服器人數受到遊戲模式的限制
          - L4D 戰役模式最多4人、對抗模式最多8人
       - 🟥UDP Port: 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - 管理密碼: 隨便，不要寫中文
@@ -166,7 +166,7 @@
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9ecceb3a-da57-4f9c-9451-664271201998)
 
 * Linux
-   1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0```
+   1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0 -maxplayers 32```
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
@@ -177,6 +177,7 @@
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
       - ```+sv_lan 0``` 改成網際網路
+      - ```-maxplayers 32``` 最多玩家上限
       - 可自行添加其他參數，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
          - ```+sv_password 12345``` 伺服器密碼為12345

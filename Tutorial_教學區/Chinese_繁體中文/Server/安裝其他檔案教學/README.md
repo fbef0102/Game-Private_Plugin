@@ -1,7 +1,7 @@
 # 安裝總攬
-> 2022/12/12 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
-- [總攬](#安裝總攬)
-	- [安裝Stripper](#安裝Stripper)
+> 2023/7/22 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+- [安裝總攬](#安裝總攬)
+	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
 	- [安裝TickrateEnabler](#安裝tickrateenabler)
 	- [安裝國家與城市的資料庫](#安裝國家與城市的資料庫)
@@ -45,7 +45,7 @@
 
 * 安裝步驟
 	1. 到[accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz)點擊Releases
-	<br/>![_(%L7(%@Z%DZ(974L7%XE00](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
 
 	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
 	<br/>![4`U5GY0 SAN5_O19FKOSUKV](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
@@ -55,17 +55,23 @@
 
 	4. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
-		```php
-		// 伺服器人數上限改成18，可以自行修改數值
-		sv_maxplayers 18
-		sv_visiblemaxplayers 18
+			```php
+			// 強制將伺服器真人玩家人數上限改成18，可以自行修改數值
+			sv_maxplayers 18
+			sv_visiblemaxplayers 18
 
-		//以下指令不准改
-		sv_allow_lobby_connect_only 0
-		sv_force_unreserved 1
-		```
+			//以下指令不准改
+			sv_allow_lobby_connect_only 0
+			sv_force_unreserved 1
+			```
 
-	5. 重啟伺服器，控制台輸入```meta list```確認安裝成功
+	5. 伺服器啟動時，務必將玩家上限改成32
+        * 玩家上限 = 真人玩家 + AI Bot + AI 特感
+		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
+    	* 使用其他軟體開服工具或者是linux系統，請輸入輸入啟動參數```-maxplayers 32```
+		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
+  
+	6. 啟動伺服器，控制台輸入```meta list```確認安裝成功
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -82,28 +88,28 @@
 
 * 安裝步驟
 	1. 到[accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler)點擊Releases
-	<br/>![_Q95S({QEHUBC0TJ4BCSVDB](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
 
 	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
-	<br/>![YT%1 VRS SYC_WX}E3YIOE6](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
 
 	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
-	<br/>![(@CS(}HMX}BFZ7QYJZ`%(1J](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
 
 	4. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
-		```php
-		// 這是100 Tick的設定，可以自由修改數值
-		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-		sm_cvar rate					"100000" 	// tickrate * 1000
-		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-		sm_cvar fps_max					"0"
-		```
+			```php
+			// 這是100 Tick的設定，可以自由修改數值
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
+			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
+			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
+			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
 	
 	5. 伺服器啟動選項輸入參數
 		* ```-tickrate 100```
@@ -135,13 +141,13 @@
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
 
-  ![GU3EKL9CM6H@QH3F_K%4DX9](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+  ![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
 
   * 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
-  <br/>![N5$W`)6APLJVT$~OOQ)N$SN](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+  <br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
   * 解決方式: 
 	* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
-  	<br/>![35U M~E{`{Q$ N}BAOB2P](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
+  	<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
 	* 法二：法一沒有用那就去升級你的顯卡
 </details>
 

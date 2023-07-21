@@ -1,9 +1,9 @@
 # Navigation
-> 2022/12/10 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/7/22 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
-	- [TickrateEnabler](#tickrateEnabler)
+	- [TickrateEnabler](#tickrateenabler)
 	- [Country and City Database](#country-and-city-database)
 	- [Others](#others)
 
@@ -45,10 +45,10 @@
 
 * Installation
 	1. Go to [accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz) and click Releases
-	<br/>![_(%L7(%@Z%DZ(974L7%XE00](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
 
 	2. Download files depending on your game，L4D1 or L4D2
-	<br/>![4`U5GY0 SAN5_O19FKOSUKV](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
 
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
@@ -56,7 +56,7 @@
 	4. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
 		```php
-		// Server slot is 18, free to modify value
+		// Server real player slot is 18, free to modify value
 		sv_maxplayers 18
 		sv_visiblemaxplayers 18
 
@@ -64,8 +64,13 @@
 		sv_allow_lobby_connect_only 0
 		sv_force_unreserved 1
 		```
-
-	5. Restart Server，type ```stripper_version``` in serve console
+	5. Change Max players
+        * Max. players = real player + AI Survivor Bot + AI Infected Bot
+		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6c945597-4a3b-4a5c-b3d2-f457fc4895b4)
+    	* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 32```
+		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
+  
+	6. Restart Server，type ```stripper_version``` in serve console
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -82,13 +87,13 @@
 
 * Installation
 	1. Go to [accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler) and click Releases
-	<br/>![_Q95S({QEHUBC0TJ4BCSVDB](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
 
 	2. Download files depending on your game，L4D1 or L4D2
-	<br/>![YT%1 VRS SYC_WX}E3YIOE6](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
 
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
-	<br/>![(@CS(}HMX}BFZ7QYJZ`%(1J](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
 
 	4. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
