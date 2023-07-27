@@ -34,13 +34,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Grenades just fly through your own teammates.
 
     * v1.0h (2023-3-6)
-        * Request by Tanja
 	    * Remake code
         * Fix warnings when compiling on SourceMod 1.11.
         * Prevents grendates from stuck in teamamtes
 
     * v2.0 
-        * [Original Plugin by tigerox](https://forums.alliedmods.net/showthread.php?p=1400370?p=1400370)
+        * [Original Plugin by tigerox](https://forums.alliedmods.net/showthread.php?t=148599)
 </details>
 
 * Require | 必要安裝

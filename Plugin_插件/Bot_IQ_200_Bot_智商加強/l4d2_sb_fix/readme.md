@@ -19,7 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.3
-		* Request by 壹梦
 		* Fix error "Exception reported: Entity -1 (-1) is invalid"
 		* Convert code to latest syntax
 		* Add convars.

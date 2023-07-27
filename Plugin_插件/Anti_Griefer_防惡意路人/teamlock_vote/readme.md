@@ -27,7 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Support L4D1
 
 	* v1.0 (2022-11-27)
-		* Request by GGM
 		* Initial Release
 </details>
 

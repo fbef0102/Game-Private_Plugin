@@ -52,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Time and Survivor/Infected count (HUD1_Text)
 
 	* v1.0.2
-		* [By Marttt](https://forums.alliedmods.net/showthread.php?p=2740016)
+		* [By Marttt](https://forums.alliedmods.net/showthread.php?t=331212)
 </details>
 
 * Require | 必要安裝

@@ -18,7 +18,7 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0
-	    * Original Request by Target
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

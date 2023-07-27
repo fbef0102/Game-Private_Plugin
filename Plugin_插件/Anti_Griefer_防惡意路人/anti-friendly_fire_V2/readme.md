@@ -30,11 +30,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fixed Melee damage
 
 	* v1.5
-		* Request by Yabi
 		* Translation Support
 
 	* v1.4
-		* Original Request by Yabi
+		* Initial Release
 </details>
 
 * Require | 必要安裝
@@ -95,15 +94,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 插件自帶傷害提示
 	* 切勿與其他會修改友傷的插件並用
+	* 過一段時間總計算友傷，然後反彈給攻擊者
 
 * 功能
-	* 過一段時間總計算友傷，然後反彈給攻擊者
-	* 可設置倒地者不受到友傷
-	* 可設置近戰武器不造成友傷
-	* 可設置隊友太近不會造成友傷
-	* 可設置火焰不造成友傷
-	* 可設置土製炸彈、瓦斯罐、氧氣罐不造成友傷
-	* 被Charger抓住的玩家不會受到友傷
+	* 查看下方 "指令中文介紹"
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

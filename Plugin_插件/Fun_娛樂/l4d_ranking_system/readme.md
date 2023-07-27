@@ -34,7 +34,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Optimize Code
 
 	* v1.3 (2023-1-16)
-		* Request by Alfari
 		* Add 
 			1. number of SI kills
 			2. number of Witch kills
@@ -46,14 +45,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 
 	* v1.2 (2022-12-23)
-		* Request by Anzu
 		* Show rank hud when new player joins and new round starts
 
 	* v1.1
 		* Supporty MySQL and Local-SQLite
 
 	* v1.0
-		* Request by Alfari
 		* Initial Release
 </details>
 

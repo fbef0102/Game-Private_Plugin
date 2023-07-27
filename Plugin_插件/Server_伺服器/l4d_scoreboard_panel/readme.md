@@ -28,7 +28,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Draw more details on panel
 
 	* v1.0 (2023-1-5)
-	    * Original Request by maclarens
 		* Initial Release
 </details>
 

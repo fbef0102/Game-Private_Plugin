@@ -31,7 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Set the horde limit according to 'survivor limit'
 	
 	* v1.0h
-	    * Request by Anzu
 		* Individual plugin
 		* Auto generate cfg
 

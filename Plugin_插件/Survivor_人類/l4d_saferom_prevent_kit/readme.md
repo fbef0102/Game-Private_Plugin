@@ -51,7 +51,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Fixed teleporting players in the final when using kits. Thanks to "Shadow" for reporting.
 
 	* v1.0
-	    * Original Request by 壹梦
 		* Initial Release
 </details>
 

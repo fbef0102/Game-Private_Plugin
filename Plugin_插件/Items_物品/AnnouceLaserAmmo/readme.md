@@ -24,7 +24,6 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2022-11-29)
-        * Request by Yabi
         * Initial Release
 </details>
 

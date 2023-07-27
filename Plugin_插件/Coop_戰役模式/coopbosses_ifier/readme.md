@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fix plugin does not work if there is no any start safe area in some custom maps
 
 	* v1.3
-	    * Original Request by Anzu
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

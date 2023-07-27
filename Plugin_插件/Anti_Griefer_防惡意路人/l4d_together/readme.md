@@ -33,7 +33,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * More cvars
 
 	* v1.0.2
-		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?p=2740016)
+		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?t=167389)
 </details>
 
 * Require | 必要安裝

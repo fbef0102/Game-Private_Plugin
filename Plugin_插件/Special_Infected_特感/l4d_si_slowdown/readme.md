@@ -19,7 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v3.1 (2023-2-13)
-		* Request by 小颯
 		* Add a cvar
 			```c
 			// Fire causes this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)

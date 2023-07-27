@@ -31,7 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 
 	* v1.0h (2023-2-25)
-		* Request by 小颯
 		* Remake Code
 		* Individual plugin
 		* Auto generate cfg

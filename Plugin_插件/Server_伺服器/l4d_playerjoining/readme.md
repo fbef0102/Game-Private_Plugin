@@ -31,7 +31,6 @@ English
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2022-12-1)
-		* Request by Yabi
 		* Initial Release
 </details>
 

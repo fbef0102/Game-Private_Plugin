@@ -31,7 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
 
 	* v1.0h (2022-11-23)
-		* Request by Yabi
 		* Initial Release
 </details>
 

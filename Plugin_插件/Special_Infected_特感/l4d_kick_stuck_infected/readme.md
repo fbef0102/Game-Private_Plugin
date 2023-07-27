@@ -21,7 +21,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1
-		* Original Request by GGM
 		* Kick infected if considered stucked when they are not moving.
 		* Add cvars
 			```c
@@ -33,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 
 	* v1.0
-		* Original Request by Dam Dam
+		* Initial Release
 </details>
 
 * Require | 必要安裝

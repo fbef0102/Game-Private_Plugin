@@ -37,7 +37,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Remake Human Shield ability and make new damage calculation formula
 
 	* v1.0h (2023-1-31)
-		* Request by Shadow
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance

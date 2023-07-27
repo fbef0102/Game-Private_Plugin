@@ -19,7 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.5
-		* Original Request by Anzu
+		* Initial Release
 </details>
 
 * Require | 必要安裝

@@ -25,11 +25,9 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1 (2022-12-8)
-		* Request by GGM
 		* New Cvar, Reset All FF data when next game starts
 
 	* v1.0 (2022-12-6)
-		* Request by GGM
 		* Initial Release
 </details>
 

@@ -37,7 +37,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Add more cvars
 
     * v1.0
-	    * [By ReFlexPoison](https://forums.alliedmods.net/showthread.php?p=1905436)
+	    * [By ReFlexPoison](https://forums.alliedmods.net/showthread.php?t=209853)
 </details>
 
 * Require | 必要安裝

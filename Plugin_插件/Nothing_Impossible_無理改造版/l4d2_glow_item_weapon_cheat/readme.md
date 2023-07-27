@@ -29,7 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Only adms can use command to see glow though the wall
 
 	* v1.0.7
-	    * [Original Plugin By Marttt](https://forums.alliedmods.net/showthread.php?p=2730861)
+	    * [Original Plugin By Marttt](https://forums.alliedmods.net/showthread.php?t=329617)
 </details>
 
 * Require | 必要安裝

@@ -34,7 +34,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Translation Support
 
 	* v1.0h
-	    * Request by Anzu
 		* Individual plugin
 
 	* 10.2.3

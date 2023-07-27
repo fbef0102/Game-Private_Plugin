@@ -48,7 +48,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Correct melee damage when enable Bile Belly ability
 
 	* v1.0h (2023-2-2)
-		* Request by Shadow
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance

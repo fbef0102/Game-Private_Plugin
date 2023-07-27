@@ -21,11 +21,10 @@ L4D2
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.1
-	    * Request by 壹梦
 	    * Add cmd: sm_zoom
 
     * v0.0
-	    * [By BHaType](https://forums.alliedmods.net/showthread.php?p=2719630)
+	    * [By BHaType](https://forums.alliedmods.net/showthread.php?t=317993)
 </details>
 
 * Require | 必要安裝

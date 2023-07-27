@@ -26,7 +26,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//HarryPotter @ 2022-2023
 	```
 	* v1.0h (2023-3-30)
-		* Request by 壹梦
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance

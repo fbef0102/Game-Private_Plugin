@@ -19,7 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0.7 (2023-2-11)
-		* Request by 小颯
 		* Add a convar ```tank_stumble_playbackrate 3.0```, "Tank stumble animation playback rate (0=off)
 
 	* v1.0.6

@@ -25,11 +25,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Require left4dhooks v1.33 or above
 		
 	* v1.1 (2022-12-21)
-	    * Request by Shadow
 		* Add two cvars, quantity of rounds (tries) events survivors wipe out before force of restartmap in coop/realism/survival.
 
 	* v1.0
-	    * Request by Yabi
 		* Initial Release
 </details>
 

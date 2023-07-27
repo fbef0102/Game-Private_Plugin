@@ -59,7 +59,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Add Spectator/Dead Survivor Flashlight Only
 
 	* 2.25
-		* [Original Plugin By Silvers](https://forums.alliedmods.net/showthread.php?p=1606588)
+		* [Original Plugin By Silvers](https://forums.alliedmods.net/showthread.php?t=173257)
 </details>
 
 * Require | 必要安裝

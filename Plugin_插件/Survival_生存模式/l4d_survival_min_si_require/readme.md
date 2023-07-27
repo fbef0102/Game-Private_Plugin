@@ -31,7 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Display different SI requirement numbers based on how many alive survivors when survival begins
 
 	* v1.0
-		* Request by GGM
 		* Initial Release
 </details>
 

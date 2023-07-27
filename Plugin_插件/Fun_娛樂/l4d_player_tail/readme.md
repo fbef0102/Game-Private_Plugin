@@ -32,7 +32,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.6 (2023-1-23)
-		* Request by Alfari
 		* Support database to save personal tail settings. (MySQL & SQLite supported)
 		* Add a convar ```l4d_player_tail_database```
 
@@ -42,16 +41,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Delete a convar ```l4d_player_tail_sprite_model```
 
 	* v1.4 (2023-1-13)
-		* Request by Alfari
 		* Add a convar, access flags to open tail menu
 
 	* v1.3
-	    * Request by Alfari
 		* Add menu to choose color and sprite model
 		* Support custom sprite model
 
 	* v1.2
-	    * Original Request by 壹梦
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/7/5 updated
+> 2023/7/27 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -204,6 +204,8 @@ My Unpublic Private Plugin (Charge)
     * 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
   * [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch
     * 驚嚇或殺死Witch會引發屍潮來臨
+  * [l4d_witch_psychotic](/Plugin_插件/Witch_女巫/l4d_witch_psychotic): Adds a lot of abilities and fear to the witch to become the most dangerous infected.
+    * 增強Witch，賦予多種超能力成為史上最危險的特感
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>

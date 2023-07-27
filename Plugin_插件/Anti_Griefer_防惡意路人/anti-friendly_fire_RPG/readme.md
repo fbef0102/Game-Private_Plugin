@@ -30,7 +30,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Translation Support
 
 	* v1.5
-		* Original Request by 壹梦
+		* Initial Release
 </details>
 
 * Require | 必要安裝

@@ -28,7 +28,6 @@ L4D2
 	//Harry @ 2022
 	```
 	* v1.0h (2022-11-17)
-		* Request by 壹梦
 		* Remake code.
 		* Add convars to allow specified weapons
 		* Probability to change the brightness of the light

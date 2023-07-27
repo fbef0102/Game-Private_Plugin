@@ -19,7 +19,6 @@ L4D2 Versus
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0h 
-	    * Request by Anzu
 		* Individual plugin
 		* Auto generate cfg
 

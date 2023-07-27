@@ -19,11 +19,10 @@ L4D2 Survival
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1
-		* Original Request by GGM
 		* players who were in the survivor team when survival begins will be recorded. Even if they disconnected or leave the team, as long as they return to the team before the end of the round, their time record can still be kept. (this round)
 
 	* v1.0
-		* Original Request by Dam Dam
+		* Initial Release
 </details>
 
 * Require | 必要安裝

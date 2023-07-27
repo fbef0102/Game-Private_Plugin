@@ -29,11 +29,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Teleport Tank available
 
 	* v1.8
-        * Request by Yabi
         * Teleport infected to teammate who is near the first ahead survivor
 
 	* v1.6
-	    * Original Request by 壹梦
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

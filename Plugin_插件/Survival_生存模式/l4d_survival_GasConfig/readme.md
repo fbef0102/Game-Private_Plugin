@@ -31,18 +31,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.2h (2023-1-26)
-        * Request by GGM
         * Add "Locked Shared Gas Config", if the config is locked, anyone can not delete that config.
         * Add a convar ```l4d_survival_GasConfig_adm_lock_flag "z"```, Players with these flags have access to use "Lock gas config" menu
         * Translation Support
 
     * v1.1h (2022-12-7)
-        * Request by GGM
         * Add personal gas config
         * Fix memory leak
 
     * v1.0h (2022-11-29)
-	    * Request by Horizon
 	    * Remake code
 		* Convert code to latest syntax
 		* Changes to fix warnings when compiling on SourceMod 1.11.

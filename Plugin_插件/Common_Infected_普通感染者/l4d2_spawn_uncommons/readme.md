@@ -27,7 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//HarryPotter @ 2023
 	```
 	* v1.0h (2023-1-26)
-	    * Request by Shadow
 		* Remake Code
 		* Convert code to latest syntax
 		* Changes to fix warnings when compiling on SourceMod 1.11.
@@ -35,7 +34,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Unlock fallen survivor limit and time.
 
 	* v1.0.9
-	    * [Original Plugin By AtomicStryker](https://forums.alliedmods.net/showthread.php?p=993523)
+	    * [Original Plugin By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=109623)
 </details>
 
 * Require | 必要安裝

@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Players can take shield to next level in coop/realism mode.
 
     * v1.3
-	    * [Original Plugin By panxiaohai](https://forums.alliedmods.net/showthread.php?p=2006157)
+	    * [Original Plugin By panxiaohai](https://forums.alliedmods.net/showthread.php?t=222674)
 </details>
 
 * Require | 必要安裝

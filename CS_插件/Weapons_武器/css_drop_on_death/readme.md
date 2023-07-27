@@ -27,7 +27,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Delete dropping ammo
 
     * v3.0.0
-        * [Original plugin by bigbalaboom](https://forums.alliedmods.net/showthread.php?p=2031253)
+        * [Original plugin by bigbalaboom](https://forums.alliedmods.net/showthread.php?t=225785)
 </details>
 
 * Require | 必要安裝

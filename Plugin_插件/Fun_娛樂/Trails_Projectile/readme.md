@@ -41,7 +41,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Auto generate cfg
 
     * v1.0
-	    * [By Mister_Game_Over](https://forums.alliedmods.net/showthread.php?p=2549554)
+	    * [By Mister_Game_Over](https://forums.alliedmods.net/showthread.php?t=301388)
 </details>
 
 * Require | 必要安裝

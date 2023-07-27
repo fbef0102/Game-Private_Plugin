@@ -36,7 +36,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Require left4dhooks v1.33 or above
 
 	* v1.2h (2023-1-15)
-		* Request by eviltechno
 		* Support L4D1
 		* Use CookiesCached to save player character. Player will have same character if rejoin server next time.
 
@@ -49,7 +48,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Remove unuseful cvars
 		* Safely change character and model
 		* Add command to change model directly
-		* Request by Yabi
 
 	* 2.5a/b
 		* [By mi123645](https://forums.alliedmods.net/showthread.php?t=107121)

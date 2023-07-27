@@ -40,7 +40,7 @@ L4D2 Versus/Coop
 		* Added 3 Convars For Personal Use
 
 	* v1.0.1
-		* [By Crimson_Fox](https://forums.alliedmods.net/showthread.php?p=1032403?p=1032403)
+		* [By Crimson_Fox](https://forums.alliedmods.net/showthread.php?t=113444)
 </details>
 
 * Require | 必要安裝

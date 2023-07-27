@@ -38,11 +38,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.4 (2023-3-4)
-		* Request by JACK
 		* Count red / yellow / green gascan separately
 
 	* v1.3 (2023-3-1)
-		* Request by JACK
 		* Add cvars
 			```php
 			// If 1, Ignore gas can if ignited by fire
@@ -53,7 +51,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 
 	* v1.2 (2023-2-28)
-		* Request by JACK
 		* Add Commands, 
 			```php
 			sm_surgas, "Output to the chat the last player to explodes (last hit) a gascan. (Survival Only)"
@@ -62,7 +59,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 
 	* v1.1 (2023-2-28)
-		* Request by JACK
 		* Translation Support
 		* Add cvars
 			```php
@@ -74,7 +70,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 
 	* v1.0
-		* Original Request by Dam Dam
+		* Initial Release
 </details>
 
 * Require | 必要安裝

@@ -36,7 +36,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Control maximum spit puddles each time Acid Pool drops.
 
 	* v1.0h (2023-2-23)
-		* Request by Shadow
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance
@@ -53,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
-	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?p=2739386): Allow spitters to spit more than a single projectile at once
+	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
 		> Spitter可以一次吐多個酸液
 
 * <details><summary>ConVar | 指令</summary>
@@ -152,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Known Conflicts</summary>
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
-	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?p=2590861)
+	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?t=307330)
 		* Don't allow spitter ability movement with this plugin while using "Supergirl Speed" ability.
 </details>
 
@@ -191,7 +190,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>會衝突的插件</summary>
 	
 	如果沒安裝以下插件就不需要擔心衝突
-	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?p=2590861)
+	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?t=307330)
 		* 這個插件可以讓spitter使用能力時自由移動，與"Super Girl Speed"能力會有衝突
 </details>
 

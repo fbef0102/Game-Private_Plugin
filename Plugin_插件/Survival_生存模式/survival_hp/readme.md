@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Survivors won't take any damage before game starts
 
 	* v1.0
-		* Original Request by Dam Dam
+		* Initial Release
 </details>
 
 * Require | 必要安裝

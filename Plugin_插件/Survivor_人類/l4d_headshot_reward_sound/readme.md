@@ -42,7 +42,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Cookie Save
 
     * v1.0 (2022-11-27)
-	    * Request by Yabi
 	    * Initial Release
 </details>
 

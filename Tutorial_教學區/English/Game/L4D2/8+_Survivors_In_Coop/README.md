@@ -57,14 +57,14 @@
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
 
-* [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
+* [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
 
 * <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): When two or more same characters in the game only 1 become source of voices from all same characters</s> 
     - 🟦Valve already fixed🟦
 
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn Version)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): Fix bug where a survivor will change identity when a player connects/disconnects if there are 5+ survivors
 
-* [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): Fixes survivor going AFK game function.
+* [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?t=326742): Fixes survivor going AFK game function.
 
 * [l4dafkfix_deadbot](https://forums.alliedmods.net/showpost.php?p=2772050&postcount=54): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
 
@@ -98,10 +98,10 @@
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
     - 🟥Doesn't work in listen server🟥
    
-* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?p=2202855): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
+* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
     - 🟥Doesn't work in listen server🟥
 
-* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?p=2273230): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
+* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
     - 🟥Doesn't work in listen server🟥
    
 * [Save Weapon Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2757629&postcount=113): L4D2 coop save weapon when map transition if more than 4 players.

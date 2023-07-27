@@ -63,7 +63,7 @@
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
       
-* [Defib_Fix](https://forums.alliedmods.net/showthread.php?p=2647018): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
+* [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
 * <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): 修正相同模組的玩家卻只會能有一位角色發出遊戲角色語音</s> 
     - 🟦Valve已經修正，無須安裝🟦
@@ -72,7 +72,7 @@
     - 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
     - 修正第五人以上玩家死亡的時候，屍體在別的角色身上
 
-* [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?p=2714236): 修正5+多人遊戲裡，使用閒置的時候，閒置錯成別的相同模組角色的bot，如果相同模組角色已經有真人玩家取代或閒置，則會變成完全旁觀者
+* [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?t=326742): 修正5+多人遊戲裡，使用閒置的時候，閒置錯成別的相同模組角色的bot，如果相同模組角色已經有真人玩家取代或閒置，則會變成完全旁觀者
 
 * [l4dafkfix_deadbot](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dafkfix_deadbot): 修正5+多人遊戲裡，當真人玩家閒置的時候如果他的Bot死亡，真人玩家不會取代死亡Bot而是變成完全旁觀者
 
@@ -109,10 +109,10 @@
     - 修正玩家被hunter撲/被Charger撞沒有語音
     - 修正一代角色看見隊友屍體沒有反應
    
-* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?p=2202855): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
+* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
     - 🟥只適用於專屬伺服器🟥
 
-* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?p=2273230): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
+* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
     - 🟥只適用於專屬伺服器🟥
    
 * [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關

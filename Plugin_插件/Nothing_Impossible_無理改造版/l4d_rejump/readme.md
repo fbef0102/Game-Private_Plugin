@@ -25,7 +25,6 @@ L4D2
 	//Harry @ 2022
 	```
 	* v1.1h (2022-12-12)
-		* Request by R.A.
 		* Add one cvar: player needs to use jump key first before second jump in air.
 
 	* v1.0h (2022-11-26)
@@ -38,7 +37,7 @@ L4D2
 		* Detect height and disable second jump
 
 	* v1.0.1
-		* [By paegus](https://forums.alliedmods.net/showthread.php?p=895212)
+		* [By paegus](https://forums.alliedmods.net/showthread.php?t=99874)
 </details>
 
 * Require | 必要安裝

@@ -19,7 +19,7 @@ L4D2 Coop/Realism
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.3
-		* Original Request by 壹梦
+		* Initial Release
 </details>
 
 * Require | 必要安裝

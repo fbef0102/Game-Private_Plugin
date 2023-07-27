@@ -24,7 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-    1. [Lagged Movement - Plugin Conflict Resolver](https://forums.alliedmods.net/showthread.php?p=2792637)
+    1. [Lagged Movement - Plugin Conflict Resolver](https://forums.alliedmods.net/showthread.php?t=340345)
 
 * Related Plugin | 相關插件
     1. [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team

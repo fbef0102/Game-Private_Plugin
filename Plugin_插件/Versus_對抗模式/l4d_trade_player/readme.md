@@ -24,7 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Add vote limit per map
 
 	* v1.0
-	    * Original Request by larrybrains
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

@@ -24,7 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v2.4 (2023-2-13)
-        * Request by fe
         * Add a cvar 
             ```c
             // Changes how count down timer displays.

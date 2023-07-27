@@ -37,7 +37,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* New abilitity "Auto Fire": Hunter would get fire automatically when spawn
 
 	* v1.0h (2023-3-24)
-		* Request by Shadow
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance
@@ -59,7 +58,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Related Plugin | 相關插件
 	1. [pounceannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/pounceannounce): Announces hunter pounces to the entire server
 		> 顯示Hunter造成的高撲傷害與高撲距離
-	2. [l4d2_pounce_damage by Silvers](https://forums.alliedmods.net/showthread.php?p=2675236): Patches the Hunter to enable bonus damage in all gamemodes.
+	2. [l4d2_pounce_damage by Silvers](https://forums.alliedmods.net/showthread.php?t=320024): Patches the Hunter to enable bonus damage in all gamemodes.
 		> 任何模式的AI Hunter都可以造成高撲傷害
 	3. [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
 		> 特感在爬梯或蹲下期間自動加速移動

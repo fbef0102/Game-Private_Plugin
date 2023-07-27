@@ -29,7 +29,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v2.4 (2023-2-2)
-		* Request by GGTrash
 		* Use the L4D2 built-in vote screens for l4d2
 		* Require "builtinvotes" extension (l4d2 only)
 

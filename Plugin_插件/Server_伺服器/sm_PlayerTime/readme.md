@@ -43,7 +43,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings
 
 	* v1.8
-	    * Original Request by 壹梦
+	    * Initial Release
 </details>
 
 * Require | 必要安裝

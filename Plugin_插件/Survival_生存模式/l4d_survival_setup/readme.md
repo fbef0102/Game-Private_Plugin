@@ -29,12 +29,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.1 (2023-2-4)
-        * Request by GGM
         * Translation Support
         * Disable laser if there is no any laser sight on the map
 
     * v1.0 (2022-11-09)
-	    * Request by Horizon
 	    * Initial Release
 </details>
 

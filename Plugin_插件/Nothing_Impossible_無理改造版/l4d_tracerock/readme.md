@@ -26,7 +26,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Use left4dhooks to optimize code
 
 	* v1.3h
-		* Request by 壹梦
 		* Remake code
 		* Add Glow (L4D2 only)
 		* Add rock's self kill timer

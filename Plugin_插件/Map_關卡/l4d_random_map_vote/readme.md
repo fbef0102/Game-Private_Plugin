@@ -23,7 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Support [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble)
 
     * v1.0 (2022-11-12)
-	    * Request by mmo
 	    * Initial Release
 </details>
 

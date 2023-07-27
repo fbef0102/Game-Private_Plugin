@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Ignore players hanging from ledge or incapacitated outside the end saferoom area
 
 	* v1.0
-		* Original Request by Alfari
+		* Initial Release
 </details>
 
 * Require | 必要安裝

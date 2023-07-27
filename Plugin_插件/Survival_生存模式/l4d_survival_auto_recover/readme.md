@@ -25,12 +25,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1 (2023-2-2)
-		* Request by GGM
 		* Add a cvar ```l4d_survival_auto_recover_non-survival_default_value```
 		* Support other game mode
 		
 	* v1.0
-		* Request by GGM
 		* Initial Release
 </details>
 

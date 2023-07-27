@@ -35,7 +35,6 @@ English
 	//HarryPotter @ 2022
 	```
 	* v1.3 (2022-11-18)
-		* Request by 壹梦
         * Remake Code
         * Add Cvars
 		* Split token into world and player

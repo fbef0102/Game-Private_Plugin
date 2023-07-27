@@ -35,7 +35,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* F1 to ready / F2 to unready
 
 	* v1.0h
-	    * Request by Anzu
 		* Individual plugin
 
 	* 6.7

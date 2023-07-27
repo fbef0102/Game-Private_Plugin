@@ -23,7 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2023-1-12)
-	    * Original Request by JACK
 		* Initial Release
 </details>
 

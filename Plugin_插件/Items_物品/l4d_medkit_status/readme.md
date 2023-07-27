@@ -26,7 +26,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2022-12-23)
-		* Request by GGM
 		* Initial Release
 </details>
 

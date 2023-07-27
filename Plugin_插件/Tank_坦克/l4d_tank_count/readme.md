@@ -33,7 +33,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* v1.3
 	    * More accurate damage done to tank
-	    * Original Request by Anzu
+	    * Initial Release
 </details>
 
 * Require | 必要安裝
