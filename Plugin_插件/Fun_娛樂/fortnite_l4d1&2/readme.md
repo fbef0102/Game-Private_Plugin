@@ -133,9 +133,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	3. Uploading files to server.
 		* Upload "models" and "sound" folder to content-server
-			* If you are l4d1, your-content-server.com/game/left4dead/models/ and your-content-server.com/game/left4dead/models/sound/
-			* If you are l4d2, your-content-server.com/game/left4dead2/models/ and your-content-server.com/game/left4dead2/models/sound/
-		* Upload "models" and "sound" folder to basic server. ("Left 4 Dead Dedicated Server\left4dead" or "Left 4 Dead 2 Dedicated Server\left4dead2" folder depending on your game)
+			* If you are l4d1, your-content-server.com/game/left4dead/models/ and your-content-server.com/game/left4dead/sound/
+			* If you are l4d2, your-content-server.com/game/left4dead2/models/ and your-content-server.com/game/left4dead2/sound/
+		* Upload "models" and "sound" folder to game server. ("Left 4 Dead Dedicated Server\left4dead" or "Left 4 Dead 2 Dedicated Server\left4dead2" folder depending on your game)
 		* Upload "models" and "sound" folder to your client's game folder (for test reasons).
 
 	4. Start the server and test
@@ -179,9 +179,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 	3. 上傳文件到伺服器。
 		* 將"models" 和 "sound"資料夾上傳到網空伺服器
-			* 如果你是 l4d1，your-content-server.com/game/left4dead/materials/decals/TS_SERVER/ <= 這裡是你的 *.vtf.bz2 文件
-			* 如果你是 l4d2，your-content-server.com/game/left4dead2/materials/decals/TS_SERVER/ <= 這裡是你的 *.vtf.bz2 文件
-		* 將"models" 和 "sound"資料夾複製到你的基本伺服器。
+			* 如果你是 l4d1，your-content-server.com/game/left4dead/models/ 和 your-content-server.com/game/left4dead/sound/
+			* 如果你是 l4d2，your-content-server.com/game/left4dead2/models/ 和 your-content-server.com/game/left4dead2/sound/
+		* 將"models" 和 "sound"資料夾複製到您的遊戲伺服器資料夾上。 ("Left 4 Dead Dedicated Server\left4dead" 或 "Left 4 Dead 2 Dedicated Server\left4dead2")
 		* 將"models" 和 "sound"資料夾上傳到您客戶端的遊戲資料夾（出於測試原因）。
 		
 	4. 啟動伺服器並測試

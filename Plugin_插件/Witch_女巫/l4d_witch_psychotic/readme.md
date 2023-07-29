@@ -98,13 +98,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Type of Nightmare Claw: 1 = Survivor is set to B&W, 2 = Survivor is killed.
 		l4d_witch_psychotic_nightmareclaw_type "1"
 
-		// If 1, Enable Psychotic Charge ability: The Witch will send any Survivors flying in her path while pursuing her victim.
+		// (L4D2) If 1, Enable Psychotic Charge ability: The Witch will send any Survivors flying in her path while pursuing her victim.
 		l4d_witch_psychotic_psychoticcharge_enable "1"
 
-		// Knock back damage the Witch causes to Survivor.
+		// (L4D2) Knock back damage the Witch causes to Survivor.
 		l4d_witch_psychotic_psychoticcharge_damage "10"
 
-		// Power a Survivor is hit with during Psychotic Charge.
+		// (L4D2) Power a Survivor is hit with during Psychotic Charge.
 		l4d_witch_psychotic_psychoticcharge_power "300.0"
 
 		// If 1, Enable Shameful Cloak ability: Distraught by what she has become, the Witch will try to hide her form from the world.
@@ -253,13 +253,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Witch如果將倖存者擊倒，處理方式: 1 = 將倖存者變成黑白狀態, 2 = 倖存者直接被殺死.
 		l4d_witch_psychotic_nightmareclaw_type "1"
 
-		// 為1時，開啟 Psychotic Charge 能力: 擋住Witch去路的玩家會被擊飛。
+		// (L4D2) 為1時，開啟 Psychotic Charge 能力: 擋住Witch去路的玩家會被擊飛。
 		l4d_witch_psychotic_psychoticcharge_enable "1"
 
-		// 擊飛的傷害值.
+		// (L4D2) 擊飛的傷害值.
 		l4d_witch_psychotic_psychoticcharge_damage "10"
 
-		// 擊飛的力道.
+		// (L4D2) 擊飛的力道.
 		l4d_witch_psychotic_psychoticcharge_power "300.0"
 
 		// 為1時，開啟 Shameful Cloak 能力: Witch會隱形。
