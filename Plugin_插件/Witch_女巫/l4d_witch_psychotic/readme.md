@@ -13,44 +13,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_witch_psychotic_3](image/l4d_witch_psychotic_3.gif)
 	<br/>![l4d_witch_psychotic_4](image/l4d_witch_psychotic_4.gif)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014-2017
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-7-27)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Replace Gamedata with left4dhooks
-		* Delete "Support Group ability"
-		* Add "Fear Move ability", "Mind Control ability"
-		* Attach Particle and Glow to witch when witch spawns.
-
-	* v1.3
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=236472)
+	* <b>Assimilation ability</b> - When a Survivor is killed by the Witch, she will create another Witch on dead body.
+	* <b>Death Helmet Ability</b> - Reduce damage to witch's head.
+	* <b>Leeching Claw ability</b> - When the Witch incaps a Survivor, she heals herself with some of their stolen life force.
+	* <b>Mood Swing ability</b> - The Witch has a varied health.
+	* <b>Fear Move ability</b> - Set different Witch Speed each round.
+	* <b>Nightmare Claw ability</b> - When incapped by the Witch, the Survivor is either set to B&W or killed immediately.
+	* <b>Psychotic Charge ability</b> - The Witch will send any Survivors flying in her path while pursuing her victim.
+	* <b>Shameful Cloak ability</b> - Distraught by what she has become, the Witch will try to hide her form from the world.
+	* <b>Sorrowful Remorse ability</b> - When a Witch is killed, she leaves behind a Medkit and Defib.
+	* <b>Unrelenting Spirit field ability</b> - Reduce damage to witch's body.
+	* <b>Mind Control ability</b> - Anyone who near to these witches will change the screen color.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
-		> Witch不會一抓倒地，而是擊飛倖存者
-	2. [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch
-		> 驚嚇或殺死Witch會引發屍潮來臨
-	3. [l4d_witch_guard](/Plugin_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
-		> 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
-	4. [Bomber Witch by Dragokas](https://forums.alliedmods.net/showthread.php?t=339744): Witch equipped both with molotov and pipe bomb
-		> Witch 手上拿著土製炸彈與燃燒瓶
-</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -156,19 +135,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Assimilation ability</b> - When a Survivor is killed by the Witch, she will create another Witch on dead body.
-	* <b>Death Helmet Ability</b> - Reduce damage to witch's head.
-	* <b>Leeching Claw ability</b> - When the Witch incaps a Survivor, she heals herself with some of their stolen life force.
-	* <b>Mood Swing ability</b> - The Witch has a varied health.
-	* <b>Fear Move ability</b> - Set different Witch Speed each round.
-	* <b>Nightmare Claw ability</b> - When incapped by the Witch, the Survivor is either set to B&W or killed immediately.
-	* <b>Psychotic Charge ability</b> - The Witch will send any Survivors flying in her path while pursuing her victim.
-	* <b>Shameful Cloak ability</b> - Distraught by what she has become, the Witch will try to hide her form from the world.
-	* <b>Sorrowful Remorse ability</b> - When a Witch is killed, she leaves behind a Medkit and Defib.
-	* <b>Unrelenting Spirit field ability</b> - Reduce damage to witch's body.
-	* <b>Mind Control ability</b> - Anyone who near to these witches will change the screen color.
-
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -185,6 +151,42 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// witch damage every hit on down survivor (default: 30)
 		sm_cvar z_witch_damage_per_kill_hit 30
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
+		> Witch不會一抓倒地，而是擊飛倖存者
+	2. [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch
+		> 驚嚇或殺死Witch會引發屍潮來臨
+	3. [l4d_witch_guard](/Plugin_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
+		> 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
+	4. [Bomber Witch by Dragokas](https://forums.alliedmods.net/showthread.php?t=339744): Witch equipped both with molotov and pipe bomb
+		> Witch 手上拿著土製炸彈與燃燒瓶
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014-2017
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-7-27)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Replace Gamedata with left4dhooks
+		* Delete "Support Group ability"
+		* Add "Fear Move ability", "Mind Control ability"
+		* Attach Particle and Glow to witch when witch spawns.
+
+	* v1.3
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=236472)
 </details>
 
 - - - -

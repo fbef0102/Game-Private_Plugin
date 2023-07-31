@@ -13,6 +13,67 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 剩餘屍潮通知
 		<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
 
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* Notice
+	* To install this plugin, you must disable nature horde, see **Official ConVar** below
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d2_horde_equaliser.cfg
+		```php
+		// Annnounce horde remaining at checkpoints [1=each 1/4 of total commons, 2=each common] (0=off)
+		l4d2_horde_equaliser_checkpoint_announce "1"
+
+		// Put infinite hordes on a 'hold up' during Tank fights
+		l4d2_horde_equaliser_no_tank_horde "0"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	None
+</details>
+
+* <details><summary>Data Example</summary>
+	
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c2m3_coaster" //Map Name
+			{
+				"horde_limit" //Set the horde limit according to 'survivor limit'
+				{
+					"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
+					"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
+					"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
+					"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
+					"survivor_1"	"60"// replace infinite horde with finite event of 60 commons when survivor limit is 1
+				}
+			}
+		}
+		```
+</details>
+
+* <details><summary>Related Official ConVar</summary>
+
+	* write down the following cvars in cfg/server.cfg
+		```php
+		// Nature horde interval (second)
+		sm_cvar z_mob_spawn_min_interval_easy            3600
+		sm_cvar z_mob_spawn_min_interval_normal          3600
+		sm_cvar z_mob_spawn_min_interval_hard            3600
+		sm_cvar z_mob_spawn_min_interval_expert          3600
+
+		sm_cvar z_mob_spawn_max_interval_easy            3600
+		sm_cvar z_mob_spawn_max_interval_normal          3600
+		sm_cvar z_mob_spawn_max_interval_hard            3600
+		sm_cvar z_mob_spawn_max_interval_expert          3600
+		```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D2 Coop/Versus/Realism
@@ -36,65 +97,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* v0.0
 	    * [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_horde_equaliser.sp)
-</details>
-
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/l4d2_horde_equaliser.cfg
-		```php
-		// Annnounce horde remaining at checkpoints [1=each 1/4 of total commons, 2=each common] (0=off)
-		l4d2_horde_equaliser_checkpoint_announce "1"
-
-		// Put infinite hordes on a 'hold up' during Tank fights
-		l4d2_horde_equaliser_no_tank_horde "0"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Notice
-	* To install this plugin, you must disable nature horde, see **Official ConVar** below
-
-* Data Example
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c2m3_coaster" //Map Name
-			{
-				"horde_limit" //Set the horde limit according to 'survivor limit'
-				{
-					"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
-					"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
-					"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
-					"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
-					"survivor_1"	"60"// replace infinite horde with finite event of 60 commons when survivor limit is 1
-				}
-			}
-		}
-		```
-
-* <details><summary>Related Official ConVar</summary>
-
-	* write down the following cvars in cfg/server.cfg
-		```php
-		// Nature horde interval (second)
-		sm_cvar z_mob_spawn_min_interval_easy            3600
-		sm_cvar z_mob_spawn_min_interval_normal          3600
-		sm_cvar z_mob_spawn_min_interval_hard            3600
-		sm_cvar z_mob_spawn_min_interval_expert          3600
-
-		sm_cvar z_mob_spawn_max_interval_easy            3600
-		sm_cvar z_mob_spawn_max_interval_normal          3600
-		sm_cvar z_mob_spawn_max_interval_hard            3600
-		sm_cvar z_mob_spawn_max_interval_expert          3600
-		```
 </details>
 
 - - - -

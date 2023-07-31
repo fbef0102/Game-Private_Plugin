@@ -1,7 +1,7 @@
 # Game-Private_Plugin by Harry Potter
 我的未公開私人插件列表 (收費制)<br/>
 My Unpublic Private Plugin (Charge) 
-> 2023/7/27 updated
+> 2023/8/1 updated
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -110,7 +110,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Special Infected | 特感</b></summary>
 
-  * [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
+  * [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): (Public) The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
     * (公開) 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
   * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
@@ -192,11 +192,11 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Witch | 女巫</b></summary>
   
-  * [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+  * [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): (Public) Change target when the witch incapacitates or kills victim + witchs auto follow survivors
     * (公開) Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
-  * [l4d_witch_behind_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_behind_fix): The witch turns back if nearby survivor scares her behind
+  * [l4d_witch_behind_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_behind_fix): (Public) The witch turns back if nearby survivor scares her behind
     * (公開) 當有人在背後驚嚇Witch，Witch會秒轉身攻擊
-  * [l4d_witch_realism_door_fix](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_witch_realism_door_fix): Fixing witch can't break the door on Realism Normal、Advanced、Expert
+  * [l4d_witch_realism_door_fix](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_witch_realism_door_fix): (Public) Fixing witch can't break the door on Realism Normal、Advanced、Expert
     * (公開) 修正Witch在寫實模式下的一般難度、進階難度、專家難度，無法抓破門
   * [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
     * Witch不會一抓倒地，而是擊飛倖存者
@@ -206,6 +206,10 @@ My Unpublic Private Plugin (Charge)
     * 驚嚇或殺死Witch會引發屍潮來臨
   * [l4d_witch_psychotic](/Plugin_插件/Witch_女巫/l4d_witch_psychotic): Adds a lot of abilities and fear to the witch to become the most dangerous infected.
     * 增強Witch，賦予多種超能力成為史上最危險的特感
+  * [l4d_witch_immune_fire](/Plugin_插件/Witch_女巫/l4d_witch_immune_fire): Witch is immune to fire + witch won't lose target by fire
+    * Witch不會著火+也不會因為著火而失去目標
+  * [l4d_witch_chase_target_lock](/Plugin_插件/Witch_女巫/l4d_witch_chase_target_lock): No matter how many people block her way, the witch will never change the target
+    * 只追第一個驚嚇她的人，不管多少人阻擋她的路，Witch永遠不會改變目標
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
@@ -220,9 +224,9 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
-  * [l4d2_supply_woodbox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+  * [l4d2_supply_woodbox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): (Public) Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
     * (公開) 地圖上隨機出現補給箱，提供人類強力支援 (仿CSO惡靈降世 補給箱)
-  * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+  * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): (Public) When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
     * (公開) 使用語音雷達"看"可以標記任何物品、武器、地點、特感
   * [l4d_saferom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
@@ -258,7 +262,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
 
-  * [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): A spectator who watching the survivor at first person view can now see the infected model glows though the wall
+  * [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): (Public) A spectator who watching the survivor at first person view can now see the infected model glows though the wall
     * (公開) 旁觀者能看到特感的光圈，主要是用來更好的觀看體驗
   * [l4d_flashlight_speconly](/Plugin_插件/Spectator_旁觀者/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
     * 給死亡玩家或旁觀者手電筒，照亮地圖
@@ -288,7 +292,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Weapons | 武器</b></summary>
 
-  * [l4d_lasertag](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_lasertag): Shows a laser for straight-flying fired projectiles
+  * [l4d_lasertag](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_lasertag): (Public) Shows a laser for straight-flying fired projectiles
     * (公開) 開槍會有子彈光線
   * [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
     * 限制每個武器可以拿取的數量，超過就不能拿取
@@ -302,7 +306,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
 
-  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.
+  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): (Public) Forces AI tank to leave stasis and attack while spawn in coop.
     * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
     * 戰役模式通關之時恢复並設定倖存者血量
@@ -330,9 +334,9 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
 
-  * [l4d_expertrealism](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_expertrealism): L4D1/2 Real Realism Mode (No Glow + No Hud)
+  * [l4d_expertrealism](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_expertrealism): (Public) L4D1/2 Real Realism Mode (No Glow + No Hud)
     * (公開) L4D1/2 真寫實模式 (沒有光圈與介面)
-  * [weapon_csgo_reload](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_weapon_csgo_reload): Weapon Quickswitch Reloading in L4D1+2
+  * [weapon_csgo_reload](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_weapon_csgo_reload): (Public) Weapon Quickswitch Reloading in L4D1+2
     * (公開) 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
   * [l4d_dynamic_muzzle_flash](/Plugin_插件/Real_Realism_真寫實模式/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
     * 槍口增加逼真的閃光
@@ -366,11 +370,11 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
-  * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
+  * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): (Public) When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
     * (公開) 救援來臨之後，未在時間內上救援載具逃亡的玩家將處死
-  * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
+  * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): (Public) Locks Saferoom Door Until Someone Opens It.
     * (公開) 倖存者必須等待時間到並合力對抗屍潮與Tank才能打開終點安全門
-  * [L4DVSAutoSpectateOnAFK](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/L4DVSAutoSpectateOnAFK): Forces survivors and infected to spectate if they're AFK after certain time
+  * [L4DVSAutoSpectateOnAFK](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/L4DVSAutoSpectateOnAFK): (Public) Forces survivors and infected to spectate if they're AFK after certain time
     * (公開) AFK的玩家將會被旁觀並且踢出伺服器
   * [l4d_vocalize_antiflood](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
     * 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
@@ -408,9 +412,9 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Fun | 娛樂</b></summary>
 
-  * [l4d2_karma_kill](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_karma_kill): Very Very loudly announces the predicted event of a player leaving the map and or life through height or drown.
+  * [l4d2_karma_kill](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_karma_kill): (Public) Very Very loudly announces the predicted event of a player leaving the map and or life through height or drown.
     * (公開) 被Charger撞飛、Tank打飛、Jockey騎走墬樓、自殺跳樓等等會有慢動作特效
-  * [l4d2_gifts](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
+  * [l4d2_gifts](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): (Public) Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
     * (公開) 殺死特感會掉落禮物盒，會獲得驚喜物品，聖誕嘉年華
   * [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
     * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
@@ -438,7 +442,7 @@ My Unpublic Private Plugin (Charge)
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
 
-  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): (Public) Tanks throw special infected instead of rocks
     * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_gun_blastpushback](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_gun_blastpushback): Doraemon Aircannon
     * 人類擁有多啦A夢的空氣砲

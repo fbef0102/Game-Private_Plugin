@@ -8,60 +8,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/Sh11NlYvd0k)
 
 * Image | 圖示
-	* The destructive Hunter
-		> 毀滅性特感
-		<br/>![l4d_hunter_destructive_1](image/l4d_hunter_destructive_1.jpg)
-	* Sledgehammer ability
-		> Sledgehammer: Hunter高撲造成額外傷害，距離越遠，傷害越大
-		<br/>![l4d_hunter_destructive_2](image/l4d_hunter_destructive_2.jpg)
-	* Meteor strike ability
-		> Meteor Strike: Hunter高撲造成核彈衝擊，震飛周圍的倖存者
-		<br/>![l4d_hunter_destructive_3](image/l4d_hunter_destructive_3.gif)
-	* Death Fire ability
-		> Death Fire: Hunter死亡時，其屍體產生火焰
-		<br/>![l4d_hunter_destructive_4](image/l4d_hunter_destructive_4.gif)
+	<br/>![l4d_hunter_destructive_1](image/l4d_hunter_destructive_1.jpg)
+	<br/>![l4d_hunter_destructive_2](image/l4d_hunter_destructive_2.jpg)
+	<br/>![l4d_hunter_destructive_3](image/l4d_hunter_destructive_3.gif)
+	<br/>![l4d_hunter_destructive_4](image/l4d_hunter_destructive_4.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014-2014
-	//HarryPotter @ 2023
-	```
-	* v1.1h (2023-4-30)
-		* New abilitity "Auto Fire": Hunter would get fire automatically when spawn
-
-	* v1.0h (2023-3-24)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Delete ability "Bile Feet", "Bile Pimple", "Bile Throw", "Explosive Diarrhea".
-		* Add two abilitites
-			* Meteor Strike ability: the high pounces create meteor strike, inflict extra damage and send nearby survivors flying.
-			* Death Fire ability: create fire where the hunter dies.
-		* Rename some cvars
-		* Correct melee damage when enable Shunpo ability
-		* Replace Gamedata with left4dhooks
-	* v1.1
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=239492)
+	* <b>Inferno Rage ability</b> - Adds extra damage to survivors when Hunter is on fire
+	* <b>Kevlar Skin ability</b> - Allows the Hunter to be immune to fire damage. (Still get fire)
+	* <b>Sledgehammer ability</b> - Hunter can inflict extra damage to survivors based on the distance of the pounce
+	* <b>Meteor Strike ability</b> - High pounces create meteor strike, inflict extra damage and send nearby survivors flying.
+	* <b>Shunpo ability</b> - Hunter takes damage he will increase his evasiveness and reduce damage taken.
+	* <b>Flame Claw Ignite ability</b> - Allows the Hunter to ignite Survivors with claw while on fire.
+	* <b>Evil Demon ability</b> - after hunter pounce a survivor to incapacitated, he will release and search next target.
+	* <b>Death Fire ability</b> - create fire where the hunter dies.
+	* <b>Get Fire ability</b> - Hunter would get fire automatically when spawn
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [pounceannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/pounceannounce): Announces hunter pounces to the entire server
-		> 顯示Hunter造成的高撲傷害與高撲距離
-	2. [l4d2_pounce_damage by Silvers](https://forums.alliedmods.net/showthread.php?t=320024): Patches the Hunter to enable bonus damage in all gamemodes.
-		> 任何模式的AI Hunter都可以造成高撲傷害
-	3. [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
-		> 特感在爬梯或蹲下期間自動加速移動
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -152,16 +119,45 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Inferno Rage ability</b> - Adds extra damage to survivors when Hunter is on fire
-	* <b>Kevlar Skin ability</b> - Allows the Hunter to be immune to fire damage. (Still get fire)
-	* <b>Sledgehammer ability</b> - Hunter can inflict extra damage to survivors based on the distance of the pounce
-	* <b>Meteor Strike ability</b> - High pounces create meteor strike, inflict extra damage and send nearby survivors flying.
-	* <b>Shunpo ability</b> - Hunter takes damage he will increase his evasiveness and reduce damage taken.
-	* <b>Flame Claw Ignite ability</b> - Allows the Hunter to ignite Survivors with claw while on fire.
-	* <b>Evil Demon ability</b> - after hunter pounce a survivor to incapacitated, he will release and search next target.
-	* <b>Death Fire ability</b> - create fire where the hunter dies.
-	* <b>Get Fire ability</b> - Hunter would get fire automatically when spawn
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [pounceannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/pounceannounce): Announces hunter pounces to the entire server
+		> 顯示Hunter造成的高撲傷害與高撲距離
+	2. [l4d2_pounce_damage by Silvers](https://forums.alliedmods.net/showthread.php?t=320024): Patches the Hunter to enable bonus damage in all gamemodes.
+		> 任何模式的AI Hunter都可以造成高撲傷害
+	3. [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
+		> 特感在爬梯或蹲下期間自動加速移動
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014-2014
+	//HarryPotter @ 2023
+	```
+	* v1.1h (2023-4-30)
+		* New abilitity "Auto Fire": Hunter would get fire automatically when spawn
+
+	* v1.0h (2023-3-24)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Delete ability "Bile Feet", "Bile Pimple", "Bile Throw", "Explosive Diarrhea".
+		* Add two abilitites
+			* Meteor Strike ability: the high pounces create meteor strike, inflict extra damage and send nearby survivors flying.
+			* Death Fire ability: create fire where the hunter dies.
+		* Rename some cvars
+		* Correct melee damage when enable Shunpo ability
+		* Replace Gamedata with left4dhooks
+	* v1.1
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=239492)
+</details>
 
 - - - -
 # 中文說明

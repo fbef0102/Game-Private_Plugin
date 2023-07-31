@@ -11,34 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_common_infected_nightmare_1](image/l4d2_common_infected_nightmare_1.jpeg)
 	<br/>![l4d2_common_infected_nightmare_2](image/l4d2_common_infected_nightmare_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-7-3)
-		* Remake Code
-		* Convert code to latest syntax
-		* Changes to fix warnings when compiling on SourceMod 1.11.
-		* Add convars to control each type spawn weight.
-		* Fix health and speec not working
-
-	* v1.1
-	    * [Original Plugin By Mortiegama](https://forums.alliedmods.net/showthread.php?t=239492)
-</details>
-
 * Require | 必要安裝
 <br>None
-
-* Related Plugin | 相關插件
-	1. [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
-		> 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -155,6 +129,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
+		> 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-7-3)
+		* Remake Code
+		* Convert code to latest syntax
+		* Changes to fix warnings when compiling on SourceMod 1.11.
+		* Add convars to control each type spawn weight.
+		* Fix health and speec not working
+
+	* v1.1
+	    * [Original Plugin By Mortiegama](https://forums.alliedmods.net/showthread.php?t=239492)
 </details>
 
 - - - -

@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d2_shield_equip_5](image/l4d2_shield_equip_5.gif)
 </details>
 
-* <details><summary>How does this work?</summary>
+* <details><summary>Details</summary>
 
     * How to get a shield 
       * Kill riot uncommon infected who has shield

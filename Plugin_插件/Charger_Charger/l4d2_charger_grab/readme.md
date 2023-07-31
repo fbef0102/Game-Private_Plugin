@@ -12,33 +12,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 徒手抓住倖存者
 		<br/>![l4d2_charger_grab_1](image/l4d2_charger_grab_1.gif)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.2 (2023-7-11)
-		* Require left4dhooks v1.34 or above
-		* 
-	* v1.1 (2023-4-11)
-		* Do not grab the player who is hanging from ledge.
-
-	* v1.0 (2023-4-11)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
-		> 增強Charger，賦予多種超能力成為無人能檔的雷神 (Bot 也適用)
-	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
-		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
-	3. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
-		> 特感可以釋放被抓住的倖存者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -73,6 +48,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_charger_unstoppable](/Plugin_插件/Charger_Charger/l4d2_charger_unstoppable): Adds a lot of abilities and powers to the Charger to become unstoppable titan.
+		> 增強Charger，賦予多種超能力成為無人能檔的雷神 (Bot 也適用)
+	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
+		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
+	3. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
+		> 特感可以釋放被抓住的倖存者
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2023-7-11)
+		* Require left4dhooks v1.34 or above
+		* 
+	* v1.1 (2023-4-11)
+		* Do not grab the player who is hanging from ledge.
+
+	* v1.0 (2023-4-11)
+		* Initial Release
 </details>
 
 - - - -

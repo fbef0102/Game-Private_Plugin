@@ -11,7 +11,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_witch_guard_1](image/l4d_witch_guard_1.gif)
 	<br/>![l4d_witch_guard_2](image/l4d_witch_guard_2.gif)
 
-* <details><summary>How does this work?</summary>
+* <details><summary>How does it work?</summary>
 
   * After kill the Witch, have change to put her on your back.
   * Hold Ctrl+E for 4 seconds to put down the witch guard

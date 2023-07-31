@@ -8,67 +8,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/DZEpU7tS19M)
 
 * Image | 圖示
-	* The Infected of Thunder
-		> 雷神Charger
-		<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.jpg)
-	* Inertia Vault ability
-		> Inertia Vault能力
-		<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
-	* Electric field ability
-		> Electric field能力
-		<br/>![l4d2_charger_unstoppable_3](image/l4d2_charger_unstoppable_3.gif)
-	* Tesla Fist ability
-		> Tesla Fist能力
-		<br/>![l4d2_charger_unstoppable_4](image/l4d2_charger_unstoppable_4.gif)
-	* Void Chamber ability
-		> Void Chamber能力
-		<br/>![l4d2_charger_unstoppable_5](image/l4d2_charger_unstoppable_5.gif)
+	<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.jpg)
+	<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
+	<br/>![l4d2_charger_unstoppable_3](image/l4d2_charger_unstoppable_3.gif)
+	<br/>![l4d2_charger_unstoppable_4](image/l4d2_charger_unstoppable_4.gif)
+	<br/>![l4d2_charger_unstoppable_5](image/l4d2_charger_unstoppable_5.gif)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014-2017
-	//HarryPotter @ 2023
-	```
-	* v1.2h (2023-5-27)
-		* Add a conver. When charger spawns, create thunder particle on the right hand.
-
-	* v1.1h (2023-5-2)
-		* Attach Tesla Particle to charger when charger spawns.
-
-	* v1.0h (2023-4-26)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Replace Gamedata with left4dhooks
-		* Delete "Locomotive ability", "Meteor Fist ability"
-		* Add "Tesla Fists ability", "Electric field ability"
-
-	* v1.3
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234314)
+	* <b>Broken Ribs ability</b> - After a pummel ends, the survivor takes damage over time.
+	* <b>Extinguish Wind ability</b> - The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
+	* <b>Inertia Vault ability</b> - While charging the Charger has the ability to leap into the air. (Human player only)
+	* <b>Tesla Fist ability</b> - When the Charger strikes a Survivor with his fist, they are sent flying.
+	* <b>Snapped Leg ability</b> - When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
+	* <b>Stowaway ability</b> - The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
+	* <b>Survivor Aegis ability</b> - While charging, the Charger will use the Survivor as an Aegis to absorb damage it would receive.
+	* <b>Void Chamber</b> - When starting a charge, the force is so powerful that it sucks nearby Survivors.
+	* <b>Electric field</b> - When charger dead, spawns an anomaly on charger's body that electrocutes people.
+	* <b>The God of Thunder</b> - When charger spawns, create thunder particle on the right hand.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [l4d2_charger_grab](/Plugin_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
-		> Charger可以徒手抓住人類趴趴走 (Bot 也適用)
-	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
-		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
-	3. [Charger power by Silvers](https://forums.alliedmods.net/showpost.php?p=2720242&postcount=76): allows charger to move objects (containers, cars, truck) by hitting them when using own ability.
-		> Charger 衝刺可以撞飛車子 (Bot 也適用)
-	4. [Charger Steering by Silvers](https://forums.alliedmods.net/showthread.php?t=179034): Allows chargers to turn while charging.
-		> Chargers 衝刺時會自己轉彎 (Bot 也適用)
-	5. [Charger Shoved Fix by Silvers](https://forums.alliedmods.net/showthread.php?t=321044): Prevents the Charger from slowing down when shoved while charging.
-		> 修復Chargers 衝刺被倖存者推時會變慢 (這是一個官方的Bug)
-	6. [Charging Charger Stagger by Marttt](https://forums.alliedmods.net/showthread.php?t=335142): Stagger clients around the charger while on charging mode
-		> 衝刺期間持續震開周圍的玩家 (Bot 也適用)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -180,19 +141,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	None
 </details>
-
-* Details
-	* <b>Broken Ribs ability</b> - After a pummel ends, the survivor takes damage over time.
-	* <b>Extinguish Wind ability</b> - The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
-	* <b>Inertia Vault ability</b> - While charging the Charger has the ability to leap into the air. (Human player only)
-	* <b>Tesla Fist ability</b> - When the Charger strikes a Survivor with his fist, they are sent flying.
-	* <b>Snapped Leg ability</b> - When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
-	* <b>Stowaway ability</b> - The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
-	* <b>Survivor Aegis ability</b> - While charging, the Charger will use the Survivor as an Aegis to absorb damage it would receive.
-	* <b>Void Chamber</b> - When starting a charge, the force is so powerful that it sucks nearby Survivors.
-	* <b>Electric field</b> - When charger dead, spawns an anomaly on charger's body that electrocutes people.
-	* <b>The God of Thunder</b> - When charger spawns, create thunder particle on the right hand.
-
 * <details><summary>Survivor Aegis Calculation Formula</summary>
 	
 	> Example: Charger gets AWP shot while carrying a survivor<br/>
@@ -219,6 +167,51 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Charger Re-charge CD (default: 12)
 		sm_cvar z_charge_interval  		"12"
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_charger_grab](/Plugin_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
+		> Charger可以徒手抓住人類趴趴走 (Bot 也適用)
+	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
+		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
+	3. [Charger power by Silvers](https://forums.alliedmods.net/showpost.php?p=2720242&postcount=76): allows charger to move objects (containers, cars, truck) by hitting them when using own ability.
+		> Charger 衝刺可以撞飛車子 (Bot 也適用)
+	4. [Charger Steering by Silvers](https://forums.alliedmods.net/showthread.php?t=179034): Allows chargers to turn while charging.
+		> Chargers 衝刺時會自己轉彎 (Bot 也適用)
+	5. [Charger Shoved Fix by Silvers](https://forums.alliedmods.net/showthread.php?t=321044): Prevents the Charger from slowing down when shoved while charging.
+		> 修復Chargers 衝刺被倖存者推時會變慢 (這是一個官方的Bug)
+	6. [Charging Charger Stagger by Marttt](https://forums.alliedmods.net/showthread.php?t=335142): Stagger clients around the charger while on charging mode
+		> 衝刺期間持續震開周圍的玩家 (Bot 也適用)
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014-2017
+	//HarryPotter @ 2023
+	```
+	* v1.2h (2023-5-27)
+		* Add a conver. When charger spawns, create thunder particle on the right hand.
+
+	* v1.1h (2023-5-2)
+		* Attach Tesla Particle to charger when charger spawns.
+
+	* v1.0h (2023-4-26)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Replace Gamedata with left4dhooks
+		* Delete "Locomotive ability", "Meteor Fist ability"
+		* Add "Tesla Fists ability", "Electric field ability"
+
+	* v1.3
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234314)
 </details>
 
 - - - -

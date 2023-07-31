@@ -10,32 +10,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* 1.2 (2023-5-28)
-		* Require Optional extension: Actions
-
-	* 1.1 (2023-5-28)
-		* Use ```z_spawn mob auto``` instead of L4D_ForcePanicEvent()
-
-	* 1.0 (2023-4-11)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -74,6 +48,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* 1.2 (2023-5-28)
+		* Require Optional extension: Actions
+
+	* 1.1 (2023-5-28)
+		* Use ```z_spawn mob auto``` instead of L4D_ForcePanicEvent()
+
+	* 1.0 (2023-4-11)
+		* Initial Release
 </details>
 
 - - - -

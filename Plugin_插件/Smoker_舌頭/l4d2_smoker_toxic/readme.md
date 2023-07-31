@@ -8,53 +8,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/UmWtG9x5MEM)
 
 * Image | 圖示
-	* Chemical Infected
-		> 化學兵器
-		<br/>![l4d2_smoker_toxic_1](image/l4d2_smoker_toxic_1.gif)
-	* Methane Blast ability
-		> Methane Blast能力
-		<br/>![l4d2_smoker_toxic_2](image/l4d2_smoker_toxic_2.gif)
-	* Moon Walk ability
-		> Moon Walk能力
-		<br/>![l4d2_smoker_toxic_3](image/l4d2_smoker_toxic_3.gif)
-	* Tongue Lighting ability
-		> Tongue Lighting能力
-		<br/>![l4d2_smoker_toxic_4](image/l4d2_smoker_toxic_4.gif)
-	* Methane Strike ability
-		> Methane Strike能力
-		<br/>![l4d2_smoker_toxic_5](image/l4d2_smoker_toxic_5.gif)
+	<br/>![l4d2_smoker_toxic_1](image/l4d2_smoker_toxic_1.gif)
+	<br/>![l4d2_smoker_toxic_2](image/l4d2_smoker_toxic_2.gif)
+	<br/>![l4d2_smoker_toxic_3](image/l4d2_smoker_toxic_3.gif)
+	<br/>![l4d2_smoker_toxic_4](image/l4d2_smoker_toxic_4.gif)
+	<br/>![l4d2_smoker_toxic_5](image/l4d2_smoker_toxic_5.gif)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014-2017
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-5-31)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Replace Gamedata with left4dhooks
-		* Delete "Tongue Strip", "Tongue Whip", "Void Pocket" ability
-		* Add "Smoke Spawn" ability
-		* Add "Tongue Lighting" ability from [Smoker's Lightning by panxiaohai](https://forums.alliedmods.net/showthread.php?t=137088)
-		* Add "Death Cloud" ability from [Smoker Cloud Damage (fork) by Dragokas](https://forums.alliedmods.net/showthread.php?t=339852)
-
-	* v1.2
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234442)
+	* <b>Asphyxiation ability</b> - The Smoker pulls out the oxygen from the air around it causing nearby Survivors to struggle to breathe.
+	* <b>Collapsed Lung ability</b> - The Smoker's tongue causes the survivor's lungs to collapse.
+	* <b>Death Cloud ability</b> - The Smoker's Cloud deals damage to Survivors and slows melee after death
+	* <b>Tongue Lighting ability</b> - When you drag by smoker you damage by smoker's lightning, and the lightning can transfer between all players.
+	* <b>Methane Blast</b> - When the Smoker is killed, its dead body causes an explosion.
+	* <b>Methane Leak ability</b> - The Smoker lets out a Methane cloud that causes damage to anyone standing inside
+	* <b>Methane Strike ability</b> - Whoever shoved smoker gets stumble.
+	* <b>Moon Walk ability</b> - Smoker is able to move backwards, either dragging the survivor or stretching his tongue. (Bot apply)
+	* <b>Restrained Hostage ability</b> - The Smoker will use a victim it is currently choking to shield itself from damage.
+	* <b>Smoke Spawn ability</b> - When smoker spawns, create smoke particle around the body.
+	* <b>Smoke Screen ability</b> - The Smokers continually pumps smoke around it's body which helps obscure his form from attacks.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [l4d_smoker_pull_weapon_drop](/Plugin_插件/Smoker_舌頭/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
-		> 被Smoker拉走的時候強制掉落手上的武器
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -224,19 +200,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Asphyxiation ability</b> - The Smoker pulls out the oxygen from the air around it causing nearby Survivors to struggle to breathe.
-	* <b>Collapsed Lung ability</b> - The Smoker's tongue causes the survivor's lungs to collapse.
-	* <b>Death Cloud ability</b> - The Smoker's Cloud deals damage to Survivors and slows melee after death
-	* <b>Tongue Lighting ability</b> - When you drag by smoker you damage by smoker's lightning, and the lightning can transfer between all players.
-	* <b>Methane Blast</b> - When the Smoker is killed, its dead body causes an explosion.
-	* <b>Methane Leak ability</b> - The Smoker lets out a Methane cloud that causes damage to anyone standing inside
-	* <b>Methane Strike ability</b> - Whoever shoved smoker gets stumble.
-	* <b>Moon Walk ability</b> - Smoker is able to move backwards, either dragging the survivor or stretching his tongue. (Bot apply)
-	* <b>Restrained Hostage ability</b> - The Smoker will use a victim it is currently choking to shield itself from damage.
-	* <b>Smoke Spawn ability</b> - When smoker spawns, create smoke particle around the body.
-	* <b>Smoke Screen ability</b> - The Smokers continually pumps smoke around it's body which helps obscure his form from attacks.
-
 * <details><summary>Restrained Hostage Calculation Formula</summary>
 	
 	> Example: Smoker gets AWP shot while pulling a survivor<br/>
@@ -269,6 +232,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		//Smoker CD after successful tongue hit (in coop: 20, in versus: 15)
 		sm_cvar tongue_hit_delay  	"20"
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d_smoker_pull_weapon_drop](/Plugin_插件/Smoker_舌頭/l4d_smoker_pull_weapon_drop): Random weapon drops when pulled by smoker
+		> 被Smoker拉走的時候強制掉落手上的武器
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014-2017
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-5-31)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Replace Gamedata with left4dhooks
+		* Delete "Tongue Strip", "Tongue Whip", "Void Pocket" ability
+		* Add "Smoke Spawn" ability
+		* Add "Tongue Lighting" ability from [Smoker's Lightning by panxiaohai](https://forums.alliedmods.net/showthread.php?t=137088)
+		* Add "Death Cloud" ability from [Smoker Cloud Damage (fork) by Dragokas](https://forums.alliedmods.net/showthread.php?t=339852)
+
+	* v1.2
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234442)
 </details>
 
 - - - -

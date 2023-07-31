@@ -10,24 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	None
-
-* Related Plugin | 相關插件
-	1. [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
-		> 增強Smoker，賦予多種超能力成為毒性的化學兵器
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -48,7 +32,24 @@ L4D2
 </details>
 
 * <details><summary>Command | 命令</summary>
+	
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
+		> 增強Smoker，賦予多種超能力成為毒性的化學兵器
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

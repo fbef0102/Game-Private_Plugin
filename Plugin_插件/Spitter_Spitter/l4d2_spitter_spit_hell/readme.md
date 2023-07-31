@@ -10,23 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2023-3-30)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 <br/>None
-
-* Related Plugin | 相關插件
-	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
-		> Spitter可以一次吐多個酸液
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -40,6 +25,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
+		> Spitter可以一次吐多個酸液
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-3-30)
+		* Initial Release
 </details>
 
 - - - -

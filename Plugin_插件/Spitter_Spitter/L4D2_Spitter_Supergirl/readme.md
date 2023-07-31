@@ -8,52 +8,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/wOXLIEBrIS0)
 
 * Image | 圖示
-	* The Supergirl
-		> 超能小妹妹
-		<br/>![L4D2_Spitter_Supergirl_0](image/L4D2_Spitter_Supergirl_0.jpg)
-	* Supergirl Gob ability
-		> Super Girl Protect能力
-		<br/>![L4D2_Spitter_Supergirl_1](image/L4D2_Spitter_Supergirl_1.gif)
-	* Acidic Bile ability
-		> Acidic Bile能力 - 酸液裡含有膽汁，站上去有機會被噴中
-		<br/>![L4D2_Spitter_Supergirl_2](image/L4D2_Spitter_Supergirl_2.gif)
-	* Acidic Pool ability
-		> Acidic Pool能力 - 每過一段時間Spitter身上掉落一攤酸液
-		<br/>![L4D2_Spitter_Supergirl_3](image/L4D2_Spitter_Supergirl_3.gif)
+	<br/>![L4D2_Spitter_Supergirl_1](image/L4D2_Spitter_Supergirl_1.gif)
+	<br/>![L4D2_Spitter_Supergirl_2](image/L4D2_Spitter_Supergirl_2.gif)
+	<br/>![L4D2_Spitter_Supergirl_3](image/L4D2_Spitter_Supergirl_3.gif)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2010-2017
-	//HarryPotter @ 2023
-	```
-	* v1.1h (2023-3-22)
-		* Control maximum spit puddles each time Acid Pool drops.
-
-	* v1.0h (2023-2-23)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Rename all cvars
-		* Delete "Acidic Slobber ability", "Acidic Splash".
-		* Replace Gamedata with left4dhooks
-
-	* v1.5
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=122802)
+	* <b>Acidic Bile ability</b> - Survivors that have wandered into an acid pool have a chance of being splashed with bile and attracting common infected.
+	* <b>Acid Swipe ability</b> - The Spitter uses her acid coated fingers to swipe at a Survivor, causing damage over time as the wound burns.
+	* <b>Hydra Strike ability</b> - Allows to fire off a second spit rapidly after the Spitter uses ability.
+	* <b>Sticky Goo ability</b> - Any Survivor standing inside a pool of Spit will be stuck in the goo and find it harder to move out quickly.
+	* <b>Super Girl Protect ability</b> - When the Spitter is prepared to launch a spit, the Spitter is invulnerable. (God Mode)
+	* <b>Super Girl Speed ability</b> - The Spitters feet increasing movement speed for a brief period while using their ability.
+	* <b>Acidic Pool ability</b> - Due to the unstable nature of the Spitter's body, periodically a pool of Spit will leak out beneath her feet.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
-		> Spitter可以一次吐多個酸液
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -139,15 +111,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Acidic Bile ability</b> - Survivors that have wandered into an acid pool have a chance of being splashed with bile and attracting common infected.
-	* <b>Acid Swipe ability</b> - The Spitter uses her acid coated fingers to swipe at a Survivor, causing damage over time as the wound burns.
-	* <b>Hydra Strike ability</b> - Allows to fire off a second spit rapidly after the Spitter uses ability.
-	* <b>Sticky Goo ability</b> - Any Survivor standing inside a pool of Spit will be stuck in the goo and find it harder to move out quickly.
-	* <b>Super Girl Protect ability</b> - When the Spitter is prepared to launch a spit, the Spitter is invulnerable. (God Mode)
-	* <b>Super Girl Speed ability</b> - The Spitters feet increasing movement speed for a brief period while using their ability.
-	* <b>Acidic Pool ability</b> - Due to the unstable nature of the Spitter's body, periodically a pool of Spit will leak out beneath her feet.
-
 * <details><summary>Known Conflicts</summary>
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
@@ -162,6 +125,36 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Spitter Movement Speed (default: 210, maximum: 450)
 		sm_cvar z_spitter_speed  210
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
+		> Spitter可以一次吐多個酸液
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2010-2017
+	//HarryPotter @ 2023
+	```
+	* v1.1h (2023-3-22)
+		* Control maximum spit puddles each time Acid Pool drops.
+
+	* v1.0h (2023-2-23)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Rename all cvars
+		* Delete "Acidic Slobber ability", "Acidic Splash".
+		* Replace Gamedata with left4dhooks
+
+	* v1.5
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=122802)
 </details>
 
 - - - -

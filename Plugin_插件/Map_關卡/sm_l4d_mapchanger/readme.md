@@ -14,7 +14,7 @@ Force change to next mission when current mission(final stage) end + Force chang
 	<br/>![sm_l4d_mapchanger_3](image/sm_l4d_mapchanger_3.jpg)
 </details>
 
-* <details><summary>How does this work?</summary>
+* <details><summary>How does it work?</summary>
 
 	* Automatically change next level when survivors wipe out in coop/realism
 	* Automatically change next map when survivors wipe out in survival

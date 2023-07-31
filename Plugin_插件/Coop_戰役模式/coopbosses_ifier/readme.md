@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![coopbosses_ifier_1](image/coopbosses_ifier_1.jpg)
 	<br/>![coopbosses_ifier_2](image/coopbosses_ifier_2.jpg)
 
-* <details><summary>How does this work?</summary>
+* <details><summary>How does it work?</summary>
 
 	* Disable Tank and Witch by Director
 	* Boss (Tank or Witch) will be spawned when the furthest survivor reach a percentage of map

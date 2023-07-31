@@ -8,58 +8,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/2lkefzNmEsk)
 
 * Image | 圖示
-	* The Small Tyrant
-		> 小暴君
-		<br/>![l4d2_Sinister_Jockey_0](image/l4d2_Sinister_Jockey_0.jpg)
-	* Ghost Stalker ability
-		> Ghost Stalker能力
-		<br/>![l4d2_Sinister_Jockey_1](image/l4d2_Sinister_Jockey_1.jpg)
-	* Human Shield ability
-		> Human Shield能力
-		<br/>![l4d2_Sinister_Jockey_2](image/l4d2_Sinister_Jockey_2.jpg)
-	* Gravity Pounce ability
-		> Gravity Pounce能力
-		<br/>![l4d2_Sinister_Jockey_3](image/l4d2_Sinister_Jockey_3.jpg)
+	<br/>![l4d2_Sinister_Jockey_1](image/l4d2_Sinister_Jockey_1.jpg)
+	<br/>![l4d2_Sinister_Jockey_2](image/l4d2_Sinister_Jockey_2.jpg)
+	<br/>![l4d2_Sinister_Jockey_3](image/l4d2_Sinister_Jockey_3.jpg)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014
-	//HarryPotter @ 2022-2023
-	```
-	* v1.1h (2023-2-14)
-		* Rename all cvars
-		* Remake Human Shield ability and make new damage calculation formula
-
-	* v1.0h (2023-1-31)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Delete "Bacterial Feet ability", "Marionette ability", "Rodeo Jump ability", they cause too many bugs.
-		* Replace Gamedata with left4dhooks
-
-	* v1.3
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234267)
+	* <b>Ghost Stalker ability</b> - Allowing the Jockey to become nearly invisible.
+	* <b>Gravity Pounce ability</b> - The Jockey can inflict damage based on how far he drops on a Survivor.
+	* <b>Human Shield ability</b> - The Jockey can use the Survivor as a human shield while riding.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [Jockey Auto Jump by Silvers](https://forums.alliedmods.net/showthread.php?t=316613): Makes the Jockey automatically jump when riding a survivor.
-		> AI jockey 騎人的時候，自動跳高
-	2. [Jockey jump by DieTeetasse](https://forums.alliedmods.net/showthread.php?t=122213): Adding the ability that the jockey can jump with a survivor
-		> Jockey 真人玩家騎人的時候，可以按空白鍵跳高
-	3. [Jockey Ride Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on Jockey ride
-		> 被Jockey騎的時候致盲
-	4. [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding survivors after they would be incapacitated
-		> Jockey可以繼續騎即將要倒地的倖存者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -97,11 +59,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Ghost Stalker ability</b> - Allowing the Jockey to become nearly invisible.
-	* <b>Gravity Pounce ability</b> - The Jockey can inflict damage based on how far he drops on a Survivor.
-	* <b>Human Shield ability</b> - The Jockey can use the Survivor as a human shield while riding.
-
 * <details><summary>Human Shield Calculation Formula</summary>
 	
 	> Example: Jockey gets AWP shot while riding a survivor<br/>
@@ -131,6 +88,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// default: 0.7, maximum: 1.0
 		sm_cvar z_jockey_control_variance"0.7"
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [Jockey Auto Jump by Silvers](https://forums.alliedmods.net/showthread.php?t=316613): Makes the Jockey automatically jump when riding a survivor.
+		> AI jockey 騎人的時候，自動跳高
+	2. [Jockey jump by DieTeetasse](https://forums.alliedmods.net/showthread.php?t=122213): Adding the ability that the jockey can jump with a survivor
+		> Jockey 真人玩家騎人的時候，可以按空白鍵跳高
+	3. [Jockey Ride Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on Jockey ride
+		> 被Jockey騎的時候致盲
+	4. [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding survivors after they would be incapacitated
+		> Jockey可以繼續騎即將要倒地的倖存者
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014
+	//HarryPotter @ 2022-2023
+	```
+	* v1.1h (2023-2-14)
+		* Rename all cvars
+		* Remake Human Shield ability and make new damage calculation formula
+
+	* v1.0h (2023-1-31)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Delete "Bacterial Feet ability", "Marionette ability", "Rodeo Jump ability", they cause too many bugs.
+		* Replace Gamedata with left4dhooks
+
+	* v1.3
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234267)
 </details>
 
 - - - -

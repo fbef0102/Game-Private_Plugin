@@ -12,34 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         > 抓飛倖存者
         <br/>![l4d_ultra_witch_1](image/l4d_ultra_witch_1.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.2h (2023-6-19)
-		* Remove Gamedata (No need)
-
-	* v1.1h (2023-5-10)
-		* Add a convar
-			```php
-			// 0=Plugin off, 1=Plugin on.
-			l4d_ultra_witch_enable "1"
-			```
-
-	* v1.0h (2023-2-25)
-		* Remake Code
-		* Individual plugin
-		* Auto generate cfg
-		* Add cvars
-
-	* v1.2.2
-		* [From SirPlease/L4D2-Competitive-Rewor](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_ultra_witch.sp)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -75,6 +47,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// This command sets the amount of damage a witch attack deals (Default: 100)
 		sm_cvar z_witch_damage 50
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2023-6-19)
+		* Remove Gamedata (No need)
+
+	* v1.1h (2023-5-10)
+		* Add a convar
+			```php
+			// 0=Plugin off, 1=Plugin on.
+			l4d_ultra_witch_enable "1"
+			```
+
+	* v1.0h (2023-2-25)
+		* Remake Code
+		* Individual plugin
+		* Auto generate cfg
+		* Add cvars
+
+	* v1.2.2
+		* [From SirPlease/L4D2-Competitive-Rewor](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_ultra_witch.sp)
 </details>
 
 - - - -

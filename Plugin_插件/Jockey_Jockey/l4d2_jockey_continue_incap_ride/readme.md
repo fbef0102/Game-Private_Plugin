@@ -8,42 +8,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/7J76Zh4Yfxk)
 
 * Image | 圖示
-	* Message
-		> 提示
-		<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.jpg)
 	* Incap Ride Damage
 		> 倒地繼續騎
 		<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.jpg)
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//dcx2 @ 2013
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-2-28)
-		* Rename all cvars
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Replace Gamedata, l4d2_direct.txt with left4dhooks
-
-	* v1.5
-		* [Original Plugin by dcx2](https://forums.alliedmods.net/showthread.php?t=216739)
-</details>
+		<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.jpg)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
-		> 增強Jockey，賦予多種超能力成為小小的暴君
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -74,6 +46,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Jockey Recharge after incapping (Default: 30)
 		sm_cvar z_leap_interval_post_incap "30"
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
+		> 增強Jockey，賦予多種超能力成為小小的暴君
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//dcx2 @ 2013
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-2-28)
+		* Rename all cvars
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Replace Gamedata, l4d2_direct.txt with left4dhooks
+
+	* v1.5
+		* [Original Plugin by dcx2](https://forums.alliedmods.net/showthread.php?t=216739)
 </details>
 
 - - - -

@@ -8,34 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
 
 * Image | 圖示
-	* Spawn uncommon on all maps
-		> 地圖上生成多個特殊一般感染者
-		<br/>![l4d2_spawn_uncommons_1](image/l4d2_spawn_uncommons_1.jpeg)
-	* Add all uncommon models including the last stand update
-		> 支援所有特殊一般感染者的模型
-		<br/>![l4d2_spawn_uncommons_2](image/l4d2_spawn_uncommons_2.jpg)
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//AtomicStryker @ 2009-2011
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-1-26)
-		* Remake Code
-		* Convert code to latest syntax
-		* Changes to fix warnings when compiling on SourceMod 1.11.
-		* Add convars to control each uncommon spawn time, spawn limit.
-		* Unlock fallen survivor limit and time.
-
-	* v1.0.9
-	    * [Original Plugin By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=109623)
-</details>
+	<br/>![l4d2_spawn_uncommons_1](image/l4d2_spawn_uncommons_1.jpeg)
+	<br/>![l4d2_spawn_uncommons_2](image/l4d2_spawn_uncommons_2.jpg)
 
 * Require | 必要安裝
 <br>None
@@ -111,6 +85,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| -------------|:-----------------:|:-------------:|:-------------:|
 	| z_fallen_kill_suppress_time 	| 300 | Seconds 		 | When a Fallen Survivor is killed, how long in seconds should pass before another can spawn.
 	| z_fallen_max_count          	| 1   | Arbitrary number | How many Fallen Survivors can be active at once.
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//AtomicStryker @ 2009-2011
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-1-26)
+		* Remake Code
+		* Convert code to latest syntax
+		* Changes to fix warnings when compiling on SourceMod 1.11.
+		* Add convars to control each uncommon spawn time, spawn limit.
+		* Unlock fallen survivor limit and time.
+
+	* v1.0.9
+	    * [Original Plugin By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=109623)
 </details>
 
 - - - -

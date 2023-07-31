@@ -8,71 +8,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/QbbMb-oOlZ4)
 
 * Image | 圖示
-	* The Unique Boomer
-		> 超級肥宅
-		<br/>![l4d_Nauseating_boomer_0](image/l4d_Nauseating_boomer_0.jpg)
-	* Bile Blast ability
-		> Bile Blast能力
-		<br/>![l4d_Nauseating_boomer_1](image/l4d_Nauseating_boomer_1.gif)
-	* HideHud ability
-		> HideHud能力
-		<br/>![l4d_Nauseating_boomer_2](image/l4d_Nauseating_boomer_2.gif)
-	* Explode FlashBang ability
-		> Explode FlashBang能力
-		<br/>![l4d_Nauseating_boomer_3](image/l4d_Nauseating_boomer_3.gif)
+	<br/>![l4d_Nauseating_boomer_1](image/l4d_Nauseating_boomer_1.gif)
+	<br/>![l4d_Nauseating_boomer_2](image/l4d_Nauseating_boomer_2.gif)
+	<br/>![l4d_Nauseating_boomer_3](image/l4d_Nauseating_boomer_3.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>Details</summary>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	Spanish
-	Portuguese
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mortiegama @ 2014-2017
-	//Marttt @ 2019
-	//HarryPotter @ 2022-2023
-	```
-	* v1.1h (2023-2-14)
-		* Rename some cvars
-		* Correct melee damage when enable Bile Belly ability
-
-	* v1.0h (2023-2-2)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Delete ability "Bile Feet", "Bile Pimple", "Bile Throw", "Explosive Diarrhea".
-		* Add two abilitites
-			* Vomit Recovery: Recovery Boomer vomit cd when get shoved or get hurt by survivor
-			* Explode FlashBang: Flashbang effect when the boomer explodes.
-		* Translation Support
-		* Replace Gamedata with left4dhooks
-
-	* v1.2a
-		* [Marttt's fork](https://forums.alliedmods.net/showpost.php?p=2645757&postcount=51)
-
-	* v1.2
-		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234267)
+	* <b>Bile Belly ability</b> - It is hard to cause direct damage to the Boomer.
+	* <b>Bile Blast ability</b> - When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
+	* <b>HideHud ability</b> - When covered in bile, the Survivors entire view (HUD) is completely covered.
+	* <b>Bile Shower ability</b> - When the Boomer vomits on survivor, it will summon a large mob of common infected.
+	* <b>Explode FlashBang ability</b> - Flashbang effect when the boomer explodes.
+	* <b>Bile Swipe ability</b> - The Boomer has a chance of inflicting burning bile wounds to survivors.
+	* <b>Recovery CD ability</b> - Recovery Boomer vomit cd when get shoved or get hurt by survivor
+	* <b>Flatulence ability</b> - The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [Vomit Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on vomit
-		> 被膽汁噴到有致盲效果
-	2. [l4d2_biletheworld](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_biletheworld3): Vomit Jars hit Survivors, Boomer Explosions slime Infected.
-		> 膽汁瓶會噴到倖存者身上，Boomer爆炸的膽汁噴到特感、Tank、Witch、普通感染者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -184,16 +137,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* <b>Bile Belly ability</b> - It is hard to cause direct damage to the Boomer.
-	* <b>Bile Blast ability</b> - When the Boomer dies, the pressure releases causing a shockwave to damage and send Survivors flying.
-	* <b>HideHud ability</b> - When covered in bile, the Survivors entire view (HUD) is completely covered.
-	* <b>Bile Shower ability</b> - When the Boomer vomits on survivor, it will summon a large mob of common infected.
-	* <b>Explode FlashBang ability</b> - Flashbang effect when the boomer explodes.
-	* <b>Bile Swipe ability</b> - The Boomer has a chance of inflicting burning bile wounds to survivors.
-	* <b>Recovery CD ability</b> - Recovery Boomer vomit cd when get shoved or get hurt by survivor
-	* <b>Flatulence ability</b> - The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
-
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -205,6 +148,60 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// set 0 to move while vomit (Only apply to player)
 		sm_cvar z_vomit_fatigue "0"
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	Spanish
+	Portuguese
+	```
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [Vomit Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on vomit
+		> 被膽汁噴到有致盲效果
+	2. [l4d2_biletheworld](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_biletheworld3): Vomit Jars hit Survivors, Boomer Explosions slime Infected.
+		> 膽汁瓶會噴到倖存者身上，Boomer爆炸的膽汁噴到特感、Tank、Witch、普通感染者
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mortiegama @ 2014-2017
+	//Marttt @ 2019
+	//HarryPotter @ 2022-2023
+	```
+	* v1.1h (2023-2-14)
+		* Rename some cvars
+		* Correct melee damage when enable Bile Belly ability
+
+	* v1.0h (2023-2-2)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Delete ability "Bile Feet", "Bile Pimple", "Bile Throw", "Explosive Diarrhea".
+		* Add two abilitites
+			* Vomit Recovery: Recovery Boomer vomit cd when get shoved or get hurt by survivor
+			* Explode FlashBang: Flashbang effect when the boomer explodes.
+		* Translation Support
+		* Replace Gamedata with left4dhooks
+
+	* v1.2a
+		* [Marttt's fork](https://forums.alliedmods.net/showpost.php?p=2645757&postcount=51)
+
+	* v1.2
+		* [Original Plugin by Mortiegama](https://forums.alliedmods.net/showthread.php?t=234267)
 </details>
 
 - - - -
