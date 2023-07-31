@@ -12,53 +12,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
-	* Dance (Up to 84 Emotes and Dance)
-		> 支援自製模組跳舞
-		<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
-	* Menu
-		> 介面
-		<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
-	* Troll
-		> 一起跳
-		<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	Spanish
-	Turkish
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * 1.5.0 (2022-11-14)
-	    * Player dances when someone uses kit to heal him
-	    * fix translation error
-	    * fix file error
-		* Compatibility support for SourceMod 1.11. Fixed various warnings.
-		* Combine L4D1 and L4D2 required files
-		* Add convar to disable dance dounce and stop downloading sound files
-
-    * v1.4.3
-	    * [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
-</details>
+	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
+	<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
+	<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
 
 * Require | 必要安裝
 <br/>None
-
-* Related Plugin | 相關插件
-	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
-		> 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
-	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
-		> 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -115,17 +74,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * How do I set up files
 	1. Preparation
 		* Download all files(addons, materials, models, and sound).
-		* Put them in the correct folder ("Left 4 Dead Dedicated Server\left4dead" or "Left 4 Dead 2 Dedicated Server\left4dead2" folder depending on your game).
+		* Put them in your game server
+    		* If L4D1, ```Left 4 Dead Dedicated Server\left4dead```
+    		* If L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
 		* Prepare your content-server for FastDL, if you don't know what "FastDL" is, please google it
 
 	2. Setup server to work with downloadable content
 		* ConVars in your cfg/server.cfg should be:
-			* If you are l4d1
+			* If you are L4D1
 			```php
 			sm_cvar sv_allowdownload "1"
 			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead/"
 			```
-			* If you are l4d2
+			* If you are L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
 			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2"	
@@ -133,13 +94,52 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	3. Uploading files to server.
 		* Upload "models" and "sound" folder to content-server
-			* If you are l4d1, your-content-server.com/game/left4dead/models/ and your-content-server.com/game/left4dead/sound/
-			* If you are l4d2, your-content-server.com/game/left4dead2/models/ and your-content-server.com/game/left4dead2/sound/
-		* Upload "models" and "sound" folder to game server. ("Left 4 Dead Dedicated Server\left4dead" or "Left 4 Dead 2 Dedicated Server\left4dead2" folder depending on your game)
-		* Upload "models" and "sound" folder to your client's game folder (for test reasons).
+			* If you are L4D1, ```your-content-server.com/game/left4dead/models/``` and ```your-content-server.com/game/left4dead/sound/```
+			* If you are L4D2, ```your-content-server.com/game/left4dead2/models/``` and ```your-content-server.com/game/left4dead2/sound/```
+		* Upload "models" and "sound" folder to game server.
+    		* If you are L4D1, ```Left 4 Dead Dedicated Server\left4dead```
+    		* If you are L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
+		* Upload "models" and "sound" folder to your client's game folder (for test).
+    		* If you are L4D1, ```left 4 dead\left4dead\models\``` and ```left 4 dead\left4dead\sound\```
+    		* If you are L4D2, ```Left 4 Dead 2\left4dead2\models\``` and ```Left 4 Dead 2\left4dead2\sound\```
 
 	4. Start the server and test
 		* Join survivor and type !dance.
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	Spanish
+	Turkish
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
+		> 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
+	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
+		> 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * 1.5.0 (2022-11-14)
+	    * Player dances when someone uses kit to heal him
+	    * fix translation error
+	    * fix file error
+		* Compatibility support for SourceMod 1.11. Fixed various warnings.
+		* Combine L4D1 and L4D2 required files
+		* Add convar to disable dance dounce and stop downloading sound files
+
+    * v1.4.3
+	    * [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
+</details>
 
 - - - -
 # 中文說明
@@ -161,17 +161,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 如何設定檔案
 	1. 準備清單
 		* 下載所有文件（插件和模組檔案與音樂）。
-		* 將它們放在正確的資料夾中（“Left 4 Dead Dedicated Server\left4dead”或“Left 4 Dead 2 Dedicated Server\left4dead2”資料夾，具體取決於您的遊戲）。
+		* 將它們放入遊戲伺服器資料夾中
+    		* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead```
+    		* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2```
 		* 準備你的網空並可以支援FastDL, 不知道什麼是FastDL請自行Google
 		
 	2. 設置伺服器以處理可下載的內容
-		* 您的 cfg/server.cfg 中的 ConVars 應該是：
-			* 如果你是 l4d1
+		* 寫入以下內容到cfg/server.cfg
+			* 如果你是 L4D1
 			```php
 			sm_cvar sv_allowdownload "1"
 			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead/"
 			```
-			* 如果你是 l4d2
+			* 如果你是 L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
 			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2"	
@@ -179,10 +181,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 	3. 上傳文件到伺服器。
 		* 將"models" 和 "sound"資料夾上傳到網空伺服器
-			* 如果你是 l4d1，your-content-server.com/game/left4dead/models/ 和 your-content-server.com/game/left4dead/sound/
-			* 如果你是 l4d2，your-content-server.com/game/left4dead2/models/ 和 your-content-server.com/game/left4dead2/sound/
-		* 將"models" 和 "sound"資料夾複製到您的遊戲伺服器資料夾上。 ("Left 4 Dead Dedicated Server\left4dead" 或 "Left 4 Dead 2 Dedicated Server\left4dead2")
-		* 將"models" 和 "sound"資料夾上傳到您客戶端的遊戲資料夾（出於測試原因）。
+			* 如果你是 L4D1，```your-content-server.com/game/left4dead/models/``` 和 ```your-content-server.com/game/left4dead/sound/```
+			* 如果你是 L4D2，```your-content-server.com/game/left4dead2/models/``` 和 ```your-content-server.com/game/left4dead2/sound/```
+		* 將"models" 和 "sound"資料夾複製到您的遊戲伺服器資料夾上。
+    		* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead\models\``` 和 ```Left 4 Dead Dedicated Server\left4dead\sound\```
+    		* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2\models\``` 和 ```Left 4 Dead 2 Dedicated Server\left4dead\sound\```
+		* 將"models" 和 "sound"資料夾上傳到您的遊戲資料夾（用於測試）。
+    		* 如果你是 L4D1，```left 4 dead\left4dead\models\``` 和 ```left 4 dead\left4dead\sound\```
+    		* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
 		
 	4. 啟動伺服器並測試
 		* 加入倖存者並輸入!dance，測試跳舞是否有動作

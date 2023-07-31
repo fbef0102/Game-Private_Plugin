@@ -8,49 +8,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/_hxVZ_hFXm4)
 
 * Image | 圖示
-	* Kill a Witch and put her on your back
-        > 殺死Witch獲得神奇寶貝: Witch守衛者
-        <br/>![l4d_witch_guard_1](image/l4d_witch_guard_1.gif)
-	* Put down a witch as guard
-        > 放下Witch守衛者
-        <br/>![l4d_witch_guard_2](image/l4d_witch_guard_2.gif)
+	<br/>![l4d_witch_guard_1](image/l4d_witch_guard_1.gif)
+	<br/>![l4d_witch_guard_2](image/l4d_witch_guard_2.gif)
 
+* <details><summary>How does this work?</summary>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//panxiaohai @ 2011-2012
-	//Dragokas @ 2019
-	//Marttt @ 2020
-	//HarryPotter @ 2022-2023
-	```
-	* 1.0h (2023-4-11)
-		* Remove some cvars
-		* Play animation and progress bar while putting down the with
-		* More hints
-		* Add Witch Guard color
-
-	* v.1.4.9.8
-		* [Marttt's fork](https://forums.alliedmods.net/showpost.php?p=2648766&postcount=22)
-
-	* v1.3
-		* [Dragokas's fork](https://forums.alliedmods.net/showpost.php?p=2648766&postcount=22)
-
-	* v1.1
-		* [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=166138)
+  * After kill the Witch, have change to put her on your back.
+  * Hold Ctrl+E for 4 seconds to put down the witch guard
+  * What can witch guard do?
+	* Kill special infected near around
+	* Kill common infected near around
+	* Kill Tank/Witch near around
 </details>
 
 * Require | 必要安裝
@@ -156,13 +124,53 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//panxiaohai @ 2011-2012
+	//Dragokas @ 2019
+	//Marttt @ 2020
+	//HarryPotter @ 2022-2023
+	```
+    * v1.1h (2023-7-31)
+        * Carrying the with guard across maps in coop/realism
+
+	* 1.0h (2023-4-11)
+		* Remove some cvars
+		* Play animation and progress bar while putting down the with
+		* More hints
+		* Add Witch Guard color
+
+	* v.1.4.9.8
+		* [Marttt's fork](https://forums.alliedmods.net/showpost.php?p=2648766&postcount=22)
+
+	* v1.3
+		* [Dragokas's fork](https://forums.alliedmods.net/showpost.php?p=2648766&postcount=22)
+
+	* v1.1
+		* [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=166138)
+</details>
+
 - - - -
 # 中文說明
 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
 
 * 原理
 	* 殺死Witch之後，有機率獲得Witch防衛者，自動放在背後
-	* 按下Ctrl+E鍵四秒鐘可以放下Witch防衛者，她會自動對普通感染者或者特感開槍
+	* 按下Ctrl+E鍵四秒鐘可以放下Witch防衛者，她會自動對附近的普通感染者或者特感開槍
 
 * 功能
 	* 可設置Witch防衛者光圈顏色、發光範圍、閃爍效果

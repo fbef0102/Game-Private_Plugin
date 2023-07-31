@@ -5,44 +5,25 @@ Force change to next mission when current mission(final stage) end + Force chang
 * Video | 影片展示
 <br/>None
 
-* Image
-	* Force to change next map when survivors wipe out
+* <details><summary>Image</summary>
+
+	* Automatically change next level when survivors wipe out in coop/realism
 	<br/>![sm_l4d_mapchanger_1](image/sm_l4d_mapchanger_1.jpg)
-	* Vote to next map (including custom map) when survivors leave the saferoom
-	* Automatic parsing of custom maps vpk files - no need to add map names manually
+	* Players can vote next map
 	<br/>![sm_l4d_mapchanger_2](image/sm_l4d_mapchanger_2.jpg)
-	* Switching to the vote winner
 	<br/>![sm_l4d_mapchanger_3](image/sm_l4d_mapchanger_3.jpg)
+</details>
 
-* Apply to | 適用於
-    ```
-    L4D2 coop/survival/versus/realism/scavenge
-    ```
+* <details><summary>How does this work?</summary>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Dionys @ 2008~2009
-	//Harry @ 2019~2023
-	```
-    * v1.1h (2023-4-18)
-        * Optimize code
-		* Fixed next map not working in custom final maps
-
-    * v1.0h (2023-4-17)
-		* Support Scavenge Mode. After scavenge match ends, force to change next map
-		* Player can vote the next map in survival/scavenge or next campaign in coop/versus
-		* Require l4d2_mission_manager
-
-    * v2.6 (2023-3-30)
-		* [Old Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/sm_l4d_mapchanger)
+	* Automatically change next level when survivors wipe out in coop/realism
+	* Automatically change next map when survivors wipe out in survival
+	* Automatically change next map when match end in scavenge
+	* Automatically change next map when final ends in versus/cooo/realism
+	* Automatic parsing of custom maps vpk files - no need to add map names manually
+	* Next map vote starts when 
+    	* Leaving the saferoom
+    	* Survival/Scavenge round starts 
 </details>
 
 * Require | 必要安裝
@@ -50,36 +31,13 @@ Force change to next mission when current mission(final stage) end + Force chang
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [l4d2_mission_manager](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_mission_manager)
 
-* Related Plugin | 相關插件
-	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
-    	> 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
-
-	2. [l4d_random_map_vote](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_random_map_vote):Vote to change map, the map is chosen randomly from data
-    	> 投票更換地圖，但是地圖是隨機挑選的
-
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>ConVar</summary>
 
 	* cfg\sourcemod\sm_l4d_mapchanger.cfg
 		```php
-		// Enables next mission and how many chances left to advertise to players.
-		sm_l4d_fmc_announce "1"
-
-		// Quantity of rounds (tries) events survivors wipe out before force of changelevel on final maps in coop/realism (0=Off)
-		sm_l4d_fmc_crec_coop_final "3"
-
-		// Quantity of rounds (tries) events survivors wipe out before force of changelevel on non-final maps in coop/realism (0=Off)
-		sm_l4d_fmc_crec_coop_map "3"
-
-		// Quantity of rounds (tries) events survivors wipe out before force of changelevel in survival. (0=Off)
-		sm_l4d_fmc_crec_survival_map "5"
-
 		// Mission for change by default on final map in coop/realism.
 		// Empty=Use configs/missioncycle.coop.txt map order
 		sm_l4d_fmc_def_coop ""
-
-		// Map for change by default in scavenge.
-		// Empty=Use configs/missioncycle.scavenge.txt map order
-		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
 
 		// Map for change by default in survival.
 		// Empty=Use configs/missioncycle.survival.txt map order
@@ -89,23 +47,45 @@ Force change to next mission when current mission(final stage) end + Force chang
 		// Empty=Use configs/missioncycle.versus.txt map order
 		sm_l4d_fmc_def_versus ""
 
-		// After final rescue vehicle leaving, delay before force of changelevel in coop/realism. (0=Don't force to change map)
-		sm_l4d_fmc_delay_coop_final "15.0"
+		// Map for change by default in scavenge.
+		// Empty=Use configs/missioncycle.scavenge.txt map order
+		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
 
-		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
-		sm_l4d_fmc_delay_scavenge "15.0"
+		// Quantity of rounds (tries) events survivors wipe out before force of changelevel on non-final maps in coop/realism (0=Off)
+		sm_l4d_fmc_crec_coop_map "3"
 
-		// After quantity of survival rounds (tries), delay before force of changelevel in survival. (0=Don't force to change map)
-		sm_l4d_fmc_delay_survival "15.0"
+		// Quantity of rounds (tries) events survivors wipe out before force of changelevel on final maps in coop/realism (0=Off)
+		sm_l4d_fmc_crec_coop_final "3"
+
+		// Quantity of rounds (tries) events survivors wipe out before force of changelevel in survival. (0=Off)
+		sm_l4d_fmc_crec_survival_map "5"
 
 		// After final map finishes, delay before force of changelevel in versus. (0=Don't force to change map)
 		sm_l4d_fmc_delay_vs "13.0"
 
-		// Time in seconds between advertisements for the next campaign/map on finales and scavenge maps. (0=Off)
+		// After quantity of survival rounds (tries), delay before force of changelevel in survival. (0=Don't force to change map)
+		sm_l4d_fmc_delay_survival "15.0"
+
+		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
+		sm_l4d_fmc_delay_scavenge "15.0"
+
+		// After final rescue vehicle leaving, delay before force of changelevel in coop/realism. (0=Don't force to change map)
+		sm_l4d_fmc_delay_coop_final "15.0"
+
+		// Enables next mission and how many chances left to advertise to players.
+		sm_l4d_fmc_announce "1"
+
+		// If 1, Enables players to vote for the next map or campaign.
+		sm_l4d_fmc_voting_system_enabled "1"
+
+		// How the next campaign/map is advertised during a finale and scavenge/survival map [0 = DISABLED, 1 = HINT TEXT, 2 = CHAT TEXT]
+		sm_l4d_fmc_next_map_ad_mode "2"
+
+		// Time in seconds between advertisements for the next campaign/map on finales and scavenge/survival maps. (0=Off)
 		sm_l4d_fmc_next_map_ad_interval "120.0"
 
-		// How the next campaign/map is advertised during a finale or scavenge map [0 = DISABLED, 1 = HINT TEXT, 2 = CHAT TEXT]
-		sm_l4d_fmc_next_map_ad_mode "2"
+		// Time in seconds to wait after survivors leave the start area to advertise voting system. (0=Off)
+		sm_l4d_fmc_voting_ad_delay_time "10.0"
 
 		// If 1, Excludes current map(s) from the map voting menu
 		sm_l4d_fmc_next_map_menu_excludes "1"
@@ -118,16 +98,10 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 		// If 1, The server automatically switch to the first available official map when no one is playing a 3-rd map
 		sm_l4d_fmc_prevent_empty_server "1"
-
-		// Time in seconds to wait after survivors leave the start area to advertise voting system. (0=Off)
-		sm_l4d_fmc_voting_ad_delay_time "10.0"
-
-		// If 1, Enables players to vote for the next map or campaign.
-		sm_l4d_fmc_voting_system_enabled "1"
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>Command</summary>
     
    * **Display Next Map**
 		```php
@@ -146,7 +120,8 @@ Force change to next mission when current mission(final stage) end + Force chang
 		```
 </details>
 
-* Example Config
+* <details><summary>Example Config</summary>
+
 	* data\sm_l4d_mapchanger.txt
 		```php
 		"ForceMissionChangerSettings"
@@ -171,18 +146,58 @@ Force change to next mission when current mission(final stage) end + Force chang
 		l4d2_deathcraft_05_lighthouse
 		l4d2_minecraft_evolution
 		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D2 coop/survival/versus/realism/scavenge
+    ```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
+    	> 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
+
+	2. [l4d_random_map_vote](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_random_map_vote):Vote to change map, the map is chosen randomly from data
+    	> 投票更換地圖，但是地圖是隨機挑選的
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Dionys @ 2008~2009
+	//Harry @ 2019~2023
+	```
+    * v1.1h (2023-4-18)
+        * Optimize code
+		* Fixed next map not working in custom final maps
+
+    * v1.0h (2023-4-17)
+		* Support Scavenge Mode. After scavenge match ends, force to change next map
+		* Player can vote the next map in survival/scavenge or next campaign in coop/versus
+		* Require l4d2_mission_manager
+
+    * v2.6 (2023-3-30)
+		* [Old Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/sm_l4d_mapchanger)
+</details>
 
 - - - -
 # 中文說明
 最後一關結束時自動換圖 + 滅團N次後自動切換到下一個關卡 + 玩家投票下一張地圖 (生存/對抗/清道夫模式也適用)
 
-* 圖示
+* <details><summary>圖示</summary>
+
 	* 自動切換到下一張地圖
 	<br/>![sm_l4d_mapchanger_1_zho](image/zho/sm_l4d_mapchanger_1_zho.jpg)
-	* 投票選擇下一張地圖 (會自動顯示所有地圖包括三方圖)
+	* 玩家可以投票選擇下一張地圖 (會自動顯示所有地圖包括三方圖)
 	<br/>![sm_l4d_mapchanger_2_zho](image/zho/sm_l4d_mapchanger_2_zho.jpg)
-	* 最高票的地圖當選為下一張地圖
 	<br/>![sm_l4d_mapchanger_3_zho](image/zho/sm_l4d_mapchanger_3_zho.jpg)
+</details>
 
 * 原理
     * 戰役/寫實模式中當倖存者滅團超過N次時，自動切換到下一個關卡
@@ -197,15 +212,102 @@ Force change to next mission when current mission(final stage) end + Force chang
 		* 清道夫模式計時開始之後
 
 * 功能
-	* 可設定滅團的次數，請查看指令
 	* 自動新增三方圖的關卡與地圖名，無須手動新增
+	* 查看下方 "指令中文介紹"
 	* 玩家可以輸入!mapvote投票決定下一張地圖
-	* 可設定文件```data\sm_l4d_mapchanger.txt```決定切換到哪一張地圖
-	* 可設定文件```configs\finale.coop.txt.txt```決定哪些關卡為最終章節
-	* 可設定三方圖沒有人時，自動換回官方圖
 
-* 文件設定
-	* data\sm_l4d_mapchanger.txt
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg\sourcemod\sm_l4d_mapchanger.cfg
+		```php
+		// 預設 戰役/寫實模式 最終關之後的下一張地圖
+		// 空=下一張地圖依照configs\missioncycle.coop.txt的地圖順序
+		sm_l4d_fmc_def_coop ""
+
+		// 預設 生存模式 的下一張地圖
+		// 空=下一張地圖依照configs\missioncycle.survival.txt的地圖順序
+		sm_l4d_fmc_def_survival "c5m5_bridge"
+
+		// 預設 對抗模式 最終關之後的下一張地圖
+		// 空=下一張地圖依照configs\missioncycle.versus.txt的地圖順序
+		sm_l4d_fmc_def_versus ""
+
+		// 預設 清道夫模式 的下一張地圖
+		// 空=下一張地圖依照configs\missioncycle.scavenge.txt的地圖順序
+		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
+
+		// 戰役/寫實模式 下非最終關卡，生還者滅團超過三次則切換到下一個關卡 (0=關閉這項功能)
+		sm_l4d_fmc_crec_coop_map "3"
+
+		// 戰役/寫實模式 下最終關卡，生還者滅團超過三次則切換到下一張地圖 (0=關閉這項功能)
+		sm_l4d_fmc_crec_coop_final "3"
+
+		// 生存模式 下最終關卡，生還者滅團超過三次則切換到下一張地圖. (0=關閉這項功能)
+		sm_l4d_fmc_crec_survival_map "5"
+
+		// 對抗模式 最終關結束時，13秒之後切換下一張地圖. (0=不要切換地圖)
+		sm_l4d_fmc_delay_vs "13.0"
+
+		// 生存模式 回合結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
+		sm_l4d_fmc_delay_survival "15.0"
+
+		// 清道夫模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
+		sm_l4d_fmc_delay_scavenge "15.0"
+
+		// 戰役/寫實模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
+		sm_l4d_fmc_delay_coop_final "15.0"
+
+		// 為1時，持續發公告顯示下一張地圖.
+		sm_l4d_fmc_announce "1"
+
+		// 為1時，玩家可以投票決定下一張地圖.
+		sm_l4d_fmc_voting_system_enabled "1"
+
+		// 如何發公告顯示下一張地圖 [0 = 不發公告, 1 = 黑底白字框, 2 = 聊天框]
+		sm_l4d_fmc_next_map_ad_mode "2"
+
+		// 每隔120秒發公告顯示下一張地圖. (0=關閉這項功能)
+		sm_l4d_fmc_next_map_ad_interval "120.0"
+
+		// 離開安全室或回合開始10秒後顯示投票介面. (0=關閉這項功能)
+		sm_l4d_fmc_voting_ad_delay_time "10.0"
+
+		// 為1時，不能投票給當前相同的地圖
+		sm_l4d_fmc_next_map_menu_excludes "1"
+
+		// 投票介面顯示的地圖有 [0 = 官方圖與三方圖, 1 = 官方圖, 2 = 依照當前地圖與當前遊戲模式決定 ]
+		sm_l4d_fmc_next_map_menu_options "0"
+
+		// 投票介面如何顯示地圖順序 [0 = 先顯示官方圖再顯示三方圖, 1 = 隨便]
+		sm_l4d_fmc_next_map_menu_order "0"
+
+		// 為1時，三方圖沒有人時，自動換回官方圖
+		sm_l4d_fmc_prevent_empty_server "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+   * **顯示下一張地圖**
+		```php
+		sm_fmc_nextmap
+		sm_fmc
+		```
+
+   * **投票下一張地圖**
+		```php
+		sm_mapvote
+		```
+
+   * **查看所有票數**
+		```php
+		sm_mapvotes
+		```
+</details>
+
+* <details><summary>文件設定</summary>
+
+	* 設定文件```data\sm_l4d_mapchanger.txt```決定切換到哪一張地圖
 		```php
 		"ForceMissionChangerSettings"
 		{
@@ -229,13 +331,15 @@ Force change to next mission when current mission(final stage) end + Force chang
 		} 
 		```
 
-	* configs\finale.coop.txt.txt
+	* 設定文件```configs\finale.coop.txt.txt```決定哪些關卡為最終章節
 		```php
 		// 戰役/對抗/寫實模式下 這些關卡將視為最終章節，在這些章節可以投票與自動換圖
 		// 避免一堆垃圾三方圖明明是救援關卡卻不是最後的章節
 		l4d2_deathcraft_05_lighthouse
 		l4d2_minecraft_evolution
 		```
+</details>
+
 
 * 注意事項
     1. <details><summary>安裝此插件之後</summary>

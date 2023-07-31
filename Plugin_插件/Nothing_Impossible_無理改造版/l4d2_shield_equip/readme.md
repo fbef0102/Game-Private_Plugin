@@ -9,7 +9,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Shield Weapons
     <br/>![l4d2_shield_equip_1](image/l4d2_shield_equip_1.jpg)
     <br/>![l4d2_shield_equip_2](image/l4d2_shield_equip_2.jpg)
     <br/>![l4d2_shield_equip_3](image/l4d2_shield_equip_3.jpg)
@@ -17,45 +16,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d2_shield_equip_5](image/l4d2_shield_equip_5.gif)
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
+* <details><summary>How does this work?</summary>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//panxiaohai @ 2013
-	//HarryPotter @ 2023
-	```
-    * v1.1h (2023-7-3)
-        * Hook command listener "```give shield```" to give a shield in console (need sv_cheats 1 or ~FCVAR_CHEAT bit)
-
-    * v1.0h (2023-6-25)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Translation Support
-        * Shield Damage to CI, SI, Tank and Witch by shoving
-        * Attach shield model to Riot uncommon infected and drop shield when killed
-        * Attach shield model to Tank and drop shield when tank dies
-        * Add commands to drop the shield, adm can give a shield
-        * Add Shield Glow Color on the ground
-        * Allows shoving to stagger chargers, tanks, witches when survivor has shield on hand
-        * Customize weapons and melee being equipped with shield.
-        * Display shield model on player's back
-        * Shield drops when survivor dies
-        * Players can take shield to next level in coop/realism mode.
-
-    * v1.3
-	    * [Original Plugin By panxiaohai](https://forums.alliedmods.net/showthread.php?t=222674)
+    * How to get a shield 
+      * Kill riot uncommon infected who has shield
+      * Kill tank who has shield
+      * Kill witch who has shield
+      * Admin types "!shield"
+    * How to use shield
+      * Switch to pistols or melee weapons, and you will have shiled on your left hand
+    * Shield feature
+      * Deduce damage from common, S.I, Tank and Witch
+      * Shove Melee to stagger Tank, Witch, Charger
+      * Shove Melee to do huge damage to Tank, Witch, Charger
 </details>
 
 * Require | 必要安裝
@@ -63,11 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
 
-* Related Plugin | 相關插件
-	1. [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
-		> 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
-
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>ConVar</summary>
 
     * cfg/sourcemod/l4d2_shield_equip.cfg
         ```php
@@ -159,7 +128,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>Command</summary>
 	
 	* **Give/Remove a shield**
 		```php
@@ -175,6 +144,54 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_giveshield <player>
 		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* Related Plugin | 相關插件
+	1. [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
+		> 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//panxiaohai @ 2013
+	//HarryPotter @ 2023
+	```
+    * v1.2h (2023-7-31)
+        * Carrying the shield across maps in coop/realism
+
+    * v1.1h (2023-7-3)
+        * Hook command listener "```give shield```" to give a shield in console (need sv_cheats 1 or ~FCVAR_CHEAT bit)
+
+    * v1.0h (2023-6-25)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Translation Support
+        * Shield Damage to CI, SI, Tank and Witch by shoving
+        * Attach shield model to Riot uncommon infected and drop shield when killed
+        * Attach shield model to Tank and drop shield when tank dies
+        * Add commands to drop the shield, adm can give a shield
+        * Add Shield Glow Color on the ground
+        * Allows shoving to stagger chargers, tanks, witches when survivor has shield on hand
+        * Customize weapons and melee being equipped with shield.
+        * Display shield model on player's back
+        * Shield drops when survivor dies
+        * Players can take shield to next level in coop/realism mode.
+
+    * v1.3
+	    * [Original Plugin By panxiaohai](https://forums.alliedmods.net/showthread.php?t=222674)
 </details>
 
 - - - -

@@ -1,5 +1,5 @@
 # Description | 內容
-Sets a tank and witch spawn point on every map in versus + Makes Versus Boss Spawns obey cvars
+Sets a tank and witch spawn point based on the percentage of passing the map in versus mode
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -9,30 +9,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* display message when leaving out saferoom
-		> 出門顯示Boss路程
-		<br/>![versusbosses_ifier_1](image/versusbosses_ifier_1.jpg)
-	* display message when this plugin spawns tank/witch
-		> Boss生成時顯示訊息
-		<br/>![versusbosses_ifier_2](image/versusbosses_ifier_2.jpg)
+	<br/>![versusbosses_ifier_1](image/versusbosses_ifier_1.jpg)
+	<br/>![versusbosses_ifier_2](image/versusbosses_ifier_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1 versus
-	L4D2 versus
-	```
+* <details><summary>How does this work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.5h (2023-6-20)
-        * Require left4dhooks v1.33 or above
-
-	* v1.4h (2023-2-11)
-		* Fix plugin does not work if there is no any start safe area in some custom maps
-	    * Makes Versus Boss Spawns obey cvars
-
-	* v1.3
-	    * Initial Release
+	* Control Versus director, Boss (Tank or Witch) will be spawned when the furthest survivor reach a percentage of map
+	* For example
+  		```php
+		// When furthest survivor reach 79% of map completion, the Tank will be spawned.
+		// Same algorithm for Witch.
+		Tank spawn: 79%,
+		Witch spawn: 70%
+		```
+	* Spawn only one tank and one witch each round
 </details>
 
 * Require | 必要安裝
@@ -41,19 +31,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 	4. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
-* Optional | 輔助插件
-	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
-		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
-
-* Similar Plugin | 相似插件
-	1. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-
-* Related | 相關插件
-	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
-		> 使用指令顯示人類目前的路程
-
-* Data Example
+* <details><summary>Data Example</summary>
+  
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -89,6 +68,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * <details><summary>Related Official ConVar</summary>
 
@@ -162,20 +142,53 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
+
+* Optional | 輔助插件
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
+
+* Similar Plugin | 相似插件
+	1. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+
+* Related | 相關插件
+	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
+		> 使用指令顯示人類目前的路程
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.5h (2023-6-20)
+        * Require left4dhooks v1.33 or above
+
+	* v1.4h (2023-2-11)
+		* Fix plugin does not work if there is no any start safe area in some custom maps
+	    * Makes Versus Boss Spawns obey cvars
+
+	* v1.3
+	    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * 原理
-	* 覆蓋原本的導演生成系統，由此插件決定何時生成Tank與Witch
-	* 由官方指令與data/mapinfo.txt輔助文件決定每一關的路程範圍，請查看Data設定範例與相關的官方指令中文介紹
+	* 此插件控制導演系統，決定何時生成Tank與Witch
+	* 假設75%生成Tank，當人類路程走到75%路程，生成Tank
+  	* Witch同理
+	* 由官方指令決定每一關的Tank與Witch生成範圍
+	* 每回合只會生成一隻Tank與Witch
 
 * 功能
-	* 可決定每一關是否該生成 Tank/Witch
-	* 可自行調整關卡，每個章節某些路段禁止生成 Tank/Witch
-	* 可自行調製整地圖最遠到哪與最近到哪生成 Tank/Witch
+	* 查看下方"Data設定範例"、"指令中文介紹"、"命令中文介紹"
 
-* Data設定範例
+* <details><summary>Data設定範例</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -211,9 +224,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
-> 每一張地圖都有地形或地圖問題，<br/>
-在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
-(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+	> 每一張地圖都有地形或地圖問題，<br/>
+	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
+	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
@@ -230,11 +244,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_witch_chance 			"1" //最後一關
 
 		// 決定關卡的Boss生成路程: 25% ~ 85%
-		sm_cvar versus_boss_flow_min_intro 		"0.20" //第一關
+		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關
 		sm_cvar versus_boss_flow_max_intro 		"0.85"
 		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
 		sm_cvar versus_boss_flow_max 			"0.85"
-		sm_cvar versus_boss_flow_min_finale 	"0.20"
+		sm_cvar versus_boss_flow_min_finale 	"0.25"
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
 		```
 </details>

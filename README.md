@@ -306,7 +306,7 @@ My Unpublic Private Plugin (Charge)
     * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
     * 戰役模式通關之時恢复並設定倖存者血量
-  * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+  * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
@@ -314,7 +314,7 @@ My Unpublic Private Plugin (Charge)
 
   * [l4d_zcs](/Plugin_插件/Versus_對抗模式/l4d_zcs): Allows infected team players to change their class in ghost mode.
     * 特感玩家可以在靈魂狀態自行切換特感種類
-  * [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus
+  * [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in versus mode
     * 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d_trade_player](/Plugin_插件/Versus_對抗模式/l4d_trade_player): Type !trade to open a menu to select two players to swap, one from survivor team and another one from infected team.
     * 輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
