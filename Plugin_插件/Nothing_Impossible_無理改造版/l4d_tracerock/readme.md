@@ -10,11 +10,57 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	<br/>![l4d_tracerock_1](image/l4d_tracerock_1.gif)
 
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_tracerock.cfg
+		```php
+		//  0=Disable, 1=Enable this plugin 
+		l4d_tracerock_enable "1"
+
+		// The chance of trace of rock [0-100](int)
+		l4d_tracerock_chance "100"
+
+		// Trace rock's speed
+		l4d_tracerock_speed "300"
+
+		// (L4D2) Set trace rock's glow type. 0 = OFF, 1 = OnUse (doesn't works well), 2 = OnLookAt (doesn't works well), 3 = Constant (better results)
+		l4d_tracerock_glow_type "3"
+
+		// (L4D2) Set trace rock's glow range
+		l4d_tracerock_glow_range "1500"
+
+		// (L4D2) Set trace rock's glow color. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_tracerock_glow_color "-1 -1 -1"
+
+		// (L4D2) Add a flashing effect on glowing trace rock.(0 = OFF, 1 = ON)
+		l4d_tracerock_glow_flashing "1"
+
+		// Set trace rock's self kill timer.
+		l4d_tracerock_kill "30.0"
+
+		// Trace rock update time interval.
+		l4d_tracerock_time_interval "0.03"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+	
+	None
+</details>
+
+
 * Apply to | 適用於
 	```
 	L4D1
 	L4D2
 	```
+
+* Related Plugin | 相關插件
+	1. [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+		> Tank不扔石頭而是扔出特感
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -34,51 +80,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* [By Pan Xiaohai](https://forums.alliedmods.net/showthread.php?t=134537)
 </details>
 
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-		> Tank不扔石頭而是扔出特感
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/l4d_tracerock.cfg
-		```php
-		// The chance of trace of rock [0-100](int)
-		l4d_tracerock_chance "100"
-
-		//  0=Disable, 1=Enable this plugin 
-		l4d_tracerock_enable "1"
-
-		// (L4D2) Set trace rock's glow color. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-		l4d_tracerock_glow_color "-1 -1 -1"
-
-		// (L4D2) Add a flashing effect on glowing trace rock.(0 = OFF, 1 = ON)
-		l4d_tracerock_glow_flashing "1"
-
-		// (L4D2) Set trace rock's glow range
-		l4d_tracerock_glow_range "1500"
-
-		// (L4D2) Set trace rock's glow type. 0 = OFF, 1 = OnUse (doesn't works well), 2 = OnLookAt (doesn't works well), 3 = Constant (better results)
-		l4d_tracerock_glow_type "3"
-
-		// Set trace rock's self kill timer.
-		l4d_tracerock_kill "30.0"
-
-		// Trace rock's speed
-		l4d_tracerock_speed "300"
-
-		// Trace rock update time interval.
-		l4d_tracerock_time_interval "0.03"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 - - - -
 # 中文說明
 Tank的石頭自動追蹤倖存者
@@ -89,7 +90,35 @@ Tank的石頭自動追蹤倖存者
 	* 石頭如果沒有砸到倖存者一直停留在空中會自動消失
 	* 真人Tank玩家也適用
 
-* 功能
-	* 可設置石頭的飛行速度
-	* 可設置石頭的光圈顏色
-	* 可設置丟出來的是追蹤石頭的機率
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_tracerock.cfg
+		```php
+		//  0=關閉插件, 1=起動插件
+		l4d_tracerock_enable "1"
+
+		// Tank的石頭變成追蹤石頭的機率 [1-100]%
+		l4d_tracerock_chance "100"
+
+		// 追蹤石頭的飛行速度
+		l4d_tracerock_speed "300"
+
+		// (L4D2) 追蹤石頭的光圈型態. 0 = 關閉光圈, 1 = 使用時才發光 (沒捨用), 2 = 看到時才發光 (沒捨用), 3 = 隔牆發光 (建議使用此值)
+		l4d_tracerock_glow_type "3"
+
+		// (L4D2) 追蹤石頭的光圈發光範圍
+		l4d_tracerock_glow_range "1500"
+
+		// (L4D2) 追蹤石頭的光圈顏色，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1 = 隨機顏色]
+		l4d_tracerock_glow_color "-1 -1 -1"
+
+		// (L4D2) 追蹤石頭的光圈會閃爍 (0 = 關閉, 1 = 開啟)
+		l4d_tracerock_glow_flashing "1"
+
+		// Tank丟出去的追蹤石頭，過了30秒之後沒砸中則自動銷毀
+		l4d_tracerock_kill "30.0"
+
+		// 更新追蹤石頭的時間間格 (間隔越短，越容易改變飛行軌跡精準砸中)
+		l4d_tracerock_time_interval "0.03"
+		```
+</details>

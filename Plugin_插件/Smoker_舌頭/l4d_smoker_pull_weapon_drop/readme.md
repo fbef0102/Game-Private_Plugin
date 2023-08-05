@@ -8,7 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/FWDx7Tge86M)
 
 * Image | 圖示
-<br/>None
+	<br/>![l4d_smoker_pull_weapon_drop_1](image/l4d_smoker_pull_weapon_drop_1.gif)
+	<br/>![l4d_smoker_pull_weapon_drop_2](image/l4d_smoker_pull_weapon_drop_2.gif)
+	<br/>![l4d_smoker_pull_weapon_drop_3](image/l4d_smoker_pull_weapon_drop_3.gif)
 
 * Require | 必要安裝
 	None
@@ -20,14 +22,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_smoker_pull_weapon_drop_enable "1"
 
-		// Probability to drop weapon.
-		l4d_smoker_pull_weapon_drop_probability "100"
-
 		// Drop survivor weapon when 0=Grabbed, 1=Pulled.
 		l4d_smoker_pull_weapon_drop_type "0"
 
 		// Which weapon drpps 0=Current, 1=Random slot.
 		l4d_smoker_pull_weapon_drop_which "0"
+
+		// Probability to drop weapon.
+		l4d_smoker_pull_weapon_drop_probability "100"
 		```
 </details>
 
@@ -59,7 +61,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 被Smoker拖走一瞬間判定目前拿在手上的東西強制掉落
 
-* 功能
-	1. 可調整被拉一瞬間或者一秒後才掉落
-	2. 可調整為身上武器或物品隨機掉落
-	3. 設定掉落機率
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_smoker_pull_weapon_drop.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_smoker_pull_weapon_drop_enable "1"
+
+		// 0=被舌頭抓住時掉落武器 (這時候人類還能開槍還擊), 1=被舌頭拖走時掉落武器.
+		l4d_smoker_pull_weapon_drop_type "0"
+
+		// 0=目前的武器掉落, 1=身上隨機的欄位武器或物品掉落.
+		l4d_smoker_pull_weapon_drop_which "0"
+
+		// 掉落機率 [1-100]%
+		l4d_smoker_pull_weapon_drop_probability "100"
+		```
+</details>

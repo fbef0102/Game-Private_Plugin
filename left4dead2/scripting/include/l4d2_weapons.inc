@@ -107,7 +107,7 @@ enum /*MeleeWeaponId*/
 	WEPID_MELEES_SIZE //15 size
 };
 
-// Weapon names for each of the weapons, used in identification.
+// Weapon class names for each of the weapons, used in identification.
 stock const char WeaponNames[WEPID_SIZE][] =
 {
 	"weapon_none", "weapon_pistol", "weapon_smg",                                            // 0
@@ -135,8 +135,8 @@ stock const char WeaponNames[WEPID_SIZE][] =
 stock const char LongWeaponNames[WEPID_SIZE][] = 
 {
 	"None", "Pistol", "Uzi", // 0
-	"Pump", "Autoshotgun", "M-16", // 3
-	"Hunting Rifle", "Mac", "Chrome", // 6
+	"Pump Shotgun", "Auto Shotgun", "M-16 Rifle", // 3
+	"Hunting Rifle", "MAC-10", "Chrome Shotgun", // 6
 	"Desert Rifle", "Military Sniper", "SPAS Shotgun", // 9
 	"First Aid Kit", "Molotov", "Pipe Bomb", // 12
 	"Pills", "Gascan", "Propane Tank", // 15
@@ -144,7 +144,7 @@ stock const char LongWeaponNames[WEPID_SIZE][] =
 	"Grenade Launcher", "Ammo Pack", "Adrenaline", // 21
 	"Defibrillator", "Bile Bomb", "AK-47", // 24
 	"Gnome", "Cola Bottles", "Fireworks", // 27
-	"Incendiary Ammo Pack", "Explosive Ammo Pack", "Deagle", // 30
+	"Incendiary Ammo Pack", "Explosive Ammo Pack", "Magnum", // 30
 	"MP5", "SG552", "AWP", // 33
 	"Scout", "M60", "Tank Claw", // 36
 	"Hunter Claw", "Charger Claw", "Boomer Claw", // 39
@@ -294,6 +294,27 @@ stock const char MeleeWeaponModels[WEPID_MELEES_SIZE][] =
 	"/weapons/melee/w_pitchfork.mdl"
 };
 
+stock const char MeleeWeaponModels_Hand[WEPID_MELEES_SIZE][] =
+{
+	"",
+	"/w_models/weapons/v_knife_t.mdl",
+	"/weapons/melee/v_bat.mdl",
+	"/weapons/melee/v_chainsaw.mdl",
+	"/weapons/melee/v_cricket_bat.mdl",
+	"/weapons/melee/v_crowbar.mdl",
+	"/weapons/melee/v_didgeridoo.mdl",
+	"/weapons/melee/v_electric_guitar.mdl",
+	"/weapons/melee/v_fireaxe.mdl",
+	"/weapons/melee/v_frying_pan.mdl",
+	"/weapons/melee/v_golfclub.mdl",
+	"/weapons/melee/v_katana.mdl",
+	"/weapons/melee/v_machete.mdl",
+	"/weapons/melee/v_riotshield.mdl",
+	"/weapons/melee/v_tonfa.mdl",
+	"/weapons/melee/v_shovel.mdl",
+	"/weapons/melee/v_pitchfork.mdl"
+};
+
 stock const int WeaponSlots[WEPID_SIZE] =
 {
 	L4D2WeaponSlot_None, // WEPID_NONE
@@ -360,10 +381,12 @@ stock const int WeaponSlots[WEPID_SIZE] =
 #define GETLONGMELEEWEAPONNAME(%0) (IsValidMeleeWeaponId(%0) ? (LongMeleeWeaponNames[%0]) : "")
 #define GETWEAPONMODEL(%0) (HasValidWeaponModel(%0) ? (WeaponModels[%0]) : "")
 #define GETMELEEWEAPONMODEL(%0) (HasValidMeleeWeaponModel(%0) ? (MeleeWeaponModels[%0]) : "")
+#define GETMELEEWEAPONMODEL_HAND(%0) (HasValidMeleeWeaponModel_HAND(%0) ? (MeleeWeaponModels_Hand[%0]) : "")
 
 stock static StringMap hWeaponNamesTrie = null;
 stock static StringMap hMeleeWeaponNamesTrie = null;
 stock static StringMap hMeleeWeaponModelsTrie = null;
+stock static StringMap hMeleeWeaponModelsHandTrie = null;
 
 stock void InitWeaponNamesTrie()
 {
@@ -375,10 +398,12 @@ stock void InitWeaponNamesTrie()
 
 	hMeleeWeaponNamesTrie = new StringMap();
 	hMeleeWeaponModelsTrie = new StringMap();
+	hMeleeWeaponModelsHandTrie = new StringMap();
 
 	for (int i = 0; i < WEPID_MELEES_SIZE; i++) {
 		hMeleeWeaponNamesTrie.SetValue(MeleeWeaponNames[i], i);
 		hMeleeWeaponModelsTrie.SetString(MeleeWeaponModels[i], MeleeWeaponNames[i]);
+		hMeleeWeaponModelsHandTrie.SetString(MeleeWeaponModels_Hand[i], MeleeWeaponNames[i]);
 	}
 }
 
@@ -428,6 +453,17 @@ stock bool IsValidMeleeWeaponId(int wepid)
 stock bool HasValidMeleeWeaponModel(int wepid)
 {
 	return (IsValidMeleeWeaponId(wepid) && MeleeWeaponModels[wepid][0] != '\0');
+}
+
+/**
+ * Checks to see if a given meleeweaponid has a known WeaponModel (first person hand) in this file's model array
+ *
+ * @param wepid        MeleeWeaponId to check for a known weapon model for.
+ * @return True if a valid weapon model exists for wepid, false otherwise.
+ */
+stock bool HasValidMeleeWeaponModel_HAND(int wepid)
+{
+	return (IsValidMeleeWeaponId(wepid) && MeleeWeaponModels_Hand[wepid][0] != '\0');
 }
 
 /**
@@ -542,17 +578,17 @@ stock void GetMeleeWeaponModel(int wepid, char[] modelBuffer, const int length)
 // Helper function used for getting an entity's internal melee name
 stock bool GetMeleeWeaponNameFromEntity(int entity, char[] buffer, const int length)
 {
-	char classname[64];
+	char classname[64], sModelName[PLATFORM_MAX_PATH];
 	if (!GetEdictClassname(entity, classname, sizeof(classname))) {
 		return false;
 	}
 
-	if (StrEqual(classname, "weapon_melee_spawn")) {
-		if (hMeleeWeaponModelsTrie == null) {
-			InitWeaponNamesTrie();
-		}
+	if (hMeleeWeaponModelsTrie == null || hMeleeWeaponModelsHandTrie == null) {
+		InitWeaponNamesTrie();
+	}
 
-		char sModelName[PLATFORM_MAX_PATH];
+	if (StrEqual(classname, "weapon_melee_spawn")) {
+
 		GetEntPropString(entity, Prop_Data, "m_ModelName", sModelName, sizeof(sModelName));
 
 		// Strip models directory
@@ -567,7 +603,29 @@ stock bool GetMeleeWeaponNameFromEntity(int entity, char[] buffer, const int len
 		return false;
 	} else if (StrEqual(classname, "weapon_melee")) {
 		GetEntPropString(entity, Prop_Data, "m_strMapSetScriptName", buffer, length);
-		return true;
+
+		if(strlen(buffer) == 0) // the tonfa from cop is empty
+		{
+			GetEntPropString(entity, Prop_Data, "m_ModelName", sModelName, sizeof(sModelName));
+			// Strip models directory
+			if (strncmp(sModelName, "models/", 7, false) == 0) {
+				strcopy(sModelName, sizeof(sModelName), sModelName[6]);
+			}
+
+			if (hMeleeWeaponModelsTrie.GetString(sModelName, buffer, length)) {
+				return true;
+			}
+
+			if (hMeleeWeaponModelsHandTrie.GetString(sModelName, buffer, length)) {
+				return true;
+			}
+
+			return false;
+		}
+		else
+		{
+			return true;
+		}
 	}
 
 	return false;

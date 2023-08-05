@@ -2,6 +2,12 @@
 # Description | 內容
 Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out + Vote to next map (Apply to Versus/Survival/Scavenge).
 
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+🟥Dedicated Server Only<br/>
+🟥只能安裝在Dedicated Server
+
 * Video | 影片展示
 <br/>None
 
@@ -213,8 +219,8 @@ Force change to next mission when current mission(final stage) end + Force chang
 
 * 功能
 	* 自動新增三方圖的關卡與地圖名，無須手動新增
-	* 查看下方 "指令中文介紹"
 	* 玩家可以輸入!mapvote投票決定下一張地圖
+	* 查看下方 "指令中文介紹"
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

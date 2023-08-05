@@ -176,9 +176,6 @@ AI Bot可以主動扔膽汁瓶、燃燒瓶、土製炸彈，提高智商不會�
 		4. Tank接近中
 		5. Witch在附近
 
-* 功能
-	* 查看下方指令中文介紹
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_grenade_throwing_bots.cfg

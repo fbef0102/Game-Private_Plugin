@@ -109,9 +109,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 推車子時，車子被擊飛
     * 管理員輸入```!sshove```關掉右鍵推的功能
 
-* 功能
-	* 見下方"指令中文介紹"
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
     * cfg/sourcemod/l4d2_survivor_shove_power.cfg

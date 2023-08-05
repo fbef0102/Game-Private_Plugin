@@ -8,38 +8,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/kmvs3S2v2LU)
 
 * Image | 圖示
-	* I see everything
-		> 透視看到一切
-		<br/>![l4d2_glow_item_weapon_cheat_1](image/l4d2_glow_item_weapon_cheat_1.gif)
-	* Use command to turn on
-		> 使用指令開啟透視
-		<br/>![l4d2_glow_item_weapon_cheat_2](image/l4d2_glow_item_weapon_cheat_2.jpg)
+	<br/>![l4d2_glow_item_weapon_cheat_2](image/l4d2_glow_item_weapon_cheat_2.jpg)
+	<br/>![l4d2_glow_item_weapon_cheat_1](image/l4d2_glow_item_weapon_cheat_1.gif)
 
-* Apply to | 適用於
-	```
-	L4D2 Coop/Versus/Realism/Scavenge
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-	
-	* v1.0h (2023-6-7)
-		* Add cvars, cmds, and message
-		* Add "teams" in data, Which teams should see the outline glow. 
-		* Create "prop_dynamic_override" glow entities and attach to items and weapons
-		* Only adms can use command to see glow though the wall
-
-	* v1.0.7
-	    * [Original Plugin By Marttt](https://forums.alliedmods.net/showthread.php?t=329617)
-</details>
+> __Warning__
+<br/>Use carefully. This plugin may spawn too many entities depending on the number of items on the map and can cause a "ED_Alloc: no free edicts" crash.
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* Similar Plugin | 相似插件
-	1. [l4d2_scope_wallhack](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
-		> 倖存者打開狙擊鏡能透視看到特感
-	2. [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
-		> 管理員輸入指令能透視看到特感
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -86,7 +63,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Data Example
+* <details><summary>Data Example</summary>
+
 	* data/l4d2_glow_item_weapon_cheat.cfg
 		```php
 		// Attributes explained:
@@ -111,9 +89,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
-> __Warning__
-<br/>Use carefully. This plugin may spawn too many entities depending on the number of items on the map and can cause a "ED_Alloc: no free edicts" crash.
+* Apply to | 適用於
+	```
+	L4D2 Coop/Versus/Realism/Scavenge
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+	
+	* v1.0h (2023-6-7)
+		* Add cvars, cmds, and message
+		* Add "teams" in data, Which teams should see the outline glow. 
+		* Create "prop_dynamic_override" glow entities and attach to items and weapons
+		* Only adms can use command to see glow though the wall
+
+	* v1.0.7
+	    * [Original Plugin By Marttt](https://forums.alliedmods.net/showthread.php?t=329617)
+</details>
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [l4d2_scope_wallhack](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
+		> 倖存者打開狙擊鏡能透視看到特感
+	2. [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
+		> 管理員輸入指令能透視看到特感
+</details>
 
 - - - -
 # 中文說明
@@ -130,7 +131,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. 可設置特地權限的人也能使用指令看到
 	3. 編輯文件```data/l4d2_glow_item_weapon_cheat.cfg```，可自行設定光圈的顏色與發光範圍
 
-* Data設定範例
+* <details><summary>Data設定範例</summary>
+
 	* data/l4d2_glow_item_weapon_cheat.cfg
 		```php
 		//  "enable"   -> 附上光圈在這個物件上 "0" = 關閉光圈, "1" = 開啟光圈.
@@ -154,6 +156,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 > __Warning__ 
 <br/>這插件根據地圖上的武器與物資數量會產生很多發光物件，這些物件會額外占用伺服器的空間

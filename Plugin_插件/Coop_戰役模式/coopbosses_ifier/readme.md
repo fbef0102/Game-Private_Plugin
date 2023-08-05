@@ -189,9 +189,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
   	* 每回合只會生成一隻Tank與Witch
 	* 也適用於寫實模式
 
-* 功能
-	* 查看下方"Data設定範例"、"指令中文介紹"、"命令中文介紹"
-
 * <details><summary>Data設定範例</summary>
 	
 	* data/mapinfo.txt

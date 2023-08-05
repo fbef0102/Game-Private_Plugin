@@ -1,11 +1,20 @@
 # Game-Private_Plugin by Harry Potter
-我的未公開私人插件列表 (收費制)<br/>
-My Unpublic Private Plugin (Charge) 
-> 2023/8/1 updated
+> 2023/8/6 updated
+- [總攬](#總攬)
+  - [私人插件列表](#l4d12-plugin-list--l4d1和2插件列表)
+  - [公開的插件列表](#公開的插件列表-public-plugins-list)
+  - [委託撰寫插件](#委託撰寫插件)
+  - [自我簡介](#自我簡介)
+  - [如何安裝伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝專屬伺服器)
+  - [如何安裝插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
+  - [如何編譯源碼](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
+  - [檢查插件有無成功運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
+  - [其他教程與問題](#others)
 
 - - - -
 # 私人插件列表 Private Plugins List
-> 持續更新中
+###### **Important | 購買交易**
+> 我的未公開私人插件列表 (持續更新中)<br/>
 * 在這裡的插件均須收費交易，100台幣以上 (25人民幣以上、28港幣以上)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
   * 可接受小幅度的修改或漢化處理
   * 想增加或改動插件功能，需增加費用
@@ -42,7 +51,7 @@ My Unpublic Private Plugin (Charge)
     * 保密交易，不會公開透露交易資訊與買家個資
   </details>
 
-> Will update more
+> My Private Plugins (Will update more) 
 * Every plugin here is private (US$6 dollars above), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
   * Add new request and discuss
@@ -202,14 +211,14 @@ My Unpublic Private Plugin (Charge)
     * Witch不會一抓倒地，而是擊飛倖存者
   * [l4d_witch_guard](/Plugin_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
     * 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
-  * [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch
-    * 驚嚇或殺死Witch會引發屍潮來臨
+  * [l4d_witch_cry](/Plugin_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch or witch killed player
+    * 驚嚇或殺死Witch會引發屍潮 + Witch殺死人類也會引發屍潮
   * [l4d_witch_psychotic](/Plugin_插件/Witch_女巫/l4d_witch_psychotic): Adds a lot of abilities and fear to the witch to become the most dangerous infected.
     * 增強Witch，賦予多種超能力成為史上最危險的特感
   * [l4d_witch_immune_fire](/Plugin_插件/Witch_女巫/l4d_witch_immune_fire): Witch is immune to fire + witch won't lose target by fire
     * Witch不會著火+也不會因為著火而失去目標
-  * [l4d_witch_chase_target_lock](/Plugin_插件/Witch_女巫/l4d_witch_chase_target_lock): No matter how many people block her way, the witch will never change the target
-    * 只追第一個驚嚇她的人，不管多少人阻擋她的路，Witch永遠不會改變目標
+  * [l4d_witch_chase_target_lock](/Plugin_插件/Witch_女巫/l4d_witch_chase_target_lock): Fixed the issue that witch sometimes changes target to attack special infected or other people, the witch will never change the initial target
+    * 修復Witch轉移目標攻擊特感或其他人，不管多少人阻擋她的路，Witch永遠不會改變目標
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
@@ -535,46 +544,40 @@ My Unpublic Private Plugin (Charge)
 - - - -
 
 # 公開的插件列表 Public Plugins List
-* [惡靈勢力二代插件 L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
-* [惡靈勢力一二代插件 L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
-* [CS:S插件作品列表 CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
+* <details><summary><b>Left 4 Dead</b></summary>
+
+  * [L4D1+2 plugins | 惡靈勢力1+2 插件列表](https://github.com/fbef0102/L4D1_2-Plugins)
+  * [L4D2 plugins | 惡靈勢力2 插件列表](https://github.com/fbef0102/L4D2-Plugins)
+  * [L4D2 Ultimate Offical Maps | 惡靈勢力2 我創造的終極官方地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+  * [L4D1 Rotoblin-AZ Mod | 惡靈勢力1 競技對抗模式](https://github.com/fbef0102/Rotoblin-AZMod)
+</details>
+
+* <details><summary><b>CSS</b></summary>
+
+  * [CS:S plugins | CS:S 插件列表](https://github.com/fbef0102/CSS-Plugins)
+</details>
 
 - - - -
-# 自我介紹
-* 台灣人，資訊工程學系，略懂電腦程式碼
-* Steam暱稱名叫["哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力長達10年以上
+# 自我簡介
+* 👩‍💻台灣人，資訊工程學系，略懂電腦程式碼
+* 🕹️[Steam暱稱"哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力與CS長達10年以上
 * 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)：分享L4D1與L4D2遊玩影片，偶爾會拍其他遊戲或短影片
 * 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)：分享自己製作的遊戲插件、地圖、模組，
 偶爾會利用遊戲拍些迷因影片
-* 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)：有六年的經驗
+* 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)：有六年的sourcemod經驗，寫過L4D1與L4D2 對抗、戰役、寫實、清道夫模式相關遊戲插件，處理過windows/linux 伺服器、資料庫、FastDL
 * ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)：非專業的模組大佬
+* 我的網站
 
-* <details><summary><b>Left 4 Dead</b></summary>
+* <details><summary><b>遊戲事蹟</b></summary>
 
-  * 惡靈勢力一代[Roto-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod)的主要開發者
   * 2019 夏季中國懷舊杯 - 協辦人
   * 2019 夏季中國懷舊杯 - 第二名 - IB隊伍成員
   * 2022 懷舊世界盃 - 協辦人
   * 2022 懷舊世界盃 - 第三名 - IB隊伍成員
 </details>
 
-* <details><summary><b>Left 4 Dead 2</b></summary>
-
-  * 惡靈勢力二代[反抗模式 Resistance](https://steamcommunity.com/groups/left4dead2_resistance)的主要開發者
-</details>
-
-* <details><summary><b>其他作品</b></summary>
-
-  * [惡靈勢力二代插件作品列表](https://github.com/fbef0102/L4D2-Plugins)
-  * [惡靈勢力一二代插件作品列表](https://github.com/fbef0102/L4D1_2-Plugins)
-  * [惡靈勢力一代伺服器架設檔案](https://github.com/fbef0102/L4D1-Server4Dead)
-  * [惡靈勢力二代伺服器架設檔案](https://github.com/fbef0102/L4D2-Server4Dead)
-  * [惡靈勢力二代終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
-  * [CS:S插件作品列表](https://github.com/fbef0102/CSS-Plugins)
-</details>
-
 - - - -
-# 交易插件需求
+# 委託撰寫插件
 **有任何問題或製作插件需求請聯繫**<br/>
 **除非是我插件有bug或相關的問題，否則詢問知識或教學均收小費**<br/>
 **可接受PayPal、支付寶、台灣本地銀行轉帳**
@@ -597,7 +600,7 @@ My Unpublic Private Plugin (Charge)
   * ✗不清晰、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
   * ✗盜版、舊版本的遊戲、舊版本的Sourcemod、舊版本的插件
-  * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付錢
+  * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付報酬
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
   * ✗不幫忙架設伺服器、安裝插件，請自己來，但過程遇到任何問題可以詢問教學
@@ -605,39 +608,23 @@ My Unpublic Private Plugin (Charge)
 </details>
 
 # Introduce MySelf
-* Taiwanese, majored in in Department of Computer Science & Engineering
-* People call me ["Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 for almost 10 years 
+* 👩‍💻Taiwanese, majored in in Department of Computer Science & Engineering
+* 🕹️[Steam "Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 and cs for over 10 years 
 * 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
 * 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
 * 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Six years of experience in Sourcepawn code
 * ⛰️[GameMaps](https://www.gamemaps.com/profile/194420) - Not professional skill
 
-* <details><summary><b>Left 4 Dead</b></summary>
+* <details><summary><b>Game History</b></summary>
 
-  * The owner of the [Rotoblin-AZ Mod](https://github.com/fbef0102/Rotoblin-AZMod) (A Competitive L4D1 Configuration)
   * 2019 Nostalgic Summer China Cup - Assistant Director
   * 2019 Nostalgic Summer China Cup - 2nd - Team IB
   * 2022 Nostalgic Tournament - Assistant Director
   * 2022 Nostalgic Tournament - 3rd - Team IB
 </details>
 
-* <details><summary><b>Left 4 Dead 2</b></summary>
-
-  * The owner of the [L4D2 Resistance Mod](https://steamcommunity.com/groups/left4dead2_resistance) (Fun Coop VS Mode)
-</details>
-
-* <details><summary><b>Others</b></summary>
-
-  * [L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)
-  * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
-  * [L4D1-Server4Dead](https://github.com/fbef0102/L4D1-Server4Dead)
-  * [L4D2-Server4Dead](https://github.com/fbef0102/L4D2-Server4Dead)
-  * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
-  * [CSS-Plugins](https://github.com/fbef0102/CSS-Plugins)
-</details>
-
 - - - -
-# Plugin Request
+# Plugin Paid Work
 **If have question or plugin request, please contact me**<br/>
 **Accept paypal、Alipay、Taiwan local bank ATM**<br/>
 * <details><summary><b>Master Skills</b></summary>
@@ -659,4 +646,10 @@ My Unpublic Private Plugin (Charge)
 - - - -
 # Others
 * [Questions | 問題集合區](/Questions_問題區)
+  * [為甚麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
+  * [常見的插件錯誤訊息](/Questions_問題區/Chinese_繁體中文/插件/README.md#常見的插件錯誤訊息)
 * [Tutorial  | 教學區](/Tutorial_教學區)
+  * [架設多人伺服器，讓8位玩家遊玩戰役模式](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式/README.md#安裝總攬)
+  * [安裝Stripper](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝stripper)
+  * [安裝l4dtoolz](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝l4dtoolz)
+  * [安裝TickrateEnabler](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝tickrateenabler)

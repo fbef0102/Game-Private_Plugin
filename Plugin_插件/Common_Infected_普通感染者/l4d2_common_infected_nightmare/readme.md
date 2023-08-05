@@ -171,9 +171,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 即使殭屍身體模型變大，Hitbox範圍不會跟著變大
 	* 不影響特殊一般感染者
 
-* 功能
-	* 查看下方"指令中文介紹"
-
 * <details><summary>指令中文介紹(點我展開)</summary>
 
 	* cfg/sourcemod/l4d2_common_infected_nightmare.cfg

@@ -8,21 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/HQgxXpngBxI)
 
 * Image | 圖示
-	* Aircannon
-        > 示範圖
-        <br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.jpg)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0
-	    * Initial Release
-</details>
+	<br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.gif)
+	<br/>![l4d_gun_blastpushback_2](image/l4d_gun_blastpushback_2.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -34,18 +21,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```php
         // 0=Plugin off, 1=Plugin on.
         l4d_gun_blastpushback_allow "1"
-
-        // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-        l4d_gun_blastpushback_announce_type "2"
-
-        // How much damage the Doraemon Aircannon does when fired.
-        l4d_gun_blastpushback_damage "30"
-
-        // How much damage the Doraemon Aircannon does when fired. (friendly fire)
-        l4d_gun_blastpushback_damage_ff "1"
-
-        // Doraemon Aircannon steam particle effect time. (0=Disable)
-        l4d_gun_blastpushback_effect_time "0.5"
 
         // Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
         l4d_gun_blastpushback_modes ""
@@ -62,14 +37,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // How long after using the Doraemon Aircannon before it can be used again.
         l4d_gun_blastpushback_push_time "0.5"
 
-        // Doraemon Aircannon explosion radius override.
-        l4d_gun_blastpushback_radius "150"
-
         // How far the Doraemon Aircannon can affect entities.
         l4d_gun_blastpushback_range "800"
 
+        // How much damage the Doraemon Aircannon does when fired.
+        l4d_gun_blastpushback_damage "30"
+
+        // How much damage the Doraemon Aircannon does when fired. (friendly fire)
+        l4d_gun_blastpushback_damage_ff "1"
+
+        // Doraemon Aircannon steam particle effect time. (0=Disable)
+        l4d_gun_blastpushback_effect_time "0.5"
+
+        // Doraemon Aircannon explosion radius override.
+        l4d_gun_blastpushback_radius "150"
+
         // If 1, Doraemon Aircannon can affect survivors.
         l4d_gun_blastpushback_survivor "1"
+
+        // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+        l4d_gun_blastpushback_announce_type "2"
 
         // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
         l4d_gun_blastpushback_weapon "14,21,32,33"
@@ -84,34 +71,87 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0
+	    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 多啦A夢的空氣砲
 
-* 原理
-    * <details><summary>以下面的指令解釋 (點我展開)</summary>
+* 功能
+    * 右鍵推產生一個空氣砲，被空氣砲打中時，
+      * 特感會被力道彈開
+      * Witch會被震暈
+      * 普通殭屍會被震暈
+      * 隊友被彈開
+      * 打散物件
+      * 車子彈開
+    * 特定的武器才能產生空氣砲
 
-        > 效果: 拿出近戰武器，按下右鍵推產生一個空氣砲，在800公尺範圍內擊中準心指向的目標，並在目標150公尺周圍內產生影響，所有物件受到衝擊30點傷害，特感會被力道彈開、Witch會被震暈、普通殭屍會被震暈
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d_gun_blastpushback.cfg
         ```php
-        // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details. 
-        l4d_gun_blastpushback_weapon "21"
+        // 0=關閉插件, 1=啟動插件
+        l4d_gun_blastpushback_allow "1"
 
-        // How far the Doraemon Aircannon can affect entities.
+        // 什麼模式下啟動此插件, 逗號區隔 (無空白). (留白 = 所有模式)
+        l4d_gun_blastpushback_modes ""
+
+        // 什麼模式下關閉此插件, 逗號區隔 (無空白). (留白 = 無)
+        l4d_gun_blastpushback_modes_off ""
+
+        // 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 請將數字相加起來
+        l4d_gun_blastpushback_modes_tog "0"
+
+        // 空氣砲的力道
+        l4d_gun_blastpushback_push "400"
+
+        // 使用空氣砲的CD間隔
+        l4d_gun_blastpushback_push_time "0.5"
+
+        // 空氣砲有效範圍
         l4d_gun_blastpushback_range "800"
 
-        // Doraemon Aircannon explosion radius override.
+        // 空氣砲對殭屍造成的傷害
+        l4d_gun_blastpushback_damage "30"
+
+        // 空氣砲對隊友造成的傷害 (友傷)
+        l4d_gun_blastpushback_damage_ff "1"
+
+        // 空氣砲有產生蒸汽效果的時間
+        l4d_gun_blastpushback_effect_time "0.5"
+
+        // 空氣砲能影響的範圍
         l4d_gun_blastpushback_radius "150"
 
-        // How much damage the Doraemon Aircannon does when fired.
-        l4d_gun_blastpushback_damage "30"
-        ```
-    </details>
+        // 為1時，空氣砲也會影響隊友
+        l4d_gun_blastpushback_survivor "1"
 
-* 功能
-    1. 右鍵推產生一個空氣砲，特感與普通殭屍會被力道彈開
-    2. 空氣砲範圍
-    3. 空氣砲有效距離
-    3. 特定的武器才能產生空氣砲
-    4. 能影響隊友
-    5. Tank與Witch可以被空氣砲震暈
-    6. 空氣砲能打散物件，包括車子
+        // 訊息顯示位置. (0: 關閉, 1: 聊天窗, 2: 螢幕下方黑底白字窗, 3: 螢幕正中間)
+        l4d_gun_blastpushback_announce_type "2"
+
+        // (L4D2) 空=允許全武器. 填入武器的ID，只允許這些武器可以使出空氣砲, 逗號分隔（不須空格）. 請打開源碼查看武器的ID列表
+        l4d_gun_blastpushback_weapon "14,21,32,33"
+
+        // (L4D1) 空=允許全武器. 填入武器的ID，只允許這些武器可以使出空氣砲, 逗號分隔（不須空格）. 請打開源碼查看武器的ID列表
+        l4d_gun_blastpushback_weapon "6,12,13"
+        ```
+
+    * 範例效果:
+        ```php
+        // 按下右鍵，在800公尺範圍內擊中準心指向的地方，並在被擊中的地方產生空氣砲，附近150公尺周圍內產生影響
+        // 特感會被力道彈開、Witch會被震暈、普通殭屍會被震暈
+        l4d_gun_blastpushback_range "800"
+        l4d_gun_blastpushback_radius "150"
+        ```
+</details>

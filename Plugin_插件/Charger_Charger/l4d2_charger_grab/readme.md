@@ -89,9 +89,6 @@ Charger可以徒手抓住人類趴趴走
 		* 左鍵開始捶地板
 	* Bot Charger也適用，但是只能抓住一瞬間然後開始捶地板
 
-* 功能
-	* 詳見"指令中文介紹"
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d2_charger_grab.cfg

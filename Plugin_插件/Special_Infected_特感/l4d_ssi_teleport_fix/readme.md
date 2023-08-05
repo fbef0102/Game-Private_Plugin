@@ -147,9 +147,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 有效解決許多特感長期站著不動也不攻擊的智商與行為
     * 增加伺服器遊玩難度
 
-* 功能
-    * 查看下方"指令中文介紹"
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
     * 假設需要傳送 "特感A" 到 "特感B" 身上

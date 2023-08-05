@@ -24,4 +24,17 @@
 		"zho"		"倖存者殺死 Witch 引發了屍潮來臨！"
 		"chi"		"生还者杀死 Witch 引发了尸潮来临！"
 	}
+	
+	"Kill (C)"
+	{
+		"en"		"[{olive}TS{default}] {green}Witch {default}killed {olive}Survivors {default}and alert {lightgreen}horde{default}！"
+		"zho"		"[{olive}TS{default}] {green}Witch {default}殺死 {olive}倖存者 {default}引發了{lightgreen}屍潮來臨{default}！"
+		"chi"		"[{olive}TS{default}] {green}Witch {default}杀死 {olive}生还者 {default}引发了{lightgreen}尸潮来临{default}！"
+	}
+	"Kill"
+	{
+		"en"		"Witch killed Survivors and alert horde！"
+		"zho"		"Witch殺死 倖存者 引發了屍潮來臨！"
+		"chi"		"Witch杀死 生还者 引发了尸潮来临！"
+	}
 }

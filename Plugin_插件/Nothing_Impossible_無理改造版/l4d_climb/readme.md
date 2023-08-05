@@ -5,54 +5,17 @@ Makes Everyone Climb On Walls.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Work | 作品展示
-    * [Bully Maguire「惡霸麥奎爾」蜘蛛人](https://www.youtube.com/shorts/qJetU6lAGzM)
-
-* [Video | 影片展示](https://youtu.be/MPtEzoKdJXc)
+* Video | 影片展示
+  * [Demo](https://youtu.be/MPtEzoKdJXc)
+  * [Bully Maguire「惡霸麥奎爾」蜘蛛人](https://www.youtube.com/shorts/qJetU6lAGzM)
 
 * Image | 圖示
 	<br/>![l4d_climb_1](image/l4d_climb_1.jpg)
-	<br/>![l4d_climb_2](image/l4d_climb_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.3h (2023-7-19)
-      * Add a convar
-		```php
-		// Players with these flags have access to climb the wall (Empty = Everyone, -1: Nobody)
-		l4d_climb_flag ""
-		```
-
-	* v1.2h (2023-6-30)
-      * Safely create entity and Safely remove entity
-
-	* v1.1h (2023-6-9)
-      * Fixed bots stuck on wall if change team while climing
-
-	* v1.0h
-      * Translation Support
-      * Modify cvars
-      * Support [Ready up plugin](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Server_%E4%BC%BA%E6%9C%8D%E5%99%A8/readyup), allow to climb wall during ready-up
-
-	* v1.05
-      * [Shadowysn's fork](https://forums.alliedmods.net/showpost.php?p=2681114&postcount=99)
-
-	* v1.02
-      * [cravenge's fork](https://forums.alliedmods.net/showpost.php?p=2424617&postcount=92)
-      * [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=161280)
+	* Press Jump+E to climb the wall
+	* Support [Ready up](/Plugin_插件/Server_伺服器/readyup), climb the wall during readyup only
 </details>
 
 * Require | 必要安裝
@@ -129,9 +92,46 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Details
-	* Press Jump+E to climb the wall
-	* Support [Ready up](/Plugin_插件/Server_伺服器/readyup), climb the wall during readyup only
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2023-7-19)
+      * Add a convar
+		```php
+		// Players with these flags have access to climb the wall (Empty = Everyone, -1: Nobody)
+		l4d_climb_flag ""
+		```
+
+	* v1.2h (2023-6-30)
+      * Safely create entity and Safely remove entity
+
+	* v1.1h (2023-6-9)
+      * Fixed bots stuck on wall if change team while climing
+
+	* v1.0h
+      * Translation Support
+      * Modify cvars
+      * Support [Ready up plugin](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Server_%E4%BC%BA%E6%9C%8D%E5%99%A8/readyup), allow to climb wall during ready-up
+
+	* v1.05
+      * [Shadowysn's fork](https://forums.alliedmods.net/showpost.php?p=2681114&postcount=99)
+
+	* v1.02
+      * [cravenge's fork](https://forums.alliedmods.net/showpost.php?p=2424617&postcount=92)
+      * [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=161280)
+</details>
 
 - - - -
 # 中文說明
@@ -142,9 +142,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Tank也可以
 	* 爬空氣牆都不是問題
 	* 支援[Ready up插件](/Plugin_插件/Server_伺服器/readyup)，準備期間可爬牆
-
-* 功能
-	* 見下方"指令中文介紹"
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

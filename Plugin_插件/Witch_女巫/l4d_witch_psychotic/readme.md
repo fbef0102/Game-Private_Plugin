@@ -206,9 +206,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力10: <b>Unrelenting Spirit field</b> - 減少Witch身體傷害。
 	* 能力11: <b>Mind Control</b> - Witch身上擁有特效，任何接近Witch的玩家，螢幕顏色會改變。
 
-* 功能
-	* 查看下方 "指令中文介紹"
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_witch_psychotic.cfg
@@ -216,7 +213,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，開啟 Assimilation 能力: Witch殺死人類後，生成另一隻Witch在倖存者屍體上。
 		l4d_witch_psychotic_assimilation_enable "1"
 
-		// 生成另一隻Witch的機率. [1-100]
+		// 生成另一隻Witch的機率. [1-100]%
 		l4d_witch_psychotic_assimilation_chance "100"
 
 		// 為1時，開啟 Death Helmet 能力: 減少Witch頭部傷害。
@@ -267,7 +264,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，開啟 Shameful Cloak 能力: Witch會隱形。
 		l4d_witch_psychotic_shamefulcloak_enable "1"
 
-		// 每一隻Witch隱形的機率. [1-100]
+		// 每一隻Witch隱形的機率. [1-100]%
 		l4d_witch_psychotic_shamefulcloak_chance "25"
 
 		// 隱形的透明度 [0-255]
@@ -276,7 +273,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，開啟 Sorrowful Remorse 能力: Witch死亡時，會掉落急救包及電擊器。
 		l4d_witch_psychotic_sorrowfulremorse_enable "1"
 
-		// 掉落急救包及電擊器的機率. [1-100]
+		// 掉落急救包及電擊器的機率. [1-100]%
 		l4d_witch_psychotic_sorrowfulremorse_chance "90"
 
 		// 無人撿起治療包或者電擊器，100秒之後將自動移除. (0=不移除)
@@ -291,7 +288,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，開啟 Mind Control 能力: Witch身上擁有特效，任何接近Witch的玩家，螢幕顏色會改變。
 		l4d_witch_psychotic_mindcontrol_enable "1"
 
-		// 每一隻Witch有 Mind Control 能力的機率. [1-100]
+		// 每一隻Witch有 Mind Control 能力的機率. [1-100]%
 		l4d_witch_psychotic_mindcontrol_chance "50"
 
 		// 靠近此範圍內的玩家，螢幕顏色會改變。

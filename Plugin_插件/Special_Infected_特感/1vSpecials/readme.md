@@ -7,47 +7,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/ssLsbaKLLmk)
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
+    <br/>![1vSpecials_0](image/1vSpecials_0.jpg)
     <br/>![1vSpecials_1](image/1vSpecials_1.gif)
     <br/>![1vSpecials_2](image/1vSpecials_2.gif)
     <br/>![1vSpecials_3](image/1vSpecials_3.jpg)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v2.5 (2023-7-13)
-        * Fixed Smoker does not suicide when dragging victim
-
-    * v2.4 (2023-2-19)
-    * Remake all cvars description
-    * Set each Special Infected claw damage
-    * Add new cvars
-        ```php
-        // Boomer claw Dmg. (-1=Default value dmg)
-        1vSpecials_boomer_claw_dmg "-1"
-
-        // Spitter claw Dmg. (-1=Default value dmg)
-        1vSpecials_spitter_claw_dmg "-1"
-        ```
-
-* v2.3
-    * Initial Release
 </details>
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-    1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
-        > 生成多特感控制插件
-    2. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
-        > 增強特感攻擊行為
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -105,6 +75,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+    1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+        > 生成多特感控制插件
+    2. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
+        > 增強特感攻擊行為
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.5 (2023-7-13)
+        * Fixed Smoker does not suicide when dragging victim
+
+    * v2.4 (2023-2-19)
+    * Remake all cvars description
+    * Set each Special Infected claw damage
+    * Add new cvars
+        ```php
+        // Boomer claw Dmg. (-1=Default value dmg)
+        1vSpecials_boomer_claw_dmg "-1"
+
+        // Spitter claw Dmg. (-1=Default value dmg)
+        1vSpecials_spitter_claw_dmg "-1"
+        ```
+
+* v2.3
+    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
@@ -114,9 +119,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
   * 控制每隻特感的抓傷的傷害值
   * 倖存者解除特感控制後會略過起身狀態與動畫
   * 可配合多特感強化插件達成自己一人在伺服器訓練擊殺特感
-
-* 功能
-  * 見下方"指令中文說明"
 
 * <details><summary>指令中文說明(點我展開)</summary>
 

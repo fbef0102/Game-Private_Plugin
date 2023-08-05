@@ -184,9 +184,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 由官方指令決定每一關的Tank與Witch生成範圍
 	* 每回合只會生成一隻Tank與Witch
 
-* 功能
-	* 查看下方"Data設定範例"、"指令中文介紹"、"命令中文介紹"
-
 * <details><summary>Data設定範例</summary>
 
 	* data/mapinfo.txt

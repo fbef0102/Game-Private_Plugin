@@ -165,9 +165,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 被特感抓住、被Boomer嘔吐、倒地、掛邊之類等等則不會顯示顏色光圈
 	* 所有人能看到輪廓光圈，如要篩選隊伍，請查看指令
 
-* 功能
-	* 查看下方"指令中文介紹"
-
 * <details><summary>指令中文介紹(點我展開)</summary>
 
 	* 安裝上此插件後，會自動產生文件```cfg/sourcemod/l4d2healthglow.cfg```

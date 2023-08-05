@@ -96,9 +96,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 切勿與其他會修改友傷的插件並用
 	* 過一段時間總計算友傷，然後反彈給攻擊者
 
-* 功能
-	* 查看下方 "指令中文介紹"
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/anti-friendly_fire_V2.cfg

@@ -45,4 +45,30 @@
 		"zho"		"已有盾牌"
 		"chi"		"已有盾牌"
 	}
+	"out of durability (C)"
+	{
+		"en"			"[{olive}TS{default}] Melee weapon is out of {green}durability{default}!"
+		"zho"			"[{olive}TS{default}] 近戰武器已 {green}耗盡耐力{default}!"
+		"chi"			"[{olive}TS{default}] 近战武器已 {green}耗尽耐力{default}!"
+	}
+	"out of durability"
+	{
+		"en"			"Shield weapon is out of durability!"
+		"zho"			"盾牌武器已 耗盡耐力!"
+		"chi"			"盾牌武器已 耗尽耐力!"
+	}
+	"durability (C)"
+	{
+		"#format"		"{1:.1f}"
+		"en"			"[{olive}TS{default}] Shield weapon {olive}durability{default}: {green}{1}%%"
+		"zho"			"[{olive}TS{default}] 盾牌武器 {olive}耐力值{default}: {green}{1}%%"
+		"chi"			"[{olive}TS{default}] 盾牌武器 {olive}耐力值{default}: {green}{1}%%"
+	}
+	"durability"
+	{
+		"#format"		"{1:.1f}"
+		"en"			"Shield weapon durability: {1}%%"
+		"zho"			"盾牌耐力值: {1}%%"
+		"chi"			"盾牌耐力值: {1}%%"
+	}
 }

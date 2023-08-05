@@ -1,5 +1,5 @@
 # Description | 內容
-No matter how many people block her way, the witch will never change the target
+Fixed the issue that witch sometimes changes target to attack special infected or other people, the witch will never change the initial target
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -10,6 +10,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 <br/>None
+
+* <details><summary>How does it work?</summary>
+
+  * Witch only chases the target who startles her at first.
+  * Fixed the issue that witch sometimes changes target to attack special infected or other people.
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -34,6 +40,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* Related Plugin | 相關插件
+	1. [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+    	> Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
+
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2023-8-1)
@@ -42,8 +52,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-只追第一個驚嚇她的人，不管多少人阻擋她的路，Witch永遠不會改變目標
+修復Witch轉移目標攻擊特感或其他人，不管多少人阻擋她的路，Witch永遠不會改變目標
 
 * 原理
 	* Witch只會追第一個驚嚇她的人
 	* Witch在追逐的路上，不管多少隻特感或多少個倖存者阻擋她的路，Witch永遠不會改變目標
+	* 修復Witch轉移目標攻擊特感或其他人

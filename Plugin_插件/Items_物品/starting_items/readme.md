@@ -101,9 +101,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 支援準備插件，所有人準備之前與之後
 	* 不影響過關攜帶的武器
 
-* 功能
-	* 查看下方"指令中文介紹"
-
 * <details><summary>指令中文介紹(點我展開)</summary>
 
 	* cfg/sourcemod/starting_items.cfg
