@@ -11,27 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_infected_speed_boost_1](image/l4d_infected_speed_boost_1.gif)
     <br/>![l4d_infected_speed_boost_2](image/l4d_infected_speed_boost_2.gif)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-  * v1.0
-      * Initial Release
-</details>
-
 * Require | 必要安裝
     1. [Lagged Movement - Plugin Conflict Resolver](https://forums.alliedmods.net/showthread.php?t=340345)
-
-* Related Plugin | 相關插件
-    1. [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team
-        > 依據槍械種類修改特感隊伍的槍緩速度
-    
-    2. [l4d_rejump](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_rejump): Allows multi-jumping on air.
-        > 成為超級瑪利歐，人類與特感能在空中使用月步，多次跳躍
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -78,6 +59,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
     None
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+    1. [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team
+        > 依據槍械種類修改特感隊伍的槍緩速度
+    
+    2. [l4d_rejump](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_rejump): Allows multi-jumping on air.
+        > 成為超級瑪利歐，人類與特感能在空中使用月步，多次跳躍
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+  * v1.0
+      * Initial Release
 </details>
 
 - - - -

@@ -10,40 +10,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v2.0 (2023-4-1)
-        * Replace Gamedata with left4dhooks
-
-	* v1.9 (2023-3-13)
-        * Select special infected class to teleport
-        * Each S.I. teleport range
-        * Teleport method
-        * Active the this plugin after survivors have reached certain distances of the map
-        * Teleport Tank available
-
-	* v1.8
-        * Teleport infected to teammate who is near the first ahead survivor
-
-	* v1.6
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
-		> 生成多特感控制插件
-	1. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
-		> 強化每個AI 特感的行為與提高智商，積極攻擊倖存者
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -132,6 +101,39 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+		> 生成多特感控制插件
+	1. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
+		> 強化每個AI 特感的行為與提高智商，積極攻擊倖存者
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.0 (2023-4-1)
+        * Replace Gamedata with left4dhooks
+
+	* v1.9 (2023-3-13)
+        * Select special infected class to teleport
+        * Each S.I. teleport range
+        * Teleport method
+        * Active the this plugin after survivors have reached certain distances of the map
+        * Teleport Tank available
+
+	* v1.8
+        * Teleport infected to teammate who is near the first ahead survivor
+
+	* v1.6
+	    * Initial Release
 </details>
 
 - - - -

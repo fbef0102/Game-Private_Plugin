@@ -7,61 +7,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/VC7-96qwwuo)
 
-* Image | 圖示
-	* image 1
+* <details><summary>Image | 圖示</summary>
+
 	<br/>![l4d_player_tail_1](image/l4d_player_tail_1.jpg)
-	* image 2
 	<br/>![l4d_player_tail_2](image/l4d_player_tail_2.jpg)
-	* image 3
 	<br/>![l4d_player_tail_3](image/l4d_player_tail_3.jpg)
-	* image 4
 	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
-	* custom tail model
-		> 自製特效貼圖
-		<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
-	* Tail menu
-		> 菜單介面選擇尾巴的顏色或貼圖
-		<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
+	<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
+	<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
+</details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
+	* Type !tail -> choose colors and sprite -> have fun
+	* You can add Custom tail sprite
+</details>
 
-	* v1.6 (2023-1-23)
-		* Support database to save personal tail settings. (MySQL & SQLite supported)
-		* Add a convar ```l4d_player_tail_database```
+* <details><summary>Important Note</summary>
 
-	* v1.5 (2023-1-22)
-		* Fixed client crash: received failure code 6.
-		* Fixed missing model.
-		* Delete a convar ```l4d_player_tail_sprite_model```
-
-	* v1.4 (2023-1-13)
-		* Add a convar, access flags to open tail menu
-
-	* v1.3
-		* Add menu to choose color and sprite model
-		* Support custom sprite model
-
-	* v1.2
-	    * Initial Release
+	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
+	* Tail could temporarily disappear if player stop moving
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Similar Plugin | 相似插件
-	1. [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail)
-	> 一樣是尾巴特效，看自己喜歡用哪一種
-
-* Note | 注意事項
-	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
-	* Tail could temporarily disappear if player stop moving
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -125,7 +95,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Database
+* <details><summary>Database</summary>
+
 	* set ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
 		```php
 		"tail"
@@ -146,6 +117,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"database"			"L4D_Player_Tail"
 		}
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail)
+	> 一樣是尾巴特效，看自己喜歡用哪一種
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2023-1-23)
+		* Support database to save personal tail settings. (MySQL & SQLite supported)
+		* Add a convar ```l4d_player_tail_database```
+
+	* v1.5 (2023-1-22)
+		* Fixed client crash: received failure code 6.
+		* Fixed missing model.
+		* Delete a convar ```l4d_player_tail_sprite_model```
+
+	* v1.4 (2023-1-13)
+		* Add a convar, access flags to open tail menu
+
+	* v1.3
+		* Add menu to choose color and sprite model
+		* Support custom sprite model
+
+	* v1.2
+	    * Initial Release
+</details>
 
 - - - -
 # 中文說明
@@ -182,7 +188,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* 資料庫設定
+* <details><summary>資料庫設定</summary>
+
 	* 支援跨伺服器儲值經驗值，設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
 		```php
 		"tail"
@@ -203,5 +210,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"database"			"L4D_Player_Tail"
 		}
 		```
-	
-
+</details>

@@ -7,28 +7,45 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/dKdnKxFNUXk)
 
-* Image | 圖示
-	* Point an entity and type !modme in chatbox
-		> 對準一個物件然後輸入!modme
-		<br/>![l4d_modme_0](image/l4d_modme_0.jpg)
-	* You become car
-		> 你的模型變成車子
-		<br/>![l4d_modme_1](image/l4d_modme_1.jpg)
-	* You become firs aid kit
-		> 你的模型變成治療包
-		<br/>![l4d_modme_2](image/l4d_modme_2.jpg)
-	* You become Tank
-		> 你的模型變成Tank
-		<br/>![l4d_modme_3](image/l4d_modme_3.jpg)
-	* You become Common Infected
-		> 你的模型變成普通感染者
-		<br/>![l4d_modme_4](image/l4d_modme_4.jpg)
-	* You become Witch
-		> 你的模型變成Witch
-		<br/>![l4d_modme_5](image/l4d_modme_5.jpg)
-	* You become Boomer
-		> 你的模型變成Boomer
-		<br/>![l4d_modme_6](image/l4d_modme_6.jpg)
+* <details><summary>Image | 圖示</summary>
+
+	<br/>![l4d_modme_0](image/l4d_modme_0.jpg)
+	<br/>![l4d_modme_1](image/l4d_modme_1.jpg)
+	<br/>![l4d_modme_2](image/l4d_modme_2.jpg)
+	<br/>![l4d_modme_3](image/l4d_modme_3.jpg)
+	<br/>![l4d_modme_4](image/l4d_modme_4.jpg)
+	<br/>![l4d_modme_5](image/l4d_modme_5.jpg)
+	<br/>![l4d_modme_6](image/l4d_modme_6.jpg)
+</details>
+
+* <details><summary>How does it work?</summary>
+
+	* Point an entity -> type !modme in chatbox -> your model will be changed into the same as the entity -> have fun!
+</details>
+
+* Require | 必要安裝
+    1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	2. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_modme.cfg
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_modme_enable "1"
+
+		// Players with these flags have access to use command. (Empty = Everyone, -1: Nobody)
+		l4d_modme_access_flag ""
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	* **Point an entity or infected and replace your model with their model**
+		```php
+		sm_modme
+		```
+</details>
 
 * Apply to | 適用於
 	```
@@ -49,30 +66,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	    * Initial Release
 </details>
 
-* Require | 必要安裝
-    1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/l4d_modme.cfg
-		```php
-		// Players with these flags have access to use command. (Empty = Everyone, -1: Nobody)
-		l4d_modme_access_flag ""
-
-		// 0=Plugin off, 1=Plugin on.
-		l4d_modme_enable "1"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	* **Point an entity or infected and replace your model with their model**
-		```php
-		sm_modme
-		```
-</details>
-
 - - - -
 # 中文說明
 玩家外觀可以變成地圖任何一個物件模型
@@ -82,5 +75,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可以複製特感、Tank、Witch、普通感染者的模型，
 		* Charger與Spitter 的模型會卡住，認真你就輸了
 
-* 功能
-	* 可設置特定權限的人才能使用!modme
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_modme.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_modme_enable "1"
+		
+		// 擁有這些權限的玩家，才可以輸入!modme (留白 = 任何人都能, -1: 無人)
+		l4d_modme_access_flag ""
+		```
+</details>

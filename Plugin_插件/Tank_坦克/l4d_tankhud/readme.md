@@ -9,33 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Display tankhud
-		> Tank介面
-		<br/>![l4d_tankhud_1](image/l4d_tankhud_1.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1 versus
-	L4D2 versus
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0h (2023-2-10)
-		* Individual plugin
-		* Auto generate cfg
-		* Delete spechud, only tankhud left
-
-	* v3.8.4
-	    * [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/spechud.sp)
-</details>
+	<br/>![l4d_tankhud_1](image/l4d_tankhud_1.jpg)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -65,6 +39,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_tankhud
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2023-2-10)
+		* Individual plugin
+		* Auto generate cfg
+		* Delete spechud, only tankhud left
+
+	* v3.8.4
+	    * [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/spechud.sp)
 </details>
 
 - - - -

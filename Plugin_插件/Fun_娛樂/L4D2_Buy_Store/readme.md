@@ -1,7 +1,5 @@
 # Description | 內容
 L4D2 Human and Zombie Shop by HarryPoter
-* (Survivor) Killing zombies and infected to earn credits
-* (Infected) Doing Damage to survivors to earn credits
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -9,53 +7,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/LP0ALxlbaZE)
 
-* Image | 圖示
-	* survivor shop list
-		> 人類商城
-		<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
-	* survivor shop list
-		> 所有玩家的銀行儲值
-		<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
-	* display message
-		> 顯示有人購物
-		<br/>![L4D2_Buy_Store_3](image/L4D2_Buy_Store_3.jpg)
-	* infectec shop list
-		> 特感商城
-		<br/>![L4D2_Buy_Store_4](image/L4D2_Buy_Store_4.jpg)
-	* buy command
-		> 使用命令直接購物
-		<br/>![L4D2_Buy_Store_5](image/L4D2_Buy_Store_5.jpg)
+* <details><summary>Image | 圖示</summary>
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+	<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
+	<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
+	<br/>![L4D2_Buy_Store_3](image/L4D2_Buy_Store_3.jpg)
+	<br/>![L4D2_Buy_Store_4](image/L4D2_Buy_Store_4.jpg)
+	<br/>![L4D2_Buy_Store_5](image/L4D2_Buy_Store_5.jpg)
+</details>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	Spanish
-	Russian
-	Portuguese
-	Dutch
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v5.1 (2023-4-28)
-		* Optimize Code
-
-	* v5.0 (2022-11-15)
-		* Add short buy commands, directly buy item.
-		* Repeat purchase item you bought last time.
-		* Add Survivor/Infected Special items
-		* Support Database
-		* Points Transfer
-		
-	* v4.6
-		* [Old Version](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
+	* (Survivor) Killing zombies and infected to earn credits
+	* (Infected) Doing Damage to survivors to earn credits
+	* Type !buy in chatbox, buy anything you want
 </details>
 
 * Require | 必要安裝
@@ -351,7 +316,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_clearmoney <name>
 		sm_deductmoney <name>
 		```
-
 </details>
 
 * <details><summary>Specail Item</summary>
@@ -430,7 +394,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * How to modify the item price
 	* L4D2_Buy_Store.sp line 167 ~ 272
 
-* Database
+* <details><summary>Database</summary>
+
 	* ```sm_shop_CookiesCached_enable "1"```, this uses CookiesCached to save player money
 	* if you want to cross server database, set sm_shop_database "shop" and set *sourcemod\configs\databases.cfg*
 		```php
@@ -444,6 +409,42 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"port"				"yourport"
 		}
 		```
+
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	Spanish
+	Russian
+	Portuguese
+	Dutch
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v5.1 (2023-4-28)
+		* Optimize Code
+
+	* v5.0 (2022-11-15)
+		* Add short buy commands, directly buy item.
+		* Repeat purchase item you bought last time.
+		* Add Survivor/Infected Special items
+		* Support Database
+		* Points Transfer
+		
+	* v4.6
+		* [Old Version](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
+</details>
 
 - - - -
 # 中文說明

@@ -14,46 +14,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         > 顯示武器拿取限制
         <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
+* <details><summary>How does it work?</summary>
 
-* [L4D1 Version | 適用於L4D1的版本](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_limitweapon)
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v2.1
-	    * Remove some cmds
-
-    * v2.0
-	    * [By CanadaRox, Stabby, Forgetest, A1m`, robex](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d_weapon_limits.sp)
-</details>
-
-* Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    2. [[INC] l4d2_weapons](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc)
-
-* <details><summary>ConVar | 指令</summary>
-
-    * cfg/sourcemod/l4d_weapon_limits.cfg
-        ```php
-        // Time interval bewteen weapon limit notify. (0=off)
-        l4d_weapon_limits_cooltime_block "3.0"
-        ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    * **Add a weapon limit**
-		```php
-        l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon class name>
-		```
-</details>
-
-* Notice
     * open cfg/server.cfg and write down cmds. For example:
         ```php
+        // l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon class name>
         l4d_weapon_limits_add 3 1 weapon_smg weapon_smg_silenced
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
@@ -86,6 +51,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         weapon_sniper_scout
         weapon_sniper_awp
         ```
+</details>
+
+* Require | 必要安裝
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    2. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
+
+* <details><summary>ConVar | 指令</summary>
+
+    * cfg/sourcemod/l4d_weapon_limits.cfg
+        ```php
+        // Time interval bewteen weapon limit notify. (0=off)
+        l4d_weapon_limits_cooltime_block "3.0"
+        ```
+</details>
+
+* <details><summary>Command | 命令</summary>
+    
+    * **Add a weapon limit**
+		```php
+        l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon class name>
+		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
+* [L4D1 Version | 適用於L4D1的版本](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_limitweapon)
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.1
+	    * Remove some cmds
+
+    * v2.0
+	    * [By CanadaRox, Stabby, Forgetest, A1m`, robex](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d_weapon_limits.sp)
+</details>
 
 - - - -
 # 中文說明
@@ -95,21 +98,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 當要撿起武器時，計算隊友之中已經拿取的數量，超過便不能撿起武器 
     * 適用真人玩家與Bot
 
-* 功能
-	1. 設置每一個武器限制，也可以不設置
+* <details><summary>使用步驟</summary>
 
-* <details><summary>指令中文介紹 (點我展開)</summary>
-
-    * **Add a weapon limit**
-        ```php
-        l4d_weapon_limits_add <限制數量> <如果不能撿起限制的武器是否給彈藥> <武器名稱>
-        ```
-</details>
-
-
-* 注意事項中文說明
     * 打開 cfg/server.cfg 文件並寫下想要限制的武器，譬如
         ```php
+        // l4d_weapon_limits_add <限制數量> <如果不能撿起限制的武器是否給彈藥> <武器名稱>
+        // 不用寫所有武器
         l4d_weapon_limits_add 3 1 weapon_smg weapon_smg_silenced
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome weapon_pumpshotgun
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
@@ -142,3 +136,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         CSS-Scout狙擊槍 => weapon_sniper_scout
         CSS-AWP狙擊槍 => weapon_sniper_awp
         ```
+</details>

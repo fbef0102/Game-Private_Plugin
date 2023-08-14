@@ -1,5 +1,5 @@
 # Description | 內容
-Whitelist or ban players from specifi country or area
+Whitelist or ban players from specific country or area
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -9,27 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br>None
 
 * Image
-	* Area Restricted
 	<br/>![ban_country_player_1](image/ban_country_player_1.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2023-6-14)
-		* Initial Release
-</details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -38,11 +18,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/ban_country_player.cfg
 		```php
-		// If 1, Announce to entire server if the connecting player got kicked
-		ban_country_player_announce "1"
-
 		// 0=Plugin off, 1=Plugin on.
 		ban_country_player_enable "1"
+		
+		// If 1, Announce to entire server if the connecting player got kicked
+		ban_country_player_announce "1"
 
 		// Players with these flags will not be kikced. (Empty = Everyone, -1: Nobody)
 		ban_country_player_immune_flag "z"
@@ -69,15 +49,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	
 	* configs/ban_country_player_whitelist.cfg
 		```php
-		//Area - Do not delete this line
+		//Area - Do not delete this line <== Restricted area
 		Taiwan
 
-		//Steam64 ID - Do not delete this line
+		//Steam64 ID - Do not delete this line <== Whitelist steam ID
 		XXXXXXXXXXXX
 		```
 
-	*  [All country names](http://www.geonames.org/countries/)
+	* [All country names](http://www.geonames.org/countries/)
 	* [Steam ID finder](https://steamid.xyz/)
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-6-14)
+		* Initial Release
 </details>
 
 - - - -
@@ -85,23 +84,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 限制來自某些國家或地區的玩家，禁止進入伺服器
 
 * 圖示
-	* 卍解
 	<br/>![ban_country_player_1](image/zho/ban_country_player_1.jpg)
 
 * 原理
 	* 玩家連線中途從IP上提取地區位置，如果列為限制則不能加入
-	* 有白名單設置地區與Steam帳號的豁免名單
+	* 有文件設置地區與Steam帳號的豁免名單
 	* 有管理員權限的人不會被踢
 
-* 功能
-	* 可設置提示
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/ban_country_player.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		ban_country_player_enable "1"
+
+		// 為1時，顯示被踢的玩家給全伺服器
+		ban_country_player_announce "1"
+
+		// 擁有這些權限的玩家，不會被踢
+		ban_country_player_immune_flag "z"
+		```
+</details>
 
 * 必看步驟
 	* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
 
 * <details><summary>Data 設定範例</summary>
 	
-	* 白名單文件位於 configs/ban_country_player_whitelist.cfg
+	* 文件位於 configs/ban_country_player_whitelist.cfg
 		```php
 		//Area - Do not delete this line <== 地區白名單 - 請勿刪除此行
 		Taiwan

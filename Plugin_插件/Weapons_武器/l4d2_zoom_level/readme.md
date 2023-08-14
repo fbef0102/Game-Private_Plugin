@@ -8,25 +8,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/9mYmhI5su9I)
 
-* Image | 圖示
-	* Use command to change zoom level
-    > 狙擊槍改變縮放級別
-	<br/>![l4d2_zoom_level_1](image/l4d2_zoom_level_1.jpg)
-
-* Apply to | 適用於
-```
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.1
-	    * Add cmd: sm_zoom
-
-    * v0.0
-	    * [By BHaType](https://forums.alliedmods.net/showthread.php?t=317993)
-</details>
-
 * Require | 必要安裝
     <br/>None
 
@@ -41,6 +22,25 @@ L4D2
 		```php
         sm_zoom <number>
 		```
+</details>
+
+* Image | 圖示
+	* Use command to change zoom level
+        > 狙擊槍改變縮放級別
+        <br/>![l4d2_zoom_level_1](image/l4d2_zoom_level_1.jpg)
+
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1
+	    * Add cmd: sm_zoom
+
+    * v0.0
+	    * [By BHaType](https://forums.alliedmods.net/showthread.php?t=317993)
 </details>
 
 - - - -

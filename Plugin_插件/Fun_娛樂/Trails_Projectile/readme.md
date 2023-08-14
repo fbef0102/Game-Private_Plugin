@@ -7,41 +7,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/c_0ACD0VLQA)
 
-* Image | 圖示
-	* Molotov projectile
-        > 汽油彈
-        <br/>![Trails_Projectile_1](image/Trails_Projectile_1.jpg)
-	* VomitJar projectile
-        > 膽汁瓶
-        <br/>![Trails_Projectile_2](image/Trails_Projectile_2.jpg)
-	* Pipe bomb projectile
-        > 土製炸彈
-        <br/>![Trails_Projectile_3](image/Trails_Projectile_3.jpg)
-	* Grenade launcher projectile
-        > 榴彈
-        <br/>![Trails_Projectile_4](image/Trails_Projectile_4.jpg)
-	* Spitter projectile
-        > 唾液物
-        <br/>![Trails_Projectile_5](image/Trails_Projectile_5.jpg)
-	* Tank Rock
-        > 石頭
-        <br/>![Trails_Projectile_6](image/Trails_Projectile_6.jpg)
+* <details><summary>Image | 圖示</summary>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.2 (2022-10-26)
-	    * More Cvars
-        * Add spitter projectile
-        * Auto generate cfg
-
-    * v1.0
-	    * [By Mister_Game_Over](https://forums.alliedmods.net/showthread.php?t=301388)
+    <br/>![Trails_Projectile_1](image/Trails_Projectile_1.jpg)
+    <br/>![Trails_Projectile_2](image/Trails_Projectile_2.jpg)
+    <br/>![Trails_Projectile_3](image/Trails_Projectile_3.jpg)
+    <br/>![Trails_Projectile_4](image/Trails_Projectile_4.jpg)
+    <br/>![Trails_Projectile_5](image/Trails_Projectile_5.jpg)
+    <br/>![Trails_Projectile_6](image/Trails_Projectile_6.jpg)
 </details>
 
 * Require | 必要安裝
@@ -139,6 +112,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2 (2022-10-26)
+        * More Cvars
+        * Add spitter projectile
+        * Auto generate cfg
+
+    * v1.0
+        * [By Mister_Game_Over](https://forums.alliedmods.net/showthread.php?t=301388)
+</details>
+
 - - - -
 # 中文說明
 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
@@ -147,7 +137,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 丟出去投擲物的時候產生拖曳軌跡
 
 * 功能
-	* 可調整每種投擲物的開關、顏色、透明度、形狀
+    * 可調整每種投擲物的開關、顏色、透明度、形狀
 
 
 

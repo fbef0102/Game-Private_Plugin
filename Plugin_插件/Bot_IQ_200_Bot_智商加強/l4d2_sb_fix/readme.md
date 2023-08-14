@@ -1,5 +1,5 @@
 # Description | 內容
-Survivor Bot Fix. Improve Survivor Bot
+Improve Survivor Bot's behavior and IQ fix
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -11,23 +11,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
+	* Improve bots
+		* Help a pinning Survivor.
+		* Attack a Common Infected.
+		* Attack a Special Infected.
+		* Attack a Tank.
+		* Bash a flying Hunter and Jockey.
+		* Shoot a tank rock.
+		* Shoot a Witch (Contronls the attack timing when have a shotgun).
+		* Restrict switching to the sub weapon.
+		* And the action during incapacitated.
 
-	* v1.3
-		* Fix error "Exception reported: Entity -1 (-1) is invalid"
-		* Convert code to latest syntax
-		* Add convars.
-		* Changes to fix warnings when compiling on SourceMod 1.11.
-		* Bot Takes over player or spawn or die or disconnect event check
-		* Add Adm Command, "sm_sblist", check smart bots list (Access: ADMFLAG_BAN)
-
-	* v1.0
-		* [By DingbatFlat](https://forums.alliedmods.net/showthread.php?t=334245)
+	* Select the improved bot with the following CVars.
+		* If "sb_fix_select_type" is 0, improved all bots.
+		* If "sb_fix_select_type" is 1, the number of bots set in "sb_fix_select_number" will be randomly select.
+		* If "sb_fix_select_type" is 2, select the bot of the character entered in "sb_fix_select_character_name".
+		* Bots will be improved after players have left the saferoom.
 </details>
 
 * Require | 必要安裝
@@ -173,24 +174,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* About
-	* Improve bots
-		* Help a pinning Survivor.
-		* Attack a Common Infected.
-		* Attack a Special Infected.
-		* Attack a Tank.
-		* Bash a flying Hunter and Jockey.
-		* Shoot a tank rock.
-		* Shoot a Witch (Contronls the attack timing when have a shotgun).
-		* Restrict switching to the sub weapon.
-		* And the action during incapacitated.
-
-	* Select the improved bot with the following CVars.
-		* If "sb_fix_select_type" is 0, it is always all enabled.
-		* If "sb_fix_select_type" is 1, the number of people set in "sb_fix_select_number" will be randomly select.
-		* If "sb_fix_select_type" is 2, select the bot of the character entered in "sb_fix_select_character_name".
-		* For 1 and 2, bots that improve after left the safe room are selected.
-
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -198,6 +181,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// The total number of melee weapons allowed on the team. 0 = bots never use melee
 		sm_cvar sb_max_team_melee_weapons 0
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Improve Survivor Bot's behavior and IQ fix
+		> 強化AI Bot的智商與行為
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3
+		* Fix error "Exception reported: Entity -1 (-1) is invalid"
+		* Convert code to latest syntax
+		* Add convars.
+		* Changes to fix warnings when compiling on SourceMod 1.11.
+		* Bot Takes over player or spawn or die or disconnect event check
+		* Add Adm Command, "sm_sblist", check smart bots list (Access: ADMFLAG_BAN)
+
+	* v1.0
+		* [By DingbatFlat](https://forums.alliedmods.net/showthread.php?t=334245)
 </details>
 
 - - - -

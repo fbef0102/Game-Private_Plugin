@@ -8,7 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 	<br/>None
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	* Your Rank statistics
 		> 你的Rank統計表
 		<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
@@ -18,49 +19,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* CSGO Rank
 		> 抄襲CSGO Rank
 		<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.5 (2023-5-9)
-		* Add rank title to player name
-
-	* v1.4 (2023-4-28)
-		* Optimize Code
-
-	* v1.3 (2023-1-16)
-		* Add 
-			1. number of SI kills
-			2. number of Witch kills
-			3. number of CI Kills
-			4. number of Tank Kills
-			5. number of SI headshots
-			6. number of CI headshots
-			7. and how long player playing on this server start from joined date
-
-
-	* v1.2 (2022-12-23)
-		* Show rank hud when new player joins and new round starts
-
-	* v1.1
-		* Supporty MySQL and Local-SQLite
-
-	* v1.0
-		* Initial Release
 </details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
-
-* Optional | 輔助插件
-	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
-		> 準備插件，新的回合開始時顯示Rank Hud
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -119,7 +82,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Database
+* <details><summary>Database</summary>
+
 	* set ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
 		```php
 		"rank"
@@ -140,7 +104,48 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"database"			"rank_system"
 		}
 		```
+</details>
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Optional | 輔助插件</summary>
+
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		> 準備插件，新的回合開始時顯示Rank Hud
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5 (2023-5-9)
+		* Add rank title to player name
+
+	* v1.4 (2023-4-28)
+		* Optimize Code
+
+	* v1.3 (2023-1-16)
+		* Add 
+			1. number of SI kills
+			2. number of Witch kills
+			3. number of CI Kills
+			4. number of Tank Kills
+			5. number of SI headshots
+			6. number of CI headshots
+			7. and how long player playing on this server start from joined date
+
+
+	* v1.2 (2022-12-23)
+		* Show rank hud when new player joins and new round starts
+
+	* v1.1
+		* Supporty MySQL and Local-SQLite
+
+	* v1.0
+		* Initial Release
+</details>
 
 - - - -
 # 中文說明
@@ -158,7 +163,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可不要將頭銜名稱加入到玩家的名字前
 	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
 
-* 資料庫設定
+* <details><summary>資料庫設定</summary>
+
 	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
 		```php
 		"rank"
@@ -179,3 +185,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"database"			"rank_system"
 		}
 		```
+</details>

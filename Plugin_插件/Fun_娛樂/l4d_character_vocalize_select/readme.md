@@ -7,24 +7,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/EVW_neSFDLg)
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	* Character Vocalize Menu
 		> 選擇角色語音
 		<br/>![l4d_character_vocalize_select_1](image/l4d_character_vocalize_select_1.jpg)
 	* All characters' vocalize menu (Custom)
 		> 所有角色的語音 (可自定義)
 		<br/>![l4d_character_vocalize_select_2](image/l4d_character_vocalize_select_2.jpg)
+</details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2023-4-6)
-	    * Initial Release
+	* Type !vocal -> choose any sound to vocalize -> Have Fun!
 </details>
 
 * Require | 必要安裝
@@ -56,7 +51,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Data Example
+* <details><summary>Data Example</summary>
+
 	* data/l4d_character_vocalize_select.cfg
 		```php
 		"l4d_character_vocalize_select"
@@ -82,6 +78,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-4-6)
+	    * Initial Release
+</details>
 
 - - - -
 # 中文說明
@@ -101,7 +110,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設置長按R的時間
 	* 可設置只能選擇自己的角色語音
 
-* Data設定範例
+* <details><summary>Data設定範例</summary>
+
 	* data/l4d_character_vocalize_select.cfg
 		```php
 		"l4d_character_vocalize_select"
@@ -127,3 +137,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>

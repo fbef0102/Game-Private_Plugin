@@ -11,29 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
     <br/>![l4d2_M60_weapon_patch_1](image/l4d2_M60_weapon_patch_1.gif)
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0h (2023-7-5)
-	    * Add cvars
-	    * Prevents m60 from dropping when 0 clip
-	    * M60 Reload speed
-	    * Refill Explosive/Incendiary ammo
-
-    * v1.0.9
-	    * [Originl Plugin By Lux](https://forums.alliedmods.net/showthread.php?t=323408)
-</details>
-
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [l4d2_shield_equip](/Plugin_%E6%8F%92%E4%BB%B6/Nothing_Impossible_%E7%84%A1%E7%90%86%E6%94%B9%E9%80%A0%E7%89%88/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
-		> 新武器: 防暴盾牌
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -68,6 +47,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// M60 reserve ammo (-2 = infinite ammo)
 		sm_cvar ammo_m60_max 300
 		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
+* Related Plugin | 相關插件
+	1. [l4d2_shield_equip](/Plugin_%E6%8F%92%E4%BB%B6/Nothing_Impossible_%E7%84%A1%E7%90%86%E6%94%B9%E9%80%A0%E7%89%88/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
+		> 新武器: 防暴盾牌
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0h (2023-7-5)
+	    * Add cvars
+	    * Prevents m60 from dropping when 0 clip
+	    * M60 Reload speed
+	    * Refill Explosive/Incendiary ammo
+
+    * v1.0.9
+	    * [Originl Plugin By Lux](https://forums.alliedmods.net/showthread.php?t=323408)
 </details>
 
 - - - -

@@ -1,5 +1,5 @@
 # Game-Private_Plugin by Harry Potter
-> 2023/8/6 updated
+> 2023/8/14 updated
 - [總攬](#總攬)
   - [私人插件列表](#l4d12-plugin-list--l4d1和2插件列表)
   - [公開的插件列表](#公開的插件列表-public-plugins-list)
@@ -113,7 +113,7 @@
     * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
   * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
     * 新型投票系統 (使用官方內建的投票)
-  * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specifi country or area
+  * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specific country or area
     * 限制來自某些國家或地區的玩家，禁止進入伺服器
 </details>
 
@@ -131,6 +131,8 @@
     * AI 特感一段時間內不攻擊或卡住將會被處死
   * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
     * 特感在爬梯或蹲下期間自動加速移動
+  * [l4d_si_immunity](/Plugin_插件/Special_Infected_特感/l4d_si_immunity): Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type
+    * 特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -197,6 +199,9 @@
     * 燃燒Tank的玩家會被減速慢行
   * [l4d2_tankonfire_boost](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Increase the speed and power of tanks when on fire.
     * Tank燃燒時，速度與力量會提升
+    * 燃燒Tank的玩家會被減速慢行
+  * [l4d_tank_ghost_spawn](/Plugin_插件/Tank_坦克/l4d_tank_ghost_spawn): When player gets the tank, he will become ghost tank and freely choose anywhere to spawn
+    * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -311,6 +316,8 @@
     * 玩家使用指令升級紅外線雷射
   * [l4d2_M60_weapon_patch](/Plugin_插件/Weapons_武器/l4d2_M60_weapon_patch): Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill Explosive/Incendiary ammo
     * 改造M60 機關槍，可以拿取子彈、填充子彈、裝彈變快、升級火焰子彈與高爆子彈
+  * [l4d_player_remove_equipment](/Plugin_插件/Weapons_武器/l4d_player_remove_equipment): Admin can remove player's equipment
+    * 管理員可以移除任何玩家身上的裝備與武器
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -413,7 +420,7 @@
 
   * [l4d_bot_healing](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
     * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
-  * [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Survivor Bot Fix. Improve Survivor Bot
+  * [l4d2_sb_fix](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Improve Survivor Bot's behavior and IQ fix
     * 強化AI Bot的智商與行為
   * [l4d_grenade_throwing_bots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_grenade_throwing_bots): Allows Bots To Throw Grenades Themselves.
     * AI Bot可以主動扔膽汁瓶、燃燒瓶、土製炸彈，提高智商不會亂丟

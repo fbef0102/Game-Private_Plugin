@@ -7,28 +7,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/eNFcXMafLuQ)
 
-* Image | 圖示
-<br/>None
-
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//AtomicStryker @ 2009-2012
-	//HarryPotter @ 2022
-	```
-    * v1.0h (2022-11-27)
-	    * Remake code
-        * Add cvars amd command limit
-
-    * v0.0
-	    * [By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=97946)
-</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -64,6 +42,29 @@ L4D2
 	```php
 	sm_laser
 	```
+</details>
+
+* Image | 圖示
+<br/>None
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//AtomicStryker @ 2009-2012
+	//HarryPotter @ 2022
+	```
+    * v1.0h (2022-11-27)
+	    * Remake code
+        * Add cvars amd command limit
+
+    * v0.0
+	    * [By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=97946)
 </details>
 
 - - - -

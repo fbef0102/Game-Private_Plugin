@@ -16,36 +16,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 火拳威力
 		<br/>![l4d2_tankonfire_boost_2](image/l4d2_tankonfire_boost_2.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//DarkNoghri @ 2010
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-6-6)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Use left4dhooks
-		* Fixed Error
-
-	* v1.1
-		* [Original Plugin By DarkNoghri](https://forums.alliedmods.net/showthread.php?t=116014)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [Tank Rock Ignition by Marttt](https://forums.alliedmods.net/showthread.php?t=315822): Ignites the rock thrown by the Tank when he is on fire
-		> 著火時，扔出來的石頭也會著火且砸中人類會有額外傷害
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -68,6 +41,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 	
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [Tank Rock Ignition by Marttt](https://forums.alliedmods.net/showthread.php?t=315822): Ignites the rock thrown by the Tank when he is on fire
+		> 著火時，扔出來的石頭也會著火且砸中人類會有額外傷害
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//DarkNoghri @ 2010
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-6-6)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Use left4dhooks
+		* Fixed Error
+
+	* v1.1
+		* [Original Plugin By DarkNoghri](https://forums.alliedmods.net/showthread.php?t=116014)
 </details>
 
 - - - -

@@ -7,24 +7,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/SXZMB0t2mtc)
 
-* Image | 圖示
-	* image 1
+* <details><summary>Image | 圖示</summary>
+
 	<br/>![l4d_player_spritetrail_1](image/l4d_player_spritetrail_1.jpg)
-	* image 2
 	<br/>![l4d_player_spritetrail_2](image/l4d_player_spritetrail_2.jpg)
-	* image 3
 	<br/>![l4d_player_spritetrail_3](image/l4d_player_spritetrail_3.jpg)
+</details>
 
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.2
-	    * Initial Release
+	* Attach trail effect while playing -> have fun
 </details>
 
 * Require | 必要安裝
@@ -32,50 +24,48 @@ L4D2
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* Similar Plugin | 相似插件
-	1. [l4d_player_tail](/Plugin_插件/Fun_娛樂/l4d_player_tail)
-	> 一樣是尾巴特效，看自己喜歡用哪一種
+* <details><summary>Important Note</summary>
 
-* Note | 注意事項
 	* "l4d_player_spritetrail_lifetime" must greater than or equal to "l4d_player_spritetrail_changecolor_interval"
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_player_spritetrail.cfg
-	```php
-	// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
-	l4d_player_spritetrail_access_flag ""
+		```php
+		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
+		l4d_player_spritetrail_access_flag ""
 
-	// If 1, Enable Tail effect for Bot Infected
-	l4d_player_spritetrail_bot_infected_enable "1"
+		// If 1, Enable Tail effect for Bot Infected
+		l4d_player_spritetrail_bot_infected_enable "1"
 
-	// If 1, Enable Tail effect for Bot Survivor
-	l4d_player_spritetrail_bot_survivor_enable "1"
+		// If 1, Enable Tail effect for Bot Survivor
+		l4d_player_spritetrail_bot_survivor_enable "1"
 
-	// Time interval to change tail color to random (0=Don't change color)
-	l4d_player_spritetrail_changecolor_interval "5.0"
+		// Time interval to change tail color to random (0=Don't change color)
+		l4d_player_spritetrail_changecolor_interval "5.0"
 
-	// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-	l4d_player_spritetrail_color "-1 -1 -1"
+		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_player_spritetrail_color "-1 -1 -1"
 
-	// Transparency of the tail (10-255).
-	l4d_player_spritetrail_color_alpha "155"
+		// Transparency of the tail (10-255).
+		l4d_player_spritetrail_color_alpha "155"
 
-	// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
-	l4d_player_spritetrail_default_value "1"
+		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
+		l4d_player_spritetrail_default_value "1"
 
-	// The width of the beam when it has full expanded.
-	l4d_player_spritetrail_endwidth "3.0"
+		// The width of the beam when it has full expanded.
+		l4d_player_spritetrail_endwidth "3.0"
 
-	// The default attached tail height
-	l4d_player_spritetrail_height "10.0"
+		// The default attached tail height
+		l4d_player_spritetrail_height "10.0"
 
-	// How long the beam is shown
-	l4d_player_spritetrail_lifetime "4.0"
+		// How long the beam is shown
+		l4d_player_spritetrail_lifetime "4.0"
 
-	// The width of the beam to the beginning.
-	l4d_player_spritetrail_startwidth "15.0"
-	```
+		// The width of the beam to the beginning.
+		l4d_player_spritetrail_startwidth "15.0"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -87,6 +77,24 @@ L4D2
 		sm_harrypotter
 		sm_hy
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [l4d_player_tail](/Plugin_插件/Fun_娛樂/l4d_player_tail)
+		> 一樣是尾巴特效，看自己喜歡用哪一種
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2
+	    * Initial Release
 </details>
 
 - - - -

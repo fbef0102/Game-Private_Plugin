@@ -1,0 +1,30 @@
+"Phrases"
+{
+	"Warning"
+	{
+		"#format"	"{1:d}"
+		"en"		"Find a safe place to spawn tank, or die in: {1}"
+		"zho"		"尋找安全的地方復活Tank, 否則{1}秒後將處死"
+		"chi"		"寻找安全的地方复活坦克, 否则{1}秒后将处死"
+	}
+	"Warning (C)"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Find a safe place to {red}spawn tank{default}, or die in: {green}{1}"
+		"zho"		"[{olive}TS{default}] 尋找安全的地方{red}復活Tank{default}, 否則 {green}{1}{default} 秒後將處死"
+		"chi"		"[{olive}TS{default}] 寻找安全的地方{red}复活坦克{default}, 否则 {green}{1}{default} 秒后将处死"
+	}
+	
+	"Kill Ghost Tank"
+	{
+		"en"		"Kill Ghost Tank!!!"
+		"zho"		"已處死靈魂Tank"
+		"chi"		"已处死灵魂坦克"
+	}
+	"Kill Ghost Tank (C)"
+	{
+		"en"		"[{olive}TS{default}] Kill {green}Ghost Tank{default}!!!"
+		"zho"		"[{olive}TS{default}] 已處死 {green}靈魂Tank"
+		"chi"		"[{olive}TS{default}] 已处死 {green}灵魂坦克"
+	}
+}

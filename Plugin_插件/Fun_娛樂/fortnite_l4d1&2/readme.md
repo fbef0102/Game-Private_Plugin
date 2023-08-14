@@ -55,23 +55,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
     
 	* **Open Dance&Emote Menu**
-	```php
-	sm_emotes
-	sm_emote
-	sm_dances
-	sm_dance
-	```
+		```php
+		sm_emotes
+		sm_emote
+		sm_dances
+		sm_dance
+		```
 
 	* **Adm forces someone to dance, check source code to see Emote ID (Adm required: ADMFLAG_GENERIC)**
-	```php
-	sm_setemotes <#userid|name> [Emote ID]
-	sm_setemote <#userid|name> [Emote ID]
-	sm_setdances <#userid|name> [Emote ID]
-	sm_setdance <#userid|name> [Emote ID]
-	```
+		```php
+		sm_setemotes <#userid|name> [Emote ID]
+		sm_setemote <#userid|name> [Emote ID]
+		sm_setdances <#userid|name> [Emote ID]
+		sm_setdance <#userid|name> [Emote ID]
+		```
 </details>
 
-* How do I set up files
+* <details><summary>How do I set up files</summary>
+
 	1. Preparation
 		* Download all files(addons, materials, models, and sound).
 		* Put them in your game server
@@ -105,6 +106,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	4. Start the server and test
 		* Join survivor and type !dance.
+</details>
 
 * Apply to | 適用於
 	```
@@ -112,7 +114,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* Translation Support | 支援翻譯
+* <details><summary>Translation Support | 支援翻譯</summary>
+
 	```
 	English
 	繁體中文
@@ -120,12 +123,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	Spanish
 	Turkish
 	```
+</details>
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
 		> 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
 	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
 		> 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -158,7 +164,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	4. 可設置幫對方打包的時候跳舞
 	5. 可設置冷卻時間
 
-* 如何設定檔案
+* <details><summary>如何安裝與設定檔案</summary>
+
 	1. 準備清單
 		* 下載所有文件（插件和模組檔案與音樂）。
 		* 將它們放入遊戲伺服器資料夾中
@@ -192,4 +199,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 	4. 啟動伺服器並測試
 		* 加入倖存者並輸入!dance，測試跳舞是否有動作
-
+</details>

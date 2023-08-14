@@ -13,28 +13,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 管理員 & VIP 顏色
 		<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Antithasys @ 2011
-	//HarryPotter @ 2023
-	```
-	* v1.0h (2023-6-15)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Use Steam64 ID instead of STEAM_X:X:XXXXXX
-
-	* v2.2.0
-	    * [Original Plugin By Antithasys](https://forums.alliedmods.net/showthread.php?t=167814)
-</details>
-
 * Require | 必要安裝
 	1. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	2. [smlib](https://github.com/bcserv/smlib/tree/transitional_syntax)
@@ -100,6 +78,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Warning:  2 of (Blue, Red, Lightgreen, Teamcolor) colors can not be used together
 
 	* [Find your SteamID 64](https://steamid.xyz/)
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Antithasys @ 2011
+	//HarryPotter @ 2023
+	```
+	* v1.0h (2023-6-15)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Use Steam64 ID instead of STEAM_X:X:XXXXXX
+
+	* v2.2.0
+	    * [Original Plugin By Antithasys](https://forums.alliedmods.net/showthread.php?t=167814)
 </details>
 
 - - - -

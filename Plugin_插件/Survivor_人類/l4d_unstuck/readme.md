@@ -8,9 +8,39 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/bNnXzVkRd1s)
 
 * Image | 圖示
-	* display message after command
-		> 輸入命令之後的提示
-		<br/>![l4d_unstuck_1](image/l4d_unstuck_1.jpg)
+	<br/>![l4d_unstuck_1](image/l4d_unstuck_1.jpg)
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_unstuck.cfg
+		```php
+		// If 1, Announces each round start that the !stuck command is available.
+		l4d_unstuck_announce "1"
+
+		// If 1, Infected player can use !stuck command too.
+		l4d_unstuck_infected_enable "1"
+
+		// Amount of times the client can use !stuck per round
+		l4d_unstuck_teleports "10"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	* **Unstuck yourself**
+		```php
+		sm_stuck
+		```
+
+	* **Admin helps player unstick (Adm required: ADMFLAG_GENERIC)**
+		```php
+		sm_unstick <name>
+		```
+</details>
 
 * Apply to | 適用於
 	```
@@ -45,38 +75,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* v1.0.6
 		* [By CUatTHEFINISH](https://forums.alliedmods.net/showthread.php?t=110041)
-</details>
-
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/l4d_unstuck.cfg
-		```php
-		// If 1, Announces each round start that the !stuck command is available.
-		l4d_unstuck_announce "1"
-
-		// If 1, Infected player can use !stuck command too.
-		l4d_unstuck_infected_enable "1"
-
-		// Amount of times the client can use !stuck per round
-		l4d_unstuck_teleports "10"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	* **Unstuck yourself**
-		```php
-		sm_stuck
-		```
-
-	* **Admin helps player unstick (Adm required: ADMFLAG_GENERIC)**
-		```php
-		sm_unstick <name>
-		```
 </details>
 
 - - - -

@@ -11,28 +11,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0h (2023-6-19)
-		* Add Cvars to tell if Target is self or teammate bot or teammate real player
-		* Remove sourcescramble
-
-	* v2.1
-		* [By SilverShot](https://forums.alliedmods.net/showthread.php?t=338889)
+	* Set the health value bots require before using any medical items
+	* Survivors bots will not do anything if target's healthi still fine.
 </details>
 
 * Require | 必要安裝
 	1. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
-
-* Optional | 輔助插件
-	1. [l4d_heartbeat](https://forums.alliedmods.net/showthread.php?t=322132): Fixes survivor_max_incapacitated_count cvar increased values reverting black and white screen. Also some extra options.
-		> 可用指令調整倖存者有多條生命與黑白狀態
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -82,6 +68,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_bhop
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Optional | 輔助插件</summary>
+
+	1. [l4d_heartbeat](https://forums.alliedmods.net/showthread.php?t=322132): Fixes survivor_max_incapacitated_count cvar increased values reverting black and white screen. Also some extra options.
+		> 可用指令調整倖存者有多條生命與黑白狀態
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2023-6-19)
+		* Add Cvars to tell if Target is self or teammate bot or teammate real player
+		* Remove sourcescramble
+
+	* v2.1
+		* [By SilverShot](https://forums.alliedmods.net/showthread.php?t=338889)
 </details>
 
 - - - -

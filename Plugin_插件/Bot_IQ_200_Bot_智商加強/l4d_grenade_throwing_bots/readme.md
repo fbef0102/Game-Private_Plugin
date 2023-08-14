@@ -8,50 +8,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/VzXO-AOm7YQ)
 
 * Image | 圖示
-	* Throw grenade at witch
-		> 自動對Witch丟燃燒瓶
+	* Bot throws grenade at witch
+		> Bot自動對Witch丟燃燒瓶
 		<br/>![l4d_grenade_throwing_bots_1](image/l4d_grenade_throwing_bots_1.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//cravenge @ 2017
-	//MasterMe @ 2020
-	//HarryPotter @ 2022-2023
-	```
-	* v1.0h (2023-3-30)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Use left4dhooks
-		* Add more function
-			1. Bot will throw grenades when get hurt by common
-			2. Bot will throw grenades when natural horde/event horde/alarm car coming
-			3. Bot will throw grenades when a survivor player is covered in Boomer bile
-			4. Target tank with grenades
-			5. Target witch with grenades
-			6. Disable grenade friendy fire from bot
-			7. Time interval Bot will throw grenades again.
-
-	* v1.9
-		* [MasterMe's fork](https://forums.alliedmods.net/showpost.php?p=2722229&postcount=152)
-
-	* v1.7
-		* [Original plugin By DingbatFlat](https://forums.alliedmods.net/showthread.php?t=296150)
+	* Bots can throw grenades
+	* When will bot throw grenades?
+		1. Get hurt by common
+		2. Natural horde/Event horde/Alarm car horde coming
+		3. A survivor player is covered in Boomer bile
+		4. Tank approaching
+		5. Witch nearby
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Related Plugin | 相關插件
-	1. [Gear Transfer by Silvers](https://forums.alliedmods.net/showthread.php?t=137616): Allows items (molotov,pipebomb,vomitjar,defibrillator,first aid,explosive & incendiary rounds) to be transferred. Bots can auto give/grab items.
-		> AI Bot會自己撿起地上的投擲物品與醫療物品並自動給予玩家
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -157,12 +130,45 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* When will bot throw grenades
-	1. Get hurt by common
-	2. Natural horde/Event horde/Alarm car horde coming
-	3. A survivor player is covered in Boomer bile
-	4. Tank approaching
-	5. Witch nearby
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [Gear Transfer by Silvers](https://forums.alliedmods.net/showthread.php?t=137616): Allows items (molotov,pipebomb,vomitjar,defibrillator,first aid,explosive & incendiary rounds) to be transferred. Bots can auto give/grab items.
+		> AI Bot會自己撿起地上的投擲物品與醫療物品並自動給予玩家
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//cravenge @ 2017
+	//MasterMe @ 2020
+	//HarryPotter @ 2022-2023
+	```
+	* v1.0h (2023-3-30)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* Use left4dhooks
+		* Add more function
+			1. Bot will throw grenades when get hurt by common
+			2. Bot will throw grenades when natural horde/event horde/alarm car coming
+			3. Bot will throw grenades when a survivor player is covered in Boomer bile
+			4. Target tank with grenades
+			5. Target witch with grenades
+			6. Disable grenade friendy fire from bot
+			7. Time interval Bot will throw grenades again.
+
+	* v1.9
+		* [MasterMe's fork](https://forums.alliedmods.net/showpost.php?p=2722229&postcount=152)
+
+	* v1.7
+		* [Original plugin By DingbatFlat](https://forums.alliedmods.net/showthread.php?t=296150)
+</details>
 
 - - - -
 # 中文說明

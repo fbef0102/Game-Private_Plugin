@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [[INC] l4d2_weapons](https://github.com/fbef0102/Game-Private_Plugin/blob/main/left4dead2/scripting/include/l4d2_weapons.inc)
+	1. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
 
 * <details><summary>ConVar | 指令</summary>
 

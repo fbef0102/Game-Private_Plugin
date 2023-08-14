@@ -8,29 +8,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/2rtUI2A5aQ4)
 
 * Image | 圖示
-	* Health field
-        > 治癒光圈
-        <br/>![l4d_healing_field_1](image/l4d_healing_field_1.gif)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0h (2023-5-12)
-	    * Optimize code and improve performance
-		* Fix warnings when compiling on SourceMod 1.11.
-        * Don't reset black and white state
-        * Add Random colors
-        * Add Max client Health limit
-        * Heal incapacitated player too
-
-    * v1.6
-	    * [Original Plugin By Ernecio](https://forums.alliedmods.net/showthread.php?t=324501)
-</details>
+	<br/>![l4d_healing_field_1](image/l4d_healing_field_1.gif)
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -68,6 +46,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_healing
 		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0h (2023-5-12)
+	    * Optimize code and improve performance
+		* Fix warnings when compiling on SourceMod 1.11.
+        * Don't reset black and white state
+        * Add Random colors
+        * Add Max client Health limit
+        * Heal incapacitated player too
+
+    * v1.6
+	    * [Original Plugin By Ernecio](https://forums.alliedmods.net/showthread.php?t=324501)
 </details>
 
 - - - -

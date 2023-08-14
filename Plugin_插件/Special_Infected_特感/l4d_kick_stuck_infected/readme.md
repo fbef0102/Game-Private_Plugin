@@ -12,35 +12,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 提示某個特感不積極進攻
 		<br/>![l4d_kick_stuck_infected_1](image/l4d_kick_stuck_infected_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1
-		* Kick infected if considered stucked when they are not moving.
-		* Add cvars
-			```c
-			l4d_kick_stuck_infected_hurt_infected_reset "1"
-			l4d_kick_stuck_infected_hurt_survivor_reset "1"
-			l4d_kick_stuck_infected_move_check_interval "1.0"
-			l4d_kick_stuck_infected_move_radius_reset "30"
-			l4d_kick_stuck_infected_use_ability_reset "1"
-			```
-
-	* v1.0
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [l4d_ssi_teleport_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
-		> 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -84,6 +57,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_ssi_teleport_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
+		> 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1
+		* Kick infected if considered stucked when they are not moving.
+		* Add cvars
+			```c
+			l4d_kick_stuck_infected_hurt_infected_reset "1"
+			l4d_kick_stuck_infected_hurt_survivor_reset "1"
+			l4d_kick_stuck_infected_move_check_interval "1.0"
+			l4d_kick_stuck_infected_move_radius_reset "30"
+			l4d_kick_stuck_infected_use_ability_reset "1"
+			```
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -
