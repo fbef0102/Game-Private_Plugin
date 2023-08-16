@@ -35,7 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/l4d_random_vote_map.cfg
     * the map is chosen randomly from the data list, modify to add or delete
@@ -52,9 +52,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     L4D2
     ```
 
-* Optional | 輔助插件
+* <details><summary>Optional | 輔助插件</summary>
+
 	1. [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
 		> 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -87,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/l4d_random_vote_map.cfg
     * 從以下列表中隨機選擇地圖，可自行填寫增加或刪除，寫入順序不影響

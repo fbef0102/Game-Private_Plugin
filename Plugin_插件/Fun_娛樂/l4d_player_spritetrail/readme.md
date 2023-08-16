@@ -101,8 +101,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
 
-* 效果
+* 原理
 	* 色塊均勻，統一變色
+	* 輸入```!tail```開關尾巴特效
 
 * 功能
 	1. 可自定義尾巴特效的寬度，消逝時間

@@ -66,9 +66,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	简体中文
 	```
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
 		> 超級瑪利歐，空中使用月步，多次連跳
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -76,6 +78,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//ReFlexPoison @ 2013
 	//Harry @ 2023
 	```
+	* v1.4 (2023-8-15)
+		* Players don't have to type !bhop every new map
+
 	* v1.3 (2023-1-16)
 		* Fixed lag when first jump
 

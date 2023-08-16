@@ -20,31 +20,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_headshot_reward_sound_3](image/l4d_headshot_reward_sound_3.jpg)
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.1 (2023-3-9)
-        * Add sound select menu, player can choose S.I headshot sound and C.I. headshot sound personally
-        * Add Data Config
-        * Translation Support
-        * Cookie Save
-
-    * v1.0 (2022-11-27)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
     1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
@@ -77,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Notice
     * Save settings in database, players don't have to select sound from menu every time.
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/l4d_headshot_reward_sound.cfg
 		```php
@@ -101,6 +76,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             }
         }
 		```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1 (2023-3-9)
+        * Add sound select menu, player can choose S.I headshot sound and C.I. headshot sound personally
+        * Add Data Config
+        * Translation Support
+        * Cookie Save
+
+    * v1.0 (2022-11-27)
+	    * Initial Release
 </details>
 
 - - - -
@@ -129,7 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 可設置不同位置的訊息提示
     * 可設置預設的爆頭音效
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/l4d_headshot_reward_sound.cfg
 		```php

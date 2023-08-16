@@ -1,0 +1,52 @@
+"Phrases"
+{
+	"CountDown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Auto kill in {1} seconds"
+		"zho"		"將於 {1} 秒後自動處死"
+		"chi"		"将于 {1} 秒后自动处死"
+	}
+	"CountDown (C)"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Auto kill in {green}{1}{default} seconds"
+		"zho"		"[{olive}TS{default}] 將於 {green}{1}{default} 秒後自動處死"
+		"chi"		"[{olive}TS{default}] 将于 {green}{1}{default} 秒后自动处死"
+	}
+	
+	"Paused"
+	{
+		"en"		"Auto kill time paused"
+		"zho"		"處死計時已暫停"
+		"chi"		"处死计时已暂停"
+	}
+	"Paused (C)"
+	{
+		"en"		"[{olive}TS{default}] Auto kill time paused"
+		"zho"		"[{olive}TS{default}] 處死計時已暫停"
+		"chi"		"[{olive}TS{default}] 处死计时已暂停"
+	}
+	
+	"Cmd (C)"
+	{
+		"#format"	"{1:T}"
+		"en"		"[{olive}TS{default}] Auto Kill feature is now {green}{1}"
+		"zho"		"[{olive}TS{default}] 自動處死特感功能已 {green}{1}"
+		"chi"		"[{olive}TS{default}] 自动处死特感功能已 {green}{1}"
+	}	
+	
+	"Enable"
+	{
+		"en"		"Enable"
+		"zho"		"開啟"
+		"chi"		"开启"
+	}
+	
+	"Disable"
+	{
+		"en"		"Disable"
+		"zho"		"關閉"
+		"chi"		"关闭"
+	}
+}

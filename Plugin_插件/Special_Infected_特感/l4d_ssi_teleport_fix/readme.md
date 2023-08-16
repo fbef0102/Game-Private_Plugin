@@ -10,6 +10,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
+* <details><summary>How does it work?</summary>
+
+	* Teleport far AI Infected player to the other player who is much nearer to survivors.
+    * Increase game difficulty
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)

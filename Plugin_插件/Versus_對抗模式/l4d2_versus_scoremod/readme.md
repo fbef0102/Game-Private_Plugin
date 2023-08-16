@@ -103,7 +103,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Data Example
+* <details><summary>Data Config</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -118,6 +119,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 - - - -
 # 中文說明
@@ -136,7 +138,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設置隊伍平分的時候給予額外的獎勵分數
 	* 可設置是否計算治療包、電擊器、藥丸、腎上腺素
 
-* Data設定範例
+* <details><summary>文件設定範例</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -151,3 +154,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>

@@ -17,20 +17,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 將所有大槍刪除並替換成T1武器 (機槍、單發散彈槍)
 		<br/>![l4d2_replace_gun_item_2](image/l4d2_replace_gun_item_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D2 Any Mode
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-	
-	* v1.1 (2023-7-1)
-	    * Fixed scavenge gascan removed
-
-	* v1.0 (2023-5-3)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
 
@@ -88,7 +74,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/l4d2_replace_gun_item.cfg
 		```php
@@ -125,6 +111,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Apply to | 適用於
+	```
+	L4D2 Any Mode
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+	
+	* v1.1 (2023-7-1)
+	    * Fixed scavenge gascan removed
+
+	* v1.0 (2023-5-3)
+	    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 刪除大槍、刪除治療包、刪除其他投擲物與物品，並替換成其他武器或物品
@@ -142,7 +142,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可以手動更改配置，替換成自己想要的武器或物品
 	* 可設置不要替換遊戲中途生成或掉落的物資
 
-* <details><summary>Data 設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/l4d2_replace_gun_item.cfg
 		```php

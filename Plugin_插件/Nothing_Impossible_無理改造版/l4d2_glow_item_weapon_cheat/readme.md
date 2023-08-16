@@ -63,7 +63,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/l4d2_glow_item_weapon_cheat.cfg
 		```php
@@ -131,7 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. 可設置特地權限的人也能使用指令看到
 	3. 編輯文件```data/l4d2_glow_item_weapon_cheat.cfg```，可自行設定光圈的顏色與發光範圍
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/l4d2_glow_item_weapon_cheat.cfg
 		```php

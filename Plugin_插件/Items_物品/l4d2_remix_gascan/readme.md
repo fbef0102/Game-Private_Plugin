@@ -7,7 +7,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/7qUJMo9vUL4)
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	* C1m4
 	<br/>![l4d2_remix_gascan_1](image/l4d2_remix_gascan_1.jpg)
 	<br/>![l4d2_remix_gascan_4](image/l4d2_remix_gascan_4.jpg)
@@ -18,28 +19,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* C12m2
 	<br/>![l4d2_remix_gascan_3](image/l4d2_remix_gascan_3.jpg)
+</details>
 
-* Apply to | 適用於
-	```
-	L4D2 Coop/Versus/Realism/Scavenge
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-	
-	```php
-	//pvtschlag @ 2010
-	//HarryPotter @ 2022-2023
-	```
-	* v1.0h (2023-5-31)
-		* Data Support
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* "coop", "scavenge" files respectively
-		* Fixed Edit mode Error
-
-	* v0.0
-	    * [Original Plugin By pvtschlag](https://forums.alliedmods.net/showthread.php?t=112096)
+	* In coop/versus/realism mode, C1M4, C6M3, C14M2 map, increase gas cans in scavenge events
+	* In scavenge mode, increase gas cans in scavenge events
+	* Gascans are randomly placed by custom data, so gas can locations are different every time. (But the total gas cans are still the same)
 </details>
 
 * Require | 必要安裝
@@ -49,23 +35,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d2_remix_gascan.cfg
 		```php
-		// Value = How many Gas Cans to spawn from the pool in Scavenge mode.
-		l4d2_remix_gascan_can_count_scavenge "16"
-
-		// Value = How many Gas Cans to spawn from the pool in coop/versus/realism mode by default.
-		l4d2_remix_gascan_count_coop "30"
-
-		// Determines if a message should be sent when the gas cans are scrambled in coop/versus/realism mode.
-		l4d2_remix_gascan_notify_coop "0"
+		// Determines if gas cans should be scrambled when scavenge events in coop/versus/realism mode.
+		l4d2_remix_gascan_scramble_coop "1"
 
 		// Determines if a message should be sent when the gas cans are scrambled in Scavenge mode.
 		l4d2_remix_gascan_notify_scavenge "0"
 
-		// Determines if gas cans should be scrambled when scavenge events in coop/versus/realism mode.
-		l4d2_remix_gascan_scramble_coop "1"
+		// Value = How many Gas Cans to spawn from the pool in coop/versus/realism mode by default.
+		l4d2_remix_gascan_count_coop "30"
 
 		// Determines if gas cans should be scrambled at the start of a round in Scavenge mode.
 		l4d2_remix_gascan_scramble_scavenge "1"
+
+		// Determines if a message should be sent when the gas cans are scrambled in coop/versus/realism mode.
+		l4d2_remix_gascan_notify_coop "0"
+
+		// Value = How many Gas Cans to spawn from the pool in Scavenge mode.
+		l4d2_remix_gascan_can_count_scavenge "16"
 		```
 </details>
 
@@ -132,7 +118,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Data Example
+* <details><summary>Data Config</summary>
+
 	* data/l4d2_remix_gascan.txt
 		```php
 		"l4d2_remix_gascan"
@@ -144,6 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * Q&A
 	* <details><summary><b>How to spawn gascan</b></summary>
@@ -180,6 +168,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* No Clue
 	</details>
 
+* Apply to | 適用於
+	```
+	L4D2 Coop/Versus/Realism/Scavenge
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+	
+	```php
+	//pvtschlag @ 2010
+	//HarryPotter @ 2022-2023
+	```
+	* v1.0h (2023-5-31)
+		* Data Support
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Optimize code and improve performance
+		* "coop", "scavenge" files respectively
+		* Fixed Edit mode Error
+
+	* v0.0
+	    * [Original Plugin By pvtschlag](https://forums.alliedmods.net/showthread.php?t=112096)
+</details>
+
 - - - -
 # 中文說明
 汽油桶關卡或清道夫模式可以隨機放置自己想要的汽油桶位置與數量
@@ -189,11 +200,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 在清道夫模式中，可以自由新增汽油桶位置與數量
 	* 從文件裡挑選的汽油桶位置是隨機的，所以每次生成汽油桶的位置會不一樣 (但數量還是一樣)
 
-* 功能
-	1. 可設置開關
-	2. 可設置提示
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
-* Data設定範例
+	* cfg/sourcemod/l4d2_remix_gascan.cfg
+		```php
+		// 為1時，在戰役/對抗/寫實 模式中打亂汽油桶數量與位置.
+		l4d2_remix_gascan_scramble_coop "1"
+
+		// 為1時，在戰役/對抗/寫實 模式中提示訊息.
+		l4d2_remix_gascan_notify_coop "0"
+
+		// 在戰役/對抗/寫實 模式中，從文件裡選擇多少個汽油桶生成? (會隨機挑選)
+		l4d2_remix_gascan_count_coop "30"
+
+		// 為1時，在清道夫模式中打亂汽油桶數量與位置.
+		l4d2_remix_gascan_scramble_scavenge "1"
+
+		// 為1時，在清道夫模式中提示訊息.
+		l4d2_remix_gascan_notify_scavenge "0"
+
+		// 在清道夫模式中，從文件裡選擇多少個汽油桶生成? (會隨機挑選)
+		l4d2_remix_gascan_can_count_scavenge "16"
+		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+
 	* data/l4d2_remix_gascan.txt
 		```php
 		"l4d2_remix_gascan"
@@ -205,6 +237,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * Q&A問題
 	* <details><summary><b>如何自己決定汽油桶位置</b></summary>

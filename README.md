@@ -1,5 +1,5 @@
 # Game-Private_Plugin by Harry Potter
-> 2023/8/14 updated
+> 2023/8/15 updated
 - [總攬](#總攬)
   - [私人插件列表](#l4d12-plugin-list--l4d1和2插件列表)
   - [公開的插件列表](#公開的插件列表-public-plugins-list)
@@ -133,6 +133,10 @@
     * 特感在爬梯或蹲下期間自動加速移動
   * [l4d_si_immunity](/Plugin_插件/Special_Infected_特感/l4d_si_immunity): Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type
     * 特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害
+  * [l4d2_infected_strong_power](/Plugin_插件/Specil_Infected_特感/l4d2_infected_strong_power): Add power abilities to infected
+    * 給真人特感玩家增加許多能力
+  * [l4d2_infected_spawn_auto_kill_time](/Plugin_插件/Special_Infected_特感/l4d2_infected_spawn_auto_kill_time): Kill special infected after spawn over 60 seconds
+    * 特感生成60秒之後，強制處死
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

@@ -121,7 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/mapinfo.txt
 		```php
@@ -203,7 +203,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 戰役/寫實/生存模式第二回合之後，強制所有物品位置與數量要與第一回合相同
 	* 對抗/清道夫模式第二回合，強制所有物品位置與數量要與第一回合相同
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/mapinfo.txt
 		```php

@@ -1,0 +1,52 @@
+﻿"Phrases"
+{
+	"Turn on"
+	{
+		"en"		"[{olive}TS{default}] Turn on {green}Player Tail{default}!"
+		"zho"		"[{olive}TS{default}] 開啟 {green}尾巴特效{default}!"
+		"chi"		"[{olive}TS{default}] 开启 {green}尾巴特效{default}!"
+	}
+	"Turn off"
+	{
+		"en"		"[{olive}TS{default}] Turn off {green}Player Tail{default}!"
+		"zho"		"[{olive}TS{default}] 關閉 {green}尾巴特效{default}!"
+		"chi"		"[{olive}TS{default}] 关闭 {green}尾巴特效{default}!"
+	}
+	"Usage"
+	{
+		"en"		"Usage: sm_tail [off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]"
+		"zho"		"使用方式: sm_tail [off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]"
+		"chi"		"使用方式: sm_tail [off|random|red|green|blue|purple|cyan|orange|white|pink|lime|maroon|teal|yellow|grey]"
+	}
+	"Usage_2"
+	{
+		"en"		"[{olive}TS{default}] !tail <Colors or R G B>. Colors: red, green, blue, purple, orange, yellow, white. Or 3 values 0-255. \nEG: !tail red or !tail 255 0 0"
+		"zho"		"[{olive}TS{default}] !tail <顏色 or RGB>. 顏色: red, green, blue, purple, orange, yellow, white. 或RGB三色 (0-255). \n譬如: !tail red 或 !tail 255 0 0"
+		"chi"		"[{olive}TS{default}] !tail <颜色 or RGB>. 颜色: red, green, blue, purple, orange, yellow, white. 或RGB三色 (0-255). \n譬如: !tail red 或 !tail 255 0 0"
+	}
+	"You don't have access!"
+	{
+		"en"		"You don't have access!"
+		"zho"		"你沒有權限!"
+		"chi"		"你没有权限!"
+	}
+
+	"Tail Menu"
+	{
+		"en"		"Tail Menu"
+		"zho"		"尾巴介面"
+		"chi"		"尾巴界面"
+	}
+	"Tail Colors"
+	{
+		"en"		"Tail Colors"
+		"zho"		"尾巴顏色"
+		"chi"		"尾巴颜色"
+	}
+	"Tail Sprite"
+	{
+		"en"		"Tail Sprite"
+		"zho"		"尾巴特效"
+		"chi"		"尾巴特效"
+	}
+}

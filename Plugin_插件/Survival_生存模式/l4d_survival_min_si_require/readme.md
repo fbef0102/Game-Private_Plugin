@@ -52,7 +52,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Data Example
+* <details><summary>Data Config</summary>
+
 	* data/l4d_survival_min_si_require.cfg
 		```php
 		"l4d_survival_min_si_require"
@@ -73,6 +74,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 - - - -
 # 中文說明
@@ -86,7 +88,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 只適用於生存模式
 	* 平均每分鐘，最少要擊殺多少特感，不同地圖不同要求
 
-* Data設定範例
+* <details><summary>文件設定範例</summary>
+
 	* data/l4d_survival_min_si_require.cfg
 		```php
 		"l4d_survival_min_si_require"
@@ -107,4 +110,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
-
+</details>

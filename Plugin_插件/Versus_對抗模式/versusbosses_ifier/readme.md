@@ -31,7 +31,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 	4. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
   
 	* data/mapinfo.txt
 		```php
@@ -184,7 +184,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 由官方指令決定每一關的Tank與Witch生成範圍
 	* 每回合只會生成一隻Tank與Witch
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/mapinfo.txt
 		```php

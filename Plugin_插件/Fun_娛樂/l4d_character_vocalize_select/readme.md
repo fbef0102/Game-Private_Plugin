@@ -51,7 +51,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 
 	* data/l4d_character_vocalize_select.cfg
 		```php
@@ -110,7 +110,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設置長按R的時間
 	* 可設置只能選擇自己的角色語音
 
-* <details><summary>Data設定範例</summary>
+* <details><summary>文件設定範例</summary>
 
 	* data/l4d_character_vocalize_select.cfg
 		```php

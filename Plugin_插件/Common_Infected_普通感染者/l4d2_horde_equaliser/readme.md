@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* <details><summary>Data Example</summary>
+* <details><summary>Data Config</summary>
 	
 	* data/mapinfo.txt
 		```php
@@ -118,7 +118,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項
 	* 要使用這個插件必須關閉遊戲導演的自然屍潮，詳見下方**官方指令中文介紹**
 
-* Data設定範例
+* <details><summary>文件設定範例</summary>
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
@@ -136,6 +137,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 

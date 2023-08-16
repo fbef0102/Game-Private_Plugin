@@ -24,15 +24,15 @@
         "zho"       "[地區限制] 重新讀取白名單"
         "chi"       "[地区限制] 重新读取白名单"
     }
-    "Area Display..."
+    "Restricted Area Display..."
     {
-        "en"        "[BAN COUNTRY] Area Whilte List"
-        "zho"       "[地區限制] 地區白名單列表"
-        "chi"       "[地区限制] 地區白名单列表"
+        "en"        "[BAN COUNTRY] Restricted Area List"
+        "zho"       "[地區限制] 地區限制列表"
+        "chi"       "[地区限制] 地区限制列表"
     }
-    "STEAM ID Display..."
+    "Whilte STEAM ID Display..."
     {
-        "en"        "[BAN COUNTRY] Steam ID Whilte List"
+        "en"        "[BAN COUNTRY] Steam ID Whitelist"
         "zho"       "[地區限制] Steam ID 豁免名單列表"
         "chi"       "[地区限制] Steam ID 豁免名单列表"
     }

@@ -11,43 +11,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* punish player who said dirty word
     <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    ```php
-    //Twilight Suzuka @ 2009
-    //Harry @ 2022-2023
-    ```
-	* v1.4 (2023-5-13)
-        * Optimize Code
-        *  Change method to detect client say, require "simple-chatprocessor"
-
-	* v1.3
-	    * Remake Code
-        * Add "replaceall" option
-        * Fix memory leak
-    * v1.2
-        * [By Twilight Suzuka](https://forums.alliedmods.net/showthread.php?t=71867)
-</details>
-
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 
-* Related | 相關插件
-	1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'
-        * 沒有隊伍頻道，任何人打字說話一律大家都看得見
-	2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
-        * 封鎖/禁音/禁字-強化版
-	3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
-        * 紀錄玩家的聊天紀錄到文件裡
+* <details><summary>Data Config</summary>
 
-* Data Example
 	* data/regexrestrict.cfg
         ```php
         "Censor"
@@ -68,8 +37,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
         > "replaceall" // Replace the whole sentance with a string
 
-* Valid Flags
-    * CASELESS - Ignore Case.
+    * Valid Flags
+        * CASELESS - Ignore Case.
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -88,6 +58,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'
+        * 沒有隊伍頻道，任何人打字說話一律大家都看得見
+	2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
+        * 封鎖/禁音/禁字-強化版
+	3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
+        * 紀錄玩家的聊天紀錄到文件裡
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    ```php
+    //Twilight Suzuka @ 2009
+    //Harry @ 2022-2023
+    ```
+	* v1.4 (2023-5-13)
+        * Optimize Code
+        *  Change method to detect client say, require "simple-chatprocessor"
+
+	* v1.3
+	    * Remake Code
+        * Add "replaceall" option
+        * Fix memory leak
+    * v1.2
+        * [By Twilight Suzuka](https://forums.alliedmods.net/showthread.php?t=71867)
+</details>
+
 - - - -
 # 中文說明
 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
@@ -95,11 +99,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 圖示
 	* 屏蔽敏感字詞並懲罰玩家
     <br/>![sm_regexfilter_1_zho](image/zho/sm_regexfilter_1_zho.jpg)
-	* 網路並非法外之地，切勿以身試法，請謹言慎行
     <br/>![sm_regexfilter_2_zho](image/zho/sm_regexfilter_2_zho.jpg)
 
 * 原理
     * 只要打字說出的字詞符合禁詞表內任何一個詞彙，字詞被遮蔽且懲罰玩家
+    * 網路並非法外之地，切勿以身試法，請謹言慎行
 
 * 用意在哪?
     * 專門對付口出惡言的玩家
@@ -111,7 +115,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 敏感字詞可以用其他文字和諧取代
     * 可設置要懲罰的動作
 
-* Data設定範例
+* <details><summary>文件設定範例</summary>
+
 	* data/regexrestrict.cfg
         ```php
         "Censor"
@@ -136,5 +141,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
         > "replace" "xxxx" // 把敏感字詞替代成xxxx符號 <br/>
 
-* 可設置的Flag
-    * CASELESS - 忽略大小寫字母
+    * 可設置的Flag
+        * CASELESS - 忽略大小寫字母
+</details>

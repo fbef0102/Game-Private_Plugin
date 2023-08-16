@@ -19,8 +19,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type !tail -> choose colors and sprite -> have fun
-	* You can add Custom tail sprite
+	* Type ```!tailmenu``` -> choose colors and sprite -> have fun
+	* You can add Custom tail sprite (Need Fastdl)
 </details>
 
 * <details><summary>Important Note</summary>
@@ -124,14 +124,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D1
 	L4D2
 	```
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 
 	1. [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail)
-	> 一樣是尾巴特效，看自己喜歡用哪一種
+		> 一樣是尾巴特效，看自己喜歡用哪一種
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7 (2023-8-15)
+		* Translation Support
 
 	* v1.6 (2023-1-23)
 		* Support database to save personal tail settings. (MySQL & SQLite supported)
@@ -157,14 +168,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 
-* 效果
+* 原理
 	* 線條色塊，逐漸變色
+	* 輸入```!tail```開關尾巴特效或者```!tailmenu```選擇顏色與貼圖
+	<br/>![zho/l4d_player_tail_1](image/zho/l4d_player_tail_1.jpg)
 
 * 功能
 	1. 可自定義尾巴特效的寬度，消逝時間
 	2. 玩家可打命令自行決定尾巴的顏色
 	3. 尾巴過一段時間會隨機變色
-	4. 自定義尾巴的圖案，可以用自製的貼圖
+	4. 自定義尾巴的圖案，可以用自製的貼圖 (需要網空給玩家下載貼圖)
 	5. 菜單介面選擇尾巴的顏色或貼圖
 	6. 支援資料庫儲存玩家的設定
 
@@ -190,7 +203,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>資料庫設定</summary>
 
-	* 支援跨伺服器儲值經驗值，設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
+	* 支援跨伺服器儲值玩家的尾巴特效與顏色，設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
 		```php
 		"tail"
 		{
