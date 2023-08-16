@@ -11,36 +11,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* teleport menu
 	<br/>![l4d_teleport_call_1](image/l4d_teleport_call_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-6-20)
-		* Require left4dhooks v1.33 or above
-		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
-
-	* v1.0h (2022-11-23)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Similar Plugin | 相似插件
-	1. [l4d_wind](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_wind): Create a survivor bot in game + Teleport player
-		> 新增Bot + 傳送玩家到其他位置上
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -60,6 +33,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_call
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [l4d_wind](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_wind): Create a survivor bot in game + Teleport player
+		> 新增Bot + 傳送玩家到其他位置上
+</details>
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-6-20)
+		* Require left4dhooks v1.33 or above
+		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
+
+	* v1.0h (2022-11-23)
+		* Initial Release
 </details>
 
 - - - -

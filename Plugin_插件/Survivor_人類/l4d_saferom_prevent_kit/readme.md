@@ -9,18 +9,56 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* display message in starting safe area
-		> 起始安全區域不能打包
-		<br/>![l4d_saferom_prevent_kit_1](image/l4d_saferom_prevent_kit_1.jpg)
-	* display message in ending safe area
-		> 終點安全區域不能打包
-		<br/>![l4d_saferom_prevent_kit_2](image/l4d_saferom_prevent_kit_2.jpg)
+	<br/>![l4d_saferoom_prevent_kit_1](image/l4d_saferoom_prevent_kit_1.jpg)
+	<br/>![l4d_saferoom_prevent_kit_2](image/l4d_saferoom_prevent_kit_2.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* You can't use first aid kits in start safe room and end safe room
+	* You can't use first aid kits after you reach 90% of map completion
+</details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_saferoom_prevent_kit.cfg
+		```php
+		// If 1, Prevent players from using first aid kit in starting checkpoint area.
+		l4d_saferoom_prevent_kit_start_area "1"
+
+		// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
+		l4d_saferoom_prevent_kit_start_time "60.0"
+
+		// If 1, Prevent players from using first aid kit in the ending checkpoint area.
+		l4d_saferoom_prevent_kit_end_area "1"
+
+		// Prevent players from using first aid kit after X% survivor progress in flow percent on Non-Final Map (0=0ff)
+		l4d_saferoom_prevent_kit_survivor_proress "90"
+
+		// Time between sending a warning message (0=Disable message)
+		l4d_saferoom_prevent_kit_messagetime "2.5"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+	
+	None
+</details>
 
 * Apply to | 適用於
 	```
 	L4D1
 	L4D2
 	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+	
+	1. [Bot Healing Values](/Plugin_插件/Bot_IQ_200_Bot智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
+    	> 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -34,14 +72,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Add a cvar
 			```php
 			// Prevent players from using first aid kit after X% survivor progress in flow percent on Non-Final Map (0=0ff)
-			l4d_saferom_prevent_kit_survivor_proress "90"
+			l4d_saferoom_prevent_kit_survivor_proress "90"
 			```
 
 	* v1.4 (2023-4-3)
 		* Add a cvar
 			```php
 			// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
-			l4d_saferom_prevent_kit_start_time "60.0"
+			l4d_saferoom_prevent_kit_start_time "60.0"
 			```
 
 	* v1.3 (2023-3-13)
@@ -54,49 +92,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Initial Release
 </details>
 
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [Bot Healing Values](/Plugin_插件/Bot_IQ_200_Bot智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
-    	> 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/l4d_saferom_prevent_kit.cfg
-		```php
-		// If 1, Prevent players from using first aid kit in the ending checkpoint area.
-		l4d_saferom_prevent_kit_end_area "1"
-
-		// Time between sending a warning message (0=Disable message)
-		l4d_saferom_prevent_kit_messagetime "2.5"
-
-		// If 1, Prevent players from using first aid kit in starting checkpoint area.
-		l4d_saferom_prevent_kit_start_area "1"
-
-		// If 1, Prevent players from using first aid kit in starting checkpoint area until time passed after round starts. (0=Always prevent)
-		l4d_saferom_prevent_kit_start_time "60.0"
-
-		// Prevent players from using first aid kit after X% survivor progress in flow percent on Non-Final Map (0=0ff)
-		l4d_saferom_prevent_kit_survivor_proress "90"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 - - - -
 # 中文說明
 在安全區域內禁止人類使用治療包
 
 * 原理
-	* 自己治療自己的時候，如果自己在安全區域內則無法打包
-	* 自己治療別人的時候，被治療的對象如果在安全區域內則無法打包
-	* (v1.5 新增) 自己治療自己的時候，如果自己在地圖95%路程過後則無法打包
-	* (v1.5 新增) 自己治療別人的時候，被治療的對象如果在地圖95%路程過後則無法打包
+	* 自己治療自己的時候，如果
+		* 自己在安全區域內則無法打包
+		* 自己在地圖90%路程過後則無法打包
+	* 自己治療別人的時候，如果
+		* 被治療的對象在安全區域內則無法打包
+		* 被治療的對象如果在地圖95%路程過後則無法打包
 
 * 用在意哪?
     * 防止戰役模式倖存者通關的時候利用打包Bug
@@ -107,4 +113,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可設置起始區域是否能打包
 	* 可設置終點區域是否能打包
 	* 可設置走到一定地圖路程過後是否能打包
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_saferoom_prevent_kit.cfg
+		```php
+		// 為1時，在起始安全區域內禁止使用治療包
+		l4d_saferoom_prevent_kit_start_area "1"
+
+		// 為1時，回合開始60秒內無法使用治療包 (0=關閉這項功能)
+		l4d_saferoom_prevent_kit_start_time "60.0"
+
+		// 為1時，在終點安全區域內禁止使用治療包
+		l4d_saferoom_prevent_kit_end_area "1"
+
+		// 當倖存者達到90%路程之後，無法使用手上的治療包 (最終關除外，0=關閉這項功能)
+		l4d_saferoom_prevent_kit_survivor_proress "90"
+
+		// 提示顯示的時間間隔 (0=關閉提示)
+		l4d_saferoom_prevent_kit_messagetime "2.5"
+		```
+</details>
 

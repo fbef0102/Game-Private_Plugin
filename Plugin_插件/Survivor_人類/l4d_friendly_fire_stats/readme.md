@@ -16,36 +16,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 所有玩家的友傷統計
 		<br/>![l4d_friendly_fire_stats_2](image/l4d_friendly_fire_stats_2.jpg)
 
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2022-12-8)
-		* New Cvar, Reset All FF data when next game starts
-
-	* v1.0 (2022-12-6)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Similar Plugin | 相似插件
-	1. [l4dffannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dffannounce): Notifies selected team(s) when someone is on final strike and add glow
-		> 顯示誰他馬TK我
-
-	2. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot your teammate = shoot yourself
-		> 反彈傷害
-
-	3. [anti-friendly_fire_V2](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
-		> 隊友開槍射你會反彈傷害，第二版本
-		
-	4. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-		> 隊友開槍射你會反彈傷害，RPG版本
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -70,6 +42,36 @@ L4D2
 		```php
 		sm_sse
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [l4dffannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dffannounce): Notifies selected team(s) when someone is on final strike and add glow
+		> 顯示誰他馬TK我
+
+	2. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot your teammate = shoot yourself
+		> 反彈傷害
+
+	3. [anti-friendly_fire_V2](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
+		> 隊友開槍射你會反彈傷害，第二版本
+		
+	4. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+		> 隊友開槍射你會反彈傷害，RPG版本
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2022-12-8)
+		* New Cvar, Reset All FF data when next game starts
+
+	* v1.0 (2022-12-6)
+		* Initial Release
 </details>
 
 - - - -

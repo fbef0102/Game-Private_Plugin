@@ -246,7 +246,7 @@
     * (公開) 地圖上隨機出現補給箱，提供人類強力支援 (仿CSO惡靈降世 補給箱)
   * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): (Public) When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
     * (公開) 使用語音雷達"看"可以標記任何物品、武器、地點、特感
-  * [l4d_saferom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferom_prevent_kit): Block Player from using Kit in Saferoom
+  * [l4d_saferoom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
   * [antisaferoomdooropen](/Plugin_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
     * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
@@ -276,6 +276,12 @@
     * 倖存者殺死特感或幫助隊友會獲得血量獎賞
   * [l4d2_survivor_shove_power](/Plugin_插件/Survivor_人類/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
     * 倖存者的拳頭可以推開Tank、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
+  * [l4d2_survivor_fire_power](/Plugin_插件/Survivor_人類/l4d2_survivor_fire_power): Adjustable each melee swing rate and each weapon fire rate.
+    * 倖存者的揮砍速度與射速變快
+  * [l4d2_survivor_protect_power](/Plugin_插件/Survivor_人類/l4d2_survivor_protect_power): Survivors are invincible, unstoppable. S.Is, C.Is, tanks and witches are unable to pin them or deal any damage.
+    * 義和團，刀槍不入，神功護體
+  * [l4d2_survivor_strong_power](/Plugin_插件/Survivor_人類/l4d2_survivor_strong_power): Add power abilities to survivors
+    * 給真人倖存者玩家增加許多能力
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>

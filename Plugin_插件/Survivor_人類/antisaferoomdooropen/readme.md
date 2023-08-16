@@ -8,31 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/b3A14C7Qie8)
 
 * Image | 圖示
-    * Display timeleft when someone tries to open door
-        > 顯示剩餘秒數
-        <br/>![antisaferoomdooropen_1](image/antisaferoomdooropen_1.jpg)
-    * Make the first saferoom door automatically fall
-        > 安全起始大門自由落下
-        <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.gif)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v2.4 (2023-2-13)
-        * Add a cvar 
-            ```c
-            // Changes how count down timer displays.
-            antisaferoomdooropen_countdown_announce_type "2"
-            ```
-
-    * v2.3
-        * Initial Release
-</details>
+    <br/>![antisaferoomdooropen_1](image/antisaferoomdooropen_1.jpg)
+    <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.gif)
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -93,6 +70,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.4 (2023-2-13)
+        * Add a cvar 
+            ```c
+            // Changes how count down timer displays.
+            antisaferoomdooropen_countdown_announce_type "2"
+            ```
+
+    * v2.3
+        * Initial Release
 </details>
 
 - - - -

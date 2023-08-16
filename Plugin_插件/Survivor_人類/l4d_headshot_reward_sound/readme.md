@@ -20,6 +20,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_headshot_reward_sound_3](image/l4d_headshot_reward_sound_3.jpg)
 </details>
 
+* <details><summary>How does it work?</summary>
+
+	* Type !headshot -> select headshot sound
+    * Save settings in database, players don't have to select sound from menu every time.
+</details>
+
 * Require | 必要安裝
     1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
@@ -48,9 +54,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_headshot
 		```
 </details>
-
-* Notice
-    * Save settings in database, players don't have to select sound from menu every time.
 
 * <details><summary>Data Config</summary>
 

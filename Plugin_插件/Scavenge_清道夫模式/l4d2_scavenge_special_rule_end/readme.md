@@ -26,12 +26,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 Scavenge
 	```
 
-* Translation Support | 支援翻譯
+* <details><summary>Translation Support | 支援翻譯</summary>
+
 	```
 	English
 	繁體中文
 	简体中文
 	```
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

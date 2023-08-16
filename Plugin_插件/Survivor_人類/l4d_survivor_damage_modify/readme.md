@@ -10,27 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 <br/>None
-
-* Related | 相關插件
-	1. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-		* 反傷插件，但是有更多的RPG功能
-
-	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
-		* 修改槍械傷害比和近戰武器傷害比的插件
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -144,7 +125,29 @@ L4D2
 </details>
 
 * <details><summary>Command | 命令</summary>
+	
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+	    * Initial Release
+</details>
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
+		> 反傷插件，但是有更多的RPG功能
+
+	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
+		> 修改槍械傷害比和近戰武器傷害比的插件
 </details>
 
 - - - -

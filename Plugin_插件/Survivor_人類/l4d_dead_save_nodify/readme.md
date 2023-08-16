@@ -15,30 +15,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 當玩家被電擊器救活時，提示導演系統訊息
 		<br/>![l4d_dead_save_nodify_2](image/l4d_dead_save_nodify_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0
-		* Initial Release
-</details>
+* Note
+	* Player must Enabled GAME INSTRUCTOR, in ESC -> Options -> Multiplayer, or they can't see the hint
+	* DO NOT modify convar sv_gameinstructor_disable this force all clients to disable their game instructors.
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
-		> (公開) 顯示誰是黑白狀態，有更多的提示與支援LMC模組
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -81,9 +63,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Note
-	* Player must Enabled GAME INSTRUCTOR, in ESC -> Options -> Multiplayer, or they can't see the hint
-	* DO NOT modify convar sv_gameinstructor_disable this force all clients to disable their game instructors.
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
+		> (公開) 顯示誰是黑白狀態，有更多的提示與支援LMC模組
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+		* Initial Release
+</details>
 
 - - - -
 # 中文說明

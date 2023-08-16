@@ -89,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 給真人特感玩家增加許多能力
 
 * 原理
-    * 玩家輸入以下命令可以
+    * 特感玩家輸入以下命令可以
         * ```!infskl```: 特感無CD時間
         * ```!beinf```: 切換到特感隊伍 (戰役/寫實模式能適用)
         * ```!besur``` : 切換到倖存者隊伍

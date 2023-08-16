@@ -187,12 +187,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     L4D2
     ```
 
-* Translation Support | 支援翻譯
+* <details><summary>Translation Support | 支援翻譯</summary>
+
 	```
 	English
 	繁體中文
 	简体中文
 	```
+</details>
 
 * Related Plugin | 相關插件
 	1. [l4d2_spawn_uncommons](/Plugin_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)

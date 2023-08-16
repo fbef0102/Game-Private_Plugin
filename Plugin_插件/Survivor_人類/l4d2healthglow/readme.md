@@ -20,41 +20,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d2healthglow_3](image/l4d2healthglow_3.jpg)
 </details>
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Mr. Zero @ 2011-2012
-	//HarryPotter @ 2022-2023
-	```
-	* v1.1h (2023-7-21)
-		* For the infected, survivors always glow with a non-disappearing aura. (Even if survivor doesn't move or walk)
-		* Add cvars about Incap or hanging from ledge Health Glow
-		* Filter which teams can see the health glow.
-		* Interval in seconds to upate the glow rendering
-		* Optimize code and improve performance
-
-	* v1.0h (2022-11-27)
-		* Remake Code
-		* Convert code to latest syntax
-		* Add convars, users no need to recompile to change the colors of the glows
-		* Changes to fix warnings when compiling on SourceMod 1.11.
-		* All in one .sp file
-
-	* v1.0.1
-		* [Original Plugin by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=174088)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Similar Plugin | 相似插件
-	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
-		> 顯示誰是黑白狀態，有更多的提示與支援LMC模組
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -147,6 +114,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
+		> 顯示誰是黑白狀態，有更多的提示與支援LMC模組
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Mr. Zero @ 2011-2012
+	//HarryPotter @ 2022-2023
+	```
+	* v1.1h (2023-7-21)
+		* For the infected, survivors always glow with a non-disappearing aura. (Even if survivor doesn't move or walk)
+		* Add cvars about Incap or hanging from ledge Health Glow
+		* Filter which teams can see the health glow.
+		* Interval in seconds to upate the glow rendering
+		* Optimize code and improve performance
+
+	* v1.0h (2022-11-27)
+		* Remake Code
+		* Convert code to latest syntax
+		* Add convars, users no need to recompile to change the colors of the glows
+		* Changes to fix warnings when compiling on SourceMod 1.11.
+		* All in one .sp file
+
+	* v1.0.1
+		* [Original Plugin by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=174088)
 </details>
 
 - - - -

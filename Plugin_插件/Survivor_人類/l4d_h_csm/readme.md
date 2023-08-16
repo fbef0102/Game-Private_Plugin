@@ -8,62 +8,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/NoMHRxnKnFI)
 
 * Image
-	* display message
 	<br/>![l4d_h_csm_1](image/l4d_h_csm_1.jpg)
-	* typ !csm to open menu
 	<br/>![l4d_h_csm_2](image/l4d_h_csm_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
+	* Type !csm to open menu -> Choose l4d1 character or l4d2 character
+	* Save player character. Player will have same character if rejoin server next time.
 </details>
 
-* <details><summary>Changelog | 版本日誌</summary>
+* <details><summary>Notice</summary>
 
-	```php
-	//mi123645 @ 2009 - 2010
-	//Harry @ 2022-2023
-	```
-	* v1.3h (2023-6-22)
-		* Require left4dhooks v1.33 or above
-
-	* v1.2h (2023-1-15)
-		* Support L4D1
-		* Use CookiesCached to save player character. Player will have same character if rejoin server next time.
-
-	* v1.1h (2022-11-22)
-		* Change prop m_survivorCharacter when change l4d1 or l4d2 model only 
-		* Save Menu Position
-
-	* v1.0h
-		* Remake code
-		* Remove unuseful cvars
-		* Safely change character and model
-		* Add command to change model directly
-
-	* 2.5a/b
-		* [By mi123645](https://forums.alliedmods.net/showthread.php?t=107121)
+	* Either changing character or changinge model only, you could encounter bunch of bugs, such as charger stop bug, witch incorrect target bug..., read [8+_Survivors_In_Coop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop#require) to install require plugins to fix.
+	* If you change model only, charactor voice still not changed. To fix this problem, install [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): (Windows servers only) Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.
-		> 修正在二代地圖上生成Zoey角色會導致遊戲崩潰 (這崩潰只會發生在windows服，linux系統無須安裝)
-
-* Related Plugin | 相關插件
-	1. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model
-		> (公開) 依照目前模組給予相對應的角色語音
 
 * <details><summary>ConVar</summary>
 
@@ -102,9 +64,53 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Notice
-	* Either changing character or changinge model only, you could encounter bunch of bugs, such as charger stop bug, witch incorrect target bug..., read [8+_Survivors_In_Coop](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop#require) to install require plugins to fix.
-    * If you change model only, charactor voice still not changed. To fix this problem, install [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model
+		> (公開) 依照目前模組給予相對應的角色語音
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//mi123645 @ 2009 - 2010
+	//Harry @ 2022-2023
+	```
+	* v1.3h (2023-6-22)
+		* Require left4dhooks v1.33 or above
+
+	* v1.2h (2023-1-15)
+		* Support L4D1
+		* Use CookiesCached to save player character. Player will have same character if rejoin server next time.
+
+	* v1.1h (2022-11-22)
+		* Change prop m_survivorCharacter when change l4d1 or l4d2 model only 
+		* Save Menu Position
+
+	* v1.0h
+		* Remake code
+		* Remove unuseful cvars
+		* Safely change character and model
+		* Add command to change model directly
+
+	* 2.5a/b
+		* [By mi123645](https://forums.alliedmods.net/showthread.php?t=107121)
+</details>
 
 - - - -
 # 中文說明
@@ -115,8 +121,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_h_csm_2](image/chi/l4d_h_csm_2.jpg)
 
 * 原理
-	* 此為CSM插件重製版，輸入!csm打開角色選擇介面
-	* 在地圖上自由切換一代或二代角色
+	* 此為CSM插件重製版，輸入!csm打開介面選擇一代或二代角色，
+		* 自動保存機制，玩家下次加入倖存者之後自動變成上一次選擇的角色
 	* 適用於三方圖
 
 * 注意事項

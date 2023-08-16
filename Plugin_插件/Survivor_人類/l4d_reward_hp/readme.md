@@ -8,30 +8,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/lCyV4nX1zko)
 
 * Image | 圖示
+	<br/>![l4d_reward_hp_1](image/l4d_reward_hp_1.gif)
+	<br/>![l4d_reward_hp_2](image/l4d_reward_hp_2.gif)
+
+* <details><summary>How does it work?</summary>
+
 	* Hp Reward for helping teammate
-		> 幫助隊友獲得血量
-		<br/>![l4d_reward_hp_1](image/l4d_reward_hp_1.gif)
-	* Hp Reward for killing Tank
-		> 擊殺Tank獲得血量
-		<br/>![l4d_reward_hp_2](image/l4d_reward_hp_2.gif)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0
-		* Initial Release
+	* Hp Reward for killing Tank or Witch
 </details>
 
 * Require | 必要安裝
@@ -83,6 +66,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

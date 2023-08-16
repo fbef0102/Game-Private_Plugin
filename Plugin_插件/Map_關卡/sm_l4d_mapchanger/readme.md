@@ -159,12 +159,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     L4D2 coop/survival/versus/realism/scavenge
     ```
 
-* Translation Support | 支援翻譯
+* <details><summary>Translation Support | 支援翻譯</summary>
+
 	```
 	English
 	繁體中文
 	简体中文
 	```
+</details>
 
 * Related Plugin | 相關插件
 	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out

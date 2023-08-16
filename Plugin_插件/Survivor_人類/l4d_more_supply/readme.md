@@ -13,18 +13,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         > 一直拿一直爽
         <br/>![l4d_more_supply_1](image/l4d_more_supply_1.gif)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0 (2023-4-1)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -83,6 +71,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     
 	None
 </details>
+
+* Notice
+    * Only change items' count after survivor leave the saferoom 
 
 * How to set the correct Convar ?
 	1. <details><summary>Adjust First Aid Kit count if 5+ players</summary>
@@ -211,8 +202,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 	</details>
 
-* Notice
-    * Only change items' count after survivor leave the saferoom 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0 (2023-4-1)
+	    * Initial Release
+</details>
 
 - - - -
 # 中文說明
@@ -226,9 +226,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 注意事項
     * 倖存者離開安全區域後才會改變物品的拿取次數
-
-* 功能
-    * 見下方如何設置正確的指令值
 
 * 如何設置正確的指令值?
 	1. <details><summary>調整治療包可拿取的次數</summary>

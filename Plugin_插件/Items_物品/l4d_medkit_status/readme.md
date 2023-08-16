@@ -35,7 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_saferom_prevent_kit.cfg
+	* cfg/sourcemod/l4d_saferoom_prevent_kit.cfg
 		```php
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_medkit_status_announce_type "1"
