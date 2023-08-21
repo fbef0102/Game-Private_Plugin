@@ -41,12 +41,12 @@
    - 如果是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
-    sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
-    sv_visiblemaxplayers 8 //number is same as above
-    sv_force_unreserved 1 //your server will stay unreserved and allow players to connect using connect command, this command sets sv_allow_lobby_connect_only 0.
-    sv_allow_lobby_connect_only 0 // 1=Only join server from lobby.
-    sm_cvar precache_all_survivors 1 // Precache/Load all models of survivors to prevent crash
-    sm_cvar sv_consistency 0 // the server enforces file consistency (1: Enable, 0: Disable) 
+    sv_maxplayers 8 // 允許八位真人玩家可以加入伺服器 (數值可以調整，介於4~30之間)
+    sv_visiblemaxplayers 8 // 伺服器顯示的空位人數 (建議數值跟 sv_maxplayers 一樣)
+    sv_force_unreserved 1 // 強迫伺服器移除大廳限制，強制 sv_allow_lobby_connect_only 為0.
+    sv_allow_lobby_connect_only 0 // 0=可以從遊戲大廳或透過connect IP加入伺服器 (1=只能從遊戲大廳加入伺服器)
+    sm_cvar precache_all_survivors 1 // 預先載入所有倖存者的角色模組
+    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來 (開啟檔案遊戲一致性的檢查)
     ```
    - 可參考我的[Server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 

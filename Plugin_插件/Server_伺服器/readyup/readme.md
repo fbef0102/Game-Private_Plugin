@@ -8,38 +8,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/AOVQpSg1Kqg)
 
 * Image | 圖示
-	* Ready hud
-		> 準備介面
-		<br/>![readyup_1](image/readyup_1.jpg)
-	* Hide/Show ready hud
-		> 可關閉/顯示準備介面
-		<br/>![readyup_2](image/readyup_2.jpg)
+	<br/>![readyup_1](image/readyup_1.jpg)
+	<br/>![readyup_2](image/readyup_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-	
-* <details><summary>Translation Support | 支援翻譯</summary>
+* <details><summary>How does it work?</summary>
 
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-2-27)
-		* Translation Support
-
-	* v1.0h
-		* Individual plugin
-
-	* 10.2.3
-	    * [Original Work by CanadaRox, Target](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/readyup.sp)
+	* When new round begins, freeze all survivors and infecteds, and display readyup hud
+		* Survivors can not leave saferoom
+		* Infected can not spawn
+	* Players have to type ```!ready``` to mark as ready
+	* Once everyone is ready, the game starts
+	* Type ```!hide``` or ```!show``` to close or open readyup hud
 </details>
 
 * Require | 必要安裝
@@ -151,14 +130,45 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+	
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-2-27)
+		* Translation Support
+
+	* v1.0h
+		* Individual plugin
+
+	* 10.2.3
+	    * [Original Work by CanadaRox, Target](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/readyup.sp)
+</details>
+
 - - - -
 # 中文說明
 所有玩家準備才能開始遊戲的插件
 
 * 原理
-	* 每一回合開始之時，左方顯示準備介面
+	* 每一回合開始之時，所有玩家會暫時不能遊玩，左方顯示準備介面
+		* 倖存者無法離開安全室
+		* 特感無法復活
 	* 玩家必須輸入!ready表示已準備好遊玩
-	* 當所有玩家準備好之後(戰役下倖存者玩家，對抗下全體特感＋全體倖存者)，遊戲就會開始
+	* 當所有玩家準備好之後，遊戲就會開始
+		* 戰役下倖存者玩家準備
+		* 對抗下全體玩家準備
 	* 如果還有玩家沒有準備好，倖存者無法出去安全區域，特感也無法復活
 
 * 功能

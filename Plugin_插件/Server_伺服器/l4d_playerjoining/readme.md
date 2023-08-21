@@ -10,36 +10,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image
-	* Display player joined team
 	<br/>![l4d_playerjoining_1](image/l4d_playerjoining_1.jpg)
-	* Display player connected and disconnected message
 	<br/>![l4d_playerjoining_2](image/l4d_playerjoining_2.jpg)
 
-* Apply to | 適用於
-```
-L4D1
-L4D2
-```
+* <details><summary>How does it work?</summary>
 
-* Translation Support | 支援翻譯
-```
-English
-繁體中文
-简体中文
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2022-12-1)
-		* Initial Release
+	* Display player name, country, city when player joins server or leaves server
+	* Display player joined team
 </details>
+
+* Notice
+	* To retrieve data from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Similar Plugin | 相似插件
-	1. [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce): Replacement of default player connection message, allows for custom connection messages
-    	> 顯示玩家進來遊戲或離開遊戲的提示訊息 (IP、國家、Steam ID 等等)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -61,8 +45,32 @@ English
 	None
 </details>
 
-* Notice
-	* To retrieve data from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>TSimilar Plugin | 相似插件</summary>
+	
+	1. [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce): Replacement of default player connection message, allows for custom connection messages
+    	> 顯示玩家進來遊戲或離開遊戲的提示訊息 (IP、國家、Steam ID 等等)
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2022-12-1)
+		* Initial Release
+</details>
 
 - - - -
 # 中文說明

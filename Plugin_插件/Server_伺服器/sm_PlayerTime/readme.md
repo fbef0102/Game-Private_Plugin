@@ -13,40 +13,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Name, country, city, play time, lerp
 	<br/>![sm_PlayerTime_1](image/sm_PlayerTime_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
+	* Display Name, country, city, play time, lerp on client connection
+	* Played time is from game statistics
+	* Any player whose total time played on record is below 100 hours can not join the server.
 </details>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v2.2 (2023-3-14)
-		* Remove lerp
-		* Delay to display message, so player can see his own time played on record.
-
-	* v2.1 (2023-3-1)
-		* Add lerp
-
-	* v2.0 (2023-2-26)
-		* Add country and city
-
-	* v1.9 (2023-2-21)
-		* Remake code and require SteamWorks
-		* Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings
-
-	* v1.8
-	    * Initial Release
-</details>
+* Important Step
+	* To retrieve country and city from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -90,8 +65,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Important Step
-	* To retrieve country and city from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.2 (2023-3-14)
+		* Remove lerp
+		* Delay to display message, so player can see his own time played on record.
+
+	* v2.1 (2023-3-1)
+		* Add lerp
+
+	* v2.0 (2023-2-26)
+		* Add country and city
+
+	* v1.9 (2023-2-21)
+		* Remake code and require SteamWorks
+		* Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings
+
+	* v1.8
+	    * Initial Release
+</details>
 
 - - - -
 # 中文說明

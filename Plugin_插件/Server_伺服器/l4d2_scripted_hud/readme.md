@@ -27,50 +27,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 </details>
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0h (2023-07-19)
-		* Optimize code and improve performance
-
-	* v1.1.0 (2023-02-13)
-		* Display Survivors, Infected, and Spectator MIC Speaking text separately
-		* Add HUD 5 for Infected Mic Speaking
-		* Add Center text for Spectator Mic Speaking
-
-	* v1.0.5 (2022-11-27)
-		* HUD3_TEXT + C.I.+S.I.+Tank+Witch kills rank
-		* HUD4_TEXT + Survivor health
-		* Add cvars to switch HUDX_TEXT text
-
-	* v1.0.4 (2022-11-24)
-		* Kill Infected Counter Rank (HUD3_Text)
-		* Time and Survivor/Infected count (HUD1_Text)
-
-	* v1.0.2
-		* [By Marttt](https://forums.alliedmods.net/showthread.php?t=331212)
+	* Display HUD Text on player's screen
 </details>
-
-* Require | 必要安裝
-<br/>None
-
-* Related Plugin | 相關插件
-	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
-		> L4D2擊殺提示改成CS遊戲的擊殺列表
-
-* Important
-	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
-		* If you run a coop server. Rename it to "coop.nut"
-		* If you run a versus server. Rename it to "versus.nut"
-		* If you run a survival server. Rename it to "survival.nut"
-		* If you run a scavenge server. Rename it as "scavenge.nut"
-		* If you run some mutation gamemode. Rename it to "<mutation>.nut"
-		* You can create multi .nut files
-	> __Note__ (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
 
 * <details><summary>Default HUDX_Text</summary>
 
@@ -96,10 +56,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* Only Spectator team can see
 </details>
 
-* Note
-	* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~5) cvar text. If both empty, then load GetHUD*_Text functions
-	* The limit of each HUD text is up to 127 characters.
-	* HUD Text can be moved and animated effect, please read cfg.
+* <details><summary>Important</summary>
+
+	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
+		* If you run a coop server. Rename it to "coop.nut"
+		* If you run a versus server. Rename it to "versus.nut"
+		* If you run a survival server. Rename it to "survival.nut"
+		* If you run a scavenge server. Rename it as "scavenge.nut"
+		* If you run some mutation gamemode. Rename it to "<mutation>.nut"
+		* You can create multi .nut files
+	> __Note__ (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
+
+	* Note
+		* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~5) cvar text. If both empty, then load GetHUD*_Text functions
+		* The limit of each HUD text is up to 127 characters.
+		* HUD Text can be moved and animated effect, please read cfg.
+</details>
+
+* Require | 必要安裝
+<br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -491,6 +466,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
+		> L4D2擊殺提示改成CS遊戲的擊殺列表
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2023-07-19)
+		* Optimize code and improve performance
+
+	* v1.1.0 (2023-02-13)
+		* Display Survivors, Infected, and Spectator MIC Speaking text separately
+		* Add HUD 5 for Infected Mic Speaking
+		* Add Center text for Spectator Mic Speaking
+
+	* v1.0.5 (2022-11-27)
+		* HUD3_TEXT + C.I.+S.I.+Tank+Witch kills rank
+		* HUD4_TEXT + Survivor health
+		* Add cvars to switch HUDX_TEXT text
+
+	* v1.0.4 (2022-11-24)
+		* Kill Infected Counter Rank (HUD3_Text)
+		* Time and Survivor/Infected count (HUD1_Text)
+
+	* v1.0.2
+		* [By Marttt](https://forums.alliedmods.net/showthread.php?t=331212)
 </details>
 
 - - - -

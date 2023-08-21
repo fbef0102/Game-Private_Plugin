@@ -8,28 +8,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/SLV-CqriK8k)
 
 * Image | 圖示
-	* display message when someone tries to vote
-        > 顯示誰在嘗試投票與投票內容
-        <br/>![l4d_vote_block_1](image/l4d_vote_block_1.jpg)
+	<br/>![l4d_vote_block_1](image/l4d_vote_block_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0
-	    * Initial Release
+	* When idiot player tries to call valve to change difficulty or change map, block the vote and display message
 </details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-	1. [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
-		> 使用Esc->發起投票的人將會被反踢出去伺服器
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -88,6 +75,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
     
     None
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+		> 使用Esc->發起投票的人將會被反踢出去伺服器
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0
+	    * Initial Release
 </details>
 
 - - - -

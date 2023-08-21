@@ -9,22 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image
-	* English Welcome Message
 	<br/>![server_welcome_message_1](image/server_welcome_message_1.jpg)
 
-* Apply to | 適用於
-```
-L4D1 
-L4D2
-```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2022-12-6)
-		* Display welcome message each time after changing map
-
-	* v1.0 (2022-12-4)
-		* Initial Release
+	* Display welcome message when player joins server
+	* Message depends on player's country or area
 </details>
 
 * Require | 必要安裝
@@ -47,12 +37,35 @@ L4D2
 	None
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1 
+	L4D2
+	```
+	
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2022-12-6)
+		* Display welcome message each time after changing map
+
+	* v1.0 (2022-12-4)
+		* Initial Release
+</details>
+
 - - - -
 # 中文說明
 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
 
 * 圖示
-	* 歡迎提示
 	<br/>![server_welcome_message_2](image/server_welcome_message_2.jpg)
 
 * 原理

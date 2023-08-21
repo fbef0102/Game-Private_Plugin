@@ -13,7 +13,7 @@
 > What's the simplest way to install 8-survivors-coop (Including 5+ players fix)?
 <br/>![l4dmultislots_1](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/796efe51-2fac-43f2-9899-fef09b52328d)
 <br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-* [繁體中文](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
+* [繁體中文說明請看這](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
 * This tutorial applies to L4D1 and L4D2
 * [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
 * Dedicated Server can unlock 8+ or more player slots
@@ -37,7 +37,7 @@
    - write down cvars in cfg/server.cfg if dedicated server (🟥if file doesn't exist, create it🟥)
    - write down cvars in cfg/listenserver.cfg if listen server (🟥if file doesn't exist, create it🟥)
     ```php
-    sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 32)
+    sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 30)
     sv_visiblemaxplayers 8 //number is same as above
     sv_force_unreserved 1 //your server will stay unreserved and allow players to connect using connect command, this command sets sv_allow_lobby_connect_only 0.
     sv_allow_lobby_connect_only 0 // 1=Only join server from lobby.

@@ -11,33 +11,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* Translation Support | 支援翻譯
-	```
-	English
-	繁體中文
-	简体中文
-	Russian
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-2-13)
-		* Support Idle player, switch idle players to survivor team next time
-
-	* v1.0h (2023-2-10)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Individual plugin
-		* Delete a convar
-
-	* v1.0
-	    * [Original Plugin by raziEiL](https://github.com/raziEiL/r2comp-standalone/blob/master/sourcemod/scripting/r2comp_unscramble.sp)
+	* Save and record all survivors and all infected when map change or round end
+	* Puts players on the right team after map/campaign change
+	* Provides dev API.
 </details>
 
 * Require | 必要安裝
@@ -124,6 +102,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_unscramble_abort
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Translation Support | 支援翻譯
+	```
+	English
+	繁體中文
+	简体中文
+	Russian
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-2-13)
+		* Support Idle player, switch idle players to survivor team next time
+
+	* v1.0h (2023-2-10)
+		* Remake code, convert code to latest syntax
+		* Fix warnings when compiling on SourceMod 1.11.
+		* Individual plugin
+		* Delete a convar
+
+	* v1.0
+	    * [Original Plugin by raziEiL](https://forums.alliedmods.net/showthread.php?t=327711)
 </details>
 
 - - - -

@@ -16,26 +16,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> SI(+) = 活著的特感玩家, SI(G) = 靈魂特感玩家, 數字為玩家的血量
 		<br/>![l4d_scoreboard_panel_2](image/l4d_scoreboard_panel_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2023-1-8)
-	    * Draw more details on panel
-
-	* v1.0 (2023-1-5)
-		* Initial Release
+	* Type tab Key (IN_SCORE) to show a hud for 8 seconds, it displays all players' state
+	* The game default scoreboard is client side, so unfortunately can't block it.
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
-* Note
-	* The game default scoreboard is client side, so unfortunately can't block it.
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -91,6 +79,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-1-8)
+	    * Draw more details on panel
+
+	* v1.0 (2023-1-5)
+		* Initial Release
 </details>
 
 - - - -

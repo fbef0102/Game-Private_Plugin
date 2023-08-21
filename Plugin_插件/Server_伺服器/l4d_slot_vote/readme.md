@@ -13,29 +13,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Kick all spectators
 	<br/>![l4d_slot_vote_2](image/l4d_slot_vote_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v2.4 (2023-2-2)
-		* Use the L4D2 built-in vote screens for l4d2
-		* Require "builtinvotes" extension (l4d2 only)
-
-	* v2.3
-		* Initial Release
+	* Change server slots
+		* Admin types ```!slots X``` to change server slots (X is number)
+		* Normal player types ```!slots X``` to call vote to change server slots (X is number)
+	* Kick all spectators
+		* Admin types ```!kickspec``` to kick all spectators except for admins.
+		* Normal player types ```!kickspec``` to call vote to kick all spectators except for admins.
 </details>
 
 * Require
@@ -104,7 +89,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_unlock_slots
 		```
+</details>
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.4 (2023-2-2)
+		* Use the L4D2 built-in vote screens for l4d2
+		* Require "builtinvotes" extension (l4d2 only)
+
+	* v2.3
+		* Initial Release
 </details>
 
 - - - -

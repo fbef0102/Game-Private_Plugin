@@ -8,39 +8,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/ljO6RGqQguk)
 
 * Image | 圖示
-	* Pause hud
-		> 準備介面
-		<br/>![pause_1](image/pause_1.jpg)
-	* Message
-		> 顯示訊息
-		<br/>![pause_2](image/pause_2.jpg)
+	<br/>![pause_1](image/pause_1.jpg)
+	<br/>![pause_2](image/pause_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-	
-* <details><summary>Translation Support | 支援翻譯</summary>
+* <details><summary>How does it work?</summary>
 
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-3-15)
-		* Translation Support
-		* F1 to ready / F2 to unready
-
-	* v1.0h
-		* Individual plugin
-
-	* 6.7
-	    * [Original Work by CanadaRox, Sir, Forgetest](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/pause.sp)
+	* Type !puase -> Pause the game
+	* Type !ready to mark your team ready
 </details>
 
 * Require | 必要安裝
@@ -121,6 +95,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_fs
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+	
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-3-15)
+		* Translation Support
+		* F1 to ready / F2 to unready
+
+	* v1.0h
+		* Individual plugin
+
+	* 6.7
+	    * [Original Work by CanadaRox, Sir, Forgetest](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/pause.sp)
 </details>
 
 - - - -

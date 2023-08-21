@@ -10,22 +10,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Related Plugin | 相關插件
-	1. Silvers製作的[Dissolve Infected](https://forums.alliedmods.net/showthread.php?t=306789): Dissolves the witch, common or special infected when killed
-		> 屍體溶解粒子效果
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2023-1-12)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 <br/>None
 
@@ -56,6 +40,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* Related Plugin | 相關插件
+	1. Silvers製作的[Dissolve Infected](https://forums.alliedmods.net/showthread.php?t=306789): Dissolves the witch, common or special infected when killed
+		> 屍體溶解粒子效果
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-1-12)
+		* Initial Release
 </details>
 
 - - - -
