@@ -8,13 +8,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	* A = Afk (Idle Player), X = Dead, ~ = Incapacitated, + = Alive, H = Hanging from ledge, 0 = Spectator, number = HP
 		> A = Afk (閒置玩家), X = 死亡, ~ = 倒地, + = 活著站立, H = 掛邊, 0 = 旁觀者, 數字為玩家的血量
 		<br/>![l4d_scoreboard_panel_1](image/l4d_scoreboard_panel_1.jpg)
 	* SI(+) = Alive Infected, SI(G) = Ghost Infected, number = HP
 		> SI(+) = 活著的特感玩家, SI(G) = 靈魂特感玩家, 數字為玩家的血量
 		<br/>![l4d_scoreboard_panel_2](image/l4d_scoreboard_panel_2.jpg)
+	* Support multi players
+		> 支援多人倖存者
+		<br/>![l4d_scoreboard_panel_3](image/l4d_scoreboard_panel_3.jpg)
+</details>
 
 * <details><summary>How does it work?</summary>
 

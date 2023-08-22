@@ -9,15 +9,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* example
-	<br/>![l4d2_tdr_1](image/l4d2_tdr_1.jpg)
+<br/>![l4d2_tdr_1](image/l4d2_tdr_1.jpg)
 
 * Require | 必要安裝
 <br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
-	None
+	* cfg/sourcemod/l4d2_tdr.cfg
+		```php
+		// 0 - Displays tank damage info to players privately. 1 - Displays all damage info publicly.
+		l4d2_tdr_display_type "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -27,8 +30,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D1 Coop/Survival/Realism
-	L4D2 Coop/Survival/Realism
+	L4D1
+	L4D2
 	```
 
 * <details><summary>Similar Plugin | 相似插件</summary>
@@ -42,17 +45,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Skyy @ 2012
-	//foxhound27 @ 2019
-	//Harry @ 2022
-	```
-	* v1.3
+	* v1.0h (2023-8-22)
 		* Remake Code
 	    * More accurate damage done to tank
-
-    * v1.1c
-        * [By Skyy](https://forums.alliedmods.net/showthread.php?t=181346)
 </details>
 
 - - - -
@@ -60,4 +55,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 Tank死亡時顯示對Tank造成傷害統計表
 
 * 原理
-	* 不適用於對抗模式
+	* 按照傷害排序
+	* 精準傷害計算
+	* 也適用於對抗模式
