@@ -160,9 +160,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* <details><summary><b>How to increase number of gas can needed</b></summary>
 
 		* Coop/Versus/Realism
-			* [C1M4 line 183](scripts/vscripts/c1m4_atrium_finale.nut#L183)
-			* [C6M3 line 250](scripts/vscripts/c6m3_port_finale.nut#L250)
-			* [C14M2 line 165, 177, 183, 189](scripts/vscripts/c14m2_lighthouse_finale.nut#L165-L189)
+			* [C1M4 line 182](scripts/vscripts/c1m4_atrium_finale.nut#L182)
+			* [C6M3 line 249](scripts/vscripts/c6m3_port_finale.nut#L249)
+			* [C14M2 line 174, 180, 186, 192, 198](scripts/vscripts/c14m2_lighthouse_finale.nut#L174-L198)
 
 		* Scavenge
 			* No Clue
@@ -266,9 +266,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* <details><summary><b>如何修改通關需要的汽油桶數量</b></summary>
 
 		* 戰役/對抗/寫實
-			* [C1M4 行 183](scripts/vscripts/c1m4_atrium_finale.nut#L183)
-			* [C6M3 行 250](scripts/vscripts/c6m3_port_finale.nut#L250)
-			* [C14M2 行 165, 177, 183, 189](scripts/vscripts/c14m2_lighthouse_finale.nut#L165-L189)
+			* [C1M4 行 182](scripts/vscripts/c1m4_atrium_finale.nut#L182)
+			* [C6M3 行 249](scripts/vscripts/c6m3_port_finale.nut#L249)
+			* [C14M2 行 174, 180, 186, 192, 198](scripts/vscripts/c14m2_lighthouse_finale.nut#L174-L198)
 
 		* 清道夫
 			* 不知道

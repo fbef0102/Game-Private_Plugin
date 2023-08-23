@@ -36,52 +36,61 @@ DirectorOptions <-
 	ProhibitBosses = true
 	HordeEscapeCommonLimit = 20
 	EscapeSpawnTanks = false
+	SpecialRespawnInterval = 25
 }
 
-local difficulty = Convars.GetStr( "z_difficulty" ).tolower();
+local difficulty = GetDifficulty();
+local gascanDifficulty = GetDifficulty();
 
 if ( Director.GetGameModeBase() == "versus" )
 {
-	DirectorOptions.rawdelete("A_CustomFinaleMusic7");
-	DirectorOptions.A_CustomFinale_StageCount = 12;
-	DirectorOptions.A_CustomFinale6 = ONSLAUGHT;
-	DirectorOptions.A_CustomFinaleValue6 = "c14m2_gauntlet_vs";
-	DirectorOptions.A_CustomFinale7 = ONSLAUGHT;
-	DirectorOptions.A_CustomFinaleValue7 = "c14m2_gauntlet_vs";
-	DirectorOptions.A_CustomFinale8 = ONSLAUGHT;
-	DirectorOptions.A_CustomFinaleValue8 = "c14m2_gauntlet_vs";
-	DirectorOptions.A_CustomFinale9 <- DELAY;
-	DirectorOptions.A_CustomFinaleValue9 <- StageDelay;
-	DirectorOptions.A_CustomFinale10 <- TANK;
-	DirectorOptions.A_CustomFinaleValue10 <- 1;
-	DirectorOptions.A_CustomFinaleMusic10 <- "Event.TankMidpoint_Metal";
-	DirectorOptions.A_CustomFinale11 <- DELAY;
-	DirectorOptions.A_CustomFinaleValue11 <- PreEscapeDelay;
-	difficulty = "normal";
+    DirectorOptions.rawdelete("A_CustomFinaleMusic7");
+    DirectorOptions.A_CustomFinale_StageCount = 11;
+    DirectorOptions.A_CustomFinale6 = ONSLAUGHT;
+    DirectorOptions.A_CustomFinaleValue6 = "c14m2_gauntlet_vs";
+    DirectorOptions.A_CustomFinale7 = ONSLAUGHT;
+    DirectorOptions.A_CustomFinaleValue7 = "c14m2_gauntlet_vs";
+    DirectorOptions.A_CustomFinale8 = ONSLAUGHT;
+    DirectorOptions.A_CustomFinaleValue8 = "c14m2_gauntlet_vs";
+    DirectorOptions.A_CustomFinale9 <- DELAY;
+    DirectorOptions.A_CustomFinaleValue9 <- StageDelay;
+    DirectorOptions.A_CustomFinale10 <- TANK;
+    DirectorOptions.A_CustomFinaleValue10 <- 1;
+    DirectorOptions.A_CustomFinaleMusic10 <- "Event.TankMidpoint_Metal";
+    DirectorOptions.A_CustomFinale11 <- DELAY;
+    DirectorOptions.A_CustomFinaleValue11 <- PreEscapeDelay;
+	difficulty = 1;
+    gascanDifficulty = 1;
 }
 else
 {
-	if ( difficulty == "easy" || difficulty == "normal" || difficulty == "hard" || difficulty == "impossible" )
-	{
-		DirectorOptions.rawdelete("A_CustomFinaleMusic7");
-		DirectorOptions.A_CustomFinale_StageCount = 12;
-		DirectorOptions.A_CustomFinaleValue7 = 1;
-		DirectorOptions.A_CustomFinaleValue8 = StageDelay;
-		DirectorOptions.A_CustomFinale9 <- PANIC;
-		DirectorOptions.A_CustomFinaleValue9 <- 2;
-		DirectorOptions.A_CustomFinale10 <- DELAY;
-		DirectorOptions.A_CustomFinaleValue10 <- StageDelay;
-		DirectorOptions.A_CustomFinale11 <- TANK;
-		DirectorOptions.A_CustomFinaleValue11 <- 2;
-		DirectorOptions.A_CustomFinaleMusic11 <- "Event.TankMidpoint_Metal"
-		DirectorOptions.A_CustomFinale12 <- DELAY;
-		DirectorOptions.A_CustomFinaleValue12 <- PreEscapeDelay;
-	}
+    if ( difficulty == 2 || difficulty == 3 )
+    {
+        DirectorOptions.rawdelete("A_CustomFinaleMusic7");
+        DirectorOptions.A_CustomFinale_StageCount = 12;
+        DirectorOptions.A_CustomFinaleValue7 = 1;
+        DirectorOptions.A_CustomFinaleValue8 = StageDelay;
+        DirectorOptions.A_CustomFinale9 <- PANIC;
+        DirectorOptions.A_CustomFinaleValue9 <- 2;
+        DirectorOptions.A_CustomFinaleMusic9 <- "Event.FinaleWave4"
+        DirectorOptions.A_CustomFinale10 <- DELAY;
+        DirectorOptions.A_CustomFinaleValue10 <- StageDelay;
+        DirectorOptions.A_CustomFinale11 <- TANK;
+        DirectorOptions.A_CustomFinaleValue11 <- 2;
+        DirectorOptions.A_CustomFinaleMusic11 <- "Event.TankMidpoint_Metal"
+        DirectorOptions.A_CustomFinale12 <- DELAY;
+        DirectorOptions.A_CustomFinaleValue12 <- PreEscapeDelay;
+        gascanDifficulty = 3;
+    }
+    else
+    {
+        gascanDifficulty = 1;
+    }
 }
 
 //-----------------------------------------------------
 
-function SpawnScavengeCans( difficulty )
+function SpawnScavengeCans( gascanDifficulty )
 {
 	local function SpawnCan( gascan )
 	{
@@ -115,9 +124,9 @@ function SpawnScavengeCans( difficulty )
 			DoEntFire( "!self", "SpawnItem", "", 0, null, can_spawner );
 	}
 	
-	switch( difficulty )
+	switch( gascanDifficulty )
 	{
-		case "impossible":
+		case 3:
 		{
 			local gascan = null;
 			while ( gascan = Entities.FindByName( gascan, "gascans_finale_expert" ) )
@@ -126,7 +135,7 @@ function SpawnScavengeCans( difficulty )
 					SpawnCan( gascan );
 			}
 		}
-		case "hard":
+		case 2:
 		{
 			local gascan = null;
 			while ( gascan = Entities.FindByName( gascan, "gascans_finale_advanced" ) )
@@ -135,7 +144,7 @@ function SpawnScavengeCans( difficulty )
 					SpawnCan( gascan );
 			}
 		}
-		case "normal":
+		case 1:
 		{
 			local gascan = null;
 			while ( gascan = Entities.FindByName( gascan, "gascans_finale_normal" ) )
@@ -144,7 +153,7 @@ function SpawnScavengeCans( difficulty )
 					SpawnCan( gascan );
 			}
 		}
-		case "easy":
+		case 0:
 		{
 			local gascan = null;
 			while ( gascan = Entities.FindByName( gascan, "gascans_finale_easy" ) )
@@ -166,25 +175,25 @@ NumCansNeeded <- 13
 
 switch( difficulty )
 {
-	case "easy":
+	case 0:
 	{
-		NumCansNeeded = 13;
+		NumCansNeeded = 10;
 		EntFire( "relay_outro_easy", "Enable" );
 		break;
 	}
-	case "normal":
+	case 1:
 	{
 		NumCansNeeded = 13;
 		EntFire( "relay_outro_normal", "Enable" );
 		break;
 	}
-	case "hard":
+	case 2:
 	{
 		NumCansNeeded = 13;
 		EntFire( "relay_outro_advanced", "Enable" );
 		break;
 	}
-	case "impossible":
+	case 3:
 	{
 		NumCansNeeded = 13;
 		EntFire( "relay_outro_expert", "Enable" );
@@ -193,6 +202,15 @@ switch( difficulty )
 	default:
 		break;
 }
+
+if ( Director.IsSinglePlayerGame() )
+{
+	if ( difficulty < 2 )
+		NumCansNeeded -= 2;
+	else if ( difficulty > 1 )
+		NumCansNeeded -= 3;
+}
+
 
 EntFire( "progress_display", "SetTotalItems", NumCansNeeded );
 EntFire( "radio", "AddOutput", "FinaleEscapeStarted director:RunScriptCode:DirectorScript.MapScript.LocalScript.DirectorOptions.TankLimit <- 3:0:-1" );
@@ -249,6 +267,12 @@ function GasCanTouched()
 	GasCansTouched++;
 	if ( developer() > 0 )
 		Msg(" Touched: " + GasCansTouched + "\n");
+
+	if ( GasCansTouched >= 2 )
+	{
+		DirectorOptions.CommonLimit <- 15;
+		DirectorOptions.MobSpawnSize <- 10;
+	}
 }
 
 function GasCanPoured()
@@ -306,7 +330,7 @@ function OnBeginCustomFinaleStage( num, type )
 	else if ( num == 5 )
 	{
 		EntFire( "relay_lighthouse_off", "Trigger" );
-		SpawnScavengeCans( difficulty );
+		SpawnScavengeCans( gascanDifficulty );
 	}
 	else if ( num == EscapeStage )
 		EntFire( "relay_start_boat", "Trigger" );

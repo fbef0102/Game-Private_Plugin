@@ -18,7 +18,7 @@ SharedOptions <-
 
 	A_CustomFinale3 = ONSLAUGHT
 	A_CustomFinaleValue3 = "c1m4_delay"
-        
+	
 	A_CustomFinale4 = PANIC
 	A_CustomFinaleValue4 = 1
 
@@ -45,69 +45,69 @@ SharedOptions <-
 
 	A_CustomFinale12 = PANIC
 	A_CustomFinaleValue12 = 1
-        
+	
  	A_CustomFinale13 = ONSLAUGHT
 	A_CustomFinaleValue13 = "c1m4_delay"
-        
+	
 	A_CustomFinale14 = TANK
 	A_CustomFinaleValue14 = 1   
-        
+	
  	A_CustomFinale15 = ONSLAUGHT
 	A_CustomFinaleValue15 = "c1m4_delay"
-        
+	
 	A_CustomFinale16 = PANIC
 	A_CustomFinaleValue16 = 1  
-                  
+	
  	A_CustomFinale17 = ONSLAUGHT
 	A_CustomFinaleValue17 = "c1m4_delay"    
-                       
+	
  	A_CustomFinale18 = PANIC
 	A_CustomFinaleValue18 = 1  
 	
  	A_CustomFinale19 = ONSLAUGHT
 	A_CustomFinaleValue19 = "c1m4_delay"
-        
+	
 	A_CustomFinale20 = PANIC
 	A_CustomFinaleValue20 = 1   
-        
+	
  	A_CustomFinale21 = ONSLAUGHT
 	A_CustomFinaleValue21 = "c1m4_delay"
-        
+	
 	A_CustomFinale22 = TANK
 	A_CustomFinaleValue22 = 1  
-                  
+	
  	A_CustomFinale23 = ONSLAUGHT
 	A_CustomFinaleValue23 = "c1m4_delay"    
-                       
+	
  	A_CustomFinale24 = PANIC
 	A_CustomFinaleValue24 = 1
-															
+	
  	A_CustomFinale25 = ONSLAUGHT
 	A_CustomFinaleValue25 = "c1m4_delay"
-        
+	
 	A_CustomFinale26 = PANIC
 	A_CustomFinaleValue26 = 1   
-        
+	
  	A_CustomFinale27 = ONSLAUGHT
 	A_CustomFinaleValue27 = "c1m4_delay"
-        
+	
 	A_CustomFinale28 = PANIC
 	A_CustomFinaleValue28 = 1  
-                  
+	
  	A_CustomFinale29 = ONSLAUGHT
 	A_CustomFinaleValue29 = "c1m4_delay"    
-                       
+	
  	A_CustomFinale30 = PANIC
 	A_CustomFinaleValue30 = 1
 
  	A_CustomFinale31 = ONSLAUGHT
 	A_CustomFinaleValue31 = "c1m4_delay"   
-                      
+	
 	//-----------------------------------------------------
 
 	PreferredMobDirection = SPAWN_LARGE_VOLUME
 	PreferredSpecialDirection = SPAWN_LARGE_VOLUME
-        
+	
 //	BoomerLimit = 0
 //	SmokerLimit = 2
 //	HunterLimit = 1
@@ -146,7 +146,6 @@ InitialOnslaughtOptions <-
 
 PanicOptions <-
 {
-
 	MegaMobSize = 0 // randomized in OnBeginCustomFinaleStage
 	MegaMobMinSize = 20
 	MegaMobMaxSize = 40
@@ -218,7 +217,6 @@ if ( Director.IsPlayingOnConsole() )
 	DelayTouchedOrPouredThreshold <- 4
 	
 	TankOptions.ShouldAllowSpecialsWithTank = false
-	
 }
 //-----------------------------------------------------
 //      INIT
@@ -249,9 +247,9 @@ function GasCanTouched()
     GasCansTouched++
     Msg(" Touched: " + GasCansTouched + "\n")   
      
-    EvalGasCansPouredOrTouched()    
+    EvalGasCansPouredOrTouched()
 }
-    
+
 function GasCanPoured()
 {
     GasCansPoured++
@@ -365,3 +363,4 @@ else if ( Director.GetGameMode() == "versus" )
 {
 	SharedOptions.ProhibitBosses = false
 }
+
