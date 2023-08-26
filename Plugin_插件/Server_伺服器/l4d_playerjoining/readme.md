@@ -4,7 +4,9 @@ Informs other players when a client connects to the server and changes teams.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+🟥Dedicated Server Only<br/>
+🟥只能安裝在Dedicated Server
 
 * Video | 影片展示
 <br/>None
@@ -60,7 +62,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
-* <details><summary>TSimilar Plugin | 相似插件</summary>
+* <details><summary>Similar Plugin | 相似插件</summary>
 	
 	1. [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce): Replacement of default player connection message, allows for custom connection messages
     	> 顯示玩家進來遊戲或離開遊戲的提示訊息 (IP、國家、Steam ID 等等)
