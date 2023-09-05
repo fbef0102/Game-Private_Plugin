@@ -11,32 +11,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-	
-	* v1.1h (2023-7-3)
-		* Support Coop/Realism/Versus/Survival/Scavenge
-
-	* v1.0h
-		* Individual plugin
-		* More data keyvalue
-		* More Cvars
-		* Control items in start safe area and in end safe area & in final area
-
-	* v0.0
-	    * [From confoglcompmod in SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/ItemTracking.sp)
+	* Detect all items on round start and remove items if limit reach
+	* Modify ```data/mapinfo.txt``` and control items limit on the map
+		* control items in start safe area
+		* control items outside saferoom/final area
+		* control items in end safe area & in final area
 </details>
 
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
-
-* Related | 相關插件
-	1. [coopbosses_ifier](https://github.com/fbef0102/Game-Private_Plugin/tree/main/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -45,11 +30,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Enable the itemtracking
 		itemtracking_enable "1"
 
-		// If 1, Keep item spawns the same as first sound in coop/realism/survival
-		itemtracking_savespawns_CP "1"
-
 		// If 1, Keep item spawns the same on both rounds in versus/scavenge
 		itemtracking_savespawns_VS "1"
+
+		// If 1, Keep item spawns the same as first sound in coop/realism/survival
+		itemtracking_savespawns_CP "0"
 
 		// Limits the number of adrenaline shots in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
 		adrenaline_end_area_limit "-1"
@@ -183,39 +168,138 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [coopbosses_ifier](https://github.com/fbef0102/Game-Private_Plugin/tree/main/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+	
+	* v1.1h (2023-7-3)
+		* Support Coop/Realism/Versus/Survival/Scavenge
+
+	* v1.0h
+		* Individual plugin
+		* More data keyvalue
+		* More Cvars
+		* Control items in start safe area and in end safe area & in final area
+
+	* v0.0
+	    * [From confoglcompmod in SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/ItemTracking.sp)
+</details>
+
 - - - -
 # 中文說明
 控制地圖上的物品數量與限制
 
 * 原理
-	* 覆蓋原本的導演生成系統，由此插件控制地圖上的物品生成數量或限制，參見下方Data設定範例
-	* 目前能控制的物品有治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
+	* 覆蓋原本的導演生成系統，設置文件```data/mapinfo.txt```控制地圖上的物品生成數量或限制
+	* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
+	* 此插件刪除地圖上原有的物品，並不是自動生成物品
 	* 戰役/對抗/寫實模式下控制的區域有三種
 		1. 安全區域&救援區域外 
 		2. 起始安全區域內 
 		3. 終點安全區域&救援區域內
 	* 生存/清道夫模式下控制全部的區域
-	* 不影響安全區域內的物品
 	* 支援所有官方地圖，三方圖請自行新增與修改
 
-* 功能
-	* 可決定每一關的物品生成數量與限制
-	* 戰役/寫實/生存模式第二回合之後，強制所有物品位置與數量要與第一回合相同
-	* 對抗/清道夫模式第二回合，強制所有物品位置與數量要與第一回合相同
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/itemtracking.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		itemtracking_enable "1"
+
+		// 為1時，對抗/清道夫模式第二回合，強制所有物品位置與數量要與第一回合相同
+		itemtracking_savespawns_VS "1"
+
+		// 為1時，戰役/寫實/生存模式第二.三.四......回合之後，強制所有物品位置與數量要與第一回合相同
+		itemtracking_savespawns_CP "0"
+
+		// 終點安全區域&救援區域內腎上腺素數量限制（-1=不移除;0=移除全部)
+		adrenaline_end_area_limit "-1"
+
+		// 安全區域/救援區域外腎上腺素數量限制（-1=不移除;0=移除全部)
+		adrenaline_limit "-1"
+
+		// 起始安全區域內腎上腺素數量限制（-1=不移除;0=移除全部)
+		adrenaline_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內電擊器數量限制（-1=不移除;0=移除全部)
+		defib_end_area_limit "-1"
+
+		// 安全區域/救援區域外電擊器數量限制（-1=不移除;0=移除全部)
+		defib_limit "-1"
+
+		// 起始安全區域內電擊器數量限制（-1=不移除;0=移除全部)
+		defib_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內治療包數量限制（-1=不移除;0=移除全部)
+		kits_end_area_limit "-1"
+
+		// 安全區域/救援區域外治療包數量限制（-1=不移除;0=移除全部)
+		kits_limit "-1"
+
+		// 起始安全區域內治療包數量限制（-1=不移除;0=移除全部)
+		kits_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內汽油彈數量限制（-1=不移除;0=移除全部)
+		molotov_end_area_limit "-1"
+
+		// 安全區域/救援區域外汽油彈數量限制（-1=不移除;0=移除全部)
+		molotov_limit "-1"
+
+		// 起始安全區域內汽油彈數量限制（-1=不移除;0=移除全部)
+		molotov_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內藥丸數量限制（-1=不移除;0=移除全部)
+		pills_end_area_limit "-1"
+
+		// 安全區域/救援區域外藥丸數量限制（-1=不移除;0=移除全部)
+		pills_limit "-1"
+
+		// 終點安全區域&救援區域內藥丸數量限制（-1=不移除;0=移除全部)
+		pills_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內土製炸彈數量限制（-1=不移除;0=移除全部)
+		pipebomb_end_area_limit "-1"
+
+		// 安全區域/救援區域外土製炸彈數量限制（-1=不移除;0=移除全部)
+		pipebomb_limit "-1"
+
+		// 終點安全區域&救援區域內土製炸彈數量限制（-1=不移除;0=移除全部)
+		pipebomb_start_area_limit "-1"
+
+		// 終點安全區域&救援區域內膽汁瓶數量限制（-1=不移除;0=移除全部)
+		vomitjar_end_area_limit "-1"
+
+		// 安全區域/救援區域外膽汁瓶數量限制（-1=不移除;0=移除全部)
+		vomitjar_limit "-1"
+
+		// 終點安全區域&救援區域內膽汁瓶數量限制（-1=不移除;0=移除全部)
+		vomitjar_start_area_limit "-1"
+		```
+</details>
 
 * <details><summary>文件設定範例</summary>
 
-	* data/mapinfo.txt
+	* ```data/mapinfo.txt```控制每一關的物品生成數量與限制
 		```php
 		"MapInfo"
 		{
-			"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
-			"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
-			"start_dist"		"100.000000" //始安全區域範圍 (不要亂改)
-			"start_extra_dist"	"500.000000" //始安全區域額外範圍 (不要亂改)
-			"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
 			"c4m1_milltown_a" //地圖名
 			{
+				"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
+				"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
+				"start_dist"		"100.000000" //起始安全區域範圍 (不要亂改)
+				"start_extra_dist"	"500.000000" //起始安全區域額外範圍 (不要亂改)
+				"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
 				"ItemLimits_Outside" //安全區域&救援區域外
 				{
 					"pain_pills"    "2" //找到地圖上在安全區域/救援區域外所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_limit)
@@ -262,5 +346,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar director_molotov_density 		"6.48"
 		sm_cvar director_pipe_bomb_density 		"6.48"
 		sm_cvar director_vomitjar_density 		"6.48"
+		```
+</details>
+
+* <details><summary>如何自行新增三方圖</summary>
+
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"xxxxxx" //三方地圖名
+			{
+				"start_point"		"x y z" //想像起始安全室為立方體空間，start_point為立方體的中心點
+				"end_point"			"x y z" //想像終點安全室或救援區域為立方體空間，end_point為立方體的中心點
+				"start_dist"		"100" 	//起始安全室立方體的邊長 (短的一邊)，沒有寫的話預設是100
+				"start_extra_dist"	"150" 	//起始安全室立方體的邊長 (長的一邊)，沒有寫的話預設是150
+				"end_dist"			"200" 	//終點安全室或救援區域立方體的邊長，沒有寫的話預設是200
+			}
+		}
 		```
 </details>

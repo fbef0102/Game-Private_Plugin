@@ -1,5 +1,5 @@
 # Description | 內容
-A simple anti - runner system , punish the runner by spawn SI behind her.
+A simple anti - runner system, punish the runner by spawn SI behind her.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -12,37 +12,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         > 代替月亮來懲罰你
         <br/>![l4d_together_1](image/l4d_together_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//panxiaohai @ 2009 - 2011
-	//Harry @ 2021 - 2023
-	```
-	* v1.6 (2023-4-1)
-        * Replace Gamedata with left4dhooks
-
-	* v1.5
-        * Remake Code
-        * New infected spawn method
-        * More cvars
-
-	* v1.0.2
-		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?t=167389)
+	* If a player is alone and very far away from the survivor team, he is the loner
+    * Keep spawning special infected nearby the loner
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
-
-* Related Plugin | 相關插件
-	1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
-		> 離隊伍太遠的玩家將被傳送或是減速
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -121,6 +99,36 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     // If someone is away from survivor team, he is the loner
     l4d_together_loner_range "2000.0"
     ```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
+		> 離隊伍太遠的玩家將被傳送或是減速
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//panxiaohai @ 2009 - 2011
+	//Harry @ 2021 - 2023
+	```
+	* v1.6 (2023-4-1)
+        * Replace Gamedata with left4dhooks
+
+	* v1.5
+        * Remake Code
+        * New infected spawn method
+        * More cvars
+
+	* v1.0.2
+		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?t=167389)
 </details>
 
 - - - -

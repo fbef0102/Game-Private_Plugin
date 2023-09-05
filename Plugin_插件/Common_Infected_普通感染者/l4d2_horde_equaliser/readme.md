@@ -9,15 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* display message
-		> 剩餘屍潮通知
-		<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
+	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
+
+* Notice
+	* To install this plugin, you must disable nature horde, see **Official ConVar** below
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
-* Notice
-	* To install this plugin, you must disable nature horde, see **Official ConVar** below
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -76,10 +75,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2 Coop/Versus/Realism
+	L4D2
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2023-9-3)
+		* Fix Error and not working on local server
 
 	* v1.2h (2023-2-18)
 	    * Modify cvar
@@ -105,22 +107,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 當有人開啟地圖上的機關之後，將無限屍潮改為有限，殭屍清完之後便不會再有屍潮來襲
-	* 必須設定data/mapinfo.txt否則無效
+	* 可設置文件```data/mapinfo.txt``調整每一關的有限屍潮數量
 
 * 用意在哪?
 	* 對抗模式下某些關卡的無限屍潮對於倖存者來說過於艱難通關
 
-* 功能
-	* 可調整每一關的有限屍潮數量
-	* 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
-	* 可調整Tank來臨時關閉無限屍潮
-
 * 注意事項
 	* 要使用這個插件必須關閉遊戲導演的自然屍潮，詳見下方**官方指令中文介紹**
 
+* <details><summary>指令中文介紹</summary>
+
+	* cfg/sourcemod/l4d2_horde_equaliser.cfg
+		```php
+		// 提示剩餘的屍潮數量 [1=每到1/4階段提示一次, 2=每一隻殭屍提示一次] (0=off)
+		l4d2_horde_equaliser_checkpoint_announce "1"
+
+		// 為1時，Tank存活期間，無限屍潮暫停刷殭屍
+		l4d2_horde_equaliser_no_tank_horde "0"
+		```
+</details>
+
+* <details><summary>命令中文介紹</summary>
+
+	None
+</details>
+
 * <details><summary>文件設定範例</summary>
 
-	* data/mapinfo.txt
+	* 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
+	* 設置文件```data/mapinfo.txt```調整每一關的有限屍潮數量
 		```php
 		"MapInfo"
 		{
@@ -141,17 +156,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
+	* 要使用這個插件必須關閉遊戲導演的自然屍潮
 	* 以下指令寫入文件 cfg/server.cfg，不可自行調整
 		```php
-		// 自然屍潮間隔 (秒數)，3600秒相當於一小時，必須關閉自然屍潮否則無效
-		sm_cvar z_mob_spawn_min_interval_easy            3600 //簡單難度
-		sm_cvar z_mob_spawn_min_interval_normal          3600 //一般難度 (對抗模式下為一般難度)
-		sm_cvar z_mob_spawn_min_interval_hard            3600 //進階難度
-		sm_cvar z_mob_spawn_min_interval_expert          3600 //專家難度
+		// 自然屍潮間隔 (秒數)，必須關閉自然屍潮否則無效
+		sm_cvar z_mob_spawn_min_interval_easy            9999 //簡單難度
+		sm_cvar z_mob_spawn_min_interval_normal          9999 //一般難度 (對抗模式下為一般難度)
+		sm_cvar z_mob_spawn_min_interval_hard            9999 //進階難度
+		sm_cvar z_mob_spawn_min_interval_expert          9999 //專家難度
 		
-		sm_cvar z_mob_spawn_max_interval_easy            3600
-		sm_cvar z_mob_spawn_max_interval_normal          3600
-		sm_cvar z_mob_spawn_max_interval_hard            3600
-		sm_cvar z_mob_spawn_max_interval_expert          3600
+		sm_cvar z_mob_spawn_max_interval_easy            9999
+		sm_cvar z_mob_spawn_max_interval_normal          9999
+		sm_cvar z_mob_spawn_max_interval_hard            9999
+		sm_cvar z_mob_spawn_max_interval_expert          9999
 		```
 </details>

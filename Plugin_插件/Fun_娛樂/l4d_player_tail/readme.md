@@ -20,7 +20,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Type ```!tailmenu``` -> choose colors and sprite -> have fun
-	* You can add Custom tail sprite (Need Fastdl)
+	* You can add Custom Colors or tail sprite in ```configs/l4d_player_tail.cfg```
 </details>
 
 * <details><summary>Important Note</summary>
@@ -37,29 +37,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_player_tail.cfg
 		```php
+		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
+		l4d_player_tail_default_value "1"
+
 		// If 1, Enable Tail effect for Bot Infected
 		l4d_player_tail_bot_infected_enable "1"
 
 		// If 1, Enable Tail effect for Bot Survivor
 		l4d_player_tail_bot_survivor_enable "1"
 
-		// Time interval to change tail color to random (0=Don't change color)
-		l4d_player_tail_changecolor_interval "4.0"
-
-		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-		l4d_player_tail_color "-1 -1 -1"
+		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
+		l4d_player_tail_command_access_flag ""
 
 		// Transparency of the tail (10-255).
 		l4d_player_tail_color_alpha "150"
 
-		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
-		l4d_player_tail_command_access_flag ""
+		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_player_tail_color "-1 -1 -1"
 
-		// Database to save personal tail settings. (MySQL & SQLite supported, Empty = Off)
-		l4d_player_tail_database "tail"
+		// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
+		l4d_player_tail_lifetime "5.0"
 
-		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
-		l4d_player_tail_default_value "1"
+		// The width of the beam to the beginning.
+		l4d_player_tail_startwidth "10.0"
 
 		// The width of the beam when it has full expanded.
 		l4d_player_tail_endwidth "1.0"
@@ -67,17 +67,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// The default attached tail height
 		l4d_player_tail_height "5.0"
 
-		// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
-		l4d_player_tail_lifetime "5.0"
-
-		// Players with these flags have access to open tail menu. (Empty = Everyone, -1: Nobody)
-		l4d_player_tail_menu_access_flag ""
+		// Time interval to change tail color to random (0=Don't change color)
+		l4d_player_tail_changecolor_interval "4.0"
 
 		// If 1, setup small beam sprite in middle of tail
 		l4d_player_tail_middle_beam "1"
 
-		// The width of the beam to the beginning.
-		l4d_player_tail_startwidth "10.0"
+		// Players with these flags have access to open tail menu. (Empty = Everyone, -1: Nobody)
+		l4d_player_tail_menu_access_flag ""
+
+		// Database to save personal tail settings. (MySQL & SQLite supported, Empty = Off)
+		l4d_player_tail_database "tail"
 		```
 </details>
 
@@ -124,6 +124,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D1
 	L4D2
 	```
+
 * <details><summary>Translation Support | 支援翻譯</summary>
 
 	```
@@ -170,20 +171,65 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 線條色塊，逐漸變色
-	* 輸入```!tail```開關尾巴特效或者```!tailmenu```選擇顏色與貼圖
+	* 輸入```!tail```開關尾巴特效或者```!tailmenu```打開介面選擇顏色與貼圖
 	<br/>![zho/l4d_player_tail_1](image/zho/l4d_player_tail_1.jpg)
+	* 會自動儲存於資料庫，下次玩家進來伺服器，顏色與貼圖保持不變
+	* 尾巴過一段時間會隨機變色
 
 * 功能
-	1. 可自定義尾巴特效的寬度，消逝時間
-	2. 玩家可打命令自行決定尾巴的顏色
-	3. 尾巴過一段時間會隨機變色
-	4. 自定義尾巴的圖案，可以用自製的貼圖 (需要網空給玩家下載貼圖)
-	5. 菜單介面選擇尾巴的顏色或貼圖
-	6. 支援資料庫儲存玩家的設定
+	* 可以設定文件```configs/l4d_player_tail.cfg```，自定義尾巴的顏色與圖案
 
 * 注意事項
 	* ```l4d_player_tail_lifetime``` 指令數值必須大於或等於 ```l4d_player_tail_changecolor_interval``` 指令數值
 	* 如果倖存者不動，尾巴特效會短暫消失，建議```l4d_player_tail_lifetime``` 指令數值不要設置太高
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_player_tail.cfg
+		```php
+		// 為1時，幫所有玩家預設打開特效尾巴
+		l4d_player_tail_default_value "1"
+
+		// 為1時，幫特感Bot打開特效尾巴
+		l4d_player_tail_bot_infected_enable "1"
+
+		// 為1時，幫倖存者Bot打開特效尾巴
+		l4d_player_tail_bot_survivor_enable "1"
+
+		// 擁有這些權限的玩家，才可以使用尾巴特效 (留白 = 任何人都能, -1: 無人)
+		l4d_player_tail_command_access_flag ""
+
+		// 尾巴顏色透明度 (10-255).
+		l4d_player_tail_color_alpha "150"
+
+		// 設置尾巴顏色，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機顏色]
+		l4d_player_tail_color "-1 -1 -1"
+
+		// 尾巴特效的時間 (如果玩家不動，尾巴特效可能會暫時消失)
+		l4d_player_tail_lifetime "5.0"
+
+		// 尾巴特效的起點寬度
+		l4d_player_tail_startwidth "10.0"
+
+		// 尾巴特效的終點寬度
+		l4d_player_tail_endwidth "1.0"
+
+		// 尾巴特效的高度
+		l4d_player_tail_height "5.0"
+
+		// 每4秒變更尾巴特效的顏色 (0=顏色不變化)
+		l4d_player_tail_changecolor_interval "4.0"
+
+		// 為1時，尾巴特效中間再增加一條線
+		l4d_player_tail_middle_beam "1"
+
+		// 擁有這些權限的玩家，才可以打開尾巴特效介面選擇顏色與貼圖 (留白 = 任何人都能, -1: 無人)
+		l4d_player_tail_menu_access_flag ""
+
+		// 資料庫的名稱. (MySQL & SQLite supported, 留白=不使用資料庫)
+		l4d_player_tail_database "tail"
+		```
+</details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
@@ -215,6 +261,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"port"				"yourport"
 		}
 		```
+
 	* 或者本地資料庫
 		```php
 		"tail"

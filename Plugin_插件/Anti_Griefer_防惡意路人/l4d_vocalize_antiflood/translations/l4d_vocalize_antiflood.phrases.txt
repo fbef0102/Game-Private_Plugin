@@ -1,0 +1,9 @@
+﻿"Phrases"
+{
+	"l4d_vocalize_antiflood"
+	{
+		"en"		"Stop flooding Vocalize Spams"
+		"zho"		"禁止灌水語音."
+		"chi"		"禁止灌水语音."
+	}
+}

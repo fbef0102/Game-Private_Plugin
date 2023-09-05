@@ -11,6 +11,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* punish player who said dirty word
     <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	* Punish player who said dirty word (Ban, Slap, Kick, ...)
+    * Modify dirty word table in ```data/regexrestrict.cfg```
+</details>
+
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
@@ -97,26 +103,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
 
 * 圖示
-	* 屏蔽敏感字詞並懲罰玩家
+	* 網路並非法外之地，切勿以身試法，請謹言慎行
     <br/>![sm_regexfilter_1_zho](image/zho/sm_regexfilter_1_zho.jpg)
     <br/>![sm_regexfilter_2_zho](image/zho/sm_regexfilter_2_zho.jpg)
 
 * 原理
-    * 只要打字說出的字詞符合禁詞表內任何一個詞彙，字詞被遮蔽且懲罰玩家
-    * 網路並非法外之地，切勿以身試法，請謹言慎行
+    * 只要打字說出的字詞符合禁詞表內任何一個詞彙，屏蔽敏感字詞並懲罰玩家
+    * 禁詞表位於```data/regexrestrict.cfg```
 
 * 用意在哪?
     * 專門對付口出惡言的玩家
     * 跟管理員吵架，只有管理員能罵人
 
-* 功能
+* <details><summary>文件設定範例</summary>
+
     * 禁詞表可自行增修
     * 可設置權限，管理員的言論不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
-    * 可設置要懲罰的動作
-
-* <details><summary>文件設定範例</summary>
-
 	* data/regexrestrict.cfg
         ```php
         "Censor"
@@ -125,21 +128,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             {
                 "chatpattern"       "nmsl 'CASELESS'" //敏感字詞為nmsl，CASELESS是Flag，意思是忽略大小寫
                 "chatpattern"       "cao 'CASELESS'"
-                "replaceall"        "我是傻B！" // 取代整句話
+                "replaceall"        "我是傻B！" // 用其他文字取代整句話
                 "warn"              "禁言五分钟! 少说脏话!" // 顯示警告
-                "action"            "sm_gag #%u 5;sm_slap #%u 30" //伺服器會採取的命令動作，此處命令為禁言五分鐘且巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
+                "action"            "sm_gag #%u 5;sm_slap #%u 30" //設置要懲罰的動作，此處命令為禁言五分鐘且巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
 
                 // 在4000秒內說出3次敏感字詞將會被伺服器封鎖長達180分鐘
                 "limit"             "3"
                 "forgive"           "4000"
                 "punish"            "sm_ban #%u 180"
 
-                //有這個權限的管理員不受到該敏感字詞合集影響
+                //有這個權限的管理員不受到審查
                 "immunity"          "z"
             }	
         }
         ```
-        > "replace" "xxxx" // 把敏感字詞替代成xxxx符號 <br/>
+        > "replace" "xxxx" // 敏感字詞可以用其他文字和諧取代 <br/>
 
     * 可設置的Flag
         * CASELESS - 忽略大小寫字母

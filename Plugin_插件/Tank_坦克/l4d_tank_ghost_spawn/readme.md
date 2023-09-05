@@ -80,7 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Tank能持續多久靈魂狀態? (如果時間到沒有復活, 強制自殺) (0=無時間限制)
 		l4d_tank_ghost_spawn_time "60"
 
-		// 倒數提示該如何顯示. (0: 不提示, 1:I 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		// 倒數提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_tank_ghost_spawn_announce_type "2"
 		```
 </details>

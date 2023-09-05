@@ -8,28 +8,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/tc92PDgY5RA)
 
 * Image | 圖示
-	* display who is the idiot calling the vote
-        > 顯示哪個傻玩家發起投票
-        <br/>![kickthevoter_1](image/kickthevoter_1.jpg)
+	<br/>![kickthevoter_1](image/kickthevoter_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1
-	    * Initial Release
+	* If the player calls vote -> block the vote and start a new vote to kick this player
+    * Admin can still call vote
 </details>
 
 * Require | 必要安裝
     1. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
-
-* Related Plugin | 相關插件
-	1. [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
-		> 根據遊戲模式和難度禁止使用Esc->發起投票
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -83,7 +71,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
-	None
+	
+    None
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
+		> 根據遊戲模式和難度禁止使用Esc->發起投票
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1
+	    * Initial Release
 </details>
 
 - - - -
@@ -92,6 +99,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 如果有傻B發起投票，投票項目將變成"踢出投票者: XXXX"，即使投票不通過照樣踢出傻B
+    * 管理員可以正常發起投票
 
 * 用意在哪?
     * 懲罰玩家持續惡意投票

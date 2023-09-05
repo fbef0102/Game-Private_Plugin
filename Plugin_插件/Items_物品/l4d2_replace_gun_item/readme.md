@@ -9,13 +9,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Replace kits with pills and ammo with laser sight 
-		> 治療包替換成藥丸，子彈堆替換成雷射裝置
-		<br/>![l4d2_replace_gun_item_1](image/l4d2_replace_gun_item_1.jpg)
+<br/>![l4d2_replace_gun_item_1](image/l4d2_replace_gun_item_1.jpg)
+<br/>![l4d2_replace_gun_item_2](image/l4d2_replace_gun_item_2.jpg)
 
-	* Replace All big guns with T1 weapons (Smg、Shotgun)
-		> 將所有大槍刪除並替換成T1武器 (機槍、單發散彈槍)
-		<br/>![l4d2_replace_gun_item_2](image/l4d2_replace_gun_item_2.jpg)
+* <details><summary>How does it work?</summary>
+
+	* Detect all weapons and items on round start and replace or remove
+	* Modify ```data/l4d2_replace_gun_item.cfg``` 
+		* replace big guns with other guns
+		* replace items with other items
+</details>
 
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
@@ -132,15 +135,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 地圖載入後，將所有大槍武器刪除並替換成小槍
 	* 地圖載入後，將所有治療包與電擊器刪除並替換成藥丸
-	* 可以偵測所有武器與物品，然後刪除並替換成其他武器或物品
-		* 近戰武器不適用
+	* 設定文件```data/l4d2_replace_gun_item.cfg```，刪除並替換成其他武器或物品
 	* 遊戲中途生成或掉落的物資也能被替換，譬如
 		* 墮落生還者掉落的物資
 		* CEDA掉落的膽汁瓶
-		* 綠色箱的無限物資
-* 功能
-	* 可以手動更改配置，替換成自己想要的武器或物品
-	* 可設置不要替換遊戲中途生成或掉落的物資
+		* 綠色補給箱的無限物資
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_replace_gun_item.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d2_replace_gun_item_enable "1"
+
+		// 為1時，替換遊戲中途生成或掉落的物資 (譬如管理員生成物品、墮落生還者掉落的物資、CEDA掉落的膽汁瓶、綠色補給箱的無限物資).
+		l4d2_replace_gun_item_late_spawn "0"
+
+		// 為1時，偵測主武器的槍械並取代
+		l4d2_replace_gun_item_primary "1"
+
+		// 為1時，偵測副武器的槍械並取代
+		l4d2_replace_gun_item_secondary "1"
+
+		// 為1時，偵測投擲物品並取代
+		l4d2_replace_gun_item_throwable "1"
+
+		// 為1時，偵測slot 4物品並取代 (醫療包、電擊器、高爆彈包、燃燒彈包).
+		l4d2_replace_gun_item_heavy_health "1"
+
+		// 為1時，偵測slot 5物品並取代 (藥丸、腎上腺素).
+		l4d2_replace_gun_item_light_health "1"
+
+		// 為1時，偵測特殊物品並取代 (雷射裝置、子彈堆、瓦斯桶、氧氣罐、汽油桶、煙火盒、精靈小矮人、可樂瓶)
+		l4d2_replace_gun_item_special "1"
+		```
+</details>
 
 * <details><summary>文件設定範例</summary>
 
@@ -181,7 +210,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * 所有武器名稱
         ```c++
-		// * Primary Weapons */
+		// * 主武器 */
         木製單發散彈槍 => weapon_pumpshotgun
         鐵製單發散彈槍 => weapon_shotgun_chrome
         Uzi烏茲衝鋒槍 => weapon_smg
@@ -203,26 +232,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         CSS-Scout狙擊槍 => weapon_sniper_scout
         CSS-AWP狙擊槍 => weapon_sniper_awp
 
-		// * Secondary Weapons */
+		// * 副武器 */
         手槍 => weapon_pistol
         麥格農手槍 => weapon_pistol_magnum
 
-		// * Throwable */
+		// * 投擲物品 */
 		燃燒瓶 => weapon_molotov
 		膽汁瓶 => weapon_vomitjar
 		土製炸彈 => weapon_pipe_bomb
 
-		// * Slot 4 Items */
+		// * Slot 4 物品 */
 		治療包 => weapon_first_aid_kit
 		電擊器 => weapon_defibrillator
 		高爆彈包 => weapon_upgradepack_explosive
 		火焰彈包 => weapon_upgradepack_incendiary
 
-		// * Slot 5 Items */
+		// * Slot 5 物品 */
 		藥丸 => weapon_pain_pills
 		腎上腺素 => eapon_adrenaline
 
-		// * Special Items */
+		// * 特殊物品 */
 		雷射裝置 => upgrade_laser_sight
 		子彈堆 => weapon_ammo_spawn
 		瓦斯桶 => weapon_propanetank

@@ -111,7 +111,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=關閉插件, 1=啟動插件
         l4d2_infected_spawn_auto_kill_time_enable "1"
 
-        // 倒數提示該如何顯示. (0: 不提示, 1:I 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+        // 倒數提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
         l4d2_infected_spawn_auto_kill_time_announce_type "2"
 
         // 設定60秒後處死Smoker. (0=關閉)

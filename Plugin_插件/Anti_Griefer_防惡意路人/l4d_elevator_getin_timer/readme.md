@@ -14,22 +14,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* <details><summary>How does it work?</summary>
+
+	* When someone presses the elevator button, a timer will display how many time left. If a player is not inside the evelator Trailer, slay him
+	* When someone enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the CEDA Trailer, slay him
+	* Modify ```data/l4d_elevator_info.txt``` to detect every elevator or CEDA Trailer on the map
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_elevator_getin_timer.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	l4d_elevator_getin_timer_allow "1"
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_elevator_getin_timer_allow "1"
 
-	// Changes how count down tumer hint displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-	l4d_elevator_getin_timer_announce_type "2"
+		// Changes how count down tumer hint displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_elevator_getin_timer_announce_type "2"
 
-	// Path to the Soundfile being played on each damaging Interval (Empty=Disable)
-	l4d_elevator_getin_timer_damage_sound "player/survivor/voice/choke_5.wav"
+		// Path to the Soundfile being played on each damaging Interval (Empty=Disable)
+		l4d_elevator_getin_timer_damage_sound "player/survivor/voice/choke_5.wav"
 
-	// If 1, Enable the Damage Shake 
-	l4d_elevator_getin_timer_shake_enable "1"
-	```
+		// If 1, Enable the Damage Shake 
+		l4d_elevator_getin_timer_shake_enable "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -100,19 +107,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
 
 * 原理
-	* 總有傻B不進入電梯在外面閒晃，害得大家一直等待被特感打到滅團
 	* 第一位玩家按下電梯按鈕時，開始倒數計時，等待全部玩家進入電梯內且電梯啟動之後才會停止倒數計時
 	* 第一位玩家進入CEDA大拖車（教區第二關），開始倒數計時，等到末端門打開之後才會停止倒數計時
 	* 當時間到之後，還在外面的玩家將處在中毒狀態，每秒受到傷害
-	* 支援所有官方地圖
-	* 三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢
+	* 設置文件```data/l4d_elevator_info.txt```，修改每一張地圖的電梯或CEDA大拖車
+	* 支援所有官方地圖 (三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢)
 
-* 功能
-	1. 可設置倒數計時秒數
-	2. 可設置傷害
-	3. 可設置不同位置的訊息提示
-	4. 可設置中毒的音效
-	5. 可設置中毒時螢幕搖晃
+* 用意在哪?
+	* 總有傻B不進入電梯在外面閒晃，害得大家一直等待被特感打到滅團
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_elevator_getin_timer.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_elevator_getin_timer_allow "1"
+
+		// 倒數提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		l4d_elevator_getin_timer_announce_type "2"
+
+		// 電梯門外，玩家中毒狀態的音效檔案，路徑相對於sound資料夾 (留白=無音效)
+		l4d_elevator_getin_timer_damage_sound "player/survivor/voice/choke_5.wav"
+
+		// 為1時，電梯門外，玩家中毒狀態時螢幕會晃動
+		l4d_elevator_getin_timer_shake_enable "1"
+		```
+</details>
 
 * <details><summary>文件設定範例</summary>
 

@@ -8,50 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/KGj8BYEQllw)
 
 * Image | 圖示
-	* display message
-		> 顯示還需要多少倖存者才能解鎖安全門
-		<br/>![anti_end_saferoomdoor_1](image/anti_end_saferoomdoor_1.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.4 (2023-6-20)
-        * Require left4dhooks v1.33 or above
-
-	* v1.3 (2023-3-30)
-		* Translation Support
-
-	* v1.2 (2022-11-3)
-		* When first survivor uses the eEnd Saferoom door, unlock End Saferoom door after a period of time.
-
-	* v1.1 (2022-10-30)
-		* Ignore players hanging from ledge or incapacitated outside the end saferoom area
-
-	* v1.0
-		* Initial Release
-</details>
+	<br/>![anti_end_saferoomdoor_1](image/anti_end_saferoomdoor_1.jpg)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Similar Plugin | 相似插件
-	1. [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
-		> 倖存者必須等待時間到並集合才能打開終點安全門，有更多功能
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -77,6 +38,45 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 	
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Similar Plugin | 相似插件</summary>
+
+	1. [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): Locks Saferoom Door Until Someone Opens It.
+		> 倖存者必須等待時間到並集合才能打開終點安全門，有更多功能
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2023-6-20)
+        * Require left4dhooks v1.33 or above
+
+	* v1.3 (2023-3-30)
+		* Translation Support
+
+	* v1.2 (2022-11-3)
+		* When first survivor uses the eEnd Saferoom door, unlock End Saferoom door after a period of time.
+
+	* v1.1 (2022-10-30)
+		* Ignore players hanging from ledge or incapacitated outside the end saferoom area
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

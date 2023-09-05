@@ -70,19 +70,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/l4d_team_unscramble.cfg
 		```php
 		// 0=Off, 1=Enables unscramble feature (Puts players on the right team after map/campaign change).
-		rotoblin_allow_unscramble "1"
+		l4d_team_unscramble_allow_unscramble "1"
 
 		// Maximum attempts to try to move player to the team he were.
-		rotoblin_unscramble_attempts "3"
+		l4d_team_unscramble_attempts "3"
 
 		// 0=Off, 1=Prints a notification to chat when unscramble is completed (lets spectators know when they can join a team).
-		rotoblin_unscramble_notify "1"
+		l4d_team_unscramble_notify "1"
 
 		// 0=Off, 1=Prevents calling votes until unscramble completes.
-		rotoblin_unscramble_novotes "1"
+		l4d_team_unscramble_novotes "1"
 
 		// Unscramble max processing time after map changed. When the time expires the teams changes will be unlocked.
-		rotoblin_unscramble_time "45"
+		l4d_team_unscramble_time "45"
 		```
 </details>
 
@@ -138,8 +138,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 
 * 原理
-	* 利用官方投票換關卡或者重新關卡時，這個插件會紀錄所有在場的玩家和所在的隊伍(不論是特感/人類/旁觀隊伍，並在更換完成地圖後還原
+	* 當切換關卡時，這個插件會紀錄所有在場的玩家和所在的隊伍(特感/人類/旁觀隊伍)
+	* 並在更換地圖之後，還原所有玩家上次所在的隊伍 (其他玩家暫時不能切換隊伍)
+
+* 用意在哪?
+	* 避免載入慢的玩家被旁觀者擠掉導致沒位子
+	* 避免換關卡之後，隊伍錯亂
 	* 建議等真的需要再來使用
 
 * 功能
 	* 提供很多API串接，給其他插件使用
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_team_unscramble.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件 (切換地圖之後，嘗試將玩家放入正確的隊伍).
+		l4d_team_unscramble_allow_unscramble "1"
+
+		// 嘗試將玩家放入正確的隊伍的嘗試次數 (超過便放棄)
+		l4d_team_unscramble_attempts "3"
+
+		// 為1時，當所有玩家都放入正確的隊伍之後 (讓其他玩家知道可以切換隊伍了).
+		l4d_team_unscramble_notify "1"
+
+		//為1時，當所有玩家都放入正確的隊伍之前，不能發起官方投票
+		l4d_team_unscramble_novotes "1"
+
+		// 切換地圖之後45秒內嘗試將玩家放入正確的隊伍，如果時間到則自動放棄嘗試
+		l4d_team_unscramble_time "45"
+		```
+</details>
