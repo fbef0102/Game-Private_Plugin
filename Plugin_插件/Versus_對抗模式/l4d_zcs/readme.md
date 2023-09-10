@@ -9,31 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	* Right Mouse to change their class
-		> 右鍵更換特感種類
-		<br/>![l4d_zcs_1.gif](image/l4d_zcs_1.gif)
-
-* Apply to | 適用於
-	```
-	L4D1 Versus
-	L4D2 Versus
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//[X]BetaAlpha @ 2010-2011
-	//HarryPotter @ 2022
-	```
-	* v1.1
-		* Remake Code
-		* Remove Gamedata
-		* Remove Unnecessary cvars
-		* Add more cvars
-		* Optimize Code
-
-	* v0.9.6
-		* [By [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
-</details>
+	<br/>![l4d_zcs_1.gif](image/l4d_zcs_1.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -46,14 +22,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Enable/Disable Zombie Character Select plugin.
 		zcs_enable "1"
 
-		// Players with these flags have access to change class. (Empty = Everyone, -1: Nobody)
-		zcs_access_level ""
+		// If 1, Enable Zombie Character Select debug log.
+		zcs_debug "0"
 
-		// If 1, Allow player to select class even when ghost infected player is too far from survivors (is going to despawn).
-		zcs_allow_cull_switch "1"
+		// If 1, Display infected class limits panel.
+		zcs_show_hud_panel "1"
 
-		// If 1, Allow player to select class after returning to ghost from spawn.
-		zcs_allow_despawn_switch "0"
+		// If 1, Include fake infected bots in limits.
+		zcs_count_fake_bots "1"
 
 		// If 1, Allow infected class switch at finale stages.
 		zcs_allow_finale_switch "1"
@@ -61,59 +37,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Allow player to select previous infected class.
 		zcs_allow_last_class "0"
 
-		// Allow Boomer Ghost player to select class. (0=Not Allow)
-		zcs_boomer_ghost_allow "1"
+		// If 1, Allow player to select class even when ghost infected player is too far from survivors (is going to despawn).
+		zcs_allow_cull_switch "1"
 
-		// How many Boomers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
-		zcs_boomer_limit "-1"
+		// If 1, Allow player to select class after returning to ghost from spawn.
+		zcs_allow_despawn_switch "0"
 
-		// Allow Charger Ghost player to select class. (0=Not Allow)
-		zcs_charger_ghost_allow "1"
+		// Players with these flags have access to change class. (Empty = Everyone, -1: Nobody)
+		zcs_access_level ""
 
-		// How many Chargers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
-		zcs_charger_limit "-1"
+		// Key binding for infected class selection. (1=MELEE, 2=RELOAD, 3=ZOOM)
+		zcs_select_key "1"
 
-		// Time before boomer class is allowed after boomer death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_boomer "-1"
-
-		// Time before charger class is allowed after charger death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_charger "-1"
-
-		// Time before hunter class is allowed after hunter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_hunter "-1"
-
-		// Time before jockey class is allowed after jockey death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_jockey "-1"
-
-		// Time before smoker class is allowed after smoker death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_smoker "-1"
-
-		// Time before spitter class is allowed after spitter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
-		zcs_cooldown_spitter "-1"
-
-		// If 1, Include fake infected bots in limits.
-		zcs_count_fake_bots "1"
-
-		// If 1, Enable Zombie Character Select debug log.
-		zcs_debug "0"
-
-		// Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
-		zcs_determine_class_when_ghost "0"
-
-		// Allow Hunter Ghost player to select class. (0=Not Allow)
-		zcs_hunter_ghost_allow "1"
-
-		// How many Hunters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
-		zcs_hunter_limit "-1"
-
-		// Allow Jockey Ghost player to select class. (0=Not Allow)
-		zcs_jockey_ghost_allow "1"
-
-		// How many Jockeys allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
-		zcs_jockey_limit "-1"
-
-		// If 1, Broadcast class & limit status messages to players.
-		zcs_notify_class "1"
+		// Time interval between Infected class switch delay in (s).
+		zcs_select_delay "0.5"
 
 		// If 1, Broadcast infected class selection key binding to players.
 		zcs_notify_key "1"
@@ -121,26 +58,65 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Notify infected class selection key binding every time when ghost. (0=Notify first time ghost)
 		zcs_notify_key_repeat "0"
 
-		// Time interval between Infected class switch delay in (s).
-		zcs_select_delay "0.5"
+		// If 1, Broadcast class & limit status messages to players.
+		zcs_notify_class "1"
 
-		// Key binding for infected class selection. (1=MELEE, 2=RELOAD, 3=ZOOM)
-		zcs_select_key "1"
+		// Time before smoker class is allowed after smoker death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_smoker "-1"
 
-		// If 1, Display infected class limits panel.
-		zcs_show_hud_panel "1"
+		// Time before boomer class is allowed after boomer death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_boomer "-1"
 
-		// Allow Smoker Ghost player to select class. (0=Not Allow)
-		zcs_smoker_ghost_allow "1"
+		// Time before hunter class is allowed after hunter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_hunter "-1"
+
+		// Time before spitter class is allowed after spitter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_spitter "-1"
+
+		// Time before jockey class is allowed after jockey death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_jockey "-1"
+
+		// Time before charger class is allowed after charger death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		zcs_cooldown_charger "-1"
 
 		// How many Smokers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 		zcs_smoker_limit "-1"
 
-		// Allow Spitter Ghost player to select class. (0=Not Allow)
-		zcs_spitter_ghost_allow "1"
+		// How many Boomers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		zcs_boomer_limit "-1"
+
+		// How many Hunters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		zcs_hunter_limit "-1"
 
 		// How many Spitters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
 		zcs_spitter_limit "-1"
+
+		// How many Jockeys allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		zcs_jockey_limit "-1"
+
+		// How many Chargers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		zcs_charger_limit "-1"
+
+		// Allow Smoker Ghost player to select class. (0=Not Allow)
+		zcs_smoker_ghost_allow "1"
+
+		// Allow Boomer Ghost player to select class. (0=Not Allow)
+		zcs_boomer_ghost_allow "1"
+
+		// Allow Hunter Ghost player to select class. (0=Not Allow)
+		zcs_hunter_ghost_allow "1"
+
+		// Allow Spitter Ghost player to select class. (0=Not Allow)
+		zcs_spitter_ghost_allow "1"	
+
+		// Allow Jockey Ghost player to select class. (0=Not Allow)
+		zcs_jockey_ghost_allow "1"
+
+		// Allow Charger Ghost player to select class. (0=Not Allow)
+		zcs_charger_ghost_allow "1"
+
+		// Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
+		zcs_determine_class_when_ghost "0"
 		```
 </details>
 
@@ -149,14 +125,138 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//[X]BetaAlpha @ 2010-2011
+	//HarryPotter @ 2022-2023
+	```
+	* v1.1
+		* Remake Code
+		* Remove Gamedata
+		* Remove Unnecessary cvars
+		* Add more cvars
+		* Optimize Code
+
+	* v0.9.6
+		* [By [X]BetaAlpha](https://forums.alliedmods.net/showthread.php?t=121461)
+</details>
+
 - - - -
 # 中文說明
 特感玩家可以在靈魂狀態自行切換特感種類
 
 * 原理
-	* 靈魂狀態時，使用滑鼠右鍵切換特趕類型
+	* 靈魂狀態時，使用滑鼠右鍵切換特感類型
 	* 重新回到靈魂狀態不得再次切換
 
-* 功能
-	1. 可限制每個特感種類的數量
-	2. 可限制每個特感種類的冷卻時間，譬如當真人Charger玩家死亡時，20秒內不能選擇Charger
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_zcs.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		zcs_enable "1"
+
+		// 為1時，啟用 debug 日誌紀錄.
+		zcs_debug "0"
+
+		// 為1時，顯示當前特感數量的介面
+		zcs_show_hud_panel "1"
+
+		// 為1時，特感Bot也會被計算於限制數量之內
+		zcs_count_fake_bots "1"
+
+		// 為1時，最終救援開始之後也可以切換特感類型 (0=不准)
+		zcs_allow_finale_switch "1"
+
+		// 為1時，允許玩家切換到上次遊玩的特感類型 (0=不准)
+		zcs_allow_last_class "0"
+
+		// 為1時，當玩家離倖存者太遠時，允許玩家切換特感類型 (0=不准)
+		zcs_allow_cull_switch "1"
+
+		// 為1時，當玩家重生回靈魂狀態時，允許玩家切換特感類型 (0=不准)
+		zcs_allow_despawn_switch "0"
+
+		// 擁有這些權限的玩家，才可以切換特感類型　(留白 = 任何人都能, -1: 無人)
+		zcs_access_level ""
+
+		// 甚麼按鍵切換特感類型　(1=右鍵, 2=R鍵, 3=滑鼠滾輪鍵)
+		zcs_select_key "1"
+
+		// 切換特感類型的時間間隔 (s)
+		zcs_select_delay "0.5"
+
+		// 為1時，提示玩家使用哪種按鍵切換特感類型
+		zcs_notify_key "1"
+
+		// 為1時，每次玩家變成靈魂狀態時，提示玩家如何切換特感類型. (0=只在第一次靈魂狀態時提示)
+		zcs_notify_key_repeat "0"
+
+		// 為1時，提示特感種類與數量限制
+		zcs_notify_class "1"
+
+		// Smoker玩家死亡之後允許再次選擇Smoker的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_smoker "-1"
+
+		// Boomer玩家死亡之後允許再次選擇Boomer的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_boomer "-1"
+
+		// Hunter玩家死亡之後允許再次選擇Hunter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_hunter "-1"
+
+		// Spitter玩家死亡之後允許再次選擇Spitter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_spitter "-1"
+
+		// Jockey玩家死亡之後允許再次選擇Jockey的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_jockey "-1"
+
+		// Charger玩家死亡之後允許再次選擇Charger的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		zcs_cooldown_charger "-1"
+
+		// Smoker的數量限制 (-1=使用官方指令z_versus_smoker_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_smoker_limit "-1"
+
+		// Boomer的數量限制 (-1=使用官方指令z_versus_boomer_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_boomer_limit "-1"
+
+		// Hunter的數量限制 (-1=使用官方指令z_versus_hunter_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_hunter_limit "-1"
+
+		// Spitter的數量限制 (-1=使用官方指令z_versus_spitter_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_spitter_limit "-1"
+
+		// Jockey的數量限制 (-1=使用官方指令z_versus_jockey_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_jockey_limit "-1"
+
+		// Charger的數量限制 (-1=使用官方指令z_versus_charger_limit設置的數量, 0=不允許, 請設置1~10)
+		zcs_charger_limit "-1"
+
+		// 為1時，允許靈魂特感Smoker切換其他特感類型 (0=不允許)
+		zcs_smoker_ghost_allow "1"
+
+		// 為1時，允許靈魂特感Boomer切換其他特感類型 (0=不允許)
+		zcs_boomer_ghost_allow "1"
+
+		// 為1時，允許靈魂特感Hunter切換其他特感類型 (0=不允許)
+		zcs_hunter_ghost_allow "1"
+
+		// 為1時，允許靈魂特感Spitter切換其他特感類型 (0=不允許)
+		zcs_spitter_ghost_allow "1"	
+
+		// 為1時，允許靈魂特感Jockey切換其他特感類型 (0=不允許)
+		zcs_jockey_ghost_allow "1"
+
+		// 為1時，允許靈魂特感Charger切換其他特感類型 (0=不允許)
+		zcs_charger_ghost_allow "1"
+
+		// 當玩家進入靈魂狀態時(非回魂狀態)，1 = 由此插件決定特感類型 (根據場上的特感數量限制決定)，0 = 交給導演系統決定
+		zcs_determine_class_when_ghost "0"
+		```
+</details>

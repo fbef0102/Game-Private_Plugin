@@ -15,6 +15,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![1vSpecials_3](image/1vSpecials_3.jpg)
 </details>
 
+* <details><summary>How does it work?</summary>
+
+	* Special infected incaps survivors and die instantly
+    * Set each Special infected scratch damage
+    * Skip Survivor getup animation after release
+</details>
+
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -105,9 +112,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Spitter claw Dmg. (-1=Default value dmg)
         1vSpecials_spitter_claw_dmg "-1"
         ```
-
-* v2.3
-    * Initial Release
+    * v2.3
+        * Initial Release
 </details>
 
 - - - -

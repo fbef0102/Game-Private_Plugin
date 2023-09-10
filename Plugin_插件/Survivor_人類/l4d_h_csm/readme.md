@@ -122,7 +122,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 此為CSM插件重製版，輸入!csm打開介面選擇一代或二代角色，
-		* 自動保存機制，玩家下次加入倖存者之後自動變成上一次選擇的角色
+	* 有自動保存機制，玩家下次加入倖存者之後自動變成上一次選擇的角色
 	* 適用於三方圖
 
 * 注意事項

@@ -10,6 +10,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	<br/>![l4d_tankhud_1](image/l4d_tankhud_1.jpg)
+	<br/>![l4d_tankhud_2](image/l4d_tankhud_2.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Display tank hud when tank alive for infected team and spectator team
+	* Say ```!tankhud``` to turn on/off tank hud
+	* Display second tank
+	* Can not display third tank
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -58,6 +67,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2023-9-10)
+		* Display second tank
+
 	* v1.0h (2023-2-10)
 		* Individual plugin
 		* Auto generate cfg
@@ -73,10 +85,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* Tank生成的時候，左邊出現介面，顯示Tank的血量、控制權、玩家姓名、延遲值與Lerp
-	* 如果有著火也會顯示剩餘多少時間能存活
+		* 如果有著火也會顯示剩餘多少時間能存活
+		* 可以顯示第二隻Tank (無法顯示第二隻Tank的控制次數，認真你就輸了)
+		* 目前無法顯示第三隻Tank，會超出介面的字數限制，認真你就輸了
+	* 玩家可以在聊天視窗輸入!tankhud關閉Tank介面
 
-* 功能
-	* 玩家可以在聊天視窗輸入!tank關閉Tank介面
-	* 可決定Tank本身玩家能否看到Tank介面
-	* 可決定特感隊伍能否看到Tank介面
-	* 可決定旁觀者能否看到Tank介面
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_tankhud.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_tankhud_enable "1"
+
+		// 為1時，特感隊伍能看到Tank介面
+		l4d_tankhud_infected_enable "1"
+
+		// 為1時，旁觀者能看到Tank介面
+		l4d_tankhud_spec_enable "1"
+
+		// 為1時，Tank本身玩家能看到Tank介面
+		l4d_tankhud_tank_enable "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **開啟或關閉Tank介面**
+		```php
+		sm_tankhud
+		```
+</details>

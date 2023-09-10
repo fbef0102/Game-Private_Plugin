@@ -21,6 +21,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* (Survivor) Killing zombies and infected to earn credits
 	* (Infected) Doing Damage to survivors to earn credits
 	* Type !buy in chatbox, buy anything you want
+	* Save player's credits to server. (Database)
 </details>
 
 * Require | 必要安裝
@@ -391,8 +392,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![God_Mode](image/God_Mode.jpg)
 </details>
 
-* How to modify the item price
+* <details><summary>How to modify the item price</summary>
+
 	* L4D2_Buy_Store.sp line 167 ~ 272
+</details>
 
 * <details><summary>Database</summary>
 
@@ -625,26 +628,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_clearmoney <name>
 		sm_deductmoney <name>
 		```
-
 </details>
 
-* 如何設定各商品金額
-	* 源碼檔案第167到272行
+* <details><summary>如何設定各商品金額</summary>
 
-* 資料庫設定
-	* 使用指令 sm_shop_CookiesCached_enable "1" 能幫玩家儲值金額到本地伺服器上
-	* 或者想要跨伺服器儲值金額，設定 sm_shop_database "shop"，然後設定文件 *sourcemod\configs\databases.cfg*
-		```php
-		"shop"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
+	* 源碼檔案第167到272行
+</details>
+
+* <details><summary>資料庫設定</summary>
+
+	* 以下方法二選一
+		1. 使用指令 sm_shop_CookiesCached_enable "1" 能幫玩家儲值金額到本地伺服器上
+		2. 跨伺服器儲值金額，設定 sm_shop_database "shop"，然後設定文件 *sourcemod\configs\databases.cfg*
+			```php
+			"shop"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+</details>
 
 * <details><summary>特殊商品中文介紹 (點我展開)</summary>
 

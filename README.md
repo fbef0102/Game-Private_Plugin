@@ -1,5 +1,4 @@
 # Game-Private_Plugin by Harry Potter
-> 2023/8/15 updated
 - [總攬](#總攬)
   - [私人插件列表](#l4d12-plugin-list--l4d1和2插件列表)
   - [公開的插件列表](#公開的插件列表-public-plugins-list)
@@ -27,14 +26,11 @@
     * 支付宝
   </details>
 
-  * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
+  * <details><summary><b>試用插件</b></summary>
 
-    * 支援翻譯
-    * 支援資料庫
-    * 多個指令與命令功能
-    * 支援Gamedata (windows、linux)
-    * 支援其他遊戲
-    * 支援其他插件不衝突
+    * 如果想先測試功能可以要求先試用，我會給smx檔案供試用
+    * 試用插件只有三天的期限，時間到如果繼續使用插件會自動炸服
+    * 付錢邀交易完成之後，會給源碼sp檔案，請放心
   </details>
 
   * <details><summary><b>交易的注意事項</b></summary>
@@ -51,6 +47,16 @@
     * 保密交易，不會公開透露交易資訊與買家個資
   </details>
 
+  * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
+
+    * 支援翻譯
+    * 支援資料庫
+    * 多個指令與命令功能
+    * 支援Gamedata (windows、linux)
+    * 支援其他遊戲
+    * 支援其他插件不衝突
+  </details>
+
 > My Private Plugins (Will update more) 
 * Every plugin here is private (US$6 dollars above), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
@@ -62,15 +68,12 @@
     * Taiwanese local bank
     * Alipay
   </details>
-  
-  * <details><summary><b>Why high-priced?</b></summary>
 
-    * Support Translation
-    * Support Database
-    * Multi cvars and commands
-    * Support Gamedata (windows、linux)
-    * Support other games
-    * Support other plugins
+  * <details><summary><b>Trial Test</b></summary>
+
+    * If want to test before buy. I can send trial plugin (.smx file) first and help to test.
+    * Only 3 days to test the trial plugin. After 3 days, the trial plugin would crash the server
+    * I will send source code (.sp file) after payment
   </details>
 
   * <details><summary><b>Notice</b></summary>
@@ -82,6 +85,16 @@
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
     * Privacy Policy, other people will never know our deal
+  </details>
+
+  * <details><summary><b>Why high-priced?</b></summary>
+
+    * Support Translation
+    * Support Database
+    * Multi cvars and commands
+    * Support Gamedata (windows、linux)
+    * Support other games
+    * Support other plugins
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -622,7 +635,8 @@
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付報酬
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
-  * ✗不幫忙架設伺服器、安裝插件，請自己來，但過程遇到任何問題可以詢問教學
+  * ✗不幫忙架設伺服器、不幫忙安裝插件，請一切自己來，但過程遇到任何問題可以詢問教學
+  * 我這裡不提供懶人安裝包
   * ✗沒有源碼的插件，請附上來源網址
 </details>
 
@@ -660,6 +674,7 @@
   * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
   * ✗ Non-steam、old game version、old sourcemod version、old plugin version
   * ✗ Only plugin with no source code, please attach original link
+  * ✗ I won't provide AllInOne-lazy-package, please do it yourself
 </details>
 
 - - - -

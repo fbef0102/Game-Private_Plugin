@@ -159,10 +159,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 嘗試將玩家放入正確的隊伍的嘗試次數 (超過便放棄)
 		l4d_team_unscramble_attempts "3"
 
-		// 為1時，當所有玩家都放入正確的隊伍之後 (讓其他玩家知道可以切換隊伍了).
+		// 為1時，當所有玩家都放入正確的隊伍之後，提示已完成 (讓其他玩家知道可以切換隊伍了).
 		l4d_team_unscramble_notify "1"
 
-		//為1時，當所有玩家都放入正確的隊伍之前，不能發起官方投票
+		// 為1時，當所有玩家都放入正確的隊伍之前，不能發起官方投票
 		l4d_team_unscramble_novotes "1"
 
 		// 切換地圖之後45秒內嘗試將玩家放入正確的隊伍，如果時間到則自動放棄嘗試

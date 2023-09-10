@@ -32,8 +32,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "chatpattern"		"fuck 'CASELESS'" // dirty word you want to ban, CASELESS is flag, which means ignore Case
                 "chatpattern"		"shit 'CASELESS'"
                 "replace"			"****" // Replace the matches with a string
-                "warn"				"Silence 5 mins, Don't say that!" // Warn the client they are violating the matching rules
-                "action"			"sm_gag #%u 5;sm_slap #%u 30"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
+                "warn"				"Don't say that!" // Warn the client they are violating the matching rules
+                "action"			"sm_slap #%u 30"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
                 "limit"				"3" // Limit the amount of times such a pattern may be spoken
                 "forgive"			"4000" //Allow for forgiveness of one violation every x seconds
                 "punish"			"sm_ban #%u 180" // Enforce the limit with a punishment RCON command
@@ -45,6 +45,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * Valid Flags
         * CASELESS - Ignore Case.
+
+    * action
+        * #%u = user id
+        * #%i = client id
+        * #%n = player name
+        * #%s = player steam id
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -129,8 +135,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "chatpattern"       "nmsl 'CASELESS'" //敏感字詞為nmsl，CASELESS是Flag，意思是忽略大小寫
                 "chatpattern"       "cao 'CASELESS'"
                 "replaceall"        "我是傻B！" // 用其他文字取代整句話
-                "warn"              "禁言五分钟! 少说脏话!" // 顯示警告
-                "action"            "sm_gag #%u 5;sm_slap #%u 30" //設置要懲罰的動作，此處命令為禁言五分鐘且巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
+                "warn"              "少说脏话!" // 顯示警告
+                "action"            "sm_slap #%u 30" //設置要懲罰的動作，此處命令巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
 
                 // 在4000秒內說出3次敏感字詞將會被伺服器封鎖長達180分鐘
                 "limit"             "3"
@@ -146,4 +152,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * 可設置的Flag
         * CASELESS - 忽略大小寫字母
+
+    * action能寫的參數
+        * #%u = user id
+        * #%i = client id
+        * #%n = player name
+        * #%s = player steam id
 </details>
