@@ -199,7 +199,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 控制地圖上的物品數量與限制
 
 * 原理
-	* 覆蓋原本的導演生成系統，設置文件```data/mapinfo.txt```控制地圖上的物品生成數量或限制
+	* 設置文件```data/mapinfo.txt```控制地圖上的物品生成數量或限制
 	* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
 	* 此插件刪除地圖上原有的物品，並不是自動生成物品
 	* 戰役/對抗/寫實模式下控制的區域有三種

@@ -98,20 +98,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
+		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
+		l4d_versus_boss_vote "1"
+
+		// How many players at least to vote Boss Spawns.
+		l4d_versus_boss_vote_need_player "4"
+
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
 		l4d_versus_boss_avoid_tank_spawn "10"
 
 		// Enable forcing boss spawns to obey boss spawn cvars
 		l4d_versus_boss_spawn_cvars "1"
 
-		// Don't override boss spawning rules on Static Tank Spawn maps (c7m1, c13m2)
+		// Don't override boss spawning rules on Static Tank Spawn maps
+		// Need to write keyvalue "static_tank_map" "1" in data/mapinfo.txt (c7m1, c13m2)
 		l4d_versus_boss_spawn_except_static "1"
-
-		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
-		l4d_versus_boss_vote "1"
-
-		// How many players at least to vote Boss Spawns.
-		l4d_versus_boss_vote_need_player "4"
 		```
 </details>
 
@@ -148,17 +149,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 versus
 	```
 
-* Optional | 輔助插件
+* <details><summary>Optional | 輔助插件</summary>
+
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
 		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
+</details>
 
-* Similar Plugin | 相似插件
+* <details><summary>Similar Plugin | 相似插件</summary>
+
 	1. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
 		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+</details>
 
-* Related | 相關插件
+* <details><summary>Related | 相關插件</summary>
+
 	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
 		> 使用指令顯示人類目前的路程
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -254,20 +261,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
-		// Tank 附近前後10% (20除以2) 避開生成witch
-		l4d_versus_boss_avoid_tank_spawn "10"
-
-		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
-		l4d_versus_boss_spawn_cvars "1"
-
-		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (譬如c7m1, c13m2，不要修改此指令除非你知道在幹嗎)
-		l4d_versus_boss_spawn_except_static "1"
-
 		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
 		l4d_versus_boss_vote "1"
 
 		// 發起!voteboss投票所需的玩家數量 
 		l4d_versus_boss_vote_need_player "4"
+
+		// Tank 附近前後5% (10除以2) 避開生成witch
+		l4d_versus_boss_avoid_tank_spawn "10"
+
+		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
+		l4d_versus_boss_spawn_cvars "1"
+
+		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (不要修改此指令除非你知道在幹嗎)
+		// data/mapinfo.txt裡面必須寫上"static_tank_map" "1"，譬如c7m1, c13m2
+		l4d_versus_boss_spawn_except_static "1"
 		```
 </details>
 

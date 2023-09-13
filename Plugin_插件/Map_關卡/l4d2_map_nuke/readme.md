@@ -156,7 +156,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"c1m1_hotel"  // C1地圖的第一個關卡
 			{
 				"chapter_nuke" 		"360"  // <-- 設置章節逃亡時間. 如果沒有寫此行，預設使用指令 l4d2_map_nuke_time_chapter
-				"campaign_nuke" 	"2400"  // <-- 設置城市逃亡時間. 如果沒有寫此行，預設使用指令 l4d2_map_nuke_time_chapter
+				"campaign_nuke" 	"2400"  // <-- 設置城市逃亡時間. 如果沒有寫此行，預設使用指令 l4d2_map_nuke_time_campaign
 			}
 			"c1m2_streets"
 			{
