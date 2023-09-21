@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Call the horde if player woke up the witch.
 		l4d_witch_cry_alart_enable "1"
 
+		// Chance to call the horde if player woke up the witch. [1~100]%
+		l4d_witch_cry_alart_chance "100"
+
 		// Time delay to call the horde after player woke up the witch and witch is still alive. (0=Instantly call horde)
 		l4d_witch_cry_alart_horde_time "3.0"
 
@@ -43,6 +46,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Call the horde if player killed the witch.
 		l4d_witch_cry_death_enable "1"
+
+		// Chance to call the horde if player killed the witch. [1~100]%
+		l4d_witch_cry_death_chance "100"
 
 		// Time delay to call the horde after player killed the witch. (0=Instantly call horde)
 		l4d_witch_cry_death_horde_time "2.0"
@@ -53,10 +59,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Call the horde if witch killed the survivor.
 		l4d_witch_cry_kill_enable "1"
 
-		// Time delay to call the horde after player killed the witch. (0=Instantly call horde)
+		// Chance to call the horde if witch killed the survivor. [1~100]%
+		l4d_witch_cry_kill_chance "50"
+
+		// Time delay to call the horde after witch killed the survivor. (0=Instantly call horde)
 		l4d_witch_cry_kill_time "2.0"
 
-		// How many hordes to call if player killed the witch
+		// How many hordes to call if witch killed the survivor
 		l4d_witch_cry_kill_mob "1"
 		```
 </details>
@@ -82,6 +91,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2023-9-21)
+      * Add Probability
 
     * v1.3 (2023-8-6)
       * Call the horde if witch killed the survivor.
@@ -119,6 +131,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，Witch被驚醒時呼叫屍潮
 		l4d_witch_cry_alart_enable "1"
 
+		// Witch被驚醒時呼叫屍潮的機率 [1~100]%
+		l4d_witch_cry_alart_chance "100"
+
 		// 驚醒Witch 3秒後如果Witch還活著則呼叫屍潮. (0=不等秒數直接呼叫屍潮)
 		l4d_witch_cry_alart_horde_time "3.0"
 
@@ -128,6 +143,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，Witch被殺死時呼叫屍潮
 		l4d_witch_cry_death_enable "1"
 
+		// Witch被殺死時呼叫屍潮的機率 [1~100]%
+		l4d_witch_cry_death_chance "100"
+
 		// Witch被殺死 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
 		l4d_witch_cry_death_horde_time "2.0"
 
@@ -136,6 +154,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，Witch殺死倖存者時呼叫屍潮
 		l4d_witch_cry_kill_enable "1"
+
+		// Witch殺死倖存者時呼叫屍潮的機率 [1~100]%
+		l4d_witch_cry_kill_chance "50"
 
 		// Witch殺死倖存者 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
 		l4d_witch_cry_kill_time "2.0"

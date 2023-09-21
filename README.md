@@ -341,6 +341,8 @@
     * 改造M60 機關槍，可以拿取子彈、填充子彈、裝彈變快、升級火焰子彈與高爆子彈
   * [l4d_player_remove_equipment](/Plugin_插件/Weapons_武器/l4d_player_remove_equipment): Admin can remove player's equipment
     * 管理員可以移除任何玩家身上的裝備與武器
+  * [l4d_view_mods_pickup_anim](/Plugin_插件/Weapons_武器/l4d_view_mods_pickup_anim): Press R using pick up anim when full ammo (View weapons mod)
+    * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -437,6 +439,8 @@
     * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
   * [bandisconnected](/Plugin_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server instantly after joined the server + Tracks recently-disconnected players and lets you ban them
     * 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
+  * [l4d_block_suicide_jumps](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_block_suicide_jumps): Prevents players griefing by suicide with jump
+    * 企圖跳樓自殺的玩家將會傳送回樓頂，並封鎖踢出伺服器
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>

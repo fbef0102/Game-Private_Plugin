@@ -1,0 +1,42 @@
+﻿"Phrases"
+{
+	"Warning"
+	{
+		"en"			"Please don't try killing yourself, if you don't wanna play JUST LEAVE!"
+		"zho"			"別試圖自殺，如果不喜歡玩這伺服器請離開!"
+		"chi"			"别试图自杀，如果不喜欢玩这伺服器请离开!"
+	}
+	"Warning_Notify"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{olive}TS{default}] {olive}{1}{default} attempts to {green}suicide with jump himself"
+		"zho"			"[{olive}TS{default}] {olive}{1}{default} 企圖{green}跳樓自殺"
+		"chi"			"[{olive}TS{default}] {olive}{1}{default} 企图{green}跳楼自杀"
+	}
+	"Kick_Notify"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{olive}TS{default}] {olive}{1}{default} was kicked for attempts to {green}suicide with jump"
+		"zho"			"[{olive}TS{default}] {olive}{1}{default} 已被踢出伺服器. 原因: {green}企圖多次跳樓自殺"
+		"chi"			"[{olive}TS{default}] {olive}{1}{default} 已被踢出伺服器. 原因: {green}企图多次跳楼自杀"
+	}
+	"Kick_Reason"
+	{
+		"en"			"Bye Idiots! Attempt To Suicide Too Many Times"
+		"zho"			"混蛋再見! 企圖跳樓自殺"
+		"chi"			"傻B再见! 企图跳楼自杀"
+	}
+	"Ban_Notify"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{olive}TS{default}] {olive}{1}{default} was banned for attempts to {green}suicide with jump"
+		"zho"			"[{olive}TS{default}] {olive}{1}{default} 已被自動封鎖. 原因: {green}企圖多次跳樓自殺"
+		"chi"			"[{olive}TS{default}] {olive}{1}{default} 已被自动屏蔽. 原因: {green}企图多次跳楼自杀"
+	}
+	"Ban_Reason"
+	{
+		"en"			"Banned for attempt to suicide with jump"
+		"zho"			"企圖多次跳樓自殺"
+		"chi"			"企图多次跳楼自杀"
+	}
+}
