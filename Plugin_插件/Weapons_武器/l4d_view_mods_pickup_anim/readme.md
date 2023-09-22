@@ -19,10 +19,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_view_mods_pickup_anim_6](image/l4d_view_mods_pickup_anim_6.gif)
 </details>
 
+> __Warning__
+<br/> This plugins is designed for Weapon Mods, not working on all mods
+
 * <details><summary>How does it work?</summary>
 
     * Press R button to view weapons pick-up animation
-    * This plugins is designed for Weapon Mods
     * Some weapon/item mods have changed pick-up animation
         * View hidden or secret animation
         * View weapon or item like csgo
@@ -64,8 +66,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 拿著槍枝或物品－＞按下R鍵－＞會有伸手動作
 
+> __Warning__
+<br/> 為Mod檢視武器設計用的插件，並不是每個槍枝模組能運作
+
 * 用意在哪?
-    * 為Mod檢視武器設計用的插件
     * 有些槍枝或物品Mod，將伸手動作修改成其他的動畫
         * 可以像CSGO，檢視槍枝模型或隱藏秘密動畫
         * 譬如: [這位作者的槍枝模組](https://steamcommunity.com/profiles/76561198422460647/myworkshopfiles/) 有檢視武器的動畫

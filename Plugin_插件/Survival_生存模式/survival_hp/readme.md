@@ -51,7 +51,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-生存模式計時開始時候，恢复所有倖存者血量
+生存模式計時開始時候，恢復所有倖存者血量
 
 * 原理
 	* 確保倖存者能完整血量遊玩生存關卡

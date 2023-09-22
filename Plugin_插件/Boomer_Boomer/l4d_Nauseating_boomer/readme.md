@@ -52,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Power behind the inner range of Bile Blast.
 		l4d_Nauseating_boomer_bileblast_inner_power "200.0"
 
-		// Range the inner blast radius will extend from Bile Blast.)
+		// Range the inner blast radius will extend from Bile Blast.
 		l4d_Nauseating_boomer_bileblast_inner_range "200.0"
 
 		// Amount of damage caused in the outer range of Bile Blast.
@@ -73,6 +73,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Time in seconds to summon extra mobs.
 		l4d_Nauseating_boomer_bileshower_time "5"
 
+		// If 1, Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors.
+		l4d_Nauseating_boomer_bileswipe_enable "1"
+
 		// Chance that the Boomer's claws will cause a burning bile wound. (100 = 100%)
 		l4d_Nauseating_boomer_bileswipe_chance "100"
 
@@ -82,14 +85,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// For how many seconds does the Bile Swipe last.
 		l4d_Nauseating_boomer_bileswipe_duration "4"
 
-		// If 1, Enables Bile Swipe ability: The Boomer has a chance of inflicting burning bile wounds to survivors.
-		l4d_Nauseating_boomer_bileswipe_enable "1"
+		// If 1, Enables Explode FlashBang ability: Flashbang effect when the boomer explodes.
+		l4d_Nauseating_boomer_flashbang_enable "1"
 
 		// Boomer flashbang screen color, three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
 		l4d_Nauseating_boomer_flashbang_color "127 235 212"
-
-		// If 1, Enables Explode FlashBang ability: Flashbang effect when the boomer explodes.
-		l4d_Nauseating_boomer_flashbang_enable "1"
 
 		// If 1, Enables Flatulence ability: The Boomer will on occasion expel a bile gas that causes damage to anyone standing inside the cloud.
 		l4d_Nauseating_boomer_flatulence_enable "1"
@@ -97,14 +97,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Chance that survivors affected by the Flatulence cloud will be biled. (20 = 20%)
 		l4d_Nauseating_boomer_flatulence_chance "10"
 
-		// Amount of damage caused to Survivors standing in a Flatulence cloud.
-		l4d_Nauseating_boomer_flatulence_damage "4"
-
 		// Period of time the Flatulence cloud persists.
 		l4d_Nauseating_boomer_flatulence_life "13.0"
 
 		// Frequency that survivors standing in the Flatulence cloud will cause damage.
 		l4d_Nauseating_boomer_flatulence_period "2.0"
+
+		// Amount of damage caused to Survivors standing in a Flatulence cloud.
+		l4d_Nauseating_boomer_flatulence_damage "4"
 
 		// If 1, Enable the Flatulence cloud Shake 
 		l4d_Nauseating_boomer_flatulence_shake "1"
@@ -115,11 +115,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Time interval the Boomer expel a bile gas again.
 		l4d_Nauseating_boomer_flatulence_time "25.0"
 
-		// How long is the HUD hidden for after vomit
-		l4d_Nauseating_boomer_hidehud_duration "15.0"
-
 		// If 1, Enables HideHud ability: When covered in bile, the Survivors entire view (HUD) is completely covered.
 		l4d_Nauseating_boomer_hidehud_enable "1"
+
+		// How long is the HUD hidden for after vomit
+		l4d_Nauseating_boomer_hidehud_duration "15.0"
 
 		// HUD hidden flag. (1=weapon selection, 2=flashlight, 4=all, 8=health, 16=player dead, 32=needssuit, 64=misc, 128=chat, 256=crosshair, 512=vehicle crosshair, 1024=in vehicle, add numbers together)
 		l4d_Nauseating_boomer_hidehud_flag "64"
@@ -173,6 +173,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 被膽汁噴到有致盲效果
 	2. [l4d2_biletheworld](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_biletheworld3): Vomit Jars hit Survivors, Boomer Explosions slime Infected.
 		> 膽汁瓶會噴到倖存者身上，Boomer爆炸的膽汁噴到特感、Tank、Witch、普通感染者
+	2. [l4d2_boomer_vomit_move](/Plugin_插件/Boomer_Boomer/l4d2_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
+		> Boomer可以邊吐邊移動 (AI與真人都適用)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -210,7 +212,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 能力1: <b>Bile Belly</b> - 降低受到的傷害
-	* 能力2: <b>Bile Blast</b> - 爆炸時造成衝擊波
+	* 能力2: <b>Bile Blast</b> - 爆炸時造成衝擊波，分內外圈
 	* 能力3: <b>HideHud</b> - 被膽汁噴到，玩家螢幕上的介面會被隱藏
 	* 能力4: <b>Bile Shower</b> - 倖存者被膽汁噴到後，召喚比平常多的感染者大軍
 	* 能力5: <b>Explode FlashBang</b> - 爆炸時附帶閃光彈的效果
@@ -218,15 +220,111 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力7: <b>Recovery CD</b> - 受到倖存者的傷害或者被推時，可以再吐一次
 	* 能力8: <b>Flatulence</b> - 每隔一段時間產生煙霧，玩家走進去煙霧裡會受到傷害
 
-* 功能
-	* 可設定各能力的開關
-	* 可設定Bile Belly的傷害減少比
-	* 可設定Bile Blast的範圍、威力與傷害值
-	* 可設定HideHud要隱藏的介面選項
-	* 可設定Bile Shower的感染者屍潮額外數量
-	* 可設定Explode FlashBang的閃光顏色
-	* 可設定Bile Swipe的傷害值與機率
-	* 可設定Flatulence的煙霧產生間隔、煙霧傷害、煙霧時間
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_Nauseating_boomer.cfg
+		```php
+		// 為1時，啟用 "Bile Belly" 能力，降低受到的傷害
+		l4d_Nauseating_boomer_bilebelly_enable "1"
+
+		// "Bile Belly" 能力: 減傷比 (0.0 = 無傷)
+		l4d_Nauseating_boomer_bilebelly_amount "0.8"
+
+		// 為1時，啟用 "Bile Blast" 能力，爆炸時造成衝擊波
+		l4d_Nauseating_boomer_bileblast_enable "1"
+
+		// "Bile Blast" 能力: 為1時，衝擊波可以炸到隔著牆壁的人類
+		l4d_Nauseating_boomer_bileblast_ignore_wall "0"
+
+		// (L4D2) "Bile Blast" 能力: 衝擊波的力道加乘
+		l4d_Nauseating_boomer_bileblast_power_vertical_multiplier "1.5"
+
+		// "Bile Blast" 能力: 內圈衝擊波的傷害
+		l4d_Nauseating_boomer_bileblast_inner_damage "15.0"
+
+		// "Bile Blast" 能力: 內圈衝擊波的力道
+		l4d_Nauseating_boomer_bileblast_inner_power "200.0"
+
+		// "Bile Blast" 能力: 內圈衝擊波的範圍
+		l4d_Nauseating_boomer_bileblast_inner_range "200.0"
+
+		// "Bile Blast" 能力: 外圈衝擊波的傷害
+		l4d_Nauseating_boomer_bileblast_outer_damage "5.0"
+
+		// "Bile Blast" 能力: 外圈衝擊波的力道
+		l4d_Nauseating_boomer_bileblast_outer_power "100.0"
+
+		// "Bile Blast" 能力: 外圈衝擊波的範圍
+		l4d_Nauseating_boomer_bileblast_outer_range "300.0"
+
+		// 為1時，啟用 "Bile Shower" 能力，倖存者被膽汁噴到後，召喚比平常多的感染者大軍
+		l4d_Nauseating_boomer_bileshower_enable "1"
+
+		// "Bile Shower" 能力: 感染者大軍的屍潮數量
+		l4d_Nauseating_boomer_bileshower_mob "1"
+
+		// "Bile Shower" 能力: 5秒後召喚感染者大軍
+		l4d_Nauseating_boomer_bileshower_time "5"
+
+		// 為1時，啟用 "Bile Swipe" 能力，用手抓人產生的傷害會持續一段時間
+		l4d_Nauseating_boomer_bileswipe_enable "1"
+
+		// "Bile Swipe" 能力: 發動機率 (100 = 100%).
+		l4d_Nauseating_boomer_bileswipe_chance "100"
+
+		// "Bile Swipe" 能力: 每秒造成的傷害
+		l4d_Nauseating_boomer_bileswipe_damage "1"
+
+		// "Bile Swipe" 能力: 傷害持續時間
+		l4d_Nauseating_boomer_bileswipe_duration "4"
+
+		// 為1時，啟用 "Explode FlashBang" 能力，爆炸時附帶閃光彈的效果
+		l4d_Nauseating_boomer_flashbang_enable "1"
+
+		// "Explode FlashBang" 能力: 閃光彈的顏色，填入RGB三色 (三個數值介於0~255，需要空格)
+		l4d_Nauseating_boomer_flashbang_color "127 235 212"
+
+		// 為1時，啟用 "Flatulence" 能力，每隔一段時間產生煙霧，玩家走進去煙霧裡會受到傷害
+		l4d_Nauseating_boomer_flatulence_enable "1"
+
+		// "Flatulence" 能力: 玩家走進煙霧導致被噴的機率. (20 = 20%)
+		l4d_Nauseating_boomer_flatulence_chance "10"
+
+		// "Flatulence" 能力: 煙霧持續時間
+		l4d_Nauseating_boomer_flatulence_life "13.0"
+
+		// "Flatulence" 能力: 玩家在煙霧裡每隔兩秒受到傷害
+		l4d_Nauseating_boomer_flatulence_period "2.0"
+
+		// "Flatulence" 能力: 玩家在煙霧裡受到的傷害
+		l4d_Nauseating_boomer_flatulence_damage "4"
+
+		// "Flatulence" 能力: 為1時，玩家在煙霧，螢幕會晃動
+		l4d_Nauseating_boomer_flatulence_shake "1"
+
+		// "Flatulence" 能力: 煙霧範圍
+		l4d_Nauseating_boomer_flatulence_size "100.0"
+
+		// "Flatulence" 能力: Boomer再次產生煙霧的間隔時間
+		l4d_Nauseating_boomer_flatulence_time "25.0"
+
+		// 為1時，啟用 "HideHud" 能力，被膽汁噴到，玩家螢幕上的介面會被隱藏
+		l4d_Nauseating_boomer_hidehud_enable "1"
+
+		// "HideHud" 能力: 介面被隱藏的時間
+		l4d_Nauseating_boomer_hidehud_duration "15.0"
+
+		// "HideHud" 能力: 被隱藏的介面 1=武器欄 , 2=手電筒, 4=全部, 8=血量欄, 16=死亡玩家狀態, 32=needssuit (沒作用), 64=misc(隊友的血量), 128=聊天視窗, 256=準心, 512=hide crosshair in vehicle(沒作用), 1024=hide hud when in vehicle(沒作用)
+		// 將數字相加起來
+		l4d_Nauseating_boomer_hidehud_flag "64"
+
+		// "Recovery CD" 能力: 被膽汁噴到，受到倖存者的傷害時，可以再吐一次
+		l4d_Nauseating_boomer_recovery_hurt_enable "0"
+
+		// "Recovery CD" 能力: 被膽汁噴到，被推時，可以再吐一次
+		l4d_Nauseating_boomer_recovery_shoved_enable "1"
+		```
+</details>
 
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>

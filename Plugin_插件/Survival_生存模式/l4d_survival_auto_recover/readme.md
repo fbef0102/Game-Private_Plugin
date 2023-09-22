@@ -75,7 +75,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢复所有血量
+生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢復所有血量
 
 * 原理
 	* 生存計時開始之前，倒地或掛邊自動救起來並回血

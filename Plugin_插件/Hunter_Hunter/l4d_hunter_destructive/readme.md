@@ -260,13 +260,3 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_hunter_destructive_autofire_chance "60"
 		```
 </details>
-
-* 功能
-	* 可設定各能力的開關
-	* 可設定Inferno Rage的傷害加成
-	* 可設定Sledgehammer的傷害倍數
-	* 可設定Flame Claw Ignite的右手的傷害值、機率、持續時間
-	* 可設定Meteor Strike的衝擊範圍、額外傷害、衝擊力道、高撲距離門檻
-	* 可設定Shunpo的減傷比
-	* 可設定Death Fire的機率
-	* 可設定Get Fire的自動著火機率

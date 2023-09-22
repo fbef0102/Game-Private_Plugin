@@ -164,6 +164,8 @@
 
   * [l4d_Nauseating_boomer](/Plugin_插件/Boomer_Boomer/l4d_Nauseating_boomer): Allows for unique Boomer abilities to spread its nauseating bile.
     * 增強Boomer，賦予多種超能力成為超級肥宅
+  * [l4d2_boomer_vomit_move](/Plugin_插件/Boomer_Boomer/l4d2_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
+    * Boomer可以邊吐邊移動 (AI與真人都適用)
 </details>
 
 * <details><summary><b>Hunter | Hunter</b></summary>
@@ -350,7 +352,7 @@
   * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): (Public) Forces AI tank to leave stasis and attack while spawn in coop.
     * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
   * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
-    * 戰役模式通關之時恢复並設定倖存者血量
+    * 戰役模式通關之時恢復並設定倖存者血量
   * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
@@ -388,7 +390,7 @@
 * <details><summary><b>Survival | 生存模式</b></summary> 
 
   * [survival_hp](/Plugin_插件/Survival_生存模式/survival_hp): Restore Health when survival begins.
-    * 生存模式計時開始時候，恢复所有倖存者血量
+    * 生存模式計時開始時候，恢復所有倖存者血量
   * [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
     * 打開菜單傳送地圖上所有物品到身邊
   * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator or player changes team after survival begins, he can not get the survival time record.
@@ -400,7 +402,7 @@
   * [l4d_survival_min_si_require](/Plugin_插件/Survival_生存模式/l4d_survival_min_si_require): Display Minimum SI requirement for full-team on each survival map.
     * 在聊天欄顯示該生存地圖的最少特感擊殺數
   * [l4d_survival_auto_recover](/Plugin_插件/Survival_生存模式/l4d_survival_auto_recover): Auto save survivors if incapacitated or hanging from ledge before survival begins
-    * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢复所有血量
+    * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢復所有血量
 </details>
 
 * <details><summary><b>Scavenge | 清道夫模式</b></summary> 

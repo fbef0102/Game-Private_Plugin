@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Disable Tank and Witch by Director
+	* This plugin spawns only one tank and one witch each round in coop/realism mode
 	* Boss (Tank or Witch) will be spawned when the furthest survivor reach a percentage of map
 	* For example
   		```php
@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		Tank spawn: 79%,
 		Witch spawn: 70%
 		```
-	* Spawn only one tank and one witch each round
+	* Disable Tank and Witch by director
 </details>
 
 * Require | 必要安裝
