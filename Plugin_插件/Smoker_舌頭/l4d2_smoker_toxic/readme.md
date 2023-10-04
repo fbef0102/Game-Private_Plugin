@@ -216,7 +216,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
 	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?t=307330)
-		* Don't allow smoker ability movement with this plugin while using "Moon Walk" ability. (Bot也適用)
+		* Don't allow smoker ability movement with this plugin while using "Moon Walk" ability.
 </details>
 
 * <details><summary>Related Official ConVar</summary>

@@ -14,9 +14,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 > __Warning__
 <br/>Use carefully. This plugin may spawn too many entities depending on the number of items on the map and can cause a "ED_Alloc: no free edicts" crash.
 
+* <details><summary>How does it work?</summary>
+
+	* Admin type ```!itemglow```, now you can see the items and weapons glows though the wall, have Fun.
+</details>
+
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -25,25 +29,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Enable/Disable the plugin.
 		l4d2_glow_item_weapon_cheat_enable "1"
 
+		// Delete *_spawn entities when its count reaches 0.
+		// 0 = OFF, 1 = ON.
+		l4d2_glow_item_weapon_cheat_remove_spawner "1"
+
 		// Remove glow from health cabinet after being opened.
 		l4d2_glow_item_weapon_cheat_health_cabinet "1"
+
+		// Algorithm value to detect the glow minimum brightness for a random color (not accurate).
+		l4d2_glow_item_weapon_cheat_min_brightness "0.5"
+
+		// Apply glow to scavenge gascans.
+		// 0 = OFF, 1 = ON.
+		l4d2_glow_item_weapon_cheat_scavenge_gascan "0"
 
 		// Time interval to display the instruction message. (0=off)
 		l4d2_glow_item_weapon_cheat_message_interval "0"
 
 		// Which teams should see the message, 7=Everyone, 1=Spectator, 2=Survivors, 4=Infecteds. (add numbers together)
 		l4d2_glow_item_weapon_cheat_message_team "0"
-
-		// Algorithm value to detect the glow minimum brightness for a random color (not accurate).
-		l4d2_glow_item_weapon_cheat_min_brightness "0.5"
-
-		// Delete *_spawn entities when its count reaches 0.
-		// 0 = OFF, 1 = ON.
-		l4d2_glow_item_weapon_cheat_remove_spawner "1"
-
-		// Apply glow to scavenge gascans.
-		// 0 = OFF, 1 = ON.
-		l4d2_glow_item_weapon_cheat_scavenge_gascan "0"
 
 		// Players with these flags have access to use !itemglow cmd to see all glow entites. (Empty = Everyone, -1: Nobody)
 		l4d2_glow_item_weapon_cheat_watch_flag "z"
@@ -127,9 +131,51 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 對抗模式中也能使用，任何模式都適用
 
 * 功能
-	1. 可設置提示訊息
-	2. 可設置特地權限的人也能使用指令看到
-	3. 編輯文件```data/l4d2_glow_item_weapon_cheat.cfg```，可自行設定光圈的顏色與發光範圍
+	* 編輯文件```data/l4d2_glow_item_weapon_cheat.cfg```，可自行設定光圈的顏色與發光範圍
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_glow_item_weapon_cheat.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d2_glow_item_weapon_cheat_enable "1"
+
+		// *_spawn 物件給完數量後自動刪除光圈
+		// 0 = 關閉這項功能, 1 = 開啟.
+		l4d2_glow_item_weapon_cheat_remove_spawner "1"
+
+		// 為1時，醫療箱打開後刪除光圈
+		l4d2_glow_item_weapon_cheat_health_cabinet "1"
+
+		// 隨機顏色的亮度必須大於此數值. (建議不要修改此指令)
+		l4d2_glow_item_weapon_cheat_min_brightness "0.5"
+
+		// 為1時，黃色汽油桶也要給光圈
+		l4d2_glow_item_weapon_cheat_scavenge_gascan "0"
+
+		// 提示如何使用指令開啟item glow的時間間隔 (0=不提示)
+		l4d2_glow_item_weapon_cheat_message_interval "0"
+
+		// 哪些隊伍可以看到提示, 1=旁觀者, 2=人類, 4=特感. (請將數字相加起來，7=每個人)
+		l4d2_glow_item_weapon_cheat_message_team "0"
+
+		// 擁有這些權限的玩家，才可以輸入!itemglow (留白 = 任何人都能, -1: 無人能輸入)
+		l4d2_glow_item_weapon_cheat_watch_flag "z"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **開啟或關閉 item glow**
+		```php
+		sm_itemglow
+		```
+
+	* **重新載入文件 ```data/l4d2_glow_item_weapon_cheat.cfg```. (權限: ADMFLAG_ROOT)**
+		```php
+		sm_glowreload
+		```
+</details>
 
 * <details><summary>文件設定範例</summary>
 

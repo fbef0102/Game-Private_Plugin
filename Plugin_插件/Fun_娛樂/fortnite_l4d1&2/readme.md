@@ -5,7 +5,6 @@ Emotes and Dance in L4D1/2
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-
 * Work | 作品展示
     * [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
 
@@ -16,6 +15,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
 	<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Type ```!dance -> Enjoy```
+	* You must prepare fastdl, otherwise players can not dance
+</details>
+
 * Require | 必要安裝
 <br/>None
 
@@ -23,32 +28,35 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
 		```php
+		// Enable/Disable sounds for emotes.
+		sm_dances_sounds "1"
+
+		// Cooldown for emotes in seconds. -1 or 0 = no cooldown.
+		sm_dances_cooldown "3.0"
+
+		// Sound volume for the emotes.
+		sm_dances_soundvolume "1.0"
+
+		// admin flag for emotes (empty for all players)
+		sm_dances_admin_flag_menu ""
+
 		// admin flag for dances (empty for all players)
 		sm_dances_admin_flag_menu ""
 
-		// admin flag for emotes (empty for all players)
-		sm_emotes_admin_flag_menu ""
-
-		// Cooldown for emotes in seconds. -1 or 0 = no cooldown.
-		sm_emotes_cooldown "3.0"
+		// Hide weapons when dancing
+		sm_dances_hide_weapons "1"
 
 		// Hide enemy players when dancing
-		sm_emotes_hide_enemies "0"
-
-		// Hide weapons when dancing
-		sm_emotes_hide_weapons "1"
-
-		// Enable/Disable sounds for emotes.
-		sm_emotes_sounds "1"
-
-		// Sound volume for the emotes.
-		sm_emotes_soundvolume "1.0"
-
-		// Sets the playback speed of the animation. default (1.0)
-		sm_emotes_speed "0.80"
+		sm_dances_hide_enemies "0"
 
 		// Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
-		sm_emotes_teleportonend "0"
+		sm_dances_teleportonend "0"
+
+		// Sets the playback speed of the animation. default (1.0)
+		sm_dances_speed "0.80"
+
+		// Player [1=Dance, 2=Emotes, 3=Random] when someone uses kit to heal him. (0=off)
+		sm_dances_heal_dance "3"
 		```
 </details>
 
@@ -56,16 +64,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     
 	* **Open Dance&Emote Menu**
 		```php
-		sm_emotes
-		sm_emote
 		sm_dances
 		sm_dance
 		```
 
 	* **Adm forces someone to dance, check source code to see Emote ID (Adm required: ADMFLAG_GENERIC)**
 		```php
-		sm_setemotes <#userid|name> [Emote ID]
-		sm_setemote <#userid|name> [Emote ID]
 		sm_setdances <#userid|name> [Emote ID]
 		sm_setdance <#userid|name> [Emote ID]
 		```
@@ -155,14 +159,59 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 動作分成兩種: 表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
-	* 請自備網空安裝模組與音樂檔案，客戶端才會下載檔案
 
-* 功能
-    1. 可設置誰有權限做表情或跳舞
-	2. 可設置跳舞速度
-	3. 可設置音樂音量
-	4. 可設置幫對方打包的時候跳舞
-	5. 可設置冷卻時間
+> __Note__ 需自備網空安裝模組與音樂檔案，客戶端才會下載跳舞的檔案，否則此插件會無效
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
+		```php
+		// 0=關閉跳舞音樂, 1=啟動跳舞音樂
+		sm_dances_sounds "1"
+
+		// 再次跳舞的CD時間, -1或0 = 無CD.
+		sm_dances_cooldown "3.0"
+
+		// 跳舞音樂的音量 (1.0是最大了)
+		sm_dances_soundvolume "1.0"
+
+		// 擁有這些權限的玩家，才可以使用表情 (留白 = 任何人都能, -1: 無人)
+		sm_dances_admin_flag_menu ""
+
+		// 擁有這些權限的玩家，才可以使用跳舞 (留白 = 任何人都能, -1: 無人)
+		sm_dances_admin_flag_menu ""
+
+		// 為1時，跳舞時隱藏武器
+		sm_dances_hide_weapons "1"
+
+		//為1時，跳舞時隱藏敵人
+		sm_dances_hide_enemies "0"
+
+		// 為1時，跳舞完畢後回到原始的位置
+		sm_dances_teleportonend "0"
+
+		// 跳舞速度 (最大: 1.0)
+		sm_dances_speed "0.80"
+
+		// 玩家被治療時，開始跳舞 [1=跳舞, 2=做表情, 3=隨機] (0=關閉這項功能)
+		sm_dances_heal_dance "3"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+	* **打開跳舞菜單**
+		```php
+		sm_dances
+		sm_dance
+		```
+
+	* **管理員指定玩家強制跳舞 (權限: ADMFLAG_GENERIC)**
+		```php
+		sm_setdances <#userid|name> [Emote ID]
+		sm_setdance <#userid|name> [Emote ID]
+		```
+</details>
 
 * <details><summary>如何安裝與設定檔案</summary>
 

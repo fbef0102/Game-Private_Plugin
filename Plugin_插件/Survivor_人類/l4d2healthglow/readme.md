@@ -20,6 +20,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d2healthglow_3](image/l4d2healthglow_3.jpg)
 </details>
 
+> __Warning__ This plugin does not work in realism mode
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -118,7 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2
+	L4D2 coop/versus/survival/scavenge
 	```
 
 * <details><summary>Similar Plugin | 相似插件</summary>
@@ -165,7 +167,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     	* 黑白狀態：黑白色閃爍
     	* 倒地或掛邊：紅色 (只顯示給特感與旁觀者)
 	* 被特感抓住、被Boomer嘔吐、倒地、掛邊之類等等則不會顯示顏色光圈
-	* 所有人能看到輪廓光圈，如要篩選隊伍，請查看指令
+	* 所有人能看到輪廓光圈，如要指定隊伍，請查看指令
+
+> __Warning__ 寫實模式不起作用，遊戲會關閉一切人類的光環
 
 * <details><summary>指令中文介紹(點我展開)</summary>
 

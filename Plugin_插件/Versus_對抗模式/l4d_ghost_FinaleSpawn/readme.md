@@ -10,22 +10,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-```
-L4D1 Versus
-L4D2 Versus
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0h 
-		* Individual plugin
-		* Auto generate cfg
-
-	* v0.0
-	    * [From confoglcompmod in SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/FinaleSpawn.sp)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -48,6 +32,22 @@ L4D2 Versus
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 Versus
+	L4D2 Versus
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h 
+		* Individual plugin
+		* Auto generate cfg
+
+	* v0.0
+	    * [From confoglcompmod in SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/FinaleSpawn.sp)
 </details>
 
 - - - -

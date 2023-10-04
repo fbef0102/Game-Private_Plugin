@@ -12,30 +12,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 多數決投票通過
 		<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1 versus
-	L4D2 versus
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2022-11-04)
-	    * Add vote limit per map
-
-	* v1.0
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
 	4. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
-
-* Optional | 輔助插件
-	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
-		> 準備才能開始遊戲的插件
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,6 +36,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_trade
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
+
+* <details><summary>Optional | 輔助插件</summary>
+
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		> 準備才能開始遊戲的插件
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2022-11-04)
+	    * Add vote limit per map
+
+	* v1.0
+	    * Initial Release
 </details>
 
 - - - -

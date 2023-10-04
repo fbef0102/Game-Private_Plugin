@@ -10,6 +10,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	<br/>![l4d2_wallhack_cheat_1](image/l4d2_wallhack_cheat_1.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Admin type ```!onwk```, now you can see the infected model glows though the wall, have Fun.
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -43,6 +48,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
         sm_offwk
 		```
+</details>
+
+* <details><summary>Known Conflicts</summary>
+	
+	If you don't use any of these plugins at all, no need to worry about conflicts.
+	1. [L4D2 Ghost-Cheat Preventer](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_noghostcheat.sp)
+		* Survivor won't be able to see the infected glow.
 </details>
 
 * Apply to | 適用於
@@ -96,4 +108,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 擁有這些權限的玩家才可以輸入指令開啟WallHack (Empty = 任何人都能輸入, -1: 無人能輸入)
 		l4d2_wallhack_cheat_use_command_flag "z"
 		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+	
+    * **打開 watching cheat**
+		```php
+        sm_onwk
+		```
+
+    * **關閉 watching cheat**
+		```php
+        sm_offwk
+		```
+</details>
+
+* <details><summary>會衝突的插件</summary>
+	
+	如果沒安裝以下插件就不需要擔心衝突
+	1. [L4D2 Ghost-Cheat Preventer](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_noghostcheat.sp)
+		* 安裝這個插件會導致人類看不到特感光圈
 </details>

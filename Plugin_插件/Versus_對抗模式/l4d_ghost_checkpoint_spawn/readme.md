@@ -16,25 +16,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> 終點安全室內復活
 	<br/>![l4d_ghost_checkpoint_spawn_2](image/l4d_ghost_checkpoint_spawn_2.jpg)
 
-* Apply to | 適用於
-```
-L4D1 Versus
-L4D2 Versus
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-5-22)
-		* Update for l4d2 2.2.2.7 version
-
-	* v1.0h (2022-11-27)
-		* Auto generate cfg
-		* Allow to spawn after tank has spawned
-
-	* v1.1
-	    * [Original Plugin By jensewe](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_ghost_checkpoint_spawn)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -68,6 +49,25 @@ L4D2 Versus
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 Versus
+	L4D2 Versus
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-5-22)
+		* Update for l4d2 2.2.2.7 version
+
+	* v1.0h (2022-11-27)
+		* Auto generate cfg
+		* Allow to spawn after tank has spawned
+
+	* v1.1
+	    * [Original Plugin By jensewe](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_ghost_checkpoint_spawn)
 </details>
 
 - - - -
