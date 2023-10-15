@@ -8,21 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/hlEiyPxE_Eo)
 
 * Image | 圖示
-	* teleport all items on the map
-		> 生存模式節省搬運時間必備插件
-		<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0
-		* Initial Release
-</details>
+	* teleport all items on the map (生存模式節省搬運時間必備插件)
+	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
 
 * Require | 必要安裝
 <br/>None
@@ -57,6 +44,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_tpmenu
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

@@ -10,9 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>None
 
 * Image | 圖示
-	* display message when you try to pick up or buy weapons 
-        > 顯示武器拿取限制
-        <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
+	* display message when you try to pick up or buy weapons (顯示武器拿取限制)
+    <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
 
 * Apply to | 適用於
     ```

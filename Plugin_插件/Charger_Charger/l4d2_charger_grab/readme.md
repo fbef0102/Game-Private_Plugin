@@ -8,9 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/BsXCwzToz0A)
 
 * Image | 圖示
-	* Grab a survivor with melee and able to jump
-		> 徒手抓住倖存者
-		<br/>![l4d2_charger_grab_1](image/l4d2_charger_grab_1.gif)
+	* Grab a survivor with melee and able to jump (徒手抓住倖存者)
+	<br/>![l4d2_charger_grab_1](image/l4d2_charger_grab_1.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

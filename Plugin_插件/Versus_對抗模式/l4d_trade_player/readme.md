@@ -8,9 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/-AK10jtCpnc)
 
 * Image | 圖示
-	* would like to initiate a trade to swap player 1 with player 2, do you accept?
-		> 多數決投票通過
-		<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
+	* would like to initiate a trade to swap player 1 with player 2, do you accept? (投票)
+	<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

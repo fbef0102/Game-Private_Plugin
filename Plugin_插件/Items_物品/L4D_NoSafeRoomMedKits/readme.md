@@ -9,12 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Replace with weapon_upgradepack_incendiary_spawn in start saferoom
-	> 起始安全室治療包取代成燃燒彈
+	* Replace with weapon_upgradepack_incendiary_spawn in start saferoom (起始安全室治療包取代成燃燒彈)
 	<br/>![L4D_NoSafeRoomMedKits_1](image/L4D_NoSafeRoomMedKits_1.jpg)
 
-	* Replace with weapon_gascan in end saferoom
-	> 終點安全室治療包取代成汽油桶
+	* Replace with weapon_gascan in end saferoom (終點安全室治療包取代成汽油桶)
 	<br/>![L4D_NoSafeRoomMedKits_2](image/L4D_NoSafeRoomMedKits_2.jpg)
 
 * Apply to | 適用於

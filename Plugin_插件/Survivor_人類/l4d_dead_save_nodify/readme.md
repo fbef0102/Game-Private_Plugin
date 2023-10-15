@@ -8,12 +8,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/krdGPEqaE_g)
 
 * Image | 圖示
-	* Display director hint when survivor dead
-		> 當玩家死亡時，提示導演系統訊息
-		<br/>![l4d_dead_save_nodify_1](image/l4d_dead_save_nodify_1.jpg)
-	* Display director hint when survivor uses defibrillator to revive dead player
-		> 當玩家被電擊器救活時，提示導演系統訊息
-		<br/>![l4d_dead_save_nodify_2](image/l4d_dead_save_nodify_2.jpg)
+	* Display director hint when survivor dead (當玩家死亡時，提示導演系統訊息)
+	<br/>![l4d_dead_save_nodify_1](image/l4d_dead_save_nodify_1.jpg)
+	* Display director hint when survivor uses defibrillator to revive dead player (當玩家被電擊器救活時，提示導演系統訊息)
+	<br/>![l4d_dead_save_nodify_2](image/l4d_dead_save_nodify_2.jpg)
 
 * Note
 	* Player must Enabled GAME INSTRUCTOR, in ESC -> Options -> Multiplayer, or they can't see the hint

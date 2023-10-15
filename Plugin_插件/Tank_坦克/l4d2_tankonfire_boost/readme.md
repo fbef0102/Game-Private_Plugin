@@ -9,12 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Tank speed boost while on fire
-		> 著火時加速
-		<br/>![l4d2_tankonfire_boost_1](image/l4d2_tankonfire_boost_1.gif)
-	* Fire damage the tank deals upon punching
-		> 火拳威力
-		<br/>![l4d2_tankonfire_boost_2](image/l4d2_tankonfire_boost_2.gif)
+	* Tank speed boost while on fire (著火時加速)
+	<br/>![l4d2_tankonfire_boost_1](image/l4d2_tankonfire_boost_1.gif)
+	* Fire damage the tank deals upon punching (火拳威力)
+	<br/>![l4d2_tankonfire_boost_2](image/l4d2_tankonfire_boost_2.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

@@ -10,9 +10,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>None
 
 * Image | 圖示
-	* display message when weapon limit reached
-        > 顯示武器拿取限制
-        <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
+	* display message when weapon limit reached (顯示武器拿取限制)
+    <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
 * <details><summary>How does it work?</summary>
 

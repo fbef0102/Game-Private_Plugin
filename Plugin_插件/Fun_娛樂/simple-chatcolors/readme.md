@@ -9,9 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Admin & VIP colors
-		> 管理員 & VIP 顏色
-		<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
+	* Admin & VIP colors (管理員 & VIP 顏色)
+	<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
 
 * Require | 必要安裝
 	1. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)

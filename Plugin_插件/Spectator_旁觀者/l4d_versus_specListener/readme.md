@@ -10,32 +10,6 @@ Allows spectator listen others team voice and see others team chat for l4d
 	* Type ```!hear``` in chatbox to enable or disable listen mode
     <br/>![l4d_versus_specListener_1](image/l4d_versus_specListener_1.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v3.5 (2023-5-9)
-        * Spectator can see survivor team chat and infected team chat
-        * Support official convar ```sv_alltalk 1```
-        * Translation support
-
-	* v1.0
-        * [Original Plugin by waertf](https://forums.alliedmods.net/showthread.php?t=95474)
-</details>
-
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
@@ -67,6 +41,32 @@ Allows spectator listen others team voice and see others team chat for l4d
         ```php
         sm_hear
         ```
+</details>
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v3.5 (2023-5-9)
+        * Spectator can see survivor team chat and infected team chat
+        * Support official convar ```sv_alltalk 1```
+        * Translation support
+
+	* v1.0
+        * [Original Plugin by waertf](https://forums.alliedmods.net/showthread.php?t=95474)
 </details>
 
 - - - -

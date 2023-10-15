@@ -8,9 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/4josvz9xJso)
 
 * Image | 圖示
-	* Drop pistol, grenades, knife and remaining armor
-        > 手槍、手榴彈、煙霧彈、閃光彈、刀、剩餘的防彈背心
-        <br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
+	* Drop pistol, grenades, knife and remaining armor (手槍、手榴彈、煙霧彈、閃光彈、刀、剩餘的防彈背心)
+    <br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
 
 * Apply to | 適用於
     ```

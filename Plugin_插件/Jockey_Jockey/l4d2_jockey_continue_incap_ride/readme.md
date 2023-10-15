@@ -8,10 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/7J76Zh4Yfxk)
 
 * Image | 圖示
-	* Incap Ride Damage
-		> 倒地繼續騎
-		<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.jpg)
-		<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.jpg)
+	* Incap Ride Damage (倒地繼續騎)
+	<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.jpg)
+	<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.jpg)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

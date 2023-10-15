@@ -9,7 +9,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Message
 	<br/>![slay_bots_1](image/slay_bots_1.jpg)
 
 * Apply to | 適用於

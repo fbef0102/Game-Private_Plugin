@@ -9,9 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Count down message
-		> 倒數計時
-		<br/>![css_restartmap_command_1](image/css_restartmap_command_1.jpg)
+	* Count down message (倒數計時)
+	<br/>![css_restartmap_command_1](image/css_restartmap_command_1.jpg)
 
 * Apply to | 適用於
 	```

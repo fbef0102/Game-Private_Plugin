@@ -13,31 +13,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Define Setup
     <br/>![l4d_survival_setup_2](image/l4d_survival_setup_2.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1 Survival
-    L4D2 Survival
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.1 (2023-2-4)
-        * Translation Support
-        * Disable laser if there is no any laser sight on the map
-
-    * v1.0 (2022-11-09)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -70,6 +45,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Data File
 	* Auto create data/l4d_survival_setup/l4d_survival_setup.cfg to save and record players' weapons and items setup
     * Don't try to modify unless you know what you are doing
+
+* Apply to | 適用於
+    ```
+    L4D1 Survival
+    L4D2 Survival
+    ```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1 (2023-2-4)
+        * Translation Support
+        * Disable laser if there is no any laser sight on the map
+
+    * v1.0 (2022-11-09)
+	    * Initial Release
+</details>
 
 - - - -
 # 中文說明

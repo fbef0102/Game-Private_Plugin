@@ -9,11 +9,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Allow to spawn in start saferoom
-	> 起始安全室內復活
+	* Allow to spawn in start saferoom (起始安全室內復活)
 	<br/>![l4d_ghost_checkpoint_spawn_1](image/l4d_ghost_checkpoint_spawn_1.jpg)
-	* Allow to spawn in end saferoom
-	> 終點安全室內復活
+	* Allow to spawn in end saferoom (終點安全室內復活)
 	<br/>![l4d_ghost_checkpoint_spawn_2](image/l4d_ghost_checkpoint_spawn_2.jpg)
 
 * Require | 必要安裝

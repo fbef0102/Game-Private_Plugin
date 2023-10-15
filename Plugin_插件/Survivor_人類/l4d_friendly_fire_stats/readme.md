@@ -9,12 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Display friendly fire dealt and received
-		> 造成與受到的友傷
-		<br/>![l4d_friendly_fire_stats_1](image/l4d_friendly_fire_stats_1.jpg)
-	* Display all friendly fire stats
-		> 所有玩家的友傷統計
-		<br/>![l4d_friendly_fire_stats_2](image/l4d_friendly_fire_stats_2.jpg)
+	* Display friendly fire dealt and received (造成與受到的友傷)
+	<br/>![l4d_friendly_fire_stats_1](image/l4d_friendly_fire_stats_1.jpg)
+	* Display all friendly fire stats (所有玩家的友傷統計)
+	<br/>![l4d_friendly_fire_stats_2](image/l4d_friendly_fire_stats_2.jpg)
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)

@@ -8,10 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/8PmqsZRmtto)
 
 * Image | 圖示
-	* Quick reloading
-        > 快速裝彈
-        <br/>![css_weapon_csgo_reload_1](image/css_weapon_csgo_reload_1.gif)
-        <br/>![css_weapon_csgo_reload_2](image/css_weapon_csgo_reload_2.gif)
+	* Quick reloading (快速裝彈)
+    <br/>![css_weapon_csgo_reload_1](image/css_weapon_csgo_reload_1.gif)
+    <br/>![css_weapon_csgo_reload_2](image/css_weapon_csgo_reload_2.gif)
 
 * Apply to | 適用於
     ```

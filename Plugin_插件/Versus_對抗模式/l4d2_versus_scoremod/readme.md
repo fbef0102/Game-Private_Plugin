@@ -9,12 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Display Versus Bonus
-		> 輸入!bonus顯示通關獎勵分數
-		<br/>![l4d2_versus_scoremod_1](image/l4d2_versus_scoremod_1.jpg)
-	* Override Versus Bonus when make it to saferoom
-		> 改變通關之後的獎勵分
-		<br/>![l4d2_versus_scoremod_2](image/l4d2_versus_scoremod_2.jpg)
+	* Display Versus Bonus (輸入!bonus顯示通關獎勵分數)
+	<br/>![l4d2_versus_scoremod_1](image/l4d2_versus_scoremod_1.jpg)
+	* Override Versus Bonus when make it to saferoom (改變通關之後的獎勵分)
+	<br/>![l4d2_versus_scoremod_2](image/l4d2_versus_scoremod_2.jpg)
 
 * <details><summary>How does it work?</summary>
 

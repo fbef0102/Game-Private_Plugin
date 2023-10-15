@@ -9,28 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Auto self-revive when hanging from ledge
-		> 掛邊自動起來
-		<br/>![l4d_survival_auto_recover_1](image/l4d_survival_auto_recover_1.gif)
-	* Auto self-revive when incapacitated
-		> 倒地自動起來
-		<br/>![l4d_survival_auto_recover_2](image/l4d_survival_auto_recover_2.gif)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2023-2-2)
-		* Add a cvar ```l4d_survival_auto_recover_non-survival_default_value```
-		* Support other game mode
-		
-	* v1.0
-		* Initial Release
-</details>
+	* Auto self-revive when hanging from ledge (掛邊自動起來)
+	<br/>![l4d_survival_auto_recover_1](image/l4d_survival_auto_recover_1.gif)
+	* Auto self-revive when incapacitated (倒地自動起來)
+	<br/>![l4d_survival_auto_recover_2](image/l4d_survival_auto_recover_2.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -71,6 +53,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_autorecover
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-2-2)
+		* Add a cvar ```l4d_survival_auto_recover_non-survival_default_value```
+		* Support other game mode
+		
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

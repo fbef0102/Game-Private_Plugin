@@ -9,9 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Players won't have hostage penalty.
-		> 打到人質也不會被扣錢
-		<br/>![css_hostage_invulnerable_1](image/css_hostage_invulnerable_1.gif)
+	* Players won't have hostage penalty. (打到人質也不會被扣錢)
+	<br/>![css_hostage_invulnerable_1](image/css_hostage_invulnerable_1.gif)
 
 * Apply to | 適用於
     ```

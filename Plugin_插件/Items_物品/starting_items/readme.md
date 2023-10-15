@@ -10,17 +10,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/1G6euowfyFI)
 
 * Image | 圖示
-	* Survivors can't pick up weapons and items before the start of each round 
-		> 遊戲開始之前不能撿起任何武器或物品
-		<br/>![starting_items_1](image/starting_items_1.jpg)
+	* Survivors can't pick up weapons and items before the start of each round (遊戲開始之前不能撿起任何武器或物品)
+	<br/>![starting_items_1](image/starting_items_1.jpg)
 
-	* Can't shoot any gascan before the start of each round 
-		> 遊戲開始之前不能點燃任何汽油桶
-		<br/>![starting_items_2](image/starting_items_2.jpg)
+	* Can't shoot any gascan before the start of each round (遊戲開始之前不能點燃任何汽油桶)
+	<br/>![starting_items_2](image/starting_items_2.jpg)
 
-	* Support ReadyUp plugin
-		> 支援準備插件
-		<br/>![starting_items_3](image/starting_items_3.jpg)
+	* Support ReadyUp plugin (支援準備插件)
+	<br/>![starting_items_3](image/starting_items_3.jpg)
 
 * Apply to | 適用於
 	```

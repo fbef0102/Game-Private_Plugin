@@ -9,15 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Only collisions with enemies
-        > 只跟敵人身體有碰撞
-        <br/>![css_team_noblock_1](image/css_team_noblock_1.gif)
-	* Run through teammates
-        > 穿透隊友
-        <br/>![css_team_noblock_2](image/css_team_noblock_2.gif)
-	* Grendates fly through teammates
-        > 投擲物品穿透隊友
-        <br/>![css_team_noblock_3](image/css_team_noblock_3.gif)
+	* Only collisions with enemies (只跟敵人身體有碰撞)
+    <br/>![css_team_noblock_1](image/css_team_noblock_1.gif)
+	* Run through teammates (穿透隊友)
+    <br/>![css_team_noblock_2](image/css_team_noblock_2.gif)
+	* Grendates fly through teammates (投擲物品穿透隊友)
+    <br/>![css_team_noblock_3](image/css_team_noblock_3.gif)
 
 * Apply to | 適用於
     ```

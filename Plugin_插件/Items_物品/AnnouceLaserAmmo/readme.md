@@ -9,23 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Laser Sight
-    > 雷射裝置
+	* Laser Sight (雷射裝置)
 	<br/>![AnnouceLaserAmmo_1](image/AnnouceLaserAmmo_1.jpg)
-	* Ammo
-    > 子彈推
+	* Ammo (子彈推)
 	<br/>![AnnouceLaserAmmo_2](image/AnnouceLaserAmmo_2.jpg)
-
-* Apply to | 適用於
-```
-L4D2
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2022-11-29)
-        * Initial Release
-</details>
 
 * Require | 必要安裝
 <br>None
@@ -46,6 +33,17 @@ L4D2
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2022-11-29)
+        * Initial Release
 </details>
 
 - - - -

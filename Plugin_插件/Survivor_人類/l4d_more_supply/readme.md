@@ -9,9 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/sSjRpDF2DR0)
 
 * Image | 圖示
-	* Take medical items multi times
-        > 一直拿一直爽
-        <br/>![l4d_more_supply_1](image/l4d_more_supply_1.gif)
+	* Take medical items multi times (一直拿一直爽)
+    <br/>![l4d_more_supply_1](image/l4d_more_supply_1.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

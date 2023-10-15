@@ -9,12 +9,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Character Vocalize Menu
-		> 選擇角色語音
-		<br/>![l4d_character_vocalize_select_1](image/l4d_character_vocalize_select_1.jpg)
-	* All characters' vocalize menu (Custom)
-		> 所有角色的語音 (可自定義)
-		<br/>![l4d_character_vocalize_select_2](image/l4d_character_vocalize_select_2.jpg)
+	* Character Vocalize Menu (選擇角色語音)
+	<br/>![l4d_character_vocalize_select_1](image/l4d_character_vocalize_select_1.jpg)
+	* All characters' vocalize menu (Custom) - 所有角色的語音 (可自定義)
+	<br/>![l4d_character_vocalize_select_2](image/l4d_character_vocalize_select_2.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>

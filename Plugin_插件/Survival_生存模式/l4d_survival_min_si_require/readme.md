@@ -12,30 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* display message when survival begins
 	<br/>![l4d_survival_min_si_require_1](image/l4d_survival_min_si_require_1.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1 Survival
-	L4D2 Survival
-	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2023-2-10)
-		* Display different SI requirement numbers based on how many alive survivors when survival begins
-
-	* v1.0
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -76,6 +52,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 Survival
+	L4D2 Survival
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-2-10)
+		* Display different SI requirement numbers based on how many alive survivors when survival begins
+
+	* v1.0
+		* Initial Release
 </details>
 
 - - - -

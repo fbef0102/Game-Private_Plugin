@@ -9,18 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* who is the culprit
-		> 打爆汽油桶的兇手
-		<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
-	* display the last players who shot the gas
-		> 指令!shotgas顯示
-		<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
-	* announce message when player destroyed the gas
-		> 即時顯示
-		<br/>![who_shot_gas_3](image/who_shot_gas_3.jpg)
-	* display all players' gascan destroyed stats.
-		> 指令!gas顯示
-		<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
+	* who is the culprit (打爆汽油桶的兇手)
+	<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
+	* display the last players who shot the gas (指令!shotgas顯示)
+	<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
+	* announce message when player destroyed the gas (即時顯示)
+	<br/>![who_shot_gas_3](image/who_shot_gas_3.jpg)
+	* display all players' gascan destroyed stats. (指令!gas顯示)
+	<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
 
 * Apply to | 適用於
 	```

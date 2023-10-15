@@ -8,24 +8,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/PWrf20wtx0Y)
 
 * Image | 圖示
-	* (Free Looking) Before
-		> 裝載插件之前 (自由觀看)
-		<br/>![l4d_flashlight_speconly_1](image/l4d_flashlight_speconly_1.jpg)
-	* (Free Looking) After
-		> 裝載插件之後 (自由觀看)
-		<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
-	* (First Person View) Before
-		> 裝載插件之前 (第一人稱視角)
-		<br/>![l4d_flashlight_speconly_3](image/l4d_flashlight_speconly_3.jpg)
-	* (First Person View) After
-		> 裝載插件之後 (第一人稱視角)
-		<br/>![l4d_flashlight_speconly_4](image/l4d_flashlight_speconly_4.jpg)
-	* (Third Person View) Before
-		> 裝載插件之前 (第三人稱視角)
-		<br/>![l4d_flashlight_speconly_5](image/l4d_flashlight_speconly_5.jpg)
-	* (Third Person View) After
-		> 裝載插件之後 (第三人稱視角)
-		<br/>![l4d_flashlight_speconly_6](image/l4d_flashlight_speconly_6.jpg)
+	* (Free Looking) Before - 裝載插件之前 (自由觀看)
+	<br/>![l4d_flashlight_speconly_1](image/l4d_flashlight_speconly_1.jpg)
+	* (Free Looking) After - 裝載插件之後 (自由觀看)
+	<br/>![l4d_flashlight_speconly_2](image/l4d_flashlight_speconly_2.jpg)
+	* (First Person View) Before - 裝載插件之前 (第一人稱視角)
+	<br/>![l4d_flashlight_speconly_3](image/l4d_flashlight_speconly_3.jpg)
+	* (First Person View) After - 裝載插件之後 (第一人稱視角)
+	<br/>![l4d_flashlight_speconly_4](image/l4d_flashlight_speconly_4.jpg)
+	* (Third Person View) Before - 裝載插件之前 (第三人稱視角)
+	<br/>![l4d_flashlight_speconly_5](image/l4d_flashlight_speconly_5.jpg)
+	* (Third Person View) After - 裝載插件之後 (第三人稱視角)
+	<br/>![l4d_flashlight_speconly_6](image/l4d_flashlight_speconly_6.jpg)
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)

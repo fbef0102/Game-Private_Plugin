@@ -8,9 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/VzXO-AOm7YQ)
 
 * Image | 圖示
-	* Bot throws grenade at witch
-		> Bot自動對Witch丟燃燒瓶
-		<br/>![l4d_grenade_throwing_bots_1](image/l4d_grenade_throwing_bots_1.gif)
+	* Bot throws grenade at witch (Bot自動對Witch丟燃燒瓶)
+	<br/>![l4d_grenade_throwing_bots_1](image/l4d_grenade_throwing_bots_1.gif)
 
 * <details><summary>How does it work?</summary>
 

@@ -15,43 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
     <br/>![l4d_survival_GasConfig_3](image/l4d_survival_GasConfig_3.jpg)
 
-* Apply to | 適用於
-    ```
-    L4D1 Survival
-    L4D2 Survival
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.2h (2023-1-26)
-        * Add "Locked Shared Gas Config", if the config is locked, anyone can not delete that config.
-        * Add a convar ```l4d_survival_GasConfig_adm_lock_flag "z"```, Players with these flags have access to use "Lock gas config" menu
-        * Translation Support
-
-    * v1.1h (2022-12-7)
-        * Add personal gas config
-        * Fix memory leak
-
-    * v1.0h (2022-11-29)
-	    * Remake code
-		* Convert code to latest syntax
-		* Changes to fix warnings when compiling on SourceMod 1.11.
-        * Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
-        * Fix errors
-
-    * v1.0
-        * [Original Plugin by khan](https://github.com/graviti666/Some-Plugins/tree/master/Gas%20Configs)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -98,6 +61,43 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Data File
 	* Auto create files in data/GasConfigs folder to save gas config
     * Don't try to modify unless you know what you are doing
+
+* Apply to | 適用於
+    ```
+    L4D1 Survival
+    L4D2 Survival
+    ```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2h (2023-1-26)
+        * Add "Locked Shared Gas Config", if the config is locked, anyone can not delete that config.
+        * Add a convar ```l4d_survival_GasConfig_adm_lock_flag "z"```, Players with these flags have access to use "Lock gas config" menu
+        * Translation Support
+
+    * v1.1h (2022-12-7)
+        * Add personal gas config
+        * Fix memory leak
+
+    * v1.0h (2022-11-29)
+	    * Remake code
+		* Convert code to latest syntax
+		* Changes to fix warnings when compiling on SourceMod 1.11.
+        * Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
+        * Fix errors
+
+    * v1.0
+        * [Original Plugin by khan](https://github.com/graviti666/Some-Plugins/tree/master/Gas%20Configs)
+</details>
 
 - - - -
 # 中文說明

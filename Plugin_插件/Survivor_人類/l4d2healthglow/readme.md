@@ -11,13 +11,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Last life, low health, medium health, high health 
-		> 黑白狀態、低生命值、中生命值、高生命值
-		<br/>![l4d2healthglow_1](image/l4d2healthglow_1.jpg)
+	* Last life, low health, medium health, high health (黑白狀態、低生命值、中生命值、高生命值)
+	<br/>![l4d2healthglow_1](image/l4d2healthglow_1.jpg)
 	* For the infected, survivors always glow with a non-disappearing aura. (Even if survivor doesn't move or walk)
-		> 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
-		<br/>![l4d2healthglow_2](image/l4d2healthglow_2.jpg)
-		<br/>![l4d2healthglow_3](image/l4d2healthglow_3.jpg)
+	* 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
+	<br/>![l4d2healthglow_2](image/l4d2healthglow_2.jpg)
+	<br/>![l4d2healthglow_3](image/l4d2healthglow_3.jpg)
 </details>
 
 > __Warning__ This plugin does not work in realism mode

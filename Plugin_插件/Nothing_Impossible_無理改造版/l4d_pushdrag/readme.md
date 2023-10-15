@@ -8,11 +8,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/2f0Rk4AcmFk)
 
 * Image | 圖示
-	* Wingardium Leviosa!
-		> 溫咖癲啦唯啊薩
-		<br/>![l4d_pushdrag_1](image/l4d_pushdrag_1.gif)
-		<br/>![l4d_pushdrag_2](image/l4d_pushdrag_2.jpg)
-		<br/>![l4d_pushdrag_3](image/l4d_pushdrag_3.jpg)
+	* Wingardium Leviosa! (溫咖癲啦唯啊薩)
+	<br/>![l4d_pushdrag_1](image/l4d_pushdrag_1.gif)
+	<br/>![l4d_pushdrag_2](image/l4d_pushdrag_2.jpg)
+	<br/>![l4d_pushdrag_3](image/l4d_pushdrag_3.jpg)
 
 * <details><summary>How does it work?</summary>
 

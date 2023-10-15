@@ -9,12 +9,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Pistol Muzzle Flash
-		> 手槍逼真光源
-		<br/>![l4d_dynamic_muzzle_flash_1](image/l4d_dynamic_muzzle_flash_1.jpg)
-	* M60 Muzzle Flash
-		> M60槍口逼真光源
-		<br/>![l4d_dynamic_muzzle_flash_2](image/l4d_dynamic_muzzle_flash_2.jpg)
+	* Fire Muzzle Flash (手槍逼真光源)
+	<br/>![l4d_dynamic_muzzle_flash_1](image/l4d_dynamic_muzzle_flash_1.jpg)
+	<br/>![l4d_dynamic_muzzle_flash_2](image/l4d_dynamic_muzzle_flash_2.jpg)
 </details>
 
 * Require | 必要安裝

@@ -25,9 +25,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Image | 圖示
-	* Use command to change zoom level
-        > 狙擊槍改變縮放級別
-        <br/>![l4d2_zoom_level_1](image/l4d2_zoom_level_1.jpg)
+	* Use command to change zoom level (狙擊槍改變縮放級別)
+    <br/>![l4d2_zoom_level_1](image/l4d2_zoom_level_1.jpg)
 
 * Apply to | 適用於
     ```

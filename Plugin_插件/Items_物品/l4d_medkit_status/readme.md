@@ -9,13 +9,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Display message
-		> 顯示訊息
-		<br/>![l4d_medkit_status_1](image/l4d_medkit_status_1.jpg)
+	* Display message (顯示訊息)
+	<br/>![l4d_medkit_status_1](image/l4d_medkit_status_1.jpg)
 
-	* All Player Medkit Status
-		> 所有玩家的治療包使用量
-		<br/>![l4d_medkit_status_2](image/l4d_medkit_status_2.jpg)
+	* All Player Medkit Status (所有玩家的治療包使用量)
+	<br/>![l4d_medkit_status_2](image/l4d_medkit_status_2.jpg)
 
 * Apply to | 適用於
 	```

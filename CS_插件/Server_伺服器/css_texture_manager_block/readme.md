@@ -9,9 +9,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Kick player using cheat command
-        > 踢出試圖使用作弊指令的玩家
-        <br/>![css_texture_manager_block_1](image/css_texture_manager_block_1.jpg)
+	* Kick player using cheat command (踢出試圖使用作弊指令的玩家)
+    <br/>![css_texture_manager_block_1](image/css_texture_manager_block_1.jpg)
 
 * Apply to | 適用於
     ```

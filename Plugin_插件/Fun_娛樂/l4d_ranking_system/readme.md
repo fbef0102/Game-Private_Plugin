@@ -10,15 +10,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Your Rank statistics
-		> 你的Rank統計表
-		<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
-	* Add Rank tag to Name
-		> 玩家名字給予Rank稱號
-		<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
-	* CSGO Rank
-		> 抄襲CSGO Rank
-		<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
+	* Your Rank statistics (你的Rank統計表)
+	<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
+	* Add Rank tag to Name (玩家名字給予Rank稱號)
+	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
+	* CSGO Rank (仿CSGO Rank)
+	<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
 </details>
 
 * Require | 必要安裝

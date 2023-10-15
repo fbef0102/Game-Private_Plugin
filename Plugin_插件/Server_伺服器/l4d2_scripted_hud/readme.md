@@ -10,21 +10,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	* Layout 1 (Survivor)
-		> 版面一 (人類方)
-		<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
-	* Layout 2 (Infected)
-		> 版面二 (特感方)
-		<br/>![l4d2_scripted_hud_2](image/l4d2_scripted_hud_2.jpg)
-	* Layout 3 (Spectator)
-		> 版面三 (旁觀者)
-		<br/>![l4d2_scripted_hud_3](image/l4d2_scripted_hud_3.jpg)
-	* Layout 4
-		> 版面四
-		<br/>![l4d2_scripted_hud_4](image/l4d2_scripted_hud_4.jpg)
-	* Coordinate diagram
-		> HUD座標圖
-		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
+	* Layout 1 (Survivor) - 版面一 (人類方)
+	<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
+	* Layout 2 (Infected) - 版面二 (特感方)
+	<br/>![l4d2_scripted_hud_2](image/l4d2_scripted_hud_2.jpg)
+	* Layout 3 (Spectator) - 版面三 (旁觀者)
+	<br/>![l4d2_scripted_hud_3](image/l4d2_scripted_hud_3.jpg)
+	* Layout 4 - 版面四
+	<br/>![l4d2_scripted_hud_4](image/l4d2_scripted_hud_4.jpg)
+	
+	* Coordinate diagram - HUD座標圖
+	<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>

@@ -8,9 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/MVJp78Fmils)
 
 * Image | 圖示
-	* Send the survivor flying
-        > 抓飛倖存者
-        <br/>![l4d_ultra_witch_1](image/l4d_ultra_witch_1.gif)
+	* Send the survivor flying (抓飛倖存者)
+    <br/>![l4d_ultra_witch_1](image/l4d_ultra_witch_1.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
