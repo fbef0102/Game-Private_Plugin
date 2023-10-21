@@ -48,7 +48,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, disable Auto Ban when player crashed.
 		bandisconnected_crash_ban_disable "1"
 
-		// Ban How many mins for disconnected player. (0=Permanent Ban)
+		// Ban How many mins for disconnected player. (Mins, 0=Permanent Ban)
 		bandisconnected_ban_mins "60"
 
 		// Players with these flags have immune to not be banned automatically. (Empty = Everyone, -1: Nobody)
@@ -131,7 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，如果玩家崩潰退出則不會被自動封鎖
 		bandisconnected_crash_ban_disable "1"
 
-		// 設置封鎖的時間 (0=永久)
+		// 設置封鎖的時間 (分鐘, 0=永久)
 		bandisconnected_ban_mins "60"
 
 		// 擁有這些權限的玩家，不會被自動封鎖 (留白 = 任何人都不會被自動封鎖, -1: 任何人都會被自動封鎖)

@@ -13,9 +13,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
-* Notice
+* <details><summary>How does it work?</summary>
+
+	* Change human special infected ghost spawn range (Does not affect special infected bots, common infected, AI Tank spawn range)
 	* Official Convar "z_finale_spawn_safety_range" can do the same thing, but it also affects common zombie spawn and tank spawn, which causes nav issue on final map such as horde unable to spawn
-	* So we use this plugin to change special infected ghost SpawnFlags
+		* So we use this plugin to change special infected ghost Spawn Range
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,13 +58,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 在救援關卡調整靈魂特感的復活距離
 
 * 原理
-	* 在官方對抗模式下，救援開始後，靈魂特感的復活距離會比平常多一倍
-	* 使用此插件可縮短靈魂特感的復活距離
-	* 只會影響真人特感玩家，AI特感、小殭屍、Tank 生成範圍皆不會受到影響
+	* 此插件只適用真人特感玩家，AI特感、小殭屍、AI Tank 生成範圍皆不會受到影響
+	* 救援開始後，此插件可縮短真人靈魂特感玩家的復活距離
 
-* 功能
-	1. 可調整靈魂特感的復活距離
+* 用意在哪?
+	* 官方對抗模式，救援開始後，復活距離會變成兩倍以上
+	* 安裝上這個插件之後，縮短真人靈魂特感玩家的復活距離，提升遊戲難度
 
-* 注意事項
-	* 官方有指令 "z_finale_spawn_safety_range" 可以達成一樣的目的，但是會連帶影響AI特感、小殭屍、Tank 生成範圍，可能造成救援卡關的問題
-	* 所以這插件就誕生了
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_ghost_FinaleSpawn.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_ghost_FinaleSpawn_enable "1"
+
+		// 調整靈魂特感的復活距離
+		l4d_ghost_FinaleSpawn_range "200.0"
+		```
+</details>

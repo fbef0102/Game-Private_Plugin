@@ -45,6 +45,7 @@
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
     * 保密交易，不會公開透露交易資訊與買家個資
+    * 會給源碼sp檔案，不得隨意二次發布、分享
   </details>
 
   * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
@@ -85,6 +86,7 @@
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
     * Privacy Policy, other people will never know our deal
+    * Provide source code, don't distribute or share
   </details>
 
   * <details><summary><b>Why high-priced?</b></summary>

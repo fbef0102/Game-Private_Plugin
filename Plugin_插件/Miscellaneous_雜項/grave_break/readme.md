@@ -23,9 +23,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 	
 	* **Break all graves**
-	```php
-	sm_breakgrave
-	```
+		```php
+		sm_breakgrave
+		```
 </details>
 
 * Apply to | 適用於
@@ -49,3 +49,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 用意在哪?
 	* 需求者希望在死亡喪鐘第三關，可以把礙眼的墓碑一次打破，因為生存模式下倖存者在教堂與墓碑附近
+
+* <details><summary>Command | 命令</summary>
+	
+	* **打破地圖上所有墓碑**
+		```php
+		sm_breakgrave
+		```
+</details>

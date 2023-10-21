@@ -11,17 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Apply to | 適用於
-	```
-	L4D1 
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2023-4-6)
-		* Initial Release
-</details>
+* Notice
+	* This plugin will disable any friendly fire damage (bullet) between survivors, would conflict with other plugin which modify friendly fire damage.
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -43,8 +34,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Notice
-	* This plugin will disable any friendly fire damage (bullet) between survivors, would conflict with other plugin which modify friendly fire damage.
+* Apply to | 適用於
+	```
+	L4D1 
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2023-4-6)
+		* Initial Release
+</details>
 
 - - - -
 # 中文說明
@@ -57,5 +57,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項
 	* 安裝上此插件會使得倖存者的子彈友傷強制變成0 (火燒傷、瓦斯桶爆炸依然會有傷害)，會與其他有關友傷的插件產生衝突
 
-* 功能
-	* 也可以設置右鍵推人不造成隊友晃動
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_block_ff_shake.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_block_ff_shake_enable "1"
+
+		// 為1時，關閉右鍵推人造成隊友螢幕晃動與後座力降低
+		l4d_block_ff_shake_shove "1"
+		```
+</details>

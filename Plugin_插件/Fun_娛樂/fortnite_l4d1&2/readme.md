@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-    * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
+    * cfg/sourcemod/fortnite_l4d1&2.cfg
 		```php
 		// Enable/Disable sounds for emotes.
 		sm_dances_sounds "1"
@@ -139,7 +139,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * 1.5.0 (2022-11-14)
+    * v1.5.1 (2023-10-20)
+	    * Ghost infected can not dance
+
+    * v1.5.0 (2022-11-14)
 	    * Player dances when someone uses kit to heal him
 	    * fix translation error
 	    * fix file error
@@ -164,7 +167,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-    * cfg/sourcemod/fortnite_emotes_extended_l4d.cfg
+    * cfg/sourcemod/fortnite_l4d1&2.cfg
 		```php
 		// 0=關閉跳舞音樂, 1=啟動跳舞音樂
 		sm_dances_sounds "1"

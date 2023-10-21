@@ -24,13 +24,6 @@
 		"chi"			"[{olive}Emotes{default}]{darkred} 你没有权限可以使用表情!"
 	}
 	
-	"SURVIVOR_FIRST"
-	{
-		"en"			"[{olive}Emotes{default}]{darkred} You must be in Survivor Team First!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你得先在倖存者隊伍!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你得先在倖存者隊伍!"
-	}
-	
 	"MUST_BE_ALIVE"
 	{
 		"en"			"[{olive}Emotes{default}]{darkred} You must be alive to use this!"
@@ -53,7 +46,7 @@
 	{
 		"en"			"[{olive}Emotes{default}]{darkred} It is on cooldown!"
 		"tr"			"[{olive}Emotes{default}]{darkred} Biraz bekle!"		
-		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo"
+		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo
 		"zho"			"[{olive}Emotes{default}]{darkred} 冷卻時間未到!"
 		"chi"			"[{olive}Emotes{default}]{darkred} 冷却时间未到!"
 	}
