@@ -184,6 +184,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Marttt @ 2019
 	//HarryPotter @ 2022-2023
 	```
+	* v1.2h (2023-10-16)
+		* Block other fade effects applied to the client while on flashBang fade. Example: Red screen when take damage.
+
 	* v1.1h (2023-2-14)
 		* Rename some cvars
 		* Correct melee damage when enable Bile Belly ability
