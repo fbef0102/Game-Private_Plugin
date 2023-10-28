@@ -92,9 +92,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     //Twilight Suzuka @ 2009
     //Harry @ 2022-2023
     ```
+	* v1.0h (2023-10-28)
+        * Optimize Code and fix memory leak
+
 	* v1.4 (2023-5-13)
         * Optimize Code
-        *  Change method to detect client say, require "simple-chatprocessor"
+        * Change method to detect client say, require "simple-chatprocessor"
 
 	* v1.3
 	    * Remake Code

@@ -41,7 +41,7 @@
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
-	4. [smlib](https://github.com/bcserv/smlib/tree/transitional_syntax)
+	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 
 * <details><summary>指令</summary>
 

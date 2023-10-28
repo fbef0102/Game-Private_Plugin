@@ -85,6 +85,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2023-10-28)
+		* Fix memory leak
+
 	* v1.1 (2023-8-15)
 		* Improve Data Config
 
