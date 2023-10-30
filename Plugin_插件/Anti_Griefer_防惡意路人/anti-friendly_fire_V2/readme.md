@@ -99,7 +99,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 插件自帶傷害提示
 	* 切勿與其他會修改友傷的插件並用
-	* 過一段時間總計算友傷，然後反彈給攻擊者
+	* 一秒後計算總友傷，然後反彈給攻擊者
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

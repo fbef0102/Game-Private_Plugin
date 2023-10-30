@@ -30,7 +30,7 @@
 	
 	"Cmd (C)"
 	{
-		"#format"	"{1:T}"
+		"#format"	"{1:t}"
 		"en"		"[{olive}TS{default}] Auto Kill feature is now {green}{1}"
 		"zho"		"[{olive}TS{default}] 自動處死特感功能已 {green}{1}"
 		"chi"		"[{olive}TS{default}] 自动处死特感功能已 {green}{1}"

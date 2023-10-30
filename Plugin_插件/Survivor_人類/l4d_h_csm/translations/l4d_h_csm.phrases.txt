@@ -108,15 +108,15 @@
 	}
 	"AnnounceCharSelect"
 	{
-		"en"	"Type {green}!csm{default} in chat to change your {olive}character{default} (outside appearance, abilities and sounds) or {olive}model{default} (outside apperance)."
-		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default} (外觀, 手 和 語音) 或是 {olive}模組{default} (只有外觀)."
-		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default} (外观, 手 和 语音) 或是 {olive}模组{default} (只有外观)."
+		"en"	"Type {green}!csm{default} in chat to change your {olive}character{default}."
+		"zho"	"聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default}"
+		"chi"	"聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default}"
 	}
 	"AnnounceCharSelect2"
 	{
-		"en"	"Type !csm in chat to change your character or model."
-		"zho"	"聊天視窗輸入 !csm 可更換角色(外觀,手和語音)或是模組(只有外觀)."
-		"chi"	"聊天视窗输入 !csm 可更换角色(外观,手和语音)或是模组(只有外观)."
+		"en"	"Type !csm in chat to change your character"
+		"zho"	"聊天視窗輸入 !csm 可更換角色"
+		"chi"	"聊天视窗输入 !csm 可更换角色"
 	}
 	"Character Select Menu is currently disabled."
 	{

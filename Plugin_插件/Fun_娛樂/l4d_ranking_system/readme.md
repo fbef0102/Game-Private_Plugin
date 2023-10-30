@@ -79,6 +79,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>Data Config</summary>
+
+	* ```configs\l4d_ranking_system.cfg``` 
+		```php
+		"l4d_ranking_system"
+		{
+			"Rank"
+			{
+				"num"		"18" // There are 18 Rank titles
+				"1" // If player has point between 0~999, he got rank title "SILVER Ⅰ"
+				{
+					"Name"		"SILVER Ⅰ" 
+					"Point_Min"	"0"
+					"Point_Max"	"1000"
+				}
+				"2" // If player has point between 1000~1999, he got rank title "SILVER Ⅱ"
+				{
+					"Name"		"SILVER Ⅱ"
+					"Point_Min"	"1000"
+					"Point_Max"	"2000"
+				}
+				...
+			}
+		}
+		```
+</details>
+
 * <details><summary>Database</summary>
 
 	* set ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
@@ -93,6 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"port"				"yourport"
 		}
 		```
+
 	* Or local sqlite
 		```php
 		"rank"
@@ -148,38 +176,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
 
-* 原理
-	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
-	* 將頭銜名稱加入到玩家的名字前
-	* 輸入!rank隨時查看自己或他人資料
-	* 必須會設定資料庫，否則玩家的經驗值無法儲存
-
-* 功能
-	* 可設置殺死不同的特感獲得不同的經驗值
-	* 可設置伺服器至少需要的真人玩家才會啟動此插件
-	* 可不要將頭銜名稱加入到玩家的名字前
-	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
-
-* <details><summary>資料庫設定</summary>
-
-	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
-		```php
-		"rank"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
-	* 或者本地資料庫
-		```php
-		"rank"
-		{
-			"driver"			"sqlite"
-			"database"			"rank_system"
-		}
-		```
-</details>
+> __Note__ 此插件已停止中文更新，如要更多功能，[新版插件請點擊這裡](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3)

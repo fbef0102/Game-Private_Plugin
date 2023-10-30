@@ -109,7 +109,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 切勿與其他會修改友傷的插件並用
 
 * 功能
-	1. 過一段時間總計算友傷，然後反彈給攻擊者
+	1. 一秒後計算總友傷，然後反彈給攻擊者
 	2. 倒地者不受到友傷
 	3. 近戰武器不造成友傷
 	4. 剛進來的玩家一段時間內不能造成友傷

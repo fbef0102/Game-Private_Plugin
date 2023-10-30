@@ -20,23 +20,6 @@
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
 </details>
 
-* 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>版本日誌</summary>
-
-	* v1.2h (2023-6-16)
-		* Delete l4d2_skill_detect
-
-	* v1.1h (2023-6-15)
-		* Add smlib and simple-chatprocessor
-
-	* v1.0h (2023-5-12)
-		* Initial Release
-</details>
-
 * 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
@@ -122,6 +105,23 @@
 		```
 </details>
 
+* 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>版本日誌</summary>
+
+	* v1.2h (2023-6-16)
+		* Delete l4d2_skill_detect
+
+	* v1.1h (2023-6-15)
+		* Add smlib and simple-chatprocessor
+
+	* v1.0h (2023-5-12)
+		* Initial Release
+</details>
+
 * 原理
 	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
 	* 友傷黑槍隊友、滅團、倒地、死亡，扣除經驗值
@@ -133,6 +133,34 @@
 	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
 	* 可不要將頭銜名稱加入到玩家的名字前
 	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
+
+* <details><summary>文件設定</summary>
+
+	* ```configs\l4d_ranking_system_V3.cfg``` 設置階級頭銜名稱
+	* * 經驗值最大只到2147483647，超過會發生bug，認真你就輸了 (有誰他馬的會達到這個經驗值)
+		```php
+		"l4d_ranking_system"
+		{
+			"Rank"
+			{
+				"num"		"18" // 自訂有18個階級頭銜
+				"1" // 當玩家的經驗值介於 0~999, 得到 "SILVER Ⅰ" 稱號
+				{
+					"Name"		"SILVER Ⅰ" 
+					"Point_Min"	"0"
+					"Point_Max"	"1000"
+				}
+				"2" // 當玩家的經驗值介於 1000~1999, 得到 "SILVER Ⅱ" 稱號
+				{
+					"Name"		"SILVER Ⅱ"
+					"Point_Min"	"1000"
+					"Point_Max"	"2000"
+				}
+				... // 以下類推
+			}
+		}
+		```
+</details>
 
 * <details><summary>資料庫設定</summary>
 
@@ -148,6 +176,7 @@
 			"port"				"yourport"
 		}
 		```
+		
 	* 或者本地資料庫
 		```php
 		"rank"

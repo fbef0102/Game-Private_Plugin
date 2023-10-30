@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"Timer_1"
+	{
+		"#format"	"{1:d}"
+		"en"	"{1} second(s) left to open the door!"
+		"zho"	"{1} 秒後才能開門!"
+		"chi"	"{1} 秒后才能开门!"
+	}
+	
+	"Timer_2 (C)"
+	{
+		"#format"	"{1:d}"
+		"en"	"[{olive}TS{default}] You can leave saferoom area until {green}{1}{default} second(s)"
+		"zho"	"[{olive}TS{default}] {green}{1}{default} 秒後才能離開安全室"
+		"chi"	"[{olive}TS{default}] {green}{1}{default} 秒后才能离开安全室"
+	}
+
+	"Timer_2"
+	{
+		"#format"	"{1:d}"
+		"en"	"You can leave saferoom area until {green}{1}{default} second(s)"
+		"zho"	"{1}{default} 秒後才能離開安全室"
+		"chi"	"{1}{default} 秒后才能离开安全室"
+	}
+	
+	"Timer_3"
+	{
+		"#format"	"{1:d}"
+		"en"	"{1} second(s) left to leave the safe area!"
+		"zho"	"{1} 秒後才能離開安全區域!"
+		"chi"	"{1} 秒后才能离开安全区域!"
+	}
+}
