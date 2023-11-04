@@ -1,5 +1,5 @@
 # Navigation
-> 2023/7/8 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/11/4 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -93,7 +93,8 @@
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.</s>
     - 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
-* [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.
+* <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.</s>
+    - 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
     - 🟥Doesn't work in listen server🟥
@@ -121,6 +122,8 @@
     - typ !csm to open menu
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
+
+* [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): Gives reactions to both l4d1 and 2 survivors
 
 - - - -
 ## Fun

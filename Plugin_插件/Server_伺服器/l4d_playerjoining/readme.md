@@ -31,6 +31,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg\sourcemod\l4d_playerjoining.cfg
 		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_playerjoining_enable "1"
+
 		// If 1, inform other players when a client changes team
 		l4d_playerjoining_change_team_notify_enable "1"
 

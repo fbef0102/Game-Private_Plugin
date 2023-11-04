@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2023/7/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/11/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -101,7 +101,8 @@
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動</s>
     - 🟥會導致伺服器崩潰，等待作者修復🟥
 
-* [Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動
+* <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動</s>
+    - 🟥會導致伺服器崩潰，等待作者修復🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127)
     - 🟥只適用於專屬伺服器🟥
@@ -133,6 +134,8 @@
     - 此為CSM插件重製版，輸入!csm打開角色選擇介面
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
+
+* [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
 
 - - - -
 ## 娛樂檔案
