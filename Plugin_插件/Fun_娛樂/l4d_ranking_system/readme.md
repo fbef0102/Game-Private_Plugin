@@ -21,6 +21,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -47,7 +49,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Numbers of real survivor player require to active this plugin.
 		l4d_ranking_system_player_require "2"
 
-		// If 1, add rank title to player name
+		// If 1, add rank title to player name in chatbox
 		l4d_ranking_system_rank_display "1"
 
 		// Giving exp for killing a smoker
@@ -144,6 +146,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2023-11-5)
+		* Require simple-chatprocessor & smlib
 
 	* v1.5 (2023-5-9)
 		* Add rank title to player name

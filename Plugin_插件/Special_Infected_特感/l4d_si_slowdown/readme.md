@@ -12,7 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [l4d2util_stocks](https://github.com/fbef0102/Game-Private_Plugin/tree/main/left4dead2/scripting/include)
 
 * <details><summary>ConVar | 指令</summary>
 

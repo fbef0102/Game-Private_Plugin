@@ -4,9 +4,7 @@ Informs other players when a client connects to the server and changes teams.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-🟥Dedicated Server Only<br/>
-🟥只能安裝在Dedicated Server
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
 * Video | 影片展示
 <br/>None
@@ -23,6 +21,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Notice
 	* To retrieve data from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
+	* 🟥Dedicated Server Only, Local server can not retrieve country and city from client
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -37,7 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, inform other players when a client changes team
 		l4d_playerjoining_change_team_notify_enable "1"
 
-		// inform other players with these flags when a client connects to server. (Empty = Everyone, -1: Nobody)
+		// (Dedicated Server Only) inform other players with these flags when a client connects to server. (Empty = Everyone, -1: Nobody)
 		l4d_playerjoining_connnect_server_notify_access ""
 
 		// inform other players with these flags when a client left the server. (Empty = Everyone, -1: Nobody)
@@ -90,14 +89,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 玩家連線進來伺服器之後，抓取玩家的地理位置並顯示在聊天視窗當中
     * 也有更換隊伍提示
-
-* 功能
-    * 可關閉更換隊伍提示
-    * 可設置只有特地權限的玩家才能看到連線、離開伺服器的提示
 	* 想要新增更多提示譬如IP、伺服器人數、Steam ID，請聯繫我修改
 
 * 必看步驟
 	* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
+	* 🟥只限定Dedicated Server，區域房無法抓取地理位置
 
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg\sourcemod\l4d_playerjoining.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_playerjoining_enable "1"
+
+		// 為1時，打開更換隊伍提示
+		l4d_playerjoining_change_team_notify_enable "1"
+
+		// (只限定 Dedicated Server) 擁有這些權限的玩家，才可以看到有人連線進伺服器的提示 (留白 = 任何人都能看到, -1: 無人能看到)
+		l4d_playerjoining_connnect_server_notify_access ""
+
+		// 擁有這些權限的玩家，才可以看到有人離開伺服器的提示 (留白 = 任何人都能看到, -1: 無人能看到)
+		l4d_playerjoining_leave_server_notify_access ""
+		```
+</details>
 
 

@@ -337,7 +337,7 @@
     * (公開) 開槍會有子彈光線
   * [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
     * 限制每個武器可以拿取的數量，超過就不能拿取
-  * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers by command.
+  * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers (You can see much further while scope)
     * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [l4d2_lasersight](/Plugin_插件/Weapons_武器/l4d2_lasersight): L4D2 Upgrade Laser Sights by using commands
     * 玩家使用指令升級紅外線雷射

@@ -1,0 +1,45 @@
+"Phrases"
+{
+	"Message_1"
+	{
+		"en"	"{default}You {green}can't change zoom level for this {olive}weapon"
+		"zho"	"{default}你無法為{olive}這把武器{green}調整狙擊鏡範圍"
+		"chi"	"{default}你无法为{olive}这把武器{green}调整狙击镜范围"
+	}
+	
+	"Message_2"
+	{
+		"en"	"{olive}You {green}can't change zoom level {olive}in zoom"
+		"zho"	"{olive}你必須先關掉{green}狙擊鏡，{olive}才能{green}調整狙擊鏡範圍"
+		"chi"	"{olive}你必须先关掉{green}狙击镜，{olive}才能{green}调整狙击镜范围"
+	}
+	
+	"Message_3"
+	{
+		"en"	"{olive}You {green}changed to default zoom level {olive}for this weapon"
+		"zho"	"{olive}已為這把武器{green}變回預設的狙擊鏡範圍"
+		"chi"	"{olive}已为这把武器{green}变回预设的狙击镜范围"
+	}
+	
+	"Message_4"
+	{
+		"en"	"[TS] sm_zoom <number>"
+		"zho"	"[TS] sm_zoom <數字>"
+		"chi"	"[TS] sm_zoom <数字>"
+	}
+	
+	"Message_5"
+	{
+		"en"	"[TS] sm_zoom <Positive Integer>"
+		"zho"	"[TS] sm_zoom <正整數>"
+		"chi"	"[TS] sm_zoom <正整数>"
+	}
+	
+	"Message_6"
+	{
+		"#format"		"{1:d}"
+		"en"	"{lightgreen}This weapon {green}zoom level is now {olive}{1}"
+		"zho"	"{lightgreen}武器的{green}狙擊鏡範圍: {olive}{1}"
+		"chi"	"{lightgreen}武器的{green}狙击镜范围: {olive}{1}"
+	}
+}

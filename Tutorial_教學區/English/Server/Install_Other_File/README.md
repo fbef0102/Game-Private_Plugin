@@ -70,7 +70,7 @@
     	* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
   
-	6. Restart Server，type ```stripper_version``` in serve console
+	6. Restart Server，type ```meta list``` in serve console
 		```php
 		] meta list
 		Listing 11 plugins:

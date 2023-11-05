@@ -14,34 +14,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_lasersight.cfg
-	```php
-	//  How long do the commands 'cool down' (0=No cold down)
-	l4d2_lasersight_delay "1.0"
+		```php
+		//  How long do the commands 'cool down' (0=No cold down)
+		l4d2_lasersight_delay "1.0"
 
-	// If 1, block laser command once survivors leaving saferoom or survival begins
-	l4d2_lasersight_game_block "1"
+		// If 1, block laser command once survivors leaving saferoom or survival begins
+		l4d2_lasersight_game_block "1"
 
-	// If 1, block laser command if there are no any upgrade_laser_sight on the map
-	l4d2_lasersight_map_block "1"
-	```
+		// If 1, block laser command if there are no any upgrade_laser_sight on the map
+		l4d2_lasersight_map_block "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
 	* **Upgrade laser sight**
-	```php
-	sm_laseron
-	```
+		```php
+		sm_laseron
+		```
 
 	* **Remove laser sight**
-	```php
-	sm_laseroff
-	```
+		```php
+		sm_laseroff
+		```
 
 	* **Toggle laser sight**
-	```php
-	sm_laser
-	```
+		```php
+		sm_laser
+		```
 </details>
 
 * Image | 圖示
