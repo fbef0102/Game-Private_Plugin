@@ -147,7 +147,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 建議等真的需要再來使用
 
 * 功能
-	* 提供很多API串接，給其他插件使用
+	* 提供很多API串接，給其他插件使用 (給開發者用的)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

@@ -109,11 +109,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 管理員在聊天窗口輸入文字並送出之後，依照其身分顯示對應的稱號並修改顏色
 	* 普通玩家也可以有稱號與顏色
 
-* 功能
-	* 可設置文件自訂顏色與稱號
-
 * <details><summary>文件設定範例</summary>
 
+	* 可自訂顏色與稱號
 	* configs/simple-chatcolors.cfg
 		```php
 		"Settings"

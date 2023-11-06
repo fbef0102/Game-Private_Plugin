@@ -130,9 +130,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 提示只有自己會看到
 	* 對抗模式中也能使用，任何模式都適用
 
-* 功能
-	* 編輯文件```data/l4d2_glow_item_weapon_cheat.cfg```，可自行設定光圈的顏色與發光範圍
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d2_glow_item_weapon_cheat.cfg
@@ -179,6 +176,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
+	* 自行設定光圈的顏色與發光範圍
 	* data/l4d2_glow_item_weapon_cheat.cfg
 		```php
 		//  "enable"   -> 附上光圈在這個物件上 "0" = 關閉光圈, "1" = 開啟光圈.

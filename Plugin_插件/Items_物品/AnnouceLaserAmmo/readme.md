@@ -54,9 +54,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 當玩家升級雷射裝置的時候，顯示大大的提示告訴隊友在哪裡
     * 當玩家補給子彈的時候，顯示大大的提示告訴隊友在哪裡
 
-* 功能
-    * 無
-
 * 注意事項
 	* 玩家必須啟動[遊戲指導系統](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#啟動遊戲指導系統)，ESC->選項->多人連線->遊戲指導系統->已啟用，否則玩家看不見標記提示
     * 伺服器端不要修改指令 ```sv_gameinstructor_disable```，這會關閉所有玩家的遊戲指導系統

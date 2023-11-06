@@ -54,6 +54,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_vpn
 		sm_server
 		```
+
 	* **Reloads the data config.** (Admin Required: ADMFLAG_ROOT)
 		```php
 		sm_vpn_reload
@@ -77,11 +78,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 輸入指令顯示 Server/Vpn 列表
 
-* 功能
-	1. 可自行設定顯示內容
+* 原理
+	* 玩家輸入sm_vpn會顯示 Server/Vpn 列表
 
 * <details><summary>文件設定範例</summary>
 
+	* 可自行設定顯示內容
 	* data/server_port_hop.cfg
 		```php
 		"server"

@@ -137,7 +137,7 @@
 * <details><summary>文件設定</summary>
 
 	* ```configs\l4d_ranking_system_V3.cfg``` 設置階級頭銜名稱
-	* * 經驗值最大只到2147483647，超過會發生bug，認真你就輸了 (有誰他馬的會達到這個經驗值)
+	* 經驗值最大只到2147483647，超過會發生bug，認真你就輸了 (有誰他馬的會達到這個21億點經驗值)
 		```php
 		"l4d_ranking_system"
 		{

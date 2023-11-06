@@ -47,7 +47,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Notice
+* <details><summary>Notice</summary>
+
     * open cfg/server.cfg and write down cmds. For example:
         ```php
         // ct = counter terrorist team
@@ -92,6 +93,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         smokegrenade
         knife
         ```
+</details>
 
 - - - -
 # 中文說明
@@ -115,7 +117,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 
-* 注意事項中文說明
+* <details><summary>注意事項中文說明</summary>
+
     * 打開 cfg/server.cfg 文件並寫下想要限制的武器，譬如
         ```php
         // css_wlimits_add <限制數量> <CT 或 T> <武器短名>
@@ -161,3 +164,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         smokegrenade => 煙霧彈
         knife => 刀
         ```
+</details>

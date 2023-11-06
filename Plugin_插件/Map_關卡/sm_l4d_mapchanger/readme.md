@@ -224,7 +224,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 功能
 	* 自動新增三方圖的關卡與地圖名，無須手動新增
 	* 玩家可以輸入!mapvote投票決定下一張地圖
-	* 查看下方 "指令中文介紹"
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

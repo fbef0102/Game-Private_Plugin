@@ -7,7 +7,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/LP0ALxlbaZE)
 
-* <details><summary>Image | 圖示</summary>
+* <details><summary>Image</summary>
 
 	<br/>![L4D2_Buy_Store_1](image/L4D2_Buy_Store_1.jpg)
 	<br/>![L4D2_Buy_Store_2](image/L4D2_Buy_Store_2.jpg)
@@ -33,6 +33,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/L4D2_Buy_Store.cfg
 		```php
+		// Numbers of real survivor and infected player require to active this plugin.
+		sm_shop_player_require "4"
+
 		// If 1, use CookiesCached to save player money. Otherwise, the moeny will not be saved if player leaves the server.
 		sm_shop_CookiesCached_enable "1"
 
@@ -42,106 +45,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Giving money for killing a charger
 		sm_shop_chargerkilled "30"
 
-		// Can not buy cola in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-		sm_shop_cola_map_off "c1m2_streets"
-
-		// Database to save money to.
-		// empty = don't connect to database
-		//  (MySQL & SQLite supported)
-		sm_shop_database ""
-
-		// Giving money for saving people with defibrillator
-		sm_shop_defi_save "200"
-
-		// Giving money to each alive survivor for mission accomplished award (final).
-		sm_shop_final_mission_complete "3000"
-
-		// Giving money to each infected player for wiping out survivors.
-		sm_shop_final_mission_lost "300"
-
-		// Can not buy gas can in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-		sm_shop_gascan_map_off "c1m4_atrium,c6m3_port,c14m2_lighthouse"
-
-		// Giving money for healing people with kit
-		sm_shop_heal_teammate "100"
-
-		// Giving money for saving incapacitated people. (No Hanging from legde)
-		sm_shop_help_teammate_save "30"
+		// Giving money for killing a smoker
+		sm_shop_smokerkilled "20"
 
 		// Giving money for killing a hunter
 		sm_shop_hunterkilled "20"
 
-		// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=off).
-		sm_shop_infected_cooltime_block "30.0"
-
-		// If 1, Enable shop for infected.
-		sm_shop_infected_enable "1"
-
-		// Giving money for incapacitating a survivor. (No Hanging from legde)
-		sm_shop_infected_survivor_incap "30"
-
-		// Giving money for killing a survivor.
-		sm_shop_infected_survivor_killed "100"
-
-		// Tank limit on the field before infected can buy a tank. (0=Can't buy Tank)
-		sm_shop_infected_tank_limit "1"
-
-		// Infected player must wait until survivors have left start safe area for at least X seconds to buy item. (0=Infected Shop available anytime)
-		sm_shop_infected_wait_time "10"
-
-		// Amount of seconds before a witch is kicked. (only remove witches bought by player in this plugin)
-		sm_shop_infected_witch_lifespan "180"
-
-		// Witch limit on the field before infected can buy a witch. (0=Can't buy Witch)
-		sm_shop_infected_witch_limit "4"
-
-		// How far away from survivors an infected can buy and spawn witch.
-		sm_shop_infected_witch_spawn_safety_range "1250"
-
 		// Giving money for killing a jockey
 		sm_shop_jockeykilled "25"
 
-		// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		sm_shop_kill_infected_announce_type "1"
-
-		// Maximum money limit. (Money saved when map change/leaving server)
-		sm_shop_max_moeny_limit "32000"
-
-		// Numbers of real survivor and infected player require to active this plugin.
-		sm_shop_player_require "4"
-
-		// Giving money for killing a smoker
-		sm_shop_smokerkilled "20"
-
-		// How long could "Gain Adrenaline Power" state last for survivor special item.
-		sm_shop_special_adrenaline_time "20"
-
-		// How long could "Dead-Eyes" state last for survivor special item.
-		sm_shop_special_dead_eyes_time "60"
-
-		// How long could "Freeze-Infected" state last for survivor special item.
-		sm_shop_special_freeze_time "20"
-
-		// How long could "Immune Everything" last for infected special item.
-		sm_shop_special_immune_everything_time "10"
-
-		// How long could "Infinite Ammo" state last for survivor special item.
-		sm_shop_special_infinite_ammo_time "20"
-
-		// Max Air Jump Limit for survivor special item.
-		sm_shop_special_max_jump_limit "3"
-
 		// Giving money for killing a spitter
 		sm_shop_spitterkilled "10"
-
-		// Giving money to each alive survivor for mission accomplished award (non-final).
-		sm_shop_stage_complete "400"
-
-		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 dollar)
-		sm_shop_survivor_TK_enable "1"
-
-		// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=off).
-		sm_shop_survivor_cooltime_block "5.0"
 
 		// Giving one dollar money for hurting tank per X hp
 		sm_shop_tank_hurt "40"
@@ -151,6 +65,92 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Giving money for killing a zombie
 		sm_shop_zombiekilled "1"
+
+		// Giving money for healing people with kit
+		sm_shop_heal_teammate "100"
+
+		// Giving money for saving people with defibrillator
+		sm_shop_defi_save "200"
+
+		// Giving money for saving incapacitated people. (No Hanging from legde)
+		sm_shop_help_teammate_save "30"
+
+		// Giving money for incapacitating a survivor. (No Hanging from legde)
+		sm_shop_infected_survivor_incap "30"
+
+		// Giving money for killing a survivor.
+		sm_shop_infected_survivor_killed "100"
+
+		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 dollar)
+		sm_shop_survivor_TK_enable "1"
+
+		// Can not buy gas can in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
+		sm_shop_gascan_map_off "c1m4_atrium,c6m3_port,c14m2_lighthouse"
+
+		// Can not buy cola in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
+		sm_shop_cola_map_off "c1m2_streets"
+
+		// Max Air Jump Limit for survivor special item.
+		sm_shop_special_max_jump_limit "3"
+
+		// How long could "Infinite Ammo" state last for survivor special item.
+		sm_shop_special_infinite_ammo_time "20"
+
+		// Giving money to each alive survivor for mission accomplished award (non-final).
+		sm_shop_stage_complete "400"
+
+		// Giving money to each alive survivor for mission accomplished award (final).
+		sm_shop_final_mission_complete "3000"
+
+		// Giving money to each infected player for wiping out survivors.
+		sm_shop_final_mission_lost "300"
+
+		// If 1, Enable shop for infected.
+		sm_shop_infected_enable "1"
+
+		// Infected player must wait until survivors have left start safe area for at least X seconds to buy item. (0=Infected Shop available anytime)
+		sm_shop_infected_wait_time "10"
+
+		// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=off).
+		sm_shop_infected_cooltime_block "30.0"
+
+		// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=off).
+		sm_shop_survivor_cooltime_block "5.0"
+
+		// How long could "Immune Everything" last for infected special item.
+		sm_shop_special_immune_everything_time "10"
+
+		// Tank limit on the field before infected can buy a tank. (0=Can't buy Tank)
+		sm_shop_infected_tank_limit "1"
+
+		// Witch limit on the field before infected can buy a witch. (0=Can't buy Witch)
+		sm_shop_infected_witch_limit "4"
+
+		// How far away from survivors an infected can buy and spawn witch.
+		sm_shop_infected_witch_spawn_safety_range "1250"
+
+		// Amount of seconds before a witch is kicked. (only remove witches bought by player in this plugin)
+		sm_shop_infected_witch_lifespan "180"
+
+		// How long could "Freeze-Infected" state last for survivor special item.
+		sm_shop_special_freeze_time "20"
+
+		// How long could "Gain Adrenaline Power" state last for survivor special item.
+		sm_shop_special_adrenaline_time "20"
+
+		// Maximum money limit. (Money saved when map change/leaving server)
+		sm_shop_max_moeny_limit "32000"
+
+		// How long could "Dead-Eyes" state last for survivor special item.
+		sm_shop_special_dead_eyes_time "60"
+
+		// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		sm_shop_kill_infected_announce_type "1"
+
+		// Database to save money to.
+		// empty = don't connect to database
+		//  (MySQL & SQLite supported)
+		sm_shop_database ""
 		```
 </details>
 
@@ -394,25 +394,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How to modify the item price</summary>
 
-	* L4D2_Buy_Store.sp line 167 ~ 272
+	* Modify ```data/L4D2_Buy_Store.cfg```
 </details>
 
 * <details><summary>Database</summary>
 
-	* ```sm_shop_CookiesCached_enable "1"```, this uses CookiesCached to save player money
-	* if you want to cross server database, set sm_shop_database "shop" and set *sourcemod\configs\databases.cfg*
-		```php
-		"shop"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
-
+	* Choose one of the following method to save money
+		1. ```sm_shop_CookiesCached_enable "1"```, this uses CookiesCached to save player money
+		2. if you want to cross server database, set ```sm_shop_database "shop"``` and set *sourcemod\configs\databases.cfg*
+			```php
+			"shop"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
 </details>
 
 * Apply to | 適用於
@@ -435,6 +435,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.2 (2023-11-7)
+		* Add repeat buy in survivor meanu and infected menu
+		* Add data file, more convenient to edit item price
+
 	* v5.1 (2023-4-28)
 		* Optimize Code
 
@@ -453,17 +457,147 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 人類與特感的購物商城 (附有特殊商品與資料庫)
 
-* 功能
-	1. (人類) 殺死特感與小殭屍獲取金額
-	2. (特感) 對倖存者造成傷害獲取金額
-	3. 自定義各項商品的金額
-	4. 自定義獲取的金額
-	5. 通關與滅團都有獎勵
-	6. 可設置購物冷卻時間
-	7. 特感玩家能幫自己購買特感復活，亦能購買Tank與Witch
-	8. 有特殊商品
-	9. 金錢轉移
-	10. 跨伺服器資料庫儲存設定
+* <details><summary>圖示</summary>
+
+	<br/>![zho/L4D2_Buy_Store_1](image/zho/L4D2_Buy_Store_1.jpg)
+	<br/>![zho/L4D2_Buy_Store_2](image/zho/L4D2_Buy_Store_2.jpg)
+	<br/>![zho/L4D2_Buy_Store_3](image/zho/L4D2_Buy_Store_3.jpg)
+	<br/>![zho/L4D2_Buy_Store_4](image/zho/L4D2_Buy_Store_4.jpg)
+	<br/>![zho/L4D2_Buy_Store_5](image/zho/L4D2_Buy_Store_5.jpg)
+</details>
+
+* 原理
+	* (人類) 殺死特感與小殭屍獲取金額
+	* (特感) 對倖存者造成傷害獲取金額
+	* 輸入!buy購買商品，有特殊商品
+	* 能購轉移金錢給其他玩家
+	* 跨伺服器資料庫儲存設定
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/L4D2_Buy_Store.cfg
+		```php
+		// 倖存者與特感隊伍必須有至少4位以上的真人玩家才會啟動插件
+		sm_shop_player_require "4"
+
+		// 為1時，使用 CookiesCached 儲存玩家金錢. 意思是說，下次開服時，玩家依然保留上次遊玩的金額
+		sm_shop_CookiesCached_enable "1"
+
+		// 殺死 Boomer 獲得的金額
+		sm_shop_boomkilled "10"
+
+		// 殺死 Charger 獲得的金額
+		sm_shop_chargerkilled "30"
+
+		// 殺死 Smoker 獲得的金額
+		sm_shop_smokerkilled "20"
+
+		// 殺死 Hunter 獲得的金額
+		sm_shop_hunterkilled "20"
+
+		// 殺死 Jockey 獲得的金額
+		sm_shop_jockeykilled "25"
+
+		// 殺死 Spitter 獲得的金額
+		sm_shop_spitterkilled "10"
+
+		// 每對Tank造成40滴傷害，獲得一元
+		sm_shop_tank_hurt "40"
+
+		// 殺死 Witch 獲得的金額
+		sm_shop_witchkilled "80"
+
+		// 殺死 普通感染者 獲得的金額
+		sm_shop_zombiekilled "1"
+
+		// 使用治療包療隊友 獲得的金額
+		sm_shop_heal_teammate "100"
+
+		// 電擊器復活隊友 獲得的金額
+		sm_shop_defi_save "200"
+
+		// 拯救倒地的隊友(掛邊不算) 獲得的金額
+		sm_shop_help_teammate_save "30"
+
+		// 使倖存者倒地的特感玩家(掛邊不算) 獲得的金額
+		sm_shop_infected_survivor_incap "30"
+
+		// 殺死倖存者的特感玩家(掛邊不算) 獲得的金額
+		sm_shop_infected_survivor_killed "100"
+
+		// 為1時，友傷會扣除金錢 (1hp = 1元)
+		sm_shop_survivor_TK_enable "1"
+
+		// 不能在這些地圖上購買汽油桶 (無空白). (0=全部地圖，留白=無)
+		sm_shop_gascan_map_off "c1m4_atrium,c6m3_port,c14m2_lighthouse"
+
+		// 不能在這些地圖上購買可樂瓶 (無空白). (0=全部地圖，留白=無)
+		sm_shop_cola_map_off "c1m2_streets"
+
+		// (倖存者特殊商品) "超級瑪利歐 跳躍+1" 最大跳躍數
+		sm_shop_special_max_jump_limit "3"
+
+		// (倖存者特殊商品) "無限子彈" 效果時間
+		sm_shop_special_infinite_ammo_time "20"
+
+		// 過關進入安全室時，活著的倖存者獲得的金額 (非救援關卡).
+		sm_shop_stage_complete "400"
+
+		// 破完地圖上救援載具時，活著的倖存者獲得的金額 (救援關卡).
+		sm_shop_final_mission_complete "3000"
+
+		// 滅團之後倖存者扣除的金額
+		// 滅團之後特感玩家獲得的金額
+		sm_shop_final_mission_lost "300"
+
+		// 為1時，特感也能購買商品
+		sm_shop_infected_enable "1"
+
+		// 特感玩家必須等人類至少出門安全區域10秒後才能購買商品 (0=特感可以在任意時間點購買)
+		sm_shop_infected_wait_time "10"
+
+		// 特感玩家再次購買商品的冷卻時間 (0=無冷卻時間).
+		sm_shop_infected_cooltime_block "30.0"
+
+		// 倖存者再次購買商品的冷卻時間 (0=無冷卻時間).
+		sm_shop_survivor_cooltime_block "5.0"
+
+		// (特感特殊商品) "God 上帝模式" 效果時間
+		sm_shop_special_immune_everything_time "10"
+
+		// 場上的Tank數量達到此限制時，特感不能購買Tank生成 (0=無法購買Tank)
+		sm_shop_infected_tank_limit "1"
+
+		// (特感特殊商品) 場上的Witch數量達到此限制時，特感不能購買Witch生成 (0=無法購買Witch)
+		sm_shop_infected_witch_limit "4"
+
+		// (特感特殊商品) 特感玩家必須離倖存者多遠才能購買 Witch生成
+		sm_shop_infected_witch_spawn_safety_range "1250"
+
+		// 特感玩家購買的Witch在180秒後將被移除
+		sm_shop_infected_witch_lifespan "180"
+
+		// (倖存者特殊商品) "冰凍世界" 效果時間
+		sm_shop_special_freeze_time "20"
+
+		// (倖存者特殊商品) "注射興奮劑" 效果時間
+		sm_shop_special_adrenaline_time "20"
+
+		// 最大能儲存的金額
+		sm_shop_max_moeny_limit "32000"
+
+		// (倖存者特殊商品) "心靈透視" 效果時間
+		sm_shop_special_dead_eyes_time "60"
+
+		// "你殺死XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		sm_shop_kill_infected_announce_type "1"
+
+		// 資料庫設定
+		// 留白 = 不使用資料庫
+		// (支援 MySQL & SQLite)
+		sm_shop_database ""
+		```
+</details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
@@ -632,14 +766,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>如何設定各商品金額</summary>
 
-	* 源碼檔案第167到272行
+	* 修改文件 ```data/L4D2_Buy_Store.cfg```
 </details>
 
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. 使用指令 sm_shop_CookiesCached_enable "1" 能幫玩家儲值金額到本地伺服器上
-		2. 跨伺服器儲值金額，設定 sm_shop_database "shop"，然後設定文件 *sourcemod\configs\databases.cfg*
+		1. 使用指令 ```sm_shop_CookiesCached_enable "1"``` 能幫玩家儲值金額到本地伺服器上
+		2. 跨伺服器儲值金額，設定 ```sm_shop_database "shop"```，然後設定文件 *sourcemod\configs\databases.cfg*
 			```php
 			"shop"
 			{

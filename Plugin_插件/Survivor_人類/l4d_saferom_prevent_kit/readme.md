@@ -109,11 +109,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 愚蠢的新人一直拿包治療
 	* 拿包跑出去，補完再進來
 
-* 功能
-	* 可設置起始區域是否能打包
-	* 可設置終點區域是否能打包
-	* 可設置走到一定地圖路程過後是否能打包
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_saferoom_prevent_kit.cfg

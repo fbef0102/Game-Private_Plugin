@@ -151,17 +151,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* 效果: 假設Tank目前移動速度為210<br/>
 	當AI Tank被AK47射中時，速度變成210 - 210 * 0.17 * 0.6 = 188<br/>
-		當真人Tank被AK47射中時，速度變成210 - 210 * 0.1 * 0.6 = 197<br/>
+	當真人Tank被AK47射中時，速度變成210 - 210 * 0.1 * 0.6 = 197<br/>
 		```php
 		l4d_slowdown_gunfire_tank "0.17"
 		l4d_slowdown_gunfire_tank_player "0.1"
 		l4d_slowdown_ak_percent "0.6"
 		```
 
-	* 效果: 當AI特感被任一槍械射中時，槍緩速度為遊戲預設計算方式<br/>
+	* 效果: 當AI特感被任一槍械射中時，沒有槍緩減速<br/>
 	當真人特感被任一槍械射中時，沒有槍緩減速<br/>
 		```php
-		l4d_slowdown_gunfire_si "-1.0"
+		l4d_slowdown_gunfire_si "0.0"
 		l4d_slowdown_gunfire_player "0.0"
 		```
 </details>

@@ -168,15 +168,3 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_rpg_friendly_fire_ignore_exlode "1"
 		```
 </details>
-
-* 功能
-	1. 一秒後計算總友傷，然後反彈給攻擊者
-	2. 倒地者不受到友傷
-	3. 近戰武器不造成友傷
-	4. 剛進來的玩家一段時間內不能造成友傷
-	5. 與隊友太近不會造成友傷
-	6. 超過友傷次數處死攻擊者
-	7. 造成友傷過大處死攻擊者
-	8. 造成友傷的次數越多次，反彈給攻擊者的傷害越大
-	9. 受到友傷的次數越多次，下次承受的友傷越小
-	10. 火焰跟爆炸友傷能忽略

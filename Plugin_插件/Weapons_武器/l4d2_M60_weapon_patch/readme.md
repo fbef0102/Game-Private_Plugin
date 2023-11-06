@@ -18,20 +18,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * cfg/sourcemod/l4d2_M60_weapon_patch.cfg
         ```php
+        // If 1, allow players to pick up ammo to resupply the M60.
+        l4d2_M60_weapon_patch_resupply "1"
+
         // If 1, drop M60 when reaching 0 clip/ammo.
         l4d2_M60_weapon_patch_drop "0"
 
-        // If 1, allow players to pick up ammo to resupply the M60.
-        l4d2_M60_weapon_patch_resupply "1"
+        // M60 Reload Speed is multiplied by this value (clamped between 0.2 and 1.0)
+        l4d2_M60_weapon_patch_weaponreload_rate "1.0"
 
         // If 1, Refill M60 Explosive Ammo on pickup
         l4d2_M60_weapon_patch_upgrade_explosive_fix "1"
 
         // If 1, Refill M60 Incendiary Ammo on pickup
         l4d2_M60_weapon_patch_upgrade_incendiary_fix "1"
-
-        // M60 Reload Speed is multiplied by this value (clamped between 0.2 and 1.0)
-        l4d2_M60_weapon_patch_weaponreload_rate "1.0"
         ```
 </details>
 
@@ -79,8 +79,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 升級滿發的火焰子彈與高爆子彈
     * 當M60子彈與彈藥歸0時，不會自動丟棄M60武器消失
 
-* 功能
-    * 可設置M60填裝速度
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d2_M60_weapon_patch.cfg
+        ```php
+        // 為1時，M60武器可以填充彈藥
+        l4d2_M60_weapon_patch_resupply "1"
+
+        // 為1時，M60武器子彈歸0時自動丟棄
+        l4d2_M60_weapon_patch_drop "0"
+
+        // M60 裝彈速度調整 (介於 0.2 ~ 1.0)
+        l4d2_M60_weapon_patch_weaponreload_rate "1.0"
+
+        // 為1時，M60武器可以裝滿高爆子彈
+        l4d2_M60_weapon_patch_upgrade_explosive_fix "1"
+
+        // If 1，M60武器可以裝滿火焰子彈
+        l4d2_M60_weapon_patch_upgrade_incendiary_fix "1"
+        ```
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
