@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2023/11/4 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/11/7 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -65,9 +65,6 @@
       
 * [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
-* <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): 修正相同模組的玩家卻只會能有一位角色發出遊戲角色語音</s> 
-    - 🟦Valve已經修正，無須安裝🟦
-
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn 版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
     - 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
     - 修正第五人以上玩家死亡的時候，屍體在別的角色身上
@@ -78,19 +75,9 @@
 
 * [lfd_both_fixUpgradePack (哈利版本)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): 修正高爆彈與燃燒彈無法被重複角色模組的倖存者撿起來
 
-* 以下兩種方案擇一安裝
-   - A方案: 8+ players Bug Fixes EXTENSION ([Windows](https://forums.alliedmods.net/showpost.php?p=2721138&postcount=295), [Linux](https://forums.alliedmods.net/showpost.php?p=2752412&postcount=301))
-     - 最終分數Bug 無法計算第五位以上的玩家
-     - Charger 無法衝撞第五位以上的玩家
-     - Witch 追錯第五位以上的玩家目標
+* [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
 
-   - B方案: Left-4-fix by Lux
-     - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
-     - [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
-
-* <s>[Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): 修正在二代地圖上生成Zoey角色會導致遊戲崩潰</s>
-    - 🟦Valve已經修正，無須安裝🟦
-    - 🟥只適用於Windows 系統🟥
+* [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 	
 - - - -
 ## 額外檔案

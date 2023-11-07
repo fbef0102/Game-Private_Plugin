@@ -319,7 +319,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Specail Item</summary>
+* <details><summary>Special Item</summary>
 
 	* **Survivor Shop**
 		* Fire

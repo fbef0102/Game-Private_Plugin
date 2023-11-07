@@ -1,5 +1,5 @@
 # Navigation
-> 2023/11/4 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2023/11/7 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -59,9 +59,6 @@
 
 * [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
 
-* <s>[Wrong Voice Owner Fix](https://forums.alliedmods.net/showthread.php?t=322826): When two or more same characters in the game only 1 become source of voices from all same characters</s> 
-    - 🟦Valve already fixed🟦
-
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn Version)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): Fix bug where a survivor will change identity when a player connects/disconnects if there are 5+ survivors
 
 * [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?t=326742): Fixes survivor going AFK game function.
@@ -70,19 +67,9 @@
 
 * [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
 
-* Choose one Method
-   - A Method: 8+ players Bug Fixes EXTENSION ([Windows](https://forums.alliedmods.net/showpost.php?p=2721138&postcount=295), [Linux](https://forums.alliedmods.net/showpost.php?p=2752412&postcount=301))
-     - Survivor finale score bug
-     - Charger stop bug
-     - Witch incorrect player attack
+* [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Fixes charging only allowing to hit 1 of each survivor character index and allows charger smashing into the same survivor more than once, survivors no longer become a brick wall after being charger smashed once.
 
-   - B Method: Left-4-fix by Lux
-     - [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Fixes charging only allowing to hit 1 of each survivor character index and allows charger smashing into the same survivor more than once, survivors no longer become a brick wall after being charger smashed once.
-     - [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Fixes witch going after wrong clone survivor
-
-* <s>[Real Zoey Unlock](https://forums.alliedmods.net/showthread.php?t=308483): Unlocks Zoey. No bugs. No crashes. No fakes. The Real Deal.</s>
-    - 🟦Valve already fixed🟦
-    - 🟥Windows servers only🟥
+* [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Fixes witch going after wrong clone survivor
 
 - - - -
 ## Optional
