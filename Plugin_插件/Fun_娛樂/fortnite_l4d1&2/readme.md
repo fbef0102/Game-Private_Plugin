@@ -139,6 +139,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5.2 (2023-11-10)
+		* Fixed crash when other plugins trying to call "CreateFakeClient"
+
     * v1.5.1 (2023-10-20)
 	    * Ghost infected can not dance
 
