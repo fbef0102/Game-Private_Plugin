@@ -66,9 +66,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2023-11-15)
+		* Improve code
+
 	* v1.2 (2023-7-11)
 		* Require left4dhooks v1.34 or above
-		* 
+		
 	* v1.1 (2023-4-11)
 		* Do not grab the player who is hanging from ledge.
 
