@@ -60,5 +60,11 @@ Charger可以衝撞帶走倒地的倖存者並撞倒他們
 	* 衝刺期間可以撞飛倒地玩家
 	* Bot 也適用
 
-* 功能
-	* 可設定開插件關
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_charger_charge_incap.cfg
+		```php
+		// 0=關閉插件, 1=開啟插件
+		l4d2_charger_charge_incap_enable "1"
+		```
+</details>

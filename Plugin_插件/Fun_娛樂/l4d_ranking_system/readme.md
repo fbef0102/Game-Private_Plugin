@@ -20,9 +20,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
-	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
-	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	3. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	4. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -110,27 +110,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Database</summary>
 
-	* set ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
-		```php
-		"rank"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
+	* Choose one of the following method
+		1. Database across server, set ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
+			```php
+			"rank"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
 
-	* Or local sqlite
-		```php
-		"rank"
-		{
-			"driver"			"sqlite"
-			"database"			"rank_system"
-		}
-		```
+		2. Local database, set *sourcemod\configs\databases.cfg*
+			```php
+			"rank"
+			{
+				"driver"			"sqlite"
+				"database"			"rank_system"
+			}
+			```
 </details>
 
 * Apply to | 適用於

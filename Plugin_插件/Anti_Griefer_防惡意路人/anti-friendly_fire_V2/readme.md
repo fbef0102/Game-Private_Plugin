@@ -47,11 +47,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How to handle FF damage to hanging from ledge player ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
 		anti-friendly_fire_V2_apply_hang_flag "1"
 
-		// (L4D2) How to handle FF Melee damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+		// (L4D2) How to handle FF Melee/Chainsaw damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
 		anti-friendly_fire_V2_apply_melee_flag "1"
 
 		// (L4D2) How to handle FF damage to player who is carried by charger ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
 		anti-friendly_fire_V2_apply_charger_flag "1"
+
+		// (L4D2) How to handle Grenade Launcher damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+		anti-friendly_fire_V2_apply_GL_flag "1"
 
 		// How much distance range between attacker and victim are immune to ff (0=Off).
 		anti-friendly_fire_V2_immune_range "50.0"
@@ -87,6 +90,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7 (2023-11-18)
+		* Add Chainsaw damage
+		* Fixed fire bullet damage
+		* Add grenade launcher damage
 
 	* v1.6 (2023-5-4)
 		* Fixed Melee damage
@@ -133,11 +141,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 掛邊玩家 受到友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
 		anti-friendly_fire_V2_apply_hang_flag "1"
 
-		// (L4D2) 近戰武器 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+		// (L4D2) 近戰武器/電鋸 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
 		anti-friendly_fire_V2_apply_melee_flag "1"
 
 		// (L4D2) 被Charger抓住的玩家 受到友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
 		anti-friendly_fire_V2_apply_charger_flag "1"
+
+		// (L4D2) 榴彈發射器 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+		anti-friendly_fire_V2_apply_GL_flag "1"
 
 		// 與隊友距離多近不會造成友傷 (0=關閉).
 		anti-friendly_fire_V2_immune_range "50.0"

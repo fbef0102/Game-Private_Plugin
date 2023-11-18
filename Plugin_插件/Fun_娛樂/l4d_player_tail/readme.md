@@ -97,26 +97,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Database</summary>
 
-	* set ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
-		```php
-		"tail"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
-	* Or local sqlite
-		```php
-		"tail"
-		{
-			"driver"			"sqlite"
-			"database"			"L4D_Player_Tail"
-		}
-		```
+	* Choose one of the following method
+		1. Database across server, set ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
+			```php
+			"tail"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+
+		2. Local database, set *sourcemod\configs\databases.cfg*
+			```php
+			"tail"
+			{
+				"driver"			"sqlite"
+				"database"			"L4D_Player_Tail"
+			}
+			```
 </details>
 
 * Apply to | 適用於
@@ -252,25 +254,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>資料庫設定</summary>
 
-	* 支援跨伺服器儲值玩家的尾巴特效與顏色，設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
-		```php
-		"tail"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
+	* 以下方法二選一
+		1. 支援跨伺服器儲值玩家的尾巴特效與顏色: 設定 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
+			```php
+			"tail"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
 
-	* 或者本地資料庫
-		```php
-		"tail"
-		{
-			"driver"			"sqlite"
-			"database"			"L4D_Player_Tail"
-		}
-		```
+		2. 本地資料庫: 設定文件 *sourcemod\configs\databases.cfg*
+			```php
+			"tail"
+			{
+				"driver"			"sqlite"
+				"database"			"L4D_Player_Tail"
+			}
+			```
 </details>

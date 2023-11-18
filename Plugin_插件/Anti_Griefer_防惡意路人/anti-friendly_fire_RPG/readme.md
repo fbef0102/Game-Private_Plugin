@@ -69,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// FF Pipe Bomb, Propane Tank, and Oxygen Tank damage to player, 1=Don't calculate counter, 0=apply this plugin and calculate counter
 		l4d_rpg_friendly_fire_ignore_exlode "1"
+
+		// FF Grenade Launcher damage to player, 1=Don't calculate counter, 0=apply this plugin and calculate counter
+		l4d_rpg_friendly_fire_ignore_GL "1"
 		```
 </details>
 
@@ -100,6 +103,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7 (2023-11-18)
+		* Add Chainsaw damage
+		* Fixed fire bullet damage
+		* Add grenade launcher damage
 
 	* v1.6 (2023-5-4)
 		* Fixed Melee damage
@@ -140,7 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 攻擊者身上的attack計數器的預設值. (是正整數)
 		l4d_rpg_friendly_fire_damage_multi "1"
 
-		// 為1時，近戰武器不會造成友傷
+		// 為1時，近戰武器/電鋸 不會造成友傷
 		l4d_rpg_friendly_fire_disable_melee "1"
 
 		// 為1時，當攻擊者造成6次以上的友傷時，處死攻擊者 (預設: 6)
@@ -166,5 +174,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 土製炸彈、瓦斯桶、氧氣罐友傷, 1=不算入計數器, 0=算入計數器
 		l4d_rpg_friendly_fire_ignore_exlode "1"
+
+		// 榴彈發射器友傷, 1=不算入計數器, 0=算入計數器
+		l4d_rpg_friendly_fire_ignore_GL "1"
 		```
 </details>

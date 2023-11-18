@@ -1,5 +1,5 @@
 # Description | 內容
-Kill special infected after spawn over 60 seconds
+Kill special infected after spawn over 60 seconds (Also apply to AI)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -14,11 +14,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* After human infected spawns alive (not ghost state), count down 60 seconds.
-    * After 60 seconds, slay human infected no matter he was tank or pinned survivor.
+	* After infected spawns alive (not ghost state), count down 60 seconds.
+    * After 60 seconds, slay infected no matter he was tank or pinned survivor already.
     * Count down time paused when ghost state
-    * Apply bot too
-    * Admin can type ```!autokill``` to turn off feature individually
+    * Apply to both human and AI infected
 </details>
 
 * Require | 必要安裝
@@ -91,7 +90,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-特感生成60秒之後，強制處死
+特感生成60秒之後，強制處死 (AI特感也適用)
 
 * 圖示
     <br/>![zho/l4d2_infected_spawn_auto_kill_time_1](image/zho/l4d2_infected_spawn_auto_kill_time_1.jpg)
@@ -101,8 +100,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 在真人特感復活之後 (非靈魂狀態)，計時60秒
     * 無論特感是否為Tank、無論是否正在控倖存者，60秒之後自動處死
     * 靈魂狀態時，計時暫停
-    * 特感Bot也適用
-    * 管理員可以輸入 ```!autokill``` 關閉這項功能 (只限自己)
+    * 真人與AI特感玩家都適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -135,7 +133,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，特感Bot也適用自動處死
         l4d2_infected_spawn_auto_kill_time_bot "1"
 
-        // 擁有這些權限的玩家，才可以輸入!autokill (留白 = 任何人都能, -1: 無人)
+        // 擁有這些權限的玩家，才可以輸入!autokill，關閉自動處死功能 (留白 = 任何人都能, -1: 無人)
         l4d2_infected_spawn_auto_kill_time_flags "z"
         ```
 </details>

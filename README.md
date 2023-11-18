@@ -136,22 +136,22 @@
 
   * [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): (Public) The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
     * (公開) 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
-  * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation
-    * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫
+  * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation (Also apply to AI)
+    * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫 (AI特感也適用)
   * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player to the teammate who is much nearer to survivors.
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
-  * [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team
-    * 依據槍械種類修改特感隊伍的槍緩速度
+  * [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team  (Also apply to AI)
+    * 依據槍械種類修改特感隊伍的槍緩速度 (AI特感也適用)
   * [l4d_kick_stuck_infected](/Plugin_插件/Special_Infected_特感/l4d_kick_stuck_infected): Kick special infected bots if they don't attack and can't be seen by survivors within certain time
     * AI 特感一段時間內不攻擊或卡住將會被處死
-  * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder
-    * 特感在爬梯或蹲下期間自動加速移動
-  * [l4d_si_immunity](/Plugin_插件/Special_Infected_特感/l4d_si_immunity): Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type
-    * 特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害
+  * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder (Also apply to AI)
+    * 特感在爬梯或蹲下期間自動加速移動 (AI特感也適用)
+  * [l4d_si_immunity](/Plugin_插件/Special_Infected_特感/l4d_si_immunity): Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type (Also apply to AI)
+    * 特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害 (AI特感也適用)
   * [l4d2_infected_strong_power](/Plugin_插件/Specil_Infected_特感/l4d2_infected_strong_power): Add power abilities to infected
     * 給真人特感玩家增加許多能力
-  * [l4d2_infected_spawn_auto_kill_time](/Plugin_插件/Special_Infected_特感/l4d2_infected_spawn_auto_kill_time): Kill special infected after spawn over 60 seconds
-    * 特感生成60秒之後，強制處死
+  * [l4d2_infected_spawn_auto_kill_time](/Plugin_插件/Special_Infected_特感/l4d2_infected_spawn_auto_kill_time): Kill special infected after spawn over 60 seconds (Also apply to AI)
+    * 特感生成60秒之後，強制處死 (AI特感也適用)
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -606,7 +606,6 @@
 偶爾會利用遊戲拍些迷因影片
 * 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)：有六年的sourcemod經驗，寫過L4D1與L4D2 對抗、戰役、寫實、清道夫模式相關遊戲插件，處理過windows/linux 伺服器、資料庫、FastDL
 * ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)：非專業的模組大佬
-* 我的網站
 
 * <details><summary><b>遊戲事蹟</b></summary>
 

@@ -401,7 +401,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Choose one of the following method to save money
 		1. ```sm_shop_CookiesCached_enable "1"```, this uses CookiesCached to save player money
-		2. if you want to cross server database, set ```sm_shop_database "shop"``` and set *sourcemod\configs\databases.cfg*
+		2. Database across server, set ```sm_shop_database "shop"``` and set *sourcemod\configs\databases.cfg*
 			```php
 			"shop"
 			{

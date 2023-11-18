@@ -22,9 +22,9 @@
 
 * 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
-	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
-	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	3. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	4. 可選 - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
 * <details><summary>指令</summary>
 
@@ -164,25 +164,26 @@
 
 * <details><summary>資料庫設定</summary>
 
-	* 支援跨伺服器儲值經驗值，設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
-		```php
-		"rank"
-		{
-			"driver"			"default"
-			"host"				"x.x.x.x"
-			"database"			"yourdatabase"
-			"user"				"youruser"
-			"pass"				"yourpass"
-			"port"				"yourport"
-		}
-		```
-		
-	* 或者本地資料庫
-		```php
-		"rank"
-		{
-			"driver"			"sqlite"
-			"database"			"rank_system"
-		}
-		```
+	* 以下方法二選一
+		1. 支援跨伺服器儲值經驗值: 設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
+			```php
+			"rank"
+			{
+				"driver"			"default"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+			
+		2. 本地資料庫: 設定文件 *sourcemod\configs\databases.cfg*
+			```php
+			"rank"
+			{
+				"driver"			"sqlite"
+				"database"			"rank_system"
+			}
+			```
 </details>

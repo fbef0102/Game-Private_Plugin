@@ -1,5 +1,5 @@
 # Description | 內容
-Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type
+Turns special infected immunes to survivors's fire, exploisve, shove, melee... various damamge type (Also apply to AI)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -23,6 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* explosive bullet (DMG_BLAST & DMG_BULLET)
 		* melee weapon (DMG_SLASH or DMG_CLUB)
 		* Grenade Launcher (No dmg, but still get stumble)
+	* Apply to both human and AI infected
 </details>
 
 * Require | 必要安裝
@@ -99,10 +100,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害
+特感免疫人類的火焰、高爆彈、近戰武器、電鋸、震退....等等各種傷害 (AI特感也適用)
 
 * 原理
-	* 特感Bot與真人特感都適用
+	* 真人與AI特感都適用
 	* 特感免疫的傷害有 (如果是倖存者攻擊)
 		* 人類右鍵推，不會被震退
 		* 火瓶、汽油桶、煙火盒等等...，不會著火
