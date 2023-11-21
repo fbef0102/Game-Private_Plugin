@@ -33,35 +33,56 @@
 		// 0=插件關閉, 1=插件開啟.
 		l4d_ranking_system_allow "1"
 
-		// 殺死Boomer所獲得的經驗值
-		l4d_ranking_system_boomk_illed "3"
-
-		// 殺死Charger所獲得的經驗值
-		l4d_ranking_system_charger_killed "7"
+		// 至少需要X位真人玩家在場才能獲得經驗值.
+		l4d_ranking_system_player_require "2"
 
 		// 儲存經驗值、稱號、排行系統的資料庫設定. (支援 MySQL & SQLite)
 		l4d_ranking_system_database "rank"
 
-		// 空爆Hunter所獲得的經驗值
-		l4d_ranking_system_hunter_skeeted "8"
+		// 殺死Smoker所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_smoker_killed "5"
 
-		// 殺死Jockey所獲得的經驗值
+		// 殺死Boomer所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_boomer_illed "3"
+
+		// 殺死Hunter所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_hunter_killed "8"
+
+		// 殺死Jockey所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_jockey_killed "6"
+
+		// 殺死Charger所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_charger_killed "7"
+
+		// 殺死Spitter所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_spitter_killed "3"
+
+		// 殺死Witch所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_witch_killed "100"
+
+		// 殺死Tank所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_tank_killed "30"
+
+		// 殺死普通感染者所獲得的經驗值 (0=關閉)
+		l4d_ranking_system_zombie_killed "1"
+
+		// 當殺死 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank, 128=Witch, 256=普通感染者時 提示獲得經驗值. 數字相加起來 (0=關閉提示, 511=全部)
+		l4d_ranking_system_zombie_notify_flag "0"
 
 		// 當玩家 1=連線進服後, 2=離開伺服器時, 4=加入倖存者時 提示所有人該玩家的排名. 數字相加起來 (0=關閉提示, 7=全部)
 		l4d_ranking_system_join_leave_notify_flag "7"
 
-		// 至少需要X位真人玩家在場才能獲得經驗值.
-		l4d_ranking_system_player_require "2"
-
-		// 如果為1=玩家名稱會加上稱號，0=玩家名稱不加稱號
+		// 玩家在聊天室框聊天時，1=玩家名稱會加上稱號，0=玩家名稱不加稱號
 		l4d_ranking_system_rank_display_name "1"
 
-		// 殺死Smoker所獲得的經驗值
-		l4d_ranking_system_smoker_killed "5"
+		// '經驗排行榜' 顯示多少個排名玩家?
+		l4d_ranking_system_top_rank_numbers "200"
 
-		// 殺死Spitter所獲得的經驗值
-		l4d_ranking_system_spitter_killed "3"
+		// 團滅損失XX經驗值. (0=關閉)
+		l4d_ranking_system_survivor_mission_lost "50"
+
+		// 倖存者倒地損失XX經驗值. (0=關閉)
+		l4d_ranking_system_survivor_incap "50"
 
 		// 倖存者死亡損失XX經驗值. (0=關閉)
 		l4d_ranking_system_survivor_death "50"
@@ -71,27 +92,6 @@
 
 		// 倖存者攻擊隊友損失友傷乘上X倍的經驗值. (0=關閉)
 		l4d_ranking_system_survivor_ff_multi "2"
-
-		// 倖存者倒地損失XX經驗值. (0=關閉)
-		l4d_ranking_system_survivor_incap "50"
-
-		// 團滅損失XX經驗值. (0=關閉)
-		l4d_ranking_system_survivor_mission_lost "50"
-
-		// 殺死Tank所獲得的經驗值
-		l4d_ranking_system_tank_killed "30"
-
-		// '經驗排行榜' 顯示多少個排名玩家?
-		l4d_ranking_system_top_rank_numbers "200"
-
-		// 殺死Witch所獲得的經驗值
-		l4d_ranking_system_witch_killed "100"
-
-		// 殺死普通感染者所獲得的經驗值
-		l4d_ranking_system_zombie_killed "1"
-
-		// 當殺死 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank, 128=Witch, 256=普通感染者時 提示獲得經驗值. 數字相加起來 (0=關閉提示, 511=全部)
-		l4d_ranking_system_zombie_notify_flag "0"
 		```
 </details>
 

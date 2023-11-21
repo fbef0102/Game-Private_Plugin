@@ -18,9 +18,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_scripted_hud_3](image/l4d2_scripted_hud_3.jpg)
 	* Layout 4 - 版面四
 	<br/>![l4d2_scripted_hud_4](image/l4d2_scripted_hud_4.jpg)
-	
-	* Coordinate diagram - HUD座標圖
-	<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>
@@ -30,7 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Default HUDX_Text</summary>
 
-	To Switch Default HUDX_Text, please modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~5)
 	* HUD1_Text: 
 		1. Time and Survivor/Infected count
 	* HUD2_Text: 
@@ -44,11 +40,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		2. Survivor health
 	* HUD5_Text: 
 		1. Infected Mic Speaking
-			* Only Enable when server does not enable alltalk
 			* Only Infected team can see
 	* Center_Text: 
 		1. Spectator Mic Speaking
-			* Only Enable when server does not enable alltalk
 			* Only Spectator team can see
 </details>
 
@@ -67,6 +61,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~5) cvar text. If both empty, then load GetHUD*_Text functions
 		* The limit of each HUD text is up to 127 characters.
 		* HUD Text can be moved and animated effect, please read cfg.
+</details>
+
+* <details><summary>FAQ</summary>
+
+	* How to switch HUD Text?
+		* Modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~5)
+
+	* How to switch HUD position?
+		* Modify ```l4d2_scripted_hud_hud?_x``` cvar (? is 1~5)
+		* Modify ```l4d2_scripted_hud_hud?_y``` cvar (? is 1~5)
+		* Coordinate diagram
+		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
+
+	* How to write message in HUD text as I want?
+		1. Modify ```data\l4d2_scripted_hud.cfg``` "HUD_Texts"
+		2. Or Modify ```l4d2_scripted_hud_hud?_text``` cvar (? is 1~5)
+
+	* Why hud disappear or being cut?	
+		* The limit of each HUD text is up to 127 characters.
+		* hud position depends on Gaming Monitor Resolutions
 </details>
 
 * Require | 必要安裝
@@ -436,6 +450,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// HUD 5 Text area Height.
 		l4d2_scripted_hud_hud5_height "0.3"
 
+		// The text you want to display in the HUD.
+		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD*_Text functions.
+		l4d2_scripted_hud_hud5_text ""
+
+		// The text you want to display in the HUD.
+		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD*_Text functions.
+		l4d2_scripted_hud_hud5_text ""
+
 		// Aligns the HUD 5 text horizontally.
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud5_text_align "1"
@@ -477,7 +499,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0h (2023-07-19)
+	* v1.1h (2023-11-21)
 		* Optimize code and improve performance
 
 	* v1.1.0 (2023-02-13)
@@ -510,7 +532,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>預設的 HUDX 文字 (點我展開)</summary>
 
-	若要換預設的 HUDX 文字請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~5)
 	* HUD1: 
 		1. 目前遊戲時間、倖存者數量、感染者數量
 	* HUD2: 
@@ -520,15 +541,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		2. 擊殺統計排行榜 (普通感染者+特感+Tank+Witch)
 	* HUD4: 
 		1. 倖存者語音說話
-			* 只顯示給倖存者與旁觀者
+			* 只顯示給倖存者隊伍與旁觀者
 		2. 倖存者血量狀態
 	* HUD5: 
 		1. 特感語音說話
-			* 當伺服器沒有開啟全語音，才會顯示
-			* 只顯示給特感
+			* 只顯示給特感隊伍
 	* Center: 
 		1. 旁觀者語音說話
-			* 當伺服器沒有開啟全語音，才會顯示
 			* 只顯示給旁觀者
 </details>
 
@@ -546,3 +565,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUD?_Text 文字 (? 是 1~5)
 	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
 	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
+
+* <details><summary>問題區</summary>
+
+	* 如何更換預設的 HUD 文字?
+		* 請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~5)
+
+	* 如何改變 HUD 位置?
+		* Modify ```l4d2_scripted_hud_hud?_x``` cvar (? is 1~5)
+		* Modify ```l4d2_scripted_hud_hud?_y``` cvar (? is 1~5)
+		* 座標圖
+		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
+
+	* 如何修改在 HUD 加入自己寫的文字?
+		1. 請修改 ```data\l4d2_scripted_hud.cfg``` 的 "HUD_Texts" 格子
+		2. 或修改 ```l4d2_scripted_hud_hud?_text``` 指令(?為數字1~5)
+
+	* 為何 HUD 會移位或被切掉?	
+		* 每個Hud文字上限為127，遊戲限制不能增加
+		* 根據玩家自己的遊戲分辨率，看到的Hud位置會有不同，請斟酌修改位置
+</details>

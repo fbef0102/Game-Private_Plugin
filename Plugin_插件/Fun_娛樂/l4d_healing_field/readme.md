@@ -20,23 +20,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Chance that when the Tank dies a healing field is generated. 0 = Plugin OFF
         l4d_healing_field_chance "80"
 
+        // Sets the max range of the healing field.
+        l4d_healing_field_range "200.0"
+
+        // Sets the duration time of the healing field (Seconds).
+        l4d_healing_field_life "20.0"
+
+        // Sets the amount of health survivors receive per second.
+        l4d_healing_field_health "3"
+
         // The default color of the healing field. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1: Random]
         l4d_healing_field_colors "0 255 0"
 
         // Enables/Disables the glowing on entities. 1 = Glow ON. 0 = Glow OFF.
         l4d_healing_field_glow "1"
 
-        // Sets the amount of health survivors receive per second.
-        l4d_healing_field_health "3"
-
         // Max client Health limit
         l4d_healing_field_health_max "200"
-
-        // Sets the duration time of the healing field (Seconds).
-        l4d_healing_field_life "20.0"
-
-        // Sets the max range of the healing field.
-        l4d_healing_field_range "200.0"
         ```
 </details>
 
@@ -56,6 +56,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1h (2023-11-21)
+        * Fixed Crash: collide error
+
     * v1.0h (2023-5-12)
 	    * Optimize code and improve performance
 		* Fix warnings when compiling on SourceMod 1.11.
@@ -74,14 +77,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * Tank死亡時產生一個光圈，人類在光圈範圍內可以回復HP
-        * 倒地的玩家可以回復，最多300
-        * 站立沒有倒地過的玩家回復實血，可超過100
-        * 站立倒地過的玩家回復虛血，可超過100
+        * 倒地的玩家可以回復，最多300hp
+        * 站立且沒倒地過的玩家回復實血，可超過100hp
+        * 站立且有倒地過的玩家回復虛血，可超過100hp
 
-* 功能
-    * 可調整光圈存活時間、顏色、範圍
-    * 可設置最高回復的血量
-    * 可設置一次能回復的血量值
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d_healing_field.cfg
+        ```php
+        // Tank死亡時，百分比機率產生一個治療光圈，0 = 關閉插件
+        l4d_healing_field_chance "80"
+
+        // 治療光圈最遠的治療範圍
+        l4d_healing_field_range "200.0"
+
+        // 治療光圈持續時間
+        l4d_healing_field_life "20.0"
+
+        // 治療光圈每秒能回復的血量值
+        l4d_healing_field_health "3"
+
+        // 治療光圈的顏色，填入RGB三色 (三個數值介於0~255，需要空格) [-1: 隨機顏色]
+        l4d_healing_field_colors "0 255 0"
+
+        // 為1時，治療光圈會有光芒
+        l4d_healing_field_glow "1"
+
+        // 治療光圈可回復的生命值最大上限
+        l4d_healing_field_health_max "200"
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+	* **在自己身上創造治療光圈 (權限: ADMFLAG_BAN)**
+		```php
+		sm_healing
+		```
+</details>
 
 
 

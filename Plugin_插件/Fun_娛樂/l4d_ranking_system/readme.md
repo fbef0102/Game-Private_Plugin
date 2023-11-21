@@ -29,7 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/l4d_ranking_system.cfg
 		```php
 		// Giving exp for killing a boomer
-		l4d_ranking_system_boomk_illed "10"
+		l4d_ranking_system_boomer_killed "10"
 
 		// Giving exp for killing a charger
 		l4d_ranking_system_charger_killed "30"

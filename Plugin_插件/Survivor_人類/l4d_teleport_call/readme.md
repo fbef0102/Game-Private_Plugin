@@ -19,11 +19,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_teleport_call.cfg
 		```php
-		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		l4d_teleport_call_announce_type "1"
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d_teleport_call_enable "1"
+
+		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_teleport_call_announce_type "1"
 		```
 </details>
 
@@ -72,11 +72,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 圖示
 	* 傳送菜單
-	<br/>![l4d_teleport_call_2](image/l4d_teleport_call_2.jpg)
+	<br/>![zho/l4d_teleport_call_1](image/zho/l4d_teleport_call_1.jpg)
 
 * 原理
 	* 管理員輸入!call 可以傳送玩家到起點、終點、救援區域或身邊
 
-* 功能
-	* 可設置開關
-	* 可設置不同位置的訊息提示
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_teleport_call.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_teleport_call_enable "1"
+
+		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		l4d_teleport_call_announce_type "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **打開傳送菜單 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_call
+		```
+</details>
