@@ -180,8 +180,8 @@
 
   * [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
     * 增強Jockey，賦予多種超能力成為小小的暴君
-  * [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding survivors after they would be incapacitated
-    * Jockey可以繼續騎即將要倒地的倖存者
+  * [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding incapacitated survivors
+    * Jockey可以繼續騎倒地的倖存者
 </details>
 
 * <details><summary><b>Spitter | Spitter</b></summary>

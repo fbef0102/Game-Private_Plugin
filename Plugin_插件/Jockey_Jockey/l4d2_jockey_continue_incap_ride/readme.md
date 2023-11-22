@@ -1,16 +1,22 @@
 # Description | 內容
-Allows jockeys to continue riding survivors after they would be incapacitated
+Allows jockeys to continue riding incapacitated survivors
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/7J76Zh4Yfxk)
+* [Video | 影片展示](https://youtu.be/hSEXo0PvKd4)
 
 * Image | 圖示
 	* Incap Ride Damage (倒地繼續騎)
+	<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.gif)
 	<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.jpg)
-	<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Jockey can ride the incapacitated survivor
+	* BOT Jockey can also ride the incapacitated survivor (Does not affect AI behavior)
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -62,6 +68,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//dcx2 @ 2013
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-11-22)
+		* Jockey now can ride incapacitated survivors
+
 	* v1.0h (2023-2-28)
 		* Rename all cvars
 		* Remake code, convert code to latest syntax
@@ -75,17 +84,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-Jockey可以繼續騎即將要倒地的倖存者
+Jockey可以繼續騎倒地的倖存者
 
 * 原理
-	* Jockey騎尚未失去行動能力的倖存者時，如果倖存者即將倒地，則Jockey可以續騎
-	* 如果傷害超過倒地的狀態300血量，則倖存者直接處死
-	* 此插件不會讓Jockey去騎已經倒在地上的倖存者
+	* Jockey可以繼續騎倒地的倖存者 (掛邊不算)
+	* 如果倖存者即將倒地，則Jockey可以續騎
+	* Bot Jockey也適用
+		* 此插件不會影響AI Jockey的行為，AI Jockey不會主動去騎倒地的倖存者
 
-* 功能
-	* 可設置個模式開關
-	* 可設置只有人類或AI操控的Jockey可以使用這能力
-	* 可設定倒地狀態繼續騎的倍率傷害
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_jockey_continue_incap_ride.cfg
+		```php
+		// 請將想要的功能的數字相加起來 (31=全部, 0=關閉此插件) 
+		// 1=人類玩家扮演的Jockey可以騎, 2=Bot Jockey適用, 4=在對抗/清道夫模式開啟插件, 8=在戰役/生存/寫實模式開啟插件, 16=顯示提示
+		l4d2_jockey_continue_incap_ride_enable "31"
+
+		// 設定倒地狀態繼續騎的倍率傷害
+		l4d2_jockey_continue_incap_ride_multiplier "3.0"
+		```
+</details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 

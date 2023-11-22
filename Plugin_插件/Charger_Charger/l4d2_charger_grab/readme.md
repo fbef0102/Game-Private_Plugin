@@ -11,6 +11,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Grab a survivor with melee and able to jump (徒手抓住倖存者)
 	<br/>![l4d2_charger_grab_1](image/l4d2_charger_grab_1.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Charger can grab the survivor with melee damage
+	* BOT charger can also grab the survivor (Does not affect AI behavior)
+	* Can grab incapacitated survivor
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -85,11 +92,14 @@ Charger可以徒手抓住人類趴趴走
 
 * 原理
 	* 扮演Charger特感使用右鍵直接抓住倖存者趴趴走
+		* 可以抓倒地的倖存者
 	* 抓住期間可以
 		* 空白鍵跳躍
 		* 右鍵釋放，但會有冷卻時間
 		* 左鍵開始捶地板
-	* Bot Charger也適用，但是只能抓住一瞬間然後開始捶地板
+	* Bot Charger也適用
+		* 但是只能抓住一瞬間然後開始捶地板
+		* 此插件不會影響AI Charger的行為，AI Charger不會主動去抓倒地的倖存者
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
