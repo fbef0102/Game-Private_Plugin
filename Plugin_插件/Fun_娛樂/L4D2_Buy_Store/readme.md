@@ -147,6 +147,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		sm_shop_kill_infected_announce_type "1"
 
+		// "Changes how 'You got credits by helping teammate' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		sm_shop_help_teammate_announce_type "1"
+
 		// Database to save money to.
 		// empty = don't connect to database
 		//  (MySQL & SQLite supported)
@@ -591,6 +594,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// "你殺死XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		sm_shop_kill_infected_announce_type "1"
+
+		// "你幫助隊友獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		sm_shop_help_teammate_announce_type "1"
 
 		// 資料庫設定
 		// 留白 = 不使用資料庫

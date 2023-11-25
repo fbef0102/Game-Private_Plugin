@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* Incap Ride Damage (倒地繼續騎)
 	<br/>![l4d2_jockey_continue_incap_ride_1](image/l4d2_jockey_continue_incap_ride_1.gif)
-	<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.jpg)
+	<br/>![l4d2_jockey_continue_incap_ride_2](image/l4d2_jockey_continue_incap_ride_2.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -68,6 +68,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//dcx2 @ 2013
 	//HarryPotter @ 2023
 	```
+	* v1.2h (2023-11-25)
+		* Add gamedata to support damage hurt, thanks to [Forgetest](https://github.com/jensewe)
+
 	* v1.1h (2023-11-22)
 		* Jockey now can ride incapacitated survivors
 
