@@ -44,6 +44,7 @@
     * 以交易日期計算只有一年保固期，一年內插件有問題或者出現bug或者有優化可以免費更新修復到好
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
+      * 🟥 擅自修改源碼，將失去保固期
     * 保密交易，不會公開透露交易資訊與買家個資
     * 會給源碼sp檔案，不得隨意二次發布、分享
   </details>
@@ -85,6 +86,7 @@
     * 1-Year warranty since deal, fix any bug for free
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
+      * 🟥 You are free to modify source code for your convenience, but this will void the warranty. 
     * Privacy Policy, other people will never know our deal
     * Provide source code, don't distribute or share
   </details>
@@ -347,6 +349,10 @@
     * 管理員可以移除任何玩家身上的裝備與武器
   * [l4d_view_mods_pickup_anim](/Plugin_插件/Weapons_武器/l4d_view_mods_pickup_anim): Press R using pick up anim when full ammo (View weapons mod)
     * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
+  * [l4d_death_weapon_lock](/Plugin_插件/Weapons_武器/l4d_death_weapon_lock): Lock the weapons and items dropped by dead survivors, no one else can pick up.
+    * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
+  * [l4d_multiple_equipment](/Plugin_插件/Weapons_武器/l4d_multiple_equipment): Carry 2 weapons or items in each slot
+    * 每個人可以攜帶兩種武器或物品
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

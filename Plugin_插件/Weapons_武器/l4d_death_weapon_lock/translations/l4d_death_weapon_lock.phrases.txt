@@ -1,0 +1,9 @@
+"Phrases"
+{
+	"Deny"
+	{
+		"en"			"You can't pick up his/her weapons"
+		"zho"			"你不能撿起這位玩家的武器與物品"
+		"chi"			"你不能捡起这位玩家的武器与物品"
+	}
+}

@@ -1,0 +1,79 @@
+"Phrases"
+{
+	"You can carry more primary weapons"
+	{
+		"en"			"Carry one more primary weapons"
+		"zho"			"可多攜帶一把主武器"
+		"chi"			"可多携带一把主武器"
+	}
+	
+	"You can carry more secondary weapons"
+	{
+		"en"			"You can carry one more secondary weapons"
+		"zho"			"可多攜帶一把副武器"
+		"chi"			"可多携带一把副武器"
+	}
+	
+	"You can carry more throwable items"
+	{
+		"en"			"You can carry one more throwable items"
+		"zho"			"可多攜帶一瓶投擲物"
+		"chi"			"可多携带一瓶投掷物"
+	}
+	
+	"You can carry more Slots 3 items"
+	{
+		"en"			"You can carry one more Slots 3 items"
+		"zho"			"可多攜帶 slot 3 物品"
+		"chi"			"可多携带 slot 3 物品"
+	}
+	
+	"You can carry more Slots 4 items"
+	{
+		"en"			"You can carry one more Slots 4 items"
+		"zho"			"可多攜帶 slot 4 物品"
+		"chi"			"可多携带 slot 4 物品"
+	}
+	
+	"Double Q (C)"
+	{
+		"en"			"[{olive}TS{default}] Press {green}Double Q{default} or {green}Single 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}TS{default}] 雙擊 {green}Ｑ{default} 或單擊 {green}1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}TS{default}] 双击 {green}Ｑ{default} 或单击 {green}1,2,3,4,5{default} 切换备用装备"
+	}
+	
+	"Double Q"
+	{
+		"en"			"Press Double Q or Single slot 1,2,3,4,5 to switch equipments"
+		"zho"			"雙擊 Ｑ 或單擊 1,2,3,4,5 切換備用武器裝備"
+		"chi"			"双击 Ｑ 或单击 1,2,3,4,5 切换备用武器装备"
+	}
+	
+	"Single (C)"
+	{
+		"en"			"[{olive}TS{default}] {green}Single 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}TS{default}] 單擊 {green}1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}TS{default}] 单击 {green}1,2,3,4,5{default} 切换备用装备"
+	}
+	
+	"Single"
+	{
+		"en"			"Single slot 1,2,3,4,5 to switch equipments"
+		"zho"			"單擊 1,2,3,4,5 切換備用裝備"
+		"chi"			"单击 1,2,3,4,5 切换备用装备"
+	}
+	
+	"Command (C)"
+	{
+		"en"			"[{olive}TS{default}] Type {green}!sw{default} to switch equipments"
+		"zho"			"[{olive}TS{default}] 輸入 {green}!sw{default} 切換備用裝備"
+		"chi"			"[{olive}TS{default}] 输入 {green}!sw{default} 切换备用装备"
+	}
+	
+	"Command"
+	{
+		"en"			"Type !sw to switch equipments"
+		"zho"			"輸入 !sw 切換備用裝備"
+		"chi"			"输入 !sw 切换备用装备"
+	}
+}

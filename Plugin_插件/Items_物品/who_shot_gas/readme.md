@@ -11,11 +11,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	* who is the culprit (打爆汽油桶的兇手)
 	<br/>![who_shot_gas_1](image/who_shot_gas_1.jpg)
-	* display the last players who shot the gas (指令!shotgas顯示)
+	* !shotgas: display the last players who shot the gas (指令!shotgas顯示)
 	<br/>![who_shot_gas_2](image/who_shot_gas_2.jpg)
 	* announce message when player destroyed the gas (即時顯示)
 	<br/>![who_shot_gas_3](image/who_shot_gas_3.jpg)
-	* display all players' gascan destroyed stats. (指令!gas顯示)
+	* !gas: display all players' gascan destroyed stats. (指令!gas顯示)
 	<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
 
 * Apply to | 適用於
@@ -72,20 +72,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/who_shot_gas.cfg
 		```php
-		// (L4D2) If 1, Announce when green gas can (scavenge) being shot.
-		who_shot_gas_announce_when_destroy_green "1"
-
-		// If 1, Announce when red gas can being shot.
-		who_shot_gas_announce_when_destroy_red "1"
-
-		// (L4D2) If 1, Announce when yellow gas can (scavenge) being shot.
-		who_shot_gas_announce_when_destroy_yellow "1"
+		// Output to the chat last X players to explodes (last hit) a gascan. (0=OFF)
+		who_shot_gas_number "5"
 
 		// If 1, Ignore gas can being shot before game starts (Survival/Scavenge)
 		who_shot_gas_ignore_before_game "1"
@@ -96,8 +92,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Ignore gas can if ignited by special infected (Ex. Spitter)
 		who_shot_gas_ignore_infected "1"
 
-		// Output to the chat last X players to explodes (last hit) a gascan. (0=OFF)
-		who_shot_gas_number "5"
+		// If 1, Announce when red gas can being shot.
+		who_shot_gas_announce_when_destroy_red "1"
+
+		// (L4D2) If 1, Announce when yellow gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_yellow "1"
+
+		// (L4D2) If 1, Announce when green gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_green "1"
 		```
 </details>
 
@@ -119,10 +121,48 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 誰他馬打爆最後一個汽油桶
 
 * 原理
-	* 哪位傻B點燃汽油桶，適合生存/清道夫模式之下找出兇手
+	* 汽油桶被摧毀時，聊天窗顯示兇手
 	* 生存/清道夫模式下計時開始之前，忽略被摧毀的汽油桶
 
-* 功能
-	* 可輸入指令!shotgas查看誰摧毀最後幾個汽油桶
-	* 可輸入指令!gas查看玩家摧毀汽油桶的數量
-	* 可開關即時顯示
+* 用意在哪?
+	* 哪位傻B點燃汽油桶，適合生存/清道夫模式之下找出兇手
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/who_shot_gas.cfg
+		```php
+		// 顯次最後五個摧毀汽油桶的兇手 (0=關閉)
+		who_shot_gas_number "5"
+
+		// 為1時，遊戲計時開始之前忽略摧毀的汽油桶 (生存/清道夫 模式)
+		who_shot_gas_ignore_before_game "1"
+
+		// 為1時，忽略被火焰摧毀的汽油桶
+		who_shot_gas_ignore_fire "0"
+
+		// 為1時，忽略被Spitter摧毀的汽油桶
+		who_shot_gas_ignore_infected "1"
+
+		// 為1時，當紅色的汽油桶被摧毀時顯示公告
+		who_shot_gas_announce_when_destroy_red "1"
+
+		// (L4D2) 為1時，當黃色的汽油桶被摧毀時顯示公告
+		who_shot_gas_announce_when_destroy_yellow "1"
+
+		// (L4D2) 為1時，當綠色的汽油桶被摧毀時顯示公告
+		who_shot_gas_announce_when_destroy_green "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+	
+	* **查看誰摧毀最後幾個汽油桶**
+		```php
+		sm_shotgas
+		```
+
+	* **查看玩家摧毀汽油桶的數量**
+		```php
+		sm_gas
+		```
+</details>
