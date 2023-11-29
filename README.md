@@ -257,6 +257,8 @@
     * 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
   * [l4d2_common_infected_nightmare](/Plugin_插件/Common_Infected_普通感染者/l4d2_common_infected_nightmare): Common infected spawns with random health, speed, size, damage, armor. Make sure that hordes become your worst nightmare.
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
+  * [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
+    * 隨著玩家人數越多，殭屍/屍潮 數量越來越多
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
@@ -648,8 +650,7 @@
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付報酬
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
-  * ✗不幫忙架設伺服器、不幫忙安裝插件，請一切自己來，但過程遇到任何問題可以詢問教學
-  * 我這裡不提供懶人安裝包
+  * ✗不幫忙架設伺服器、不幫忙安裝插件、不提供懶人安裝包，請自己先做功課，但過程遇到任何問題可以詢問教學
   * ✗沒有源碼的插件，請附上來源網址
 </details>
 

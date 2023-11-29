@@ -21,18 +21,18 @@
 		"chi"			"可多携带一瓶投掷物"
 	}
 	
-	"You can carry more Slots 3 items"
-	{
-		"en"			"You can carry one more Slots 3 items"
-		"zho"			"可多攜帶 slot 3 物品"
-		"chi"			"可多携带 slot 3 物品"
-	}
-	
 	"You can carry more Slots 4 items"
 	{
 		"en"			"You can carry one more Slots 4 items"
 		"zho"			"可多攜帶 slot 4 物品"
 		"chi"			"可多携带 slot 4 物品"
+	}
+	
+	"You can carry more Slots 5 items"
+	{
+		"en"			"You can carry one more Slots 5 items"
+		"zho"			"可多攜帶 slot 5 物品"
+		"chi"			"可多携带 slot 5 物品"
 	}
 	
 	"Double Q (C)"

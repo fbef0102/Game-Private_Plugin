@@ -1,0 +1,49 @@
+"Phrases"
+{
+	"Zombie Count Information:↓↓↓"
+	{
+		"en"	"{green}Zombie Count Information:↓↓↓"
+		"zho"	"{green}殭屍數量資訊:↓↓↓"
+		"chi"	"{green}僵尸数量信息:↓↓↓"
+	}	
+	
+	"z_common_limit"
+	{
+		"#format"	"{1:d}"
+		"en"	"{olive}z_common_limit = {lightgreen}{1}"
+		"zho"	"{olive}殭屍總數量 (z_common_limit) = {lightgreen}{1}"
+		"chi"	"{olive}僵尸总数量 (z_common_limit) = {lightgreen}{1}"
+	}	
+	
+	"z_mega_mob_size"
+	{
+		"#format"	"{1:d}"
+		"en"	"{olive}z_mega_mob_size = {lightgreen}{1}"
+		"zho"	"{olive}警報/機關 殭屍數量 (z_mega_mob_size) = {lightgreen}{1}"
+		"chi"	"{olive}警报/机关 僵尸数量 (z_mega_mob_size) = {lightgreen}{1}"
+	}	
+	
+	"z_mob_spawn_min_size"
+	{
+		"#format"	"{1:d}"
+		"en"	"{olive}z_mob_spawn_min_size = {lightgreen}{1}"
+		"zho"	"{olive}Boomer/自然屍潮 殭屍最少數量 (z_mob_spawn_min_size) = {lightgreen}{1}"
+		"chi"	"{olive}Boomer/自然尸潮 僵尸最少数量 (z_mob_spawn_min_size) = {lightgreen}{1}"
+	}	
+	
+	"z_mob_spawn_max_size"
+	{
+		"#format"	"{1:d}"
+		"en"	"{olive}z_mob_spawn_max_size = {lightgreen}{1}"
+		"zho"	"{olive}Boomer/自然屍潮 殭屍最多數量 (z_mob_spawn_max_size) = {lightgreen}{1}"
+		"chi"	"{olive}Boomer/自然尸潮 僵尸最多数量 (z_mob_spawn_max_size) = {lightgreen}{1}"
+	}
+
+	"Disable"	
+	{
+		"en"	"{green}Zombie Control Disabled"
+		"zho"	"{green}殭屍控制已關閉"
+		"chi"	"{green}僵尸控制已关闭"
+	}
+}
+
