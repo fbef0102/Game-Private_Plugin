@@ -57,7 +57,7 @@
 
    4. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
-      - ```force_install_dir ./My_Server/```
+      - ```force_install_dir ./L4D2_Server/```
          - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
       - ```login anonymous```
       - ```app_update XXXXXX validate```
@@ -159,7 +159,12 @@
       - 🟥UDP Port: 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - 管理密碼: 隨便，不要寫中文
       - 保護 (Valve防作弊系統): 勾選可開啟VAC反作弊檢測 (廢話)
-   3. 檢查Sourcemod是否有正常運作
+
+   3. (Windows) 第一次執行時，如果windows系統有跳出防火牆視窗警訊，請兩個都勾選並允許存取
+      * 只有你在使用電腦，不用怕
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e816140f-7b9e-4dc6-9ad9-c061a2294367)
+
+   4. 檢查Sourcemod是否有正常運作
       - 到伺服器的後台
       <br/>![image](https://i.imgur.com/c0jp5XQ.png)
       - 輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
@@ -313,16 +318,21 @@
    - udp/ip		為伺服器的IP
 		- 前半部 192.168.50.106:27016 是虛擬IP，只有相同網域的能連線進來
 		- 後半部 被塗黑的部分 是公網IP，全世界任何人能連線進來
+      - 🟥其中27016是網路Port，伺服器的端口
    - os		為電腦系統
-   - map	為當前地圖
+   - map	   為當前地圖
    - players		為伺服器內的玩家狀態
 	 
 2. 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` <br/>
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
-   - 如果都無法連線代表網路的路由器(無線基地台、Router)需要調整
-      * 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)，每個品牌操作方式不太一樣，請自行google
+   - 如果都無法連線代表網路的路由器(無線基地台、Router、中華電信的數據機)或電腦的防火牆需要調整
+      * 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)
+         * 每個品牌操作方式不太一樣，請自行google
+      * 確認電腦的防火牆
+         * 沒有阻擋srcds.exe應用程式
+         * 沒有阻擋Port端口
       * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
    

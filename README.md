@@ -545,6 +545,8 @@
     * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
   * [remove_invisible_wall](/Plugin_插件/Miscellaneous_雜項/remove_invisible_wall): Use commans to remove all invisible wall on the map
     * 輸入指令移除地圖上所有的空氣牆
+  * [l4d_lock_cvar](/Plugin_插件/Miscellaneous_雜項/l4d_lock_cvar): Enforces ConVars consistency from the data-file values
+    * 鎖住CVAR的值，不會被遊戲或地圖或玩家竄改
 </details>
 
 * <details><summary><b>只有中文的插件列表</b></summary>

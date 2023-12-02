@@ -15,10 +15,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* When new round begins, freeze all survivors and infecteds, and display readyup hud
 		* Survivors can not leave saferoom
-		* Infected can not spawn
+		* (Versus) Infected can not spawn
 	* Players have to type ```!ready``` to mark as ready
 	* Once everyone is ready, the game starts
 	* Type ```!hide``` or ```!show``` to close or open readyup hud
+	* This Plugin also work in coop/realism mode
 </details>
 
 * Require | 必要安裝
@@ -164,13 +165,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 每一回合開始之時，所有玩家會暫時不能遊玩，左方顯示準備介面
 		* 倖存者無法離開安全室
-		* 特感無法復活
+		* (對抗) 特感無法復活
 	* 玩家必須輸入!ready表示已準備好遊玩
 	* 當所有玩家準備好之後，遊戲就會開始
-		* 戰役下倖存者玩家準備
-		* 對抗下全體玩家準備
-	* 如果還有玩家沒有準備好，倖存者無法出去安全區域，特感也無法復活
+	* 也適用戰役/寫實模式，所有倖存者玩家準備好，遊戲才會開始
 
 * 功能
 	1. 自行決定Ready介面要顯示甚麼內容
-	2. 管理員可以強制開始遊戲
+	2. 管理員輸入```!forcestart```可以強制開始遊戲
