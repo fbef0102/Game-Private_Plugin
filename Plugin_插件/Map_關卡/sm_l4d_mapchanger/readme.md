@@ -143,6 +143,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				"scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
 				"scavenge_nextname" "c2m1_highway" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
 			}
+
+			// If map name not in this file
+			// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs\missioncycle.coop.txt
+			// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs\missioncycle.versus.txt
+			// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs\missioncycle.survival.txt
+			// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs\missioncycle.scavenge.txt
 		} 
 		```
 

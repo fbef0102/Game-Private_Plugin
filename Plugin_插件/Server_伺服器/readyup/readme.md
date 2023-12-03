@@ -168,7 +168,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* (對抗) 特感無法復活
 	* 玩家必須輸入!ready表示已準備好遊玩
 	* 當所有玩家準備好之後，遊戲就會開始
-	* 也適用戰役/寫實模式，所有倖存者玩家準備好，遊戲才會開始
+	* 戰役/寫實/生存模式也適用，所有倖存者玩家準備好，遊戲才會開始
 
 * 功能
 	1. 自行決定Ready介面要顯示甚麼內容

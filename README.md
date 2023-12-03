@@ -353,8 +353,6 @@
     * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
   * [l4d_death_weapon_lock](/Plugin_插件/Weapons_武器/l4d_death_weapon_lock): Lock the weapons and items dropped by dead survivors, no one else can pick up.
     * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
-  * [l4d_multiple_equipment](/Plugin_插件/Weapons_武器/l4d_multiple_equipment): Carry 2 weapons or items in each slot
-    * 每個人可以攜帶兩種武器或物品
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -517,6 +515,8 @@
     * 管理員輸入指令能透視看到武器與物資
   * [l4d2_shield_equip](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
     * 新武器: 防暴盾牌
+  * [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot
+    * 每個人可以攜帶兩種武器或物品
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

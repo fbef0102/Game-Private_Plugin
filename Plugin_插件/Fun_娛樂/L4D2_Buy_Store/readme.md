@@ -66,8 +66,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Giving money for killing a zombie
 		sm_shop_zombiekilled "1"
 
-		// Giving money for healing people with kit
-		sm_shop_heal_teammate "100"
+		// If 1, Giving money for healing people with kit (Money=Amount of health restored)
+		sm_shop_heal_teammate "1"
 
 		// Giving money for saving people with defibrillator
 		sm_shop_defi_save "200"
@@ -513,8 +513,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 殺死 普通感染者 獲得的金額
 		sm_shop_zombiekilled "1"
 
-		// 使用治療包療隊友 獲得的金額
-		sm_shop_heal_teammate "100"
+		// 使用治療包療隊友 可以獲得金額 (獲得金額=治療回復的血量)
+		sm_shop_heal_teammate "1"
 
 		// 電擊器復活隊友 獲得的金額
 		sm_shop_defi_save "200"
