@@ -1,0 +1,31 @@
+"Phrases"
+{
+	"Fully charged"
+	{
+		"en"			"Fully charged. Activate the Jump!"
+		"zho"			"已充能完成. 可隨時按 Space 超級自爆"
+		"chi"			"已充能完成. 可随时按 Space 超级自爆"
+	}
+	
+	"Super Explode Charging"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Super Explode Charging : {1} %%%%"
+		"zho"			"正在充能超級自爆 : {1} %%%%"
+		"chi"			"正在充能超级自爆 : {1} %%%%"
+	}
+	
+	"Charge Expire"
+	{
+		"en"			"Charge Expired...Resetting..."
+		"zho"			"充能過長...請重新充能..."
+		"chi"			"充能过长...请重新充能..."
+	}
+	
+	"Charge Failed"
+	{
+		"en"			"Charge Failed...Resetting..."
+		"zho"			"充能失敗...請重新充能..."
+		"chi"			"充能失败...请重新充能..."
+	}
+}

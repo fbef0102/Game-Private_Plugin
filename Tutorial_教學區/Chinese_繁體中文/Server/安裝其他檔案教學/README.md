@@ -56,7 +56,7 @@
 	4. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 			```php
-			// 強制將伺服器真人玩家人數上限改成18，可以自行修改數值
+			// 伺服器真人玩家人數上限，可以自行修改數值
 			sv_maxplayers 18
 			sv_visiblemaxplayers 18
 
