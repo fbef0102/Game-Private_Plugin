@@ -1,0 +1,36 @@
+"Phrases"
+{
+	"Amount In Tank Wave"
+	{
+		"#format" "{1:d}"
+		"en"	"[{olive}TS{default}] Amount In Tank Wave: {green}{1}"
+		"zho"	"[{olive}TS{default}] 每局Tank數量: {green}{1}"
+		"chi"	"[{olive}TS{default}] 每局坦克数量: {green}{1}"
+	}
+	"Escape Tank Amount"
+	{
+		"#format" "{1:d}"
+		"en"	"[{olive}TS{default}] Escape Tank Amount: {green}{1}"
+		"zho"	"[{olive}TS{default}] 最後救援的Tank數量: {green}{1}"
+		"chi"	"[{olive}TS{default}] 最后救援的坦克数量: {green}{1}"
+	}
+	"Next Tank Spawn"
+	{
+		"#format" "{1:d},{2:d}"
+		"en"	"[{olive}TS{default}] Next Tank Spawn: {green}{1}%%{default} - Amount: {green}{2}"
+		"zho"	"[{olive}TS{default}] 下次Tank生成: {green}{1}%%{default} - 數量: {green}{2}"
+		"chi"	"[{olive}TS{default}] 下次坦克生成: {green}{1}%%{default} - 数量: {green}{2}"
+	}
+	"No Tank Spawn"
+	{
+		"en"	"[{olive}TS{default}] Next Tank Spawn: {green}None"
+		"zho"	"[{olive}TS{default}] 下次Tank生成: {green}None"
+		"chi"	"[{olive}TS{default}] 下次坦克生成: {green}None"
+	}
+	"Please Wait"
+	{
+		"en"	"[{olive}TS{default}] Next Tank Spawn: {green}Please Wait Until survivors leave saferoom"
+		"zho"	"[{olive}TS{default}] 下次Tank生成: {green}請等待遊戲開始"
+		"chi"	"[{olive}TS{default}] 下次坦克生成: {green}请等待游戏开始"
+	}
+}

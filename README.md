@@ -224,9 +224,10 @@
     * 燃燒Tank的玩家會被減速慢行
   * [l4d2_tankonfire_boost](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Increase the speed and power of tanks when on fire.
     * Tank燃燒時，速度與力量會提升
-    * 燃燒Tank的玩家會被減速慢行
   * [l4d_tank_ghost_spawn](/Plugin_插件/Tank_坦克/l4d_tank_ghost_spawn): When player gets the tank, he will become ghost tank and freely choose anywhere to spawn
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
+  * [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn numbers of Tanks in different places on the map + Tanks pass to infected players
+    * 在地圖上不同路程分別生成坦克，一個關卡中生成多隻Tank，對抗模式也適用
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -249,6 +250,10 @@
     * Witch不會著火+也不會因為著火而失去目標
   * [l4d_witch_chase_target_lock](/Plugin_插件/Witch_女巫/l4d_witch_chase_target_lock): Fixed the issue that witch sometimes changes target to attack special infected or other people, the witch will never change the initial target
     * 修復Witch轉移目標攻擊特感或其他人，不管多少人阻擋她的路，Witch永遠不會改變目標
+  * [witch_glow](/Plugin_插件/Witch_女巫/witch_glow): Sets glows on witches everyone can see
+    * 在Witch身上打上光圈，所有人都可以看見Witch在哪裡
+  * [l4d_witch_spawn](/Plugin_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+    * 遊戲開始後每隔一段時間在地圖上生成Witch
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
