@@ -226,8 +226,8 @@
     * Tank燃燒時，速度與力量會提升
   * [l4d_tank_ghost_spawn](/Plugin_插件/Tank_坦克/l4d_tank_ghost_spawn): When player gets the tank, he will become ghost tank and freely choose anywhere to spawn
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
-  * [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn numbers of Tanks in different places on the map + Tanks pass to infected players
-    * 在地圖上不同路程分別生成坦克，一個關卡中生成多隻Tank，對抗模式也適用
+  * [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+    * 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -310,6 +310,8 @@
     * 義和團，刀槍不入，神功護體
   * [l4d2_survivor_strong_power](/Plugin_插件/Survivor_人類/l4d2_survivor_strong_power): Add power abilities to survivors
     * 給真人倖存者玩家增加許多能力
+  * [l4d_kill_combo](/Plugin_插件/Survivor_人類/l4d_kill_combo): Display Kill Combo and play sound when killing special infected
+    * 連續擊殺特感會有提示與音效
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -468,6 +470,8 @@
     * 強化AI Bot的智商與行為
   * [l4d_grenade_throwing_bots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_grenade_throwing_bots): Allows Bots To Throw Grenades Themselves.
     * AI Bot可以主動扔膽汁瓶、燃燒瓶、土製炸彈，提高智商不會亂丟
+  * [l4d_survivor_bot_preferrence](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_survivor_bot_preferrence): Change the favorite weapon of each character bot
+    * 更改AI Bot的喜愛武器順序，優先拿取合適的武器
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

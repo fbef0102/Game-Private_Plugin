@@ -1,5 +1,5 @@
 # Description | 內容
-Spawn numbers of Tanks in different places on the map + Tanks pass to infected players
+Spawn multi Tanks on the map and final rescue
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -114,7 +114,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-在地圖上不同路程分別生成坦克，一個關卡中生成多隻Tank，對抗模式也適用
+一個關卡中或救援期間生成多隻Tank，對抗模式也適用
 
 * 圖示
 	<br/>![zho/l4d_tank_spawn_1](image/zho/l4d_tank_spawn_1.jpg)

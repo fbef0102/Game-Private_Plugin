@@ -49,6 +49,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (Dynamic Adjust) Add this value to '_mob_spawn_max_size_default' each player joins survivor team. (0=off)
 		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
+
+		// If 1, When final rescue starts, disable Dynamic Adjust and restore all official cvars to default value.
+		// Prevent too many common infected and horde keep coming, cause final stage stuck
+		l4d2_auto_add_zombie_final_restore_default "1"
 		```
 </details>
 
@@ -96,6 +100,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-12-7)
+		* When final rescue starts, disable Dynamic Adjust and restore all official cvars to default value.
+		* Prevent too many common infected and horde keep coming, cause final stage stuck
 
 	* v1.0 (2023-11-29)
 	    * Initial Release
@@ -151,6 +159,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (動態調整模式) 每新增一位倖存者，Boomer噴到/自然屍潮 最多的殭屍數量增加幾個. (0=關閉此功能)
 		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
+
+		// 為1時，當救援開始時，將所有的官方指令值改回預設值
+		// 避免殭屍太多，導致救援卡關，無法生成Tank
+		l4d2_auto_add_zombie_final_restore_default "1"
 		```
 </details>
 

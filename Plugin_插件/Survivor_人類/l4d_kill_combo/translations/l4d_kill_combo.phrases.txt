@@ -1,0 +1,100 @@
+"Phrases"
+{
+	"1"
+	{
+		"en"	"First Blood"
+		"zho"	"首殺"
+		"chi"	"第一滴血"
+	}
+	"2"
+	{
+		"en"	"Double Kill"
+		"zho"	"雙殺"
+		"chi"	"双杀"
+	}
+	"3"
+	{
+		"en"	"☆Killing Spree☆"
+		"zho"	"三殺-狂魔"
+		"chi"	"三杀-狂魔"
+	}
+	"4"
+	{
+		"en"	"☆Rampage☆"
+		"zho"	"四殺-無堅不摧"
+		"chi"	"四杀-无坚不摧"
+	}
+	"5"
+	{
+		"en"	"☆Unstoppable☆"
+		"zho"	"五殺-勢不可擋"
+		"chi"	"五杀-势不可挡"
+	}
+	"6"
+	{
+		"en"	"☆Dominating☆"
+		"zho"	"六殺-横掃千軍"
+		"chi"	"六杀-横扫千军"
+	}
+	"7"
+	{
+		"en"	"☆Godlike☆"
+		"zho"	"七殺-神"
+		"chi"	"七杀-神"
+	}
+	"8"
+	{
+		"en"	"☆Legendary☆"
+		"zho"	"八殺-傳說"
+		"chi"	"四杀-传说"
+	}
+	"Multi"
+	{
+		"en"	"☆L4D2 Global Master☆"
+		"zho"	"L4D2天下無雙"
+		"chi"	"求生天下无双"
+	}
+	"All"
+	{
+		"#format"		"{1:N},{2:t}"
+		"en"	"[{green}Combo{default}] {olive}{1}{default} achieves {lightgreen}{2}"
+		"zho"	"[{green}連殺{default}] {olive}{1}{default} 達成了 {lightgreen}{2}"
+		"chi"	"[{green}连杀{default}] {olive}{1}{default} 达成了 {lightgreen}{2}"
+	}
+	"Kill Combo Menu"
+	{
+		"en"	"Kill Combo Menu"
+		"zho"	"連殺介面"
+		"chi"	"连杀介面"
+	}
+	"Sound: On"
+	{
+		"en"	"Sound: On"
+		"zho"	"連殺音效: 打開"
+		"chi"	"连杀音效: 打开"
+	}
+	"Sound: Off"
+	{
+		"en"	"Sound: Off"
+		"zho"	"連殺音效: 關閉"
+		"chi"	"连杀音效: 关闭"
+	}
+	"Display: Off"
+	{
+		"en"	"Display: Off"
+		"zho"	"連殺顯示: 關閉"
+		"chi"	"连杀显示: 关闭"
+	}
+	"Display: Center text"
+	{
+		"en"	"Display: Center text"
+		"zho"	"連殺顯示: 螢幕中間"
+		"chi"	"连杀显示: 萤幕中间"
+	}
+	"Display: Hint"
+	{
+		"en"	"Display: Hint"
+		"zho"	"連殺顯示: 下方黑底白字"
+		"chi"	"连杀显示: 下方黑底白字"
+	}
+}

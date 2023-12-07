@@ -20,6 +20,17 @@
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
 </details>
 
+* 原理
+	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
+	* 友傷黑槍隊友、滅團、倒地、死亡，扣除經驗值
+	* 將頭銜名稱加入到玩家的名字前
+	* 輸入!rank隨時查看自己或他人資料
+	* 必須會設定資料庫，否則此插件無法運作
+
+* 功能
+	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
+	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
+
 * 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
@@ -105,35 +116,6 @@
 		```
 </details>
 
-* 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>版本日誌</summary>
-
-	* v1.2h (2023-6-16)
-		* Delete l4d2_skill_detect
-
-	* v1.1h (2023-6-15)
-		* Add smlib and simple-chatprocessor
-
-	* v1.0h (2023-5-12)
-		* Initial Release
-</details>
-
-* 原理
-	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
-	* 友傷黑槍隊友、滅團、倒地、死亡，扣除經驗值
-	* 將頭銜名稱加入到玩家的名字前
-	* 輸入!rank隨時查看自己或他人資料
-	* 必須會設定資料庫，否則此插件無法運作
-
-* 功能
-	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
-	* 可不要將頭銜名稱加入到玩家的名字前
-	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
-
 * <details><summary>文件設定</summary>
 
 	* ```configs\l4d_ranking_system_V3.cfg``` 設置階級頭銜名稱
@@ -186,4 +168,21 @@
 				"database"			"rank_system"
 			}
 			```
+</details>
+
+* 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>版本日誌</summary>
+
+	* v1.2h (2023-6-16)
+		* Delete l4d2_skill_detect
+
+	* v1.1h (2023-6-15)
+		* Add smlib and simple-chatprocessor
+
+	* v1.0h (2023-5-12)
+		* Initial Release
 </details>
