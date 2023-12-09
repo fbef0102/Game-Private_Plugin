@@ -56,7 +56,8 @@
 	4. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 			```php
-			// 伺服器真人玩家人數上限，可以自行修改數值
+			// 伺服器真人玩家人數上限
+			// 18位真人玩家可以加入伺服器，自行修改此數值
 			sv_maxplayers 18
 			sv_visiblemaxplayers 18
 
@@ -65,8 +66,8 @@
 			sv_force_unreserved 1
 			```
 
-	5. 伺服器啟動時，務必將玩家上限改成32
-        * 玩家上限 = 真人玩家 + AI Bot + AI 特感
+	5. 伺服器啟動時，務必將"玩家上限"改成32
+        * 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
     	* 使用其他軟體開服工具或者是linux系統，請輸入啟動參數```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)

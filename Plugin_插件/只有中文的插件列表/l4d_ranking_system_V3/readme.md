@@ -12,7 +12,7 @@
 
 	* 打開 Rank System 菜單
 	<br/>![l4d_ranking_system_V3_1](image/l4d_ranking_system_V3_1.jpg)
-	* 玩家名子給予Rank稱號
+	* 玩家聊天時，名子前面給予Rank稱號
 	<br/>![l4d_ranking_system_V3_2](image/l4d_ranking_system_V3_2.jpg)
 	* 自訂Rank階級
 	<br/>![l4d_ranking_system_V3_3](image/l4d_ranking_system_V3_3.jpg)
@@ -32,10 +32,11 @@
 	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
 
 * 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
-	3. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	4. 可選 - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	5. 可選 - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
 
 * <details><summary>指令</summary>
 
@@ -176,6 +177,10 @@
 	```
 
 * <details><summary>版本日誌</summary>
+
+	* v1.3h (2023-12-10)
+		* Detect ff damage if incap teammate
+		* 數據庫顯示中文
 
 	* v1.2h (2023-6-16)
 		* Delete l4d2_skill_detect

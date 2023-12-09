@@ -56,7 +56,7 @@
 	4. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
 		```php
-		// Server real player slot is 18, free to modify value
+		// How many real players can joins server, free to modify value
 		sv_maxplayers 18
 		sv_visiblemaxplayers 18
 
@@ -64,8 +64,8 @@
 		sv_allow_lobby_connect_only 0
 		sv_force_unreserved 1
 		```
-	5. Change Max players
-        * Max. players = real player + AI Survivor Bot + AI Infected Bot
+	5. Change Max players, please must be 32
+        * Max. players = Real player + AI Survivor Bot + AI Infected Bot + Spectators
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6c945597-4a3b-4a5c-b3d2-f457fc4895b4)
     	* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)

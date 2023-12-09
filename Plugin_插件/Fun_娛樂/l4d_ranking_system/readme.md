@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Your Rank statistics (你的Rank統計表)
 	<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
-	* Add Rank tag to Name (玩家名字給予Rank稱號)
+	* Add Rank tag to Name in chatbox (聊天框的玩家名字前面給予Rank稱號)
 	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
 	* CSGO Rank (仿CSGO Rank)
 	<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
