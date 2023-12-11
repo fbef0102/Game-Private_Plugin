@@ -286,8 +286,8 @@
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色
-  * [l4d_teleport_call](/Plugin_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu
-    * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
+  * [l4d_teleport_call](/Plugin_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, or to admin self
+    * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援載具區域、身邊
   * [l4d_headshot_reward_sound](/Plugin_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
     * 特感或普通感染者爆頭的時候有獎勵提示與音效
   * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them + survivors always glow with a non-disappearing aura for infected (Even if survivor doesn't move or walk)

@@ -24,11 +24,11 @@
 		"zho"		"傳送到終點 (所有倖存者)"
 		"chi"		"传送到终点 (所有生还者)"
 	}
-	"warp_all_survivors_to_finale"
+	"warp_all_survivors_to_rescue_vehicle"
 	{
-		"en"		"Warp all survivors to finale "
-		"zho"		"傳送到救援區域 (所有倖存者)"
-		"chi"		"传送到救援区域 (所有生还者)"
+		"en"		"Warp all survivors to rescue vehicle"
+		"zho"		"傳送到救援載具區域 (所有倖存者)"
+		"chi"		"传送到救援载具区域 (所有生还者)"
 	}
 	"warp_survivor_here"
 	{
@@ -111,5 +111,29 @@
 		"en"		"Target is not a valid alive player, choose again!"
 		"zho"		"傳送對象不是一個活著的玩家，請重新選擇！"
 		"chi"		"传送对象不是一个活着的玩家，请重新选择！"
+	}
+	"VehicleNotReady"
+	{
+		"en"		"Rescue vehicle is not ready yet!"
+		"zho"		"救援載具尚未來臨！"
+		"chi"		"救援载具尚未来临！"
+	}
+	"VehicleNotReady"
+	{
+		"en"		"Rescue vehicle is not ready yet!"
+		"zho"		"救援載具尚未來臨！"
+		"chi"		"救援载具尚未来临！"
+	}
+	"warp_to_rescue_vehicle"
+	{
+		"en"		"Warp player to rescue vehicle"
+		"zho"		"傳送到救援載具區域 (選擇玩家)"
+		"chi"		"传送到救援载具区域 (选择玩家)"
+	}
+	"Error! Rescue not found"
+	{
+		"en"		"Error! Rescue vehicle zone not found!"
+		"zho"		"錯誤! 無法找到救援載具區域"
+		"chi"		"错误! 无法找到救援载具区域"
 	}
 }

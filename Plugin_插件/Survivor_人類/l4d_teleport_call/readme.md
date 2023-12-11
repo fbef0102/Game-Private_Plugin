@@ -1,5 +1,5 @@
 # Description | 內容
-Teleport Call Menu
+Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, or to admin self
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,8 +8,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/iux1bUZycjM)
 
 * Image
-	* teleport menu
 	<br/>![l4d_teleport_call_1](image/l4d_teleport_call_1.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Admin type ```!call``` to open menu
+	* Teleport players to
+		* Start area
+		* End checkpoint
+		* Final rescue vehicle zone
+		* Admin self position
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -58,6 +67,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2023-12-12)
+		* Update translation
+		* Add new item in menu
+		* Teleport player to final rescue vehicle only after vehicle is ready
+
 	* v1.1h (2023-6-20)
 		* Require left4dhooks v1.33 or above
 		* Renamed "l4d_telpeort_call" to "l4d_teleport_call"
@@ -68,14 +82,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-呼叫傳送功能菜單，能傳送玩家到起點、終點、救援區域
+呼叫傳送功能菜單，能傳送玩家到起點、終點、救援載具區域、身邊
 
 * 圖示
 	* 傳送菜單
 	<br/>![zho/l4d_teleport_call_1](image/zho/l4d_teleport_call_1.jpg)
 
 * 原理
-	* 管理員輸入!call 可以傳送玩家到起點、終點、救援區域或身邊
+	* 管理員輸入!call打開菜單，可以傳送玩家到
+		* 起點
+		* 終點
+		* 救援載具區域
+		* 身邊位置
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

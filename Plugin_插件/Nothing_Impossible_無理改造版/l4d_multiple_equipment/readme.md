@@ -40,6 +40,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_multiple_equipment.cfg
 		```php
+        // 0=Plugin off, 1=Plugin on.
+        l4d_multiple_equipment_enable "1"
+
         // (Primary Weapon), 0=Disable, 1=Enable
         l4d_multiple_equipment_slot0 "1"
 
@@ -101,6 +104,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1h (2023-12-11)
+        * Fixed Knife model
+        * Support Custom Melee
+
     * v1.0h (2023-11-28)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
@@ -140,6 +147,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_multiple_equipment.cfg
 		```php
+        // 0=關閉插件, 1=啟動插件
+        l4d_multiple_equipment_enable "1"
+
         // (主武器 可攜帶兩把), 0=關閉, 1=啟用
         l4d_multiple_equipment_slot0 "1"
 
