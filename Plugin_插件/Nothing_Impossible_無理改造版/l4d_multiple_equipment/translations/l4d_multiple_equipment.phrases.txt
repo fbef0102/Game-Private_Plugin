@@ -37,9 +37,9 @@
 	
 	"Double Q (C)"
 	{
-		"en"			"[{olive}TS{default}] Press {green}Double Q{default} or {green}Single 1,2,3,4,5{default} to switch equipments"
-		"zho"			"[{olive}TS{default}] 雙擊 {green}Ｑ{default} 或單擊 {green}1,2,3,4,5{default} 切換備用裝備"
-		"chi"			"[{olive}TS{default}] 双击 {green}Ｑ{default} 或单击 {green}1,2,3,4,5{default} 切换备用装备"
+		"en"			"[{olive}Multi EQ{default}] Press {green}Double Q{default} or {green}Single 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}備用裝備{default}] 雙擊 {green}Ｑ{default} 或單擊 {green}1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}备用装备{default}] 双击 {green}Ｑ{default} 或单击 {green}1,2,3,4,5{default} 切换备用装备"
 	}
 	
 	"Double Q"
@@ -51,9 +51,9 @@
 	
 	"Single (C)"
 	{
-		"en"			"[{olive}TS{default}] {green}Single 1,2,3,4,5{default} to switch equipments"
-		"zho"			"[{olive}TS{default}] 單擊 {green}1,2,3,4,5{default} 切換備用裝備"
-		"chi"			"[{olive}TS{default}] 单击 {green}1,2,3,4,5{default} 切换备用装备"
+		"en"			"[{olive}Multi EQ{default}] {green}Single 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}備用裝備{default}] 單擊 {green}1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}备用装备{default}] 单击 {green}1,2,3,4,5{default} 切换备用装备"
 	}
 	
 	"Single"
@@ -65,9 +65,9 @@
 	
 	"Command (C)"
 	{
-		"en"			"[{olive}TS{default}] Type {green}!sw{default} to switch equipments"
-		"zho"			"[{olive}TS{default}] 輸入 {green}!sw{default} 切換備用裝備"
-		"chi"			"[{olive}TS{default}] 输入 {green}!sw{default} 切换备用装备"
+		"en"			"[{olive}Multi EQ{default}] Type {green}!sw{default} to switch equipments"
+		"zho"			"[{olive}備用裝備{default}] 輸入 {green}!sw{default} 切換備用裝備"
+		"chi"			"[{olive}备用装备{default}] 输入 {green}!sw{default} 切换备用装备"
 	}
 	
 	"Command"
@@ -75,5 +75,21 @@
 		"en"			"Type !sw to switch equipments"
 		"zho"			"輸入 !sw 切換備用裝備"
 		"chi"			"输入 !sw 切换备用装备"
+	}
+	
+	"You can't pick up same melee"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}Multi EQ{default}] You can't pick up the same melee {green}{1}"
+		"zho"			"[{olive}備用裝備{default}] 不允許撿起相同的近戰 {green}{1}"
+		"chi"			"[{olive}备用装备{default}] 不允许捡起相同的近战 {green}{1}"
+	}
+	
+	"You can't pick up same weapons"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}Multi EQ{default}] You can't pick up the same {green}{1}"
+		"zho"			"[{olive}備用裝備{default}] 不允許撿起相同的 {green}{1}"
+		"chi"			"[{olive}备用装备{default}] 不允许捡起相同的 {green}{1}"
 	}
 }

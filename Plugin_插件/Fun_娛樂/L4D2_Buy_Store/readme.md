@@ -103,7 +103,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_shop_final_mission_complete "3000"
 
 		// Giving money to each infected player for wiping out survivors.
-		sm_shop_final_mission_lost "300"
+		sm_shop_mission_lost "300"
 
 		// If 1, Enable shop for infected.
 		sm_shop_infected_enable "1"
@@ -551,7 +551,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 滅團之後倖存者扣除的金額
 		// 滅團之後特感玩家獲得的金額
-		sm_shop_final_mission_lost "300"
+		sm_shop_mission_lost "300"
 
 		// 為1時，特感也能購買商品
 		sm_shop_infected_enable "1"

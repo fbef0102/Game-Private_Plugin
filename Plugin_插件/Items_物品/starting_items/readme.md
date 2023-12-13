@@ -54,7 +54,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
-	4. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
 
 * Optional | 輔助插件
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin

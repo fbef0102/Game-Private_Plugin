@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. [[INC] Unscramble](/left4dead2/scripting/include/unscramble.inc)
+    3. Optional - [[INC] Unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble/scripting/include/unscramble.inc)
 
 * <details><summary>ConVar | 指令</summary>
 

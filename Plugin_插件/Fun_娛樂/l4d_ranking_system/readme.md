@@ -22,7 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	3. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	4. Optional - [[INC] readyup](/left4dead2/scripting/include/readyup.inc)
+	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
 
 * <details><summary>ConVar | 指令</summary>
 

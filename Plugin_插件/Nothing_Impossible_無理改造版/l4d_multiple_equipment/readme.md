@@ -19,8 +19,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
     * Everyone can carry
-        * 2 primary weapons
-        * 2 melee weapons or pistols
+        * 2 different primary weapons
+        * 2 different melee weapons or pistols
         * 2 thorwable items
         * 2 kits/defibrillators/upgradepacks
         * 2 pills/adrenalines
@@ -34,7 +34,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
+    3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
+    4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
+
+* <details><summary>API | 串接</summary>
+
+	```c++
+    /**
+    * Get client's weapon classname or melee classname in a player's slot.
+    * 
+    * @param client	    Client
+    * @param slot		Weapons Slot (0~4)	
+    * @param str        String to store weapon classname.
+    * @param size       size of String to store.
+    * 
+    * @return		    True if suceed, false if not
+    */
+    native bool Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] str, int size);
+	```
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -44,19 +62,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_multiple_equipment_enable "1"
 
         // (Primary Weapon), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot0 "1"
+        l4d_multiple_equipment_slot0_enable "1"
 
-        // (L4D2 only) (Melee/Pistol), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot1 "0"
+        // (Melee/Pistol), 0=Disable, 1=Enable
+        l4d_multiple_equipment_slot1_enable "0"
 
         // (Throwable Item), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot2 "1"
+        l4d_multiple_equipment_slot2_enable "1"
 
         // (Slots 4 Medkit/Defibrillator/Upgrade Pack), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot3 "1"
+        l4d_multiple_equipment_slot3_enable "1"
 
         // (Slots 5 Pills/Adrenaline), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot4 "1"
+        l4d_multiple_equipment_slot4_enable "1"
+
+        // 1=Allow pikc up same primary weapons (0=Not Allow)
+        l4d_multiple_equipment_slot0_same "0"
+
+        // (L4D2 only) 1=Allow pikc up same melee/pistol weapons (0=Not Allow)
+        l4d_multiple_equipment_slot1_same "0"
+
+        // 1=Allow pikc up same throwable items (0=Not Allow)
+        l4d_multiple_equipment_slot2_same "1"
+
+        // (L4D2 only) 1=Allow pikc up same medkit/fefibrillator/upgrade pack items (0=Not Allow)
+        l4d_multiple_equipment_slot3_same "1"
+
+        // (L4D2 only) 1=Allow pikc up same pill/adrenaline items (0=Not Allow)
+        l4d_multiple_equipment_slot4_same "1"
 
         // How to switch equipments, 0=Single Press slot 1,2,3,4,5, 1=Double Press Q + Single Press slot 1,2,3,4,5
         l4d_multiple_equipment_switch_mode "1"
@@ -102,7 +135,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
+		> 限制每個武器可以拿取的數量，超過就不能拿取
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2h (2023-12-13)
+        * Add cvars to control if players can pick up same weappons and items
+        * Add API
+        * Compatible with l4d_weapon_limits v2.2 or above by harry
 
     * v1.1h (2023-12-11)
         * Fixed Knife model
@@ -128,8 +172,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 每個人可以攜帶
-        * 兩把主武器
-        * 兩把近戰或手槍
+        * 兩把不同的主武器
+        * 兩把不同的近戰或手槍
         * 兩個投擲物
         * 兩個醫療物/電擊器/升級彈包
         * 兩個藥丸/腎上腺素
@@ -142,6 +186,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項
     * 使用自製的角色模組會導致身上攜帶的備用裝備位置錯亂
         * 只有觀感問題，功能不會受到任何影響
+        * 可以使用指令不顯示身上攜帶的備用裝備
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -151,19 +196,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_multiple_equipment_enable "1"
 
         // (主武器 可攜帶兩把), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot0 "1"
+        l4d_multiple_equipment_slot0_enable "1"
 
-        // (限L4D2) (近戰/手槍 可攜帶兩把), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot1 "0"
+        // (近戰/手槍 可攜帶兩把), 0=關閉, 1=啟用
+        l4d_multiple_equipment_slot1_enable "0"
 
         // (投擲物品 可攜帶兩瓶), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot2 "1"
+        l4d_multiple_equipment_slot2_enable "1"
 
         // (Slots 4 醫療包/電擊器/升級彈包 可攜帶兩個), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot3 "1"
+        l4d_multiple_equipment_slot3_enable "1"
 
         // (Slots 5 藥丸/腎上腺素 可攜帶兩個), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot4 "1"
+        l4d_multiple_equipment_slot4_enable "1"
+
+        // (可攜帶相同 主武器), 0=不可以, 1=可以
+        l4d_multiple_equipment_slot0_same "0"
+
+        // (限L4D2) (可攜帶相同 近戰/手槍),  0=不可以, 1=可以
+        l4d_multiple_equipment_slot1_same "0"
+
+        // (可攜帶相同 投擲物品),  0=不可以, 1=可以
+        l4d_multiple_equipment_slot2_same "1"
+
+        // (限L4D2) (可攜帶相同 醫療包/電擊器/升級彈包),  0=不可以, 1=可以
+        l4d_multiple_equipment_slot3_same "1"
+
+        // (限L4D2) (可攜帶相同 藥丸/腎上腺素),  0=不可以, 1=可以
+        l4d_multiple_equipment_slot4_same "1"
 
         // 玩家如何切換裝備, 0=單擊 Slot 1,2,3,4,5 按鈕, 1=雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕
         l4d_multiple_equipment_switch_mode "1"

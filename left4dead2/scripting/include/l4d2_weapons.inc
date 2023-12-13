@@ -5,6 +5,11 @@
 
 #include <sdktools>
 
+/**
+ * Version: 1.0h (2023-12-13)
+ * Author: HarryPotter
+ */
+
 
 enum /*L4D2WeaponSlot*/
 {
@@ -682,7 +687,7 @@ stock int IdentifyWeapon(int entity)
  * @remark Should work on most weapon ents--even spawns, singles, held, etc.
  *
  * @param entity		Index of entity to identify
- * @return int			for the entity if it is a weapon, WEPID_MELEE_NONE otherwise
+ * @return int			for the entity if it is a melee weapon, WEPID_MELEE_NONE otherwise
  */
 stock int IdentifyMeleeWeapon(int entity)
 {
@@ -704,6 +709,26 @@ stock int IdentifyMeleeWeapon(int entity)
 		return id;
 	}
 
+	return WEPID_MELEE_NONE;
+}
+
+/**
+ * Tries to look up a WeaponId for a given Melee Weapon Name. (short names)
+ *
+ * @param weaponName    Weapon name string to look up Id from
+ * @return int			The corresponding Melee WeaponId if found, else WEPID_MELEE_NONE
+ */
+stock int MeleeNameToMeleeId(const char[] meleeName)
+{
+	if (hMeleeWeaponNamesTrie == null) {
+		InitWeaponNamesTrie();
+	}
+	
+	int id;
+	if (hMeleeWeaponNamesTrie.GetValue(meleeName, id)) {
+		return id;
+	}
+	
 	return WEPID_MELEE_NONE;
 }
 
