@@ -130,7 +130,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-刪除大槍、刪除治療包、刪除其他投擲物與物品，並替換成其他武器或物品
+刪除地圖上的大槍、治療包、其他投擲物與物品，並替換成其他武器或物品
 
 * 原理
 	* 地圖載入後，將所有大槍武器刪除並替換成小槍

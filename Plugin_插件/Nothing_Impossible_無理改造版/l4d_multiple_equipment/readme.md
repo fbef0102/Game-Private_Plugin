@@ -24,11 +24,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 2 thorwable items
         * 2 kits/defibrillators/upgradepacks
         * 2 pills/adrenalines
+    * How to take second equipments:
+        1. Take first weapn
+        2. Double Press Q or Single Press slot 1 to switch first weapon into backup (There will be a message)
+        3. Take second weapon
     * How to switch equipments:
         1. Double Press Q + Single Press slot 1,2,3,4,5 to switch equipments
         2. typ ```!sw```
+    * How to restore item:
+        1. Press 1,2,3,4,5 or shove.
     * Can save to next stage in coop/realism
     * Can save if player idle or afk
+    * Drop all equipments when player is dead
 </details>
 
 * Require | 必要安裝
@@ -177,11 +184,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 兩個投擲物
         * 兩個醫療物/電擊器/升級彈包
         * 兩個藥丸/腎上腺素
-    * 如何切換第二把武器或物品
+    * 如何拿取第二把武器
+        1. 撿第一把武器
+        2. 雙擊 Q 或單擊 Slot 1 按鈕，將第一把武器換到備用裝備 (會有提示)
+        3. 撿第二把武器
+    * 如何切換武器或物品
         1. 雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕，切換備用裝備
         2. 輸入 ```!sw```
+    * 如何將第二把武器或物品切回武器欄
+        1. 右鍵推擊或單擊 Slot 1,2,3,4,5 按鈕
     * 戰役/寫實模式中 可以過關保存
     * 即使閒置或AFK也可以保存
+    * 死亡時掉落身上所有第二把武器與物品
 
 * 注意事項
     * 使用自製的角色模組會導致身上攜帶的備用裝備位置錯亂

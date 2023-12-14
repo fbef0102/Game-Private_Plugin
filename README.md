@@ -337,7 +337,7 @@
   * [who_shot_gas](/Plugin_插件/Items_物品/who_shot_gas): Type !gas to disaply who shot the last gas can. + Announce when gas can being shot.
     * 誰他馬打爆汽油桶
   * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Replace big guns with other guns + Replace items with other items
-    * 刪除大槍、刪除治療包、刪除其他投擲物與物品，並替換成其他武器或物品
+    * 刪除地圖上的大槍、治療包、其他投擲物與物品，並替換成其他武器或物品
   * [starting_items](/Plugin_插件/Items_物品/starting_items): Survivors can't pick up weapons and items before the start of each round + Gives health items and throwables to survivors at the start of each round
     * 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資
   * [l4d2_remix_gascan](/Plugin_插件/Items_物品/l4d2_remix_gascan): Increase gas cans in scavenge events, and to be randomly placed by custom list of gas can locations.
@@ -420,6 +420,8 @@
     * 在聊天欄顯示該生存地圖的最少特感擊殺數
   * [l4d_survival_auto_recover](/Plugin_插件/Survival_生存模式/l4d_survival_auto_recover): Auto save survivors if incapacitated or hanging from ledge before survival begins
     * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢復所有血量
+  * [survival_remove_start_items](/Plugin_插件/Survival_生存模式/survival_remove_start_items): Remove survivors' default kits/pills/dual pistol in survival/scavenge mode
+    * 生存模式與清道夫模式中，移除人類身上預設的裝備: 雙手槍、治療包、藥丸
 </details>
 
 * <details><summary><b>Scavenge | 清道夫模式</b></summary> 
