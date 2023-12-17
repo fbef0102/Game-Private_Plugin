@@ -336,7 +336,7 @@
     * 使用治療包時提示個人的治療包使用數量與狀態
   * [who_shot_gas](/Plugin_插件/Items_物品/who_shot_gas): Type !gas to disaply who shot the last gas can. + Announce when gas can being shot.
     * 誰他馬打爆汽油桶
-  * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Replace big guns with other guns + Replace items with other items
+  * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Delete weapons and items on the map and replace guns/items with other guns/items
     * 刪除地圖上的大槍、治療包、其他投擲物與物品，並替換成其他武器或物品
   * [starting_items](/Plugin_插件/Items_物品/starting_items): Survivors can't pick up weapons and items before the start of each round + Gives health items and throwables to survivors at the start of each round
     * 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資

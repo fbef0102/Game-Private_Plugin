@@ -1,5 +1,5 @@
 # Description | 內容
-Replace big guns with other guns + Replace items with other items
+Delete weapons and items on the map and replace guns/items with other guns/items
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>

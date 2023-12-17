@@ -54,6 +54,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // If 1, everyone can pick up weapons and items if owner has left the server
         l4d_death_weapon_lock_left_unlock "1"
+
+        // (Primary Weapon), 1=Lock, 0=UnLock
+        l4d_death_weapon_lock_slot0 "1"
+
+        // (Melee/Pistol), 1=Lock, 0=UnLock
+        l4d_death_weapon_lock_slot1 "1"
+
+        // (Throwable Item), 1=Lock, 0=UnLock
+        l4d_death_weapon_lock_slot2 "1"
+
+        // (Slots 4 Medkit/Defibrillator/Upgrade Pack), 1=Lock, 0=UnLock
+        l4d_death_weapon_lock_slot3 "1"
+
+        // (Slots 5 Pills/Adrenaline), 1=Lock, 0=UnLock
+        l4d_death_weapon_lock_slot4 "1"
 		```
 </details>
 
@@ -83,6 +98,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2h (2023/12/17)
+        * Add cvars to Lock or Unlock each slot weapon/items
 
     * v1.1h (2023/12/13)
         * Add Api
@@ -122,5 +140,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，如果玩家離開伺服器則任何人可以撿起
         l4d_death_weapon_lock_left_unlock "1"
+
+        // (主武器), 1=鎖住, 0=不鎖住
+        l4d_death_weapon_lock_slot0 "1"
+
+        // (近戰/手槍), 1=鎖住, 0=不鎖住
+        l4d_death_weapon_lock_slot1 "1"
+
+        // (投擲物品), 1=鎖住, 0=不鎖住
+        l4d_death_weapon_lock_slot2 "1"
+
+        // (醫療包/電擊器/升級彈包), 1=鎖住, 0=不鎖住
+        l4d_death_weapon_lock_slot3 "1"
+
+        // (藥丸/腎上腺素), 1=鎖住, 0=不鎖住
+        l4d_death_weapon_lock_slot4 "1"
 		```
 </details>

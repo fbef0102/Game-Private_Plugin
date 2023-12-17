@@ -29,8 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_limits_add 0 1 weapon_hunting_rifle
         ```
 
-    * All weapons class name
-    * You can alos set each melee class
+    * All weapons/melee class name
         ```php
         weapon_pistol
         weapon_pistol_magnum
@@ -111,8 +110,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot
-		> 每個人可以攜帶兩種武器或物品
+	1. [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot (No conflict)
+		> 每個人可以攜帶兩種武器或物品 (與此插件不衝突)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
