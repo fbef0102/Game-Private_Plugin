@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Ghost (C)"
+	{
+		"en"	"[{olive}GhostFly{default}] As a ghost you can fly by holding {green}RELOAD{default} button."
+		"zho"	"[{olive}GhostFly{default}] 靈魂狀態下可以按住 {green}R{default} 鍵飛行."
+		"chi"	"[{olive}GhostFly{default}] 灵魂状态下可以按住 {green}R{default} 键飞行."
+	}
+	"Ghost"
+	{
+		"en"	"As a ghost you can fly by holding RELOAD button."
+		"zho"	"靈魂狀態下可以按住 R 鍵飛行."
+		"chi"	"灵魂状态下可以按住 R 键飞行."
+	}
+}

@@ -49,7 +49,7 @@
 * [Remove Lobby Reservation (SilversVersion)](https://forums.alliedmods.net/showpost.php?p=2704023&postcount=103): Once all the lobby players are connected, it will automatically remove the lobby reservation.
     - 🟥Doesn't work in listen server🟥
 
-* [l4dmultislots (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2715546&postcount=249): Allows additional survivor players in server when 5+ player joins the server
+* [l4dmultislots (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): Allows additional survivor players in server when 5+ player joins the server
    - How could I control the number of bots spawned at the start
       - cfg/sourcemod/l4dmultislots.cfg
 		```php
@@ -63,7 +63,7 @@
 
 * [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?t=326742): Fixes survivor going AFK game function.
 
-* [l4dafkfix_deadbot](https://forums.alliedmods.net/showpost.php?p=2772050&postcount=54): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
+* [l4dafkfix_deadbot](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dafkfix_deadbot): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
 
 * [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
 
@@ -92,14 +92,14 @@
 * [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
     - 🟥Doesn't work in listen server🟥
    
-* [Save Weapon Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2757629&postcount=113): L4D2 coop save weapon when map transition if more than 4 players.
+* [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
 
 * [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
     - The Passing Fix - download <b>"Stripper_passingfix.7z"</b> (see Attached Files in [L4D2]Character_manager thread) for the passing to prevent players using L4D1 characters from being teleported/killed in this campaign.
       - Unzip all cfg files in addons\stripper\maps\ 
     - Remove **Survivor Identity Fix for 5+ Survivors** while using this plugin.
 
-* [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2773718&postcount=16): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
+* [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
 
 * [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
     
@@ -114,13 +114,13 @@
 
 - - - -
 ## Fun
-* [Survivor Respawn (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2770929&postcount=18): When a Survivor dies, will respawn after a period of time.
+* [Survivor Respawn (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): When a Survivor dies, will respawn after a period of time.
 
-* [Infected Bots Control Improved](https://forums.alliedmods.net/showpost.php?p=2699220&postcount=1369): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+* [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 
 * [5+ Survivors More Supply](/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
 
-* [Lockdown System Improved](https://forums.alliedmods.net/showpost.php?p=2712869&postcount=54): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
+* [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
 
@@ -128,17 +128,17 @@
 
 * [deathcheck (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cge_l4d2_deathcheck): Prevents mission loss(Round_End) until all human players have died.
 
-* [CSO SupplyBox](https://forums.alliedmods.net/showthread.php?t=335862): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+* [CSO SupplyBox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
 
-* [Back 4 Blood Item hint Improved](https://forums.alliedmods.net/showpost.php?p=2765332&postcount=29): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+* [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
-* [Witch target override Improved](https://forums.alliedmods.net/showpost.php?p=2732048&postcount=9) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+* [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
 
 * [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
 
-* [Graves (Harry Version)](https://forums.alliedmods.net/showpost.php?p=2771370&postcount=24): When a survivor die, on his body appear a grave.
+* [Graves (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): When a survivor die, on his body appear a grave.
 
-* [Rescue vehicle leave timer](https://forums.alliedmods.net/showpost.php?p=2725525&postcount=7): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
+* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
 * [L4D2 Survivors And Infected Shop Improved](/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
 

@@ -27,6 +27,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* <details><summary>API | 串接</summary>
+
+	```c++
+	/**
+	* @brief Called whenever player changed character via csm
+	*
+	* @param client		The client index who changed character
+	* @param m_survivorCharacter The Character index that client changed to
+	*
+	* @noreturn
+	*/
+	forward void CSM_OnClientChangeCharacter(int client, int m_survivorCharacter);
+	```
+</details>
+
 * <details><summary>ConVar</summary>
 
 	* cfg/sourcemod/l4d_h_csm.cfg
@@ -91,8 +106,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022-2023
 	```
-	* v1.3h (2023-6-22)
+	* v1.3h (2023-12-18)
 		* Require left4dhooks v1.33 or above
+		* Add api
 
 	* v1.2h (2023-1-15)
 		* Support L4D1

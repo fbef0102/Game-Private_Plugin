@@ -36,6 +36,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Enable the Damage Shake 
 		l4d_elevator_getin_timer_shake_enable "1"
+
+		// If 1, When time is up, all survivor players are teleported into the elevator
+		l4d_elevator_getin_timer_teleport_player "1"
+
+		// If 1, When time is up, all survivor bots are teleported into the elevator
+		l4d_elevator_getin_timer_teleport_bot "1"
 		```
 </details>
 
@@ -95,6 +101,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2022-12-18)
+		* When time is up, all survivor players are teleported into the elevator
+		* When time is up, all survivor bots are teleported into the elevator
+
 	* v1.1 (2022-11-15)
 		* Cause the damage to incapacitated players outside the evelator/CEDA Trailer
 
@@ -110,7 +120,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 第一位玩家按下電梯按鈕時，開始倒數計時，等待全部玩家進入電梯內且電梯啟動之後才會停止倒數計時
 	* 第一位玩家進入CEDA大拖車（教區第二關），開始倒數計時，等到末端門打開之後才會停止倒數計時
 	* 當時間到之後，還在外面的玩家將處在中毒狀態，每秒受到傷害
-	* 設置文件```data/l4d_elevator_info.txt```，修改每一張地圖的電梯或CEDA大拖車
 	* 支援所有官方地圖 (三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢)
 
 * 用意在哪?
@@ -131,12 +140,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，電梯門外，玩家中毒狀態時螢幕會晃動
 		l4d_elevator_getin_timer_shake_enable "1"
+
+		// 為1時，時間到之後，將所有真人倖存者傳送到電梯內
+		l4d_elevator_getin_timer_teleport_player "1"
+
+		// 為1時，時間到之後，將所有AI倖存者傳送到電梯內
+		l4d_elevator_getin_timer_teleport_bot "1"
 		```
 </details>
 
 * <details><summary>文件設定範例</summary>
 
-	* 文件位於data/l4d_elevator_info.txt
+	* 設置文件```data/l4d_elevator_info.txt```，修改每一張地圖的電梯或CEDA大拖車
+	* 支援所有官方地圖 (三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢)
 		```php
 		"elevator"
 		{

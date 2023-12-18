@@ -134,12 +134,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mr. Zero @ 2011-2012
 	//HarryPotter @ 2022-2023
 	```
-	* v1.1h (2023-7-21)
+	* v1.1h (2023-12-18)
 		* For the infected, survivors always glow with a non-disappearing aura. (Even if survivor doesn't move or walk)
 		* Add cvars about Incap or hanging from ledge Health Glow
 		* Filter which teams can see the health glow.
 		* Interval in seconds to upate the glow rendering
 		* Optimize code and improve performance
+		* Compatible with l4d_h_csm v1.3h or above by harry
 
 	* v1.0h (2022-11-27)
 		* Remake Code

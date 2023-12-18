@@ -150,6 +150,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.3h (2023-12-18)
+        * Fixed empty primary weapons can't now switch equipment
+
     * v1.2h (2023-12-13)
         * Add cvars to control if players can pick up same weappons and items
         * Add API

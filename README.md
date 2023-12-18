@@ -154,6 +154,8 @@
     * 給真人特感玩家增加許多能力
   * [l4d2_infected_spawn_auto_kill_time](/Plugin_插件/Special_Infected_特感/l4d2_infected_spawn_auto_kill_time): Kill special infected after spawn over 60 seconds (Also apply to AI)
     * 特感生成60秒之後，強制處死 (AI特感也適用)
+  * [l4d_ghost_fly](/Plugin_插件/Special_Infected_特感/l4d_ghost_fly): Fly as a ghost.
+    * 靈魂特感可以自由飛行
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

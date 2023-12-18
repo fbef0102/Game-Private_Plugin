@@ -12,7 +12,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 <br/>None
 
-* <details><summary>Data Config</summary
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/server_vpn_hop.cfg
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		server_vpn_hop_allow "1"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+
+	* **Show Server/Vpn List.**
+		```php
+		sm_vpn
+		sm_server
+		```
+
+	* **Reloads the data config.** (Admin Required: ADMFLAG_ROOT)
+		```php
+		sm_vpn_reload
+		sm_server_reload
+		```
+</details>
+
+* <details><summary>Data Config</summary>
 
 	* data/server_port_hop.cfg
 		```php
@@ -35,30 +59,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				}
 			}
 		}
-		```
-</details>
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/server_vpn_hop.cfg
-		```php
-		// 0=Plugin off, 1=Plugin on.
-		server_vpn_hop_allow "1"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	* **Show Server/Vpn List.**
-		```php
-		sm_vpn
-		sm_server
-		```
-
-	* **Reloads the data config.** (Admin Required: ADMFLAG_ROOT)
-		```php
-		sm_vpn_reload
-		sm_server_reload
 		```
 </details>
 
