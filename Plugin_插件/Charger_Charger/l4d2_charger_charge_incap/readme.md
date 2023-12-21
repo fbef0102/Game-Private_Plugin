@@ -8,8 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/2EOpXBKgnxE)
 
 * Image | 圖示
+	* Charge incap
 	<br/>![l4d2_charger_charge_incap_1](image/l4d2_charger_charge_incap_1.gif)
 	<br/>![l4d2_charger_charge_incap_2](image/l4d2_charger_charge_incap_2.gif)
+	* Punch while charging (衝刺期間可以右鍵打人)
+	<br/>![l4d2_charger_charge_incap_3](image/l4d2_charger_charge_incap_3.gif)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -20,6 +23,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_charger_charge_incap_enable "1"
+
+		// 0=Off. 1=Allow punching while charging.
+		l4d2_charger_charge_incap_punch "1"
 		```
 </details>
 
@@ -41,6 +47,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2023-12-21)
+		* Allow punch while charging
+
 	* v1.3 (2023-12-3)
 		* Improve code
 
@@ -58,6 +67,7 @@ Charger可以衝撞帶走倒地的倖存者並撞倒他們
 * 原理
 	* 衝刺期間能夠抓起倒地玩家
 	* 衝刺期間可以撞飛倒地玩家
+	* 衝刺期間可以右鍵打人
 	* Bot 也適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -66,5 +76,8 @@ Charger可以衝撞帶走倒地的倖存者並撞倒他們
 		```php
 		// 0=關閉插件, 1=開啟插件
 		l4d2_charger_charge_incap_enable "1"
+
+		// 0=關閉, 1=可以邊衝刺邊右鍵打人
+		l4d2_charger_charge_incap_punch "1"
 		```
 </details>
