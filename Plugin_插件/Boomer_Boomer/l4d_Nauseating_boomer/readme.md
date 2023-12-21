@@ -230,101 +230,101 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，啟用 "Bile Belly" 能力，降低受到的傷害
 		l4d_Nauseating_boomer_bilebelly_enable "1"
 
-		// "Bile Belly" 能力: 減傷比 (0.0 = 無傷)
+		// (Bile Belly 能力) 減傷比 (0.0 = 無傷)
 		l4d_Nauseating_boomer_bilebelly_amount "0.8"
 
 		// 為1時，啟用 "Bile Blast" 能力，爆炸時造成衝擊波
 		l4d_Nauseating_boomer_bileblast_enable "1"
 
-		// "Bile Blast" 能力: 為1時，衝擊波可以炸到隔著牆壁的人類
+		// (Bile Blast 能力) 為1時，衝擊波可以炸到隔著牆壁的人類
 		l4d_Nauseating_boomer_bileblast_ignore_wall "0"
 
-		// (L4D2) "Bile Blast" 能力: 衝擊波的力道加乘
+		// (L4D2) (Bile Blast 能力) 衝擊波的力道加乘
 		l4d_Nauseating_boomer_bileblast_power_vertical_multiplier "1.5"
 
-		// "Bile Blast" 能力: 內圈衝擊波的傷害
+		// (Bile Blast 能力) 內圈衝擊波的傷害
 		l4d_Nauseating_boomer_bileblast_inner_damage "15.0"
 
-		// "Bile Blast" 能力: 內圈衝擊波的力道
+		// (Bile Blast 能力) 內圈衝擊波的力道
 		l4d_Nauseating_boomer_bileblast_inner_power "200.0"
 
-		// "Bile Blast" 能力: 內圈衝擊波的範圍
+		// (Bile Blast 能力) 內圈衝擊波的範圍
 		l4d_Nauseating_boomer_bileblast_inner_range "200.0"
 
-		// "Bile Blast" 能力: 外圈衝擊波的傷害
+		// (Bile Blast 能力) 外圈衝擊波的傷害
 		l4d_Nauseating_boomer_bileblast_outer_damage "5.0"
 
-		// "Bile Blast" 能力: 外圈衝擊波的力道
+		// (Bile Blast 能力) 外圈衝擊波的力道
 		l4d_Nauseating_boomer_bileblast_outer_power "100.0"
 
-		// "Bile Blast" 能力: 外圈衝擊波的範圍
+		// (Bile Blast 能力) 外圈衝擊波的範圍
 		l4d_Nauseating_boomer_bileblast_outer_range "300.0"
 
 		// 為1時，啟用 "Bile Shower" 能力，倖存者被膽汁噴到後，召喚比平常多的感染者大軍
 		l4d_Nauseating_boomer_bileshower_enable "1"
 
-		// "Bile Shower" 能力: 感染者大軍的屍潮數量
+		// (Bile Shower 能力) 感染者大軍的屍潮數量
 		l4d_Nauseating_boomer_bileshower_mob "1"
 
-		// "Bile Shower" 能力: 5秒後召喚感染者大軍
+		// (Bile Shower 能力) 5秒後召喚感染者大軍
 		l4d_Nauseating_boomer_bileshower_time "5"
 
 		// 為1時，啟用 "Bile Swipe" 能力，用手抓人產生的傷害會持續一段時間
 		l4d_Nauseating_boomer_bileswipe_enable "1"
 
-		// "Bile Swipe" 能力: 發動機率 (100 = 100%).
+		// (Bile Swipe 能力) 發動機率 (100 = 100%).
 		l4d_Nauseating_boomer_bileswipe_chance "100"
 
-		// "Bile Swipe" 能力: 每秒造成的傷害
+		// (Bile Swipe 能力) 每秒造成的傷害
 		l4d_Nauseating_boomer_bileswipe_damage "1"
 
-		// "Bile Swipe" 能力: 傷害持續時間
+		// (Bile Swipe 能力) 傷害持續時間
 		l4d_Nauseating_boomer_bileswipe_duration "4"
 
 		// 為1時，啟用 "Explode FlashBang" 能力，爆炸時附帶閃光彈的效果
 		l4d_Nauseating_boomer_flashbang_enable "1"
 
-		// "Explode FlashBang" 能力: 閃光彈的顏色，填入RGB三色 (三個數值介於0~255，需要空格)
+		// (Explode FlashBang 能力) 閃光彈的顏色，填入RGB三色 (三個數值介於0~255，需要空格)
 		l4d_Nauseating_boomer_flashbang_color "127 235 212"
 
 		// 為1時，啟用 "Flatulence" 能力，每隔一段時間產生煙霧，玩家走進去煙霧裡會受到傷害
 		l4d_Nauseating_boomer_flatulence_enable "1"
 
-		// "Flatulence" 能力: 玩家走進煙霧導致被噴的機率. (20 = 20%)
+		// (Flatulence 能力) 玩家走進煙霧導致被噴的機率. (20 = 20%)
 		l4d_Nauseating_boomer_flatulence_chance "10"
 
-		// "Flatulence" 能力: 煙霧持續時間
+		// (Flatulence 能力) 煙霧持續時間
 		l4d_Nauseating_boomer_flatulence_life "13.0"
 
-		// "Flatulence" 能力: 玩家在煙霧裡每隔兩秒受到傷害
+		// (Flatulence 能力) 玩家在煙霧裡每隔兩秒受到傷害
 		l4d_Nauseating_boomer_flatulence_period "2.0"
 
-		// "Flatulence" 能力: 玩家在煙霧裡受到的傷害
+		// (Flatulence 能力) 玩家在煙霧裡受到的傷害
 		l4d_Nauseating_boomer_flatulence_damage "4"
 
-		// "Flatulence" 能力: 為1時，玩家在煙霧，螢幕會晃動
+		// (Flatulence 能力) 為1時，玩家在煙霧，螢幕會晃動
 		l4d_Nauseating_boomer_flatulence_shake "1"
 
-		// "Flatulence" 能力: 煙霧範圍
+		// (Flatulence 能力) 煙霧範圍
 		l4d_Nauseating_boomer_flatulence_size "100.0"
 
-		// "Flatulence" 能力: Boomer再次產生煙霧的間隔時間
+		// (Flatulence 能力) Boomer再次產生煙霧的間隔時間
 		l4d_Nauseating_boomer_flatulence_time "25.0"
 
 		// 為1時，啟用 "HideHud" 能力，被膽汁噴到，玩家螢幕上的介面會被隱藏
 		l4d_Nauseating_boomer_hidehud_enable "1"
 
-		// "HideHud" 能力: 介面被隱藏的時間
+		// (HideHud 能力) 介面被隱藏的時間
 		l4d_Nauseating_boomer_hidehud_duration "15.0"
 
-		// "HideHud" 能力: 被隱藏的介面 1=武器欄 , 2=手電筒, 4=全部, 8=血量欄, 16=死亡玩家狀態, 32=needssuit (沒作用), 64=misc(隊友的血量), 128=聊天視窗, 256=準心, 512=hide crosshair in vehicle(沒作用), 1024=hide hud when in vehicle(沒作用)
+		// (HideHud 能力) 被隱藏的介面 1=武器欄 , 2=手電筒, 4=全部, 8=血量欄, 16=死亡玩家狀態, 32=needssuit (沒作用), 64=misc(隊友的血量), 128=聊天視窗, 256=準心, 512=hide crosshair in vehicle(沒作用), 1024=hide hud when in vehicle(沒作用)
 		// 將數字相加起來
 		l4d_Nauseating_boomer_hidehud_flag "64"
 
-		// "Recovery CD" 能力: 被膽汁噴到，受到倖存者的傷害時，可以再吐一次
+		// (Recovery CD 能力) 被膽汁噴到，受到倖存者的傷害時，可以再吐一次
 		l4d_Nauseating_boomer_recovery_hurt_enable "0"
 
-		// "Recovery CD" 能力: 被膽汁噴到，被推時，可以再吐一次
+		// (Recovery CD 能力) 被膽汁噴到，被推時，可以再吐一次
 		l4d_Nauseating_boomer_recovery_shoved_enable "1"
 		```
 </details>

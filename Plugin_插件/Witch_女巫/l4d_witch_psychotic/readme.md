@@ -213,94 +213,94 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，開啟 Assimilation 能力: Witch殺死人類後，生成另一隻Witch在倖存者屍體上。
 		l4d_witch_psychotic_assimilation_enable "1"
 
-		// 生成另一隻Witch的機率. [1-100]%
+		// (Assimilation 能力) 生成另一隻Witch的機率. [1-100]%
 		l4d_witch_psychotic_assimilation_chance "100"
 
 		// 為1時，開啟 Death Helmet 能力: 減少Witch頭部傷害。
 		l4d_witch_psychotic_deathhelmet_enable "1"
 
-		// 減少Witch頭部受到的傷害比. (0=無傷)
+		// (Death Helmet 能力) 減少Witch頭部受到的傷害比. (0=無傷)
 		l4d_witch_psychotic_deathhelmet_amount "0.3"
 
 		// 為1時，開啟 Leeching Claw 能力: Witch將倖存者擊倒，回復百分比的血量。
 		l4d_witch_psychotic_leechingclaw_enable "1"
 
-		// 血量回復的百分比. [1-100]%
+		// (Leeching Claw 能力) 血量回復的百分比. [1-100]%
 		l4d_witch_psychotic_leechingclaw_amount "10"
 
 		// 為1時，開啟 Mood Swing 能力: 每一隻Witch會有隨機的血量。
 		l4d_witch_psychotic_moodswing_enable "1"
 
-		// Witch 隨機血量最少值
+		// (Mood Swing 能力) Witch 隨機血量最少值
 		l4d_witch_psychotic_moodswing_hp_min "1000"
 
-		// Witch 隨機血量最大值
+		// (Mood Swing 能力) Witch 隨機血量最大值
 		l4d_witch_psychotic_moodswing_hp_max "1500"
 
 		// 為1時，開啟 Fear Move 能力: 每回合Witch的速度會有所不同。
 		l4d_witch_psychotic_fearmove_enable "1"
 
-		// Witch 每回合隨機速度最小調整.
+		// (Fear Move 能力) Witch 每回合隨機速度最小調整.
 		l4d_witch_psychotic_fearmove_speed_min "0.8"
 
-		// Witch 每回合隨機速度最大調整.
+		// (Fear Move 能力)  Witch 每回合隨機速度最大調整.
 		l4d_witch_psychotic_fearmove_speed_max "1.8"
 
 		// 為1時，開啟 Nightmare Claw 能力: Witch如果將倖存者擊倒(倒地)，倖存者起來會是黑白狀態或者直接被殺死。
 		l4d_witch_psychotic_nightmareclaw_enable "1"
 
-		// Witch如果將倖存者擊倒，處理方式: 1 = 將倖存者變成黑白狀態, 2 = 倖存者直接被殺死.
+		// (Nightmare Claw 能力) Witch如果將倖存者擊倒，處理方式: 1 = 將倖存者變成黑白狀態, 2 = 倖存者直接被殺死.
 		l4d_witch_psychotic_nightmareclaw_type "1"
 
 		// (L4D2) 為1時，開啟 Psychotic Charge 能力: 擋住Witch去路的玩家會被擊飛。
 		l4d_witch_psychotic_psychoticcharge_enable "1"
 
-		// (L4D2) 擊飛的傷害值.
+		// (L4D2) (Psychotic Charge 能力) 擊飛的傷害值.
 		l4d_witch_psychotic_psychoticcharge_damage "10"
 
-		// (L4D2) 擊飛的力道.
+		// (L4D2) (Psychotic Charge 能力) 擊飛的力道.
 		l4d_witch_psychotic_psychoticcharge_power "300.0"
 
 		// 為1時，開啟 Shameful Cloak 能力: Witch會隱形。
 		l4d_witch_psychotic_shamefulcloak_enable "1"
 
-		// 每一隻Witch隱形的機率. [1-100]%
+		// (Shameful Cloak 能力) 每一隻Witch隱形的機率. [1-100]%
 		l4d_witch_psychotic_shamefulcloak_chance "25"
 
-		// 隱形的透明度 [0-255]
+		// (Shameful Cloak 能力) 隱形的透明度 [0-255]
 		l4d_witch_psychotic_shamefulcloak_visibility "100"
 
 		// 為1時，開啟 Sorrowful Remorse 能力: Witch死亡時，會掉落急救包及電擊器。
 		l4d_witch_psychotic_sorrowfulremorse_enable "1"
 
-		// 掉落急救包及電擊器的機率. [1-100]%
+		// (Sorrowful Remorse 能力) 掉落急救包及電擊器的機率. [1-100]%
 		l4d_witch_psychotic_sorrowfulremorse_chance "90"
 
-		// 無人撿起治療包或者電擊器，100秒之後將自動移除. (0=不移除)
+		// (Sorrowful Remorse 能力) 無人撿起治療包或者電擊器，100秒之後將自動移除. (0=不移除)
 		l4d_witch_psychotic_sorrowfulremorse_time "100"
 
 		// 為1時，開啟 Unrelenting Spirit 能力: 減少Witch身體傷害。
 		l4d_witch_psychotic_unrelentingspirit_enable "1"
 
-		// 減少Witch身體受到的傷害比. (0=無傷)
+		// (Unrelenting Spirit 能力) 減少Witch身體受到的傷害比. (0=無傷)
 		l4d_witch_psychotic_unrelentingspirit_amount "0.8"
 
 		// 為1時，開啟 Mind Control 能力: Witch身上擁有特效，任何接近Witch的玩家，螢幕顏色會改變。
 		l4d_witch_psychotic_mindcontrol_enable "1"
 
-		// 每一隻Witch有 Mind Control 能力的機率. [1-100]%
+		// (Mind Control 能力) 每一隻Witch有 Mind Control 能力的機率. [1-100]%
 		l4d_witch_psychotic_mindcontrol_chance "50"
 
-		// 靠近此範圍內的玩家，螢幕顏色會改變。
+		// (Mind Control 能力) 靠近此範圍內的玩家，螢幕顏色會改變。
 		l4d_witch_psychotic_mindcontrol_glow_distance "250"
 
-		// (L4D2) Mind Control Witch 光圈顏色，RGB三色
+		// (L4D2) (Mind Control 能力) Mind Control Witch 光圈顏色，RGB三色
 		l4d_witch_psychotic_mindcontrol_glow_color "100 50 100"
 
-		// (L4D2) Mind Control Witch 光圈發光範圍. (0=沒有光圈)
+		// (L4D2) (Mind Control 能力) Mind Control Witch 光圈發光範圍. (0=沒有光圈)
 		l4d_witch_psychotic_mindcontrol_glow_range "300"
 
-		// 1=靈魂特感視野, 2=紅色, 4=閃電, 8=黃色, 16=特感視野, 32=黑白狀態, 64=藍色, 128=太陽, 255=全部. 螢幕顏色改變的種類，從中隨機挑選. 請將數字相加起來.
+		// (Mind Control 能力) 1=靈魂特感視野, 2=紅色, 4=閃電, 8=黃色, 16=特感視野, 32=黑白狀態, 64=藍色, 128=太陽, 255=全部. 螢幕顏色改變的種類，從中隨機挑選. 請將數字相加起來.
 		l4d_witch_psychotic_mindcontrol_effect "255"
 		```
 </details>

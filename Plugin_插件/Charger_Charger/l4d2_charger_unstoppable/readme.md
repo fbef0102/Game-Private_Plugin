@@ -7,18 +7,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/DZEpU7tS19M)
 
-* Image | 圖示
+* <details><summary>Image | 圖示</summary>
+
 	<br/>![l4d2_charger_unstoppable_1](image/l4d2_charger_unstoppable_1.jpg)
 	<br/>![l4d2_charger_unstoppable_2](image/l4d2_charger_unstoppable_2.gif)
 	<br/>![l4d2_charger_unstoppable_3](image/l4d2_charger_unstoppable_3.gif)
 	<br/>![l4d2_charger_unstoppable_4](image/l4d2_charger_unstoppable_4.gif)
 	<br/>![l4d2_charger_unstoppable_5](image/l4d2_charger_unstoppable_5.gif)
+	<br/>![l4d2_charger_unstoppable_6](image/l4d2_charger_unstoppable_6.gif)
+</details>
 
 * <details><summary>Details</summary>
 
 	* <b>Broken Ribs ability</b> - After a pummel ends, the survivor takes damage over time.
 	* <b>Extinguish Wind ability</b> - The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
-	* <b>Inertia Vault ability</b> - While charging the Charger has the ability to leap into the air. (Human player only)
+	* <b>Inertia Vault ability</b> - While charging the Charger has the ability to leap into the air.
 	* <b>Tesla Fist ability</b> - When the Charger strikes a Survivor with his fist, they are sent flying.
 	* <b>Snapped Leg ability</b> - When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
 	* <b>Stowaway ability</b> - The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
@@ -26,6 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* <b>Void Chamber</b> - When starting a charge, the force is so powerful that it sucks nearby Survivors.
 	* <b>Electric field</b> - When charger dead, spawns an anomaly on charger's body that electrocutes people.
 	* <b>The God of Thunder</b> - When charger spawns, create thunder particle on the right hand.
+	* <b>Charging Punch</b> - Punch while charging.
 </details>
 
 * Require | 必要安裝
@@ -35,87 +39,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d2_charger_unstoppable.cfg
 		```php
-		// Chance that Electric field is produced. (100 = 100%)
-		l4d2_charger_unstoppable_anomaly_chance "100.0"
-
-		// The amount of damage to deal to Survivors when being struck.
-		l4d2_charger_unstoppable_anomaly_damage "5.0"
-
-		// If 1, Enables Electric field ability: When charger dead, spawns an anomaly on charger's body that electrocutes people.
-		l4d2_charger_unstoppable_anomaly_enable "1"
-
-		// How often to damage survivors within range.
-		l4d2_charger_unstoppable_anomaly_interval "1.5"
-
-		// How close entities must be to the anomaly before being struck.
-		l4d2_charger_unstoppable_anomaly_range "200.0"
-
-		// How long can Electric field exist ?
-		l4d2_charger_unstoppable_anomaly_time "10.0"
+		// If 1, Enables Broken Ribs ability: After a pummel ends, the survivor takes damage over time.
+		l4d2_charger_unstoppable_brokenribs_enable "1"
 
 		// Chance that after a pummel ends the Survivor takes damage over time. (100 = 100%)
 		l4d2_charger_unstoppable_brokenribs_chance "100"
 
-		// How much damage is inflicted by Broken Ribs each second.
-		l4d2_charger_unstoppable_brokenribs_damage "2"
-
 		// For how many seconds should the Broken Ribs cause damage.
 		l4d2_charger_unstoppable_brokenribs_duration "5"
 
-		// If 1, Enables Broken Ribs ability: After a pummel ends, the survivor takes damage over time.
-		l4d2_charger_unstoppable_brokenribs_enable "1"
+		// How much damage is inflicted by Broken Ribs each second.
+		l4d2_charger_unstoppable_brokenribs_damage "2"
 
 		// If 1, Enables Extinguish Wind ability: The force of wind the Charger creates while charging is capable of extinguishing flames on his body.
 		l4d2_charger_unstoppable_extinguishingwind_enable "1"
 
-		// If 1, Enables God of the Thunder ability: When charger spawns, create thunder particle on the right hand.
-		l4d2_charger_unstoppable_god_of_the_thunder_enable "1"
-
-		// If 1, Enables Inertia Vault ability: While charging the Charger has the ability to leap into the air. (Human player only)
+		// If 1, Enables Inertia Vault ability: While charging the Charger has the ability to leap into the air.
 		l4d2_charger_unstoppable_inertiavault_enable "1"
 
 		// Power behind the Charger's jump. (set at least 300 to be able to jump)
 		l4d2_charger_unstoppable_inertiavault_power "300.0"
-
-		// Maximum run speed for survivors who actives adrenaline eat while Snapped Leg
-		l4d2_charger_unstoppable_snappedleg_adrenaline_speed "220"
-
-		// Chance that after a charger collision movement speed is reduced. (100 = 100%)
-		l4d2_charger_unstoppable_snappedleg_chance "100"
-
-		// Maximum survivor Crouch speed caused by Snapped Leg
-		l4d2_charger_unstoppable_snappedleg_crouch_speed "60"
-
-		// For how many seconds will the Snapped Leg reduce movement speed.
-		l4d2_charger_unstoppable_snappedleg_duration "6.0"
-
-		// If 1, Enables Snapped Leg ability: When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
-		l4d2_charger_unstoppable_snappedleg_enable "1"
-
-		// Maximum survivor Run speed caused by Snapped Leg
-		l4d2_charger_unstoppable_snappedleg_run_speed "150"
-
-		// Maximum survivor Walk speed caused by Snapped Leg
-		l4d2_charger_unstoppable_snappedleg_walk_speed "75"
-
-		// How much damage is inflicted by Stowaway for each 0.5 second carried.
-		l4d2_charger_unstoppable_stowaway_damage "2.0"
-
-		// If 1, Enables Stowaway ability: The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
-		l4d2_charger_unstoppable_stowaway_enable "1"
-
-		// How much damage is inflicted to the Survivor being used as an Aegis.
-		// Damge = the damage charger received / this cvar valve (0=No damage)
-		l4d2_charger_unstoppable_survivoraegis_divisor "30.0"
-
-		// If 1, Enables Survivor Aegis ability: While charging, the Charger will use the Survivor as an Aegis to absorb damage it would receive.
-		l4d2_charger_unstoppable_survivoraegis_enable "1"
-
-		// Percent of damage the Charger avoids using a Survivor as an Aegis.
-		l4d2_charger_unstoppable_survivoraegis_percent "0.8"
-
-		// Amount of time between Tesla Fists.
-		l4d2_charger_unstoppable_tesla_cooldown "8.0"
 
 		// If 1, Enables Tesla Fist ability: When the Charger strikes a Survivor with his fist, they are sent flying.
 		l4d2_charger_unstoppable_tesla_enable "1"
@@ -123,17 +66,81 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Power behind the Charger's Tesla Fist.
 		l4d2_charger_unstoppable_tesla_power "200.0"
 
-		// Damage the force of the roar causes to nearby survivors.
-		l4d2_charger_unstoppable_voidchamber_damage "10.0"
+		// Amount of time between Tesla Fists.
+		l4d2_charger_unstoppable_tesla_cooldown "8.0"
+
+		// If 1, Enables Snapped Leg ability: When the Charger collides with a Survivor, it snaps their leg causing them to move slower.
+		l4d2_charger_unstoppable_snappedleg_enable "1"
+
+		// Chance that after a charger collision movement speed is reduced. (100 = 100%)
+		l4d2_charger_unstoppable_snappedleg_chance "100"
+
+		// For how many seconds will the Snapped Leg reduce movement speed.
+		l4d2_charger_unstoppable_snappedleg_duration "6.0"
+
+		// Maximum survivor Run speed caused by Snapped Leg
+		l4d2_charger_unstoppable_snappedleg_run_speed "150"
+
+		// Maximum run speed for survivors who actives adrenaline eat while Snapped Leg
+		l4d2_charger_unstoppable_snappedleg_adrenaline_speed "220"
+
+		// Maximum survivor Walk speed caused by Snapped Leg
+		l4d2_charger_unstoppable_snappedleg_walk_speed "75"
+
+		// Maximum survivor Crouch speed caused by Snapped Leg
+		l4d2_charger_unstoppable_snappedleg_crouch_speed "60"
+
+		// If 1, Enables Stowaway ability: The longer the Charger carries a survivor, the more damage caused by the Charger until the charge comes to an end.
+		l4d2_charger_unstoppable_stowaway_enable "1"
+
+		// How much damage is inflicted by Stowaway for each 0.5 second carried.
+		l4d2_charger_unstoppable_stowaway_damage "2.0"
+
+		// If 1, Enables Survivor Aegis ability: While charging, the Charger will use the Survivor as an Aegis to absorb damage it would receive.
+		l4d2_charger_unstoppable_survivoraegis_enable "1"
+
+		// Percent of damage the Charger avoids using a Survivor as an Aegis.
+		l4d2_charger_unstoppable_survivoraegis_percent "0.8"
+
+		// How much damage is inflicted to the Survivor being used as an Aegis.
+		// Damge = the damage charger received / this cvar valve (0=No damage)
+		l4d2_charger_unstoppable_survivoraegis_divisor "30.0"
 
 		// If 1, Enables Void Chamber ability: When starting a charge, the force is so powerful that it sucks nearby Survivors.
 		l4d2_charger_unstoppable_voidchamber_enable "1"
 
-		// Power behind the inner range of Methane Blast.
+		// (Void Chamber) Force power.
 		l4d2_charger_unstoppable_voidchamber_power "150.0"
 
-		// Area around the Tank the bellow will reach.
+		// (Void Chamber) Damage the force of the roar causes to nearby survivors.
+		l4d2_charger_unstoppable_voidchamber_damage "10.0"
+
+		// (Void Chamber) Force Range.
 		l4d2_charger_unstoppable_voidchamber_range "200.0"
+
+		// If 1, Enables Electric field ability: When charger dead, spawns an anomaly on charger's body that electrocutes people.
+		l4d2_charger_unstoppable_anomaly_enable "1"
+
+		// Chance that Electric field is produced. (100 = 100%)
+		l4d2_charger_unstoppable_anomaly_chance "100.0"
+
+		// The amount of damage to deal to Survivors when being struck.
+		l4d2_charger_unstoppable_anomaly_damage "5.0"
+
+		// How close entities must be to the anomaly before being struck.
+		l4d2_charger_unstoppable_anomaly_range "200.0"
+
+		// How long can Electric field exist ?
+		l4d2_charger_unstoppable_anomaly_time "10.0"
+
+		// How often to damage survivors within range.
+		l4d2_charger_unstoppable_anomaly_interval "1.0"
+
+		// If 1, Enables God of the Thunder ability: When charger spawns, create thunder particle on the right hand.
+		l4d2_charger_unstoppable_god_of_the_thunder_enable "1"
+
+		// If 1, Enables Charging Punch ability: Allow punching while charging.
+		l4d2_charger_unstoppable_punch_enable "1"
 		```
 </details>
 
@@ -141,6 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	None
 </details>
+
 * <details><summary>Survivor Aegis Calculation Formula</summary>
 	
 	> Example: Charger gets AWP shot while carrying a survivor<br/>
@@ -196,6 +204,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014-2017
 	//HarryPotter @ 2023
 	```
+	* v1.3h (2023-12-22)
+		* Allow punch while charging
+
 	* v1.2h (2023-5-27)
 		* Add a conver. When charger spawns, create thunder particle on the right hand.
 
@@ -221,7 +232,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 能力1: <b>Broken Ribs</b> - 倖存者被Charger撞完之後爬起身，會受到持續性傷害。
 	* 能力2: <b>Extinguish Wind</b> - Charger 衝刺時，如果身上有著火，火焰回熄滅。
-	* 能力3: <b>Inertia Vault</b> - Charger 衝刺時，可以使用空白鍵跳起來 (只限真人玩家)。
+	* 能力3: <b>Inertia Vault</b> - Charger 衝刺時，可以使用空白鍵跳起來。
 	* 能力4: <b>Snapped Leg</b> - 倖存者被Charger衝刺撞到，行走速度會變慢一段時間。
 	* 能力5: <b>Stowaway</b> - 倖存者被Charger衝刺抓到帶著走時，每0.5秒受到傷害直到衝刺完畢。
 	* 能力6: <b>Survivor Aegis</b> - 倖存者被Charger衝刺抓到帶著走時，他可以拿倖存者當作盾牌減少傷害，且能轉移傷害給該倖存者。
@@ -229,17 +240,116 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 能力8: <b>Tesla Fist</b> - Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家。
 	* 能力9: <b>Electric field</b> - 死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛。
 	* 能力10: <b>God of the Thunder</b> - Chager身上有雷電特效
+	* 能力11: <b>Charging Punch</b> - Chager衝刺期間可以右鍵抓傷人
 
-* 功能
-	* 可設定各能力的開關
-	* 可設定Broken Ribs的機率、傷害持續時間、傷害值
-	* 可設定Inertia Vault的跳起來力道
-	* 可設定Snapped Leg的機率、移動速度 (跑步、靜走、蹲下、腎上腺素狀態下的移動速度)
-	* 可設定Stowaway的傷害值
-	* 可設定Survivor Aegis的減傷比
-	* 可設定Void Chamber的範圍與傷害值
-	* 可設定Tesla Fist的傷害值、彈飛力道
-	* 可設定Electric field的機率、傷害值、範圍、雷電間隔、存在時間
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_charger_unstoppable.cfg
+		```php
+		// 為1時，啟用 "Broken Ribs" 能力，倖存者被Charger撞完之後爬起身，會受到持續性傷害。
+		l4d2_charger_unstoppable_brokenribs_enable "1"
+
+		// (Broken Ribs 能力) 觸發機率
+		l4d2_charger_unstoppable_brokenribs_chance "100"
+
+		// (Broken Ribs 能力) 傷害持續時間
+		l4d2_charger_unstoppable_brokenribs_duration "5"
+
+		// (Broken Ribs 能力) 每秒造成的傷害值
+		l4d2_charger_unstoppable_brokenribs_damage "2"
+
+		// 為1時，啟用 "Extinguish Wind" 能力，Charger 衝刺時，如果身上有著火，火焰回熄滅。
+		l4d2_charger_unstoppable_extinguishingwind_enable "1"
+
+		// 為1時，啟用 "Inertia Vault" 能力，Charger 衝刺時，可以使用空白鍵跳起來。
+		l4d2_charger_unstoppable_inertiavault_enable "1"
+
+		// (Inertia Vault 能力) 跳起來的力道 (至少要300以上)
+		l4d2_charger_unstoppable_inertiavault_power "300.0"
+
+		// 為1時，啟用 "Tesla Fist" 能力，Charger右鍵抓人時，爪子擊中玩家有電擊效果，擊飛玩家。
+		l4d2_charger_unstoppable_tesla_enable "1"
+
+		// (Tesla Fist 能力) 擊飛力道
+		l4d2_charger_unstoppable_tesla_power "200.0"
+
+		// (Tesla Fist 能力) CD時間
+		l4d2_charger_unstoppable_tesla_cooldown "8.0"
+
+		// 為1時，啟用 "Snapped Leg" 能力，倖存者被Charger衝刺撞到，行走速度會變慢一段時間。
+		l4d2_charger_unstoppable_snappedleg_enable "1"
+
+		// (Snapped Leg 能力) 觸發機率
+		l4d2_charger_unstoppable_snappedleg_chance "100"
+
+		// (Snapped Leg 能力) 行走速度變慢的持續時間
+		l4d2_charger_unstoppable_snappedleg_duration "6.0"
+
+		// (Snapped Leg 能力) 人類跑步速度
+		l4d2_charger_unstoppable_snappedleg_run_speed "150"
+
+		// (Snapped Leg 能力) 人類吃下腎上腺素速度
+		l4d2_charger_unstoppable_snappedleg_adrenaline_speed "220"
+
+		// (Snapped Leg 能力) 人類走路速度
+		l4d2_charger_unstoppable_snappedleg_walk_speed "75"
+
+		// (Snapped Leg 能力) 人類蹲下速度
+		l4d2_charger_unstoppable_snappedleg_crouch_speed "60"
+
+		// 為1時，啟用 "Stowaway" 能力，倖存者被Charger衝刺抓到帶著走時，每0.5秒受到傷害直到衝刺完畢。
+		l4d2_charger_unstoppable_stowaway_enable "1"
+
+		// (Stowaway 能力) 每0.5秒受到的傷害值
+		l4d2_charger_unstoppable_stowaway_damage "2.0"
+
+		// 為1時，啟用 "Survivor Aegis" 能力，倖存者被Charger衝刺抓到帶著走時，他可以拿倖存者當作盾牌減少傷害，且能轉移傷害給該倖存者。。
+		l4d2_charger_unstoppable_survivoraegis_enable "1"
+
+		// (Survivor Aegis 能力) 減傷比
+		l4d2_charger_unstoppable_survivoraegis_percent "0.8"
+
+		// (Survivor Aegis 能力) 傷害減少係數
+		// 人類承受的傷害 = Charger得到的傷害 / 此數值 (0=無傷)
+		l4d2_charger_unstoppable_survivoraegis_divisor "30.0"
+
+		// 為1時，啟用 "Void Chamber" 能力，Charger開始衝刺時，產生電擊場把附近的倖存者吸過來，並且造成倖存者受傷。
+		l4d2_charger_unstoppable_voidchamber_enable "1"
+
+		// (Void Chamber 能力) 電擊場吸引力道
+		l4d2_charger_unstoppable_voidchamber_power "150.0"
+
+		// (Void Chamber 能力) 電擊場對倖存者造成的傷害值
+		l4d2_charger_unstoppable_voidchamber_damage "10.0"
+
+		// (Void Chamber 能力) 電擊場範圍
+		l4d2_charger_unstoppable_voidchamber_range "200.0"
+
+		// 為1時，啟用 "Electric field" 能力，死亡時在屍體處看產生靜電場，當倖存者靠近時會遭到電擊彈飛。
+		l4d2_charger_unstoppable_anomaly_enable "1"
+
+		// (Electric field 能力) 觸發機率
+		l4d2_charger_unstoppable_anomaly_chance "100.0"
+
+		// (Electric field 能力) 靜電場造成的傷害值
+		l4d2_charger_unstoppable_anomaly_damage "5.0"
+
+		// (Electric field 能力) 靜電場範圍
+		l4d2_charger_unstoppable_anomaly_range "200.0"
+
+		// (Electric field 能力) 靜電場存在時間
+		l4d2_charger_unstoppable_anomaly_time "10.0"
+
+		// (Electric field 能力) 靜電場每1.5秒造成傷害
+		l4d2_charger_unstoppable_anomaly_interval "1.0"
+
+		// 為1時，啟用 "God of the Thunder" 能力，Chager身上有雷電特效
+		l4d2_charger_unstoppable_god_of_the_thunder_enable "1"
+
+		// 為1時，啟用 "Charging Punch" 能力，Chager衝刺期間可以右鍵抓傷人
+		l4d2_charger_unstoppable_punch_enable "1"
+		```
+</details>
 
 
 * <details><summary>Survivor Aegis的傷害計算 (點我展開)</summary>

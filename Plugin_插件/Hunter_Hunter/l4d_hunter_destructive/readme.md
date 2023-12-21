@@ -184,7 +184,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，啟用 "Inferno Rage" 能力，著火時攻擊倖存者會有額外傷害加成
 		l4d_hunter_destructive_infernorage_enable "1"
 
-		// "Inferno Rage" 能力: 額外傷害值
+		// (Inferno Rage 能力) 額外傷害值
 		l4d_hunter_destructive_infernorage_damage "2.0"
 
 		// 為1時，啟用 "Kevlar Skin" 能力，免疫火焰傷害 (依然會著火)
@@ -193,55 +193,55 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，啟用 "Sledgehammer" 能力，高撲造成額外傷害，距離越遠，傷害越大 (非高撲傷害加成)
 		l4d_hunter_destructive_sledgehammer_enable "1"
 
-		// "Sledgehammer" 能力: 最大高撲傷害.
+		// (Sledgehammer 能力) 最大高撲傷害.
 		l4d_hunter_destructive_sledgehammer_max_damage "100.0"
 
-		// "Sledgehammer" 能力: 高撲傷害倍數.
+		// (Sledgehammer 能力) 高撲傷害倍數.
 		l4d_hunter_destructive_sledgehammer_multiplier "1.0"
 
 		// 為1時，啟用 "Meteor Strike" 能力，高撲造成核彈衝擊，震飛周圍的倖存者
 		l4d_hunter_destructive_meteor_enable "1"
 
-		// "Meteor Strike" 能力: Hunter 高撲超過此距離，才會觸發核彈衝擊
+		// (Meteor Strike 能力) Hunter 高撲超過此距離，才會觸發核彈衝擊
 		l4d_hunter_destructive_meteor_distance "750.0"
 
-		// "Meteor Strike" 能力: 核彈衝擊的範圍
+		// (Meteor Strike 能力) 核彈衝擊的範圍
 		l4d_hunter_destructive_meteor_range "200.0"
 
-		// "Meteor Strike" 能力: 核彈傷害
+		// (Meteor Strike 能力) 核彈傷害
 		l4d_hunter_destructive_meteor_damage "8.0"
 
-		// (L4D2) "Meteor Strike" 能力: 核彈衝擊力道
+		// (L4D2) (Meteor Strike 能力) 核彈衝擊力道
 		l4d_hunter_destructive_meteor_power "300.0"
 
-		// (L4D2) "Meteor Strike" 能力: 核彈衝擊力道倍數
+		// (L4D2) (Meteor Strike 能力) 核彈衝擊力道倍數
 		l4d_hunter_destructive_meteor_vertical_mult "1.5"
 
 		// 為1時，啟用 "Shunpo" 能力，減少受到的傷害比
 		l4d_hunter_destructive_shunpo_enable "1"
 
-		// "Shunpo" 能力: 為1時，Hunter著火時才會減少受到的傷害
+		// (Shunpo 能力) 為1時，Hunter著火時才會減少受到的傷害
 		l4d_hunter_destructive_shunpo_when_onfire "1"
 
-		// "Shunpo" 能力: 減傷比 (0.0 = 無傷)
+		// (Shunpo 能力) 減傷比 (0.0 = 無傷)
 		l4d_hunter_destructive_shunpo_amount "0.8"
 
-		// "Shunpo" 能力: CD冷卻時間
+		// (Shunpo 能力) CD冷卻時間
 		l4d_hunter_destructive_shunpo_cooldown "3.0"
 
-		// "Shunpo" 能力: 減傷持續時間 (0=無CD冷卻時間，永遠減傷)
+		// (Shunpo 能力) 減傷持續時間 (0=無CD冷卻時間，永遠減傷)
 		l4d_hunter_destructive_shunpo_duration "4.0"
 
 		// 為1時，啟用 "Flame Claw Ignite" 能力，著火時用手抓人產生的傷害會持續一段時間
 		l4d_hunter_destructive_flameclaw_enable "1"
 
-		// "Flame Claw Ignite" 能力: 發動機率 (100 = 100%).
+		// (Flame Claw Ignite 能力) 發動機率 (100 = 100%).
 		l4d_hunter_destructive_flameclaw_chance "100"
 
-		// "Flame Claw Ignite" 能力的傷害持續時間
+		// (Flame Claw Ignite 能力) 傷害持續時間
 		l4d_hunter_destructive_flameclaw_duration "4"
 
-		// "Flame Claw Ignite" 能力每秒造成的傷害值
+		// (Flame Claw Ignite 能力) 每秒造成的傷害值
 		l4d_hunter_destructive_flameclaw_damage "2"
 
 		// 為1時，啟用 "Evil Demon" 能力，抓倒倖存者之後會自動釋放，並尋找下一個攻擊目標
@@ -250,13 +250,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，啟用 "Death Fire" 能力，死亡時，其屍體產生火焰
 		l4d_hunter_destructive_deathfire_enable "1"
 
-		// "Death Fire" 能力: 發動機率 (100 = 100%).
+		// (Death Fire 能力) 發動機率 (100 = 100%).
 		l4d_hunter_destructive_deathfire_chance "60"
 
 		// 為1時，啟用 "Get Fire" 能力，Hunter生成時自動著火
 		l4d_hunter_destructive_autofire_enable "1"
 
-		// "Get Fire" 能力: 發動機率 (100 = 100%).
+		// (Get Fire 能力) 發動機率 (100 = 100%).
 		l4d_hunter_destructive_autofire_chance "60"
 		```
 </details>
