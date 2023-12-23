@@ -5,10 +5,9 @@ Emotes and Dance in L4D1/2
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Work | 作品展示
+* Video | 影片展示
+    * [玩家訂閱模組也能跳舞](https://youtu.be/a3rbE3WV90g)
     * [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
-
-* [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
 	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
@@ -138,6 +137,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.5.3 (2023-12-24)
+		* Fixed crash in some custom maps
 
     * v1.5.2 (2023-11-10)
 		* Fixed crash when other plugins trying to call "CreateFakeClient"
