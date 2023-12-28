@@ -23,17 +23,12 @@
 
 - - - -
 ## 準備檔案
-* [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
-* [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
+* [安裝伺服器與Sourcemod + Metamod](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#%E9%81%B8%E6%93%87%E5%8D%80%E5%9F%9F%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%96%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/download/file/8_slots_lobby.vpk): 可讓大廳有八個位子 <br/>
    - 🟥只適用於區域伺服器🟥
    - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
-
-> __Note__<br/>
-> * 如何安裝專屬伺服器請閱讀[安裝伺服器與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#問題總攬)，在此不再贅述
-> * 如何安裝區域房請閱讀[安裝區域房與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝區域房與插件#問題總攬)，在此不再贅述
   
 - - - -
 ## 必要檔案

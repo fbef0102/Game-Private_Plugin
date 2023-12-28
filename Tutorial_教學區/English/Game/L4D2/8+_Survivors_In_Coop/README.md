@@ -23,8 +23,8 @@
 
 - - - -
 ## Prepare
-* [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
-* [Metamod](https://www.metamodsource.net/downloads.php?branch=stable)
+* [Sourcemod](https://wiki.alliedmods.net/Installing_sourcemod)
+* [Metamod](https://wiki.alliedmods.net/Installing_Metamod:Source)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/download/file/8_slots_lobby.vpk): You can have 8 slots lobby. <br/>

@@ -72,7 +72,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* {L}-Lightgreen
 		* {R}-Red 		- There must be at least one player or bot in infected team，or red will turn into Green color
 		* {B}-Blue   		- There must be at least one player or bot in survivor team，or blue will turn into Green color
-		* {T}-Teamcolor   - Depends on the team where you at, Survivor-Blue, Infected-Red, Spectator-Default White
+		* {T}-Teamcolor   - Depends on the team where you at, Survivor-Blue, Infected-Red, Spectator-Special White
 		* {O}-Olive
 		* Warning:  2 of (Blue, Red, Lightgreen, Teamcolor) colors can not be used together
 
@@ -91,6 +91,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Antithasys @ 2011
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-12-29)
+		Improve code
+
 	* v1.0h (2023-6-15)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
@@ -148,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* {L}-淺綠色
 		* {R}-紅色 		- 特感隊伍要有人或bot在才會顯示紅色，否則顯示綠色
 		* {B}-藍色 		- 人類隊伍要有人或bot在才會顯示紅色，否則顯示綠色
-		* {T}-依照你所在的隊伍給予顏色，在人類隊伍顯示藍色；在特感隊伍顯示紅色；在旁觀隊伍顯示白色
+		* {T}-依照你所在的隊伍給予顏色，在人類隊伍顯示藍色；在特感隊伍顯示紅色；在旁觀隊伍顯示特殊白色
 		* {O}-橘色
 		* 警告:  藍色, 紅色, 淺綠色, 隊伍顏色，這四種顏色的其中兩種不能出現在同一句話
 

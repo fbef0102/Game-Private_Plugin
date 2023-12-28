@@ -176,6 +176,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Mortiegama @ 2014-2017
 	//HarryPotter @ 2023
 	```
+	* v1.1h (2023-12-29)
+		* Improve code
+
 	* v1.0h (2023-7-27)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
