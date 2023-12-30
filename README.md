@@ -59,6 +59,13 @@
     * 支援其他插件不衝突
   </details>
 
+  * <details><summary><b>我找到別的插件功能一樣免費，你憑什麼販賣?</b></summary>
+
+    * 因為我有翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
+    * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再決定購買
+    * 沒有人逼你跟我買
+  </details>
+
 > My Private Plugins (Will update more) 
 * Every plugin here is private (US$6 dollars above), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
@@ -99,6 +106,13 @@
     * Support Gamedata (windows、linux)
     * Support other games
     * Support other plugins
+  </details>
+
+  * <details><summary><b>I found another similar function for free, how can you sell?</b></summary>
+
+    * Usually because code is too old, too many bugs, too lag or not match my need, so I remake and add more cvars, cmds and transition phase.
+    * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin then decide to buy.
+    * Nobody forces you to buy plugins from me
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
