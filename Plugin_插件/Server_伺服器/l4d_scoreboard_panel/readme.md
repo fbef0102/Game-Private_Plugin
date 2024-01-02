@@ -34,17 +34,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_scoreboard_panel.cfg
 		```php
-		// Symbol for afk players (idle survivor)
-		l4d_scoreboard_panel_afk_symbol "A"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_scoreboard_panel_enable "1"
 
-		// If 1, display health on panel
-		l4d_scoreboard_panel_display_health "1"
+		// Cold down in seconds can a player press tab key to display panel again.
+		l4d_scoreboard_panel_tab_cooldown "1.0"
 
 		// Panel display time.
 		l4d_scoreboard_panel_display_time "8"
 
-		// 0=Plugin off, 1=Plugin on.
-		l4d_scoreboard_panel_enable "1"
+		// If 1, display health on panel
+		l4d_scoreboard_panel_display_health "1"
 
 		// Symbol for survivors hanging from ledge
 		l4d_scoreboard_panel_hanging_symbol "H"
@@ -52,32 +52,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Symbol for incapacitated survivors
 		l4d_scoreboard_panel_incapacitated_symbol "~"
 
+		// Symbol for alive survivors
+		l4d_scoreboard_panel_survior_alive_symbol "+"
+
+		// Symbol for dead survivors
+		l4d_scoreboard_panel_survivor_dead_symbol "X"
+
+		// Symbol for black and white survivors (last life)
+		l4d_scoreboard_panel_survivor_bw_symbol "!!"
+
+		// Symbol for infected players (Only display to survivor)
+		l4d_scoreboard_panel_infected_team_symbol "SI"
+
+		// Symbol for ghost infected players
+		l4d_scoreboard_panel_infected_ghost_symbol "SI(G)"
+
 		// Symbol for alive infected players
 		l4d_scoreboard_panel_infected_alive_symbol "SI(+)"
 
 		// Symbol for dead infected players
 		l4d_scoreboard_panel_infected_dead_symbol "SI(-)"
 
-		// Symbol for ghost infected players
-		l4d_scoreboard_panel_infected_ghost_symbol "SI(G)"
-
-		// Symbol for infected players (Only display to survivor)
-		l4d_scoreboard_panel_infected_team_symbol "SI"
+		// Symbol for afk players (idle survivor)
+		l4d_scoreboard_panel_afk_symbol "A"
 
 		// Symbol for spectator players
 		l4d_scoreboard_panel_spectator_team_symbol "O"
-
-		// Symbol for alive survivors
-		l4d_scoreboard_panel_survior_alive_symbol "+"
-
-		// Symbol for black and white survivors (last life)
-		l4d_scoreboard_panel_survivor_bw_symbol "!!"
-
-		// Symbol for dead survivors
-		l4d_scoreboard_panel_survivor_dead_symbol "X"
-		
-		// Cold down in seconds can a player press tab key to display panel again.
-		l4d_scoreboard_panel_tab_cooldown "1.0"
 		```
 </details>
 
@@ -110,9 +110,56 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 人類看不到特感玩家的狀態
 	* 適合用於多人連線的伺服器，因為遊戲內的記分板最多只能顯示五個人類與五個特感玩家狀態
 
-* 功能
-	* 可設置介面顯示時間
-	* 可設置每個狀態的特殊符號
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_scoreboard_panel.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_scoreboard_panel_enable "1"
+
+		// 再次使用tab顯示介面的冷卻時間
+		l4d_scoreboard_panel_tab_cooldown "1.0"
+
+		// 介面顯示時間
+		l4d_scoreboard_panel_display_time "8"
+
+		// 為1時，列表上顯示血量
+		l4d_scoreboard_panel_display_health "1"
+
+		// 顯示的符號 - 人類掛邊
+		l4d_scoreboard_panel_hanging_symbol "H"
+
+		// 顯示的符號 - 人類倒地
+		l4d_scoreboard_panel_incapacitated_symbol "~"
+
+		// 顯示的符號 - 人類還活著
+		l4d_scoreboard_panel_survior_alive_symbol "+"
+
+		// 顯示的符號 - 人類已死亡
+		l4d_scoreboard_panel_survivor_dead_symbol "X"
+
+		// 顯示的符號 - 人類黑白狀態
+		l4d_scoreboard_panel_survivor_bw_symbol "!!"
+
+		// 顯示的符號 - 特感 (只顯示給人類玩家觀看)
+		l4d_scoreboard_panel_infected_team_symbol "SI"
+
+		// 顯示的符號 - 靈魂特感
+		l4d_scoreboard_panel_infected_ghost_symbol "SI(G)"
+
+		// 顯示的符號 - 非靈魂的存活特感
+		l4d_scoreboard_panel_infected_alive_symbol "SI(+)"
+
+		// 顯示的符號 - 特感已死亡
+		l4d_scoreboard_panel_infected_dead_symbol "SI(-)"
+
+		// 顯示的符號 - 閒置玩家
+		l4d_scoreboard_panel_afk_symbol "A"
+
+		// 顯示的符號 - 旁觀者
+		l4d_scoreboard_panel_spectator_team_symbol "O"
+		```
+</details>
 
 * 注意事項
 	* 原本遊戲的記分板依然會顯示，那是客戶端的文件，伺服器無法阻擋 (認真你就輸了)

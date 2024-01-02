@@ -62,7 +62,7 @@
   * <details><summary><b>我找到別的插件功能一樣免費，你憑什麼販賣?</b></summary>
 
     * 因為我有翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
-    * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再決定購買
+    * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
   </details>
 
@@ -111,8 +111,8 @@
   * <details><summary><b>I found another similar function for free, how can you sell?</b></summary>
 
     * Usually because code is too old, too many bugs, too lag or not match my need, so I remake and add more cvars, cmds and transition phase.
-    * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin then decide to buy.
-    * Nobody forces you to buy plugins from me
+    * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
+    * Nobody forces you to buy plugins and make deal with me
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -170,6 +170,10 @@
     * 特感生成60秒之後，強制處死 (AI特感也適用)
   * [l4d_ghost_fly](/Plugin_插件/Special_Infected_特感/l4d_ghost_fly): Fly as a ghost.
     * 靈魂特感可以自由飛行
+  * [l4d2_infected_hp_hint](/Plugin_插件/Special_Infected_特感/l4d2_infected_hp_hint): Display corresponding health value hint of all Special Infected
+    * 在特感身上顯示剩餘血量
+  * [l4d_infected_hp_text](/Plugin_插件/Special_Infected_特感/l4d_infected_hp_text): Display health bar text of Special Infected to attacker
+    * 向攻擊者顯示特感血條
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -202,6 +206,8 @@
     * 增強Jockey，賦予多種超能力成為小小的暴君
   * [l4d2_jockey_continue_incap_ride](/Plugin_插件/Jockey_Jockey/l4d2_jockey_continue_incap_ride): Allows jockeys to continue riding incapacitated survivors
     * Jockey可以繼續騎倒地的倖存者
+  * [l4d2_no_jockey_deadstop](/Plugin_插件/Jockey_Jockey/l4d2_no_jockey_deadstop): Survivors can not deadstop jockey while leaping
+    * Jockey跳躍空中時不能被推
 </details>
 
 * <details><summary><b>Spitter | Spitter</b></summary>

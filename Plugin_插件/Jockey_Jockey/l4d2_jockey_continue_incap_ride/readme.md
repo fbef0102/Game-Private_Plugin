@@ -58,9 +58,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [l4d2_Sinister_Jockey](/Plugin_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
 		> 增強Jockey，賦予多種超能力成為小小的暴君
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
