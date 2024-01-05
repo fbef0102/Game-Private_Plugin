@@ -1,0 +1,266 @@
+"Phrases"
+{
+	"This command is disable."
+	{
+		"en"			"This command is disable."
+		"zho"			"這項指令已關閉"
+		"chi"			"这项指令已关闭"
+	}
+
+	"You don't have access."
+	{
+		"en"			"You don't have access."
+		"zho"			"你沒有權限"
+		"chi"			"你没有权限"
+	}
+
+	"Switch Options"
+	{
+		"en"			"Switch Options"
+		"zho"			"轉換隊伍介面"
+		"chi"			"转换队伍界面"
+	}
+	
+	"Switch to Survivor"
+	{
+		"en"			"Switch to Survivor"
+		"zho"			"轉換成倖存者"
+		"chi"			"转换成生还者"
+	}
+	
+	"Switch to Infected"
+	{
+		"en"			"Switch to Infected"
+		"zho"			"轉換成特感"
+		"chi"			"转换成特感"
+	}
+
+	"Switch to Spectator"
+	{
+		"en"			"Switch to Spectator"
+		"zho"			"轉換成旁觀者"
+		"chi"			"转换成旁观者"
+	}
+
+	"Swap teams with someone"
+	{
+		"en"			"Swap teams with someone"
+		"zho"			"交換隊伍"
+		"chi"			"交换队伍"
+	}
+	
+	"Choose Players"
+	{
+		"en"			"Choose Players"
+		"zho"			"選擇玩家"
+		"chi"			"选择玩家"
+	}
+
+	"No Sur Players"
+	{
+		"en"			"There are no players that are not in survivor team"
+		"zho"			"目前沒有玩家不在倖存者隊伍"
+		"chi"			"目前没有玩家不在生还者队伍"
+	}
+
+	"No Sur Players"
+	{
+		"en"			"There are no players that are not in survivor team"
+		"zho"			"目前沒有玩家不在倖存者隊伍"
+		"chi"			"目前没有玩家不在生还者队伍"
+	}
+
+	"No Inf Players"
+	{
+		"en"			"There are no players that are not in infected team"
+		"zho"			"目前沒有玩家不在特感隊伍"
+		"chi"			"目前没有玩家不在特感队伍"
+	}
+
+	"No Spec Players"
+	{
+		"en"			"There are no players that are not in spectator team"
+		"zho"			"目前沒有玩家不在旁觀者隊伍"
+		"chi"			"目前没有玩家不在旁观者队伍"
+	}
+
+	"No Players"
+	{
+		"en"			"There are no players in server"
+		"zho"			"目前沒有其他玩家"
+		"chi"			"目前没有其他玩家"
+	}
+
+	"Display Team"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"[{2}] {1}"
+		"zho"			"[{2}] {1}"
+		"chi"			"[{2}] {1}"
+	}
+	
+	"NONE"
+	{
+		"en"			"NONE"
+		"zho"			"無"
+		"chi"			"无"
+	}
+
+	"SPEC"
+	{
+		"en"			"SPEC"
+		"zho"			"旁觀"
+		"chi"			"旁观"
+	}
+
+	"SURV"
+	{
+		"en"			"SURV"
+		"zho"			"人類"
+		"chi"			"人类"
+	}
+
+	"INFC"
+	{
+		"en"			"INFC"
+		"zho"			"特感"
+		"chi"			"特感"
+	}
+
+	"NPC"
+	{
+		"en"			"NPC"
+		"zho"			"NPC"
+		"chi"			"NPC"
+	}
+
+	"Swap Title"
+	{
+		"#format"		"{1:N}"
+		"en"			"Swap {1} with ?"
+		"zho"			"{1}和誰交換隊伍 ?"
+		"chi"			"{1}和谁交换队伍 ?"
+	}
+
+	"Invalid Player"
+	{
+		"en"			"Targert is not in game, choose again!"
+		"zho"			"目標玩家不存在，請重新選擇!"
+		"chi"			"目标玩家不存在，请重新选择!"
+	}
+
+	"Invalid Player Second"
+	{
+		"en"			"Second Targert is not in game, choose again!"
+		"zho"			"第二個目標玩家不存在，請重新選擇!"
+		"chi"			"第二个目标玩家不存在，请重新选择!"
+	}
+
+	"Invalid Player First"
+	{
+		"en"			"First Targert is not in game, choose again!"
+		"zho"			"第一個目標玩家不存在，請重新選擇!"
+		"chi"			"第一个目标玩家不存在，请重新选择!"
+	}
+
+	"already in spectator team"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {olive}{1}{default} is already in spectator team"
+		"zho"			"[{green}Panel{default}] {olive}{1}{default} 已經是旁觀者"
+		"chi"			"[{green}Panel{default}] {olive}{1}{default} 已经是旁观者"
+	}
+
+	"swaps you to spectator"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {lightgreen}{1}{default} swaps you to spectator"
+		"zho"			"[{green}Panel{default}] {lightgreen}{1}{default} 將你轉換成旁觀者"
+		"chi"			"[{green}Panel{default}] {lightgreen}{1}{default} 将你转换成旁观者"
+	}
+
+	"swaps to spectator"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] You swap {olive}{1}{default} to spectator"
+		"zho"			"[{green}Panel{default}] 將 {olive}{1}{default} 轉換成旁觀者"
+		"chi"			"[{green}Panel{default}] 将 {olive}{1}{default} 转换成旁观者"
+	}
+
+	"already in survivor team"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {olive}{1}{default} is already in survivor team"
+		"zho"			"[{green}Panel{default}] {olive}{1}{default} 已經是倖存者"
+		"chi"			"[{green}Panel{default}] {olive}{1}{default} 已经是生还者"
+	}
+
+	"Survivor team is full"
+	{
+		"en"			"[{green}Panel{default}] Survivor team is full"
+		"zho"			"[{green}Panel{default}] 倖存者隊伍已滿"
+		"chi"			"[{green}Panel{default}] 幸存者队伍已满"
+	}
+
+	"swaps you to survivor"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {lightgreen}{1}{default} swaps you to survivor"
+		"zho"			"[{green}Panel{default}] {lightgreen}{1}{default} 將你轉換成倖存者"
+		"chi"			"[{green}Panel{default}] {lightgreen}{1}{default} 将你转换成生还者"
+	}
+
+	"swaps to survivor"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] You swap {olive}{1}{default} to survivor"
+		"zho"			"[{green}Panel{default}] 將 {olive}{1}{default} 轉換成倖存者"
+		"chi"			"[{green}Panel{default}] 将 {olive}{1}{default} 转换成生还者"
+	}
+
+	"already in infected team"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {olive}{1}{default} is already in infected team"
+		"zho"			"[{green}Panel{default}] {olive}{1}{default} 已經是特感"
+		"chi"			"[{green}Panel{default}] {olive}{1}{default} 已经是特感"
+	}
+
+	"Infected team is full"
+	{
+		"en"			"[{green}Panel{default}] Infected team is full"
+		"zho"			"[{green}Panel{default}] 特感隊伍已滿"
+		"chi"			"[{green}Panel{default}] 特感队伍已满"
+	}
+
+	"swaps you to infected"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] {lightgreen}{1}{default} swaps you to infected"
+		"zho"			"[{green}Panel{default}] {lightgreen}{1}{default} 將你轉換成特感"
+		"chi"			"[{green}Panel{default}] {lightgreen}{1}{default} 将你转换成特感"
+	}
+
+	"swaps to infected"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{green}Panel{default}] You swap {olive}{1}{default} to infected"
+		"zho"			"[{green}Panel{default}] 將 {olive}{1}{default} 轉換成特感"
+		"chi"			"[{green}Panel{default}] 将 {olive}{1}{default} 转换成特感"
+	}
+
+	"Can't swap players"
+	{
+		"en"			"[{green}Panel{default}] Can't swap players that are on the {green}same team!"
+		"zho"			"[{green}Panel{default}] 無法交換，因為雙方處在相同隊伍當中"
+		"chi"			"[{green}Panel{default}] 无法交换，因为双方处在相同队伍当中"
+	}
+
+	"Swap with"
+	{
+		"#format"		"{1:N},{2:N},{3:N}"
+		"en"			"[{green}Panel{default}] {olive}{1}{default} has been swapped with {olive}{2}{default} by {lightgreen}{3}"
+		"zho"			"[{green}Panel{default}] {lightgreen}{3}{default} 強制交換隊伍: {olive}{1}{default}x{olive}{2}{default}"
+		"chi"			"[{green}Panel{default}] {lightgreen}{3}{default} 强制交换队伍: {olive}{1}{default}x{olive}{2}{default}"
+	}
+}

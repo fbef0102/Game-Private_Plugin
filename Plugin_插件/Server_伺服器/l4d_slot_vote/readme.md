@@ -28,7 +28,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require
 	1. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -124,7 +124,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 必要安裝
 	1. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): 解鎖伺服器人數上限
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 
 * 原理
 	* 玩家輸入```!slots X```，投票調整伺服器的人數上限，管理員無須投票

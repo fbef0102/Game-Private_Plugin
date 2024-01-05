@@ -451,9 +451,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Add Survivor/Infected Special items
 		* Support Database
 		* Points Transfer
-		
-	* v4.6
-		* [Old Version](https://github.com/fbef0102/L4D2-Plugins/tree/master/L4D2_Buy_Store)
 </details>
 
 - - - -

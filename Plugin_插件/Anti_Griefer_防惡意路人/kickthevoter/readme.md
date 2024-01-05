@@ -17,7 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-    1. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+    1. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 
 * <details><summary>ConVar | 指令</summary>
 

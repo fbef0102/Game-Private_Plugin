@@ -146,6 +146,8 @@
     * 新型投票系統 (使用官方內建的投票)
   * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specific country or area
     * 限制來自某些國家或地區的玩家，禁止進入伺服器
+  * [l4d_switchteam_panel](/Plugin_插件/Server_伺服器/l4d_switchteam_panel): Admin can use panel to swap player to another team
+    * 管理員可以使用介面強制轉移玩家到另一個隊伍
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>

@@ -47,7 +47,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
 
@@ -123,7 +123,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)
+	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz)
 
