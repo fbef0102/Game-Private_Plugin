@@ -96,7 +96,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Excludes current map(s) from the map voting menu
 		sm_l4d_fmc_next_map_menu_excludes "1"
 
-		// Controls the maps shown in the next map voting menu [0 = Official and addon maps, 1 = Official maps only, 2 = Depending on the type of the current map ]
+		// Controls the maps shown in the next map voting menu [0 = Official and addon maps, 1 = Official maps only, 2 = Addon maps only]
 		sm_l4d_fmc_next_map_menu_options "0"
 
 		// Controls the order of maps shown in the next map voting menu [0 = Official then addon maps, 1 = Random]
@@ -187,8 +187,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//Dionys @ 2008~2009
-	//Harry @ 2019~2023
+	//Harry @ 2019~2024
 	```
+    * v1.2h (2024-1-6)
+		* Fixed cvar is not working
+
     * v1.1h (2023-4-18)
         * Optimize code
 		* Fixed next map not working in custom final maps
@@ -290,7 +293,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，不能投票給當前相同的地圖
 		sm_l4d_fmc_next_map_menu_excludes "1"
 
-		// 投票介面顯示的地圖有 [0 = 官方圖與三方圖, 1 = 官方圖, 2 = 依照當前地圖與當前遊戲模式決定 ]
+		// 投票介面顯示的地圖有 [0 = 官方圖與三方圖, 1 = 官方圖, 2 = 三方圖 ]
 		sm_l4d_fmc_next_map_menu_options "0"
 
 		// 投票介面如何顯示地圖順序 [0 = 先顯示官方圖再顯示三方圖, 1 = 隨便]
