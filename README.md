@@ -336,6 +336,8 @@
     * 給真人倖存者玩家增加許多能力
   * [l4d_kill_combo](/Plugin_插件/Survivor_人類/l4d_kill_combo): Display Kill Combo and play sound when killing special infected
     * 連續擊殺特感會有提示與音效
+  * [l4d_block_ff_shake](/Plugin_插件/Survivor_人類/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
+    * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -386,6 +388,8 @@
     * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
   * [l4d_death_weapon_lock](/Plugin_插件/Weapons_武器/l4d_death_weapon_lock): Lock the weapons and items dropped by dead survivors, no one else can pick up.
     * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
+  * [l4d_pickup_sound](/Plugin_插件/Weapons_武器/l4d_pickup_sound): Play sound when player pick up weapons or items
+    * 玩家撿起武器或物品時播放音效
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -578,8 +582,6 @@
     * 遊戲開始後不能升級紅外線雷射
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
-  * [l4d_block_ff_shake](/Plugin_插件/Miscellaneous_雜項/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
-    * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
   * [remove_invisible_wall](/Plugin_插件/Miscellaneous_雜項/remove_invisible_wall): Use commans to remove all invisible wall on the map
     * 輸入指令移除地圖上所有的空氣牆
   * [l4d_lock_cvar](/Plugin_插件/Miscellaneous_雜項/l4d_lock_cvar): Enforces ConVars consistency from the data-file values
