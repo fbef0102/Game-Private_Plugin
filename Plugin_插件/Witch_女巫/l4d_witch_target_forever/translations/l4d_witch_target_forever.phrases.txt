@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"proceed (C)"
+	{
+		"#format"		"{1:N}"
+		"en"	"[{olive}Witch{default}] {green}Witch{default} proceeds to chase initial target: {blue}{1}"
+		"zho"	"[{olive}Witch{default}] {green}Witch{default} 繼續追擊原始目標: {blue}{1}"
+		"chi"	"[{olive}Witch{default}] {green}Witch{default} 继续追击原始目标: {blue}{1}"
+	}
+	"proceed"
+	{
+		"#format"		"{1:N}"
+		"en"	"[Witch] Witch proceeds to chase initial target: {1}"
+		"zho"	"[Witch] Witch 繼續追擊原始目標: {1}"
+		"chi"	"[Witch] Witch 继续追击原始目标: {1}"
+	}
+}

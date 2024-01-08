@@ -33,14 +33,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_headshot_reward_sound.cfg
         ```php
-        // Common Infected headshot sound file by default (relative to sound/, empty=Disable)
-        l4d_headshot_reward_sound_common_file "ui/littlereward.wav"
-
         // 0=Plugin off, 1=Plugin on.
         l4d_headshot_reward_sound_enable "1"
-
-        // Special Infected headshot sound file by default (relative to sound/, empty=Disable)
-        l4d_headshot_reward_sound_infected_file "ui/bigreward.wav"
 
         // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
         l4d_headshot_reward_sound_type "3"
@@ -98,6 +92,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.2 (2024-1-8)
+        * Fixed Sound Error
+
     * v1.1 (2023-3-9)
         * Add sound select menu, player can choose S.I headshot sound and C.I. headshot sound personally
         * Add Data Config
@@ -130,9 +127,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 玩家輸入```!headshot```可設置自己的特感爆頭音效與殭屍爆頭音效
       * 自動本地儲存玩家的設定，下一次新遊戲時不需要重新選擇
 
-* 功能
-    * 可設置不同位置的訊息提示
-    * 可設置預設的爆頭音效
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d2_survivor_shove_power.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        l4d_headshot_reward_sound_enable "1"
+
+        // 爆頭提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+        l4d_headshot_reward_sound_type "3"
+        ```
+</details>
 
 * <details><summary>文件設定範例</summary>
 

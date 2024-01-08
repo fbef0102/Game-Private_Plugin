@@ -278,6 +278,8 @@
     * 在Witch身上打上光圈，所有人都可以看見Witch在哪裡
   * [l4d_witch_spawn](/Plugin_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
     * 遊戲開始後每隔一段時間在地圖上生成Witch
+  * [l4d_witch_target_forever](/Plugin_插件/Witch_女巫/l4d_witch_target_forever): If the witch incap/kill players that aren't her initial target, then make the witch proceed to chase her initial target.
+    * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
