@@ -15,7 +15,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
     * Display multi kill text and play sound when player keep killing special infected
-	* Type ```!kc``` -> turn on/off sound and hint
+	* Type ```!kc```, Settings will be saved to sCookiesCached. Player will have same settings if rejoin server next time.
+        * Sound: on/off sound
+        * Display: Off, Center text, Hint, Menu
 </details>
 
 * Require | 必要安裝
@@ -98,6 +100,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2024-1-9)
+        * Update translation
+        * Add "Display: Menu"
+
     * v1.0 (2022-12-7)
 	    * Initial Release
 </details>
@@ -112,7 +118,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 連續擊殺特感有提示與音效
     * 擊殺Tank也會有
-    * 玩家輸入```!kc```可設置自己開關提示與音效
+    * 玩家輸入```!kc```，有自動保存機制，下次玩家進來無須重新選擇
+        * 音效: 打開/關閉
+        * 顯示: 關閉, 螢幕中間, 下方黑底白字, 介面
 
 * 用意在哪?
     * 模仿CS連殺提示，爽而已

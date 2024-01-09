@@ -20,6 +20,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -51,6 +52,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-1-9)
+		* Make the witch proceed to chase her initial target, if witch lose target somehow.
 
 	* v1.0 (2024-1-8)
 		* Initial Release
