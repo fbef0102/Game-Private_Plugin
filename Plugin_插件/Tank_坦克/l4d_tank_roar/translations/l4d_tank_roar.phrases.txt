@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"Roar (C)"
+	{
+		"en"	"{green}[Tank Hint]{default} You can roar to knockback survivors by pressing the {green}RELOAD button{default}."
+		"zho"	"{green}[Tank Hint]{default} 使用 {green}R鍵{default} 震退倖存者"
+		"chi"	"{green}[Tank Hint]{default} 使用 {green}R键{default} 震退幸存者"
+	}
+	"Roar"
+	{
+		"en"	"[Tank Hint] You can roar to knockback survivors by RELOAD button."
+		"zho"	"[Tank Hint] 使用 R鍵 震退倖存者"
+		"chi"	"[Tank Hint] 使用 R键 震退幸存者"
+	}
+	"Roar2 (C)"
+	{
+		"en"	"{green}Roar wave!!"
+		"zho"	"{green}萬象天引!!"
+		"chi"	"{green}万象天引"
+	}
+	"Roar2"
+	{
+		"en"	"Roar wave!!"
+		"zho"	"萬象天引!!"
+		"chi"	"万象天引!!"
+	}
+}

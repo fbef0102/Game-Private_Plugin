@@ -252,6 +252,8 @@
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
   * [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
     * 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+  * [l4d_tank_roar](/Plugin_插件/Tank_坦克/l4d_tank_roar): Tank is given a special roar ability that knockbacks (Towards/Away) survivors by RELOAD button.
+    * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

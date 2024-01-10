@@ -76,40 +76,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Broadcast class & limit status messages to players.
 		zcs_notify_class "1"
 
-		// Time before smoker class is allowed after smoker death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before smoker class is allowed after smoker death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_smoker "-1"
 
-		// Time before boomer class is allowed after boomer death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before boomer class is allowed after boomer death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_boomer "-1"
 
-		// Time before hunter class is allowed after hunter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before hunter class is allowed after hunter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_hunter "-1"
 
-		// Time before spitter class is allowed after spitter death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before spitter class is allowed after spitter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_spitter "-1"
 
-		// Time before jockey class is allowed after jockey death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before jockey class is allowed after jockey death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_jockey "-1"
 
-		// Time before charger class is allowed after charger death in (s). (-1=Use Director, 0=No delay, 1-60=Delay)
+		// Time before charger class is allowed after charger death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
 		zcs_cooldown_charger "-1"
 
-		// How many Smokers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Smokers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_smoker_limit "-1"
 
-		// How many Boomers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Boomers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_boomer_limit "-1"
 
-		// How many Hunters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Hunters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_hunter_limit "-1"
 
-		// How many Spitters allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Spitters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_spitter_limit "-1"
 
-		// How many Jockeys allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Jockeys allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_jockey_limit "-1"
 
-		// How many Chargers allowed. (-1=Use Server, 0=None Allowed, 1-10=Limit)
+		// How many Chargers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
 		zcs_charger_limit "-1"
 
 		// Allow Smoker Ghost player to select class. (0=Not Allow)
