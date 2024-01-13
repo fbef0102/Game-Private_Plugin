@@ -138,8 +138,6 @@
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
   * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
     * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
-  * [l4d_ragdoll_clear](/Plugin_插件/Server_伺服器/l4d_ragdoll_clear): Clear survivor/common infected/S.I./Witch ragdolls when they die.
-    * 當人類、普通感染者、特感、Witch死亡時，他們的屍體立即消失並清除
   * [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
     * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
   * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
@@ -176,6 +174,8 @@
     * 在特感身上顯示剩餘血量
   * [l4d_infected_hp_text](/Plugin_插件/Special_Infected_特感/l4d_infected_hp_text): Display health bar text of Special Infected to attacker
     * 向攻擊者顯示特感血條
+  * [l4d_stagger_block](/Plugin_插件/Special_Infected_特感/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/....
+    * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直震退
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -392,8 +392,8 @@
     * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
   * [l4d_death_weapon_lock](/Plugin_插件/Weapons_武器/l4d_death_weapon_lock): Lock the weapons and items dropped by dead survivors, no one else can pick up.
     * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
-  * [l4d_pickup_sound](/Plugin_插件/Weapons_武器/l4d_pickup_sound): Play sound when player pick up weapons or items
-    * 玩家撿起武器或物品時播放音效
+  * [l4d_pickup_sound](/Plugin_插件/Weapons_武器/l4d_pickup_sound): Play custom sound when player pick up weapons/items/ammo
+    * 玩家撿起武器/物品/彈藥時播放自製音效
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
