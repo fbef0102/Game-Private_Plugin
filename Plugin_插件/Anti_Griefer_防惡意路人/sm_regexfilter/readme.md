@@ -8,29 +8,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/XQqzDsdo55o)
 
 * Image
-	* punish player who said dirty word
+    * punish player who said dirty word
     <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* Punish player who said dirty word (Ban, Slap, Kick, ...)
+    * Punish player who said dirty word (Ban, Slap, Kick, ...)
     * Modify dirty word table in ```data/regexrestrict.cfg```
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+    1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 
 * <details><summary>Data Config</summary>
 
-	* data/regexrestrict.cfg
+    * data/regexrestrict.cfg
         ```php
         "Censor"
         {
             "Block2_English"  // Whatever name
             {
-                "chatpattern"		"fuck 'CASELESS'" // dirty word you want to ban, CASELESS is flag, which means ignore Case
-                "chatpattern"		"shit 'CASELESS'"
+                "chatpattern"		"fuck" // dirty word you want to ban, comparison is case insensitive.
+                "chatpattern"		"shit"
                 "replace"			"****" // Replace the matches with a string
                 "warn"				"Don't say that!" // Warn the client they are violating the matching rules
                 "action"			"sm_slap #%u 30"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
@@ -43,9 +43,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
         > "replaceall" // Replace the whole sentance with a string
 
-    * Valid Flags
-        * CASELESS - Ignore Case.
-
     * action
         * #%u = user id
         * #%i = client id
@@ -55,19 +52,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/sm_regexfilter.cfg
-		```php
+    * cfg/sourcemod/sm_regexfilter.cfg
+        ```php
         // If 1, REGEXFILTER Enabled
         regexfilter_enable "1"
 
         // If 1, Remove all whitespace
         regexfilter_remove_white_space "0"
-		```
+        ```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
-	None
+    None
 </details>
 
 * Apply to | 適用於
@@ -78,11 +75,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related | 相關插件</summary>
 
-	1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'
+    1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'
         * 沒有隊伍頻道，任何人打字說話一律大家都看得見
-	2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
+    2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
         * 封鎖/禁音/禁字-強化版
-	3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
+    3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
         * 紀錄玩家的聊天紀錄到文件裡
 </details>
 
@@ -90,17 +87,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     ```php
     //Twilight Suzuka @ 2009
-    //Harry @ 2022-2023
+    //Harry @ 2022-2024
     ```
-	* v1.0h (2023-10-28)
+    * v1.1h (2024-1-14)
+        * Support Cyrillic letters, comparison is case insensitive.
+
+    * v1.0h (2023-10-28)
         * Optimize Code and fix memory leak
 
-	* v1.4 (2023-5-13)
+    * v1.4 (2023-5-13)
         * Optimize Code
         * Change method to detect client say, require "simple-chatprocessor"
 
-	* v1.3
-	    * Remake Code
+    * v1.3
+        * Remake Code
         * Add "replaceall" option
         * Fix memory leak
     * v1.2
@@ -112,13 +112,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、玩家禁言並處死，網路並非法外之地
 
 * 圖示
-	* 網路並非法外之地，切勿以身試法，請謹言慎行
+    * 網路並非法外之地，切勿以身試法，請謹言慎行
     <br/>![sm_regexfilter_1_zho](image/zho/sm_regexfilter_1_zho.jpg)
     <br/>![sm_regexfilter_2_zho](image/zho/sm_regexfilter_2_zho.jpg)
 
 * 原理
     * 只要打字說出的字詞符合禁詞表內任何一個詞彙，屏蔽敏感字詞並懲罰玩家
     * 禁詞表位於```data/regexrestrict.cfg```
+    * 英文字母與西里爾文字(俄文)也適用，自動偵測大小寫
 
 * 用意在哪?
     * 專門對付口出惡言的玩家
@@ -129,14 +130,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 禁詞表可自行增修
     * 可設置權限，管理員的言論不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
-	* data/regexrestrict.cfg
+    * data/regexrestrict.cfg
         ```php
         "Censor"
         {
             "Block3_China" //敏感字詞合集名稱，可自取
             {
-                "chatpattern"       "nmsl 'CASELESS'" //敏感字詞為nmsl，CASELESS是Flag，意思是忽略大小寫
-                "chatpattern"       "cao 'CASELESS'"
+                "chatpattern"       "nmsl" //敏感字詞為nmsl，即使字母大寫也會被檢測到
+                "chatpattern"       "cao"
                 "replaceall"        "我是傻B！" // 用其他文字取代整句話
                 "warn"              "少说脏话!" // 顯示警告
                 "action"            "sm_slap #%u 30" //設置要懲罰的動作，此處命令巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
@@ -152,9 +153,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         }
         ```
         > "replace" "xxxx" // 敏感字詞可以用其他文字和諧取代 <br/>
-
-    * 可設置的Flag
-        * CASELESS - 忽略大小寫字母
 
     * action能寫的參數
         * #%u = user id

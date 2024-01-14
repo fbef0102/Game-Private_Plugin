@@ -13,10 +13,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Before (裝此插件之前)
     <br/>![l4d_stagger_block_1](image/l4d_stagger_block_1.gif)
     <br/>![l4d_stagger_block_2](image/l4d_stagger_block_2.gif)
-
-    * After (裝此插件之後)
     <br/>![l4d_stagger_block_3](image/l4d_stagger_block_3.gif)
     <br/>![l4d_stagger_block_4](image/l4d_stagger_block_4.gif)
+
+    * After (裝此插件之後)
+    <br/>![l4d_stagger_block_5](image/l4d_stagger_block_5.gif)
+    <br/>![l4d_stagger_block_6](image/l4d_stagger_block_6.gif)
+    <br/>![l4d_stagger_block_7](image/l4d_stagger_block_7.gif)
+    <br/>![l4d_stagger_block_8](image/l4d_stagger_block_8.gif)
 </details>
 
 * <details><summary>How does it work?</summary>
@@ -26,6 +30,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Witch running and stagget anyone that blocks her way 
         * When a Charger impacts a wall or object after charging, but not when carrying a Survivor
         * PipeBomb、OxyTank、PropTank、FuelBarrel.... explosion
+        * Grenade Launcher
+        * Explosive Bullet
 </details>
 
 * Require | 必要安裝
@@ -38,29 +44,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=Plugin off, 1=Plugin on.
         l4d_stagger_block_enable "1"
 
-        // Prevent Smoker stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_smoker_flag "1"
+        // Prevent Smoker stagger by 1=Boomer, 2=Witch, 4=Charger, 8=Grenade Launcher, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1023=All, 0=Off)
+        l4d_stagger_block_smoker_flag "1023"
 
-        // Prevent Boomer stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_boomer_flag "1"
+        // Prevent Boomer stagger by 1=Boomer, 2=Witch, 4=Charger, 8=Grenade Launcher, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1023=All, 0=Off)
+        l4d_stagger_block_boomer_flag "1023"
 
-        // Prevent Hunter stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_hunter_flag "1"
+        // Prevent Hunter stagger by 1=Boomer, 2=Witch, 4=Charger, 8=Grenade Launcher, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1023=All, 0=Off)
+        l4d_stagger_block_hunter_flag "1023"
 
-        // Prevent Spitter stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_spitter_flag "1"
+        // Prevent Spitter stagger by 1=Boomer, 2=Witch, 4=Charger, 8=Grenade Launcher, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1023=All, 0=Off)
+        l4d_stagger_block_spitter_flag "1023"
 
-        // Prevent Jockey stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_jockey_flag "1"
+        // Prevent Jockey stagger by 1=Boomer, 2=Witch, 4=Charger, 8=Grenade Launcher, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1023=All, 0=Off)
+        l4d_stagger_block_jockey_flag "1023"
 
-        // Prevent Charger stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_charger_flag "1"
+        // Prevent Charger stagger by 1=Boomer, 2=Witch, 4=Charger, 16=Explosive Bullet, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (1015=All, 0=Off)
+        l4d_stagger_block_charger_flag "1015"
 
-        // Prevent Tank stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_tank_flag "1"
+        // Prevent Tank stagger by 1=Boomer, 2=Witch, 4=Charger, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (999=All, 0=Off)
+        l4d_stagger_block_tank_flag "999"
 
-        // Prevent Survivor stagger by 1=Boomer, 2=Witch, 4=Charger, 8=PipeBomb, 16=OxyTank, 32=PropTank, 64=FuelBarrel, 128=GasPump, 256=Other Object. Add numbers together (511=All, 0=Off)
-        l4d_stagger_block_survivor_flag "511"
+        // Prevent Survivor stagger by 1=Boomer, 2=Witch, 4=Charger, 32=PipeBomb, 64=OxyTank, 128=PropTank, 256=FuelBarrel, 512=Other Object. Add numbers together (999=All, 0=Off)
+        l4d_stagger_block_survivor_flag "999"
         ```
 </details>
 
@@ -77,7 +83,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.0 (2023-1-13)
+    * v1.1 (2024-1-14)
+        * Add Grenade Launcher, Explosive bullet
+
+    * v1.0 (2024-1-13)
         * Initial Release
 </details>
 
@@ -91,6 +100,8 @@ Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直�
     2. Witch接觸
     3. Charger自撞到牆壁
     4. 土製炸彈、瓦斯桶、氧氣罐、燃油桶、加油站...爆炸
+    5. 榴彈發射器
+    6. 高爆彈
 
 * <details><summary>指令中文說明(點我展開)</summary>
 
@@ -99,29 +110,29 @@ Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直�
         // 0=關閉插件, 1=啟動插件
         l4d_stagger_block_enable "1"
 
-        // Smoker不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_smoker_flag "1"
+        // Smoker不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=榴彈, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1023=全部)
+        l4d_stagger_block_smoker_flag "1023"
 
-        // Boomer不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_boomer_flag "1"
+        // Boomer不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=榴彈, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1023=全部)
+        l4d_stagger_block_boomer_flag "1023"
 
-        // Hunter不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_hunter_flag "1"
+        // Hunter不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=榴彈, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1023=全部)
+        l4d_stagger_block_hunter_flag "1023"
 
-        // Spitter不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_spitter_flag "1"
+        // Spitter不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=榴彈, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1023=全部)
+        l4d_stagger_block_spitter_flag "1023"
 
-        // Jockey不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_jockey_flag "1"
+        // Jockey不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=榴彈, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1023=全部)
+        l4d_stagger_block_jockey_flag "1023"
 
-        // Charger不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_charger_flag "1"
+        // Charger不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 16=高爆彈, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 1015=全部)
+        l4d_stagger_block_charger_flag "1015"
 
-        // Tank不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_tank_flag "1"
+        // Tank不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 999=全部)
+        l4d_stagger_block_tank_flag "999"
 
-        // Survivor不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 8=土製炸彈, 16=氧氣罐, 32=瓦斯桶, 64=燃油桶, 128=加油站, 256=其他物件. 數字相加 (0=關閉, 511=全部)
-        l4d_stagger_block_survivor_flag "511"
+        // Survivor不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 999=全部)
+        l4d_stagger_block_survivor_flag "999"
         ```
         ```
 </details>

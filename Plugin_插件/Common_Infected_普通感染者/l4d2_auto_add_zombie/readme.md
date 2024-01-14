@@ -56,7 +56,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 		// If 1, Override common infected/mob/horde limit in director script.
 		// This can prevent custom map from modifying common infected settings
-		l4d2_auto_add_zombie_override_script_value "1"
+		l4d2_auto_add_zombie_override_script_value "0"
 		```
 </details>
 
@@ -173,7 +173,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，強制使用VScript覆蓋導演系統的設置
 		// 開啟這項指令可以防止三方圖攥改殭屍與屍潮的數量
-		l4d2_auto_add_zombie_override_script_value "1"
+		l4d2_auto_add_zombie_override_script_value "0"
 		```
 </details>
 
