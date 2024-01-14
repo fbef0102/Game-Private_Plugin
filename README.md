@@ -118,7 +118,7 @@
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
-  * [server_vpn_hop](/Plugin_插件/Server_伺服器/server_vpn_hop): Type Command to show Vpn List
+  * [server_display_list](/Plugin_插件/Server_伺服器/server_display_list): Type Command to show Vpn List
     * 輸入指令顯示 Server/Vpn 列表
   * [l4d_slot_vote](/Plugin_插件/Server_伺服器/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
     * 允許玩家使用命令更改伺服器人數上限 + 踢除非管理員的所有旁觀者
