@@ -340,6 +340,8 @@
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
 > __Warning__ 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
+
+4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
 - - - -
 ## 如何從大廳匹配到專屬伺服器
 1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
@@ -365,7 +367,7 @@
 - - - -
 ## 如何成為伺服器的管理員
 1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"
-   ![image](https://i.imgur.com/EbO0fC1.png)
+   ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/4aafc4b9-11c1-400d-b5fa-e0d837a788c5)
 
 2. 點擊[Steam ID Finder](https://steamid.xyz/)，將複製的網址貼上去提交，會得到自己的steam ID
    ![image](https://i.imgur.com/xHfmmq6.png)
@@ -383,7 +385,8 @@
 ## 如何編譯源碼
 1. 此處用Windows系統方便操作，將想要編譯的源碼檔案丟入addons\sourcemod\scripting\ 資料夾裡面
    - 源碼檔案的副檔名是.sp
-   - 看不到副檔名者請自行google"如何顯示副檔名"
+   - 請先開啟顯示副檔名
+   ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/795afc68-41bf-418a-b460-0d7519466762)
 
 2. 接著拖曳.sp檔案到同資料夾底下的compile.exe <br/>
    ![image](https://i.imgur.com/PrWaypt.gif)

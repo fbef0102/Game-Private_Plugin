@@ -83,19 +83,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (Slots 5 Pills/Adrenaline), 0=Disable, 1=Enable
         l4d_multiple_equipment_slot4_enable "1"
 
-        // 1=Allow pikc up same primary weapons (0=Not Allow)
+        // 1=Allow pick up same primary weapons (0=Not Allow)
         l4d_multiple_equipment_slot0_same "0"
 
-        // (L4D2 only) 1=Allow pikc up same melee/pistol weapons (0=Not Allow)
+        // (L4D2 only) 1=Allow pick up same melee/pistol weapons (0=Not Allow)
         l4d_multiple_equipment_slot1_same "0"
 
-        // 1=Allow pikc up same throwable items (0=Not Allow)
+        // 1=Allow pick up same throwable items (0=Not Allow)
         l4d_multiple_equipment_slot2_same "1"
 
-        // (L4D2 only) 1=Allow pikc up same medkit/fefibrillator/upgrade pack items (0=Not Allow)
+        // (L4D2 only) 1=Allow pick up same medkit/fefibrillator/upgrade pack items (0=Not Allow)
         l4d_multiple_equipment_slot3_same "1"
 
-        // (L4D2 only) 1=Allow pikc up same pill/adrenaline items (0=Not Allow)
+        // (L4D2 only) 1=Allow pick up same pill/adrenaline items (0=Not Allow)
         l4d_multiple_equipment_slot4_same "1"
 
         // How to switch equipments, 0=Single Press slot 1,2,3,4,5, 1=Double Press Q + Single Press slot 1,2,3,4,5
@@ -109,6 +109,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // If 1, Enable AFK Save
         l4d_multiple_equipment_afk_save "1"
+
+        // If 1, Player drops all second equipments and second items when die
+        l4d_multiple_equipment_death_drop "1"
 
         // Show 'switch_mode' message to players entering survivor, 0=Off, 1=Chatbox, 2=Hint
         l4d_multiple_equipment_mode_notify "2"
@@ -149,6 +152,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4h (2024-1-17)
+        * Optimize code and improve performance
+        * Player drops all second equipments and second items when die
+        * Updata cvars
 
     * v1.3h (2023-12-18)
         * Fixed empty primary weapons can't now switch equipment
@@ -253,6 +261,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，即使玩家閒置或AFK可以保存備用裝備
         l4d_multiple_equipment_afk_save "1"
+
+        // 為1時，玩家死亡時掉出所有備用裝備的武器與物資
+        l4d_multiple_equipment_death_drop "1"
 
         // 按鈕操作該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框)
         l4d_multiple_equipment_mode_notify "2"

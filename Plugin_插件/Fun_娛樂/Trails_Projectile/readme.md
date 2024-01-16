@@ -136,7 +136,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 丟出去投擲物的時候產生拖曳軌跡
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
     * cfg/sourcemod/Trails_Projectile.cfg
         ```php

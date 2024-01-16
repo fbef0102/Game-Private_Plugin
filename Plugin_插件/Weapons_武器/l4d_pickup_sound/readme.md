@@ -43,6 +43,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.2 (2024-1-17)
+        * Don't play sound if player is incapacitated
+
     * v1.1 (2024-1-13)
         * Add ammo pickup sound
 

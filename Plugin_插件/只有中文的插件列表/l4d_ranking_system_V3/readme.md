@@ -148,8 +148,9 @@
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. 支援跨伺服器儲值經驗值: 設定 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
 			```php
+			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
 			"rank"
 			{
 				"driver"			"default"
@@ -161,8 +162,9 @@
 			}
 			```
 			
-		2. 本地資料庫: 設定文件 *sourcemod\configs\databases.cfg*
+		2. SQLite: 本地資料庫，設定文件 *sourcemod\configs\databases.cfg*
 			```php
+			// 資料庫位於 ```sourcemod\data\sqlite\rank_system.sq3``` (自動創建)
 			"rank"
 			{
 				"driver"			"sqlite"

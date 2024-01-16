@@ -95,10 +95,10 @@
     </details>
 
 * 可以自己創建新的文件
-    * 在cfg資料夾建立一個文件，改名為```XXX.cfg``` (XXX 自取)
+    1. 在cfg資料夾建立一個文件，改名為```XXX.cfg``` (XXX 自取)
         * 請注意副檔名為.cfg
-        <br/>![image](https://user-images.githubusercontent.com/12229810/202833839-b99948d5-cf05-4255-a050-0c12e46018fe.jpg)
-    * 將想要執行的指令寫入剛創立的文件當中，啟動遊戲之後在控制台輸入```exec xxx.cfg```即可
+        ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06423553-4f48-46c1-a63d-4e8f239cb5e5)
+    2. 將想要執行的指令寫入剛創立的文件當中，啟動遊戲之後在控制台輸入```exec xxx.cfg```即可
     <br/>![image](https://user-images.githubusercontent.com/12229810/202833928-10f9cd11-1917-473c-ae66-5f75044477a8.png)
 - - - -
 ## 設定啟動選項
