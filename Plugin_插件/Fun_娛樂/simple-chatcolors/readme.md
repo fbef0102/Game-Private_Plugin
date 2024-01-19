@@ -15,6 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	2. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
+	3. Optional - [[INC] l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system/scripting/include/l4d_ranking_system.inc)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -89,10 +90,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//Antithasys @ 2011
-	//HarryPotter @ 2023
+	//HarryPotter @ 2023-2024
 	```
+	* v1.2h (2024-1-20)
+		* Compatible with [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system) by harry
+
 	* v1.1h (2023-12-29)
-		Improve code
+		* Optimize code and improve performance
 
 	* v1.0h (2023-6-15)
 		* Remake code, convert code to latest syntax

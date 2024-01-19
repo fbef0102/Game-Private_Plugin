@@ -117,6 +117,22 @@
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+	```c++
+	/**
+	* Get Rank Title for client
+	* 
+	* @param client	Client to get rank title
+	* @param str       String to store rank title.
+	* @param size      size of String to store.
+	* 
+	* @return		   True if suceed, false if not
+	*/
+	native int Rank_System_GetRankTitle(int client, char[] str, int size);
+	```
+</details>
+
 * <details><summary>文件設定</summary>
 
 	* ```configs\l4d_ranking_system_V3.cfg``` 設置階級頭銜名稱
@@ -180,6 +196,10 @@
 	```
 
 * <details><summary>版本日誌</summary>
+
+	* v1.4h (2024-1-20)
+		* Compatible with [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors) by harry
+		* Add API
 
 	* v1.3h (2023-12-10)
 		* Detect ff damage if incap teammate

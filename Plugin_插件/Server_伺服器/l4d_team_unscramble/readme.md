@@ -83,6 +83,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Unscramble max processing time after map changed. When the time expires the teams changes will be unlocked.
 		l4d_team_unscramble_time "45"
+
+		// If 1, disable unscramble feature after final map change
+		l4d_team_unscramble_final_map_disable "0"
+
+		// If 1, disable unscramble feature if map change in game (Vote change, adm change, etc)
+		l4d_team_unscramble_change_map_disable "0"
 		```
 </details>
 
@@ -120,6 +126,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2024-1-20)
+		* Don't save team after final map change
+		* Don't save team when map change in game
+		* Update Cvars
+
 	* v1.1h (2023-2-13)
 		* Support Idle player, switch idle players to survivor team next time
 
@@ -138,7 +149,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 
 * 原理
-	* 當切換關卡時，這個插件會紀錄所有在場的玩家和所在的隊伍(特感/人類/旁觀隊伍)
+	* 當切換關卡時，這個插件會紀錄所有在場的玩家和所在的隊伍　(特感/人類/旁觀隊伍)
 	* 並在更換地圖之後，還原所有玩家上次所在的隊伍 (其他玩家暫時不能切換隊伍)
 
 * 用意在哪?
@@ -167,5 +178,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 切換地圖之後45秒內嘗試將玩家放入正確的隊伍，如果時間到則自動放棄嘗試
 		l4d_team_unscramble_time "45"
+
+		// 為1時，最後一關破完並換圖時，關閉此插件的效果 (不紀錄玩家和所在的隊伍)
+		l4d_team_unscramble_final_map_disable "0"
+
+		// 為1時，中途切換地圖時，關閉此插件的效果 (不紀錄玩家和所在的隊伍)
+		// 譬如中途投票換圖、管理員換圖等等
+		l4d_team_unscramble_change_map_disable "0"
 		```
 </details>

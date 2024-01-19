@@ -69,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Giving exp for killing a zombie
 		l4d_ranking_system_zombie_killed "1"
+
+		// If 1, Display your rank panel when join server
+		l4d_ranking_system_join_server_display "1"
 		```
 </details>
 
@@ -79,6 +82,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_rank
 		sm_rankmenu
 		```
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```c++
+	/**
+	* Get Rank Title for client
+	* 
+	* @param client	Client to get rank title
+	* @param str       String to store rank title.
+	* @param size      size of String to store.
+	* 
+	* @return		   True if suceed, false if not
+	*/
+	native int Rank_System_GetRankTitle(int client, char[] str, int size);
+	```
 </details>
 
 * <details><summary>Data Config</summary>
@@ -148,7 +167,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 準備插件，新的回合開始時顯示Rank Hud
 </details>
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
+		> 根據管理員或玩家身分修改聊天窗口的對話顏色
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7 (2024-1-20)
+		* Compatible with [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors) by harry
+		* Add API
 
 	* v1.6 (2023-11-5)
 		* Require simple-chatprocessor & smlib
