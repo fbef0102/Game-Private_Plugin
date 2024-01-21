@@ -53,6 +53,22 @@
 		"zho"	"[{olive}Rescue Arrive{default}] 救援將於 {green}{1} 分後抵達 !!!"
 		"chi"	"[{olive}Rescue Arrive{default}] 救援将于 {green}{1} 分后抵达 !!!"
 	}
+
+	"Rescue Arrive in min"
+	{
+		"#format"		"{1:d}"
+		"en"	"Rescue Arrive in {1} min !!!"
+		"zho"	"救援將於 {1} 分後抵達 !!!"
+		"chi"	"救援将于 {1} 分后抵达 !!!"
+	}
+
+	"Rescue Arrive in seconds (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"[{olive}Rescue Arrive{default}] Rescue Arrive in {green}{1} seconds !!!"
+		"zho"	"[{olive}Rescue Arrive{default}] 救援將於 {green}{1} 秒後抵達 !!!"
+		"chi"	"[{olive}Rescue Arrive{default}] 救援将于 {green}{1} 秒后抵达 !!!"
+	}	
 	
 	"Rescue Arrive in seconds"
 	{

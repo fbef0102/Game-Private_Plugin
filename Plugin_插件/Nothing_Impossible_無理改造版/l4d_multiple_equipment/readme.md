@@ -153,6 +153,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5h (2024-1-22)
+        * Fixed second weapon ammo is zero
+
     * v1.4h (2024-1-17)
         * Optimize code and improve performance
         * Player drops all second equipments and second items when die
