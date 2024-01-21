@@ -576,6 +576,8 @@
     * 自動讀取官方地圖與所有三方地圖，並將關卡顯示在列表上，供管理員換圖用或者普通玩家投票換圖
   * [l4d2_map_nuke](/Plugin_插件/Map_關卡/l4d2_map_nuke): Slay Survivors After Countdown Time Passes + Restart chapter or campaign
     * 限時通關一個關卡或一整張地圖，超過時間會處死所有倖存者，並重啟關卡或整張地圖
+  * [l4d2_final_rescue_arrive_time](/Plugin_插件/Map_關卡/l4d2_final_rescue_arrive_time): Increase the finale rescue time, survivors must hold up until time passed
+    * 增加最後救援的防守時間，倖存者必須等待時間結束，救援載具才會來臨
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

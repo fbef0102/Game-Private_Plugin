@@ -1,0 +1,78 @@
+"Phrases"
+{
+	"Not Final"
+	{
+		"en"	"Current map is not a standard final!!"
+		"zho"	"這張地圖不適用"
+		"chi"	"这张地图不适用"
+	}
+	
+	"Rescue Arrive None"
+	{
+		"en"	"[{olive}Rescue Arrive{default}] Time Left: {green}None"
+		"zho"	"[{olive}Rescue Arrive{default}] 剩餘時間: {green}無"
+		"chi"	"[{olive}Rescue Arrive{default}] 剩余时间: {green}无"
+	}	
+	
+	"Rescue Arrive Left"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"[{olive}Rescue Arrive{default}] Time Left: {green}{1} min {2} sec"
+		"zho"	"[{olive}Rescue Arrive{default}] 剩餘時間: {green}{1} 分 {2} 秒"
+		"chi"	"[{olive}Rescue Arrive{default}] 剩余时间: {green}{1} 分 {2} 秒"
+	}
+	
+	"Rescue Arrive Paused"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"[{olive}Rescue Arrive{default}] Time Paused: {green}{1} min {2} sec"
+		"zho"	"[{olive}Rescue Arrive{default}] 剩餘時間暫停: {green}{1} 分 {2} 秒"
+		"chi"	"[{olive}Rescue Arrive{default}] 剩余时间暂停: {green}{1} 分 {2} 秒"
+	}
+	
+	"Rescue Arrive in min seconds (C)"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"[{olive}Rescue Arrive{default}] Rescue Arrive in {green}{1} min {2} sec!!!"
+		"zho"	"[{olive}Rescue Arrive{default}] 救援將於 {green}{1} 分 {2} 秒後抵達 !!!"
+		"chi"	"[{olive}Rescue Arrive{default}] 救援将于 {green}{1} 分 {2} 秒后抵达 !!!"
+	}	
+	
+	"Rescue Arrive in min seconds"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"Rescue Arrive in {1} min {2} sec!!!"
+		"zho"	"救援將於 {1} 分 {2} 秒後抵達 !!!"
+		"chi"	"救援将于 {1} 分 {2} 秒后抵达 !!!"
+	}	
+	
+	"Rescue Arrive in min (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"[{olive}Rescue Arrive{default}] Rescue Arrive in {green}{1} min !!!"
+		"zho"	"[{olive}Rescue Arrive{default}] 救援將於 {green}{1} 分後抵達 !!!"
+		"chi"	"[{olive}Rescue Arrive{default}] 救援将于 {green}{1} 分后抵达 !!!"
+	}
+	
+	"Rescue Arrive in seconds"
+	{
+		"#format"		"{1:d}"
+		"en"	"Rescue Arrive in {1} seconds !!!"
+		"zho"	"救援將於 {1} 秒後抵達 !!!"
+		"chi"	"救援将于 {1} 秒后抵达 !!!"
+	}	
+	
+	"Rescue Vehicle Arrive (C)"
+	{
+		"en"			"[{olive}Rescue Arrive{default}] {green}Rescue vehicle arrived! Let's GO!!!"
+		"zho"			"[{olive}Rescue Arrive{default}] {green}救援載具已抵達! GO! GO! GO!"
+		"chi"			"[{olive}Rescue Arrive{default}] {green}救援载具已抵达! GO! GO! GO!"
+	}
+	
+	"Rescue Vehicle Arrive"
+	{
+		"en"			"Rescue vehicle arrived! Let's GO!!!"
+		"zho"			"救援載具已抵達! GO! GO! GO!"
+		"chi"			"救援载具已抵达! GO! GO! GO!"
+	}
+}

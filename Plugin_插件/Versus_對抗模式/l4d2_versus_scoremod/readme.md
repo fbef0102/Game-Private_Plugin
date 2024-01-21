@@ -17,9 +17,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* When survivors have made it to saferoom, Override Versus Bonus
-		* HB = Health Bonus－More permant health => more bonus
-		* DB = Damage Bonus－Receive more damage => less bonus
-		* Pill = Medical Bonus－Bring more kits, defibrillators, pills, adrenalines => more bonus
+		* HB = Health Bonus, More permant health => more bonus
+		* DB = Damage Bonus, Receive more damage => less bonus
+		* Pill = Medical Bonus, Bring more kits, defibrillators, pills, adrenalines => more bonus
 	* Versus Bonus is also affected by map distance (~~The formula is complicated, don't ask~~)
 </details>
 
@@ -136,9 +136,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 對抗模式下修改過關分數，過關分數有
-		* HB: 玩家的血量分－實血越多，分數越高
-		* DB: 玩家的傷害分－受到傷害越多，分數越低
-		* Pill: 玩家的醫療物品分－倖存者隊伍攜帶越多治療包、電擊器、藥丸、腎上腺素，分數越高
+		* HB: 玩家的血量分，實血越多，分數越高
+		* DB: 玩家的傷害分，受到傷害越多，分數越低
+		* Pill: 玩家的醫療物品分，倖存者隊伍攜帶越多治療包、電擊器、藥丸、腎上腺素，分數越高
 	* 每個分數計算方式不同，也受到地圖距離分數的影響 (~~計算方式複雜，還是別問比較好~~)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

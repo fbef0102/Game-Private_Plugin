@@ -8,7 +8,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/WVBMtRZGLHc)
 
-* Image
+* Image | 圖示
 	<br/>![l4d2_map_nuke_1](image/l4d2_map_nuke_1.jpg)
 	<br/>![l4d2_map_nuke_2](image/l4d2_map_nuke_2.gif)
 
