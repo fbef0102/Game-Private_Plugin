@@ -49,21 +49,6 @@
 //forward void OnRoundIsLivePre();
 
 /**
- * If this in-game and fully connected client is a caster or not
- *
- * @return          True if this is a registered caster
- */
-native bool IsClientCaster(int client);
-
-/**
- * If this Steam ID is a registered caster or not
- *
- * @param           String containing the user's auth id
- * @return          True if this is a registered caster
- */
-native bool IsIDCaster(const char[] AuthID);
-
-/**
  * Called when the live countdown ends and the round goes live
  */
 forward void OnRoundIsLive();
@@ -141,8 +126,6 @@ public void __pl_readyup_SetNTVOptional()
 	MarkNativeAsOptional("EditFooterStringAtIndex");
 	MarkNativeAsOptional("AddStringToReadyFooter");
 	MarkNativeAsOptional("IsInReady");
-	MarkNativeAsOptional("IsClientCaster");
-	MarkNativeAsOptional("IsIDCaster");
 	MarkNativeAsOptional("ToggleReadyPanel");
 }
 #endif
