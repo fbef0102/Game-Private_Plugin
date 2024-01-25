@@ -16,8 +16,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type ```!dance -> Enjoy```
-	* You must prepare fastdl, otherwise players can not dance
+	* Type ```!dance -> Enjoy```, everyone can see you dance
+	* You must prepare fastdl, otherwise players can not dance (If you don't know what "FastDL" is, please google it)
 </details>
 
 * Require | 必要安裝
@@ -168,7 +168,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 動作分成兩種: 表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 
-> __Note__ 需自備網空安裝模組與音樂檔案，客戶端才會下載跳舞的檔案，否則此插件會無效
+> __Note__ 需自備網空且支援FastDL，客戶端才會下載跳舞的檔案，否則此插件會無效 
+> <br/>(不知道什麼是FastDL請自行Google)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

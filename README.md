@@ -394,6 +394,8 @@
     * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
   * [l4d_pickup_sound](/Plugin_插件/Weapons_武器/l4d_pickup_sound): Play custom sound when player pick up weapons/items/ammo
     * 玩家撿起武器/物品/彈藥時播放自製音效
+  * [l4d2_melee_modify_damage](/Plugin_插件/Weapons_武器/l4d2_melee_modify_damage): Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
+    * 修改電鋸與每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
