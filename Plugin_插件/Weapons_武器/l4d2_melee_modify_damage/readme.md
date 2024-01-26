@@ -55,9 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Modify each melee damages dealt to Commons/S.I./Tank/Witch
 	* data/l4d2_melee_modify_damage.cfg
 		```php
-		"l4d2_melee_modify_damage"
-		{
-			"chainsaw"	//chainsaw
+        "l4d2_melee_modify_damage"
+        {
+            "chainsaw"	//chainsaw
             {
                 "Enable"		"1"     // Enable
                 "Tank"			"100"   // modify damage to Tank
@@ -83,6 +83,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Spitter"		"390"   // modify damage to Spitter
                 "Jockey"		"390"   // modify damage to Jockey
                 "Charger"		"390"   // modify damage to Charger
+
+                "HeadShot_multi" // damage multiplier if headshot
+                {
+                    "Tank"			"2.0"
+                    "Witch"			"1.0"
+                    //"Common"		"1.0" //Doesn't work. A common zombie still instantly dies on a headshot by melee.
+                    "Smoker"		"1.0"
+                    "Boomer"		"1.0"
+                    "Hunter"		"1.0"
+                    "Spitter"		"1.0"
+                    "Jockey"		"1.0"
+                    "Charger"		"1.0"
+                }
+                
+                "Leg_multi" // damage multiplier if leg
+                {
+                    "Tank"			"1.0"
+                    "Witch"			"1.0"
+                    "Common"		"1.0"
+                    "Smoker"		"0.5"
+                    "Boomer"		"0.5"
+                    "Hunter"		"0.5"
+                    "Spitter"		"0.5"
+                    "Jockey"		"0.5"
+                    "Charger"		"0.5"
+                }
             }
 
             // Add other custom weapon if you want
@@ -99,8 +125,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Spitter"		"390"
                 "Jockey"		"390"
                 "Charger"		"390"
+
+                "HeadShot_multi" // damage multiplier if headshot
+                {
+                    "Tank"			"2.0"
+                    "Witch"			"1.0"
+                    //"Common"		"1.0"
+                    "Smoker"		"1.0"
+                    "Boomer"		"1.0"
+                    "Hunter"		"1.0"
+                    "Spitter"		"1.0"
+                    "Jockey"		"1.0"
+                    "Charger"		"1.0"
+                }
+                
+                "Leg_multi" // damage multiplier if leg
+                {
+                    "Tank"			"1.0"
+                    "Witch"			"1.0"
+                    "Common"		"1.0"
+                    "Smoker"		"0.5"
+                    "Boomer"		"0.5"
+                    "Hunter"		"0.5"
+                    "Spitter"		"0.5"
+                    "Jockey"		"0.5"
+                    "Charger"		"0.5"
+                }
             }
-		}
+        }
 		```
 </details>
 
@@ -124,6 +176,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2024-1-27)
+	    * Modify melee damage multiplier by HeadShot or Leg
+
     * v1.0 (2024-1-25)
 	    * Initial Release
 </details>
@@ -137,7 +192,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 修改每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
         * 支援所有官方近戰武器
         * 支援三方圖的近戰武器
-        * 使用近戰暴頭 普通殭屍，依然會瞬間死亡 (無論傷害高低)
+        * 使用近戰爆頭 普通殭屍，依然會瞬間死亡 (無論傷害高低)
     * 如要修改槍械武器的傷害值，請查看 "相關插件" 部分
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -145,10 +200,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * cfg/sourcemod/l4d2_melee_modify_damage.cfg
         ```php
         // 0=關閉插件, 1=啟動插件.
-        // 近戰暴頭 普通殭屍，依然會瞬間死亡
+        // 近戰爆頭 普通殭屍，依然會瞬間死亡
         l4d2_melee_modify_damage_enable "1"
 
-        // Set wounds only when the zombie is going to die.
+        // 普通殭屍 1=確定死亡時才會有傷口, 0=每次被近戰或電鋸砍到會有傷口
         l4d2_melee_modify_damage_common_wound_dead "1"
         ```
 </details>
@@ -186,6 +241,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Spitter"		"390"   // 對Spitter造成的傷害值
                 "Jockey"		"390"   // 對Jockey造成的傷害值
                 "Charger"		"390"   // 對Charger造成的傷害值
+
+                "HeadShot_multi" // 砍到頭的傷害加成
+                {
+                    "Tank"			"2.0"
+                    "Witch"			"1.0"
+                    //"Common"		"1.0" //無作用. 近戰爆頭 普通殭屍，依然會瞬間死亡
+                    "Smoker"		"1.0"
+                    "Boomer"		"1.0"
+                    "Hunter"		"1.0"
+                    "Spitter"		"1.0"
+                    "Jockey"		"1.0"
+                    "Charger"		"1.0"
+                }
+                
+                "Leg_multi" // 砍到腳的傷害加成
+                {
+                    "Tank"			"1.0"
+                    "Witch"			"1.0"
+                    "Common"		"1.0"
+                    "Smoker"		"0.5"
+                    "Boomer"		"0.5"
+                    "Hunter"		"0.5"
+                    "Spitter"		"0.5"
+                    "Jockey"		"0.5"
+                    "Charger"		"0.5"
+                }
             }
 
             // 以下增加任何三方圖的近戰
@@ -202,6 +283,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Spitter"		"390"
                 "Jockey"		"390"
                 "Charger"		"390"
+
+                "HeadShot_multi" // 砍到頭的傷害加成
+                {
+                    "Tank"			"2.0"
+                    "Witch"			"1.0"
+                    //"Common"		"1.0" //無作用
+                    "Smoker"		"1.0"
+                    "Boomer"		"1.0"
+                    "Hunter"		"1.0"
+                    "Spitter"		"1.0"
+                    "Jockey"		"1.0"
+                    "Charger"		"1.0"
+                }
+                
+                "Leg_multi" // 砍到腳的傷害加成
+                {
+                    "Tank"			"1.0"
+                    "Witch"			"1.0"
+                    "Common"		"1.0"
+                    "Smoker"		"0.5"
+                    "Boomer"		"0.5"
+                    "Hunter"		"0.5"
+                    "Spitter"		"0.5"
+                    "Jockey"		"0.5"
+                    "Charger"		"0.5"
+                }
             }
 		}
 		```
