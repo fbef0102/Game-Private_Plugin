@@ -22,9 +22,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d2_tankonfire_boost.cfg
 		```php
-		// Amount of fire damage the tank deals upon punching.
-		l4d2_tankonfire_boost_damage_amount "5.0"
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_tankonfire_boost_enable "1"
 
@@ -33,6 +30,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, prints a warning to the chatbox.
 		l4d2_tankonfire_boost_warning_enable "1"
+
+		// Amount of fire damage the tank deals upon punching.
+		l4d2_tankonfire_boost_damage_amount "5.0"
 		```
 </details>
 
@@ -78,7 +78,20 @@ Tank燃燒時，速度與力量會提升
 	* Tank燃燒時，移動速度會變快
 	* Tank燃燒時，提升火拳對人類造成的傷害
 
-* 功能
-	* 可設置移動速度
-	* 可設置火拳傷害值
-	* 可設置開關提示
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_tankonfire_boost.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d2_tankonfire_boost_enable "1"
+
+		// Tank燃燒時，移動速度
+		l4d2_tankonfire_boost_speed_multi "1.2"
+
+		// 為1時，打開提示
+		l4d2_tankonfire_boost_warning_enable "1"
+
+		// Tank燃燒時，火拳造成的額外傷害值
+		l4d2_tankonfire_boost_damage_amount "5.0"
+		```
+</details>

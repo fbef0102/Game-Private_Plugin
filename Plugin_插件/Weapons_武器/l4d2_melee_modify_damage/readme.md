@@ -61,7 +61,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             {
                 "Enable"		"1"     // Enable
                 "Tank"			"100"   // modify damage to Tank
-                "Witch"			"100"   // modify damage to Witch
+                "Witch"			"-1"    // modify damage to Witch, -1=Default damage
                 "Common"		"100"   // modify damage to Commons
                 "Smoker"		"100"   // modify damage to Smoker
                 "Boomer"		"100"   // modify damage to Boomer
@@ -76,7 +76,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Enable"		"1"     // Enable
                 "Tank"			"300"   // modify damage to Tank
                 "Witch"			"250"   // modify damage to Witch
-                "Common"		"100"   // modify damage to Commons
+                "Common"		"-1"   // modify damage to Commons, -1=Default damage
                 "Smoker"		"390"   // modify damage to Smoker
                 "Boomer"		"390"   // modify damage to Boomer
                 "Hunter"		"390"   // modify damage to Hunter
@@ -161,6 +161,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	If you don't use any of these plugins at all, no need to worry about conflicts.
 	1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
 		* Disable nerf damage for melee weapon and Chainsaw
+	2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
+		* Disable damage modify for melee weapon and Chainsaw
 </details>
 
 * Apply to | 適用於
@@ -195,6 +197,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 使用近戰爆頭 普通殭屍，依然會瞬間死亡 (無論傷害高低)
     * 如要修改槍械武器的傷害值，請查看 "相關插件" 部分
 
+* 用意在哪?
+    * 官方預設中(安裝此插件之前)，近戰過於強大到可以
+        * 一刀砍死特感 (無論血量多高)
+        * 兩刀砍死Charger (無論血量多高)
+        * 20刀砍死Tank (無論血量多高)
+        * 4刀砍死Witch (無論血量多高)
+
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
     * cfg/sourcemod/l4d2_melee_modify_damage.cfg
@@ -219,7 +228,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             {
                 "Enable"		"1"     // 1=啟用修改
                 "Tank"			"100"   // 對Tank造成的傷害值
-                "Witch"			"100"   // 對Witch造成的傷害值
+                "Witch"			"-1"    // 對Witch造成的傷害值, 寫-1=預設傷害
                 "Common"		"100"   // 對普通殭屍造成的傷害值
                 "Smoker"		"100"   // 對Smoker造成的傷害值
                 "Boomer"		"100"   // 對Boomer造成的傷害值
@@ -234,7 +243,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Enable"		"1"     // Enable
                 "Tank"			"300"   // 對Tank造成的傷害值
                 "Witch"			"250"   // 對Witch造成的傷害值
-                "Common"		"100"   // 對普通殭屍造成的傷害值
+                "Common"		"-1"   // 對普通殭屍造成的傷害值, 寫-1=預設傷害
                 "Smoker"		"390"   // 對Smoker造成的傷害值
                 "Boomer"		"390"   // 對Boomer造成的傷害值
                 "Hunter"		"390"   // 對Hunter造成的傷害值
@@ -319,4 +328,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	如果沒安裝以下插件就不需要擔心衝突
 	1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
 		* 關閉此插件中的 "近戰與電鋸" 削弱傷害
+	2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
+		* 關閉此插件中的 "近戰與電鋸" 對普通殭屍的傷害數值調整
 </details>

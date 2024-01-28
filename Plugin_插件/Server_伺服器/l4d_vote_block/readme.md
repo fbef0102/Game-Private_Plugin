@@ -35,10 +35,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Turn on vote 'Return to Lobby' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_returntolobby "0"
 
-        // Turn on vote 'Restar Game' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Restart Game' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_restartgame "0"
 
-        // Turn on vote 'Restar Game' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Restart Game' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_restartgame "0"
 
         // Turn on vote 'Change Difficulty' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
@@ -89,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [kickthevoter](https://github.com/fbef0102/Game-Private_Plugin/tree/main/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
+	1. [kickthevoter](/Plugin_插件/Anti_Griefer_防惡意路人/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
 		> 使用Esc->發起投票的人將會被反踢出去伺服器
 </details>
 

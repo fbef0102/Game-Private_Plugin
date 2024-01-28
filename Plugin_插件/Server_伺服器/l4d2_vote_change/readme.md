@@ -24,26 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_vote_change_6](image/l4d2_vote_change_6.jpg)
 </details>
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1h (2023-6-11)
-		* Initial Release
-</details>
-
 * Require
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -98,6 +78,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_f
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
+* <details><summary>Related | 相關插件</summary>
+
+    1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
+        > 沒有權限的玩家不能隨意發起官方投票
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2023-6-11)
+		* Initial Release
 </details>
 
 - - - -
