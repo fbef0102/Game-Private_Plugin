@@ -19,7 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Rescue vehicle will not arrive until time passed
 	* Endless hordes after 2 final tank waves
 	* Apply to all official/custom maps
-	* 🟥 Does not work in the following final type.
+	* 🟥 Auto disable plugin in the following final type.
 		1. Gauntlet final, ex: c5m5, c13m4
 		2. Scavenge final, ex: c1m4, c6m3
 	* You can customize time for each map in file ```data/l4d2_final_rescue_arrive_time.cfg```
@@ -122,7 +122,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 增加救援抵達的時間，救援載具不會來臨直到時間結束
 	* 2波Tank階段後，生成無限屍潮，直到時間結束
 	* 適用於所有官方地圖與三方地圖
-	* 🟥 以下救援類型則不適用
+	* 🟥 遇到以下救援類型則自動關閉功能
 		1. 衝刺跑圖, 譬如: c5m5, c13m4
 		2. 灌汽油載具, 譬如: c1m4, c6m3
 	* 可以設置文件```data/l4d2_final_rescue_arrive_time.cfg```，決定每一關的救援抵達時間

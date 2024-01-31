@@ -498,6 +498,8 @@
     * 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
   * [l4d_block_suicide_jumps](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_block_suicide_jumps): Prevents players griefing by suicide with jump
     * 企圖跳樓自殺的玩家將會傳送回樓頂，並封鎖踢出伺服器
+  * [l4d_invalid_name](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player if has invalid name via Regular Expressions
+    * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>

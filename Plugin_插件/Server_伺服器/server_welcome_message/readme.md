@@ -29,6 +29,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, display welcome message each time after changing map
 		server_welcome_message_each_map "0"
+
+		// If 1, display server hostname and ip to new player
+		server_welcome_message_hostname_ip "1"
+
+		// Players with these flags are considered as vip. (Empty=Off)
+		server_welcome_message_vip_flag "qr"
 		```
 </details>
 
@@ -54,6 +60,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-1-31)
+		* Display hostname, ip, vip status
+
 	* v1.1 (2022-12-6)
 		* Display welcome message each time after changing map
 
@@ -66,11 +75,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
 
 * 圖示
-	<br/>![server_welcome_message_2](image/server_welcome_message_2.jpg)
+	<br/>![zho/server_welcome_message_1](image/zho/server_welcome_message_1.jpg)
 
 * 原理
 	* 玩家加入伺服器後，根據玩家的語言顯示歡迎訊息
-	* 只顯示一次，玩家重新進入伺服器才再顯示 (切換關卡後不會顯示)
+	* 可以自行修改歡迎訊息，到```translations\server_welcome_message.phrases.txt```修改
 
-* 功能
-	* 可以自行修改歡迎訊息，到translations\server_welcome_message.phrases.txt修改
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/server_welcome_message.cfg
+		```php
+		// 加入伺服器五秒後顯示歡迎訊息
+		server_welcome_message_delay "5.0"
+
+		// 為1時，每次換圖都要顯示歡迎訊息
+		server_welcome_message_each_map "0"
+
+		// 為1時，歡迎訊息顯示房間名稱與IP
+		server_welcome_message_hostname_ip "1"
+
+		// 擁有這些權限的玩家，被視為VIP並顯示 (留白 = 關閉VIP顯示)
+		server_welcome_message_vip_flag "qr"
+		```
+</details>

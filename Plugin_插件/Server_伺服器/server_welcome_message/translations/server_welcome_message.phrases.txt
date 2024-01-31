@@ -1,10 +1,33 @@
 "Phrases"
 {
-    "WelcomeMessage"
-    {
-        "en"  "Welcome to China Survival server. {olive}Admin: Harry, {green}SteamGroup : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
-        "zho" "歡迎來到中國生存模式伺服器。{olive}管理員: Harry, {green}群組 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
-        "chi" "欢迎来到中国生存模式服务器。{olive}管理员: Harry, {green}群组 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
-    }
+   "WelcomeMessage"
+   {
+      "en"  "Welcome to Daisuki's crazy server. {green}Group: https://steamcommunity.com/groups/xxxxxxxx"
+      "zho" "歡迎來到哈利的瘋狂伺服器。{olive}管理員: Harry, {green}群組 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
+      "chi" "欢迎来到哈利的疯狂伺服器。{olive}管理员: Harry, {green}群组 : steamcommunity.com/groups/xxxxxxxxxxxxxxxxxxxxx"
+   }
+
+   "WelcomeMessage2"
+   {
+      "#format"   "{1:s},{2:s}" //1=hostname, 2=ip
+      "en"  "HostName: {olive}{1}{default} [{green}{2}]"
+      "zho" "房間: {olive}{1}{default} [{green}{2}]"
+      "chi" "房间: {olive}{1}{default} [{green}{2}]"
+   }
+
+   "VIP_Active"
+   {
+      "#format"   "{1:s}"
+      "en"  "VIP: {green}{1}"
+      "zho" "VIP身分: {green}{1}"
+      "chi" "VIP身分: {green}{1}"
+   }
+
+   "VIP_None"
+   {
+      "en"  "VIP: {green}None"
+      "zho" "VIP身分: {green}無"
+      "chi" "VIP身分: {green}無"
+   }
 }
 
