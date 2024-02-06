@@ -176,6 +176,8 @@
     * 向攻擊者顯示特感血條
   * [l4d_stagger_block](/Plugin_插件/Special_Infected_特感/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/....
     * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直震退
+  * [l4d2_si_fire_damage](/Plugin_插件/Special_Infected_特感/l4d2_si_fire_damage): Reset Fire Damage To SI/Tank
+    * 更改火焰對Tank/特感造成的傷害
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -254,8 +256,6 @@
     * 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
   * [l4d_tank_roar](/Plugin_插件/Tank_坦克/l4d_tank_roar): Tank is given a special roar ability that knockbacks (Towards/Away) survivors by RELOAD button.
     * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
-  * [l4d2_tank_fire_damage](/Plugin_插件/Tank_坦克/l4d2_tank_fire_damage): Reset Fire Damage To Tank
-    * 更改火焰對Tank造成的傷害
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

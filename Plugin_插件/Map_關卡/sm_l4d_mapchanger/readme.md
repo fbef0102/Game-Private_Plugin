@@ -189,9 +189,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Dionys @ 2008~2009
 	//Harry @ 2019~2024
 	```
+    * v1.3h (2024-2-7)
+		* Fixed vote menu wrong map order
+
     * v1.2h (2024-1-7)
 		* Fixed cvar is not working
-		* Fixed vote menu wrong map order
 
     * v1.1h (2023-4-18)
         * Optimize code
