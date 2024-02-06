@@ -48,6 +48,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Unsilenced uzis cause this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)
 		l4d_slowdown_uzi_percent "0.3"
 
+		// MP5s cause this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)
+		l4d_slowdown_mp5_percent "0.32"
+
 		// Silenced Uzis cause this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)
 		l4d_slowdown_mac_percent "0.3"
 
@@ -92,6 +95,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 50cal Machine gun cause this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)
 		l4d_slowdown_50cal_percent "-1.0"
+
+		// Bomb Explosion cause this much slowdown * l4d_slowdown_gunfire. (-1: Game default settings; 0.0: No slowdown)
+		l4d_slowdown_bomb_percent "-1.0"
 		```
 </details>
 
@@ -126,6 +132,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2024-2-6)
+		* Update cvars
+		* Add MP5 and bomb explosion
 
 	* v3.1 (2023-2-13)
 		* Add a cvar
@@ -182,10 +192,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 瑪格南手槍傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
 		l4d_slowdown_deagle_percent "0.3"
 
-		// UZI機關槍 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
+		// UZI機槍 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
 		l4d_slowdown_uzi_percent "0.3"
 
-		// 消音機關槍 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
+		// MP5機槍 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
+		l4d_slowdown_mp5_percent "0.32"
+
+		// 消音機槍 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
 		l4d_slowdown_mac_percent "0.3"
 
 		// AK47 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
@@ -229,6 +242,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 50cal 機關槍，傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
 		l4d_slowdown_50cal_percent "-1.0"
+
+		// 土製炸彈 傷害造成速度變慢，移動速度計算：此數值乘上 l4d_slowdown_gunfire. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
+		l4d_slowdown_bomb_percent "-1.0"
 		```
 </details>
 
