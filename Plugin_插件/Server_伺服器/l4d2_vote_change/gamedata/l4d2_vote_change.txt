@@ -1,43 +1,13 @@
 "Games"
 {
-	"#default"
-	{
-		"Functions"
-		{
-			"CRestartGameIssue::ExecuteCommand"
-			{
-				"signature"		"CRestartGameIssue::ExecuteCommand"
-				"callconv"		"thiscall"
-				"return"		"int"
-				"this"			"address"
-			}
-		}
-	}
     "left4dead2"
     {
-		"MemPatches"
-		{
-			"RestartVersus"
-			{
-				"signature"						"Restart"
-				"linux"
-				{
-					"offset"					"226"
-					"patch"						"\xEB\x0B"
-				}
-				"windows"
-				{
-					"offset"					"277"
-					"patch"						"\x90\xE9"
-				}
-			}
-		}
 		"Offsets"
 		{
 			"CDirector::m_iRoundNumber"
 			{
-				"windows"	"1254"
-				"linux"		"1254"
+				"windows"	"1253"
+				"linux"		"1253"
 			}
 			"CDirector::m_fRoundEndInterval"
 			{
@@ -47,20 +17,6 @@
 		}
 		"Signatures"
 		{
-			/* ************************ */
-			/* Signatures by IA-NanaNana */
-			/* ************************ */
-			"CRestartGameIssue::ExecuteCommand"
-			{
-				"library"	"server"
-				"linux"		"@_ZN17CRestartGameIssue14ExecuteCommandEv"
-				"windows"	"\x2A\x2A\x2A\x2A\x2A\x84\xC0\x74\x10\xA1\x2A\x2A\x2A\x2A\x8B\x88\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A"
-				/* sub_10352820 
-				 * 1.Search "singlechapter"
-				 * 2.Locate this function header, then press ctrl + x
-				 * 3.One of them, always NO.2
-				*/
-			}
 			"EndScenario"
 			{
 				"library"	"server"
@@ -69,19 +25,6 @@
 				/* sub_10268BE0 
 				 * 1.Locate aRoundEnd by search 'aRoundEnd'
 				 * 2.Press ctrl + x to show xrefs, the 4th should be this
-				*/
-			}
-			
-			/* ********************* */
-			/* Signature by Psyk0tik */
-			/* ********************* */
-			"Restart"
-			{
-				"library"	"server"
-				"linux"		"@_ZN9CDirector7RestartEv"
-				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xA1\xD8\x2A\x2A\x2A\x33\x2A\x89\x2A\x2A\xA1\x90\x2A\x2A\x2A\x8B\x2A\x2A\x53\x56\x57\x8B"
-				/* Signature for sub_1026E830:
-				 * ? ? ? ? ? ? ? ? ? A1 D8 ? ? ? 33 ? 89 ? ? A1 90 ? ? ? 8B ? ? 53 56 57 8B
 				*/
 			}
 		}

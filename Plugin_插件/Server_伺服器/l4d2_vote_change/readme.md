@@ -24,6 +24,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_vote_change_6](image/l4d2_vote_change_6.jpg)
 </details>
 
+* <details><summary>How does it work?</summary>
+
+	* Type !newvotes to open vote menu
+	* Automatic parsing of custom maps vpk files - no need to add map names manually，file is in ```configs\l4d2_vote_change.txt``` (don't touch)
+</details>
+
 * Require
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -102,6 +108,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2024-2-8)
+		* Fixed "Restart Level" not working in versus
+
 	* v1.1h (2023-6-11)
 		* Initial Release
 </details>
@@ -139,6 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 功能
 	* 任何人發起投票後，管理員可輸入!p一票同意；!f一票否決。
+	* 自動添加三方圖，文件位於```configs\l4d2_vote_change.txt``` (不要修改)
 
 * 投票菜單表
 	* 主列表：

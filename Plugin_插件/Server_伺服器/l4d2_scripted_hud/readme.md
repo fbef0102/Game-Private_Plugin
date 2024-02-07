@@ -53,9 +53,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* If you run a versus server. Rename it to "versus.nut"
 		* If you run a survival server. Rename it to "survival.nut"
 		* If you run a scavenge server. Rename it as "scavenge.nut"
-		* If you run some mutation gamemode. Rename it to "<mutation>.nut"
+		* If you run some mutation gamemode. Rename it to "xxxx.nut" (xxxx= mutation name)
 		* You can create multi .nut files
-	> __Note__ (don't forget to backup your <gamemode>.nut file if you already have one, e.g. coop.nut)
 
 	* Note
 		* Load data\l4d2_scripted_hud.cfg "HUD_Texts" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` (? is 1~5) cvar text. If both empty, then load GetHUD*_Text functions
