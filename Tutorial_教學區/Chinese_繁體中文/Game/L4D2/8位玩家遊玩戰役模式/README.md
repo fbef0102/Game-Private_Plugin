@@ -54,7 +54,7 @@
         * 這個文件會自己創建，如果沒有創建表示你安裝l4dmultislots失敗
       - cfg/sourcemod/l4dmultislots.cfg 設置
 		```php
-		l4d_multislots_max_survivors "8"
+		l4d_multislots_min_survivors "8"
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
       

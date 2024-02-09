@@ -550,20 +550,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 只顯示給旁觀者
 </details>
 
-* 安裝步驟
-	* 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
-	* 戰役模式. 改成名 "coop.nut"
-	* 對抗模式. 改成名 "versus.nut"
-	* 生存模式. 改成名 "survival.nut"
-	* 清道夫模式. 改成名 "scavenge.nut"
-	* 突變模式. 改成名 "<突變模式英文名>.nut"
-	* 可以創建多個.nut檔案
-	> __Note__ (如果已有.nut檔案，可以先備份)
+* <details><summary>重要說明</summary>
 
-* 注意事項
-	* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUD?_Text 文字 (? 是 1~5)
-	* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
-	* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
+	* 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
+		* 戰役模式. 改成名 "coop.nut"
+		* 對抗模式. 改成名 "versus.nut"
+		* 生存模式. 改成名 "survival.nut"
+		* 清道夫模式. 改成名 "scavenge.nut"
+		* 突變模式. 改成名 "<突變模式英文名>.nut"
+		* 可以創建多個.nut檔案
+		> __Note__ (如果已有.nut檔案，可以先備份)
+
+	* 注意事項
+		* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUDX" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hudX_text``` 指令文字. 如果兩者皆空, 使用插件內預設的 GetHUD?_Text 文字 (? 是 1~5)
+		* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
+		* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
+</details>
 
 * <details><summary>問題區</summary>
 

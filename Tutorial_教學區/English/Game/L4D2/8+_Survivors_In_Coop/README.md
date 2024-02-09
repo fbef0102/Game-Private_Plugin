@@ -53,7 +53,7 @@
    - How could I control the number of bots spawned at the start
       - cfg/sourcemod/l4dmultislots.cfg
 		```php
-		l4d_multislots_max_survivors "8"
+		l4d_multislots_min_survivors "8"
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
 
