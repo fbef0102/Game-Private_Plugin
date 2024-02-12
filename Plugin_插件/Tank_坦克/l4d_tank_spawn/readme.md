@@ -170,10 +170,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (第一關/正常關卡/最後一關路程上) 每次產生Tank時，所生成的最多數量
 		l4d_tank_spawn_max_simultaneous "3"
 
-		// (第一關/正常關卡/最後一關路程上) 最近10%可以生成Tank，數字請填[5~95]%
+		// (第一關/正常關卡/最後一關路程上) 至少路程到達10%才可以生成Tank，數字請填[5~95]%
 		l4d_tank_spawn_range_min_tank "10"
 
-		// (第一關/正常關卡/最後一關路程上) 最90%可以生成Tank，數字請填[5~95]%
+		// (第一關/正常關卡/最後一關路程上) 路程最遠90%生成Tank，數字請填[5~95]%
 		l4d_tank_spawn_range_max_tank "90"
 		```
 </details>

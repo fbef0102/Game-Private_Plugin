@@ -242,8 +242,8 @@
     * 救援載具來臨之後不會有Tank來襲
   * [skip_tank_taunt](/Plugin_插件/Tank_坦克/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
     * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
-  * [l4d_tank_speed_boost](/Plugin_插件/Tank_坦克/l4d_tank_speed_boost): Increase Tank speed until hitting survivors
-    * Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
+  * [l4d_tank_speed_boost](/Plugin_插件/Tank_坦克/l4d_tank_speed_boost): Increase AI Tank speed until hitting survivors
+    * AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
   * [l4d_tankhud](/Plugin_插件/Tank_坦克/l4d_tankhud): Show tank hud for infected team and spectators
     * 為特感者隊伍與旁觀者展示Tank介面，顯示血量與控制權
   * [l4d_burn_tank_penalty](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Get slowdown while burning the tank

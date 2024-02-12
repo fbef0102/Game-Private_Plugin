@@ -105,6 +105,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2024-2-12)
+		* Fixed sometimes not working
+
     * v1.0 (2024-1-21)
         * Initial Release
 </details>
