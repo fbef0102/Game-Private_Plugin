@@ -29,17 +29,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Time interval to increase the tank movement & animation speed. (0=off)
 		l4d_tank_speed_boost_interval "2.5"
 
-		// Increase the tank movement speed each time.
+		// Increase the tank movement speed each time. (0=Don't increase)
 		l4d_tank_speed_boost_add "0.05"
 
 		// Maximum tank movement speed.
 		l4d_tank_speed_boost_max "2.50"
 
-		// Increase the tank animation speed each time.
+		// Increase the tank animation speed each time. (0=Don't increase)
 		l4d_tank_animation_boost_add "0.05"
 
 		// Maximum tank animation speed.
 		l4d_tank_animation_boost_max "2.50"
+
+		// Reset tank movement & animation speed when 1=Hurt survior by punch, 2=Hurt survior by rock, 3=Both.
+		l4d_tank_animation_boost_reset "1"
 		```
 </details>
 
@@ -65,6 +68,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.7 (2024-2-15)
+		* Update cvars
+
 	* v1.6 (2024-2-12)
 		* Fixed not working
 
@@ -77,7 +83,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
 
 * 原理
-	* Tank開始追向倖存者的時候，自身的移動速度與爬行速度逐漸變快
+	* Tank開始追向倖存者的時候，自身的移動速度與爬行障礙物速度逐漸變快
 	* 當Tank打到倖存者之後，自身的所有速度重置 (重新變快)
 	* 真人Tank玩家不適用
 
@@ -85,19 +91,22 @@ AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為�
 
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
 		```php
-		// 每2.5秒增加AI Tank的移動與爬行速度 (0=關閉此插件)
+		// 每2.5秒增加AI Tank的移動與爬行障礙物速度 (0=關閉此插件)
 		l4d_tank_speed_boost_interval "2.5"
 
-		// 每次增加的移動速度
+		// 每次增加的移動速度 (0=不增加移動速度)
 		l4d_tank_speed_boost_add "0.05"
 
 		// 最大移動速度
 		l4d_tank_speed_boost_max "2.50"
 
-		// 每次增加的爬行速度
+		// 每次增加的爬行障礙物速度 (0=不增加爬行障礙物速度)
 		l4d_tank_animation_boost_add "0.05"
 
-		// 最大爬行速度
+		// 最大爬行障礙物速度
 		l4d_tank_animation_boost_max "2.50"
+		
+		// 當Tank傷害到倖存者之後，自身的所有速度重置，1=拳頭打中倖存者時, 2=石頭擊中倖存者時, 3=兩者皆是.
+		l4d_tank_animation_boost_reset "1"
 		```
 </details>

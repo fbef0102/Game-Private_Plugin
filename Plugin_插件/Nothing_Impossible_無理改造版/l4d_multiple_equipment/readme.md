@@ -20,7 +20,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * Everyone can carry
         * 2 different primary weapons
-        * 2 different melee weapons or pistols
+        * 2 different melee weapons (Support Custom Melee) or pistols
         * 2 thorwable items
         * 2 kits/defibrillators/upgradepacks
         * 2 pills/adrenalines
@@ -194,7 +194,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 每個人可以攜帶
         * 兩把不同的主武器
-        * 兩把不同的近戰或手槍
+        * 兩把不同的近戰(支援三方圖近戰)或手槍
         * 兩個投擲物
         * 兩個醫療物/電擊器/升級彈包
         * 兩個藥丸/腎上腺素
@@ -207,7 +207,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         2. 輸入 ```!sw```
     * 如何將第二把武器或物品切回武器欄
         1. 右鍵推擊或單擊 Slot 1,2,3,4,5 按鈕
-    * 戰役/寫實模式中 可以過關保存
+    * 戰役/寫實模式中，可以過關保存
     * 即使閒置或AFK也可以保存
     * 死亡時掉落身上所有第二把武器與物品
 

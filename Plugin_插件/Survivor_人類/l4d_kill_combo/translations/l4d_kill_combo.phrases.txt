@@ -61,6 +61,13 @@
 		"zho"	"[{green}連殺{default}] {olive}{1}{default} 達成了 {lightgreen}{2}"
 		"chi"	"[{green}连杀{default}] {olive}{1}{default} 达成了 {lightgreen}{2}"
 	}
+	"All_HS"
+	{
+		"#format"		"{1:N},{2:t}"
+		"en"	"[{green}Combo{default}] {olive}{1}{default} achieves headshot {lightgreen}{2}"
+		"zho"	"[{green}連殺{default}] {olive}{1}{default} 達成了爆头 {lightgreen}{2}"
+		"chi"	"[{green}连杀{default}] {olive}{1}{default} 达成了爆头 {lightgreen}{2}"
+	}
 	"Kill Combo Menu"
 	{
 		"en"	"Kill Combo Menu"
