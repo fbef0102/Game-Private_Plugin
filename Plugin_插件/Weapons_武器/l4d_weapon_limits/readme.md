@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>None
 
 * Image
-	* display message when weapon limit reached
+    * display message when weapon limit reached
     <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
 * <details><summary>How does it work?</summary>
@@ -70,8 +70,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
     4. Optional - [[INC] l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment/scripting/include/l4d_multiple_equipment.inc)
 
@@ -87,9 +87,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
     
     * **Add a weapon limit**
-		```php
+        ```php
         l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon/melee class name>
-		```
+        ```
 </details>
 
 * Apply to | 適用於
@@ -101,17 +101,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
-	```
-	English
-	繁體中文
-	简体中文
-	```
+    ```
+    English
+    繁體中文
+    简体中文
+    ```
 </details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot (No conflict)
-		> 每個人可以攜帶兩種武器或物品 (與此插件不衝突)
+    1. [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot (No conflict)
+        > 每個人可以攜帶兩種武器或物品 (與此插件不衝突)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -124,10 +124,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Fixed player can still break the limit can pick up weapon
 
     * v2.1
-	    * Remove some cmds
+        * Remove some cmds
 
     * v2.0
-	    * [By CanadaRox, Stabby, Forgetest, A1m`, robex](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d_weapon_limits.sp)
+        * [By CanadaRox, Stabby, Forgetest, A1m`, robex](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d_weapon_limits.sp)
 </details>
 
 - - - -
@@ -135,7 +135,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 限制每個武器可以拿取的數量，超過就不能拿取
 
 * 圖示
-	* 顯示武器拿取限制
+    * 顯示武器拿取限制
     <br/>![zho/l4d_weapon_limits_1](image/zho/l4d_weapon_limits_1.jpg)
 
 * 原理
@@ -212,7 +212,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>命令中文介紹 (點我展開)</summary>
     
     * **限制武器數量**
-		```php
+        ```php
         l4d_weapon_limits_add <限制數量> <如果不能撿起限制的武器是否給彈藥> <武器/近戰 名稱>
-		```
+        ```
 </details>

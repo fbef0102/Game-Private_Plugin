@@ -1663,5 +1663,13 @@
 		"zho"	"重複購買商品 (無)"
 		"chi"	"重复购买商品 (无)"
 	}
+	
+	"Tank Lose Control"
+	{
+		"#format"		"{1:d}"
+		"en"	"You lose control and become {red}AI Tank{default}, reduce {green}{1}{default} credits."
+		"zho"	"失去控制權變成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
+		"chi"	"失去控制权变成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
+	}
 }
 

@@ -150,6 +150,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// "Changes how 'You got credits by helping teammate' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		sm_shop_help_teammate_announce_type "1"
 
+		// Reduce money if tank players lose control and become AI tank. (0=off)
+		sm_shop_tank_lost_control "1500"
+
 		// Database to save money to.
 		// empty = don't connect to database
 		//  (MySQL & SQLite supported)
@@ -443,6 +446,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.3 (2024-2-16)
+		* Reduce moeny if tank players lose control
+		* Update Cvars
+
 	* v5.2 (2023-11-7)
 		* Add repeat buy in survivor meanu and infected menu
 		* Add data file, more convenient to edit item price
@@ -599,6 +606,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// "你幫助隊友獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		sm_shop_help_teammate_announce_type "1"
+
+		// Tank玩家失去控制權變成AI tank，將扣除金額. (0=關閉這項功能)
+		sm_shop_tank_lost_control "1500"
 
 		// 資料庫設定
 		// 留白 = 不使用資料庫
