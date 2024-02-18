@@ -46,6 +46,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_h_csm.cfg
 		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_h_csm_enable "1"
+
+		// changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_h_csm_type "1"
+
 		// Players with these flags have access to open Character Select Menu (Empty = Everyone, -1: Nobody)
 		l4d_h_csm_access_flag ""
 
@@ -55,14 +61,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, close Character Select Menu after select
 		l4d_h_csm_close_menu "0"
 
-		// 0=Plugin off, 1=Plugin on.
-		l4d_h_csm_enable "1"
-
 		// If 1, use CookiesCached to save player character. Player will have same character if rejoin server next time.
 		l4d_h_csm_save_character_enable "1"
 
-		// changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		l4d_h_csm_type "1"
+		// (L4D2) If 1, set thirdperson view after player selects character.
+		l4d_h_csm_thirdperson_view "1"
 		```
 </details>
 
@@ -104,8 +107,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//mi123645 @ 2009 - 2010
-	//Harry @ 2022-2023
+	//Harry @ 2022-2024
 	```
+	* v1.4h (2024-2-18)
+		* Update Cvars
+
 	* v1.3h (2023-12-18)
 		* Require left4dhooks v1.33 or above
 		* Add api
@@ -152,6 +158,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=啟動插件, 1=關閉插件.
 		l4d_h_csm_enable "1"
 
+		// 如何顯示提示 (0: 關閉提示, 1:聊天框, 2: 螢幕下方黑底白字窗口, 3: 螢幕正中間)
+		l4d_h_csm_type "1"
+
 		// 擁有這些權限的玩家可以使用!csm命令更換角色 (留白 = 任何人都能使用, -1: 無人能使用)
 		l4d_h_csm_access_flag ""
 
@@ -164,8 +173,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 使用Cookies保存玩家選擇的角色，意思是說玩家下次加入倖存者之後自動變成上一次選擇的角色
 		l4d_h_csm_save_character_enable "1"
 
-		// 如何顯示提示 (0: 關閉提示, 1:聊天框, 2: 螢幕下方黑底白字窗口, 3: 螢幕正中間)
-		l4d_h_csm_type "1"
+		// 為1時，當選擇完畢角色之後切換短暫的第三人稱視角鏡頭
+		l4d_h_csm_thirdperson_view "1"
 		```
 </details>
 

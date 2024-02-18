@@ -76,19 +76,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// Adjust tank spawns: 100% chance on every map (0.00 ~ 1.00)
 		sm_cvar versus_tank_chance_intro 		"1" //first map
-		sm_cvar versus_tank_chance_finale 		"1" //regular map
-		sm_cvar versus_tank_chance 				"1" //final map
+		sm_cvar versus_tank_chance 				"1" //regular map
+		sm_cvar versus_tank_chance_finale 		"1" //final map
 
 		// Adjust witch spawns: 100% chance on every map (0.00 ~ 1.00)
 		sm_cvar versus_witch_chance_intro 		"1" //first map
-		sm_cvar versus_witch_chance_finale 		"1" //regular map
-		sm_cvar versus_witch_chance 			"1" //final map
+		sm_cvar versus_witch_chance 			"1" //regular map
+		sm_cvar versus_witch_chance_finale 		"1" //final map
 
 		// Adjust boss spawn completion rates: Boss have been prevented from spawning before 20% and after 85
 		sm_cvar versus_boss_flow_min_intro 		"0.20" //first map
 		sm_cvar versus_boss_flow_max_intro 		"0.85"
+
 		sm_cvar versus_boss_flow_min 			"0.25" //regular map
 		sm_cvar versus_boss_flow_max 			"0.85"
+
 		sm_cvar versus_boss_flow_min_finale 	"0.20"
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map
 		```
@@ -239,19 +241,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 每張地圖100%生成Tank (0.00 ~ 1.00)
 		sm_cvar versus_tank_chance_intro 		"1" //第一關
-		sm_cvar versus_tank_chance_finale 		"1" //普通關卡
-		sm_cvar versus_tank_chance 				"1" //最後一關
+		sm_cvar versus_tank_chance 				"1" //普通關卡
+		sm_cvar versus_tank_chance_finale 		"1" //最後一關
 
 		// 每張地圖100%生成Witch (0.00 ~ 1.00)
 		sm_cvar versus_witch_chance_intro 		"1" //第一關
-		sm_cvar versus_witch_chance_finale 		"1" //普通關卡
-		sm_cvar versus_witch_chance 			"1" //最後一關
+		sm_cvar versus_witch_chance 			"1" //普通關卡
+		sm_cvar versus_witch_chance_finale 		"1" //最後一關
 
 		// 決定關卡的Boss生成路程: 25% ~ 85%
 		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關
 		sm_cvar versus_boss_flow_max_intro 		"0.85"
+
 		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
 		sm_cvar versus_boss_flow_max 			"0.85"
+
 		sm_cvar versus_boss_flow_min_finale 	"0.25"
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
 		```
