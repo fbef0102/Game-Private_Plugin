@@ -46,7 +46,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```c++
+	```c
     /**
     * Get client's weapon classname or melee classname in a player's slot.
     * 

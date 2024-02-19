@@ -178,6 +178,8 @@
     * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直震退
   * [l4d2_si_fire_damage](/Plugin_插件/Special_Infected_特感/l4d2_si_fire_damage): Reset Fire Damage To SI/Tank
     * 更改火焰對Tank/特感造成的傷害
+  * [end_safedoor_teleport](/Plugin_插件/Special_Infected_特感/end_safedoor_teleport): Teleport ci/si/tank outside the end saferoom if they spawn inside
+    * 如果 普通感染者/特感/Tank 生在終點安全室裡面，則將他們傳送到門前 (避免卡在終點安全室裡面)
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

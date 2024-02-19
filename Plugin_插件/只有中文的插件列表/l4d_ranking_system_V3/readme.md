@@ -119,7 +119,7 @@
 
 * <details><summary>API | 串接</summary>
 
-	```c++
+	```c
 	/**
 	* Get Rank Title for client
 	* 

@@ -17,7 +17,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
-
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_horde_equaliser.cfg

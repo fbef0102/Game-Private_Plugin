@@ -86,7 +86,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```c++
+	```c
 	/**
 	* Get Rank Title for client
 	* 

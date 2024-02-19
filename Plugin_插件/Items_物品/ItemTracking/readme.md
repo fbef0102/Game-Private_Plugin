@@ -15,9 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Detect all items on round start and remove items if limit reach
 	* Modify ```data/mapinfo.txt``` and control items limit on the map
-		* control items in start safe area
-		* control items outside saferoom/final area
-		* control items in end safe area & in final area
 </details>
 
 * Require | 必要安裝
@@ -36,67 +33,67 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Keep item spawns the same as first sound in coop/realism/survival
 		itemtracking_savespawns_CP "0"
 
-		// Limits the number of adrenaline shots in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of adrenaline shots in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		adrenaline_end_area_limit "-1"
 
-		// Limits the number of adrenaline shots outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of adrenaline shots outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		adrenaline_limit "-1"
 
-		// Limits the number of adrenaline shots in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of adrenaline shots in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		adrenaline_start_area_limit "-1"
 
-		// Limits the number of defibrillators in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of defibrillators in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		defib_end_area_limit "-1"
 
-		// Limits the number of defibrillators outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of defibrillators outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		defib_limit "-1"
 
-		// Limits the number of defibrillators in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of defibrillators in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		defib_start_area_limit "-1"
 
-		// Limits the number of first aid kits in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of first aid kits in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		kits_end_area_limit "-1"
 
-		// Limits the number of first aid kits outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of first aid kits outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		kits_limit "-1"
 
-		// Limits the number of first aid kits in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of first aid kits in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		kits_start_area_limit "-1"
 
-		// Limits the number of molotovs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of molotovs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		molotov_end_area_limit "-1"
 
-		// Limits the number of molotovs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of molotovs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		molotov_limit "-1"
 
-		// Limits the number of molotovs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of molotovs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		molotov_start_area_limit "-1"
 
-		// Limits the number of pain pills in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pain pills in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pills_end_area_limit "-1"
 
-		// Limits the number of pain pills outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pain pills outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pills_limit "-1"
 
-		// Limits the number of pain pills in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pain pills in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pills_start_area_limit "-1"
 
-		// Limits the number of pipe bombs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pipe bombs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pipebomb_end_area_limit "-1"
 
-		// Limits the number of pipe bombs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pipe bombs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pipebomb_limit "-1"
 
-		// Limits the number of pipe bombs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of pipe bombs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		pipebomb_start_area_limit "-1"
 
-		// Limits the number of bile bombs in end safe area & in final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of bile bombs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		vomitjar_end_area_limit "-1"
 
-		// Limits the number of bile bombs outside saferoom & outside final area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of bile bombs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		vomitjar_limit "-1"
 
-		// Limits the number of bile bombs in start safe area on each map by default. -1: no limit; >=0: limit to cvar value
+		// Limits the number of bile bombs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
 		vomitjar_start_area_limit "-1"
 		```
 </details>
@@ -108,46 +105,50 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/mapinfo.txt
+	* ```data/mapinfo.txt```
+	* control items limit on the map
+		* control items in start safe area in coop/versus/realism
+		* control items outside saferoom/final area in coop/versus/realism/survival/scavenge
+		* control items in end safe area & in final area in coop/versus/realism
 		```php
 		"MapInfo"
 		{
 			"c4m1_milltown_a" //Map Name
 			{
 				"start_point"		"-6008.747070 7381.954590 192.909424" //start safe area center point (do not modify)
-				"end_point"		"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
 				"start_dist"		"100.000000" //start safe area distance (do not modify)
 				"start_extra_dist"	"500.000000" //start safe area distance extra (do not modify)
-				"end_dist"		"275.000000" //end safe area/final area distance extra (do not modify)
-				"ItemLimits_Outside" // control items outside saferoom/final area
+				"end_point"			"3993.458008 -1598.952271 294.281250" //end safe area/final area center point (do not modify)
+				"end_dist"			"275.000000" //end safe area/final area distance extra (do not modify)
+				"ItemLimits_Outside" // control items outside saferoom/final area in coop/versus/realism/survival/scavenge
 				{
-					"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pills_limit" if no keyvalue)
-					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
-					"first_aid_kit"	"2" // Randomly Remove kits until 2 kits left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "kits_limit" if no keyvalue)
-					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "defib_limit" if no keyvalue)
-					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
-					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "molotov_limit" if no keyvalue)
-					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (-1=No Limit;0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "pills_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "adrenaline_limit" if no keyvalue)
+					"first_aid_kit"	"2" // Randomly Remove kits until 2 kits left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "kits_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "defib_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "pipebomb_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "molotov_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left outside saferoom/final area (-1=Don't Remove;0=Remove All, use cvar "vomitjar_limit" if no keyvalue)
 				}
-				"ItemLimits_StartArea"	// control items in start safe area
+				"ItemLimits_StartArea"	// control items in start safe area in coop/versus/realism
 				{
-					"pain_pills"	"2" // Randomly remove pills until 2 pills left in start safe area (-1=No Limit;0=Remove All, use cvar "pills_start_area_limit" if no keyvalue)
-					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in start safe area (-1=No Limit;0=Remove All, use cvar "adrenaline_start_area_limit" if no keyvalue)
-					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in start safe area (-1=No Limit;0=Remove All, use cvar "kits_start_area_limit" if no keyvalue)
-					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in start safe area (-1=No Limit;0=Remove All, use cvar "defib_start_area_limit" if no keyvalue)
-					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in start safe area (-1=No Limit;0=Remove All, use cvar "pipebomb_start_area_limit" if no keyvalue)
-					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=No Limit;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
-					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=No Limit;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left in start safe area (-1=Don't Remove;0=Remove All, use cvar "pills_start_area_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in start safe area (-1=Don't Remove;0=Remove All, use cvar "adrenaline_start_area_limit" if no keyvalue)
+					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in start safe area (-1=Don't Remove;0=Remove All, use cvar "kits_start_area_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in start safe area (-1=Don't Remove;0=Remove All, use cvar "defib_start_area_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in start safe area (-1=Don't Remove;0=Remove All, use cvar "pipebomb_start_area_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in start safe area (-1=Don't Remove;0=Remove All, use cvar "molotov_start_area_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in start safe area (-1=Don't Remove;0=Remove All, use cvar "vomitjar_start_area_limit" if no keyvalue)
 				}
-				"ItemLimits_EndArea" // control items in end safe area & in final area
+				"ItemLimits_EndArea" // control items in end safe area & in final area in coop/versus/realism
 				{
-					"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
-					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
-					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
-					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
-					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
-					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
-					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & in final area (-1=No Limit;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
+					"pain_pills"	"2" // Randomly remove pills until 2 pills left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "pills_end_area_limit" if no keyvalue)
+					"adrenaline"	"2" // Randomly Remove adrenalines until 2 adrenalines left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "adrenaline_end_area_limit" if no keyvalue)
+					"first_aid_kit"	"4" // Randomly Remove kits until 4 kits left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "kits_end_area_limit" if no keyvalue)
+					"defibrillator"	"2" // Randomly Remove defibrillators until 2 defibrillators left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "defib_end_area_limit" if no keyvalue)
+					"pipe_bomb"		"1" // Randomly Remove pipebombs until 1 pipe_bomb left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "pipebomb_end_area_limit" if no keyvalue)
+					"molotov"		"1" // Randomly Remove molotovs until 1 molotov left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "molotov_end_area_limit" if no keyvalue)
+					"vomitjar"		"1" // Randomly Remove vomitjars until 1 vomitjar left in end safe area & in final area (-1=Don't Remove;0=Remove All, use cvar "vomitjar_end_area_limit" if no keyvalue)
 				}
 			}
 		}
@@ -181,6 +182,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.2h (2024-2-19)
+		* Support second final area (ex: c2m5)
+		* Update Cvars
+
 	* v1.1h (2023-7-3)
 		* Support Coop/Realism/Versus/Survival/Scavenge
 
@@ -199,15 +204,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 控制地圖上的物品數量與限制
 
 * 原理
-	* 設置文件```data/mapinfo.txt```控制地圖上的物品生成數量或限制
+	* 地圖載入後的0.5秒後，
+		* 控制地圖上的物品生成數量或限制
+		* 設置文件```data/mapinfo.txt```，控制地圖上的物品生成數量或限制
+		* 此插件刪除地圖上原有的物品，並非生成新物品
 	* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
-	* 此插件刪除地圖上原有的物品，並不是自動生成物品
-	* 戰役/對抗/寫實模式下控制的區域有三種
-		1. 安全區域&救援區域外 
-		2. 起始安全區域內 
-		3. 終點安全區域&救援區域內
-	* 生存/清道夫模式下控制全部的區域
-	* 支援所有官方地圖，三方圖請自行新增與修改
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -289,18 +290,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/mapinfo.txt```控制每一關的物品生成數量與限制
+	* ```data/mapinfo.txt```，控制每一關的物品生成數量與限制
+	* 此插件刪除地圖上原有的物品，並非生成新物品
+	* 支援所有官方地圖，三方圖請自行新增與修改
 		```php
 		"MapInfo"
 		{
 			"c4m1_milltown_a" //地圖名
 			{
 				"start_point"		"-6008.747070 7381.954590 192.909424" //起始安全區域中心點 (不要亂改)
-				"end_point"		"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
 				"start_dist"		"100.000000" //起始安全區域範圍 (不要亂改)
 				"start_extra_dist"	"500.000000" //起始安全區域額外範圍 (不要亂改)
-				"end_dist"		"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
-				"ItemLimits_Outside" //安全區域&救援區域外
+				"end_point"			"3993.458008 -1598.952271 294.281250" //終點安全區域/救援區域中心點(不要亂改)
+				"end_dist"			"275.000000" //終點安全區域/救援區域範圍 (不要亂改)
+				"ItemLimits_Outside" //安全區域&救援區域外 (戰役/對抗/寫實/生存/清道夫模式)
 				{
 					"pain_pills"    "2" //找到地圖上在安全區域/救援區域外所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_limit)
 					"adrenaline"    "2" //找到地圖上在安全區域/救援區域外所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_limit)
@@ -310,7 +313,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 					"molotov"       "1" //找到地圖上在安全區域/救援區域外所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_limit)
 					"vomitjar"      "1" //找到地圖上在安全區域/救援區域外所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_limit)
 				}
-				"ItemLimits_StartArea" //起始安全區域內
+				"ItemLimits_StartArea" //起始安全區域內 (戰役/對抗/寫實模式)
 				{
 					"pain_pills"    "2" //找到地圖上在起始安全區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_start_area_limit)
 					"adrenaline"    "2" //找到地圖上在起始安全區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_start_area_limit)
@@ -320,7 +323,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 					"molotov"       "1" //找到地圖上在起始安全區域內所有汽油彈，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令molotov_start_area_limit)
 					"vomitjar"      "1" //找到地圖上在起始安全區域內所有膽汁瓶，然後隨機挑選只留下1瓶，其餘的全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令vomitjar_start_area_limit)
 				}
-				"ItemLimits_EndArea" //終點安全區域&救援區域內
+				"ItemLimits_EndArea" //終點安全區域&救援區域內 (戰役/對抗/寫實模式)
 				{
 					"pain_pills"    "2" //找到地圖上在終點安全區域&救援區域內所有藥丸，然後隨機挑選只留下兩顆藥丸，其餘的藥丸全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令pills_end_area_limit)
 					"adrenaline"    "2" //找到地圖上在終點安全區域&救援區域內所有腎上腺素，然後隨機挑選只留下兩個腎上腺素，其餘的腎上腺素全部移除（-1=不移除;0=移除全部，如果沒有寫此行，預設使用指令adrenaline_end_area_limit)
@@ -358,10 +361,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"xxxxxx" //三方地圖名
 			{
 				"start_point"		"x y z" //想像起始安全室為立方體空間，start_point為立方體的中心點
-				"end_point"			"x y z" //想像終點安全室或救援區域為立方體空間，end_point為立方體的中心點
 				"start_dist"		"100" 	//起始安全室立方體的邊長 (短的一邊)，沒有寫的話預設是100
 				"start_extra_dist"	"150" 	//起始安全室立方體的邊長 (長的一邊)，沒有寫的話預設是150
+				"end_point"			"x y z" //想像終點安全室或救援區域為立方體空間，end_point為立方體的中心點
 				"end_dist"			"200" 	//終點安全室或救援區域立方體的邊長，沒有寫的話預設是200
+
+				"end_point_2"		"x y z" //第二個治療包生成的救援區域 (譬如c2m5，治療包生在舞台中央或燈光控制台牆壁上)，沒有寫的話則不會檢測
+				"end_dist_2"		"200" 	//第二個救援區域的邊長，沒有寫的話預設是200
 			}
 		}
 		```

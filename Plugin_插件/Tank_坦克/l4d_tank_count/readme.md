@@ -15,9 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* Similar Plugin | 相似插件
-	1. [l4d2_tdr](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d2_tdr): Displays Damage Information on Tank Death.
-		> Tank死亡時顯示對Tank造成傷害統計表
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -31,9 +28,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D1 any mode
-	L4D2 any mode
+	L4D1
+	L4D2
 	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_tdr](/Plugin_插件/Tank_坦克/l4d2_tdr): Displays Damage Information on Tank Death.
+		* Tank死亡時顯示對Tank造成傷害統計表
+</details>
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
@@ -51,8 +54,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Support Versus mode (only 1 tank alive)
 
 	* v1.3
-	    * More accurate damage done to tank
-	    * Initial Release
+		* More accurate damage done to tank
+		* Initial Release
 </details>
 
 - - - -
