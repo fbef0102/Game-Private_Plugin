@@ -8,9 +8,10 @@
 
 - - - -
 ## 為什麼進不去伺服器
-* <details><summary>問題1: 我嘗試進入專屬伺服器，無法進去，打開控制台出現<b>Invalid host version, expecting 2226, got 2225</b></summary>
 
-  ![20221119105348_1](https://user-images.githubusercontent.com/12229810/202831446-b3c66f15-f250-471e-81b5-b0ce15d177cd.jpg)
+* <details><summary>問題1: 控制台出現<b>Invalid host version, expecting 2226, got 2225</b></summary>
+
+  ![image](https://user-images.githubusercontent.com/12229810/202831446-b3c66f15-f250-471e-81b5-b0ce15d177cd.jpg)
 
   * 原因: 遊戲與伺服器的版本不同
   * 解決方式: 確認遊戲與伺服器升級到最新版本
@@ -18,7 +19,21 @@
       * 伺服器: [更新專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何更新專屬伺服器)
 </details>
 
-* <details><summary>問題2: 無法連線進去專屬伺服器，畫面出現<b>connection failed after 10 retries</b></summary>
+* <details><summary>問題2: 控制台出現<b>RememberIPAddressForLobby: lobby xxxx from address xxxxx, lobby response</b></summary>
+
+  ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9a4e67e6-e345-4f89-8f14-ad15ec85a68f)
+
+  * 原因: 官方的Bug，伺服器已被人占用匹配，但你發現房間內根本沒人
+  * 解決方式:
+    * 法一：重啟伺服器，[自己開大廳匹配](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#如何從大廳匹配到專屬伺服器)
+    * 法二：```cfg/server.cfg```(沒有文件請自己創立) 寫下以下指令，並重啟伺服器
+      ```php
+      sv_allow_lobby_connect_only 0
+      sv_region 4 //4=Asia
+      ```
+</details>
+
+* <details><summary>問題3: 畫面出現<b>connection failed after 10 retries</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202834826-a7aff8f7-85c8-450e-b78a-e8d4d4099eb5.png)
 
@@ -27,7 +42,7 @@
   * [如何進去我的伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何進去我的伺服器)
 </details>
 
-* <details><summary>問題3: 無法連線進去伺服器，畫面出現<b>Server is enforcing consistency for this file</b></summary>
+* <details><summary>問題4: 畫面出現<b>Server is enforcing consistency for this file</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
 
@@ -40,7 +55,7 @@
         * 如果是你自己創建大廳請打開遊戲控制台輸入```sv_consistency 0```
 </details>
 
-* <details><summary>問題4: 控制台已經輸入<b>sv_consistency 0</b>，畫面還是出現<b>Server is enforcing consistency for this file</b></summary>
+* <details><summary>問題5: 控制台已經輸入<b>sv_consistency 0</b>，畫面還是出現<b>Server is enforcing consistency for this file</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202834970-d272d486-b74f-4e11-84e8-2c95f8439129.jpg)
 
@@ -48,7 +63,7 @@
   * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
 </details>
 
-* <details><summary>問題5: 阻擋連線，畫面出現<b>steam please remove "-insecure" from the launch options...</b></summary>
+* <details><summary>問題6: 阻擋連線，畫面出現<b>steam please remove "-insecure" from the launch options...</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202835547-39874460-7779-4dc8-9a72-6668bc0cdd09.jpg)
 
@@ -56,7 +71,7 @@
   * 解決方式: 到[啟動選項](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/README.md#設定啟動選項)把```-insecure```刪除
 </details>
 
-* <details><summary>問題6: 斷線，畫面出現<b>No Steam Logon</b></summary>
+* <details><summary>問題7: 斷線，畫面出現<b>No Steam Logon</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202835844-70dce289-6f1a-4454-818f-22be03382dc5.jpg)
 
@@ -68,7 +83,7 @@
   * 解決方式: 離開遊戲，網路重連並確保順暢，重新啟動Steam平台，再不行就[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)，再不行就重啟伺服器，再不行就去跟Steam Valve抱怨
 </details>
 
-* <details><summary>問題7: 斷線，畫面出現<b>STEAM UserID STEAM_XXXXXXXXX is banned</b></summary>
+* <details><summary>問題8: 斷線，畫面出現<b>STEAM UserID STEAM_XXXXXXXXX is banned</b></summary>
 
   ![image](https://user-images.githubusercontent.com/12229810/202836166-3744c17a-b99d-4d7a-9710-c7a15377634b.jpg)
 
@@ -76,7 +91,7 @@
   * 解決方式: 認命吧，請去跟伺服器管理員溝通
 </details>
 
-* <details><summary>問題8: 斷線，畫面出現<b>Map does not match the version on the server</b></summary>
+* <details><summary>問題9: 斷線，畫面出現<b>Map does not match the version on the server</b></summary>
 
   ![2260737939_preview_20200929181731_1](https://user-images.githubusercontent.com/12229810/202836218-5e3a7cce-bb73-4db4-94f4-5f72a3ca6df8.jpg)
 
@@ -84,7 +99,7 @@
   * 解決方式: 確認你所使用的地圖跟伺服器安裝的地圖，版本是一樣的，最好的方式是從同一個網站上下載
 </details>
 
-* <details><summary>問題9: 斷線，畫面出現<b>STEAM validation rejected</b></summary>
+* <details><summary>問題10: 斷線，畫面出現<b>STEAM validation rejected</b></summary>
 
   <img width="223" alt="unknown" src="https://user-images.githubusercontent.com/12229810/202856292-62046c4e-1dc8-4253-ab46-48a4a688ba51.png">
 
@@ -106,7 +121,7 @@
     * 解決方式: 遊戲控制台輸入```sv_lan 1```
 </details>
 
-* <details><summary>問題10: 斷線，畫面出現<b>區域伺服器，僅限本地用戶端</b></summary>
+* <details><summary>問題11: 斷線，畫面出現<b>區域伺服器，僅限本地用戶端</b></summary>
 
   ![20221120190732_1](https://user-images.githubusercontent.com/12229810/202898826-60b6b5dd-3b1c-4298-918b-25b241e9e2e5.jpg)
 
@@ -118,7 +133,7 @@
     4. 如果伺服器有運行參數，請輸入```+sv_lan 0```
 </details>
 
-* <details><summary>問題11:進不去遊戲，時常Loading到一半卡住，打開控制台出現<b>Downloading http://........</b></summary>
+* <details><summary>問題12: 進不去遊戲，時常Loading到一半卡住，打開控制台出現<b>Downloading http://........</b></summary>
 
   ![sm_downloader_1](https://user-images.githubusercontent.com/12229810/204160082-89f3150b-7cee-4c46-b38d-c58b86460252.jpg)
 
@@ -130,21 +145,19 @@
       * 法三: 去換伺服器遊玩吧
 </details>
 
-* <details><summary>問題12:進不去遊戲，時常Loading到一半卡住無回應</summary>
+* <details><summary>問題13: 進不去遊戲，時常Loading到一半卡住無回應</summary>
 
   * 原因一: 模組或三方圖太多
   * 原因二: 遊戲檔案損毀
   * 解決方式: 把模組或三方圖全都刪除，[驗證遊戲檔案的完整性](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#驗證遊戲檔案的完整性)
-
 </details>
 
-* <details><summary>問題13: 模組或三方圖裝太多，進不去遊戲，我不想要刪除模組或三方圖，請問該怎麼做？</summary>
+* <details><summary>問題14: 模組或三方圖裝太多，進不去遊戲，我不想要刪除模組或三方圖，請問該怎麼做？</summary>
 
   控制台已經輸入<b>sv_consistency 0</b>，但還是進不去朋友房間或朋友進不來自己創建的遊戲房間
   <br/>可能模組或三方圖裝太多，但是我不想要刪除模組或三方圖，請問有什麼方法？
 
   * 解決方式: 既然你不願意刪除模組或三方圖，那沒人可以幫你
-
 </details>
 
 - - - -

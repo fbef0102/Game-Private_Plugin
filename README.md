@@ -412,6 +412,8 @@
     * 戰役模式通關之時恢復並設定倖存者血量
   * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+  * [l4d2_change_m1](/Plugin_插件/Coop_戰役模式/l4d2_change_m1): If all survivors die, change level to the map 1 of current campaign (Restart Campaign)
+    * 戰役模式下如果倖存者滅團，則直接回到地圖的第一關重新開始戰役
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 

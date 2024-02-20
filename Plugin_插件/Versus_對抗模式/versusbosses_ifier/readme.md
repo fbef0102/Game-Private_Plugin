@@ -15,64 +15,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Control Versus director, Boss (Tank or Witch) will be spawned when the furthest survivor reach a percentage of map
-	* For example
-  		```php
-		// When furthest survivor reach 79% of map completion, the Tank will be spawned.
-		// Same algorithm for Witch.
-		Tank spawn: 79%,
-		Witch spawn: 70%
-		```
-	* Spawn only one tank and one witch each round
-</details>
-
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
-
-* <details><summary>Data Config</summary>
-  
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c1m2_streets"　//Map Name
-			{
-				"tank_map_off" "1" 		//This map is prohibited to spawn tank
-				"witch_map_off" "1"	 	//This map is prohibited to spawn witch
-			}
-			"c2m2_fairgrounds" //Map Name
-			{
-				"tank_ban_flow" //ban tank flow
-				{
-					"tank ban test" //Whatever name
-					{
-						"min"		"0" //0~20% is prohibited to spawn tank
-						"max"		"20"
-					}
-					"tank ban test 2" //Whatever name
-					{
-						"min"		"50" //50~80% is prohibited to spawn tank
-						"max"		"80"
-					}
-				}
-				"witch_ban_flow" //ban witch flow
-				{
-					"witch ban test"　 //Whatever name
-					{
-						"min"		"50" //50~100% is prohibited to spawn tank
-						"max"		"100"
-					}
-				}
-			}
-		}
-		```
-</details>
-
-* <details><summary>Related Official ConVar</summary>
-
-	* write down the following cvars in cfg/server.cfg
+		* For example
+			```php
+			// When furthest survivor reach 79% of map completion, the Tank will be spawned.
+			// Same algorithm for Witch.
+			Tank spawn: 79%,
+			Witch spawn: 70%
+			```
+		* Spawn only one tank and one witch each round
+	* 🟥 Please write down the following official cvars in ```cfg/server.cfg```
 		```php
 		// Adjust tank spawns: 100% chance on every map (0.00 ~ 1.00)
 		sm_cvar versus_tank_chance_intro 		"1" //first map
@@ -84,7 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_witch_chance 			"1" //regular map
 		sm_cvar versus_witch_chance_finale 		"1" //final map
 
-		// Adjust boss spawn completion rates: Boss have been prevented from spawning before 20% and after 85
+		// Adjust boss spawn range percentage: Boss will only spawn between 20% ~ 85% on the map
 		sm_cvar versus_boss_flow_min_intro 		"0.20" //first map
 		sm_cvar versus_boss_flow_max_intro 		"0.85"
 
@@ -95,6 +46,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map
 		```
 </details>
+
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -145,28 +102,61 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>Data Config</summary>
+  
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c1m2_streets"　//Map Name
+			{
+				"tank_map_off" "1" 		//This map is prohibited to spawn tank
+				"witch_map_off" "1"	 	//This map is prohibited to spawn witch
+			}
+			"c2m2_fairgrounds" //Map Name
+			{
+				"tank_ban_flow" //ban tank flow
+				{
+					"tank ban test" //Whatever name
+					{
+						"min"		"0" //0~20% is prohibited to spawn tank
+						"max"		"20"
+					}
+					"tank ban test 2" //Whatever name
+					{
+						"min"		"50" //50~80% is prohibited to spawn tank
+						"max"		"80"
+					}
+				}
+				"witch_ban_flow" //ban witch flow
+				{
+					"witch ban test"　 //Whatever name
+					{
+						"min"		"50" //50~100% is prohibited to spawn tank
+						"max"		"100"
+					}
+				}
+			}
+		}
+		```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1 versus
 	L4D2 versus
 	```
 
-* <details><summary>Optional | 輔助插件</summary>
-
-	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
-		> 準備插件，讓Boss路程預先顯示在Ready Hud上面
-</details>
-
-* <details><summary>Similar Plugin | 相似插件</summary>
-
-	1. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-</details>
-
 * <details><summary>Related | 相關插件</summary>
 
-	1. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
-		> 使用指令顯示人類目前的路程
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		* 準備插件，讓Boss路程預先顯示在Ready Hud上面
+
+	2. [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		* 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+
+	3. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
+		* 使用指令顯示人類目前的路程
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -188,10 +178,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 此插件控制導演系統，決定何時生成Tank與Witch
-	* 假設75%生成Tank，當人類路程走到75%路程，生成Tank
-  	* Witch同理
-	* 由官方指令決定每一關的Tank與Witch生成範圍
-	* 每回合只會生成一隻Tank與Witch
+		* 假設75%生成Tank，當人類路程走到75%路程，生成Tank
+		* Witch同理
+		* 由官方指令決定每一關的Tank與Witch生成範圍
+		* 每回合只會生成一隻Tank與Witch
+	* 🟥 請務必將以下指令寫入文件 ```cfg/server.cfg```，可自行調整
+		```php
+		// 每張地圖100%生成Tank (0.00 ~ 1.00)
+		sm_cvar versus_tank_chance_intro 		"1" //第一關
+		sm_cvar versus_tank_chance 				"1" //普通關卡
+		sm_cvar versus_tank_chance_finale 		"1" //最後一關
+
+		// 每張地圖100%生成Witch (0.00 ~ 1.00)
+		sm_cvar versus_witch_chance_intro 		"1" //第一關
+		sm_cvar versus_witch_chance 			"1" //普通關卡
+		sm_cvar versus_witch_chance_finale 		"1" //最後一關
+
+		// 決定關卡的Boss生成路程範圍: 25% ~ 85%
+		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關
+		sm_cvar versus_boss_flow_max_intro 		"0.85"
+
+		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
+		sm_cvar versus_boss_flow_max 			"0.85"
+
+		sm_cvar versus_boss_flow_min_finale 	"0.25"
+		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
+		```
 
 * <details><summary>文件設定範例</summary>
 
@@ -233,32 +245,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> 每一張地圖都有地形或地圖問題，<br/>
 	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
 	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
-</details>
-
-* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
-
-	* 以下指令寫入文件 cfg/server.cfg，可自行調整
-		```php
-		// 每張地圖100%生成Tank (0.00 ~ 1.00)
-		sm_cvar versus_tank_chance_intro 		"1" //第一關
-		sm_cvar versus_tank_chance 				"1" //普通關卡
-		sm_cvar versus_tank_chance_finale 		"1" //最後一關
-
-		// 每張地圖100%生成Witch (0.00 ~ 1.00)
-		sm_cvar versus_witch_chance_intro 		"1" //第一關
-		sm_cvar versus_witch_chance 			"1" //普通關卡
-		sm_cvar versus_witch_chance_finale 		"1" //最後一關
-
-		// 決定關卡的Boss生成路程: 25% ~ 85%
-		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關
-		sm_cvar versus_boss_flow_max_intro 		"0.85"
-
-		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
-		sm_cvar versus_boss_flow_max 			"0.85"
-
-		sm_cvar versus_boss_flow_min_finale 	"0.25"
-		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
-		```
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"Change M1"
+	{
+		"#format"		"{1:d}"
+		"en"			"[{olive}TS{default}] Mission lost {green}{1}{default} times，restart campaign!"
+		"zho"			"[{olive}TS{default}] 滅團已達 {green}{1}{default} 次，重新加載地圖第一關!"
+		"chi"			"[{olive}TS{default}] 灭团已达 {green}{1}{default} 次，重新加载地图第一关!"
+	}
+	"Tries Left"
+	{
+		"#format"		"{1:d}"
+		"en"			"[{olive}TS{default}] {green}{1}{default} rounds left to challenge."
+		"zho"			"[{olive}TS{default}] 還剩下 {green}{1}{default} 次機會挑戰."
+		"chi"			"[{olive}TS{default}] 还剩余 {green}{1}{default} 次机会挑战."
+	}
+}

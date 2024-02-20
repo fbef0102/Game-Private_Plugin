@@ -465,6 +465,8 @@
 		"start_extra_dist"	"200.000000"
 		"end_point"			"1056.862549 806.977112 208.031250"
 		"end_dist"			"200.000000"
+		"end_point_2"		"2276 809 208"  // second final area where kits spawn in this map
+		"end_dist_2"		"200.000000"
 		"ItemLimits_Outside" // control items outside saferoom/final area in coop/versus/realism/survival/scavenge
 		{
 			"pain_pills"	"2" 

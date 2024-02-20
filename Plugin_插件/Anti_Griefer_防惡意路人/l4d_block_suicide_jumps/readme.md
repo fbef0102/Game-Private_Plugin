@@ -52,6 +52,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* <details><summary>Data Config</summary>
+  
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c8m1_apartment"　//Map Name
+			{
+				"l4d_block_suicide_jumps_off" "1" // disabe plugin in this map
+			}
+
+			...
+		}
+		```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1
@@ -71,8 +87,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//rekcah @ 20211
-	//HarryPotter @ 2023
+	//HarryPotter @ 2023-2024
 	```
+	* v1.1h (2024-2-20)
+		* Add data config to disable plugin in some maps
+
 	* v1.0h (2023-9-21)
         * Require lef4dhooks v1.33 or above
 		* Remake code, convert code to latest syntax
@@ -125,5 +144,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 封鎖時間 (0=永遠, -1=只踢出伺服器)
 		l4d_block_suicide_jumps_ban_duratuon "60"
+		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+  
+	* data/mapinfo.txt
+		```php
+		"MapInfo"
+		{
+			"c8m1_apartment"　//地圖名
+			{
+				"l4d_block_suicide_jumps_off" "1" // 1=在這張地圖關閉此插件 (沒有寫則自動開啟)
+			}
+
+			...
+		}
 		```
 </details>

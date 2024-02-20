@@ -1,0 +1,22 @@
+"MapInfo"
+{
+	"c8m1_apartment"
+	{
+		"l4d_block_suicide_jumps_off" "1"
+	}
+	
+	"c8m2_subway"
+	{
+		"l4d_block_suicide_jumps_off" "1"
+	}
+	
+	"c8m3_sewers"
+	{
+		"l4d_block_suicide_jumps_off" "1"
+	}
+	
+	"c8m4_interior"
+	{
+		"l4d_block_suicide_jumps_off" "1"
+	}
+}

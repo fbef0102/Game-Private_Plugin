@@ -15,6 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Detect all items on round start and remove items if limit reach
 	* Modify ```data/mapinfo.txt``` and control items limit on the map
+	* Keep item spawns the same position number on both rounds in versus/scavenge
 </details>
 
 * Require | 必要安裝
@@ -209,6 +210,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 設置文件```data/mapinfo.txt```，控制地圖上的物品生成數量或限制
 		* 此插件刪除地圖上原有的物品，並非生成新物品
 	* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
+	* 對抗/清道夫模式第二回合，所有物品位置與數量要與第一回合相同
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

@@ -111,7 +111,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 倒數計時的音效檔案，請填入相對路徑 (路徑相對於 sound 資料夾, 空=關閉音效)
 		l4d_restartmap_command_soundfile "buttons/blip1.wav"
 
-		//　戰役/生存/寫實模式下滅團超過3次之後，自動重新載入當前的地圖 (0=關閉這項功能)
+		// 戰役/生存/寫實模式下滅團超過3次之後，自動重新載入當前的地圖 (0=關閉這項功能)
 		l4d_restartmap_command_coop_map "0"
 
 		// 戰役/生存/寫實模式下 最終關卡滅團超過4次之後，自動重新載入當前的地圖 (0=關閉這項功能)

@@ -1,5 +1,5 @@
 # 問題總攬
-> 2023/7/22 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/2/20 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -328,13 +328,28 @@
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器(無線基地台、Router、中華電信的數據機)或電腦的防火牆需要調整
-      * 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)
+      1. 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)
+         * 開放端口27016
          * 每個品牌操作方式不太一樣，請自行google
-      * 確認電腦的防火牆
+
+      2. 確認電腦的防火牆
          * 沒有阻擋srcds.exe應用程式
          * 沒有阻擋Port端口
       * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
+
+   - 以我為例
+      * 電腦系統: Windows 10
+      * 網路: 中華電信
+      * 路由器品牌: DSL-6740C
+      * 伺服器的端口: 27016
+      1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
+	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
+      
+      2. 設置電腦的防火牆
+	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
+      <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
+
    
 3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
