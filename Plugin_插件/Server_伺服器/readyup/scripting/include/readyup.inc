@@ -26,27 +26,27 @@
 /**
  * Called before ready up is initiated
  */
-//forward void OnReadyUpInitiatePre();
+forward void OnReadyUpInitiatePre();
 
 /**
  * Called when ready up is initiated
  */
-//forward void OnReadyUpInitiate();
+forward void OnReadyUpInitiate();
 
 /**
  * Called before the live countdown starts
  */
-//forward void OnRoundLiveCountdownPre();
+forward void OnRoundLiveCountdownPre();
 
 /**
  * Called when the live countdown starts
  */
-//forward void OnRoundLiveCountdown();
+forward void OnRoundLiveCountdown();
 
 /**
  * Called before the live countdown ends and the round goes live
  */
-//forward void OnRoundIsLivePre();
+forward void OnRoundIsLivePre();
 
 /**
  * Called when the live countdown ends and the round goes live
@@ -100,6 +100,14 @@ native int AddStringToReadyFooter(const char[] footer);
 native bool IsInReady();
 
 /**
+ * Whether or not the player is currently readied up
+ *
+ * @param client    Client to check.
+ * @return          True if the player is ready.
+ */
+native bool IsReady(int client);
+
+/**
  * @brief Toggle ready panel of one target or all clients.
  * @remarks Always return false if currently not in ready-up phase.
  *
@@ -126,6 +134,7 @@ public void __pl_readyup_SetNTVOptional()
 	MarkNativeAsOptional("EditFooterStringAtIndex");
 	MarkNativeAsOptional("AddStringToReadyFooter");
 	MarkNativeAsOptional("IsInReady");
+	MarkNativeAsOptional("IsReady");
 	MarkNativeAsOptional("ToggleReadyPanel");
 }
 #endif

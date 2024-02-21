@@ -119,6 +119,9 @@
 
 * <details><summary>API | 串接</summary>
 
+	```php
+	Registers a l4d_death_weapon_lock name: l4d_ranking_system
+	```
 	```c
 	/**
 	* Get Rank Title for client

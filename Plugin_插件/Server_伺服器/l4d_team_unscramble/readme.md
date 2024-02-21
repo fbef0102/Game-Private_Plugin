@@ -24,6 +24,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
+	```php
+	Registers a library name: l4d_team_unscramble
+	```
 	```c
 	/**
 	* @brief Called whenever unscramble process is completed.

@@ -15,21 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* <details><summary>API | 串接</summary>
-
-	```c
-	/**
-	* @brief Called whenever infected player changed zombie class via zcs
-	*
-	* @param client		The client index who changed zombie class
-	* @param new_zombieclass The new zombie class that client changed to
-	*
-	* @noreturn
-	*/
-	forward public void L4D2_OnClientChangeZombieClass(int client, int new_zombieclass);
-	```
-</details>
-
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_zcs.cfg
@@ -138,6 +123,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 	
 	None
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```c
+	/**
+	* @brief Called whenever infected player changed zombie class via zcs
+	*
+	* @param client		The client index who changed zombie class
+	* @param new_zombieclass The new zombie class that client changed to
+	*
+	* @noreturn
+	*/
+	forward public void L4D2_OnClientChangeZombieClass(int client, int new_zombieclass);
+	```
 </details>
 
 * Apply to | 適用於

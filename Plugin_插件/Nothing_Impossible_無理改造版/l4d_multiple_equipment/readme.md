@@ -44,23 +44,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
     4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
 
-* <details><summary>API | 串接</summary>
-
-	```c
-    /**
-    * Get client's weapon classname or melee classname in a player's slot.
-    * 
-    * @param client	    Client
-    * @param slot		Weapons Slot (0~4)	
-    * @param str        String to store weapon classname.
-    * @param size       size of String to store.
-    * 
-    * @return		    True if suceed, false if not
-    */
-    native bool Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] str, int size);
-	```
-</details>
-
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_multiple_equipment.cfg
@@ -128,6 +111,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         sm_switchweapons
         sm_sw
 		```
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```php
+	Registers a library name: l4d_multiple_equipment
+	```
+	```c
+    /**
+    * Get client's weapon classname or melee classname in a player's slot.
+    * 
+    * @param client	    Client
+    * @param slot		Weapons Slot (0~4)	
+    * @param str        String to store weapon classname.
+    * @param size       size of String to store.
+    * 
+    * @return		    True if suceed, false if not
+    */
+    native bool Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] str, int size);
+	```
 </details>
 
 * Apply to | 適用於

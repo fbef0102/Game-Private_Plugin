@@ -16,21 +16,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
 
-* <details><summary>API | 串接</summary>
-
-	```c
-    /**
-    * Lock the weapon so only the specific client can pick up
-    * 
-    * @param client	Client that can pick up the weapon, anyone else can't (don't input fake client)
-    * @param weapon	Weapons that would be locked (must be on the ground)
-    * 
-    * @return		    True if suceed, false if not
-    */
-    native bool Drop_WeaponLock(int client, int weapon);
-	```
-</details>
-
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_death_weapon_lock.cfg
@@ -75,6 +60,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
     
     None
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```php
+	Registers a l4d_death_weapon_lock name: pause
+	```
+	```c
+    /**
+    * Lock the weapon so only the specific client can pick up
+    * 
+    * @param client	Client that can pick up the weapon, anyone else can't (don't input fake client)
+    * @param weapon	Weapons that would be locked (must be on the ground)
+    * 
+    * @return		    True if suceed, false if not
+    */
+    native bool Drop_WeaponLock(int client, int weapon);
+	```
 </details>
 
 * Apply to | 適用於

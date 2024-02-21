@@ -97,6 +97,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+	```php
+	Registers a library name: pause
+	```
+	```c
+    /**
+    * Trigger when game paused
+    * 
+    * @return		    nothing
+    */
+    native void OnPause();
+
+    /**
+    * Trigger when game unpaused already
+    * 
+    * @return		    nothing
+    */
+    native void OnUnpause();
+	```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1
