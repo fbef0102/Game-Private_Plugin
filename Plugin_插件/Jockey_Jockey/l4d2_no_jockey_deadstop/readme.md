@@ -14,6 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [l4d_fix_shove_duration](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_shove_duration)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -47,6 +48,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-2-21)
+		* Optimize code and improve performance
+		* To fix jockey unable to ride survivor when block shove, please install l4d_fix_shove_duration
 
 	* v1.0 (2024-1-2)
 		* Initial Release

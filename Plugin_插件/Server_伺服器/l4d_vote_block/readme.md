@@ -29,46 +29,46 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, allow spectator to call vote.
         l4d_vote_block_allow_spectator "0"
 
-        // Turn on vote 'Return to Lobby' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Return to Lobby' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_returntolobby "0"
 
-        // Turn on vote 'Return to Lobby' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Return to Lobby' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_returntolobby "0"
 
-        // Turn on vote 'Restart Game' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Restart Game' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_restartgame "0"
 
-        // Turn on vote 'Restart Game' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Restart Game' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_restartgame "0"
 
-        // Turn on vote 'Change Difficulty' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Change Difficulty' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_changedifficulty "0"
 
-        // Turn on vote 'Change Difficulty' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Change Difficulty' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_changedifficulty "0"
 
-        // Turn on vote 'Change Mission' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Change Mission' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_changemission "0"
 
-        // Turn on vote 'Change Mission' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Change Mission' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_changemission "0"
 
-        // Turn on vote 'Change Chapter' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Change Chapter' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_changechapter "0"
 
-        // Turn on vote 'Change Chapter' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Change Chapter' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_changechapter "0"
 
-        // Turn on vote 'Change Alltalk' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Change Alltalk' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_changealltalk "0"
 
-        // Turn on vote 'Change Alltalk' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Change Alltalk' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_changealltalk "0"
 
-        // Turn on vote 'Kick' in these game modes. 0=All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        // Turn on vote 'Kick' in these game modes. -1: Block All, 0=Allow All, 1=Coop/Realism, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d_vote_block_modes_tog_kick "0"
 
-        // Turn on vote 'Kick' in these difficulty. 0=All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
+        // Turn on vote 'Kick' in these difficulty. -1: Block All, 0=Allow All, 1=Easy, 2=Normal, 4=Hard, 8=Impossible. Add numbers together. (Only check difficulty in Coop/Realism)
         l4d_vote_block_difficulty_tog_kick "0"
 
         // Players with these flags have immune of being kicked by vote. (Empty = Everyone, -1: Nobody)
@@ -94,6 +94,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2 (2024-2-21)
+        * Update cvars
 
     * v1.1 (2023-09-06)
         * Admin kick immune
@@ -124,46 +127,46 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，允許觀眾使用Esc->投票功能。
         l4d_vote_block_allow_spectator "0"
 
-        // 在那些遊戲模式中啟用投票『返回大廳』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『返回大廳』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_returntolobby "0"
 
-        // 在那些遊戲難度中啟用投票『返回大廳』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『返回大廳』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_returntolobby "0"
 
-        // 在那些遊戲模式中啟用投票『重新開始戰役/章節』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『重新開始戰役/章節』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_restartgame "0"
 
-        // 在那些遊戲難度中啟用投票『重新開始戰役/章節』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『重新開始戰役/章節』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_restartgame "0"
 
-        // 在那些遊戲模式中啟用投票『變更難度』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『變更難度』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_changedifficulty "0"
 
-        // 在那些遊戲難度中啟用投票『變更難度』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『變更難度』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_changedifficulty "0"
 
-        // 在那些遊戲模式中啟用投票『開始新戰役』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『開始新戰役』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_changemission "0"
 
-        // 在那些遊戲難度中啟用投票『開始新戰役』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『開始新戰役』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_changemission "0"
 
-        // 在那些遊戲模式中啟用投票『選擇戰役章節』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『選擇戰役章節』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_changechapter "0"
 
-        // 在那些遊戲難度中啟用投票『選擇戰役章節』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『選擇戰役章節』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_changechapter "0"
 
-        // 在那些遊戲模式中啟用投票『更變為全體交談』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『更變為全體交談』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_changealltalk "0"
 
-        // 在那些遊戲難度中啟用投票『更變為全體交談』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『更變為全體交談』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_changealltalk "0"
 
-        // 在那些遊戲模式中啟用投票『踢掉玩家』，0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
+        // 在那些遊戲模式中啟用投票『踢掉玩家』，-1: 不允許, 0=全部、1=戰役/寫實、2=生存、4=對抗、8=清道夫，將數字相加。
         l4d_vote_block_modes_tog_kick "0"
 
-        // 在那些遊戲難度中啟用投票『踢掉玩家』，0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
+        // 在那些遊戲難度中啟用投票『踢掉玩家』，-1: 不允許, 0=全部、1=簡單、2=一般、4=進階、8=專家，將數字相加(僅在 戰役/寫實中檢查難度)。
         l4d_vote_block_difficulty_tog_kick "0"
 
         // 投票『踢掉玩家』選項裡，擁有這些權限的玩家不會被踢 (留白 = 所有人都不可以被踢, -1: 任何人都可以被踢)

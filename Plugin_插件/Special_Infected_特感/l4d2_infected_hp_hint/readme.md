@@ -104,6 +104,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2024-2-21)
+		* Fixed wrong witch health if infected gain some health
+		* Optimize code and improve performance
+
 	* v1.0h (2024-1-2)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
