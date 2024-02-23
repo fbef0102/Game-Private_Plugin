@@ -1,5 +1,5 @@
 # 問題總攬
-> 2023/7/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [甚麼是區域房](#甚麼是區域房)
   - [與專屬伺服器有何差別](#與專屬伺服器有何差別)

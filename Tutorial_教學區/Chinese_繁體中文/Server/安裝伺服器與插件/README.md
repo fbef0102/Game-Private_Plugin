@@ -1,5 +1,5 @@
 # 問題總攬
-> 2024/2/20 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -67,10 +67,10 @@
             - 232330 為CSS - Dedicated Server
             - 740 為CSGO - Dedicated Server
          
-      ![image](https://user-images.githubusercontent.com/12229810/202984758-372b99de-daa2-46af-a3b7-8979c5f03928.png)
+      ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/73131bec-add3-44ad-b2bf-5a5421dc061d)
 
    5. 完成安裝之後輸入exit結束steamcmd
-      <br/>![image](https://user-images.githubusercontent.com/12229810/202986791-dd6d7649-0f2e-43a3-bfaa-7ab92d5c1bcc.png)
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/485bbc07-b0fd-4957-bc92-6561800ca655)
 
    6. 到所安裝的路徑查看伺服器檔案
       <br/>![image](https://user-images.githubusercontent.com/12229810/202986953-7909125c-5bed-48ba-93f6-ec27c27cde46.png)
@@ -107,23 +107,28 @@
       * Ubuntu =< 20.04
          ```
          sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
+         sudo apt install lib32z1
          ```
       * Ubuntu => 20.10
          ```
          sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
+         sudo apt install lib32z1
          ```
       * Debian =< 10
          ```
          sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6
+         sudo apt-get install zlib1g
          ```
       * Debian => 11
          ```
          sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6
+         sudo apt-get install zlib1g
          ```
       * CentOS
          ```
          yum install epel-release
          yum install curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686
+         yum install zlib.i686
          ```
 
 - - - -
@@ -144,46 +149,61 @@
    <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/7c905fc5-1e83-410d-96d1-89b12fb063df)
 
 4. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e3f8fd21-582b-4bc7-b500-dc99e28ee329)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/469fcb75-fe05-441c-a89b-a1383bc17efb)
 - - - -
 ## 如何執行專屬伺服器
 * Windows
-   1. 到伺服器檔案所在資料夾位置，直接執行srcds.exe－＞啟動伺服器
-   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/24b50c81-2c72-4c3c-a89c-3d8850339eb3)
-
-   2. 各項目依照自己的喜好設定
-      - 伺服器名稱: 無法填寫中文
-      - 網路: 選擇網際網路 (廢話)
-      - 玩家上限: 請選32，即使設定32人，伺服器人數受到遊戲模式的限制
-         - L4D 戰役模式最多4人、對抗模式最多8人
-      - 🟥UDP Port: 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
-      - 管理密碼: 隨便，不要寫中文
-      - 保護 (Valve防作弊系統): 勾選可開啟VAC反作弊檢測 (廢話)
-
-   3. (Windows) 第一次執行時，如果windows系統有跳出防火牆視窗警訊，請兩個都勾選並允許存取
-      * 只有你在使用電腦，不用怕
-   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e816140f-7b9e-4dc6-9ad9-c061a2294367)
-
-   4. 檢查Sourcemod是否有正常運作
-      - 到伺服器的後台
-      <br/>![image](https://i.imgur.com/c0jp5XQ.png)
-      - 輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9ecceb3a-da57-4f9c-9451-664271201998)
-
-* Linux
-   1. 啟用終端機到伺服器檔案所在資料夾位置，輸入```./srcds_run -console -game xxxxxx -port 27020 +log on +exec server +sv_lan 0 -maxplayers 32```
+   1. 到伺服器檔案所在資料夾位置，新增一個檔案叫```scrds.bat```(注意副檔名)，用筆記本打開它，複製以下內容
+      ```
+      start srcds.exe -console -game xxxxxx -port 27016 +log on +exec server.cfg +sv_lan 0 -maxplayers 32 +map c1m1_hotel
+      ```
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/39e702e9-9a51-49ee-ad19-4cc3b915a3b1)
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/649c7ce9-3b0c-484a-b754-d047bec7c524)
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
          - 如果是CSS，xxxxxx改成cstrike
          - 如果是CSGO，xxxxxx改成csgo
-      - ```-port 27020``` 為設定的Port
+      - ```-port 27016``` 為設定的Port
+         - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+      - ```+log on``` 打開伺服器紀錄儀
+      - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件 (沒有此文件請自行創立)
+      - ```+sv_lan 0``` 改成網際網路 (廢話)
+      - ```-maxplayers 32``` 最多玩家上限，即使設定32人，伺服器人數受到遊戲模式的限制
+         - L4D 戰役模式最多4人、對抗模式最多8人
+      - 可自行添加其他參數(啟動選項)，譬如
+         - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
+         - ```+sv_password 12345``` 伺服器密碼為12345，不要寫中文
+
+   2. 直接左鍵雙擊```scrds.bat```執行－＞啟動伺服器－＞會跑出一個黑視窗，此視窗即為伺服器
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/c76dde16-e26b-4be8-8a78-efa815ec542f)
+
+   3. (Windows) 第一次執行時，如果windows系統有跳出防火牆視窗警訊，請兩個都勾選並允許存取
+      * 只有你在使用電腦，不用怕
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e816140f-7b9e-4dc6-9ad9-c061a2294367)
+
+   4. 檢查Sourcemod是否有正常運作，輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
+      - 到伺服器的後台
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/5fb51ae5-66d2-475e-8d11-4b243ea14fdd)
+
+* Linux
+   1. 啟用終端機到伺服器檔案所在資料夾位置，輸入
+      ```
+      ./srcds_run -console -game xxxxxx -port 27016 +log on +exec server +sv_lan 0 -maxplayers 32
+      ```
+      - ```xxxxxx``` 為設定的遊戲
+         - 如果是L4D1，xxxxxx改成left4dead
+         - 如果是L4D2，xxxxxx改成left4dead2
+         - 如果是CSS，xxxxxx改成cstrike
+         - 如果是CSGO，xxxxxx改成csgo
+      - ```-port 27016``` 為設定的Port
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
       - ```+sv_lan 0``` 改成網際網路
       - ```-maxplayers 32``` 最多玩家上限
-      - 可自行添加其他參數，譬如
+      - 可自行添加其他參數(啟動選項)，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
          - ```+sv_password 12345``` 伺服器密碼為12345
    2. 檢查Sourcemod是否有正常運作
@@ -194,8 +214,11 @@
 ## 如何檢查版本
 * <details><summary>查找伺服器的後台 (點我展開)</summary>
 
-   * 開啟伺服器之後尋找"命令列"
-   <br/>![image](https://i.imgur.com/c0jp5XQ.png)
+   * 看你當初是怎麼開服的
+      * 利用.bat開啟伺服器的視窗
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/726c6436-cc0e-4c90-91b7-cd670f64f7c3)
+      * 直接執行scrd.exe的視窗，開啟伺服器之後尋找"命令列"
+      <br/>![image](https://i.imgur.com/c0jp5XQ.png)
    
    > __Note__ 若是用其他的開服軟體，請自行摸索找到後台 
 </details>
@@ -312,13 +335,13 @@
 - - - -
 ## 如何進去我的伺服器
 1. 先要知道伺服器的IP地址，到伺服器的後台輸入```status``` <br/>
-	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+	<br/><img width="500" alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/76969c02-4aa9-4cea-8439-563187aea23d">
    - hostname 	為房名
    - version 	為遊戲伺服器的版本
    - udp/ip		為伺服器的IP
-		- 前半部 192.168.50.106:27016 是虛擬IP，只有相同網域的能連線進來
-		- 後半部 被塗黑的部分 是公網IP，全世界任何人能連線進來
-      - 🟥其中27016是網路Port，伺服器的端口
+		- 前半部 192.168.50.106:27016 是**虛擬IP(內網IP)**，只有相同網域的能連線進來
+		- 後半部 被塗黑的部分 是**公網IP(外網IP)**，全世界任何人能連線進來
+      - 🟥其中27016是**網路Port(端口)**，為該伺服器占用
    - os		為電腦系統
    - map	   為當前地圖
    - players		為伺服器內的玩家狀態
@@ -346,7 +369,7 @@
       1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
       
-      2. 設置電腦的防火牆
+      2. 設置電腦的防火牆，"輸入規則"新增兩個，"輸出規則"新增兩個
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
       <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
 
@@ -360,10 +383,10 @@
 - - - -
 ## 如何從大廳匹配到專屬伺服器
 1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
-	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193499761-9b5143a4-c11f-447c-95ac-6de651fc880d.png">
+	<br/><img width="500" alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/76969c02-4aa9-4cea-8439-563187aea23d">
    - **udp/ip**	為伺服器的IP
-		- 前半部 **192.168.50.106:27016** 是**虛擬IP**
-		- 後半部 被塗黑的部分 是**公網IP**
+		- 前半部 **192.168.50.106:27016** 是**虛擬IP (內網IP)**
+		- 後半部 被塗白的部分 是**公網IP (外網IP)**
 
 2. 啟動遊戲－＞創建大廳戲－＞伺服器類型選擇 **"最佳可用專屬"**－＞打開控制台－＞輸入```mm_dedicated_force_servers x.x.x.x:yyyyy```
 	<br/>![20221118172823_1](https://user-images.githubusercontent.com/12229810/202670198-c754f690-ed83-416a-88b8-359108012141.jpg)
@@ -439,6 +462,8 @@
 				"zho"	"[AFK] 偵測閒置! 你將於 {1} 秒後強制旁觀."
 				"chi"	"[AFK] 探测闲置! 你将于 {1} 秒后强制旁观."
 			}	
+
+         ...
 		}
 		```
 		</details>
@@ -451,21 +476,6 @@
 		```
 		"Games"
 		{
-			"left4dead" // Credit: Psykotikism
-			{
-				"Signatures" 
-				{
-
-					"TakeOverBot"
-					{
-						"library"	"server"
-						"linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
-						"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x53\x55\x56\x57\x8D\x2A\x2A\x2A\x8B"
-								/* ? ? ? ? ? ? 53 55 56 57 8D ? ? ? 8B */
-					}
-				}
-			}
-
 			"left4dead2" //credit: ProdigySim, Shadowysn
 			{
 				"Addresses"
@@ -480,15 +490,18 @@
 					}
 				}
 				"Signatures"
-			{
-				"TakeOverBot"
-				{
-					"library"	"server"
-					"linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
-					"windows"	"\x55\x8B\xEC\x81\xEC\x2A\x2A\x2A\x2A\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x53\x56\x8D\x85"
-					/* 55 8B EC 81 EC ? ? ? ? A1 ? ? ? ? 33 C5 89 45 FC 53 56 8D 85 */
-				}
-			}
+            {
+               "TakeOverBot"
+               {
+                  "library"	"server"
+                  "linux"		"@_ZN13CTerrorPlayer11TakeOverBotEb"
+                  "windows"	"\x55\x8B\xEC\x81\xEC\x2A\x2A\x2A\x2A\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x53\x56\x8D\x85"
+                  /* 55 8B EC 81 EC ? ? ? ? A1 ? ? ? ? 33 C5 89 45 FC 53 56 8D 85 */
+               }
+            }
+
+            ...
+         }
 		}
 		```
 		</details>
@@ -521,7 +534,7 @@
    * [常見的插件錯誤訊息](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E6%8F%92%E4%BB%B6/README.md#常見的插件錯誤訊息)
    <br/>![Q$8Z SZT(IE M_M@_%_ Z3I](https://user-images.githubusercontent.com/12229810/206925606-cd9c3ebe-eae5-492e-b12c-76b41cd0c8df.png)
 
-3. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止
+3. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，必須直到沒有error為止
    * 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
       <details>
         <summary>範例 (點我展開)</summary>

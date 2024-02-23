@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2023/7/22 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -69,7 +69,7 @@
 	5. 伺服器啟動時，務必將"玩家上限"改成32
         * 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
-    	* 使用其他軟體開服工具或者是linux系統，請輸入啟動參數```-maxplayers 32```
+    	* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
   
 	6. 啟動伺服器，控制台輸入```meta list```確認安裝成功
