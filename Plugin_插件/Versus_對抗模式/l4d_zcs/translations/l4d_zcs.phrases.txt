@@ -1,0 +1,96 @@
+﻿"Phrases"
+{
+	"Unable to change zombie class due to Despawn."
+	{
+		"en"		"Unable to change class: Despawn."
+		"zho"		"無法更換特感: 回魂重生"
+		"chi"		"无法更换特感: 回魂重生"
+	}
+	
+	"You don't have access to change zombie class."
+	{
+		"en"		"Change class: No Access"
+		"zho"		"更換特感: 無權限"
+		"chi"		"更換特感: 无权限"
+	}
+	
+	"Your zombie class is not allow to change zombie class."
+	{
+		"en"		"Change class: Current class not allowed"
+		"zho"		"更換特感: 你目前的種類不允許"
+		"chi"		"更換特感: 你目前的种类不允许"
+	}
+	
+	"Change zombie class: Select Limit Reached."
+	{
+		"en"		"Change class: Select Limit Reached."
+		"zho"		"更換特感: 已達次數限制"
+		"chi"		"更換特感: 已达次数限制"
+	}
+	
+	"Change zombie class left: 0"
+	{
+		"en"		"Change zombie class left: 0"
+		"zho"		"更換特感剩餘次數: 0"
+		"chi"		"更換特感剩余次数: 0"
+	}
+	
+	"Change zombie class left"
+	{
+		"#format"	"{1:d}"
+		"en"		"Change zombie class left: {1}"
+		"zho"		"更換特感剩餘次數: {1}"
+		"chi"		"更換特感剩余次数: {1}"
+	}
+	
+	"Press Key (C)"
+	{
+		"#format"	"{1:T}"
+		"en"		"[{olive}TS{default}] Press the {green}{1}{default} key as ghost to change zombie class."
+		"zho"		"[{olive}TS{default}] 靈魂狀態按下 {green}{1}{default} 可以更換特感種類."
+		"chi"		"[{olive}TS{default}] 灵魂状态按下 {green}{1}{default} 可以更换特感种类."
+	}
+	
+	"Press Key"
+	{
+		"#format"	"{1:T}"
+		"en"		"Press the {1} key as ghost to change zombie class."
+		"zho"		"靈魂狀態按下 {1} 可以更換特感種類."
+		"chi"		"灵魂状态按下 {1} 可以更换特感种类."
+	}
+	
+	"MELEE"
+	{
+		"en"		"MELEE"
+		"zho"		"右鍵"
+		"chi"		"右键"
+	}
+	
+	"RELOAD"
+	{
+		"en"		"RELOAD"
+		"zho"		"R鍵"
+		"chi"		"R键"
+	}
+	
+	"ZOOM"
+	{
+		"en"		"ZOOM"
+		"zho"		"滾輪鍵"
+		"chi"		"滚轮键"
+	}
+	
+	"None"
+	{
+		"en"		"None"
+		"zho"		"未設定"
+		"chi"		"未设定"
+	}
+	
+	"No more classes available"
+	{
+		"en"		"No more classes available"
+		"zho"		"其他特感已達限制或冷卻中，請稍後再試"
+		"chi"		"其他特感已达限制或冷却中，请稍后再试"
+	}
+}	

@@ -365,6 +365,7 @@
       * 電腦系統: Windows 10
       * 網路: 中華電信
       * 路由器品牌: DSL-6740C
+      * 伺服器的虛擬IP: 192.168.1.102
       * 伺服器的端口: 27016
       1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
@@ -753,10 +754,10 @@
             - 232330 為CSS - Dedicated Server
             - 740 為CSGO - Dedicated Server
 
-      <br/>![image](https://user-images.githubusercontent.com/12229810/206717020-0742eb67-29f0-4f03-9225-e2130dc51520.png)
+      <br/>![image](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
-   5. 完成安裝之後輸入exit結束steamcmd
-      <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
+   5. 完成更新之後輸入exit結束steamcmd
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/485bbc07-b0fd-4957-bc92-6561800ca655)
 
 * Linux
    1. 啟用終端機輸入以下指令 (你可能需要root 權限)
@@ -781,7 +782,7 @@
       <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
 
 
-3. 完成安裝之後輸入exit結束steamcmd
+3. 完成更新之後輸入exit結束steamcmd
    <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
 
 * 如果是要更新Sourcemod版本，那就全部刪除，打掉重練，從頭第一個步驟開始
