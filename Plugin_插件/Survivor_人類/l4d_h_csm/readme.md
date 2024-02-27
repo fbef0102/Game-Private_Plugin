@@ -109,6 +109,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022-2024
 	```
+	* v1.5h (2024-2-25)
+		* Can't change character if survivor is incap, hanging or pinned by infected
+		* Update Translation
+
 	* v1.4h (2024-2-18)
 		* Update Cvars
 

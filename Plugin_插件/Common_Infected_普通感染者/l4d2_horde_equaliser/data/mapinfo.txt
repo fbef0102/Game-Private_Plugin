@@ -4,61 +4,61 @@
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"120"
-			"survivor_3"	"90"
-			"survivor_2"	"60"
 			"survivor_1"	"30"
+			"survivor_2"	"60"
+			"survivor_3"	"90"
+			"survivor_4"	"120"
 		}
 	}
 	"c1m3_mall"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"150"
-			"survivor_3"	"110"
-			"survivor_2"	"70"
 			"survivor_1"	"40"
+			"survivor_2"	"70"
+			"survivor_3"	"110"
+			"survivor_4"	"150"
 		}
 	}
 	"c2m2_fairgrounds"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"120"
-			"survivor_3"	"90"
-			"survivor_2"	"60"
 			"survivor_1"	"30"
+			"survivor_2"	"60"
+			"survivor_3"	"90"
+			"survivor_4"	"120"
 		}
 	}
 	"c2m3_coaster"
 	{
 		"horde_limit"
 		{
-			"survivor_5" 	"300"
-			"survivor_4"	"240"
-			"survivor_3"	"180"
-			"survivor_2"	"120"
 			"survivor_1"	"60"
+			"survivor_2"	"120"
+			"survivor_3"	"180"
+			"survivor_4"	"240"
+			"survivor_5" 	"300"
 		}
 	}
 	"c2m4_barns"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"150"
-			"survivor_3"	"110"
-			"survivor_2"	"70"
 			"survivor_1"	"40"
+			"survivor_2"	"70"
+			"survivor_3"	"110"
+			"survivor_4"	"150"
 		}
 	}
 	"c5m2_park"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"180"
-			"survivor_3"	"130"
-			"survivor_2"	"80"
 			"survivor_1"	"40"
+			"survivor_2"	"80"
+			"survivor_3"	"130"
+			"survivor_4"	"180"
 		}
 	}
 	"c6m2_bedlam"
@@ -75,40 +75,40 @@
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"120"
-			"survivor_3"	"90"
-			"survivor_2"	"60"
 			"survivor_1"	"30"
+			"survivor_2"	"60"
+			"survivor_3"	"90"
+			"survivor_4"	"120"
 		}
 	}
 	"c12m3_bridge"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"90"
-			"survivor_3"	"60"
-			"survivor_2"	"40"
 			"survivor_1"	"20"
+			"survivor_2"	"40"
+			"survivor_3"	"60"
+			"survivor_4"	"90"
 		}
 	}
 	"c12m4_barn"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"90"
-			"survivor_3"	"60"
-			"survivor_2"	"40"
 			"survivor_1"	"20"
+			"survivor_2"	"40"
+			"survivor_3"	"60"
+			"survivor_4"	"90"
 		}
 	}
 	"c13m2_southpinestream"
 	{
 		"horde_limit"
 		{
-			"survivor_4"	"120"
-			"survivor_3"	"90"
-			"survivor_2"	"60"
 			"survivor_1"	"30"
+			"survivor_2"	"60"
+			"survivor_3"	"90"
+			"survivor_4"	"120"
 		}
 	}
 }

@@ -11,8 +11,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
 
-* Notice
-	* To install this plugin, you must disable nature horde, see **Official ConVar** below
+* <details><summary>Notice</summary>
+
+	* To install this plugin, you must disable nature horde, see official cvars below
+	* 🟥 Please write down the following official cvars in ```cfg/server.cfg```
+		```php
+		// Nature horde interval (second)
+		sm_cvar z_mob_spawn_min_interval_easy            9999
+		sm_cvar z_mob_spawn_min_interval_normal          9999
+		sm_cvar z_mob_spawn_min_interval_hard            9999
+		sm_cvar z_mob_spawn_min_interval_expert          9999
+
+		sm_cvar z_mob_spawn_max_interval_easy            9999
+		sm_cvar z_mob_spawn_max_interval_normal          9999
+		sm_cvar z_mob_spawn_max_interval_hard            9999
+		sm_cvar z_mob_spawn_max_interval_expert          9999
+		```
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -44,31 +59,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			{
 				"horde_limit" //Set the horde limit according to 'survivor limit'
 				{
-					"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
-					"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
-					"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
-					"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
 					"survivor_1"	"60"// replace infinite horde with finite event of 60 commons when survivor limit is 1
+					"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
+					"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
+					"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
+					"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
+
+					"survivor_x"	.. 	//add more if you want (x=1~28)
 				}
 			}
 		}
-		```
-</details>
-
-* <details><summary>Related Official ConVar</summary>
-
-	* write down the following cvars in cfg/server.cfg
-		```php
-		// Nature horde interval (second)
-		sm_cvar z_mob_spawn_min_interval_easy            3600
-		sm_cvar z_mob_spawn_min_interval_normal          3600
-		sm_cvar z_mob_spawn_min_interval_hard            3600
-		sm_cvar z_mob_spawn_min_interval_expert          3600
-
-		sm_cvar z_mob_spawn_max_interval_easy            3600
-		sm_cvar z_mob_spawn_max_interval_normal          3600
-		sm_cvar z_mob_spawn_max_interval_hard            3600
-		sm_cvar z_mob_spawn_max_interval_expert          3600
 		```
 </details>
 
@@ -106,13 +106,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 當有人開啟地圖上的機關之後，將無限屍潮改為有限，殭屍清完之後便不會再有屍潮來襲
-	* 可設置文件```data/mapinfo.txt``調整每一關的有限屍潮數量
+	* 可設置文件```data/mapinfo.txt```調整每一關的有限屍潮數量
 
 * 用意在哪?
 	* 對抗模式下某些關卡的無限屍潮對於倖存者來說過於艱難通關
 
-* 注意事項
-	* 要使用這個插件必須關閉遊戲導演的自然屍潮，詳見下方**官方指令中文介紹**
+* <details><summary>注意事項</summary>
+
+	* 要使用這個插件必須關閉遊戲導演的自然屍潮，詳見下方官方指令
+	* 🟥 請務必將以下官方指令寫入文件 ```cfg/server.cfg```，不可自行調整
+		```php
+		// 自然屍潮間隔 (秒數)，必須關閉自然屍潮否則無效
+		sm_cvar z_mob_spawn_min_interval_easy            9999 //簡單難度
+		sm_cvar z_mob_spawn_min_interval_normal          9999 //一般難度 (對抗模式下為一般難度)
+		sm_cvar z_mob_spawn_min_interval_hard            9999 //進階難度
+		sm_cvar z_mob_spawn_min_interval_expert          9999 //專家難度
+		
+		sm_cvar z_mob_spawn_max_interval_easy            9999
+		sm_cvar z_mob_spawn_max_interval_normal          9999
+		sm_cvar z_mob_spawn_max_interval_hard            9999
+		sm_cvar z_mob_spawn_max_interval_expert          9999
+		```
+</details>
 
 * <details><summary>指令中文介紹</summary>
 
@@ -133,40 +148,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
+	* 根據伺服器當前的倖存者數量決定屍潮數量
 	* 設置文件```data/mapinfo.txt```調整每一關的有限屍潮數量
 		```php
 		"MapInfo"
 		{
 			"c2m3_coaster"//地圖名
 			{
-				"horde_limit" // 根據伺服器當前的倖存者數量決定屍潮數量 (改變倖存者數量的指令為survivor_limit)
+				"horde_limit" // 根據伺服器當前的倖存者數量決定屍潮數量
 				{
-					"survivor_5" 	"300" // 當五位倖存者時，將無限屍潮改為有限的300隻殭屍數量
-					"survivor_4"	"240" // 當四位倖存者時，將無限屍潮改為有限的240隻殭屍數量
-					"survivor_3"	"180" // 當三位倖存者時，將無限屍潮改為有限的180隻殭屍數量
-					"survivor_2"	"120" // 當兩位倖存者時，將無限屍潮改為有限的120隻殭屍數量
 					"survivor_1"	"60" // 當僅有一位倖存者時，將無限屍潮改為有限的60隻殭屍數量
+					"survivor_2"	"120" // 當兩位倖存者時，將無限屍潮改為有限的120隻殭屍數量
+					"survivor_3"	"180" // 當三位倖存者時，將無限屍潮改為有限的180隻殭屍數量
+					"survivor_4"	"240" // 當四位倖存者時，將無限屍潮改為有限的240隻殭屍數量
+					"survivor_5" 	"300" // 當五位倖存者時，將無限屍潮改為有限的300隻殭屍數量
+
+					"survivor_x"	.. 	// 自由新增更多倖存者數量 (x=1~28)
 				}
 			}
 		}
-		```
-</details>
-
-* <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
-
-	* 要使用這個插件必須關閉遊戲導演的自然屍潮
-	* 以下指令寫入文件 cfg/server.cfg，不可自行調整
-		```php
-		// 自然屍潮間隔 (秒數)，必須關閉自然屍潮否則無效
-		sm_cvar z_mob_spawn_min_interval_easy            9999 //簡單難度
-		sm_cvar z_mob_spawn_min_interval_normal          9999 //一般難度 (對抗模式下為一般難度)
-		sm_cvar z_mob_spawn_min_interval_hard            9999 //進階難度
-		sm_cvar z_mob_spawn_min_interval_expert          9999 //專家難度
-		
-		sm_cvar z_mob_spawn_max_interval_easy            9999
-		sm_cvar z_mob_spawn_max_interval_normal          9999
-		sm_cvar z_mob_spawn_max_interval_hard            9999
-		sm_cvar z_mob_spawn_max_interval_expert          9999
 		```
 </details>
