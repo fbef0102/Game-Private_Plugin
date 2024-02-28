@@ -402,6 +402,12 @@
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
 	}
+	"is immune to be banned (S)"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} player is immune to be banned!"
+		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家免疫被封禁!"
+		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家免疫被封禁!"
+	}
 	"tries to ban you"
 	{
 		"en"		"[{olive}TS{default}] {olive}%N{default} tries to ban you, but you are immune"

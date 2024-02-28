@@ -178,6 +178,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8 (2024-2-28)
+		* Replace OnClientPutInServer with OnClientPostAdminCheck to fix client can't load data from database
+
 	* v1.7 (2024-1-20)
 		* Compatible with [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors) by harry
 		* Add API

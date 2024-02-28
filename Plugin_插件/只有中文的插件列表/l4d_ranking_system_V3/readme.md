@@ -200,6 +200,9 @@
 
 * <details><summary>版本日誌</summary>
 
+	* v1.5h (2024-2-28)
+		* Replace OnClientPutInServer with OnClientPostAdminCheck to fix client can't load data from database
+
 	* v1.4h (2024-1-20)
 		* Compatible with [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors) by harry
 		* Add API

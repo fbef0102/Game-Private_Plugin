@@ -492,6 +492,8 @@
 		"en"			"Dance Moves"
 		"tr"			"Dans hareketleri"
 		"es"			"Movimientos de Baile"
+		"zho"			"舞蹈步伐"
+		"chi"			"舞蹈步伐"
 	}
 
 	"Emote_Mask_Off_Intro"
@@ -499,6 +501,8 @@
 		"en"			"Orange Justice"
 		"tr"			"Turuncu Adalet"
 		"es"			"Justicia Naranja"
+		"zho"			"橘子汁"
+		"chi"			"橘子汁"
 	}
 	
 	"Emote_Zippy_Dance"
@@ -506,6 +510,8 @@
 		"en"			"Rambunctious"
 		"tr"			"Neşeli"
 		"es"			"Bullicioso"
+		"zho"			"粗暴"
+		"chi"			"粗暴"
 	}
 
 	"ElectroShuffle"
@@ -513,6 +519,8 @@
 		"en"			"Electro Shuffle"
 		"tr"			"Elektro Karıştırma"
 		"es"			"Shuffle Electrónico"
+		"zho"			"電子曳步舞"
+		"chi"			"电子曳步舞"
 	}
 
 	"Emote_AerobicChamp"
@@ -520,6 +528,8 @@
 		"en"			"Aerobic"
 		"tr"			"Aerobik"
 		"es"			"Aeróbico"
+		"zho"			"有氧運動"
+		"chi"			"有氧运动"
 	}
 
 	"Emote_Bendy"
@@ -527,6 +537,8 @@
 		"en"			"Bendy"
 		"tr"			"Bendy"
 		"es"			"Flexible"
+		"zho"			"柔韌"
+		"chi"			"柔韧"
 	}
 	
 	"Emote_BandOfTheFort"
@@ -534,6 +546,8 @@
 		"en"			"Best Mates"
 		"tr"			"En iyi arkadaşlar" 
 		"es"			"Mejores Amigos"
+		"zho"			"最好的朋友"
+		"chi"			"最好的朋友"
 	}
 
 	"Emote_Boogie_Down_Intro"
@@ -541,6 +555,8 @@
 		"en"			"Boogie"
 		"tr"			"Boogie"
 		"es"			"Boogie"
+		"zho"			"布吉舞"
+		"chi"			"布吉舞"
 	}
 
 	"Emote_Capoeira"
@@ -548,6 +564,8 @@
 		"en"			"Capoeira"
 		"tr"			"Capoeira"
 		"es"			"Capoeira"
+		"zho"			"巴西戰舞"
+		"chi"			"巴西战舞"
 	}
 
 	"Emote_Charleston"
@@ -555,6 +573,8 @@
 		"en"			"Flapper"
 		"tr"			"Sineklik"
 		"es"			"A la Moda"
+		"zho"			"摩登女"
+		"chi"			"摩登女"
 	}
 	
 	"Emote_Chicken"
@@ -562,6 +582,8 @@
 		"en"			"Chicken"
 		"tr"			"Tavuk"
 		"es"			"Pollo"
+		"zho"			"小雞"
+		"chi"			"小鸡"
 	}
 
 	"Emote_Dance_NoBones"
@@ -569,6 +591,8 @@
 		"en"			"Boneless"
 		"tr"			"Kemiksiz"
 		"es"			"Sin Huesos"
+		"zho"			"無骨"
+		"chi"			"无骨"
 	}
 
 	"Emote_Dance_Shoot"
@@ -576,6 +600,8 @@
 		"en"			"Hype"
 		"tr"			"Yutturmaca"
 		"es"			"Bombo"
+		"zho"			"天花亂墜"
+		"chi"			"天花乱坠"
 	}
 
 	"Emote_Dance_SwipeIt"
@@ -583,6 +609,8 @@
 		"en"			"Shake It Up"
 		"tr"			"Salla"
 		"es"			"Muévelo"
+		"zho"			"舞動青春"
+		"chi"			"舞动青春"
 	}
 	
 	"Emote_Dance_Disco_T3"
@@ -590,6 +618,8 @@
 		"en"			"Disco Fever"
 		"tr"			"Disko ateşi"
 		"es"			"Disco para Siempre"
+		"zho"			"狂熱迪斯可"
+		"chi"			"狂热迪斯科"
 	}
 
 	"Emote_DG_Disco"
@@ -597,6 +627,8 @@
 		"en"			"Disco Fever 2"
 		"tr"			"Disko ateşi 2"
 		"es"			"Disco para Siempre 2"
+		"zho"			"狂熱迪斯可2"
+		"chi"			"狂热迪斯科2"
 	}
 
 	"Emote_Dance_Worm"
@@ -604,6 +636,8 @@
 		"en"			"The Worm"
 		"tr"			"Solucan"
 		"es"			"El Gusano"
+		"zho"			"蠕蟲"
+		"chi"			"蠕虫"
 	}
 
 	"Emote_Dance_Loser"
@@ -611,6 +645,8 @@
 		"en"			"Take The L"
 		"tr"			"L al"
 		"es"			"Toma La L"
+		"zho"			"失敗者"
+		"chi"			"失败者"
 	}
 	
 	"Emote_Dance_Breakdance"
@@ -618,6 +654,8 @@
 		"en"			"BreakDance"
 		"tr"			"BreakDance"
 		"es"			"BreakDance"
+		"zho"			"霹靂舞"
+		"chi"			"霹雳舞"
 	}
 
 	"Emote_Dance_Pump"
@@ -625,6 +663,8 @@
 		"en"			"Pump"
 		"tr"			"Pompa"
 		"es"			"Bomba"
+		"zho"			"Pump舞"
+		"chi"			"Pump舞"
 	}
 
 	"Emote_Dance_RideThePony"
@@ -632,6 +672,8 @@
 		"en"			"Ride The Pony"
 		"tr"			"Midilli Yolculuğu"
 		"es"			"Monta Al Pony"
+		"zho"			"騎小馬"
+		"chi"			"骑小马"
 	}
 
 	"Emote_Dab"
@@ -639,6 +681,8 @@
 		"en"			"Dab"
 		"tr"			"Dab"
 		"es"			"Dab"
+		"zho"			"Dab手勢"
+		"chi"			"Dab手势"
 	}
 
 	"Emote_EasternBloc_Start"
@@ -646,6 +690,8 @@
 		"en"			"Eastern Bloc"
 		"tr"			"Doğu Bloğu"
 		"es"			"Bloque Oriental"
+		"zho"			"東方集團"
+		"chi"			"东方集团"
 	}
 
 	"Emote_FancyFeet"
@@ -653,6 +699,8 @@
 		"en"			"Dream Feet"
 		"tr"			"Rüya Ayakları"
 		"es"			"Pies de Suelo"
+		"zho"			"完美舞步"
+		"chi"			"完美舞步"
 	}
 
 	"Emote_FlossDance"
@@ -660,6 +708,8 @@
 		"en"			"Floss"
 		"tr"			"Diş ipi"
 		"es"			"Hilo Dental"
+		"zho"			"甩手舞"
+		"chi"			"甩手舞"
 	}
 
 	"Emote_FlippnSexy"
@@ -667,6 +717,8 @@
 		"en"			"Flippn"
 		"tr"			"Flippn"
 		"es"			"Flippin Sexy"
+		"zho"			"Flippn舞"
+		"chi"			"Flippn舞"
 	}
 
 	"Emote_Fresh"
@@ -674,6 +726,8 @@
 		"en"			"Fresh"
 		"tr"			"Taze"
 		"es"			"Fresco"
+		"zho"			"新鮮"
+		"chi"			"新鲜"
 	}
 
 	"Emote_GrooveJam"
@@ -681,6 +735,8 @@
 		"en"			"Grefg"
 		"tr"			"Grefg"
 		"es"			"Grefg"
+		"zho"			"Grefg"
+		"chi"			"Grefg"
 	}
 
 	"Emote_guitar"
@@ -688,6 +744,8 @@
 		"en"			"Guitar"
 		"tr"			"Gitar"
 		"es"			"Guitarra"
+		"zho"			"彈吉他"
+		"chi"			"弹吉他"
 	}
 
 	"Emote_Hillbilly_Shuffle_Intro"
@@ -695,6 +753,8 @@
 		"en"			"Shuffle"
 		"tr"			"Karıştır"
 		"es"			"Shuffle"
+		"zho"			"曳步舞"
+		"chi"			"曳步舞"
 	}
 
 	"Emote_Hiphop_01"
@@ -702,6 +762,8 @@
 		"en"			"Hip Hop"
 		"tr"			"Hip Hop"
 		"es"			"Hip Hop"
+		"zho"			"嘻哈"
+		"chi"			"嘻哈"
 	}
 
 	"Emote_Hula_Start"
@@ -709,6 +771,8 @@
 		"en"			"Hula Hop"
 		"tr"			"Hula Hop"
 		"es"			"Hula Hop"
+		"zho"			"夏威夷草裙舞"
+		"chi"			"夏威夷草裙舞"
 	}
 
 	"Emote_InfiniDab_Intro"
@@ -716,6 +780,8 @@
 		"en"			"Infinite Dab"
 		"tr"			"Sonsuz Dab"
 		"es"			"Dab Infinito"
+		"zho"			"無限Dab手勢"
+		"chi"			"无限Dab手势"
 	}
 
 	"Emote_Intensity_Start"
@@ -723,6 +789,8 @@
 		"en"			"Intensity"
 		"tr"			"Yoğunluk"
 		"es"			"Intensidad"
+		"zho"			"驚嚇"
+		"chi"			"惊吓"
 	}
 
 	"Emote_IrishJig_Start"
@@ -730,6 +798,8 @@
 		"en"			"Turkish Dabke"
 		"tr"			"Türk Dabke"
 		"es"			"Dabke Turco"
+		"zho"			"土耳其舞"
+		"chi"			"土耳其舞"
 	}
 
 	"Emote_KoreanEagle"
@@ -737,6 +807,8 @@
 		"en"			"Eagle"
 		"tr"			"Kartal"
 		"es"			"Águila"
+		"zho"			"老鷹"
+		"chi"			"老鹰"
 	}
 
 	"Emote_Kpop_02"
@@ -744,6 +816,8 @@
 		"en"			"True Heart"
 		"tr"			"Gerçek kalp"
 		"es"			"Corazón Verdadero"
+		"zho"			"真心"
+		"chi"			"真心"
 	}
 
 	"Emote_LivingLarge"
@@ -751,6 +825,8 @@
 		"en"			"Living Large"
 		"tr"			"Büyük Yaşa"
 		"es"			"Viviendo a lo Grande"
+		"zho"			"富裕生活"
+		"chi"			"富裕生活"
 	}
 
 	"Emote_Maracas"
@@ -758,13 +834,17 @@
 		"en"			"Maracas"
 		"tr"			"Maracas"
 		"es"			"Maracas"
+		"zho"			"沙槌"
+		"chi"			"沙槌"
 	}
 
 	"Emote_PopLock"
 	{
 		"en"			"Pop Lock"
-		"tr"			"Pop Kilidi"		
+		"tr"			"Pop Kilidi"
 		"es"			"Pop Lock"
+		"zho"			"流行鎖"
+		"chi"			"流行锁"
 	}
 
 	"Emote_PopRock"
@@ -772,6 +852,8 @@
 		"en"			"Star Power"
 		"tr"			"Yıldız gücü"		
 		"es"			"Poder Estelar"
+		"zho"			"藝員魅力"
+		"chi"			"明星魅力"
 	}
 
 	"Emote_RobotDance"
@@ -779,6 +861,8 @@
 		"en"			"Robot"
 		"tr"			"Robot"		
 		"es"			"Robot"
+		"zho"			"機械舞"
+		"chi"			"机械舞"
 	}
 
 	"Emote_T-Rex"
@@ -786,6 +870,8 @@
 		"en"			"T-Rex"
 		"tr"			"T-Rex"		
 		"es"			"T-Rex"
+		"zho"			"霸王龍"
+		"chi"			"霸王龙"
 	}
 
 	"Emote_TechnoZombie"
@@ -793,6 +879,8 @@
 		"en"			"Reanimated"
 		"tr"			"Yeniden canlandırıldı"		
 		"es"			"Reanimado"
+		"zho"			"被鼓舞"
+		"chi"			"被鼓舞"
 	}
 
 	"Emote_Twist"
@@ -800,6 +888,8 @@
 		"en"			"Twist"
 		"tr"			"Dönemeç"		
 		"es"			"Twist"
+		"zho"			"旋轉"
+		"chi"			"旋转"
 	}
 
 	"Emote_WarehouseDance_Start"
@@ -807,6 +897,8 @@
 		"en"			"Ware House"
 		"tr"			"Depo"		
 		"es"			"Almacén"
+		"zho"			"生意興隆"
+		"chi"			"生意兴隆"
 	}
 
 	"Emote_Wiggle"
@@ -814,6 +906,8 @@
 		"en"			"Wiggle"
 		"tr"			"Kıpırdatmak"		
 		"es"			"Meneo"
+		"zho"			"蠕動"
+		"chi"			"蠕动"
 	}
 
 	"Emote_Youre_Awesome"
@@ -821,6 +915,8 @@
 		"en"			"You're Awesome"
 		"tr"			"Harikasın"		
 		"es"			"Eres Increíble"
+		"zho"			"你真厲害"
+		"chi"			"你真厉害"
 	}
 
 }

@@ -156,8 +156,8 @@
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫 (AI特感也適用)
   * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player to the teammate who is much nearer to survivors.
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
-  * [l4d_si_slowdown](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown): Manages the gunfire slowdown for infected team  (Also apply to AI)
-    * 依據槍械種類修改特感隊伍的槍緩速度 (AI特感也適用)
+  * [l4d_si_slowdown_gunfire](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown_gunfire): Manages the gunfire slowdown for infected team  (Also apply to AI)
+    * 依據槍械種類修改特感的槍緩速度 (AI特感也適用)
   * [l4d_kick_stuck_infected](/Plugin_插件/Special_Infected_特感/l4d_kick_stuck_infected): Kick special infected bots if they don't attack and can't be seen by survivors within certain time
     * AI 特感一段時間內不攻擊或卡住將會被處死
   * [l4d_infected_speed_boost](/Plugin_插件/Special_Infected_特感/l4d_infected_speed_boost): L4D1/2 infected get speed boost while duck or climbing the ladder (Also apply to AI)
