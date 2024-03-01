@@ -6,8 +6,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
 * Video | 影片展示
-    * [玩家訂閱模組也能跳舞](https://youtu.be/a3rbE3WV90g)
-    * [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
+	* [玩家訂閱模組也能跳舞](https://youtu.be/a3rbE3WV90g)
+	* [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
 
 * Image | 圖示
 	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
@@ -21,11 +21,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
 
 * <details><summary>ConVar | 指令</summary>
 
-    * cfg/sourcemod/fortnite_l4d1&2.cfg
+	* cfg/sourcemod/fortnite_l4d1&2.cfg
 		```php
 		// Enable/Disable sounds for emotes.
 		sm_dances_sounds "1"
@@ -60,7 +62,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
-    
+	
 	* **Open Dance&Emote Menu**
 		```php
 		sm_dances
@@ -79,8 +81,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. Preparation
 		* Download all files(addons, materials, models, and sound).
 		* Put them in your game server
-    		* If L4D1, ```Left 4 Dead Dedicated Server\left4dead```
-    		* If L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* If L4D1, ```Left 4 Dead Dedicated Server\left4dead```
+			* If L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
 		* Prepare your content-server for FastDL, if you don't know what "FastDL" is, please google it
 
 	2. Setup server to work with downloadable content
@@ -101,11 +103,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* If you are L4D1, ```your-content-server.com/game/left4dead/models/``` and ```your-content-server.com/game/left4dead/sound/```
 			* If you are L4D2, ```your-content-server.com/game/left4dead2/models/``` and ```your-content-server.com/game/left4dead2/sound/```
 		* Upload "models" and "sound" folder to game server.
-    		* If you are L4D1, ```Left 4 Dead Dedicated Server\left4dead```
-    		* If you are L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* If you are L4D1, ```Left 4 Dead Dedicated Server\left4dead```
+			* If you are L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
 		* Upload "models" and "sound" folder to your client's game folder (for test).
-    		* If you are L4D1, ```left 4 dead\left4dead\models\``` and ```left 4 dead\left4dead\sound\```
-    		* If you are L4D2, ```Left 4 Dead 2\left4dead2\models\``` and ```Left 4 Dead 2\left4dead2\sound\```
+			* If you are L4D1, ```left 4 dead\left4dead\models\``` and ```left 4 dead\left4dead\sound\```
+			* If you are L4D2, ```Left 4 Dead 2\left4dead2\models\``` and ```Left 4 Dead 2\left4dead2\sound\```
 
 	4. Start the server and test
 		* Join survivor and type !dance.
@@ -138,25 +140,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.5.3 (2023-12-24)
+	* v1.0h (2024-3-1)
+		* Require left4dhooks
+		* Survivor can't dance if is incap, hanging from ledge or get pinned by infected
+		* Infected can't dance if is dead, or pinning survivor
+		* Update translation
+
+	* v1.5.3 (2023-12-24)
 		* Fixed crash in some custom maps
 
-    * v1.5.2 (2023-11-10)
+	* v1.5.2 (2023-11-10)
 		* Fixed crash when other plugins trying to call "CreateFakeClient"
 
-    * v1.5.1 (2023-10-20)
-	    * Ghost infected can not dance
+	* v1.5.1 (2023-10-20)
+		* Ghost infected can not dance
 
-    * v1.5.0 (2022-11-14)
-	    * Player dances when someone uses kit to heal him
-	    * fix translation error
-	    * fix file error
+	* v1.5.0 (2022-11-14)
+		* Player dances when someone uses kit to heal him
+		* fix translation error
+		* fix file error
 		* Compatibility support for SourceMod 1.11. Fixed various warnings.
 		* Combine L4D1 and L4D2 required files
 		* Add convar to disable dance dounce and stop downloading sound files
 
-    * v1.4.3
-	    * [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
+	* v1.4.3
+		* [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
 </details>
 
 - - - -
@@ -164,7 +172,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 搞笑動作模組: 表情與舞蹈
 
 * 原理
-    * 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
+	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 動作分成兩種: 表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 
@@ -173,7 +181,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-    * cfg/sourcemod/fortnite_l4d1&2.cfg
+	* cfg/sourcemod/fortnite_l4d1&2.cfg
 		```php
 		// 0=關閉跳舞音樂, 1=啟動跳舞音樂
 		sm_dances_sounds "1"
@@ -208,7 +216,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
-    
+	
 	* **打開跳舞菜單**
 		```php
 		sm_dances
@@ -227,8 +235,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. 準備清單
 		* 下載所有文件（插件和模組檔案與音樂）。
 		* 將它們放入遊戲伺服器資料夾中
-    		* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead```
-    		* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead```
+			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2```
 		* 準備你的網空並可以支援FastDL, 不知道什麼是FastDL請自行Google
 		
 	2. 設置伺服器以處理可下載的內容
@@ -249,11 +257,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 如果你是 L4D1，```your-content-server.com/game/left4dead/models/``` 和 ```your-content-server.com/game/left4dead/sound/```
 			* 如果你是 L4D2，```your-content-server.com/game/left4dead2/models/``` 和 ```your-content-server.com/game/left4dead2/sound/```
 		* 將"models" 和 "sound"資料夾複製到您的遊戲伺服器資料夾上。
-    		* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead\models\``` 和 ```Left 4 Dead Dedicated Server\left4dead\sound\```
-    		* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2\models\``` 和 ```Left 4 Dead 2 Dedicated Server\left4dead\sound\```
+			* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead\models\``` 和 ```Left 4 Dead Dedicated Server\left4dead\sound\```
+			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2\models\``` 和 ```Left 4 Dead 2 Dedicated Server\left4dead\sound\```
 		* 將"models" 和 "sound"資料夾上傳到您的遊戲資料夾（用於測試）。
-    		* 如果你是 L4D1，```left 4 dead\left4dead\models\``` 和 ```left 4 dead\left4dead\sound\```
-    		* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
+			* 如果你是 L4D1，```left 4 dead\left4dead\models\``` 和 ```left 4 dead\left4dead\sound\```
+			* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
 		
 	4. 啟動伺服器並測試
 		* 加入倖存者並輸入!dance，測試跳舞是否有動作

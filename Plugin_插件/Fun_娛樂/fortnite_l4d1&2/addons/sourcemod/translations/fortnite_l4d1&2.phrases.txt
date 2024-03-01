@@ -46,7 +46,7 @@
 	{
 		"en"			"[{olive}Emotes{default}]{darkred} It is on cooldown!"
 		"tr"			"[{olive}Emotes{default}]{darkred} Biraz bekle!"		
-		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo
+		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo"
 		"zho"			"[{olive}Emotes{default}]{darkred} 冷卻時間未到!"
 		"chi"			"[{olive}Emotes{default}]{darkred} 冷却时间未到!"
 	}
@@ -76,6 +76,13 @@
 		"es"			"[{olive}Emotes{default}]{darkred} Emote ID inválida, Debe estar entre (1-86)"
 		"zho"			"[{olive}Emotes{default}]{darkred} 表情ID不合法，應介於1~86!"
 		"chi"			"[{olive}Emotes{default}]{darkred} 表情ID不合法，应介于1~86!"
+	}
+
+	"INVALID_BUSY"
+	{
+		"en"			"[{olive}Emotes{default}]{darkred} You are busy right now, can not dance!"
+		"zho"			"[{olive}Emotes{default}]{darkred} 你目前忙碌，無法跳舞!"
+		"chi"			"[{olive}Emotes{default}]{darkred} 你目前忙碌，无法跳舞!"
 	}
 
 	"RANDOM_EMOTE"
