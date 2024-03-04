@@ -574,6 +574,8 @@
     * 新武器: 防暴盾牌
   * [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot
     * 每個人可以攜帶兩種武器或物品
+  * [l4d2_cso_knockback](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_cso_knockback): Weapons and Melees now have knockback power like CSO
+    * 武器與近戰都有CSO 殭屍擊退效果
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>
