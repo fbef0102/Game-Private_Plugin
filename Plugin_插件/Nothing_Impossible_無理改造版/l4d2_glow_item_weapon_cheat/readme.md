@@ -49,8 +49,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Which teams should see the message, 7=Everyone, 1=Spectator, 2=Survivors, 4=Infecteds. (add numbers together)
 		l4d2_glow_item_weapon_cheat_message_team "0"
 
-		// Players with these flags have access to use !itemglow cmd to see all glow entites. (Empty = Everyone, -1: Nobody)
+		// Players with these flags have access to use !itemglow cmd to see all glow entites in survivor and infected team. (Empty = Everyone, -1: Nobody)
 		l4d2_glow_item_weapon_cheat_watch_flag "z"
+
+		// If 1, Enable item glow for spectator (0=off)
+		// 1=Spectators can also use !itemglow cmd
+		l4d2_glow_item_weapon_cheat_spec_enable "0"
 		```
 </details>
 
@@ -97,11 +101,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2 Coop/Versus/Realism/Scavenge
+	L4D2
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.1h (2024-3-5)
+		* Update Cvars
+
 	* v1.0h (2023-6-7)
 		* Add cvars, cmds, and message
 		* Add "teams" in data, Which teams should see the outline glow. 
@@ -156,8 +163,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 哪些隊伍可以看到提示, 1=旁觀者, 2=人類, 4=特感. (請將數字相加起來，7=每個人)
 		l4d2_glow_item_weapon_cheat_message_team "0"
 
-		// 擁有這些權限的玩家，才可以輸入!itemglow (留白 = 任何人都能, -1: 無人能輸入)
+		// 擁有這些權限的倖存者或感染者，才可以輸入!itemglow (留白 = 任何人都能, -1: 無人能輸入)
 		l4d2_glow_item_weapon_cheat_watch_flag "z"
+
+		// 為1時，旁觀者預設可以看到物品發光 (0=關閉這項功能)
+		// 1=旁觀者也可以輸入!itemglow開關
+		l4d2_glow_item_weapon_cheat_spec_enable "0"
 		```
 </details>
 

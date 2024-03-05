@@ -17,14 +17,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* When special infected get shot, they are being pushed back and can't move forward
-	* Allow Knockback while special infected using their ability
+	* Allow Knockback while special infected using their ability, Witch does not apply
 		* Tank throwing
 		* Hunter pouncing
+		* Smoker pulling and dragging
 		* Jockey leaping
 		* Charger charging
 		* Boomer vomiting
 		* Spitter spitting
-	* Witch does not apply
+	* KnockBack Power
+		* More Damage ＝＞ More KnockBack
+		* Closer Distance ＝＞ More KnockBack
+		* HeadShot ＝＞ More KnockBack
 	* Weapons, Melees, grenades now have knockback power
 	* Use data ```data/l4d2_cso_knockback.cfg``` to control knockback power
 </details>
@@ -132,14 +136,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 靈感來自[CSO 殭屍模式](https://zombieescape.fandom.com/wiki/Knockback)，當特感被擊中時，特感會被擊退無法往前進
-	* 特感使用能力時也可以被震退
+	* 特感使用能力時也可以被震退，Witch 不適用此插件
 		* Tank 丟石頭時
 		* Hunter 飛撲時
+		* Smoker 拉人時
 		* Jockey 跳躍時
 		* Charger 衝刺時
 		* Boomer 嘔吐時
 		* Spitter 吐酸時
-	* Witch 不適用此插件
+	* 擊退公式
+		* 傷害越大 ＝＞ 擊退力越強
+		* 距離越近 ＝＞ 擊退力越強
+		* 射擊頭部 ＝＞ 擊退力越強
 	* 武器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件```data/l4d2_cso_knockback.cfg```
 	* 搭配槍緩插件: [l4d_si_slowdown_gunfire](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown_gunfire)，可以完美復刻CSO殭屍擊退效果
 
