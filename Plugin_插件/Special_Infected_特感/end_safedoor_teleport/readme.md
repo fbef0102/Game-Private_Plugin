@@ -29,6 +29,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		end_safedoor_teleport_enable "1"
+
+		// 0=Teleport ci/si/tank, 1=Kill ci/si/tank, 2=Kick si/tank bot + Kill si/tank player + kill ci
+		end_safedoor_teleport_type "0"
 		```
 </details>
 
@@ -54,6 +57,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-3-8)
+		* Update cvars
+
 	* v1.0 (2024-2-19)
 		* Initial Release
 </details>
@@ -77,5 +83,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件
 		end_safedoor_teleport_enable "1"
+
+		// 處理方式, 0=傳送普通感染者/特感/Tank到門前, 1=殺死普通感染者/特感/Tank, 2=踢出特感bot/Tank bot + 殺死特感玩家/Tank玩家/普通感染者
+		end_safedoor_teleport_type "0"
 		```
 </details>

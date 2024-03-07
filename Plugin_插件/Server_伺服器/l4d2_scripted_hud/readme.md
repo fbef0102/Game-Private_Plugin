@@ -557,8 +557,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~5)
 
 	* 如何改變 HUD 位置?
-		* Modify ```l4d2_scripted_hud_hud?_x``` cvar (? 是數字1~5)
-		* Modify ```l4d2_scripted_hud_hud?_y``` cvar (? 是數字1~5)
+		* 修改 ```l4d2_scripted_hud_hud?_x``` 指令 (? 是數字1~5)
+		* 修改 ```l4d2_scripted_hud_hud?_y``` 指令 (? 是數字1~5)
 		* 座標圖
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 
