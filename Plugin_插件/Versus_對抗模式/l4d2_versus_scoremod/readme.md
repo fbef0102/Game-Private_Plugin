@@ -116,6 +116,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
+* <details><summary>Related Plugin | 相關插件</summary>
+	
+	1. [SirPlease/L4D2-Competitive-Rework l4d2_penalty_bonus](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_penalty_bonus.sp): Allows other plugins to set bonuses for a round that will be given even if the saferoom is not reached.
+    	> 殺死tank或witch獲得額外的對抗分數
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0h (2023-3-9)

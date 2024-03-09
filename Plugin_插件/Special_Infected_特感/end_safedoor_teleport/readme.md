@@ -30,8 +30,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		end_safedoor_teleport_enable "1"
 
-		// 0=Teleport ci/si/tank, 1=Kill ci/si/tank, 2=Kick si/tank bot + Kill si/tank player + kill ci
-		end_safedoor_teleport_type "0"
+		// 0=Teleport SI, 1=Kill SI, 2=Kick SI bot + Kill SI player
+		end_safedoor_teleport_si "0"
+
+		// 0=Teleport Tank, 1=Kill Tank, 2=Kick Tank bot + Kill Tank player
+		end_safedoor_teleport_tank "0"
+
+		// 0=Teleport CI, 1=Kill CI
+		end_safedoor_teleport_ci "0"
+
+		// 0=Do Nothing, 1=Kill Witch
+		end_safedoor_teleport_witch "1"
 		```
 </details>
 
@@ -57,6 +66,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-3-10)
 	* v1.1 (2024-3-8)
 		* Update cvars
 
@@ -84,7 +94,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		end_safedoor_teleport_enable "1"
 
-		// 處理方式, 0=傳送普通感染者/特感/Tank到門前, 1=殺死普通感染者/特感/Tank, 2=踢出特感bot/Tank bot + 殺死特感玩家/Tank玩家/普通感染者
-		end_safedoor_teleport_type "0"
+		// 特感處理方式, 0=傳送到門前, 1=殺死, 2=踢出特感bot + 殺死特感玩家
+		end_safedoor_teleport_si "0"
+
+		// Tank處理方式, 0=傳送到門前, 1=殺死, 2=踢出Tank bot + 殺死Tank玩家
+		end_safedoor_teleport_tank "0"
+
+		// 普通感染者處理方式, 0=傳送到門前, 1=殺死
+		end_safedoor_teleport_ci "0"
+
+		// Witch處理方式, 0=不做任何事情, 1=殺死
+		end_safedoor_teleport_witch "1"
 		```
 </details>
