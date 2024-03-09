@@ -33,6 +33,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0: Disable infected grab, 1: Infected grab object, 2:, Infected grab teamate 3: Infected grab all
 		l4d_pushdrag_infected_grab "2"
 
+		// Player with these flag have access to Grab object (Empty=Everyone, -1=No one)
+		l4d_pushdrag_access_flags ""
+
 		// Grab distance within this range
 		l4d_pushdrag_grab_distance "400"
 
@@ -124,6 +127,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//panxiaohai @ 2010
 	//HarryPotter @ 2022-2023
 	```
+	* v1.4h (2024-3-9)
+		* Update cvars
+
 	* v1.3h (2023-6-16)
 		* Grab tank rock distance
 		* Grab the incapacitated survivor
@@ -170,6 +176,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 0: 禁止特感使用飄浮咒, 1: 特感可以抓取物品, 2:, 特感可以抓取隊友 3: 特感可以抓取物品與隊友
 		l4d_pushdrag_infected_grab "2"
+
+		// 擁有這些權限的玩家，才可以使用飄浮咒 (留白 = 任何人都能, -1: 無人)
+		l4d_pushdrag_access_flags ""
 
 		// 可以抓400公尺範圍內的 物品
 		l4d_pushdrag_grab_distance "400"

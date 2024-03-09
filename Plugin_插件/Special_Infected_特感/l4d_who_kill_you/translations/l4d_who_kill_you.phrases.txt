@@ -1,0 +1,526 @@
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色)
+	 - {blue}		(藍色)
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red)
+	 - {blue}		(blue)
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"Who Kill You Menu"
+	{
+		"en"	"Damage Display"
+		"zho"	"詳細傷害提示"
+		"chi"	"详细伤害提示"
+	}
+	"Show Damage from attacker"
+	{
+		"en"	"Show Damage from attacker"
+		"zho"	"顯示上次死亡的詳細資訊"
+		"chi"	"显示上次死亡的详细资讯"
+	}
+	"Show Damage to victim"
+	{
+		"en"	"Show Damage to victim"
+		"zho"	"顯示對方死亡的詳細資訊"
+		"chi"	"显示对方死亡的详细资讯"
+	}
+	"Display: Off"
+	{
+		"en"	"Display: Off"
+		"zho"	"提示: 關閉"
+		"chi"	"提示: 关闭"
+	}
+	"Display: Chat"
+	{
+		"en"	"Display: Chat"
+		"zho"	"提示: 聊天框"
+		"chi"	"提示: 聊天框"
+	}
+	"Display: Menu"
+	{
+		"en"	"Display: Menu"
+		"zho"	"提示: 介面"
+		"chi"	"提示: 界面"
+	}
+
+	"You haven't been killed by any survivor yet"
+	{
+		"en"	"You haven't been killed by any survivor yet"
+		"zho"	"你尚未被任何人類殺死"
+		"chi"	"你尚未被任何人类杀死"
+	}
+	"You haven't killed any infected yet"
+	{
+		"en"	"You haven't killed any infected yet"
+		"zho"	"你尚未殺死任何特感"
+		"chi"	"你尚未杀死任何特感"
+	}
+
+	"Victim_Message_1"
+	{
+		"#format"	"{1:s}"
+		"en"	"You were killed by {1}"
+		"zho"	"你被 {1} 擊殺"
+		"chi"	"你被 {1} 击杀"
+	}
+	"Victim_Message_2"
+	{
+		"#format"	"{1:s},{2:.1f}"
+		"en"	"Weapon: {1}, Distance: {2}m"
+		"zho"	"武器: {1}, 距離: {2}m"
+		"chi"	"武器: {1}, 距离: {2}m"
+	}
+	"Victim_Message_3"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Take Damage: {1} ({2} Count)"
+		"zho"	"受到的總傷害: {1} ({2}次)"
+		"chi"	"受到的总伤害: {1} ({2}次)"
+	}
+	"Victim_Message_HEAD"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Head: {1} ({2} Count)"
+		"zho"	"頭部: {1} ({2}次)"
+		"chi"	"头部: {1} ({2}次)"
+	}
+	"Victim_Message_CHEST"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Chest: {1} ({2} Count)"
+		"zho"	"胸部: {1} ({2}次)"
+		"chi"	"胸部: {1} ({2}次)"
+	}
+	"Victim_Message_STOMACH"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Stomach: {1} ({2} Count)"
+		"zho"	"腹部: {1} ({2}次)"
+		"chi"	"腹部: {1} ({2}次)"
+	}
+	"Victim_Message_ARM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Arm: {1} ({2} Count)"
+		"zho"	"腕部: {1} ({2}次)"
+		"chi"	"腕部: {1} ({2}次)"
+	}
+	"Victim_Message_LEG"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Leg: {1} ({2} Count)"
+		"zho"	"腿部: {1} ({2}次)"
+		"chi"	"腿部: {1} ({2}次)"
+	}
+	"Victim_Message_GENERIC"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Generic: {1} ({2} Count)"
+		"zho"	"其他部位: {1} ({2}次)"
+		"chi"	"其他部位: {1} ({2}次)"
+	}
+
+	"Victim_Message_1 (C)"
+	{
+		"#format"	"{1:s}"
+		"en"	"--You were killed by {blue}{1}{default}--"
+		"zho"	"--你被 {blue}{1}{default} 擊殺--"
+		"chi"	"--你被 {blue}{1}{default} 击杀--"
+	}
+	"Victim_Message_2 (C)"
+	{
+		"#format"	"{1:s},{2:.1f}"
+		"en"	"Weapon: {lightgreen}{1}{default}, Distance: {olive}{2}{default}m"
+		"zho"	"武器: {lightgreen}{1}{default} {green}/{default} 距離: {olive}{2}{default}m"
+		"chi"	"武器: {lightgreen}{1}{default} {green}/{default} 距离: {olive}{2}{default}m"
+	}
+	"Victim_Message_3 (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}※{default} Take Damage: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}※{default} 受到的總傷害: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}※{default} 受到的总伤害: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Victim_Message_HEAD (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Head: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 頭部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 头部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Victim_Message_CHEST (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Chest: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 胸部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 胸部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Victim_Message_STOMACH (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Stomach: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 腹部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 腹部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Victim_Message_ARM (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Arm: {green}{1}{default} ({olive}{2} Count)"
+		"zho"	"{green}>{default} 腕部: {green}{1}{default} ({olive}{2}次)"
+		"chi"	"{green}>{default} 腕部: {green}{1}{default} ({olive}{2}次)"
+	}
+	"Victim_Message_LEG (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Leg: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 腿部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 腿部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Victim_Message_GENERIC (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Generic: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 其他部位: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 其他部位: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+
+	"Attacker_Message_1"
+	{
+		"#format"	"{1:s}"
+		"en"	"Enemy died: {1}"
+		"zho"	"你擊殺了 {1}"
+		"chi"	"你击杀了 {1}"
+	}
+	"Attacker_Message_2"
+	{
+		"#format"	"{1:s},{2:.1f}"
+		"en"	"Weapon: {1}, Distance: {2}m"
+		"zho"	"武器: {1}, 距離: {2}m"
+		"chi"	"武器: {1}, 距离: {2}m"
+	}
+	"Attacker_Message_3"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Cause Damage: {1} ({2} Count)"
+		"zho"	"造成對方的傷害: {1} ({2}次)"
+		"chi"	"造成对方的伤害: {1} ({2}次)"
+	}
+	"Attacker_Message_HEAD"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Head: {1} ({2} Count)"
+		"zho"	"頭部: {1} ({2}次)"
+		"chi"	"头部: {1} ({2}次)"
+	}
+	"Attacker_Message_CHEST"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Chest: {1} ({2} Count)"
+		"zho"	"胸部: {1} ({2}次)"
+		"chi"	"胸部: {1} ({2}次)"
+	}
+	"Attacker_Message_STOMACH"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Stomach: {1} ({2} Count)"
+		"zho"	"腹部: {1} ({2}次)"
+		"chi"	"腹部: {1} ({2}次)"
+	}
+	"Attacker_Message_ARM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Arm: {1} ({2} Count)"
+		"zho"	"腕部: {1} ({2}次)"
+		"chi"	"腕部: {1} ({2}次)"
+	}
+	"Attacker_Message_LEG"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Leg: {1} ({2} Count)"
+		"zho"	"腿部: {1} ({2}次)"
+		"chi"	"腿部: {1} ({2}次)"
+	}
+	"Attacker_Message_GENERIC"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"Generic: {1} ({2} Count)"
+		"zho"	"其他部位: {1} ({2}次)"
+		"chi"	"其他部位: {1} ({2}次)"
+	}
+
+	"Attacker_Message_1 (C)"
+	{
+		"#format"	"{1:s}"
+		"en"	"--Enemy died: {red}{1}--"
+		"zho"	"--你擊殺了 {red}{1}--"
+		"chi"	"--你击杀了 {red}{1}--"
+	}
+	"Attacker_Message_2 (C)"
+	{
+		"#format"	"{1:s},{2:.1f}"
+		"en"	"Weapon: {lightgreen}{1}{default}, Distance: {olive}{2}{default}m"
+		"zho"	"武器: {lightgreen}{1}{default} {green}/{default} 距離: {olive}{2}{default}m"
+		"chi"	"武器: {lightgreen}{1}{default} {green}/{default} 距离: {olive}{2}{default}m"
+	}
+	"Attacker_Message_3 (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}※{default} Cause Damage: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}※{default} 造成對方的傷害: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}※{default} 造成对方的伤害: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_HEAD (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Head: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 頭部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 头部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_CHEST (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Chest: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 胸部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 胸部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_STOMACH (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Stomach: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 腹部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 腹部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_ARM (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Arm: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 腕部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 腕部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_LEG (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Leg: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 腿部: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 腿部: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+	"Attacker_Message_GENERIC (C)"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"	"{green}>{default} Generic: {green}{1}{default} ({olive}{2}{default} Count)"
+		"zho"	"{green}>{default} 其他部位: {green}{1}{default} ({olive}{2}{default}次)"
+		"chi"	"{green}>{default} 其他部位: {green}{1}{default} ({olive}{2}{default}次)"
+	}
+
+	"Left Server"
+	{
+		"en"	"(Left Server)"
+		"zho"	"(已離開)"
+		"chi"	"(已离开)"
+	}
+
+	"Pistol"
+	{
+		"en"			"Pistol"
+		"zho"			"手槍"
+		"chi"			"手枪"
+	}
+
+	"Dual Pistol"
+	{
+		"en"			"Dual Pistol"
+		"zho"			"雙手槍"
+		"chi"			"双手枪"
+	}
+
+	"Magnum"
+	{
+		"en"			"Magnum"
+		"zho"			"麥格農"
+		"chi"			"马格南"
+	}
+
+	"Pump_Shotgun"
+	{
+		"en"			"Pump Shotgun"
+		"zho"			"木製霰彈槍"
+		"chi"			"泵动霰弹枪"
+	}
+
+	"Shotgun_Chrome"
+	{
+		"en"			"Shotgun Chrome"
+		"zho"			"鐵製霰彈槍"
+		"chi"			"铬管霰弹枪"
+	}
+
+	"Uzi"
+	{
+		"en"			"Uzi"
+		"zho"			"UZI衝鋒槍"
+		"chi"			"UZI冲锋枪"
+	}
+
+	"Silenced_Smg"
+	{
+		"en"			"Silenced Smg"
+		"zho"			"SMG衝鋒槍"
+		"chi"			"SMG冲锋枪"
+	}
+
+	"MP5"
+	{
+		"en"			"MP5"
+		"zho"			"MP5"
+		"chi"			"MP5冲锋枪"
+	}
+
+	"Rifle"
+	{
+		"en"			"Rifle"
+		"zho"			"M16步槍"
+		"chi"			"M16步枪"
+	}
+
+	"SG552"
+	{
+		"en"			"SG552"
+		"zho"			"SG552步槍"
+		"chi"			"SG552步枪"
+	}
+
+	"AK47"
+	{
+		"en"			"AK47"
+		"zho"			"AK47"
+		"chi"			"AK47步枪"
+	}
+
+	"Desert_Rifle"
+	{
+		"en"			"Desert Rifle"
+		"zho"			"SCAR步槍"
+		"chi"			"SCAR步枪"
+	}
+
+	"Shotgun_Spas"
+	{
+		"en"			"Shotgun Spas"
+		"zho"			"SPAS連發霰彈槍"
+		"chi"			"SPAS霰弹枪"
+	}
+
+	"Auto_Shotgun"
+	{
+		"en"			"Auto Shotgun"
+		"zho"			"自動連發霰彈槍"
+		"chi"			"M1014霰弹枪"
+	}
+
+	"Hunting_Rifle"
+	{
+		"en"			"Hunting Rifle"
+		"zho"			"獵槍"
+		"chi"			"狩猎狙击步枪"
+	}
+
+	"Military_Sniper"
+	{
+		"en"			"Military Sniper"
+		"zho"			"軍用狙擊槍"
+		"chi"			"军用狙击步枪"
+	}
+
+	"Scout"
+	{
+		"en"			"Scout"
+		"zho"			"Scout"
+		"chi"			"侦察狙击步枪"
+	}
+
+	"AWP"
+	{
+		"en"			"AWP"
+		"zho"			"AWP"
+		"chi"			"AWP狙击步枪"
+	}
+
+	"Grenade_Launcher"
+	{
+		"en"			"Grenade Launcher"
+		"zho"			"榴彈發射器"
+		"chi"			"榴弹发射器"
+	}
+
+	"M60"
+	{
+		"en"			"M60"
+		"zho"			"M60機關槍"
+		"chi"			"M60机枪"
+	}
+
+	"Fire"
+	{
+		"en"			"Fire"
+		"zho"			"火焰"
+		"chi"			"火焰"
+	}
+
+	"Punch"
+	{
+		"en"			"Melee Punch"
+		"zho"			"拳頭"
+		"chi"			"拳头"
+	}
+
+	"50_Cal_Machine_Gun"
+	{
+		"en"			".50 Cal Machine Gun"
+		"zho"			".50口徑固定機槍"
+		"chi"			".50口径固定机枪"
+	}
+
+	"Minigun"
+	{
+		"en"			"Minigun"
+		"zho"			"迷你砲固定機槍"
+		"chi"			"加特林固定机枪"
+	}
+
+	"Melee"
+	{
+		"en"		"Melee"
+		"zho"		"近戰"
+		"chi"		"近战"
+	}
+
+	"Chainsaw"
+	{
+		"en"			"Chainsaw"
+		"zho"			"電鋸"
+		"chi"			"电锯"
+	}
+
+	"BOMB"
+	{
+		"en"		"BOMB Explode"
+		"zho"		"爆炸武器"
+		"chi"		"爆炸武器"
+	}
+}

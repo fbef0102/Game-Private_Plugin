@@ -50,7 +50,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_command_access_flag ""
 
 		// Transparency of the tail (10-255).
-		l4d_player_tail_color_alpha "150"
+		l4d_player_tail_color_alpha "100"
 
 		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
 		l4d_player_tail_color "-1 -1 -1"
@@ -68,7 +68,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_height "5.0"
 
 		// Time interval to change tail color to random (0=Don't change color)
-		l4d_player_tail_changecolor_interval "4.0"
+		l4d_player_tail_changecolor_interval "0"
 
 		// If 1, setup small beam sprite in middle of tail
 		l4d_player_tail_middle_beam "1"
@@ -77,7 +77,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_menu_access_flag ""
 
 		// Database to save personal tail settings. (MySQL & SQLite supported, Empty = Off)
-		l4d_player_tail_database "tail"
+		l4d_player_tail_database ""
 		```
 </details>
 
@@ -207,7 +207,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_command_access_flag ""
 
 		// 尾巴顏色透明度 (10-255).
-		l4d_player_tail_color_alpha "150"
+		l4d_player_tail_color_alpha "100"
 
 		// 設置尾巴顏色，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機顏色]
 		l4d_player_tail_color "-1 -1 -1"
@@ -225,7 +225,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_height "5.0"
 
 		// 每4秒變更尾巴特效的顏色 (0=顏色不變化)
-		l4d_player_tail_changecolor_interval "4.0"
+		l4d_player_tail_changecolor_interval "0"
 
 		// 為1時，尾巴特效中間再增加一條線
 		l4d_player_tail_middle_beam "1"
@@ -234,7 +234,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_player_tail_menu_access_flag ""
 
 		// 資料庫的名稱. (MySQL & SQLite supported, 留白=不使用資料庫)
-		l4d_player_tail_database "tail"
+		l4d_player_tail_database ""
 		```
 </details>
 
