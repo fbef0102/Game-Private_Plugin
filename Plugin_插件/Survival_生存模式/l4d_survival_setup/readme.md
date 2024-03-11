@@ -15,7 +15,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-    * Type ```!setup``` -> aim the weapon or item on the map -> save -> auto pickup or equip on survival round start
+    * In survival mode, type ```!setup``` -> aim the weapon or item on the map -> save -> auto pickup or equip on next survival round start
+    * All setup settings are saved to data file, no need to worry server restart or player disconnect
     * Can't equip laser if there is no laser sight on the map
 </details>
 

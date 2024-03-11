@@ -44,21 +44,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Set interval time check to spawn
 		l4d_tank_spawn_interval "0.5"
 
-		// Set total numbers of Tanks to spawn on first map (0=Game deafult)
-		l4d_tank_spawn_first_number "3"
+		// Set total max numbers of Tanks to spawn on first map (0=Game deafult)
+		l4d_tank_spawn_first_max "3"
 
-		// Set total numbers of Tanks to spawn on regular map (0=Game deafult)
-		l4d_tank_spawn_normal_number "5"
+		// Set total min numbers of Tanks to spawn on first map (0=Game deafult)
+		l4d_tank_spawn_first_min "1"
 
-		// Set total numbers of Tanks to spawn on final map (0=Game deafult)
+		// Set total max numbers of Tanks to spawn on regular map (0=Game deafult)
+		l4d_tank_spawn_normal_max "5"
+
+		// Set total min numbers of Tanks to spawn on regular map (0=Game deafult)
+		l4d_tank_spawn_normal_min "3"
+
+		// Set total max numbers of Tanks to spawn on final map (0=Game deafult)
 		// Before final rescue starts
-		l4d_tank_spawn_final_number_before_rescue "1"
+		l4d_tank_spawn_final_max_before_rescue "1"
 
-		// Set numbers of Tanks to spawn on each tank wave in final rescue (0=Game deafult)
-		l4d_tank_spawn_final_number_in_rescue "2"
+		// Set total min numbers of Tanks to spawn on final map (0=Game deafult)
+		// Before final rescue starts
+		l4d_tank_spawn_final_min_before_rescue "1"
 
-		// Set numbers of Tanks to spawn when finale vehicle is ready (0=Game deafult)
-		l4d_tank_spawn_final_number_rescue_ready "3"
+		// Set max numbers of Tanks to spawn on each tank wave in final rescue (0=Game deafult)
+		l4d_tank_spawn_final_max_in_rescue "2"
+
+		// Set min numbers of Tanks to spawn on each tank wave in final rescue (0=Game deafult)
+		l4d_tank_spawn_final_min_in_rescue "1"
+
+		// Set max numbers of Tanks to spawn when finale vehicle is ready (0=Game deafult)
+		l4d_tank_spawn_final_max_rescue_ready "3"
+
+		// Set min numbers of Tanks to spawn when finale vehicle is ready (0=Game deafult)
+		l4d_tank_spawn_final_min_rescue_ready "2"
 
 		// If 1, Set multi Tanks to spawn simultaneously on first/regular/final map
 		l4d_tank_spawn_enable_simultaneous "1"
@@ -108,6 +124,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2024-3-12)
+		* Control max and min numbers of tanks to spawn
+		* Update cvars
+
     * v1.0 (2023-12-05)
 		* Initial Release
 </details>
@@ -145,35 +165,51 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 每0.5秒檢查一次人類路程並生成Tank
 		l4d_tank_spawn_interval "0.5"
 
-		// 地圖第一關總共會生成的Tank數量 (0=遊戲預設)
-		l4d_tank_spawn_first_number "3"
+		// 地圖第一關總共會生成的最多Tank數量 (0=遊戲預設)
+		l4d_tank_spawn_first_max "3"
 
-		// 地圖正常關卡總共會生成的Tank數量 (0=遊戲預設)
+		// 地圖第一關總共會生成的最少Tank數量 (0=遊戲預設)
+		l4d_tank_spawn_first_min "1"
+
+		// 地圖正常關卡總共會生成的最多Tank數量 (0=遊戲預設)
 		// 不是第一關也不是最後一關
-		l4d_tank_spawn_normal_number "5"
+		l4d_tank_spawn_normal_max "5"
 
-		// 地圖最後一關總共會生成的Tank數量 (在救援開始之前, 0=遊戲預設)
-		l4d_tank_spawn_final_number_before_rescue "1"
+		// 地圖正常關卡總共會生成的最少Tank數量 (0=遊戲預設)
+		// 不是第一關也不是最後一關
+		l4d_tank_spawn_normal_min "3"
 
-		// 救援過程中每局Tank時所生成的tank數量 (0=遊戲預設)
-		l4d_tank_spawn_final_number_in_rescue "2"
+		// 地圖最後一關總共會生成的最多Tank數量 (在救援開始之前, 0=遊戲預設)
+		l4d_tank_spawn_final_max_before_rescue "1"
 
-		// 救援載具來臨後所生成的tank數量 (0=遊戲預設)
-		l4d_tank_spawn_final_number_rescue_ready "3"
+		// 地圖最後一關總共會生成的最少Tank數量 (在救援開始之前, 0=遊戲預設)
+		l4d_tank_spawn_final_min_before_rescue "1"
+
+		// 救援過程中每局Tank時所生成的最多tank數量 (0=遊戲預設)
+		l4d_tank_spawn_final_max_in_rescue "2"
+
+		// 救援過程中每局Tank時所生成的最少tank數量 (0=遊戲預設)
+		l4d_tank_spawn_final_min_in_rescue "1"
+
+		// 救援載具來臨後所生成的最多tank數量 (0=遊戲預設)
+		l4d_tank_spawn_final_max_rescue_ready "3"
+
+		// 救援載具來臨後所生成的最少tank數量 (0=遊戲預設)
+		l4d_tank_spawn_final_min_rescue_ready "2"
 
 		// 為1時，地圖的 第一關/正常關卡/最後一關路程上 每次產生不同數量的Tank
 		l4d_tank_spawn_enable_simultaneous "1"
 
-		// (第一關/正常關卡/最後一關路程上) 每次產生Tank時，所生成的最少數量
+		// (第一關/正常關卡/最後一關救援開始之前路程上) 每次產生Tank時，所生成的最少數量
 		l4d_tank_spawn_min_simultaneous "1"
 
-		// (第一關/正常關卡/最後一關路程上) 每次產生Tank時，所生成的最多數量
+		// (第一關/正常關卡/最後一關救援開始之前路程上) 每次產生Tank時，所生成的最多數量
 		l4d_tank_spawn_max_simultaneous "3"
 
-		// (第一關/正常關卡/最後一關路程上) 至少路程到達10%才可以生成Tank，數字請填[5~95]%
+		// (第一關/正常關卡/最後一關救援開始之前路程上) 至少路程到達10%才可以生成Tank，數字請填[5~95]%
 		l4d_tank_spawn_range_min_tank "10"
 
-		// (第一關/正常關卡/最後一關路程上) 路程最遠90%生成Tank，數字請填[5~95]%
+		// (第一關/正常關卡/最後一關救援開始之前路程上) 路程最遠90%生成Tank，數字請填[5~95]%
 		l4d_tank_spawn_range_max_tank "90"
 		```
 </details>
