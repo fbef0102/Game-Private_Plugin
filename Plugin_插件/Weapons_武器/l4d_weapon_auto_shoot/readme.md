@@ -6,7 +6,7 @@ Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/9mYmhI5su9I)
+* [Video | 影片展示](https://youtu.be/GSBYrMNC08o)
 
 * Image | 圖示
     * Hold ATTACK1 (Mouse1)
@@ -43,12 +43,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_auto_shoot_enable "1"
 
         // (L4D2) [ALLOWED WEAPONS] separate by ',' (no spaces).
-        // 1=Pistol, 2=Hunt Rif, 3=Magnum, 4=Mil Sniper, 5=Pump Shot, 6=Chrome Shot, 7=Autoshot, 8=SPAS, 9=Scout, 10=AWP, 11=GL
-        l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8"
+        // 1=Single Pistol, 2=Dual Pistol, 3=Hunt Rif, 4=Magnum, 5=Mil Sniper, 6=Pump Shot, 7=Chrome Shot, 8=Autoshot, 9=SPAS, 10=Scout, 11=AWP, 12=GL
+        // GL = Grenade Launcher
+        l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8,9"
 
-        // (L4D1) [ALLOWED WEAPONS] separate by ',' (no spaces).
-        // 1=Pistol, 2=Hunt Rif
-        l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8"
+        // (L4D1) [ALLOWED WEAPONS] separate by ',' (no spaces).\n1=Pistol, 2=Dual Pistol, 3=Hunt Rif, 4=Pump Shot, 5=Autoshot
+        l4d_weapon_auto_shoot_weapons "1,2,3,4,5"
         ```
 </details>
 
@@ -64,6 +64,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1h (2024-3-11)
+        * Update Cvars
 
     * v1.0h (2024-2-16)
         * Remake code, convert code to latest syntax
@@ -104,11 +107,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_auto_shoot_enable "1"
 
         // (L4D2) [自動開火的武器] ';' 符號區隔 (無空白)
-        // 1=手槍, 2=獵槍, 3=沙漠之鷹, 4=軍用狙擊槍, 5=木製單發散彈槍, 6=鐵製單發散彈槍, 7=自動連發散彈槍 , 8=自動連發戰鬥散彈槍, 9=Scout, 10=AWP, 11=榴彈發射器
-        l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8"
+        // 1=手槍, 2=雙手槍, 3=獵槍, 4=沙漠之鷹, 5=軍用狙擊槍, 6=木製單發散彈槍, 7=鐵製單發散彈槍, 8=自動連發散彈槍, 9=自動連發戰鬥散彈槍, 10=Scout, 11=AWP, 12=榴彈發射器
+        l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8,9"
 
         // (L4D1) [自動開火的武器] ';' 符號區隔 (無空白)
-        // 1=手槍, 2=獵槍
-        l4d_weapon_auto_shoot_weapons "1,2"
+        // 1=手槍, 2=雙手槍, 3=獵槍, 4=木製單發散彈槍, 5=自動連發散彈槍
+        l4d_weapon_auto_shoot_weapons "1,2,3,4,5"
         ```
 </details>

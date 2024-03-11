@@ -41,6 +41,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 0=Do Nothing, 1=Kill Witch
 		end_safedoor_teleport_witch "1"
+
+		// Delay in seconds to disable teleport/kill/kick after the door is open or a survivor reaches the end saferoom
+		end_safedoor_teleport_end_delay "3.0"
 		```
 </details>
 
@@ -94,16 +97,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		end_safedoor_teleport_enable "1"
 
-		// 特感處理方式, 0=傳送到門前, 1=殺死, 2=踢出特感bot + 殺死特感玩家
+		// 特感處理方式, 0=傳送到門前, 1=處死, 2=踢出特感bot + 處死特感玩家
 		end_safedoor_teleport_si "0"
 
-		// Tank處理方式, 0=傳送到門前, 1=殺死, 2=踢出Tank bot + 殺死Tank玩家
+		// Tank處理方式, 0=傳送到門前, 1=處死, 2=踢出Tank bot + 處死Tank玩家
 		end_safedoor_teleport_tank "0"
 
-		// 普通感染者處理方式, 0=傳送到門前, 1=殺死
+		// 普通感染者處理方式, 0=傳送到門前, 1=處死
 		end_safedoor_teleport_ci "0"
 
-		// Witch處理方式, 0=不做任何事情, 1=殺死
+		// Witch處理方式, 0=不做任何事情, 1=處死
 		end_safedoor_teleport_witch "1"
+
+		// 人類已抵達安全室內或安全門已經打開的3秒後關閉 傳送/處死/踢出
+		end_safedoor_teleport_end_delay "3.0"
 		```
 </details>

@@ -351,9 +351,9 @@
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
    - 如果無法連線請改為虛擬IP
    - 如果都無法連線代表網路的路由器(無線基地台、Router、中華電信的數據機)或電腦的防火牆需要調整
-      1. 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing)
+      1. 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing、Virtual Server)
          * 開放端口27016
-         * 每個品牌操作方式不太一樣，請自行google
+         * 每個品牌操作方式不一樣，請自行google
 
       2. 確認電腦的防火牆
          * 沒有阻擋srcds.exe應用程式
@@ -368,9 +368,16 @@
       * 伺服器的虛擬IP: 192.168.1.102
       * 伺服器的端口: 27016
       1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
+         * 每個品牌的帳密與操作方式不一樣，請自行google
+         * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
+      2. 重啟路由器
+         * 必須用網頁重啟
+      <br/><img width="234" alt="e39654498c0f68999651ad5cc0c4a7bb" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/17e17139-3aff-4c13-8899-6c310a572cbd">
       
-      2. 設置電腦的防火牆，"輸入規則"新增兩個，"輸出規則"新增兩個
+      3. 設置電腦的防火牆，"輸入規則"新增兩個，"輸出規則"新增兩個
+         * 其他windows系統操作方式，請自行google
+         * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
       <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
 
