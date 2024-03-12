@@ -6,3 +6,9 @@
 #ignore vscode
 *.vs
 *.vscode
+
+#ignore gamedata
+gamedata
+
+#ignore translations
+#translations
