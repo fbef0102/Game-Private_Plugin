@@ -10,9 +10,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
 
 * Image | 圖示
+	<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
 	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
 	<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
-	<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -23,7 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -139,6 +138,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2024-3-13)
+		* Fixed infected flashight off after dance end
+		* Add Gamedata
+		* Support readyup
 
 	* v1.0h (2024-3-1)
 		* Require left4dhooks

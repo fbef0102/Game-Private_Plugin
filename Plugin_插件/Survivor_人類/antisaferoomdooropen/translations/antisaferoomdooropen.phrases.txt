@@ -19,7 +19,7 @@
 	"Timer_2"
 	{
 		"#format"	"{1:d}"
-		"en"	"You can leave saferoom area until {green}{1}{default} second(s)"
+		"en"	"You can leave saferoom area until {1} second(s)"
 		"zho"	"{1} 秒後才能離開安全室"
 		"chi"	"{1} 秒后才能离开安全室"
 	}
