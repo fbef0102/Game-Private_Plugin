@@ -8,22 +8,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/L6slnUSsTSI)
 
 * Image | 圖示
-	* Don't be a dick (代替月亮來懲罰你)
+    * Don't be a dick (代替月亮來懲罰你)
     <br/>![l4d_together_1](image/l4d_together_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* If a player is alone and very far away from the survivor team, he is the loner
-    * Keep spawning special infected nearby the loner
+    * If a player is alone and very far away from the survivor team, he is the loner
+    * Keep spawning special infected nearby the loner until the loner is dead
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    3. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_together.cfg
+    * cfg/sourcemod/l4d_together.cfg
         ```php
         // What percentage of the ALIVE survivors the loner must away from to active loner punish.
         l4d_together_alive_survivor_percentage "50"
@@ -76,7 +77,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
-	None
+    None
 </details>
 
 * <details><summary>ConVar Example (Click me to expend)</summary>
@@ -108,26 +109,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
-		> 離隊伍太遠的玩家將被傳送或是減速
+    1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
+        > 離隊伍太遠的玩家將被傳送或是減速
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//panxiaohai @ 2009 - 2011
-	//Harry @ 2021 - 2023
-	```
-	* v1.6 (2023-4-1)
+    ```php
+    //panxiaohai @ 2009 - 2011
+    //Harry @ 2021 - 2024
+    ```
+    * v1.7 (2024-3-14)
+        * Add translation
+
+    * v1.6 (2023-4-1)
         * Replace Gamedata with left4dhooks
 
-	* v1.5
+    * v1.5
         * Remake Code
         * New infected spawn method
         * More cvars
 
-	* v1.0.2
-		* [By panxiaohai](https://forums.alliedmods.net/showthread.php?t=167389)
+    * v1.0.2
+        * [By panxiaohai](https://forums.alliedmods.net/showthread.php?t=167389)
 </details>
 
 - - - -
@@ -136,14 +140,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 當玩家距離隊伍太遠，他就是脫隊的倖存者
-    * 這插件會在脫隊的玩家附近持續生成特感 (生成距離很近)
+    * 這插件會在脫隊的玩家附近持續生成特感 (生成距離很近)，直到玩家死亡
 
 * 用意在哪
     * 總有人不顧隊伍死活直接往前衝，或當拖油瓶遲遲不前進
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d_together.cfg
+    * cfg/sourcemod/l4d_together.cfg
         ```php
         // 當玩家距離隊伍50%以上數量的隊友太遠，他就是脫隊的倖存者
         l4d_together_alive_survivor_percentage "50"

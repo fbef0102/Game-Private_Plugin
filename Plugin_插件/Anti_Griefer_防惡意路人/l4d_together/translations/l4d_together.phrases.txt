@@ -1,0 +1,30 @@
+"Phrases"
+{
+	"You are too far from team."
+	{
+		"en"			"You are too far from team."
+		"zho"			"特感代替月亮懲罰你!!"
+		"chi"			"你离的队伍太远!!"
+	}
+
+	"You are too far from team. (C)"
+	{
+		"en"			"{red}You are too far from team."
+		"zho"			"{red}特感代替月亮懲罰你!!"
+		"chi"			"{red}你离的队伍太远!!"
+	}
+
+	"Warning"
+	{
+		"en"			"Warning! You are too far from team!"
+		"zho"			"警告!! 你離的隊伍太遠!!"
+		"chi"			"警告!! 你离的队伍太远!!"
+	}
+
+	"Warning (C)"
+	{
+		"en"			"{red}Warning! You are too far from team!"
+		"zho"			"{red}警告!! 你離的隊伍太遠!!"
+		"chi"			"{red}警告!! 你离的队伍太远!!"
+	}
+}
