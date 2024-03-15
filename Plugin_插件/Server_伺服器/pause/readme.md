@@ -99,24 +99,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: pause
-	```
-	```c
-    /**
-    * Trigger when game paused
-    * 
-    * @return		    nothing
-    */
-    native void OnPause();
-
-    /**
-    * Trigger when game unpaused already
-    * 
-    * @return		    nothing
-    */
-    native void OnUnpause();
-	```
+    * ```scripting\include\pause.inc```
+        ```php
+        Registers a library name: pause
+        ```
 </details>
 
 * Apply to | 適用於

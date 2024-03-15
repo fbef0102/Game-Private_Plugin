@@ -27,21 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* <details><summary>API | 串接</summary>
-
-	```c
-	/**
-	* @brief Called whenever player changed character via csm
-	*
-	* @param client		The client index who changed character
-	* @param m_survivorCharacter The Character index that client changed to
-	*
-	* @noreturn
-	*/
-	forward void CSM_OnClientChangeCharacter(int client, int m_survivorCharacter);
-	```
-</details>
-
 * <details><summary>ConVar</summary>
 
 	* cfg/sourcemod/l4d_h_csm.cfg
@@ -82,6 +67,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+    * ```scripting\include\l4d_h_csm.inc```
+        ```php
+        Registers a library name: l4d_h_csm
+        ```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1
@@ -109,6 +102,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022-2024
 	```
+	* v1.6h (2024-3-15)
+		* Update API
+		* Optimize code and improve performance
+		* Re-attach and re-equip all weapons and items when change character
+
 	* v1.5h (2024-2-25)
 		* Can't change character if survivor is incap, hanging or pinned by infected
 		* Update Translation

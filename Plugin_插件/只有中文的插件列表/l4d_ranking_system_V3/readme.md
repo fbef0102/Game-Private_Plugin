@@ -119,21 +119,10 @@
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a l4d_death_weapon_lock name: l4d_ranking_system
-	```
-	```c
-	/**
-	* Get Rank Title for client
-	* 
-	* @param client	Client to get rank title
-	* @param str       String to store rank title.
-	* @param size      size of String to store.
-	* 
-	* @return		   True if suceed, false if not
-	*/
-	native int Rank_System_GetRankTitle(int client, char[] str, int size);
-	```
+    * ```scripting\include\l4d_ranking_system.inc```
+        ```php
+        Registers a library name: l4d_ranking_system
+        ```
 </details>
 
 * <details><summary>文件設定</summary>

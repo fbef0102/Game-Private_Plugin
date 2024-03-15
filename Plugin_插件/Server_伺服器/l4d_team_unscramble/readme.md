@@ -24,48 +24,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_team_unscramble
-	```
-	```c
-	/**
-	* @brief Called whenever unscramble process is completed.
-	*
-	* @noreturn
-	*/
-	forward void R2comp_OnUnscrambleEnd()
-
-	/**
-	* Force to store players team data.
-	*
-	* @noreturn
-	*/
-	native void R2comp_UnscrambleKeep()
-
-	/**
-	* Force to start unscramble process (Puts players on the right team).
-	* @note To make unscramble process works you need call R2comp_UnscrambleKeep first.
-	*
-	* @noreturn
-	*/
-	native void R2comp_UnscrambleStart()
-
-	/**
-	* Force to abort unscramble process.
-	*
-	* @param fireOnUnscrambleEnd    Whether or not R2comp_OnUnscrambleEnd forward should be fired.
-	*
-	* @noreturn
-	*/
-	native void R2comp_AbortUnscramble(bool fireOnUnscrambleEnd = true)
-
-	/**
-	* Returns whether or not unscramble process is completed.
-	*
-	* @return			If true then unscramble is completed, false means unscramble is processing and team changes is locked.
-	*/
-	native bool R2comp_IsUnscrambled()
-	```
+    * ```scripting\include\l4d_team_unscramble.inc```
+        ```php
+        Registers a library name: l4d_team_unscramble
+        ```
 </details>
 
 * <details><summary>ConVar | 指令</summary>

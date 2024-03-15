@@ -122,10 +122,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 coop/versus/survival/scavenge
 	```
 
-* <details><summary>Similar Plugin | 相似插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
-		> 顯示誰是黑白狀態，有更多的提示與支援LMC模組
+		* 顯示誰是黑白狀態，有更多的提示與支援LMC模組
+	2. [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+		* 允許玩家在遊戲中更換一二代角色
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

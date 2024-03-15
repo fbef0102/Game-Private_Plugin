@@ -460,8 +460,6 @@
     * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
   * [l4d_survival_GasConfig](/Plugin_插件/Survival_生存模式/l4d_survival_GasConfig): Save and load gas configs
     * 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
-  * [l4d_survival_min_si_require](/Plugin_插件/Survival_生存模式/l4d_survival_min_si_require): Display Minimum SI requirement for full-team on each survival map.
-    * 在聊天欄顯示該生存地圖的最少特感擊殺數
   * [l4d_survival_auto_recover](/Plugin_插件/Survival_生存模式/l4d_survival_auto_recover): Auto save survivors if incapacitated or hanging from ledge before survival begins
     * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢復所有血量
   * [survival_remove_start_items](/Plugin_插件/Survival_生存模式/survival_remove_start_items): Remove survivors' default kits/pills/dual pistol in survival/scavenge mode

@@ -22,7 +22,7 @@ public void __pl_l4d_multiple_equipment_SetNTVOptional()
 #endif
 
 /**
- * Get client's weapon classname or melee classname in a player's slot.
+ * Get client's backup weapon classname or melee classname in a player's slot.
  * 
  * @param client	Client (don't input fake client)
  * @param slot		Weapons Slot (0~4)	

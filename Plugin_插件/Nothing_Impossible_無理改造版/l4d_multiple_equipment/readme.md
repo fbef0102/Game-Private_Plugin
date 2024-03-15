@@ -115,22 +115,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_multiple_equipment
-	```
-	```c
-    /**
-    * Get client's weapon classname or melee classname in a player's slot.
-    * 
-    * @param client	    Client
-    * @param slot		Weapons Slot (0~4)	
-    * @param str        String to store weapon classname.
-    * @param size       size of String to store.
-    * 
-    * @return		    True if suceed, false if not
-    */
-    native bool Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] str, int size);
-	```
+    * ```scripting\include\l4d_multiple_equipment.inc```
+        ```php
+        Registers a library name: l4d_multiple_equipment
+        ```
 </details>
 
 * Apply to | 適用於

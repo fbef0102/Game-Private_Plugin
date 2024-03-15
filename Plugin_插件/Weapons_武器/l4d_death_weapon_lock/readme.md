@@ -64,20 +64,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a l4d_death_weapon_lock name: pause
-	```
-	```c
-    /**
-    * Lock the weapon so only the specific client can pick up
-    * 
-    * @param client	Client that can pick up the weapon, anyone else can't (don't input fake client)
-    * @param weapon	Weapons that would be locked (must be on the ground)
-    * 
-    * @return		    True if suceed, false if not
-    */
-    native bool Drop_WeaponLock(int client, int weapon);
-	```
+    * ```scripting\include\l4d_death_weapon_lock.inc```
+        ```php
+        Registers a library name: l4d_death_weapon_lock
+        ```
 </details>
 
 * Apply to | 適用於
