@@ -9,7 +9,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Image | 圖示</summary>
 
-	<br/>![l4d_modme_0](image/l4d_modme_0.jpg)
+	<br/>![l4d_modme_7](image/l4d_modme_7.gif)
 	<br/>![l4d_modme_1](image/l4d_modme_1.jpg)
 	<br/>![l4d_modme_2](image/l4d_modme_2.jpg)
 	<br/>![l4d_modme_3](image/l4d_modme_3.jpg)
@@ -20,7 +20,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Point an entity -> type !modme in chatbox -> your model will be changed into the same as the entity -> have fun!
+	* Point an entity -> type ```!modcopy``` -> type ```!modmenu``` to change player model -> have fun!
+	* Point an entity -> type ```!modme``` -> your model will be changed into the same as the entity -> have fun!
+	* Can copy special infected, common infected, witch, tank model
+	* 🟥 Can't keep the same model after next round, next map, next player spawn
 </details>
 
 * Require | 必要安裝
@@ -40,6 +43,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
+
+	* **Point an entity or infected and copy their model**
+		```php
+		sm_modcopy
+		```
+
+	* **Open Menu to replace player model with or reset model**
+		```php
+		sm_modmenu
+		```
 
 	* **Point an entity or infected and replace your model with their model**
 		```php
@@ -62,7 +75,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+		* 允許玩家在遊戲中更換一二代角色
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-3-16)
+		* Update translation
+		* Update cmds
+		* Add menu to reset or place other players' model
+		* Improve code
+		* Compatible with l4d_h_csm v1.6h or above by harry
 
 	* v1.0 (2023-4-8)
 	    * Initial Release
@@ -73,9 +99,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 玩家外觀可以變成地圖任何一個物件模型
 
 * 原理
-	* 對準一個物件然後輸入!modme，你的模型將變成物件的模型
-	* 可以複製特感、Tank、Witch、普通感染者的模型，
-		* Charger與Spitter 的模型會卡住，認真你就輸了
+	* 對準一個物件然後輸入```!modcopy```儲存模型 => 輸入 ```!modmenu``` 選擇玩家取代模型
+	* 對準一個物件然後輸入```!modme```，你的模型將變成物件的模型
+	* 可以複製特感、Tank、Witch、普通感染者的模型
+	* 🟥 變更的模型無法保留到下一關、下一次復活、下一回合
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -86,5 +113,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 		// 擁有這些權限的玩家，才可以輸入!modme (留白 = 任何人都能, -1: 無人)
 		l4d_modme_access_flag ""
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **複製準心指向的物件模組**
+		```php
+		sm_modcopy
+		```
+
+	* **打開介面重置或取代其他玩家的模型**
+		```php
+		sm_modmenu
+		```
+
+	* **自己的模組直接變成準心指向的物件**
+		```php
+		sm_modme
 		```
 </details>

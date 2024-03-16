@@ -56,7 +56,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (L4D2) Which zombie class can also use double jump, 0=None, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank. Add numbers together. (127=All)
 		l4d_rejump_infected_class "127"
 
-		// (L4D1) Which zombie class can also use double jumpy, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
+		// (L4D1) Which zombie class can also use double jump, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
 		l4d_rejump_infected_class "15"
 
 		// Players with these flags have access to use double jump. (Empty = Everyone, -1: Nobody)
@@ -82,8 +82,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//paegus @ 2009 - 2021
-	//Harry @ 2022
+	//Harry @ 2022 - 2024
 	```
+	* v1.2h (2024-3-16)
+		* Optimize code and improve performance
+
 	* v1.1h (2022-12-12)
 		* Add one cvar: player needs to use jump key first before second jump in air.
 
@@ -106,8 +109,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 在空中再按一次跳躍鍵
-	* Hunter飛行時候可以再跳躍
-	* Jockey在空中可以再跳躍
+		* Hunter飛行時候可以再跳躍
+		* Jockey在空中可以再跳躍
+		* Tank可以空中跳躍
 
 * <details><summary>注意事項</summary>
 
@@ -137,19 +141,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，被Tank打到或石頭砸到
 		l4d_rejump_tank_punch_disble "1"
 
-		// Disable jump if height is too low compared to previous jump for survivors.
+		// (只限人類) 比第一次跳的時候高度差超過200則禁止二次跳躍
 		l4d_rejump_height_disble "200.0"
 
-		// 為1時，player needs to use jump key first before second jump in air.
+		// 為1時，必須是玩家自己使用跳躍鍵飛起來，才能在空中二次跳躍
+		// 0=玩家從屋頂滑落時(未跳躍)也可以在空中二次跳躍
 		l4d_rejump_jumpkey_first "1"
 
-		// (L4D2) Which zombie class can also use double jump, 0=None, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank. Add numbers together. (127=All)
+		// (L4D2) 哪些特感能空中二次跳躍, 0=無, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank. 將數字相加. (127=全部)
 		l4d_rejump_infected_class "127"
 
-		// (L4D1) Which zombie class can also use double jumpy, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
+		// (L4D1) 哪些特感能空中二次跳躍, 0=無, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. 將數字相加. (127=全部)
 		l4d_rejump_infected_class "15"
 
-		// Players with these flags have access to use double jump. (Empty = Everyone, -1: Nobody)
+		// 擁有這些權限的玩家，才可以空中二次跳躍 (留白 = 任何人都能, -1: 無人)
 		l4d_rejump_access_flag "z"
 		```
 </details>

@@ -51,6 +51,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (L4D2) If 1, set thirdperson view after player selects character.
 		l4d_h_csm_thirdperson_view "1"
+
+		// If 1, when a player changes character, fixes attachments to their weapons. (Dropping the weapon for 0.1 seconds and re-equipping)
+		l4d_h_csm_requip_weapons "1"
 		```
 </details>
 
@@ -104,8 +107,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 	* v1.6h (2024-3-15)
 		* Update API
+		* Update Cvars
 		* Optimize code and improve performance
-		* Re-attach and re-equip all weapons and items when change character
+		* When a player changes model, fixes attachments to their weapons. (Dropping the weapon for 0.1 seconds and re-equipping)
 
 	* v1.5h (2024-2-25)
 		* Can't change character if survivor is incap, hanging or pinned by infected
@@ -177,6 +181,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，當選擇完畢角色之後切換短暫的第三人稱視角鏡頭
 		l4d_h_csm_thirdperson_view "1"
+
+		// 為1時，當玩家切換角色之時，修復身上持有的武器與物資模型錯亂 (重新裝備所有武器與物資)
+		l4d_h_csm_requip_weapons "1"
 		```
 </details>
 

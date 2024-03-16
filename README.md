@@ -258,6 +258,8 @@
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
   * [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
     * 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+  * [l4d_tank_timer_spawn](/Plugin_插件/Tank_坦克/l4d_tank_timer_spawn): Spawn Tanks every amount of time passed after survivors leave the saferoom
+    * 地圖每過一段時間自動生成Tank，對抗模式也適用
   * [l4d_tank_roar](/Plugin_插件/Tank_坦克/l4d_tank_roar): Tank is given a special roar ability that knockbacks (Towards/Away) survivors by RELOAD button.
     * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
 </details>
@@ -464,6 +466,8 @@
     * 生存模式計時開始之前，任何玩家倒地或掛邊會自動爬起來並恢復所有血量
   * [survival_remove_start_items](/Plugin_插件/Survival_生存模式/survival_remove_start_items): Remove survivors' default kits/pills/dual pistol in survival/scavenge mode
     * 生存模式與清道夫模式中，移除人類身上預設的裝備: 雙手槍、治療包、藥丸
+  * [l4d_survival_min_si_status](/Plugin_插件/Survival_生存模式/l4d_survival_min_si_stats): Display Minimum SI/min requirement and stats on each survival map.
+    * 生存模式下顯示人類隊伍全體的特感擊殺數與數據
 </details>
 
 * <details><summary><b>Scavenge | 清道夫模式</b></summary> 

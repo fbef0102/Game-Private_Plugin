@@ -32,7 +32,16 @@
 *
 * @noreturn
 */
-forward void CSM_OnClientChangeCharacter(int client, int m_survivorCharacter, const char sCharacterName[64])
+forward void CSM_OnClientChangeCharacter(int client, int m_survivorCharacter, const char sCharacterName[64]);
+
+/**
+ * Re-attach and re-equip all weapons and items
+ *
+ * @param client    client index
+ * 
+* @noreturn
+ */
+native int CSM_ReWeaponsAndItems(int client);
 
 public SharedPlugin __pl_readyup =
 {
@@ -48,6 +57,6 @@ public SharedPlugin __pl_readyup =
 #if !defined REQUIRE_PLUGIN
 public void __pl_l4d_h_csm_SetNTVOptional()
 {
-
+	MarkNativeAsOptional("CSM_ReWeaponsAndItems");
 }
 #endif

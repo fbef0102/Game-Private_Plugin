@@ -24,17 +24,113 @@
 		"zho"			"非法模型，玩家不能更換"
 		"chi"			"非法模型，玩家不能更换"
 	}
+	"Saved the model"
+	{
+		"#format"		"{1:s}"
+		"en"			"Saved the model: {green}{1}{default}\nPlease type {green}!modmenu{default} to change player model"
+		"zho"			"記錄了模型: {green}{1}{default}\n請輸入 {green}!modmenu{default} 變更玩家模型"
+		"chi"			"记录了模型: {green}{1}{default}\n请输入 {green}!modmenu{default} 变更玩家模型"
+	}
 	"Your model is now"
 	{
 		"#format"		"{1:s}"
-		"en"			"Your model is now: {green} {1}"
-		"zho"			"你現在的模型是: {green} {1}"
-		"chi"			"你现在的模型是: {green} {1}"
+		"en"			"Your model is now: {green}{1}{default}"
+		"zho"			"你現在的模型是: {green}{1}{default}"
+		"chi"			"你现在的模型是: {green}{1}{default}"
+	}	
+	"Target model is now"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"{olive}{1}{default}'s model is now: {green}{2}{default}"
+		"zho"			"{olive}{1}{default} 的模型已更改: {green}{2}{default}"
+		"chi"			"{olive}{1}{default} 的模型已更改: {green}{2}{default}"
+	}
+	"Adm changed your model"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"{lightgreen}{1}{default} changed your model: {green}{2}{default}, enjoy!"
+		"zho"			"{lightgreen}{1}{default} 變更了你的模型: {green}{2}{default}"
+		"chi"			"{lightgreen}{1}{default} 变更了你的模型: {green}{2}{default}"
 	}
 	"Does not point an entity."
 	{
 		"en"			"Does not point an entity."
 		"zho"			"並未指向物件"
 		"chi"			"并未指向物件"
+	}	
+	"Your model Reset"
+	{
+		"en"			"Your model has been reset"
+		"zho"			"模型已重置"
+		"chi"			"模型已重置"
+	}		
+	"Target model is Reset"
+	{
+		"#format"		"{1:N}"
+		"en"			"{olive}{1}{default}'s model has been reset"
+		"zho"			"{olive}{1}{default} 的模型已重置"
+		"chi"			"{olive}{1}{default} 的模型已重置"
+	}		
+	"Adm reset model"
+	{
+		"#format"		"{1:N}"
+		"en"			"{olive}{1}{default} reset your model"
+		"zho"			"{olive}{1}{default} 已重置你的模型"
+		"chi"			"{olive}{1}{default} 已重置你的模型"
+	}	
+	"Model Me Menu"
+	{
+		"en"			"Model Me Menu"
+		"zho"			"模型Me 介面"
+		"chi"			"模型Me 界面"
+	}
+	"Reset"
+	{
+		"en"			"Reset Player Model"
+		"zho"			"重置玩家模型"
+		"chi"			"重置玩家模型"
+	}
+	"Replace"
+	{
+		"en"			"Replace Player Model"
+		"zho"			"更改玩家模型"
+		"chi"			"更改玩家模型"
+	}	
+	"Reset Menu Title"
+	{
+		"en"			"Reset Player Model"
+		"zho"			"選擇玩家重置模型"
+		"chi"			"选择重置玩家模型"
+	}
+	"Replace Menu Title"
+	{
+		"en"			"Replace Player Model"
+		"zho"			"選擇玩家更改模型"
+		"chi"			"选择玩家更改模型"
+	}
+	"Saved Model"
+	{
+		"#format"	"{1:s}"
+		"en"			"Model: {1}"
+		"zho"			"模型: {1}"
+		"chi"			"模型: {1}"
+	}
+	"Model: Not Point yet"
+	{
+		"en"			"Model: Not Point yet"
+		"zho"			"模型: 尚未指定"
+		"chi"			"模型: 尚未指定"
+	}	
+	"Not alive survivor"
+	{
+		"en"			"Target is not an alive survivor"
+		"zho"			"目標玩家不是存活的倖存者"
+		"chi"			"目标玩家不是存活的生还者"
+	}
+	"Choose Model First"
+	{
+		"en"			"Choose model first, point an entity or infected and type {green}!modcopy{default}"
+		"zho"			"請先指定模型, 準心指向物件並輸入 {green}!modcopy{default}"
+		"chi"			"请先指定模型, 准心指向物件并输入 {green}!modcopy{default}"
 	}
 }

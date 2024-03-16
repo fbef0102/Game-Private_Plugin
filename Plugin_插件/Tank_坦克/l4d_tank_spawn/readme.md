@@ -128,7 +128,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Control max and min numbers of tanks to spawn
 		* Update cvars
 
-    * v1.0 (2023-12-05)
+    * v1.0 (2023-12-5)
 		* Initial Release
 </details>
 
