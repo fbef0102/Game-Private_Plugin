@@ -58,6 +58,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_modme
 		```
+
+	* **Set model manually, for example: sm_modset "models/infected/hulk.mdl"**
+		```php
+		sm_modset <model path>
+		```
+
+	* **Replace player with model manually, for example: sm_modplayer Nick "models/infected/hulk.mdl"**
+		```php
+		sm_modplayer <player name> <model path>
+		```
 </details>
 
 * Apply to | 適用於
@@ -83,7 +93,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.1 (2024-3-16)
+	* v1.2 (2024-3-17)
+		* Update cmds
+		* Fixed Error
+
+	* v1.1 (2024-3-17)
 		* Update translation
 		* Update cmds
 		* Add menu to reset or place other players' model
@@ -131,5 +145,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **自己的模組直接變成準心指向的物件**
 		```php
 		sm_modme
+		```
+
+	* **手動設置模型, 譬如: sm_modset "models/infected/hulk.mdl"**
+		```php
+		sm_modset <模型路徑>
+		```
+
+	* **手動幫玩家設置模型, 譬如: sm_modplayer Nick "models/infected/hulk.mdl"**
+		```php
+		sm_modplayer <玩家名稱> <模型路徑>
 		```
 </details>

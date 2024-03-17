@@ -436,6 +436,8 @@
     * 根據玩家的血量與傷害改變對抗模式的過關分數
   * [l4d_doubletank](/Plugin_插件/Versus_對抗模式/l4d_doubletank): Spawn second player-controlled tank in versus mode
     * 對抗模式下生成第二隻玩家可以操控的Tank
+  * [l4d_teamshuffle](/Plugin_插件/Versus_對抗模式/l4d_teamshuffle): Allows teamshuffles by !shuffle or admin-forced before round starts.
+    * 輸入!shuffle，打散玩家並隨機分配隊伍
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 

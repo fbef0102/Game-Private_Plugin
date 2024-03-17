@@ -132,5 +132,24 @@
 		"en"			"Choose model first, point an entity or infected and type {green}!modcopy{default}"
 		"zho"			"請先指定模型, 準心指向物件並輸入 {green}!modcopy{default}"
 		"chi"			"请先指定模型, 准心指向物件并输入 {green}!modcopy{default}"
+	}	
+	"Model not exist"
+	{
+		"en"			"Model not exist"
+		"zho"			"模型不存在"
+		"chi"			"模型不存在"
+	}	
+	"Model can't precache"
+	{
+		"en"			"Error, Model can't precache"
+		"zho"			"模型不存在"
+		"chi"			"模型不存在"
+	}	
+	"Set the model"
+	{
+		"#format"		"{1:s}"
+		"en"			"Set the model: {green}{1}{default}\nPlease type {green}!modmenu{default} to change player model"
+		"zho"			"手動設置了模型: {green}{1}{default}\n請輸入 {green}!modmenu{default} 變更玩家模型"
+		"chi"			"手动设置了模型: {green}{1}{default}\n请输入 {green}!modmenu{default} 变更玩家模型"
 	}
 }

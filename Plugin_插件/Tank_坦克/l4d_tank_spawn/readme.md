@@ -185,10 +185,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 地圖最後一關總共會生成的最少Tank數量 (在救援開始之前, 0=遊戲預設)
 		l4d_tank_spawn_final_min_before_rescue "1"
 
-		// 救援過程中每局Tank時所生成的最多tank數量 (0=遊戲預設)
+		// 救援過程中每一波Tank時所生成的最多tank數量 (0=遊戲預設)
 		l4d_tank_spawn_final_max_in_rescue "2"
 
-		// 救援過程中每局Tank時所生成的最少tank數量 (0=遊戲預設)
+		// 救援過程中每一波Tank時所生成的最少tank數量 (0=遊戲預設)
 		l4d_tank_spawn_final_min_in_rescue "1"
 
 		// 救援載具來臨後所生成的最多tank數量 (0=遊戲預設)

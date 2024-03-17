@@ -757,8 +757,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* **捐贈金額給其他人 (或在商城列表使用"金錢轉移")**
 		```php
-		sm_pay <name> <money>
-		sm_donate <name> <money>
+		sm_pay <玩家名稱> <金錢>
+		sm_donate <玩家名稱> <金錢>
 		```
 
 	* **查看所有玩家的銀行儲值**
@@ -771,14 +771,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* **管理員打錢 (權限：ADMFLAG_BAN)**
 		```php
-		sm_givemoney <name> <+-money>
-		sm_givecredit <name> <+-money>
+		sm_givemoney <玩家名稱> <+-金錢>
+		sm_givecredit <玩家名稱> <+-金錢>
 		```
 
 	* **管理員沒收玩家的金錢 (權限：ADMFLAG_BAN)**
 		```php
-		sm_clearmoney <name>
-		sm_deductmoney <name>
+		sm_clearmoney <玩家名稱>
+		sm_deductmoney <玩家名稱>
 		```
 </details>
 
