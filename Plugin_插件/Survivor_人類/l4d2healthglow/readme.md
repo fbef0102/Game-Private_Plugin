@@ -23,6 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -134,8 +135,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	```php
 	//Mr. Zero @ 2011-2012
-	//HarryPotter @ 2022-2023
+	//HarryPotter @ 2022-2024
 	```
+	* v1.2h (2024-3-19)
+		* Require Attachments API
+
 	* v1.1h (2023-12-18)
 		* For the infected, survivors always glow with a non-disappearing aura. (Even if survivor doesn't move or walk)
 		* Add cvars about Incap or hanging from ledge Health Glow

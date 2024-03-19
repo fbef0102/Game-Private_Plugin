@@ -330,9 +330,9 @@
 
 	"Left Server"
 	{
-		"en"	"(Left Server)"
-		"zho"	"(已離開)"
-		"chi"	"(已离开)"
+		"en"	" (Left Server)"
+		"zho"	" (已離開)"
+		"chi"	" (已离开)"
 	}
 
 	"Pistol"

@@ -151,5 +151,11 @@
 		"en"			"Set the model: {green}{1}{default}\nPlease type {green}!modmenu{default} to change player model"
 		"zho"			"手動設置了模型: {green}{1}{default}\n請輸入 {green}!modmenu{default} 變更玩家模型"
 		"chi"			"手动设置了模型: {green}{1}{default}\n请输入 {green}!modmenu{default} 变更玩家模型"
+	}	
+	"No Any Survivor"
+	{
+		"en"			"No Any Alive Survivors"
+		"zho"			"目前沒有任何活著的倖存者"
+		"chi"			"目前没有任何活着的幸存者"
 	}
 }
