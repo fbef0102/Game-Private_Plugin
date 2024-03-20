@@ -38,8 +38,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_modme_enable "1"
 
-		// Players with these flags have access to use command. (Empty = Everyone, -1: Nobody)
-		l4d_modme_access_flag ""
+		// Players with these flags have access to use !modme command. (Empty = Everyone, -1: Nobody)
+		l4d_modme_access_cmd_flag ""
+
+		// Players with these flags have access to use !modplayer, !modmenu, !modset, !modcopy. (Empty = Everyone, -1: Nobody)
+		l4d_modme_access_menu_flag "z"
 		```
 </details>
 
@@ -130,7 +133,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_modme_enable "1"
 		
 		// 擁有這些權限的玩家，才可以輸入!modme (留白 = 任何人都能, -1: 無人)
-		l4d_modme_access_flag ""
+		l4d_modme_access_cmd_flag ""
+
+		// 擁有這些權限的玩家，才可以輸入!modplayer, !modmenu, !modset, !modcopy (留白 = 任何人都能, -1: 無人)
+		l4d_modme_access_menu_flag "z"
 		```
 </details>
 

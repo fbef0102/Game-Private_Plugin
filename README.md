@@ -182,6 +182,8 @@
     * 如果 普通感染者/特感/Tank 生在終點安全室裡面，則將他們傳送到門前 (避免卡在終點安全室裡面)
   * [l4d_who_kill_you](/Plugin_插件/Special_Infected_特感/l4d_who_kill_you): Display who killed you (weapons, distance and damage)
     * 詳細傷害與兇手提示 (武器、距離、傷害部位)
+  * [l4d2_kills_manager](/Plugin_插件/Special_Infected_特感/l4d2_kills_manager): Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
+    * 強制將特感擊殺者改成造成傷害最多的玩家
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
