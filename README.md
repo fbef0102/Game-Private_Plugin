@@ -602,6 +602,12 @@
     * 增加最後救援的防守時間，倖存者必須等待時間結束，救援載具才會來臨
 </details>
 
+* <details><summary><b>Entity | 實體物件</b></summary>
+
+  * [AcceptInput_crash_fix](/Plugin_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
+    * 修復物件不存在或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方圖)
+</details>
+
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
   * [grave_break](/Plugin_插件/Miscellaneous_雜項/grave_break): say !breakgrave to break all graves
