@@ -23,25 +23,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d2_witch_spawn.cfg
+	* cfg/sourcemod/l4d_witch_spawn.cfg
 		```php
 		// 0=Disable, 1=Enable Plugin, Spawn numbers of Witches depending on the map (Does not affect director spawn)
-		l4d2_witch_spawn_enable "1"
+		l4d_witch_spawn_enable "1"
 
 		// Maximum witch limit on the field (does not affect director witches)
-		l4d2_witch_spawn_max_limit "6"
+		l4d_witch_spawn_max_limit "6"
 
 		// Sets the max spawn time for witch spawned by the plugin in seconds.
-		l4d2_witch_spawn_spawn_time_max "90.0"
+		l4d_witch_spawn_spawn_time_max "90.0"
 
 		// Sets the mix spawn time for witch spawned by the plugin in seconds.
-		l4d2_witch_spawn_spawn_time_min "60.0"
+		l4d_witch_spawn_spawn_time_min "60.0"
 
 		// If 1, still spawn witch in final stage rescue
-		l4d2_witch_spawn_spawn_final "0"
+		l4d_witch_spawn_spawn_final "0"
 
 		// Amount of seconds before a witch is removed. (Only remove witches spawned by this plugin)
-		l4d2_witch_spawn_lifespan "200"
+		l4d_witch_spawn_lifespan "200"
 		```
 </details>
 
@@ -73,24 +73,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d2_witch_spawn.cfg
+	* cfg/sourcemod/l4d_witch_spawn.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件
-		l4d2_witch_spawn_enable "1"
+		l4d_witch_spawn_enable "1"
 
 		// 場上的Witch滿六隻以上時不生成Witch (不影響導演生成的Witch)
-		l4d2_witch_spawn_max_limit "6"
+		l4d_witch_spawn_max_limit "6"
 
 		// 生成Witch的最大時間間隔
-		l4d2_witch_spawn_spawn_time_max "90.0"
+		l4d_witch_spawn_spawn_time_max "90.0"
 
 		// 生成Witch的最小時間間隔
-		l4d2_witch_spawn_spawn_time_min "60.0"
+		l4d_witch_spawn_spawn_time_min "60.0"
 
 		// 為1時，救援開始後繼續生成Witch
-		l4d2_witch_spawn_spawn_final "0"
+		l4d_witch_spawn_spawn_final "0"
 
 		// 如果沒人驚嚇或靠近Witch，Witch將會在200秒之後自動消失 (只會移除此插件生成的Witch)
-		l4d2_witch_spawn_lifespan "200"
+		l4d_witch_spawn_lifespan "200"
 		```
 </details>

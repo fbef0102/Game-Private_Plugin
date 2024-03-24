@@ -92,4 +92,4 @@ Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
             11. [```filter_health```](https://developer.valvesoftware.com/wiki/Filter_health)
             12. [```filter_melee_damage```](https://developer.valvesoftware.com/wiki/Filter_melee_damage)
             13. [```filter_multi```](https://developer.valvesoftware.com/wiki/Filter_multi)
-</details>
+    </details>

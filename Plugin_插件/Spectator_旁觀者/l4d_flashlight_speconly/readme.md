@@ -49,6 +49,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Off, 1=Save client preferences for flashlight color and state.
 		l4d_flashlight_speconly_save "1"
 
+		// If 1, Turns on flashlight for spectators by default.
+		l4d_flashlight_speconly_default "1"
+
+		// If 1, Turns off flashlight when spectating in first person view.
+		l4d_flashlight_speconly_first_person_off "1"
+
 		// 0=Off, 1=Create flashlight for dead survivors.
 		l4d_flashlight_speconly_dead_survivor "1"
 		```
@@ -89,6 +95,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5h (2024-3-24)
+		* Update cvars
 
 	* v1.4h (2023-9-7)
 		* More translation.
@@ -147,6 +156,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，本地資料庫保存所有玩家的顏色與開關狀態
 		l4d_flashlight_speconly_save "1"
+
+		// 為1時，自動幫旁觀者打開手電筒 (0=需要輸入!lightspec手動開啟)
+		l4d_flashlight_speconly_default "1"
+
+		// 為1時，旁觀者觀看第一人稱視角時關閉手電筒
+		l4d_flashlight_speconly_first_person_off "1"
 
 		// 為1時，死亡的倖存者也可以有手電筒 (0=關閉)
 		l4d_flashlight_speconly_dead_survivor "1"
