@@ -132,12 +132,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
-		> 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
+		* 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
 	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
-		> 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
+		* 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2024-3-25)
+		* Fixed camera stuck when player dies
 
 	* v1.1h (2024-3-13)
 		* Fixed infected flashight off after dance end

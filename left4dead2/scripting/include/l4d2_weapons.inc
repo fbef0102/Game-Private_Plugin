@@ -25,7 +25,7 @@ enum /*L4D2WeaponSlot*/
 
 // Weapon ID enumerations.
 // These values are *NOT* arbitrary! 
-// They are used in game as the weaponid for weapon_spawn entities
+// They are used in game as the weaponid for weapon_spawn entities (member: m_weaponID)
 enum /*WeaponId*/
 {
 	WEPID_NONE,             // 0

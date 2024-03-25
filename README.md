@@ -408,6 +408,8 @@
     * 修改電鋸與每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
   * [l4d_weapon_auto_shoot](/Plugin_插件/Weapons_武器/l4d_weapon_auto_shoot): Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
     * 按住左鍵，手槍、狙擊槍武器可以自動射擊
+  * [l4d_infinite_clip](/Plugin_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
+    * 武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -584,6 +586,8 @@
     * 每個人可以攜帶兩種武器或物品
   * [l4d2_cso_knockback](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_cso_knockback): Weapons and Melees now have knockback power like CSO
     * 武器與近戰都有CSO 殭屍擊退效果
+  * [l4d2_zombie_transform](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_zombie_transform): Survivor can transform into zombie + zombie can transform into survivor
+    * 人類能變成特感 + 特感能變成人類
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

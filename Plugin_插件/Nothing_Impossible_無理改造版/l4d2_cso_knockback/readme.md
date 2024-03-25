@@ -7,7 +7,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/gtJMe7gCnEk)
 
-* Image
+* Image | 圖示
 	* Idea comes from [Counter Strike Online Knockback](https://zombieescape.fandom.com/wiki/Knockback)
 	<br/>![l4d2_cso_knockback_1](image/l4d2_cso_knockback_1.gif)
 	<br/>![l4d2_cso_knockback_2](image/l4d2_cso_knockback_2.gif)
@@ -151,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 武器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件```data/l4d2_cso_knockback.cfg```
 	* 搭配槍緩插件: [l4d_si_slowdown_gunfire](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown_gunfire)，可以完美復刻CSO殭屍擊退效果
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg\sourcemod\l4d2_cso_knockback.cfg
 		```php

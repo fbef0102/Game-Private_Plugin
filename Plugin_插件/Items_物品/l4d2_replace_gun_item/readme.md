@@ -60,21 +60,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```c++
-	/**
-	* Call this function to replace all weapons and all items with other weapons and items now
-	* 
-	* @param Slot_Primary			Shoud Replace Primary Weapons ?
-	* @param Slot_Secondary			Shoud Replace Secondary Weapons ?
-	* @param Slot_Throwable			Shoud Replace Throwable ?
-	* @param Slot_HeavyHealthItem	Shoud Replace Slot 4 Items ?
-	* @param Slot_LightHealthItem	Shoud Replace Slot 5 Items ?
-	* @param Special				Shoud Replace Special Items ?
-	*
-	* @return						None
-	*/
-	native void l4d2_RGI_ReplaceAllWeapons(bool Slot_Primary, bool Slot_Secondary, bool Slot_Throwable, bool Slot_HeavyHealthItem, bool Slot_LightHealthItem, bool Special)
-	```
+    * ```scripting\include\l4d2_replace_gun_item.inc```
+        ```php
+        Registers a library name: l4d2_replace_gun_item
+        ```
 </details>
 
 * <details><summary>Data Config</summary>
