@@ -1,4 +1,3 @@
-
 # Description | 內容
 Slay Survivors After Countdown Time Passes + Restart chapter or campaign
 

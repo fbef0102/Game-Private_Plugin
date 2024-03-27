@@ -1,4 +1,3 @@
-
 # Description | 內容
 Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
 

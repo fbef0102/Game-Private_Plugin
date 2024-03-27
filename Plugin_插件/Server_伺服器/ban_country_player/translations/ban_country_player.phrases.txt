@@ -18,7 +18,13 @@
         "zho"       "您所在的區域暫時無法加入，請聯繫管理員。"
         "chi"       "您所在的区域暂时无法加入，请联系管理员。"
     }
-    "Rebuilding..."
+    "Rebuilding... (block)"
+    {
+        "en"        "[BAN COUNTRY] Rebuilding blacklist..."
+        "zho"       "[地區限制] 重新讀取黑名單"
+        "chi"       "[地区限制] 重新读取黑名单"
+    }
+    "Rebuilding... (white)"
     {
         "en"        "[BAN COUNTRY] Rebuilding whitelist..."
         "zho"       "[地區限制] 重新讀取白名單"
@@ -26,9 +32,15 @@
     }
     "Restricted Area Display..."
     {
-        "en"        "[BAN COUNTRY] Restricted Area List"
-        "zho"       "[地區限制] 地區限制列表"
-        "chi"       "[地区限制] 地区限制列表"
+        "en"        "[BAN COUNTRY] Restricted List"
+        "zho"       "[地區限制] 限制列表"
+        "chi"       "[地区限制] 限制列表"
+    }
+	"White Area Display..."
+    {
+        "en"        "[BAN COUNTRY] Whitelist"
+        "zho"       "[地區限制] 開放列表"
+        "chi"       "[地区限制] 开放列表"
     }
     "Whilte STEAM ID Display..."
     {

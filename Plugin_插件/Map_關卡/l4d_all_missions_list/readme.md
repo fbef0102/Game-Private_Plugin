@@ -1,4 +1,3 @@
-
 # Description | 內容
 Reads all available custom campaigns and display all available missions in menu, provide for admin to change map directly or for player to call vote to change map
 

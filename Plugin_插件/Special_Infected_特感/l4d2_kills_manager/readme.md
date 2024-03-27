@@ -1,4 +1,3 @@
-
 # Description | 內容
 Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
 

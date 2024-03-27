@@ -1,4 +1,3 @@
-
 # Description | 內容
 Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
 

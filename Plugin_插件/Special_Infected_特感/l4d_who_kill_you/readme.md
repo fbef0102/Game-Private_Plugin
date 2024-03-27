@@ -1,4 +1,3 @@
-
 # Description | 內容
 Display who killed you (weapons, distance and damage)
 

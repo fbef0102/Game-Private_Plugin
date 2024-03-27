@@ -1,4 +1,3 @@
-
 # Description | 內容
 Restrict weapons individually or together
 
@@ -9,8 +8,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
     <br/>None
 
-* Image
-    * display message when weapon limit reached
+* Image | 圖示
+    * Display message when weapon limit reached
     <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
 * <details><summary>How does it work?</summary>
@@ -133,10 +132,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 限制每個武器可以拿取的數量，超過就不能拿取
-
-* 圖示
-    * 顯示武器拿取限制
-    <br/>![zho/l4d_weapon_limits_1](image/zho/l4d_weapon_limits_1.jpg)
 
 * 原理
     * 當要撿起武器時，計算隊友之中已經拿取的數量，超過便不能撿起武器 

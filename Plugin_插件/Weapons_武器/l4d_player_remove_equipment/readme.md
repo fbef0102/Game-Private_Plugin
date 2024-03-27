@@ -1,4 +1,3 @@
-
 # Description | 內容
 Admin can remove player's equipment
 

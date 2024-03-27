@@ -1,4 +1,3 @@
-
 # Description | 內容
 Allows spectator listen others team voice and see others team chat for l4d
 (```sv_alltalk 1``` support)

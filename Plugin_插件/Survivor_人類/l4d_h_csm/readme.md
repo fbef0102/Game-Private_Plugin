@@ -96,7 +96,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model
-		> (公開) 依照目前模組給予相對應的角色語音
+		> 依照目前模組給予相對應的角色語音
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

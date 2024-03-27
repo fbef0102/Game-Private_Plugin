@@ -1,4 +1,3 @@
-
 # Description | 內容
 Play Reward Sound when headshot
 

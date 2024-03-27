@@ -304,6 +304,10 @@
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
   * [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
     * 隨著玩家人數越多，殭屍/屍潮 數量越來越多
+  * [l4d2_bile_out_nav_negate_createbot](/Plugin_插件/Common_Infected_普通感染者/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+    * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
+  * [l4d2_fallen_survivor_item_change](/Plugin_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
+    * 改變墮落倖存者掉落的物品
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
@@ -409,7 +413,9 @@
   * [l4d_weapon_auto_shoot](/Plugin_插件/Weapons_武器/l4d_weapon_auto_shoot): Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
     * 按住左鍵，手槍、狙擊槍武器可以自動射擊
   * [l4d_infinite_clip](/Plugin_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
-    * 武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
+    * 指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
+  * [l4d_weapon_block_ammo_pile](/Plugin_插件/Weapons_武器/l4d_weapon_block_ammo_pile): Cannot refill the ammo of the weapons
+    * 指定的武器無法填裝彈藥
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

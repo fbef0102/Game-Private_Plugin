@@ -1,4 +1,3 @@
-
 # Description | 內容
 Force change to next mission when current mission(final stage) end + Force change to next level when survivors wipe out + Vote to next map (Apply to Versus/Survival/Scavenge).
 

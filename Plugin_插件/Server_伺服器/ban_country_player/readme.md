@@ -37,6 +37,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Players with these flags will not be kikced. (Empty = Everyone, -1: Nobody)
 		ban_country_player_immune_flag "z"
+
+		// 1 = Area/Country List is blacklist
+		// 0 = Area/Country List is whitelist
+		ban_country_player_block_white "1"
 		```
 </details>
 
@@ -85,6 +89,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2024-3-27)
+		* Update Cvars
+
 	* v1.2 (2023-10-28)
 		* Fix memory leak
 
@@ -123,6 +130,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 擁有這些權限的玩家，不會被踢
 		ban_country_player_immune_flag "z"
+
+		// 1 = 玩家的地區在"地區名單列表"上則不能加入，不在名單上則能加入
+		// 0 = 玩家的地區在"地區名單列表"上則能加入，不在名單上則不能加入
+		ban_country_player_block_white "1"
 		```
 </details>
 
@@ -143,10 +154,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	
 	* 文件位於 configs/ban_country_player.cfg
 		```php
-		//Restricted Area List - Do not delete this line <== 限制地區名單 - 請勿刪除此行
+		//Restricted Area List - Do not delete this line <== 地區名單列表 - 請勿刪除此行
 		Taiwan
 
-		//Steam64 ID Whitelist - Do not delete this line <==  Steam ID 豁免名單，格式為SteamId 64 - 請勿刪除此行
+		//Steam64 ID Whitelist - Do not delete this line <==  Steam ID 豁免名單列表，格式為SteamId 64 - 請勿刪除此行
 		XXXXXXXXXXXX
 		```
 

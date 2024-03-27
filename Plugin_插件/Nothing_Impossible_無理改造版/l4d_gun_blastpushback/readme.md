@@ -59,9 +59,58 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_gun_blastpushback_announce_type "2"
 
         // (L4D2) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
+        // "weapon_pistol",					    1
+        // "weapon_smg",						2
+        // "weapon_pumpshotgun",				3
+        // "weapon_autoshotgun",				4
+        // "weapon_rifle",						5
+        // "weapon_hunting_rifle",				6
+        // "weapon_smg_silenced",				7
+        // "weapon_shotgun_chrome",			    8
+        // "weapon_rifle_desert",				9
+        // "weapon_sniper_military",			10
+        // "weapon_shotgun_spas",				11
+        // "weapon_grenade_launcher",			12
+        // "weapon_rifle_ak47",				    13
+        // "weapon_pistol_magnum",				14
+        // "weapon_smg_mp5",					15
+        // "weapon_rifle_sg552",				16
+        // "weapon_sniper_awp",				    17
+        // "weapon_sniper_scout",				18
+        // "weapon_rifle_m60",					19
+        // "weapon_chainsaw",					20
+        // "weapon_melee",						21
+        // "weapon_first_aid_kit",				22
+        // "weapon_defibrillator",				23
+        // "weapon_upgradepack_incendiary",	    24
+        // "weapon_upgradepack_explosive",		25
+        // "weapon_molotov",					26
+        // "weapon_pipe_bomb",					27
+        // "weapon_vomitjar",					28
+        // "weapon_pain_pills",				    29
+        // "weapon_adrenaline",				    30
+        // "weapon_gascan",					    31
+        // "weapon_propanetank",				32
+        // "weapon_oxygentank",				    33
+        // "weapon_fireworkcrate",				34
+        // "weapon_gnome",						35
+        // "weapon_cola_bottles",				36
         l4d_gun_blastpushback_weapon "14,21,32,33"
 
         // (L4D1) Empty string to allow all. Allow these weapon IDs being used in this plugin, separate by commas (no spaces). See plugin source code for more details.
+        // "weapon_pistol",					    1
+        // "weapon_smg",						2
+        // "weapon_pumpshotgun",				3
+        // "weapon_autoshotgun",				4
+        // "weapon_rifle",						5
+        // "weapon_hunting_rifle",			    6
+        // "weapon_first_aid_kit",			    7
+        // "weapon_molotov",				    8
+        // "weapon_pipe_bomb",				    9
+        // "weapon_pain_pills",				    10
+        // "weapon_gascan",					    11
+        // "weapon_propanetank",				12
+        // "weapon_oxygentank",				    13
         l4d_gun_blastpushback_weapon "6,12,13"
         ```
 </details>

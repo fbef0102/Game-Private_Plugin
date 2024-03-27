@@ -88,10 +88,60 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_use_command_flag "z"
 
         // Empty string to allow all. Allow these weapon IDs being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
+        // 	"weapon_pistol",					1
+        // 	"weapon_smg",						2
+        // 	"weapon_pumpshotgun",				3
+        // 	"weapon_autoshotgun",				4
+        // 	"weapon_rifle",						5
+        // 	"weapon_hunting_rifle",				6
+        // 	"weapon_smg_silenced",				7
+        // 	"weapon_shotgun_chrome",			8
+        // 	"weapon_rifle_desert",				9
+        // 	"weapon_sniper_military",			10
+        // 	"weapon_shotgun_spas",				11
+        // 	"weapon_grenade_launcher",			12
+        // 	"weapon_rifle_ak47",				13
+        // 	"weapon_pistol_magnum",				14
+        // 	"weapon_smg_mp5",					15
+        // 	"weapon_rifle_sg552",				16
+        // 	"weapon_sniper_awp",				17
+        // 	"weapon_sniper_scout",				18
+        // 	"weapon_rifle_m60",					19
+        // 	"weapon_chainsaw",					20
+        // 	"weapon_melee",						21
+        // 	"weapon_first_aid_kit",				22
+        // 	"weapon_defibrillator",				23
+        // 	"weapon_upgradepack_incendiary",	24
+        // 	"weapon_upgradepack_explosive",		25
+        // 	"weapon_molotov",					26
+        // 	"weapon_pipe_bomb",					27
+        // 	"weapon_vomitjar",					28
+        // 	"weapon_pain_pills",				29
+        // 	"weapon_adrenaline",				30
+        // 	"weapon_gascan",					31
+        // 	"weapon_propanetank",				32
+        // 	"weapon_oxygentank",				33
+        // 	"weapon_fireworkcrate",				34
+        // 	"weapon_gnome",						35
+        // 	"weapon_cola_bottles",				36
         l4d2_shield_equip_weapon "1,2,14,20,21"
 
         // Empty string to allow all. Allow these melee weapons being equipped with shield, separate by commas (no spaces). See plugin source code for more details.
         // (l4d2_shield_equip_weapon must contains 21)
+        // fireaxe 
+        // frying_pan 
+        // machete
+        // baseball_bat
+        // crowbar
+        // cricket_bat
+        // tonfa
+        // katana
+        // electric_guitar
+        // knife
+        // golfclub
+        // pitchfork
+        // shovel
+        // Add custom melee weapon name if you want
         l4d2_shield_equip_melee "fireaxe,frying_pan,machete,baseball_bat,crowbar,cricket_bat,tonfa,katana,electric_guitar,knife,golfclub,pitchfork,shovel"
 
         // If 1, Allow dual pistol being equipped with shield
@@ -320,10 +370,60 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_use_command_flag "z"
 
         // 留白允許全部武器. 寫入武器的ID，只允許這些武器裝備盾牌 (逗號分隔，不要空格). 武器的ID列表請查看插件原始碼
+        // 	"weapon_pistol",					1
+        // 	"weapon_smg",						2
+        // 	"weapon_pumpshotgun",				3
+        // 	"weapon_autoshotgun",				4
+        // 	"weapon_rifle",						5
+        // 	"weapon_hunting_rifle",				6
+        // 	"weapon_smg_silenced",				7
+        // 	"weapon_shotgun_chrome",			8
+        // 	"weapon_rifle_desert",				9
+        // 	"weapon_sniper_military",			10
+        // 	"weapon_shotgun_spas",				11
+        // 	"weapon_grenade_launcher",			12
+        // 	"weapon_rifle_ak47",				13
+        // 	"weapon_pistol_magnum",				14
+        // 	"weapon_smg_mp5",					15
+        // 	"weapon_rifle_sg552",				16
+        // 	"weapon_sniper_awp",				17
+        // 	"weapon_sniper_scout",				18
+        // 	"weapon_rifle_m60",					19
+        // 	"weapon_chainsaw",					20
+        // 	"weapon_melee",						21
+        // 	"weapon_first_aid_kit",				22
+        // 	"weapon_defibrillator",				23
+        // 	"weapon_upgradepack_incendiary",	24
+        // 	"weapon_upgradepack_explosive",		25
+        // 	"weapon_molotov",					26
+        // 	"weapon_pipe_bomb",					27
+        // 	"weapon_vomitjar",					28
+        // 	"weapon_pain_pills",				29
+        // 	"weapon_adrenaline",				30
+        // 	"weapon_gascan",					31
+        // 	"weapon_propanetank",				32
+        // 	"weapon_oxygentank",				33
+        // 	"weapon_fireworkcrate",				34
+        // 	"weapon_gnome",						35
+        // 	"weapon_cola_bottles",				36
         l4d2_shield_equip_weapon "1,2,14,20,21"
 
         // 留白允許全部近戰武器. 寫入近戰武器的名稱，只允許這些近戰武器裝備盾牌 (逗號分隔，不要空格). 近戰武器的名稱列表請查看插件原始碼
         // (l4d2_shield_equip_weapon 必須寫入 14)
+        // fireaxe 消防斧
+        // frying_pan 平底鍋
+        // machete 開山刀
+        // baseball_bat 球棒
+        // crowbar 鐵撬
+        // cricket_bat 板球拍
+        // tonfa 警棍
+        // katana 武士刀
+        // electric_guitar 電吉他
+        // knife 小刀
+        // golfclub 高爾夫球棒
+        // pitchfork 草叉
+        // shovel 鐵鏟
+        // 可自由新增三方圖近戰
         l4d2_shield_equip_melee "fireaxe,frying_pan,machete,baseball_bat,crowbar,cricket_bat,tonfa,katana,electric_guitar,knife,golfclub,pitchfork,shovel"
 
         // 為1時，允許雙手槍裝備盾牌

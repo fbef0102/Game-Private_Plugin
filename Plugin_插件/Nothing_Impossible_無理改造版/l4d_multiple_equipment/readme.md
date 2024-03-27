@@ -1,4 +1,3 @@
-
 # Description | 內容
 Carry 2 weapons or items in each slot
 

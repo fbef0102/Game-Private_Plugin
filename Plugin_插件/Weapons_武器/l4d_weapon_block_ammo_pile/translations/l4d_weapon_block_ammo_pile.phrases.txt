@@ -1,0 +1,15 @@
+﻿"Phrases"
+{
+    "Can't refill (C)"
+    {
+        "en"        "[{olive}TS{default}] You cannot refill {green}the ammo of this weapon!"
+        "zho"       "[{olive}TS{default}] 你無法重新填裝{green}此武器的彈藥!"
+        "chi"       "[{olive}TS{default}] 你无法为此武器{green}装填弹药!"
+    }
+    "Can't refill"
+    {
+        "en"        "You cannot refill the ammo of this weapon"
+        "zho"       "你無法重新填裝此武器的彈藥!"
+        "chi"       "你无法为此武器装填弹药!"
+    }
+}

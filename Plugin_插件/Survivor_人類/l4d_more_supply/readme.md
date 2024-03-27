@@ -1,4 +1,3 @@
-
 # Description | 內容
 Player can take an item on the map multi times depends on 5+ survivors in server
 

@@ -1,4 +1,3 @@
-
 # Description | 內容
 Player can throw adrenaline shot/pill at incapacitated teammates and help them get up immediately.
 

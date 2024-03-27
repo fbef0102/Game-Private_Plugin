@@ -1,4 +1,3 @@
-
 # Description | 內容
 Lock the weapons and items dropped by dead survivors, no one else can pick up.
 

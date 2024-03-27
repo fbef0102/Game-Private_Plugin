@@ -1,4 +1,3 @@
-
 # Description | 內容
 Informs other players when a client connects to the server and changes teams.
 

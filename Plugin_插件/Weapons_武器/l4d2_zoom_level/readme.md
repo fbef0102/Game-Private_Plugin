@@ -1,4 +1,3 @@
-
 # Description | 內容
 Everyone can change zoom level for snipers (You can see much further while scope)
 
