@@ -67,13 +67,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-    1. [kills](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/kills): Show statistics of surviviors (kill S.I, C.I. and FF)on round end
-        * 擊殺殭屍與特殊感染者統計
-    2. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
+    1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
         * L4D2擊殺提示改成CS遊戲的擊殺列表
+    2. [kills](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/kills): Show statistics of surviviors (kill S.I, C.I. and FF)on round end
+        * 擊殺殭屍與特殊感染者統計
 </details>    
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1h (2024-3-28)
+        * Fixed damage error if attacker is game system or map
 
     * v1.0h (2024-3-20)
         * Require lef4dhooks
