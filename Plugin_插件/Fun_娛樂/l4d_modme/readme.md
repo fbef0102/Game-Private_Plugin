@@ -23,13 +23,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Point an entity -> type ```!modcopy``` -> type ```!modmenu``` to change player model -> have fun!
 	* Point an entity -> type ```!modme``` -> your model will be changed into the same as the entity -> have fun!
 	* Can copy special infected, common infected, witch, tank model
-	* 🟥 Can't keep the same model after next round, next map, next player spawn
+	* 🟥 Can't keep the same model after next map
 </details>
 
 * Require | 必要安裝
-    1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
-	3. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
+	4. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -38,11 +39,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_modme_enable "1"
 
-		// Players with these flags have access to use !modme command. (Empty = Everyone, -1: Nobody)
+		// Players with these flags have access to use !modme, !modreset command. (Empty = Everyone, -1: Nobody)
 		l4d_modme_access_cmd_flag ""
 
 		// Players with these flags have access to use !modplayer, !modmenu, !modset, !modcopy. (Empty = Everyone, -1: Nobody)
 		l4d_modme_access_menu_flag "z"
+
+		// If 1, Change random color everytime model set, not all models can accept color
+		l4d_modme_random_color "1"
 		```
 </details>
 
@@ -61,6 +65,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Point an entity or infected and replace your model with their model**
 		```php
 		sm_modme
+		```
+
+	* **Reset your model**
+		```php
+		sm_modreset
 		```
 
 	* **Set model manually, for example: sm_modset "models/infected/hulk.mdl"**
@@ -97,6 +106,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2024-3-29)
+		* Update cvars
+		* Update cmds
+		* Keep same model until map change
+		* Special infected can change model
+
 	* v1.3 (2024-3-19)
 		* Require Attachments API
 
@@ -112,7 +127,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Compatible with l4d_h_csm v1.6h or above by harry
 
 	* v1.0 (2023-4-8)
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -
@@ -123,7 +138,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 對準一個物件然後輸入```!modcopy```儲存模型 => 輸入 ```!modmenu``` 選擇玩家取代模型
 	* 對準一個物件然後輸入```!modme```，你的模型將變成物件的模型
 	* 可以複製特感、Tank、Witch、普通感染者的模型
-	* 🟥 變更的模型無法保留到下一關、下一次復活、下一回合
+	* 🟥 變更的模型無法保留到下一關
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -132,17 +147,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d_modme_enable "1"
 		
-		// 擁有這些權限的玩家，才可以輸入!modme (留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的玩家，才可以輸入!modme, !modreset (留白 = 任何人都能, -1: 無人)
 		l4d_modme_access_cmd_flag ""
 
 		// 擁有這些權限的玩家，才可以輸入!modplayer, !modmenu, !modset, !modcopy (留白 = 任何人都能, -1: 無人)
 		l4d_modme_access_menu_flag "z"
+
+		// 為1時，隨機更改模型顏色，不一定每個模型都能改顏色
+		l4d_modme_random_color "1"
 		```
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **複製準心指向的物件模組**
+	* **複製準心指向的物件模型**
 		```php
 		sm_modcopy
 		```
@@ -152,9 +170,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_modmenu
 		```
 
-	* **自己的模組直接變成準心指向的物件**
+	* **自己的模型直接變成準心指向的物件**
 		```php
 		sm_modme
+		```
+
+	* **重置自己的模型**
+		```php
+		sm_modreset
 		```
 
 	* **手動設置模型, 譬如: sm_modset "models/infected/hulk.mdl"**

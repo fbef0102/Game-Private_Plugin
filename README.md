@@ -356,6 +356,8 @@
     * 連續擊殺特感會有提示與音效
   * [l4d_block_ff_shake](/Plugin_插件/Survivor_人類/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
     * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
+  * [l4d2_afk_saveweapons](/Plugin_插件/Survivor_人類/l4d2_afk_saveweapons): Save Weapons/Items when going AFK
+    * 當倖存者玩家閒置或旁觀時，保存攜帶的武器、物資
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
