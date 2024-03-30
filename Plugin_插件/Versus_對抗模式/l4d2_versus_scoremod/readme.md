@@ -34,8 +34,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Total Survivor Bonus = this * Number of Survivors * Map Distance
 		l4d2_versus_scoremod_bonus_per_survivor_multiplier "0.5"
 
-		// Permanent Health Bonus = this * Map Bonus; rest goes for Temporary Health Bonus
+		// Permanent Health Bonus = this * Map Bonus
 		l4d2_versus_scoremod_permament_health_proportion "0.75"
+
+		// Temporary Health Bonus = this * Map Bonus
+		l4d2_versus_scoremod_temp_health_proportion "0.3"
 
 		// If 1, enable pills bounus
 		l4d2_versus_scoremod_pills_bonus_enable "1"
@@ -92,7 +95,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"c1m1_hotel" //Map Name
 			{
-				"max_distance"		"400" // This map distance score (Optional)
+				// This map distance score
+				// Use the max versus completion score for the map
+				"max_distance"		"400"
 			}
 			"c1m4_atrium"
 			{
@@ -118,11 +123,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 	
-	1. [SirPlease/L4D2-Competitive-Rework l4d2_penalty_bonus](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_penalty_bonus.sp): Allows other plugins to set bonuses for a round that will be given even if the saferoom is not reached.
-    	> 殺死tank或witch獲得額外的對抗分數
+	1. [SirPlease/L4D2-Competitive-Rework l4d2_penalty_bonus](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_penalty_bonus.sp): Give versus much bonus when a tank/witch is killed
+    	* 殺死tank或witch可獲得額外的對抗分數
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2024-3-30)
+		* Update Cvars
 
 	* v1.0h (2023-3-9)
 		* Individual plugin
@@ -145,6 +153,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* HB: 玩家的血量分，實血越多，分數越高
 		* DB: 玩家的傷害分，受到傷害越多，分數越低
 		* Pill: 玩家的醫療物品分，倖存者隊伍攜帶越多治療包、電擊器、藥丸、腎上腺素，分數越高
+	* 玩家有實血時扣HB分，沒實血時扣DB分
 	* 每個分數計算方式不同，也受到地圖距離分數的影響 (~~計算方式複雜，還是別問比較好~~)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -155,8 +164,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_versus_scoremod_bonus_per_survivor_multiplier "0.5"
 
 		// 實血分獎勵 = 此指令的數值 * 地圖距離分
-		// 虛血獎勵 = (1-此指令的數值) * 地圖距離分
 		l4d2_versus_scoremod_permament_health_proportion "0.75"
+
+		// 虛血獎勵 = 此指令的數值) * 地圖距離分
+		l4d2_versus_scoremod_temp_health_proportion "0.3"
 
 		// 為1時，攜帶藥丸過關也有分
 		l4d2_versus_scoremod_pills_bonus_enable "1"
@@ -213,7 +224,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"c1m1_hotel"//地圖名
 			{
-				"max_distance"		"400" //這張地圖的路程距離分數，數字越大，分數越高 (可以不填寫)
+				//這張地圖的路程距離分數，數字越大，分數越高
+				//可以不填寫，使用地圖內建的路程距離分數
+				"max_distance"		"400" 
 			}
 			"c1m4_atrium"
 			{

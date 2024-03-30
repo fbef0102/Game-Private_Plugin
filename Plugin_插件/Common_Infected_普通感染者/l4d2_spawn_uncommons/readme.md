@@ -70,7 +70,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 
-	* **Spawn uncommon infected ANYTIME. Usage: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (Adm required: ADMFLAG_CHEATS)**
+	* **Spawn uncommon infected ANYTIME. Usage: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (Adm required: ADMFLAG_ROOT)**
 		```php
 		sm_spawnuncommon
 		```
@@ -174,7 +174,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **在準心上生成特殊一班感染者. 使用方式: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (權限: ADMFLAG_CHEATS)**
+	* **在準心上生成特殊一班感染者. 使用方式: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (權限: ADMFLAG_ROOT)**
 		```php
 		sm_spawnuncommon
 		```

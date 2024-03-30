@@ -720,8 +720,8 @@
 	{
 		"en"	"Golf Club"
 		"pt"	"Taco de Golf"
-		"zho"	"高爾夫球棒"
-		"chi"	"高尔夫球棒"
+		"zho"	"高爾夫球桿"
+		"chi"	"高尔夫球棍"
 		"es"	"Palo de golf"
 		"ru"	"Клюшка для гольфа"
 	}
