@@ -29,6 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Next map vote starts when 
     	* Leaving the saferoom
     	* Survival/Scavenge round starts 
+	* Auto change map to official map if no one in server when playing custom maps
 </details>
 
 * Require | 必要安裝
@@ -231,6 +232,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 戰役/對抗/寫實模式最後一關出安全室之後
 		* 生存模式計時開始之後
 		* 清道夫模式計時開始之後
+	* 三方圖沒有人時，自動換回官方圖
 
 * 功能
 	* 自動新增三方圖的關卡與地圖名，無須手動新增

@@ -184,6 +184,8 @@
     * 詳細傷害與兇手提示 (武器、距離、傷害部位)
   * [l4d2_kills_manager](/Plugin_插件/Special_Infected_特感/l4d2_kills_manager): Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
     * 強制將特感擊殺者改成造成傷害最多的玩家
+  * [l4d_super_si](/Plugin_插件/Special_Infected_特感/l4d_super_si): Make special infected become super SI (increase HP/movement/invisibility + catch fire)
+    * 增強特感變成超級特感 (增加血量/移動速度/透明度 + 自身著火)
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>

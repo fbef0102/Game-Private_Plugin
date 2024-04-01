@@ -16,7 +16,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type ```!dance -> Enjoy```, everyone can see you dance
+	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
+	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
 	* You must prepare fastdl, otherwise players can not dance (If you don't know what "FastDL" is, please google it)
 </details>
 
@@ -68,7 +69,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_dance
 		```
 
-	* **Adm forces someone to dance, check source code to see Emote ID (Adm required: ADMFLAG_GENERIC)**
+	* **Adm forces someone to dance, check source code to see Emote ID (Adm required: ADMFLAG_ROOT)**
 		```php
 		sm_setdances <#userid|name> [Emote ID]
 		sm_setdance <#userid|name> [Emote ID]
@@ -139,6 +140,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2024-4-1)
+		* Update Translation
+		* Update cmds
+		* Add "Emote player" in admin menu under 'Player commands' category
+
 	* v1.2h (2024-3-25)
 		* Fixed camera stuck when player dies
 
@@ -179,8 +185,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 搞笑動作模組: 表情與舞蹈
 
 * 原理
+	* 任何人輸入```!dance```可以跳舞，所有玩家都會看到你在跳舞
+	* 管理員輸入` ```!admin``` -> "玩家指令" -> "表情玩家" -> 指定玩家跳舞
 	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
-	* 動作分成兩種: 表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 
 > __Note__ 需自備網空且支援FastDL，客戶端才會下載跳舞的檔案，否則此插件會無效 
@@ -230,7 +237,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_dance
 		```
 
-	* **管理員指定玩家強制跳舞 (權限: ADMFLAG_GENERIC)**
+	* **管理員指定玩家強制跳舞 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_setdances <#userid|name> [Emote ID]
 		sm_setdance <#userid|name> [Emote ID]

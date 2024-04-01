@@ -2,87 +2,87 @@
 {
 	"SCOPE_DETECTED"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You can't use emotes while scoping!"
-		"es"			"[{olive}Emotes{default}]{darkred} No puedes usar esto mientras usas la mirilla del arma!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 瞄準鏡開啟時不能使用表情!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 瞄准镜开启时不能使用表情!"
+		"en"			"[{olive}Emotes{default}] You can't use emotes while scoping!"
+		"es"			"[{olive}Emotes{default}] No puedes usar esto mientras usas la mirilla del arma!"
+		"zho"			"[{olive}Emotes{default}] 瞄準鏡開啟時不能使用表情!"
+		"chi"			"[{olive}Emotes{default}] 瞄准镜开启时不能使用表情!"
 	}
 	"NO_DANCES_ACCESS_FLAG"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You don't have access to use dances!!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Dances kullanmaya erişiminiz yok!!"
-		"es"			"[{olive}Emotes{default}]{darkred} No tienes acceso a usar dances!!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你沒有權限可以跳舞!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你没有权限可以跳舞!"
+		"en"			"[{olive}Emotes{default}] You don't have access to use dances!!"
+		"tr"			"[{olive}Emotes{default}] Dances kullanmaya erişiminiz yok!!"
+		"es"			"[{olive}Emotes{default}] No tienes acceso a usar dances!!"
+		"zho"			"[{olive}Emotes{default}] 你沒有權限可以跳舞!"
+		"chi"			"[{olive}Emotes{default}] 你没有权限可以跳舞!"
 	}
 	"NO_EMOTES_ACCESS_FLAG"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You don't have access to use emotes!!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Emotes kullanmaya erişiminiz yok!!"
-		"es"			"[{olive}Emotes{default}]{darkred} No tienes acceso a usar emotes!!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你沒有權限可以使用表情!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你没有权限可以使用表情!"
+		"en"			"[{olive}Emotes{default}] You don't have access to use emotes!!"
+		"tr"			"[{olive}Emotes{default}] Emotes kullanmaya erişiminiz yok!!"
+		"es"			"[{olive}Emotes{default}] No tienes acceso a usar emotes!!"
+		"zho"			"[{olive}Emotes{default}] 你沒有權限可以使用表情!"
+		"chi"			"[{olive}Emotes{default}] 你没有权限可以使用表情!"
 	}
 	
 	"MUST_BE_ALIVE"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You must be alive to use this!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Bunu kullanmak için hayatta olmalısın!"	
-		"es"			"[{olive}Emotes{default}]{darkred} Debes estar vivo para usar eso!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你得先活著!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你得先活着!"
+		"en"			"[{olive}Emotes{default}] You must be alive to use this!"
+		"tr"			"[{olive}Emotes{default}] Bunu kullanmak için hayatta olmalısın!"	
+		"es"			"[{olive}Emotes{default}] Debes estar vivo para usar eso!"
+		"zho"			"[{olive}Emotes{default}] 你得先活著!"
+		"chi"			"[{olive}Emotes{default}] 你得先活着!"
 	}
 
 	"STAY_ON_GROUND"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You must stay on the ground to use this!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Bunu kullanmak için haraket etmemelisin!"		
-		"es"			"[{olive}Emotes{default}]{darkred} Debes estar en el suelo para usar eso!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你得先站在地面上!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你得先站在地面上!"
+		"en"			"[{olive}Emotes{default}] You must stay on the ground to use this!"
+		"tr"			"[{olive}Emotes{default}] Bunu kullanmak için haraket etmemelisin!"		
+		"es"			"[{olive}Emotes{default}] Debes estar en el suelo para usar eso!"
+		"zho"			"[{olive}Emotes{default}] 你得先站在地面上!"
+		"chi"			"[{olive}Emotes{default}] 你得先站在地面上!"
 	}
 
 	"COOLDOWN_EMOTES"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} It is on cooldown!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Biraz bekle!"		
-		"es"			"[{olive}Emotes{default}]{darkred} Está enfriándo"
-		"zho"			"[{olive}Emotes{default}]{darkred} 冷卻時間未到!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 冷却时间未到!"
+		"en"			"[{olive}Emotes{default}] It is on cooldown!"
+		"tr"			"[{olive}Emotes{default}] Biraz bekle!"		
+		"es"			"[{olive}Emotes{default}] Está enfriándo"
+		"zho"			"[{olive}Emotes{default}] 冷卻時間未到!"
+		"chi"			"[{olive}Emotes{default}] 冷却时间未到!"
 	}
 
 	"AMIN_1_INVALID"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} Argument 1 is invalid!!!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Bağımsız değişken 1 geçersiz!!!"		
-		"es"			"[{olive}Emotes{default}]{darkred} El Argumento 1 es inválido"
-		"zho"			"[{olive}Emotes{default}]{darkred} 參數不合法!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 参数不合法!"
+		"en"			"[{olive}Emotes{default}] Argument 1 is invalid!!!"
+		"tr"			"[{olive}Emotes{default}] Bağımsız değişken 1 geçersiz!!!"		
+		"es"			"[{olive}Emotes{default}] El Argumento 1 es inválido"
+		"zho"			"[{olive}Emotes{default}] 參數不合法!"
+		"chi"			"[{olive}Emotes{default}] 参数不合法!"
 	}
 	
 	"CANNOT_USE_NOW"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You can't use it right now!"
-		"tr"			"[{olive}Emotes{default}]{darkred} Şu anda kullanamazsın!"		
-		"es"			"[{olive}Emotes{default}]{darkred} No puedes usar eso ahora mismo!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 現在無法使用!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 现在无法使用!"
+		"en"			"[{olive}Emotes{default}] You can't use it right now!"
+		"tr"			"[{olive}Emotes{default}] Şu anda kullanamazsın!"		
+		"es"			"[{olive}Emotes{default}] No puedes usar eso ahora mismo!"
+		"zho"			"[{olive}Emotes{default}] 現在無法使用!"
+		"chi"			"[{olive}Emotes{default}] 现在无法使用!"
 	}
 
 	"INVALID_EMOTE_ID"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} Invalid Emote ID, Should be between (1-86)"
-		"tr"			"[{olive}Emotes{default}]{darkred} Geçersiz Emote ID, (1-86) arasında olmalıdır"	
-		"es"			"[{olive}Emotes{default}]{darkred} Emote ID inválida, Debe estar entre (1-86)"
-		"zho"			"[{olive}Emotes{default}]{darkred} 表情ID不合法，應介於1~86!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 表情ID不合法，应介于1~86!"
+		"en"			"[{olive}Emotes{default}] Invalid Emote ID, Should be between (1-86)"
+		"tr"			"[{olive}Emotes{default}] Geçersiz Emote ID, (1-86) arasında olmalıdır"	
+		"es"			"[{olive}Emotes{default}] Emote ID inválida, Debe estar entre (1-86)"
+		"zho"			"[{olive}Emotes{default}] 表情ID不合法，應介於1~86!"
+		"chi"			"[{olive}Emotes{default}] 表情ID不合法，应介于1~86!"
 	}
 
 	"INVALID_BUSY"
 	{
-		"en"			"[{olive}Emotes{default}]{darkred} You are busy right now, can not dance!"
-		"zho"			"[{olive}Emotes{default}]{darkred} 你目前忙碌，無法跳舞!"
-		"chi"			"[{olive}Emotes{default}]{darkred} 你目前忙碌，无法跳舞!"
+		"en"			"[{olive}Emotes{default}] You are busy right now, can not dance!"
+		"zho"			"[{olive}Emotes{default}] 你目前忙碌，無法跳舞!"
+		"chi"			"[{olive}Emotes{default}] 你目前忙碌，无法跳舞!"
 	}
 
 	"RANDOM_EMOTE"
@@ -125,6 +125,29 @@
 		"en"			"If your character can't use emotes and dances, please restart l4d game."
 		"zho"			"如果人物沒有出現表情或跳舞，請重開L4D遊戲"
 		"chi"			"如果人物沒有出現表情或跳舞，請重開L4D遊戲"
+	}	
+	
+	"Dance You"
+	{
+		"en"			"[{olive}Emotes{default}] You make yourself dance"
+		"zho"			"[{olive}Emotes{default}] 你指定自己跳舞"
+		"chi"			"[{olive}Emotes{default}] 你指定自己跳舞"
+	}	
+	
+	"Dance Targer"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{olive}Emotes{default}] You make {lightgreen}{1}{default} dance"
+		"zho"			"[{olive}Emotes{default}] 你指定 {lightgreen}{1}{default} 跳舞"
+		"chi"			"[{olive}Emotes{default}] 你指定 {lightgreen}{1}{default} 跳舞"
+	}		
+	
+	"Dance Admin"
+	{
+		"#format"		"{1:N}"
+		"en"			"[{olive}Emotes{default}] Admin {lightgreen}{1}{default} makes you dance"
+		"zho"			"[{olive}Emotes{default}] 管理員 {lightgreen}{1}{default} 指定你跳舞"
+		"chi"			"[{olive}Emotes{default}] 管理员 {lightgreen}{1}{default} 指定你跳舞"
 	}	
 
 	"EMOTE_PLAYER"
