@@ -53,47 +53,68 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Probalility of a tank become a super tank [0-100]%
 		l4d_super_si_chance_tank "8"
 
-		// The body color of the super smoker. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super smoker. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_smoker "-1 -1 -1"
 
-		// The body color of the super boomer. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super boomer. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_boomer "-1 -1 -1"
 
-		// The body color of the super hunter. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super hunter. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_hunter "-1 -1 -1"
 
-		// The body color of the super spitter. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super spitter. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_spitter "-1 -1 -1"
 
-		// The body color of the super jockey. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super jockey. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_jockey "-1 -1 -1"
 
-		// The body color of the super charger. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super charger. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_charger "-1 -1 -1"
 
-		// The body color of the super tank. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 0 0 0: Don't change]
+		// The body color of the super tank. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random, 255 255 255: Don't change]
 		l4d_super_si_color_tank "-1 -1 -1"
 
+		// Probalility of the super smoker become invisible [0-100]%
+		l4d_super_si_invisible_chance_smoker "80"
+
+		// Probalility of the super boomer become invisible [0-100]%
+		l4d_super_si_invisible_chance_boomer "80"
+
+		// Probalility of the super hunter become invisible [0-100]%
+		l4d_super_si_invisible_chance_hunter "80"
+
+		// Probalility of the super spitter become invisible [0-100]%
+		l4d_super_si_invisible_chance_spitter "80"
+
+		// Probalility of the super jockey become invisible [0-100]%
+		l4d_super_si_invisible_chance_jockey "80"
+
+		// Probalility of the super charger become invisible [0-100]%
+		l4d_super_si_invisible_chance_charger "80"
+
+		// Probalility of the super tank become invisible [0-100]%
+		l4d_super_si_invisible_chance_tank "80"
+
 		// Modify the opacity of the super smoker to become closer to invisible (0-255)
-		l4d_super_si_invisible_smoker "200"
+		l4d_super_si_invisible_alpha_smoker "200"
 
 		// Modify the opacity of the super boomer to become closer to invisible (0-255)
-		l4d_super_si_invisible_boomer "200"
+		l4d_super_si_invisible_alpha_boomer "200"
 
 		// Modify the opacity of the super hunter to become closer to invisible (0-255)
-		l4d_super_si_invisible_hunter "200"
+		l4d_super_si_invisible_alpha_hunter "200"
 
 		// Modify the opacity of the super spitter to become closer to invisible (0-255)
-		l4d_super_si_invisible_spitter "200"
+		l4d_super_si_invisible_alpha_spitter "200"
 
 		// Modify the opacity of the super jockey to become closer to invisible (0-255)
-		l4d_super_si_invisible_jockey "120"
+		l4d_super_si_invisible_alpha_jockey "120"
 
 		// Modify the opacity of the super charger to become closer to invisible (0-255)
-		l4d_super_si_invisible_charger "200"
+		l4d_super_si_invisible_alpha_charger "200"
 
 		// Modify the opacity of the super tank to become closer to invisible (0-255)
-		l4d_super_si_invisible_tank "255"
+		l4d_super_si_invisible_alpha_tank "255"
 
 		// Health multiple of the super smoker (0=Don't modify)
 		l4d_super_si_hp_multi_smoker "3.0"
@@ -173,6 +194,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1h (2024-4-2)
+		* Update cvars
+
 	* v1.0h (2024-4-1)
 		* Require lef4dhooks
 		* Remake code, convert code to latest syntax
@@ -226,47 +250,68 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Tank變成超級Tank的機率 [0-100]%
 		l4d_super_si_chance_tank "8"
 
-		// 超級Smoker的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Smoker的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_smoker "-1 -1 -1"
 
-		// 超級Boomer的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Boomer的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_boomer "-1 -1 -1"
 
-		// 超級Hunter的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Hunter的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_hunter "-1 -1 -1"
 
-		// 超級Spitter的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Spitter的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_spitter "-1 -1 -1"
 
-		// 超級Jockey的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Jockey的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_jockey "-1 -1 -1"
 
-		// 超級Charger的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Charger的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_charger "-1 -1 -1"
 
-		// 超級Tank的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 0 0 0: 不改變身體顏色]
+		// 超級Tank的身體顏色.，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機, 255 255 255: 不改變身體顏色]
 		l4d_super_si_color_tank "-1 -1 -1"
 
+		// 超級Smoker的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_smoker "80"
+
+		// 超級Boomer的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_boomer "80"
+
+		// 超級Hunter的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_hunter "80"
+
+		// 超級Spitter的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_spitter "80"
+
+		// 超級Jockey的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_jockey "80"
+
+		// 超級Charger的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_charger "80"
+
+		// 超級Tank的身體變透明的機率 [0-100]%
+		l4d_super_si_invisible_chance_tank "80"
+
 		// 超級Smoker的身體透明度.(0-255)
-		l4d_super_si_invisible_smoker "200"
+		l4d_super_si_invisible_alpha_smoker "200"
 
 		// 超級Boomer的身體透明度.(0-255)
-		l4d_super_si_invisible_boomer "200"
+		l4d_super_si_invisible_alpha_boomer "200"
 
 		// 超級Hunter的身體透明度.(0-255)
-		l4d_super_si_invisible_hunter "200"
+		l4d_super_si_invisible_alpha_hunter "200"
 
 		// 超級Spitter的身體透明度.(0-255)
-		l4d_super_si_invisible_spitter "200"
+		l4d_super_si_invisible_alpha_spitter "200"
 
 		// 超級Jockey的身體透明度.(0-255)
-		l4d_super_si_invisible_jockey "120"
+		l4d_super_si_invisible_alpha_jockey "120"
 
 		// 超級Charger的身體透明度.(0-255)
-		l4d_super_si_invisible_charger "200"
+		l4d_super_si_invisible_alpha_charger "200"
 
 		// 超級Tank的身體透明度.(0-255)
-		l4d_super_si_invisible_tank "255"
+		l4d_super_si_invisible_alpha_tank "255"
 
 		// 超級Smoker的血量倍率 (0=不改血量)
 		l4d_super_si_hp_multi_smoker "3.0"
