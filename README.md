@@ -138,8 +138,6 @@
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
   * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
     * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
-  * [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
-    * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
   * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
     * 新型投票系統 (使用官方內建的投票)
   * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specific country or area
@@ -452,6 +450,8 @@
     * 對抗模式下生成第二隻玩家可以操控的Tank
   * [l4d_teamshuffle](/Plugin_插件/Versus_對抗模式/l4d_teamshuffle): Allows teamshuffles by !shuffle or admin-forced before round starts.
     * 輸入!shuffle，打散玩家並隨機分配隊伍
+  * [l4d_team_unscramble](/Plugin_插件/Versus_對抗模式/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
+    * 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
