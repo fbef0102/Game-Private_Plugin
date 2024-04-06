@@ -10,46 +10,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>None
 
 * Image | 圖示
-	* display message when you try to pick up or buy weapons (顯示武器拿取限制)
+    * display message when you try to pick up or buy weapons (顯示武器拿取限制)
     <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
+* <details><summary>How does it work?</summary>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0
-	    * Initial Release
-</details>
-
-* Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* <details><summary>ConVar | 指令</summary>
-
-    * cfg/sourcemod/css_weapon_limit.cfg
-        ```php
-        // Time interval bewteen weapon limit notify. (0=off)
-        css_weapon_limit_cooltime_block "3.0"
-
-        // 0=Plugin off, 1=Plugin on.
-        css_weapon_limit_enable "1"
-        ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    * **Add a weapon limit**
-		```php
-        css_wlimits_add <limit> <CT or T> <weapon alias>
-		```
-</details>
-
-* <details><summary>Notice</summary>
-
-    * open cfg/server.cfg and write down cmds. For example:
+    * Restrict each weapon limit in CT and T team respectively, the player can't pick up or buy limit weapons
+    * Open cfg/server.cfg and write down cmds. For example:
         ```php
         // ct = counter terrorist team
         // t = Terrorism team
@@ -95,6 +62,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
+* Require | 必要安裝
+    1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>ConVar | 指令</summary>
+
+    * cfg/sourcemod/css_weapon_limit.cfg
+        ```php
+        // 0=Plugin off, 1=Plugin on.
+        css_weapon_limit_enable "1"
+
+        // Time interval bewteen weapon limit notify. (0=off)
+        css_weapon_limit_cooltime_block "3.0"
+        ```
+</details>
+
+* <details><summary>Command | 命令</summary>
+    
+    * **Add a weapon limit**
+        ```php
+        css_wlimits_add <limit> <CT or T> <weapon alias>
+        ```
+</details>
+
+* Apply to | 適用於
+    ```
+    CSS
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0
+        * Initial Release
+</details>
+
 - - - -
 # 中文說明
 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
@@ -104,20 +105,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 當要購買武器時，計算隊友之中已經拿取的數量，超過便不能購買
     * 可以限制手榴彈、煙霧彈、閃光彈、刀
 
-* 功能
-    * 設置每一個武器限制，也可以不設置
-    * 設置提示
-
-* <details><summary>命令中文介紹 (點我展開)</summary>
-
-    * **Add a weapon limit**
-        ```php
-        css_wlimits_add <限制數量> <CT 或 T> <武器短名>
-        ```
-</details>
-
-
-* <details><summary>注意事項中文說明</summary>
+* <details><summary>使用步驟</summary>
 
     * 打開 cfg/server.cfg 文件並寫下想要限制的武器，譬如
         ```php
@@ -163,5 +151,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         hegrenade  => 高爆手榴彈
         smokegrenade => 煙霧彈
         knife => 刀
+        ```
+</details>
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d_weapon_limits.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        css_weapon_limit_enable "1"
+        
+        // 訊息提示的間隔. (0=不提示)
+        css_weapon_limit_cooltime_block "3.0"
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+    * **Add a weapon limit**
+        ```php
+        css_wlimits_add <限制數量> <CT 或 T> <武器短名>
         ```
 </details>

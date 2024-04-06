@@ -12,17 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Kick player using cheat command (踢出試圖使用作弊指令的玩家)
     <br/>![css_texture_manager_block_1](image/css_texture_manager_block_1.jpg)
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0 (2023-3-3)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 <br/>None
 
@@ -40,6 +29,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* Apply to | 適用於
+    ```
+    CSS
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0 (2023-3-3)
+	    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 踢出可能試圖使用作弊指令的客戶
@@ -54,9 +54,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         mat_monitorgamma
         ```
     * 如想新增，請洽本人
-
-* 功能
-    * 踢出或封鎖玩家
     * 紀錄文件於```sourcempd\logs\css_mathack_cheaters.txt```
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/css_texture_manager_block.cfg
+        ```php
+        // 1 = 踢出玩家, 0 = 只紀錄到文件(sourcemod/logs/css_mathack_cheaters.txt), 其他數值= 封鎖玩家 (單位: 分鐘)
+        css_texture_manager_block_penalty "1"
+        ```
+</details>
 
 

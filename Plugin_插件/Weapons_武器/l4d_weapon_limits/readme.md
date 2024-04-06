@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-    * open cfg/server.cfg and write down cmds. For example:
+    * Open cfg/server.cfg and write down cmds. For example:
         ```php
         // l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon/melee class name>
         l4d_weapon_limits_add 3 1 weapon_smg

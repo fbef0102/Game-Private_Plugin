@@ -12,17 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Players won't have hostage penalty. (打到人質也不會被扣錢)
 	<br/>![css_hostage_invulnerable_1](image/css_hostage_invulnerable_1.gif)
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-    * v1.0 (2023-3-3)
-	    * Initial Release
-</details>
-
 * Require | 必要安裝
 <br/>None
 
@@ -44,6 +33,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+
+* Apply to | 適用於
+    ```
+    CSS
+    ```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.0 (2023-3-3)
+	    * Initial Release
+</details>
+
 - - - -
 # 中文說明
 人質不會受傷死亡
@@ -52,8 +53,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 人質不會受傷也不會死亡
     * 即使開槍射到人質也不會扣錢
 
-* 功能
-    * 可開關插件
-    * 可設置開槍射到人質也會扣錢
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/css_hostage_invulnerable.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        css_hostage_invulnerable_enable "1"
+
+        // 0=開槍射到人質也不會扣錢
+        // 1=開槍射到人質會扣錢
+        css_hostage_invulnerable_type "0"
+        ```
+</details>
 
 

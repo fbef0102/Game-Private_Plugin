@@ -11,6 +11,53 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Drop pistol, grenades, knife and remaining armor (手槍、手榴彈、煙霧彈、閃光彈、刀、剩餘的防彈背心)
     <br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
 
+* Require | 必要安裝
+<br/>None
+
+* <details><summary>ConVar | 指令</summary>
+
+    * cfg/sourcemod/css_drop_on_death.cfg
+        ```php
+        // If 1, Drop all weapons and armor on death.
+        css_drop_on_death_all_on_death "1"
+
+        // If 1, Drop knife on death.
+        css_drop_on_death_knife_on_death "0"
+
+        // If 1, Drop armor on death.
+        css_drop_on_death_armor_on_death "1"
+
+        // Minimum amount of armor to enable armor drop.
+        css_drop_on_death_armor_min "10"
+
+        // Percentage of depreciation for dropped armor.
+        css_drop_on_death_armor_depreciation "0.8"
+
+        // If 1, Enable sprite and physical model for dropped armor.
+        css_drop_on_death_armor_sprite "1"
+
+        // Size of model to be scaled.
+        css_drop_on_death_armor_model_resize "1.0"
+
+        // Vertical offset of armor model.
+        css_drop_on_death_armor_model_voffset "0.0"
+
+        // Sound used for picking up armor. (Empty=Disable)
+        css_drop_on_death_armor_pickup_sound "items/ammopickup.wav"
+
+        // If 1, Remove dropped armor on resapwn or disconnect.
+        css_drop_on_death_armor_respawn_remove "1"
+
+        // If 1, Drop all weapons and armor if using command to suicide ("kill", "explode")
+        css_drop_on_death_suicide_detect "1"
+        ```
+</details>
+
+* <details><summary>Command | 命令</summary>
+    
+    None
+</details>
+
 * Apply to | 適用於
     ```
     CSS
@@ -29,70 +76,51 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * [Original plugin by bigbalaboom](https://forums.alliedmods.net/showthread.php?t=225785)
 </details>
 
-* Require | 必要安裝
-<br/>None
-
-* <details><summary>ConVar | 指令</summary>
-
-    * cfg/sourcemod/css_drop_on_death.cfg
-        ```php
-        // If 1, Drop all weapons and armor on death.
-        css_drop_on_death_all_on_death "1"
-
-        // Percentage of depreciation for dropped armor.
-        css_drop_on_death_armor_depreciation "0.8"
-
-        // Minimum amount of armor to enable armor drop.
-        css_drop_on_death_armor_min "10"
-
-        // Model used for dropped armor.
-        css_drop_on_death_armor_model "models/props/cs_italy/orange.mdl"
-
-        // Size of model to be scaled.
-        css_drop_on_death_armor_model_resize "1.0"
-
-        // Vertical offset of armor model.
-        css_drop_on_death_armor_model_voffset "0.0"
-
-        // If 1, Drop armor on death.
-        css_drop_on_death_armor_on_death "1"
-
-        // Sound used for picking up armor. (Empty=Disable)
-        css_drop_on_death_armor_pickup_sound "items/ammopickup.wav"
-
-        // If 1, Remove dropped armor on resapwn or disconnect.
-        css_drop_on_death_armor_respawn_remove "1"
-
-        // If 1, Enable sprite and physical model for dropped armor.
-        css_drop_on_death_armor_sprite "1"
-
-        // If 1, Drop knife on death.
-        css_drop_on_death_knife_on_death "0"
-
-        // If 1, Drop all weapons and armor if using command to suicide ("kill", "explode")
-        css_drop_on_death_suicide_detect "1"
-        ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
 - - - -
 # 中文說明
 死亡時掉落所有武器、刀、手榴彈與防彈背心
 
 * 原理
     * 死亡時掉落身上所有東西
-    * 掉落防彈背心時出現一顆藍色球體，其他玩家經過自動撿起防彈背心
+    * 掉落防彈背心(護甲)時出現一顆藍色球體，其他玩家經過自動撿起防彈背心
     * 可掉落複數的手榴彈、煙霧彈、閃光彈
 
-* 功能
-    * 可設置是否掉落刀
-    * 可設置是否掉落防彈背心
-    * 可設置防彈背心損壞比例
-    * 可設置如果玩家復活則移除前一次死亡掉落的防彈背心
-    * 可設置玩家輸入kill或explode自殺指令也可以掉落身上所有東西
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
+    * cfg/sourcemod/css_drop_on_death.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        css_drop_on_death_all_on_death "1"
+
+        // 為1時，死亡時也掉落刀
+        css_drop_on_death_knife_on_death "0"
+
+        // 為1時，死亡時也掉防彈背心 (護甲)
+        css_drop_on_death_armor_on_death "1"
+
+        // 死亡玩家生前的護甲至少要10以上才會掉落防彈背心
+        css_drop_on_death_armor_min "10"
+
+        // 死亡玩家生前的護甲乘以此數值，成為掉落的護甲數值
+        css_drop_on_death_armor_depreciation "0.8"
+
+        // 為1時，護甲有一顆藍色球體顯示
+        css_drop_on_death_armor_sprite "1"
+
+        // 球體大小
+        css_drop_on_death_armor_model_resize "1.0"
+
+        // 球體離地面的高度
+        css_drop_on_death_armor_model_voffset "0.0"
+
+        // 撿起死亡玩家的防彈背心音效檔案，請填入相對路徑 (路徑相對於 sound 資料夾, 空=關閉音效)
+        css_drop_on_death_armor_pickup_sound "items/ammopickup.wav"
+
+        // 為1時，死亡的玩家復活之後，移除掉落的防彈背心
+        css_drop_on_death_armor_respawn_remove "1"
+
+        // 為1時，使用指令kill,explode自殺也會掉落武器
+        css_drop_on_death_suicide_detect "1"
+        ```
+</details>
 
