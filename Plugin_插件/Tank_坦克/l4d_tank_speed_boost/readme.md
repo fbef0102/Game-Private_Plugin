@@ -29,20 +29,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Time interval to increase the tank movement & animation speed. (0=off)
 		l4d_tank_speed_boost_interval "2.5"
 
-		// Increase the tank movement speed each time. (0=Don't increase)
-		l4d_tank_speed_boost_add "0.05"
+		// If 1, Increase the tank movement speed each time passed
+		l4d_tank_speed_boost_move_enable "1"
 
-		// Maximum tank movement speed.
-		l4d_tank_speed_boost_max "2.50"
+		// Tank movement default speed
+		l4d_tank_speed_boost_move_start "1.2"
 
-		// Increase the tank animation speed each time. (0=Don't increase)
-		l4d_tank_animation_boost_add "0.05"
+		// How much value to the tank movement speed
+		l4d_tank_speed_boost_move_add "0.05"
 
-		// Maximum tank animation speed.
-		l4d_tank_animation_boost_max "2.50"
+		// Maximum tank movement speed
+		l4d_tank_speed_boost_move_max "2.50"
 
-		// Reset tank movement & animation speed when 1=Hurt survior by punch, 2=Hurt survior by rock, 3=Both.
-		l4d_tank_animation_boost_reset "1"
+		// If 1, Increase the tank animation speed each time passed
+		l4d_tank_speed_boost_anim_enable "1"
+
+		// Tank animation default speed
+		l4d_tank_speed_boost_anim_start "2.0"
+
+		// How much value to add to the tank animation speed
+		l4d_tank_speed_boost_anim_add "0.05"
+
+		// Maximum tank animation speed
+		l4d_tank_speed_boost_anim_max "2.50"
+
+		// Reset tank movement & animation speed when 1=Hurt survior by punch, 2=Hurt survior by rock, 3=Both
+		l4d_tank_speed_boost_reset "1"
 		```
 </details>
 
@@ -68,6 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8 (2024-4-7)
 	* v1.7 (2024-2-15)
 		* Update cvars
 
@@ -91,22 +104,36 @@ AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為�
 
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
 		```php
-		// 每2.5秒增加AI Tank的移動與爬行障礙物速度 (0=關閉此插件)
+	* cfg/sourcemod/l4d_tank_speed_boost.cfg
+		```php
+		// 每過一段時間增加AI Tank的移動與爬行障礙物速度 (0=關閉此插件)
 		l4d_tank_speed_boost_interval "2.5"
 
+		// 為1時，每過一段時間增加AI Tank的移動速度
+		l4d_tank_speed_boost_move_enable "1"
+
+		// AI Tank的預設移動速度
+		l4d_tank_speed_boost_move_start "1.2"
+
 		// 每次增加的移動速度 (0=不增加移動速度)
-		l4d_tank_speed_boost_add "0.05"
+		l4d_tank_speed_boost_move_add "0.05"
 
 		// 最大移動速度
-		l4d_tank_speed_boost_max "2.50"
+		l4d_tank_speed_boost_move_max "2.50"
+
+		// 為1時，每過一段時間增加AI Tank的爬行障礙物速度
+		l4d_tank_speed_boost_anim_enable "1"
+
+		// AI Tank的預設爬行障礙物速度
+		l4d_tank_speed_boost_anim_start "2.0"
 
 		// 每次增加的爬行障礙物速度 (0=不增加爬行障礙物速度)
-		l4d_tank_animation_boost_add "0.05"
+		l4d_tank_speed_boost_anim_add "0.05"
 
 		// 最大爬行障礙物速度
-		l4d_tank_animation_boost_max "2.50"
-		
+		l4d_tank_speed_boost_anim_max "2.50"
+
 		// 當Tank傷害到倖存者之後，自身的所有速度重置，1=拳頭打中倖存者時, 2=石頭擊中倖存者時, 3=兩者皆是.
-		l4d_tank_animation_boost_reset "1"
+		l4d_tank_speed_boost_reset "1"
 		```
 </details>

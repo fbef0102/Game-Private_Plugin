@@ -54,6 +54,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, when a player changes character, fixes attachments to their weapons. (Dropping the weapon for 0.1 seconds and re-equipping)
 		l4d_h_csm_requip_weapons "1"
+
+		// If 1, the following cmd is available, !c,!coach,!n,!nick,!e,!ellis,!r,!rochelle,!b,!bill,!z,!zoey,!f,!francis,!l,!louis
+		l4d_h_csm_short_cmd "0"
 		```
 </details>
 
@@ -67,6 +70,54 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Brings up a menu to select a client's character (Adm required: ADMFLAG_GENERIC)**
 		```php
 		sm_csc
+		```
+
+	* **Change character model to Coach**
+		```php
+		sm_c
+		sm_coach
+		```
+
+	* **Change character model to Nick**
+		```php
+		sm_n
+		sm_nick
+		```
+
+	* **Change character model to Ellis**
+		```php
+		sm_e
+		sm_ellis
+		```
+
+	* **Change character model to Rochelle**
+		```php
+		sm_r
+		sm_rochelle
+		```
+
+	* **Change character model to Bill**
+		```php
+		sm_b
+		sm_bill
+		```
+
+	* **Change character model to Zoey**
+		```php
+		sm_z
+		sm_zoey
+		```
+
+	* **Change character model to Franics**
+		```php
+		sm_f
+		sm_francis
+		```
+
+	* **Change character model to Louis**
+		```php
+		sm_l
+		sm_louis
 		```
 </details>
 
@@ -105,6 +156,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//mi123645 @ 2009 - 2010
 	//Harry @ 2022-2024
 	```
+	* v1.7h (2024-4-7)
+		* Update Cvars
+		* Update Cmds
+
 	* v1.6h (2024-3-15)
 		* Update API
 		* Update Cvars
@@ -184,6 +239,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，當玩家切換角色之時，修復身上持有的武器與物資模型錯亂 (重新裝備所有武器與物資)
 		l4d_h_csm_requip_weapons "1"
+
+		// 為1時，可以輸入以下指令直接切換角色
+		// !c,!coach,!n,!nick,!e,!ellis,!r,!rochelle,!b,!bill,!z,!zoey,!f,!francis,!l,!louis
+		l4d_h_csm_short_cmd "0"
 		```
 </details>
 
@@ -197,5 +256,53 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **管理員強制指定的玩家切換角色 (權限: ADMFLAG_GENERIC)**
 		```php
 		sm_csc
+		```
+
+	* **切換角色成 Coach**
+		```php
+		sm_c
+		sm_coach
+		```
+
+	* **切換角色成 Nick**
+		```php
+		sm_n
+		sm_nick
+		```
+
+	* **切換角色成 Ellis**
+		```php
+		sm_e
+		sm_ellis
+		```
+
+	* **切換角色成 Rochelle**
+		```php
+		sm_r
+		sm_rochelle
+		```
+
+	* **切換角色成 Bill**
+		```php
+		sm_b
+		sm_bill
+		```
+
+	* **切換角色成 Zoey**
+		```php
+		sm_z
+		sm_zoey
+		```
+
+	* **切換角色成 Franics**
+		```php
+		sm_f
+		sm_francis
+		```
+
+	* **切換角色成 Louis**
+		```php
+		sm_l
+		sm_louis
 		```
 </details>

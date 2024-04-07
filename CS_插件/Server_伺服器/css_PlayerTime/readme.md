@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
+	2. [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
 
 * <details><summary>ConVar | 指令</summary>
 

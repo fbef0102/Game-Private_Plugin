@@ -9,114 +9,133 @@
 		"en"	"Bill"
 		"zho"	"比爾"
 		"chi"	"比尔"
+		"ru"	"Билл"
 	}
 	"Zoey"
 	{
 		"en"	"Zoey"
 		"zho"	"若依"
 		"chi"	"佐伊"
+		"ru"	"Зоя"
 	}
 	"Louis"
 	{
 		"en"	"Louis"
 		"zho"	"路易斯"
 		"chi"	"路易斯"
+		"ru"	"Луис"
 	}
 	"Francis"
 	{
 		"en"	"Francis"
 		"zho"	"法蘭西斯"
 		"chi"	"弗朗西斯"
+		"ru"	"Фрэнсис"
 	}
 	"Bill (Model)"
 	{
 		"en"	"Bill (Model)"
 		"zho"	"比爾 (外觀)"
 		"chi"	"比尔 (外观)"
+		"ru"	"Билл (Модель)"
 	}
 	"Zoey (Model)"
 	{
 		"en"	"Zoey (Model)"
 		"zho"	"若依 (外觀)"
 		"chi"	"佐伊 (外观)"
+		"ru"	"Зоя (Модель)"
 	}
 	"Louis (Model)"
 	{
 		"en"	"Louis (Model)"
 		"zho"	"路易斯 (外觀)"
 		"chi"	"路易斯 (外观)"
+		"ru"	"Луис (Модель)"
 	}
 	"Francis (Model)"
 	{
 		"en"	"Francis (Model)"
 		"zho"	"法蘭西斯 (外觀)"
 		"chi"	"弗朗西斯 (外观)"
+		"ru"	"Фрэнсис (Модель)"
 	}
 	"Nick"
 	{
 		"en"	"Nick"
 		"zho"	"尼克"
 		"chi"	"Nick"
+		"ru"	"Ник"
 	}
 	"Rochelle"
 	{
 		"en"	"Rochelle"
 		"zho"	"蘿雪兒"
 		"chi"	"Rochelle"
+		"ru"	"Рошель"
 	}
 	"Coach"
 	{
 		"en"	"Coach"
 		"zho"	"教練"
 		"chi"	"Coach"
+		"ru"	"Тренер"
 	}
 	"Ellis"
 	{
 		"en"	"Ellis"
 		"zho"	"艾利斯"
 		"chi"	"Ellis"
+		"ru"	"Эллис"
 	}
 	"Nick (Model)"
 	{
 		"en"	"Nick (Model)"
 		"zho"	"尼克 (外觀)"
 		"chi"	"Nick (外观)"
+		"ru"	"Ник (Модель)"
 	}
 	"Rochelle (Model)"
 	{
 		"en"	"Rochelle (Model)"
 		"zho"	"蘿雪兒 (外觀)"
 		"chi"	"Rochelle (外观)"
+		"ru"	"Рошель (Модель)"
 	}
 	"Coach (Model)"
 	{
 		"en"	"Coach (Model)"
 		"zho"	"教練 (外觀)"
 		"chi"	"Coach (外观)"
+		"ru"	"Тренер (Модель)"
 	}
 	"Ellis (Model)"
 	{
 		"en"	"Ellis (Model)"
 		"zho"	"艾利斯 (外觀)"
 		"chi"	"Ellis (外观)"
+		"ru"	"Эллис (Модель)"
 	}
 	"Target is not in Game, choose again!"
 	{
 		"en"	"[{olive}CSM{default}] Target is not in Game, choose again!"
 		"zho"	"[{olive}CSM{default}] 目標玩家不存在，請重新選擇！"
 		"chi"	"[{olive}CSM{default}] 目标玩家不存在，请重新选择！"
+		"ru"	"[{olive}CSM{default}] Цель не в игре, выберите еще раз!"
 	}
 	"AnnounceCharSelect"
 	{
 		"en"	"[{olive}CSM{default}] Type {green}!csm{default} in chat to change your {olive}character{default}."
 		"zho"	"[{olive}CSM{default}] 聊天視窗輸入 {green}!csm{default} 可更換 {olive}角色{default}"
 		"chi"	"[{olive}CSM{default}] 聊天视窗输入 {green}!csm{default} 可更换 {olive}角色{default}"
+		"ru"	"[{olive}CSM{default}] Введите {green}!csm{default} чате, чтобы изменить свой {olive}персонажа{default}."
 	}
 	"AnnounceCharSelect2"
 	{
 		"en"	"[CSM] Type !csm in chat to change your character"
 		"zho"	"[CSM] 聊天視窗輸入 !csm 可更換角色"
 		"chi"	"[CSM] 聊天视窗输入 !csm 可更换角色"
+		"ru"	"[CSM] Введите !csm чате, чтобы изменить свой персонажа"
 	}
 	"Character Select Menu is currently disabled."
 	{
@@ -124,6 +143,7 @@
 		"en"	"[CSM] Character Select {1} is currently disabled."
 		"zho"	"[CSM] CSM角色選擇{1}目前不能使用"
 		"chi"	"[CSM] CSM角色选择{1}目前不能使用"
+		"ru"	"[CSM] Выбор персонажа {1} в настоящее время отключен."
 	}
 	"You don't have access"
 	{
@@ -131,6 +151,7 @@
 		"en"	"[CSM] You don't have access to use Character Select {1}"
 		"zho"	"[CSM] 你沒有權限使用 CSM角色選擇{1}"
 		"chi"	"[CSM] 你没有权限使用 CSM角色选择{1}"
+		"ru"	"[CSM] У вас нет доступа к использованию выбора персонажа {1}"
 	}
 	"Character Select Menu is only available to survivors."
 	{
@@ -138,6 +159,7 @@
 		"en"	"[CSM] Character Select {1} is only available to survivors."
 		"zho"	"[CSM] 只限倖存者使用 CSM角色選擇{1}"
 		"chi"	"[CSM] 只限生还者使用 CSM角色选择{1}"
+		"ru"	"[CSM] Выбор персонажа {1} доступен только выжившим."
 	}
 	"You must be alive to use the Character Select Menu!"
 	{
@@ -145,12 +167,14 @@
 		"en"	"[CSM] You must be alive to use the Character Select {1}!"
 		"zho"	"[CSM] 死人不能使用 CSM角色選擇{1}"
 		"chi"	"[CSM] 死人不能使用 CSM角色选择{1}"
+		"ru"	"[CSM] Вы должны быть живы, чтобы использовать выбор персонажа {1}!"
 	}
 	"limit"
 	{
 		"en"	"[CSM] You cannot change your character again until next round (limit reached)."
 		"zho"	"[CSM] 直到下回合之前不能更換角色或模型 (次數已達限制)"
 		"chi"	"[CSM] 直到下回合之前不能使用角色或模型 (次数已达限制)"
+		"ru"	"[CSM] Вы не сможете снова изменить своего персонажа до следующего раунда. (limit reached)."
 	}
 	"Adm changes your character"
 	{
@@ -158,6 +182,7 @@
 		"en"	"[{olive}CSM{default}] Adm({lightgreen}%N{default}) changes your character to {green}{1}{default}"
 		"zho"	"[{olive}CSM{default}] 管理員({lightgreen}%N{default}) 改變你的角色為 {green}{1}{default}"
 		"chi"	"[{olive}CSM{default}] 管理员({lightgreen}%N{default}) 改变你的角色为 {green}{1}{default}"
+		"ru"	"[{olive}CSM{default}] Adm({lightgreen}%N{default}) меняет вашего персонажа на {green}{1}{default}"
 	}
 	"Adm changes your character2"
 	{
@@ -165,6 +190,7 @@
 		"en"	"[CSM] Adm(%N) changes your character to {1}"
 		"zho"	"[CSM] 管理員(%N) 改變你的角色為 {1}"
 		"chi"	"[CSM] 管理员(%N) 改变你的角色为 {1}"
+		"ru"	"[CSM] Adm(%N) меняет вашего персонажа на {1}"
 	}
 	"You change client character"
 	{
@@ -172,6 +198,7 @@
 		"en"	"[{olive}CSM{default}] You change {olive}%N{default}'s character to {green}{1}{default}"
 		"zho"	"[{olive}CSM{default}] 你改變 {olive}%N{default} 的角色為 {green}{1}{default}"
 		"chi"	"[{olive}CSM{default}] 你改变 {olive}%N{default} 的角色为 {green}{1}{default}"
+		"ru"	"[{olive}CSM{default}] Ты меняешь {olive}%N{default} персонаж на {green}{1}{default}"
 	}
 	"You change client character2"
 	{
@@ -179,6 +206,7 @@
 		"en"	"[CSM] You change %N's character to {1}"
 		"zho"	"[CSM] 你改變 %N 的角色為 {1}"
 		"chi"	"[CSM] 你改变 %N 的角色为 {1}"
+		"ru"	"[CSM] Ты изменил %N персонаж на {1}"
 	}
 	"Your character"
 	{
@@ -186,6 +214,7 @@
 		"en"	"[{olive}CSM{default}] Your character is now {green}{1}{default}"
 		"zho"	"[{olive}CSM{default}] 你的角色目前為 {green}{1}{default}"
 		"chi"	"[{olive}CSM{default}] 你的角色目前为 {green}{1}{default}"
+		"ru"	"[{olive}CSM{default}] Ваш персонаж сейчас {green}{1}{default}"
 	}
 	"Your character2"
 	{
@@ -193,36 +222,42 @@
 		"en"	"[CSM] Your character is now {1}"
 		"zho"	"[CSM] 你的角色目前為 {1}"
 		"chi"	"[CSM] 你的角色目前为 {1}"
+		"ru"	"[CSM] Ваш персонаж сейчас {1}"
 	}
 	"Choose a character"
 	{
 		"en"	"Choose a character"
 		"zho"	"角色選擇列表"
 		"chi"	"角色选择列表"
+		"ru"	"Выберите персонажа"
 	}
 	"Player List"
 	{
 		"en"	"Player List"
 		"zho"	"玩家列表"
 		"chi"	"玩家列表"
+		"ru"	"Список игроков"
 	}
 	"Menu"
 	{
 		"en"	"Menu"
 		"zho"	"介面"
 		"chi"	"界面"
+		"ru"	"Меню"
 	}
 	"Command"
 	{
 		"en"	"Command"
 		"zho"	"命令"
 		"chi"	"命令"
+		"ru"	"Команда"
 	}
 	"You are busy!"
 	{
 		"en"	"You are busy!"
 		"zho"	"你目前狀態無法更換角色!"
 		"chi"	"你目前状态无法更换角色!"
+		"ru"	"Вы заняты!"
 	}
 	"Target is busy!"
 	{
@@ -230,6 +265,7 @@
 		"en"	"[{olive}CSM{default}] Target {olive}{1}{default} is busy, choose again!"
 		"zho"	"[{olive}CSM{default}] 目標玩家 {olive}{1}{default} 目前狀態忙碌，請重新選擇！"
 		"chi"	"[{olive}CSM{default}] 目标玩家 {olive}{1}{default} 目前状态忙碌，请重新选择！"
+		"ru"	"[{olive}CSM{default}] Target {olive}{1}{default} занята, выберите еще раз!"
 	}
 }
 

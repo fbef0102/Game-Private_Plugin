@@ -84,7 +84,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
-		> 根據遊戲模式和難度禁止使用Esc->發起投票
+		* 根據遊戲模式和難度禁止使用Esc->發起投票
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

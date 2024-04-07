@@ -245,7 +245,9 @@
   * [l4d_tank_count](/Plugin_插件/Tank_坦克/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
     * Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
   * [l4d_NoEscapeTank](/Plugin_插件/Tank_坦克/l4d_NoEscapeTank): No Tank Spawn as the rescue vehicle is coming
-    * 救援載具來臨之後不會有Tank來襲
+    * 最後一關救援載具來臨之後不會有Tank來襲
+  * [l4d_no_finale_tanks](/Plugin_插件/Tank_坦克/l4d_no_finale_tanks): Skip tank event during final stage
+    * 最後一關救援途中不會有Tank來襲直到救援載具來臨
   * [skip_tank_taunt](/Plugin_插件/Tank_坦克/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback
     * Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
   * [l4d_tank_speed_boost](/Plugin_插件/Tank_坦克/l4d_tank_speed_boost): Increase AI Tank speed until hitting survivors

@@ -1,5 +1,5 @@
 # Description | 內容
-No Tank Spawn as the rescue vehicle is coming
+Skip tank event during final stage
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -16,10 +16,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_NoEscapeTank_example.cfg
+	* cfg/sourcemod/l4d_no_finale_tanks.cfg
 		```php
-		// Removes tanks which spawn as the rescue vehicle arrives on finales.
-		l4d_NoEscapeTank_enable "1"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_no_finale_tanks_enable "1"
 		```
 </details>
 
@@ -34,25 +34,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_NoEscapeTank](/Plugin_插件/Tank_坦克/l4d_NoEscapeTank): No Tank Spawn as the rescue vehicle is coming
+    	* 救援載具來臨之後不會有Tank來襲
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0
+	* v1.0 (2024-4-7)
 	    * Initial Release
 </details>
 
 - - - -
 # 中文說明
-最後一關救援載具來臨之後不會有Tank來襲
+最後一關救援途中不會有Tank來襲直到救援載具來臨
 
 * 原理
-	* 當最後直升機、船隻、火車等救援載具來臨之後，不會有Tank來襲
+	* 最後一關的救援途中，不會有Tank來襲，略過Tank局
 	* 也適用於對抗，真人玩家不會有Tank能操控
+	* 等救援載具來臨之後，會有Tank
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d_NoEscapeTank_example.cfg
+	* cfg/sourcemod/l4d_no_finale_tanks.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件
-		l4d_NoEscapeTank_enable "1"
+		l4d_no_finale_tanks_enable "1"
 		```
 </details>
