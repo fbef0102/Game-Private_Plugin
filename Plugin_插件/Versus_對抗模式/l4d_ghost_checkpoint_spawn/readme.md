@@ -14,6 +14,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Allow to spawn in end saferoom (終點安全室內復活)
 	<br/>![l4d_ghost_checkpoint_spawn_2](image/l4d_ghost_checkpoint_spawn_2.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	* Allow to spawn in start saferoom after first survivor has left the saferoom
+	* Allow to spawn in end saferoom
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -22,18 +28,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_ghost_checkpoint_spawn.cfg
 	```php
-	// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-	l4d_ghost_checkpoint_spawn_announce_type "1"
-
 	// 0=Plugin off, 1=Plugin on.
 	l4d_ghost_checkpoint_spawn_enable "1"
 
-	// When to allow ghost to spawn in end saferoom?
-	// 0=Game default
-	// 1: First survivor leaves safe area
-	// 2: After tank spawn
-	// 3: While tank alive
-	l4d_ghost_checkpoint_spawn_in_end "1"
+	// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+	l4d_ghost_checkpoint_spawn_announce_type "1"
 
 	// When to allow ghost to spawn in start saferoom even if not all survivors leave?
 	// 0=Game default
@@ -41,6 +40,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	// 2: After tank spawn
 	// 3: While tank alive
 	l4d_ghost_checkpoint_spawn_in_start "1"
+
+	// When to allow ghost to spawn in end saferoom?
+	// 0=Game default
+	// 1: First survivor leaves safe area
+	// 2: After tank spawn
+	// 3: While tank alive
+	l4d_ghost_checkpoint_spawn_in_end "1"
 	```
 </details>
 
@@ -73,9 +79,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 靈魂特感能夠在安全室內復活
 
 * 原理
-	* 在一代官方對抗模式中，靈魂特感永遠不能在安全室內復活
-	* 在二代官方對抗模式中，有倖存者尚未離開安全室，靈魂特感永遠不能在起始安全室內復活
-	* 裝上此插件後，只要有第一位倖存者離開安全室，靈魂特感可以在安全室內復活
+	* (裝此插件之前) 在一代官方對抗模式中，靈魂特感永遠不能在安全室內復活
+	* (裝此插件之前) 在二代官方對抗模式中，有倖存者尚未離開安全室，靈魂特感永遠不能在起始安全室內復活
+	* (裝此插件之後) 只要有第一位倖存者離開安全室，靈魂特感可以在安全室內復活
 
-* 功能
-	* 可調整起點與終點復活時機
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/l4d_ghost_checkpoint_spawn.cfg
+	```php
+	// 0=關閉插件, 1=啟動插件
+	l4d_ghost_checkpoint_spawn_enable "1"
+
+	// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+	l4d_ghost_checkpoint_spawn_announce_type "1"
+
+	// 靈魂特感何時可以在起始安全室內復活?
+	// 0=遊戲預設 (所有倖存者離開後)
+	// 1=第一位倖存者離開安全室之後
+	// 2=Tank復活之後
+	// 3=只有當Tank在場上時
+	l4d_ghost_checkpoint_spawn_in_start "1"
+
+	// 靈魂特感何時可以在終點安全室內復活?
+	// 0=遊戲預設 (永遠不能復活)
+	// 1=第一位倖存者離開安全室之後
+	// 2=Tank復活之後
+	// 3=只有當Tank在場上時
+	l4d_ghost_checkpoint_spawn_in_end "1"
+	```
+</details>

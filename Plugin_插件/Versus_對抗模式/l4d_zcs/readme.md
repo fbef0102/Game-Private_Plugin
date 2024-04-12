@@ -136,7 +136,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	*
 	* @noreturn
 	*/
-	forward public void L4D2_OnClientChangeZombieClass(int client, int new_zombieclass);
+	forward void L4D2_OnClientChangeZombieClass(int client, int new_zombieclass);
 	```
 </details>
 

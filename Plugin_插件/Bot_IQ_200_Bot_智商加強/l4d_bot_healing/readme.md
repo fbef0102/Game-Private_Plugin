@@ -76,7 +76,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Optional | 輔助插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_heartbeat](https://forums.alliedmods.net/showthread.php?t=322132): Fixes survivor_max_incapacitated_count cvar increased values reverting black and white screen. Also some extra options.
 		> 可用指令調整倖存者有多條生命與黑白狀態

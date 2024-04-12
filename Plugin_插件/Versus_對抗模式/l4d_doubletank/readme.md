@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 versus
 	```
 	
-* <details><summary>Optional | 輔助插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus
     	> 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch

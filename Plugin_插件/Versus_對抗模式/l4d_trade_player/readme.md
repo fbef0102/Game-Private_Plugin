@@ -43,7 +43,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 versus
 	```
 
-* <details><summary>Optional | 輔助插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
 		> 準備才能開始遊戲的插件

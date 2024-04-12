@@ -43,12 +43,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Trace rock update time interval.
 		l4d_tracerock_time_interval "0.03"
+
+		// Players with these flags have access to throw trace rock. (Empty = Everyone, -1: Nobody)
+		l4d_tracerock_access_flag "z"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
 	None
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```c
+	/**
+	* @brief Called whenever tank already threw the trace rock
+	*
+	* @param tank			tank client index
+	* @param rock			the rock entity index
+	*
+	* @noreturn
+	*/
+	forward void L4D_OnTraceRockCreated(int tank, int rock);
+	```
 </details>
 
 
@@ -64,10 +82,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Pan Xiaohai @ 2010-2011
-	//Harry @ 2021-2023
-	```
+	* v1.5h (2024-4-12)
+		* Update cvars
+
 	* v1.4h
 		* Use left4dhooks to optimize code
 
@@ -120,5 +137,8 @@ Tank的石頭自動追蹤倖存者
 
 		// 更新追蹤石頭的時間間格 (間隔越短，越容易改變飛行軌跡精準砸中)
 		l4d_tracerock_time_interval "0.03"
+
+		// 擁有這些權限的玩家，才可以丟追蹤石頭 (留白 = 任何人都能, -1: 無人)
+		l4d_tracerock_access_flag "z"
 		```
 </details>

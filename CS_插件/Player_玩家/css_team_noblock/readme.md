@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Run through teammates, only collisions with enemies
     * Grendates fly through teammates
     * NO physics mayhem/bouncing props BUG
-    * 🟥 This plugin will disable friendly fire
+    * 🟥 This plugin will disable friendly fire except for grenades
 </details>
 
 * Require | 必要安裝
@@ -72,7 +72,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 穿透隊友不會造成擋路，只跟敵人身體有碰撞
 	* 手榴彈可以穿透隊友
     * 沒有物體或武器下沉地圖的Bug
-	* 🟥 此插件會導致友傷關閉，請注意
+	* 🟥 此插件會導致友傷關閉，請注意 (手榴彈除外)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

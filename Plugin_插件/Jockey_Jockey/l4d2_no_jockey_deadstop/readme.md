@@ -5,12 +5,16 @@ Survivors can not deadstop jockey while leaping
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/hSEXo0PvKd4)
+* Video | 影片展示
+<br/>None
 
 * Image | 圖示
-	* Unable to shove jockey (無法推開Jockey)
-	<br/>![l4d2_no_jockey_deadstop_1](image/l4d2_no_jockey_deadstop_1.gif)
-	<br/>![l4d2_no_jockey_deadstop_2](image/l4d2_no_jockey_deadstop_2.gif)
+<br/>None
+
+* <details><summary>How does it work?</summary>
+
+	* Survivors can not shove jockey while jockey is leaping on air
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -62,7 +66,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 Jockey跳躍空中時不能被推
 
 * 原理
-	* Jockey使用能跳躍時，倖存者不能推開Jockey
+	* Jockey跳躍時，倖存者不能推開Jockey
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

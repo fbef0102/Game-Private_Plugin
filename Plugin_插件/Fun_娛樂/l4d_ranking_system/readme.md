@@ -153,16 +153,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Optional | 輔助插件</summary>
-
-	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
-		> 準備插件，新的回合開始時顯示Rank Hud
-</details>
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
-		> 根據管理員或玩家身分修改聊天窗口的對話顏色
+		* 根據管理員或玩家身分修改聊天窗口的對話顏色
+
+	2. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		* 準備插件，新的回合開始時顯示Rank Hud
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

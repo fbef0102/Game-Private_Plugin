@@ -52,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     L4D2
     ```
 
-* <details><summary>Optional | 輔助插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
 		> 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
