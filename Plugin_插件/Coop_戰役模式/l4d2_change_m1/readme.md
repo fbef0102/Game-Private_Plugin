@@ -5,7 +5,7 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 <br/>None
 
 * Image | 圖示
-<br/>None
+	<br/>![l4d2_change_m1_1](image/l4d2_change_m1_1.jpg)
 
 * Apply to | 適用於
     ```
@@ -24,8 +24,14 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
         // 0=Plugin off, 1=Plugin on.
         l4d2_change_m1_enable "1"
 
-        // Quantity of rounds (tries) events survivors wipe out before force of restart campaign in coop/realism (0=Off)
-        l4d2_change_m1_try "2"
+        // If survivors wipe out at least X time in no-final chapter, force of restart campaign (0=Off) (Coop/Realism)
+        l4d2_change_m1_try_chapter "2"
+
+        // If survivors wipe out at least X time in the final chapter, force of restart campaign (0=Off) (Coop/Realism)
+        l4d2_change_m1_try_final_chapter "3"
+
+        // If survivors wipe out at least X time in the whole campaign, force of restart campaign (0=Off) (Coop/Realism)
+        l4d2_change_m1_try_campaign "6"
         ```
 </details>
 
@@ -45,6 +51,10 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.2 (2024-4-13)
+        * Update cvars
+        * Update translation
+
     * v1.1 (2024-2-20)
         * Require left4dhooks
         * Remake code, optimize and improve performance
@@ -60,7 +70,7 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 
 * 原理
 	* 如果倖存者滅團超過一定次數，直接回到地圖的第一關重新開始
-    * 戰役/寫實模式適用
+    * 僅限戰役/寫實模式適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -69,7 +79,13 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
         // 0=關閉插件, 1=啟動插件
         l4d2_change_m1_enable "1"
 
-		// 戰役/寫實模式下滅團超過2次之後，自動重新開始戰役 (0=關閉這項功能)
-        l4d2_change_m1_try "2"
+        // 非最後一關的關卡滅團超過2次之後，自動重新開始本戰役 (僅限戰役/寫實模式) (0=關閉這項功能)
+        l4d2_change_m1_try_chapter "2"
+
+        // 最後一關的關卡滅團超過3次之後，自動重新開始本戰役 (僅限戰役/寫實模式) (0=關閉這項功能)
+        l4d2_change_m1_try_final_chapter "3"
+
+        // 從第一關開始滅團超過6次之後，自動重新開始本戰役 (僅限戰役/寫實模式) (0=關閉這項功能)
+        l4d2_change_m1_try_campaign "6"
         ```
 </details>
