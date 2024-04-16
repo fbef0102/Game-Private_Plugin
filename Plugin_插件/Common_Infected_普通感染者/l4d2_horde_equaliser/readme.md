@@ -77,7 +77,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4h (2024-4-16)
+		* Add translation
 
 	* v1.3h (2023-9-3)
 		* Fix Error and not working on local server

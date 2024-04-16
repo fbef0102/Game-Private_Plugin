@@ -1,0 +1,25 @@
+"Phrases"
+{
+	"No common remaining"
+	{
+		"en"		"<{olive}Horde{default}> {red}No {default}common remaining!"
+		"zho"		"<{olive}Horde{default}> {red}已無 {default}剩餘屍潮數量!"
+		"chi"		"<{olive}Horde{default}> {red}已无 {default}剩余尸潮数量!"
+	}
+
+	"started"
+	{
+		"#format"	"{1:d}"
+		"en"		"<{olive}Horde{default}> A {blue}finite event{default} of {olive}{1}{default} commons has started! Rush or wait it out, the choice is yours!"
+		"zho"		"<{olive}Horde{default}> {blue}有限屍潮事件{default} 已經開始, 將刷出 {olive}{1}{default} 個殭屍.."
+		"chi"		"<{olive}Horde{default}> {blue}有限尸潮事件{default} 已经开始, 将刷出 {olive}{1}{default} 个僵尸.."
+	}
+	
+	"common remaining"
+	{
+		"#format"	"{1:d}"
+		"en"		"<{olive}Horde{default}> {red}{1}{default} common remaining.."
+		"zho"		"<{olive}Horde{default}> 屍潮數量剩餘 {red}{1}{default} 個.."
+		"chi"		"<{olive}Horde{default}> 尸潮数量剩余 {red}{1}{default} 个.."
+	}
+}

@@ -832,7 +832,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 4) 
 		// 0 = 不顯示, 1 = 顯示.
-		l4d2_scripted_hud_hud3_visible "1"
+		l4d2_scripted_hud_hud4_visible "1"
 
 		// (HUD 4) 寫下想要顯示的內容
 		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD4_Text 涵式.

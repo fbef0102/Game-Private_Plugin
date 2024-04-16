@@ -132,6 +132,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		"ForceMissionChangerSettings"
 		{
+			"c1m2_streets"
+			{
+				"chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
+				"chapter_nextname" "c5m3_cemetery" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+			}
+
 			"c8m5_rooftop" // current map
 			{
 				"next mission map" "c9m2_lots"   // <-- next campaign in coop/versus/realism
@@ -189,6 +195,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Dionys @ 2008~2009
 	//Harry @ 2019~2024
 	```
+    * v1.4h (2024-4-16)
+		* Change next chapter in coop/realism/versus
+		* Update Data
+
     * v1.3h (2024-2-7)
 		* Fixed vote menu wrong map order
 
@@ -333,6 +343,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		"ForceMissionChangerSettings"
 		{
+			"c1m2_streets"
+			{
+				"chapter_nextmap" "c5m3_cemetery" // <-- 戰役/對抗/寫實模式 過關後的下一關地圖 (也可以寫三方圖)
+				"chapter_nextname" "c5m3_cemetery" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
+			}
+
 			"c8m5_rooftop" // 當前地圖
 			{
 				"next mission map" "c9m2_lots"   // <-- 戰役/對抗/寫實模式 下一張地圖名 (也可以寫三方圖)

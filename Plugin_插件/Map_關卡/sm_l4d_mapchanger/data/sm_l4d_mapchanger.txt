@@ -1,5 +1,17 @@
 "ForceMissionChangerSettings"
 {
+	// If map name not in this file
+	// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs\missioncycle.coop.txt
+	// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs\missioncycle.versus.txt
+	// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs\missioncycle.survival.txt
+	// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs\missioncycle.scavenge.txt
+
+	//"c1m2_streets"
+	//{
+	//	"chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
+	//	"chapter_nextname" "c5m3_cemetery" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+	//}
+
 	"c1m4_atrium"
 	{
 		"next mission map" "c2m1_highway"
@@ -35,16 +47,16 @@
 		"next mission map" "c8m1_apartment"
 		"next mission name" "L4D2C8"
 	} 
-	"c8m5_rooftop"
+	"c8m5_rooftop" // current map
 	{
-		"next mission map" "c9m2_lots" 
-		"next mission name" "L4D2C9"
+		"next mission map" "c9m2_lots"   // <-- next campaign in coop/versus/realism
+		"next mission name" "L4D2C9"  	// <-- Translation phase in maps.phrases.txt or missions.phrases.txt
 		
-		"survival_nextmap" "c1m2_streets" 
-		"survival_nextname" "c1m2_streets"
-	
-		"scavenge_nextmap" "c2m1_highway"
-		"scavenge_nextname" "c2m1_highway"
+		"survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
+		"survival_nextname" "c1m2_streets" 	// <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+
+		"scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
+		"scavenge_nextname" "c2m1_highway" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
 	}
 	"c9m2_lots"
 	{

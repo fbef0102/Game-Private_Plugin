@@ -114,7 +114,7 @@
 	<br/>![image](https://user-images.githubusercontent.com/12229810/202614882-84d06875-02a9-4663-a1b5-fdbbdc74857e.jpg)
 
 4. 檢查Sourcemod是否有正常運作
-	* 按下~鍵打開控制台，輸入```sm verison```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
+	* 按下~鍵打開控制台，輸入```sm version```，沒有出現如下圖所示的內容代表前面的步驟有誤，請檢查
 	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9bbcfbf0-f647-4347-bdfd-af07856310ab)
    
 > __Warning__

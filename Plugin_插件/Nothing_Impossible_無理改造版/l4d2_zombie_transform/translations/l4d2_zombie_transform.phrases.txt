@@ -1,0 +1,317 @@
+"Phrases"
+{
+	"No Access"
+	{
+		"en"	"You don't have access"
+		"zho"	"無權限使用"
+		"chi"	"无权限使用"
+	}
+
+	"Not Survivor"
+	{
+		"en"	"You are not survivor team"
+		"zho"	"你不是倖存者"
+		"chi"	"你不是生还者"
+	}
+
+	"Not Infected"
+	{
+		"en"	"You are not infected team"
+		"zho"	"你不是特感"
+		"chi"	"你不是特感"
+	}
+
+	"You are busy (sur)"
+	{
+		"en"	"You are busy!"
+		"zho"	"被特感抓住!"
+		"chi"	"被特感控!"
+	}
+
+	"You are busy (inf)"
+	{
+		"en"	"You are busy!"
+		"zho"	"正在抓人類!"
+		"chi"	"正在控人類!"
+	}
+
+	"You must be alive"
+	{
+		"en"	"You must be alive!"
+		"zho"	"必須活著!"
+		"chi"	"必须活着!"
+	}
+
+	"Zombie Transform Title"
+	{
+		"en"	"Zombie Transform Menu"
+		"zho"	"殭屍變異介面"
+		"chi"	"僵尸变异介面"
+	}
+
+	"Turn Survivor into Infected"
+	{
+		"en"	"Turn Survivor into Infected"
+		"zho"	"倖存者變異成殭屍"
+		"chi"	"生还者变异成僵尸"
+	}
+
+	"Turn Infected into Survivor"
+	{
+		"en"	"Turn Infected into Survivor (Retain Ability)"
+		"zho"	"特感變異成人類 (保留特感能力)"
+		"chi"	"特感变异成人类 (保留特感能力)"
+	}
+
+	"Turn Infected into Character"
+	{
+		"en"	"Turn Infected into Character"
+		"zho"	"特感變回人類角色"
+		"chi"	"特感变回人类角色"
+	}
+
+	"No Any Survivor"
+	{
+		"en"			"No Any Survivors"
+		"zho"			"目前沒有適合的倖存者"
+		"chi"			"目前没有适合的幸存者"
+	}
+
+	"No Any Infected"
+	{
+		"en"			"No Any Infecteds"
+		"zho"			"目前沒有適合的特感"
+		"chi"			"目前没有适合的特感"
+	}
+
+	"Wrong character name"
+	{
+		"en"			"Wrong character name"
+		"zho"			"角色名稱不存在"
+		"chi"			"角色名称不存在"
+	}
+
+	"Choose Infected Player"
+	{
+		"en"			"Choose Infected Player"
+		"zho"			"選擇特感玩家"
+		"chi"			"选择特感玩家"
+	}
+
+	"Choose Infected Player (Real player only)"
+	{
+		"en"			"Choose Infected Player (Real player only)"
+		"zho"			"選擇特感玩家 (AI不適用)"
+		"chi"			"选择特感玩家 (AI不适用)"
+	}
+
+	"Choose Survivor Player"
+	{
+		"en"			"Choose Survivor Player"
+		"zho"			"選擇倖存者玩家"
+		"chi"			"选择生还者玩家"
+	}
+
+	"Choose Zombie"
+	{
+		"en"			"Choose Zombie"
+		"zho"			"選擇特感種類"
+		"chi"			"选择特感种类"
+	}
+
+	"Choose Character"
+	{
+		"en"			"Choose Character"
+		"zho"			"選擇倖存者角色"
+		"chi"			"选择幸存者角色"
+	}
+
+	"Target is busy"
+	{
+		"en"			"Target is busy at this moment"
+		"zho"			"目標玩家正在忙碌"
+		"chi"			"目标玩家正在忙碌"
+	}
+
+	"Target is not survivor"
+	{
+		"en"			"Target is not survivor"
+		"zho"			"目標玩家已不是倖存者"
+		"chi"			"目标玩家已不是幸存者"
+	}
+
+	"Target is not infected"
+	{
+		"en"			"Target is not infected"
+		"zho"			"目標玩家已不是特感"
+		"chi"			"目标玩家已不是特感"
+	}
+
+	"Target is not infected player"
+	{
+		"en"			"Target is not infected player"
+		"zho"			"目標玩家已不是真人扮演的特感"
+		"chi"			"目标玩家已不是真人扮演的特感"
+	}
+
+	"Target must be alive"
+	{
+		"en"			"Target must be alive"
+		"zho"			"目標玩家必須活著"
+		"chi"			"目标玩家必须活着"
+	}
+
+	"Turn Target Into Zombie"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"You turn {olive}{1}{default} into {green}{2}{default} zombie class"
+		"zho"			"你強制將 {olive}{1}{default} 變異成 {green}{2}{default} 殭屍"
+		"chi"			"你强制将 {olive}{1}{default} 变异成 {green}{2}{default} 僵尸"
+	}
+
+	"Turn Into Zombie By"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"You were turned into {green}{1}{default} by {olive}{2}{default}"
+		"zho"			"{olive}{2}{default} 將你變異成 {green}{1}{default}"
+		"chi"			"{olive}{2}{default} 将你变异成 {green}{1}{default}"
+	}
+
+	"Turn Target Into Survivor"
+	{
+		"#format"		"{1:N}"
+		"en"			"You turn {green}{1}{default} into {olive}survivor{default} (Can use infected ability)"
+		"zho"			"你強制將 {green}{1}{default} 變異成{olive}人類{default} (保留特感能力)"
+		"chi"			"你强制将 {green}{1}{default} 变异成{olive}人类{default} (保留特感能力)"
+	}
+
+	"Turn Into Survivor By"
+	{
+		"#format"		"{1:N}"
+		"en"			"You were turned into {olive}survivor{default} by {olive}{2}{default} (Can use infected ability)"
+		"zho"			"{olive}{1}{default} 將你變異成{olive}人類{default} (保留特感能力)"
+		"chi"			"{olive}{1}{default} 将你变异成{olive}人类{default} (保留特感能力)"
+	}
+
+	"Turn Target Into Character"
+	{
+		"#format"		"{1:N},{2:t}"
+		"en"			"You turn {red}{1}{default} into character {olive}{2}{default}"
+		"zho"			"你強制將 {red}{1}{default} 變回人類角色 {olive}{2}{default}"
+		"chi"			"你强制将 {red}{1}{default} 变回人类角色 {olive}{2}{default}"
+	}
+
+	"Turn Into Character By"
+	{
+		"#format"		"{1:t},{2:N}"
+		"en"			"You were turned into character {olive}{2}{default} by {olive}{2}{default}"
+		"zho"			"{olive}{2}{default} 將你變回人類角色 {olive}{1}{default}"
+		"chi"			"{olive}{2}{default} 将你变回人类角色 {olive}{1}{default}"
+	}
+
+	"Smoker"
+	{
+		"en"			"Smoker"
+		"zho"			"Smoker"
+		"chi"			"Smoker"
+	}
+
+	"Boomer"
+	{
+		"en"			"Boomer"
+		"zho"			"Boomer"
+		"chi"			"Boomer"
+	}
+
+	"Hunter"
+	{
+		"en"			"Hunter"
+		"zho"			"Hunter"
+		"chi"			"Hunter"
+	}
+
+	"Spitter"
+	{
+		"en"			"Spitter"
+		"zho"			"Spitter"
+		"chi"			"Spitter"
+	}
+
+	"Jockey"
+	{
+		"en"			"Jockey"
+		"zho"			"Jockey"
+		"chi"			"Jockey"
+	}
+
+	"Charger"
+	{
+		"en"			"Charger"
+		"zho"			"Charger"
+		"chi"			"Charger"
+	}
+
+	"Tank"
+	{
+		"en"			"Tank"
+		"zho"			"Tank"
+		"chi"			"Tank"
+	}
+
+	"Random"
+	{
+		"en"	"Random"
+		"zho"	"隨機"
+		"chi"	"随机"
+	}
+
+	"Bill"
+	{
+		"en"	"Bill"
+		"zho"	"比爾"
+		"chi"	"比尔"
+	}
+	"Zoey"
+	{
+		"en"	"Zoey"
+		"zho"	"若依"
+		"chi"	"佐伊"
+	}
+	"Louis"
+	{
+		"en"	"Louis"
+		"zho"	"路易斯"
+		"chi"	"路易斯"
+	}
+	"Francis"
+	{
+		"en"	"Francis"
+		"zho"	"法蘭西斯"
+		"chi"	"弗朗西斯"
+	}
+
+	"Nick"
+	{
+		"en"	"Nick"
+		"zho"	"尼克"
+		"chi"	"Nick"
+	}
+	"Rochelle"
+	{
+		"en"	"Rochelle"
+		"zho"	"蘿雪兒"
+		"chi"	"Rochelle"
+	}
+	"Coach"
+	{
+		"en"	"Coach"
+		"zho"	"教練"
+		"chi"	"Coach"
+	}
+	"Ellis"
+	{
+		"en"	"Ellis"
+		"zho"	"艾利斯"
+		"chi"	"Ellis"
+	}
+}
