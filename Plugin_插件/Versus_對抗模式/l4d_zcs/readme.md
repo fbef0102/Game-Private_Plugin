@@ -8,8 +8,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/gIbID8wfX8k)
 
 * Image | 圖示
-	* Right Mouse to change their class
 	<br/>![l4d_zcs_1.gif](image/l4d_zcs_1.gif)
+	<br/>![l4d_zcs_2.jpg](image/l4d_zcs_2.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Right Mouse to change their class in ghost mode
+	* Can change to Tank class
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -58,41 +64,47 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Broadcast class & limit status messages to players.
 		l4d_zcs_notify_class "1"
 
-		// Time before smoker class is allowed after smoker death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before smoker class is allowed after smoker death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_smoker "-1"
 
-		// Time before boomer class is allowed after boomer death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before boomer class is allowed after boomer death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_boomer "-1"
 
-		// Time before hunter class is allowed after hunter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before hunter class is allowed after hunter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_hunter "-1"
 
-		// Time before spitter class is allowed after spitter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before spitter class is allowed after spitter death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_spitter "-1"
 
-		// Time before jockey class is allowed after jockey death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before jockey class is allowed after jockey death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_jockey "-1"
 
-		// Time before charger class is allowed after charger death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-60=Delay)
+		// Time before charger class is allowed after charger death in (s). (-1=Use Official Cvar '_ghost_delay_max', 0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_charger "-1"
 
-		// How many Smokers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// Time before tank class is allowed after tank death in (s). (0=No delay, 1-300=Delay)
+		l4d_zcs_cooldown_tank "0"
+
+		// How many Smokers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_smoker_limit "-1"
 
-		// How many Boomers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// How many Boomers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_boomer_limit "-1"
 
-		// How many Hunters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// How many Hunters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_hunter_limit "-1"
 
-		// How many Spitters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// How many Spitters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_spitter_limit "-1"
 
-		// How many Jockeys allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// How many Jockeys allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_jockey_limit "-1"
 
-		// How many Chargers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed, 1-10=Limit)
+		// How many Chargers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
 		l4d_zcs_charger_limit "-1"
+
+		// How many Tanks allowed. (0=None Allowed)
+		l4d_zcs_tank_limit "1"
 
 		// If 1, Allow Smoker Ghost player to select class. (0=Not Allow)
 		l4d_zcs_smoker_ghost_allow "1"
@@ -112,6 +124,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Allow Charger Ghost player to select class. (0=Not Allow)
 		l4d_zcs_charger_ghost_allow "1"
 
+		// If 1, Allow Tank Ghost player to select class. (0=Not Allow)
+		l4d_zcs_tank_ghost_allow "1"
+
 		// If 1, Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
 		l4d_zcs_determine_class_when_ghost "0"
 
@@ -127,17 +142,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```c
-	/**
-	* @brief Called whenever infected player changed zombie class via zcs
-	*
-	* @param client		The client index who changed zombie class
-	* @param new_zombieclass The new zombie class that client changed to
-	*
-	* @noreturn
-	*/
-	forward void L4D2_OnClientChangeZombieClass(int client, int new_zombieclass);
-	```
+	* ```scripting\include\l4d_zcs.inc```
+		```php
+		Registers a library name: l4d_zcs
+		```
 </details>
 
 * Apply to | 適用於
@@ -148,15 +156,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//[X]BetaAlpha @ 2010-2011
-	//HarryPotter @ 2022-202４
-	```
-	* v1.0 (2024-2-24)
+	* v1.1h (2024-4-17)
+		* Add inc file
+		* Update cvars
+		* Can change tank zombe class when ghost stage
+
+	* v1.0h (2024-2-24)
 		* Update cvars
 		* Add translation
-
-	* v1.1
 		* Remake Code
 		* Remove Gamedata
 		* Remove Unnecessary cvars
@@ -172,7 +179,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 特感玩家可以在靈魂狀態自行切換特感種類
 
 * 原理
-	* 靈魂狀態時，使用滑鼠右鍵切換特感類型
+	* 靈魂狀態時，使用滑鼠右鍵切換特感類型，可以切換成Tank
 	* 重新回到靈魂狀態不得再次切換
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -218,41 +225,47 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，提示特感種類與數量限制
 		l4d_zcs_notify_class "1"
 
-		// Smoker玩家死亡之後允許再次選擇Smoker的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Smoker玩家死亡之後允許再次選擇Smoker的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_smoker "-1"
 
-		// Boomer玩家死亡之後允許再次選擇Boomer的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Boomer玩家死亡之後允許再次選擇Boomer的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_boomer "-1"
 
-		// Hunter玩家死亡之後允許再次選擇Hunter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Hunter玩家死亡之後允許再次選擇Hunter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_hunter "-1"
 
-		// Spitter玩家死亡之後允許再次選擇Spitter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Spitter玩家死亡之後允許再次選擇Spitter的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_spitter "-1"
 
-		// Jockey玩家死亡之後允許再次選擇Jockey的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Jockey玩家死亡之後允許再次選擇Jockey的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_jockey "-1"
 
-		// Charger玩家死亡之後允許再次選擇Charger的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~60秒)
+		// Charger玩家死亡之後允許再次選擇Charger的冷卻時間. (-1=使用官方指令z_ghost_delay_max設置的時間, 0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_charger "-1"
 
-		// Smoker的數量限制 (-1=使用官方指令z_versus_smoker_limit設置的數量, 0=不允許, 請設置1~10)
+		// Tank玩家死亡之後允許再次選擇Tank的冷卻時間. (0=無冷卻時間, 請設置1~300秒)
+		l4d_zcs_cooldown_tank "300"
+
+		// Smoker的數量限制 (-1=使用官方指令z_versus_smoker_limit設置的數量, 0=不允許)
 		l4d_zcs_smoker_limit "-1"
 
-		// Boomer的數量限制 (-1=使用官方指令z_versus_boomer_limit設置的數量, 0=不允許, 請設置1~10)
+		// Boomer的數量限制 (-1=使用官方指令z_versus_boomer_limit設置的數量, 0=不允許)
 		l4d_zcs_boomer_limit "-1"
 
-		// Hunter的數量限制 (-1=使用官方指令z_versus_hunter_limit設置的數量, 0=不允許, 請設置1~10)
+		// Hunter的數量限制 (-1=使用官方指令z_versus_hunter_limit設置的數量, 0=不允許)
 		l4d_zcs_hunter_limit "-1"
 
-		// Spitter的數量限制 (-1=使用官方指令z_versus_spitter_limit設置的數量, 0=不允許, 請設置1~10)
+		// Spitter的數量限制 (-1=使用官方指令z_versus_spitter_limit設置的數量, 0=不允許)
 		l4d_zcs_spitter_limit "-1"
 
-		// Jockey的數量限制 (-1=使用官方指令z_versus_jockey_limit設置的數量, 0=不允許, 請設置1~10)
+		// Jockey的數量限制 (-1=使用官方指令z_versus_jockey_limit設置的數量, 0=不允許)
 		l4d_zcs_jockey_limit "-1"
 
-		// Charger的數量限制 (-1=使用官方指令z_versus_charger_limit設置的數量, 0=不允許, 請設置1~10)
+		// Charger的數量限制 (-1=使用官方指令z_versus_charger_limit設置的數量, 0=不允許)
 		l4d_zcs_charger_limit "-1"
+
+		// Tank的數量限制 (0=不允許)
+		l4d_zcs_tank_limit "1"
 
 		// 為1時，允許靈魂特感Smoker切換其他特感類型 (0=不允許)
 		l4d_zcs_smoker_ghost_allow "1"
@@ -271,6 +284,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，允許靈魂特感Charger切換其他特感類型 (0=不允許)
 		l4d_zcs_charger_ghost_allow "1"
+
+		// 為1時，允許靈魂特感Tank切換其他特感類型 (0=不允許)
+		l4d_zcs_tank_ghost_allow "1"
 
 		// 當玩家進入靈魂狀態時(非回魂狀態)，1 = 由此插件決定特感類型 (根據場上的特感數量限制決定)，0 = 交給導演系統決定
 		l4d_zcs_determine_class_when_ghost "0"
