@@ -64,12 +64,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 功能
 	* 當活著的倖存者真人玩家閒置或旁觀時，保存身上攜帶的武器、物資
 		* 此時取代玩家的Bot會只剩下一把手槍與機槍
-		* 下次取代Bot倖存者遊玩時，恢復身上攜帶的武器、物資
+		* 下次取代Bot遊玩時，恢復身上攜帶的武器、物資
 		* 可以保存到人類過關
 	* 有以下情況會清空數據
 		* 人類滅團
 		* 切換到特感隊伍
 		* 取代死亡的倖存者
+		* 離開過伺服器
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

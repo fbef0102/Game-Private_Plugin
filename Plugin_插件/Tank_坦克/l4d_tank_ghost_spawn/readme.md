@@ -32,6 +32,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Changes how count down message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_tank_ghost_spawn_announce_type "2"
+
+		// Player with these flag have access to become ghost tank when spawn (Empty=Everyone, -1=No one)
+		l4d_tank_ghost_spawn_flags ""
 		```
 </details>
 
@@ -56,6 +59,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-4-21)
+		* Update cvars
 
 	* v1.0 (2023-8-14)
 	     * Initial Release
@@ -82,5 +88,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 倒數提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_tank_ghost_spawn_announce_type "2"
+
+		// 擁有這些權限的玩家，可以變成靈魂tank (留白 = 任何人都能, -1: 無人)
+		l4d_tank_ghost_spawn_flags ""
 		```
 </details>

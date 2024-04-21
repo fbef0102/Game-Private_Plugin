@@ -27,6 +27,6 @@ public SharedPlugin __pl_l4d_zcs =
 #if !defined REQUIRE_PLUGIN
 public void __pl_l4d_zcs_SetNTVOptional()
 {
-	MarkNativeAsOptional("L4D2_OnClientChangeZombieClass");
+	
 }
 #endif
