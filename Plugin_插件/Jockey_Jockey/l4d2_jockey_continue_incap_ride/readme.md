@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Jockey can ride the incapacitated survivor
-	* BOT Jockey can also ride the incapacitated survivor (Does not affect AI behavior)
+	* Does not apply to AI Jockeys
 </details>
 
 * Require | 必要安裝
@@ -94,8 +94,7 @@ Jockey可以繼續騎倒地的倖存者
 * 原理
 	* Jockey可以繼續騎倒地的倖存者 (掛邊不算)
 	* 如果倖存者即將倒地，則Jockey可以續騎
-	* Bot Jockey也適用
-		* 此插件不會影響AI Jockey的行為，AI Jockey不會主動去騎倒地的倖存者
+	* AI Jockey不適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

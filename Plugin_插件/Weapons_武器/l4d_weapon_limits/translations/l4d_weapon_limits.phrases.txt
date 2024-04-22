@@ -3,7 +3,7 @@
 	"Melee Limits"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"			"{blue}[{default}Weapon Limits{blue}]{default} {olive}{1}{default} weapon group has reached its max of {green}{2}"
+		"en"			"{blue}[{default}Melee Limits{blue}]{default} {olive}{1}{default} melee group has reached its max of {green}{2}"
 		"zho"			"{blue}[{default}近戰限制{blue}]{default} {olive}{1}{default} 近戰已達團隊限制: {green}{2}"
 		"chi"			"{blue}[{default}近战限制{blue}]{default} {olive}{1}{default} 近战已达团队限制: {green}{2}"
 	}
@@ -11,7 +11,7 @@
 	"Weapon Limits"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"			"{blue}[{default}Melee Limits{blue}]{default} {olive}{1}{default} melee group has reached its max of {green}{2}"
+		"en"			"{blue}[{default}Weapon Limits{blue}]{default} {olive}{1}{default} weapon group has reached its max of {green}{2}"
 		"zho"			"{blue}[{default}武器限制{blue}]{default} {olive}{1}{default} 武器已達團隊限制: {green}{2}"
 		"chi"			"{blue}[{default}武器限制{blue}]{default} {olive}{1}{default} 武器已达团队限制: {green}{2}"
 	}

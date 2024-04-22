@@ -192,6 +192,8 @@
     * 被Smoker拉走的時候強制掉落手上的武器
   * [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
     * 增強Smoker，賦予多種超能力成為毒性的化學兵器
+  * [l4d2_tongue_incap](/Plugin_插件/Smoker_舌頭/l4d2_tongue_incap): Smoker can target incapacitated survivors and shoot tongue to drag + pull
+    * Somker可以對倒地的倖存者吐出舌頭並拖走
 </details>
 
 * <details><summary><b>Boomer | Boomer</b></summary>

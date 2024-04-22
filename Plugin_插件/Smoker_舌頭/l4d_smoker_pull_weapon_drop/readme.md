@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_smoker_pull_weapon_drop_3](image/l4d_smoker_pull_weapon_drop_3.gif)
 
 * Require | 必要安裝
-	None
+<br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -44,9 +44,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [l4d2_smoker_toxic](/Plugin_插件/Smoker_舌頭/l4d2_smoker_toxic): Adds a lot of abilities and powers to the smoker in order to spread its poison gas
 		> 增強Smoker，賦予多種超能力成為毒性的化學兵器
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
