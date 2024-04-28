@@ -422,6 +422,8 @@
     * 指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
   * [l4d_weapon_block_ammo_pile](/Plugin_插件/Weapons_武器/l4d_weapon_block_ammo_pile): Cannot refill the ammo of the weapons
     * 指定的武器無法填裝彈藥
+  * [l4d2_chainsaw_ammo](/Plugin_插件/Weapons_武器/l4d2_chainsaw_ammo): Cannot refill the ammo of the weapons
+    * 電鋸可以用彈藥堆填充油量
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

@@ -1,0 +1,16 @@
+﻿"Phrases"
+{
+	"Ammo (C)"
+	{
+		"en"	"{green}Chainsaw has been refuelled"
+		"chi"	"{green}电锯已重新填满燃料"
+		"zho"	"{green}電鋸已重新填滿油量"
+	}
+	
+	"Ammo"
+	{
+		"en"	"Chainsaw has been refuelled"
+		"chi"	"电锯已重新填满燃料"
+		"zho"	"電鋸已重新填滿油量"
+	}
+}

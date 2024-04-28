@@ -14,10 +14,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_vocalize_antiflood_1](image/l4d_vocalize_antiflood_1.jpg)
 
 * Require | 必要安裝
-    1. [sceneprocessor](https://forums.alliedmods.net/showpost.php?p=2766130&postcount=59)
+	1. [sceneprocessor](https://forums.alliedmods.net/showpost.php?p=2766130&postcount=59)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>How does it work?</summary>
 
+	* Stops vocalize flooding in server.
 	* When player's character vocalizes, add a token, there are two types of token.
 		* World token: Created by the map (such as landmarks, "Down this way", "Through here") and by the game (such as team mate actions, "Let me heal you up", "Help I'm falling")
 		* Player token: Player uses vocalize command (such as "Death Scream", "Hurry up")
@@ -46,6 +48,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, notify antiflood message to player.
 		l4d_vocalize_antiflood_notify "1"
 
+		// If 1, prevent all vocalizing talk triggered by the map (Remove all instanced_scripted_scene entities)
+		l4d_vocalize_antiflood_remove_maptalk "0"
+
 		// Players with these flags have immune to token limit. (Empty=Everyone, -1=Nobody)
 		l4d_vocalize_antiflood_immue_flag "z"
 		```
@@ -73,18 +78,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Mr. Zero @ 2014
-	//HarryPotter @ 2022
-	```
+	* v1.0h (2024-4-28)
+		* Update Cvars
+
 	* v1.3 (2022-11-18)
-        * Remake Code
-        * Add Cvars
+		* Remake Code
+		* Add Cvars
 		* Split token into world and player
 		* Delete commands
 
 	* v1.0.2
-        * [Original Plugin by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=241588)
+		* [Original Plugin by Mr. Zero](https://forums.alliedmods.net/showthread.php?t=241588)
 </details>
 
 - - - -
@@ -121,6 +125,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，通知玩家你被限制語音.
 		l4d_vocalize_antiflood_notify "1"
+
+		// 為1時，移除所有地圖觸發的劇情對話. (移除 instanced_scripted_scene 實體)
+		l4d_vocalize_antiflood_remove_maptalk "0"
 
 		// 擁有這些權限的玩家，不受此插件限制語音 (留白 = 任何人都不受限制, -1: 所有人都被限制)
 		l4d_vocalize_antiflood_immue_flag "z"

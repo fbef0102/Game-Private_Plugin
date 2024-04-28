@@ -8,17 +8,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
+* Image | 圖示
+    <br/>![l4d_infinite_clip_1](image/l4d_infinite_clip_1.gif)
+    <br/>![l4d_infinite_clip_2](image/l4d_infinite_clip_2.gif)
+    <br/>![l4d_infinite_clip_3](image/l4d_infinite_clip_3.gif)
+
 * <details><summary>How does it work?</summary>
 
     * Some weapons now have infinite clip without reload, depending on the cvar you set.
     * Use Chainsaw with infinite fuel
-</details>
-
-* <details><summary>Image | 圖示</summary>
-
-    <br/>![l4d_infinite_clip_1](image/l4d_infinite_clip_1.gif)
-    <br/>![l4d_infinite_clip_2](image/l4d_infinite_clip_2.gif)
-    <br/>![l4d_infinite_clip_3](image/l4d_infinite_clip_3.gif)
 </details>
 
 * Require | 必要安裝

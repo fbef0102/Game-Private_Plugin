@@ -79,7 +79,7 @@
 		l4d_ranking_system_zombie_killed "1"
 
 		// 當殺死 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger, 64=Tank, 128=Witch, 256=普通感染者時 提示獲得經驗值. 數字相加起來 (0=關閉提示, 511=全部)
-		l4d_ranking_system_zombie_notify_flag "0"
+		l4d_ranking_system_zombie_notify_flag "511"
 
 		// 當玩家 1=連線進服後, 2=離開伺服器時, 4=加入倖存者時 提示所有人該玩家的排名. 數字相加起來 (0=關閉提示, 7=全部)
 		l4d_ranking_system_join_leave_notify_flag "7"
