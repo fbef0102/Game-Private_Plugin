@@ -56,7 +56,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_vote_change_enable "1"
 
-		// Numbers of real survivor and infected player required to start a autorecover vote.
+		// Numbers of real survivor and infected player required to start a vote.
 		l4d2_vote_change_required "1"
 
 		// If 1, spectator can call a vote
@@ -72,17 +72,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Open Vote Menu**
 		```php
 		sm_newvotes
-		sm_v
+		sm_votes
 		```
 
 	* **Admin can force pass the current vote (Adm Required: ADMFLAG_BAN)**
 		```php
-		sm_p
+		sm_vp
 		```
 
 	* **Admin can force cancel the current vote (Adm Required: ADMFLAG_BAN)**
 		```php
-		sm_f
+		sm_vc
+		```
+</details>
+
+* <details><summary>Data Config</summary>
+
+	* ```data/l4d2_vote_change.cfg```
+		```php
+		"l4d2_vote_change"
+		{
+			"Menu_1"
+			{
+				"changemap" 		"1" //1=Enable this vote, 0=Disable this vote
+				"changecustommap" 	"1"
+				"restartmap"		"1"
+				"kick"				"1"
+				"forcespec"			"1"
+				"hp"				"0"
+				"slot"				"1"
+				"ban"				"1"
+			}
+
+			...
+		}
 		```
 </details>
 
@@ -107,6 +130,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2024-4-30)
+		* Add data file to enable/disable each vote option
 
 	* v1.2h (2024-2-8)
 		* Fixed "Restart Level" not working in versus
@@ -204,16 +230,39 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **打開投票菜單**
 		```php
 		sm_newvotes
-		sm_v
+		sm_votes
 		```
 
 	* **管理員可以強制通過 (權限: ADMFLAG_BAN)**
 		```php
-		sm_p
+		sm_vp
 		```
 
 	* **管理員可以強制否則 (權限: ADMFLAG_BAN)**
 		```php
-		sm_f
+		sm_vc
+		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+
+	* ```data/l4d2_vote_change.cfg```
+		```php
+		"l4d2_vote_change"
+		{
+			"Menu_1"
+			{
+				"changemap" 		"1" //1=開放此選項投票, 0=關閉此選項投票
+				"changecustommap" 	"1" 
+				"restartmap"		"1"
+				"kick"				"1"
+				"forcespec"			"1"
+				"hp"				"0"
+				"slot"				"1"
+				"ban"				"1"
+			}
+
+			...
+		}
 		```
 </details>

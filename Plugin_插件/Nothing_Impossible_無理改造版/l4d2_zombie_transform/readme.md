@@ -178,6 +178,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-4-30)
+		* Fix spawn error
+
 	* v1.0 (2024-3-25)
 		* Initial Release
 </details>

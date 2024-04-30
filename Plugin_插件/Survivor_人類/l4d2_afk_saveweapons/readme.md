@@ -1,5 +1,5 @@
 # Description | 內容
-Save Weapons/Items when going AFK
+Save weapons/items when survivor player going AFK or Game Crash
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -32,6 +32,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_afk_saveweapons_enable "1"
+
+		// How message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d2_afk_saveweapons_announce_type "1"
+
+		// Save Weapons/Items if 1=Alive Player Left the server, 2=Alive Player Game crash (3=Both, 0=Off)
+		l4d2_afk_saveweapons_disconnect "2"
 		```
 </details>
 
@@ -47,6 +53,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-4-30)
+		* Save weapons/items if player crash during the game.
+	    * Update cvars
+
 	* v1.0 (2024-3-29)
 	    * Initial Release
 </details>
@@ -59,18 +69,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-當倖存者玩家閒置或旁觀時，保存攜帶的武器、物資
+當倖存者玩家閒置、旁觀、崩潰、閃退時，保存攜帶的武器、物資
 
 * 功能
-	* 當活著的倖存者真人玩家閒置或旁觀時，保存身上攜帶的武器、物資
+	* 當活著的倖存者真人玩家閒置、旁觀、離開伺服器時，保存身上攜帶的武器、物資
 		* 此時取代玩家的Bot會只剩下一把手槍與機槍
-		* 下次取代Bot遊玩時，恢復身上攜帶的武器、物資
+		* 下次加入Bot遊玩時，恢復上次所攜帶的武器、物資
 		* 可以保存到人類過關
 	* 有以下情況會清空數據
 		* 人類滅團
-		* 切換到特感隊伍
+		* 切換隊伍當特感
 		* 取代死亡的倖存者
-		* 離開過伺服器
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -78,5 +87,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d2_afk_saveweapons_enable "1"
+
+		// 武器、物資恢復提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		l4d2_afk_saveweapons_announce_type "1"
+
+		// 下列何種離線情況，保存身上攜帶的武器、物資。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
+		// 3=兩者都適用, 0=關閉此功能
+		l4d2_afk_saveweapons_disconnect "2"
 		```
 </details>
