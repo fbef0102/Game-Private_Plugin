@@ -21,11 +21,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=Plugin off, 1=Plugin on.
         l4d_pickup_sound_enable "1"
 
-        // Pick up weapons and items - sound file (relative to to sound/, empty=disable)
+        // (L4D2) Pick up weapons and items - sound file (relative to to sound/, empty=disable)
         l4d_pickup_sound_weapon "ui/gift_pickup.wav"
 
-        // Pick up Ammo - sound file (relative to to sound/, empty=disable)
+        // (L4D2) Pick up Ammo - sound file (relative to to sound/, empty=disable)
         l4d_pickup_sound_ammo "ui/gift_pickup.wav"
+
+        // (L4D1) Pick up weapons and items - sound file (relative to to sound/, empty=disable)
+        l4d_pickup_sound_weapon "items/itempickup.wav"
+
+        // (L4D1) Pick up Ammo - sound file (relative to to sound/, empty=disable)
+        l4d_pickup_sound_ammo "items/itempickup.wav"
 		```
 </details>
 
@@ -41,6 +47,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2024-5-2)
+        * Detect dual pistol pickup
 
     * v1.2 (2024-1-17)
         * Don't play sound if player is incapacitated
@@ -72,10 +81,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=關閉插件, 1=啟動插件
         l4d_pickup_sound_enable "1"
 
-        // 撿起武器或物品時播放音效檔案 (路徑相對於 sound 資料夾, 空白=無音效)
+        // (L4D2) 撿起武器或物品時播放音效檔案 (路徑相對於 sound 資料夾, 空白=無音效)
         l4d_pickup_sound_weapon "ui/gift_pickup.wav"
 
-        // 撿起子彈時播放音效檔案 (路徑相對於 sound 資料夾, 空白=無音效)
+        // (L4D2) 撿起子彈時播放音效檔案 (路徑相對於 sound 資料夾, 空白=無音效)
         l4d_pickup_sound_ammo "ui/gift_pickup.wav"
+
+        // (L4D1) Pick up weapons and items - sound file (relative to to sound/, empty=disable)
+        l4d_pickup_sound_weapon "items/itempickup.wav"
+
+        // (L4D1) Pick up Ammo - sound file (relative to to sound/, empty=disable)
+        l4d_pickup_sound_ammo "items/itempickup.wav"
 		```
 </details>

@@ -252,10 +252,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//panxiaohai @ 2013
-	//HarryPotter @ 2023
-	```
+    * v1.4h (2024-5-2)
+        * Detect dual pistol pickup
+        
     * v1.3h (2023-8-6)
       * Deduce damage from friendly fire
       * When shield takes damage or melee infected, it costs shield durability.

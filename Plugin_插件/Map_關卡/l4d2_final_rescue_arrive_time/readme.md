@@ -126,12 +126,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 增加救援抵達的時間，救援載具不會來臨直到時間結束
-	* 2波Tank階段後，生成無限屍潮，直到時間結束
+	* 2波Tank階段後，生成無限屍潮，時間結束之後，強制刷出救援載具
 	* 適用於所有官方地圖與三方地圖
 	* 🟥 遇到以下救援類型則自動關閉功能
 		1. 衝刺跑圖, 譬如: c5m5, c13m4
 		2. 灌汽油載具, 譬如: c1m4, c6m3
 	* 可以設置文件```data/l4d2_final_rescue_arrive_time.cfg```，決定每一關的救援抵達時間
+
+* 用意在哪?
+	* 適合屍潮太多或Tank過多的伺服器，導致救援階段卡關
+	* 強制刷出救援載具
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

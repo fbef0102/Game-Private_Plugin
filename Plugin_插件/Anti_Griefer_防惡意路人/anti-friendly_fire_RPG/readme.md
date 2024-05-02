@@ -43,35 +43,42 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Attack counter default for attacker. (Must be Integer)
 		l4d_rpg_friendly_fire_damage_multi "1"
 
-		// (L4D2) If 1, Disable ff damage with melee/chainsaw weapons.
-		l4d_rpg_friendly_fire_disable_melee "1"
-
 		// If 1, kill attacker if he reaches ff counter limit. (Default: 6)
 		l4d_rpg_friendly_fire_count_limit "6"
 
 		// If 1, kill attacker if his reaches ff damage limit. (Default: 100)
 		l4d_rpg_friendly_fire_damage_limit "100"
 
-		// If 1, Disable ff damage to Incap player
-		l4d_rpg_friendly_fire_disable_incap "1"
-
 		// If attacker is a new player who just joins the server, time in seconds to disable ff damage from him. (0=Off)
 		l4d_rpg_friendly_fire_connect_player_disable_time "30"
 
-		// FF damage to GodFrame player, 1=No Damage, 0=Cause Damage
-		l4d_rpg_friendly_fire_ignore_godframe "1"
+		// FF damage to GodFrame player
+		// 0=No Damage, 1=Damage inflicted to attacker + Add counter
+		l4d_rpg_friendly_fire_godframe_handle "0"
 
-		// If 1, Disable ff damage to Bot.
-		l4d_rpg_friendly_fire_disable_bot "0"
+		// FF damage to Bot
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_bot_handle "2"
 
-		// FF flame damage to player, 1=Don't calculate counter, 0=apply this plugin and calculate counter
-		l4d_rpg_friendly_fire_ignore_flame "1"
+		// FF damage to incap player
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_incap_handle "0"
 
-		// FF Pipe Bomb, Propane Tank, and Oxygen Tank damage to player, 1=Don't calculate counter, 0=apply this plugin and calculate counter
-		l4d_rpg_friendly_fire_ignore_exlode "1"
+		// FF flame damage to player
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_flame_handle "1"
 
-		// (L4D2) FF Grenade Launcher damage to player, 1=Don't calculate counter, 0=apply this plugin and calculate counter
-		l4d_rpg_friendly_fire_ignore_GL "1"
+		// FF Pipe Bomb, Propane Tank, and Oxygen Tank damage to player
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_exlode_handle "1"
+
+		// (L4D2) FF damage with melee weapons/chainsaw to player
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_melee_handle "1"
+
+		// (L4D2) FF Grenade Launcher damage to player
+		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+		l4d_rpg_friendly_fire_GL_handle "1"
 		```
 </details>
 
@@ -105,6 +112,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8 (2024-5-2)
+		* Update cvars
+
 	* v1.7 (2023-11-18)
 		* Add Chainsaw damage
 		* Fixed fire bullet damage
@@ -125,7 +135,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 友傷產生時
 		* 攻擊者身上的'attack計數器'加1，attack計數器越多，傷害遞增倍數反彈給自己
-		* 受害者身上的'victim計數器'加1，victim計數器越多，受到傷害的傷害遞減減少
+		* 受害者身上的'victim計數器'加1，victim計數器越多，受到的傷害遞減減少
 	* 當攻擊者造成太多次友傷，將會處死
 	* 一秒後計算總友傷，然後反彈給攻擊者
 	* 🟥切勿與其他會修改友傷的插件並用
@@ -149,34 +159,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 攻擊者身上的attack計數器的預設值. (是正整數)
 		l4d_rpg_friendly_fire_damage_multi "1"
 
-		// (L4D2) 為1時，近戰武器/電鋸 不會造成友傷
-		l4d_rpg_friendly_fire_disable_melee "1"
-
 		// 為1時，當攻擊者造成6次以上的友傷時，處死攻擊者 (預設: 6)
 		l4d_rpg_friendly_fire_count_limit "6"
 
 		// 為1時，當攻擊者造成100滴以上的友傷時，處死攻擊者 (預設: 100)
 		l4d_rpg_friendly_fire_damage_limit "100"
 
-		// 為1時，倒地玩家不會受到友傷
-		l4d_rpg_friendly_fire_disable_incap "1"
-
 		// 玩家進來的30秒內不會對其他人造成友傷 (0=關閉這項功能)
 		l4d_rpg_friendly_fire_connect_player_disable_time "30"
 
-		// 如果受害者正在處於無敵狀態，1=不受友傷, 0=受到友傷
-		l4d_rpg_friendly_fire_ignore_godframe "1"
+		// 如果受害者正在處於無敵狀態
+		// 0=無傷, 1=反彈傷害並增加計數器
+		l4d_rpg_friendly_fire_godframe_handle "0"
 
-		// 為1時，Bots不會受傷
-		l4d_rpg_friendly_fire_disable_bot "0"
+		// 如果受害者是AI Bot
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_bot_handle "2"
 
-		// 火焰友傷, 1=不算入計數器, 0=算入計數器
-		l4d_rpg_friendly_fire_ignore_flame "1"
+		// 如果受害者是倒地玩家
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_incap_handle "0"
 
-		// 土製炸彈、瓦斯桶、氧氣罐友傷, 1=不算入計數器, 0=算入計數器
-		l4d_rpg_friendly_fire_ignore_exlode "1"
+		// 火焰友傷
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_flame_handle "1"
 
-		// (L4D2) 榴彈發射器友傷, 1=不算入計數器, 0=算入計數器
-		l4d_rpg_friendly_fire_ignore_GL "1"
+		// 土製炸彈、瓦斯桶、氧氣罐友傷
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_exlode_handle "1"
+
+		// (L4D2) 近戰武器/電鋸友傷
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_melee_handle "1"
+
+		// (L4D2) 榴彈發射器友傷
+		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
+		l4d_rpg_friendly_fire_GL_handle "1"
 		```
 </details>
