@@ -36,7 +36,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d2_afk_saveweapons_announce_type "1"
 
-		// Save Weapons/Items if 1=Alive Player Left the server, 2=Alive Player Game crash (3=Both, 0=Off)
+		// If 1, Save Weapons/Items when player going afk
+		l4d2_afk_saveweapons_going_afk "1"
+
+		// Save Weapons/Items when the alive survivor player 1=Left the server, 2=Game crash (3=Both, 0=Off)
 		l4d2_afk_saveweapons_disconnect "2"
 		```
 </details>
@@ -52,6 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2024-5-5)
+		* Update cvars
 
 	* v1.1 (2024-4-30)
 		* Save weapons/items if player crash during the game.
@@ -91,6 +97,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 武器、物資恢復提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d2_afk_saveweapons_announce_type "1"
+
+		// 為1時，倖存者真人玩家閒置、旁觀時，保存身上攜帶的武器、物資
+		l4d2_afk_saveweapons_going_afk "1"
 
 		// 下列何種離線情況，保存身上攜帶的武器、物資。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
 		// 3=兩者都適用, 0=關閉此功能
