@@ -44,16 +44,13 @@
 	  * [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
 * 安裝步驟
-	1. 到[accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz)點擊Releases
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+	1. 到[l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases)，根據你的遊戲與系統選擇檔案下載
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6151a17e-6915-4fa0-b18f-05c6ea642ef6)
 
-	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
-	<br/>![4`U5GY0 SAN5_O19FKOSUKV](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
-
-	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
+	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
 
-	4. 到cfg/server.cfg寫上以下指令
+	3. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 			```php
 			// 伺服器真人玩家人數上限
@@ -66,13 +63,13 @@
 			sv_force_unreserved 1
 			```
 
-	5. 伺服器啟動時，務必將"玩家上限"改成32
+	4. 伺服器啟動時，務必將"玩家上限"改成32
         * 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
     	* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
   
-	6. 啟動伺服器，控制台輸入```meta list```確認安裝成功
+	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -88,16 +85,13 @@
    * 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
 * 安裝步驟
-	1. 到[accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler)點擊Releases
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+	1. 到[Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler)，根據你的遊戲與系統選擇檔案下載
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
 
-	2. 根據你的遊戲選擇檔案下載，L4D1或L4D2
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
-
-	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
+	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
 
-	4. 到cfg/server.cfg寫上以下指令
+	3. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 			```php
 			// 這是100 Tick的設定，可以自由修改數值
@@ -112,16 +106,16 @@
 			sm_cvar fps_max					"0"
 			```
 	
-	5. 伺服器啟動選項輸入參數
+	4. 伺服器啟動選項輸入參數
 		* ```-tickrate 100```
 		
-	6. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
+	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
 		] plugin_print
 		1:　"Tickrate_Enabler 1.5, ProdigySim"
 		```
 
-	7. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
+	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
 
 	> __Warning__ 

@@ -556,7 +556,7 @@
     * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
   * [l4d_player_tail](/Plugin_插件/Fun_娛樂/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
     * 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
-  * [fortnite_l4d1&2](/Plugin_插件/Fun_娛樂/fortnite_l4d1&2): Emotes and Dance in L4D1/2
+  * [fortnite_dances_emotes_l4d](/Plugin_插件/Fun_娛樂/fortnite_dances_emotes_l4d): Emotes and Dance in L4D1/2
     * 搞笑動作模組: 表情與舞蹈
   * [simple-bhop](/Plugin_插件/Fun_娛樂/simple-bhop): Let users Bunny Hop with simplicity
     * 簡單的連跳插件

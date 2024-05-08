@@ -5,14 +5,12 @@ Emotes and Dance in L4D1/2
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-	* [玩家訂閱模組也能跳舞](https://youtu.be/a3rbE3WV90g)
-	* [不同意的請舉手](https://youtu.be/a3rbE3WV90g)
+* [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
-	<br/>![fortnite_l4d1&2_3](image/fortnite_l4d1&2_3.gif)
-	<br/>![fortnite_l4d1&2_1](image/fortnite_l4d1&2_1.jpg)
-	<br/>![fortnite_l4d1&2_2](image/fortnite_l4d1&2_2.jpg)
+	<br/>![fortnite_dances_emotes_l4d_1](image/fortnite_dances_emotes_l4d_1.gif)
+	<br/>![fortnite_dances_emotes_l4d_2](image/fortnite_dances_emotes_l4d_2.jpg)
+	<br/>![fortnite_dances_emotes_l4d_3](image/fortnite_dances_emotes_l4d_3.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -27,37 +25,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/fortnite_l4d1&2.cfg
+	* cfg/sourcemod/fortnite_dances_emotes_l4d.cfg
 		```php
-		// Enable/Disable sounds for emotes.
-		sm_dances_sounds "1"
+		// Enable/Disable sounds for emotes/dances. (Needs to restart map)
+		fortnite_dances_emotes_l4d_sounds "0"
 
-		// Cooldown for emotes in seconds. -1 or 0 = no cooldown.
-		sm_dances_cooldown "3.0"
+		// Cooldown for emotes/dances in seconds. -1 or 0 = no cooldown.
+		fortnite_dances_emotes_l4d_cooldown "2.0"
 
-		// Sound volume for the emotes.
-		sm_dances_soundvolume "1.0"
+		// Sound volume for the emotes/dances. [0.0-1.0]
+		fortnite_dances_emotes_l4d_sound_volume "1.0"
 
-		// admin flag for emotes (empty for all players)
-		sm_dances_admin_flag_menu ""
+		// Players with these flags have access to use emotes menu. (Empty = Everyone, -1: Nobody)
+		fortnite_dances_emotes_l4d_flag_emote_menu ""
 
-		// admin flag for dances (empty for all players)
-		sm_dances_admin_flag_menu ""
+		// Players with these flags have access to use dances menu. (Empty = Everyone, -1: Nobody)
+		fortnite_dances_emotes_l4d_flag_dance_menu ""
 
-		// Hide weapons when dancing
-		sm_dances_hide_weapons "1"
+		// If 1, Hide weapons when dancing
+		fortnite_dances_emotes_l4d_hide_weapons "1"
 
-		// Hide enemy players when dancing
-		sm_dances_hide_enemies "0"
+		// If 1, Hide enemy players when dancing
+		fortnite_dances_emotes_l4d_hide_enemies "0"
 
-		// Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
-		sm_dances_teleportonend "0"
+		// If 1, Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
+		fortnite_dances_emotes_l4d_teleportonend "1"
 
-		// Sets the playback speed of the animation. default (1.0)
-		sm_dances_speed "0.80"
+		// Sets the playback speed of the animation. [0.0-1.0]
+		fortnite_dances_emotes_l4d_speed "0.80"
 
 		// Player [1=Dance, 2=Emotes, 3=Random] when someone uses kit to heal him. (0=off)
-		sm_dances_heal_dance "3"
+		fortnite_dances_emotes_l4d_heal_dance "3"
 		```
 </details>
 
@@ -95,7 +93,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* If you are L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2"	
+			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2/"	
 			```
 
 	3. Uploading files to server.
@@ -139,6 +137,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4h (2024-5-8)
+		* Update Translation
+		* Update cvars
+		* Add api
+		* Change plugin name
 
 	* v1.3h (2024-4-1)
 		* Update Translation
@@ -195,37 +199,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/fortnite_l4d1&2.cfg
+	* cfg/sourcemod/fortnite_dances_emotes_l4d.cfg
 		```php
-		// 0=關閉跳舞音樂, 1=啟動跳舞音樂
-		sm_dances_sounds "1"
+		// 0=關閉跳舞音樂, 1=啟動跳舞音樂 (需要重啟地圖才會生效)
+		fortnite_dances_emotes_l4d_sounds "1"
 
 		// 再次跳舞的CD時間, -1或0 = 無CD.
-		sm_dances_cooldown "3.0"
+		fortnite_dances_emotes_l4d_cooldown "3.0"
 
-		// 跳舞音樂的音量 (1.0是最大了)
-		sm_dances_soundvolume "1.0"
+		// 跳舞音樂的音量 [數值介於 0.0~1.0] (1.0是最大了)
+		fortnite_dances_emotes_l4d_sound_volume "1.0"
 
 		// 擁有這些權限的玩家，才可以使用表情 (留白 = 任何人都能, -1: 無人)
-		sm_dances_admin_flag_menu ""
+		fortnite_dances_emotes_l4d_flag_emote_menu ""
 
 		// 擁有這些權限的玩家，才可以使用跳舞 (留白 = 任何人都能, -1: 無人)
-		sm_dances_admin_flag_menu ""
+		fortnite_dances_emotes_l4d_flag_dance_menu ""
 
 		// 為1時，跳舞時隱藏武器
-		sm_dances_hide_weapons "1"
+		fortnite_dances_emotes_l4d_hide_weapons "1"
 
 		//為1時，跳舞時隱藏敵人
-		sm_dances_hide_enemies "0"
+		fortnite_dances_emotes_l4d_hide_enemies "0"
 
 		// 為1時，跳舞完畢後回到原始的位置
-		sm_dances_teleportonend "0"
+		fortnite_dances_emotes_l4d_teleportonend "0"
 
-		// 跳舞速度 (最大: 1.0)
-		sm_dances_speed "0.80"
+		// 跳舞速度 [數值介於 0.0~1.0]
+		fortnite_dances_emotes_l4d_speed "0.80"
 
 		// 玩家被治療時，開始跳舞 [1=跳舞, 2=做表情, 3=隨機] (0=關閉這項功能)
-		sm_dances_heal_dance "3"
+		fortnite_dances_emotes_l4d_heal_dance "3"
 		```
 </details>
 
@@ -263,7 +267,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 如果你是 L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2"	
+			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2/"	
 			```
 		
 	3. 上傳文件到伺服器。
@@ -278,5 +282,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
 		
 	4. 啟動伺服器並測試
-		* 加入倖存者並輸入!dance，測試跳舞是否有動作
+		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
 </details>

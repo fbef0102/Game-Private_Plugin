@@ -71,11 +71,11 @@
 
 	"INVALID_EMOTE_ID"
 	{
-		"en"			"[{olive}Emotes{default}] Invalid Emote ID, Should be between (1-86)"
-		"tr"			"[{olive}Emotes{default}] Geçersiz Emote ID, (1-86) arasında olmalıdır"	
-		"es"			"[{olive}Emotes{default}] Emote ID inválida, Debe estar entre (1-86)"
-		"zho"			"[{olive}Emotes{default}] 表情ID不合法，應介於1~86!"
-		"chi"			"[{olive}Emotes{default}] 表情ID不合法，应介于1~86!"
+		"en"			"[{olive}Emotes{default}] Invalid Emote ID, Should be between (1-84)"
+		"tr"			"[{olive}Emotes{default}] Geçersiz Emote ID, (1-84) arasında olmalıdır"	
+		"es"			"[{olive}Emotes{default}] Emote ID inválida, Debe estar entre (1-84)"
+		"zho"			"[{olive}Emotes{default}] 表情ID不合法，應介於1~84!"
+		"chi"			"[{olive}Emotes{default}] 表情ID不合法，应介于1~84!"
 	}
 
 	"INVALID_BUSY"

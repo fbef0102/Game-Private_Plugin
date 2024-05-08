@@ -44,16 +44,13 @@
 	  * [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
 
 * Installation
-	1. Go to [accelerator74/l4dtoolz](https://github.com/accelerator74/l4dtoolz) and click Releases
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860230-7085fb8d-1114-44ba-bd1e-ab754958a087.png)
+	1. Go to [l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases) and download files depending on your game and system
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6151a17e-6915-4fa0-b18f-05c6ea642ef6)
 
-	2. Download files depending on your game，L4D1 or L4D2
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860254-1b7d7782-ca85-4fc6-971f-6c4c52dabc7e.png)
-
-	3. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
+	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
 
-	4. Write down the following cvars in cfg/server.cfg
+	3. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
 		```php
 		// How many real players can joins server, free to modify value
@@ -64,13 +61,13 @@
 		sv_allow_lobby_connect_only 0
 		sv_force_unreserved 1
 		```
-	5. Change Max players, please must be 32
+	4. Change Max players, please must be 32
         * Max. players = Real player + AI Survivor Bot + AI Infected Bot + Spectators
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6c945597-4a3b-4a5c-b3d2-f457fc4895b4)
     	* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 32```
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
   
-	6. Restart Server，type ```meta list``` in serve console
+	5. Restart Server，type ```meta list``` in serve console
 		```php
 		] meta list
 		Listing 11 plugins:
@@ -86,16 +83,13 @@
    * High Tickrate costs more cpu performance
 
 * Installation
-	1. Go to [accelerator74/Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler) and click Releases
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860906-b6910d12-acfc-47ba-a31f-3093917a14d6.png)
+	1. Go to [Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler) and download files depending on your game and system
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
 
-	2. Download files depending on your game，L4D1 or L4D2
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860927-5913948b-7d8d-4127-8301-7ca92c03ad29.png)
-
-	3. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
+	2. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
 
-	4. Write down the following cvars in cfg/server.cfg
+	3. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
 		```php
 		// 100 Tickrate, free to modify value
@@ -110,16 +104,16 @@
 		sm_cvar fps_max					"0"
 		```
 	
-	5. Change the Launch Parameters.
+	4. Change the Launch Parameters.
 		* ```-tickrate 100```
 		
-	6. Restart Server，type ```plugin_print``` in serve console
+	5. Restart Server，type ```plugin_print``` in serve console
 		```php
 		] plugin_print
 		1: 　"Tickrate_Enabler 1.5, ProdigySim"
 		```
 
-	7. Join server，open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
+	6. Join server，open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
 
 	> __Warning__ 
