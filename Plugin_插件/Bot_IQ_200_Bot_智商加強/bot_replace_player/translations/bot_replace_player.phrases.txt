@@ -1,0 +1,37 @@
+// -------Following named colors are supported-------
+// {default}-Default White
+// {green}-olive
+// {lightgreen}-Lightgreen
+// {red}-Red 			- There must be at least one player or bot in infected team，or red will turn into {green} color
+// {blue}-Blue   		- There must be at least one player or bot in survivor team，or blue will turn into {green} color
+// {olive}-green
+// Warning:  2 of (blue, red, lightgreen) colors can not be used together
+
+"Phrases"
+{
+	"Incap (C)"
+	{
+		"en"			"[{olive}TS{default}] {olive}%N{default} Bot takes over incapacitated survivor and restore health!"
+		"zho"			"[{olive}TS{default}] {olive}%N{default} Bot 取代倒地的倖存者並回復血量!"
+		"chi"			"[{olive}TS{default}] {olive}%N{default} Bot 取代倒地的幸存者并回复血量!"
+	}
+	"Incap"
+	{
+		"en"			"[TS] %N Bot takes over incapacitated survivor and restore health!"
+		"zho"			"[TS] %N Bot 取代倒地的倖存者並回復血量!"
+		"chi"			"[TS] %N Bot 取代倒地的幸存者并回复血量!"
+	}
+	
+	"Dead (C)"
+	{
+		"en"			"[{olive}TS{default}] {olive}%N{default} Bot takes over dead survivor and respawn!"
+		"zho"			"[{olive}TS{default}] {olive}%N{default} Bot 取代死亡的倖存者並復活!"
+		"chi"			"[{olive}TS{default}] {olive}%N{default} Bot 取代死亡的幸存者并复活!"
+	}
+	"Dead"
+	{
+		"en"			"[TS] %N Bot takes over dead survivor and respawn!"
+		"zho"			"[TS] %N Bot 取代死亡的倖存者並復活!"
+		"chi"			"[TS] %N Bot 取代死亡的幸存者并复活!"
+	}
+}

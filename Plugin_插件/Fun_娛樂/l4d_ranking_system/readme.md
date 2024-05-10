@@ -137,7 +137,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set *sourcemod\configs\databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
 			```php
 			// Database in saved to ```sourcemod\data\sqlite\rank_system.sq3```
 			"rank"

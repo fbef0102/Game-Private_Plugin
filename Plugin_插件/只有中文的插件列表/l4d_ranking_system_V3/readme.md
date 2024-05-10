@@ -170,7 +170,7 @@
 			}
 			```
 			
-		2. SQLite: 本地資料庫，設定文件 *sourcemod\configs\databases.cfg*
+		2. SQLite: 本地資料庫，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
 			```php
 			// 資料庫位於 ```sourcemod\data\sqlite\rank_system.sq3``` (自動創建)
 			"rank"

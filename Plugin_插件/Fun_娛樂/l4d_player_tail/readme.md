@@ -112,7 +112,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set *sourcemod\configs\databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
 			```php
 			// Database in saved to ```sourcemod\data\sqlite\player_tail.sq3```
 			"tail"
@@ -271,7 +271,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: 本地資料庫，設定文件 *sourcemod\configs\databases.cfg*
+		2. SQLite: 本地資料庫，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod\configs\databases.cfg*
 			```php
 			// 資料庫位於 ```sourcemod\data\sqlite\player_tail.sq3``` (自動創建)
 			"tail"

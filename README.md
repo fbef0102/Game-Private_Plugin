@@ -544,6 +544,8 @@
     * AI Bot可以主動扔膽汁瓶、燃燒瓶、土製炸彈，提高智商不會亂丟
   * [l4d_survivor_bot_preferrence](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_survivor_bot_preferrence): Change the favorite weapon of each character bot
     * 更改AI Bot的喜愛武器順序，優先拿取合適的武器
+  * [bot_replace_player](/Plugin_插件/Bot_IQ_200_Bot_智商加強/bot_replace_player): If bot takes over the dead/incapacitated player who has disconnected, bot can repsawn and recovery HP.
+    * AI Bot取代離開遊戲的死亡與倒地玩家時，自動復活並給予武器
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
