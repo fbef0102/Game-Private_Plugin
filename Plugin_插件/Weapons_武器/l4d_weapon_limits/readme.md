@@ -9,12 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>None
 
 * Image | 圖示
-    * Display message when weapon limit reached
     <br/>![l4d_weapon_limits_1](image/l4d_weapon_limits_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
-    * Open cfg/server.cfg and write down cmds. For example:
+    * When limit reached, any of players can't pick up specific weapons or melees
+    * Open cfg/server.cfg and write down limit. For example:
         ```php
         // l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon/melee class name>
         l4d_weapon_limits_add 3 1 weapon_smg
@@ -22,13 +22,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_limits_add 3 1 weapon_pumpshotgun
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
+        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
         l4d_weapon_limits_add 2 0 weapon_melee
         l4d_weapon_limits_add 1 0 fireaxe
         l4d_weapon_limits_add 1 0 crowbar
-        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
+
+        // Add other custom melee if you want
+        // meleejb, finger are from custom map: Zengcheng
+        l4d_weapon_limits_add 1 0 meleejb 
+        l4d_weapon_limits_add 1 0 finger 
         ```
 
-    * All weapons/melee class name
+    * All weapons
         ```php
         weapon_pistol
         weapon_pistol_magnum
@@ -52,6 +57,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         weapon_sniper_scout
         weapon_sniper_awp
         weapon_melee
+        ```
+
+    * All melee class name
+        ```php
         baseball_bat
         cricket_bat
         crowbar
@@ -65,6 +74,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         golfclub
         pitchfork
         shovel
+        ... //Add other custom melee if you want
         ```
 </details>
 
@@ -115,6 +125,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v2.4 (2024-5-11)
+        * Support Custom Melee
+        * Fixed melee error
+
     * v2.2 (2023-12-13)
         * Compatible with l4d_multiple_equipment v1.2h or above by harry
         * Support each melee class limit
@@ -150,9 +164,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
         l4d_weapon_limits_add 2 0 weapon_melee
+        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
         l4d_weapon_limits_add 1 0 fireaxe
         l4d_weapon_limits_add 1 0 crowbar
-        l4d_weapon_limits_add 0 1 weapon_hunting_rifle
+
+        // 可以自行新增三方圖近戰武器
+        // meleejb, finger 近戰武器來自地圖: 廣州增城
+        l4d_weapon_limits_add 1 0 meleejb 
+        l4d_weapon_limits_add 1 0 finger 
         ```
 
     * 所有武器名稱
@@ -179,6 +198,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         CSS-Scout狙擊槍 => weapon_sniper_scout
         CSS-AWP狙擊槍 => weapon_sniper_awp
         近戰武器 => weapon_melee
+        ```
+
+    * 所有近戰武器名稱
+        ```php
         baseball_bat => 球棒
         cricket_bat => 板球拍
         crowbar => 鐵撬
@@ -192,6 +215,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         golfclub => 高爾夫球棒
         pitchfork => 草叉
         shovel => 鐵鏟
+        ... //自行新增三方圖近戰武器名稱
         ```
 </details>
 
