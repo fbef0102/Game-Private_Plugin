@@ -53,22 +53,28 @@
 	3. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
 			```php
-			// 伺服器真人玩家人數上限
-			// 18位真人玩家可以加入伺服器，自行修改此數值
+			// 18位真人玩家可以加入伺服器，自行修改此數值 (範圍1~31)
+			// 此數值為真人玩家的允許人數
 			sv_maxplayers 18
+
+			// 顯示給外面玩家看到的伺服器空位人數
 			sv_visiblemaxplayers 18
 
-			//以下指令不准改
+			// 為1時，動態大廳匹配制度，可能無法直接透過IP連線伺服器
+			// 為0時，關閉動態大廳匹配制度，可能會關閉大廳匹配
 			sv_allow_lobby_connect_only 0
+
+			// 為1時，強制sv_allow_lobby_connect_only為0
+			// 為1時，不會處理大廳匹配請求(也不會有大廳cookie)
 			sv_force_unreserved 1
 			```
 
-	4. 伺服器啟動時，務必將"玩家上限"改成32
+	4. 遊戲預設玩家上限只到18位，如果要改變玩家上限
         * 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
     	* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 32```
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e2c9e72c-fd0a-4dd2-a094-fdb5618e481f)
-  
+		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/accc68ae-7d95-464e-b0b0-8d90a9a03d9f)
+
 	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
 		```php
 		] meta list

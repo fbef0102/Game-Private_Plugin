@@ -8,20 +8,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* <details><summary>Image | 圖示</summary>
-
-    * Before (裝此插件之前)
-    <br/>![l4d_stagger_block_1](image/l4d_stagger_block_1.gif)
-    <br/>![l4d_stagger_block_2](image/l4d_stagger_block_2.gif)
-    <br/>![l4d_stagger_block_3](image/l4d_stagger_block_3.gif)
-    <br/>![l4d_stagger_block_4](image/l4d_stagger_block_4.gif)
-
-    * After (裝此插件之後)
-    <br/>![l4d_stagger_block_5](image/l4d_stagger_block_5.gif)
-    <br/>![l4d_stagger_block_6](image/l4d_stagger_block_6.gif)
-    <br/>![l4d_stagger_block_7](image/l4d_stagger_block_7.gif)
-    <br/>![l4d_stagger_block_8](image/l4d_stagger_block_8.gif)
-</details>
+* Image | 圖示
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d_stagger_block_1](image/l4d_stagger_block_1.gif)|![l4d_stagger_block_5](image/l4d_stagger_block_5.gif)|
+	| ![l4d_stagger_block_1](image/l4d_stagger_block_2.gif)|![l4d_stagger_block_5](image/l4d_stagger_block_6.gif)|
+	| ![l4d_stagger_block_1](image/l4d_stagger_block_3.gif)|![l4d_stagger_block_5](image/l4d_stagger_block_7.gif)|
+	| ![l4d_stagger_block_1](image/l4d_stagger_block_4.gif)|![l4d_stagger_block_5](image/l4d_stagger_block_8.gif)|
 
 * <details><summary>How does it work?</summary>
 
@@ -133,6 +126,5 @@ Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直�
 
         // Survivor不會被以下情況硬質震退 1=Boomer, 2=Witch, 4=Charger, 32=土製炸彈, 64=氧氣罐, 128=瓦斯桶, 256=燃油桶, 1024=其他物件. 數字相加 (0=關閉, 999=全部)
         l4d_stagger_block_survivor_flag "999"
-        ```
         ```
 </details>

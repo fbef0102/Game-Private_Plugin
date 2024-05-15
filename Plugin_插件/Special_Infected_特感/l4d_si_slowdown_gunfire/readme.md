@@ -8,10 +8,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/TtGyesF7mhs)
 
 * Image | 圖示
-	* Before (裝此插件之前)
-	<br/>![l4d_si_slowdown_gunfire_1](image/l4d_si_slowdown_gunfire_1.gif)
-	* After (裝此插件之後)
-	<br/>![l4d_si_slowdown_gunfire_2](image/l4d_si_slowdown_gunfire_2.gif)
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d_si_slowdown_gunfire_1](image/l4d_si_slowdown_gunfire_1.gif)|![l4d_si_slowdown_gunfire_2](image/l4d_si_slowdown_gunfire_2.gif)|
 
 * <details><summary>How does it work?</summary>
 

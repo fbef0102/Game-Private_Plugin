@@ -296,6 +296,8 @@
     * 遊戲開始後每隔一段時間在地圖上生成Witch
   * [l4d_witch_target_forever](/Plugin_插件/Witch_女巫/l4d_witch_target_forever): If the witch incap/kill players that aren't her initial target, then make the witch proceed to chase her initial target.
     * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標
+  * [l4d_witch_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_witch_stagger_block): Block Witch stumble by Weapons/Shove/Explosive Bullet/Pipebomb/....
+    * Witch 不會被狙擊槍/高爆子彈/土製炸彈... 震退
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
@@ -312,6 +314,8 @@
     * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
   * [l4d2_fallen_survivor_item_change](/Plugin_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
     * 改變墮落倖存者掉落的物品
+  * [l4d_ci_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....
+    * 普通感染者 不會被Boomer/榴彈/倖存者右鍵... 震退
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
@@ -642,6 +646,8 @@
     * 輸入指令移除地圖上所有的空氣牆
   * [l4d_lock_cvar](/Plugin_插件/Miscellaneous_雜項/l4d_lock_cvar): Enforces ConVars consistency from the data-file values
     * 鎖住CVAR的值，不會被遊戲或地圖或玩家竄改
+  * [l4d_block_msg_print](/Plugin_插件/Miscellaneous_雜項/l4d_block_msg_print): Block some useless game message
+    * 屏蔽移除遊戲自帶的提示
 </details>
 
 * <details><summary><b>只有中文的插件列表</b></summary>

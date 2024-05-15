@@ -8,15 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* <details><summary>Image | 圖示</summary>
-
-    * Before (裝此插件之前)
-    <br/>![l4d2_melee_modify_damage_1](image/l4d2_melee_modify_damage_1.gif)
-    <br/>![l4d2_melee_modify_damage_2](image/l4d2_melee_modify_damage_2.gif)
-    * After (裝此插件之後)
-    <br/>![l4d2_melee_modify_damage_3](image/l4d2_melee_modify_damage_3.gif)
-    <br/>![l4d2_melee_modify_damage_4](image/l4d2_melee_modify_damage_4.gif)
-</details>
+* Image | 圖示
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	|![l4d2_melee_modify_damage_1](image/l4d2_melee_modify_damage_1.gif)|![l4d2_melee_modify_damage_3](image/l4d2_melee_modify_damage_3.gif)|
+	|![l4d2_melee_modify_damage_2](image/l4d2_melee_modify_damage_2.gif)|![l4d2_melee_modify_damage_4](image/l4d2_melee_modify_damage_4.gif)|
 
 * <details><summary>How does it work?</summary>
 
