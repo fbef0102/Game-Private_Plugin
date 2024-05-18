@@ -14,7 +14,7 @@
 # 私人插件列表 Private Plugins List
 ###### **Important | 購買交易**
 > 我的未公開私人插件列表 (持續更新中)<br/>
-* 在這裡的插件均須收費交易，每一個插件至少100台幣以上 (25人民幣以上、28港幣以上)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
+* 在這裡的插件均須收費交易，每一個插件至少150台幣以上 (35人民幣以上)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
   * 可接受小幅度的修改或漢化處理
   * 想增加或改動插件功能，需增加費用
   * 有任何新點子或想法可以聯繫並提出來討論
@@ -67,7 +67,7 @@
   </details>
 
 > My Private Plugins (Will update more) 
-* Every plugin here is private (At least US$6 dollars above each plugin), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
+* Every plugin here is private (At least US$8 dollars above each plugin), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
   * Add new request and discuss
 * Q&A
