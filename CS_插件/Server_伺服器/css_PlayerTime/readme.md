@@ -1,5 +1,5 @@
 # Description | 內容
-Showing the time played on record in Game Stats and country while player joins the server
+Showing the time played in Game Stats and country while player joins the server
 (Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings)
 
 > __Note__ <br/>
@@ -17,7 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Display Name, country, city, play time, lerp on client connection
 	* Played time is from game statistics
-	* Any player whose total time played on record is below 1 hour can not join the server.
+	* Any player whose total time played is below 1 hour can not join the server.
 </details>
 
 * Important Step
@@ -35,7 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Application ID of current game. CS:S (240), CS:GO (730)
 		css_PlayerTime_appid "240"
 
-		// If 1, Announce the time played on record when player joins the server.
+		// If 1, Announce the time played when player joins the server.
 		css_PlayerTime_announce "1"
 
 		// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
@@ -47,13 +47,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Ban duration (Mins) (0=Permanent)
 		css_PlayerTime_block_ban_time "1440"
 
-		// Any player whose total time played on record is below this value can not join the server. (Mins) (0=off)
+		// Any player whose total time played is below this value can not join the server. (Mins) (0=off)
 		css_PlayerTime_block_short "60"
 
-		// Any player whose total time played on record is higher this value can not join the server. (Mins) (0=off)
+		// Any player whose total time played is higher this value can not join the server. (Mins) (0=off)
 		css_PlayerTime_block_long "0"
 
-		// Any player whose total time played on record is unknown can not join the server. (0=off)
+		// Any player whose total time played is unknown can not join the server. (0=off)
 		css_PlayerTime_block_unknown "0"
 		```
 </details>

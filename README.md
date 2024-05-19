@@ -122,7 +122,7 @@
     * 輸入指令顯示 Server/Vpn 列表
   * [l4d_slot_vote](/Plugin_插件/Server_伺服器/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
     * 允許玩家使用命令更改伺服器人數上限 + 踢除非管理員的所有旁觀者
-  * [sm_PlayerTime](/Plugin_插件/Server_伺服器/sm_PlayerTime): Showing the time played on record in Game Stats while player joins the server
+  * [sm_PlayerTime](/Plugin_插件/Server_伺服器/sm_PlayerTime): Showing the time played in Game Stats while player joins the server
     * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
   * [l4d_vote_block](/Plugin_插件/Server_伺服器/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
     * 根據遊戲模式和難度禁止使用Esc->發起投票
@@ -296,7 +296,7 @@
     * 遊戲開始後每隔一段時間在地圖上生成Witch
   * [l4d_witch_target_forever](/Plugin_插件/Witch_女巫/l4d_witch_target_forever): If the witch incap/kill players that aren't her initial target, then make the witch proceed to chase her initial target.
     * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標
-  * [l4d_witch_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_witch_stagger_block): Block Witch stumble by Weapons/Shove/Explosive Bullet/Pipebomb/....
+  * [l4d_witch_stagger_block](/Plugin_插件/Witch_女巫/l4d_witch_stagger_block): Block Witch stumble by Weapons/Shove/Explosive Bullet/Pipebomb/....
     * Witch 不會被狙擊槍/高爆子彈/土製炸彈... 震退
 </details>
 
@@ -316,6 +316,8 @@
     * 改變墮落倖存者掉落的物品
   * [l4d_ci_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....
     * 普通感染者 不會被Boomer/榴彈/倖存者右鍵... 震退
+  * [l4d_infected_no_slowdown](/Plugin_插件/Common_Infected_普通感染者/l4d_infected_no_slowdown): Prevent survivor from slowdown by common infected
+    * 被普通感染者攻擊不會减少移動速度
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
@@ -660,7 +662,7 @@
 
   * [css_texture_manager_block](/CS_插件/Server_伺服器/css_texture_manager_block): Kicks out clients who are potentially attempting to enable mathack
     * 踢出可能試圖使用作弊指令的客戶
-  * [css_PlayerTime](/CS_插件/Server_伺服器/css_PlayerTime): Showing the time played on record in Game Stats and country while player joins the server
+  * [css_PlayerTime](/CS_插件/Server_伺服器/css_PlayerTime): Showing the time played in Game Stats and country while player joins the server
     * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數與地區
   * [css_DynamicHostname](/css_DynamicHostname): Server name with txt file (Support any language)
     * 伺服器房名可以寫中文的插件

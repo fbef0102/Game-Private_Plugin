@@ -1,5 +1,5 @@
 # Description | 內容
-Showing the time played on record in Game Stats while player joins the server
+Showing the time played in Game Stats while player joins the server
 (Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings)
 
 > __Note__ <br/>
@@ -19,7 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Display Name, country, city, play time, lerp on client connection
 	* Played time is from game statistics
-	* Any player whose total time played on record is below 100 hours can not join the server.
+	* Any player whose total time played is below 100 hours can not join the server.
 </details>
 
 * Important Step
@@ -37,8 +37,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Application ID of current game. L4D (500), L4D2 (550)
 		sm_playtime_appid "550"
 
-		// If 1, Announce the time played on record when player joins the server.
+		// If 1, Announce the time played when player joins the server.
 		sm_playtime_announce "1"
+
+		// Announce the time played 1=Every time map change, 0=Only when join server
+		sm_PlayerTime_map_change "0"
 
 		// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
 		sm_playtime_log "1"
@@ -49,13 +52,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Ban duration (Mins) (0=Permanent)
 		sm_playtime_block_ban_time "1440"
 
-		// Any player whose total time played on record is below this value can not join the server. (Mins) (0=off)
+		// Any player whose total time played is below this value can not join the server. (Mins) (0=off)
 		sm_playtime_block_short "6000"
 
-		// Any player whose total time played on record is higher this value can not join the server. (Mins) (0=off)
+		// Any player whose total time played is higher this value can not join the server. (Mins) (0=off)
 		sm_playtime_block_long "0"
 
-		// Any player whose total time played on record is unknown can not join the server. (0=off)
+		// Any player whose total time played is unknown can not join the server. (0=off)
 		sm_playtime_block_unknown "0"
 		```
 </details>
@@ -84,6 +87,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.3 (2024-5-19)
+		* Update Cvars
 
 	* v2.2 (2023-3-14)
 		* Remove lerp
@@ -130,6 +136,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，玩家連線時顯示遊戲時數
 		sm_playtime_announce "1"
+
+		// 何時顯示遊戲時數, 1=每次換圖時, 0=玩家第一次加入伺服器時
+		sm_PlayerTime_map_change "0"
 
 		// 為1時，將玩家的遊戲時數記錄到logs裡面 (路徑為: sourcemod/logs/PlayerTime.log)
 		sm_playtime_log "1"
