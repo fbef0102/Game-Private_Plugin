@@ -60,7 +60,7 @@
       
 * [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
-* [Survivor Identity Fix for 5+ Survivors (Shadowysn 版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
+* [Survivor Identity Fix for 5+ Survivors (Shadowysn版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
     - 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
     - 修正第五人以上玩家死亡的時候，屍體在別的角色身上
 

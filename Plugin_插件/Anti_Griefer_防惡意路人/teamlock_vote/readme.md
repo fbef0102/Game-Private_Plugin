@@ -13,13 +13,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Before game starts, every can switch team
-		* Before survivors leave the saferoom
-		* Before survival starts
-		* Before scavenge starts
-	* After game starts, server will "lock the team"
+	* Before game starts
+		* Every can switch team
+	* After game starts or round is live, server will "lock the team"
 		* Only the infected players or survivor players can switch team
 		* All other spectators can not join the team and play
+	* "Game starts" meaning
+		* Survivors leave the saferoom
+		* Survival starts
+		* Scavenge starts
+		* Everyone is ready (Support readyup plugin)
 	* After map end or round end, every can switch team
 	* Record Steam ID, the infected players or survivor players can switch team even if they leave and rejoin the server
 </details>
@@ -28,7 +31,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-
+	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
+	
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/teamlock_vote.cfg
@@ -66,6 +70,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2023-5-23)
+		* Support readyup
+
 	* v1.1 (2023-2-16)
 		* Support L4D1
 
@@ -78,15 +85,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 遊戲開始後旁觀者或路人不能跳隊到倖存者或感染者遊玩
 
 * 原理
-	* 遊戲開始之前任何人可以自由切換隊伍，這裡指的"遊戲開始"為
-		* 倖存者離開安全區域
-		* 生存模式計時開始
-		* 清道夫開始時
+	* 遊戲開始之前
+		* 任何人可以自由切換隊伍
 	* 當遊戲開始時啟動"隊伍鎖住功能"
-		* 只有人類玩家或特感玩家可以自由切換隊伍
+		* 只有倖存者玩家或特感玩家可以自由切換隊伍
 		* 其他旁觀者人不能跳隊下去遊玩
+	* 這裡指的"遊戲開始"是
+		1. 戰役/對抗/寫實中離開安全室
+		2. 生存模式計時開始
+		3. 清道夫模式計時開始
+		4. 所有人準備之前 (支援準備插件)
 	* 回合重新開始時名單會清除重置，任何人可以自由切換隊伍
-	* 插件會紀錄玩家的Steam ID，意思是說即使人類玩家與特感玩家離開伺服器重進遊戲，依然可以自由切換隊伍
+	* 插件會紀錄玩家的Steam ID，意思是說即使倖存者玩家與特感玩家離開伺服器重進遊戲，依然可以自由切換隊伍
 	* 當伺服器內沒有任何被插件記錄的玩家時，關閉"隊伍鎖住功能"，任何人可以自由切換隊伍
 	* 閒置玩家不會被影響
 
@@ -103,7 +113,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 60秒後才能再發起 "隊伍鎖住功能" 投票
 		teamlock_vote_delay "60"
 
-		// 發起 "隊伍鎖住功能" 投票需要的真人玩家數量，位於特感隊伍與人類隊伍
+		// 發起 "隊伍鎖住功能" 投票需要的真人玩家數量，位於特感隊伍與倖存者隊伍
 		teamlock_vote_required "2"
 
 		// 為1時，遊戲開始後不能發起 "隊伍鎖住功能" 投票

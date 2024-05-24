@@ -5,6 +5,8 @@ Showing the time played in Game Stats and country while player joins the server
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+🟥Dedicated Server Only<br/>
+🟥只能安裝在Dedicated Server
 
 * Video | 影片展示
 <br>None
@@ -22,7 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Important Step
 	* To retrieve country and city from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
-	* 🟥Dedicated Server Only, Local server can not retrieve country and city from client
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)

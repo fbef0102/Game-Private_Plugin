@@ -9,16 +9,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/1G6euowfyFI)
 
-* <details><summary>Image | 圖示</summary>
-
-	* Survivors can't pick up weapons and items before the start of each round (遊戲開始之前不能撿起任何武器或物品)
+* Image | 圖示
 	<br/>![starting_items_1](image/starting_items_1.jpg)
-
-	* Can't shoot any gascan before the start of each round (遊戲開始之前不能點燃任何汽油桶)
 	<br/>![starting_items_2](image/starting_items_2.jpg)
-
-	* Support ReadyUp plugin (支援準備插件)
 	<br/>![starting_items_3](image/starting_items_3.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Before game starts
+		* Survivors can't pick up weapons and items before the start of each round
+		* Can't shoot any gascan before the start of each round
+	* After game starts or round is live
+		* This plugin will give some items such as Defib, Pill, Adren, Pipebomb, Molotov, Bile
+	* "Game starts" meaning
+		* Survivors leave the saferoom
+		* Survival starts
+		* Scavenge starts
+		* Everyone is ready (Support readyup plugin)
 </details>
 
 * Require | 必要安裝
@@ -100,14 +107,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資
 
 * 原理
-	* 遊戲開始之前，不准撿起地圖上的武器與物品
-	* 遊戲開始之前，不准點燃汽油桶、瓦斯桶、煙火盒
-	* 遊戲開始之後，插件會給予火瓶、腎上腺素、治療包
+	* 遊戲開始之前
+		* 不准撿起地圖上的武器與物品
+		* 不准點燃汽油桶、瓦斯桶、煙火盒
+	* 遊戲開始之後，插件會給予火瓶、腎上腺素、治療包等物品
 	* 這裡指的"遊戲開始"是
 		1. 戰役/對抗/寫實中離開安全室
 		2. 生存模式計時開始
 		3. 清道夫模式計時開始
-	* 支援準備插件，所有人準備之前
+		4. 所有人準備之前 (支援準備插件)
 	* 不影響過關攜帶的武器
 
 * <details><summary>指令中文介紹(點我展開)</summary>

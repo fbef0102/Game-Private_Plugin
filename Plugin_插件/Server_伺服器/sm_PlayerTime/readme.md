@@ -5,6 +5,8 @@ Showing the time played in Game Stats while player joins the server
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+🟥Dedicated Server Only<br/>
+🟥只能安裝在Dedicated Server
 
 * Video | 影片展示
 <br>None
@@ -24,7 +26,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Important Step
 	* To retrieve country and city from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
-	* 🟥Dedicated Server Only, Local server can not retrieve country and city from client
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -125,7 +126,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 必看步驟
 	* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
-	* 🟥 只限定Dedicated Server，區域房無法抓取地理位置
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
