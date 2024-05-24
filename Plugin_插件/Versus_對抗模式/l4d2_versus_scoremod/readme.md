@@ -87,6 +87,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+    * ```scripting\include\l4d2_versus_scoremod.inc```
+        ```php
+        Registers a library name: l4d2_versus_scoremod
+        ```
+</details>
+
 * <details><summary>Data Config</summary>
 
 	* data/mapinfo.txt

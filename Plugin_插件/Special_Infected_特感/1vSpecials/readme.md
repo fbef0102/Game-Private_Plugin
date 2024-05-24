@@ -73,7 +73,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, this plugin only takes effect when infected attacking bot.
         1vSpecials_apply_bot_only "0"
 
-        // If 1, this plugin removes god frame when capped by special infected.
+        // If 1, this plugin removes god frame when damaged by special infected.
         1vSpecials_remove_godframe "1"
         ```
 </details>
@@ -174,7 +174,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，這插件只對AI Bot的倖存者有效果
         1vSpecials_apply_bot_only "0"
 
-        // 為1時，移除人類的無敵狀態 (運作更順暢)
+        // 為1時，移除人類解除特感控制後的無敵狀態 (運作更順暢)
         1vSpecials_remove_godframe "1"
         ```
 </details>

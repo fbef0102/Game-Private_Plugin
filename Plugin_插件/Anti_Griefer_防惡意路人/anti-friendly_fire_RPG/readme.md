@@ -112,6 +112,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9 (2024-5-24)
+		* Fixed god frame damage
+
 	* v1.8 (2024-5-2)
 		* Update cvars
 
