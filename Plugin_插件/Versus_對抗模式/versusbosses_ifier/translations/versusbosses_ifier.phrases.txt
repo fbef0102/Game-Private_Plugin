@@ -1,0 +1,198 @@
+"Phrases"
+{
+	"s_TankOn"
+	{
+		"#format"   "{1:i}"
+		"en"	"Tank: {1}%%"
+	}
+	"s_TankNone"
+	{
+		"en"	"Tank: None"
+	}
+	"s_TankStatic"
+	{
+		"en"	"Tank: Static"
+	}
+	"s_WitchOn"
+	{
+		"#format"   "{1:i}"
+		"en"	"Witch: {1}%%"
+	}
+	"s_WitchNone"
+	{
+		"en"	"Witch: None"
+	}
+	"s_WitchStatic"
+	{
+		"en"	"Witch: Static"
+	}
+
+	"TagTankPercent"
+	{
+		"#format"   "{1:i}"
+		"en"	"Tank: [{blue}{1}%%%%{default}]"
+	}
+	"TagTankStaticSpawn"
+	{
+		"en"	"Tank: [{blue}Static{default}]"
+	}
+	"TagTankNone"
+	{
+		"en"	"Tank: [{blue}None{default}]"
+	}
+	"TagWitchPercent"
+	{
+		"#format"   "{1:i}"
+		"en"	"Witch: [{blue}{1}%%%%{default}]"
+	}
+	"TagWitchStaticSpawn"
+	{
+		"en"	"Witch: [{blue}Static{default}]"
+	}
+	"TagWitchNone"
+	{
+		"en"	"Witch: [{blue}None{default}]"
+	}
+
+    // VoteBossCmd
+    "Usage_VoteBoss1"
+    {
+        "en"        "{blue}[{default}VoteBoss{blue}] {olive}Usage: {default}!voteboss <tank> <witch>, ex: !voteboss 50 80"
+		"zho"       "{blue}[{default}VoteBoss{blue}] {olive}使用方式: {default}!voteboss <tank> <witch>, 譬如: !voteboss 50 80"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {olive}使用方式: {default}!voteboss <tank> <witch>, 譬如: !voteboss 50 80"
+    }
+    "Usage_VoteBoss2"
+    {
+        "en"        "{blue}[{default}VoteBoss{blue}] {default}\"{blue}0{default}\" for {olive}No Spawn{default}, \"{blue}-1{default}\" for {olive}Ignorance."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}\"{blue}0{default}\" 代表 {olive}不生成{default}, \"{blue}-1{default}\" 代表 {olive}忽略."
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}\"{blue}0{default}\" 代表 {olive}不生成{default}, \"{blue}-1{default}\" 代表 {olive}忽略."
+    }
+	"OnlyReadyUp"
+	{
+		"en"        "{blue}[{default}BossVote{blue}] {default}You can only set Spawns during first round Ready-up."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}只能在前半回合的準備階段才能使用"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}只能在前半回合的准备阶段才能使用"
+	}
+	"OnlyBeforeSaferoom"
+	{
+		"en"        "{blue}[{default}BossVote{blue}] {default}You can only set Spawns during first round SafeRoom."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}只能在前半回合的安全區內才能使用"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}只能在前半回合的安全区内才能使用"
+	}
+    "NotAvailableForSpec"
+    {
+        "en"        "{blue}[{default}BossVote{blue}] {default}Boss voting is not available for spectators."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}不允許旁觀者發起投票"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}不允许旁观者发起投票"
+    }
+    "NotEnoughPlayer"
+    {
+		"#format"   "{1:i}"
+        "en"        "{blue}[{default}VoteBoss{blue}] {default}You need at least {1} Players to start this vote."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}至少有 {1} 位玩家在場才能發起投票"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}至少有 {1} 位玩家在场才能发起投票"
+    }
+    "Invalid"
+    {
+		"#format"   "{1:i}"
+        "en"        "{blue}[{default}VoteBoss{blue}] {default}Percentages are {olive}invalid{default}."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}生成百分比數字 {olive}不合法"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}生成百分比数字 {olive}不合法"
+    }
+    "SetBosses"
+    {
+		"#format"   "{1:i},{2:i}"
+        "en"        "Set Tank to: {1}%% and Witch to: {2}%%?"
+    }
+    "SetTank"
+    {
+		"#format"   "{1:i}"
+        "en"        "Set Tank to: {1}%% and Witch to: Disabled?"
+    }
+    "SetOnlyTank"
+    {
+		"#format"   "{1:i}"
+        "en"        "Set Tank to: {1}%%?"
+    }
+    "SetWitch"
+    {
+		"#format"   "{1:i}"
+        "en"        "Set Tank to: Disabled and Witch to: {1}%%?"
+    }
+    "SetOnlyWitch"
+    {
+		"#format"   "{1:i}"
+        "en"        "Set Witch to: {1}%%?"
+    }
+    "SetBossesDisabled"
+    {
+        "en"        "Set Bosses to: Disabled?"
+    }
+    "SetTankDisabled"
+    {
+        "en"        "Set Tank to: Disabled?"
+    }
+    "SetWitchDisabled"
+    {
+        "en"        "Set Witch to: Disabled?"
+    }
+    "CannotBeCalled"
+    {
+        "en"        "{blue}[{default}VoteBoss{blue}] {default}Boss Vote cannot be called right now..."
+		"zho"       "{blue}[{default}VoteBoss{blue}] {default}目前無法發起新投票，請稍後再試"
+		"chi"       "{blue}[{default}VoteBoss{blue}] {default}目前无法发起新投票，请稍后再试"
+    }
+	// ForceCommand
+	"CommandNotAvailable"
+	{
+		"en"        "Command not available on this map."
+		"zho"       "此地圖不允許該命令"
+		"chi"       "此地图不允许该命令"
+	}
+	"Usage_SetWitch"
+	{
+		"en"        "{olive}Usage: {default}!fwitch <number>"
+		"zho"       "{olive}使用方式: {default}!fwitch <數字>"
+		"chi"       "{olive}使用方式: {default}!fwitch <数字>"
+	}
+    "WitchSpawnAdmin"
+    {
+		"#format"   "{1:i},{2:s}" // 1:p_iRequestedPercent 2:clientName
+        "en"        "Witch spawn set to {olive}{1}%{default} by Admin {blue}{2}{default}."
+		"zho"       "{blue}{2}{default} 強制修改Witch路程為 {olive}{1}%{default}"
+		"chi"       "{blue}{2}{default} 强制修改Witch路程为 {olive}{1}%{default}"
+    }
+	"Usage_SetTank"
+	{
+		"en"        "{olive}Usage: {default}!ftank <number>"
+		"zho"       "{olive}使用方式: {default}!ftank <數字>"
+		"chi"       "{olive}使用方式: {default}!ftank <数字>"
+	}
+    "TankSpawnAdmin"
+    {
+		"#format"   "{1:i},{2:s}" // 1:p_iRequestedPercent 2:clientName
+        "en"        "Tank spawn set to {olive}{1}%{default} by Admin {blue}{2}{default}."
+		"zho"       "{blue}{2}{default} 強制修改Tank路程為 {olive}{1}%{default}"
+		"chi"       "{blue}{2}{default} 强制修改坦克路程为 {olive}{1}%{default}"
+    }
+	// BossVoteResultHandler
+	"SettingBoss"
+	{
+		"en"        "Setting Boss Spawns..."
+	}
+
+	// Boss has spawned
+	"TankSpawned"
+	{
+		"en"        "[{olive}TS{default}] Tank has spawned"
+		"zho"       "[{olive}TS{default}] Tank 已復活"
+		"chi"       "[{olive}TS{default}] 坦克 已复活"
+	}
+
+	"WitchSpawned"
+	{
+		"en"        "[{olive}TS{default}] Witch has spawned"
+		"zho"       "[{olive}TS{default}] Witch 已復活"
+		"chi"       "[{olive}TS{default}] Witch 已复活"
+	}
+}

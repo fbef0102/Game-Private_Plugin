@@ -29,16 +29,16 @@ public SharedPlugin __pl_l4d2_versus_scoremod =
 #if !defined REQUIRE_PLUGIN
 public void __pl_l4d2_versus_scoremod_SetNTVOptional()
 {
-	MarkNativeAsOptional("L4D2VS_GetHealthBonus()");
-	MarkNativeAsOptional("L4D2VS_GetDamageBonus()");
-	MarkNativeAsOptional("L4D2VS_GetPillsBonus()");
-	MarkNativeAsOptional("L4D2VS_GetAdrenalinesBonus()");
-	MarkNativeAsOptional("L4D2VS_GetKitsBonus()");
+	MarkNativeAsOptional("L4D2VS_GetHealthBonus");
+	MarkNativeAsOptional("L4D2VS_GetDamageBonus");
+	MarkNativeAsOptional("L4D2VS_GetPillsBonus");
+	MarkNativeAsOptional("L4D2VS_GetAdrenalinesBonus");
+	MarkNativeAsOptional("L4D2VS_GetKitsBonus");
 
-	MarkNativeAsOptional("L4D2VS_GetMaxHealthBonus()");
-	MarkNativeAsOptional("L4D2VS_GetMaxDamageBonus()");
-	MarkNativeAsOptional("L4D2VS_GetMaxPillsBonus()");
-	MarkNativeAsOptional("L4D2VS_GetMaxAdrenalinesBonus()");
-	MarkNativeAsOptional("L4D2VS_GetMaxKitsBonus()");
+	MarkNativeAsOptional("L4D2VS_GetMaxHealthBonus");
+	MarkNativeAsOptional("L4D2VS_GetMaxDamageBonus");
+	MarkNativeAsOptional("L4D2VS_GetMaxPillsBonus");
+	MarkNativeAsOptional("L4D2VS_GetMaxAdrenalinesBonus");
+	MarkNativeAsOptional("L4D2VS_GetMaxKitsBonus");
 }
 #endif

@@ -58,20 +58,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
 		// If 1, Allow for Easy Setup of the Boss Spawns (!voteboss)
-		l4d_versus_boss_vote "1"
+		l4d_versus_boss_vote_enable "1"
 
 		// How many players at least to vote Boss Spawns.
 		l4d_versus_boss_vote_need_player "4"
 
+		// 1=Enables tanks to spawn, 0=Disable All Tank Spawn
+		l4d_versus_boss_tank_can_spawn "1"
+
+		// 1=Enables witches to spawn, 0=Disable All Witch Spawn
+		l4d_versus_boss_witch_can_spawn "1"
+
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
 		l4d_versus_boss_avoid_tank_spawn "10"
 
-		// Enable forcing boss spawns to obey boss spawn cvars
+		// If 1, Forcing director script to obey boss spawn cvars
 		l4d_versus_boss_spawn_cvars "1"
 
-		// Don't override boss spawning rules on Static Tank Spawn maps
-		// Need to write keyvalue "static_tank_map" "1" in data/mapinfo.txt (c7m1, c13m2)
-		l4d_versus_boss_spawn_except_static "1"
+		// 1=Display boss percentages to entire team when using commands, 0=Display boss percentages to user only team when using commands
+		l4d_versus_boss_global_percent "1"
+
+		// If 1, Display Tank flow percentage in chat
+		l4d_versus_boss_tank_percent "1"
+
+		// If 1, Display Witch flow percentage in chat
+		l4d_versus_boss_witch_percent "1"
+
+		// If 1, Notify message when tank/witch has spawned
+		l4d_versus_boss_spawn_notify "1"
 		```
 </details>
 
@@ -80,11 +94,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 		```php
 		sm_setwitch <number>
+		sm_fwitch <number>
 		```
 
 	* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
 		```php
 		sm_settank <number>
+		sm_ftank <number>
 		```
 
 	* **Display Spawn percent for boss**
@@ -102,17 +118,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+	* ```scripting\include\versusbosses_ifier.inc```
+		```php
+		Registers a library name: versusbosses_ifier
+		```
+</details>
+
 * <details><summary>Data Config</summary>
-  
+
 	* data/mapinfo.txt
 		```php
 		"MapInfo"
 		{
-			"c1m2_streets"　//Map Name
-			{
-				"tank_map_off" "1" 		//This map is prohibited to spawn tank
-				"witch_map_off" "1"	 	//This map is prohibited to spawn witch
-			}
 			"c2m2_fairgrounds" //Map Name
 			{
 				"tank_ban_flow" //ban tank flow
@@ -139,6 +158,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 		}
 		```
+
+	* Available Settings
+		```php
+		// 1=This map is prohibited to spawn tank
+		"tank_map_off" "1"
+
+		//1=This map is prohibited to spawn witch
+		"witch_map_off" "1"
+
+		//1=This map has its own static tank spawn
+		"static_tank_map" "1"
+
+		//1=This map has its own static witch spawn
+		"static_witch_map" "1"
+
+		//1=Plugin spawns bride witch in this map
+		"witch_bride_map" "1"
+		```
 </details>
 
 * Apply to | 適用於
@@ -161,15 +198,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.5h (2023-6-20)
-        * Require left4dhooks v1.33 or above
+	* v1.6h (2024-5-26)
+		* Update API and inc
+		* Support Translation 
+		* Update cvars
+
+	* v1.5h (2023-6-20)
+		* Require left4dhooks v1.33 or above
 
 	* v1.4h (2023-2-11)
 		* Fix plugin does not work if there is no any start safe area in some custom maps
-	    * Makes Versus Boss Spawns obey cvars
+		* Makes Versus Boss Spawns obey cvars
 
 	* v1.3
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -
@@ -211,11 +253,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		"MapInfo"
 		{
-			"c1m2_streets"　//地圖名
-			{
-				"tank_map_off" "1" 		//該地圖禁止生成Tank
-				"witch_map_off" "1"	 	//該地圖禁止生成Witch
-			}
 			"c2m2_fairgrounds" //地圖名
 			{
 				"tank_ban_flow" //禁止Tank生成的路段
@@ -245,6 +282,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	> 每一張地圖都有地形或地圖問題，<br/>
 	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
 	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+
+	* 可用的參數
+		```php
+		// 1=該地圖禁止生成Tank
+		"tank_map_off" "1"
+
+		//1=該地圖禁止生成Witch
+		"witch_map_off" "1"
+
+		//1=該地圖有自己固定生成的Tank
+		"static_tank_map" "1"
+
+		//1=該地圖有自己固定生成的Witch
+		"static_witch_map" "1"
+
+		//1=插件會生成新娘模組的Witch
+		"witch_bride_map" "1"
+		```
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -252,7 +307,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* cfg/sourcemod/versusbosses_ifier.cfg
 		```php
 		// If 1, 允許玩家打 !voteboss 發起投票決定Tank/Witch 路程
-		l4d_versus_boss_vote "1"
+		l4d_versus_boss_vote_enable "1"
 
 		// 發起!voteboss投票所需的玩家數量 
 		l4d_versus_boss_vote_need_player "4"
@@ -260,12 +315,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Tank 附近前後5% (10除以2) 避開生成witch
 		l4d_versus_boss_avoid_tank_spawn "10"
 
-		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
+		// 為1時，強制VScript覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
 		l4d_versus_boss_spawn_cvars "1"
 
-		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (不要修改此指令除非你知道在幹嗎)
-		// data/mapinfo.txt裡面必須寫上"static_tank_map" "1"，譬如c7m1, c13m2
-		l4d_versus_boss_spawn_except_static "1"
+		// 使用指令打印該回合 Tank/Witch 路程時 1=顯示給跟你相同的隊伍所有人, 0=只顯示給自己看
+		l4d_versus_boss_global_percent "1"
+
+		// 為1時，聊天框與指令可顯示Tank路程
+		l4d_versus_boss_tank_percent "1"
+
+		// 為1時，聊天框與指令可顯示Witch路程
+		l4d_versus_boss_witch_percent "1"
+
+		// 為1時，Tank/Witch生成時提示訊息
+		l4d_versus_boss_spawn_notify "1"
 		```
 </details>
 
