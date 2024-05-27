@@ -184,6 +184,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 versus
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Related | 相關插件</summary>
 
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
@@ -311,6 +320,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 發起!voteboss投票所需的玩家數量 
 		l4d_versus_boss_vote_need_player "4"
+
+		// 1=允許生成tank, 0=禁止任何tank生成
+		l4d_versus_boss_tank_can_spawn "1"
+
+		// 1=允許生成witch, 0=禁止任何witch生成
+		l4d_versus_boss_witch_can_spawn "1"
 
 		// Tank 附近前後5% (10除以2) 避開生成witch
 		l4d_versus_boss_avoid_tank_spawn "10"

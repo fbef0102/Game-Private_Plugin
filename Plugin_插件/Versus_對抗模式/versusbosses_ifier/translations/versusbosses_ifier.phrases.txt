@@ -94,7 +94,6 @@
     }
     "Invalid"
     {
-		"#format"   "{1:i}"
         "en"        "{blue}[{default}VoteBoss{blue}] {default}Percentages are {olive}invalid{default}."
 		"zho"       "{blue}[{default}VoteBoss{blue}] {default}生成百分比數字 {olive}不合法"
 		"chi"       "{blue}[{default}VoteBoss{blue}] {default}生成百分比数字 {olive}不合法"

@@ -89,6 +89,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.4 (2024-5-27)
+		* Fixed not working well in sourcemod 1.12
+
 	* v2.3 (2024-5-19)
 		* Update Cvars
 

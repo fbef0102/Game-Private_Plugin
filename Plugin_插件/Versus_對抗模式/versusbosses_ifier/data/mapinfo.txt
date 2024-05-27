@@ -250,6 +250,7 @@
 	{
 		"witch_map_off"	"1"
 		"witch_bride_map" "1"
+		"static_witch_map" "1"
 	}
 	"c6m2_bedlam"
 	{
