@@ -1,0 +1,118 @@
+"Phrases"
+{
+	"TankHud"
+	{
+		"en"	"Tank Practice Hud"
+		"zho"	"Tank 練習面板"
+		"chi"	"坦克练习面板"
+	}
+	"reset"
+	{
+		"en"	"Reset All Hittable Objects"
+		"zho"	"重置所有鐵的位置"
+		"chi"	"重置所有铁的位置"
+	}
+	"noclip"
+	{
+		"en"	"Noclip Yourself"
+		"zho"	"穿牆模式開關"
+		"chi"	"穿墙模式开关"
+	}
+	"teleportsur"
+	{
+		"en"	"Teleport Survivor to Crosshair"
+		"zho"	"傳送生還者到準心瞄準的位置"
+		"chi"	"传送生还者到鼠标瞄准的位置"
+	}
+	"kickbot"
+	{
+		"en"	"Kick Survivor Bots"
+		"zho"	"踢出所有倖存者Bot"
+		"chi"	"踢出所有生还者人机"
+	}
+	"addbot"
+	{
+		"en"	"Add Survivor Bot on Crosshair"
+		"zho"	"新增倖存者Bot到準心瞄準的位置"
+		"chi"	"新增生还者人机到鼠标瞄准的位置"
+	}
+	"botnodamage_on"
+	{
+		"en"	"Survivor God Mode [On]"
+		"zho"	"倖存者免疫傷害 [開]"
+		"chi"	"生还者免疫伤害 [开]"
+	}
+	"botnodamage_off"
+	{
+		"en"	"Survivor God Mode [Off]"
+		"zho"	"倖存者免疫傷害 [關]"
+		"chi"	"生还者免疫伤害 [关]"
+	}
+	"healbot"
+	{
+		"en"	"Heal All Survivors"
+		"zho"	"所有生还者回复血量"
+		"chi"	"所有生还者回复血量"
+	}
+	"becometank"
+	{
+		"en"	"You Become Tank"
+		"zho"	"變身成為Tank"
+		"chi"	"变身成为坦克"
+	}
+
+	"Survivor God Mode is now On"
+	{
+		"#format"	"{1:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Survivor God Mode is now On"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 倖存者免疫傷害 開啟"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 生还者免疫伤害 开启"
+	}
+	"Survivor God Mode is now Off"
+	{
+		"#format"	"{1:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Survivor God Mode is now Off"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 倖存者免疫傷害 關閉"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 生还者免疫伤害 关闭"
+	}
+	"No any Survivor bots"
+	{
+		"en"	"No any Survivor bots"
+		"zho"	"尚無任何倖存者"
+		"chi"	"尚无任何生还者"
+	}
+	"Invalid Target"
+	{
+		"en"	"Target is not in game, choose again"
+		"zho"	"目标已不在伺服器, 请重新选择"
+		"chi"	"目标已不在服务器, 请重新选择"
+	}
+	"Kick All Survivor Bots"
+	{
+		"#format"	"{1:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Kick All Survivor Bots"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 踢出了所有倖存者Bot"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 踢出了所有生还者人机"
+	}
+	"Add New Survivor Bot"
+	{
+		"#format"	"{1:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Add New Survivor Bot"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 新增了倖存者Bot"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 新增了生还者人机"
+	}
+	"Teleport Survivor"
+	{
+		"#format"	"{1:N},{2:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Teleport Survivor {olive}{2}"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 傳送了倖存者 {olive}{2}"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 传送了生还者 {olive}{2}"
+	}
+	"Heal All Survivors"
+	{
+		"#format"	"{1:N}"
+		"en"	"[{olive}Hittable{default}] {green}{1}{default} - Heal All Survivors"
+		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 治癒了所有倖存者血量"
+		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 治癒了所有生还者血量"
+	}
+}

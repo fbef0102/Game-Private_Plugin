@@ -268,6 +268,8 @@
     * 地圖每過一段時間自動生成Tank，對抗模式也適用
   * [l4d_tank_roar](/Plugin_插件/Tank_坦克/l4d_tank_roar): Tank is given a special roar ability that knockbacks (Towards/Away) survivors by RELOAD button.
     * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
+  * [l4d2_tank_hittable_reset](/Plugin_插件/Tank_坦克/l4d2_tank_hittable_reset): Tank can use menu to reset all hittable and enter practice mode
+    * Tank可以重置所有物件的位置並練習如何揮打車子
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

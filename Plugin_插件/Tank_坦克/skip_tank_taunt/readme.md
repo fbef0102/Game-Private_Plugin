@@ -29,6 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
+
 	None
 </details>
 

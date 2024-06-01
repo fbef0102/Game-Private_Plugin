@@ -58,6 +58,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_witch_behind_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_behind_fix): The witch turns back if nearby survivor scares her behind
+		* 當有人在背後驚嚇Witch，Witch會秒轉身攻擊
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2023-12-05)

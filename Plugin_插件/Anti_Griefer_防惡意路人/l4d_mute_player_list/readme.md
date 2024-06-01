@@ -19,15 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Admin won't be muted
 </details>
 
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.1 (2023-3-13)
-		* Admin will not be blocked and muted by other players.
-
-	* v1.0 (2023-3-12)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
@@ -68,6 +59,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	繁體中文
 	简体中文
 	```
+</details>
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2023-3-13)
+		* Admin will not be blocked and muted by other players.
+
+	* v1.0 (2023-3-12)
+		* Initial Release
 </details>
 
 - - - -
