@@ -78,10 +78,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_tank_props_glow](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_tank_props_glow): When a Tank punches a Hittable it adds a Glow to the hittable which all infected players can see. + Stop tank props from fading whilst the tank is alive
+		* Tank打到的物件都會產生光圈，只有特感能看見 + Tank死亡之後車子自動消失
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-6-4)
+		* Upate Translation
+		* Only intected team can use menu
+
 	* v1.0 (2024-6-1)
-		* Rnitial Release
+		* Initial Release
 </details>
 
 - - - -

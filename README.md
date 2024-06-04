@@ -200,7 +200,7 @@
 
   * [l4d_Nauseating_boomer](/Plugin_插件/Boomer_Boomer/l4d_Nauseating_boomer): Allows for unique Boomer abilities to spread its nauseating bile.
     * 增強Boomer，賦予多種超能力成為超級肥宅
-  * [l4d2_boomer_vomit_move](/Plugin_插件/Boomer_Boomer/l4d2_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
+  * [l4d_boomer_vomit_move](/Plugin_插件/Boomer_Boomer/l4d_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
     * Boomer可以邊吐邊移動 (AI與真人都適用)
   * [l4d_boomer_super_explode](/Plugin_插件/Boomer_Boomer/l4d_boomer_super_explode): The boomer can active super explode
     * Boomer可以自爆，產生更大的傷害與衝擊波

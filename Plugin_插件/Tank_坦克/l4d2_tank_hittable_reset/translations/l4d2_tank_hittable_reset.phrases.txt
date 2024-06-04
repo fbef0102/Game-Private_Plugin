@@ -115,4 +115,18 @@
 		"zho"	"[{olive}Hittable{default}] {green}{1}{default} - 治癒了所有倖存者血量"
 		"chi"	"[{olive}Hittable{default}] {green}{1}{default} - 治癒了所有生还者血量"
 	}
+
+	"Not In Infected"
+	{
+		"en"	"You are not in infected team"
+		"zho"	"你不在特感隊伍"
+		"chi"	"你不在特感队伍"
+	}
+
+	"Not Tank"
+	{
+		"en"	"You are not tank"
+		"zho"	"你不是Tank"
+		"chi"	"你不是坦克"
+	}
 }
