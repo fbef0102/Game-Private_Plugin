@@ -22,6 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Molotov dropped => change into Pipebomb or VomitJar.
 		* First aid kit dropped => change into defibrillator.
 		* Pill dropped => change into adrenaline.
+	* Can't change survivors item display he carries. Why so serious son?
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -81,6 +82,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 藥丸有機率變成腎上腺素
 		* 土製炸彈有機率變成火瓶或膽汁瓶
 		* 火瓶有機率變成土製炸彈或膽汁瓶
+	* 無法修改墮落倖存者外觀身上顯示的物資，認真你就輸了
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

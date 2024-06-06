@@ -15,18 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* All Player Medkit Status (所有玩家的治療包使用量)
 	<br/>![l4d_medkit_status_2](image/l4d_medkit_status_2.jpg)
 
-* Apply to | 適用於
-	```
-	L4D1 
-	L4D2
-	```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	* v1.0 (2022-12-23)
-		* Initial Release
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -58,6 +46,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_med
 		```
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 
+	L4D2
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0 (2022-12-23)
+		* Initial Release
 </details>
 
 - - - -

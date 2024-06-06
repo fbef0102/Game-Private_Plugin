@@ -400,6 +400,8 @@
     * 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資
   * [l4d2_remix_gascan](/Plugin_插件/Items_物品/l4d2_remix_gascan): Increase gas cans in scavenge events, and to be randomly placed by custom list of gas can locations.
     * 汽油桶關卡或清道夫模式可以隨機放置自己想要的汽油桶位置與數量
+  * [l4d2_shorten_bilejar_duration](/Plugin_插件/Items_物品/l4d2_shorten_bilejar_duration): Shorten bile jar effect duration as soon as it shatters
+    * 縮短膽汁瓶破碎後的效果持續時間
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>

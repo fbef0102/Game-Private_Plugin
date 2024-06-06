@@ -18,6 +18,50 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* !gas: display all players' gascan destroyed stats. (指令!gas顯示)
 	<br/>![who_shot_gas_4](image/who_shot_gas_4.jpg)
 
+* Require | 必要安裝
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>ConVar | 指令</summary>
+
+	* cfg/sourcemod/who_shot_gas.cfg
+		```php
+		// Output to the chat last X players to explodes (last hit) a gascan. (0=OFF)
+		who_shot_gas_number "5"
+
+		// If 1, Ignore gas can being shot before game starts (Survival/Scavenge)
+		who_shot_gas_ignore_before_game "1"
+
+		// If 1, Ignore gas can if ignited by fire
+		who_shot_gas_ignore_fire "0"
+
+		// If 1, Ignore gas can if ignited by special infected (Ex. Spitter)
+		who_shot_gas_ignore_infected "1"
+
+		// If 1, Announce when red gas can being shot.
+		who_shot_gas_announce_when_destroy_red "1"
+
+		// (L4D2) If 1, Announce when yellow gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_yellow "1"
+
+		// (L4D2) If 1, Announce when green gas can (scavenge) being shot.
+		who_shot_gas_announce_when_destroy_green "1"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+	
+	* **Output to the chat the last player to explodes (last hit) a gascan.**
+		```php
+		sm_shotgas
+		```
+
+	* **Output to the chat all players' gascan destroyed stats.**
+		```php
+		sm_gas
+		```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1
@@ -69,51 +113,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* v1.0
 		* Initial Release
-</details>
-
-* Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-
-* <details><summary>ConVar | 指令</summary>
-
-	* cfg/sourcemod/who_shot_gas.cfg
-		```php
-		// Output to the chat last X players to explodes (last hit) a gascan. (0=OFF)
-		who_shot_gas_number "5"
-
-		// If 1, Ignore gas can being shot before game starts (Survival/Scavenge)
-		who_shot_gas_ignore_before_game "1"
-
-		// If 1, Ignore gas can if ignited by fire
-		who_shot_gas_ignore_fire "0"
-
-		// If 1, Ignore gas can if ignited by special infected (Ex. Spitter)
-		who_shot_gas_ignore_infected "1"
-
-		// If 1, Announce when red gas can being shot.
-		who_shot_gas_announce_when_destroy_red "1"
-
-		// (L4D2) If 1, Announce when yellow gas can (scavenge) being shot.
-		who_shot_gas_announce_when_destroy_yellow "1"
-
-		// (L4D2) If 1, Announce when green gas can (scavenge) being shot.
-		who_shot_gas_announce_when_destroy_green "1"
-		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	* **Output to the chat the last player to explodes (last hit) a gascan.**
-		```php
-		sm_shotgas
-		```
-
-	* **Output to the chat all players' gascan destroyed stats.**
-		```php
-		sm_gas
-		```
 </details>
 
 - - - -

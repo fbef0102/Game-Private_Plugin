@@ -15,32 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Replace with weapon_gascan in end saferoom (終點安全室治療包取代成汽油桶)
 	<br/>![L4D_NoSafeRoomMedKits_2](image/L4D_NoSafeRoomMedKits_2.jpg)
 
-* Apply to | 適用於
-```
-L4D1 Versus/Coop
-L4D2 Versus/Coop
-```
-
-* <details><summary>Changelog | 版本日誌</summary>
-
-	```php
-	//Crimson_Fox @ 2009 - 2010
-	//alasfourom @ 2022
-	//Harry @ 2022
-	```
-	* v1.0h (2023-6-20)
-		* Require left4dhooks v1.33 or above
-		* Add one Convar
-		* Support ending saferoom
-		* Support Coop Map Transition
-
-	* [v1.0.2 by alasfourom](https://forums.alliedmods.net/showpost.php?p=2787349&postcount=33)
-		* Added 3 Convars For Personal Use
-
-	* v1.0.1
-		* [By Crimson_Fox](https://forums.alliedmods.net/showthread.php?t=113444)
-</details>
-
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -65,6 +39,32 @@ L4D2 Versus/Coop
 
 * <details><summary>Command | 命令</summary>
 	None
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1 Versus/Coop
+	L4D2 Versus/Coop
+	```
+
+* <details><summary>Changelog | 版本日誌</summary>
+
+	```php
+	//Crimson_Fox @ 2009 - 2010
+	//alasfourom @ 2022
+	//Harry @ 2022
+	```
+	* v1.0h (2023-6-20)
+		* Require left4dhooks v1.33 or above
+		* Add one Convar
+		* Support ending saferoom
+		* Support Coop Map Transition
+
+	* [v1.0.2 by alasfourom](https://forums.alliedmods.net/showpost.php?p=2787349&postcount=33)
+		* Added 3 Convars For Personal Use
+
+	* v1.0.1
+		* [By Crimson_Fox](https://forums.alliedmods.net/showthread.php?t=113444)
 </details>
 
 - - - -
