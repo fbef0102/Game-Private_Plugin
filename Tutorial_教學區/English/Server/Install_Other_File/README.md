@@ -89,7 +89,7 @@
    * High Tickrate costs more cpu performance
 
 * Installation
-	1. Go to [Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler) and download files depending on your game and system
+	1. Go to [Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases) and download files depending on your game and system
 	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder

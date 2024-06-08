@@ -148,8 +148,6 @@
 
 * <details><summary><b>Special Infected | 特感</b></summary>
 
-  * [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): (Public) The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
-    * (公開) 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
   * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation (Also apply to AI)
     * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫 (AI特感也適用)
   * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player to the teammate who is much nearer to survivors.
@@ -274,12 +272,6 @@
 
 * <details><summary><b>Witch | 女巫</b></summary>
   
-  * [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): (Public) Change target when the witch incapacitates or kills victim + witchs auto follow survivors
-    * (公開) Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
-  * [l4d_witch_behind_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_behind_fix): (Public) The witch turns back if nearby survivor scares her behind
-    * (公開) 當有人在背後驚嚇Witch，Witch會秒轉身攻擊
-  * [l4d_witch_realism_door_fix](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_witch_realism_door_fix): (Public) Fixing witch can't break the door on Realism Normal、Advanced、Expert
-    * (公開) 修正Witch在寫實模式下的一般難度、進階難度、專家難度，無法抓破門
   * [l4d_ultra_witch](/Plugin_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
     * Witch不會一抓倒地，而是擊飛倖存者
   * [l4d_witch_guard](/Plugin_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
@@ -312,8 +304,8 @@
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
   * [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
     * 隨著玩家人數越多，殭屍/屍潮 數量越來越多
-  * [l4d2_bile_out_nav_negate_createbot](/Plugin_插件/Common_Infected_普通感染者/l4d2_bile_out_nav_negate_createbot): If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
-    * 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
+  * [l4d2_bile_out_nav_negate_createbot](/Plugin_插件/Common_Infected_普通感染者/l4d2_bile_out_nav_negate_createbot): (Abandoned) If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+    * (棄用) 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
   * [l4d2_fallen_survivor_item_change](/Plugin_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
     * 改變墮落倖存者掉落的物品
   * [l4d_ci_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....
@@ -324,10 +316,6 @@
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
-  * [l4d2_supply_woodbox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): (Public) Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
-    * (公開) 地圖上隨機出現補給箱，提供人類強力支援 (仿CSO惡靈降世 補給箱)
-  * [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): (Public) When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
-    * (公開) 使用語音雷達"看"可以標記任何物品、武器、地點、特感
   * [l4d_saferoom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
   * [antisaferoomdooropen](/Plugin_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
@@ -374,8 +362,6 @@
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
 
-  * [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): (Public) A spectator who watching the survivor at first person view can now see the infected model glows though the wall
-    * (公開) 旁觀者能看到特感的光圈，主要是用來更好的觀看體驗
   * [l4d_flashlight_speconly](/Plugin_插件/Spectator_旁觀者/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
     * 給死亡玩家或旁觀者手電筒，照亮地圖
   * [l4d_versus_specListener](/Plugin_插件/Spectator_旁觀者/l4d_versus_specListener): Allows spectator listen others team voice and see others team chat for l4d
@@ -406,8 +392,6 @@
 
 * <details><summary><b>Weapons | 武器</b></summary>
 
-  * [l4d_lasertag](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_lasertag): (Public) Shows a laser for straight-flying fired projectiles
-    * (公開) 開槍會有子彈光線
   * [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
     * 限制每個武器可以拿取的數量，超過就不能拿取
   * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers (You can see much further while scope)
@@ -438,14 +422,14 @@
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
 
-  * [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): (Public) Forces AI tank to leave stasis and attack while spawn in coop.
-    * (公開) 戰役模式之下Tank會主動前往攻擊倖存者而非待在原地等
-  * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): Set survivor health when mission completes in coop mode
-    * 戰役模式通關之時恢復並設定倖存者血量
+  * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): (Abandoned) Set survivor health when mission complete in coop mode
+    * (棄用) 戰役模式通關之時恢復並設定倖存者血量
   * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d2_change_m1](/Plugin_插件/Coop_戰役模式/l4d2_change_m1): If all survivors die, change level to the map 1 of current campaign (Restart Campaign)
     * 戰役模式下如果倖存者滅團，則直接回到地圖的第一關重新開始戰役
+  * [l4d_coop_saferoom_resupply](/Plugin_插件/Coop_戰役模式/l4d_coop_saferoom_resupply): When mission complete in coop mode, restore survivors all survivors with 100 hp + refill full ammo + give medical items
+    * 戰役模式通關之時，恢復倖存者血量 + 補充彈藥 + 補充醫療物品 
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 
@@ -472,10 +456,6 @@
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
 
-  * [l4d_expertrealism](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_expertrealism): (Public) L4D1/2 Real Realism Mode (No Glow + No Hud)
-    * (公開) L4D1/2 真寫實模式 (沒有光圈與介面)
-  * [weapon_csgo_reload](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_weapon_csgo_reload): (Public) Weapon Quickswitch Reloading in L4D1+2
-    * (公開) 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
   * [l4d_dynamic_muzzle_flash](/Plugin_插件/Real_Realism_真寫實模式/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
     * 槍口增加逼真的閃光
   * [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
@@ -510,12 +490,6 @@
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
-  * [l4d_rescue_vehicle_leave_timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): (Public) When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him
-    * (公開) 救援來臨之後，未在時間內上救援載具逃亡的玩家將處死
-  * [lockdown_system-l4d2](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): (Public) Locks Saferoom Door Until Someone Opens It.
-    * (公開) 倖存者必須等待時間到並合力對抗屍潮與Tank才能打開終點安全門
-  * [L4DVSAutoSpectateOnAFK](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/L4DVSAutoSpectateOnAFK): (Public) Forces survivors and infected to spectate if they're AFK after certain time
-    * (公開) AFK的玩家將會被旁觀並且踢出伺服器
   * [l4d_vocalize_antiflood](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
     * 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
   * [anti_end_saferoomdoor](/Plugin_插件/Anti_Griefer_防惡意路人/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
@@ -560,10 +534,6 @@
 
 * <details><summary><b>Fun | 娛樂</b></summary>
 
-  * [l4d2_karma_kill](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_karma_kill): (Public) Very Very loudly announces the predicted event of a player leaving the map and or life through height or drown.
-    * (公開) 被Charger撞飛、Tank打飛、Jockey騎走墬樓、自殺跳樓等等會有慢動作特效
-  * [l4d2_gifts](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gifts): (Public) Drop gifts (touch gift to earn reward) when a special infected or a witch/tank killed by survivor.
-    * (公開) 殺死特感會掉落禮物盒，會獲得驚喜物品，聖誕嘉年華
   * [l4d_player_spritetrail](/Plugin_插件/Fun_娛樂/l4d_player_spritetrail): l4d player tail effect (env_spritetrail)
     * 玩家走路，會有尾巴特效 (使用物件: env_spritetrail)
   * [l4d_player_tail](/Plugin_插件/Fun_娛樂/l4d_player_tail): l4d player tail effect (prop_dynamic_override)
@@ -590,8 +560,6 @@
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
 
-  * [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): (Public) Tanks throw special infected instead of rocks
-    * (公開) Tank不會丟出石頭而是丟出特感
   * [l4d_gun_blastpushback](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_gun_blastpushback): Doraemon Aircannon
     * 人類擁有多啦A夢的空氣砲
   * [l4d_rejump](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_rejump): Allows multi-jumping on air.

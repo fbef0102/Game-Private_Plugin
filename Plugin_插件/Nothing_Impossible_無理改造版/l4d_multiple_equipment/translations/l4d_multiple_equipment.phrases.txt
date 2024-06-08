@@ -92,4 +92,11 @@
 		"zho"			"[{olive}備用裝備{default}] 不允許撿起相同的 {green}{1}"
 		"chi"			"[{olive}备用装备{default}] 不允许捡起相同的 {green}{1}"
 	}
+	
+	"You don't have access to switch equipments"
+	{
+		"en"			"You don't have access to switch equipments"
+		"zho"			"無權限切換備用裝備"
+		"chi"			"无权限切换备用装备"
+	}
 }

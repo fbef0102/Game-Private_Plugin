@@ -86,6 +86,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, player can type !sw to switch equipments
         l4d_multiple_equipment_switch_cmd "1"
 
+        // Players with these flags have access to switch equipments and carry 2 weapons or items in each slot. (Empty = Everyone, -1: Nobody)
+        l4d_multiple_equipment_access_flag ""
+
         // If 1, Display Extra Item Equipment on the survivor
         l4d_multiple_equipment_view "1"
 
@@ -142,6 +145,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.8h (2024-6-8)
+        * Fixed errors in l4d1
+        * Add access flag
+        * Update cvars
 
     * v1.7h (2024-5-2)
         * Detect dual pistol pickup
@@ -254,6 +262,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，玩家也可以輸入 !sw 切換裝備
         l4d_multiple_equipment_switch_cmd "1"
+
+        // 擁有這些權限的玩家，才可以輸入切換備用裝備與攜帶雙武器與物品 (留白 = 任何人都能, -1: 無人)
+        l4d_multiple_equipment_access_flag ""
 
         // 為1時，玩家身上顯示額外攜帶的裝備 (裝飾用的)
         l4d_multiple_equipment_view "1"
