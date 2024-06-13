@@ -1,14 +1,14 @@
 # Game-Private_Plugin by Harry Potter
-- [總攬](#總攬)
-  - [私人插件列表](#l4d12-plugin-list--l4d1和2插件列表)
-  - [公開的插件列表](#公開的插件列表-public-plugins-list)
-  - [委託撰寫插件](#委託撰寫插件)
-  - [自我簡介](#自我簡介)
+- [Navigation | 總攬](#總攬)
+  - [Private Plugins List | 私人插件列表](#私人插件列表-private-plugins-list)
+  - [Public Plugins List | 公開的插件列表](#公開的插件列表-public-plugins-list)
+  - [Introduce MySelf](#introduce-myself) | [自我簡介](#自我簡介)
+  - [Plugin Paid Work](#plugin-paid-work) | [委託撰寫插件](#委託撰寫插件)
   - [如何安裝伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝專屬伺服器)
   - [如何安裝插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
   - [如何編譯源碼](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
   - [檢查插件有無成功運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
-  - [其他教程與問題](#others)
+  - [Questions & Tutorial | 其他教程與問題](#others)
 
 - - - -
 # 私人插件列表 Private Plugins List
@@ -16,8 +16,8 @@
 > 我的未公開私人插件列表 (持續更新中)<br/>
 * 在這裡的插件均須收費交易，每一個插件至少150台幣以上 (35人民幣以上)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
   * 可接受小幅度的修改或漢化處理
-  * 想增加或改動插件功能，需增加費用
   * 有任何新點子或想法可以聯繫並提出來討論
+  * [委託撰寫插件、遇到困難問題諮詢](#委託撰寫插件)
 * 問題
   * <details><summary><b>支援的支付方式</b></summary>
 
@@ -40,7 +40,7 @@
     * 模糊不清、霧裡看花的說明與需求，勿浪費彼此的時間
     * 不重複說明書已寫過的步驟或內容，會有插件說明書，不懂可詢問
     * 先詢問價錢與問題再交易，保障雙方權益
-    * 有特殊需求請先說明，新增功能額外付費
+    * 想增加、改動插件功能、特殊需求請先說明，新增功能額外付費
     * 以交易日期計算只有一年保固期，一年內插件有問題或者出現bug或者有優化可以免費更新修復到好
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
@@ -61,15 +61,17 @@
 
   * <details><summary><b>我找到別的插件功能一樣免費，你憑什麼販賣?</b></summary>
 
-    * 因為我有翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
+    * 有的插件功能跟我相似，那就相似，歡迎各位使用別人的插件，再自行比較優劣
+    * 舊插件翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
     * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
   </details>
 
-> My Private Plugins (Will update more) 
+> My Private Plugins (Updating more...) 
 * Every plugin here is private (At least US$8 dollars above each plugin), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
   * Add new request and discuss
+  * [Paid Work、Difficult Issues Consultation](#plugin-paid-work)
 * Q&A
   * <details><summary><b>How to pay</b></summary>
 
@@ -110,7 +112,8 @@
 
   * <details><summary><b>I found another similar function for free, how can you sell?</b></summary>
 
-    * Usually because code is too old, too many bugs, too lag or not match my need, so I remake and add more cvars, cmds and transition phase.
+    * If there is another plugin that also has similar function, I don't mind. You are welcome to use them and compare pros and cons
+    * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and transition phase.
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
   </details>
@@ -556,6 +559,8 @@
     * 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
   * [simple-chatcolors](/Plugin_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
     * 根據管理員或玩家身分修改聊天窗口的對話顏色
+  * [l4d2_melee_knock_survivor](/Plugin_插件/Fun_娛樂/l4d2_melee_knock_survivor): Use Melees to knockback teammates
+    * 近戰武器可以把隊友打開
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>

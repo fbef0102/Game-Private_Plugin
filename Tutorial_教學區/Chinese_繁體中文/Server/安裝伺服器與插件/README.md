@@ -95,10 +95,10 @@
             - 232330 為CSS - Dedicated Server
             - 740 為CSGO - Dedicated Server
 
-      ![image](https://user-images.githubusercontent.com/12229810/202987482-28d1c832-90d5-40e3-b50d-62942668c30d.png)
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/83d33186-7fb1-40c8-937d-9c2a08467571)
 
    3. 完成安裝之後輸入exit結束steamcmd
-      <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/932403e4-f5ab-4c8f-981e-9aa3ba8ecb53)
 
    4. 到所安裝的路徑查看伺服器檔案
       <br/>![image](https://user-images.githubusercontent.com/12229810/202990809-157f0743-bc4c-41a3-bbb2-a481ef3b7f96.png)
@@ -345,6 +345,16 @@
    - os		為電腦系統
    - map	   為當前地圖
    - players		為伺服器內的玩家狀態
+
+> [!WARNING]
+> 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
+
+> [!CAUTION]
+> 🟥 以下類型網路「目前無法架設伺服器給全世界任何人連線進來」
+> * 3G/4G/5G/6G... 行動網路              <- 請別用手機網路吃到飽
+> * 透過 WiFi 連線的無線網路     <- 公共場所請勿使用
+> * 學校、公司、公家機關的宿舍網路         <- 不怕被吉就試試看
+> * 任何無法進入基地台/數據機設定的皆無法  <- 只能放棄 
 	 
 2. 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` <br/>
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
@@ -362,15 +372,19 @@
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
 
    - 以我為例
-      * 電腦系統: Windows 10
-      * 網路: 中華電信
-      * 路由器品牌: DSL-6740C
-      * 伺服器的虛擬IP: 192.168.1.102
-      * 伺服器的端口: 27016
+      ```c
+      電腦系統: Windows 10
+      網路: 中華電信
+      網路公用IP: 固定 (如果IP會變，可自行與中華電信申請固定IP)
+      路由器品牌: DSL-6740C
+      伺服器的虛擬IP: 192.168.1.102
+      伺服器的端口: 27016
+      ```
       1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
          * 每個品牌的帳密與操作方式不一樣，請自行google
          * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
+      
       2. 重啟路由器
          * 必須用網頁重啟
       <br/><img width="234" alt="e39654498c0f68999651ad5cc0c4a7bb" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/17e17139-3aff-4c13-8899-6c310a572cbd">
@@ -380,14 +394,15 @@
          * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
 	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
       <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
-
-   
-3. 連線進去之後遊戲控制台輸入```status```用以確認是相同的IP地址 <br/>
+     
+      4. 重啟電腦，打開伺服器，請一個路人或朋友打開遊戲連線進去你的伺服器
+         * 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` (公網IP)
+         
+3. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的IP地址 <br/>
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
-> __Warning__ 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
-
 4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
+
 - - - -
 ## 如何從大廳匹配到專屬伺服器
 1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
@@ -740,16 +755,18 @@
 又或者你覺得伺服器有檔案損毀需要驗證完整性
 
 * Windows
-   1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+   1. 關閉伺服器 (廢話)
 
-   2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
+   2. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+
+   3. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
       - 譬如D:\steamcmd
       <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
 
-   3. 執行steamcmd.exe，等它自己跑完套件與更新包
+   4. 執行steamcmd.exe，等它自己跑完套件與更新包
       <br/>![image](https://user-images.githubusercontent.com/12229810/202984529-b8d34623-0ba6-452f-9b35-d1c036e5c194.png)
 
-   4. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
+   5. 等到出現Loading Steam API...OK，依序輸入以下指令 <br/>
       <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
@@ -761,20 +778,22 @@
             - 232330 為CSS - Dedicated Server
             - 740 為CSGO - Dedicated Server
 
-      <br/>![image](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/c75121ac-198d-499e-ab53-328dd9abb911)
 
-   5. 完成更新之後輸入exit結束steamcmd
+   6. 完成更新之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/485bbc07-b0fd-4957-bc92-6561800ca655)
 
 * Linux
-   1. 啟用終端機輸入以下指令 (你可能需要root 權限)
+   1. 關閉伺服器 (廢話)
+
+   2. 啟用終端機輸入以下指令 (你可能需要root 權限)
       - ```cd 任一路徑，最好自己創建資料夾且路徑不要有中文```
       - ```wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz```
       - ```tar -xvzf steamcmd_linux.tar.gz```
       - ```./steamcmd.sh```
       <br/>![image](https://user-images.githubusercontent.com/12229810/202986380-d96bbda6-e138-4fed-89a7-5cb5ee1eefc4.jpg)
 
-   2. 等到出現Loading Steam API...OK，依序輸入以下指令
+   3. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
@@ -786,14 +805,13 @@
             - 232330 為CSS - Dedicated Server
             - 740 為CSGO - Dedicated Server
 
-      <br/><img width="347" alt="202987482-28d1c832-90d5-40e3-b50d-62942668c30d" src="https://user-images.githubusercontent.com/12229810/206732129-8315aa12-837b-4302-b6a8-d656879b2a71.png">
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/7e60d753-d422-4764-a699-d38716f57bc2)
 
+   4. 完成更新之後輸入exit結束steamcmd
+      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/932403e4-f5ab-4c8f-981e-9aa3ba8ecb53)
 
-3. 完成更新之後輸入exit結束steamcmd
-   <br/>![image](https://user-images.githubusercontent.com/12229810/202989941-76969e86-06e3-4a84-b3a0-3a8e525ed7e5.png)
-
-* 如果是要更新Sourcemod版本，那就全部刪除，打掉重練，從頭第一個步驟開始
-	- 插件、cfg可以備份
+* 如果是要更新Sourcemod版本，那就刪除addons資料夾，全部打掉重練
+	- 插件、cfg、源碼可以備份
 
 - - - -
 ## 專業術語介紹

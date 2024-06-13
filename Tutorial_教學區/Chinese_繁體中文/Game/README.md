@@ -143,12 +143,12 @@
     <br/>![image](https://user-images.githubusercontent.com/12229810/203991469-2b7dcba2-d70b-47ac-aed1-a18442c6d2de.jpg)
 
 * 何時需要開啟?
-    * 遊玩三方圖，需要知道地圖上的機關如何啟動或路線怎麼走
+    * 遊玩三方圖，需要知道地圖上的機關如何啟動或路線怎麼走，絕大部分的地圖會有提示
         * 像是[Resident Evil](https://steamcommunity.com/sharedfiles/filedetails/?id=533677587)、[Questionable Ethics](https://steamcommunity.com/sharedfiles/filedetails/?id=2783476025&searchtext=question)等等
     * 有插件會修改遊戲指導系統
         * 像是[l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/blob/master/l4d2_item_hint)等等
         <br/>![l4d2_item_hint](https://raw.githubusercontent.com/fbef0102/L4D2-Plugins/master/l4d2_item_hint/image/l4d2_item_hint_3.jpg)
-    * 你剛買這遊戲的時候，還是新手
+    * 你剛買這遊戲，還是新手的時候
 
 * <details><summary>問題1: 為什麼打開了還是看不到 ?</b></summary>
 

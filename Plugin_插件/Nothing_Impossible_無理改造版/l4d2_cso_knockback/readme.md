@@ -56,51 +56,48 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* ```data/l4d2_cso_knockback.cfg```
 		```php
-		"l4d2_si_knockback"
+		"zombies"
 		{
-			"zombies"
+			"smoker"
 			{
-				"smoker"
-				{
-					"enable"        "1"     // 1=Enable knockback
-					"knockback"     "3.0"   // Knockback multiplier
-					"air"           "0.6"   // Apply multiplier if on air
+				"enable"        "1"     // 1=Enable knockback
+				"knockback"     "3.0"   // Knockback multiplier
+				"air"           "0.6"   // Apply multiplier if on air
 
-					// 1 = Allow Knockback while smoker pulling and dragging survivor
-					// 1 = this also allow smoker to move while using ability
-					"ability"       "1"
+				// 1 = Allow Knockback while smoker pulling and dragging survivor
+				// 1 = this also allow smoker to move while using ability
+				"ability"       "1"
 
-					"block_shove"   "0" // 1 = Block shoved by survivor
-				}
-
-				...
+				"block_shove"   "0" // 1 = Block shoved by survivor
 			}
 
-			"weapons"
-			{
-				"default" // Global weapon Settings
-				{
-					"enable"        "1"         // 1=Enable knockback 
-					"damage_multi"  "1"         // 1=Apply damage knockback multiplier 
-					"knockback"     "1.0"       // Weapon Knockback Power
-					"velocity_z"    "0.0"       // Set higer valve => infected boost fly by Weapons (0=Off, at least 251 required to push player off the ground.)
-				}
+			...
+		}
 
-				...
+		"weapons"
+		{
+			"default" // Global weapon Settings
+			{
+				"enable"        "1"         // 1=Enable knockback 
+				"damage_multi"  "1"         // 1=Apply damage knockback multiplier 
+				"knockback"     "1.0"       // Weapon Knockback Power
+				"velocity_z"    "0.0"       // Set higer valve => infected boost fly by Weapons (0=Off, at least 251 required to push player off the ground.)
 			}
 
-			"melees"
-			{
-				"default" // Global melee Settings
-				{
-					"enable"        "1"         // 1=Enable knockback
-					"damage_multi"  "0"         // 0=Disable damage knockback multiplier
-					"knockback"     "300.0"     // Melee Knockback Value 
-					"velocity_z"    "280.0"     // Set higer valve => infected boost fly by melee (0=Off, at least 251 required to push player off the ground.)
-				}
+			...
+		}
 
-				...
+		"melees"
+		{
+			"default" // Global melee Settings
+			{
+				"enable"        "1"         // 1=Enable knockback
+				"damage_multi"  "0"         // 0=Disable damage knockback multiplier
+				"knockback"     "300.0"     // Melee Knockback Value 
+				"velocity_z"    "280.0"     // Set higer valve => infected boost fly by melee (0=Off, at least 251 required to push player off the ground.)
 			}
+
+			...
 		}
 		```
 </details>
@@ -165,47 +162,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* ```data/l4d2_cso_knockback.cfg```
 		```php
-		"l4d2_si_knockback"
+		"zombies"
 		{
-			"zombies"
+			"xxxxx" //特感種類
 			{
-				"xxxxx" //特感種類
-				{
-				    "enable"        "1"         // 1=特感可以被擊退
-				    "knockback"     "1.0"       // 特感的擊退力係數
-				    "air"           "0.6"       // 特感在空中時，擊退力 X 此數值
-				    "ability"       "0"         // 1=特感使用能力時依然會被擊退
-				    "block_shove"   "0"         // 1=特感不會被人類右鍵推開 (高爆子彈依然會)
-				}
-
-				...
+				"enable"        "1"         // 1=特感可以被擊退
+				"knockback"     "1.0"       // 特感的擊退力係數
+				"air"           "0.6"       // 特感在空中時，擊退力 X 此數值
+				"ability"       "0"         // 1=特感使用能力時依然會被擊退
+				"block_shove"   "0"         // 1=特感不會被人類右鍵推開 (高爆子彈依然會)
 			}
 
-			"weapons"
-			{
-				"default" // 全 槍械武器 預設設置
-				{
-				    "enable"        "1"         // 1=開啟槍械擊退效果
-				    "damage_multi"  "1"         // 1=造成的血量越多 => 擊退力越大
-				    "knockback"     "1.0"       // 武器的擊退係數 (當"damage_multi"為0時，"knockback"為擊退數值)
-				    "velocity_z"    "0.0"       // 設置的數值愈大 => 特感被槍械打中會飛離地面 (0=關閉, 需要251數值以上才會飛起來)
-				}
+			...
+		}
 
-				...
+		"weapons"
+		{
+			"default" // 全槍械武器 預設設置
+			{
+				"enable"        "1"         // 1=開啟槍械擊退效果
+				"damage_multi"  "1"         // 1=造成的血量越多 => 擊退力越大
+				"knockback"     "1.0"       // 武器的擊退係數 (當"damage_multi"為0時，"knockback"為擊退數值)
+				"velocity_z"    "0.0"       // 設置的數值愈大 => 特感被槍械打中會飛離地面 (0=關閉, 需要251數值以上才會飛起來)
 			}
 
-			"melees"
-			{
-				"default" // 全 近戰武器 預設設置
-				{
-				    "enable"        "1"         // 1=開啟擊退效果
-				    "damage_multi"  "0"         // 1=造成的血量越多 => 擊退力越大 (0=關閉)
-				    "knockback"     "300.0"     // 近戰武器的擊退係數 (當"damage_multi"為0時，"knockback"為擊退數值)
-				    "velocity_z"    "280.0"     // 設置的數值愈大 => 特感被槍械打中會飛離地面 (0=關閉, 需要251數值以上才會飛起來)
-				}
+			...
+		}
 
-				...
+		"melees"
+		{
+			"default" // 全近戰武器 預設設置
+			{
+				"enable"        "1"         // 1=開啟擊退效果
+				"damage_multi"  "0"         // 1=造成的血量越多 => 擊退力越大 (0=關閉)
+				"knockback"     "300.0"     // 近戰武器的擊退係數 (當"damage_multi"為0時，"knockback"為擊退數值)
+				"velocity_z"    "280.0"     // 設置的數值愈大 => 特感被槍械打中會飛離地面 (0=關閉, 需要251數值以上才會飛起來)
 			}
+
+			...
 		}
 		```
 </details>
