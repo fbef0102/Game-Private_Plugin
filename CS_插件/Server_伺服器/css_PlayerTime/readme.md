@@ -39,6 +39,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Announce the time played when player joins the server.
 		css_PlayerTime_announce "1"
 
+		// Announce the time played 1=Every time map change, 0=Only when join server
+		css_PlayerTime_map_change "0"
+
 		// If 1, record to file. (Path: sourcemod/logs/PlayerTime.log)
 		css_PlayerTime_log "1"
 
@@ -84,6 +87,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-6-15)
+		* Update Cvars
+		* Fixed not working well in sourcemod 1.12
+
 	* v1.0 (2023-3-8)
 		* Initial Release
 </details>
@@ -112,6 +119,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，玩家連線時顯示遊戲時數
 		css_PlayerTime_announce "1"
+
+		// 何時顯示遊戲時數, 1=每次換圖時, 0=玩家第一次加入伺服器時
+		css_PlayerTime_map_change "0"
 
 		// 為1時，將玩家的遊戲時數記錄到logs裡面 (路徑為: sourcemod/logs/PlayerTime.log)
 		css_PlayerTime_log "1"
