@@ -1,5 +1,6 @@
 # Description | 內容
 Display text for up to 5 scripted HUD slots on the screen.
+(variants)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,38 +9,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Video | 影片展示
 <br/>None
 
-* <details><summary>Image | 圖示</summary>
+* Image | 圖示
 
-	* Layout 1 (Survivor) - 版面一 (人類方)
 	<br/>![l4d2_scripted_hud_1](image/l4d2_scripted_hud_1.jpg)
-	* Layout 2 (Infected) - 版面二 (特感方)
 	<br/>![l4d2_scripted_hud_2](image/l4d2_scripted_hud_2.jpg)
-	* Layout 3 (Spectator) - 版面三 (旁觀者)
 	<br/>![l4d2_scripted_hud_3](image/l4d2_scripted_hud_3.jpg)
-	* Layout 4 - 版面四
 	<br/>![l4d2_scripted_hud_4](image/l4d2_scripted_hud_4.jpg)
-</details>
-
-* <details><summary>How does it work?</summary>
-
-	* Display HUD Text on player's screen
 </details>
 
 * <details><summary>Default HUDX_Text</summary>
 
-	* HUD1_Text: Time and Survivor/Infected count
-	* HUD2_Text: Tank Health
-	* HUD3_Text: 
-		1. S.I. kills rank
-		2. C.I.+S.I.+Tank+Witch kills rank
+	* HUD1_Text: CI kill
+	* HUD2_Text: SI kill
+	* HUD3_Text: Damage to tank
 	* HUD4_Text:
-		1. Survivor Mic Speaking
-			* Only Survivor&Spectator team can see
-		2. Survivor health
-	* HUD5_Text: Infected Mic Speaking
-		* Only Infected team can see
-	* Center_Text: Spectator Mic Speaking
-		* Only Spectator team can see
+		1. Damage to witch
+		2. Time 
+		3. Tank health
+	* HUD5_Text: Player Name rescues success in end of campaign
+	* Center_Text: None
 </details>
 
 * <details><summary>Important</summary>
@@ -51,27 +39,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* If you run a scavenge server. Rename it as "scavenge.nut"
 		* If you run some mutation gamemode. Rename it to "xxxx.nut" (xxxx= mutation name)
 		* You can create multi .nut files
-
-	* Note
-		* Load data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUD?" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` cvar text. If both empty, then load GetHUD?_Text functions (? is 1~5) 
-		* The limit of each HUD text is up to 127 characters.
-		* HUD Text can be moved and animated effect, please read cfg.
 </details>
 
 * <details><summary>FAQ</summary>
-
-	* How to switch HUD Text?
-		* Modify ```l4d2_scripted_hud_hud?_display``` cvar (? is 1~5)
 
 	* How to switch HUD position?
 		* Modify ```l4d2_scripted_hud_hud?_x``` cvar (? is 1~5)
 		* Modify ```l4d2_scripted_hud_hud?_y``` cvar (? is 1~5)
 		* Coordinate diagram
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
-
-	* How to write message in HUD text as I want?
-		1. Modify ```data\l4d2_scripted_hud.cfg``` "HUD_Texts"
-		2. Or Modify ```l4d2_scripted_hud_hud?_text``` cvar (? is 1~5)
 
 	* Why hud disappear or being cut?	
 		* The limit of each HUD text is up to 127 characters.
@@ -96,17 +72,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud1_visible "1"
 
-		// (HUD 1) The text you want to display in the HUD.
-		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD1_Text functions.
-		l4d2_scripted_hud_hud1_text ""
-
 		// (HUD 1) Aligns the text horizontally.
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud1_text_align "1"
 
 		// (HUD 1) Makes the text blink from white to red while a tank is alive.
 		// 0 = OFF, 1 = ON.
-		l4d2_scripted_hud_hud1_blink_tank "0"
+		l4d2_scripted_hud_hud1_blink_tank "1"
 
 		// (HUD 1) Makes the text blink from white to red.
 		// 0 = OFF, 1 = ON.
@@ -132,7 +104,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 1) X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud1_x "0.0"
+		l4d2_scripted_hud_hud1_x "0.02"
 
 		// (HUD 1) Y (vertical) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
@@ -140,7 +112,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 1) Animated X (horizontal) movement speed of the text.
 		// 0 = OFF.
-		l4d2_scripted_hud_hud1_x_speed "0.002"
+		l4d2_scripted_hud_hud1_x_speed "0.0"
 
 		// (HUD 1) Animated Y (vertical) movement speed of the text.
 		// 0 = OFF.
@@ -176,10 +148,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud2_visible "1"
 
-		// (HUD 2) The text you want to display in the HUD.
-		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD2_Text functions.
-		l4d2_scripted_hud_hud2_text ""
-
 		// (HUD 2) Aligns the text horizontally.
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud2_text_align "1"
@@ -212,11 +180,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 2) X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud2_x "0.75"
+		l4d2_scripted_hud_hud2_x "0.25"
 
 		// (HUD 2) Y (vertical) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud2_y "0.1"
+		l4d2_scripted_hud_hud2_y "0.015"
 
 		// (HUD 2) Animated X (horizontal) movement speed of the text.
 		// 0 = OFF.
@@ -256,18 +224,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud3_visible "1"
 
-		// (HUD 3) The text you want to display in the HUD.
-		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD3_Text functions.
-		l4d2_scripted_hud_hud3_text ""
-
-		// (HUD 3) How many ranks to display Kill counter status
-		l4d2_scripted_hud_hud3_number "5"
-
-		// (HUD 3) Which text to display in GetHUD3_Text by default?
-		// 0=S.I. kills rank
-		// 1=C.I.+S.I.+Tank+Witch kills rank
-		l4d2_scripted_hud_hud3_display "1"
-
 		// (HUD 3) Aligns the text horizontally.
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
 		l4d2_scripted_hud_hud3_text_align "1"
@@ -291,7 +247,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 3) Which team should see the text.
 		// 0 = ALL, 1 = SURVIVOR, 2 = INFECTED.
-		l4d2_scripted_hud_hud3_team "0"
+		l4d2_scripted_hud_hud3_team "1"
 
 		// (HUD 3) Overwrite the HUD flag.
 		// For debug purposes only.
@@ -300,11 +256,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 3) X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud3_x "0.75"
+		l4d2_scripted_hud_hud3_x "0.45"
 
 		// (HUD 3) Y (vertical) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud3_y "0.1"
+		l4d2_scripted_hud_hud3_y "0.015"
 
 		// (HUD 3) Animated X (horizontal) movement speed of the text.
 		// 0 = OFF.
@@ -344,13 +300,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud4_visible "1"
 
-		// (HUD 4) The text you want to display in the HUD.
-		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD4_Text functions.
-		l4d2_scripted_hud_hud4_text ""
-
-		// (HUD 4) Which text to display in GetHUD4_Text by default?
-		// 0=Survivor Mic Speaking
-		// 1=Survivor health
+		// (HUD 4) 顯示的內容
+		// 0 = Damage to witch
+		// 1 = Time 
+		// 2 = Tank health
 		l4d2_scripted_hud_hud4_display "1"
 
 		// (HUD 4) Aligns the text horizontally.
@@ -385,11 +338,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 4) X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud4_x "0.75"
+		l4d2_scripted_hud_hud4_x "0.7"
 
 		// (HUD 4) Y (vertical) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud4_y "0.1"
+		l4d2_scripted_hud_hud4_y "0.015"
 
 		// (HUD 4) Animated X (horizontal) movement speed of the text.
 		// 0 = OFF.
@@ -429,13 +382,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = OFF, 1 = ON.
 		l4d2_scripted_hud_hud5_visible "1"
 
-		// (HUD 5) The text you want to display in the HUD.
-		// Note: When cvar is empty "", plugin will use the predefined HUD text set in the code, check GetHUD5_Text functions.
-		l4d2_scripted_hud_hud5_text ""
-
 		// (HUD 5) Aligns the text horizontally.
 		// 1 = LEFT, 2 = CENTER, 3 = RIGHT.
-		l4d2_scripted_hud_hud5_text_align "1"
+		l4d2_scripted_hud_hud5_text_align "2"
 
 		// (HUD 5) Makes the text blink from white to red while a tank is alive.
 		// 0 = OFF, 1 = ON.
@@ -452,25 +401,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (HUD 5) Shows the text inside a black transparent background.
 		// Note: the background may not draw properly when initialized as "0", start the map with "1" to render properly.
 		// 0 = OFF, 1 = ON.
-		l4d2_scripted_hud_hud5_background "0"
+		l4d2_scripted_hud_hud5_background "1"
 
 		// (HUD 5) X (horizontal) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud5_x "0.75"
+		l4d2_scripted_hud_hud5_x "0.35"
 
 		// (HUD 5) Y (vertical) position of the text.
 		// Note: setting it to less than 0.0 may cut/hide the text at screen.
-		l4d2_scripted_hud_hud5_y "0.5"
+		l4d2_scripted_hud_hud5_y "0.25"
 
 		// (HUD 5) Text area Width.
-		l4d2_scripted_hud_hud5_width "1.5"
+		l4d2_scripted_hud_hud5_width "0.3"
 
 		// (HUD 5) Text area Height.
-		l4d2_scripted_hud_hud5_height "0.3"
-
-		// (Center) Makes the text visible.
-		// 0 = OFF, 1 = ON.
-		l4d2_scripted_hud_center_visible "1"
+		l4d2_scripted_hud_hud5_height "0.5"
 		```
 </details>
 
@@ -483,60 +428,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
-		> L4D2擊殺提示改成CS遊戲的擊殺列表
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.1h (2023-11-21)
-		* Optimize code and improve performance
-
-	* v1.1.0 (2023-02-13)
-		* Display Survivors, Infected, and Spectator MIC Speaking text separately
-		* Add HUD 5 for Infected Mic Speaking
-		* Add Center text for Spectator Mic Speaking
-
-	* v1.0.5 (2022-11-27)
-		* HUD3_TEXT + C.I.+S.I.+Tank+Witch kills rank
-		* HUD4_TEXT + Survivor health
-		* Add cvars to switch HUDX_TEXT text
-
-	* v1.0.4 (2022-11-24)
-		* Kill Infected Counter Rank (HUD3_Text)
-		* Time and Survivor/Infected count (HUD1_Text)
-
-	* v1.0.2
-		* [By Marttt](https://forums.alliedmods.net/showthread.php?t=331212)
+	* 1.1h (2024-6-16)
+		* l4d2_scripted_hud "1.1h-2023/11/21" variant (變體插件)
+		* Change 5 hud text
+		* Delete data file
 </details>
 
 - - - -
 # 中文說明
 在玩家畫面上方五個Hud位置顯示不同的特殊文字
-
-* 功能
-	1. 可自定義文字顯示內容
-	2. 可利用指令移動HUD的位置，查看指令設置X與Y的座標
-	3. 可利用指令達成文字移動或閃紅色的動畫效果，請自行閱讀指令列表
-	4. 多達五個HUD，可個別顯示或關閉文字
+(變體插件)
 
 * <details><summary>預設的 HUDX 文字 (點我展開)</summary>
 
-	* HUD1: 目前遊戲時間、倖存者數量、感染者數量
-	* HUD2: Tank 血量
-	* HUD3: 
-		1. 特感擊殺統計排行榜
-		2. 擊殺統計排行榜 (普通感染者+特感+Tank+Witch)
+	* HUD1: 普通感染者統計排行榜前三名
+	* HUD2: 擊殺統計排行榜前三名
+	* HUD3: 打Tank的傷害統計排行榜前三名
 	* HUD4: 
-		1. 倖存者語音說話的列表
-			* 只顯示給倖存者隊伍與旁觀者
-		2. 倖存者血量狀態
-	* HUD5: 特感語音說話的列表
-		* 只顯示給特感隊伍
-	* Center: 旁觀者語音說話的列表
-		* 只顯示給旁觀者
+		1. 打Witch的傷害統計排行榜前三名
+		2. 伺服器的時間與日期
+		3. 每個Tank的血量狀態
+	* HUD5: 已逃脫成功的倖存者列表 (最後一關上救援後才顯示)
+	* Center: 無
 </details>
 
 * <details><summary>重要說明</summary>
@@ -558,18 +473,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>問題區</summary>
 
-	* 如何更換預設的 HUD 文字?
-		* 請修改 ```l4d2_scripted_hud_hud?_display``` 指令(?為數字1~5)
-
 	* 如何改變 HUD 位置?
 		* 修改 ```l4d2_scripted_hud_hud?_x``` 指令 (? 是數字1~5)
 		* 修改 ```l4d2_scripted_hud_hud?_y``` 指令 (? 是數字1~5)
 		* 座標圖
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
-
-	* 如何修改在 HUD 加入自己寫的文字?
-		1. 請修改 ```data\l4d2_scripted_hud.cfg``` 的 "HUD_Texts" 格子
-		2. 或修改 ```l4d2_scripted_hud_hud?_text``` 指令(? 是數字1~5)
 
 	* 為何 HUD 會移位或被切掉?	
 		* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
@@ -590,21 +498,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = 不顯示, 1 = 顯示.
 		l4d2_scripted_hud_hud1_visible "1"
 
-		// (HUD 1) 寫下想要顯示的內容
-		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD1_Text 涵式.
-		l4d2_scripted_hud_hud1_text ""
-
 		// (HUD 1) 文字水平排版
 		// 1 = 置左, 2 = 置中, 3 = 置右.
 		l4d2_scripted_hud_hud1_text_align "1"
 
 		// (HUD 1) 當Tank存活時，文字紅白閃爍
 		// 0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud1_blink_tank "0"
+		l4d2_scripted_hud_hud1_blink_tank "1"
 
 		// (HUD 1) 文字紅白閃爍
 		//  0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud1_blink "1"
+		l4d2_scripted_hud_hud1_blink "0"
 
 		// (HUD 1) 文字紅白閃爍時發出beep音效
 		// 0 = 關閉, 1 = 開啟.
@@ -627,7 +531,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 1) X軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud1_x "0.0"
+		l4d2_scripted_hud_hud1_x "0.02"
 
 		// (HUD 1) Y軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
@@ -635,7 +539,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 1) 文字水平移動的動畫速度
 		// 0 = 關閉.
-		l4d2_scripted_hud_hud1_x_speed "0.002"
+		l4d2_scripted_hud_hud1_x_speed "0.0"
 
 		// (HUD 1) 文字垂直移動的動畫速度
 		// 0 = 關閉.
@@ -673,17 +577,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = 不顯示, 1 = 顯示.
 		l4d2_scripted_hud_hud2_visible "1"
 
-		// (HUD 2) 寫下想要顯示的內容
-		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD2_Text 涵式.
-		l4d2_scripted_hud_hud2_text ""
-
 		// (HUD 2) 文字水平排版
 		// 1 = 置左, 2 = 置中, 3 = 置右.
 		l4d2_scripted_hud_hud2_text_align "1"
 
 		// (HUD 2) 當Tank存活時，文字紅白閃爍
 		// 0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud2_blink_tank "0"
+		l4d2_scripted_hud_hud2_blink_tank "1"
 
 		// (HUD 2) 文字紅白閃爍
 		//  0 = 關閉, 1 = 開啟.
@@ -710,7 +610,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 2) X軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud2_x "0.0"
+		l4d2_scripted_hud_hud2_x "0.25"
 
 		// (HUD 2) Y軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
@@ -718,7 +618,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 2) 文字水平移動的動畫速度
 		// 0 = 關閉.
-		l4d2_scripted_hud_hud2_x_speed "0.002"
+		l4d2_scripted_hud_hud2_x_speed "0.0"
 
 		// (HUD 2) 文字垂直移動的動畫速度
 		// 0 = 關閉.
@@ -756,18 +656,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = 不顯示, 1 = 顯示.
 		l4d2_scripted_hud_hud3_visible "1"
 
-		// (HUD 3) 寫下想要顯示的內容
-		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD3_Text 涵式.
-		l4d2_scripted_hud_hud3_text ""
-
-		// (HUD 3) 統計排行榜顯示前幾名?
-		l4d2_scripted_hud_hud3_number "5"
-
-		// (HUD 3) 顯示的內容
-		// 0=特感擊殺統計排行榜
-		// 1=擊殺統計排行榜 (普通感染者+特感+Tank+Witch)
-		l4d2_scripted_hud_hud3_display "1"
-
 		// (HUD 3) 文字水平排版
 		// 1 = 置左, 2 = 置中, 3 = 置右.
 		l4d2_scripted_hud_hud3_text_align "1"
@@ -801,7 +689,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 3) X軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud3_x "0.0"
+		l4d2_scripted_hud_hud3_x "0.45"
 
 		// (HUD 3) Y軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
@@ -809,7 +697,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 3) 文字水平移動的動畫速度
 		// 0 = 關閉.
-		l4d2_scripted_hud_hud3_x_speed "0.002"
+		l4d2_scripted_hud_hud3_x_speed "0.0"
 
 		// (HUD 3) 文字垂直移動的動畫速度
 		// 0 = 關閉.
@@ -847,13 +735,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = 不顯示, 1 = 顯示.
 		l4d2_scripted_hud_hud4_visible "1"
 
-		// (HUD 4) 寫下想要顯示的內容
-		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD4_Text 涵式.
-		l4d2_scripted_hud_hud4_text ""
-
 		// (HUD 4) 顯示的內容
-		// 0=倖存者語音說話的列表
-		// 1=倖存者血量狀態
+		// 0 = Damage to witch
+		// 1 = Time 
+		// 2 = Tank health
 		l4d2_scripted_hud_hud4_display "1"
 
 		// (HUD 4) 文字水平排版
@@ -862,11 +747,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 4) 當Tank存活時，文字紅白閃爍
 		// 0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud4_blink_tank "0"
+		l4d2_scripted_hud_hud4_blink_tank "1"
 
 		// (HUD 4) 文字紅白閃爍
 		//  0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud4_blink "1"
+		l4d2_scripted_hud_hud4_blink "0"
 
 		// (HUD 4) 文字紅白閃爍時發出beep音效
 		// 0 = 關閉, 1 = 開啟.
@@ -889,7 +774,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 4) X軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud4_x "0.0"
+		l4d2_scripted_hud_hud4_x "0.7"
 
 		// (HUD 4) Y軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
@@ -897,7 +782,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (HUD 4) 文字水平移動的動畫速度
 		// 0 = 關閉.
-		l4d2_scripted_hud_hud4_x_speed "0.002"
+		l4d2_scripted_hud_hud4_x_speed "0.0"
 
 		// (HUD 4) 文字垂直移動的動畫速度
 		// 0 = 關閉.
@@ -935,13 +820,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0 = 不顯示, 1 = 顯示.
 		l4d2_scripted_hud_hud5_visible "1"
 
-		// (HUD 5) 寫下想要顯示的內容
-		// 注意: 如果空白, 插件會自行使用內建的文字, 查看程式碼內 GetHUD5_Text 涵式.
-		l4d2_scripted_hud_hud5_text ""
-
 		// (HUD 5) 文字水平排版
 		// 1 = 置左, 2 = 置中, 3 = 置右.
-		l4d2_scripted_hud_hud5_text_align "1"
+		l4d2_scripted_hud_hud5_text_align "2"
 
 		// (HUD 5) 當Tank存活時，文字紅白閃爍
 		// 0 = 關閉, 1 = 開啟.
@@ -959,26 +840,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (HUD 5) 文字有黑底背景.
 		// 注意: 修改這項指令可能要重啟地圖才會生效
 		// 0 = 關閉, 1 = 開啟.
-		l4d2_scripted_hud_hud5_background "0"
+		l4d2_scripted_hud_hud5_background "1"
 
 		// (HUD 5) X軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud5_x "0.75"
+		l4d2_scripted_hud_hud5_x "0.35"
 
 		// (HUD 5) Y軸位置
 		// 注意: 數值低於0可能會導致文字被切掉
-		l4d2_scripted_hud_hud5_y "0.5"
+		l4d2_scripted_hud_hud5_y "0.25"
 
 		// (HUD 5) 文字框的寬度
 		// 非文字變大
-		l4d2_scripted_hud_hud5_width "1.5"
+		l4d2_scripted_hud_hud5_width "0.3"
 
 		// (HUD 5) 文字框的高度
 		// 非文字變大
-		l4d2_scripted_hud_hud5_height "0.3"
-
-		// (Center)
-		// 0 = 不顯示, 1 = 顯示.
-		l4d2_scripted_hud_center_visible "1"
+		l4d2_scripted_hud_hud5_height "0.5"
 		```
 </details>
