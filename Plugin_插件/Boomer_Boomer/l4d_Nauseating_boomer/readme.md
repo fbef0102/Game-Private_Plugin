@@ -329,7 +329,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
 	* 以下指令寫入文件 cfg/server.cfg，可自行調整

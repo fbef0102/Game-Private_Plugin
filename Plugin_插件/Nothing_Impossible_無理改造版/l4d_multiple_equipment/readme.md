@@ -146,6 +146,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.9h (2024-6-18)
+        * Remove primary weapon ammo lock
+
     * v1.8h (2024-6-8)
         * Fixed errors in l4d1
         * Add access flag

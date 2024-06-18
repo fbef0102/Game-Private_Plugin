@@ -489,6 +489,8 @@
 
   * [l4d2_scavenge_special_rule_end](/Plugin_插件/Scavenge_清道夫模式/l4d2_scavenge_special_rule_end): Display Scavenge score and time, checks various win conditions mid-round and forece end if necessary.
     * 顯示回合分數與時間，清道夫模式下新增不同的特殊勝利規則
+  * [l4d2_scavenge_infinite](/Plugin_插件/Scavenge_清道夫模式/l4d2_scavenge_infinite): 準備時間改為永久 + 比賽結束後重新開始相同的章節
+    * Scavenge permanent set up time + restart same chapter after scavenge match finished without vote
 </details>
 
 * <details><summary><b>Fuck you Griefer | 防路人搗亂-反制傻B合集</b></summary>
