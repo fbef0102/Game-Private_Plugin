@@ -126,6 +126,30 @@
 	> * High Tickrate costs more cpu performance, you can adjust tickrate to 60 or 45
 	> * Need to modify server.cfg and Launch Parameters together to change tickrate
 
+* <details><summary>Q&A 1: Why the windows server Tickrate stuck at 64?</b></summary>
+
+  ![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+
+  * Reason: Windows system problem
+  * To Solve: 
+	* Method 1：Go complain Microsoft
+	* Method 2：Using windows 7 instead
+	* Method 3：Using linux server instead
+	* Method 4：Connect Server from lobby with ```mm_dedicated_force_servers``` command, it will fix 64 tick issue in windows server
+</details>
+
+* <details><summary>Q&A 2: Why player's tickrate is not 100?</b></summary>
+
+  ![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+
+  * Reason: Limited by your fps, Your in-game fps must be above 100 to enjoy 100 tickrate
+  <br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+  * To Solve: 
+	* Method 1：Options->Video->Advanved Settings->WAIT FOR VERTICAL SYNC "Disabled"，Unlock fps limit
+  	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/fe84f5a1-df7c-409d-9721-4ddf0984bf21)
+	* Method 2：Better upgrade Graphics Card (GPU)
+</details>
+
 - - - -
 ## Country and City Database
 * When to install?

@@ -60,12 +60,12 @@
 			// 顯示給外面玩家看到的伺服器空位人數
 			sv_visiblemaxplayers 18
 
-			// 為1時，動態大廳匹配制度，可能無法直接透過IP連線伺服器
-			// 為0時，關閉動態大廳匹配制度，可能會關閉大廳匹配
+			// 為1時，動態大廳匹配制度，可能無法直接透過IP連線伺服器，不能使用sv_cheats 1
+			// 為0時，關閉動態大廳匹配制度，可以使用sv_cheats 1
 			sv_allow_lobby_connect_only 0
 
 			// 為1時，強制sv_allow_lobby_connect_only為0
-			// 為1時，不會處理大廳匹配請求(也不會有大廳cookie)
+			// 為1時，移除lobby reservation cookie
 			sv_force_unreserved 1
 			```
 

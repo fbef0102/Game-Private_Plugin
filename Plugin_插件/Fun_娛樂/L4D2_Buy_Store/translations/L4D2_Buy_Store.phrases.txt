@@ -410,7 +410,7 @@
 	}
 	"Buy"
 	{
-		"#format"		"{1:s},{2:t}"
+		"#format"		"{1:s},{2:T}"
 		"en"	"{olive}{1}{default} purchased {green}{2}{default}. (Use !buy)."
 		"pt"	"{olive}{1}{default} Você comprou {green}{2}{default}. (Use !buy)."
 		"zho"	"{olive}{1}{default} 使用!buy商店購買了 {green}{2}{default}"
@@ -420,7 +420,7 @@
 	}
 	"Buy Special"
 	{
-		"#format"		"{1:s},{2:t}"
+		"#format"		"{1:s},{2:T}"
 		"en"	"{olive}{1}{default} purchased special item: {green}{2}{default}. (Use !buy)."
 		"pt"	"{olive}{1}{default} Você comprou um item Especial: {green}{2}{default}. (Digite !buy)."
 		"zho"	"{olive}{1}{default} 使用!buy購買了特殊商品: {green}{2}{default}"
@@ -1495,7 +1495,7 @@
 	}
 	"Last item you buy is not available"
 	{
-		"#format"		"{1:t}"
+		"#format"		"{1:T}"
 		"en"	"Last item you buy {green}---{1}---{default} is not available"
 		"pt"	"Último item que você comprou {green}---{1}---{default} não esta disponivel"
 		"zho"	"上次購買的物品 {green}---{1}---{default} 無法適用"
@@ -1651,7 +1651,7 @@
 	
 	"repeatbuy"
 	{
-		"#format"		"{1:t}"
+		"#format"		"{1:T}"
 		"en"	"Repeat Buy ({1})"
 		"zho"	"重複購買商品 ({1})"
 		"chi"	"重复购买商品 ({1})"

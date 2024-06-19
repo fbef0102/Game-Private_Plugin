@@ -446,6 +446,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.4 (2024-6-19)
+		* Fix translation
+
 	* v5.3 (2024-2-16)
 		* Reduce moeny if tank players lose control
 		* Update Cvars

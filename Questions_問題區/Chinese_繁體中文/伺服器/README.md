@@ -23,15 +23,15 @@
 
   ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/9a4e67e6-e345-4f89-8f14-ad15ec85a68f)
 
-  * 原因: 伺服器跟你是相同的網域才會出現的官方的Bug，伺服器已被人占用匹配，但你發現房間內根本沒人
+  * 原因: 官方的Bug，伺服器已被人占用匹配，但你發現伺服器內根本沒人
   * 解決方式:
-    * 法一：重啟伺服器，[自己開大廳匹配](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#如何從大廳匹配到專屬伺服器)
-    * 法二：```cfg/server.cfg```(沒有文件請自己創立) 寫下以下指令，並重啟伺服器
-      ```php
-      sv_allow_lobby_connect_only 0
-      sv_force_unreserved 1
-      sv_region 4 //4=Asia
-      ```
+      1. [安裝l4dtoolz](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝l4dtoolz)
+      2. 確保文件```cfg/server.cfg```(沒有文件請自己創立) 有寫以下指令，並重啟伺服器
+        ```php
+        sv_allow_lobby_connect_only 0
+        sv_force_unreserved 1
+        ```
+      3. 重啟伺服器，[自己開大廳匹配](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#如何從大廳匹配到專屬伺服器)
 </details>
 
 * <details><summary>問題3: 畫面出現<b>connection failed after 10 retries</b></summary>
