@@ -41,12 +41,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [Special Infected Ability by Silvers](https://forums.alliedmods.net/showthread.php?t=307330): Continue normal movement speed while spitting/smoking/tank throwing rock
-		> 讓Spitter/Smoker/Tank邊使用能力邊正常移動
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1 (2024-4-22)

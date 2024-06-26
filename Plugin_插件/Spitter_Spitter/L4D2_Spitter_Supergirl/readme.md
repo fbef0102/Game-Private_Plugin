@@ -114,7 +114,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Known Conflicts</summary>
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
-	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?t=307330)
+	1. [Special Infected Ability Movement](https://forums.alliedmods.net/showthread.php?t=307330)
 		* Don't allow spitter ability movement with this plugin while using "Supergirl Speed" ability.
 </details>
 
@@ -183,7 +183,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>會衝突的插件</summary>
 	
 	如果沒安裝以下插件就不需要擔心衝突
-	1. [Special Infected Ability Movement by Silvers](https://forums.alliedmods.net/showthread.php?t=307330)
+	1. [Special Infected Ability Movement](https://forums.alliedmods.net/showthread.php?t=307330)
 		* 這個插件可以讓spitter使用能力時自由移動，與"Super Girl Speed"能力會有衝突
 </details>
 

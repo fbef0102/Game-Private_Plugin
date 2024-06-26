@@ -46,7 +46,7 @@
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
       * 🟥 擅自修改源碼，將失去保固期
     * 保密交易，不會公開透露交易資訊與買家個資
-    * 會給源碼sp檔案，不得隨意二次發布、分享
+    * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期
   </details>
 
   * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
@@ -65,6 +65,7 @@
     * 舊插件翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
     * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
+    * [授權條款合法買賣，License](https://www.sourcemod.net/license.php)
   </details>
 
 > My Private Plugins (Updating more...) 
@@ -97,7 +98,7 @@
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
       * 🟥 You are free to modify source code for your convenience, but this will void the warranty. 
     * Privacy Policy, other people will never know our deal
-    * Provide source code, don't distribute or share
+    * Provide source code. If distribute or share, will void the warranty.
   </details>
 
   * <details><summary><b>Why high-priced?</b></summary>
@@ -116,6 +117,7 @@
     * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and transition phase.
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
+    * [License](https://www.sourcemod.net/license.php)
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -736,8 +738,15 @@
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付報酬
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
-  * ✗不幫忙架設伺服器、不幫忙安裝插件、不提供懶人安裝包，請自己先做功課，但過程遇到任何問題可以詢問教學
+  * ✗如要架設伺服器、安裝插件，請自己先做功課，過程遇到任何問題可以詢問教學，而不是都丟給其他人做
+  * ✗不提供懶人安裝包
   * ✗沒有源碼的插件，請附上來源網址
+</details>
+
+* <details><summary><b>拒絕名單</b></summary>
+
+  * 從今此後, 如果有人找我想詢問或更改以下作者的插件或原始碼, 一律不受理除非他們同意
+    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Fxxk you, scummy move](https://i.imgur.com/vs48vnD.jpeg)
 </details>
 
 # Introduce MySelf
@@ -775,6 +784,12 @@
   * ✗ Non-steam、old game version、old sourcemod version、old plugin version
   * ✗ Only plugin with no source code, please attach original link
   * ✗ I won't provide AllInOne-lazy-package, please do it yourself
+</details>
+
+* <details><summary><b>Blacklist</b></summary>
+
+  * From now on, if anyone has question, request about the following people's work or code, I refuse to do unless they agree
+    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Fxxk you, scummy move](https://i.imgur.com/vs48vnD.jpeg)
 </details>
 
 - - - -

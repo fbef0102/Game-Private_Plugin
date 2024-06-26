@@ -135,12 +135,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [Gear Transfer by Silvers](https://forums.alliedmods.net/showthread.php?t=137616): Allows items (molotov,pipebomb,vomitjar,defibrillator,first aid,explosive & incendiary rounds) to be transferred. Bots can auto give/grab items.
-		> AI Bot會自己撿起地上的投擲物品與醫療物品並自動給予玩家
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
 	```php

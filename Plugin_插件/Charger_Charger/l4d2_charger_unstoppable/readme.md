@@ -188,13 +188,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Charger可以徒手抓住人類趴趴走 (Bot 也適用)
 	2. [l4d2_charger_pickup_incap](/Plugin_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
 		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
-	3. [Charger power by Silvers](https://forums.alliedmods.net/showpost.php?p=2720242&postcount=76): allows charger to move objects (containers, cars, truck) by hitting them when using own ability.
-		> Charger 衝刺可以撞飛車子 (Bot 也適用)
-	4. [Charger Steering by Silvers](https://forums.alliedmods.net/showthread.php?t=179034): Allows chargers to turn while charging.
-		> Chargers 衝刺時會自己轉彎 (Bot 也適用)
-	5. [Charger Shoved Fix by Silvers](https://forums.alliedmods.net/showthread.php?t=321044): Prevents the Charger from slowing down when shoved while charging.
-		> 修復Chargers 衝刺被倖存者推時會變慢 (這是一個官方的Bug)
-	6. [Charging Charger Stagger by Marttt](https://forums.alliedmods.net/showthread.php?t=335142): Stagger clients around the charger while on charging mode
+	3. [Charging Charger Stagger by Marttt](https://forums.alliedmods.net/showthread.php?t=335142): Stagger clients around the charger while on charging mode
 		> 衝刺期間持續震開周圍的玩家 (Bot 也適用)
 </details>
 
