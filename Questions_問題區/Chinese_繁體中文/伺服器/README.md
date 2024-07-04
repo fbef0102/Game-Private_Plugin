@@ -27,10 +27,10 @@
   * 解決方式:
       1. [安裝l4dtoolz](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝l4dtoolz)
       2. 確保文件```cfg/server.cfg```(沒有文件請自己創立) 有寫以下指令，並重啟伺服器
-        ```php
-        sv_allow_lobby_connect_only 0
-        sv_force_unreserved 1
-        ```
+          ```php
+          sv_allow_lobby_connect_only 0
+          sv_force_unreserved 1
+          ```
       3. 重啟伺服器，[自己開大廳匹配](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#如何從大廳匹配到專屬伺服器)
 </details>
 

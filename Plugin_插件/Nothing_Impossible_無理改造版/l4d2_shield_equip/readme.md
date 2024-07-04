@@ -37,6 +37,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
       * Deduce damage from friendly fire
       * When shield takes damage or melee infected, it costs shield durability.
         * Once run out of durability, shield will be removed
+    * Notice
+        * No need to using any mods to unlock shield
+        * If player using character mods, the position of shield attachment will mess up on the body
+            * Just a visual issue, the functionality won't be affected
 </details>
 
 * Require | 必要安裝

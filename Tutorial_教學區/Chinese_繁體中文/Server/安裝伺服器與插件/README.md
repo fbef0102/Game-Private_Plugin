@@ -8,6 +8,7 @@
   - [如何執行專屬伺服器](#如何執行專屬伺服器)
   - [如何檢查版本](#如何檢查版本)
   - [如何進去我的伺服器](#如何進去我的伺服器)
+  - [設置路由器/網路基地台/防火牆](#設置路由器網路基地台防火牆)
   - [如何從大廳匹配到專屬伺服器](#如何從大廳匹配到專屬伺服器)
   - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
   - [如何編譯源碼](#如何編譯源碼)
@@ -340,7 +341,7 @@
    - version 	為遊戲伺服器的版本
    - udp/ip		為伺服器的IP
 		- 前半部 192.168.50.106:27016 是**虛擬IP(內網IP)**，只有相同網域的能連線進來
-		- 後半部 被塗黑的部分 是**公網IP(外網IP)**，全世界任何人能連線進來
+		- 後半部 被塗白的部分 是**公網IP(外網IP)**，全世界任何人能連線進來
       - 🟥其中27016是**網路Port(端口)**，為該伺服器占用
    - os		為電腦系統
    - map	   為當前地圖
@@ -348,19 +349,11 @@
 
 > [!WARNING]
 > 公網IP不要輕易讓任何人知道，因為暴露IP容易被駭客網路攻擊
-
-> [!CAUTION]
-> 🟥 以下類型網路「目前無法架設伺服器給全世界任何人連線進來」
-> * 3G/4G/5G/6G... 行動網路              <- 請別用手機網路吃到飽
-> * 透過 WiFi 連線的無線網路     <- 公共場所請勿使用
-> * 學校、公司、公家機關的宿舍網路         <- 不怕被吉就試試看
-> * 任何無法進入基地台/數據機設定的皆無法  <- 只能放棄 
 	 
 2. 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` <br/>
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193500444-67a24704-29a9-483a-b956-ef224b6422f6.png">
    - ```x.x.x.x:yyyyy``` 為你的伺服器公網IP
-   - 如果無法連線請改為虛擬IP
-   - 如果都無法連線代表網路的路由器(無線基地台、Router、中華電信的數據機)或電腦的防火牆需要調整
+   - 請朋友測試連線到你的伺服器公網IP，如果無法連線代表網路的路由器(無線基地台、Router、中華電信的數據機)或電腦的防火牆需要調整
       1. 申請固定IP，並更改路由器的路由表(英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing、Virtual Server)
          * 開放端口27016
          * 每個品牌操作方式不一樣，請自行google
@@ -371,37 +364,60 @@
       * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
       * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
 
-   - 以我為例
-      ```c
-      電腦系統: Windows 10
-      網路: 中華電信
-      網路公用IP: 固定 (如果IP會變，可自行與中華電信申請固定IP)
-      路由器品牌: DSL-6740C
-      伺服器的虛擬IP: 192.168.1.102
-      伺服器的端口: 27016
-      ```
-      1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器之後
-         * 每個品牌的帳密與操作方式不一樣，請自行google
-         * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
-	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/869274e4-dbdc-4630-a441-e056eb057c27">
-      
-      2. 重啟路由器
-         * 必須用網頁重啟
-      <br/><img width="234" alt="e39654498c0f68999651ad5cc0c4a7bb" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/17e17139-3aff-4c13-8899-6c310a572cbd">
-      
-      3. 設置電腦的防火牆，"輸入規則"新增兩個，"輸出規則"新增兩個
-         * 其他windows系統操作方式，請自行google
-         * 如果你是租服的(譬如騰訊雲)，那可能需要詢問客服
-	   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
-      <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
-     
-      4. 重啟電腦，打開伺服器，請一個路人或朋友打開遊戲連線進去你的伺服器
-         * 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` (公網IP)
-         
-3. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的IP地址 <br/>
-	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+      3. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的公網IP與虛擬IP地址 <br/>
+      <br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
-4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
+      4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
+
+- - - -
+## 設置路由器/網路基地台/防火牆
+> [!CAUTION]
+> 🟥 以下類型網路「目前無法架設伺服器給全世界任何人連線進來」
+> * 3G/4G/5G/6G... 行動網路              <- 請別用手機網路吃到飽
+> * 透過 WiFi 連線的無線網路     <- 公共場所請勿使用
+> * 學校、公司、公家機關的宿舍網路         <- 不怕被吉就試試看
+> * 任何無法進入基地台/數據機設定的皆無法  <- 只能放棄 
+
+* 以我為例
+   ```c
+   電腦系統(System): Windows 10
+   網路: 中華電信
+   公網IP(外網IP): x.x.x.x:yyyyy (如果IP會變，可自行與中華電信申請固定IP)
+   路由器品牌(Router): DSL-6740C
+   伺服器的虛擬IP(內網IP): 192.168.50.106
+   伺服器的端口(Port): 27016
+   ```
+   1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器
+      * 每個品牌的帳密與操作方式不一樣，請自行google
+      * 如果你是租服的(譬如騰訊雲)，那需要詢問客服
+      <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1ad5e899-c855-4916-a7d0-07b249b69d8a">
+
+   2. 查看你家網際網路的連線模式，不知道的話可以詢問客服或自己猜
+      <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/2ff46845-dc64-4353-83c5-aff5b61ca4b5">
+      ```c
+      我的網路網路連線模式(Connection Type): PPPoE IPv4&IPv6
+      連線模式使用的介面(Interface): WAN1_2
+      ```
+
+   3. 設置路由表 (英文是Routing Table、Forwarding Table、Port Fowarding、Port Routing、Virtual Server)
+   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/931d17be-4527-424a-882d-30b64a5c623e">
+
+   4. 重啟路由器
+      * 必須用網頁重啟
+   <br/><img width="234" alt="e39654498c0f68999651ad5cc0c4a7bb" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/17e17139-3aff-4c13-8899-6c310a572cbd">
+   
+   5. 設置電腦的防火牆，"輸入規則"新增兩個，"輸出規則"新增兩個
+      * 其他windows系統操作方式，請自行google
+   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/06b17343-94d9-4241-ab1d-62e12eaa0d40">
+   <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6b83284b-d515-4755-a2b8-80e92e96391b">
+   
+   6. 重啟電腦，打開伺服器，請朋友打開遊戲連線進去你的伺服器
+      * 啟動遊戲－＞打開控制台－＞輸入```connect x.x.x.x:yyyyy``` (公網IP)
+
+   7. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的公網IP與虛擬IP地址 <br/>
+      <br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+
+   8. 如果IP相同，你已經成功
 
 - - - -
 ## 如何從大廳匹配到專屬伺服器

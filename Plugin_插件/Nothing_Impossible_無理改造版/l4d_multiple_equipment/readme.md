@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Can save to next stage in coop/realism
     * Can save if player idle or afk
     * Drop all equipments when player is dead
+    * Notice
+        * If player using character mods, the position of second equipment will mess up on the body
+            * Just a visual issue, the functionality won't be affected
 </details>
 
 * Require | 必要安裝

@@ -45,6 +45,7 @@
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
       * 🟥 擅自修改源碼，將失去保固期
+      * 可隨時查看每個插件的網頁內的"Changelog | 版本日誌"，獲悉插件有無更新版本
     * 保密交易，不會公開透露交易資訊與買家個資
     * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期
   </details>
@@ -65,7 +66,8 @@
     * 舊插件翻修、優化、新增指令與翻譯，十年前老舊過時的代碼可能漏洞百出被我重製
     * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
-    * [授權條款合法買賣，License](https://www.sourcemod.net/license.php)
+    * [授權條款合法買賣](https://www.sourcemod.net/license.php)
+    * [控訴代碼?](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
   </details>
 
 > My Private Plugins (Updating more...) 
@@ -97,6 +99,7 @@
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
       * 🟥 You are free to modify source code for your convenience, but this will void the warranty. 
+      * To know if the plugin has updated, check "Changelog" on readme.md page
     * Privacy Policy, other people will never know our deal
     * Provide source code. If distribute or share, will void the warranty.
   </details>
@@ -118,6 +121,7 @@
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
     * [License](https://www.sourcemod.net/license.php)
+    * [False accusation](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
   </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**

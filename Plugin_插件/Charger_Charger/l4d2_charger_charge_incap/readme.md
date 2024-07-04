@@ -11,6 +11,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_charger_charge_incap_1](image/l4d2_charger_charge_incap_1.gif)
 	<br/>![l4d2_charger_charge_incap_2](image/l4d2_charger_charge_incap_2.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Charger can carry any incapacitated player
+	* Charger can impact any incapacitated player during charging
+	* Also apply to bot charger
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
