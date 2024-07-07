@@ -30,7 +30,7 @@
 
     * 如果想先測試功能可以要求先試用，我會給smx檔案供試用
     * 試用插件只有三天的期限，時間到如果繼續使用插件會自動炸服
-    * 付錢邀交易完成之後，會給源碼sp檔案，請放心
+    * 付錢交易完成之後，會給源碼sp檔案，請放心
   </details>
 
   * <details><summary><b>交易的注意事項</b></summary>
@@ -117,7 +117,7 @@
   * <details><summary><b>I found another similar function for free, how can you sell?</b></summary>
 
     * If there is another plugin that also has similar function, I don't mind. You are welcome to use them and compare pros and cons
-    * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and transition phase.
+    * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and translation phase.
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
     * [License](https://www.sourcemod.net/license.php)

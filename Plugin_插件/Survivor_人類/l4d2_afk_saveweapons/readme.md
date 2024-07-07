@@ -17,6 +17,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Bot who replaced player only have pistol and smg
 		* After go back to take over survivor，restore his all weapons and items
 		* Can save to next stage in coop/realism
+		* Can save melee weapons
+		* Can save health over 100hp
 	* Clean up backup data if
 		* Survivor wipe out
 		* Switch into infected team
@@ -41,6 +43,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Save Weapons/Items when the alive survivor player 1=Left the server, 2=Game crash (3=Both, 0=Off)
 		l4d2_afk_saveweapons_disconnect "2"
+
+		// If 1, save health and restore. (can save >100 hp)
+		l4d2_afk_saveweapons_save_health "0"
 		```
 </details>
 
@@ -55,6 +60,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2024-7-7)
+		* Save health
+		* Update cvars
 
 	* v1.2 (2024-5-5)
 		* Update cvars
@@ -83,6 +92,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 下次加入Bot遊玩時，恢復上次所攜帶的武器、物資
 		* 可以保存到人類過關
 		* 可以保存三方圖近戰
+		* 可以保存血量
 	* 有以下情況會清空數據
 		* 人類滅團
 		* 切換隊伍當特感
@@ -104,5 +114,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 下列何種離線情況，保存身上攜帶的武器、物資。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
 		// 3=兩者都適用, 0=關閉此功能
 		l4d2_afk_saveweapons_disconnect "2"
+
+		// 為1時，保存血量與倒地狀態 (可保存超過100HP)
+		l4d2_afk_saveweapons_save_health "0"
 		```
 </details>

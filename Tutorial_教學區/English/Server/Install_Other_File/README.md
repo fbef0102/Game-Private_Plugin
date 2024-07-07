@@ -10,11 +10,11 @@
 - - - -
 ## Stripper
 * What is stripper?
-   * Modify, add, delete entities on the map, even create map event
-      * [Video](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
-   * Build the map by yourself
-      * [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
-	  * [l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
+* Modify, add, delete entities on the map, even create map event
+	* [Video](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
+* Build the map by yourself
+	* [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
+	* [l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 
 * Installation
 	1. Go to [Stripper:Source](https://forums.alliedmods.net/showthread.php?t=39439) and click SNAPSHOTS
@@ -37,11 +37,11 @@
 - - - -
 ## l4dtoolz
 *  What is l4dtoolz?
-   * To unlock server slots limit, you can have 8+ players in your server
+* To unlock server slots limit, you can have 8+ players in your server
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-   * Max slot limit is 32 in left4dead 1/2
-	  * [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
-	  * [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
+* Max slot limit is 31 in left4dead 1/2
+	* [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
+	* [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
 
 * Installation
 	1. Go to [l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases) and download files depending on your game and system
@@ -68,11 +68,12 @@
 		```
 
 	4. By default, the game engine only allow 18 max players. To change max players
-        * Max. players = Human player + AI Survivor Bot + AI Infected Bot + Spectators
+		* Max. players = Human player + AI Survivor Bot + AI Infected Bot + Spectators
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6c945597-4a3b-4a5c-b3d2-f457fc4895b4)
-    	* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 32```
+		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
+		* Server would crash if over 31 players
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/accc68ae-7d95-464e-b0b0-8d90a9a03d9f)
-  
+
 	5. Restart Server，type ```meta list``` in serve console
 		```php
 		] meta list
@@ -83,10 +84,10 @@
 - - - -
 ## TickrateEnabler
 * What is TickrateEnabler ?
-   * To unlock server tickrate limit, up to 100 tickrate
-	  * If you don't know tickrate, please google it
-	  * Tickrate = Server fps
-   * High Tickrate costs more cpu performance
+* To unlock server tickrate limit, up to 100 tickrate
+	* If you don't know tickrate, please google it
+	* Tickrate = Server fps
+* High Tickrate costs more cpu performance
 
 * Installation
 	1. Go to [Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases) and download files depending on your game and system
@@ -128,10 +129,10 @@
 
 * <details><summary>Q&A 1: Why the windows server Tickrate stuck at 64?</b></summary>
 
-  ![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
-  * Reason: Windows system problem
-  * To Solve: 
+* Reason: Windows system problem
+* To Solve: 
 	* Method 1：Go complain Microsoft
 	* Method 2：Using windows 7 instead
 	* Method 3：Using linux server instead
@@ -140,23 +141,23 @@
 
 * <details><summary>Q&A 2: Why player's tickrate is not 100?</b></summary>
 
-  ![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
 
-  * Reason: Limited by your fps, Your in-game fps must be above 100 to enjoy 100 tickrate
-  <br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
-  * To Solve: 
+* Reason: Limited by your fps, Your in-game fps must be above 100 to enjoy 100 tickrate
+<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+* To Solve: 
 	* Method 1：Options->Video->Advanved Settings->WAIT FOR VERTICAL SYNC "Disabled"，Unlock fps limit
-  	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/fe84f5a1-df7c-409d-9721-4ddf0984bf21)
+	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/fe84f5a1-df7c-409d-9721-4ddf0984bf21)
 	* Method 2：Better upgrade Graphics Card (GPU)
 </details>
 
 - - - -
 ## Country and City Database
 * When to install?
-   * Plugins that need to retrieve data from client, such as IP, country, region, city.
-      * Plugin: [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
-   * You have geoipcity.ext or geoip2.ext
-      * Unsupported, please REMOVE, they are now included with SourceMod v1.11 or above
+* Plugins that need to retrieve data from client, such as IP, country, region, city.
+	* Plugin: [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
+* You have geoipcity.ext or geoip2.ext
+	* Unsupported, please REMOVE, they are now included with SourceMod v1.11 or above
 
 * Installation
 	1. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases

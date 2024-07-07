@@ -10,11 +10,11 @@
 - - - -
 ## 安裝Stripper
 * Stripper 用途是什麼?
-   * 修改地圖，可以在地圖上新增各種障礙物、道具、機關事件等等
-      * [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
-   * 把地圖改造成迷宮都不是問題
-      * [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
-	  * [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
+* 修改地圖，可以在地圖上新增各種障礙物、道具、機關事件等等
+	* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
+* 把地圖改造成迷宮都不是問題
+	* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+	* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 
 * 安裝步驟
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS
@@ -37,11 +37,11 @@
 - - - -
 ## 安裝l4dtoolz
 * l4dtoolz 用途是什麼?
-   * 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
+* 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-   * 最多只能有32位玩家同時在伺服器裡面
-	  * [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
-	  * [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
+* 最多只能有31位玩家同時在伺服器裡面 (不能超過31人，否則伺服器會崩潰)
+	* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
+	* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
 * 安裝步驟
 	1. 到[l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases)，根據你的遊戲與系統選擇檔案下載
@@ -70,9 +70,10 @@
 			```
 
 	4. 遊戲預設玩家上限只到18位，如果要改變玩家上限
-        * 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
+		* 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
-    	* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 32```
+		* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
+		* 不能超過31人，否則伺服器會崩潰
 		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/accc68ae-7d95-464e-b0b0-8d90a9a03d9f)
 
 	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
@@ -85,10 +86,10 @@
 - - - -
 ## 安裝TickrateEnabler
 * TickrateEnabler 用途是什麼?
-   * 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
-	  * 不知道Tickrate是甚麼請自行Google
-	  * 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
-   * 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
+* 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
+	* 不知道Tickrate是甚麼請自行Google
+	* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
+* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
 * 安裝步驟
 	1. 到[Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇檔案下載
@@ -130,10 +131,10 @@
 
 * <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
 
-  ![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
-  * 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
-  * 解決方式: 
+* 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
+* 解決方式: 
 	* 法一：去跟微軟抱怨
 	* 法二：windows降級到windows 7
 	* 法三：租一台linux系統
@@ -142,23 +143,23 @@
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
 
-  ![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
 
-  * 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
-  <br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
-  * 解決方式: 
+* 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
+<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+* 解決方式: 
 	* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
-  	<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
+	<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
 	* 法二：法一沒有用那就去升級你的顯卡
 </details>
 
 - - - -
 ## 安裝國家與城市的資料庫
 * 何時需要用到?
-   * 有插件需要抓取玩家的IP、國家、城市、地區等等
-      * 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
-   * 有安裝geoipcity.ext, geoip2.ext等等
-      * 已經過時，請移除這些檔案並升級sourcemod v1.11以上
+* 有插件需要抓取玩家的IP、國家、城市、地區等等
+	* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
+* 有安裝geoipcity.ext, geoip2.ext等等
+	* 已經過時，請移除這些檔案並升級sourcemod v1.11以上
 
 * 安裝步驟
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)

@@ -157,7 +157,7 @@
 * Windows
    1. 到伺服器檔案所在資料夾位置，新增一個檔案叫```scrds.bat```(注意副檔名)，用筆記本打開它，複製以下內容
       ```
-      start srcds.exe -console -game xxxxxx -port 27016 +log on +exec server.cfg +sv_lan 0 -maxplayers 32 +map c1m1_hotel
+      start srcds.exe -console -game xxxxxx -port 27016 +log on +exec server.cfg +sv_lan 0 -maxplayers 31 +map c1m1_hotel
       ```
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/39e702e9-9a51-49ee-ad19-4cc3b915a3b1)
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/649c7ce9-3b0c-484a-b754-d047bec7c524)
@@ -171,7 +171,7 @@
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件 (沒有此文件請自行創立)
       - ```+sv_lan 0``` 改成網際網路 (廢話)
-      - ```-maxplayers 32``` 最多玩家上限，即使設定32人，伺服器人數受到遊戲模式的限制
+      - ```-maxplayers 31``` 最多玩家上限，即使設定31人，伺服器人數受到遊戲模式的限制
          - L4D 戰役模式最多4人、對抗模式最多8人
       - 可自行添加其他參數(啟動選項)，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
@@ -191,7 +191,7 @@
 * Linux
    1. 啟用終端機到伺服器檔案所在資料夾位置，輸入
       ```
-      ./srcds_run -console -game xxxxxx -port 27016 +log on +exec server +sv_lan 0 -maxplayers 32
+      ./srcds_run -console -game xxxxxx -port 27016 +log on +exec server +sv_lan 0 -maxplayers 31
       ```
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
