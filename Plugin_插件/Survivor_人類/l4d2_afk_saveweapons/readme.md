@@ -38,10 +38,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d2_afk_saveweapons_announce_type "1"
 
-		// If 1, Save Weapons/Items when player going afk
+		// If 1, Save Weapons/Items/Health when player going afk
 		l4d2_afk_saveweapons_going_afk "1"
 
-		// Save Weapons/Items when the alive survivor player 1=Left the server, 2=Game crash (3=Both, 0=Off)
+		// Save Weapons/Items/Health when the alive survivor player 1=Left the server, 2=Game crash (3=Both, 0=Off)
 		l4d2_afk_saveweapons_disconnect "2"
 
 		// If 1, save health and restore. (can save >100 hp)
@@ -105,13 +105,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d2_afk_saveweapons_enable "1"
 
-		// 武器、物資恢復提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		// 武器、物資、血量恢復提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d2_afk_saveweapons_announce_type "1"
 
-		// 為1時，倖存者真人玩家閒置、旁觀時，保存身上攜帶的武器、物資
+		// 為1時，倖存者真人玩家閒置、旁觀時，保存身上攜帶的武器、物資、血量
 		l4d2_afk_saveweapons_going_afk "1"
 
-		// 下列何種離線情況，保存身上攜帶的武器、物資。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
+		// 下列何種離線情況，保存身上攜帶的武器、物資、血量。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
 		// 3=兩者都適用, 0=關閉此功能
 		l4d2_afk_saveweapons_disconnect "2"
 

@@ -146,6 +146,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9 (2024-7-9)
+		* Fix not working in l4d1
+
 	* v1.8 (2023-10-28)
 		* Fix memory leak
 
@@ -224,7 +227,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 尾巴特效的高度
 		l4d_player_tail_height "5.0"
 
-		// 每4秒變更尾巴特效的顏色 (0=顏色不變化)
+		// 每X秒變更尾巴特效的顏色 (0=顏色不變化)
 		l4d_player_tail_changecolor_interval "0"
 
 		// 為1時，尾巴特效中間再增加一條線

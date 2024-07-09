@@ -35,9 +35,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Can save to next stage in coop/realism
     * Can save if player idle or afk
     * Drop all equipments when player is dead
-    * Notice
-        * If player using character mods, the position of second equipment will mess up on the body
-            * Just a visual issue, the functionality won't be affected
+</details>
+
+* <details><summary>Notice</summary>
+
+    * If player using character mods, the position of equipment will mess up on the body
+        * Just a visual issue, the functionality won't be affected
+        * Can set cvar to not display extra item equipment 
 </details>
 
 * Require | 必要安裝
@@ -88,6 +92,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // If 1, player can type !sw to switch equipments
         l4d_multiple_equipment_switch_cmd "1"
+
+        // If 1, lock primary gun shoot when reaching 0 ammo (For the convenience to switch weapons)
+        l4d_multiple_equipment_ammo_lock "1"
 
         // Players with these flags have access to switch equipments and carry 2 weapons or items in each slot. (Empty = Everyone, -1: Nobody)
         l4d_multiple_equipment_access_flag ""
@@ -148,6 +155,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.0h (2024-7-9)
+        * Add back primary weapon ammo lock
+        * Compatibility with [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability) v1.3 or above
+        * Update Cvars
 
     * v1.9h (2024-6-18)
         * Remove primary weapon ammo lock
@@ -268,6 +280,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，玩家也可以輸入 !sw 切換裝備
         l4d_multiple_equipment_switch_cmd "1"
+
+        // 為1時，主武器0彈藥時，會剩下最後一顆子彈並鎖住不能開槍 (為了方便切換主武器使用)
+        l4d_multiple_equipment_ammo_lock "1"
 
         // 擁有這些權限的玩家，才可以輸入切換備用裝備與攜帶雙武器與物品 (留白 = 任何人都能, -1: 無人)
         l4d_multiple_equipment_access_flag ""

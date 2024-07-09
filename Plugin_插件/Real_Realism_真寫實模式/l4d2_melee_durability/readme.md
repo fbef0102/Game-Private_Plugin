@@ -8,19 +8,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/8jsq8NT08S8)
 
 * Image | 圖示
-	<br/>![l4d2_melee_durability_1](image/l4d2_melee_durability_1.gif)
-	<br/>![l4d2_melee_durability_2](image/l4d2_melee_durability_2.gif)
+    <br/>![l4d2_melee_durability_1](image/l4d2_melee_durability_1.gif)
+    <br/>![l4d2_melee_durability_2](image/l4d2_melee_durability_2.gif)
+    <br/>![l4d2_melee_durability_3](image/l4d2_melee_durability_3.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* Every melee weapons have durability
-	* Cost durability when melee S.I., Witch, infected, objects.....
-	* The melee weapon will be removed once run out durability, and give pistol
+    * Every melee weapons have durability
+    * Cost durability when melee S.I., Witch, infected, objects.....
+    * The melee weapon will be removed once run out durability, and give pistol
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -31,6 +32,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
         l4d2_melee_durability_announce_type "2"
+
+        // 0=Display durability percent number, 1=Display durability bar
+        l4d2_melee_durability_show_bar "1"
 
         // How much durability does it cost when melee Tank. (0: No Cost)
         l4d2_melee_durability_tank_cost "200"
@@ -102,6 +106,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* <details><summary>API | 串接</summary>
+
+    * ```scripting\include\l4d2_melee_durability.inc```
+        ```php
+        Registers a library name: l4d2_melee_durability
+        ```
+</details>
+
 * Apply to | 適用於
     ```
     L4D2
@@ -109,23 +121,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
-	```
-	English
-	繁體中文
-	简体中文
-	```
+    ```
+    English
+    繁體中文
+    简体中文
+    ```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.2 (2023-6-25)
-		* In coop/realism mode, keep melee durability to next map.
+    * v1.3 (2024-7-9)
+        * Add API
+        * Update Cvars
+        * Update Translations
 
-	* v1.1 (2023-3-13)
-		* Translation Support
+    * v1.2 (2023-6-25)
+        * In coop/realism mode, keep melee durability to next map.
+
+    * v1.1 (2023-3-13)
+        * Translation Support
 
     * v1.0 (2022-11-06)
-	    * Initial Release
+        * Initial Release
 </details>
 
 - - - -
@@ -156,6 +173,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 顯示耐久度的位置. (0: 關閉, 1: 聊天窗, 2: 螢幕下方黑底白字窗, 3: 螢幕正中間)
         l4d2_melee_durability_announce_type "2"
+
+        // 0=用實際百分比數值顯示耐久度, 1=用圖案符號顯示耐久度
+        l4d2_melee_durability_show_bar "1"
 
         // 揮砍Tank所消耗的耐力數值 (0: 無消耗)
         l4d2_melee_durability_tank_cost "200"

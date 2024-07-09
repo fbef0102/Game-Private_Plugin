@@ -26,4 +26,19 @@
 		"zho"			"近戰武器耐力值: {1}%%"
 		"chi"			"近战武器耐力值: {1}%%"
 	}
+
+	"Bar (C)"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{olive}TS{default}] Melee weapon {green}Bar{default}: {olive}{1}"
+		"zho"			"[{olive}TS{default}] 近戰武器 {green}耐力{default}: {olive}{1}"
+		"chi"			"[{olive}TS{default}] 近战武器 {green}耐力{default}: {olive}{1}"
+	}
+	"Bar"
+	{
+		"#format"		"{1:s}"
+		"en"			"Melee weapon Bar: {1}"
+		"zho"			"近戰武器耐力: {1}"
+		"chi"			"近战武器耐力: {1}"
+	}
 }
