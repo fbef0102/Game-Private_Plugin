@@ -749,8 +749,8 @@
 
 * <details><summary><b>拒絕名單</b></summary>
 
-  * 從今此後, 如果有人找我想詢問或更改以下作者的插件或原始碼, 一律不受理除非他們同意
-    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Fxxk you, scummy move](https://i.imgur.com/vs48vnD.jpeg)
+  * 從今此後, 以下作者的插件或原始碼, 一律不受理
+    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
 </details>
 
 # Introduce MySelf
@@ -792,8 +792,8 @@
 
 * <details><summary><b>Blacklist</b></summary>
 
-  * From now on, if anyone has question, request about the following people's work or code, I refuse to do unless they agree
-    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Fxxk you, scummy move](https://i.imgur.com/vs48vnD.jpeg)
+  * From now on, I refuse to modify the following people's work
+    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
 </details>
 
 - - - -
