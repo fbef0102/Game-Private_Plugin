@@ -51,10 +51,34 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (Dynamic Adjust) Add this value to '_mob_spawn_max_size_default' each player joins survivor team. (0=off)
 		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
 
-		// If 1, When final rescue starts, disable Dynamic Adjust and restore all official cvars to default value.
-		// Prevent too many common infected and horde keep coming, cause final stage stuck
-		l4d2_auto_add_zombie_final_restore_default "1"
+		// After final rescue starts, 0=Disable Dynamic Adjust and restore all official cvars to default value. (Prevent too many common infected and horde keep coming, cause final stage stuck)
+		// 1=Keep Dynamic Adjust
+		l4d2_auto_add_zombie_final_type "1"
 		
+		// [Final Rescue] How many common infecteds we can have at once on the map. (override official cvar '_common_limit')
+		l4d2_auto_add_zombie_common_limit_final "30"
+
+		// [Final Rescue] Numbers of Event horde/Alarm horde common infected. (override official cvar '_mega_mob_size')
+		l4d2_auto_add_zombie_mega_mob_size_final "50"
+
+		// [Final Rescue] Minimum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_min_size')
+		l4d2_auto_add_zombie_mob_spawn_min_size_final "10"
+
+		// [Final Rescue] Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
+		l4d2_auto_add_zombie_mob_spawn_max_size_final "30"
+
+		// [Final Rescue] (Dynamic Adjust) Add this value to '_common_limit_default' each player joins survivor team. (0=off)
+		l4d2_auto_add_zombie_common_limit_add_final "2"
+
+		// [Final Rescue] (Dynamic Adjust) Add this value to '_mega_mob_size_default' each player joins survivor team. (0=off)
+		l4d2_auto_add_zombie_mega_mob_size_add_final "8"
+
+		// [Final Rescue] (Dynamic Adjust) Add this value to '_mob_spawn_min_size_default' each player joins survivor team. (0=off)
+		l4d2_auto_add_zombie_mob_spawn_min_size_add_final "4"
+
+		// [Final Rescue] (Dynamic Adjust) Add this value to '_mob_spawn_max_size_default' each player joins survivor team. (0=off)
+		l4d2_auto_add_zombie_mob_spawn_max_size_add_final "4"
+
 		// If 1, Override common infected/mob/horde limit in director script.
 		// This can prevent custom map from modifying common infected settings
 		l4d2_auto_add_zombie_override_script_value "0"
@@ -107,6 +131,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2024-7-11)
+		* Add dynamic adjust after final rescue starts
+		* Update Cvars
 
 	* v1.2 (2023-12-18)
 		* Override Director Scripts
@@ -170,9 +198,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (動態調整模式) 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量增加幾個. (0=關閉此功能)
 		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
 
-		// 為1時，當救援開始時，將所有的官方指令值改回預設值
-		// 避免殭屍太多，導致救援卡關，無法生成Tank
+		// 當救援開始後，0=所有的官方指令數值改回預設並關閉動態調整 (避免殭屍太多，導致救援卡關，無法生成Tank)
+		// 1=持續動態調整模式
 		l4d2_auto_add_zombie_final_restore_default "1"
+		
+		// [救援開始後] 殭屍同時存在的總數量 (覆蓋官方指令 'z_common_limit')
+		l4d2_auto_add_zombie_common_limit_final "30"
+
+		// [救援開始後] 警報車/地圖機關 殭屍數量. (覆蓋官方指令 'z_mega_mob_size')
+		l4d2_auto_add_zombie_mega_mob_size_final "50"
+
+		// [救援開始後] Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 'z_mob_spawn_min_size')
+		l4d2_auto_add_zombie_mob_spawn_min_size_final "10"
+
+		// [救援開始後] Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
+		l4d2_auto_add_zombie_mob_spawn_max_size_final "30"
+
+		// [救援開始後] (動態調整模式) 每新增一位倖存者，殭屍同時存在的總數量增加幾個. (0=關閉此功能)
+		l4d2_auto_add_zombie_common_limit_add_final "2"
+
+		// [救援開始後] (動態調整模式) 每新增一位倖存者，警報車/地圖機關 殭屍數量增加幾個. (0=關閉此功能)
+		l4d2_auto_add_zombie_mega_mob_size_add_final "8"
+
+		// [救援開始後] 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量增加幾個. (0=關閉此功能)
+		l4d2_auto_add_zombie_mob_spawn_min_size_add_final "4"
+
+		// [救援開始後] 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量增加幾個. (0=關閉此功能)
+		l4d2_auto_add_zombie_mob_spawn_max_size_add_final "4"
 
 		// 為1時，強制使用VScript覆蓋導演系統的設置
 		// 開啟這項指令可以防止三方圖攥改殭屍與屍潮的數量

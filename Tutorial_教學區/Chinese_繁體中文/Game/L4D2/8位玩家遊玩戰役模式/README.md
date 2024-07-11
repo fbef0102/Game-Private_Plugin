@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/3/19 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/7/11 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -15,7 +15,6 @@
 <br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
 * [English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
 * 本篇教學適用於L4D1和L4D2
-* [AlliedModders 論壇的貼文](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): 同樣都是我本人撰寫
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
    - 因為Sourcemod本來就不支援區域伺服器，請自行斟酌
@@ -129,8 +128,6 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
 
-* [5+ Survivors More Supply](/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
-
 * [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 服用腎上腺素或藥丸，提升裝彈速度、開槍速度、近戰砍速、動畫起身速度
@@ -151,9 +148,15 @@
 
 * [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
 
-* [L4D2 Survivors And Infected Shop Improved](/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
+* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知的世界
 
-* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知地圖的世界
+* [L4D2 Survivors And Infected Shop Improved](/Plugin_插件/Fun_娛樂/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
+
+* [5+ Survivors More Supply](/Plugin_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
+
+* [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
+
+* [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
 
 - - - -
 ## 其他

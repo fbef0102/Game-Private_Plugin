@@ -1,5 +1,5 @@
 # Navigation
-> 2024/3/19 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/7/11 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -15,7 +15,6 @@
 <br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
 * [繁體中文說明請看這](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
 * This tutorial applies to L4D1 and L4D2
-* [AlliedModeders Post](https://forums.alliedmods.net/showpost.php?p=2750588&postcount=4): Written by me
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
    - Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
@@ -122,8 +121,6 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
 
-* [5+ Survivors More Supply](/Plugin_%E6%8F%92%E4%BB%B6/Survivor_%E4%BA%BA%E9%A1%9E/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
-
 * [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
@@ -136,7 +133,7 @@
 
 * [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
-* [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Change target when the witch incapacitates or kills victim + witchs auto follow survivors
+* [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Change target when the witch incapacitates or kills victim + witch auto follows survivors
 
 * [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
 
@@ -144,9 +141,15 @@
 
 * [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
-* [L4D2 Survivors And Infected Shop Improved](/Plugin_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
-
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
+
+* [L4D2 Survivors And Infected Shop Improved](/Plugin_插件/Fun_娛樂/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
+
+* [5+ Survivors More Supply](/Plugin_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
+
+* [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
+
+* [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
 
 - - - -
 ## Others
