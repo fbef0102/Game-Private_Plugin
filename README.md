@@ -277,6 +277,8 @@
     * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
   * [l4d2_tank_hittable_reset](/Plugin_插件/Tank_坦克/l4d2_tank_hittable_reset): Tank can use menu to reset all hittable and enter practice mode
     * Tank可以重置所有物件的位置並練習如何揮打車子
+  * [l4d2_huge_tank_rock](/Plugin_插件/Tank_坦克/l4d2_huge_tank_rock): Make Tank Rock Huge
+    * Tank石頭變得巨大
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -427,6 +429,8 @@
     * 指定的武器無法填裝彈藥
   * [l4d2_chainsaw_ammo](/Plugin_插件/Weapons_武器/l4d2_chainsaw_ammo): Cannot refill the ammo of the weapons
     * 電鋸可以用彈藥堆填充油量
+  * [l4d_spec_lasertag_cheat](/Plugin_插件/Weapons_武器/l4d_spec_lasertag_cheat): Admins can use command to see the Lasertag with bullets when player shoots
+    * 管理員輸入指令能看到玩家的子彈軌跡 (方便看自瞄作弊)
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
