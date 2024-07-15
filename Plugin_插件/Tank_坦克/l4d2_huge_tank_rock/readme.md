@@ -64,6 +64,9 @@ Tank石頭變得巨大
 	* Tank玩家丟出的石頭變得更大
 	* 🟥 石頭的砸中判定不會改變
 
+* 用意在哪?
+	* 好玩，嚇人
+
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_huge_tank_rock.cfg

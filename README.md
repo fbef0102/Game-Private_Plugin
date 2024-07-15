@@ -279,6 +279,8 @@
     * Tank可以重置所有物件的位置並練習如何揮打車子
   * [l4d2_huge_tank_rock](/Plugin_插件/Tank_坦克/l4d2_huge_tank_rock): Make Tank Rock Huge
     * Tank石頭變得巨大
+  * [l4d_tankhp_dynamic_adjust](/Plugin_插件/Tank_坦克/l4d_tankhp_dynamic_adjust): Dynamic Adjust Tank HP depends on 5+ survivors in server
+    * 隨著玩家人數越多，Tank血量越厚
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -369,6 +371,8 @@
     * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
   * [l4d2_afk_saveweapons](/Plugin_插件/Survivor_人類/l4d2_afk_saveweapons): Save weapons/items when survivor player going AFK or Game Crash
     * 當倖存者玩家閒置、旁觀、崩潰、閃退時，保存攜帶的武器、物資
+  * [l4d_disable_ledgehang](/Plugin_插件/Survivor_人類/l4d_disable_ledgehang): Disable ledge hanging by player
+    * 倖存者不會掛邊而是直接墬落
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -623,18 +627,20 @@
 
   * [AcceptInput_crash_fix](/Plugin_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
     * 修復物件不存在或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方圖)
+  * [grave_break](/Plugin_插件/Entity_實體物件/grave_break): say !breakgrave to break all graves
+    * 打破地圖上所有墓碑
+  * [remove_invisible_wall](/Plugin_插件/Entity_實體物件/remove_invisible_wall): Remove all invisible wall on the map
+    * 移除地圖上所有的空氣牆
+  * [remove_deathfall_camera](/Plugin_插件/Entity_實體物件/remove_deathfall_camera): Remove all death fall camera on the map (Prevent locking view)
+    * 移除地圖上所有高空墬落的鏡頭 (避免玩家視角被鎖住)
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
-  * [grave_break](/Plugin_插件/Miscellaneous_雜項/grave_break): say !breakgrave to break all graves
-    * 輸入 !breakgrave 打破地圖上所有墓碑
   * [laser_block](/Plugin_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
     * 遊戲開始後不能升級紅外線雷射
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
-  * [remove_invisible_wall](/Plugin_插件/Miscellaneous_雜項/remove_invisible_wall): Use commans to remove all invisible wall on the map
-    * 輸入指令移除地圖上所有的空氣牆
   * [l4d_lock_cvar](/Plugin_插件/Miscellaneous_雜項/l4d_lock_cvar): Enforces ConVars consistency from the data-file values
     * 鎖住CVAR的值，不會被遊戲或地圖或玩家竄改
   * [l4d_block_msg_print](/Plugin_插件/Miscellaneous_雜項/l4d_block_msg_print): Block some useless game message

@@ -242,7 +242,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
-	* 這個插件已經修改以下四個指令, 你無須更動
+	* 這個插件已經修改以下指令, 你無須更動
 
 	| 指令  				| 預設值 	| 效果 |
 	| -------------|:-----------------:|:-------------:|
