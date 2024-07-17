@@ -153,6 +153,8 @@
     * 限制來自某些國家或地區的玩家，禁止進入伺服器
   * [l4d_switchteam_panel](/Plugin_插件/Server_伺服器/l4d_switchteam_panel): Admin can use panel to swap player to another team
     * 管理員可以使用介面強制轉移玩家到另一個隊伍
+  * [l4d2_custom_difficulty](/Plugin_插件/Server_伺服器/l4d2_custom_difficulty): Set your own custom difficulty and damage + vote to change custom difficulty
+    * 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>

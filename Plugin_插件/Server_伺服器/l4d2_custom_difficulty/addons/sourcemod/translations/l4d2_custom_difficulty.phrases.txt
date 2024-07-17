@@ -1,0 +1,66 @@
+﻿"Phrases"
+{
+	"Restore"
+	{
+		"en"		"Restore Difficulty Settings"
+		"zho"		"回復所有難度設置"
+		"chi"		"回复所有难度设置"
+	}
+	"Same"
+	{
+		"en"		"You the same custom difficultt!"
+		"zho"		"你所投票的難度與當前一樣!"
+		"chi"		"你所投票的难度与当前一样!"
+	}
+	"Can't Create Vote"
+	{
+		"en"		"Can't call vote at this moment, tryt again later!"
+		"zho"		"目前無法建立投票，請稍後再試!"
+		"chi"		"目前无法建立投票，请稍后再试!"
+	}
+	"Spectator"
+	{
+		"en"		"Spectator can not call vote!"
+		"zho"		"旁觀者不能發起投票!"
+		"chi"		"旁观者不能发起投票!"
+	}
+	"Not Enough Players"
+	{
+		"#format"		"{1:d}"
+		"en"		"You need at least {green}{1}{default} players to start difficulty vote."
+		"zho"		"至少要 {green}{1}{default} 位以上的倖存者/特感玩家在場，才能發起投票"
+		"chi"		"至少要 {green}{1}{default} 位以上的幸存者/特感玩家在场，才能发起投票"
+	}
+	"Vote Difficulty Title"
+	{
+		"#format"		"{1:s}"
+		"en"		"Load Custom Difficulty: {1} ?"
+	}
+	"Call Vote"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"		"{lightgreen}{1}{default} calls vote to load custom difficulty: {green}{2}"
+		"zho"		"{lightgreen}{1}{default} 發起投票，變更難度為: {green}{2}"
+		"chi"		"{lightgreen}{1}{default} 发起投票，变更难度为: {green}{2}"
+	}
+	"Loaded Difficulty"
+	{
+		"#format"		"{1:s}"
+		"en"		"Loaded Difficulty: {green}{1}"
+		"zho"		"目前難度已變更為: {green}{1}"
+		"chi"		"目前难度已变更为: {green}{1}"
+	}
+
+	"Menu Title"
+	{
+		"en"		"Choose Custom Difficulty"
+		"zho"		"更換自訂難度"
+		"chi"		"更换自订难度"
+	}
+	"Current"
+	{
+		"en"		"(Current)"
+		"zho"		"(目前)"
+		"chi"		"(目前)"
+	}
+}
