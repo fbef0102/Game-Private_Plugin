@@ -52,27 +52,27 @@
 
 	3. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
-		```php
-		// Max Human Players, free to modify value (1~31)
-		// How many human players can join server
-		sv_maxplayers 18
+			```php
+			// Max Human Players, free to modify value (1~31)
+			// How many human players can join server
+			sv_maxplayers 18
 
-		// Overrides the max players reported to prospective clients
-		sv_visiblemaxplayers 18
+			// Overrides the max players reported to prospective clients
+			sv_visiblemaxplayers 18
 
-		// If 1, Players may only join this server from matchmaking lobby, may not connect directly.
-		sv_allow_lobby_connect_only 0
+			// If 1, Players may only join this server from matchmaking lobby, may not connect directly.
+			sv_allow_lobby_connect_only 0
 
-		// If 1, Disallow lobby reservation cookie
-		sv_force_unreserved 1
-		```
+			// If 1, Disallow lobby reservation cookie
+			sv_force_unreserved 1
+			```
 
 	4. By default, the game engine only allow 18 max players. To change max players
 		* Max. players = Human player + AI Survivor Bot + AI Infected Bot + Spectators
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6c945597-4a3b-4a5c-b3d2-f457fc4895b4)
+		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
 		* Server would crash if over 31 players
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/accc68ae-7d95-464e-b0b0-8d90a9a03d9f)
+		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
 
 	5. Restart Server，type ```meta list``` in serve console
 		```php

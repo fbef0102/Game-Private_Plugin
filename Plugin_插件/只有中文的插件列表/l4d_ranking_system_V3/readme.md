@@ -36,7 +36,8 @@
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	5. 可選 - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
+	5. 可選 - [readyup](/Plugin_插件/Server_伺服器/readyup)
+	6. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_skill_detect)
 
 * <details><summary>指令</summary>
 
@@ -58,13 +59,22 @@
 		l4d_ranking_system_boomer_illed "3"
 
 		// 殺死Hunter所獲得的經驗值 (0=關閉)
-		l4d_ranking_system_hunter_killed "8"
+		l4d_ranking_system_hunter_killed "4"
+
+		// 空爆Hunter所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		l4d_ranking_system_hunter_skeeted "8"
 
 		// 殺死Jockey所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_jockey_killed "6"
 
+		// 空爆Jockey所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		l4d_ranking_system_jockey_skeeted "12"
+
 		// 殺死Charger所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_charger_killed "7"
+
+		// 秒殺衝鋒的Charger所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		l4d_ranking_system_charger_leveled "14"
 
 		// 殺死Spitter所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_spitter_killed "3"
@@ -188,6 +198,10 @@
 	```
 
 * <details><summary>版本日誌</summary>
+
+	* v1.6h (2024-7-18)
+		* Add l4d2_skill_detect
+		* Update database, add field "hunter_skeet", "jockey_skeet", "charger_level" 
 
 	* v1.5h (2024-2-28)
 		* Replace OnClientPutInServer with OnClientPostAdminCheck to fix client can't load data from database

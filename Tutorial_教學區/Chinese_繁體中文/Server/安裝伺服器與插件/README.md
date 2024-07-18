@@ -203,7 +203,7 @@
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
       - ```+sv_lan 0``` 改成網際網路
-      - ```-maxplayers 32``` 最多玩家上限
+      - ```-maxplayers 31``` 最多玩家上限
       - 可自行添加其他參數(啟動選項)，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
          - ```+sv_password 12345``` 伺服器密碼為12345

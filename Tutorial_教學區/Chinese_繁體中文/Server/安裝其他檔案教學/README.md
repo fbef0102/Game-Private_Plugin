@@ -71,10 +71,10 @@
 
 	4. 遊戲預設玩家上限只到18位，如果要改變玩家上限
 		* 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1d18fe5a-cc3c-4c37-b567-81a9f69f3721)
+		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
 		* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
 		* 不能超過31人，否則伺服器會崩潰
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/accc68ae-7d95-464e-b0b0-8d90a9a03d9f)
+		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
 
 	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
 		```php
