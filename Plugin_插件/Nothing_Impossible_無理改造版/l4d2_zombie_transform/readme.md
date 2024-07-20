@@ -194,7 +194,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* ```!zTank```, ```!zSmoker```... : 倖存者變成特感
 		* ```!zNick```, ```!zBill``` ... : 特感變成人類角色
 		* ```!zSur```, ... : 特感變成人類 (保留特感模型, 可使用特感能力)
-	* 管理員輸入 ```!zmenu``` 可以打開菜單，幫玩家轉換特感或人類
+	* 管理員輸入 ```!zmenu``` 可以打開選單，幫玩家轉換特感或人類
 	* 保留API給其他插件做使用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -204,7 +204,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d2_zombie_transform_enable "1"
 
-		// 擁有這些權限的玩家，才可以輸入!zmenu打開菜單 (留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的玩家，才可以輸入!zmenu打開選單 (留白 = 任何人都能, -1: 無人)
 		l4d2_zombie_transform_menu_access "z"
 
 		// 擁有這些權限的玩家，才可以輸入命令從人類變成特感 (留白 = 任何人都能, -1: 無人)

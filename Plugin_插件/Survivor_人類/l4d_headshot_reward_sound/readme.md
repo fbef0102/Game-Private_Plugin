@@ -37,6 +37,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
         l4d_headshot_reward_sound_type "3"
+
+        // If 1, Play headshot reward sound even if S.I./C.I. is not dead
+        l4d_headshot_reward_sound_non_kill "0"
         ```
 </details>
 
@@ -91,6 +94,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.3 (2024-7-20)
+        * Play headshot reward sound even if S.I./C.I. is not dead
+        * Update cvars
+
     * v1.2 (2024-1-8)
         * Fixed Sound Error
 
@@ -135,6 +142,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 爆頭提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
         l4d_headshot_reward_sound_type "3"
+
+        // 為1時，即使特感與普通感染者沒死，打中頭部也會有音效
+        l4d_headshot_reward_sound_non_kill "0"
         ```
 </details>
 

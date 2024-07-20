@@ -251,7 +251,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_hy
 		```
 		
-	* **打開尾巴菜單介面**
+	* **打開尾巴選單介面**
 		```php
 		sm_tailmenu
 		```

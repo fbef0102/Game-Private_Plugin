@@ -45,6 +45,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_afk_saveweapons_disconnect "2"
 
 		// If 1, save health and restore. (can save >100 hp)
+		// Not save if player is incap or hanging from ledge
 		l4d2_afk_saveweapons_save_health "0"
 		```
 </details>
@@ -60,6 +61,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2024-7-20)
+		* Update cvars
 
 	* v1.3 (2024-7-7)
 		* Save health
@@ -115,7 +119,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 3=兩者都適用, 0=關閉此功能
 		l4d2_afk_saveweapons_disconnect "2"
 
-		// 為1時，保存血量與倒地狀態 (可保存超過100HP)
+		// 為1時，保存血量與黑白狀態 (可保存超過100HP)
+		// 倒地或掛邊狀態時不保存
 		l4d2_afk_saveweapons_save_health "0"
 		```
 </details>

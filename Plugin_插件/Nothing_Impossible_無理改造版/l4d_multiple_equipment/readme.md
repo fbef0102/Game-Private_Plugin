@@ -49,6 +49,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
     4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
+    5. Optional - [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -151,7 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
-		> 限制每個武器可以拿取的數量，超過就不能拿取
+		* 限制每個武器可以拿取的數量，超過就不能拿取
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

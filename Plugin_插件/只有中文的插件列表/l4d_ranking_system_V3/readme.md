@@ -1,5 +1,5 @@
 # 中文說明
-殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 
 > __Note__
 <br/>此為私人插件，請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
@@ -10,7 +10,7 @@
 
 * <details><summary>圖示</summary>
 
-	* 打開 Rank System 菜單
+	* 打開 Rank System 選單
 	<br/>![l4d_ranking_system_V3_1](image/l4d_ranking_system_V3_1.jpg)
 	* 玩家聊天時，名子前面給予Rank稱號
 	<br/>![l4d_ranking_system_V3_2](image/l4d_ranking_system_V3_2.jpg)
@@ -119,7 +119,7 @@
 
 * <details><summary>命令</summary>
 
-	* **打開 Rank System 菜單**
+	* **打開 Rank System 選單**
 		```php
 		sm_rank
 		sm_rankmenu

@@ -147,13 +147,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>圖示(點我展開)</summary>
 
-	* 輸入!newvotes打開投票菜單
+	* 輸入!newvotes打開投票選單
 	<br/>![l4d2_vote_change_1_zho](image/zho/l4d2_vote_change_1_zho.jpg)
-	* 子菜單"發起投票"
+	* 子選單"發起投票"
 	<br/>![l4d2_vote_change_2_zho](image/zho/l4d2_vote_change_2_zho.jpg)
-	* 子菜單"更改難度"
+	* 子選單"更改難度"
 	<br/>![l4d2_vote_change_3_zho](image/zho/l4d2_vote_change_3_zho.jpg)
-	* 子菜單"其他"
+	* 子選單"其他"
 	<br/>![l4d2_vote_change_4_zho](image/zho/l4d2_vote_change_4_zho.jpg)
 	* 官方圖與三方圖可以選擇關卡 (能自動識別並新增三方圖)
 	<br/>![l4d2_vote_change_5_zho](image/zho/l4d2_vote_change_5_zho.jpg)
@@ -176,13 +176,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 任何人發起投票後，管理員可輸入!p一票同意；!f一票否決。
 	* 自動添加三方圖，文件位於```configs\l4d2_vote_change.txt``` (不要修改)
 
-* 投票菜單表
+* 投票選單表
 	* 主列表：
 		* 发起投票
 		* 更改难度
 		* 其他
 
-	* 子菜單 "發起投票"
+	* 子選單 "發起投票"
 		* 換官方圖		(可以選擇關卡)
 		* 三方圖		(能自動識別並新增三方圖，可以選擇關卡)
 		* 重啟本關		(重新回合，非重新刷圖)
@@ -192,10 +192,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 增減旁觀		(4~30個位子)
 		* 封禁玩家     	(不可封禁管理員)
 
-	* 子菜單 "更改難度"
+	* 子選單 "更改難度"
 		* 更改難度		(簡單、一般、進階、專家)
 
-	* 子菜單 "其他"
+	* 子選單 "其他"
 		* 倒地即死		(開啟、關閉)
 	
 * <details><summary>指令中文介紹(點我展開)</summary>
@@ -227,7 +227,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹(點我展開)</summary>
 
-	* **打開投票菜單**
+	* **打開投票選單**
 		```php
 		sm_newvotes
 		sm_votes

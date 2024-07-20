@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	5. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
+	5. Optional - [readyup](/Plugin_插件/Server_伺服器/readyup)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -204,6 +204,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 
 > __Note__ 此插件已停止中文更新，如要更多功能，[新版插件請點擊這裡](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3)

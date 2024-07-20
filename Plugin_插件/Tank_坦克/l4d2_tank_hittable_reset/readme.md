@@ -112,14 +112,14 @@ Tank可以重置所有物件的位置並練習如何揮打車子
 		// 0=關閉插件, 1=啟動插件
 		l4d2_tank_hittable_reset_enable "1"
 
-		// 為1時，自動顯示菜單介面給Tank玩家
+		// 為1時，自動顯示選單介面給Tank玩家
 		l4d2_tank_hittable_reset_display_on_spawn "1"
 		```
 </details>
 
 * <details><summary>命中文介紹 (點我展開)</summary>
 
-	* **打開Tank練習菜單介面**
+	* **打開Tank練習選單介面**
 		```php
 		sm_hittable
 		sm_tk

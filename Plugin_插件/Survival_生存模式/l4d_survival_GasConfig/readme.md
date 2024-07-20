@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         > 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
 
     2. [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
-        > 打開菜單傳送地圖上所有物品到身邊
+        > 打開選單傳送地圖上所有物品到身邊
 
 * <details><summary>ConVar | 指令</summary>
 

@@ -140,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹(點我展開)</summary>
 
-	* **打開菜單投票更換難度**
+	* **打開選單投票更換難度**
 		```php
 		sm_difficultyvote
 		sm_dvote

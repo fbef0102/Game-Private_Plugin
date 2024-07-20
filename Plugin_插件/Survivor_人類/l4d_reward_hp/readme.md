@@ -25,14 +25,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_reward_hp.cfg
 		```php
-		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		l4d_reward_hp_announce_type "1"
-
-		// Hp reward for saving people with defibrillator.
-		l4d_reward_hp_defi_save "10"
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d_reward_hp_enable "1"
+
+		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_reward_hp_announce_type "1"
 
 		// Hp reward for healing people with kit.
 		l4d_reward_hp_heal_teammate "8"
@@ -43,23 +40,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Hp reward for killing Tank.
 		l4d_reward_hp_kill_tank "10"
 
-		// Hp reward for killing Witch (One shot).
-		l4d_reward_hp_kill_witch_one_shot "10"
-
 		// Hp reward for killing Witch (Many shots).
 		l4d_reward_hp_kill_witch_shots "5"
 
-		// Hp reward max health.
-		l4d_reward_hp_max "100"
+		// Hp reward for killing Witch (One shot).
+		l4d_reward_hp_kill_witch_one_shot "10"
 
 		// Hp reward for doing the rescue.
 		l4d_reward_hp_rescue_teammate "5"
 
+		// Hp reward for reviving the incapacitated teammate.
+		l4d_reward_hp_revive_incap "5"
+
 		// Hp reward for reviving the teammate who is hangign from ledge.
 		l4d_reward_hp_revive_hang "0"
 
-		// Hp reward for reviving the incapacitated teammate.
-		l4d_reward_hp_revive_incap "5"
+		// Hp reward for saving people with defibrillator.
+		l4d_reward_hp_defi_save "10"
+
+		// Hp reward max health. (can set HP >100)
+		l4d_reward_hp_max "100"
+
+		// When not black&white, 0=Add temporary health, 1=Add to main health.
+		l4d_reward_hp_heal_type "1"
+
+		// When black&white, 0=Add temporary health, 1=Add to main health.
+		l4d_reward_hp_heal_type_bw "0"
 		```
 </details>
 
@@ -85,6 +91,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-7-20)
+		* Update cvars
+
 	* v1.0
 		* Initial Release
 </details>
@@ -94,13 +103,57 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 倖存者殺死特感或幫助隊友會獲得血量獎賞
 
 * 原理
-	* 擊殺Tank、Witch、特感會獲得血量
-	* 拯救倒地的隊友、拯救掛邊的隊友、復活死去的隊友、救援房間營救倖存者、治療隊友會獲得血量
+	* 以下情況會獲得血量
+		* 擊殺Tank、Witch、特感
+		* 拯救倒地的隊友、拯救掛邊的隊友、復活死去的隊友、救援房間營救倖存者、治療隊友
 	* 黑白狀態的玩家可以獲得血量，但依然是黑白狀態
 	* 倒地狀態的玩家擊殺特感也可以獲得血量，但依然是倒地狀態
 	* 血量可以突破100
 
-* 功能
-	* 可設置提示顯示位置
-	* 可設置獲得血量
-	* 可設置獲得血量的最大生命值
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_reward_hp.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_reward_hp_enable "1"
+
+		// 血量獎賞提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		l4d_reward_hp_announce_type "1"
+
+		// 治療隊友 獲得的血量
+		l4d_reward_hp_heal_teammate "8"
+
+		// 殺死特感 獲得的血量
+		l4d_reward_hp_kill_si "2"
+
+		// 殺死Tank 獲得的血量
+		l4d_reward_hp_kill_tank "10"
+
+		// 殺死Witch 獲得的血量 (不是一發死)
+		l4d_reward_hp_kill_witch_shots "5"
+
+		// 殺死Witch 獲得的血量 (一發死)
+		l4d_reward_hp_kill_witch_one_shot "10"
+
+		// 救援房間營救倖存者 獲得的血量
+		l4d_reward_hp_rescue_teammate "5"
+
+		// 拯救倒地的隊友 獲得的血量
+		l4d_reward_hp_revive_incap "5"
+
+		// 拯救掛邊的隊友 獲得的血量
+		l4d_reward_hp_revive_hang "0"
+
+		// 電擊器復活死去的隊友 獲得的血量
+		l4d_reward_hp_defi_save "10"
+
+		// 可回復的最大血量 (可設置超過100)
+		l4d_reward_hp_max "100"
+
+		// 沒黑白時, 0=回復虛血, 1=回復實血.
+		l4d_reward_hp_heal_type "1"
+
+		// 黑白時, 0=回復虛血, 1=回復實血.
+		l4d_reward_hp_heal_type_bw "0"
+		```
+</details>

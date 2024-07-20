@@ -39,6 +39,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
+* <details><summary>API | 串接</summary>
+
+    * ```scripting\include\l4d_witch_target_forever.inc```
+        ```php
+        Registers a library name: l4d_witch_target_forever
+        ```
+</details>
+
 * Apply to | 適用於
 	```
 	L4D1
@@ -51,7 +59,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     	> Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
 </details>
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2024-7-20)
+		* Add API
+		* Witch proceed to chase target even if target is idle
+		* Fixed witch wil be killed after change target 15 seconds 
 
 	* v1.1 (2024-1-9)
 		* Make the witch proceed to chase her initial target, if witch lose target somehow.

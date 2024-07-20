@@ -307,6 +307,8 @@
     * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標
   * [l4d_witch_stagger_block](/Plugin_插件/Witch_女巫/l4d_witch_stagger_block): Block Witch stumble by Weapons/Shove/Explosive Bullet/Pipebomb/....
     * Witch 不會被狙擊槍/高爆子彈/土製炸彈... 震退
+  * [l4d_witch_idle_target_fix](/Plugin_插件/Witch_女巫/l4d_witch_idle_target_fix): Fixed that witch will lose target if player startles the witch when going idle
+    * Witch 不會因為玩家閒置而丟失目標
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>
@@ -344,7 +346,7 @@
   * [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色
   * [l4d_teleport_call](/Plugin_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, or to admin self
-    * 呼叫傳送功能菜單，能傳送玩家到起點、終點、救援載具區域、身邊
+    * 呼叫傳送功能選單，能傳送玩家到起點、終點、救援載具區域、身邊
   * [l4d_headshot_reward_sound](/Plugin_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
     * 特感或普通感染者爆頭的時候有獎勵提示與音效
   * [l4d2healthglow](/Plugin_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them + survivors always glow with a non-disappearing aura for infected (Even if survivor doesn't move or walk)
@@ -458,7 +460,7 @@
   * [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in versus mode
     * 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d_trade_player](/Plugin_插件/Versus_對抗模式/l4d_trade_player): Type !trade to open a menu to select two players to swap, one from survivor team and another one from infected team.
-    * 輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
+    * 輸入!trade打開選單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
   * [l4d_ghost_FinaleSpawn](/Plugin_插件/Versus_對抗模式/l4d_ghost_FinaleSpawn): Adjust ghost infected spawn range on finales
     * 在救援關卡調整靈魂特感的復活距離
   * [l4d_ghost_checkpoint_spawn](/Plugin_插件/Versus_對抗模式/l4d_ghost_checkpoint_spawn): Changes to conditions for ghost spawning in start/end areas.
@@ -486,7 +488,7 @@
   * [survival_hp](/Plugin_插件/Survival_生存模式/survival_hp): Restore Health when survival begins.
     * 生存模式計時開始時候，恢復所有倖存者血量
   * [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
-    * 打開菜單傳送地圖上所有物品到身邊
+    * 打開選單傳送地圖上所有物品到身邊
   * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator or player changes team after survival begins, he can not get the survival time record.
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
   * [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
@@ -566,7 +568,7 @@
   * [L4D2_Buy_Store](/Plugin_插件/Fun_娛樂/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
     * 人類與特感的購物商城 (附有特殊商品與資料庫)
   * [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
-    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
   * [Trails_Projectile](/Plugin_插件/Fun_娛樂/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
     * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
   * [l4d_character_vocalize_select](/Plugin_插件/Fun_娛樂/l4d_character_vocalize_select): Player can select other character's voice and vocalize
@@ -651,7 +653,7 @@
 
 * <details><summary><b>只有中文的插件列表</b></summary>
 
-  * [l4d_ranking_system_V3](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜菜單
+  * [l4d_ranking_system_V3](/Plugin_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 </details>
 
 ###### **CS Plugin List | CS插件列表**

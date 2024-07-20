@@ -82,14 +82,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-呼叫傳送功能菜單，能傳送玩家到起點、終點、救援載具區域、身邊
+呼叫傳送功能選單，能傳送玩家到起點、終點、救援載具區域、身邊
 
 * 圖示
-	* 傳送菜單
+	* 傳送選單
 	<br/>![zho/l4d_teleport_call_1](image/zho/l4d_teleport_call_1.jpg)
 
 * 原理
-	* 管理員輸入!call打開菜單，可以傳送玩家到
+	* 管理員輸入!call打開選單，可以傳送玩家到
 		* 起點
 		* 終點
 		* 救援載具區域
@@ -109,7 +109,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **打開傳送菜單 (權限: ADMFLAG_ROOT)**
+	* **打開傳送選單 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_call
 		```

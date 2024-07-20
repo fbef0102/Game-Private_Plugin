@@ -60,7 +60,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-打開菜單傳送地圖上所有物品到身邊
+打開選單傳送地圖上所有物品到身邊
 
 * 原理
 	* 你是否有過經驗在生存模式之下浪費時間搬運汽油桶與物資，安裝這插件能節省你大量的時間

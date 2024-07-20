@@ -235,7 +235,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 	
-	* **打開跳舞菜單**
+	* **打開跳舞選單**
 		```php
 		sm_dances
 		sm_dance

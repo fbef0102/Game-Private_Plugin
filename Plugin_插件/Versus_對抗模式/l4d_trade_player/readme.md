@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-	4. Optional - [[INC] readyup](/Plugin_插件/Server_伺服器/readyup/scripting/include/readyup.inc)
+	4. Optional - [readyup](/Plugin_插件/Server_伺服器/readyup)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -60,10 +60,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-輸入!trade打開菜單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
+輸入!trade打開選單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
 
 * 原理
-	* 輸入!trade打開菜單選擇己方一位玩家，接著選擇對方一位玩家，選完之後全體玩家投票，投票通過後，兩位玩家互換陣營
+	* 輸入!trade打開選單選擇己方一位玩家，接著選擇對方一位玩家，選完之後全體玩家投票，投票通過後，兩位玩家互換陣營
 	* 離開安全室之後就不能投票了
 	* 覺得隊友太爛，對面隊伍太強，實力不平衡可以使用這插件
 
