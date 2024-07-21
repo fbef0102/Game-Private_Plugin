@@ -21,8 +21,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type !headshot -> select headshot sound
-    * Save settings in database, players don't have to select sound from menu every time.
+	* Type ```!headshot``` -> select headshot sound
+    * Save settings in local database, player does not have to select sound from menu every time.
 </details>
 
 * Require | 必要安裝
@@ -93,6 +93,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2024-7-21)
+        * Update data
+        * Update translations
+        * Improve code
+        * Non kill headshot sound customizable, different from headshot kill sound
 
     * v1.3 (2024-7-20)
         * Play headshot reward sound even if S.I./C.I. is not dead

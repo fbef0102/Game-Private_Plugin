@@ -12,6 +12,18 @@
 		"zho"		"爆頭+1"
 		"chi"		"爆头+1"
 	}
+	"Infected Non-kill HeadShot"
+	{
+		"en"		"S.I. HeadShot"
+		"zho"		"特感爆頭"
+		"chi"		"特感爆头"
+	}
+	"Common Non-kill HeadShot"
+	{
+		"en"		"HeadShot"
+		"zho"		"爆頭"
+		"chi"		"爆头"
+	}
 	"Headshot Sound Menu"
 	{
 		"en"		"Headshot Sound Menu"
@@ -29,6 +41,18 @@
 		"en"		"Common Headshot Sound"
 		"zho"		"普通殭屍爆頭音效"
 		"chi"		"僵尸爆头音效"
+	}
+	"S.I. Non-kill Headshot Sound"
+	{
+		"en"		"S.I. Non-kill Headshot Sound"
+		"zho"		"特感沒死的爆頭音效"
+		"chi"		"特感沒死的爆头音效"
+	}
+	"Common Non-kill Headshot Sound"
+	{
+		"en"		"Common Non-kill Headshot Sound"
+		"zho"		"普通殭屍沒死的爆頭音效"
+		"chi"		"僵尸沒死的爆头音效"
 	}
 	"Off"
 	{

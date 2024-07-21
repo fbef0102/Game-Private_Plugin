@@ -95,7 +95,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
     
-    * **Add a weapon limit**
+    * **(Server Cmd) Add a weapon limit**
         ```php
         l4d_weapon_limits_add　<limit number> <give ammo if weapon limited is reached> <weapon/melee class name>
         ```

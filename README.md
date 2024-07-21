@@ -155,6 +155,8 @@
     * 管理員可以使用介面強制轉移玩家到另一個隊伍
   * [l4d2_custom_difficulty](/Plugin_插件/Server_伺服器/l4d2_custom_difficulty): Set your own custom difficulty and damage + vote to change custom difficulty
     * 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
+  * [l4d_mission_lost_change_difficulty](/Plugin_插件/Server_伺服器/l4d_mission_lost_change_difficulty): Force of difficulty change after quantity of rounds (tries) events survivors wipe out (mission lost)
+    * 滅團N次後，自動降低難度
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -553,6 +555,8 @@
     * 更改AI Bot的喜愛武器順序，優先拿取合適的武器
   * [bot_replace_player](/Plugin_插件/Bot_IQ_200_Bot_智商加強/bot_replace_player): If bot takes over the dead/incapacitated player who has disconnected, bot can repsawn and recovery HP.
     * AI Bot取代離開遊戲的死亡與倒地玩家時，自動復活並給予武器
+  * [l4d_play_character_cmd](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_play_character_cmd): Use cmd to play another charater
+    * 輸入命令切換到另一個角色遊玩
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

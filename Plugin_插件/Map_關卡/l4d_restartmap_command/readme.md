@@ -41,7 +41,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_restartmap_command_soundfile "buttons/blip1.wav"
 
 		// Quantity of rounds (tries) events survivors wipe out before force of restartmap on non-final maps in coop/realism/survival (0=off)
-		l4d_restartmap_command_coop_map "0"
+		l4d_restartmap_command_try "0"
 
 		// Quantity of rounds (tries) events survivors wipe out before force of restartmap on final maps in coop/realism/survival (0=off)
 		l4d_restartmap_command_final "0"
@@ -112,7 +112,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_restartmap_command_soundfile "buttons/blip1.wav"
 
 		// 戰役/生存/寫實模式下滅團超過3次之後，自動重新載入當前的地圖 (0=關閉這項功能)
-		l4d_restartmap_command_coop_map "0"
+		l4d_restartmap_command_try "0"
 
 		// 戰役/生存/寫實模式下 最終關卡滅團超過4次之後，自動重新載入當前的地圖 (0=關閉這項功能)
 		l4d_restartmap_command_final "0"

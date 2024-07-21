@@ -9,13 +9,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-    <br/>![l4d2_kills_manager_1](image/l4d2_kills_manager_1.jpg)
-    <br/>![l4d2_kills_manager_2](image/l4d2_kills_manager_2.jpg)
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d2_kills_manager_1](image/l4d2_kills_manager_1.jpg)|![l4d2_kills_manager_2](image/l4d2_kills_manager_2.jpg)|
 
 * <details><summary>How does it work?</summary>
 
-    * (Before) The killer of a special infected is the survivor who did the last shot.
-    * (After) Sets the real killer of a special infected, based on who inflicted the most damage
+    * (Before) The killer of a special infected is the survivor who **did the last shot**.
+    * (After) Sets the real killer of a special infected, based on who **inflicted the most damage**
     * Apply to Witch/Tank also
     * Display damage
     * Support any other plugins that use "player_death", "witch_killed" event to receive the killer data
@@ -128,7 +129,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D1) 修改哪些特感的擊殺者?  2=SMOKER, 4=BOOMER, 8=HUNTER, 16=WITCH, 32=TANK (請將數字相加, 510=全部)
         l4d2_kills_manager_si "510"
 
-        // 傷害數據提示 0=Off, (0: 不提示, 1: 螢幕正中間, 2: 黑底白字框, 3: 聊天框)
+        // 傷害數據提示 (0: 不提示, 1: 螢幕正中間, 2: 黑底白字框, 3: 聊天框)
         l4d2_kills_manager_stats_show_type "3"
 
         // (L4D2) 哪些特感死亡會提示傷害數據? 2=SMOKER, 4=BOOMER, 8=HUNTER, 16=SPITTER, 32=JOCKEY, 64=CHARGER, 128=WITCH, 256=TANK (請將數字相加, 510=全部)

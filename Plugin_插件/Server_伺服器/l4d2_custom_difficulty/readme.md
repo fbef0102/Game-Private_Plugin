@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_custom_difficulty_enable "1"
 
 		// How many players at least to vote Boss Spawns.
-		l4d2_custom_difficulty_vote_need_player "1"
+		l4d2_custom_difficulty_vote_need_player "4"
 		```
 </details>
 
@@ -43,6 +43,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_difficultyvote
 		sm_dvote
 		```
+
+    * **(Server Cmd) Load custom difficulty by index, starting from 1**
+        ```php
+        z_custom_difficulty_index <number>
+        ```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -65,10 +70,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				// There are 8 different difficulty
 				"num"   "8"
 				
-				// Load Custom Difficulty by default (0=Off)
+				// Default, load Custom Difficulty by index (0=Off)
 				"default" "5"
 				
-				// First Custom Difficulty
+				// First Custom Difficulty, index is 1
 				"1"
 				{
 					// Modify for your own settings
@@ -103,6 +108,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-7-21)
+		* Update Cmds
+		* Update data
+		* Update API
+
 	* v1.0 (2024-7-17)
 		* Initial Release
 </details>
@@ -134,7 +144,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_custom_difficulty_enable "1"
 
 		// 倖存者與特感隊伍總共要有X位真人玩家在場才能發起投票.
-		l4d2_custom_difficulty_vote_need_player "1"
+		l4d2_custom_difficulty_vote_need_player "4"
 		```
 </details>
 
@@ -145,6 +155,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_difficultyvote
 		sm_dvote
 		```
+
+    * **(伺服器專用) 強制載入該索引的自製難度, 索引數字從1開始**
+        ```php
+        z_custom_difficulty_index <索引數字>
+        ```
 </details>
 
 * <details><summary>文件設定範例</summary>
@@ -162,7 +177,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				// 伺服器啟動後預設載入的自製難度	(0=不預設載入)
 				"default" "5"
 				
-				// 第一個自製難度
+				// 第一個自製難度, 索引是1
 				"1"
 				{
 					// 自行修改數據

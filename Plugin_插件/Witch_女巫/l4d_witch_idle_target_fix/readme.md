@@ -13,8 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| ![l4d_witch_idle_target_fix_1](image/l4d_witch_idle_target_fix_1.gif)|![l4d_witch_idle_target_fix_2](image/l4d_witch_idle_target_fix_2.gif)|
 
 * Require | 必要安裝
-	1. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
-	2. Optional - [l4d_witch_target_forever](/Plugin_插件/Witch_女巫/l4d_witch_target_forever)
+<br>None
 
 * <details><summary>ConVar | 指令</summary>
 
