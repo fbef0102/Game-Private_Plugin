@@ -66,75 +66,55 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Charger"		"100"   // modify damage to Charger
             }
 
-            "baseball_bat"
+            //Melee default settings
+            "melee_default"
             {
-                "Enable"		"1"     // Enable
-                "Tank"			"300"   // modify damage to Tank
-                "Witch"			"250"   // modify damage to Witch
-                "Common"		"-1"   // modify damage to Commons, -1=Default damage
-                "Smoker"		"390"   // modify damage to Smoker
-                "Boomer"		"390"   // modify damage to Boomer
-                "Hunter"		"390"   // modify damage to Hunter
-                "Spitter"		"390"   // modify damage to Spitter
-                "Jockey"		"390"   // modify damage to Jockey
-                "Charger"		"390"   // modify damage to Charger
-
-                "HeadShot_multi" // damage multiplier if headshot
-                {
-                    "Tank"			"2.0"
-                    "Witch"			"1.0"
-                    //"Common"		"1.0" //Doesn't work. A common zombie still instantly dies on a headshot by melee.
-                    "Smoker"		"1.0"
-                    "Boomer"		"1.0"
-                    "Hunter"		"1.0"
-                    "Spitter"		"1.0"
-                    "Jockey"		"1.0"
-                    "Charger"		"1.0"
-                }
-                
-                "Leg_multi" // damage multiplier if leg
-                {
-                    "Tank"			"1.0"
-                    "Witch"			"1.0"
-                    "Common"		"1.0"
-                    "Smoker"		"0.5"
-                    "Boomer"		"0.5"
-                    "Hunter"		"0.5"
-                    "Spitter"		"0.5"
-                    "Jockey"		"0.5"
-                    "Charger"		"0.5"
-                }
-            }
-
-            // Add other custom weapon if you want
-
-            "meleejb" // custom weapon from Zengcheng map
-            {
+                // 1=Enable, 0=Disable
                 "Enable"		"1"
-                "Tank"			"300"
+                
+                // Meleee damage to Tank (-1: damage unchaged)
+                "Tank"			"500"
+                
+                // Meleee damage to Witch (-1: damage unchaged)
                 "Witch"			"250"
-                "Common"		"100"
-                "Smoker"		"390"
+                
+                // Meleee damage to Common Infected (-1: damage unchaged)
+                "Common"		"250"
+                
+                // Meleee damage to Smoker (-1: damage unchaged)
+                "Smoker"		"390.0" 
+                
+                // Meleee damage to Boomer (-1: damage unchaged)
                 "Boomer"		"390"
+                
+                // Meleee damage to Tank (-1: damage unchaged)
                 "Hunter"		"390"
+                
+                // Meleee damage to Spitter (-1: damage unchaged)
                 "Spitter"		"390"
+                
+                // Meleee damage to Jockey (-1: damage unchaged)
                 "Jockey"		"390"
+                
+                // Meleee damage to Charger (-1: damage unchaged)
                 "Charger"		"390"
-
-                "HeadShot_multi" // damage multiplier if headshot
+                
+                // Meleee damage multi if hit head
+                "HeadShot_multi"
                 {
                     "Tank"			"2.0"
-                    "Witch"			"1.0"
-                    //"Common"		"1.0"
-                    "Smoker"		"1.0"
-                    "Boomer"		"1.0"
-                    "Hunter"		"1.0"
-                    "Spitter"		"1.0"
-                    "Jockey"		"1.0"
-                    "Charger"		"1.0"
+                    "Witch"			"2.0"
+                    //"Common"		"2.0" //Doesn't work. A common zombie still instantly dies on a headshot by melee. (無效, 近戰爆頭殭屍依然瞬間死亡)
+                    "Smoker"		"2.0"
+                    "Boomer"		"2.0"
+                    "Hunter"		"2.0"
+                    "Spitter"		"2.0"
+                    "Jockey"		"2.0"
+                    "Charger"		"2.0"
                 }
                 
-                "Leg_multi" // damage multiplier if leg
+                // Meleee damage multi if hit Leg
+                "Leg_multi"
                 {
                     "Tank"			"1.0"
                     "Witch"			"1.0"
@@ -147,6 +127,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                     "Charger"		"0.5"
                 }
             }
+
+            // Add other melee weapon if you want
+            ...
         }
 		```
 </details>
@@ -172,6 +155,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2 (2024-7-23)
+	    * Melee won't one-swing-kill hunter when poucing
+        * Melee won't one-swing-kill jockey when leaping
 
     * v1.1 (2024-1-27)
 	    * Modify melee damage multiplier by HeadShot or Leg
@@ -233,75 +220,55 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "Charger"		"100"   // 對Charger造成的傷害值
             }
 
-            "baseball_bat" // 球棒
+            //近戰武器 預設數值
+            "melee_default"
             {
-                "Enable"		"1"     // Enable
-                "Tank"			"300"   // 對Tank造成的傷害值
-                "Witch"			"250"   // 對Witch造成的傷害值
-                "Common"		"-1"   // 對普通殭屍造成的傷害值, 寫-1=預設傷害
-                "Smoker"		"390"   // 對Smoker造成的傷害值
-                "Boomer"		"390"   // 對Boomer造成的傷害值
-                "Hunter"		"390"   // 對Hunter造成的傷害值
-                "Spitter"		"390"   // 對Spitter造成的傷害值
-                "Jockey"		"390"   // 對Jockey造成的傷害值
-                "Charger"		"390"   // 對Charger造成的傷害值
-
-                "HeadShot_multi" // 砍到頭的傷害加成
-                {
-                    "Tank"			"2.0"
-                    "Witch"			"1.0"
-                    //"Common"		"1.0" //無作用. 近戰爆頭 普通殭屍，依然會瞬間死亡
-                    "Smoker"		"1.0"
-                    "Boomer"		"1.0"
-                    "Hunter"		"1.0"
-                    "Spitter"		"1.0"
-                    "Jockey"		"1.0"
-                    "Charger"		"1.0"
-                }
-                
-                "Leg_multi" // 砍到腳的傷害加成
-                {
-                    "Tank"			"1.0"
-                    "Witch"			"1.0"
-                    "Common"		"1.0"
-                    "Smoker"		"0.5"
-                    "Boomer"		"0.5"
-                    "Hunter"		"0.5"
-                    "Spitter"		"0.5"
-                    "Jockey"		"0.5"
-                    "Charger"		"0.5"
-                }
-            }
-
-            // 以下增加任何三方圖的近戰
-            
-            "meleejb" // 按摩棒，來自地圖: 廣州增城
-            {
+                // 1=開, 0=關
                 "Enable"		"1"
-                "Tank"			"300"
+                
+                // 近戰對Tank的傷害 (-1: 不修改)
+                "Tank"			"500"
+                
+                // 近戰對Witch的傷害 (-1: 不修改)
                 "Witch"			"250"
-                "Common"		"100"
-                "Smoker"		"390"
+                
+                // 近戰對普通殭屍的傷害 (-1: 不修改)
+                "Common"		"250"
+                
+                // 近戰對Smoker的傷害 (-1: 不修改)
+                "Smoker"		"390.0" 
+                
+                // 近戰對Boomer的傷害 (-1: 不修改)
                 "Boomer"		"390"
+                
+                // 近戰對Tank的傷害 (-1: 不修改)
                 "Hunter"		"390"
+                
+                // 近戰對Spitter的傷害 (-1: 不修改)
                 "Spitter"		"390"
+                
+                // 近戰對Jockey的傷害 (-1: 不修改)
                 "Jockey"		"390"
+                
+                // 近戰對Charger的傷害 (-1: 不修改)
                 "Charger"		"390"
-
-                "HeadShot_multi" // 砍到頭的傷害加成
+                
+                // 擊中頭部的近戰傷害倍率
+                "HeadShot_multi"
                 {
                     "Tank"			"2.0"
-                    "Witch"			"1.0"
-                    //"Common"		"1.0" //無作用
-                    "Smoker"		"1.0"
-                    "Boomer"		"1.0"
-                    "Hunter"		"1.0"
-                    "Spitter"		"1.0"
-                    "Jockey"		"1.0"
-                    "Charger"		"1.0"
+                    "Witch"			"2.0"
+                    //"Common"		"2.0" //無效, 近戰爆頭殭屍依然瞬間死亡
+                    "Smoker"		"2.0"
+                    "Boomer"		"2.0"
+                    "Hunter"		"2.0"
+                    "Spitter"		"2.0"
+                    "Jockey"		"2.0"
+                    "Charger"		"2.0"
                 }
                 
-                "Leg_multi" // 砍到腳的傷害加成
+                // 擊中腿部的近戰傷害倍率
+                "Leg_multi"
                 {
                     "Tank"			"1.0"
                     "Witch"			"1.0"
@@ -314,6 +281,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                     "Charger"		"0.5"
                 }
             }
+
+            // 自行增加任何三方圖的近戰
+            ..
 		}
 		```
 </details>
