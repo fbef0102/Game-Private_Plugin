@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type !newvotes to open vote menu
+	* Type ```!newvotes``` to open vote menu -> select -> call vote to change
 	* Automatic parsing of custom maps vpk files - no need to add map names manually，file is in ```configs\l4d2_vote_change.txt``` (don't touch)
 </details>
 

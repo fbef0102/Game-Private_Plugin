@@ -12,11 +12,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Free to modify custom difficulty and damage, image for reference only
 	<br/>![l4d2_custom_difficulty_1](image/l4d2_custom_difficulty_1.jpg)
 	<br/>![l4d2_custom_difficulty_2](image/l4d2_custom_difficulty_2.jpg)
+	<br/>![l4d2_custom_difficulty_3](image/l4d2_custom_difficulty_3.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* Type ```!dvote``` -> load custom difficulty
-	* Modify custom difficulty and damage, file is in ```data/l4d2_custom_difficulty.cfg```
+	* Type ```!dvote``` -> select custom difficulty -> call vote to change -> load custom difficulty
+	* Modify custom difficulty name and damage, file is in ```data/l4d2_custom_difficulty.cfg```
+	* Auto exec cfg when switching difficulties, for example:
+		* impossible+ -> hard+ (exec reset.cfg -> hard+.cfg)
+		* hard+ -> impossible++ (exec reset.cfg -> impossible++.cfg)
 </details>
 
 * Require | 必要安裝
@@ -31,7 +35,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_custom_difficulty_enable "1"
 
-		// How many players at least to vote Boss Spawns.
+		// How many players at least to vote custom difficulty.
 		l4d2_custom_difficulty_vote_need_player "4"
 		```
 </details>
@@ -44,10 +48,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_dvote
 		```
 
-    * **(Server Cmd) Load custom difficulty by index, starting from 1**
-        ```php
-        z_custom_difficulty_index <number>
-        ```
+	* **(Server Cmd) Load custom difficulty by index, starting from 1**
+		```php
+		z_custom_difficulty_index <number>
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -88,6 +92,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
+	L4D1
 	L4D2
 	```
 
@@ -108,6 +113,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-7-29)
+		* Also apply to l4d1 
+
 	* v1.1 (2024-7-21)
 		* Update Cmds
 		* Update data
@@ -125,6 +133,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 可自行增修傷害與難度名稱，圖片僅供參考
 	<br/>![zho/l4d2_custom_difficulty_1](image/zho/l4d2_custom_difficulty_1.jpg)
 	<br/>![zho/l4d2_custom_difficulty_2](image/zho/l4d2_custom_difficulty_2.jpg)
+	<br/>![zho/l4d2_custom_difficulty_3](image/zho/l4d2_custom_difficulty_3.jpg)
 
 * 原理
 	* 輸入```!dvote``` -> 選擇項目 -> 發起投票 -> 更換自訂的難度
@@ -135,6 +144,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Witch傷害
 		* 友傷
 		* 倒地/掛邊流血
+	* 投票更換難度後自動執行的cfg文件，譬如
+		* 專家+ -> 進階+ (先執行 reset.cfg -> 後執行 hard+.cfg)
+		* 進階+ -> 專家++ (先執行 reset.cfg -> 後執行 impossible++.cfg)
 	
 * <details><summary>指令中文介紹(點我展開)</summary>
 
@@ -156,10 +168,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_dvote
 		```
 
-    * **(伺服器專用) 強制載入該索引的自製難度, 索引數字從1開始**
-        ```php
-        z_custom_difficulty_index <索引數字>
-        ```
+	* **(伺服器專用) 強制載入該索引的自製難度, 索引數字從1開始**
+		```php
+		z_custom_difficulty_index <索引數字>
+		```
 </details>
 
 * <details><summary>文件設定範例</summary>

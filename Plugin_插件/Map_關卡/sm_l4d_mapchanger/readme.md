@@ -135,19 +135,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"c1m2_streets"
 			{
 				"chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
-				"chapter_nextname" "c5m3_cemetery" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+				"chapter_nextname" "c5m3_cemetery" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
 			}
 
 			"c8m5_rooftop" // current map
 			{
 				"next mission map" "c9m2_lots"   // <-- next campaign in coop/versus/realism
-				"next mission name" "L4D2C9"  	// <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+				"next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
 				
 				"survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
-				"survival_nextname" "c1m2_streets" 	// <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+				"survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
 
 				"scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
-				"scavenge_nextname" "c2m1_highway" // <-- Translation phase in maps.phrases.txt or missions.phrases.txt
+				"scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
 			}
 
 			// If map name not in this file

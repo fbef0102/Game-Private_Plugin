@@ -117,7 +117,7 @@
   * <details><summary><b>I found another similar function for free, how can you sell?</b></summary>
 
     * If there is another plugin that also has similar function, I don't mind. You are welcome to use them and compare pros and cons
-    * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and translation phase.
+    * Remake old plugins, usually because code is too old, too many bugs, too lag or crash the game, so I optimize, improve and add more cvars, cmds and translation phrase.
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
     * [License](https://www.sourcemod.net/license.php)
