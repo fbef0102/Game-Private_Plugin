@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [Heartbeat](https://forums.alliedmods.net/showthread.php?t=322132)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -60,7 +60,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Related | 相關插件</summary>
+
+	1. [l4d2_ty_saveweapons](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players
+		* 當伺服器有5+以上玩家遊玩戰役、寫實時，保存他們過關時的血量以及攜帶的武器、物資
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5 (2024-7-30)
+		* Fixed m_currentReviveCount
 
 	* v1.4 (2024-7-20)
 		* Update cvars
@@ -74,16 +83,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* v1.1 (2024-4-30)
 		* Save weapons/items if player crash during the game.
-	    * Update cvars
+		* Update cvars
 
 	* v1.0 (2024-3-29)
-	    * Initial Release
-</details>
-
-* <details><summary>Related | 相關插件</summary>
-
-	1. [l4d2_ty_saveweapons](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players
-	    * 當伺服器有5+以上玩家遊玩戰役、寫實時，保存他們過關時的血量以及攜帶的武器、物資
+		* Initial Release
 </details>
 
 - - - -

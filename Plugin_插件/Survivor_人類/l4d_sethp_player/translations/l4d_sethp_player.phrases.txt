@@ -1,0 +1,158 @@
+"Phrases"
+{
+	"SetHP_Player"
+	{
+		"en"		"Set Player HP"
+		"zho"       "設置玩家血量"
+		"chi"       "设置玩家血量"
+	}	
+	
+	"List_Players"
+	{
+		"en"		"Who do you want to set HP?"
+		"zho"       "想設置誰的HP?"
+		"chi"       "想设置谁的HP?"
+	}
+	
+	"No Any Alive Survivor"
+	{
+		"en"		"There Are No Any Alive Survivor"
+		"zho"       "沒有活著的倖存者"
+		"chi"       "没有活着的幸存者"	
+	}
+	
+	"Invalid_Player"
+	{
+		"en"		"Failed! Target is not an alive survivor anymore"
+		"zho"       "失敗! 目標玩家已不是活著的倖存者"
+		"chi"       "失败! 目标玩家已不是活着的幸存者"
+	}	
+	
+	"HPMenu Title"
+	{
+		"#format"	"{1:s}"
+		"en"		"Set Main Health ({1})"
+		"zho"       "設置實血 ({1})"
+		"chi"       "设置实血 ({1})"
+	}	
+	
+	"TempHPMenu Title"
+	{
+		"#format"	"{1:s}"
+		"en"		"Set Temporary Health ({1})"
+		"zho"       "設置虛血 ({1})"
+		"chi"       "设置虚血 ({1})"
+	}
+	
+	"ReviveCountMenu Title"
+	{
+		"#format"	"{1:s}"
+		"en"		"Set Revive Count ({1})"
+		"zho"       "設置已倒地次數 ({1})"
+		"chi"       "设置已倒地次数 ({1})"
+	}
+
+	"Set Main HP"
+	{
+		"#format"	"{1:d}"
+		"en"		"Set Main Health: {green}{1}"
+		"zho"       "設置實血: {green}{1}"
+		"chi"       "设置实血: {green}{1}"
+	}	
+	
+	"Set Incap"
+	{
+		"en"		"Set {green}Incap State"
+		"zho"       "設置 {green}倒地狀態"
+		"chi"       "设置 {green}倒地状态"
+	}	
+	
+	"Set Temp HP"
+	{
+		"#format"	"{1:d}"
+		"en"		"Set Temp Health: {green}{1}"
+		"zho"       "設置虛血: {green}{1}"
+		"chi"       "设置虚血: {green}{1}"
+	}	
+	
+	"Incap"
+	{
+		"en"		"Incap Right Now"
+		"zho"       "直接倒地狀態"
+		"chi"       "直接倒地状态"
+	}
+	
+	"Incap_ReviveCount"
+	{
+		"#format"	"{1:d}"
+		"en"		"{1} (Incap Right Now)"
+		"zho"       "{1} (倒地狀態)"
+		"chi"       "{1} (倒地状态)"
+	}
+	
+	"ReviveCount_BW"
+	{
+		"#format"	"{1:d}"
+		"en"		"{1} (Black and White)"
+		"zho"       "{1} (黑白狀態)"
+		"chi"       "{1} (黑白状态)"
+	}
+	
+	"Vote Title (Incap)"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"Set {1} Incap, health: {2}?"
+	}	
+	
+	"Call Vote (Incap)"
+	{
+		"#format"	"{1:N},{2:s},{3:d}"
+		"en"		"[{olive}TS{default}] {blue}{1}{default} initiates the vote: Set player {blue}{2}{default} Incap state, health: {green}{3}{default}?"
+		"zho"		"[{olive}TS{default}] {blue}{1}{default} 發起投票: 設置玩家 {blue}{2}{default} 成倒地狀態, 血量: {green}{3}{default}?"
+		"chi"		"[{olive}TS{default}] {blue}{1}{default} 發起投票: 设置玩家 {blue}{2}{default} 成倒地状态, 血量: {green}{3}{default}?"
+	}	
+	
+	"Vote Title"
+	{
+		"#format"	"{1:s},{2:d},{3:d},{4:d}"
+		"en"		"Set {1}'s health: {2}, temp health: {3}, revive count: {4}?"
+	}	
+	
+	"Call Vote"
+	{
+		"#format"	"{1:N},{2:s},{3:d},{4:d},{5:d}"
+		"en"		"[{olive}TS{default}] {blue}{1}{default} initiates the vote: Set {blue}{2}{default} health: {green}{3}{default}, temp health: {green}{4}{default}, revive count: {green}{5}{default}?"
+		"zho"		"[{olive}TS{default}] {blue}{1}{default} 發起投票: 設置玩家 {blue}{2}{default} 實血: {green}{3}{default}, 虛血: {green}{4}{default}, 倒地次數: {green}{5}{default}?"
+		"chi"		"[{olive}TS{default}] {blue}{1}{default} 發起投票: 设置玩家 {blue}{2}{default} 实血: {green}{3}{default}, 虛血: {green}{4}{default}, 倒地次数: {green}{5}{default}?"
+	}
+	
+	"You cannot start vote"
+	{
+		"en"		"[{olive}TS{default}] You cannot start vote until the current vote ends."
+		"zho"		"[{olive}TS{default}] 當前有投票項目正在進行."
+		"chi"		"[{olive}TS{default}] 当前有投票项目正在进行."
+	}
+	
+	"You must wait"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] You must wait for {green}{1}{default} sec then start a new vote!"
+		"zho"		"[{olive}TS{default}] 你必須等待 {green}%d{default} 秒後才能發起投票!"
+		"chi"		"[{olive}TS{default}] 你必须等待 {green}%d{default} 秒后才能发起投票!"
+	}
+	
+	"Spectator"
+	{
+		"en"		"Spectators can not call vote"
+		"zho"       "旁觀者不能發起投票"
+		"chi"       "旁观者不能发起投票"
+	}	
+	
+	"Not Enough Players"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Not enough {green}{1}{default} players in survivor/infected team."
+		"zho"		"[{olive}TS{default}] 倖存者/特感隊伍人數不足 {green}{1}{default}位, 無法發起投票."
+		"chi"		"[{olive}TS{default}] 生还者/特感队伍人数不足 {green}{1}{default}位, 无法发起投票."
+	}
+}

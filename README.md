@@ -379,6 +379,8 @@
     * 當倖存者玩家閒置、旁觀、崩潰、閃退時，保存攜帶的武器、物資
   * [l4d_disable_ledgehang](/Plugin_插件/Survivor_人類/l4d_disable_ledgehang): Disable ledge hanging by player
     * 倖存者不會掛邊而是直接墬落
+  * [l4d_sethp_player](/Plugin_插件/Survivor_人類/l4d_sethp_player): Allow to give survivors health and select the amount of HP from menu
+    * 打開選單設置倖存者的血量
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
