@@ -178,6 +178,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-7-31)
+		* Still can transform when pin survivor or get pinned by infected
+
 	* v1.1 (2024-4-30)
 		* Fix spawn error
 
