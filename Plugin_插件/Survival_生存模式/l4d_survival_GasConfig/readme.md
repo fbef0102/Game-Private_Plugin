@@ -15,33 +15,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
     <br/>![l4d_survival_GasConfig_3](image/l4d_survival_GasConfig_3.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	1. Play survival map, take and place items on the map before survival begins
+        *  Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
+    2. Save Gas Config
+        * Shared：Admin types ```!gasmenu``` -> "Create Shared Gas Config And Save" -> type in chatbox to name the config -> saved
+        * Private：Everyone ```!gasmenu``` -> "Personal Configs" -> "Create Gas Config And Save" -> type in chatbox to name the config -> saved
+    3. Admin types ```!gasmenu``` -> "Load  Shared Gas Config" -> Choose any config
+    4. Restart map, all items has been placed automatically
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/left4dead2/scripting/include/l4d2_weapons.inc)
 
-* Related Plugin | 相關插件
-	1. [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
-        > 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
-
-    2. [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
-        > 打開選單傳送地圖上所有物品到身邊
-
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_survival_GasConfig.cfg
         ```php
-        // Players with these flags have access to use "Lock gas config" menu
-        l4d_survival_GasConfig_adm_lock_flag "z"
-
-        // Players with these flags have access to use ADM gas menu
-        l4d_survival_GasConfig_adm_menu_flag "z"
+        // Max number of shared gas setups to allow per map
+        l4d_survival_GasConfig_shared_limit "10"
 
         // Max number of personal gas setups to allow per map (0=Not Allow any personal gas setups)
         l4d_survival_GasConfig_personal_limit "5"
 
-        // Max number of shared gas setups to allow per map
-        l4d_survival_GasConfig_shared_limit "10"
+        // Players with these flags have access to use ADM gas menu
+        l4d_survival_GasConfig_adm_menu_flag "z"
+
+        // Players with these flags have access to use "Lock gas config" menu
+        l4d_survival_GasConfig_adm_lock_flag "z"
         ```
 </details>
 
@@ -58,9 +62,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* Data File
-	* Auto create files in data/GasConfigs folder to save gas config
+* <details><summary>Data Config</summary>
+
+	* Auto create files in ```data/GasConfigs``` folder to save gas config
     * Don't try to modify unless you know what you are doing
+</details>
 
 * Apply to | 適用於
     ```
@@ -75,6 +81,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	繁體中文
 	简体中文
 	```
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
+        > 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
+
+    2. [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
+        > 打開選單傳送地圖上所有物品到身邊
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -112,25 +127,56 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_survival_GasConfig_6](image/l4d_survival_GasConfig_6.jpg)
 
 * 原理
-    * 載入地圖或者回合重新開始時，自動擺放好玩家設定的汽油桶位置
+    * 在生存模式中，自動擺放好玩家預先設定的物品位置
+        * 汽油桶、瓦斯桶、氧氣罐、煙火盒、火焰包、高爆彈
     * 所有設定會自動保存到配置文件中
-    * 配置分成私人與共享，只有管理員能創造與刪除共享配置
-    * 節省生存模式搬運物品時間
 
-* 功能
-    * 支援汽油桶、瓦斯桶、氧氣罐、煙火盒、火焰包、高爆彈
+* 用意在哪?
+    * 節省生存模式搬運物品時間
 
 * 如何使用
     1. 先擺放好地圖上的汽油桶位置
     2. 儲存配置
-        * 共享配置：管理員可以輸入!gasmenu -> "創造共享汽油配置並儲存" -> 聊天視窗輸入文字為這個配置命名
-        * 私人配置：所有人可以輸入!gasmenu -> 私人配置 -> "創造私人汽油配置並儲存" -> 聊天視窗輸入文字為這個配置命名
-    3. 管理員輸入!gasmenu -> "設定地圖預設汽油配置" -> 選擇剛才命名的共享配置
-    4. 重新地圖
+        * 共享配置：管理員可以輸入```!gasmenu``` -> "創造共享汽油配置並儲存" -> 聊天視窗輸入文字為這個配置命名
+        * 私人配置：所有人可以輸入```!gasmenu``` -> 私人配置 -> "創造私人汽油配置並儲存" -> 聊天視窗輸入文字為這個配置命名
+    3. 管理員輸入```!gasmenu``` -> "設定地圖預設汽油配置" -> 選擇剛才命名的共享配置
+    4. 重新地圖，所有物品已自動擺放好位置
 
-* Data 文件
-	* 此插件會自動創建文件於data/GasConfigs資料夾，用來儲存汽油桶的擺放位置設定
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d_survival_GasConfig.cfg
+        ```php
+        // 一張地圖內，最多的"共享汽油配置"數量
+        l4d_survival_GasConfig_shared_limit "10"
+
+        // 一張地圖內，每一位玩家最多的"私人汽油配置"數量 (0=不允許任何私人配置)
+        l4d_survival_GasConfig_personal_limit "5"
+
+        // 擁有這些權限的玩家，才可以輸入看到選單上更多的設置 (留白 = 任何人都能, -1: 無人)
+        l4d_survival_GasConfig_adm_menu_flag "z"
+
+        // 擁有這些權限的玩家，才可以鎖定並刪除 "共享汽油配置" (留白 = 任何人都能, -1: 無人)
+        l4d_survival_GasConfig_adm_lock_flag "z"
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+    * **打開選單**
+        ```php
+        sm_gasmenu
+        ```
+    
+    * **將所有汽油桶傳送到玩家身上**
+        ```php
+        sm_gashere
+        ```
+</details>
+
+* <details><summary>文件設定範例</summary>
+
+	* 此插件會自動創建文件於```data/GasConfigs```資料夾，用來儲存玩家的物資擺放設定
     * 沒事別改動文件除非你知道這是在幹嗎
-
+</details>
 
 

@@ -285,6 +285,8 @@
     * Tank石頭變得巨大
   * [l4d_tankhp_dynamic_adjust](/Plugin_插件/Tank_坦克/l4d_tankhp_dynamic_adjust): Dynamic Adjust Tank HP depends on 5+ survivors in server
     * 隨著玩家人數越多，Tank血量越厚
+  * [l4d_tank_punch_range](/Plugin_插件/Tank_坦克/l4d_tank_punch_range): Adjust Tank punch range and hit multi survivors with one punch
+    * Tank可以大範圍一拳打倒周圍的倖存者
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -557,8 +559,10 @@
     * 更改AI Bot的喜愛武器順序，優先拿取合適的武器
   * [bot_replace_player](/Plugin_插件/Bot_IQ_200_Bot_智商加強/bot_replace_player): If bot takes over the dead/incapacitated player who has disconnected, bot can repsawn and recovery HP.
     * AI Bot取代離開遊戲的死亡與倒地玩家時，自動復活並給予武器
-  * [l4d_play_character_cmd](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_play_character_cmd): Use cmd to play another charater
-    * 輸入命令切換到另一個角色遊玩
+  * [l4d_play_character_cmd](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_play_character_cmd): Use cmd to play another bot charater
+    * 輸入命令切換到另一個Bot角色遊玩
+  * [l4d_TougherSurvivorBots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Makes the survivor bots deal more damage against SIs and be more resistant to damage.
+    * 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
@@ -615,6 +619,8 @@
     * 武器與近戰都有CSO 殭屍擊退效果
   * [l4d2_zombie_transform](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_zombie_transform): Survivor can transform into zombie + zombie can transform into survivor
     * 人類能變成特感 + 特感能變成人類
+  * [l4d_jump_battale_kick](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_jump_battale_kick): Survivor press WALK+JUMP to do the battle kick, stagger back all S.I. and Witch
+    * 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>

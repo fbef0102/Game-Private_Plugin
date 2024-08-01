@@ -1,5 +1,5 @@
 # Description | 內容
-Use cmd to play another charater
+Use cmd to play another bot charater
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -69,7 +69,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-輸入命令切換到另一個角色遊玩
+Bot角色遊玩
 
 * 原理
 	* 玩家輸入```!js <角色名稱>``` 切換到該角色，譬如輸入　```!js rochelle``` 切換到Rochelle角色
