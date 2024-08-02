@@ -15,6 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Tank can punch multi survivors around or behind him
+	* Also apply to AI Tank
 </details>
 
 * <details><summary>FAQ</summary>
@@ -68,6 +69,7 @@ Tank可以大範圍一拳打倒周圍的倖存者
 
 * 原理
 	* Tank可以一拳打倒旁邊或背後的倖存者
+	* AI Tank也適用
 
 * <details><summary>問題區</summary>
 

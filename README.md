@@ -35,7 +35,8 @@
 
   * <details><summary><b>交易的注意事項</b></summary>
 
-    * 情緒勒索、討價還價、白嫖，但一次買多個插件可以打折或優惠價
+    * 拒絕情緒勒索、討價還價、打折，想白嫖的請下拉查看["公開的插件列表"](#公開的插件列表-public-plugins-list)
+    * 一次買多個插件可以打折或優惠價
     * 花錢就是大爺的態度，雙方都是平等關係
     * 模糊不清、霧裡看花的說明與需求，勿浪費彼此的時間
     * 不重複說明書已寫過的步驟或內容，會有插件說明書，不懂可詢問
@@ -47,7 +48,7 @@
       * 🟥 擅自修改源碼，將失去保固期
       * 可隨時查看每個插件的網頁內的"Changelog | 版本日誌"，獲悉插件有無更新版本
     * 保密交易，不會公開透露交易資訊與買家個資
-    * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期
+    * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期並不再提供支援
   </details>
 
   * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
@@ -92,7 +93,8 @@
 
   * <details><summary><b>Notice</b></summary>
 
-    * Ask price before deal
+    * If you want free plugins, cheeck below ["Public Plugins List"](#公開的插件列表-public-plugins-list)
+    * Ask price before deal  
     * I won't repeat any questions or steps that have been already mentioned in manual
     * Extra new request or new function, extra payment
     * 1-Year warranty since deal, fix any bug for free
@@ -101,7 +103,7 @@
       * 🟥 You are free to modify source code for your convenience, but this will void the warranty. 
       * To know if the plugin has updated, check "Changelog" on readme.md page
     * Privacy Policy, other people will never know our deal
-    * Provide source code. If distribute or share, will void the warranty.
+    * Provide source code. If distribute or share, will void the warranty and I won't longer support.
   </details>
 
   * <details><summary><b>Why high-priced?</b></summary>
@@ -445,6 +447,8 @@
     * 電鋸可以用彈藥堆填充油量
   * [l4d_spec_lasertag_cheat](/Plugin_插件/Weapons_武器/l4d_spec_lasertag_cheat): Admins can use command to see the Lasertag with bullets when player shoots
     * 管理員輸入指令能看到玩家的子彈軌跡 (方便看自瞄作弊)
+  * [l4d_no_shove_fatigue](/Plugin_插件/Weapons_武器/l4d_no_shove_fatigue): Allow certain weapons to shove infinitely (no fatigue)
+    * 指定的武器可以無限次數推人，就像L4D1 (不會疲勞)
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -764,7 +768,7 @@
 
   * ✗不清晰、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
-  * ✗盜版、舊版本的遊戲、舊版本的Sourcemod、舊版本的插件
+  * ✗非Steam平台、盜版、舊版本的Sourcemod、反編譯插件
   * ✗任何不屬於我的插件的相關問題，要詢問要修改請攜帶源碼並付報酬
   * ✗RPG、誇張特效、VIP、等級系統....
   * ✗重複插件說明書已寫過的步驟或內容
@@ -775,7 +779,7 @@
 
 * <details><summary><b>拒絕名單</b></summary>
 
-  * 從今此後, 以下作者的插件或原始碼, 一律不受理
+  * 以下作者的插件或原始碼, 一律不受理
     1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
 </details>
 
@@ -811,14 +815,14 @@
   * ✗ Won't do any VIP, RPG, or any admin group plugin
   * ✗ I know nothing much about .vpk mod, don't ask
   * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
-  * ✗ Non-steam、old game version、old sourcemod version、old plugin version
+  * ✗ Non-steam、old game version、old sourcemod version、decompiled plugin
   * ✗ Only plugin with no source code, please attach original link
   * ✗ I won't provide AllInOne-lazy-package, please do it yourself
 </details>
 
 * <details><summary><b>Blacklist</b></summary>
 
-  * From now on, I refuse to modify the following people's work
+  * Refuse to modify the following people's work
     1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
 </details>
 

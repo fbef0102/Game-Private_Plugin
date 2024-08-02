@@ -10,9 +10,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image
 	* Free to modify custom difficulty and damage, image for reference only
-	<br/>![zho/l4d_sethp_player_1](image/l4d_sethp_player_1.jpg)
-	<br/>![zho/l4d_sethp_player_2](image/l4d_sethp_player_2.jpg)
-	<br/>![zho/l4d_sethp_player_3](image/l4d_sethp_player_3.gif)
+	<br/>![l4d_sethp_player_1](image/l4d_sethp_player_1.jpg)
+	<br/>![l4d_sethp_player_2](image/l4d_sethp_player_2.jpg)
+	<br/>![l4d_sethp_player_3](image/l4d_sethp_player_3.gif)
 
 * <details><summary>How does it work?</summary>
 

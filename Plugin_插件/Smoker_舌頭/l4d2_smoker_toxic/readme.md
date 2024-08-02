@@ -65,7 +65,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// For how many seconds does the Collapsed Lung last.
 		l4d2_smoker_toxic_collapsedlung_duration "5"
 
-		/*Collapsed Lung ability*/
+		/*Death Cloud ability*/
 		// If 1,Enables Death Cloud ability: The Smoker's Cloud deals damage to Survivors and slows melee after death
 		l4d2_smoker_toxic_deathcloud_enable "1"
 
