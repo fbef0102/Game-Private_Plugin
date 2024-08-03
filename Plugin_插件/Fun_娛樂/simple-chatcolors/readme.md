@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
 
 * Require | 必要安裝
-	1. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	1. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 	2. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 	3. Optional - [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system)
 
@@ -92,6 +92,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Antithasys @ 2011
 	//HarryPotter @ 2023-2024
 	```
+	* v1.3h (2024-8-3)
+		* Require simple_chatprocessor 1.8h or above
+		
 	* v1.2h (2024-1-20)
 		* Compatible with [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system) by harry
 
@@ -105,7 +108,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Use Steam64 ID instead of STEAM_X:X:XXXXXX
 
 	* v2.2.0
-	    * [Original Plugin By Antithasys](https://forums.alliedmods.net/showthread.php?t=167814)
+		* [Original Plugin By Antithasys](https://forums.alliedmods.net/showthread.php?t=167814)
 </details>
 
 - - - -

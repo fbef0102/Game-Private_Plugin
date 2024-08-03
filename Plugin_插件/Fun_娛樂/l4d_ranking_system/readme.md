@@ -21,7 +21,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	3. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 	5. Optional - [readyup](/Plugin_插件/Server_伺服器/readyup)
 
@@ -87,10 +87,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-    * ```scripting\include\l4d_ranking_system.inc```
-        ```php
-        Registers a library name: l4d_ranking_system
-        ```
+	* ```scripting\include\l4d_ranking_system.inc```
+		```php
+		Registers a library name: l4d_ranking_system
+		```
 </details>
 
 * <details><summary>Data Config</summary>
@@ -165,6 +165,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9 (2024-8-3)
+		* Require simple_chatprocessor 1.8h or above
+
 	* v1.8 (2024-2-28)
 		* Replace OnClientPutInServer with OnClientPostAdminCheck to fix client can't load data from database
 
@@ -173,7 +176,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Add API
 
 	* v1.6 (2023-11-5)
-		* Require simple-chatprocessor & smlib
+		* Require simple_chatprocessor & smlib
 
 	* v1.5 (2023-5-9)
 		* Add rank title to player name

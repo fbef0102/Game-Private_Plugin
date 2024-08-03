@@ -34,7 +34,7 @@
 * 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+	3. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 	5. 可選 - [readyup](/Plugin_插件/Server_伺服器/readyup)
 	6. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_skill_detect)
@@ -129,10 +129,10 @@
 
 * <details><summary>API | 串接</summary>
 
-    * ```scripting\include\l4d_ranking_system.inc```
-        ```php
-        Registers a library name: l4d_ranking_system
-        ```
+	* ```scripting\include\l4d_ranking_system.inc```
+		```php
+		Registers a library name: l4d_ranking_system
+		```
 </details>
 
 * <details><summary>文件設定</summary>
@@ -199,6 +199,9 @@
 
 * <details><summary>版本日誌</summary>
 
+	* v1.7h (2024-8-3)
+		* Require simple_chatprocessor 1.8h or above
+
 	* v1.6h (2024-7-18)
 		* Add l4d2_skill_detect
 		* Update database, add field "hunter_skeet", "jockey_skeet", "charger_level" 
@@ -218,7 +221,7 @@
 		* Delete l4d2_skill_detect
 
 	* v1.1h (2023-6-15)
-		* Add smlib and simple-chatprocessor
+		* Add smlib and simple_chatprocessor
 
 	* v1.0h (2023-5-12)
 		* Initial Release

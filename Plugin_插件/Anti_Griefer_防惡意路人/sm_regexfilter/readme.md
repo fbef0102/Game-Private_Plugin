@@ -19,7 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
     1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    2. [simple-chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple-chatprocessor)
+    2. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -99,6 +99,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     //Twilight Suzuka @ 2009
     //Harry @ 2022-2024
     ```
+    * v1.3h (2024-8-3)
+        * Require simple_chatprocessor 1.8h or above
+
     * v1.2h (2024-1-31)
         * Remake code, convert code to latest syntax
         * Updare data config
@@ -111,7 +114,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * v1.4 (2023-5-13)
         * Optimize Code
-        * Change method to detect client say, require "simple-chatprocessor"
+        * Change method to detect client say, require "simple_chatprocessor"
 
     * v1.3
         * Remake Code
