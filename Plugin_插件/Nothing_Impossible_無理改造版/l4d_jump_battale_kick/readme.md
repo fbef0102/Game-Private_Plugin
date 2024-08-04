@@ -17,7 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Press ```WALK(Shift)+JUMP``` to do battle kick attacker
+	* Press ```WALK(Shift)+JUMP``` to do battle kick attack
 		* Stagger back special infected and cause damage, inculding tank and witch
 		* Stagger back teammate and cause damage
 		* Kick physical prop or hittable car

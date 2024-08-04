@@ -22,11 +22,11 @@
 
 "Phrases"
 {
-	"Call Vote"
+	"Main Vote"
 	{
-		"en"		"Call Vote"
-		"zho"		"發起投票"
-		"chi"		"发起投票"
+		"en"		"Main Vote"
+		"zho"		"主要投票"
+		"chi"		"主要投票"
 	}
 	"Change Diffciulty"
 	{
@@ -34,11 +34,11 @@
 		"zho"		"更改難度"
 		"chi"		"更改难度"
 	}
-	"Other"
+	"Custom Vote"
 	{
-		"en"		"Other"
-		"zho"		"其它"
-		"chi"		"其他"
+		"en"		"Custom Vote"
+		"zho"		"自定義投票"
+		"chi"		"自定义投票"
 	}
 	"Vote Main Menu"
 	{
@@ -129,12 +129,6 @@
 		"en"		"Start Vote"
 		"zho"		"發起投票"
 		"chi"		"发起投票"
-	}
-	"No Incap"
-	{
-		"en"		"No Incap"
-		"zho"		"倒地即死"
-		"chi"		"倒地即死"
 	}
 	"Enable"
 	{
@@ -287,6 +281,18 @@
 		"en"		"You did not change anything"
 		"zho"		"你沒有更改任何項目"
 		"chi"		"你没有更改任何项目"
+	}
+	"You did not choose any vote"
+	{
+		"en"		"You did not choose any vote"
+		"zho"		"你沒有選擇任何選項"
+		"chi"		"你没有选择任何选项"
+	}
+	"No Custom Vote"
+	{
+		"en"		"No Custom Vote"
+		"zho"		"沒有其他投票可選"
+		"chi"		"没有其他投票可选"
 	}
 	"Same as current diffciulty"
 	{
@@ -502,7 +508,7 @@
 	"Crash_Course"
 	{
 		"en"		"Crash Course"
-		"zho"		"墜機險途"
+		"zho"		"速成課程"
 		"chi"		"坠机险途"
 	}
 	"Death_Toll"
@@ -742,7 +748,7 @@
 	"#L4D360UI_CampaignName_C9"
 	{
 		"en"		"Crash Course"
-		"zho"		"墜機險途(速成課程)"
+		"zho"		"速成課程"
 		"chi"		"坠机险途"
 	}
 	"#L4D360UI_CampaignName_C10"
@@ -1117,6 +1123,368 @@
 		"zho"		"燈塔"
 		"chi"		"灯塔终章"
 	}
+	
+	"#L4D360UI_Campaign_Hospital"
+	{
+		"en"		"No Mercy"
+		"zho"		"毫不留情"
+		"chi"		"毫不留情"
+	}	
+	
+	"#L4D360UI_Campaign_Garage"
+	{
+		"en"		"Crash Course"
+		"zho"		"速成課程"
+		"chi"		"坠机险途"
+	}	
+	
+	"#L4D360UI_Campaign_Smalltown"
+	{
+		"en"		"Death Toll"
+		"zho"		"死亡喪鐘"
+		"chi"		"死亡丧钟"
+	}
+	"#L4D360UI_Campaign_Airport"
+	{
+		"en"		"Dead Air"
+		"zho"		"死亡機場"
+		"chi"		"寂静时分"
+	}
+	"#L4D360UI_HilltopCampaignTitle"
+	{
+		"en"		"Blood Harvest"
+		"zho"		"嗜血豐收"
+		"chi"		"血腥收获"
+	}
+	
+	"#L4D_Mission_River_Title"
+	{
+		"en"		"The Sacrifice"
+		"zho"		"犧牲"
+		"chi"		"牺牲"
+	}
+	
+	"L4D360UI_Campaign_Hospital_VS"
+	{
+		"en"		"No Mercy (VS)"
+		"zho"		"毫不留情 (VS)"
+		"chi"		"毫不留情 (VS)"
+	}	
+	
+	"L4D360UI_Campaign_Smalltown_VS"
+	{
+		"en"		"Death Toll (VS)"
+		"zho"		"死亡喪鐘 (VS)"
+		"chi"		"死亡丧钟 (VS)"
+	}
+	"L4D360UI_Campaign_Airport_VS"
+	{
+		"en"		"Dead Air (VS)"
+		"zho"		"死亡機場 (VS)"
+		"chi"		"寂静时分 (VS)"
+	}
+	"L4D360UI_HilltopCampaignTitle_VS"
+	{
+		"en"		"Blood Harvest (VS)"
+		"zho"		"嗜血豐收 (VS)"
+		"chi"		"血腥收获 (VS)"
+	}
+	
+	"#L4D360UI_Campaign_Lighthouse"
+	{
+		"en"		"Last Stand (Survival)"
+		"zho"		"最後一刻 (生存)"
+		"chi"		"最后的生还者 (生还)"
+	}
+	
+	"#L4D360UI_Chapter_Apartment"
+	{
+		"en"		"Apartments"
+		"zho"		"公寓"
+		"chi"		"公寓"
+	}
+	"#L4D360UI_Chapter_Subway"
+	{
+		"en"		"Subway"
+		"zho"		"地下鐵"
+		"chi"		"地铁"
+	}
+	"#L4D360UI_Chapter_Sewers"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道"
+		"chi"		"下水道"
+	}
+	"#L4D360UI_Chapter_Hospital"
+	{
+		"en"		"Hospital"
+		"zho"		"醫院"
+		"chi"		"医院"
+	}
+	"#L4D360UI_Chapter_Rooftop"
+	{
+		"en"		"Rooftop"
+		"zho"		"屋頂最終章"
+		"chi"		"屋顶终局"
+	}
+	
+	"L4D360UI_Chapter_Apartment_VS"
+	{
+		"en"		"Apartments (VS)"
+		"zho"		"公寓 (VS)"
+		"chi"		"公寓 (VS)"
+	}
+	"L4D360UI_Chapter_Subway_VS"
+	{
+		"en"		"Subway (VS)"
+		"zho"		"地下鐵 (VS)"
+		"chi"		"地铁 (VS)"
+	}
+	"L4D360UI_Chapter_Sewers_VS"
+	{
+		"en"		"Sewer"
+		"zho"		"下水道 (VS)"
+		"chi"		"下水道 (VS)"
+	}
+	"L4D360UI_Chapter_Hospital_VS"
+	{
+		"en"		"Hospital( VS)"
+		"zho"		"醫院 (VS)"
+		"chi"		"医院 (VS)"
+	}
+	"L4D360UI_Chapter_Rooftop_VS"
+	{
+		"en"		"Rooftop (VS)"
+		"zho"		"屋頂最終章 (VS)"
+		"chi"		"屋顶终局 (VS)"
+	}
+	
+	"#L4D360UI_Chapter_Alleys"
+	{
+		"en"		"The Alleys"
+		"zho"		"小巷"
+		"chi"		"小巷"
+	}
+	"#L4D360UI_Chapter_Depot"
+	{
+		"en"		"The Truck Depot"
+		"zho"		"卡車車庫最終章"
+		"chi"		"卡车停车场"
+	}
+	
+	"#L4D360UI_Chapter_Caves"
+	{
+		"en"		"The Turnpike"
+		"zho"		"高速公路"
+		"chi"		"收费公路"
+	}
+	"#L4D360UI_Chapter_Drainage"
+	{
+		"en"		"The Drains"
+		"zho"		"排水管"
+		"chi"		"水沟"
+	}
+	"#L4D360UI_Chapter_Smalltown"
+	{
+		"en"		"The Church"
+		"zho"		"教堂"
+		"chi"		"教堂"
+	}
+	"#L4D360UI_Chapter_MainStreet"
+	{
+		"en"		"The Town"
+		"zho"		"小鎮"
+		"chi"		"小镇"
+	}
+	"#L4D360UI_Chapter_Boat"
+	{
+		"en"		"The Boat House"
+		"zho"		"船屋最終章"
+		"chi"		"船库终局"
+	}
+	
+	"L4D360UI_Chapter_Caves_VS"
+	{
+		"en"		"The Turnpike (VS)"
+		"zho"		"高速公路 (VS)"
+		"chi"		"收费公路 (VS)"
+	}
+	"L4D360UI_Chapter_Drainage_VS"
+	{
+		"en"		"The Drains (VS)"
+		"zho"		"排水管 (VS)"
+		"chi"		"水沟 (VS)"
+	}
+	"L4D360UI_Chapter_Smalltown_VS"
+	{
+		"en"		"The Church (VS)"
+		"zho"		"教堂 (VS) (VS)"
+		"chi"		"教堂 (VS)"
+	}
+	"L4D360UI_Chapter_MainStreet_VS"
+	{
+		"en"		"The Town (VS)"
+
+		"zho"		"小鎮 (VS)"
+		"chi"		"小镇 (VS)"
+	}
+	"L4D360UI_Chapter_Boat_VS"
+	{
+		"en"		"The Boat House (VS)"
+		"zho"		"船屋最終章 (VS)"
+		"chi"		"船库终局 (VS)"
+	}
+	
+	"#L4D360UI_Chapter_Greenhouse"
+	{
+		"en"		"The Greenhouse"
+		"zho"		"溫室"
+		"chi"		"花房"
+	}
+	"#L4D360UI_Chapter_Offices"
+	{
+		"en"		"The Crane"
+		"zho"		"起重機"
+		"chi"		"起重机"
+	}
+	"#L4D360UI_Chapter_Garage"
+	{
+		"en"		"The Construction Site"
+		"zho"		"建築工地"
+		"chi"		"建筑工地"
+	}
+	"#L4D360UI_Chapter_Airport"
+	{
+		"en"		"The Terminal"
+		"zho"		"航空站"
+		"chi"		"航空机场"
+	}
+	"#L4D360UI_Chapter_Runway"
+	{
+		"en"		"Runway"
+		"zho"		"跑道最終章"
+		"chi"		"跑道终局"
+	}
+	
+	"L4D360UI_Chapter_Greenhouse_VS"
+	{
+		"en"		"The Greenhouse (VS)"
+		"zho"		"溫室 (VS)"
+		"chi"		"花房 (VS)"
+	}
+	"L4D360UI_Chapter_Offices_VS"
+	{
+		"en"		"The Crane (VS)"
+		"zho"		"起重機 (VS)"
+		"chi"		"起重机 (VS)"
+	}
+	"L4D360UI_Chapter_Garage_VS"
+	{
+		"en"		"The Construction Site (VS)"
+		"zho"		"建築工地 (VS)"
+		"chi"		"建筑工地 (VS)"
+	}
+	"L4D360UI_Chapter_Airport_VS"
+	{
+		"en"		"The Terminal (VS)"
+		"zho"		"航空站 (VS)"
+		"chi"		"航空机场 (VS)"
+	}
+	"L4D360UI_Chapter_Runway_VS"
+	{
+		"en"		"Runway (VS)"
+		"zho"		"跑道最終章 (VS)"
+		"chi"		"跑道终局 (VS)"
+	}
+	
+	"#L4D360UI_Chapter_Hilltop"
+	{
+		"en"		"The Woods"
+		"zho"		"森林"
+		"chi"		"森林"
+	}
+	"#L4D360UI_Chapter_TrainTunnel"
+	{
+		"en"		"The Tunnel"
+		"zho"		"隧道"
+		"chi"		"隧道"
+	}
+	"#L4D360UI_Chapter_Bridge"
+	{
+		"en"		"The Bridge"
+		"zho"		"橋"
+		"chi"		"桥"
+	}
+	"#L4D360UI_Chapter_Barn"
+	{
+		"en"		"The Train Station"
+		"zho"		"火車站"
+		"chi"		"火车站"
+	}
+	"#L4D360UI_Chapter_Farm"
+	{
+		"en"		"The Farmhouse"
+		"zho"		"農場最終章"
+		"chi"		"农舍终局"
+	}
+	
+	"L4D360UI_Chapter_Hilltop_VS"
+	{
+		"en"		"The Woods (VS)"
+		"zho"		"森林 (VS)"
+		"chi"		"森林 (VS)"
+	}
+	"L4D360UI_Chapter_TrainTunnel_VS"
+	{
+		"en"		"The Tunnel (VS)"
+		"zho"		"隧道 (VS)"
+		"chi"		"隧道 (VS)"
+	}
+	"L4D360UI_Chapter_Bridge_VS"
+	{
+		"en"		"The Bridge (VS)"
+		"zho"		"橋 (VS)"
+		"chi"		"桥 (VS)"
+	}
+	"L4D360UI_Chapter_Barn_VS"
+	{
+		"en"		"The Train Station (VS)"
+		"zho"		"火車站 (VS)"
+		"chi"		"火车站 (VS)"
+	}
+	"L4D360UI_Chapter_Farm_VS"
+	{
+		"en"		"The Farmhouse (VS)"
+		"zho"		"農場最終章 (VS)"
+		"chi"		"农舍终局 (VS)"
+	}
+	
+	"#L4D360UI_Chapter_Docks"
+	{
+		"en"		"Docks"
+		"zho"		"碼頭"
+		"chi"		"码头"
+	}
+	"#L4D360UI_Chapter_Barge"
+	{
+		"en"		"Barge"
+		"zho"		"駁船"
+		"chi"		"驳船"
+	}
+	"#L4D360UI_Chapter_Port"
+	{
+		"en"		"Port"
+		"zho"		"港口"
+		"chi"		"港口"
+	}	
+	
+	"#L4D360UI_Holdout_Chapter_Lighthouse"
+	{
+		"en"		"The Lighthouse"
+		"zho"		"燈塔"
+		"chi"		"灯塔"
+	}
+	
 	
 	"no_maps_for_mode"
 	{

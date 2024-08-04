@@ -12,11 +12,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Type !newvotes to open vote menu
 	<br/>![l4d2_vote_change_1](image/l4d2_vote_change_1.jpg)
-	* Menu - "Call Vote"
+	* Menu - "Main Vote"
 	<br/>![l4d2_vote_change_2](image/l4d2_vote_change_2.jpg)
 	* Menu - "Change Diffciulty"
 	<br/>![l4d2_vote_change_3](image/l4d2_vote_change_3.jpg)
-	* Menu - "Other"
+	* Menu - "Custom Vote", you can add your own custom vote
 	<br/>![l4d2_vote_change_4](image/l4d2_vote_change_4.jpg)
 	* Valve Map + Custom Maps (automatic parsing of custom maps vpk files - no need to add map names manually)
 	<br/>![l4d2_vote_change_5](image/l4d2_vote_change_5.jpg)
@@ -27,7 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Type ```!newvotes``` to open vote menu -> select -> call vote to change
+	* Admin can type ```!p``` to force pass the current vote, or ```!f``` to force cancel the current vote
 	* Automatic parsing of custom maps vpk files - no need to add map names manually，file is in ```configs\l4d2_vote_change.txt``` (don't touch)
+	* Customize vote, add more custom vote in ```data\l4d2_vote_change.cfg```
 </details>
 
 * Require
@@ -104,6 +106,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				"ban"				"1"
 			}
 
+			"Custom"
+			{
+				// There are 2 custom votes, add more if you want
+				"num"   "2"
+				"1"
+				{
+					// 1=Enable this vote, 0=Disable this vote
+					"enable"	"1" 
+					
+					// Vote Title
+					"title"		"倒地即死 No Incap"
+					
+					// server execute this cmd after vote pass (if too many cmds, better exec cfg file instead)
+					"cmd"		"sm_cvar survivor_max_incapacitated_count 0"
+					
+					// chat message if vote pass, support multicolors
+					"pass_msg"	"[{olive}TS{default}] {blue}Vote Pass! 投票通過!{default} You will die once incap"
+					
+					// chat message if vote pass, support multicolors
+					"fail_msg"	"[{olive}TS{default}] {red}Vote Failed! 投票失敗!{default}"
+				}
+				...
+			}
 			...
 		}
 		```
@@ -111,6 +136,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
+	L4D1
 	L4D2
 	```
 
@@ -126,10 +152,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related | 相關插件</summary>
 
     1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
-        > 沒有權限的玩家不能隨意發起官方投票
+        * 沒有權限的玩家不能隨意發起官方投票
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4h (2024-8-4)
+		* Update data file
+		* Update vote menu
+		* Add L4D1 support
+		* Player can now customize vote
+		* Update translation
 
 	* v1.3h (2024-4-30)
 		* Add data file to enable/disable each vote option
@@ -149,11 +182,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* 輸入!newvotes打開投票選單
 	<br/>![l4d2_vote_change_1_zho](image/zho/l4d2_vote_change_1_zho.jpg)
-	* 子選單"發起投票"
+	* "主要投票"
 	<br/>![l4d2_vote_change_2_zho](image/zho/l4d2_vote_change_2_zho.jpg)
-	* 子選單"更改難度"
+	* "更改難度"
 	<br/>![l4d2_vote_change_3_zho](image/zho/l4d2_vote_change_3_zho.jpg)
-	* 子選單"其他"
+	* "自定義投票"，可自行新增
 	<br/>![l4d2_vote_change_4_zho](image/zho/l4d2_vote_change_4_zho.jpg)
 	* 官方圖與三方圖可以選擇關卡 (能自動識別並新增三方圖)
 	<br/>![l4d2_vote_change_5_zho](image/zho/l4d2_vote_change_5_zho.jpg)
@@ -168,21 +201,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz)
 
-
 * 原理
-	* 輸入!newvotes -> 選擇項目 -> 發起投票 -> F1同意 或 F2不同意
-
-* 功能
-	* 任何人發起投票後，管理員可輸入!p一票同意；!f一票否決。
+	* 輸入```!newvotes``` -> 選擇項目 -> 發起投票 -> F1同意 或 F2不同意
+	* 任何人發起投票後，管理員可輸入```!p```一票同意；```!f```一票否決。
 	* 自動添加三方圖，文件位於```configs\l4d2_vote_change.txt``` (不要修改)
+	* 打開文件 ```data\l4d2_vote_change.cfg``` 自行增加更多投票
 
 * 投票選單表
 	* 主列表：
-		* 发起投票
+		* 主要投票
 		* 更改难度
-		* 其他
+		* 自定義投票
 
-	* 子選單 "發起投票"
+	* "主要投票"
 		* 換官方圖		(可以選擇關卡)
 		* 三方圖		(能自動識別並新增三方圖，可以選擇關卡)
 		* 重啟本關		(重新回合，非重新刷圖)
@@ -192,11 +223,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 增減旁觀		(4~30個位子)
 		* 封禁玩家     	(不可封禁管理員)
 
-	* 子選單 "更改難度"
+	* "更改难度"
 		* 更改難度		(簡單、一般、進階、專家)
 
-	* 子選單 "其他"
-		* 倒地即死		(開啟、關閉)
+	* "自定義投票"
+		* 倒地即死 No Incap
+		* 倒地不會即死 No Incap Disable
 	
 * <details><summary>指令中文介紹(點我展開)</summary>
 
@@ -262,6 +294,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 				"ban"				"1"
 			}
 
+			"Custom"
+			{
+				// 有2種自製投票, 可自行新增更多
+				"num"   "2"
+				"1"
+				{
+					// 1=開放此選項投票, 0=關閉此選項投票
+					"enable"	"1" 
+					
+					// 投票選項的標題
+					"title"		"倒地即死 No Incap"
+					
+					// 投票通過後會執行的指令 (如果想執行的指令太多，建議改成執行cfg)
+					"cmd"		"sm_cvar survivor_max_incapacitated_count 0"
+					
+					// 投票通過會顯示的訊息 (聊天框)，支援中文與顏色tag
+					"pass_msg"	"[{olive}TS{default}] {blue}Vote Pass! 投票通過!{default} You will die once incap"
+					
+					// 投票失敗會顯示的訊息 (聊天框)，支援中文與顏色tag
+					"fail_msg"	"[{olive}TS{default}] {red}Vote Failed! 投票失敗!{default}"
+				}
+			}
 			...
 		}
 		```

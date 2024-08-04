@@ -37,7 +37,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=Accumulate kill combo from first kill. 1=Accumulate kill combo if keep killing S.I.
         l4d_kill_combo_reset_type "1"
 
-        // 1=Accumulate S.I kill combo when headshot only, 2=Reset kill combo if not headshot
+        // 1=Accumulate S.I kill combo when headshot only, 2=Reset kill combo if not headshot (0=Off)
         l4d_kill_combo_headshot_only "0"
 
         // Reset kill combo if receive this amount of damage during combo (0=off)
@@ -152,6 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 1 = 殺死特感沒爆頭不列入擊殺數 (繼續計時)
         // 2 = 殺死特感沒爆頭，中斷計時與擊殺數
+        // 0 = 關閉這項功能
         l4d_kill_combo_headshot_only "0"
 
         // 如果受到10滴以上的傷害，中斷計時與擊殺數 (0=關閉這項功能)

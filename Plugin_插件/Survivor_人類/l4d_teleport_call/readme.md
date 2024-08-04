@@ -12,7 +12,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Admin type ```!call``` to open menu
+	* Admin types ```!admin->Player Commands->Teleport Menu (!call)```  to open menu
+	* Admin types ```!call``` to open menu
 	* Teleport players to
 		* Start area
 		* End checkpoint
@@ -33,6 +34,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_teleport_call_announce_type "1"
+
+		// If 1, Add 'Teleport Menu' item in admin menu under 'Player commands' category (Need ADMFLAG_ROOT flag)
+		l4d_teleport_call_adminmenu "1"
 		```
 </details>
 
@@ -67,6 +71,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2024-8-4)
+		* Upate cvars
+		* Add 'Teleport Menu' item in admin menu under 'Player commands' category (Need ADMFLAG_ROOT flag)
+
 	* v1.2h (2023-12-12)
 		* Update translation
 		* Add new item in menu
@@ -89,7 +97,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![zho/l4d_teleport_call_1](image/zho/l4d_teleport_call_1.jpg)
 
 * 原理
-	* 管理員輸入!call打開選單，可以傳送玩家到
+	* 管理員可以輸入 ```!admin->玩家指令->傳送功能 (指令 !call)``` -> 可以傳送玩家至指定地點
+	* 管理員亦可輸入```!call```打開選單，可以傳送玩家至指定地點
 		* 起點
 		* 終點
 		* 救援載具區域
@@ -104,6 +113,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_teleport_call_announce_type "1"
+
+		// 為1時，在管理員選單的 '玩家指令' 分類內增加 "傳送功能 (指令 !call)" (所需權限: ADMFLAG_ROOT)
+		l4d_teleport_call_adminmenu "1"
 		```
 </details>
 

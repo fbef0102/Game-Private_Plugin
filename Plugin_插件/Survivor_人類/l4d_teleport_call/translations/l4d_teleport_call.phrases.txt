@@ -3,8 +3,8 @@
 	"Title"
 	{
 		"en"		"Teleport Menu (!call)"
-		"zho"		"傳送功能 指令 !call"
-		"chi"		"传送功能 指令 !call"
+		"zho"		"傳送功能 (指令 !call)"
+		"chi"		"传送功能 (指令 !call)"
 	}
 	"warp_all_survivors_here"
 	{
