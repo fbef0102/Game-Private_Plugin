@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -43,6 +44,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
     
     None
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	```php
+	Registers a library name: l4d2_melee_modify_damage
+	```
 </details>
 
 * <details><summary>Data Config</summary>
@@ -155,6 +163,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2024-8-6)
+        * Optimize Code
 
     * v1.2 (2024-7-23)
 	    * Melee won't one-swing-kill hunter when poucing

@@ -8,8 +8,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/hlEiyPxE_Eo)
 
 * Image | 圖示
-	* teleport all items on the map (生存模式節省搬運時間必備插件)
-	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
+	* Teleport all items on the map (生存模式節省搬運時間必備插件)
+	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.gif)
+	<br/>![l4d_Teleport_Item_2](image/l4d_Teleport_Item_2.gif)
+	<br/>![l4d_Teleport_Item_3](image/l4d_Teleport_Item_3.gif)
+
+* <details><summary>How does it work?</summary>
+
+	* Type ```!tpmenu``` -> Select item -> Teleport all items into your position
+	* Can use in any game mode
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -18,23 +26,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_Teleport_Item.cfg
 		```php
-		// Players with these flags have access to use command to open menu. (Empty = Everyone, -1: Nobody)
-		l4d_Teleport_Item__access_flag ""
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d_Teleport_Item_allow "1"
-
-		// Turn off the plugin in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-		l4d_Teleport_Item_map_off ""
 
 		// Turn on the plugin in these game modes, separate by commas (no spaces). (Empty = all).
 		l4d_Teleport_Item_modes ""
 
-		// Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
-		l4d_Teleport_Item_modes_off ""
+		// Turn off the plugin in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
+		l4d_Teleport_Item_map_off ""
 
 		// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
 		l4d_Teleport_Item_modes_tog "0"
+
+		// Turn off the plugin in these game modes, separate by commas (no spaces). (Empty = none).
+		l4d_Teleport_Item_modes_off ""
+
+		// Players with these flags have access to use command to open menu. (Empty = Everyone, -1: Nobody)
+		l4d_Teleport_Item__access_flag ""
 		```
 </details>
 
@@ -63,9 +71,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 打開選單傳送地圖上所有物品到身邊
 
 * 原理
-	* 你是否有過經驗在生存模式之下浪費時間搬運汽油桶與物資，安裝這插件能節省你大量的時間
+	* 輸入```!tpmenu```，可以將地圖上所有的汽油桶或物資搬運到你所在的位置上
+	* 可適用於任何模式
 
-* 功能
-	1. 可設置特定人士才能傳送
-	2. 可選擇物品進行傳送
-	3. 不能傳送武器
+* 用意在哪?
+	* 在生存模式之下耗費時間搬運汽油桶與物資，安裝這插件能節省你大量的時間
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_Teleport_Item.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_Teleport_Item_allow "1"
+
+		// 什麼模式下啟動此插件, 逗號區隔 (無空白). (留白 = 所有模式)
+		l4d_Teleport_Item_modes ""
+
+		// 什麼模式下關閉此插件, 逗號區隔 (無空白). (留白 = 無)
+		l4d_Teleport_Item_map_off ""
+
+		// 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 請將數字相加起來
+		l4d_Teleport_Item_modes_tog "0"
+
+		// 什麼模式下關閉此插件, 逗號區隔 (無空白). (留白 = 無)
+		l4d_Teleport_Item_modes_off ""
+
+		// 擁有這些權限的玩家，才可以輸入!tpmenu (留白 = 任何人都能, -1: 無人)
+		l4d_Teleport_Item__access_flag ""
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+	
+	* **打開傳送物資的選單**
+		```php
+		sm_tpmenu
+		```
+</details>
