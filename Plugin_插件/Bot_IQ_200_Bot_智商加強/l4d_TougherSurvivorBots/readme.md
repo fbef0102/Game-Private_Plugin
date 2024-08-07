@@ -13,8 +13,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Survivor bots deal more damage to common infected, special infected, tank, witch
-	* Survivor bots decrease damage from common infected, special infected, tank, witch, friendly fire
+	* Survivor bots deal more damage to 
+		* Common infected
+		* Special infected
+		* Tank
+		* Witch
+	* Survivor bots decrease damage from 
+		* Common infected
+		* Special infected
+		* Tank
+		* Witch
+		* Friendly fire
+		* Fall from ledge
+		* Flame
 </details>
 
 * Require | 必要安裝
@@ -26,48 +37,78 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d_TougherSurvivorBots_allow "1"
-
-		// If 1, allow survivor bots deal more damage.
-		l4d_TougherSurvivorBots_attack_bot_allow "1"
-
-		// If 1, allow survivor real players deal more damage.
-		l4d_TougherSurvivorBots_attack_player_allow "0"
-
-		// Multiply survivor attack damage on difficulty Eazy.
-		l4d_TougherSurvivorBots_attack_easy_multi "1.0"
-
-		// Multiply survivor attack damage on difficulty Normal.
-		l4d_TougherSurvivorBots_attack_normal_multi "1.25"
-
-		// Multiply survivor attack damage on difficulty Hard.
-		l4d_TougherSurvivorBots_attack_hard_multi "1.5"
-
-		// Multiply survivor attack damage on difficulty Impossible.
-		l4d_TougherSurvivorBots_attack_impossible_multi "2.0"
-
-		// If 1, enable survivor bots being hurt more damage.
-		l4d_TougherSurvivorBots_hurt_bot_enable "1"
-
-		// If 1, enable survivor real players being hurt more damage.
-		l4d_TougherSurvivorBots_hurt_player_enable "0"
-
-		// Multiply survivor hurt damage on difficulty Eazy.
-		l4d_TougherSurvivorBots_hurt_easy_multi "0.5"
-
-		// Multiply survivor hurt damage on difficulty Normal.
-		l4d_TougherSurvivorBots_hurt_normal_multi "0.5"
-
-		// Multiply survivor hurt damage on difficulty Hard.
-		l4d_TougherSurvivorBots_hurt_hard_multi "0.5"
-
-		// Multiply survivor hurt damage on difficulty Impossible.
-		l4d_TougherSurvivorBots_hurt_impossible_multi "0.5"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* <details><summary>Data Config</summary>
+
+	* ```data/l4d_TougherSurvivorBots.cfg```
+		```php
+        "l4d_TougherSurvivorBots"
+        {
+			// In Easy Difficulty
+			"Easy"
+			{
+				"attack"
+				{
+					// 1=Apply to survivor bots, 0=Don't apply to survivor bots
+					"bot_allow" "1"
+					
+					// 1=Apply to real survivor players, 0=Don't apply to survivor bots
+					"real_allow" "0"
+					
+					// Multiply survivor attack damage to Tank (0.0=No Damage, -1: Don't modify)
+					"tank"		"-1.0"
+					
+					// Multiply survivor attack damage to Witch (0.0=No Damage, -1: Don't modify)
+					"witch"		"-1.0"
+					
+					// Multiply survivor attack damage to Common Infected (0.0=No Damage, -1: Don't modify)
+					"common"	"-1.0"
+					
+					// Multiply survivor attack damage to Special Infected (0.0=No Damage, -1: Don't modify)
+					"si"	"-1.0"
+				}
+				
+				"victim"
+				{
+					// 1=Apply to survivor bots, 0=Don't apply to survivor bots
+					"bot_allow" "1"
+					
+					// 1=Apply to real survivor players, 0=Don't apply to survivor bots
+					"real_allow" "0"
+					
+					// Multiply survivor hurt damage from Tank (0.0=No Damage, -1: Don't modify)
+					"tank"		"-1.0"
+					
+					// Multiply survivor hurt damage from Witch (0.0=No Damage, -1: Don't modify)
+					"witch"		"-1.0"
+					
+					// Multiply survivor hurt damage from Common Infected (0.0=No Damage, -1: Don't modify)
+					"common"	"-1.0"
+					
+					// Multiply survivor hurt damage from Special Infected (0.0=No Damage, -1: Don't modify)
+					"si"		"-1.0"
+					
+					// Multiply survivor hurt damage from Friendly Fire (0.0=No Damage, -1: Don't modify)
+					"ff"		"-1.0"
+					
+					// Multiply survivor hurt damage from fall (DMG_FALL) (0.0=No Damage, -1: Don't modify)
+					"fall"		"-1.0"
+					
+					// Multiply survivor hurt damage from Flame (DMG_BURN) (0.0=No Damage, -1: Don't modify)
+					"flame"		"-1.0"
+				}
+			}
+
+			...
+		}
+		```
 </details>
 
 * Apply to | 適用於
@@ -78,6 +119,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-8-7)
+		* Add data file
+		* Update cvars
+
 	* v1.0 (2024-8-1)
 		* Initial Release
 </details>
@@ -87,8 +132,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
 
 * 原理
-	* AI Bot 開槍造成的傷害變高，容易殺死特感
-	* AI Bot 受到的傷害變低，不容易死亡
+	* AI Bot 開槍造成的傷害變高，容易殺死
+		* 普通殭屍
+		* 特感
+		* Tank
+		* Witch
+	* AI Bot 受到傷害變低，不容易死亡 
+		* 普通感染者
+		* 特感
+		* Tank
+		* Witch
+		* 友傷
+		* 墬樓傷害
+		* 火焰傷害 (火焰子彈不算)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -96,41 +152,71 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d_TougherSurvivorBots_allow "1"
+		```
+</details>
 
-		// 為1時，AI Bot 開槍造成的傷害變高
-		l4d_TougherSurvivorBots_attack_bot_allow "1"
+* <details><summary>文件設定範例</summary>
 
-		// 為1時，真人倖存者 開槍造成的傷害變高
-		l4d_TougherSurvivorBots_attack_player_allow "0"
+	* ```data/l4d_TougherSurvivorBots.cfg```
+		```php
+        "l4d_TougherSurvivorBots"
+        {
+			// 簡單難度
+			"Easy"
+			{
+				"attack"
+				{
+					// 1=修改AI倖存者Bot 開槍造成的傷害, 0=不修改
+					"bot_allow" "1"
+					
+					// 1=修改真人倖存者 開槍造成的傷害, 0=不修改
+					"real_allow" "0"
+					
+					// 修改倖存者對 Tank 傷害倍率 (0.0=無傷, -1: 不修改傷害)
+					"tank"		"-1.0"
+					
+					// 修改倖存者對 Witch 傷害倍率 (0.0=無傷, -1: 不修改傷害)
+					"witch"		"-1.0"
+					
+					// 修改倖存者對 普通殭屍 傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"common"	"-1.0"
+					
+					// 修改倖存者對 特感 傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"si"	"-1.0"
+				}
+				
+				"victim"
+				{
+					// 1=修改AI倖存者Bot 受到的傷害, 0=不修改
+					"bot_allow" "1"
+					
+					// 1=修改真人倖存者 受到的傷害, 0=不修改
+					"real_allow" "0"
+					
+					// 修改倖存者受到 Tank 的傷害倍率 (0.0=無傷, -1: 不修改傷害)
+					"tank"		"-1.0"
+					
+					// 修改倖存者受到 Witch 的傷害倍率 (0.0=無傷, -1: 不修改傷害)
+					"witch"		"-1.0"
+					
+					// 修改倖存者受到 普通殭屍 的傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"common"	"-1.0"
+					
+					// 修改倖存者受到 特感 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"si"		"-1.0"
+					
+					// 修改倖存者受到 友傷 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"ff"		"-1.0"
+					
+					// 修改倖存者受到 跳樓摔傷(DMG_FALL) 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"fall"		"-1.0"
+					
+					// 修改倖存者受到 火焰(DMG_BURN) 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
+					"flame"		"-1.0"
+				}
+			}
 
-		// 在簡單難度下，倖存者的傷害加成倍率
-		l4d_TougherSurvivorBots_attack_easy_multi "1.0"
-
-		// 在一般難度下，倖存者的傷害加成倍率
-		l4d_TougherSurvivorBots_attack_normal_multi "1.25"
-
-		// 在進階難度下，倖存者的傷害加成倍率
-		l4d_TougherSurvivorBots_attack_hard_multi "1.5"
-
-		// 在專家難度下，倖存者的傷害加成倍率
-		l4d_TougherSurvivorBots_attack_impossible_multi "2.0"
-
-		// 為1時，AI Bot 受到的傷害變低
-		l4d_TougherSurvivorBots_hurt_bot_enable "1"
-
-		// 為1時，真人倖存者 受到的傷害變低
-		l4d_TougherSurvivorBots_hurt_player_enable "0"
-
-		// 在簡單難度下，倖存者受到的傷害倍率
-		l4d_TougherSurvivorBots_hurt_easy_multi "0.5"
-
-		// 在一般難度下，倖存者受到的傷害倍率
-		l4d_TougherSurvivorBots_hurt_normal_multi "0.5"
-
-		// 在進階難度下，倖存者受到的傷害倍率
-		l4d_TougherSurvivorBots_hurt_hard_multi "0.5"
-
-		// 在專家難度下，倖存者受到的傷害倍率
-		l4d_TougherSurvivorBots_hurt_impossible_multi "0.5"
+			...
+		}
 		```
 </details>

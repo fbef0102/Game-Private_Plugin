@@ -15,6 +15,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* When friendly fire damage happened,
 		* Add 'attack counter' to attacker, the more 'attack counter', the more damage inflicted to attacker
 		* Add 'victim counter' to victim, the more 'victim counter', the more damage decrease to victim
+		* For eaxmple: FF Damage=20，A player's attack counter=2，B player's victim counter=1
+			```c
+			// Player A shot at player B, First time FF
+			Player A(attacker) received 20*2 = 40 dmg, attack counter+1=3
+			Player B(victim) received 20/1 = 20 dmg，victim counter+1=2
+
+			// Second time FF
+			Player A received 20*3 = 60 dmg, attack counter+1=4
+			Player B received 20/2 = 10 dmg，victim counter+1=3
+
+			// Third time FF
+			Player A received 20*4 = 80 dmg, attack counter+1=5
+			Player B received 20/3 = 6 dmg，victim counter+1=4
+
+			...
+			```
 	* Kill attacker if cause too many damage
 	* Announce total ff damage and reflict to attacker after 1 second
 	* 🟥 Do not use with other plugin which modify friendly fire damage.
@@ -37,11 +53,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How much distance range between attacker and victim are immune to ff. (0=Off)
 		l4d_rpg_friendly_fire_immune_range "30"
 
-		// Victim counter default for victim. (Must be Integer)
-		l4d_rpg_friendly_fire_protect_divide "1"
+		// Victim counter default for victim. (0=No Reduced Damage)
+		l4d_rpg_friendly_fire_protect_divide "1.0"
 
-		// Attack counter default for attacker. (Must be Integer)
-		l4d_rpg_friendly_fire_damage_multi "1"
+		// Attack counter default for attacker. (0=No Reflect Damage)
+		l4d_rpg_friendly_fire_damage_multi "1.0"
+
+		// Victim counter added to victim each time friendly fire.
+		l4d_rpg_friendly_fire_protect_add "0.25"
+
+		// Attack counter added to attacker each time friendly fire.
+		l4d_rpg_friendly_fire_damage_add "0.25"
 
 		// If 1, kill attacker if he reaches ff counter limit. (Default: 6)
 		l4d_rpg_friendly_fire_count_limit "6"
@@ -112,6 +134,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0 (2024-8-7)
+		* Add Gamedata
+		* Optimize code and improve performance
+
 	* v1.9 (2024-5-24)
 		* Fixed god frame damage
 
@@ -139,6 +165,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 友傷產生時
 		* 攻擊者身上的'attack計數器'加1，attack計數器越多，傷害遞增倍數反彈給自己
 		* 受害者身上的'victim計數器'加1，victim計數器越多，受到的傷害遞減減少
+		* 舉例，友傷=20，A玩家attack計數器=2，B玩家victim計數器=1
+			```c
+			// A玩家對B玩家開槍，第一次產生友傷時
+			A玩家(攻擊者)受到20*2 = 40傷害，attack計數器+1=3
+			B玩家(受害者)受到20/1 = 20傷害，victim計數器+1=2
+
+			// 第二次產生友傷時
+			A玩家受到20*3 = 60傷害，attack計數器+1=4
+			B玩家受到20/2 = 10傷害，victim計數器+1=3
+
+			// 第三次產生友傷時
+			A玩家受到20*4 = 80傷害，attack計數器+1=5
+			B玩家受到20/3 = 6傷害，victim計數器+1=4
+
+			...
+			```
 	* 當攻擊者造成太多次友傷，將會處死
 	* 一秒後計算總友傷，然後反彈給攻擊者
 	* 🟥切勿與其他會修改友傷的插件並用
@@ -156,11 +198,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 雙方在此範圍內不會受到傷害 (0=關閉這項功能)
 		l4d_rpg_friendly_fire_immune_range "30"
 
-		// 受害者身上的victim計數器的預設值. (必須是正整數)
-		l4d_rpg_friendly_fire_protect_divide "1"
+		// 受害者身上的victim計數器的預設值. (0=受害者不減傷)
+		l4d_rpg_friendly_fire_protect_divide "1.0"
 
-		// 攻擊者身上的attack計數器的預設值. (是正整數)
-		l4d_rpg_friendly_fire_damage_multi "1"
+		// 攻擊者身上的attack計數器的預設值. (0=攻擊者不會受到反彈傷害)
+		l4d_rpg_friendly_fire_damage_multi "1.0"
+
+		// 當友傷發生時，增加此數值到受害者的victim計數器.
+		l4d_rpg_friendly_fire_protect_add "0.25"
+
+		// 當友傷發生時，增加此數值到攻擊者的attack計數器.
+		l4d_rpg_friendly_fire_damage_add "0.25"
 
 		// 為1時，當攻擊者造成6次以上的友傷時，處死攻擊者 (預設: 6)
 		l4d_rpg_friendly_fire_count_limit "6"

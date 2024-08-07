@@ -40,8 +40,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Data Config</summary>
-  
-	* data/l4d_tankhp_dynamic_adjust.txt
+
+	* ```data/l4d_tankhp_dynamic_adjust.txt```
 		```php
 		"l4d_tankhp_dynamic_adjust"
 		{
@@ -110,8 +110,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>文件設定範例</summary>
-  
-	* data/l4d_tankhp_dynamic_adjust.txt
+
+	* ```data/l4d_tankhp_dynamic_adjust.txt```
 		```php
 		"l4d_tankhp_dynamic_adjust"
 		{

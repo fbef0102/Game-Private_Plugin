@@ -56,7 +56,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
     * Modify each melee damages dealt to Commons/S.I./Tank/Witch
-	* data/l4d2_melee_modify_damage.cfg
+	* ```data/l4d2_melee_modify_damage.cfg```
 		```php
         "l4d2_melee_modify_damage"
         {
@@ -213,7 +213,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
     * 修改每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
-	* data/l4d2_melee_modify_damage.cfg
+	* ```data/l4d2_melee_modify_damage.cfg```
 		```php
 		"l4d2_melee_modify_damage"
 		{

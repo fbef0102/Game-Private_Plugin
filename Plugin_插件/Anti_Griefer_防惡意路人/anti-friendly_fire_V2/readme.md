@@ -58,6 +58,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// How much distance range between attacker and victim are immune to ff (0=Off).
 		anti-friendly_fire_V2_immune_range "50.0"
+
+		// Immune FF damage when in saferoom 
+		// 1=Start Safe room
+		// 2=End Safe room
+		// 3=Both
+		anti-friendly_fire_V2_saferoom "3"
 		```
 </details>
 
@@ -91,6 +97,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8 (2024-8-7)
+		* Add Gamedata
+		* Optimize code and improve performance
+		* Update cvars
+		
 	* v1.7 (2023-11-18)
 		* Add Chainsaw damage
 		* Fixed fire bullet damage
@@ -152,6 +163,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 與隊友距離多近不會造成友傷 (0=關閉).
 		anti-friendly_fire_V2_immune_range "50.0"
+
+		// 在安全室內不會造成友傷
+		// 1=起始安全室
+		// 2=終點安全室
+		// 3=起始+終點安全室
+		anti-friendly_fire_V2_saferoom "3"
 		```
 </details>
 
