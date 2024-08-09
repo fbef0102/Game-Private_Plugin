@@ -45,8 +45,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How long survivor can not move after Jump Kick landing
 		l4d_jump_battale_kick_stun "1.0"
 
-		// If 1, can jump kick Tank
-		l4d_jump_battale_kick_kick_tank "1"
+		// How to jump kick Smoker, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_smoker "2"
+
+		// How to jump kick Boomer, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_boomer "2"
+
+		// How to jump kick Hunter, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_hunter "2"
+
+		// How to jump kick Spitter, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_spitter "2"
+
+		// How to jump kick Jockey, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_jockey "2"
+
+		// How to jump kick Charger, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_charger "1"
+
+		// How to jump kick Tank, 1=Stagger, 2=Fly away, 0=Off
+		l4d_jump_battale_kick_kick_tank "2"
+
+		// Jump kick Special Infected force (If Fly away)
+		l4d_jump_battale_kick_kick_si_force "800"
 
 		// If 1, can jump kick witch
 		l4d_jump_battale_kick_kick_witch "1"
@@ -58,10 +79,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_jump_battale_kick_kick_prop "1"
 
 		// Damage to special special infected
-		l4d_jump_battale_kick_damage_si "100.0"
+		l4d_jump_battale_kick_damage_si "40.0"
 
 		// Damage to common infected
-		l4d_jump_battale_kick_damage_witch "200.0"
+		l4d_jump_battale_kick_damage_witch "100.0"
 
 		// Damage to witch
 		l4d_jump_battale_kick_damage_common "50.0"
@@ -85,6 +106,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2024-8-9)
+		* Jump kick now can make SI fly away instead of stagger
+		* Update cvars
 
 	* v1.0h (2024-8-1)
 		* Remake code, convert code to latest syntax
@@ -126,8 +151,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 飛踢時不能移動的時間
 		l4d_jump_battale_kick_stun "1.0"
 
-		// 為1時，可以飛踢擊退Tank
-		l4d_jump_battale_kick_kick_tank "1"
+		// 如何踢飛Smoker 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_smoker "2"
+
+		// 如何踢飛Boomer 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_boomer "2"
+
+		// 如何踢飛Hunter 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_hunter "2"
+
+		// 如何踢飛Spitter 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_spitter "2"
+
+		// 如何踢飛Jockey 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_jockey "2"
+
+		// 如何踢飛Charger 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_charger "1"
+
+		// 如何踢飛Tank 1=震退, 2=擊飛很遠 0=關閉這項功能
+		l4d_jump_battale_kick_kick_tank "2"
+
+		// 擊飛特感的力道 (如果是擊飛效果)
+		l4d_jump_battale_kick_kick_si_force "800"
 
 		// 為1時，可以飛踢擊退Witch
 		l4d_jump_battale_kick_kick_witch "1"
@@ -139,10 +185,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_jump_battale_kick_kick_prop "1"
 
 		// 飛踢特感所造成的傷害
-		l4d_jump_battale_kick_damage_si "100.0"
+		l4d_jump_battale_kick_damage_si "40.0"
 
 		// 飛踢Witch所造成的傷害
-		l4d_jump_battale_kick_damage_witch "200.0"
+		l4d_jump_battale_kick_damage_witch "100.0"
 
 		// 飛踢普通感染者所造成的傷害
 		l4d_jump_battale_kick_damage_common "50.0"

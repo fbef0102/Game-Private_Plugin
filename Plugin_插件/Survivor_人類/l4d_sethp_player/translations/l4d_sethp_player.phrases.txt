@@ -155,4 +155,19 @@
 		"zho"		"[{olive}TS{default}] 倖存者/特感隊伍人數不足 {green}{1}{default}位, 無法發起投票."
 		"chi"		"[{olive}TS{default}] 生还者/特感队伍人数不足 {green}{1}{default}位, 无法发起投票."
 	}
+	
+	"Admin Set Health"
+	{
+		"#format"	"{1:N},{2:N},{3:d},{4:d},{5:d}"
+		"en"		"[{olive}TS{default}] Adm {lightgreen}{1}{default} set {olive}{2}{default}'s health: {green}{3}{default}, temp: {green}{4}{default}, revive: {green}{5}{default}"
+		"zho"		"[{olive}TS{default}] 管理員 {lightgreen}{1}{default} 已設置 {olive}{2}{default} 的實血: {green}{3}{default}, 虛血: {green}{4}{default}, 倒地次數: {green}{5}{default}"
+		"chi"		"[{olive}TS{default}] 管理员 {lightgreen}{1}{default} 已设置 {olive}{2}{default} 的实血: {green}{3}{default}, 虚血: {green}{4}{default} , 倒地次数: {green}{5}{default}"
+	}
+	"Admin Set Health (Incap)"
+	{
+		"#format"	"{1:N},{2:N},{3:d},{4:d}"
+		"en"		"[{olive}TS{default}] Adm {lightgreen}{1}{default} set {olive}{2}{default} incap health: {green}{3}{default}, revive: {green}{4}{default}"
+		"zho"		"[{olive}TS{default}] 管理員 {lightgreen}{1}{default} 已設置 {olive}{2}{default} 倒地, 血量: {green}{3}{default}, 倒地次數: {green}{4}{default}"
+		"chi"		"[{olive}TS{default}] 管理员 {lightgreen}{1}{default} 已设置 {olive}{2}{default} 倒地, 血量: {green}{3}{default}, 倒地次数: {green}{4}{default}"
+	}
 }
