@@ -126,7 +126,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 注意事項
 	* 倖存者離開安全區域後才會改變物品的拿取次數
 
-* <details><summary>ConVar | 指令中文介紹 (點我展開)</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_more_supply.cfg
 		```php
