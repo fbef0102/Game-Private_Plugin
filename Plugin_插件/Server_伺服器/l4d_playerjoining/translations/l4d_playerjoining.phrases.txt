@@ -21,19 +21,27 @@
     "Change_Team"
     {
         "#format"		"{1:t}"
-        "en"        "{green}%N{default} has joined the {1}."
-        "zho"       "{green}%N{default} 已加入 {1}."
-        "chi"       "{green}%N{default} 已加入 {1}."
+        "en"        "{olive}[Join] {green}%N{default} has joined the {1}."
+        "zho"       "{olive}[Join] {green}%N{default} 已加入 {1}."
+        "chi"       "{olive}[Join] {green}%N{default} 已加入 {1}."
     }
-    "Connect_Server"
+    "Connect_Server (Dedicated Server)"
     {
         // {1} Name
         // {2} Country
         // {2} City
         "#format"		"{1:s},{2:s},{3:s}"
-        "en"        "{green}{1}{default} has connected to the server {green}({2}, {3})"
-        "zho"       "{green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
-        "chi"       "{green}{1}{default} 正在连线伺服器 {green}({2}, {3})"
+        "en"        "{olive}[Join] {green}{1}{default} has connected to the server {green}({2}, {3})"
+        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
+        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器 {green}({2}, {3})"
+    }
+    "Connect_Server"
+    {
+        // {1} Name
+        "#format"		"{1:s}"
+        "en"        "{olive}[Join] {green}{1}{default} has connected to the server"
+        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器"
+        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器"
     }
     "LAN Country Desc"
     {
@@ -62,9 +70,9 @@
     "Left_Server"
     {
         "#format"		"{1:s},{2:s}"
-        "en"        "{green}{1}{default} has left the server {green}({2})"
-        "zho"       "{green}{1}{default} 離開了伺服器 {green}({2})"
-        "chi"       "{green}{1}{default} 离开了伺服器 {green}({2})"
+        "en"        "{olive}[Join] {green}{1}{default} has left the server {green}({2})"
+        "zho"       "{olive}[Join] {green}{1}{default} 離開了伺服器 {green}({2})"
+        "chi"       "{olive}[Join] {green}{1}{default} 离开了伺服器 {green}({2})"
     }
 }
 
