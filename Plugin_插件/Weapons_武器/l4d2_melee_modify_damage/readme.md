@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * Modify Chainsaw damages dealt to Commons/S.I./Tank/Witch
 	* Modify each melee damages dealt to Commons/S.I./Tank/Witch
-        * All official melee weapon
+        * Support All official melee weapon
         * Support custom melee weapon
         * A common zombie still instantly dies on a headshot by melee (No matter what damage).
     * To modify each gun weapons' damage, please check "Related Plugin" below
@@ -27,6 +27,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
+    3. [charging_takedamage_patch](https://github.com/fbef0102/L4D2-Plugins/tree/master/charging_takedamage_patch)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -159,10 +160,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
-		> 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
+    	* 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
+	1. [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+    	* 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2024-8-11)
+        * Optimize Code
+        * Update Gamedata
 
     * v1.3 (2024-8-6)
         * Optimize Code
@@ -195,7 +202,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 一刀砍死特感 (無論血量多高)
         * 兩刀砍死Charger (無論血量多高)
         * 20刀砍死Tank (無論血量多高)
-        * 4刀砍死Witch (無論血量多高)
+        * 四刀砍死Witch (無論血量多高)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

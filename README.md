@@ -223,6 +223,8 @@
 
   * [l4d_hunter_destructive](/Plugin_插件/Hunter_Hunter/l4d_hunter_destructive): Allows for unique Hunter abilities to the destructive beast.
     * 增強Hunter，賦予多種超能力成為毀滅性的野獸
+  * [l4d2_hunter_steal_charger_victim](/Plugin_插件/Hunter_Hunter/l4d2_hunter_steal_charger_victim): The hunter can pounce on the charger's victim.
+    * Hunter可以搶走Charger正在控的倖存者
 </details>
 
 * <details><summary><b>Jockey | Jockey</b></summary>
