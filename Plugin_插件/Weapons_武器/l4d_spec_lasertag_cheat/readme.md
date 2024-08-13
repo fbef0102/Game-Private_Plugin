@@ -100,6 +100,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2024-8-13)
+        * Fixed (Exception reported: No TempEntity call is in progress)
+
     * v1.0 (2024-7-13)
         * Initial Release
 </details>

@@ -13,8 +13,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type !csm to open menu -> Choose l4d1 character or l4d2 character
-	* Save player character. Player will have same character if rejoin server next time.
+	* Type ```!csm``` to open menu -> Choose l4d1 character or l4d2 character
+	* Save player character with cookie. Player will have same character if rejoin server next time.
 </details>
 
 * <details><summary>Notice</summary>
@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [l4d2_vocalizebasedmodel](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_vocalizebasedmodel)
 
 * <details><summary>ConVar</summary>
 
@@ -204,7 +205,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_h_csm_2](image/chi/l4d_h_csm_2.jpg)
 
 * 原理
-	* 此為CSM插件重製版，輸入!csm打開介面選擇一代或二代角色，
+	* 輸入```!csm```打開介面選擇一代或二代角色，
 	* 有自動保存機制，玩家下次加入倖存者之後自動變成上一次選擇的角色
 	* 適用於三方圖
 

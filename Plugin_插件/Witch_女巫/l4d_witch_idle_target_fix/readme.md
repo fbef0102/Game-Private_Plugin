@@ -8,12 +8,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/8U3tFu-nHfs)
 
 * Image | 圖示
-	| Before (裝此插件之前)  			| After (裝此插件之後) |
-	| -------------|:-----------------:|
-	| ![l4d_witch_idle_target_fix_1](image/l4d_witch_idle_target_fix_1.gif)|![l4d_witch_idle_target_fix_2](image/l4d_witch_idle_target_fix_2.gif)|
+	* Before (裝此插件之前)
+	<br/>![l4d_witch_idle_target_fix_1](image/l4d_witch_idle_target_fix_1.gif)
+	* After (裝此插件之後)
+	<br/>![l4d_witch_idle_target_fix_2](image/l4d_witch_idle_target_fix_2.gif)
 
 * Require | 必要安裝
-<br>None
+	1. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -37,9 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): Fix issues with infected targeting when replacing survivors.
-    	* 修復玩家閒置或取代bot時，特感、Witch丟失目標
-	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
+	1. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
     	* 四個修復Witch的插件可以裝
 </details>
 
