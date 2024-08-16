@@ -109,9 +109,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
 		* 沒有權限的玩家不能隨意發起官方投票
+	2. [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
+		* 新型投票系統 (使用官方內建的投票)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2024-8-16)
+		* Update API
 
 	* v1.2 (2024-7-29)
 		* Also apply to l4d1 

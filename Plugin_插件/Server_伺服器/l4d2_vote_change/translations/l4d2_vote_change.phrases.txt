@@ -173,6 +173,12 @@
 		"zho"		"请选择难度 (当前难度: {1})"
 		"chi"		"請選擇難度 (當前難度: {1})"
 	}
+	"Current"
+	{
+		"en"		"Current"
+		"zho"		"目前"
+		"chi"		"目前"
+	}
 	"Initiates Vote"
 	{
 		"en"		"[{olive}TS{default}] {blue}%N{default} initiates the vote: {green}%s"
@@ -221,7 +227,7 @@
 		"zho"		"封禁玩家: %s, 理由: %s ?"
 		"chi"		"封禁玩家: %s, 理由: %s ?"
 	}
-	"Change diffciulty"
+	"Change diffciulty vote title"
 	{
 		"#format"	"{1:T}"
 		"en"		"Change diffciulty => {1}"
@@ -1248,7 +1254,7 @@
 	}
 	"L4D360UI_Chapter_Hospital_VS"
 	{
-		"en"		"Hospital( VS)"
+		"en"		"Hospital(VS)"
 		"zho"		"醫院 (VS)"
 		"chi"		"医院 (VS)"
 	}
@@ -1318,7 +1324,7 @@
 	"L4D360UI_Chapter_Smalltown_VS"
 	{
 		"en"		"The Church (VS)"
-		"zho"		"教堂 (VS) (VS)"
+		"zho"		"教堂 (VS)"
 		"chi"		"教堂 (VS)"
 	}
 	"L4D360UI_Chapter_MainStreet_VS"

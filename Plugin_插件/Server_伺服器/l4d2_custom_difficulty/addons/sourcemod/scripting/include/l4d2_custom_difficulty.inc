@@ -12,20 +12,28 @@
 forward void OnCustomDifficultyLoaded(char sBaseDifficulty, char sCustomDifficultyName);
 
 /**
- * Get current custom difficulty name
+ * Get custom difficulty name by index
  *
+ * @param index			Custom difficulty index, starting from 1
  * @param buffer		Where to store 
  * @param maxlength		Max length of buffer
- * @return          	True if succeed, false if there is no current custom difficulty
+ * @return          	True if succeed, false if index not exist
  */
-native bool GetCustomDifficultyName(char[] buffer, int maxlength);
+native bool GetCustomDifficultyNameByIndex(int index, char[] buffer, int maxlength);
 
 /**
  * Get current custom difficulty index
  *
  * @return          	Current custom difficulty index, starting from 1, 0 if there is no current custom difficulty
  */
-native int GetCustomDifficultyIndex();
+native int GetCurCustomDifficultyIndex();
+
+/**
+ * Get numbers of custom difficulty
+ *
+ * @return          	How many custom difficulty are there in data cfg, 0 if there is no any custom difficulty
+ */
+native int GetCustomDifficultyTotal();
 
 /**
  * @brief Force to load custom difficulty by index
@@ -51,6 +59,9 @@ public SharedPlugin __pl_l4d2_custom_difficulty =
 #if !defined REQUIRE_PLUGIN
 public void __pl_l4d2_custom_difficulty_SetNTVOptional()
 {
-	MarkNativeAsOptional("GetCustomDifficultyName");
+	MarkNativeAsOptional("GetCustomDifficultyNameByIndex");
+	MarkNativeAsOptional("GetCurCustomDifficultyIndex");
+	MarkNativeAsOptional("GetCustomDifficultyTotal");
+	MarkNativeAsOptional("LoadCustomDifficultyByIndex");
 }
 #endif

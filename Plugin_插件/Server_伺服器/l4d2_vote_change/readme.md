@@ -88,6 +88,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
+* <details><summary>API | 串接</summary>
+
+	* ```scripting\include\l4d2_vote_change.inc```
+		```php
+		Registers a library name: l4d2_vote_change
+		```
+</details>
+
 * <details><summary>Data Config</summary>
 
 	* ```data/l4d2_vote_change.cfg```
@@ -151,11 +159,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related | 相關插件</summary>
 
-    1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
-        * 沒有權限的玩家不能隨意發起官方投票
+	1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
+		* 沒有權限的玩家不能隨意發起官方投票
+	2. [l4d2_custom_difficulty](/Plugin_插件/Server_伺服器/l4d2_custom_difficulty): Set your own custom difficulty and damage + vote to change custom difficulty
+		* 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5h (2024-8-16)
+		* Update data file
+		* Update translation
+		* Add API and include
+		* Update menu again
 
 	* v1.4h (2024-8-4)
 		* Update data file
@@ -224,7 +240,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 封禁玩家     	(不可封禁管理員)
 
 	* "更改难度"
-		* 更改難度		(簡單、一般、進階、專家)
+		* 簡單
+		* 一般
+		* 進階
+		* 專家
 
 	* "自定義投票"
 		* 倒地即死 No Incap
