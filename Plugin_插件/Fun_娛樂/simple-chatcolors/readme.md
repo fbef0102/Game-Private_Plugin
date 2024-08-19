@@ -15,7 +15,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 	2. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	3. Optional - [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -85,6 +84,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D1
 	L4D2
 	```
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [l4d_ranking_system](/Plugin_插件/Fun_娛樂/l4d_ranking_system)
+		* 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

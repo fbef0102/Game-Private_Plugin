@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_vote_change_1](image/l4d2_vote_change_1.jpg)
 	* Menu - "Main Vote"
 	<br/>![l4d2_vote_change_2](image/l4d2_vote_change_2.jpg)
-	* Menu - "Change Diffciulty"
+	* Menu - "Change Difficulty"
 	<br/>![l4d2_vote_change_3](image/l4d2_vote_change_3.jpg)
 	* Menu - "Custom Vote", you can add your own custom vote
 	<br/>![l4d2_vote_change_4](image/l4d2_vote_change_4.jpg)

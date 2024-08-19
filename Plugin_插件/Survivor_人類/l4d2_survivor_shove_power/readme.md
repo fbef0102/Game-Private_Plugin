@@ -16,6 +16,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d2_survivor_shove_power_5](image/l4d2_survivor_shove_power_5.gif)
 </details>
 
+* <details><summary>How does it work?</summary>
+
+	* Type ```!sshove``` to enable shove power ability
+        * Shove back teammate (no damage)
+        * Shove Tank
+        * Shove Witch
+        * Shove Charger, send flying
+        * Shove Special Infected, send flying
+        * Shove common infected, instantly kill
+        * Shove car, send flying
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
@@ -35,8 +47,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
         l4d2_survivor_shove_power_modes_tog "0"
 
-        // Player with these flag have access to the shove power (Empty=Everyone, -1=No one)
-        l4d2_survivor_shove_power_flags "z"
+        // Player with these can type !sshove to enable the shove power (Empty=Everyone, -1=No one)
+        l4d2_survivor_shove_power_flags ""
 
         // 1=Shove, 2=Shove+Use, 3=Shove+Shift. Which keys to use shove power.
         l4d2_survivor_shove_power_keys "1"
@@ -98,7 +110,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 倖存者的拳頭可以推開Tank、Witch、Charger、車子，還能拍飛特感、小殭屍、隊友
 
 * 原理
-    * 倖存者右鍵推有特殊效果
+    * 倖存者輸入```!sshove```，右鍵推有特殊效果
         * 推隊友時，隊友被擊飛或震退 (不會受傷)
         * 推Tank時，Tank被震退
         * 推Witch時，Witch被震退
@@ -106,7 +118,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * 推特感時，特感被拍飛並死亡
         * 推小殭屍時，小殭屍死亡
         * 推車子時，車子被擊飛
-    * 輸入```!sshove```關掉右鍵推的功能
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -124,7 +135,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 請將數字相加起來
         l4d2_survivor_shove_power_modes_tog "0"
 
-        // 擁有這些權限的玩家，右鍵推才有特殊效果 (留白 = 任何人都能, -1: 無人)
+        // 擁有這些權限的玩家，可輸入```!sshove``` 啟用右鍵推特殊效果 (留白 = 任何人都能, -1: 無人)
         l4d2_survivor_shove_power_flags ""
 
         // 什麼按鍵才能使用特殊效果 1=右鍵, 2=右鍵+E, 3=右鍵+shift.

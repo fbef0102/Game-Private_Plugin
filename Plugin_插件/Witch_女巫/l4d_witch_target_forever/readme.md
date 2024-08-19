@@ -41,10 +41,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-    * ```scripting\include\l4d_witch_target_forever.inc```
-        ```php
-        Registers a library name: l4d_witch_target_forever
-        ```
+	* ```scripting\include\l4d_witch_target_forever.inc```
+		```php
+		Registers a library name: l4d_witch_target_forever
+		```
 </details>
 
 * Apply to | 適用於
@@ -56,7 +56,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witch auto follows survivors
-    	> Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
+		* Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
+	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
+		* 四個修復Witch的插件可以裝
 </details>
 
 * <details><summary>Translation Support | 支援翻譯</summary>

@@ -24,27 +24,27 @@
 {
 	"Main Vote"
 	{
-		"en"		"Main Vote"
+		"en"		"Main Votes"
 		"zho"		"主要投票"
 		"chi"		"主要投票"
 	}
-	"Change Diffciulty"
+	"Change Difficulty"
 	{
-		"en"		"Change Diffciulty"
+		"en"		"Change Difficulty"
 		"zho"		"更改難度"
 		"chi"		"更改难度"
 	}
 	"Custom Vote"
 	{
-		"en"		"Custom Vote"
+		"en"		"Custom Votes"
 		"zho"		"自定義投票"
 		"chi"		"自定义投票"
 	}
-	"Vote Main Menu"
+	"Vote Menu"
 	{
-		"en"		"Vote Main Menu"
-		"zho"		"投票主列表"
-		"chi"		"投票主列表"
+		"en"		"Vote Menu"
+		"zho"		"投票列表"
+		"chi"		"投票列表"
 	}
 	"changemap"
 	{
@@ -72,7 +72,7 @@
 	}
 	"forcespec"
 	{
-		"en"		"Move to Spec"
+		"en"		"Move to Spectator"
 		"zho"		"強制玩家旁觀"
 		"chi"		"移动玩家到旁观席"
 	}
@@ -166,10 +166,10 @@
 		"zho"		"封禁理由"
 		"chi"		"封禁理由"
 	}
-	"Choose Diffciulty"
+	"Choose Difficulty"
 	{
 		"#format"	"{1:T}"
-		"en"		"Please Choose Diffciulty (Current: {1})"
+		"en"		"Please Choose Difficulty (Current: {1})"
 		"zho"		"请选择难度 (当前难度: {1})"
 		"chi"		"請選擇難度 (當前難度: {1})"
 	}
@@ -181,7 +181,7 @@
 	}
 	"Initiates Vote"
 	{
-		"en"		"[{olive}TS{default}] {blue}%N{default} initiates the vote: {green}%s"
+		"en"		"[{olive}TS{default}] {blue}%N{default} initiated the vote: {green}%s"
 		"zho"		"[{olive}TS{default}] {blue}%N{default} 發起投票: {green}%s"
 		"chi"		"[{olive}TS{default}] {blue}%N{default} 发起投票: {green}%s"
 	}
@@ -227,16 +227,23 @@
 		"zho"		"封禁玩家: %s, 理由: %s ?"
 		"chi"		"封禁玩家: %s, 理由: %s ?"
 	}
-	"Change diffciulty vote title"
+	"Change Custom Difficulty vote title"
+	{
+		"#format"	"{1:s}"
+		"en"		"Change difficulty => {1}"
+		"zho"		"更改難度 => {1}"
+		"chi"		"更改难度 => {1}"
+	}
+	"Change difficulty vote title"
 	{
 		"#format"	"{1:T}"
-		"en"		"Change diffciulty => {1}"
+		"en"		"Change difficulty => {1}"
 		"zho"		"更改難度 => {1}"
 		"chi"		"更改难度 => {1}"
 	}
 	"This command is disable."
 	{
-		"en"		"This command is disable."
+		"en"		"This command is disabled."
 		"zho"		"目前投票插件關閉中"
 		"chi"		"目前投票插件关闭中"
 	}
@@ -300,15 +307,15 @@
 		"zho"		"沒有其他投票可選"
 		"chi"		"没有其他投票可选"
 	}
-	"Same as current diffciulty"
+	"Same as current difficulty"
 	{
-		"en"		"Same as current diffciulty, {green}please choose again"
+		"en"		"Same as current difficulty, {green}please choose again"
 		"zho"		"與當前的遊戲難度一樣，{green}請重新選擇"
 		"chi"		"与当前的游戏难度一样，{green}请重新选择"
 	}
 	"Vote is disable."
 	{
-		"en"		"[{olive}TS{default}] Vote is disable."
+		"en"		"[{olive}TS{default}] Vote is disabled."
 		"zho"		"[{olive}TS{default}] 目前投票插件關閉中"
 		"chi"		"[{olive}TS{default}] 目前投票插件关闭中"
 	}
@@ -368,19 +375,19 @@
 	}
 	"tries to kick you"
 	{
-		"en"		"[{olive}TS{default}] {olive}%N{default} tries to kick you, but you are immune"
+		"en"		"[{olive}TS{default}] {olive}%N{default} tried to kick you, but you are immune"
 		"zho"		"[{olive}TS{default}] {olive}%N{default} 嘗試發起投票踢你，但你免疫"
 		"chi"		"[{olive}TS{default}] {olive}%N{default} 尝试发起投票踢你，但你免疫"
 	}
 	"has been kicked due to vote"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been kicked due to vote!"
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} has been vote kicked!"
 		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服務器!"
 		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 已被投票踢出服务器!"
 	}
 	"You have been kicked due to vote"
 	{
-		"en"		"You have been kicked due to vote"
+		"en"		"You have been kicked by vote"
 		"zho"		"你被投票踢出伺服器"
 		"chi"		"你被投票踢出服务器"
 	}
@@ -410,19 +417,19 @@
 	}
 	"is immune to be banned"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%N{default} player is immune to be banned!"
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} player is immune to being banned!"
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被封禁!"
 	}
 	"is immune to be banned (S)"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%s{default} player is immune to be banned!"
+		"en"		"[{olive}TS{default}] {lightgreen}%s{default} player is immune to being banned!"
 		"zho"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家免疫被封禁!"
 		"chi"		"[{olive}TS{default}] {lightgreen}%s{default} 玩家免疫被封禁!"
 	}
 	"tries to ban you"
 	{
-		"en"		"[{olive}TS{default}] {olive}%N{default} tries to ban you, but you are immune"
+		"en"		"[{olive}TS{default}] {olive}%N{default} tried to ban you, but you are immune"
 		"zho"		"[{olive}TS{default}] {olive}%N{default} 嘗試發起投票封禁你，但你免疫"
 		"chi"		"[{olive}TS{default}] {olive}%N{default} 尝试发起投票封禁你，但你免疫"
 	}
