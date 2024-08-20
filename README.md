@@ -417,6 +417,8 @@
     * 汽油桶關卡或清道夫模式可以隨機放置自己想要的汽油桶位置與數量
   * [l4d2_shorten_bilejar_duration](/Plugin_插件/Items_物品/l4d2_shorten_bilejar_duration): Shorten bile jar effect duration as soon as it shatters
     * 縮短膽汁瓶破碎後的效果持續時間
+  * [l4d_item_passer](/Plugin_插件/Items_物品/l4d_item_passer): Player can pass slot 3~5 items(molo, pipe, vomitjar, defi, kit, explosive pack, incendiary pack, pill, adren) with +Reload button
+    * 用R鍵直接傳送物資給隊友 (火瓶、土製炸彈、膽汁瓶、電擊器、治療包、高爆彈包、火焰彈包、藥丸、腎上腺素)
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>

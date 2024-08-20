@@ -1,0 +1,89 @@
+﻿"Phrases"
+{
+	"Give (C)"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"You gave {green}{2}{default} to {olive}{1}"
+		"zho"		"你將 {green}{2}{default} 給予 {olive}{1}"
+		"chi"		"你将 {green}{2}{default} 给予 {olive}{1}"
+	}
+	
+	"Give"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"You gave {2} to {1}"
+		"zho"		"您將 {2} 給予 {1}"
+		"chi"		"您将 {2} 给予 {1}"
+	}
+	
+	"Given (C)"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{olive}{1}{default} gave {green}{2}{default} to You"
+		"zho"		"{olive}{1}{default} 將 {green}{2}{default} 給予您"
+		"chi"		"{olive}{1}{default} 将 {green}{2}{default} 给予您"
+	}
+	
+	"Given"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} gave {2} to You"
+		"zho"		"{1} 將 {2} 給予您"
+		"chi"		"{1} 将 {2} 给予您"
+	}
+	
+	"Defibrillator"
+	{
+		"en"	"Defibrillator"
+		"zho"	"電擊器"
+		"chi"	"电击器"
+	}
+	"First Aid Kit"
+	{
+		"en"	"First Aid Kit"
+		"zho"	"治療包"
+		"chi"	"治疗包"
+	}
+	"Pain Pill"
+	{
+		"en"	"Pain Pill"
+		"zho"	"止痛藥丸"
+		"chi"	"止痛药丸"
+	}
+	"Adrenaline"
+	{
+		"en"	"Adrenaline"
+		"zho"	"腎上腺素"
+		"chi"	"肾上腺素"
+	}
+	"Pipe Bomb"
+	{
+		"en"	"Pipe Bomb"
+		"zho"	"土製炸彈"
+		"chi"	"土制炸弹"
+	}
+	"Molotov"
+	{
+		"en"	"Molotov"
+		"zho"	"火瓶"
+		"chi"	"火瓶"
+	}
+	"Vomitjar"
+	{
+		"en"	"Vomitjar"
+		"zho"	"膽汁瓶"
+		"chi"	"胆汁瓶"
+	}
+	"Incendiary Pack"
+	{
+		"en"	"Incendiary Pack"
+		"zho"	"火焰包"
+		"chi"	"火焰包"
+	}
+	"Explosive Pack"
+	{
+		"en"	"Explosive Pack"
+		"zho"	"高爆彈"
+		"chi"	"高爆弹"
+	}
+}

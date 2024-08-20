@@ -142,10 +142,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
+	```php
+	Registers a library name: l4d_zcs
+	```
 	* ```scripting\include\l4d_zcs.inc```
-		```php
-		Registers a library name: l4d_zcs
-		```
 </details>
 
 * Apply to | 適用於

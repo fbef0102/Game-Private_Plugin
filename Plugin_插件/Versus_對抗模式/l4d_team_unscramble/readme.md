@@ -24,10 +24,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-    * ```scripting\include\l4d_team_unscramble.inc```
-        ```php
-        Registers a library name: l4d_team_unscramble
-        ```
+	```php
+	Registers a library name: l4d_team_unscramble
+	```
+	* ```scripting\include\l4d_team_unscramble.inc```
 </details>
 
 * <details><summary>ConVar | 指令</summary>

@@ -89,10 +89,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-    * ```scripting\include\l4d2_versus_scoremod.inc```
-        ```php
-        Registers a library name: l4d2_versus_scoremod
-        ```
+	```php
+	Registers a library name: l4d2_versus_scoremod
+	```
+	* ```scripting\include\l4d2_versus_scoremod.inc```
 </details>
 
 * <details><summary>Data Config</summary>

@@ -31,7 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-	4. Optional - [readyup](/Plugin_插件/Server_伺服器/readyup)
 	
 * <details><summary>ConVar | 指令</summary>
 
@@ -67,6 +66,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D1
 	L4D2
 	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
+		* 所有玩家準備才能開始遊戲的插件
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

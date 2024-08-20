@@ -23,7 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [simple_chatprocessor](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/simple_chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	5. Optional - [readyup](/Plugin_插件/Server_伺服器/readyup)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -87,10 +86,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
+	```php
+	Registers a library name: l4d_ranking_system
+	```
 	* ```scripting\include\l4d_ranking_system.inc```
-		```php
-		Registers a library name: l4d_ranking_system
-		```
 </details>
 
 * <details><summary>Data Config</summary>
