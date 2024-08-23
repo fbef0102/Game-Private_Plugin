@@ -24,61 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 1=Enable notify, 0=Disable notify
 		l4d2_auto_add_zombie_hint "1"
 
-		// Enable dynamic adjust if survivor count (real player + AI bot) is greater than this value.
-		l4d2_auto_add_zombie_player_count "4"
-
-		// How many common infecteds we can have at once on the map. (override official cvar '_common_limit')
-		l4d2_auto_add_zombie_common_limit_default "30"
-
-		// Numbers of Event horde/Alarm horde common infected. (override official cvar '_mega_mob_size')
-		l4d2_auto_add_zombie_mega_mob_size_default "50"
-
-		// Minimum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_min_size')
-		l4d2_auto_add_zombie_mob_spawn_min_size_default "10"
-
-		// Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
-		l4d2_auto_add_zombie_mob_spawn_max_size_default "30"
-
-		// (Dynamic Adjust) Add this value to '_common_limit_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_common_limit_add "2"
-
-		// (Dynamic Adjust) Add this value to '_mega_mob_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mega_mob_size_add "8"
-
-		// (Dynamic Adjust) Add this value to '_mob_spawn_min_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mob_spawn_min_size_add "4"
-
-		// (Dynamic Adjust) Add this value to '_mob_spawn_max_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
-
-		// After final rescue starts, 0=Disable Dynamic Adjust and restore all official cvars to default value. (Prevent too many common infected and horde keep coming, cause final stage stuck)
-		// 1=Keep Dynamic Adjust
-		l4d2_auto_add_zombie_final_type "1"
-		
-		// [Final Rescue] How many common infecteds we can have at once on the map. (override official cvar '_common_limit')
-		l4d2_auto_add_zombie_common_limit_final "30"
-
-		// [Final Rescue] Numbers of Event horde/Alarm horde common infected. (override official cvar '_mega_mob_size')
-		l4d2_auto_add_zombie_mega_mob_size_final "50"
-
-		// [Final Rescue] Minimum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_min_size')
-		l4d2_auto_add_zombie_mob_spawn_min_size_final "10"
-
-		// [Final Rescue] Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
-		l4d2_auto_add_zombie_mob_spawn_max_size_final "30"
-
-		// [Final Rescue] (Dynamic Adjust) Add this value to '_common_limit_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_common_limit_add_final "2"
-
-		// [Final Rescue] (Dynamic Adjust) Add this value to '_mega_mob_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mega_mob_size_add_final "8"
-
-		// [Final Rescue] (Dynamic Adjust) Add this value to '_mob_spawn_min_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mob_spawn_min_size_add_final "4"
-
-		// [Final Rescue] (Dynamic Adjust) Add this value to '_mob_spawn_max_size_default' each player joins survivor team. (0=off)
-		l4d2_auto_add_zombie_mob_spawn_max_size_add_final "4"
-
 		// If 1, Override common infected/mob/horde limit in director script.
 		// This can prevent custom map from modifying common infected settings
 		l4d2_auto_add_zombie_override_script_value "0"
@@ -90,6 +35,61 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Check Zombie count information**
 		```php
 		sm_zminfo
+		```
+</details>
+
+* <details><summary>Data Config</summary>
+
+	* ```data/l4d2_auto_add_zombie.txt```
+		```php
+		// default settings
+		"default"
+		{
+			// How many common infecteds we can have at once on the map. (override official cvar 'z_common_limit')
+			// -1: Don't modify, Restore Game default: 30
+			"z_common_limit" 			"30" 
+			
+			// Amount of zombies to spawn in Map Event horde & Alarm horde & Director Panic Event  (override official cvar 'z_mega_mob_size')
+			// -1: Don't modify, Restore Game default: 50
+			"z_mega_mob_size"			"50" 
+			
+			// Minimum amount of zombies to spawn in natural hordes & z_spawn mob & boomer hordes & bile bomb  (override official cvar 'z_mob_spawn_min_size')
+			// -1: Don't modify, Restore Game default: 10
+			"z_mob_spawn_min_size"		"10" 
+			
+			// Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
+			// -1: Don't modify, Restore Game default: 30
+			"z_mob_spawn_max_size"		"30" 
+			
+			// After final rescue starts, Dynamic Adjust zombies related cvars
+			// (Prevent too many common infected and horde keep coming, cause final stage stuck)
+			"final"
+			{
+				"z_common_limit" 		"-1" 
+				"z_mega_mob_size"		"-1" 
+				"z_mob_spawn_min_size"	"-1" 
+				"z_mob_spawn_max_size"	"-1" 
+			}
+		}
+		
+		// If there is only 1 survivor (real player + AI bot)
+		"1"
+		{
+			"z_common_limit" 		"30" 
+			"z_mega_mob_size"		"50" 
+			"z_mob_spawn_min_size"	"10" 
+			"z_mob_spawn_max_size"	"30" 
+			
+			"final"
+			{
+				"z_common_limit" 		"-1" 
+				"z_mega_mob_size"		"-1" 
+				"z_mob_spawn_min_size"	"-1" 
+				"z_mob_spawn_max_size"	"-1" 
+			}
+		}
+		...
+		
 		```
 </details>
 
@@ -131,6 +131,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2024-8-23)
+		* Update cvars
+		* Add Data file
 
 	* v1.3 (2024-7-11)
 		* Add dynamic adjust after final rescue starts
@@ -237,6 +241,62 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **查看目前的殭屍數量狀態**
 		```php
 		sm_zminfo
+		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+
+	* ```data/l4d2_auto_add_zombie.txt```
+		```php
+		// 預設配置
+		"default"
+		{
+			// 地圖上殭屍同時存在的總數量 (覆蓋官方指令 z_common_limit)
+			// -1: 不修改, 恢復遊戲預設: 30
+			"z_common_limit" 			"30" 
+			
+			// 警報車/地圖機關/導演屍潮 生成的殭屍數量. (覆蓋官方指令 z_mega_mob_size)
+			// -1: 不修改, 恢復遊戲預設: 50
+			"z_mega_mob_size"			"50" 
+			
+			// Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 z_mob_spawn_min_size)
+			// -1: 不修改, 恢復遊戲預設: 10
+			"z_mob_spawn_min_size"		"10" 
+			
+			// Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
+			// -1: 不修改, 恢復遊戲預設: 30
+			"z_mob_spawn_max_size"		"30" 
+			
+			// 當救援開始後，重新設置相關的感染者數量指令
+			// (避免殭屍太多，導致救援卡關，無法生成Tank)
+			"final"
+			{
+				"z_common_limit" 		"-1" 
+				"z_mega_mob_size"		"-1" 
+				"z_mob_spawn_min_size"	"-1" 
+				"z_mob_spawn_max_size"	"-1" 
+			}
+		}
+		
+		// 當只有一位倖存者時 (真人+AI Bot)
+		"1"
+		{
+			"z_common_limit" 		"30" 
+			"z_mega_mob_size"		"50" 
+			"z_mob_spawn_min_size"	"10" 
+			"z_mob_spawn_max_size"	"30" 
+			
+			"final"
+			{
+				"z_common_limit" 		"-1" 
+				"z_mega_mob_size"		"-1" 
+				"z_mob_spawn_min_size"	"-1" 
+				"z_mob_spawn_max_size"	"-1" 
+			}
+		}
+
+		...
+		
 		```
 </details>
 

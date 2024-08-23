@@ -1,5 +1,5 @@
 # Navigation
-> 2024/7/11 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/8/23 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -75,6 +75,9 @@
 * [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 
 * [l4d2_transition_info_fix](https://forums.alliedmods.net/showpost.php?p=2810276&postcount=12): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+
+* [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) Stops clients from getting kicked via the Kill input
+    * Fixed ```Kicked by Console : CBaseEntity::InputKill()```
 
 - - - -
 ## Optional

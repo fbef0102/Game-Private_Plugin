@@ -131,26 +131,26 @@
 
 * <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
 
-![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+	![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
-* 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
-* 解決方式: 
-	* 法一：去跟微軟抱怨
-	* 法二：windows降級到windows 7
-	* 法三：租一台linux系統
-	* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
+	* 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
+	* 解決方式: 
+		* 法一：去跟微軟抱怨
+		* 法二：windows降級到windows 7
+		* 法三：租一台linux系統
+		* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
 </details>
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
 
-![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+	![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
 
-* 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
-<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
-* 解決方式: 
-	* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
-	<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
-	* 法二：法一沒有用那就去升級你的顯卡
+	* 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
+	<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+	* 解決方式: 
+		* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
+		<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
+		* 法二：法一沒有用那就去升級你的顯卡
 </details>
 
 - - - -

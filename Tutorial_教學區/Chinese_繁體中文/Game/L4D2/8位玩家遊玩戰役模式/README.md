@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/7/11 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/8/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -76,9 +76,12 @@
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
     - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
 
- * [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
+* [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
 
 * [l4d2_transition_info_fix](https://forums.alliedmods.net/showpost.php?p=2810276&postcount=12): 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+
+* [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) 防止玩家因為一二代地圖NPC導致被踢
+    * 被踢出遊戲的訊息```Kicked by Console : CBaseEntity::InputKill()```
   
 - - - -
 ## 額外檔案

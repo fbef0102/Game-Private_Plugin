@@ -17,7 +17,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -82,6 +83,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-8-23)
+		* Add hp hinet when tank spawned
 
 	* v1.0 (2024-7-15)
 		* Initial Release

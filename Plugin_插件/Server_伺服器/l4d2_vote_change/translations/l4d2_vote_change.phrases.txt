@@ -351,25 +351,25 @@
 	}
 	"forces to pass (C)"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forces to pass the vote"
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forced to pass the vote"
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制通過目前投票項目"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制通过"
 	}
 	"forces to pass"
 	{
-		"en"		"%N Admin forces to pass the vote"
+		"en"		"%N Admin forced to pass the vote"
 		"zho"		"%N 管理員強制通過目前投票項目"
 		"chi"		"%N 管理员一票强制通过"
 	}
 	"forces to cancel (C)"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forces to cancel the vote"
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forced to cancel the vote"
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制否决目前投票項目"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制否决"
 	}
 	"is immune to be kicked"
 	{
-		"en"		"[{olive}TS{default}] {lightgreen}%N{default} player is immune to be kicked!"
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} is immune to being kicked!"
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被踢!"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 玩家免疫被踢!"
 	}
@@ -447,7 +447,7 @@
 	}
 	"You have been voted to be forcespectated"
 	{
-		"en"		"[{olive}TS{default}] You have been voted to be forcespectated! Wait {green}%d{default}s to rejoin team again.."
+		"en"		"[{olive}TS{default}] You have been forced to spectator mode by a vote! Wait {green}%d{default}s to rejoin team again.."
 		"zho"		"[{olive}TS{default}] 你已被投票強制旁觀! 請等待 {green}%d{default} 秒之後才能加入隊伍"
 		"chi"		"[{olive}TS{default}] 你已被投票强制旁观! 请等待 {green}%d{default} 秒之后才能加入队伍"
 	}

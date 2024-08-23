@@ -21,6 +21,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
+	4. l4d_change_witch_victim
 
 * <details><summary>ConVar | 指令</summary>
 
