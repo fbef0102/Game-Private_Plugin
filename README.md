@@ -42,7 +42,7 @@
     * 不重複說明書已寫過的步驟或內容，會有插件說明書，不懂可詢問
     * 先詢問價錢與問題再交易，保障雙方權益
     * 想增加、改動插件功能、特殊需求請先說明，新增功能額外付費
-    * 以交易日期計算只有一年保固期，一年內插件有問題或者出現bug或者有優化可以免費更新修復到好
+    * 以交易日期計算只有半年保固期，半年內插件有問題或者出現bug或者有優化可以免費更新修復到好
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
       * 🟥 擅自修改源碼，將失去保固期
@@ -97,7 +97,7 @@
     * Ask price before deal  
     * I won't repeat any questions or steps that have been already mentioned in manual
     * Extra new request or new function, extra payment
-    * 1-Year warranty since deal, fix any bug for free
+    * Half-Year warranty since deal, fix any bug for free
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
       * 🟥 You are free to modify source code for your convenience, but this will void the warranty. 
