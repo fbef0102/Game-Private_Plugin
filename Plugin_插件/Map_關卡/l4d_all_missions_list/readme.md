@@ -21,8 +21,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Admin types !admin -> Server Commands -> "List of Maps" -> choose map -> server change map immediately
-	* Player types !maplist -> call a vote to change map.
+	* Admin types ```!admin``` -> Server Commands -> "List of Maps" -> choose map -> server change map immediately
+	* Player types ```!maplist``` -> call a vote to change map.
 	* Automatically add all official maps and custom maps to menu list, no need to add map manually.
 </details>
 
@@ -46,11 +46,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_all_missions_list.cfg
 		```php
-        // Delay to start another a vote after vote ends.
-        l4d_all_missions_list_vote_delay "60"
-
         // If 1, player can use comamnd !maplist and call a vote to change map.
         l4d_all_missions_list_vote_enable "1"
+
+        // Delay to start another a vote after vote ends.
+        l4d_all_missions_list_vote_delay "60"
 
         // Numbers of real survivor and infected player required to start a vote to change map.
         l4d_all_missions_list_vote_required "2"
@@ -64,7 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_maplist
 		```
 
-	* **Update mission list manually (Adm required: ADMFLAG_BAN)**
+	* **Update mission list manually (Adm required: ADMFLAG_ROOT)**
 		```php
 		sm_mission_list_update
 		```
@@ -110,13 +110,39 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * 原理
-    * 管理員輸入!admin -> 伺服器指令 -> "地圖列表"，即可出現所有地圖與關卡表
-      * 管理員選擇關卡之後，立刻換圖
-    * 玩家輸入!maplist -> 即可出現所有地圖與關卡表
+    * 管理員輸入```!admin``` -> 伺服器指令 -> "地圖列表"，即可出現所有地圖與關卡列表
+      * 管理員選擇關卡之後，立刻換圖 (無須投票)
+    * 玩家輸入```!maplist``` -> 即可出現所有地圖與關卡表
       * 選擇關卡之後，發起投票換圖
-
-* 功能
 	* 自動新增三方圖的地圖與關卡，無須手動新增
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_all_missions_list.cfg
+		```php
+        // 為1時，玩家可輸入!maplist
+        l4d_all_missions_list_vote_enable "1"
+
+        // 投票間隔冷卻時間
+        l4d_all_missions_list_vote_delay "60"
+
+        // 至少需要的真人倖存者+真人特感數量在場，才可以發起投票
+        l4d_all_missions_list_vote_required "2"
+		```
+</details>
+
+* <details><summary>Command | 命令</summary>
+    
+	* **所有地圖與關卡選單**
+		```php
+		sm_maplist
+		```
+
+	* **手動更新地圖與關卡列表 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_mission_list_update
+		```
+</details>
 
 * 注意事項
     1. <details><summary>安裝此插件之後</summary>

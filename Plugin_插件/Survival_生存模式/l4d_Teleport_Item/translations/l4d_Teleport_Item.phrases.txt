@@ -1,0 +1,129 @@
+"Phrases"
+{
+	"Move Items"
+	{
+		"en" 	"Move Items"
+		"zho" 	"搬運物品"
+		"chi" 	"搬运物品"
+	}
+
+	"No Items"
+	{
+		"#format" "{1:s}"
+		"en" 	"There are no {1} items"
+		"zho" 	"尚無 {1} 物品"
+		"chi" 	"尚无 {1} 物品"
+	}
+
+	"defibrillator"
+	{	
+		"en"	"Move Defibrillators Here"
+		"zho" 	"搬運所有電擊器"
+		"chi" 	"搬运所有电击器"
+	}
+
+	"medkit"
+	{	
+		"en"	"Move Medical Kits Here"
+		"zho" 	"搬運所有治療包"
+		"chi" 	"搬运所有医疗包"
+	}
+
+	"pills"
+	{	
+		"en"	"Move Pills Here"
+		"zho" 	"搬運所有藥丸"
+		"chi" 	"搬运所有药"
+	}
+
+	"adrenaline"
+	{	
+		"en"	"Move Adrenaline shots Here"
+		"zho" 	"搬運所有腎上腺素"
+		"chi" 	"搬运所有肾上腺素"
+	}
+
+	"molotov"
+	{	
+		"en"	"Move Molotovs Here"
+		"zho" 	"搬運所有火瓶"
+		"chi" 	"搬运所有火瓶"
+	}
+
+	"pipebomb"
+	{	
+		"en"	"Move Pipe Bombs Here"
+		"zho" 	"搬運所有土製炸彈"
+		"chi" 	"搬运所有土制炸弹"
+	}
+
+	"bilejar"
+	{	
+		"en"	"Move Adrenaline shots Here"
+		"zho" 	"搬運所有腎上腺素"
+		"chi" 	"搬运所有肾上腺素"
+	}
+
+	"bilejar"
+	{	
+		"en"	"Move Bile Jars Here"
+		"zho" 	"搬運所有膽汁瓶"
+		"chi" 	"搬运所有胆汁瓶"
+	}
+
+	"gastank"
+	{	
+		"en"	"Move Gas Here"
+		"zho" 	"搬運所有汽油桶"
+		"chi" 	"搬运所有汽油桶"
+	}
+
+	"firework"
+	{	
+		"en"	"Move Fireworks Here"
+		"zho" 	"搬運所有煙火盒"
+		"chi" 	"搬运所有烟花盒"
+	}
+
+	"propanetank"
+	{	
+		"en"	"Move Propane Tanks Here"
+		"zho" 	"搬運所有瓦斯桶"
+		"chi" 	"搬运所有煤气桶"
+	}
+
+	"oxygentank"
+	{	
+		"en"	"Move Oxygen Tanks Here"
+		"zho" 	"搬運所有氧氣罐"
+		"chi" 	"搬运所有氧气罐"
+	}
+
+	"incendiaryammo"
+	{	
+		"en"	"Move Incendiary Upgrade Packs Here"
+		"zho" 	"搬運所有火焰彈包"
+		"chi" 	"搬运所有火焰弹包"
+	}
+
+	"explosiveammo"
+	{	
+		"en"	"Move Explosive Upgrade Packs Here"
+		"zho" 	"搬運所有高爆彈包"
+		"chi" 	"搬运所有高爆弹包"
+	}
+
+	"gnome"
+	{	
+		"en"	"Move Gnomes Here"
+		"zho" 	"搬運所有精靈小矮人"
+		"chi" 	"搬运所有侏儒"
+	}
+
+	"colabottles"
+	{	
+		"en"	"Move Cola Bottles Here"
+		"zho" 	"搬運所有可樂瓶"
+		"chi" 	"搬运所有可乐瓶"
+	}
+}
