@@ -419,6 +419,8 @@
     * 縮短膽汁瓶破碎後的效果持續時間
   * [l4d_item_passer](/Plugin_插件/Items_物品/l4d_item_passer): Player can pass slot 3~5 items(molo, pipe, vomitjar, defi, kit, explosive pack, incendiary pack, pill, adren) with +Reload button
     * 用R鍵直接傳送物資給隊友 (火瓶、土製炸彈、膽汁瓶、電擊器、治療包、高爆彈包、火焰彈包、藥丸、腎上腺素)
+  * [l4d_Teleport_Item](/Plugin_插件/Items_物品/l4d_Teleport_Item): Open Menu to teleport items on the map.
+    * 打開選單傳送地圖上所有物品到身邊
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -501,8 +503,6 @@
 
   * [survival_hp](/Plugin_插件/Survival_生存模式/survival_hp): Restore Health when survival begins.
     * 生存模式計時開始時候，恢復所有倖存者血量
-  * [l4d_Teleport_Item](/Plugin_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
-    * 打開選單傳送地圖上所有物品到身邊
   * [l4d2_survival_spectator_reset](/Plugin_插件/Survival_生存模式/l4d2_survival_spectator_reset): If player is spectator or player changes team after survival begins, he can not get the survival time record.
     * 生存模式計時開始之後，任何玩家切換到旁觀者、閒置、不在倖存者隊伍內，將無法獲得生存時間紀錄
   * [l4d_survival_setup](/Plugin_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts

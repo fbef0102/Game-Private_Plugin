@@ -1,0 +1,264 @@
+"Phrases"
+{
+	"Move Items"
+	{
+		"en" 	"Move Items"
+		"zho" 	"搬運物品"
+		"chi" 	"搬运物品"
+	}
+
+	"Move All"
+	{
+		"en" 	"Move All Here"
+		"zho" 	"搬運所有物品"
+		"chi" 	"搬运所有物品"
+	}
+
+	"Entity item"
+	{
+		"#format" "{1:d},{2:d}"
+		"en" 	"Num: {1}, Entity: {2}"
+		"zho" 	"編號: {1}, 實體: {2}"
+		"chi" 	"编号: {1}, 实体: {2}"
+	}
+
+	"No Items (C)"
+	{
+		"#format" "{1:T}"
+		"en" 	"There are no {green}{1}{default}"
+		"zho" 	"尚無 {green}{1}{default}"
+		"chi" 	"尚无 {green}{1}{default}"
+	}
+
+	"No Items"
+	{
+		"#format" "{1:T}"
+		"en" 	"There are no {1}"
+		"zho" 	"尚無 {1}"
+		"chi" 	"尚无 {1}"
+	}
+
+	"Not Exist (C)"
+	{
+		"en" 	"Failed! Entity not exists anymore"
+		"zho" 	"失敗! 物品已不存在!"
+		"chi" 	"失败! 物品已不存在!"
+	}
+
+	"InUse (C)"
+	{
+		"en" 	"Failed! Entity is in used"
+		"zho" 	"失敗! 物品正在使用中"
+		"chi" 	"失败! 物品正在使用中"
+	}
+
+	"defibrillators"
+	{	
+		"en"	"Move Defibrillators Here"
+		"zho" 	"搬運所有電擊器"
+		"chi" 	"搬运所有电击器"
+	}
+
+	"medkits"
+	{	
+		"en"	"Move Medical Kits Here"
+		"zho" 	"搬運所有治療包"
+		"chi" 	"搬运所有医疗包"
+	}
+
+	"pills"
+	{	
+		"en"	"Move Pills Here"
+		"zho" 	"搬運所有藥丸"
+		"chi" 	"搬运所有药"
+	}
+
+	"adrenalines"
+	{	
+		"en"	"Move Adrenaline shots Here"
+		"zho" 	"搬運所有腎上腺素"
+		"chi" 	"搬运所有肾上腺素"
+	}
+
+	"molotovs"
+	{	
+		"en"	"Move Molotovs Here"
+		"zho" 	"搬運所有火瓶"
+		"chi" 	"搬运所有火瓶"
+	}
+
+	"pipebombs"
+	{	
+		"en"	"Move Pipe Bombs Here"
+		"zho" 	"搬運所有土製炸彈"
+		"chi" 	"搬运所有土制炸弹"
+	}
+
+	"bilejars"
+	{	
+		"en"	"Move Bile Jars Here"
+		"zho" 	"搬運所有膽汁瓶"
+		"chi" 	"搬运所有胆汁瓶"
+	}
+
+	"gascans"
+	{	
+		"en"	"Move Gas cans Here"
+		"zho" 	"搬運所有汽油桶"
+		"chi" 	"搬运所有汽油桶"
+	}
+
+	"fireworks"
+	{	
+		"en"	"Move Fireworks Here"
+		"zho" 	"搬運所有煙火盒"
+		"chi" 	"搬运所有烟花盒"
+	}
+
+	"propanetanks"
+	{	
+		"en"	"Move Propane Tanks Here"
+		"zho" 	"搬運所有瓦斯桶"
+		"chi" 	"搬运所有煤气桶"
+	}
+
+	"oxygentanks"
+	{	
+		"en"	"Move Oxygen Tanks Here"
+		"zho" 	"搬運所有氧氣罐"
+		"chi" 	"搬运所有氧气罐"
+	}
+
+	"incendiaryammos"
+	{	
+		"en"	"Move Incendiary Upgrade Packs Here"
+		"zho" 	"搬運所有火焰彈包"
+		"chi" 	"搬运所有火焰弹包"
+	}
+
+	"explosiveammos"
+	{	
+		"en"	"Move Explosive Upgrade Packs Here"
+		"zho" 	"搬運所有高爆彈包"
+		"chi" 	"搬运所有高爆弹包"
+	}
+
+	"gnomes"
+	{	
+		"en"	"Move Gnomes Here"
+		"zho" 	"搬運所有精靈小矮人"
+		"chi" 	"搬运所有侏儒"
+	}
+
+	"colabottles"
+	{	
+		"en"	"Move Cola Bottles Here"
+		"zho" 	"搬運所有可樂瓶"
+		"chi" 	"搬运所有可乐瓶"
+	}
+
+	"Defibrillator"
+	{	
+		"en"	"Defibrillators"
+		"zho" 	"電擊器"
+		"chi" 	"电击器"
+	}
+
+	"Medical Kit"
+	{	
+		"en"	"Medical Kits"
+		"zho" 	"治療包"
+		"chi" 	"医疗包"
+	}
+
+	"Pill"
+	{	
+		"en"	"Pills"
+		"zho" 	"藥丸"
+		"chi" 	"药"
+	}
+
+	"Adrenaline Shot"
+	{	
+		"en"	"Adrenaline Shots"
+		"zho" 	"腎上腺素"
+		"chi" 	"肾上腺素"
+	}
+
+	"Molotov"
+	{	
+		"en"	"Molotovs"
+		"zho" 	"火瓶"
+		"chi" 	"火瓶"
+	}
+
+	"Pipe Bomb"
+	{	
+		"en"	"Pipe Bombs"
+		"zho" 	"土製炸彈"
+		"chi" 	"土制炸弹"
+	}
+
+	"Bile Jar"
+	{	
+		"en"	"Bile Jars"
+		"zho" 	"膽汁瓶"
+		"chi" 	"胆汁瓶"
+	}
+
+	"Gas Can"
+	{	
+		"en"	"Gas Cans"
+		"zho" 	"汽油桶"
+		"chi" 	"汽油桶"
+	}
+
+	"Firework"
+	{	
+		"en"	"Fireworks"
+		"zho" 	"煙火盒"
+		"chi" 	"烟花盒"
+	}
+
+	"Propane Tank"
+	{	
+		"en"	"Propane Tanks"
+		"zho" 	"瓦斯桶"
+		"chi" 	"煤气桶"
+	}
+
+	"Oxy Tank"
+	{	
+		"en"	"Oxygen Tanks"
+		"zho" 	"氧氣罐"
+		"chi" 	"氧气罐"
+	}
+
+	"Incendiary Upgrade Pack"
+	{	
+		"en"	"Incendiary Upgrade Packs"
+		"zho" 	"火焰彈包"
+		"chi" 	"火焰弹包"
+	}
+
+	"Explosive Upgrade Pack"
+	{	
+		"en"	"Explosive Upgrade Packs"
+		"zho" 	"高爆彈包"
+		"chi" 	"高爆弹包"
+	}
+
+	"Gnome"
+	{	
+		"en"	"Gnomes"
+		"zho" 	"精靈小矮人"
+		"chi" 	"侏儒"
+	}
+
+	"Cola"
+	{	
+		"en"	"Cola Bottles"
+		"zho" 	"可樂瓶"
+		"chi" 	"可乐瓶"
+	}
+}

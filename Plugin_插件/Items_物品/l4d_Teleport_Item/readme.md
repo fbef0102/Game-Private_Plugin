@@ -8,9 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/hlEiyPxE_Eo)
 
 * Image
-	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.gif)
-	<br/>![l4d_Teleport_Item_2](image/l4d_Teleport_Item_2.gif)
+	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_1.jpg)
+	<br/>![l4d_Teleport_Item_1](image/l4d_Teleport_Item_2.jpg)
 	<br/>![l4d_Teleport_Item_3](image/l4d_Teleport_Item_3.gif)
+	<br/>![l4d_Teleport_Item_4](image/l4d_Teleport_Item_4.gif)
+	<br/>![l4d_Teleport_Item_5](image/l4d_Teleport_Item_5.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -31,10 +33,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Gnomes
 		* Cola Bottles
 	* Can use in any game mode
+	* Save your time to move gas cans in survival mode
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -85,6 +88,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-8-27)
+		* Update Translation
+		* Update Menu
+
 	* v1.1 (2024-8-26)
 		* Translation Support
 
@@ -98,6 +105,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 圖示
 	<br/>![zho/l4d_Teleport_Item_1](image/zho/l4d_Teleport_Item_1.jpg)
+	<br/>![zho/l4d_Teleport_Item_1](image/zho/l4d_Teleport_Item_2.jpg)
 
 * 原理
 	* 輸入```!tpmenu```，可以將地圖上所有的汽油桶或物資搬運到你所在的位置上

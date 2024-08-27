@@ -45,8 +45,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Enable anti saferoom door fade after open drop. [0-Disable,1-Enable]
         antisaferoomdooropen_fade "1"
 
-        // Allow player to leave safe area after this amount of time. (0=off) (useful if map doesn't have Start saferoom door)
+        // Allow player to leave safe area after this amount of time. (0=off)
+        // Only work if map doesn't have start saferoom door
         antisaferoomdooropen_left_start_area_time "41"
+
+        // If 1, Players won't take any damage before _left_start_area_time cvar time up
+        // Only work if map doesn't have start saferoom door
+        antisaferoomdooropen_left_start_area_god "1"
 
         // If 1, Spawn player to safe area if player dies before door open
         antisaferoomdooropen_open_spawn_player "0"
@@ -92,6 +97,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.6 (2024-8-27)
+        * Update cvars
 
     * v2.5 (2023-10-31)
         * Add translation file
@@ -144,8 +152,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         antisaferoomdooropen_fade "1"
 
         // 41秒後，倖存者才能離開安全區域 (0=關閉這項功能)
-        // 如果關卡沒有安全室，則一旦離開安全區域會被傳送回去
+        // 關卡沒有安全室才會生效，則一旦離開安全區域會被傳送回去
         antisaferoomdooropen_left_start_area_time "41"
+
+        // 為1時，倖存者們不會受到任何傷害直到 _left_start_area_time 設置的時間結束
+        // 關卡沒有安全室才會生效
+        antisaferoomdooropen_left_start_area_god "1"
 
         // 為1時，如果玩家在安全室內死亡則會復活 (時間到之前)
         antisaferoomdooropen_open_spawn_player "0"

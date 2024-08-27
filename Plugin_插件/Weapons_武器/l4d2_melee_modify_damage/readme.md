@@ -9,15 +9,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	| Before (裝此插件之前)  			| After (裝此插件之後) |
-	| -------------|:-----------------:|
-	|![l4d2_melee_modify_damage_1](image/l4d2_melee_modify_damage_1.gif)|![l4d2_melee_modify_damage_3](image/l4d2_melee_modify_damage_3.gif)|
-	|![l4d2_melee_modify_damage_2](image/l4d2_melee_modify_damage_2.gif)|![l4d2_melee_modify_damage_4](image/l4d2_melee_modify_damage_4.gif)|
+    | Before (裝此插件之前)  			| After (裝此插件之後) |
+    | -------------|:-----------------:|
+    |![l4d2_melee_modify_damage_1](image/l4d2_melee_modify_damage_1.gif)|![l4d2_melee_modify_damage_3](image/l4d2_melee_modify_damage_3.gif)|
+    |![l4d2_melee_modify_damage_2](image/l4d2_melee_modify_damage_2.gif)|![l4d2_melee_modify_damage_4](image/l4d2_melee_modify_damage_4.gif)|
 
 * <details><summary>How does it work?</summary>
 
-    * Modify Chainsaw damages dealt to Commons/S.I./Tank/Witch
-	* Modify each melee damages dealt to Commons/S.I./Tank/Witch
+    * (Before) Melee weapons in l4d2 are too powerful
+        * One-Melee kill Boomer/Jockey/Smoker/Hunter/Spitter (No matter health)
+        * Two-Melee kill Charger (No matter health)
+        * 20-Melee kill Tank (No matter health)
+        * 4-Melee kill Witch (No matter health)
+    * (After) Modify Chainsaw damages dealt to Commons/S.I./Tank/Witch
+    * (After) Modify each melee damages dealt to Commons/S.I./Tank/Witch
         * Support All official melee weapon
         * Support custom melee weapon
         * A common zombie still instantly dies on a headshot by melee (No matter what damage).
@@ -49,16 +54,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d2_melee_modify_damage
-	```
+    ```php
+    Registers a library name: l4d2_melee_modify_damage
+    ```
 </details>
 
 * <details><summary>Data Config</summary>
 
     * Modify each melee damages dealt to Commons/S.I./Tank/Witch
-	* ```data/l4d2_melee_modify_damage.cfg```
-		```php
+    * ```data/l4d2_melee_modify_damage.cfg```
+        ```php
         "l4d2_melee_modify_damage"
         {
             "chainsaw"	//chainsaw
@@ -140,16 +145,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
             // Add other melee weapon if you want
             ...
         }
-		```
+        ```
 </details>
 
 * <details><summary>Known Conflicts</summary>
-	
-	If you don't use any of these plugins at all, no need to worry about conflicts.
-	1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
-		* Disable nerf damage for melee weapon and Chainsaw
-	2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
-		* Disable damage modify for melee weapon and Chainsaw
+    
+    If you don't use any of these plugins at all, no need to worry about conflicts.
+    1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
+        * Disable nerf damage for melee weapon and Chainsaw
+    2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
+        * Disable damage modify for melee weapon and Chainsaw
 </details>
 
 * Apply to | 適用於
@@ -159,10 +164,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
-    	* 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
-	1. [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-    	* 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+    1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
+        * 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
+    1. [l4d2_melee_durability](/Plugin_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+        * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -175,14 +180,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Optimize Code
 
     * v1.2 (2024-7-23)
-	    * Melee won't one-swing-kill hunter when poucing
+        * Melee won't one-swing-kill hunter when poucing
         * Melee won't one-swing-kill jockey when leaping
 
     * v1.1 (2024-1-27)
-	    * Modify melee damage multiplier by HeadShot or Leg
+        * Modify melee damage multiplier by HeadShot or Leg
 
     * v1.0 (2024-1-25)
-	    * Initial Release
+        * Initial Release
 </details>
 
 - - - -
@@ -190,8 +195,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 修改電鋸與每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
 
 * 原理
-	* 修改電鋸對 普通殭屍/Tank/Witch/特感 的傷害值
-	* 修改每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
+    * 修改電鋸對 普通殭屍/Tank/Witch/特感 的傷害值
+    * 修改每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
         * 支援所有官方近戰武器
         * 支援三方圖的近戰武器
         * 使用近戰爆頭 普通殭屍，依然會瞬間死亡 (無論傷害高低)
@@ -220,11 +225,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
     * 修改每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
-	* ```data/l4d2_melee_modify_damage.cfg```
-		```php
-		"l4d2_melee_modify_damage"
-		{
-			"chainsaw"	//電鋸
+    * ```data/l4d2_melee_modify_damage.cfg```
+        ```php
+        "l4d2_melee_modify_damage"
+        {
+            "chainsaw"	//電鋸
             {
                 "Enable"		"1"     // 1=啟用修改
                 "Tank"			"100"   // 對Tank造成的傷害值
@@ -302,15 +307,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
             // 自行增加任何三方圖的近戰
             ..
-		}
-		```
+        }
+        ```
 </details>
 
 * <details><summary>會衝突的插件</summary>
-	
-	如果沒安裝以下插件就不需要擔心衝突
-	1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
-		* 關閉此插件中的 "近戰與電鋸" 削弱傷害
-	2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
-		* 關閉此插件中的 "近戰與電鋸" 對普通殭屍的傷害數值調整
+    
+    如果沒安裝以下插件就不需要擔心衝突
+    1. [Nerf Damage To Commons](https://forums.alliedmods.net/showthread.php?t=330085)
+        * 關閉此插件中的 "近戰與電鋸" 削弱傷害
+    2. [Common Infected Health - Damage Received](https://forums.alliedmods.net/showthread.php?t=332832)
+        * 關閉此插件中的 "近戰與電鋸" 對普通殭屍的傷害數值調整
 </details>
