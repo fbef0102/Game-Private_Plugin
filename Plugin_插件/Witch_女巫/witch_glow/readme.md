@@ -50,9 +50,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_tank_glow](/Plugin_插件/Tank_坦克/l4d2_tank_glow): Sets glows on tanks everyone can see
+		* 在Tank身上打上光圈，所有人都可以看見Tank在哪裡
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.0 (2023-12-05)
+	* v1.0 (2023-12-05)
 		* Initial Release
 </details>
 
@@ -83,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，如果Witch被驚嚇則關閉光圈
 		witch_glow_kill_startle "1"
 
-		// 哪些隊伍可以看見witch的光圈
+		// 哪些隊伍可以看見Witch的光圈
 		// 0 = 無, 1 = 倖存者, 2 = 特感隊伍, 4 = 旁觀者.
 		// 請將數字相加起來
 		// 舉例: "3"=倖存者+特感隊伍

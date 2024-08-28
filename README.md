@@ -291,6 +291,10 @@
     * 隨著玩家人數越多，Tank血量越厚
   * [l4d_tank_punch_range](/Plugin_插件/Tank_坦克/l4d_tank_punch_range): Adjust Tank punch range and hit multi survivors with one punch
     * Tank可以大範圍一拳打倒周圍的倖存者
+  * [l4d2_tank_glow](/Plugin_插件/Tank_坦克/l4d2_tank_glow): Sets glows on tanks everyone can see
+    * 在Tank身上打上光圈，所有人都可以看見Tank在哪裡
+  * [l4d_tank_alive_time_limit](/Plugin_插件/Tank_坦克/l4d_tank_alive_time_limit): Set the time limit how long can tank live
+    * Tank真人玩家如果不攻擊倖存者，時間到將會被自動處死 
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

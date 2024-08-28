@@ -1,0 +1,62 @@
+"Phrases"
+{
+	"Warning_Control (C)"
+	{
+		"#format" "{1:d}"
+		"en" 	"Please attack or will lose control in {green}{1}{default} seconds"
+		"zho" 	"請積極攻擊倖存者，還剩 {green}{1}{default} 秒失去控制"
+		"chi" 	"请积极攻击幸存者，还剩 {green}{1}{default} 秒失去控制"
+	}
+
+	"Warning_Control"
+	{
+		"#format" "{1:d}"
+		"en" 	"Please attack or will lose control in {1} seconds"
+		"zho" 	"請積極攻擊倖存者，還剩 {1} 秒失去控制"
+		"chi" 	"请积极攻击幸存者，还剩 {1} 秒失去控制"
+	}
+
+	"Warning_Kill (C)"
+	{
+		"#format" "{1:d}"
+		"en" 	"Please attack or will be dead in {green}{1}{default} seconds"
+		"zho" 	"請積極攻擊倖存者，還剩 {green}{1}{default} 秒處死"
+		"chi" 	"请积极攻击幸存者，还剩 {green}{1}{default} 秒处死"
+	}
+
+	"Warning_Kill"
+	{
+		"#format" "{1:d}"
+		"en" 	"Please attack or will be dead in {1} seconds"
+		"zho" 	"請積極攻擊倖存者，還剩 {1} 秒處死"
+		"chi" 	"请积极攻击幸存者，还剩 {1} 秒处死"
+	}
+
+	"Execute_Control (C)"
+	{
+		"en" 	"You don't attack survivors, {green}Lost Control!!"
+		"zho" 	"不積極攻擊倖存者，{green}強制失去控制權!!"
+		"chi" 	"不积极攻击幸存者，{green}强制失去控制权!!"
+	}
+
+	"Execute_Control"
+	{
+		"en" 	"You don't attack survivors, Lost Control!!"
+		"zho" 	"不積極攻擊倖存者，強制失去控制權!!"
+		"chi" 	"不积极攻击幸存者，强制失去控制权!!"
+	}
+
+	"Execute_Kill (C)"
+	{
+		"en" 	"You don't attack survivors, {green}Force Suicide!!"
+		"zho" 	"不積極攻擊倖存者，{green}已處死"
+		"chi" 	"不积极攻击幸存者，{green}已处死"
+	}
+
+	"Execute_Kill"
+	{
+		"en" 	"You don't attack survivors, Force Suicide!!"
+		"zho" 	"不積極攻擊倖存者，已處死"
+		"chi" 	"不积极攻击幸存者，已处死"
+	}
+}

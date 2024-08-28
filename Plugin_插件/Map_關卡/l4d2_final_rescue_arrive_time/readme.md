@@ -43,7 +43,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_final_rescue_arrive_time_start "0"
 
 		// Display count down hint text when remaining time is below this value
-		l4d2_final_rescue_arrive_time_announcer_left "90.0"
+		l4d2_final_rescue_arrive_time_announce_left "90.0"
 
 		// If 1, time pause when tank is on the field
 		l4d2_final_rescue_arrive_time_tank_pause "0"
@@ -151,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_final_rescue_arrive_time_start "0"
 
 		// 剩餘90秒時，開始顯示倒數
-		l4d2_final_rescue_arrive_time_announcer_left "90.0"
+		l4d2_final_rescue_arrive_time_announce_left "90.0"
 
 		// 為1時，Tank在場上時，倒數時間暫停
 		l4d2_final_rescue_arrive_time_tank_pause "0"
