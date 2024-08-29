@@ -27,7 +27,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Type ```!newvotes``` to open vote menu -> select -> call vote to change
-	* Admin can type ```!p``` to force pass the current vote, or ```!f``` to force cancel the current vote
+	* Admin can type ```!vp``` to force pass the current vote, or ```!!vc``` to force cancel the current vote
 	* Automatic parsing of custom maps vpk files - no need to add map names manually，file is in ```configs\l4d2_vote_change.txt``` (don't touch)
 	* Customize vote, add more custom vote in ```data\l4d2_vote_change.cfg```
 </details>
@@ -219,7 +219,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 輸入```!newvotes``` -> 選擇項目 -> 發起投票 -> F1同意 或 F2不同意
-	* 任何人發起投票後，管理員可輸入```!p```一票同意；```!f```一票否決。
+	* 任何人發起投票後，管理員可輸入```!vp```一票同意；```!vc```一票否決。
 	* 自動添加三方圖，文件位於```configs\l4d2_vote_change.txt``` (不要修改)
 	* 打開文件 ```data\l4d2_vote_change.cfg``` 自行增加更多投票
 

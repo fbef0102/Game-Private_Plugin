@@ -334,6 +334,38 @@
 		"zho"	" (已離開)"
 		"chi"	" (已离开)"
 	}
+	
+	"Hurt_Attacker_Message (C)"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
+		"en"	"You hurt {red}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m"
+		"zho"	"你傷了 {red}{1}{default}, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m"
+		"chi"	"你伤了 {red}{1}{default}, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m"
+	}
+	
+	"Hurt_Attacker_Message"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
+		"en"	"You hurt {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m"
+		"zho"	"你傷了 {1}, 傷害: {2}, 武器: {3}, 距離: {4}m"
+		"chi"	"你伤了 {1}, 伤害: {2}, 武器: {3}, 距离: {4}m"
+	}
+	
+	"Hurt_Victim_Message (C)"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
+		"en"	"Get hurt by {blue}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m"
+		"zho"	"被 {blue}{1}{default} 所傷, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m"
+		"chi"	"被 {blue}{1}{default} 所伤, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m"
+	}
+	
+	"Hurt_Victim_Message"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
+		"en"	"Get hurt by {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m"
+		"zho"	"被 {1} 所傷, 傷害: {2}, 武器: {3}, 距離: {4}m"
+		"chi"	"被 {1} 所伤, 伤害: {2}, 武器: {3}, 距离: {4}m"
+	}
 
 	"Pistol"
 	{
