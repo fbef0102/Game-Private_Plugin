@@ -175,61 +175,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 1=啟用提示, 0=關閉提示
 		l4d2_auto_add_zombie_hint "1"
 
-		// 倖存者(真人+Bot)大於這個人數的時候才啟用動態調整模式 => 隨著玩家人數越多，殭屍/屍潮 數量越來越多.
-		l4d2_auto_add_zombie_player_count "4"
-
-		// 殭屍同時存在的總數量 (覆蓋官方指令 'z_common_limit')
-		l4d2_auto_add_zombie_common_limit_default "30"
-
-		// 警報車/地圖機關 殭屍數量. (覆蓋官方指令 'z_mega_mob_size')
-		l4d2_auto_add_zombie_mega_mob_size_default "50"
-
-		// Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 'z_mob_spawn_min_size')
-		l4d2_auto_add_zombie_mob_spawn_min_size_default "10"
-
-		// Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
-		l4d2_auto_add_zombie_mob_spawn_max_size_default "30"
-
-		// (動態調整模式) 每新增一位倖存者，殭屍同時存在的總數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_common_limit_add "2"
-
-		// (動態調整模式) 每新增一位倖存者，警報車/地圖機關 殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mega_mob_size_add "8"
-
-		// (動態調整模式) 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mob_spawn_min_size_add "4"
-
-		// (動態調整模式) 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mob_spawn_max_size_add "4"
-
-		// 當救援開始後，0=所有的官方指令數值改回預設並關閉動態調整 (避免殭屍太多，導致救援卡關，無法生成Tank)
-		// 1=持續動態調整模式
-		l4d2_auto_add_zombie_final_restore_default "1"
-		
-		// [救援開始後] 殭屍同時存在的總數量 (覆蓋官方指令 'z_common_limit')
-		l4d2_auto_add_zombie_common_limit_final "30"
-
-		// [救援開始後] 警報車/地圖機關 殭屍數量. (覆蓋官方指令 'z_mega_mob_size')
-		l4d2_auto_add_zombie_mega_mob_size_final "50"
-
-		// [救援開始後] Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 'z_mob_spawn_min_size')
-		l4d2_auto_add_zombie_mob_spawn_min_size_final "10"
-
-		// [救援開始後] Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
-		l4d2_auto_add_zombie_mob_spawn_max_size_final "30"
-
-		// [救援開始後] (動態調整模式) 每新增一位倖存者，殭屍同時存在的總數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_common_limit_add_final "2"
-
-		// [救援開始後] (動態調整模式) 每新增一位倖存者，警報車/地圖機關 殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mega_mob_size_add_final "8"
-
-		// [救援開始後] 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mob_spawn_min_size_add_final "4"
-
-		// [救援開始後] 每新增一位倖存者，Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量增加幾個. (0=關閉此功能)
-		l4d2_auto_add_zombie_mob_spawn_max_size_add_final "4"
-
 		// 為1時，強制使用VScript覆蓋導演系統的設置
 		// 開啟這項指令可以防止三方圖攥改殭屍與屍潮的數量
 		l4d2_auto_add_zombie_override_script_value "0"

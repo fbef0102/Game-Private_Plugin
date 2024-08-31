@@ -34,8 +34,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Hp reward for healing people with kit.
 		l4d_reward_hp_heal_teammate "8"
 
-		// Hp reward for killing Special Infected.
-		l4d_reward_hp_kill_si "2"
+		// Hp reward for killing Smoker.
+		l4d_reward_hp_kill_smoker "2"
+
+		// Hp reward for killing Boomer.
+		l4d_reward_hp_kill_boomer "1"
+
+		// Hp reward for killing Hunter.
+		l4d_reward_hp_kill_hunter "2"
+
+		// Hp reward for killing Spitter.
+		l4d_reward_hp_kill_spitter "1"
+
+		// Hp reward for killing Jockey.
+		l4d_reward_hp_kill_jockey "2"
+
+		// Hp reward for killing Charger.
+		l4d_reward_hp_kill_charger "3"
 
 		// Hp reward for killing Tank.
 		l4d_reward_hp_kill_tank "10"
@@ -91,6 +106,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-8-31)
+		* Update cvars
+		* Update translation
+		* Hp reward for killing Smoker, Boomer, Hunter, Spitter, Jockey, Charger, Tank
+
 	* v1.1 (2024-7-20)
 		* Update cvars
 
@@ -123,8 +143,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 治療隊友 獲得的血量
 		l4d_reward_hp_heal_teammate "8"
 
-		// 殺死特感 獲得的血量
-		l4d_reward_hp_kill_si "2"
+		// 殺死 Smoker 獲得的血量
+		l4d_reward_hp_kill_smoker "2"
+
+		// 殺死 Boomer 獲得的血量
+		l4d_reward_hp_kill_boomer "1"
+
+		// 殺死 Hunter 獲得的血量 
+		l4d_reward_hp_kill_hunter "2"
+
+		// 殺死 Spitter 獲得的血量 
+		l4d_reward_hp_kill_spitter "1"
+
+		// 殺死 Jockey 獲得的血量 
+		l4d_reward_hp_kill_jockey "2"
+
+		// 殺死 Charger 獲得的血量 
+		l4d_reward_hp_kill_charger "3"
 
 		// 殺死Tank 獲得的血量
 		l4d_reward_hp_kill_tank "10"
