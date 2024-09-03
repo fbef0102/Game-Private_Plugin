@@ -1,0 +1,125 @@
+"Phrases"
+{
+	"Medkit Usage"
+	{
+		"en"			"Medkit Usage:"
+		"zho"			"治療包數據:"
+		"chi"			"治疗包数据:"
+	}
+	
+	"stats_1"
+	{
+		"#format"		"{1:N},{2:d}"
+		"en"			"{olive}{1}{default} [{green}{2}{default} Medkit]"
+		"zho"			"{olive}{1}{default} [{green}{2}{default} 個治療包]"
+		"chi"			"{olive}{1}{default} [{green}{2}{default} 个治疗包]"
+	}	
+	
+	"stats_2"
+	{
+		"#format"		"{1:N}"
+		"en"			"{olive}{1}{default} [{green}0{default} Medkit]"
+		"zho"			"{olive}{1}{default} [{green}0{default} 個治療包]"
+		"chi"			"{olive}{1}{default} [{green}0{default} 个治疗包]"
+	}
+	
+	"Total"
+	{
+		"#format"		"{1:d}"
+		"en"			"Total: {green}{1}"
+		"zho"			"總數量: {green}{1}"
+		"chi"			"总数量: {green}{1}"
+	}
+	
+	"First kit used (C)"
+	{
+		"en"			"{green}First{default} kit used."
+		"zho"			"{green}第一次{default} 使用治療包."
+		"chi"			"{green}第一次{default} 使用治疗包."
+	}
+	
+	"First kit used"
+	{
+		"en"			"First kit used."
+		"zho"			"第一次 使用治療包."
+		"chi"			"第一次 使用治疗包."
+	}
+	
+	"second (C)"
+	{
+		"#format"		"{1:d},{2:T}"
+		"en"			"{green}{1}{default} second{2}"
+		"zho"			"{green}{1}{default} 秒{2}"
+		"chi"			"{green}{1}{default} 秒{2}"
+	}
+	
+	"second"
+	{
+		"#format"		"{1:d},{2:T}"
+		"en"			"{1}second{2}"
+		"zho"			"{1} 秒{2}"
+		"chi"			"{1} 秒{2}"
+	}	
+	
+	"minute (C)"
+	{
+		"#format"		"{1:d},{2:T},{3:s}"
+		"en"			"{green}{1}{default} minute{2} {3}"
+		"zho"			"{green}{1}{default} 分{2} {3}"
+		"chi"			"{green}{1}{default} 分{2} {3}"
+	}
+	
+	"minute"
+	{
+		"#format"		"{1:d},{2:T},{3:s}"
+		"en"			"{1} minute{2} {3}"
+		"zho"			"{1} 分{2} {3}"
+		"chi"			"{1} 分{2} {3}"
+	}	
+	
+	"hour (C)"
+	{
+		"#format"		"{1:d},{2:T},{3:s}"
+		"en"			"{green}{1}{default} hour{2} {3}"
+		"zho"			"{green}{1}{default} 時{2} {3}"
+		"chi"			"{green}{1}{default} 時{2} {3}"
+	}
+	
+	"hour"
+	{
+		"#format"		"{1:d},{2:T},{3:s}"
+		"en"			"{1} hour{2} {3}"
+		"zho"			"{1} 時{2} {3}"
+		"chi"			"{1} 時{2} {3}"
+	}
+	
+	"kits used (C)"
+	{
+		"#format"		"{1:d},{2:s}"
+		"en"			"{green}{1}{default} kits used (last one used {2} ago)"
+		"zho"			"已使用 {green}{1}{default} 個治療包 (最後一次使用於 {2} 之前)"
+		"chi"			"已使用 {green}{1}{default} 个治疗包 (最后一次使用于 {2} 之前)"
+	}
+	
+	"kits used"
+	{
+		"#format"		"{1:d},{2:s}"
+		"en"			"{1} kits used (last one used {2} ago)"
+		"zho"			"已使用 {1} 個治療包 (最後一次使用於 {2} 之前)"
+		"chi"			"已使用 {1} 个治疗包 (最后一次使用于 {2} 之前)"
+	}
+	
+	"s"
+	{
+		"en"			"s"
+		"zho"			""
+		"chi"			""
+	}	
+	
+	"nothing"
+	{
+		"en"			""
+		"zho"			""
+		"chi"			""
+	}
+}

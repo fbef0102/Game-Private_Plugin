@@ -1,0 +1,53 @@
+"Phrases"
+{
+	"You are not in-game"
+	{
+		"en"			"[{olive}TS{default}] You are not in-game!"
+		"zho"			"[{olive}TS{default}] 旁觀者不能發起投票"
+		"chi"			"[{olive}TS{default}] 旁观者不能发起投票"
+	}
+	
+	"Game start"
+	{
+		"en"			"[{olive}TS{default}] This command is disabled once game started."
+		"zho"			"[{olive}TS{default}] 你不能使用此指令，因為遊戲已經開始"
+		"chi"			"[{olive}TS{default}] 你不能使用此指令，因为游戏已经开始"
+	}
+	
+	"Not enough players"
+	{
+		"#format"		"{1:d}"
+		"en"			"[{olive}TS{default}] Not enough {green}{1}{default} players in survivor/infected team."
+		"zho"			"[{olive}TS{default}] 倖存者/特感人數不足 {green}{1}{default}，無法發起投票"
+		"chi"			"[{olive}TS{default}] 生还者/特感人数不足 {green}{1}{default}，无法发起投票"
+	}
+	
+	"Vote in progress"
+	{
+		"en"			"[{olive}TS{default}] You cannot start a autorecover vote until the current vote ends."
+		"zho"			"[{olive}TS{default}] 投票正在進行中"
+		"chi"			"[{olive}TS{default}] 投票正在进行中"
+	}
+	
+	"Wait"
+	{
+		"#format"		"{1:d}"
+		"en"			"[{olive}TS{default}] You must wait for {green}{1}{default} sec then start a new autorecover vote!"
+		"zho"			"[{olive}TS{default}] 必須等待至少 {green}{1}{default} 秒才能再度發起投票"
+		"chi"			"[{olive}TS{default}] 必须等待至少 {green}{1}{default} 秒才能再度发起投票"
+	}	
+	
+	"Enabled"
+	{
+		"en"			"{green}Auto Recover enabled.{default} Auto save survivors if incapacitated or hanging from ledge before survival begins"
+		"zho"			"{green}自救回血功能 已開啟.{default} 任何玩家倒地或掛邊會自動爬起來並恢復所有血量 (遊戲開始之前)"
+		"chi"			"{green}自救回血功能 已开启.{default} 任何玩家倒地或挂边会自动爬起来并恢复所有血量 (游戏开始之前)"
+	}
+	
+	"Disabled"
+	{
+		"en"			"{green}Auto Recover disabled"
+		"zho"			"{green}自救回血功能 已關閉"
+		"chi"			"{green}自救回血功能 已关闭"
+	}
+}

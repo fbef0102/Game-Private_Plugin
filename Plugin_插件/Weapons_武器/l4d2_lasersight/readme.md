@@ -7,9 +7,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/eNFcXMafLuQ)
 
+* Image | 圖示
+<br/>None
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -18,11 +21,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		//  How long do the commands 'cool down' (0=No cold down)
 		l4d2_lasersight_delay "1.0"
 
-		// If 1, block laser command once survivors leaving saferoom or survival begins
-		l4d2_lasersight_game_block "1"
+		// If 1, block laser command once game starts (survivors leaving saferoom / survival or scavenge begins)
+		l4d2_lasersight_game_block "0"
 
 		// If 1, block laser command if there are no any upgrade_laser_sight on the map
-		l4d2_lasersight_map_block "1"
+		l4d2_lasersight_map_block "0"
 		```
 </details>
 
@@ -44,27 +47,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Image | 圖示
-<br/>None
-
 * Apply to | 適用於
 	```
-	L4D1
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//AtomicStryker @ 2009-2012
-	//HarryPotter @ 2022
-	```
-    * v1.0h (2022-11-27)
-	    * Remake code
-        * Add cvars amd command limit
+	* v1.1h (2024-9-3)
+		* Add translation file
 
-    * v0.0
-	    * [By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=97946)
+	* v1.0h (2022-11-27)
+		* Remake code
+		* Add cvars amd command limit
+
+	* v0.0
+		* [By AtomicStryker](https://forums.alliedmods.net/showthread.php?t=97946)
 </details>
 
 - - - -
@@ -72,9 +79,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 玩家使用指令升級紅外線雷射
 
 * 原理
-	* 拿主武器，輸入!laser，升級紅外線雷射
+	* 拿主武器，輸入```!laser```，升級紅外線雷射
 
-* 功能
-	* 可設置遊戲開始後不能使用指令
-		* 這裡指的"遊戲開始"為倖存者離開安全區域或是生存模式計時開始
-	* 可設置當地圖上沒有紅外線雷射升級裝置時，不能使用指令
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_lasersight.cfg
+		```php
+		// 使用!laser的冷卻時間 (0=無冷卻時間)
+		l4d2_lasersight_delay "1.0"
+
+		// 為1時，遊戲開始後不能使用指令 (倖存者離開安全區域 / 生存或清道夫模式計時開始)
+		l4d2_lasersight_game_block "0"
+
+		// 為1時，地圖上沒有紅外線雷射升級裝置時，不能使用指令
+		l4d2_lasersight_map_block "0"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **升級紅外線**
+		```php
+		sm_laseron
+		```
+
+	* **移除紅外線**
+		```php
+		sm_laseroff
+		```
+
+	* **開/關紅外線**
+		```php
+		sm_laser
+		```
+</details>

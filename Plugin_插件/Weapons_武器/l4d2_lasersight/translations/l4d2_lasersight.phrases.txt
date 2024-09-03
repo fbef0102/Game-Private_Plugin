@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"You are not survivor"
+	{
+		"en"			"[{olive}TS{default}] You are not survivor!"
+		"zho"			"[{olive}TS{default}] 你不是倖存者"
+		"chi"			"[{olive}TS{default}] 你不是生还者"
+	}
+	
+	"No laser sight on this map"
+	{
+		"en"			"[{olive}TS{default}] You cannot use the laser on command because there is no laser sight on this map!"
+		"zho"			"[{olive}TS{default}] 你不能使用此指令，因為此地圖沒有生成任何紅外線雷射裝置"
+		"chi"			"[{olive}TS{default}] 你不能使用此指令，因为此地图没有生成任何红外线雷射装置"
+	}
+	
+	"Game start"
+	{
+		"en"			"[{olive}TS{default}] You cannot use the laser on command after game starts!"
+		"zho"			"[{olive}TS{default}] 你不能使用此指令，因為遊戲已經開始"
+		"chi"			"[{olive}TS{default}] 你不能使用此指令，因为游戏已经开始"
+	}
+	
+	"No primary weapon"
+	{
+		"en"			"[{olive}TS{default}] [{olive}TS{default}] You cannot use the laser on command! (No primary weapon)"
+		"zho"			"[{olive}TS{default}] 無法使用此指令 (無主武器)"
+		"chi"			"[{olive}TS{default}] 无法使用此指令 (无主武器)"
+	}
+	
+	"Cooldown"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You cannot use the laser on command again so quickly, wait {1} seconds"
+		"zho"			"[{olive}TS{default}] 你不能使用此指令，請等待 {1} 秒"
+		"chi"			"[{olive}TS{default}] 你不能使用此指令, 请等待 {1} 秒"
+	}
+	
+}

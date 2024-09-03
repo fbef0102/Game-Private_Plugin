@@ -24,8 +24,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_friendly_fire_stats_enable "1"
 
-		// Reset All FF data when 0=Map Change, 1=Next Game starts/Survival begins, 2=Next New Round.
-		l4d_friendly_fire_stats_reset_when "1"
+		// Reset All FF data when 0=Map Change, 1=Next New Round, 2=Next Game starts (survivors leaving saferoom / survival or scavenge begins).
+		l4d_friendly_fire_stats_reset_when "2"
 		```
 </details>
 
@@ -63,7 +63,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 隊友開槍射你會反彈傷害，RPG版本
 </details>
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2024-9-3)
+		* Add translation file
 
 	* v1.1 (2022-12-8)
 		* New Cvar, Reset All FF data when next game starts
@@ -77,8 +89,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 顯示造成與受到的友傷以及兇手，有友傷統計
 
 * 原理
-	* 輸入!ss找出對你開槍的王八蛋
-	* 輸入!sse查看所有人的友傷統計
+	* 輸入```!ss```查看受到與造成的友傷統計
+	* 輸入```!sse```查看所有人的友傷統計
 
-* 功能
-	* 指令控制開關
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_friendly_fire_stats.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_friendly_fire_stats_enable "1"
+
+		// 何時重置友傷數據? 0=換圖時, 1=新的回合開始時, 2=下次遊戲開始之時 (離開安全室 / 生存或清道夫模式計時開始).
+		l4d_friendly_fire_stats_reset_when "2"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **查看受到與造成的友傷統計**
+		```php
+		sm_ss
+		```
+
+	* **查看所有人的友傷統計**
+		```php
+		sm_sse
+		```
+</details>

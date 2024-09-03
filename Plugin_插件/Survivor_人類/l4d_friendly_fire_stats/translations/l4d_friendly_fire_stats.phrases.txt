@@ -1,0 +1,64 @@
+"Phrases"
+{
+	"You are not survivor"
+	{
+		"en"			"[{olive}TS{default}] You are not survivor!"
+		"zho"			"[{olive}TS{default}] 你不是倖存者"
+		"chi"			"[{olive}TS{default}] 你不是生还者"
+	}
+	
+	"Friendly Fire dealt"
+	{
+		"#format"		"{1:d}"
+		"en"			"Friendly Fire dealt: {green}{1}"
+		"zho"			"造成友傷統計: {green}{1}"
+		"chi"			"造成友伤统计: {green}{1}"
+	}
+	
+	"Done damage"
+	{
+		"#format"		"{1:d},{2:N}"
+		"en"			"Done {lightgreen}{1}{default} damage to {olive}{2}"
+		"zho"			"造成了 {lightgreen}{1}{default} 傷害給 {olive}{2}"
+		"chi"			"造成了 {lightgreen}{1}{default} 伤害给 {olive}{2}"
+	}
+	
+	"Friendly Fire received"
+	{
+		"#format"		"{1:d}"
+		"en"			"Friendly Fire received: {green}{1}"
+		"zho"			"受到友傷統計: {green}{1}"
+		"chi"			"受到友伤统计: {green}{1}"
+	}
+	
+	"Taken damage"
+	{
+		"#format"		"{1:d},{2:N}"
+		"en"			"Taken {lightgreen}{1}{default} damage from {olive}{2}"
+		"zho"			"受到了 {lightgreen}{1}{default} 傷害, 來自 {olive}{2}"
+		"chi"			"造成了 {lightgreen}{1}{default} 伤害, 来自 {olive}{2}"
+	}
+	
+	"Most FF dealt"
+	{
+		"en"			"Most FF dealt:"
+		"zho"			"所有友傷統計:"
+		"chi"			"所有友伤统计:"
+	}
+	
+	"stats_1"
+	{
+		"#format"		"{1:N},{2:d},{3:d}"
+		"en"			"{olive}{1}{default} [{green}{2}{default} dmg] ({lightgreen}{3}%%{default} of total FF)"
+		"zho"			"{olive}{1}{default} [{green}{2}{default} 傷害] ({lightgreen}{3}%%{default} 總友傷)"
+		"chi"			"{olive}{1}{default} [{green}{2}{default} 伤害] ({lightgreen}{3}%%{default} 总友伤)"
+	}
+	
+	"stats_2"
+	{
+		"#format"		"{1:N}"
+		"en"			"{olive}{1}{default} [{green}0{default} dmg] ({lightgreen}0%%{default} of total FF)"
+		"zho"			"{olive}{1}{default} [{green}0{default} 傷害] ({lightgreen}0%%{default} 總友傷)"
+		"chi"			"{olive}{1}{default} [{green}0{default} 伤害] ({lightgreen}0%%{default} 总友伤)"
+	}
+}

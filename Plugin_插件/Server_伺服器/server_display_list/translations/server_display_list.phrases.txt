@@ -1,0 +1,18 @@
+"Phrases"
+{
+	"TS Server List"
+	{
+		"en"			"[{olive}Server List{default}]"
+		"zho"			"[{olive}伺服器列表{default}]"
+		"chi"			"[{olive}伺服器列表{default}]"
+	}
+	
+	"connect"
+	{
+		// 1=Name, 2=IP, 3=Author
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"[{olive}{1}{default}] connect {2} {green}- {3}"
+		"zho"			"[{olive}{1}{default}] connect {2} {green}- {3}"
+		"chi"			"[{olive}{1}{default}] connect {2} {green}- {3}"
+	}
+}

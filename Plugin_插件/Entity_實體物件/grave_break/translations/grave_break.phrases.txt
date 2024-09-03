@@ -1,0 +1,9 @@
+"Phrases"
+{
+	"Breaks all graves"
+	{
+		"en"			"{lightgreen}%N{default} breaks all graves, R.I.P."
+		"zho"			"{lightgreen}%N{default} 打破了所有的墓碑, R.I.P."
+		"chi"			"{lightgreen}%N{default} 打破了所有的墓碑, R.I.P."
+	}
+}

@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![server_display_list_1](image/server_display_list_1.jpg)
 
 * Require | 必要安裝
-<br/>None
+	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/server_display_list.cfg.cfg
+	* ```data/server_display_list.cfg.cfg```
 		```php
 		"server"
 		{
@@ -68,7 +68,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-9-3)
+		* Add translation file
 
 	* v1.0
 	    * Initial Release
@@ -81,7 +93,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 玩家輸入```sm_server```會顯示 Server/Vpn 列表
 
-	* <details><summary>指令中文介紹 (點我展開)</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/server_display_list.cfg
 		```php
@@ -108,7 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 可自行設定顯示內容
-	* data/server_display_list.cfg.cfg
+	* ```data/server_display_list.cfg.cfg```
 		```php
 		"server"
 		{
