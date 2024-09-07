@@ -1,5 +1,5 @@
 # Description | 內容
-The boomer can active super explode
+The boomer can active super explode (AI + Human)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,14 +8,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/kJ4UrYpV514)
 
 * Image | 圖示
+	* Boomer human player (真人Boomer玩家)
 	<br/>![l4d_boomer_super_explode_1](image/l4d_boomer_super_explode_1.gif)
 	<br/>![l4d_boomer_super_explode_2](image/l4d_boomer_super_explode_2.gif)
+	* AI Boomer (AI也適用)
+	<br/>![l4d_boomer_super_explode_3](image/l4d_boomer_super_explode_3.gif)
+
 
 * <details><summary>How does it work?</summary>
 
-	* Boomer player holds crouch for 4 seconds, press jump to self explode
+	* Player-controlled Boomer holds crouch for 4 seconds, press jump to self explode
+	* AI Boomer will super explode after vomit (see cvar below)
 		* Create fire, explode particle, cause more damage to survivors nearby and shock wave
-	* Does not apply to AI Boomer
 </details>
 
 * Require | 必要安裝
@@ -26,7 +30,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_boomer_super_explode.cfg
 		```php
-		// 0=Plugin off, 1=Plugin on. Boomer can crouch to charge and press jump to make super explode
+		// 0=Plugin off, 1=Plugin on. Player-controlled Boomer can crouch to charge and press jump to make super explode
 		l4d_boomer_super_explode_enable "1"
 
 		// Number of seconds to charge before activating super explode
@@ -77,24 +81,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-9-7)
+		* AI Boomer will super explode after vomit
+
 	* v1.0 (2023-12-24)
 		* Initial Release
 </details>
 
 - - - -
 # 中文說明
-Boomer可以自爆，產生更大的傷害與衝擊波
+Boomer可以自爆，產生更大的傷害與衝擊波 (AI與真人都適用)
 
 * 原理
-	* Boomer 玩家可以蹲下，充能四秒鐘之後按下空白鍵自爆
+	* Boomer 真人玩家可以蹲下，充能四秒鐘之後按下空白鍵自爆
+	* AI Boomer 嘔吐三秒鐘之後自爆
 		* 產生火焰與爆炸特效，對周圍造成更大的傷害與衝擊波
-	* AI Boomer 不適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_boomer_super_explode.cfg
 		```php
-		// 0=關閉插件, 1=啟動插件，Boomer 玩家可以蹲下，充能完畢之後按下空白鍵自爆
+		// 0=關閉插件, 1=啟動插件，Boomer 真人玩家可以蹲下，充能完畢之後按下空白鍵自爆
 		l4d_boomer_super_explode_enable "1"
 
 		// 充能完畢所需時間

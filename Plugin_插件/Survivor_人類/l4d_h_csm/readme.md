@@ -153,10 +153,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//mi123645 @ 2009 - 2010
-	//Harry @ 2022-2024
-	```
+	* v1.8h (2024-9-7)
+		* Fixed change wrong character by !francis cmd 
+
 	* v1.7h (2024-4-7)
 		* Update Cvars
 		* Update Cmds

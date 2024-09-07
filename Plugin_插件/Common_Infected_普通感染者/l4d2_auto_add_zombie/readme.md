@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			
 			// Minimum amount of zombies to spawn in natural hordes & z_spawn mob & boomer hordes & bile bomb  (override official cvar 'z_mob_spawn_min_size')
 			// -1: Don't modify, Restore Game default: 10
-			"z_mob_spawn_min_size"		"10" 
+			"z_mob_spawn_min_size"		"25" 
 			
 			// Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
 			// -1: Don't modify, Restore Game default: 30
@@ -77,7 +77,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"z_common_limit" 		"30" 
 			"z_mega_mob_size"		"50" 
-			"z_mob_spawn_min_size"	"10" 
+			"z_mob_spawn_min_size"	"25" 
 			"z_mob_spawn_max_size"	"30" 
 			
 			"final"
@@ -206,7 +206,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			
 			// Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 z_mob_spawn_min_size)
 			// -1: 不修改, 恢復遊戲預設: 10
-			"z_mob_spawn_min_size"		"10" 
+			"z_mob_spawn_min_size"		"25" 
 			
 			// Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
 			// -1: 不修改, 恢復遊戲預設: 30
@@ -228,7 +228,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		{
 			"z_common_limit" 		"30" 
 			"z_mega_mob_size"		"50" 
-			"z_mob_spawn_min_size"	"10" 
+			"z_mob_spawn_min_size"	"25" 
 			"z_mob_spawn_max_size"	"30" 
 			
 			"final"

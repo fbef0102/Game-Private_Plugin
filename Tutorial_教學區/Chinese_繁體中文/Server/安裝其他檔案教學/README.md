@@ -10,11 +10,11 @@
 - - - -
 ## 安裝Stripper
 * Stripper 用途是什麼?
-* 修改地圖，可以在地圖上新增各種障礙物、道具、機關事件等等
-	* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
-* 把地圖改造成迷宮都不是問題
-	* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
-	* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
+	* 修改地圖，可以在地圖上新增各種障礙物、道具、機關事件等等
+		* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
+	* 把地圖改造成迷宮都不是問題
+		* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+		* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 
 * 安裝步驟
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS
@@ -23,7 +23,7 @@
 	2. 往下找最新的版本，依照各自的電腦系統下載對應的版本
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
 
-	3. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```stripper``` 資料夾
+	3. 解壓縮並移動檔案到伺服器相同的路徑上。最後addons資料夾內看起來如圖片所示，多一個 ```stripper``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206859157-102eceeb-e5c7-4fbd-95b9-d01d2c82d963.png)
 
 	4. 重啟伺服器，控制台輸入```stripper_version```確認安裝成功
@@ -37,11 +37,11 @@
 - - - -
 ## 安裝l4dtoolz
 * l4dtoolz 用途是什麼?
-* 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-* 最多只能有31位玩家同時在伺服器裡面 (不能超過31人，否則伺服器會崩潰)
-	* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
-	* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
+	* 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
+		<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
+	* 最多只能有31位玩家同時在伺服器裡面 (不能超過31人，否則伺服器會崩潰)
+		* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
+		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
 * 安裝步驟
 	1. 到[l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases)，根據你的遊戲與系統選擇檔案下載
@@ -86,10 +86,10 @@
 - - - -
 ## 安裝TickrateEnabler
 * TickrateEnabler 用途是什麼?
-* 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
-	* 不知道Tickrate是甚麼請自行Google
-	* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
-* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
+	* 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
+		* 不知道Tickrate是甚麼請自行Google
+		* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
+	* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
 * 安裝步驟
 	1. 到[Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇檔案下載
@@ -156,10 +156,10 @@
 - - - -
 ## 安裝國家與城市的資料庫
 * 何時需要用到?
-* 有插件需要抓取玩家的IP、國家、城市、地區等等
-	* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
-* 有安裝geoipcity.ext, geoip2.ext等等
-	* 已經過時，請移除這些檔案並升級sourcemod v1.11以上
+	* 有插件需要抓取玩家的IP、國家、城市、地區等等
+		* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
+	* 有安裝geoipcity.ext, geoip2.ext等等
+		* 已經過時，請移除這些檔案並升級sourcemod v1.11以上
 
 * 安裝步驟
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)

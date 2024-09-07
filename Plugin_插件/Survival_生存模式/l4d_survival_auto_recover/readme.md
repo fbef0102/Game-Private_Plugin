@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Numbers of real survivor and infected player required to start a autorecover vote.
 		l4d_survival_auto_recover_required "2"
 
-		// If 1, players can not call autorecover vote after survival begins.
+		// If 1, players can not call autorecover vote after game starts (survivors leaving saferoom / survival or scavenge begins)
 		l4d_survival_auto_recover_game_block "1"
 
 		// Enable autorecover by default in survival mode? [1-Enable/0-Disable]
@@ -105,7 +105,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 至少需要的真人倖存者/特感數量在場，才能發起投票 "開/關 自救回血功能"
 		l4d_survival_auto_recover_required "2"
 
-		// 為1時，遊戲開始後不能發起投票
+		// 為1時，遊戲開始後不能發起投票 (倖存者離開安全區域 / 生存或清道夫模式計時開始)
 		l4d_survival_auto_recover_game_block "1"
 
 		// 在生存模式下自動啟動此插件? [1-啟用/0-不啟用]

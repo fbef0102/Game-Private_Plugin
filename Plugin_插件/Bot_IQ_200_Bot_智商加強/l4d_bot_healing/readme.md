@@ -64,10 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 
-	* **Enable/Disable Bunny Hopping for client**
-		```php
-		sm_bhop
-		```
+	None
 </details>
 
 * Apply to | 適用於
@@ -101,7 +98,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 血量高於指令設定的值，Bot不會有動作
 	* 解決傻B的Bot經常亂打包與亂吃藥丸的智商
 
-* 功能
-	1. 目標可區分為Bot自己、隊友Bot、真人玩家
-	2. 可分別設置目標的血量門檻
-	3. 可禁止bot不會對目標使用治療包或者傳送藥丸 (無論多少血量或黑白狀態)
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_bot_healing.cfg
+		```php
+		// 為1時，Bot只有在自己黑白狀態時才會使用治療包
+		l4d_bot_healing_die_first_self "0"
+
+		// 為1時，Bot只有在對象是Bot且是黑白狀態時才會幫對方打包
+		l4d_bot_healing_die_first_target_bot "0"
+
+		// 為1時，Bot只有在對象是真人玩家且是黑白狀態時才會幫對方打包
+		l4d_bot_healing_die_first_target_player "0"
+
+		// 為1時，Bot只有在自己黑白狀態時才會吃藥或打針
+		l4d_bot_healing_die_pills_self "0"
+
+		// 為1時，Bot只有在對象是Bot且是黑白狀態時才會給藥丸或腎上腺素
+		l4d_bot_healing_die_pills_target_bot "0"
+
+		// 為1時，Bot只有在對象是真人玩家且是黑白狀態時才會給藥丸或腎上腺素
+		l4d_bot_healing_die_pills_target_player "0"
+
+		// 自己的血量低於此數值，Bot才會使用治療包 (0=Bot永遠不會替自己打包)
+		l4d_bot_healing_first_self "30.0"
+
+		// 對象是Bot且血量低於此數值，Bot才會幫對方打包 (0=Bot永遠不會替Bot打包)
+		l4d_bot_healing_first_target_bot "30.0"
+
+		// 對象是真人玩家且血量低於此數值，Bot才會幫對方打包 (0=Bot永遠不會替真人玩家打包)
+		l4d_bot_healing_first_target_player "30.0"
+
+		// 自己的血量低於此數值，Bot才會吃藥或打針 (0=Bot永遠不會吃藥或打針)
+		l4d_bot_healing_pills_self "50.0"
+
+		// 對象是Bot且血量低於此數值，Bot才會給藥丸或腎上腺素 (0=Bot永遠不會遞給Bot藥丸或腎上腺素)
+		l4d_bot_healing_pills_target_bot "50.0"
+
+		// 對象是真人玩家且血量低於此數值，Bot才會給藥丸或腎上腺素 (0=Bot永遠不會遞給真人玩家藥丸或腎上腺素)
+		l4d_bot_healing_pills_target_player "50.0"
+		```
+</details>

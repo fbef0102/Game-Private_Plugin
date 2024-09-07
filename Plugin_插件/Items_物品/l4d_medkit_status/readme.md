@@ -95,7 +95,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 計算誰使用的治療包. (1=治療的人, 2=被治療的人)
 		l4d_medkit_status_count_player "1"
 
-		// 為1時，遊戲開始之後才會計算治療包使用數量 (倖存者離開安全室 或 or 生存/清道夫 計時開始)
+		// 為1時，遊戲開始之後才會計算治療包使用數量 (倖存者離開安全室 或 生存/清道夫 計時開始)
 		// 0=一直都計算
 		l4d_medkit_status_game_start_enable "1"
 

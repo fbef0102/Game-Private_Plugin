@@ -159,6 +159,8 @@
     * 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
   * [l4d_mission_lost_change_difficulty](/Plugin_插件/Server_伺服器/l4d_mission_lost_change_difficulty): Force of difficulty change after quantity of rounds (tries) events survivors wipe out (mission lost)
     * 滅團N次後，自動降低難度
+  * [exec_round_cfg](/Plugin_插件/Server_伺服器/exec_round_cfg): Exec cfg when new round/game starts/round end
+    * 新的回合開始/遊戲開始/回合結束之時，執行指定的cfg文件
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -215,8 +217,8 @@
     * 增強Boomer，賦予多種超能力成為超級肥宅
   * [l4d_boomer_vomit_move](/Plugin_插件/Boomer_Boomer/l4d_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
     * Boomer可以邊吐邊移動 (AI與真人都適用)
-  * [l4d_boomer_super_explode](/Plugin_插件/Boomer_Boomer/l4d_boomer_super_explode): The boomer can active super explode
-    * Boomer可以自爆，產生更大的傷害與衝擊波
+  * [l4d_boomer_super_explode](/Plugin_插件/Boomer_Boomer/l4d_boomer_super_explode): The boomer can active super explode (AI + Human)
+    * Boomer可以自爆，產生更大的傷害與衝擊波 (AI與真人都適用)
 </details>
 
 * <details><summary><b>Hunter | Hunter</b></summary>
@@ -273,7 +275,7 @@
     * 為特感者隊伍與旁觀者展示Tank介面，顯示血量與控制權
   * [l4d_burn_tank_penalty](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Get slowdown while burning the tank
     * 燃燒Tank的玩家會被減速慢行
-  * [l4d2_tankonfire_boost](/Plugin_插件/Tank_坦克/l4d_burn_tank_penalty): Increase the speed and power of tanks when on fire.
+  * [l4d2_tankonfire_boost](/Plugin_插件/Tank_坦克/l4d2_tankonfire_boost): Increase the speed and power of tanks when on fire.
     * Tank燃燒時，速度與力量會提升
   * [l4d_tank_ghost_spawn](/Plugin_插件/Tank_坦克/l4d_tank_ghost_spawn): When player gets the tank, he will become ghost tank and freely choose anywhere to spawn
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
@@ -413,8 +415,8 @@
     * 使用治療包時提示個人的治療包使用數量與狀態
   * [who_shot_gas](/Plugin_插件/Items_物品/who_shot_gas): Type !gas to disaply who shot the last gas can. + Announce when gas can being shot.
     * 誰他馬打爆汽油桶
-  * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Delete weapons and items on the map and replace guns/items with other guns/items
-    * 刪除地圖上的大槍、治療包、其他投擲物與物品，並替換成其他武器或物品
+  * [l4d2_replace_gun_item](/Plugin_插件/Items_物品/l4d2_replace_gun_item): Delete weapons and items on the map and replace guns/items/melees with other guns/items/melees
+    * 刪除地圖上的大槍、治療包、近戰、其他投擲物與物品，並替換成其他武器、物品、近戰
   * [starting_items](/Plugin_插件/Items_物品/starting_items): Survivors can't pick up weapons and items before the start of each round + Gives health items and throwables to survivors at the start of each round
     * 回合開始之前不得拿武器與物品 + 回合開始之後自動給予一些物資
   * [l4d2_remix_gascan](/Plugin_插件/Items_物品/l4d2_remix_gascan): Increase gas cans in scavenge events, and to be randomly placed by custom list of gas can locations.
