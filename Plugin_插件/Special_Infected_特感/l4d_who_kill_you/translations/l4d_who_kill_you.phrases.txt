@@ -337,34 +337,90 @@
 	
 	"Hurt_Attacker_Message (C)"
 	{
-		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
-		"en"	"You hurt {red}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m"
-		"zho"	"你傷了 {red}{1}{default}, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m"
-		"chi"	"你伤了 {red}{1}{default}, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m"
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f},{5:s}"
+		"en"	"You hurt {red}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m, Hitgroup: {green}{5}"
+		"zho"	"你傷了 {red}{1}{default}, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m, 部位: {green}{5}"
+		"chi"	"你伤了 {red}{1}{default}, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m, 部位: {green}{5}"
 	}
 	
 	"Hurt_Attacker_Message"
 	{
-		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
-		"en"	"You hurt {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m"
-		"zho"	"你傷了 {1}, 傷害: {2}, 武器: {3}, 距離: {4}m"
-		"chi"	"你伤了 {1}, 伤害: {2}, 武器: {3}, 距离: {4}m"
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f},{5:s}"
+		"en"	"You hurt {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m, Hitgroup: {5}"
+		"zho"	"你傷了 {1}, 傷害: {2}, 武器: {3}, 距離: {4}m, 部位: {5}"
+		"chi"	"你伤了 {1}, 伤害: {2}, 武器: {3}, 距离: {4}m, 部位: {5}"
 	}
 	
 	"Hurt_Victim_Message (C)"
 	{
-		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
-		"en"	"Get hurt by {blue}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m"
-		"zho"	"被 {blue}{1}{default} 所傷, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m"
-		"chi"	"被 {blue}{1}{default} 所伤, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m"
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f},{5:s}"
+		"en"	"Get hurt by {blue}{1}{default}, Dmg: {green}{2}{default}, Wep: {green}{3}{default}, Dis: {green}{4}{default}m, Hitgroup: {green}{5}"
+		"zho"	"被 {blue}{1}{default} 所傷, 傷害: {green}{2}{default}, 武器: {green}{3}{default}, 距離: {green}{4}{default}m, 部位: {green}{5}"
+		"chi"	"被 {blue}{1}{default} 所伤, 伤害: {green}{2}{default}, 武器: {green}{3}{default}, 距离: {green}{4}{default}m, 部位: {green}{5}"
 	}
 	
 	"Hurt_Victim_Message"
 	{
-		"#format"	"{1:N},{2:d},{3:s},{4:.1f}"
-		"en"	"Get hurt by {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m"
-		"zho"	"被 {1} 所傷, 傷害: {2}, 武器: {3}, 距離: {4}m"
-		"chi"	"被 {1} 所伤, 伤害: {2}, 武器: {3}, 距离: {4}m"
+		"#format"	"{1:N},{2:d},{3:s},{4:.1f},{5:s}"
+		"en"	"Get hurt by {1}, Dmg: {2}, Weapon: {3}, Dis: {4}m, Hitgroup: {5}"
+		"zho"	"被 {1} 所傷, 傷害: {2}, 武器: {3}, 距離: {4}m, 部位: {5}"
+		"chi"	"被 {1} 所伤, 伤害: {2}, 武器: {3}, 距离: {4}m, 部位: {5}"
+	}
+	
+	"GENERIC"
+	{
+		"en"	"GENERIC"
+		"zho"	"其他部位"
+		"chi"	"其他部位"
+	}
+	
+	"HEAD"
+	{
+		"en"	"Head"
+		"zho"	"頭部"
+		"chi"	"头部"
+	}
+	
+	"CHEST"
+	{
+		"en"	"Chest"
+		"zho"	"胸部"
+		"chi"	"胸部"
+	}
+	
+	"STOMACH"
+	{
+		"en"	"Stomach"
+		"zho"	"腹部"
+		"chi"	"腹部"
+	}
+	
+	"LEFTARM"
+	{
+		"en"	"Left Arm"
+		"zho"	"左腕"
+		"chi"	"左腕"
+	}
+	
+	"RIGHTARM"
+	{
+		"en"	"Right Arm"
+		"zho"	"右腕"
+		"chi"	"右腕"
+	}
+	
+	"LEFTLEG"
+	{
+		"en"	"Left Leg"
+		"zho"	"左腿"
+		"chi"	"左腿"
+	}	
+	
+	"RIGHTLEG"
+	{
+		"en"	"Right Leg"
+		"zho"	"右腿"
+		"chi"	"右腿"
 	}
 
 	"Pistol"
