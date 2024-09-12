@@ -1,3 +1,6 @@
-// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
+// 以下關卡將被視為最終關卡，可以用於有多重結局關卡的地圖
+// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. 
+//
+// Do not delete/modify this line! 勿刪除或修改此行!
 l4d2_deathcraft_05_lighthouse
 l4d2_minecraft_evolution

@@ -27,8 +27,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Automatically change next map when final ends in versus/cooo/realism
 	* Automatic parsing of custom maps vpk files - no need to add map names manually
 	* Next map vote starts when 
-    	* Leaving the saferoom
-    	* Survival/Scavenge round starts 
+		* Leaving the saferoom
+		* Survival/Scavenge round starts 
 	* Auto change map to official map if no one in server when playing custom maps
 </details>
 
@@ -108,22 +108,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command</summary>
-    
-   * **Display Next Map**
-		```php
-		sm_fmc_nextmap
-		sm_fmc
-		```
+	
+	* **Display Next Map**
+			```php
+			sm_fmc_nextmap
+			sm_fmc
+			```
 
-   * **Vote the next map**
-		```php
-		sm_mapvote
-		```
+	* **Vote the next map**
+			```php
+			sm_mapvote
+			```
 
-   * **See all the votes**
-		```php
-		sm_mapvotes
-		```
+	* **See all the votes**
+			```php
+			sm_mapvotes
+			```
 </details>
 
 * <details><summary>Example Config</summary>
@@ -167,9 +167,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Apply to | 適用於
-    ```
-    L4D2 coop/survival/versus/realism/scavenge
-    ```
+	```
+	L4D2 coop/survival/versus/realism/scavenge
+	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
@@ -183,39 +183,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
-    	> 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
+		> 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
 
 	2. [l4d_random_map_vote](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Map_%E9%97%9C%E5%8D%A1/l4d_random_map_vote):Vote to change map, the map is chosen randomly from data
-    	> 投票更換地圖，但是地圖是隨機挑選的
+		> 投票更換地圖，但是地圖是隨機挑選的
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Dionys @ 2008~2009
-	//Harry @ 2019~2024
-	```
-    * v1.4h (2024-4-16)
+	* v1.5h (2024-9-12)
+		* Fixed mapvote menu error after server startup
+		* Update Data
+
+	* v1.4h (2024-4-16)
 		* Change next chapter in coop/realism/versus
 		* Update Data
 
-    * v1.3h (2024-2-7)
+	* v1.3h (2024-2-7)
 		* Fixed vote menu wrong map order
 
-    * v1.2h (2024-1-7)
+	* v1.2h (2024-1-7)
 		* Fixed cvar is not working
 
-    * v1.1h (2023-4-18)
-        * Optimize code
+	* v1.1h (2023-4-18)
+		* Optimize code
 		* Fixed next map not working in custom final maps
 
-    * v1.0h (2023-4-17)
+	* v1.0h (2023-4-17)
 		* Support Scavenge Mode. After scavenge match ends, force to change next map
 		* Player can vote the next map in survival/scavenge or next campaign in coop/versus
 		* Require l4d2_mission_manager
+		* Code Credit: [Automatic Campaign Switcher (ACS) from Chris7c0](https://github.com/Chris7c0/ACS)
 
-    * v2.6 (2023-3-30)
-		* [Old Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/sm_l4d_mapchanger)
+	* v1.4.0
+		* [Original Plugin by Dionys](https://forums.alliedmods.net/showthread.php?t=81982)
 </details>
 
 - - - -
@@ -232,12 +233,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * 原理
-    * 戰役/寫實模式中當倖存者滅團超過N次時，自動切換到下一個關卡
+	* 戰役/寫實模式中當倖存者滅團超過N次時，自動切換到下一個關卡
 		* 適合用在非常多特效與高難度的戰役伺服器，避免一直卡在同一個關卡，玩家也會疲勞
 	* 戰役/寫實模式中最後一關當倖存者滅團超過N次時或成功通關時，自動切換到下一張地圖
 	* 對抗模式中最後一關當雙方回合結束之時，自動切換到下一張地圖
-    * 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
-    * 清道夫模式中當比賽結束時，自動切換到下一張地圖
+	* 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
+	* 清道夫模式中當比賽結束時，自動切換到下一張地圖
 	* 遊戲開始之後自動出現投票選單，玩家可以投票決定下一張地圖
 		* 戰役/對抗/寫實模式最後一關出安全室之後
 		* 生存模式計時開始之後
@@ -319,22 +320,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
-    
-   * **顯示下一張地圖**
-		```php
-		sm_fmc_nextmap
-		sm_fmc
-		```
+	
+	* **顯示下一張地圖**
+			```php
+			sm_fmc_nextmap
+			sm_fmc
+			```
 
-   * **投票下一張地圖**
-		```php
-		sm_mapvote
-		```
+	* **投票下一張地圖**
+			```php
+			sm_mapvote
+			```
 
-   * **查看所有票數**
-		```php
-		sm_mapvotes
-		```
+	* **查看所有票數**
+			```php
+			sm_mapvotes
+			```
 </details>
 
 * <details><summary>文件設定</summary>
@@ -380,41 +381,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 
 * 注意事項
-    1. <details><summary>安裝此插件之後</summary>
+	1. <details><summary>安裝此插件之後</summary>
 
-        * 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
-            * configs\missioncycle.coop.txt
-            * configs\missioncycle.scavenge.txt
-            * configs\missioncycle.survival.txt
-            * configs\missioncycle.versus.txt
-            * configs\finale.coop.txt
-    </details>
+		* 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
+			* configs\missioncycle.coop.txt
+			* configs\missioncycle.scavenge.txt
+			* configs\missioncycle.survival.txt
+			* configs\missioncycle.versus.txt
+			* configs\finale.coop.txt
+	</details>
 
-    2. <details><summary>安裝新的三方圖</summary>
+	2. <details><summary>安裝新的三方圖</summary>
 
-        * 每當安裝新的三方圖時，left4dead2\addons\sourcemod\configs\內的文件內容會有變化，自動新增三方圖的關卡與地圖名
-            * configs\missioncycle.coop.txt
-            * configs\missioncycle.scavenge.txt
-            * configs\missioncycle.survival.txt
-            * configs\missioncycle.versus.txt
-    </details>
+		* 每當安裝新的三方圖時，left4dead2\addons\sourcemod\configs\內的文件內容會有變化，自動新增三方圖的關卡與地圖名
+			* configs\missioncycle.coop.txt
+			* configs\missioncycle.scavenge.txt
+			* configs\missioncycle.survival.txt
+			* configs\missioncycle.versus.txt
+	</details>
 
-    3. <details><summary>刪除三方圖</summary>
+	3. <details><summary>刪除三方圖</summary>
 
-        * 每次刪除三方圖檔案的時候，我建議關閉伺服器然後刪除以下檔案
-            * configs\missioncycle.coop.txt
-            * configs\missioncycle.scavenge.txt
-            * configs\missioncycle.survival.txt
-            * configs\missioncycle.versus.txt
-        * 再重新啟動服務器，如果不這麼做那也沒關係
-    </details>
+		* 每次刪除三方圖檔案的時候，我建議關閉伺服器然後刪除以下檔案
+			* configs\missioncycle.coop.txt
+			* configs\missioncycle.scavenge.txt
+			* configs\missioncycle.survival.txt
+			* configs\missioncycle.versus.txt
+		* 再重新啟動服務器，如果不這麼做那也沒關係
+	</details>
 
 * FAQ
-    1. <details><summary>能否修改地圖順序?</summary>
+	1. <details><summary>能否修改地圖順序?</summary>
 
-        * 可以更動以下檔案的內容，改變地圖順序
-            * configs\missioncycle.coop.txt
-            * configs\missioncycle.scavenge.txt
-            * configs\missioncycle.survival.txt
-            * configs\missioncycle.versus.txt
-    </details>
+		* 可以更動以下檔案的內容，改變地圖順序
+			* configs\missioncycle.coop.txt
+			* configs\missioncycle.scavenge.txt
+			* configs\missioncycle.survival.txt
+			* configs\missioncycle.versus.txt
+	</details>

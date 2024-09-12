@@ -1,4 +1,7 @@
-// Do not delete this line! format: <Mission Name(see txt files in missions.cache folder)>
+// Mission Name List (see txt files in missions.cache folder)
+// Automatic parsing of custom maps vpk files - no need to add mission names manually
+// 地圖Mission Name列表 (Mission Name可以從missions.cache資料夾內查看)
+// 此插件會自動新增三方圖的Mission Name，無須手動新增
 L4D2C1
 L4D2C2
 L4D2C3
@@ -13,4 +16,4 @@ L4D2C11
 L4D2C12
 L4D2C13
 L4D2C14
-// 3-rd maps(Do not delete/modify this line!)
+// 3-rd maps(Do not delete/modify this line!) 三方圖列表(勿刪除或修改此行)!

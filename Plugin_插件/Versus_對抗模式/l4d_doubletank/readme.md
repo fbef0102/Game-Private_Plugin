@@ -13,7 +13,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	
 * <details><summary>How does it work?</summary>
 
 	* When player is about to be the tank (X will get tank), second tank will spawn and controlled by second infected player
@@ -43,16 +44,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point on every map in versus
-    	> 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+		> 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.1 (2024-9-8)
-	    * Fixed ghost tank
+		* Fixed ghost tank
 
 	* v1.0
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -

@@ -117,6 +117,9 @@
 
 * [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): Gives reactions to both l4d1 and 2 survivors
 
+* [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): Force L4D2 arms, names, and icons for everyone that joins.
+    - Can't guarantee that everyone will be able to get this fix
+
 - - - -
 ## Fun
 > __Note__<br/> Choose fun plugins you like

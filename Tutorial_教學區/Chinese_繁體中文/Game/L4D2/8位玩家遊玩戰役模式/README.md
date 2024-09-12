@@ -124,6 +124,9 @@
 
 * [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
 
+* [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): 修復每個人都能看到一二代角色的名子與頭像
+    - 不一定對每個人都有用
+
 - - - -
 ## 娛樂檔案
 > __Note__ 適合多人伺服器的娛樂插件
