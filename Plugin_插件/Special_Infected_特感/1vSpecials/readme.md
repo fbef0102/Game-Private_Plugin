@@ -1,5 +1,5 @@
 # Description | 內容
-Special infected incaps survivors and die + set each scratch damage + skip getup animation (Also apply to AI)
+Special infected incaps survivors and die + skip getup animation (Also apply to AI)
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -109,11 +109,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫 (AI特感也適用)
+特感控到倖存者之後造成一定傷害並處死 + 略過起身動畫 (AI特感也適用)
 
 * 原理
     * 特感控到倖存者之後造成一定傷害並自動死亡，倖存者可以繼續前進
-        * 控制每隻特感的抓傷的傷害值
         * 倖存者解除特感控制後會略過起身狀態與動畫
     * 可配合多特感強化插件達成自己一人在伺服器訓練擊殺特感
     * 真人與AI特感都適用

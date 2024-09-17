@@ -165,8 +165,8 @@
 
 * <details><summary><b>Special Infected | 特感</b></summary>
 
-  * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + set each scratch damage + skip getup animation (Also apply to AI)
-    * 特感控到倖存者之後造成一定傷害並處死 + 設置每個特感的抓傷 + 略過起身動畫 (AI特感也適用)
+  * [1vSpecials](/Plugin_插件/Special_Infected_特感/1vSpecials): Special infected incaps survivors and die + skip getup animation (Also apply to AI)
+    * 特感控到倖存者之後造成一定傷害並處死 + 略過起身動畫 (AI特感也適用)
   * [l4d_ssi_teleport_fix](/Plugin_插件/Special_Infected_特感/l4d_ssi_teleport_fix): Teleport AI Infected player to the teammate who is much nearer to survivors.
     * 傳送比較遠的AI特感到靠近倖存者的特感隊友附近
   * [l4d_si_slowdown_gunfire](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown_gunfire): Manages the gunfire slowdown for infected team  (Also apply to AI)
@@ -347,8 +347,6 @@
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
-  * [l4d_saferoom_prevent_kit](/Plugin_插件/Survivor_人類/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
-    * 在安全區域內禁止人類使用治療包
   * [antisaferoomdooropen](/Plugin_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
     * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
   * [l4d_survivor_damage_modify](/Plugin_插件/Survivor_人類/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
@@ -559,6 +557,8 @@
     * 企圖跳樓自殺的玩家將會傳送回樓頂，並封鎖踢出伺服器
   * [l4d_invalid_name](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player if has invalid name via Regular Expressions
     * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家
+  * [l4d_saferoom_prevent_kit](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
+    * 在安全區域內禁止人類使用治療包
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>

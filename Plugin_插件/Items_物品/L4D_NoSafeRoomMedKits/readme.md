@@ -21,23 +21,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/L4D_NoSafeRoomMedKits.cfg
-	```php
-	// You Can Replace Med-Kits With Either [weapon_adrenaline_spawn] Or [weapon_pain_pills_spawn] While [Empty For No Items]
-	// See more: https://developer.valvesoftware.com/wiki/List_of_L4D2_Entities
-	l4d_no_saferoom_medkits_change "weapon_pain_pills_spawn"
+		```php
+		// Enable NoSafreRoomMedKits in end saferoom [1 = Enable, 0 = Disable]
+		l4d_no_saferoom_medkits_end_enable "1"
 
-	// Enable NoSafreRoomMedKits in end saferoom [1 = Enable, 0 = Disable]
-	l4d_no_saferoom_medkits_end_enable "1"
+		// Enable NoSafreRoomMedKits in start saferoom [1 = Enable, 0 = Disable]
+		l4d_no_saferoom_medkits_start_enable "1"
 
-	// Enable NoSafreRoomMedKits in start saferoom [1 = Enable, 0 = Disable]
-	l4d_no_saferoom_medkits_start_enable "1"
+		// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Versus. Add numbers together.
+		l4d_no_saferoom_medkits_tog "0"
 
-	// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Versus. Add numbers together.
-	l4d_no_saferoom_medkits_tog "0"
-	```
+		// Replace Med-Kits With Either [weapon_adrenaline_spawn] Or [weapon_pain_pills_spawn] While [Empty For No Items]
+		// See more: https://developer.valvesoftware.com/wiki/List_of_L4D2_Entities
+		l4d_no_saferoom_medkits_change "weapon_pain_pills_spawn"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>
+
 	None
 </details>
 
@@ -49,11 +50,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Crimson_Fox @ 2009 - 2010
-	//alasfourom @ 2022
-	//Harry @ 2022
-	```
 	* v1.0h (2023-6-20)
 		* Require left4dhooks v1.33 or above
 		* Add one Convar
@@ -64,7 +60,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Added 3 Convars For Personal Use
 
 	* v1.0.1
-		* [By Crimson_Fox](https://forums.alliedmods.net/showthread.php?t=113444)
+		* [Original plugin By Crimson_Fox](https://forums.alliedmods.net/showthread.php?t=113444)
 </details>
 
 - - - -
@@ -72,11 +68,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 刪除安全室的治療包並替換成別的物品
 
 * 原理
-	* 判斷距離安全門最近的治療包，第一關沒安全門就判斷距離人類起始點位置最近的治療包
-	* 因此，安全門外如果有治療包靠得安全門很近也會受到影響
+	* 刪除起點與終點的安全室的治療包並替換成別的物品
+		* 判斷距離安全門最近的治療包，第一關沒安全門就判斷距離人類起始點位置最近的治療包
+		* 因此，安全門外如果有治療包靠得安全門很近也會受到影響
 	* 戰役模式過關之後倖存者身上的治療包不會被取代
 
-* 功能
-	1. 可設置開關取代起始安全室內的治療包
-	2. 可設置開關取代終點安全室內的治療包
-	3. 可設置取代的物品，不設置就直接刪除治療包
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/L4D_NoSafeRoomMedKits.cfg
+		```php
+		// 為1時，取代起始安全室內的治療包
+		l4d_no_saferoom_medkits_end_enable "1"
+
+		// 為1時，取代終點安全室內的治療包
+		l4d_no_saferoom_medkits_start_enable "1"
+
+		// 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=對抗. 請將數字相加起來
+		l4d_no_saferoom_medkits_tog "0"
+
+		// 寫下要取代治療包的物品或武器, 譬如: weapon_adrenaline_spawn 或 weapon_pain_pills_spawn While
+		// 空=移除治療包
+		// 查看物品與武器列表: https://developer.valvesoftware.com/wiki/List_of_L4D2_Entities
+		l4d_no_saferoom_medkits_change "weapon_pain_pills_spawn"
+		```
+</details>

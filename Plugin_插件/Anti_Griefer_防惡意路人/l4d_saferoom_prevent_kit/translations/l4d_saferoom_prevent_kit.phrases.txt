@@ -1,0 +1,108 @@
+﻿/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"start_pick" 
+	{
+		"en"		"[{olive}TS{default}] Cannot pick up {olive}Medkit{default} in {green}starting checkpoint area{default}. Please Wait"
+		"zho"		"[{olive}TS{default}] 在{green}起始安全區{default}內無法撿起{olive}治療包{default}. 請稍後再試"
+		"chi"		"[{olive}TS{default}] 在{green}起始安全区{default}内无法捡起{olive}治疗包{default}. 請稍後再試"
+	}
+	
+	"end_pick"
+	{
+		"en"		"[{olive}TS{default}] Cannot pick up {olive}Medkit{default} in {green}ending checkpoint area{default}. Please Wait"
+		"zho"		"[{olive}TS{default}] 在{green}終點安全區{default}內無法撿起{olive}治療包{default}. 請稍後再試"
+		"chi"		"[{olive}TS{default}] 在{green}终点安全区{default}内无法捡起{olive}治疗包{default}. 請稍後再試"
+	}
+	
+	"start_heal_HP"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] HP>= {green}{1}{default} in {green}starting checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}起始安全區{default}內{green}血量>={1} hp{default}，無法使用{olive}治療包{default}."
+		"chi"		"[{olive}TS{default}] 在{green}起始安全区{default}内{green}血量>={1} hp{default}，无法使用{olive}治疗包{default}."
+	}
+	
+	"start_heal_block"
+	{
+		"en"		"[{olive}TS{default}] Cannot Use {olive}Medkit{default} in {green}starting checkpoint area{default}."
+		"zho"		"[{olive}TS{default}] 在{green}起始安全區{default}內無法使用{olive}治療包{default}. 請稍後再試"
+		"chi"		"[{olive}TS{default}] 在{green}起始安全区{default}内无法使用{olive}治疗包{default}. 请稍后再试"
+	}
+	
+	"end_heal_HP"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] HP>= {green}{1}{default} in {green}ending checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}終點安全區{default}內{green}血量>={1} hp{default}，無法使用{olive}治療包{default}."
+		"chi"		"[{olive}TS{default}] 在{green}终点安全区{default}内{green}血量>={1} hp{default}，无法使用{olive}治疗包{default}."
+	}
+	
+	"end_heal_block"
+	{
+		"en"		"[{olive}TS{default}] Cannot Use {olive}Medkit{default} in {green}ending checkpoint area{default}."
+		"zho"		"[{olive}TS{default}] 在{green}終點安全區{default}內無法使用{olive}治療包{default}."
+		"chi"		"[{olive}TS{default}] 在{green}终点安全区{default}内无法使用{olive}治疗包{default}."
+	}
+	
+	"progress_heal_block"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Cannot Use {olive}Medkit{default} after {green}{1}%%{default} survivor progress."
+		"zho"		"[{olive}TS{default}] 已抵達地圖 {green}{1}%%{default} 路程，無法使用{olive}治療包{default}."
+		"chi"		"[{olive}TS{default}] 已抵达地图 {green}{1}%%{default} 路程，无法使用{olive}治疗包{default}."
+	}
+	
+	"out_heal_HP"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] HP>= {green}{1}{default} outside {green}checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}安全區{default}外{green}血量>={1} hp{default}，無法使用{olive}治療包{default}."
+		"chi"		"[{olive}TS{default}] 在{green}安全区{default}外{green}血量>={1} hp{default}，无法使用{olive}治疗包{default}."
+	}
+	
+	"start_heal_HP_target"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Target HP>= {green}{1}{default} in {green}starting checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}起始安全區{default}內{green}對方血量>={1} hp{default}，無法{olive}治療{default}."
+		"chi"		"[{olive}TS{default}] 在{green}起始安全区{default}内{green}對方血量>={1} hp{default}，无法{olive}治疗{default}."
+	}
+	
+	"end_heal_HP_target"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Target HP>= {green}{1}{default} in {green}ending checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}終點安全區{default}內{green}對方血量>={1} hp{default}，無法{olive}治療{default}."
+		"chi"		"[{olive}TS{default}] 在{green}终点安全区{default}内{green}對方血量>={1} hp{default}，无法{olive}治疗{default}."
+	}
+	
+	"out_heal_HP_target"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Target HP>= {green}{1}{default} outside {green}checkpoint area{default}. Unable to heal."
+		"zho"		"[{olive}TS{default}] 在{green}安全區{default}外{green}對方血量>={1} hp{default}，無法{olive}治療{default}."
+		"chi"		"[{olive}TS{default}] 在{green}安全区{default}外{green}對方血量>={1} hp{default}，无法{olive}治疗{default}."
+	}
+}
