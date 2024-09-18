@@ -53,7 +53,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// How much distance range between attacker and victim are immune to ff. (0=Off)
 		l4d_rpg_friendly_fire_immune_range "30"
 
-		// Victim counter default for victim. (0=No Reduced Damage)
+		// Victim counter default for victim. (0=Take Damage, No Reduced. -1:No FF Damage)
 		l4d_rpg_friendly_fire_protect_divide "1.0"
 
 		// Attack counter default for attacker. (0=No Reflect Damage)
@@ -134,6 +134,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.1 (2024-9-18)
+		* Update cvars
+
 	* v2.0 (2024-8-7)
 		* Add Gamedata
 		* Optimize code and improve performance
@@ -198,7 +201,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 雙方在此範圍內不會受到傷害 (0=關閉這項功能)
 		l4d_rpg_friendly_fire_immune_range "30"
 
-		// 受害者身上的victim計數器的預設值. (0=受害者不減傷)
+		// 受害者身上的victim計數器的預設值. (0=受害者依然會受友傷，傷害不會遞減減少. -1=受害者不會受傷)
 		l4d_rpg_friendly_fire_protect_divide "1.0"
 
 		// 攻擊者身上的attack計數器的預設值. (0=攻擊者不會受到反彈傷害)
