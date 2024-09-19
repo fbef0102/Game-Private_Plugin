@@ -78,6 +78,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=No Damage, 1=Damage inflicted to attacker + Add counter
 		l4d_rpg_friendly_fire_godframe_handle "0"
 
+		// FF damage to player when in saferoom
+		// 0=No Damage, 1=Damage inflicted to attacker + Add counter
+		l4d_rpg_friendly_fire_saferoom_handle "0"
+
 		// FF damage to Bot
 		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
 		l4d_rpg_friendly_fire_bot_handle "2"
@@ -134,6 +138,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.2 (2024-9-19)
+		* Fixed crash
+		* Update cvars
+		
 	* v2.1 (2024-9-18)
 		* Update cvars
 
@@ -225,6 +233,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 如果受害者正在處於無敵狀態
 		// 0=無傷, 1=反彈傷害並增加計數器
 		l4d_rpg_friendly_fire_godframe_handle "0"
+
+		// 如果受害者或攻擊者正在安全室
+		// 0=無傷, 1=反彈傷害並增加計數器
+		l4d_rpg_friendly_fire_saferoom_handle "0"
 
 		// 如果受害者是AI Bot
 		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器

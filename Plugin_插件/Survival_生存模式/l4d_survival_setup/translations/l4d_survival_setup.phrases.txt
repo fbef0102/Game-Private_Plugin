@@ -1,5 +1,19 @@
-﻿"Phrases"
+"Phrases"
 {
+	"Setup Enabled"
+	{
+		"zho"		"自動裝備: {green}已開啟"
+		"chi"		"自动装备: {green}已开启"
+		"en"		"{green}Auto Setup Enabled"
+	}
+
+	"Setup Disabled"
+	{
+		"zho"		"自動裝備: {green}已關閉"
+		"chi"		"自动装备: {green}已关闭"
+		"en"		"{green}Auto Setup Disabled"
+	}
+
 	"Auto Setup Menu"
 	{
 		"zho"		"生存裝備設定介面"
@@ -48,6 +62,28 @@
 		"chi"		"设定投掷物品"
 		"en"		"Define Throwable Setup"
 	}
+
+	"Remove Primary Weapon"
+	{
+		"zho"		"移除主武器"
+		"chi"		"移除主武器"
+		"en"		"Remove Primary Weapon"
+	}
+
+	"Remove Secondary Weapon"
+	{
+		"zho"		"移除副武器"
+		"chi"		"移除副武器"
+		"en"		"Remove Secondary Weapon"
+	}
+
+	"Remove Throwable Setup"
+	{
+		"zho"		"移除投擲物品"
+		"chi"		"移除投掷物品"
+		"en"		"Remove Throwable Setup"
+	}
+
 	"Primary Weapon"
 	{
 		"zho"		"主武器"
