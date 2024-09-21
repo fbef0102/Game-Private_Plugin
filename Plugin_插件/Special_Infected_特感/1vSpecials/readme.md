@@ -61,10 +61,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, this plugin removes god frame when damaged by special infected.
         1vSpecials_remove_godframe "1"
 
-        // Delay time Charger makes damage and suicides after carry the victim
+        // Delay time Charger makes damage and suicides after carry the victim (0=Game default)
         1vSpecials_charger_carry_delay "0.2"
 
-        // Delay time Smoker makes damage and suicides after grab the victim (Useful in coop/realism)
+        // Delay time Smoker makes damage and suicides after grab the victim (Useful in coop/realism, 0=Game default)
         1vSpecials_smoker_grab_delay "1.0"
         ```
 </details>
@@ -82,7 +82,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-    1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns infected bots in L4D1 versus, and gives greater control of the infected bots in L4D1/L4D2 without being limited by the director.
+    1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
         * 生成多特感控制插件
     2. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
         * 增強特感攻擊行為
@@ -151,10 +151,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，移除人類解除特感控制後的無敵狀態 (運作更順暢)
         1vSpecials_remove_godframe "1"
 
-        // Charger衝刺帶走倖存者時, 多少秒數之後造成傷害並強制自殺
+        // Charger衝刺帶走倖存者時, 多少秒數之後造成傷害並強制自殺 (0=遊戲預設)
         1vSpecials_charger_carry_delay "0.2"
 
-        // Smoker拉走倖存者時, 多少秒數之後造成傷害並強制自殺 (適合用在 戰役/寫實模式)
+        // Smoker拉走倖存者時, 多少秒數之後造成傷害並強制自殺 (適合用在 戰役/寫實模式, 0=遊戲預設)
         1vSpecials_smoker_grab_delay "1.0"
         ```
 </details>

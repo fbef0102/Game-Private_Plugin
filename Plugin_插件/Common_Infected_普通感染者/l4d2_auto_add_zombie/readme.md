@@ -126,8 +126,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 創造5位以上倖存者遊玩伺服器
 	2. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
 		* 多特感生成插件，倖存者人數越多，生成的特感越多，且不受遊戲特感數量限制 + 解除特感隊伍的人數限制 (可達成對抗 10 VS 10 玩法)
-	3. [Common Limiter](https://forums.alliedmods.net/showthread.php?t=338337): Limit number of common infected to the z_common_limit cvar value
-		* 地圖上的殭屍數量不會超過指令設定的數值 (以防止地圖狂刷殭屍數量)
+	3. [Max Common](https://forums.alliedmods.net/showthread.php?t=347871): Limits number of common infected to 'z_common_limit', attempts to avoid vanilla director conflict.
+		* 地圖上的殭屍數量不會超過指令設定的數值 (以防止地圖腳本狂刷殭屍數量)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

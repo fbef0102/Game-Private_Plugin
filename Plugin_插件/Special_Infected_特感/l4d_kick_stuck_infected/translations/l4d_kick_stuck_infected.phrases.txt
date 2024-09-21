@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"killed (C)"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] {red}{1}{default} has been killed due to inactivity."
+		"zho"		"[{olive}TS{default}] {red}{1}{default} 因為閒置而處死."
+		"chi"		"[{olive}TS{default}] {red}{1}{default} 因为闲置而处死."
+	}
+	
+	"killed"
+	{
+		"#format"	"{1:N}"
+		"en"		"[TS] {1} has been killed due to inactivity."
+		"zho"		"[TS] {1} 因為閒置而處死."
+		"chi"		"[TS] {1} 因为闲置而处死."
+	}
+
+	"kicked (C)"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] {red}{1}{default} has been kicked due to inactivity."
+		"zho"		"[{olive}TS{default}] {red}{1}{default} 因為閒置而踢出伺服器."
+		"chi"		"[{olive}TS{default}] {red}{1}{default} 因为闲置而踢出服务器."
+	}
+	
+	"kicked"
+	{
+		"#format"	"{1:N}"
+		"en"		"[TS] {1} has been kicked due to inactivity."
+		"zho"		"[TS] {1} 因為閒置而處死."
+		"chi"		"[TS] {1} 因为闲置而处死."
+	}
+}

@@ -31,7 +31,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Slay which team bots. (1=Survivor, 2=Infected, 3=Both)
 		slay_bots_team_bots "3"
 
-		// If 1, block slay command once survivors leaving saferoom or survival begins
+		// Delay to slay bots when using !nb cmd
+		slay_bots_delay "3.0"
+
+		// If 1, block slay command after game starts (survivors leaving saferoom / survival or scavenge begins)
 		slay_bots_game_block "0"
 		```
 </details>
@@ -57,7 +60,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2024-9-21)
+		* Support Translation
+		* Update cvars
 
 	* v1.0 (2022-12-21)
 		* Initial Release
@@ -86,6 +102,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 處死哪個隊伍的bots? (1=人類, 2=特感, 3=雙方隊伍)
 		slay_bots_team_bots "3"
+
+		// 使用!nb指令傳送bots到玩家身邊後等待x秒才處死
+		slay_bots_delay "3.0"
 
 		// 為1時，遊戲開始之後，禁止使用指令處死Bots
 		// 遊戲開始是指 1. 玩家離開安全室 2. 生存模式計時開始 3. 清道夫模式計時開始

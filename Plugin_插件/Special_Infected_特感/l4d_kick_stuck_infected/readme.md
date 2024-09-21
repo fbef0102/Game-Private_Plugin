@@ -63,6 +63,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_ssi_teleport_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_ssi_teleport_fix): Teleport AI Infected player (Not Tank) to the teammate who is much nearer to survivors.
@@ -71,16 +80,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-9-21)
+		* Support Translation
+
 	* v1.1
 		* Kick infected if considered stucked when they are not moving.
 		* Add cvars
-			```c
-			l4d_kick_stuck_infected_hurt_infected_reset "1"
-			l4d_kick_stuck_infected_hurt_survivor_reset "1"
-			l4d_kick_stuck_infected_move_check_interval "1.0"
-			l4d_kick_stuck_infected_move_radius_reset "30"
-			l4d_kick_stuck_infected_use_ability_reset "1"
-			```
 
 	* v1.0
 		* Initial Release

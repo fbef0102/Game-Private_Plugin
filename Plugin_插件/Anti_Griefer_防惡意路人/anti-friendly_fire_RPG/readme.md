@@ -50,9 +50,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Changes how ff announce displays FF damage. (1:In chat; 2: In Hint Box; 3: In center text)
 		l4d_rpg_ff_announce_type "2"
 
-		// How much distance range between attacker and victim are immune to ff. (0=Off)
-		l4d_rpg_friendly_fire_immune_range "30"
-
 		// Victim counter default for victim. (0=Take Damage, No Reduced. -1:No FF Damage)
 		l4d_rpg_friendly_fire_protect_divide "1.0"
 
@@ -72,45 +69,82 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_rpg_friendly_fire_damage_limit "100"
 
 		// If attacker is a new player who just joins the server, time in seconds to disable ff damage from him. (0=Off)
-		l4d_rpg_friendly_fire_connect_player_disable_time "30"
-
-		// FF damage to GodFrame player
-		// 0=No Damage, 1=Damage inflicted to attacker + Add counter
-		l4d_rpg_friendly_fire_godframe_handle "0"
-
-		// FF damage to player when in saferoom
-		// 0=No Damage, 1=Damage inflicted to attacker + Add counter
-		l4d_rpg_friendly_fire_saferoom_handle "0"
-
-		// FF damage to Bot
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_bot_handle "2"
-
-		// FF damage to incap player
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_incap_handle "0"
-
-		// FF flame damage to player
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_flame_handle "1"
-
-		// FF Pipe Bomb, Propane Tank, and Oxygen Tank damage to player
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_exlode_handle "1"
-
-		// (L4D2) FF damage with melee weapons/chainsaw to player
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_melee_handle "1"
-
-		// (L4D2) FF Grenade Launcher damage to player
-		// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
-		l4d_rpg_friendly_fire_GL_handle "1"
+		l4d_rpg_friendly_fire_connect_player_disable_time "30.0"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
 	None
+</details>
+
+* <details><summary>Data Config</summary>
+  
+	* ```data/anti-friendly_fire_RPG.cfg```
+		```php
+		"anti-friendly_fire_RPG"
+		{
+			// Apply the following settings if FF damage to standing survivor (Not incap, Not hanging from ledge)
+			"standing"
+			{
+				// How much distance range between attacker and victim are immune to ff (0=Off)
+				"immune_range"		"30.0"
+				
+				// If 1, Immune FF damage when victim is in start safe zone (0=Off)
+				"immune_start_checkpoint"	"1"
+				
+				// If 1, Immune FF damage when victim is in end safe zone (0=Off)
+				"immune_end_checkpoint"	"1"
+				
+				// If victim is in god frame
+				// 0=No Damage, 1=Damage inflicted to attacker + Add counter
+				"godframe_handle"	"0"
+				
+				// FF damage to AI Bot
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"bot_handle"		"2"
+				
+				// How to handle flame damage?
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"flame" 			"1"
+				
+				// How to handle FF Pipe Bomb, Propane Tank, and Oxygen Tank damage?
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"explode"			"0"
+				
+				// How to handle FF Gun damage?
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"weapon"			"2"
+				
+				// (L4D2) How to handle FF Melee/Chainsaw damage?
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"melee"				"1"
+				
+				// (L4D2) How to handle Grenade Launcher damage?
+				// 0=No Damage, 1=Normal damage + No counter, 2=Modify damage + Add counter
+				"grenade_launcher"	"0"
+			}
+			
+			
+			// Apply the following settings if FF damage to incap survivor
+			"incap"
+			{
+				...
+			}
+			
+			// Apply the following settings if FF damage to survivor who hanging from ledge
+			"hang"
+			{
+				...
+			}
+			
+			// Apply the following settings if FF damage to survivor who was carried by charger
+			"charger_carry"
+			{
+				...
+			}
+		}
+		```
 </details>
 
 * Apply to | 適用於
@@ -128,15 +162,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
-* <details><summary>Similar Plugin | 相似插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
-		> 簡單版反傷插件
+		* 簡單版反傷插件
 	2. [anti-friendly_fire_V2](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
-		> 簡單版反傷插件，第二版本
+		* 簡單版反傷插件，第二版本
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.3 (2024-9-21)
+		* Add data config
+		* Update cvars
 
 	* v2.2 (2024-9-19)
 		* Fixed crash
@@ -206,9 +244,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 傷害提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_rpg_ff_announce_type "2"
 
-		// 雙方在此範圍內不會受到傷害 (0=關閉這項功能)
-		l4d_rpg_friendly_fire_immune_range "30"
-
 		// 受害者身上的victim計數器的預設值. (0=受害者依然會受友傷，傷害不會遞減減少. -1=受害者不會受傷)
 		l4d_rpg_friendly_fire_protect_divide "1.0"
 
@@ -228,38 +263,75 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_rpg_friendly_fire_damage_limit "100"
 
 		// 玩家進來的30秒內不會對其他人造成友傷 (0=關閉這項功能)
-		l4d_rpg_friendly_fire_connect_player_disable_time "30"
+		l4d_rpg_friendly_fire_connect_player_disable_time "30.0"
+		```
+</details>
 
-		// 如果受害者正在處於無敵狀態
-		// 0=無傷, 1=反彈傷害並增加計數器
-		l4d_rpg_friendly_fire_godframe_handle "0"
-
-		// 如果受害者或攻擊者正在安全室
-		// 0=無傷, 1=反彈傷害並增加計數器
-		l4d_rpg_friendly_fire_saferoom_handle "0"
-
-		// 如果受害者是AI Bot
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_bot_handle "2"
-
-		// 如果受害者是倒地玩家
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_incap_handle "0"
-
-		// 火焰友傷
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_flame_handle "1"
-
-		// 土製炸彈、瓦斯桶、氧氣罐友傷
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_exlode_handle "1"
-
-		// (L4D2) 近戰武器/電鋸友傷
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_melee_handle "1"
-
-		// (L4D2) 榴彈發射器友傷
-		// 0=無傷, 1=正常傷害，不增加計數器, 2=修改傷害並增加計數器
-		l4d_rpg_friendly_fire_GL_handle "1"
+* <details><summary>文件設定範例</summary>
+  
+	* ```data/anti-friendly_fire_RPG.cfg```
+		```php
+		"anti-friendly_fire_RPG"
+		{
+			// 站著的倖存者受到友傷時(未倒地, 未掛邊)，適用以下設置
+			"standing"
+			{
+				// 與隊友距離多近不會造成友傷 (0=關閉).
+				"immune_range"		"30.0"
+				
+				// 為1時, 受害者在起始安全室內不會受到友傷 (0=關閉這項功能)
+				"immune_start_checkpoint"	"1"
+				
+				// 為1時, 受害者在終點安全室內不會受到友傷 (0=關閉這項功能)
+				"immune_end_checkpoint"	"1"
+				
+				// 如果受害者正在處於無敵狀態
+				// 0=無傷, 1=反傷+增加計數器
+				"godframe_handle"	"0"
+				
+				// 如果受害者是AI Bot
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"bot_handle"		"2"
+				
+				// 火 造成的友傷如何處置?
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"flame" 			"1"
+				
+				// 土製炸彈、瓦斯罐、氧氣罐 造成的友傷如何處置?
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"explode"			"0"
+				
+				// 槍械 造成的友傷如何處置? 
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"weapon"			"2"
+				
+				// 近戰武器/電鋸 造成的友傷如何處置?
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"melee"				"1"
+				
+				// 榴彈發射器 造成的友傷如何處置?
+				// 0=無傷, 1=不減傷、不反傷、不增加計數器, 2=減傷+反傷+增加計數器
+				"grenade_launcher"	"0"
+			}
+			
+			
+			// 倒地的倖存者受到友傷時，適用以下設置
+			"incap"
+			{
+				...
+			}
+			
+			// 掛邊的倖存者受到友傷時，適用以下設置
+			"hang"
+			{
+				...
+			}
+			
+			// 被Charger衝鋒帶走的倖存者受到友傷時，適用以下設置
+			"charger_carry"
+			{
+				..
+			}
+		}
 		```
 </details>

@@ -51,10 +51,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "replace"			"****" // Replace the matches with a string
                 "warn"				"Don't say that!" // Warn the client they are violating the matching rules
                 "action"			"sm_slap #%u 30"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
-                "limit"				"3" // Limit the amount of times such a pattern may be spoken
-                "forgive"			"4000" //Allow for forgiveness of one violation every x seconds
-                "punish"			"sm_ban #%u 180 #%r" // Enforce the limit with a punishment RCON command
-                "immunity"          "z" //Allow admins with specified levels to be immune
+		
+                // 3 times dirty words within 4000 seconds, player will be banned 180 mins
+                "limit"				"3"
+                "forgive"			"4000"
+                "punish"			"sm_ban #%u 180 #%r" //A punishment (RCON command)
+                
+                //Allow admins with specified levels to be immune (Empty = Everyone, -1: Nobody)	
+                "immunity"          "z" 
             }	
         }
         ```
@@ -95,10 +99,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    ```php
-    //Twilight Suzuka @ 2009
-    //Harry @ 2022-2024
-    ```
+    * v1.4h (2024-9-21)
+        * Fix memory leak
+        * Optimize code
+
     * v1.3h (2024-8-3)
         * Require simple_chatprocessor 1.8h or above
 
@@ -120,6 +124,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         * Remake Code
         * Add "replaceall" option
         * Fix memory leak
+
     * v1.2
         * [By Twilight Suzuka](https://forums.alliedmods.net/showthread.php?t=71867)
 </details>
@@ -176,7 +181,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "forgive"           "4000"
                 "punish"            "sm_ban #%u 180 '脏话太多，已被封禁3小时'"
 
-                //有這個權限的管理員不受到審查
+                //有這個權限的管理員不受到審查 (空 = 所有人不受審查, -1: 所有人受審查)
                 "immunity"          "z"
             }	
         }

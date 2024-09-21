@@ -1,0 +1,32 @@
+"Phrases"
+{
+	"Access"
+	{
+		"en"		"[TS] You don't have access to slay bots"
+		"zho"		"[TS] 你沒有權限"
+		"chi"		"[TS] 你沒有權限"
+	}
+	
+	"Game"
+	{
+		"en"		"[TS] Can't use this while round is live"
+		"zho"		"[TS] 遊戲開始後無法使用"
+		"chi"		"[TS] 游戏开始后无法使用"
+	}
+	
+	"slay_all_bots (C)"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] {lightgreen}{1}{default} slays all bots"
+		"zho"		"[{olive}TS{default}] {lightgreen}{1}{default} 處死所有的bots"
+		"chi"		"[{olive}TS{default}] {lightgreen}{1}{default} 处死所有的bots"
+	}
+	
+	"slay_all_bots"
+	{
+		"#format"	"{1:N}"
+		"en"		"[TS] {1} slays all bots"
+		"zho"		"[TS] {1} 處死所有的bots"
+		"chi"		"[TS] {1} 处死所有的bots"
+	}
+}

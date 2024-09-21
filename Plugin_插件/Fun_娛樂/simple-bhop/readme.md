@@ -11,7 +11,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>How does it work?</summary>
 
@@ -76,10 +77,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//ReFlexPoison @ 2013
-	//Harry @ 2023
-	```
+	* v1.5 (2024-9-21)
+		* Fixed client can bhop while pinned by infected or incapacitated
+
 	* v1.4 (2023-8-15)
 		* Players don't have to type !bhop every new map
 

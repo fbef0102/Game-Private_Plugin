@@ -7,24 +7,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * [Video | 影片展示](https://youtu.be/B1oghdYb_gE)
 
-* Image | 圖示
+* <details><summary>Image</summary>
+
 	<br/>![teamlock_vote_1](image/teamlock_vote_1.jpg)
 	<br/>![teamlock_vote_2](image/teamlock_vote_2.jpg)
+	<br/>![teamlock_vote_3](image/teamlock_vote_3.jpg)
+</details>
 
 * <details><summary>How does it work?</summary>
 
 	* Before game starts
 		* Every can switch team
-	* After game starts or round is live, server will "lock the team"
-		* Only the infected players or survivor players can switch team
-		* All other spectators can not join the team and play
+	* After game starts, server will "lock the team"
+		* Record the infected/survivor players on the whitelisted. Whitelisted still work even if they leave and rejoin the server
+		* Only the whitelisted players can switch team and play
+		* All other players can not join the team
 	* "Game starts" meaning
 		* Survivors leave the saferoom
 		* Survival starts
 		* Scavenge starts
 		* Everyone is ready (Support readyup plugin)
-	* After map end or round end, every can switch team
-	* Record Steam ID, the infected players or survivor players can switch team even if they leave and rejoin the server
+	* No other players will be able to join the survivor/infected team until ether:
+		* Round end
+		* Players vote to disable teamlock
+		* Whitelisted players have all left the server
 </details>
 
 * Require | 必要安裝
@@ -45,17 +51,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Numbers of real survivor and infected player required to start a teamlock vote.
 		teamlock_vote_required "2"
 
-		// If 1, players can not start teamlock vote after game starts/survival begins.
+		// If 1, players can not start teamlock vote after game starts (survivors leaving saferoom / survival or scavenge begins).
 		teamlock_vote_game_block "1"
 
-		// Enable teamlock by default? [1-Enable/0-Disable]
-		teamlock_vote_default_value "0"
+		// Enable teamlock by default?
+		// 0=Disable, 1=Only when round is live
+		teamlock_vote_default_value "1"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
-	* **Calls a vote to enable / disable locking teams (No one can switch team)**
+	* **Calls a vote to enable / disable locking teams**
 		```php
 		sm_teamlock
 		```
@@ -67,6 +74,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* <details><summary>Translation Support | 支援翻譯</summary>
+
+	```
+	English
+	繁體中文
+	简体中文
+	```
+</details>
+
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [readyup](/Plugin_插件/Server_伺服器/readyup): Ready Plugin
@@ -74,6 +90,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2024-9-21)
+		* Support Translation
+		* Add menu
+		* Add continuous lock
 
 	* v1.2 (2023-5-23)
 		* Support readyup
@@ -89,24 +110,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 遊戲開始後旁觀者或路人不能跳隊到倖存者或感染者遊玩
 
+* <details><summary>圖示</summary>
+
+	<br/>![zho/teamlock_vote_1](image/zho/teamlock_vote_1.jpg)
+	<br/>![zho/teamlock_vote_2](image/zho/teamlock_vote_2.jpg)
+	<br/>![zho/teamlock_vote_3](image/zho/teamlock_vote_3.jpg)
+</details>
+
 * 原理
 	* 遊戲開始之前
 		* 任何人可以自由切換隊伍
 	* 當遊戲開始時啟動"隊伍鎖住功能"
-		* 只有倖存者玩家或特感玩家可以自由切換隊伍
-		* 其他旁觀者人不能跳隊下去遊玩
+		* 紀錄倖存者/感染者的真人玩家在鎖定名單上，即使玩家離開後重進伺服器，鎖定名單依然有效
+		* 只有鎖定名單上的玩家可以自由切換隊伍並遊玩
+		* 閒置玩家也會被記錄在鎖定名單上
+		* 旁觀者其他人(不在鎖定名單上的)不能跳隊下去遊玩
 	* 這裡指的"遊戲開始"是
 		1. 戰役/對抗/寫實中離開安全室
 		2. 生存模式計時開始
 		3. 清道夫模式計時開始
-		4. 所有人準備之前 (支援準備插件)
-	* 回合重新開始時名單會清除重置，任何人可以自由切換隊伍
-	* 插件會紀錄玩家的Steam ID，意思是說即使倖存者玩家與特感玩家離開伺服器重進遊戲，依然可以自由切換隊伍
-	* 當伺服器內沒有任何被插件記錄的玩家時，關閉"隊伍鎖住功能"，任何人可以自由切換隊伍
-	* 閒置玩家不會被影響
+		4. 所有人準備之後 (支援準備插件)
+	* 以下時間點重置鎖定名單，任何人可以自由切換隊伍
+		1. 新的回合開始時
+		2. 當伺服器內沒有玩家時
+		3. 投票關閉
 
 * 用意在哪
-	* 防止傻B路人在遊戲中途跳隊下去遊玩搗亂
+	* 防止傻B路人在遊戲中途跳隊遊玩搗亂
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -122,16 +152,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		teamlock_vote_required "2"
 
 		// 為1時，遊戲開始後不能發起 "隊伍鎖住功能" 投票
+		// 遊戲開始是指 1. 玩家離開安全室 2. 生存模式計時開始 3. 清道夫模式計時開始 4. 所有人準備之後 (支援準備插件)
 		teamlock_vote_game_block "1"
 
-		// 伺服器啟動時，預設打開 "隊伍鎖住功能"? [1-打開/0-關閉]
-		teamlock_vote_default_value "0"
+		// 伺服器啟動時，預設的 "隊伍鎖住功能"
+		// 0=關閉, 1=遊戲開始才鎖定 (Only when round is live)
+		teamlock_vote_default_value "1"
 		```
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 	
-	* **發起 "隊伍鎖住功能" 投票，開啟或關閉**
+	* **發起 "隊伍鎖住功能" 投票**
 		```php
 		sm_teamlock
 		```

@@ -31,45 +31,73 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Changes how ff announce displays FF damage. (0: Off, 1:In chat; 2: In Hint Box; 3: In center text)
 		anti-friendly_fire_V2_announce_type "1"
-
-		// How to handle FF flame damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_fire_flag "1"
-
-		// How to handle FF Pipe Bomb, Propane Tank, and Oxygen Tank damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_explode_flag "0"
-
-		// How to handle FF Gun damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_weapon_flag "3"
-
-		// How to handle FF damage to incapacitated player ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_incap_flag "1"
-
-		// How to handle FF damage to hanging from ledge player ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_hang_flag "1"
-
-		// (L4D2) How to handle FF Melee/Chainsaw damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_melee_flag "1"
-
-		// (L4D2) How to handle FF damage to player who is carried by charger ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_charger_flag "1"
-
-		// (L4D2) How to handle Grenade Launcher damage ? 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-		anti-friendly_fire_V2_apply_GL_flag "1"
-
-		// How much distance range between attacker and victim are immune to ff (0=Off).
-		anti-friendly_fire_V2_immune_range "50.0"
-
-		// Immune FF damage when in saferoom 
-		// 1=Start Safe room
-		// 2=End Safe room
-		// 3=Both
-		anti-friendly_fire_V2_saferoom "3"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 	
 	None
+</details>
+
+* <details><summary>Data Config</summary>
+  
+	* ```data/anti-friendly_fire_V2.cfg```
+		```php
+		"anti-friendly_fire_V2"
+		{
+			// Apply the following settings if FF damage to standing survivor (Not incap, Not hanging from ledge)
+			"standing"
+			{
+				// How much distance range between attacker and victim are immune to ff (0=Off)
+				"immune_range"		"50.0"
+				
+				// If 1, Immune FF damage when victim is in start safe zone (0=Off)
+				"immune_start_checkpoint"	"1"
+				
+				// If 1, Immune FF damage when victim is in end safe zone (0=Off)
+				"immune_end_checkpoint"	"1"
+				
+				// How to handle flame damage?
+				// 0=Game behavior 1=immune no damage, 2=reflect damage, add numbers together
+				"flame" 			"1"
+				
+				// How to handle FF Pipe Bomb, Propane Tank, and Oxygen Tank damage?
+				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+				"explode"			"0"
+				
+				// How to handle FF Gun damage?
+				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+				"weapon"			"3"
+				
+				// (L4D2) How to handle FF Melee/Chainsaw damage?
+				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+				"melee"				"1"
+				
+				// (L4D2) How to handle Grenade Launcher damage?
+				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
+				"grenade_launcher"	"1"
+			}
+			
+			
+			// Apply the following settings if FF damage to incap survivor
+			"incap"
+			{
+				...
+			}
+			
+			// Apply the following settings if FF damage to survivor who hanging from ledge
+			"hang"
+			{
+				...
+			}
+			
+			// Apply the following settings if FF damage to survivor who was carried by charger
+			"charger_carry"
+			{
+				...
+			}
+		}
+		```
 </details>
 
 * Apply to | 適用於
@@ -87,15 +115,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
-* <details><summary>Similar Plugin | 相似插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 	
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
-		> 簡單版反傷插件
+		* 簡單版反傷插件
 	2. [anti-friendly_fire_RPG](/Plugin_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
-		> 反傷插件，但是有更多的功能
+		* 反傷插件，但是有更多的功能
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.9 (2024-9-21)
+		* Add data config
+		* Update cvars
 
 	* v1.8 (2024-8-7)
 		* Add Gamedata
@@ -136,39 +168,66 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 如何顯示友傷提示. (0=關閉, 1:聊天視窗; 2: Hint視窗; 3: 畫面中心)
 		anti-friendly_fire_V2_announce_type "1"
+		```
+</details>
 
-		// 火 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_fire_flag "1"
-
-		// 土製炸彈、瓦斯罐、氧氣罐 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_explode_flag "0"
-
-		// 槍械 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_weapon_flag "3"
-
-		// 倒地玩家 受到友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_incap_flag "1"
-
-		// 掛邊玩家 受到友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_hang_flag "1"
-
-		// (L4D2) 近戰武器/電鋸 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_melee_flag "1"
-
-		// (L4D2) 被Charger抓住的玩家 受到友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_charger_flag "1"
-
-		// (L4D2) 榴彈發射器 造成的友傷如何處置? 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-		anti-friendly_fire_V2_apply_GL_flag "1"
-
-		// 與隊友距離多近不會造成友傷 (0=關閉).
-		anti-friendly_fire_V2_immune_range "50.0"
-
-		// 在安全室內不會造成友傷
-		// 1=起始安全室
-		// 2=終點安全室
-		// 3=起始+終點安全室
-		anti-friendly_fire_V2_saferoom "3"
+* <details><summary>文件設定範例</summary>
+  
+	* ```data/anti-friendly_fire_V2.cfg```
+		```php
+		"anti-friendly_fire_V2"
+		{
+			// 站著的倖存者受到友傷時(未倒地, 未掛邊)，適用以下設置
+			"standing"
+			{
+				// 與隊友距離多近不會造成友傷 (0=關閉).
+				"immune_range"		"50.0"
+				
+				// 為1時, 受害者在起始安全室內不會受到友傷 (0=關閉這項功能)
+				"immune_start_checkpoint"	"1"
+				
+				// 為1時, 受害者在終點安全室內不會受到友傷 (0=關閉這項功能)
+				"immune_end_checkpoint"	"1"
+				
+				// 火 造成的友傷如何處置?
+				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+				"flame" 			"1"
+				
+				// 土製炸彈、瓦斯罐、氧氣罐 造成的友傷如何處置?
+				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+				"explode"			"0"
+				
+				// 槍械 造成的友傷如何處置? 
+				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+				"weapon"			"3"
+				
+				// 近戰武器/電鋸 造成的友傷如何處置?
+				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+				"melee"				"1"
+				
+				// 榴彈發射器 造成的友傷如何處置?
+				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
+				"grenade_launcher"	"1"
+			}
+			
+			// 倒地的倖存者受到友傷時，適用以下設置
+			"incap"
+			{
+				...
+			}
+			
+			// 掛邊的倖存者受到友傷時，適用以下設置
+			"hang"
+			{
+				...
+			}
+			
+			// 被Charger衝鋒帶走的倖存者受到友傷時，適用以下設置
+			"charger_carry"
+			{
+				...
+			}
+		}
 		```
 </details>
 

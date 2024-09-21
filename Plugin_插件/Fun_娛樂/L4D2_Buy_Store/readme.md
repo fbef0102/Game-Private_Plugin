@@ -450,7 +450,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fix translation
 
 	* v5.3 (2024-2-16)
-		* Reduce moeny if tank players lose control
+		* Reduce money if tank players lose control
 		* Update Cvars
 
 	* v5.2 (2023-11-7)
