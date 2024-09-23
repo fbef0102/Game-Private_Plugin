@@ -130,13 +130,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart):Download and play custom music in game
+	1. [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987): LMC Allows you to use most models with most characters
+		* 可以自由變成其他角色或NPC的模組
+	2. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart): Download and play custom music in game
 		* 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
-	2. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
+	3. [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): Allows admins to place any decals into the map that are defined in the the config and save them permanently for each map
 		* 允許管理員將任何塗鴉放置在配置中定義的地圖中，並為每個地圖永久保存它們
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5h (2024-9-23)
+		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
 
 	* v1.4h (2024-5-8)
 		* Update Translation
@@ -274,10 +279,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 將"models" 和 "sound"資料夾上傳到網空伺服器
 			* 如果你是 L4D1，```your-content-server.com/game/left4dead/models/``` 和 ```your-content-server.com/game/left4dead/sound/```
 			* 如果你是 L4D2，```your-content-server.com/game/left4dead2/models/``` 和 ```your-content-server.com/game/left4dead2/sound/```
-		* 將"models" 和 "sound"資料夾複製到您的遊戲伺服器資料夾上。
+		* 將"models" 和 "sound"資料夾複製到您的伺服器資料夾上。
 			* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead\models\``` 和 ```Left 4 Dead Dedicated Server\left4dead\sound\```
 			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2\models\``` 和 ```Left 4 Dead 2 Dedicated Server\left4dead\sound\```
-		* 將"models" 和 "sound"資料夾上傳到您的遊戲資料夾（用於測試）。
+		* 將"models" 和 "sound"資料夾上傳到您的遊戲本地資料夾（用於測試）。
 			* 如果你是 L4D1，```left 4 dead\left4dead\models\``` 和 ```left 4 dead\left4dead\sound\```
 			* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
 		

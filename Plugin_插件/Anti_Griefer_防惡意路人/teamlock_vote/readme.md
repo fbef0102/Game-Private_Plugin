@@ -57,6 +57,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Enable teamlock by default?
 		// 0=Disable, 1=Only when round is live
 		teamlock_vote_default_value "1"
+
+		// If 1, vote to disable teamlock directly instead of meny when use !teamlock cmd
+		teamlock_vote_disable_no_menu "1"
 		```
 </details>
 
@@ -65,6 +68,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Calls a vote to enable / disable locking teams**
 		```php
 		sm_teamlock
+		```
+
+	* **Check team lock list in console**
+		```php
+		sm_teamlock_list
 		```
 </details>
 
@@ -90,6 +98,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2024-9-23)
+		* Update Translation
+		* Add cmd
+		* Update cvars
 
 	* v1.3 (2024-9-21)
 		* Support Translation
@@ -120,7 +133,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 遊戲開始之前
 		* 任何人可以自由切換隊伍
-	* 當遊戲開始時啟動"隊伍鎖住功能"
+	* 當遊戲開始時啟動"隊伍鎖住功能" (teamlock)
 		* 紀錄倖存者/感染者的真人玩家在鎖定名單上，即使玩家離開後重進伺服器，鎖定名單依然有效
 		* 只有鎖定名單上的玩家可以自由切換隊伍並遊玩
 		* 閒置玩家也會被記錄在鎖定名單上
@@ -158,6 +171,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 伺服器啟動時，預設的 "隊伍鎖住功能"
 		// 0=關閉, 1=遊戲開始才鎖定 (Only when round is live)
 		teamlock_vote_default_value "1"
+
+		// 為1時，隊伍鎖住啟動後再次輸入!teamlock會直接發起關閉的投票 不用顯示選單
+		teamlock_vote_disable_no_menu "1"
 		```
 </details>
 
@@ -166,5 +182,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **發起 "隊伍鎖住功能" 投票**
 		```php
 		sm_teamlock
+		```
+
+	* **控制台查看 "隊伍鎖定名單"**
+		```php
+		sm_teamlock_list
 		```
 </details>

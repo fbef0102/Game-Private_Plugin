@@ -14,6 +14,13 @@
 		"chi"		"[TS] 旁观者禁用投票."
 	}
 	
+	"No teamlock"
+	{
+		"en"		"There is no teamlock!"
+		"zho"		"目前無啟動 隊伍鎖住"
+		"chi"		"目前无启动 队伍锁住"
+	}
+	
 	"Menu Title"
 	{
 		"en"		"Enable teamlock:"
@@ -49,12 +56,20 @@
 		"chi"		"目前"
 	}
 
-	"Not enough"
+	"Not enough_versus"
 	{
 		"#format"	"{1:d}"
 		"en"		"[{olive}TS{default}] Not enough {green}{1}{default} players in survivor/infected team."
 		"zho"		"[{olive}TS{default}] 倖存者/感染者 真人玩家人數不足 {green}{1}{default} 位."
 		"chi"		"[{olive}TS{default}] 生还者/感染者 真人玩家人数不足 {green}{1}{default} 位."
+	}
+	
+	"Not enough_coop"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}TS{default}] Not enough {green}{1}{default} players in survivor team."
+		"zho"		"[{olive}TS{default}] 倖存者 真人玩家人數不足 {green}{1}{default} 位."
+		"chi"		"[{olive}TS{default}] 生还者 真人玩家人数不足 {green}{1}{default} 位."
 	}
 
 	"You cannot start a teamlock vote until the current vote ends."
@@ -79,11 +94,18 @@
 		"chi"		"[SM] 保持锁定: 即使游戏尚未开始，依然保持队伍锁住."
 	}
 
-	"Notice_2"
+	"Notice_2_versus"
 	{
 		"en"		"Players must be {green}on team survivor/infected{default} to be whitelisted regardless of the mode selected"
 		"zho"		"玩家必須待在 {green}倖存者/感染者{default} 才能被紀錄在鎖定名單上 (無論選擇哪種模式)"
 		"chi"		"玩家必须待在 {green}生还者/感染者{default} 才能被纪录在鎖定名单上 (无论选择哪种模式)"
+	}
+	
+	"Notice_2_coop"
+	{
+		"en"		"Players must be {green}on team survivor{default} to be whitelisted regardless of the mode selected"
+		"zho"		"玩家必須待在 {green}倖存者{default} 才能被紀錄在鎖定名單上 (無論選擇哪種模式)"
+		"chi"		"玩家必须待在 {green}生还者{default} 才能被纪录在鎖定名单上 (无论选择哪种模式)"
 	}
 
 	"vote_disabled"
@@ -114,11 +136,18 @@
 		"chi"		"[SM] 队伍锁住功能已开启，锁定名单{green}已纪录{default}. 请查看控制台."
 	}
 
-	"round_enabled"
+	"round_enabled_versus"
 	{
 		"en"		"[SM] Team Lock {green}enabled{default}. {green}Survivors/Infecteds{default} will be whitelisted when the game starts"
 		"zho"		"[SM] 隊伍鎖住功能已開啟，遊戲開始時將記錄 {green}倖存者/感染者{default} 在鎖定名單上"
 		"chi"		"[SM] 队伍锁住功能已开启，游戏开始时将记录 {green}生还者/感染者{default} 在锁定名单上"
+	}
+	
+	"round_enabled_coop"
+	{
+		"en"		"[SM] Team Lock {green}enabled{default}. {green}Survivors{default} will be whitelisted when the game starts"
+		"zho"		"[SM] 隊伍鎖住功能已開啟，遊戲開始時將記錄 {green}倖存者{default} 在鎖定名單上"
+		"chi"		"[SM] 队伍锁住功能已开启，游戏开始时将记录 {green}生还者{default} 在锁定名单上"
 	}
 
 	"blocked"
@@ -126,6 +155,14 @@
 		"en"		"[{olive}TS{default}] Not allowed to join game! (Team is now locked)"
 		"zho"		"[{olive}TS{default}] 不允許加入遊戲! (隊伍已鎖住)"
 		"chi"		"[{olive}TS{default}] 不允许加入游戏! (队伍已锁住)"
+	}
+	
+	"Announce_Block"
+	{
+		"#format"	"{1:N}"
+		"en"		"[SM] team lock is in effect. {green}{1}{default} moved to team spectate"
+		"zho"		"[SM] 隊伍鎖住功能生效中. {green}{1}{default} 已被移至旁觀"
+		"chi"		"[SM] 队伍锁住功能生效中. {green}{1}{default} 已被移至旁观"
 	}
 
 	"lock_list_1"
@@ -135,45 +172,63 @@
 		"chi"		"[SM] 以下玩家已被列入锁定名单:"
 	}
 
-	"lock_list_2"
+	"lock_list_2_versus"
 	{
 		"en"		"No other players will be able to join the survivor/infected team until players vote to disable teamlock."
-		"zho"		"其他玩家不允許加入倖存者/感染者，直到玩家投票關閉隊伍鎖住功能."
-		"chi"		"其他玩家不允许加入幸存者/感染者，直到玩家投票关闭队伍锁住功能."
+		"zho"		"其他玩家不允許加入倖存者/感染者，除非:"
+		"chi"		"其他玩家不允许加入幸存者/感染者，除非:"
+	}
+	
+	"lock_list_2_coop"
+	{
+		"en"		"No other players will be able to join the survivor team until players vote to disable teamlock."
+		"zho"		"其他玩家不允許加入倖存者，除非:"
+		"chi"		"其他玩家不允许加入幸存者，除非:"
 	}
 
-	"lock_list_3"
+	"lock_list_3_versus"
 	{
 		"en"		"No other players will be able to join the survivor/infected team until ether:"
 		"zho"		"其他玩家不允許加入倖存者/感染者，除非:"
 		"chi"		"其他玩家不允许加入幸存者/感染者，除非:"
 	}
+	
+	"lock_list_3_coop"
+	{
+		"en"		"No other players will be able to join the infected team until ether:"
+		"zho"		"其他玩家不允許加入感染者，除非:"
+		"chi"		"其他玩家不允许加入感染者，除非:"
+	}
 
 	"lock_list_4"
 	{
-		"en"		"1) The round finishes"
-		"zho"		"1) 新的回合開始"
-		"chi"		"1) 新的回合开始"
+		"#format"	"{1:d}"
+		"en"		"{1}) The round finishes"
+		"zho"		"{1}) 新的回合開始"
+		"chi"		"{1}) 新的回合开始"
 	}
 
 	"lock_list_5"
 	{
-		"en"		"2) Players vote to disable teamlock"
-		"zho"		"2) 玩家投票關閉隊伍鎖住功能"
-		"chi"		"2) 玩家投票关闭队伍锁住功能"
+		"#format"	"{1:d}"
+		"en"		"{1}) Players vote to disable teamlock"
+		"zho"		"{1}) 玩家投票關閉隊伍鎖住功能"
+		"chi"		"{1}) 玩家投票关闭队伍锁住功能"
 	}
 
 	"lock_list_6"
 	{
-		"en"		"3) Whitelisted players have all left the server"
-		"zho"		"3) 鎖定名单上的玩家已離線"
-		"chi"		"3) 锁定名单上的玩家已离线"
+		"#format"	"{1:d}"
+		"en"		"{1}) Whitelisted players have all left the server"
+		"zho"		"{1}) 鎖定名单上的玩家已離線"
+		"chi"		"{1}) 锁定名单上的玩家已离线"
 	}
 
 	"lock_list_7"
 	{
-		"en"		"2) Whitelisted players have all left the server"
-		"zho"		"2) 鎖定名单上的玩家已離線"
-		"chi"		"2) 锁定名单上的玩家已离线"
+		"#format"	"{1:d}"
+		"en"		"{1}) Whitelisted players have all left the server"
+		"zho"		"{1}) 鎖定名单上的玩家已離線"
+		"chi"		"{1}) 锁定名单上的玩家已离线"
 	}
 }

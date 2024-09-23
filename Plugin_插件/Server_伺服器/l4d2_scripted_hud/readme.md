@@ -44,12 +44,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Important</summary>
 
-	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
+	* Ensure that you renamed the ```scripts\vscripts\l4d2_scripted_hud_rename.nut``` file to your gamemode. (<gamemode>.nut)
 		* If you run a coop server. Rename it to "coop.nut"
+		* If you run a realism server. Rename it to "realism.nut"
 		* If you run a versus server. Rename it to "versus.nut"
 		* If you run a survival server. Rename it to "survival.nut"
 		* If you run a scavenge server. Rename it as "scavenge.nut"
 		* If you run some mutation gamemode. Rename it to "xxxx.nut" (xxxx= mutation name)
+			* [Mutation name list](https://developer.valvesoftware.com/wiki/Left_4_Dead_2/Scripting/Decrypted_mutations)
 		* You can create multi .nut files
 
 	* Note
@@ -541,12 +543,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>重要說明</summary>
 
-	* 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
+	* 確保 ```scripts\vscripts\l4d2_scripted_hud_rename.nut``` 檔名名稱更改成伺服器的遊戲模式.
 		* 戰役模式. 改成名 "coop.nut"
+		* 寫實模式. 改成名 "realism.nut"
 		* 對抗模式. 改成名 "versus.nut"
 		* 生存模式. 改成名 "survival.nut"
 		* 清道夫模式. 改成名 "scavenge.nut"
-		* 突變模式. 改成名 "<突變模式英文名>.nut"
+		* 突變模式. 改成名 "<突變模式代碼名>.nut"
+			* [突變模式代碼列表](https://developer.valvesoftware.com/wiki/Left_4_Dead_2/Scripting/Decrypted_mutations)
 		* 可以創建多個.nut檔案
 		> __Note__ (如果已有.nut檔案，可以先備份)
 
