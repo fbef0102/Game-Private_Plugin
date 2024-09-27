@@ -47,7 +47,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, disable jump after survivor gets a tank punch.
 		l4d_rejump_tank_punch_disble "1"
 
-		// Disable jump if height is too low compared to previous jump for survivors.
+		// Disable jump if height is too low compared to previous jump for survivors. (0=Off)
 		l4d_rejump_height_disble "200.0"
 
 		// If 1, player needs to use jump key first before second jump in air.
@@ -80,10 +80,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//paegus @ 2009 - 2021
-	//Harry @ 2022 - 2024
-	```
+	* v1.3h (2024-9-27)
+		* Remove Fall Velocity if rejump while falling, so you won't get high fall damage
+
 	* v1.2h (2024-3-16)
 		* Optimize code and improve performance
 
@@ -141,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，被Tank打到或石頭砸到
 		l4d_rejump_tank_punch_disble "1"
 
-		// (只限人類) 比第一次跳的時候高度差超過200則禁止二次跳躍
+		// (只限人類) 比第一次跳的時候高度差超過200則禁止二次跳躍  (0=關閉這項功能)
 		l4d_rejump_height_disble "200.0"
 
 		// 為1時，必須是玩家自己使用跳躍鍵飛起來，才能在空中二次跳躍

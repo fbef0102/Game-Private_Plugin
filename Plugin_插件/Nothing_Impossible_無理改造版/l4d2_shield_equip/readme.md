@@ -59,7 +59,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_riot_chance "20"
 
         // Chance that tank would bring the shield and drop shield when tank dies [0.0, 100.0]%
-        l4d2_shield_equip_tank_chance "30"
+        l4d2_shield_equip_tank_chance "100"
 
         // Chance that shield drops when witch dies [0.0, 100.0]%
         l4d2_shield_equip_witch_chance "40"
@@ -86,7 +86,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_survivor_scale "1.2"
 
         // Scale the shield model in tank. (Default: 1.2)
-        l4d2_shield_equip_tank_scale "1.2"
+        l4d2_shield_equip_tank_scale "1.7"
 
         // Players with these flags have access to use !shield command to get a shield. (Empty = Everyone, -1: Nobody)
         l4d2_shield_equip_use_command_flag "z"
@@ -340,7 +340,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_riot_chance "20"
 
         // Tank身上會裝備盾牌的機率 [0-100]%
-        l4d2_shield_equip_tank_chance "30"
+        l4d2_shield_equip_tank_chance "100"
 
         // Witch死亡時掉落盾牌的機率 [0.0, 100.0]%
         l4d2_shield_equip_witch_chance "40"
@@ -367,7 +367,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_shield_equip_survivor_scale "1.2"
 
         // 在Tank身上的盾牌尺寸，數字介於0.0~2.0之間 (預設: 1.2)
-        l4d2_shield_equip_tank_scale "1.2"
+        l4d2_shield_equip_tank_scale "1.7"
 
         // 擁有這些權限的玩家可以使用!shield命令獲得盾牌 (留白 = 任何人都能使用, -1: 無人能使用)
         l4d2_shield_equip_use_command_flag "z"

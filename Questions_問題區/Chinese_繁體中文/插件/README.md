@@ -31,6 +31,7 @@
 
 2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
     - xxxxxx為插件的檔案名稱
+    - 插件檔案位於```addons\sourcemod\plugins```，副檔名是.smx
       ```php
       ] sm plugins info test
       Filename: test.smx
