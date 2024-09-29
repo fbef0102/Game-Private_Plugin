@@ -75,14 +75,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
-		// After final rescue vehicle leaving, delay before force of changelevel in coop/realism. (0=Don't force to change map)
-		sm_l4d_fmc_delay_coop_final "15.0"
+		// After campaign credit end or players press space to skip credit, delay before force of changelevel in coop/realism. (0=Don't force to change map)
+		sm_l4d_fmc_delay_coop_final "1.0"
 
 		// Enables next mission and how many chances left to advertise to players.
 		sm_l4d_fmc_announce "1"
 
 		// If 1, Enables players to vote for the next map or campaign.
 		sm_l4d_fmc_voting_system_enabled "1"
+
+		// When to display vote menu to player in coop/versus/realim? 0=When survivors leave the saferoom, 1=When final rescue starts
+		sm_l4d_fmc_voting_system_when "1"
 
 		// How the next campaign/map is advertised during a finale and scavenge/survival map [0 = DISABLED, 1 = HINT TEXT, 2 = CHAT TEXT]
 		sm_l4d_fmc_next_map_ad_mode "2"
@@ -191,6 +194,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6h (2024-9-29)
+		* In coop/realism mode, force of changelevel in coop/realism after campaign credit end or players press space to skip credit
+		* Update cvars
+
 	* v1.5h (2024-9-12)
 		* Fixed mapvote menu error after server startup
 		* Update Data
@@ -287,14 +294,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 清道夫模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
-		// 戰役/寫實模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
-		sm_l4d_fmc_delay_coop_final "15.0"
+		// 戰役/寫實模式，地圖統計表跑完之後或是玩家們按下"空白鍵-投票跳過", 1秒之後切換下一張地圖. (0=不要切換地圖)
+		sm_l4d_fmc_delay_coop_final "1.0"
 
 		// 為1時，持續發公告顯示下一張地圖.
 		sm_l4d_fmc_announce "1"
 
 		// 為1時，玩家可以投票決定下一張地圖.
 		sm_l4d_fmc_voting_system_enabled "1"
+
+		// (戰役/對抗/寫實模式) 何時顯示投票介面? 0=倖存者離開安全室時, 1=救援開始時
+		sm_l4d_fmc_voting_system_when "1"
 
 		// 如何發公告顯示下一張地圖 [0 = 不發公告, 1 = 黑底白字框, 2 = 聊天框]
 		sm_l4d_fmc_next_map_ad_mode "2"

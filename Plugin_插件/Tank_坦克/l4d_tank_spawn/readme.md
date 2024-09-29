@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* This plugin spawns multi tanks
 		1. In different percentage on first map. Random percentage each time.
-		2. In different percentage on final map. Random percentage each time.
+		2. In different percentage on final map (Before final rescue). Random percentage each time.
 		3. In different percentage on regular map. Random percentage each time.
 		4. On each tank wave in final rescue
 		5. When finale vehicle is ready
@@ -142,7 +142,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 這個插件會生成多個Tank
 		1. 地圖第一關的不同路程生成tank，路程都是隨機的，每回合不一樣
-		2. 地圖最後一關的不同路程生成tank，路程都是隨機的，每回合不一樣
+		2. 地圖最後一關(救援開始之前)的不同路程生成tank，路程都是隨機的，每回合不一樣
 		3. 地圖正常關卡(不是第一關也不是最後一關)的不同路程生成tank，路程都是隨機的，每回合不一樣
 		4. 救援過程中每局Tank時生成更多的tank
 		5. 救援載具來臨後生成更多的tank

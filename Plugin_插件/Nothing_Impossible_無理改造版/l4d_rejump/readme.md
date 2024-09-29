@@ -74,9 +74,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [simple-bhop](/Plugin_插件/Fun_娛樂/simple-bhop): Let users Bunny Hop with simplicity 
 		> 簡單的連跳插件
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
