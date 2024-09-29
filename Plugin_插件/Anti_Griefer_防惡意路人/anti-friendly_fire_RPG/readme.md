@@ -244,7 +244,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 傷害提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_rpg_ff_announce_type "2"
 
-		// 受害者身上的victim計數器的預設值. (0=受害者依然會受友傷，傷害不會遞減減少. -1=受害者不會受傷)
+		// 受害者身上的victim計數器的預設值. (0=受害者依然會受友傷，不減傷. -1=受害者不會受傷)
 		l4d_rpg_friendly_fire_protect_divide "1.0"
 
 		// 攻擊者身上的attack計數器的預設值. (0=攻擊者不會受到反彈傷害)

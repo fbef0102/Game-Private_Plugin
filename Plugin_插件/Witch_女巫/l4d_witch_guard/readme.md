@@ -14,16 +14,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-  * After kill the Witch, have change to put her on your back.
-  * Hold Ctrl+E for 4 seconds to put down the witch guard
-  * What can witch guard do?
-	* Kill special infected near around
-	* Kill common infected near around
-	* Kill Tank/Witch near around
+	* After kill the Witch, have change to put her on your back.
+	* Hold Ctrl+E for 4 seconds to put down the witch guard
+	* What can witch guard do?
+		* Kill special infected near around
+		* Kill common infected near around
+		* Kill Tank/Witch near around
 </details>
 
 * Require | 必要安裝
-    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
 
@@ -136,13 +136,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	//Marttt @ 2020
 	//HarryPotter @ 2022-2023
 	```
-    * v1.2h (2023-7-31)
+	* v1.3h (2024-9-30)
+		* Fixed client can't switch weapons if die while putting down the witch guard
+		
+	* v1.2h (2023-7-31)
 		* Safely remove witch guard entity
 		* Add gun model and attach to witch guard's head and hand
 		* Remove some useless cvars and cmds
 
-    * v1.1h (2023-7-31)
-        * Carrying the with guard across maps in coop/realism
+	* v1.1h (2023-7-31)
+		* Carrying the with guard across maps in coop/realism
 
 	* 1.0h (2023-4-11)
 		* Remove some cvars

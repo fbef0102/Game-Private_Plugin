@@ -17,6 +17,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
 	<br/>![l4d2healthglow_2](image/l4d2healthglow_2.jpg)
 	<br/>![l4d2healthglow_3](image/l4d2healthglow_3.jpg)
+	* Purple Glow when get vomit (被噴時，有紫色光圈)
+	<br/>![l4d2healthglow_4](image/l4d2healthglow_4.gif)
+	* Support Lux's Model Changer (支援模組改變)
+	<br/>![l4d2healthglow_5](image/l4d2healthglow_5.gif)
 </details>
 
 > __Warning__ This plugin does not work in realism mode
@@ -24,6 +28,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
+	3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -98,6 +103,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Incap or hanging from ledge Health Glow Range (Glow for infected and spectator only)
 		l4d2healthglow_incap_range "0"
 
+		// If 1, enable glow when survivor get vomit (0=Default glow when get vomit)
+		l4d2healthglow_vomit_enable "1"
+
+		// Glow Color when get vomit. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
+		l4d2healthglow_vomit_color "155 0 180"
+
+		// If 1, Glow Flashing when get vomit
+		l4d2healthglow_vomit_flashing "0"
+
+		// Glow Mini Range hen get vomit
+		l4d2healthglow_vomit_mini_range "0"
+
+		// Glow Range when get vomit
+		l4d2healthglow_vomit_range "0"
+
 		// If 1, survivor temp health + hard health
 		// If 0, survivor hard health only
 		l4d2healthglow_consider_temp_health "1"
@@ -110,6 +130,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Interval in seconds to upate the glow rendering. (visibility, color and frame)
 		l4d2healthglow_upate_interval "0.5"
+
+		// If 1, You can see yourself glow in thirdperson view
+		l4d2healthglow_thirdperson_view "1"
 		```
 </details>
 
@@ -125,18 +148,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [LMC_Black_and_White_Notifier](https://github.com/fbef0102/L4D2-Plugins/tree/master/LMC_Black_and_White_Notifier): Notifies selected team(s) when someone is on final strike and add glow
-		* 顯示誰是黑白狀態，有更多的提示與支援LMC模組
-	2. [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+	1. [l4d_h_csm](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
 		* 允許玩家在遊戲中更換一二代角色
+	2. [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987): LMC Allows you to use most models with most characters
+		* 可以自由變成其他角色或NPC的模組
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Mr. Zero @ 2011-2012
-	//HarryPotter @ 2022-2024
-	```
+	* v1.3h (2024-9-30)
+		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
+		* You can see yourself glow when thirdperson view
+
 	* v1.2h (2024-3-19)
 		* Require Attachments API
 
@@ -190,10 +213,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，高生命值時的光圈會閃爍
 		l4d2healthglow_high_flashing "0"
 
-		// 高生命值時的光圈最小發光範圍
+		// 高生命值時的光圈最小發光範圍 
 		l4d2healthglow_high_mini_range "0"
 
-		// 高生命值時的光圈最遠發光範圍
+		// 高生命值時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_high_range "0"
 
 		// 小於或等於這個數值視為 "中生命值"
@@ -208,7 +231,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 中生命值時的光圈最小發光範圍
 		l4d2healthglow_medium_mini_range "0"
 
-		// 中生命值時的光圈最遠發光範圍
+		// 中生命值時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_medium_range "0"
 
 		// 小於或等於這個數值視為 "低生命值"
@@ -223,7 +246,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 低生命值時的光圈最小發光範圍
 		l4d2healthglow_low_mini_range "0"
 
-		// 低生命值時的光圈最遠發光範圍
+		// 低生命值時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_low_range "0"
 
 		// 黑白狀態時的光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色)
@@ -235,7 +258,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 黑白狀態時的光圈最小發光範圍
 		l4d2healthglow_last_life_mini_range "0"
 
-		// 黑白狀態時的光圈最遠發光範圍
+		// 黑白狀態時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_last_life_range "0"
 
 		// 倒地或掛邊時的光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色) (只適用於給特感與旁觀者看到)
@@ -247,8 +270,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 倒地或掛邊時的光圈最小發光範圍 (只適用於給特感與旁觀者看到)
 		l4d2healthglow_incap_mini_range "0"
 
-		// 倒地或掛邊時的光圈最遠發光範圍 (只適用於給特感與旁觀者看到)
+		// 倒地或掛邊時的光圈最遠發光範圍 (0=無距離限制, 只適用於給特感與旁觀者看到)
 		l4d2healthglow_incap_range "0"
+
+		// 為1時，被Boomer噴到會有光圈，所有人都會看到 (0=光圈是遊戲預設)
+		l4d2healthglow_vomit_enable "1"
+
+		// 被Boomer噴到時，光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色) (只適用於給特感與旁觀者看到)
+		l4d2healthglow_vomit_color "155 0 180"
+
+		// 為1時，被Boomer噴到時，光圈會閃爍
+		l4d2healthglow_vomit_flashing "0"
+
+		// 被Boomer噴到時，光圈最小發光範圍
+		l4d2healthglow_vomit_mini_range "0"
+
+		// 被Boomer噴到時，光圈最遠發光範圍 (0=無距離限制)
+		l4d2healthglow_vomit_range "0"
 
 		// 為1時，生命值計算人類的實血與虛血
 		// 為0時，生命值只計算人類的實血
@@ -262,5 +300,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 渲染輪廓光圈的秒數間隔. (更新狀態、顏色、範圍等等)
 		l4d2healthglow_upate_interval "0.5"
+
+		// 為1時，在第三人稱狀態下可以看到自己的光圈
+		l4d2healthglow_thirdperson_view "1"
 		```
 </details>

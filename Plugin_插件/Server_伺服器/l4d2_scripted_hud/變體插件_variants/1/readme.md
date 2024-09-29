@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Important</summary>
 
-	* Ensure that you renamed the scripts\vscripts\l4d2_scripted_hud_rename.nut file to your gamemode. (<gamemode>.nut)
+	* Ensure that you renamed the ```left4dead2\scripts\vscripts\l4d2_scripted_hud_rename.nut``` file to your gamemode. (<gamemode>.nut)
 		* If you run a coop server. Rename it to "coop.nut"
 		* If you run a versus server. Rename it to "versus.nut"
 		* If you run a survival server. Rename it to "survival.nut"
@@ -456,7 +456,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>重要說明</summary>
 
-	* 確保 scripts\vscripts\l4d2_scripted_hud_rename.nut 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
+	* 確保 ```left4dead2\scripts\vscripts\l4d2_scripted_hud_rename.nut``` 檔名名稱更改成伺服器的遊戲模式. (<遊戲模式名稱>.nut)
 		* 戰役模式. 改成名 "coop.nut"
 		* 對抗模式. 改成名 "versus.nut"
 		* 生存模式. 改成名 "survival.nut"

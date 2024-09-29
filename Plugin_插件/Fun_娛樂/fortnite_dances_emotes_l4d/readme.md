@@ -8,9 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
-	<br/>![fortnite_dances_emotes_l4d_1](image/fortnite_dances_emotes_l4d_1.gif)
-	<br/>![fortnite_dances_emotes_l4d_2](image/fortnite_dances_emotes_l4d_2.jpg)
-	<br/>![fortnite_dances_emotes_l4d_3](image/fortnite_dances_emotes_l4d_3.jpg)
+	<br/>![fortnite_dances_emotes_l4d_1](image/fortnite_dances_emotes_l4d_1.jpg)
+	* Special Infected can dance (特感也可以跳舞)
+	<br/>![fortnite_dances_emotes_l4d_2](image/fortnite_dances_emotes_l4d_2.gif)
+	* Support Lux's Model Changer (支援模組改變)
+	<br/>![fortnite_dances_emotes_l4d_3](image/fortnite_dances_emotes_l4d_3.gif)
 
 * <details><summary>How does it work?</summary>
 

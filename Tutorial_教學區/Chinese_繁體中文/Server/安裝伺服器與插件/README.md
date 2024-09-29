@@ -1,5 +1,5 @@
 # 問題總攬
-> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/9/30 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -8,7 +8,7 @@
   - [如何執行專屬伺服器](#如何執行專屬伺服器)
   - [如何檢查版本](#如何檢查版本)
   - [如何進去我的伺服器](#如何進去我的伺服器)
-  - [設置路由器/網路基地台/防火牆](#設置路由器網路基地台防火牆)
+  - [設置路由器/網路基地台/防火牆/數據機](#設置路由器網路基地台防火牆數據機)
   - [如何從大廳匹配到專屬伺服器](#如何從大廳匹配到專屬伺服器)
   - [如何成為伺服器的管理員](#如何成為伺服器的管理員)
   - [如何編譯源碼](#如何編譯源碼)
@@ -41,8 +41,9 @@
    * 透過第三方軟體啟動伺服器都是專屬伺服器
 - 想安裝區域伺服器可以看[這篇文章](/Tutorial_教學區/Chinese_繁體中文/Server/安裝區域房與插件/README.md#甚麼是區域房)
 - 你可以自由選擇Sourcemod要安裝在專屬伺服器還是區域伺服器
-	- 我推薦專屬伺服器，因為所有插件都支援專屬伺服器
+	- 我推薦專屬伺服器，因為所有插件都支援專屬伺服器，且Sourcemod不支援區域房
 	- 絕大部分的插件作者不會鳥你區域伺服器出現問題
+	- 🟥Linux 系統無法安裝Sourcemod在區域房
 
 - - - -
 ## 如何安裝專屬伺服器
@@ -134,13 +135,13 @@
 
 - - - -
 ## 如何安裝Sourcemod
-1. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
+1. [Sourcemod Stable](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
    - 紅色圖案代表此版本尚未支援該系統平台
-   - [sourcemod下載有分兩種](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E4%BC%BA%E6%9C%8D%E5%99%A8/README.md#為什麼sourcemod下載有分兩種)
+   - [請不要下載Dev版本](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E4%BC%BA%E6%9C%8D%E5%99%A8/README.md#為什麼sourcemod下載有分兩種)
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821617-5f82e0c3-def7-4d7f-ab50-0b98b238e0ac.png)
 
-2. [MetaMod](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
+2. [MetaMod Stable](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
    - 紅色圖案代表此版本尚未支援該系統平台
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
@@ -155,7 +156,7 @@
 - - - -
 ## 如何執行專屬伺服器
 * Windows
-   1. 到伺服器檔案所在資料夾位置，新增一個檔案叫```scrds.bat```(注意副檔名)，用筆記本打開它，複製以下內容
+   1. 到伺服器檔案所在資料夾位置，新增一個檔案叫```scrds.bat```(注意副檔名)，用筆記本打開它，複製以下內容貼上
       ```
       start srcds.exe -console -game xxxxxx -port 27016 +log on +exec server.cfg +sv_lan 0 -maxplayers 31 +map c1m1_hotel
       ```
@@ -215,11 +216,10 @@
 ## 如何檢查版本
 * <details><summary>查找伺服器的後台 (點我展開)</summary>
 
-   * 看你當初是怎麼開服的
-      * 利用.bat開啟伺服器的視窗
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/726c6436-cc0e-4c90-91b7-cd670f64f7c3)
-      * 直接執行scrd.exe的視窗，開啟伺服器之後尋找"命令列"
-      <br/>![image](https://i.imgur.com/c0jp5XQ.png)
+   * 如果是利用.bat開啟伺服器，此視窗即是後台
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/726c6436-cc0e-4c90-91b7-cd670f64f7c3)
+   * 如果是執行scrd.exe，視窗開啟後尋找"命令列"
+   <br/>![image](https://i.imgur.com/c0jp5XQ.png)
    
    > __Note__ 若是用其他的開服軟體，請自行摸索找到後台 
 </details>
@@ -383,9 +383,9 @@
    0. 請使用網路線連接電腦與路由器(數據機)，不要用WiFi
       * 🟥把加速器、VPN，任何會改變網路的軟體都關閉
       * 伺服器後台輸入```status```，記住IP
-      <br/>![image](https://github.com/user-attachments/assets/b10b0f71-b7ff-4509-95d4-637837fde822)
+      <br/>![image](https://github.com/user-attachments/assets/52ef494d-00fa-4d2a-a4b5-b0cf1ee8454d)
       * 拍照你家的路由器(數據機)，記住型號
-      <br/>![2](https://github.com/user-attachments/assets/959c04b3-b03f-4e7e-a2fc-611e86d489b0)
+      <br/>![image](https://github.com/user-attachments/assets/959c04b3-b03f-4e7e-a2fc-611e86d489b0)
          ```c
          電腦系統(System): Windows 10
          網路: 中華電信
@@ -397,7 +397,7 @@
 
    1. 打開網頁，網址輸入```http://192.168.1.1/```，帳密登入路由器(數據機)
       * 每個品牌的帳密與操作方式不一樣，請自行google
-         * 🟥最新版的中華電信數據機會有兩組以上不同的帳密可以登入，需要查下可以操作更多功能的帳密是哪一組
+         * 🟥最新版的中華電信數據機會有兩組以上不同的帳密可以登入，需要查下完整權限與功能的帳密是哪一組
       * 如果你是租服的(譬如騰訊雲)，那需要詢問客服
       <br/><img alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/1ad5e899-c855-4916-a7d0-07b249b69d8a">
 
@@ -599,6 +599,7 @@
       L 03/28/2022 - 02:24:27: [SM]   [5] Line 172, f:\Stuff\EVERYTHING ELSE\Left 4 Dead 2 Dedicated Servers\left4dead2\addons\sourcemod\scripting\all4dead2.sp::OnPluginStart
         ```
       </details>
+   * [為什麼插件沒有運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
 
 - - - -
 ## 如何移除插件
