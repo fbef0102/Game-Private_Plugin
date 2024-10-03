@@ -91,16 +91,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Last Life Glow Range
 		l4d2healthglow_last_life_range "0"
 
-		// Incap or hanging from ledge Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. (Glow for infected and spectator only)
+		// Incap or hanging from ledge Health Glow Color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
 		l4d2healthglow_incap_color "200 0 0"
 
-		// Incap or hanging from ledge Health Glow Flashing (Glow for infected and spectator only)
+		// Incap or hanging from ledge Health Glow Flashing
 		l4d2healthglow_incap_flashing "0"
 
-		// Incap or hanging from ledge Health Glow Mini Range (Glow for infected and spectator only)
+		// Incap or hanging from ledge Health Glow Mini Range
 		l4d2healthglow_incap_mini_range "0"
 
-		// Incap or hanging from ledge Health Glow Range (Glow for infected and spectator only)
+		// Incap or hanging from ledge Health Glow Range
 		l4d2healthglow_incap_range "0"
 
 		// If 1, enable glow when survivor get vomit (0=Default glow when get vomit)
@@ -194,7 +194,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     	* 中生命值 - HP 25~39：黃色
     	* 低生命值 - HP 1~24：紅色
     	* 黑白狀態：黑白色閃爍
-    	* 倒地或掛邊：紅色 (只顯示給特感與旁觀者)
+    	* 倒地或掛邊：紅色
 	* 被特感抓住、被Boomer嘔吐、倒地、掛邊之類等等則不會顯示顏色光圈
 	* 所有人能看到輪廓光圈，如要指定隊伍，請查看指令
 
@@ -261,22 +261,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 黑白狀態時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_last_life_range "0"
 
-		// 倒地或掛邊時的光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色) (只適用於給特感與旁觀者看到)
+		// 倒地或掛邊時的光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色)
 		l4d2healthglow_incap_color "200 0 0"
 
-		// 為1時，倒地或掛邊時的光圈會閃爍 (只適用於給特感與旁觀者看到)
+		// 為1時，倒地或掛邊時的光圈會閃爍
 		l4d2healthglow_incap_flashing "0"
 
-		// 倒地或掛邊時的光圈最小發光範圍 (只適用於給特感與旁觀者看到)
+		// 倒地或掛邊時的光圈最小發光範圍
 		l4d2healthglow_incap_mini_range "0"
 
-		// 倒地或掛邊時的光圈最遠發光範圍 (0=無距離限制, 只適用於給特感與旁觀者看到)
+		// 倒地或掛邊時的光圈最遠發光範圍 (0=無距離限制)
 		l4d2healthglow_incap_range "0"
 
 		// 為1時，被Boomer噴到會有光圈，所有人都會看到 (0=光圈是遊戲預設)
 		l4d2healthglow_vomit_enable "1"
 
-		// 被Boomer噴到時，光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色) (只適用於給特感與旁觀者看到)
+		// 被Boomer噴到時，光圈顏色. 三個0-255的數值，需要空白間隔. (RGB 三色)
 		l4d2healthglow_vomit_color "155 0 180"
 
 		// 為1時，被Boomer噴到時，光圈會閃爍

@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -54,7 +54,7 @@
 		* 沒有server.cfg檔案則新建
 			```php
 			// 18位真人玩家可以加入伺服器，自行修改此數值 (範圍1~31)
-			// 此數值為真人玩家的允許人數
+			// 此數值為真人玩家的允許人數 (不包含AI Bot)
 			sv_maxplayers 18
 
 			// 顯示給外面玩家看到的伺服器空位人數
@@ -69,12 +69,12 @@
 			sv_force_unreserved 1
 			```
 
-	4. 遊戲預設玩家上限只到18位，如果要改變玩家上限
-		* 玩家上限 = 真人玩家 + AI Bot + AI 特感 + 旁觀者
+	4. 遊戲預設客戶端人數上限只到18位，如果要改變客戶端上限
+		* 客戶端 = 真人玩家 + AI Bot
 		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
-		* 使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
-		* 不能超過31人，否則伺服器會崩潰
+		* 如使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
+		* 🟥 不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
 		```php

@@ -1,5 +1,5 @@
 # Description | 內容
-Filter dirty words via Regular Expressions
+Filter players' dirty words on chatbox
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>

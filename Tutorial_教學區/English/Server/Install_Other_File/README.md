@@ -1,5 +1,5 @@
 # Navigation
-> 2023/7/22 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/10/3 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
@@ -54,7 +54,7 @@
 		* If you don't have server.cfg, then create it
 			```php
 			// Max Human Players, free to modify value (1~31)
-			// How many human players can join server
+			// How many human players can join server (Not including AI Bots)
 			sv_maxplayers 18
 
 			// Overrides the max players reported to prospective clients
@@ -67,12 +67,12 @@
 			sv_force_unreserved 1
 			```
 
-	4. By default, the game engine only allow 18 max players. To change max players
-		* Max. players = Human player + AI Survivor Bot + AI Infected Bot + Spectators
+	4. By default, the game engine only allow 18 max clients. To change max clients
+		* Max. clients = Human player + AI Bots
 		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
-		* Server would crash if over 31 players
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
+		* 🟥 Server would crash if set over 31 clients
 
 	5. Restart Server，type ```meta list``` in serve console
 		```php

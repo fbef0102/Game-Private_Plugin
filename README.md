@@ -378,7 +378,7 @@
   * [l4d2_survivor_fire_power](/Plugin_插件/Survivor_人類/l4d2_survivor_fire_power): Adjustable each melee swing rate and each weapon fire rate.
     * 倖存者的揮砍速度與射速變快
   * [l4d2_survivor_protect_power](/Plugin_插件/Survivor_人類/l4d2_survivor_protect_power): Survivors are invincible, unstoppable. S.Is, C.Is, tanks and witches are unable to pin them or deal any damage.
-    * 義和團，刀槍不入，神功護體
+    * 清朝義和團，刀槍不入，神功護體
   * [l4d2_survivor_strong_power](/Plugin_插件/Survivor_人類/l4d2_survivor_strong_power): Add power abilities to survivors
     * 給真人倖存者玩家增加許多能力
   * [l4d_kill_combo](/Plugin_插件/Survivor_人類/l4d_kill_combo): Display Kill Combo and play sound when killing special infected
@@ -543,7 +543,7 @@
     * 隊友開槍射你會反彈傷害，RPG版本
   * [l4d_together](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_together): A simple anti - runner system , punish the runner by spawn SI behind her.
     * 離隊伍太遠的玩家，特感代替月亮懲罰你
-  * [sm_regexfilter](/Plugin_插件/Anti_Griefer_防惡意路人/sm_regexfilter): Filter dirty words via Regular Expressions
+  * [sm_regexfilter](/Plugin_插件/Anti_Griefer_防惡意路人/sm_regexfilter): Filter players' dirty words on chatbox
     * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
   * [l4d_elevator_getin_timer](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_elevator_getin_timer): When someone presses the elevator button or enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the evelator/CEDA Trailer, slay him
     * 當有人按下電梯按鈕或是進入CEDA大拖車時，開始倒數計時，未在時間內進入電梯或CEDA大拖車的玩家將處死
@@ -555,8 +555,8 @@
     * 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
   * [l4d_block_suicide_jumps](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_block_suicide_jumps): Prevents players griefing by suicide with jump
     * 企圖跳樓自殺的玩家將會傳送回樓頂，並封鎖踢出伺服器
-  * [l4d_invalid_name](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player if has invalid name via Regular Expressions
-    * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家
+  * [l4d_invalid_name](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player or change name if has invalid or dirty name
+    * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
   * [l4d_saferoom_prevent_kit](/Plugin_插件/Anti_Griefer_防惡意路人/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
 </details>

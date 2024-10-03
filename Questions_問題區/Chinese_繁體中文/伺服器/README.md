@@ -188,16 +188,19 @@
 * 解決方式: 
   * 法一: 使用不同台電腦安裝專屬伺服器
   * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
+  * 法三: 每次需要刪除```steam_appid.txt```文件，此文件位於伺服器的主目錄下，然後再啟動專屬伺服器
+  <br/>![image](https://github.com/user-attachments/assets/b90ab4da-ad31-45fa-8e97-ff4033d23bcf)
 
 - - - -
 ## Sourcemod支援區域伺服器嗎
 > 區域伺服器也稱區域房，英文名是Listen Server
-* 不支援，盡管[Sourcemod官方](https://wiki.alliedmods.net/Installing_SourceMod_(simple))一再強調SourceMod不能運作在區域伺服器上，依然有許多人把Sourcemod安裝到區域房並開房與朋友遊玩
+* **不支援**，盡管[Sourcemod官方](https://wiki.alliedmods.net/Installing_SourceMod_(simple))一再強調SourceMod不能運作在區域伺服器上，依然有許多人把Sourcemod安裝到區域房並開房與朋友遊玩
 * 推薦大家把[Sourcemod安裝在專屬伺服器](/Tutorial_教學區/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md)，所有插件都支援專屬伺服器且較穩定，[與專屬伺服器有巨大差別](/Tutorial_教學區/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%8D%80%E5%9F%9F%E6%88%BF%E8%88%87%E6%8F%92%E4%BB%B6/README.md#%E8%88%87%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9C%89%E4%BD%95%E5%B7%AE%E5%88%A5)
 
 * <details><summary>為什麼不支援?</summary>
 
   * 因為區域房你既是玩家也是伺服器，會導致很多插件在運行上有問題，特別是跟語音有關的插件無法在區域房運作
+  * Liunx系統無法安裝Sourcemod在區域房
 </details>
 
 * <details><summary>我安裝放入很多插件會怎麼樣?</summary>

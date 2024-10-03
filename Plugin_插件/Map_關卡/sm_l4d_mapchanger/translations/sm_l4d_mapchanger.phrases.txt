@@ -270,4 +270,11 @@
 		"zho"			"你投票給了 {1}.\n- 在聊天框中輸入 {2} 來修改你的選票\n- 輸入 {3} 來查看投票情況"
 		"chi"			"你投票给了 {1}.\n- 在聊天框中输入 {2} 来修改选票\n- 输入 {3} 来查看投票情况"	
 	}
+	
+	"Campaign_Credit" 
+	{
+		"en"			"Change next map after campaign credit end or players press space to skip credit"	
+		"zho"			"等待統計表跑完後或按空格鍵跳過統計，將自動換下一張地圖"
+		"chi"			"等待统计表跑完后或按空格键跳过统计，将自动换下一张地图"
+	}
 }

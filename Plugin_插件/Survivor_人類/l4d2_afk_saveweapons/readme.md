@@ -26,7 +26,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [Heartbeat](https://forums.alliedmods.net/showthread.php?t=322132)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [l4d_heartbeat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_heartbeat)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -67,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2024-10-3)
+		* Require l4d_heartbeat
 
 	* v1.5 (2024-7-30)
 		* Fixed m_currentReviveCount

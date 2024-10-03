@@ -1,5 +1,5 @@
 # Description | 內容
-Kick player if has invalid name via Regular Expressions
+Kick player or change name if has invalid or dirty name
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -54,7 +54,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "chatpattern"		"moron"
                 "chatpattern"		"bitch"
                 
-                "replace"			"**" // Replace the matches with a string
+                "replace"			"**" // Change name, replace the matches with this string
                 "warn"				"You have {green}dirty word{default} in name, Change name please!" // Warn the client they are violating the matching rules
                 "action"			"sm_slay #%u"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
                 "immunity"          "z" //Allow admins with specified levels to be immune
@@ -64,7 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * Other keyValue
         ```php
-        "replaceall" "****" // Replace the whole player name with a string
+        "replaceall" "****" // Change name, Replace the whole name with a string
         ```
 
     * action
@@ -97,14 +97,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家
+名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
 
 * 圖示
     <br/>![zho/l4d_invalid_name_1](image/zho/l4d_invalid_name_1.jpg)
     <br/>![zho/l4d_invalid_name_2](image/zho/l4d_invalid_name_2.jpg)
 
 * 原理
-    * 只要名字有的字詞符合禁詞表內任何一個詞彙，屏蔽字詞並懲罰玩家
+    * 只要名字有的字詞符合禁詞表內任何一個詞彙，屏蔽字詞並懲罰玩家或幫玩家改名
     * 禁詞表位於```configs/regexrestrict.cfg```，可自行增修
     * 英文字母與西里爾文字(俄文)也適用，自動偵測大小寫
 
@@ -138,7 +138,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
                 "chatpattern"       "cao"
                 "chatpattern"		"shabi"
 
-                "replaceall"        "我是傻B！" // 幫玩家改名
+                "replaceall"        "我是傻B！" // 幫玩家改全名 
                	"warn"				"名字带有{green}脏话{default}! 已改名!" // 顯示警告
 		        "action"			"sm_slay #%u" //伺服器會採取的命令動作，此處命令為處死玩家，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
 		        "immunity"          "z" //z權限的玩家不受影響
@@ -148,7 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * 其他可用參數
         ```php
-        "replace" "xxxx" // 名字內的敏感字詞用其他文字取代
+        "replace" "xxxx" // 幫玩家改名, 名字內的敏感字詞用其他文字取代
         ```
 
     * action能寫的參數

@@ -103,7 +103,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-義和團，刀槍不入，神功護體
+清朝義和團，刀槍不入，神功護體
 
 * 原理
     * 輸入 ```!protect``` 獲得以下能力

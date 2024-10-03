@@ -19,6 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
+	2. [l4d_heartbeat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_heartbeat)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -73,13 +74,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d_heartbeat](https://forums.alliedmods.net/showthread.php?t=322132): Fixes survivor_max_incapacitated_count cvar increased values reverting black and white screen. Also some extra options.
-		> 可用指令調整倖存者有多條生命與黑白狀態
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2024-10-3)
+		* Require l4d_heartbeat
 
 	* v1.0h (2023-6-19)
 		* Add Cvars to tell if Target is self or teammate bot or teammate real player

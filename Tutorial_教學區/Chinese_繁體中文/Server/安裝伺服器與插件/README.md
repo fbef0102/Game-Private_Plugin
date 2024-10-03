@@ -21,6 +21,7 @@
   - [如何修改指令](#如何修改指令)
   - [如何使用插件的命令](#如何使用插件的命令)
   - [如何更新專屬伺服器](#如何更新專屬伺服器)
+  - [如何更新Sourcemod](#如何更新Sourcemod)
   - [專業術語介紹](#專業術語介紹)
   - [其他](#其他)
 > __Note__ 本處教學一律是Sourcemod，與AMX Mod X無任何關係
@@ -172,7 +173,7 @@
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件 (沒有此文件請自行創立)
       - ```+sv_lan 0``` 改成網際網路 (廢話)
-      - ```-maxplayers 31``` 最多玩家上限，即使設定31人，伺服器人數受到遊戲模式的限制
+      - ```-maxplayers 31``` 最多的客戶端人數上限，即使設定31人，伺服器人數受到遊戲模式的限制
          - L4D 戰役模式最多4人、對抗模式最多8人
       - 可自行添加其他參數(啟動選項)，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
@@ -204,7 +205,7 @@
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
       - ```+sv_lan 0``` 改成網際網路
-      - ```-maxplayers 31``` 最多玩家上限
+      - ```-maxplayers 31``` 最多客戶端人數上限
       - 可自行添加其他參數(啟動選項)，譬如
          - ```+map c2m2_fairgrounds``` 開啟伺服器的預設地圖
          - ```+sv_password 12345``` 伺服器密碼為12345
@@ -837,8 +838,19 @@
    4. 完成更新之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/932403e4-f5ab-4c8f-981e-9aa3ba8ecb53)
 
-* 如果是要更新Sourcemod版本，那就刪除addons資料夾，全部打掉重練
-	- 插件、cfg、源碼可以備份
+- - - -
+## 如何更新Sourcemod
+1. 先備份
+      * ```cfg/sourcemod```內的所有cfg文件
+      * ```sourcemod/scripting```內的所有源碼
+      * ```sourcemod/data```內的所有文件
+      * ```sourcemod/configs```內的所有文件
+2. 刪除```addons```資料夾，請全部打掉重練
+   * 重新安裝Sourcemod與Metamod
+3. 重新安裝所有插件
+   * 必要時，請自己上網查看插件是否有更新
+   * 建議一律下載最新版本的插件並更新
+   * 建議建議保留源碼並自己編譯
 
 - - - -
 ## 專業術語介紹
