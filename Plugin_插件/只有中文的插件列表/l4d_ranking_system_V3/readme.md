@@ -29,7 +29,7 @@
 
 * 功能
 	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
-	* 可自訂階級名稱，位於```configs\l4d_ranking_system_V3.cfg```
+	* 可自訂階級名稱，位於[configs/l4d_ranking_system_V3.cfg](configs/l4d_ranking_system_V3.cfg)
 
 * 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -137,7 +137,7 @@
 
 * <details><summary>文件設定</summary>
 
-	* ```configs\l4d_ranking_system_V3.cfg``` 設置階級頭銜名稱
+	* [configs\l4d_ranking_system_V3.cfg](configs\l4d_ranking_system_V3.cfg) 設置階級頭銜名稱
 	* 經驗值最大只到2147483647，超過會發生bug，認真你就輸了 (有誰他馬的會達到這個21億點經驗值)
 		```php
 		"l4d_ranking_system"

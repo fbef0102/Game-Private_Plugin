@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Survivors have to make it to saferoom or rescue vehicle within time limit
 		* Once map nuke time out, slay all survivors and restart the chapter
 		* Once city escape time out, slay all survivors and restart the whole campaign
-	* You can customize time limit for each map in file ```data/l4d2_map_nuke.cfg```
+	* You can customize time limit for each map in file [data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)
 </details>
 
 * Require | 必要安裝
@@ -62,7 +62,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Example Config</summary>
 
-	* data\l4d2_map_nuke.cfg
+	* [data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)
 		```php
 		"l4d2_map_nuke" 
 		{
@@ -108,7 +108,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 倖存者必須在指定時間內逃亡到安全室或者通關上救援
 		* 一旦章節逃亡時間到，處死所有倖存者並回合重新開始
 		* 一旦城市逃亡時間到，處死所有倖存者並重新回到地圖的第一關
-	* 可以設置文件```data/l4d2_map_nuke.cfg```，決定每一關的逃亡時間
+	* 可以設置文件[data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)，決定每一關的逃亡時間
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -148,7 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定</summary>
 
-	* 設定文件```data\l4d2_map_nuke.cfg```，決定每一關的逃亡時間
+	* 設定文件[data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)，決定每一關的逃亡時間
 		```php
 		"l4d2_map_nuke" 
 		{

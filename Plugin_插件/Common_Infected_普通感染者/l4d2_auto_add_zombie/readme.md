@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d2_auto_add_zombie.txt```
+	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
 		```php
 		// default settings
 		"default"
@@ -191,7 +191,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d2_auto_add_zombie.txt```
+	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
 		```php
 		// 預設配置
 		"default"

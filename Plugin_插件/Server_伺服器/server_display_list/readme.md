@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/server_display_list.cfg.cfg```
+	* [data\server_display_list.cfg](data\server_display_list.cfg)
 		```php
 		"server"
 		{
@@ -120,7 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 可自行設定顯示內容
-	* ```data/server_display_list.cfg.cfg```
+	* [data\server_display_list.cfg](data\server_display_list.cfg)
 		```php
 		"server"
 		{

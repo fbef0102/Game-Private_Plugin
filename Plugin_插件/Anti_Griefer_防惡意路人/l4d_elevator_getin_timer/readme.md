@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* When someone presses the elevator button, a timer will display how many time left. If a player is not inside the evelator Trailer, slay him
 	* When someone enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the CEDA Trailer, slay him
-	* Modify ```data/l4d_elevator_info.txt``` to detect every elevator or CEDA Trailer on the map
+	* Modify [data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg) to detect every elevator or CEDA Trailer on the map
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -52,7 +52,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d_elevator_info.txt
+	* [data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
 		```php
 		"elevator"
 		{
@@ -151,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* 設置文件```data/l4d_elevator_info.txt```，修改每一張地圖的電梯或CEDA大拖車
+	* 設置文件[data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)，修改每一張地圖的電梯或CEDA大拖車
 	* 支援所有官方地圖 (三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢)
 		```php
 		"elevator"

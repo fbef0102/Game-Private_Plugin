@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* configs/simple-chatcolors.cfg
+	* [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
 		```php
 		"Settings"
 		{
@@ -127,7 +127,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 可自訂顏色與稱號
-	* configs/simple-chatcolors.cfg
+	* [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
 		```php
 		"Settings"
 		{

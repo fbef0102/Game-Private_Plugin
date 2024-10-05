@@ -94,7 +94,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```configs\l4d_ranking_system.cfg``` 
+	* [configs\l4d_ranking_system.cfg](configs\l4d_ranking_system.cfg)
 		```php
 		"l4d_ranking_system"
 		{

@@ -47,7 +47,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data File</summary>
 
-    * Auto create ```data/l4d_survival_setup/l4d_survival_setup.cfg``` to save and record players' weapons and items setup
+    * Auto create [data/l4d_survival_setup/l4d_survival_setup.cfg](data/l4d_survival_setup/l4d_survival_setup.cfg) to save and record players' weapons and items setup
     * 🟥 Don't try to modify unless you know what you are doing
 </details>
 
@@ -121,7 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data 文件</summary>
 
-    * 此插件會自動創建```data/l4d_survival_setup/l4d_survival_setup.cfg```，並儲存與紀錄玩家的武器與物品設定
+    * 此插件會自動創建[data/l4d_survival_setup/l4d_survival_setup.cfg](data/l4d_survival_setup/l4d_survival_setup.cfg)，並儲存與紀錄玩家的武器與物品設定
     * 🟥 沒事別改動文件除非你知道這是在幹嗎
 </details>
 

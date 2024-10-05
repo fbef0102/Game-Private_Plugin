@@ -1,3 +1,97 @@
+//	------------KeyValue English-----------
+//		
+//	"tank_ban_flow" //ban tank flow
+//	{
+//		"Before elevator exit" //Whatever name
+//		{
+//			//Plugin will not spawn tank in 38~79%
+//			"min"		"38"
+//			"max"		"79"
+//		}
+//		"Early spawns" //Whatever name
+//		{
+//			//Plugin will not spawn tank in 0~24%
+//			"min"		"0"
+//			"max"		"24"
+//		}
+//	}
+//
+//	"witch_ban_flow" //ban witch flow
+//	{
+//		
+//		"Event" //Whatever name
+//		{
+//			//Plugin will not spawn Witch in 53~75%
+//			"min"		"53"
+//			"max"		"75"
+//		}
+//	}
+//
+//	// If 1, plugin will not spawn tank in this map
+//	"tank_map_off" "1" 
+//
+//	// Only set 1 if this map has its own tank static spawn, for example: c7m1, c13m2
+//	"static_tank_map" "1"
+//	
+//	// If 1, plugin will not spawn witch in this map
+//	"witch_map_off" "1"	 	
+//	
+//	// Only set 1 if this map has its own witch static spawn, for example: c6m1
+//	"static_witch_map" "1"
+//
+//	// If 1, spawn bride witch model instead
+//	"witch_bride_map" "1"
+//
+//	
+//	------------可寫入的參數 中文說明-----------
+//		
+//	每一張地圖都有地形或地圖問題
+//	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存
+//	因此需要禁止某些路段生成Tank/Witch
+//	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+//
+//	"tank_ban_flow" //禁止插件生成Tank的路段
+//	{
+//		"Before elevator exit" //名稱自取，不重要
+//		{
+//			//插件不會在 38~79% 生成Tank
+//			"min"		"38"
+//			"max"		"79"
+//		}
+//
+//		"Early spawns" //名稱自取，不重要
+//		{
+//			//插件不會在 0~24% 生成Tank
+//			"min"		"0"
+//			"max"		"24"
+//		}
+//	}
+//
+//	"witch_ban_flow" //禁止插件生成Witch的路段
+//	{
+//		"Event" //名稱自取，不重要
+//		{
+//			//插件不會在 0~24% 生成Witch
+//			"min"		"53"
+//			"max"		"75"
+//		}
+//	}
+//
+//	// 為1時, 插件不會在此地圖生成Tank
+//	"tank_map_off" "1" 
+//
+//	// 如果地圖有自己固定生成的Tank，則設為1，譬如關卡: c7m1, c13m2
+//	"static_tank_map" "1"
+//	
+//	// 為1時, 插件不會在此地圖生成Witch
+//	"witch_map_off" "1"	 	
+//	
+//	// 如果地圖有自己固定生成的Witch，則設為1，譬如關卡: c6m1
+//	"static_witch_map" "1"
+//
+//	// 為1時, 插件生成的Witch改成新娘模組
+//	"witch_bride_map" "1"
+
 "MapInfo"
 {
 	"c1m1_hotel"
@@ -9,6 +103,7 @@
 				"min"		"38"
 				"max"		"79"
 			}
+
 			"Early spawns"
 			{
 				"min"		"0"
@@ -37,6 +132,7 @@
 				"max"		"68"
 			}
 		}
+
 		"witch_ban_flow"
 		{
 			"Event"
@@ -248,9 +344,9 @@
 	}
 	"c6m1_riverbank"
 	{
-		"static_tank_map" "1"
-		"witch_map_off"	"1"
-		"witch_bride_map" "1"
+		"witch_map_off"		"1"
+		"static_witch_map" 	"1"
+		"witch_bride_map" 	"1"
 	}
 	"c6m2_bedlam"
 	{
@@ -532,8 +628,8 @@
 	}
 	"l4d_river01_docks"
 	{
-		"static_tank_map" "1" // there is already a tank in this map
-		"tank_map_off" "1" // plugin will not spawn a tank in this map
+		"static_tank_map" 	"1"
+		"tank_map_off" 		"1"
 	}
 	"l4d_river03_port"
 	{

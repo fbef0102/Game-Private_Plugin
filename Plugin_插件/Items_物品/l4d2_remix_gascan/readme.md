@@ -120,7 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d2_remix_gascan.txt
+	* [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
 		```php
 		"l4d2_remix_gascan"
 		{
@@ -143,7 +143,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* Type ```!savecans``` to stores all gas can locations into a file.
 				* The file would be ```cfg\remix_gascan\coop\xxxxx.txt```
 				* xxxxx is map name
-			* Edit ```data/l4d2_remix_gascan.txt``` and ```"coop" "XX"``` to dedcide how many Gas Cans to spawn from the file.
+			* Edit [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg) and ```"coop" "XX"``` to dedcide how many Gas Cans to spawn from the file.
 			* Restart Map
 
 		* Scavenge
@@ -153,7 +153,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* Type ```!savescavengecans``` to stores all gas can locations into a file.
 				* The file would be ```cfg\remix_gascan\scavenge\xxxxx.txt```
 				* xxxxx is map name
-			* Edit ```data/l4d2_remix_gascan.txt``` and ```"scavenge" "XX"``` to dedcide how many Gas Cans to spawn from the file.
+			* Edit [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg) and ```"scavenge" "XX"``` to dedcide how many Gas Cans to spawn from the file.
 			* Restart Map
 	</details>
 
@@ -226,7 +226,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* data/l4d2_remix_gascan.txt
+	* [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
 		```php
 		"l4d2_remix_gascan"
 		{
@@ -249,7 +249,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 輸入 ```!savecans``` 儲存所有的汽油桶至文件檔案
 				* 文件檔案位於 ```cfg\remix_gascan\coop\xxxxx.txt```
 				* xxxxx 是地圖名
-			* 編輯文件 ```data/l4d2_remix_gascan.txt``` 寫下 ```"coop" "XX"``` 自行決定要生成的數量
+			* 編輯文件 [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg) 寫下 ```"coop" "XX"``` 自行決定要生成的數量
 			* 重啟地圖
 
 		* 清道夫
@@ -259,7 +259,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 輸入 ```!savescavengecans``` 儲存所有的汽油桶至文件檔案
 				* 文件檔案位於 ```cfg\remix_gascan\scavenge\xxxxx.txt```
 				* xxxxx 是地圖名
-			* 編輯文件 ```data/l4d2_remix_gascan.txt``` 寫下 ```"scavenge" "XX"``` 自行決定要生成的數量
+			* 編輯文件 [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg) 寫下 ```"scavenge" "XX"``` 自行決定要生成的數量
 			* 重啟地圖
 	</details>
 

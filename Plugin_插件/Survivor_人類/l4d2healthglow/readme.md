@@ -132,7 +132,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2healthglow_upate_interval "0.5"
 
 		// If 1, You can see yourself glow in thirdperson view
-		l4d2healthglow_thirdperson_view "1"
+		// Not recommend to enable thirdperson view
+		l4d2healthglow_thirdperson_view "0"
+
+		// If 1, Hide player's equipment glow
+		// Not recommend to hide
+		l4d2healthglow_player_eq_hide "0"
 		```
 </details>
 
@@ -155,6 +160,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4h (2024-10-6)
+		* Update cvars
 
 	* v1.3h (2024-9-30)
 		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
@@ -302,6 +310,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2healthglow_upate_interval "0.5"
 
 		// 為1時，在第三人稱狀態下可以看到自己的光圈
-		l4d2healthglow_thirdperson_view "1"
+		// 不建議開啟
+		l4d2healthglow_thirdperson_view "0"
+
+		// 為1時，隱藏玩家身上的裝備光圈
+		// 不建議隱藏
+		l4d2healthglow_player_eq_hide "0"
 		```
 </details>

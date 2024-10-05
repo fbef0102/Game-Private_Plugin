@@ -80,7 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
   
-	* ```data/anti-friendly_fire_RPG.cfg```
+	* [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
 		```php
 		"anti-friendly_fire_RPG"
 		{
@@ -269,7 +269,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
   
-	* ```data/anti-friendly_fire_RPG.cfg```
+	* [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
 		```php
 		"anti-friendly_fire_RPG"
 		{

@@ -37,7 +37,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d_random_vote_map.cfg
+	* [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
     * the map is chosen randomly from the data list, modify to add or delete
         ```php 
         c5m5_bridge
@@ -91,7 +91,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* data/l4d_random_vote_map.cfg
+	* [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
     * 從以下列表中隨機選擇地圖，可自行填寫增加或刪除，寫入順序不影響
         ```php 
         c5m5_bridge

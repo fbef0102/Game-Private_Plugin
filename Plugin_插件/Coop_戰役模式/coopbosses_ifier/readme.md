@@ -65,12 +65,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Disable Witch spawn in Final Map
 		l4d_coop_boss_final_witch_spawn_disable "1"
 
-		// If 1, Disable director's witch/tank.
-		l4d_coop_boss_spawn_cvars "1"
-
-		// If 1, Don't override director boss spawning rules on Static Tank Spawn maps
-		// Need to write keyvalue "static_tank_map" "1" in data/mapinfo.txt (c7m1, c13m2)
-		l4d_coop_boss_spawn_except_static "1"
+		// Display which message? Add numbers together
+		// 1=Tank has spawned, 2=Witch has spawned, 4=Tank flow percentage, 8=Witch flow percentage
+		l4d_coop_boss_chat_flag "15"
 		```
 </details>
 
@@ -103,41 +100,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c1m2_streets"　//Map Name
-			{
-				"tank_map_off" "1" 		//This map is prohibited to spawn tank
-				"witch_map_off" "1"	 	//This map is prohibited to spawn witch
-			}
-			"c2m2_fairgrounds" //Map Name
-			{
-				"tank_ban_flow" //ban tank flow
-				{
-					"tank ban test" //Whatever name
-					{
-						"min"		"0" //0~20% is prohibited to spawn tank
-						"max"		"20"
-					}
-					"tank ban test 2" //Whatever name
-					{
-						"min"		"50" //50~80% is prohibited to spawn tank
-						"max"		"80"
-					}
-				}
-				"witch_ban_flow" //ban witch flow
-				{
-					"witch ban test"　 //Whatever name
-					{
-						"min"		"50" //50~100% is prohibited to spawn tank
-						"max"		"100"
-					}
-				}
-			}
-		}
-		```
+	* [data/mapinfo.txt](data/mapinfo.txt)
+		> Watch file for more details...
 </details>
 
 * Apply to | 適用於
@@ -159,6 +123,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.8h (2024-10-6)
+		* Update cvars
+		* Update data
 
     * v1.7h (2023-6-20)
         * Require left4dhooks v1.33 or above
@@ -183,8 +151,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 關閉導演生成系統，由此插件決定何時生成Tank與Witch
-		* 假設75%生成Tank，當人類路程走到75%路程，生成Tank
-  		* Witch同理
+		* 假設75%生成Tank，當人類路程走到75%路程，生成一個Tank
+		* 假設70%生成Witch，當人類路程走到70%路程，生成一個Witch
+			```php
+			Tank spawn: 75%,
+			Witch spawn: 70%
+			```
   		* 由插件指令決定每一關的Tank與Witch生成範圍
   		* 每回合只會生成一隻Tank與Witch
 	* 也適用於寫實模式
@@ -223,12 +195,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 如果為1，最後一關預設不生成Witch
 		l4d_coop_boss_final_witch_spawn_disable "1"
 
-		// 強制VScript並覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
-		l4d_coop_boss_spawn_cvars "1"
-
-		// 如果地圖為固定生成Tank的關卡，則不修改Boss路程 (不要修改此指令除非你知道在幹嗎)
-		// data/mapinfo.txt裡面必須寫上"static_tank_map" "1"，譬如c7m1, c13m2
-		l4d_coop_boss_spawn_except_static "1"
+		// 顯示以下哪些訊息給玩家看? 請將數字相加
+		// 1=Tank已復活, 2=Witch已復活, 4=Witch路程, 8=Tank路程
+		l4d_coop_boss_chat_flag "15"
 		```
 </details>
 
@@ -260,43 +229,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>文件設定範例</summary>
-	
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c1m2_streets"　//地圖名
-			{
-				"tank_map_off" "1" 		//該地圖禁止生成Tank
-				"witch_map_off" "1"	 	//該地圖禁止生成Witch
-			}
-			"c2m2_fairgrounds" //地圖名
-			{
-				"tank_ban_flow" //禁止Tank生成的路段
-				{
-					"tank ban test" //隨便取名
-					{
-						"min"		"0" //0~20%禁止生成Tank
-						"max"		"20"
-					}
-					"tank ban test 2" //隨便取名
-					{
-						"min"		"50" //50~80%禁止生成Tank
-						"max"		"80"
-					}
-				}
-				"witch_ban_flow" //禁止Witch生成的路段
-				{
-					"witch ban test"　 //隨便取名
-					{
-						"min"		"50" //50~100%禁止生成Witch
-						"max"		"100"
-					}
-				}
-			}
-		}
-		```
-	> 每一張地圖都有地形或地圖問題，<br/>
-	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
-	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
+
+	* [data/mapinfo.txt](data/mapinfo.txt)
+		> 點擊文件查看更多說明...
 </details>

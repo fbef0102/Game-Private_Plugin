@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d_character_vocalize_select.cfg```
+	* [data/l4d_character_vocalize_select.cfg](data/l4d_character_vocalize_select.cfg)
 		```php
 		"l4d_character_vocalize_select"
 		{
@@ -145,7 +145,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d_character_vocalize_select.cfg```
+	* [data/l4d_character_vocalize_select.cfg](data/l4d_character_vocalize_select.cfg)
 		```php
 		"l4d_character_vocalize_select"
 		{

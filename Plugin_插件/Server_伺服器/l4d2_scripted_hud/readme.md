@@ -72,7 +72,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 
 	* How to write message in HUD text as I want?
-		1. Modify ```data\l4d2_scripted_hud.cfg``` "HUD_Texts"
+		1. Modify [data/l4d2_scripted_hud.cfg](addons/sourcemod/data/l4d2_scripted_hud.cfg) "HUD_Texts"
 		2. Or Modify ```l4d2_scripted_hud_hud?_text``` cvar (? is 1~5)
 
 	* Why hud disappear or being cut?	
@@ -572,7 +572,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![l4d2_scripted_hud_5](image/l4d2_scripted_hud_5.jpg)
 
 	* 如何修改在 HUD 加入自己寫的文字?
-		1. 請修改 ```data\l4d2_scripted_hud.cfg``` 的 "HUD_Texts" 格子
+		1. 請修改 [data/l4d2_scripted_hud.cfg](addons/sourcemod/data/l4d2_scripted_hud.cfg) 的 "HUD_Texts" 格子
 		2. 或修改 ```l4d2_scripted_hud_hud?_text``` 指令(? 是數字1~5)
 
 	* 為何 HUD 會移位或被切掉?	

@@ -11,8 +11,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 <br/>None
 
-* Notice
-	* This plugin will disable any friendly fire damage (bullet) between survivors, would conflict with other plugin which modify friendly fire damage.
+* <details><summary>How does it work?</summary>
+
+	* No friendly fire
+	* Prevent survivor vision from getting experiencing recoil and screen shaking
+	* This plugin will disable any friendly fire damage (bullet) between survivors, don't install this with other plugins which modify friendly fire damage.
+	* Molotove, gascan, flame, explosive proptank still does FF damage
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -51,8 +56,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
 
 * 原理
-	* 官方預設中，開槍打到對友，會使得隊友螢幕晃動且隊友的後座力會降低
-	* 此插件會關閉友傷且不造成隊友任何影響
+	* (裝此插件之前) 官方預設中，開槍打到對友
+		* 有友傷
+		* 使得隊友螢幕晃動
+		* 隊友的後座力會降低
+	* (裝此插件之後) 子彈穿透隊友
+		* 不會造成友傷
+		* 不會使得隊友螢幕晃動
+		* 不會使得隊友的後座力降低
 
 * 注意事項
 	* 安裝上此插件會使得倖存者的子彈友傷強制變成0 (火燒傷、瓦斯桶爆炸依然會有傷害)，會與其他有關友傷的插件產生衝突

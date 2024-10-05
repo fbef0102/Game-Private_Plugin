@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Detect all items on round start and remove items if limit reach
-	* Modify ```data/mapinfo.txt``` and control items limit on the map
+	* Modify [data/mapinfo.txt](data/mapinfo.txt) and control items limit on the map
 	* Keep item spawns the same position number on both rounds in versus/scavenge
 </details>
 
@@ -106,7 +106,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/mapinfo.txt```
+	* [data/mapinfo.txt](data/mapinfo.txt)
 	* control items limit on the map
 		* control items in start safe area in coop/versus/realism
 		* control items outside saferoom/final area in coop/versus/realism/survival/scavenge
@@ -207,7 +207,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 地圖載入後的0.5秒後，
 		* 控制地圖上的物品生成數量或限制
-		* 設置文件```data/mapinfo.txt```，控制地圖上的物品生成數量或限制
+		* 設置文件[data/mapinfo.txt](data/mapinfo.txt)，控制地圖上的物品生成數量或限制
 		* 此插件刪除地圖上原有的物品，並非生成新物品
 	* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶
 	* 對抗/清道夫模式第二回合，所有物品位置與數量要與第一回合相同
@@ -292,7 +292,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/mapinfo.txt```，控制每一關的物品生成數量與限制
+	* [data/mapinfo.txt](data/mapinfo.txt)，控制每一關的物品生成數量與限制
 	* 此插件刪除地圖上原有的物品，並非生成新物品
 	* 支援所有官方地圖，三方圖請自行新增與修改
 		```php
@@ -356,7 +356,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>如何自行新增三方圖</summary>
 
-	* data/mapinfo.txt
+	* [data/mapinfo.txt](data/mapinfo.txt)
 		```php
 		"MapInfo"
 		{

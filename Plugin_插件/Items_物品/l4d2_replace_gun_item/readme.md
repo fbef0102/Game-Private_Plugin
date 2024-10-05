@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Detect all weapons/items/melees on round start and replace with other guns/items/melees or just remove
-	* Modify ```data/l4d2_replace_gun_item.cfg``` 
+	* Modify [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		* Replace big guns with other guns
 		* Replace items with other items
 		* Replace melees with other guns
@@ -73,7 +73,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d2_replace_gun_item.cfg
+	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		```php
 		"l4d2_replace_gun_item"
 		{
@@ -157,7 +157,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 地圖載入後的0.8秒後
 		* 將所有大槍武器刪除並替換成小槍
 		* 地圖載入後，將所有治療包與電擊器刪除並替換成藥丸
-		* 設定文件```data/l4d2_replace_gun_item.cfg```，刪除並替換成其他武器/物品/近戰
+		* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)，刪除並替換成其他武器/物品/近戰
 	* 遊戲中途生成或掉落的物資也能被替換，譬如
 		* 墮落生還者掉落的物資
 		* CEDA掉落的膽汁瓶
@@ -199,7 +199,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* data/l4d2_replace_gun_item.cfg
+	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		```php
 		"l4d2_replace_gun_item"
 		{

@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d2_melee_knock_survivor.cfg```
+	* [data/l4d2_melee_knock_survivor.cfg](data/l4d2_melee_knock_survivor.cfg)
 		```php
 		"melees"
 		{
@@ -88,7 +88,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d2_melee_knock_survivor.cfg```
+	* [data/l4d2_melee_knock_survivor.cfg](data/l4d2_melee_knock_survivor.cfg)
 		```php
 		"melees"
 		{

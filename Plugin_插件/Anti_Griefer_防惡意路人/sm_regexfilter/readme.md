@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
     * Punish player who said dirty word (Ban, Slap, Kick, ...)
-    * Modify dirty word table in ```configs/regexrestrict.cfg```
+    * Modify dirty word table in [configs/regexrestrict.cfg](configs/regexrestrict.cfg)
 </details>
 
 * Require | 必要安裝
@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-    * configs/regexrestrict.cfg
+    * [configs/regexrestrict.cfg](configs/regexrestrict.cfg)
         ```php
         "Censor"
         {
@@ -140,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 只要打字說出的字詞符合禁詞表內任何一個詞彙，屏蔽敏感字詞並懲罰玩家
-    * 禁詞表位於```configs/regexrestrict.cfg```，可自行增修
+    * 禁詞表位於[configs/regexrestrict.cfg](configs/regexrestrict.cfg)，可自行增修
     * 英文字母與西里爾文字(俄文)也適用，自動偵測大小寫
 
 * 用意在哪?
@@ -164,7 +164,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 禁詞表可自行增修
     * 可設置權限，管理員的言論不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
-    * configs/regexrestrict.cfg
+    * [configs/regexrestrict.cfg](configs/regexrestrict.cfg)
         ```php
         "Censor"
         {

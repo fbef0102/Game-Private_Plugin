@@ -400,7 +400,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How to modify the item price</summary>
 
-	* Modify ```data/L4D2_Buy_Store.cfg```
+	* Modify [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 * <details><summary>Database</summary>
@@ -787,7 +787,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>如何設定各商品金額</summary>
 
-	* 修改文件 ```data/L4D2_Buy_Store.cfg```
+	* 修改文件 [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 * <details><summary>資料庫設定</summary>

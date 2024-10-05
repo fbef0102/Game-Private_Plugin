@@ -59,7 +59,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 	
-	* configs/ban_country_player.cfg
+	* [configs/ban_country_player.cfg](configs/ban_country_player.cfg)
 		```php
 		//Restricted Area List - Do not delete this line
 		Taiwan
@@ -110,7 +110,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![ban_country_player_1](image/zho/ban_country_player_1.jpg)
 
 * 原理
-	* 設置文件```configs/ban_country_player.cfg```，寫下限制地區列表與Steam帳號的豁免名單列表
+	* 設置文件[configs/ban_country_player.cfg](configs/ban_country_player.cfg)，寫下限制地區列表與Steam帳號的豁免名單列表
 	* 玩家連線時，從IP上提取地區位置，如果地區**在名單上**則不能加入
 		* Steam帳號在豁免名單上的不會被踢
 		* 有管理員權限的人不會被踢
@@ -152,7 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 	
-	* 文件位於 configs/ban_country_player.cfg
+	* 文件位於 [configs/ban_country_player.cfg](configs/ban_country_player.cfg)
 		```php
 		//Restricted Area List - Do not delete this line <== 地區名單列表 - 請勿刪除此行
 		Taiwan

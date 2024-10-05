@@ -26,24 +26,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 🟥 Please write down the following official cvars in ```cfg/server.cfg```
 		```php
 		// Adjust tank spawns: 100% chance on every map (0.00 ~ 1.00)
-		sm_cvar versus_tank_chance_intro 		"1" //first map
-		sm_cvar versus_tank_chance 				"1" //regular map
-		sm_cvar versus_tank_chance_finale 		"1" //final map
+		sm_cvar versus_tank_chance_intro 		"1" //first map (1=Spawn Tank, 0=Disable Spawn)
+		sm_cvar versus_tank_chance 				"1" //regular map (1=Spawn Tank, 0=Disable Spawn)
+		sm_cvar versus_tank_chance_finale 		"1" //final map (1=Spawn Tank, 0=Disable Spawn)
 
 		// Adjust witch spawns: 100% chance on every map (0.00 ~ 1.00)
-		sm_cvar versus_witch_chance_intro 		"1" //first map
-		sm_cvar versus_witch_chance 			"1" //regular map
-		sm_cvar versus_witch_chance_finale 		"1" //final map
+		sm_cvar versus_witch_chance_intro 		"1" //first map (1=Spawn Witch, 0=Disable Spawn)
+		sm_cvar versus_witch_chance 			"1" //regular map (1=Spawn Witch, 0=Disable Spawn)
+		sm_cvar versus_witch_chance_finale 		"1" //final map (1=Spawn Witch, 0=Disable Spawn)
 
-		// Adjust boss spawn range percentage: Boss will only spawn between 20% ~ 85% on the map
-		sm_cvar versus_boss_flow_min_intro 		"0.20" //first map
-		sm_cvar versus_boss_flow_max_intro 		"0.85"
+		// Adjust tank/witch spawn range percentage
+		sm_cvar versus_boss_flow_min_intro 		"0.20" //first map min (range: 0.00~1.00, 0.20=20% percentage)
+		sm_cvar versus_boss_flow_max_intro 		"0.85" //first map max (range: 0.00~1.00, 0.85=85% percentage)
 
-		sm_cvar versus_boss_flow_min 			"0.25" //regular map
-		sm_cvar versus_boss_flow_max 			"0.85"
+		sm_cvar versus_boss_flow_min 			"0.25" //regular map min (range: 0.00~1.00, 0.20=20% percentage)
+		sm_cvar versus_boss_flow_max 			"0.85" //regular map max (range: 0.00~1.00, 0.85=85% percentage)
 
-		sm_cvar versus_boss_flow_min_finale 	"0.20"
-		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map
+		sm_cvar versus_boss_flow_min_finale 	"0.20" //final map min (range: 0.00~1.00, 0.20=20% percentage)
+		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map max (range: 0.00~1.00, 0.85=85% percentage)
 		```
 </details>
 
@@ -71,20 +71,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Minimum flow amount witches should avoid tank spawns by, by half the value given on either side of the tank spawn
 		l4d_versus_boss_avoid_tank_spawn "10"
 
-		// If 1, Forcing director script to obey boss spawn cvars
-		l4d_versus_boss_spawn_cvars "1"
-
 		// 1=Display boss percentages to entire team when using commands, 0=Display boss percentages to user only team when using commands
 		l4d_versus_boss_global_percent "1"
 
-		// If 1, Display Tank flow percentage in chat
-		l4d_versus_boss_tank_percent "1"
-
-		// If 1, Display Witch flow percentage in chat
-		l4d_versus_boss_witch_percent "1"
-
-		// If 1, Notify message when tank/witch has spawned
-		l4d_versus_boss_spawn_notify "1"
+		// Display which message? Add numbers together
+		// 1=Tank has spawned, 2=Witch has spawned, 4=Tank flow percentage, 8=Witch flow percentage
+		l4d_versus_boss_chat_flag "15"
 		```
 </details>
 
@@ -127,54 +119,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c2m2_fairgrounds" //Map Name
-			{
-				"tank_ban_flow" //ban tank flow
-				{
-					"tank ban test" //Whatever name
-					{
-						"min"		"0" //0~20% is prohibited to spawn tank
-						"max"		"20"
-					}
-					"tank ban test 2" //Whatever name
-					{
-						"min"		"50" //50~80% is prohibited to spawn tank
-						"max"		"80"
-					}
-				}
-				"witch_ban_flow" //ban witch flow
-				{
-					"witch ban test"　 //Whatever name
-					{
-						"min"		"50" //50~100% is prohibited to spawn tank
-						"max"		"100"
-					}
-				}
-			}
-		}
-		```
-
-	* Available Settings
-		```php
-		// 1=This map is prohibited to spawn tank
-		"tank_map_off" "1"
-
-		//1=This map is prohibited to spawn witch
-		"witch_map_off" "1"
-
-		//1=This map has its own static tank spawn
-		"static_tank_map" "1"
-
-		//1=This map has its own static witch spawn
-		"static_witch_map" "1"
-
-		//1=Plugin spawns bride witch in this map
-		"witch_bride_map" "1"
-		```
+	* [data/mapinfo.txt](data/mapinfo.txt)
+		> Watch file for more details...
 </details>
 
 * Apply to | 適用於
@@ -206,6 +152,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.7h (2024-10-6)
+		* Update cvars
+		* Update data
+
 	* v1.6h (2024-5-26)
 		* Update API and inc
 		* Support Translation 
@@ -228,86 +178,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 此插件控制導演系統，決定何時生成Tank與Witch
-		* 假設75%生成Tank，當人類路程走到75%路程，生成Tank
-		* Witch同理
+		* 假設75%生成Tank，當人類路程走到75%路程，生成一個Tank
+		* 假設70%生成Witch，當人類路程走到70%路程，生成一個Witch
+			```php
+			Tank spawn: 75%,
+			Witch spawn: 70%
+			```
 		* 由官方指令決定每一關的Tank與Witch生成範圍
 		* 每回合只會生成一隻Tank與Witch
 	* 🟥 請務必將以下指令寫入文件 ```cfg/server.cfg```，可自行調整
 		```php
-		// 每張地圖100%生成Tank (0.00 ~ 1.00)
-		sm_cvar versus_tank_chance_intro 		"1" //第一關
-		sm_cvar versus_tank_chance 				"1" //普通關卡
-		sm_cvar versus_tank_chance_finale 		"1" //最後一關
+		// 對抗模式下每張地圖100%生成Tank (0.00 ~ 1.00)
+		sm_cvar versus_tank_chance_intro 		"1" //第一關 (1=生成, 0=不生成)
+		sm_cvar versus_tank_chance 				"1" //普通關卡 (1=生成, 0=不生成)
+		sm_cvar versus_tank_chance_finale 		"1" //最後一關 (1=生成, 0=不生成)
 
-		// 每張地圖100%生成Witch (0.00 ~ 1.00)
-		sm_cvar versus_witch_chance_intro 		"1" //第一關
-		sm_cvar versus_witch_chance 			"1" //普通關卡
-		sm_cvar versus_witch_chance_finale 		"1" //最後一關
+		// 對抗模式下每張關卡100%生成Witch (0.00 ~ 1.00)
+		sm_cvar versus_witch_chance_intro 		"1" //第一關 (1=生成, 0=不生成)
+		sm_cvar versus_witch_chance 			"1" //普通關卡 (1=生成, 0=不生成)
+		sm_cvar versus_witch_chance_finale 		"1" //最後一關 (1=生成, 0=不生成)
 
-		// 決定關卡的Boss生成路程範圍: 25% ~ 85%
-		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關
-		sm_cvar versus_boss_flow_max_intro 		"0.85"
+		// 對抗模式下決定關卡的Tank/Witch生成路程範圍
+		sm_cvar versus_boss_flow_min_intro 		"0.25" //第一關最短 (數值範圍: 0.00~1.00, 0.25代表25%路程)
+		sm_cvar versus_boss_flow_max_intro 		"0.85" //第一關最遠 (數值範圍: 0.00~1.00, 0.85代表85%路程)
 
-		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡
-		sm_cvar versus_boss_flow_max 			"0.85"
+		sm_cvar versus_boss_flow_min 			"0.25" //普通關卡最短 (數值範圍: 0.00~1.00, 0.25代表25%路程)
+		sm_cvar versus_boss_flow_max 			"0.85" //普通關卡最遠 (數值範圍: 0.00~1.00, 0.85代表85%路程)
 
-		sm_cvar versus_boss_flow_min_finale 	"0.25"
-		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關
+		sm_cvar versus_boss_flow_min_finale 	"0.25" //最後一關最短 (數值範圍: 0.00~1.00, 0.25代表25%路程)
+		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關最遠 (數值範圍: 0.00~1.00, 0.85代表85%路程)
 		```
 
 * <details><summary>文件設定範例</summary>
 
-	* data/mapinfo.txt
-		```php
-		"MapInfo"
-		{
-			"c2m2_fairgrounds" //地圖名
-			{
-				"tank_ban_flow" //禁止Tank生成的路段
-				{
-					"tank ban test" //隨便取名
-					{
-						"min"		"0" //0~20%禁止生成Tank
-						"max"		"20"
-					}
-					"tank ban test 2" //隨便取名
-					{
-						"min"		"50" //50~80%禁止生成Tank
-						"max"		"80"
-					}
-				}
-				"witch_ban_flow" //禁止Witch生成的路段
-				{
-					"witch ban test"　 //隨便取名
-					{
-						"min"		"50" //50~100%禁止生成Witch
-						"max"		"100"
-					}
-				}
-			}
-		}
-		```
-	> 每一張地圖都有地形或地圖問題，<br/>
-	在某些路段生成Tank/Witch會導致Tank/Witch卡住或對人類來說過於艱難生存，<br/>
-	(譬如c1m1 Tank生在電梯事件之前一樓樓層無法上來，C2M3 雲霄飛車無限屍潮期間生成Tank)
-
-	* 可用的參數
-		```php
-		// 1=該地圖禁止生成Tank
-		"tank_map_off" "1"
-
-		//1=該地圖禁止生成Witch
-		"witch_map_off" "1"
-
-		//1=該地圖有自己固定生成的Tank
-		"static_tank_map" "1"
-
-		//1=該地圖有自己固定生成的Witch
-		"static_witch_map" "1"
-
-		//1=插件會生成新娘模組的Witch
-		"witch_bride_map" "1"
-		```
+	* [data/mapinfo.txt](data/mapinfo.txt)
+		> 點擊文件查看更多說明...
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -329,20 +234,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Tank 附近前後5% (10除以2) 避開生成witch
 		l4d_versus_boss_avoid_tank_spawn "10"
 
-		// 為1時，強制VScript覆蓋Boss生成效果 (不要修改此指令除非你知道在幹嗎)
-		l4d_versus_boss_spawn_cvars "1"
-
 		// 使用指令打印該回合 Tank/Witch 路程時 1=顯示給跟你相同的隊伍所有人, 0=只顯示給自己看
 		l4d_versus_boss_global_percent "1"
 
-		// 為1時，聊天框與指令可顯示Tank路程
-		l4d_versus_boss_tank_percent "1"
-
-		// 為1時，聊天框與指令可顯示Witch路程
-		l4d_versus_boss_witch_percent "1"
-
-		// 為1時，Tank/Witch生成時提示訊息
-		l4d_versus_boss_spawn_notify "1"
+		// 顯示以下哪些訊息給玩家看? 請將數字相加
+		// 1=Tank已復活, 2=Witch已復活, 4=Witch路程, 8=Tank路程
+		l4d_versus_boss_chat_flag "15"
 		```
 </details>
 

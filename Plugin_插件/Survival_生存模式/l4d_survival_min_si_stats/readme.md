@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d_survival_min_si_require.cfg
+	* [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
 		```php
 		"l4d_survival_min_si_require"
 		{
@@ -98,7 +98,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* data/l4d_survival_min_si_require.cfg
+	* [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
 		```php
 		"l4d_survival_min_si_require"
 		{

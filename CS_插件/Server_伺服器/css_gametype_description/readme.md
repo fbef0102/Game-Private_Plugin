@@ -22,7 +22,7 @@ Allows changing of displayed game type in server browser
 
 * <details><summary>How to Modify Game description</summary>
 
-    1. Modify file: ```configs\css_gametype_description.cfg```
+    1. Modify file: [configs\css_gametype_description.cfg](configs\css_gametype_description.cfg)
         ```php
         Harry-CSS
         ```
@@ -46,7 +46,7 @@ Allows changing of displayed game type in server browser
 
 * <details><summary>改遊戲欄資訊步驟</summary>
 
-    1. 請打開文件```configs\gametype_description.cfg```並更改 (可以寫中文)
+    1. 請打開文件[configs\css_gametype_description.cfg](configs\css_gametype_description.cfg)並更改 (可以寫中文)
         ```php
         Harry 瘋狂模式
         ```

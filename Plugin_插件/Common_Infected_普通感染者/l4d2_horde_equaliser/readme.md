@@ -51,7 +51,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 	
-	* data/mapinfo.txt
+	* [data/mapinfo.txt](data/mapinfo.txt)
 		```php
 		"MapInfo"
 		{
@@ -118,7 +118,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 當有人開啟地圖上的機關之後，將無限屍潮改為有限，殭屍清完之後便不會再有屍潮來襲
-	* 可設置文件```data/mapinfo.txt```調整每一關的有限屍潮數量
+	* 可設置文件[data/mapinfo.txt](data/mapinfo.txt)調整每一關的有限屍潮數量
 
 * 用意在哪?
 	* 對抗模式下某些關卡的無限屍潮對於倖存者來說過於艱難通關

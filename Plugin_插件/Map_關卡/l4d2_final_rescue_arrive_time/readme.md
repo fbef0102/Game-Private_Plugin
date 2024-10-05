@@ -22,7 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 🟥 Auto disable plugin in the following final type.
 		1. Gauntlet final, ex: c5m5, c13m4
 		2. Scavenge final, ex: c1m4, c6m3
-	* You can customize time for each map in file ```data/l4d2_final_rescue_arrive_time.cfg```
+	* You can customize time for each map in file [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
 </details>
 
 * Require | 必要安裝
@@ -61,7 +61,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Example Config</summary>
 
-	* data/l4d2_final_rescue_arrive_time.cfg
+	* [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
 		```php
 		"l4d2_final_rescue_arrive_time"
 		{
@@ -131,7 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 🟥 遇到以下救援類型則自動關閉功能
 		1. 衝刺跑圖, 譬如: c5m5, c13m4
 		2. 灌汽油載具, 譬如: c1m4, c6m3
-	* 可以設置文件```data/l4d2_final_rescue_arrive_time.cfg```，決定每一關的救援抵達時間
+	* 可以設置文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
 
 * 用意在哪?
 	* 適合屍潮太多或Tank過多的伺服器，導致救援階段卡關
@@ -169,7 +169,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定</summary>
 
-	* 設定文件```data\l4d2_final_rescue_arrive_time.cfg```，決定每一關的救援抵達時間
+	* 設定文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
 		```php
 		"l4d2_final_rescue_arrive_time"
 		{

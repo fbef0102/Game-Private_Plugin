@@ -47,7 +47,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d_TougherSurvivorBots.cfg```
+	* [data/l4d_TougherSurvivorBots.cfg](data/l4d_TougherSurvivorBots.cfg)
 		```php
         "l4d_TougherSurvivorBots"
         {
@@ -157,7 +157,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d_TougherSurvivorBots.cfg```
+	* [data/l4d_TougherSurvivorBots.cfg](data/l4d_TougherSurvivorBots.cfg)
 		```php
         "l4d_TougherSurvivorBots"
         {

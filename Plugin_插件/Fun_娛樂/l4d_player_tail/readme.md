@@ -20,7 +20,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Type ```!tailmenu``` -> choose colors and sprite -> have fun
-	* You can add Custom Colors or tail sprite in ```configs/l4d_player_tail.cfg```
+	* You can add Custom Colors or tail sprite in [configs/l4d_player_tail.cfg](addons/sourcemod/configs/l4d_player_tail.cfg)
 </details>
 
 * <details><summary>Important Note</summary>
@@ -98,7 +98,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_player_tail_database "tail"``` and add the following in *sourcemod\configs\databases.cfg*
 			```php
 			// There would a data table named "L4D_Player_Tail" in database
 			"tail"
@@ -112,7 +112,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and set *sourcemod\configs\databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and add the following in *sourcemod\configs\databases.cfg*
 			```php
 			// Database in saved to ```sourcemod\data\sqlite\player_tail.sq3```
 			"tail"
@@ -187,7 +187,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 尾巴過一段時間會隨機變色
 
 * 功能
-	* 可以設定文件```configs/l4d_player_tail.cfg```，自定義尾巴的顏色與圖案
+	* 可以設定文件[configs/l4d_player_tail.cfg](addons/sourcemod/configs/l4d_player_tail.cfg)，自定義尾巴的顏色與圖案
 
 * 注意事項
 	* ```l4d_player_tail_lifetime``` 指令數值必須大於或等於 ```l4d_player_tail_changecolor_interval``` 指令數值

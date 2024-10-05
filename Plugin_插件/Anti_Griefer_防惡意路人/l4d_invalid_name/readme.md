@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
     * Punish player whose name has dirty word (Ban, Kick, Slay....)
-    * Modify dirty word table in ```configs/l4d_invalid_name.cfg```
+    * Modify dirty word table in [configs/l4d_invalid_name.cfg](configs/l4d_invalid_name.cfg)
 </details>
 
 * Require | 必要安裝
@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-    * configs/l4d_invalid_name.cfg
+    * [configs/l4d_invalid_name.cfg](configs/l4d_invalid_name.cfg)
         ```php
         "l4d_invalid_name"
         {
@@ -105,7 +105,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 只要名字有的字詞符合禁詞表內任何一個詞彙，屏蔽字詞並懲罰玩家或幫玩家改名
-    * 禁詞表位於```configs/regexrestrict.cfg```，可自行增修
+    * 禁詞表位於[configs/l4d_invalid_name.cfg](configs/l4d_invalid_name.cfg)，可自行增修
     * 英文字母與西里爾文字(俄文)也適用，自動偵測大小寫
 
 * 用意在哪?
@@ -128,7 +128,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 禁詞表可自行增修
     * 可設置權限，管理員的名字不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
-    * configs/l4d_invalid_name.cfg
+    * [configs/l4d_invalid_name.cfg](configs/l4d_invalid_name.cfg)
         ```php
         "l4d_invalid_name"
         {

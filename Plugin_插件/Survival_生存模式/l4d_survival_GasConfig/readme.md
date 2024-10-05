@@ -64,7 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* Auto create files in ```data/GasConfigs``` folder to save gas config
+	* Auto create files in [data/GasConfigs](data/GasConfigs) folder to save gas config
     * Don't try to modify unless you know what you are doing
 </details>
 
@@ -175,7 +175,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* 此插件會自動創建文件於```data/GasConfigs```資料夾，用來儲存玩家的物資擺放設定
+	* 此插件會自動創建文件於[data/GasConfigs](data/GasConfigs)資料夾，用來儲存玩家的物資擺放設定
     * 沒事別改動文件除非你知道這是在幹嗎
 </details>
 

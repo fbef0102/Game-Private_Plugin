@@ -54,7 +54,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
   
-	* data/mapinfo.txt
+	* [data/mapinfo.txt](data/mapinfo.txt)
 		```php
 		"MapInfo"
 		{
@@ -149,7 +149,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
   
-	* data/mapinfo.txt
+	* [data/mapinfo.txt](data/mapinfo.txt)
 		```php
 		"MapInfo"
 		{

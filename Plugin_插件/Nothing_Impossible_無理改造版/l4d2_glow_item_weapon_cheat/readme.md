@@ -73,7 +73,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* data/l4d2_glow_item_weapon_cheat.cfg
+	* [data/l4d2_glow_item_weapon_cheat.cfg](data/l4d2_glow_item_weapon_cheat.cfg)
 		```php
 		// Attributes explained:
 		//  "enable"   -> Apply plugin glow to entity. "0" = Disable, "1" = Enable.
@@ -179,7 +179,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_itemglow
 		```
 
-	* **重新載入文件 ```data/l4d2_glow_item_weapon_cheat.cfg```. (權限: ADMFLAG_ROOT)**
+	* **重新載入文件 data/l4d2_glow_item_weapon_cheat.cfg. (權限: ADMFLAG_ROOT)**
 		```php
 		sm_glowreload
 		```
@@ -188,7 +188,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 自行設定光圈的顏色與發光範圍
-	* data/l4d2_glow_item_weapon_cheat.cfg
+	* [data/l4d2_glow_item_weapon_cheat.cfg](data/l4d2_glow_item_weapon_cheat.cfg)
 		```php
 		//  "enable"   -> 附上光圈在這個物件上 "0" = 關閉光圈, "1" = 開啟光圈.
 		//  "random"   -> 光圈顏色為隨機. "0" = 不隨機, "1" = 隨機.

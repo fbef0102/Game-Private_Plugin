@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Modify data file to adjust _spawn items count on the map when 5+ survivors in server 
+	* Modify data file [data/l4d_more_supply.cfg](data/l4d_more_supply.cfg) to adjust _spawn items count on the map when 5+ survivors in server 
 		* Kits (weapon_first_aid_kit_spawn)
 		* Pills (weapon_pain_pills_spawn)
 		* Adrenaline shots (weapon_adrenaline_spawn)
@@ -48,7 +48,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d_more_supply.txt```
+	* [data/l4d_more_supply.cfg](data/l4d_more_supply.cfg)
 		```php
 		"l4d_more_supply"
 		{
@@ -121,7 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 火瓶 (weapon_molotov_spawn)
 	* 此插件不影響地圖上的物品生成機率與生成數量
 	* 此插件不影響從人類身上掉落在地上的物品
-	* 修改文件，當倖存者變多時，物品可以拿取的次數越多
+	* 修改文件[data/l4d_more_supply.cfg](data/l4d_more_supply.cfg)，當倖存者變多時，物品可以拿取的次數越多
 
 * 注意事項
 	* 倖存者離開安全區域後才會改變物品的拿取次數
@@ -140,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d_more_supply.txt```
+	* [data/l4d_more_supply.cfg](data/l4d_more_supply.cfg)
 		```php
 		"l4d_more_supply"
 		{

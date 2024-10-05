@@ -41,7 +41,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
   
-	* ```data/anti-friendly_fire_V2.cfg```
+	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
 		```php
 		"anti-friendly_fire_V2"
 		{
@@ -173,7 +173,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
   
-	* ```data/anti-friendly_fire_V2.cfg```
+	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
 		```php
 		"anti-friendly_fire_V2"
 		{

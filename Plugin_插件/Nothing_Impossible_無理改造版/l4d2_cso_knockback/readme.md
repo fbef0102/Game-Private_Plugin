@@ -30,7 +30,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Closer Distance ＝＞ More KnockBack
 		* HeadShot ＝＞ More KnockBack
 	* Weapons, Melees, grenades now have knockback power
-	* Use data ```data/l4d2_cso_knockback.cfg``` to control knockback power
+	* Use data [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg) to control knockback power
 </details>
 
 * Require | 必要安裝
@@ -54,7 +54,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* ```data/l4d2_cso_knockback.cfg```
+	* [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
 		```php
 		"zombies"
 		{
@@ -146,7 +146,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 傷害越大 ＝＞ 擊退力越強
 		* 距離越近 ＝＞ 擊退力越強
 		* 射擊頭部 ＝＞ 擊退力越強
-	* 武器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件```data/l4d2_cso_knockback.cfg```
+	* 武器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件[data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
 	* 搭配槍緩插件: [l4d_si_slowdown_gunfire](/Plugin_插件/Special_Infected_特感/l4d_si_slowdown_gunfire)，可以完美復刻CSO殭屍擊退效果
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -160,7 +160,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* ```data/l4d2_cso_knockback.cfg```
+	* [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
 		```php
 		"zombies"
 		{

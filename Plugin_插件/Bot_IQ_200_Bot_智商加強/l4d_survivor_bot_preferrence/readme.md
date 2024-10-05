@@ -31,7 +31,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>FAQ</summary>
 
 	* How to make bots pick up "M60" and "Grenade Launcher"?
-		* Install [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586), modify ```data\l4d_info_editor_weapons.cfg```
+		1. Install [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586)
+		2. Modify ```data\l4d_info_editor_weapons.cfg```
 			```c
 			"weapon_rifle_m60"
 			{
@@ -131,7 +132,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>問題區</summary>
 
 	* 如何讓Bots可以撿起 "M60" 與 "榴彈發射器" ?
-		* 安裝 [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586)，修改文件 ```data\l4d_info_editor_weapons.cfg```
+		1. 安裝 [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586)
+		2. 修改文件 ```data\l4d_info_editor_weapons.cfg```
 			```c
 			"weapon_rifle_m60"
 			{

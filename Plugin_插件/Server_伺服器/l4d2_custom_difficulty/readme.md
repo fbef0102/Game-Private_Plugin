@@ -17,7 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Type ```!dvote``` -> select custom difficulty -> call vote to change -> load custom difficulty
-	* Modify custom difficulty name and damage, file is in ```data/l4d2_custom_difficulty.cfg```
+	* Modify custom difficulty name and damage, file is in [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
 	* Auto exec cfg when switching difficulties, for example:
 		* impossible+ -> hard+ (exec reset.cfg -> hard+.cfg)
 		* hard+ -> impossible++ (exec reset.cfg -> impossible++.cfg)
@@ -65,7 +65,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
 	* Modify custom difficulty and damage
-	* ```data/l4d2_custom_difficulty.cfg```
+	* [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
 		```php
 		"l4d2_custom_difficulty"
 		{
@@ -182,7 +182,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 自由修改難度與傷害數值
-	* ```data/l4d2_custom_difficulty.cfg```
+	* [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
 		```php
 		"l4d2_custom_difficulty"
 		{

@@ -131,7 +131,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Example Config</summary>
 
-	* data\sm_l4d_mapchanger.txt
+	* [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
 		```php
 		"ForceMissionChangerSettings"
 		{
@@ -161,7 +161,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		} 
 		```
 
-	* configs\finale.coop.txt
+	* [configs\finale.coop.txt](configs\finale.coop.txt)
 		```php
 		// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
 		l4d2_deathcraft_05_lighthouse
@@ -350,7 +350,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定</summary>
 
-	* 設定文件```data\sm_l4d_mapchanger.txt```決定切換到哪一張地圖
+	* 設定文件[data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)決定切換到哪一張地圖
 		```php
 		"ForceMissionChangerSettings"
 		{
@@ -380,7 +380,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		} 
 		```
 
-	* 設定文件```configs\finale.coop.txt```決定哪些關卡為最終章節
+	* 設定文件[configs\finale.coop.txt](configs\finale.coop.txt)決定哪些關卡為最終章節
 		```php
 		// 戰役/對抗/寫實模式下 這些關卡將視為最終章節，在這些章節可以投票與自動換圖
 		// 避免一堆垃圾三方圖明明是救援關卡卻不是最後的章節
