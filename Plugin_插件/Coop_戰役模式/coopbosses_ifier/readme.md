@@ -24,6 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			Witch spawn: 70%
 			```
 		* Disable Tank and Witch by director
+	* Does not affect boss static spawn by map, for example: C6M1/C13M2/C7M1
 </details>
 
 * Require | 必要安裝
@@ -120,16 +121,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	3. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
 		* 使用指令顯示人類目前的路程
+
+	4. [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+
+	5. [l4d_witch_spawn](/Plugin_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+		* 遊戲開始後每隔一段時間在地圖上生成Witch
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.8h (2024-10-6)
+	* v1.8h (2024-10-6)
 		* Update cvars
 		* Update data
 
-    * v1.7h (2023-6-20)
-        * Require left4dhooks v1.33 or above
+	* v1.7h (2023-6-20)
+		* Require left4dhooks v1.33 or above
 
 	* v1.6h (2023-3-14)
 		* Add convar to enable or disable plugin
@@ -142,7 +149,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fix plugin does not work if there is no any start safe area in some custom maps
 
 	* v1.3
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -
@@ -157,9 +164,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			Tank spawn: 75%,
 			Witch spawn: 70%
 			```
-  		* 由插件指令決定每一關的Tank與Witch生成範圍
-  		* 每回合只會生成一隻Tank與Witch
+		* 由插件指令決定每一關的Tank與Witch生成範圍
+		* 每回合只會生成一隻Tank與Witch
 	* 也適用於寫實模式
+	* 不影響有固定刷Tank/Witch的地圖，譬如C6M1/C13M2/C7M1
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

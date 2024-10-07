@@ -16,7 +16,7 @@
 
 	"Save (C)"
 	{
-		"#format"	"{1:t},{2:N}"
+		"#format"	"{1:s},{2:N}"
 		"en"		"[{olive}TS{default}] You throwed {green}{1}{default} at {olive}{2}"
 		"zho"		"[{olive}TS{default}] 你朝向 {olive}{2}{default} 扔出了 {green}{1}{default} 快速救起"
 		"chi"		"[{olive}TS{default}] 你朝向 {olive}{2}{default} 扔出了 {green}{1}{default} 快速救起"
@@ -24,7 +24,7 @@
 	
 	"Save"
 	{
-		"#format"	"{1:t},{2:N}"
+		"#format"	"{1:s},{2:N}"
 		"en"		"You throwed {1} at {2}"
 		"zho"		"你朝向 {2} 扔出了 {1} 快速救起"
 		"chi"		"你朝向 {2} 扔出了 {1} 快速救起"
@@ -32,7 +32,7 @@
 
 	"Subject (C)"
 	{
-		"#format"	"{1:N},{2:t}"
+		"#format"	"{1:N},{2:s}"
 		"en"		"[{olive}TS{default}] {olive}{1}{default} throwed {green}{2}{default} at you"
 		"zho"		"[{olive}TS{default}] {olive}{1}{default} 對你扔出了 {green}{2}{default} 快速救起"
 		"chi"		"[{olive}TS{default}] {olive}{1}{default} 对你扔出了 {green}{2}{default} 快速救起"
@@ -40,9 +40,16 @@
 	
 	"Subject"
 	{
-		"#format"	"{1:N},{2:t}"
+		"#format"	"{1:N},{2:s}"
 		"en"		"{1} throwed {2} at you"
 		"zho"		"{1} 對你扔出了 {2} 快速救起"
 		"chi"		"{1} 对你扔出了 {2} 快速救起"
+	}
+	
+	"Notify_Save"
+	{
+		"en"		"Grab the pill or adrenaline shot and press E to save teammate quickly"
+		"zho"		"拿起藥丸或腎上腺素並按 E 鍵，快速救起隊友"
+		"chi"		"拿起药丸或肾上腺素并按 E 键，快速救起队友"
 	}
 }

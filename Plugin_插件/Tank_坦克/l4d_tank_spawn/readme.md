@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			Next Tank Spawn: 79% - Amount: 2
 			```
 	* Does not affect director tank
+	* Does not affect tank static spawn by map, for example: C13M2/C7M1
 	* (Versus) Tanks will pass to players
 </details>
 
@@ -153,6 +154,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			下次Tank生成: 79% - 數量: 2
 			```
 	* 此插件不影響遊戲導演生成Tank
+	* 不影響有固定刷Tank的地圖，譬如C13M2/C7M1
 	* (對抗模式) Tank生成後會轉移給玩家操控
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

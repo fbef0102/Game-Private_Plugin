@@ -23,6 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			Witch spawn: 70%
 			```
 		* Spawn only one tank and one witch each round
+	* Does not affect boss static spawn by map, for example: C6M1/C13M2/C7M1
 	* 🟥 Please write down the following official cvars in ```cfg/server.cfg```
 		```php
 		// Adjust tank spawns: 100% chance on every map (0.00 ~ 1.00)
@@ -45,6 +46,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_boss_flow_min_finale 	"0.20" //final map min (range: 0.00~1.00, 0.20=20% percentage)
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map max (range: 0.00~1.00, 0.85=85% percentage)
 		```
+	* Does not affect boss static spawn by map, for example: C6M1/C13M2/C7M1
 </details>
 
 * Require | 必要安裝
@@ -148,6 +150,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	3. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
 		* 使用指令顯示人類目前的路程
+
+	4. [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+
+	5. [l4d_witch_spawn](/Plugin_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+		* 遊戲開始後每隔一段時間在地圖上生成Witch
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -186,6 +194,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 		* 由官方指令決定每一關的Tank與Witch生成範圍
 		* 每回合只會生成一隻Tank與Witch
+	* 不影響有固定刷Tank/Witch的地圖，譬如C6M1/C13M2/C7M1
 	* 🟥 請務必將以下指令寫入文件 ```cfg/server.cfg```，可自行調整
 		```php
 		// 對抗模式下每張地圖100%生成Tank (0.00 ~ 1.00)

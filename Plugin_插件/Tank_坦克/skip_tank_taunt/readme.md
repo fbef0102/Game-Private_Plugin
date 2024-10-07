@@ -17,14 +17,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/skip_tank_taunt.cfg
 		```php
-		// Obstacle animation playback rate (0=off)
-		tank_obstacle_animation_playbackrate "2.5"
+		// Obstacle animation playback rate (1.0=Game default playback)
+		skip_tank_taunt_obstacle_animation_playbackrate "2.5"
 
-		// Tank stumble animation playback rate (0=off)
-		tank_stumble_playbackrate "3.0"
+		// Tank stumble(stagger) animation playback rate (0=No Stagger animation, 1.0=Game default playback)
+		skip_tank_taunt_stumble_playbackrate "3.0"
 
-		// Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip (0=off)
-		tank_victory_animation_skip "1"
+		// If 1, Skip Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip 
+		skip_tank_taunt_victory_animation_skip "1"
 		```
 </details>
 
@@ -55,6 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.0h (2024-10-7)
+		* Update cvars
+
 	* v1.0.7 (2023-2-11)
 		* Add a convar ```tank_stumble_playbackrate 3.0```, "Tank stumble animation playback rate (0=off)
 
@@ -72,7 +75,17 @@ Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 * 原理
 	* 戰役/寫實模式之下的Tank打中倖存者之時偶而會有咆哮與勝利姿勢，浪費Tank攻擊時間
 
-* 功能
-	* 可調整爬行速度
-	* 可開關咆哮勝利動畫
-	* 可調整Tank被震暈的動畫速度
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/skip_tank_taunt.cfg
+		```php
+		// 爬行障礙物的速度 (1.0=不改變)
+		skip_tank_taunt_obstacle_animation_playbackrate "2.5"
+
+		// Tank被瓦斯桶、氧氣罐、土製炸彈等震退時，動畫速度 (0=不會被震退, 1.0=不改變)
+		skip_tank_taunt_stumble_playbackrate "3.0"
+
+		// 為1時，Tank不會有咆哮與勝利的姿勢 (VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN)
+		skip_tank_taunt_victory_animation_skip "1"
+		```
+</details>

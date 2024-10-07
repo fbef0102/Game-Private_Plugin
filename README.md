@@ -161,6 +161,10 @@
     * 滅團N次後，自動降低難度
   * [exec_round_cfg](/Plugin_插件/Server_伺服器/exec_round_cfg): Exec cfg when new round/game starts/round end
     * 新的回合開始/遊戲開始/回合結束之時，執行指定的cfg文件
+  * [sv_lock_cvar](/Plugin_插件/Server_伺服器/sv_lock_cvar): Enforces ConVars consistency from the data-file values
+    * 鎖住指令的值，不會被遊戲、地圖、玩家竄改
+  * [sv_protect_cvar](/Plugin_插件/Server_伺服器/sv_protect_cvar): Protect and hide sensitive ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible
+    * 保護一些敏感的指令數值，不讓外界與客戶端查看，服務器內的客戶端可能會看到假數值
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -671,8 +675,6 @@
     * 遊戲開始後不能升級紅外線雷射
   * [slay_bots](/Plugin_插件/Miscellaneous_雜項/slay_bots): Use commands to slay bots
     * 輸入指令一次處死多個Bots
-  * [l4d_lock_cvar](/Plugin_插件/Miscellaneous_雜項/l4d_lock_cvar): Enforces ConVars consistency from the data-file values
-    * 鎖住CVAR的值，不會被遊戲或地圖或玩家竄改
   * [l4d_block_msg_print](/Plugin_插件/Miscellaneous_雜項/l4d_block_msg_print): Block some useless game message
     * 屏蔽移除遊戲自帶的提示
 </details>
