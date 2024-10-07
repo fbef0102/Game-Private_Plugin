@@ -86,17 +86,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Set a maximum of Tanks to spawn simultaneously
 		l4d_tank_spawn_max_simultaneous "3"
 
-		// Set progress [5-95]% min of the map to can spawn Tank
+		// Set progress [5-95]% minimum of the map, where Tanks can spawn
 		l4d_tank_spawn_range_min_tank "10"
 
-		// Set progress [5-95]% max of the map to can spawn Tank
+		// Set progress [5-95]% maximum of the map, where Tanks can spawn
 		l4d_tank_spawn_range_max_tank "90"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
-	* **Display Spawn next tank spawn percent**
+	* **Display next tank spawn percent**
 		```php
 		sm_tank
 		```

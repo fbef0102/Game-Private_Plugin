@@ -47,6 +47,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-10-8)
+		* Fixed shove not working on teammate who is pinned by infected
+
 	* v1.0 (2023-4-6)
 		* Initial Release
 </details>
