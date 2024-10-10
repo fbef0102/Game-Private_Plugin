@@ -48,67 +48,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
 	* [data/l4d_TougherSurvivorBots.cfg](data/l4d_TougherSurvivorBots.cfg)
-		```php
-        "l4d_TougherSurvivorBots"
-        {
-			// In Easy Difficulty
-			"Easy"
-			{
-				"attack"
-				{
-					// 1=Apply to survivor bots, 0=Don't apply to survivor bots
-					"bot_allow" "1"
-					
-					// 1=Apply to real survivor players, 0=Don't apply to survivor bots
-					"real_allow" "0"
-					
-					// Multiply survivor attack damage to Tank (0.0=No Damage, -1: Don't modify)
-					"tank"		"-1.0"
-					
-					// Multiply survivor attack damage to Witch (0.0=No Damage, -1: Don't modify)
-					"witch"		"-1.0"
-					
-					// Multiply survivor attack damage to Common Infected (0.0=No Damage, -1: Don't modify)
-					"common"	"-1.0"
-					
-					// Multiply survivor attack damage to Special Infected (0.0=No Damage, -1: Don't modify)
-					"si"	"-1.0"
-				}
-				
-				"victim"
-				{
-					// 1=Apply to survivor bots, 0=Don't apply to survivor bots
-					"bot_allow" "1"
-					
-					// 1=Apply to real survivor players, 0=Don't apply to survivor bots
-					"real_allow" "0"
-					
-					// Multiply survivor hurt damage from Tank (0.0=No Damage, -1: Don't modify)
-					"tank"		"-1.0"
-					
-					// Multiply survivor hurt damage from Witch (0.0=No Damage, -1: Don't modify)
-					"witch"		"-1.0"
-					
-					// Multiply survivor hurt damage from Common Infected (0.0=No Damage, -1: Don't modify)
-					"common"	"-1.0"
-					
-					// Multiply survivor hurt damage from Special Infected (0.0=No Damage, -1: Don't modify)
-					"si"		"-1.0"
-					
-					// Multiply survivor hurt damage from Friendly Fire (0.0=No Damage, -1: Don't modify)
-					"ff"		"-1.0"
-					
-					// Multiply survivor hurt damage from fall (DMG_FALL) (0.0=No Damage, -1: Don't modify)
-					"fall"		"-1.0"
-					
-					// Multiply survivor hurt damage from Flame (DMG_BURN) (0.0=No Damage, -1: Don't modify)
-					"flame"		"-1.0"
-				}
-			}
-
-			...
-		}
-		```
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -158,65 +98,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* [data/l4d_TougherSurvivorBots.cfg](data/l4d_TougherSurvivorBots.cfg)
-		```php
-        "l4d_TougherSurvivorBots"
-        {
-			// 簡單難度
-			"Easy"
-			{
-				"attack"
-				{
-					// 1=修改AI倖存者Bot 開槍造成的傷害, 0=不修改
-					"bot_allow" "1"
-					
-					// 1=修改真人倖存者 開槍造成的傷害, 0=不修改
-					"real_allow" "0"
-					
-					// 修改倖存者對 Tank 傷害倍率 (0.0=無傷, -1: 不修改傷害)
-					"tank"		"-1.0"
-					
-					// 修改倖存者對 Witch 傷害倍率 (0.0=無傷, -1: 不修改傷害)
-					"witch"		"-1.0"
-					
-					// 修改倖存者對 普通殭屍 傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"common"	"-1.0"
-					
-					// 修改倖存者對 特感 傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"si"	"-1.0"
-				}
-				
-				"victim"
-				{
-					// 1=修改AI倖存者Bot 受到的傷害, 0=不修改
-					"bot_allow" "1"
-					
-					// 1=修改真人倖存者 受到的傷害, 0=不修改
-					"real_allow" "0"
-					
-					// 修改倖存者受到 Tank 的傷害倍率 (0.0=無傷, -1: 不修改傷害)
-					"tank"		"-1.0"
-					
-					// 修改倖存者受到 Witch 的傷害倍率 (0.0=無傷, -1: 不修改傷害)
-					"witch"		"-1.0"
-					
-					// 修改倖存者受到 普通殭屍 的傷害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"common"	"-1.0"
-					
-					// 修改倖存者受到 特感 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"si"		"-1.0"
-					
-					// 修改倖存者受到 友傷 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"ff"		"-1.0"
-					
-					// 修改倖存者受到 跳樓摔傷(DMG_FALL) 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"fall"		"-1.0"
-					
-					// 修改倖存者受到 火焰(DMG_BURN) 的害倍率 比 (0.0=無傷, -1: 不修改傷害)
-					"flame"		"-1.0"
-				}
-			}
-
-			...
-		}
-		```
+		> 內有中文說明，可點擊查看
 </details>

@@ -8,12 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/VskIo4LnBuI)
 
 * Image | 圖示
-	<br/>![l4d_random_map_vote_1](image/l4d_random_map_vote_1.jpg)
+    <br/>![l4d_random_map_vote_1](image/l4d_random_map_vote_1.jpg)
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. Optional - [Unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -28,16 +27,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
-   
-	* **Start a vote to change map randomly**
-		```php
-		sm_random
-		```
+
+    * **Start a vote to change map randomly**
+        ```php
+        sm_random
+        ```
 </details>
 
 * <details><summary>Data Config</summary>
 
-	* [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
+    * [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
     * the map is chosen randomly from the data list, modify to add or delete
         ```php 
         c5m5_bridge
@@ -54,17 +53,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
-		> 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
+    1. [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
+        > 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.1 (2023-2-10)
-        * Support [l4d_team_unscramble](/Plugin_插件/Server_伺服器/l4d_team_unscramble)
+        * Support l4d_team_unscramble
 
     * v1.0 (2022-11-12)
-	    * Initial Release
+        * Initial Release
 </details>
 
 - - - -
@@ -91,7 +90,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
+    * [data/l4d_random_vote_map.cfg](data/l4d_random_vote_map.cfg)
     * 從以下列表中隨機選擇地圖，可自行填寫增加或刪除，寫入順序不影響
         ```php 
         c5m5_bridge

@@ -13,9 +13,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* When real survivor alive players going afk or spec, save his all weapons and items
+	* When real survivor alive player going afk or spec or leaves server or game crash, save player's all weapons and items
 		* Bot who replaced player only have pistol and smg
-		* After go back to take over survivor，restore his all weapons and items
+		* After go back to take over survivor, restore his all weapons and items
 		* Can save to next stage in coop/realism
 		* Can save melee weapons
 		* Can save health over 100hp

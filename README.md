@@ -339,8 +339,6 @@
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
   * [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
     * 隨著玩家人數越多，殭屍/屍潮 數量越來越多
-  * [l4d2_bile_out_nav_negate_createbot](/Plugin_插件/Common_Infected_普通感染者/l4d2_bile_out_nav_negate_createbot): (Abandoned) If Vomit jar is thrown at the place which is out of map (NAV), negate bile effect
-    * (棄用) 當膽汁丟到地圖之外或普通殭屍追不到的地方，膽汁效果將會無效
   * [l4d2_fallen_survivor_item_change](/Plugin_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
     * 改變墮落倖存者掉落的物品
   * [l4d_ci_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....
@@ -435,8 +433,6 @@
 
   * [l4d_weapon_limits](/Plugin_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
     * 限制每個武器可以拿取的數量，超過就不能拿取
-  * [l4d2_zoom_level](/Plugin_插件/Weapons_武器/l4d2_zoom_level): Everyone can change zoom level for snipers (You can see much further while scope)
-    * 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
   * [l4d2_lasersight](/Plugin_插件/Weapons_武器/l4d2_lasersight): L4D2 Upgrade Laser Sights by using commands
     * 玩家使用指令升級紅外線雷射
   * [l4d2_M60_weapon_patch](/Plugin_插件/Weapons_武器/l4d2_M60_weapon_patch): Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill Explosive/Incendiary ammo
@@ -626,9 +622,9 @@
   * [l4d_pushdrag](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to move the objects and players
     * 漂浮咒，溫咖癲啦唯啊薩
   * [l4d2_wallhack_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
-    * 管理員輸入指令能透視看到特感
+    * 輸入指令能透視看到特感
   * [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
-    * 管理員輸入指令能透視看到武器與物資
+    * 輸入指令能透視看到武器與物資
   * [l4d2_shield_equip](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
     * 新武器: 防暴盾牌
   * [l4d_multiple_equipment](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot
@@ -639,6 +635,8 @@
     * 人類能變成特感 + 特感能變成人類
   * [l4d_jump_battale_kick](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_jump_battale_kick): Survivor press WALK+JUMP to do the battle kick, stagger back all S.I. and Witch
     * 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
+  * [l4d_aimbot](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_aimbot): Give you a legal aimbot made by sourcemod in l4d
+    * 輸入指令開啟武器自瞄系統，合法自動瞄準殭屍射擊
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>
