@@ -10,6 +10,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	<br/>![l4d2_auto_add_zombie_1](image/l4d2_auto_add_zombie_1.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	* Set common infected and horde limit depends on the numbers of survivors.
+	* Override limit in director vscript, prevent custom map from changing common infected limit
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -41,56 +47,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
 	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
-		```php
-		// default settings
-		"default"
-		{
-			// How many common infecteds we can have at once on the map. (override official cvar 'z_common_limit')
-			// -1: Don't modify, Restore Game default: 30
-			"z_common_limit" 			"30" 
-			
-			// Amount of zombies to spawn in Map Event horde & Alarm horde & Director Panic Event  (override official cvar 'z_mega_mob_size')
-			// -1: Don't modify, Restore Game default: 50
-			"z_mega_mob_size"			"50" 
-			
-			// Minimum amount of zombies to spawn in natural hordes & z_spawn mob & boomer hordes & bile bomb  (override official cvar 'z_mob_spawn_min_size')
-			// -1: Don't modify, Restore Game default: 10
-			"z_mob_spawn_min_size"		"25" 
-			
-			// Maximum numbers of Boomer vomit/Natural horde/Bile Bomb common infected. (override official cvar '_mob_spawn_max_size')
-			// -1: Don't modify, Restore Game default: 30
-			"z_mob_spawn_max_size"		"30" 
-			
-			// After final rescue starts, Dynamic Adjust zombies related cvars
-			// (Prevent too many common infected and horde keep coming, cause final stage stuck)
-			"final"
-			{
-				"z_common_limit" 		"-1" 
-				"z_mega_mob_size"		"-1" 
-				"z_mob_spawn_min_size"	"-1" 
-				"z_mob_spawn_max_size"	"-1" 
-			}
-		}
-		
-		// If there is only 1 survivor (real player + AI bot)
-		"1"
-		{
-			"z_common_limit" 		"30" 
-			"z_mega_mob_size"		"50" 
-			"z_mob_spawn_min_size"	"25" 
-			"z_mob_spawn_max_size"	"30" 
-			
-			"final"
-			{
-				"z_common_limit" 		"-1" 
-				"z_mega_mob_size"		"-1" 
-				"z_mob_spawn_min_size"	"-1" 
-				"z_mob_spawn_max_size"	"-1" 
-			}
-		}
-		...
-		
-		```
+		> Manual in this file, click for more details...
 </details>
 
 * <details><summary>Related Official ConVar</summary>
@@ -159,11 +116,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![zho/l4d2_auto_add_zombie_1](image/zho/l4d2_auto_add_zombie_1.jpg)
 
 * 原理
-	* 當倖存者超過四人以上時，增加更多的殭屍數量
+	* 依照倖存者的數量，設置更多的殭屍與屍潮數量
 	* 增加的有
 		* 殭屍同時存在的總數量
 		* 警報車/地圖機關 殭屍數量
 		* Boomer噴到/自然屍潮 殭屍數量
+	* 強制覆蓋遊戲導演系統或地圖腳本，防止三方圖攥改殭屍與屍潮的數量
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -192,57 +150,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
-		```php
-		// 預設配置
-		"default"
-		{
-			// 地圖上殭屍同時存在的總數量 (覆蓋官方指令 z_common_limit)
-			// -1: 不修改, 恢復遊戲預設: 30
-			"z_common_limit" 			"30" 
-			
-			// 警報車/地圖機關/導演屍潮 生成的殭屍數量. (覆蓋官方指令 z_mega_mob_size)
-			// -1: 不修改, 恢復遊戲預設: 50
-			"z_mega_mob_size"			"50" 
-			
-			// Boomer噴到/自然屍潮/膽汁瓶 最少的殭屍數量. (覆蓋官方指令 z_mob_spawn_min_size)
-			// -1: 不修改, 恢復遊戲預設: 10
-			"z_mob_spawn_min_size"		"25" 
-			
-			// Boomer噴到/自然屍潮/膽汁瓶 最多的殭屍數量. (覆蓋官方指令 'z_mob_spawn_max_size')
-			// -1: 不修改, 恢復遊戲預設: 30
-			"z_mob_spawn_max_size"		"30" 
-			
-			// 當救援開始後，重新設置相關的感染者數量指令
-			// (避免殭屍太多，導致救援卡關，無法生成Tank)
-			"final"
-			{
-				"z_common_limit" 		"-1" 
-				"z_mega_mob_size"		"-1" 
-				"z_mob_spawn_min_size"	"-1" 
-				"z_mob_spawn_max_size"	"-1" 
-			}
-		}
-		
-		// 當只有一位倖存者時 (真人+AI Bot)
-		"1"
-		{
-			"z_common_limit" 		"30" 
-			"z_mega_mob_size"		"50" 
-			"z_mob_spawn_min_size"	"25" 
-			"z_mob_spawn_max_size"	"30" 
-			
-			"final"
-			{
-				"z_common_limit" 		"-1" 
-				"z_mega_mob_size"		"-1" 
-				"z_mob_spawn_min_size"	"-1" 
-				"z_mob_spawn_max_size"	"-1" 
-			}
-		}
-
-		...
-		
-		```
+		> 內有中文說明，可點擊查看
 </details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
