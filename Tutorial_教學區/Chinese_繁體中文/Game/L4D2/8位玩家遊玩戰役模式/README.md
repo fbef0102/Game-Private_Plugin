@@ -160,7 +160,7 @@
 
 * [5+ Survivors More Supply](/Plugin_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
 
-* [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
+* [l4d_infected_limit_control](/Plugin_插件/Common_Infected_普通感染者/l4d_infected_limit_control): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
 
 * [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
 

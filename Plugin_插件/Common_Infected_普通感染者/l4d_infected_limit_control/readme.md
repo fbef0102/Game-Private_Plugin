@@ -1,5 +1,5 @@
 # Description | 內容
-Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
+Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -8,11 +8,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
 
 * Image | 圖示
-	<br/>![l4d2_auto_add_zombie_1](image/l4d2_auto_add_zombie_1.jpg)
+	<br/>![l4d_infected_limit_control_1](image/l4d_infected_limit_control_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* Set common infected and horde limit depends on the numbers of survivors.
+	* Modfiy [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg), set common infected and horde limit depends on the numbers of survivors and map.
 	* Override limit in director vscript, prevent custom map from changing common infected limit
 </details>
 
@@ -22,17 +22,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d2_auto_add_zombie.cfg
+	* cfg/sourcemod/l4d_infected_limit_control.cfg
 		```php
 		// 0=Plugin off, 1=Plugin on. (type !zminfo to see zombie count information)
-		l4d2_auto_add_zombie_enable "1"
+		l4d_infected_limit_control_enable "1"
 
 		// 1=Enable notify, 0=Disable notify
-		l4d2_auto_add_zombie_hint "1"
-
-		// If 1, Override common infected/mob/horde limit in director script.
-		// This can prevent custom map from modifying common infected settings
-		l4d2_auto_add_zombie_override_script_value "0"
+		l4d_infected_limit_control_hint "1"
 		```
 </details>
 
@@ -46,7 +42,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
+	* [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
 		> Manual in this file, click for more details...
 </details>
 
@@ -83,11 +79,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 創造5位以上倖存者遊玩伺服器
 	2. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
 		* 多特感生成插件，倖存者人數越多，生成的特感越多，且不受遊戲特感數量限制 + 解除特感隊伍的人數限制 (可達成對抗 10 VS 10 玩法)
-	3. [Max Common](https://forums.alliedmods.net/showthread.php?t=347871): Limits number of common infected to 'z_common_limit', attempts to avoid vanilla director conflict.
+	3. [Common Limiter](https://forums.alliedmods.net/showthread.php?t=338337): Limit number of common infected to the z_common_limit cvar value
 		* 地圖上的殭屍數量不會超過指令設定的數值 (以防止地圖腳本狂刷殭屍數量)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5 (2024-10-12)
+		* Dynamic adjust depends on map
+		* Update Data file
+		* Rename plugin name: l4d2_auto_add_zombie -> l4d_infected_limit_control
 
 	* v1.4 (2024-8-23)
 		* Update cvars
@@ -110,14 +111,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-隨著玩家人數越多，殭屍/屍潮 數量越來越多
+根據玩家人數多寡與地圖，設定普通殭屍與屍潮的數量限制
 
 * 圖示
-	<br/>![zho/l4d2_auto_add_zombie_1](image/zho/l4d2_auto_add_zombie_1.jpg)
+	<br/>![zho/l4d_infected_limit_control_1](image/zho/l4d_infected_limit_control_1.jpg)
 
 * 原理
-	* 依照倖存者的數量，設置更多的殭屍與屍潮數量
-	* 增加的有
+	* 設置文件[data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
+		* 依照倖存者的數量，設置更多的殭屍與屍潮數量
+		* 依照地圖名稱，設置殭屍與屍潮數量
+	* 修改的有
 		* 殭屍同時存在的總數量
 		* 警報車/地圖機關 殭屍數量
 		* Boomer噴到/自然屍潮 殭屍數量
@@ -125,17 +128,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d2_auto_add_zombie.cfg
+	* cfg/sourcemod/l4d_infected_limit_control.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件 (輸入 !zminfo 隨時查看當下的殭屍數量狀態)
-		l4d2_auto_add_zombie_enable "1"
+		l4d_infected_limit_control_enable "1"
 
 		// 1=啟用提示, 0=關閉提示
-		l4d2_auto_add_zombie_hint "1"
-
-		// 為1時，強制使用VScript覆蓋導演系統的設置
-		// 開啟這項指令可以防止三方圖攥改殭屍與屍潮的數量
-		l4d2_auto_add_zombie_override_script_value "0"
+		l4d_infected_limit_control_hint "1"
 		```
 </details>
 
@@ -149,7 +148,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* [data/l4d2_auto_add_zombie.cfg](data/l4d2_auto_add_zombie.cfg)
+	* [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
 		> 內有中文說明，可點擊查看
 </details>
 

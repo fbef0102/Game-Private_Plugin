@@ -1,11 +1,20 @@
 "Phrases"
 {
+
 	"Zombie Count Information:↓↓↓"
 	{
 		"en"	"{green}Zombie Count Information:↓↓↓"
 		"zho"	"{green}殭屍數量資訊:↓↓↓"
 		"chi"	"{green}僵尸数量信息:↓↓↓"
 	}	
+	
+	"Zombie Count Settings (CMD)"
+	{
+		"#format"	"{1:s}"
+		"en"	"{green}Zombie Settings: {1}"
+		"zho"	"{green}殭屍配置: {1}"
+		"chi"	"{green}僵尸配置: {1}"
+	}
 	
 	"z_common_limit"
 	{

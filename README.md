@@ -337,8 +337,8 @@
     * 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
   * [l4d2_common_infected_nightmare](/Plugin_插件/Common_Infected_普通感染者/l4d2_common_infected_nightmare): Common infected spawns with random health, speed, size, damage, armor. Make sure that hordes become your worst nightmare.
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
-  * [l4d2_auto_add_zombie](/Plugin_插件/Common_Infected_普通感染者/l4d2_auto_add_zombie): Adjust common infecteds/hordes/mobs depends on 5+ survivors in server
-    * 隨著玩家人數越多，殭屍/屍潮 數量越來越多
+  * [l4d_infected_limit_control](/Plugin_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
+    * 根據玩家人數多寡與地圖，設定普通殭屍與屍潮的數量限制
   * [l4d2_fallen_survivor_item_change](/Plugin_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
     * 改變墮落倖存者掉落的物品
   * [l4d_ci_stagger_block](/Plugin_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....

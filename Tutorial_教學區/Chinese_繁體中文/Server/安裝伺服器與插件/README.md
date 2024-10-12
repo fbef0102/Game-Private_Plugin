@@ -362,13 +362,13 @@
       2. 確認電腦的防火牆
          * 沒有阻擋srcds.exe應用程式
          * 沒有阻擋Port端口
-      * [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
-      * 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟🟥
+   - 🟥此步驟若不解決，沒有人可以進去你的伺服器，也無法進入下一個步驟
+   - [為什麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
 
-      3. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的公網IP與虛擬IP地址 <br/>
-      <br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
+3. 遊戲連線進去伺服器之後，打開遊戲的控制台輸入```status```用以確認是相同的公網IP與虛擬IP地址 <br/>
+<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
 
-      4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
+4. 到此步驟為止，已經完成安裝伺服器，你可以開始管理伺服器
 
 - - - -
 ## 設置路由器/網路基地台/防火牆/數據機
@@ -432,7 +432,7 @@
 
 - - - -
 ## 如何從大廳匹配到專屬伺服器
-1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status``` <br/>
+1. 先知道伺服器的**公網IP地址**，到伺服器的後台輸入```status```
 	<br/><img width="500" alt="image" src="https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/76969c02-4aa9-4cea-8439-563187aea23d">
    - **udp/ip**	為伺服器的IP
 		- 前半部 **192.168.50.106:27016** 是**虛擬IP (內網IP)**
@@ -446,12 +446,14 @@
 	
 3. 邀請朋友或等路人進來或者你自己一個人－＞開始遊戲
 
-4. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器 <br/>
+4. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器
 	<br/><img width="500" alt="image" src="https://user-images.githubusercontent.com/12229810/193501490-d26aa692-ccc5-49dc-b20c-e6704015f31a.png">
-	
+   - [為什麼無法進伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
+
 > __Warning__ 
 > * 只有當伺服器沒有人才可以從大廳匹配進去
 > * 如果伺服器有人，那請透過```connect x.x.x.x:yyyyy```方式連線進去　
+
 - - - -
 ## 如何成為伺服器的管理員
 1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"

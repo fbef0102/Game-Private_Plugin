@@ -104,19 +104,22 @@
 
   <img width="223" alt="unknown" src="https://user-images.githubusercontent.com/12229810/202856292-62046c4e-1dc8-4253-ab46-48a4a688ba51.png">
 
-  * 原因一: steam帳號驗證失敗，steam沒有登入或網路被改變
+  * 原因一: 你的遊戲與專屬伺服器都在同一台電腦上同時運作，steam平台無法分辨
+    * 解決方式: 
+      * 法一: 使用不同台電腦安裝專屬伺服器，最好是裝在不同的區域網路
+      * 法二: 
+        先steam平台上執行Left 4 Dead 2 -> 伺服器的主目錄下刪除```steam_appid.txt```文件 -> 啟動專屬伺服器 -> 與朋友或路人開大廳匹配
+      <br/>![image](https://github.com/user-attachments/assets/b90ab4da-ad31-45fa-8e97-ff4033d23bcf)
+      <br/>-> 如果畫面依然出現<b>STEAM validation rejected</b> -> 重開遊戲 -> 直接加入伺服器房間
+
+  * 原因二: steam帳號驗證失敗，steam沒有登入或網路被改變
     * 解決方式: 重啟steam平台登入
 
-  * 原因二: 伺服器裡面已經有你的steam帳戶在裡面，通常發生於你遊戲崩潰或斷線，但伺服器的分身還在裡面（不動了）
+  * 原因三: 伺服器裡面已經有你的steam帳戶在裡面，通常發生於你遊戲崩潰或斷線，但伺服器的分身還在裡面（不動了）
     * 解決方式: 
       * 法一: 請管理員把伺服器內的分身踢出去
       * 法二: 重啟伺服器
       * 法三: 分身不動等待被伺服器自動踢出 (伺服器會每隔一段時間偵測玩家是否無回應網路數據，無回應會踢出伺服器)
-
-  * 原因三: 你的遊戲與專屬伺服器都在同一台電腦上，steam無法分辨
-    * 解決方式: 
-      * 法一: 使用不同台電腦安裝專屬伺服器
-      * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
 
   * 原因四: 你使用離線模式遊玩單人模式，但伺服器一直要求驗證你的線上steam帳戶
     * 解決方式: 遊戲控制台輸入```sv_lan 1```
@@ -187,8 +190,7 @@
 * 原因: steam 與 Left 4 Dead 的問題，從遊戲發售至今沒有解決過，再問就是Valve吃大便
 * 解決方式: 
   * 法一: 使用不同台電腦安裝專屬伺服器
-  * 法二: 先steam平台上執行Left 4 Dead 2，再直接去Left 4 Dead 2 Dedicated Server資料夾執行srcds.exe，不要透過steam平台執行
-  * 法三: 每次需要刪除```steam_appid.txt```文件，此文件位於伺服器的主目錄下，然後再啟動專屬伺服器
+  * 法二: 先steam平台上執行Left 4 Dead 2 -> 專屬伺服器的主目錄刪除```steam_appid.txt```文件 -> 再啟動專屬伺服器
   <br/>![image](https://github.com/user-attachments/assets/b90ab4da-ad31-45fa-8e97-ff4033d23bcf)
 
 - - - -
@@ -219,9 +221,9 @@
   * 原因三：自己測試插件
     * 有些插件作者專門開區域房測試自己寫的插件
   * 原因四：測試並研究遊戲
-    * 有些玩家會自己開房測是遊戲各種玩法，借助Sourcemod能節省時間與精力，無須慢慢打官方指令
+    * 有些玩家會自己開房測試遊戲各種玩法，借助Sourcemod能節省時間與精力
       1. 譬如生成Tank觀察他的攻擊方式，然後學會反擊
-      2. 研究地圖上並嘗試通關
+      2. 研究地圖路線並嘗試速通
       3. 學會當Hunter自我練習高撲
       4. 開發者製作nav或者製作地圖
 </details>
