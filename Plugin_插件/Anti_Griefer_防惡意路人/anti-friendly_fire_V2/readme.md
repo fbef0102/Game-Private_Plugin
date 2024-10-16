@@ -31,6 +31,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Changes how ff announce displays FF damage. (0: Off, 1:In chat; 2: In Hint Box; 3: In center text)
 		anti-friendly_fire_V2_announce_type "1"
+
+		// Cfg file should this plugin read for settings
+		// Default: data/anti-friendly_fire_V2.cfg
+		anti-friendly_fire_V2_read_data "data/anti-friendly_fire_V2.cfg"
 		```
 </details>
 
@@ -42,62 +46,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
   
 	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
-		```php
-		"anti-friendly_fire_V2"
-		{
-			// Apply the following settings if FF damage to standing survivor (Not incap, Not hanging from ledge)
-			"standing"
-			{
-				// How much distance range between attacker and victim are immune to ff (0=Off)
-				"immune_range"		"50.0"
-				
-				// If 1, Immune FF damage when victim is in start safe zone (0=Off)
-				"immune_start_checkpoint"	"1"
-				
-				// If 1, Immune FF damage when victim is in end safe zone (0=Off)
-				"immune_end_checkpoint"	"1"
-				
-				// How to handle flame damage?
-				// 0=Game behavior 1=immune no damage, 2=reflect damage, add numbers together
-				"flame" 			"1"
-				
-				// How to handle FF Pipe Bomb, Propane Tank, and Oxygen Tank damage?
-				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-				"explode"			"0"
-				
-				// How to handle FF Gun damage?
-				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-				"weapon"			"3"
-				
-				// (L4D2) How to handle FF Melee/Chainsaw damage?
-				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-				"melee"				"1"
-				
-				// (L4D2) How to handle Grenade Launcher damage?
-				// 0=Game behavior, 1=immune no damage, 2=reflect damage, add numbers together
-				"grenade_launcher"	"1"
-			}
-			
-			
-			// Apply the following settings if FF damage to incap survivor
-			"incap"
-			{
-				...
-			}
-			
-			// Apply the following settings if FF damage to survivor who hanging from ledge
-			"hang"
-			{
-				...
-			}
-			
-			// Apply the following settings if FF damage to survivor who was carried by charger
-			"charger_carry"
-			{
-				...
-			}
-		}
-		```
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -124,6 +73,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.0 (2024-10-16)
+		* Update cvars
+		* Updata data
 
 	* v1.9 (2024-9-21)
 		* Add data config
@@ -168,66 +121,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 如何顯示友傷提示. (0=關閉, 1:聊天視窗; 2: Hint視窗; 3: 畫面中心)
 		anti-friendly_fire_V2_announce_type "1"
+
+		// 此插件會讀取的文件設定名稱
+		// 預設: data/anti-friendly_fire_V2.cfg
+		anti-friendly_fire_V2_read_data "data/anti-friendly_fire_V2.cfg"
 		```
 </details>
 
 * <details><summary>文件設定範例</summary>
   
 	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
-		```php
-		"anti-friendly_fire_V2"
-		{
-			// 站著的倖存者受到友傷時(未倒地, 未掛邊)，適用以下設置
-			"standing"
-			{
-				// 與隊友距離多近不會造成友傷 (0=關閉).
-				"immune_range"		"50.0"
-				
-				// 為1時, 受害者在起始安全室內不會受到友傷 (0=關閉這項功能)
-				"immune_start_checkpoint"	"1"
-				
-				// 為1時, 受害者在終點安全室內不會受到友傷 (0=關閉這項功能)
-				"immune_end_checkpoint"	"1"
-				
-				// 火 造成的友傷如何處置?
-				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-				"flame" 			"1"
-				
-				// 土製炸彈、瓦斯罐、氧氣罐 造成的友傷如何處置?
-				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-				"explode"			"0"
-				
-				// 槍械 造成的友傷如何處置? 
-				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-				"weapon"			"3"
-				
-				// 近戰武器/電鋸 造成的友傷如何處置?
-				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-				"melee"				"1"
-				
-				// 榴彈發射器 造成的友傷如何處置?
-				// 0=不處理, 1=免疫不受傷, 2=反彈傷害, 數字可相加
-				"grenade_launcher"	"1"
-			}
-			
-			// 倒地的倖存者受到友傷時，適用以下設置
-			"incap"
-			{
-				...
-			}
-			
-			// 掛邊的倖存者受到友傷時，適用以下設置
-			"hang"
-			{
-				...
-			}
-			
-			// 被Charger衝鋒帶走的倖存者受到友傷時，適用以下設置
-			"charger_carry"
-			{
-				...
-			}
-		}
-		```
+		> 內有中文說明，可點擊查看
 </details>
 
