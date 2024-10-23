@@ -765,7 +765,7 @@
 
   * ✔windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲
   * ✔六年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
-  * ✔翻修舊插件，重寫為Sourcemod 1.11以上能適用的新版本
+  * ✔翻修舊插件，重寫為Sourcemod 1.12以上能適用的新版本
   * ✔重製十年以上的老插件，檢查程式漏洞，有效解決崩潰、卡頓、記憶體不足等問題
   * ✔翻譯英文，撰寫各國語言的翻譯文件
   * ✔製作nav改寫AI路徑、Stripper修改地圖機關、Stripper新增障礙物做成地圖迷宮
@@ -817,7 +817,7 @@
 
   * ✔ Dealed with windoes, linux, local server, dedicated server
   * ✔ Possess 6-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
-  * ✔ Remake code, support sourcemod v1.11, convert code to latest syntax.
+  * ✔ Remake code, support sourcemod v1.12, convert code to latest syntax.
 </details>
 
 * <details><summary><b>Ask for help Rule</b></summary>

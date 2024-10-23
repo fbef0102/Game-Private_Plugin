@@ -159,7 +159,7 @@
 	* 有插件需要抓取玩家的IP、國家、城市、地區等等
 		* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
 	* 有安裝geoipcity.ext, geoip2.ext等等
-		* 已經過時，請移除這些檔案並升級sourcemod v1.11以上
+		* 已經過時，請移除geoipcity.ext與geoip2.ext這些檔案並升級sourcemod v1.12以上
 
 * 安裝步驟
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)

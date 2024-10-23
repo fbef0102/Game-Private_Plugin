@@ -21,8 +21,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 🟥 This plugin will disable friendly fire except for grenades
 </details>
 
+* <details><summary>Known Issue</summary>
+
+	1. After install plugin, the props on the map become floating and bouncing.
+		> To Fix Mayhem Bug, install [Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?p=2826180)
+</details>
+
 * Require | 必要安裝
-	1. [CollisionHook](https://github.com/voided/CollisionHook)
+<br>None
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -47,6 +53,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3h (2024-10-23)
+        * Remove CollisionHook
+        * sm1.12 stable
 
     * v1.2h (2024-4-6)
         * Require CollisionHook
@@ -84,6 +94,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，手榴彈可以穿透隊友
         css_team_noblock_grenade_enable "1"
         ```
+</details>
+
+
+* <details><summary>已知問題</summary>
+
+	1. 裝這插件之後，地圖經常發生物件掉落或浮空的問題
+		> 修復請安裝[Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?p=2826180)
 </details>
 
 

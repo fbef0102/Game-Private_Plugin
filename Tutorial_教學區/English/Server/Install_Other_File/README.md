@@ -157,7 +157,7 @@
 	* Plugins that need to retrieve data from client, such as IP, country, region, city.
 		* Plugin: [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
 	* You have geoipcity.ext or geoip2.ext
-		* Unsupported, please REMOVE, they are now included with SourceMod v1.11 or above
+		* Unsupported, please REMOVE geoipcity.ext and geoip2.ext, they are now included with SourceMod v1.11 or above
 
 * Installation
 	1. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases
