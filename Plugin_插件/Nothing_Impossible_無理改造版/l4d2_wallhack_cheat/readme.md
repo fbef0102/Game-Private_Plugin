@@ -39,14 +39,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 	
-    * **Turn On watching cheat**
+	* **Turn On watching cheat**
 		```php
-        sm_onwk
+		sm_onwk
 		```
 
-    * **Turn Off watching cheat**
+	* **Turn Off watching cheat**
 		```php
-        sm_offwk
+		sm_offwk
 		```
 </details>
 
@@ -72,8 +72,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2024-10-26)
+		* Fixed jockey glow disappear if survivor leaves the game during ridden
+
 	* v1.2 (2023-7-17)
-    	* Fixed glow still appear after team change
+		* Fixed glow still appear after team change
 
 	* v1.1 (2023-5-17)
 		* Optimize code and improve performance
@@ -112,14 +115,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 	
-    * **打開 watching cheat**
+	* **打開 watching cheat**
 		```php
-        sm_onwk
+		sm_onwk
 		```
 
-    * **關閉 watching cheat**
+	* **關閉 watching cheat**
 		```php
-        sm_offwk
+		sm_offwk
 		```
 </details>
 

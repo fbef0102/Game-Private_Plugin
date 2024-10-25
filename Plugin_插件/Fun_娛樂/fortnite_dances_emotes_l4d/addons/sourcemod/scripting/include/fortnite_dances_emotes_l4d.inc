@@ -43,6 +43,6 @@ public SharedPlugin __pl_fortnite_dances_emotes_l4d =
 #if !defined REQUIRE_PLUGIN
 public void __pl_fortnite_dances_emotes_l4d_SetNTVOptional()
 {
-	MarkNativeAsOptional("fnemotes_IsClientEmoting");
+	MarkNativeAsOptional("fortnite_dances_emotes_l4d_IsClientEmoting");
 }
 #endif

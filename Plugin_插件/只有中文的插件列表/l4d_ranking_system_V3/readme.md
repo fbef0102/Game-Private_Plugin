@@ -46,7 +46,7 @@
 		// 0=插件關閉, 1=插件開啟.
 		l4d_ranking_system_allow "1"
 
-		// 至少需要X位真人玩家在場才能獲得經驗值.
+		// 至少需要X位真人玩家在倖存者與特感隊伍才能獲得經驗值.
 		l4d_ranking_system_player_require "2"
 
 		// 儲存經驗值、稱號、排行系統的資料庫設定. (支援 MySQL & SQLite)

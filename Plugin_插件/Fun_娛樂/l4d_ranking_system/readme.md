@@ -28,29 +28,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_ranking_system.cfg
 		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_ranking_system_allow "1"
+
+		// Database to save ranking system. (MySQL & SQLite supported)
+		l4d_ranking_system_database "rank"
+
+		// Numbers of real survivor + infected player require to active this plugin.
+		l4d_ranking_system_player_require "2"
+
 		// Giving exp for killing a boomer
 		l4d_ranking_system_boomer_killed "10"
 
 		// Giving exp for killing a charger
 		l4d_ranking_system_charger_killed "30"
 
-		// Database to save ranking system. (MySQL & SQLite supported)
-		l4d_ranking_system_database "rank"
-
-		// 0=Plugin off, 1=Plugin on.
-		l4d_ranking_system_allow "1"
-
 		// Giving exp for killing a hunter
 		l4d_ranking_system_hunter_killed "20"
 
 		// Giving exp for killing a jockey
 		l4d_ranking_system_jockey_killed "25"
-
-		// Numbers of real survivor player require to active this plugin.
-		l4d_ranking_system_player_require "2"
-
-		// If 1, add rank title to player name in chatbox
-		l4d_ranking_system_rank_display "1"
 
 		// Giving exp for killing a smoker
 		l4d_ranking_system_smoker_killed "20"
@@ -61,14 +58,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Giving exp for killing a tank
 		l4d_ranking_system_tank_killed "200"
 
-		// How many top rank players to display in 'Top Players' menu
-		l4d_ranking_system_top_rank_numbers "10"
-
 		// Giving exp for killing a witch
 		l4d_ranking_system_witch_killed "80"
 
 		// Giving exp for killing a zombie
 		l4d_ranking_system_zombie_killed "1"
+
+		// How many top rank players to display in 'Top Players' menu
+		l4d_ranking_system_top_rank_numbers "10"
+
+		// If 1, add rank title to player name in chatbox
+		l4d_ranking_system_rank_display "1"
 
 		// If 1, Display your rank panel when join server
 		l4d_ranking_system_join_server_display "1"

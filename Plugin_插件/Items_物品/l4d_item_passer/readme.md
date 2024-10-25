@@ -43,6 +43,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (L4D1) Which item can give. 1=Pain Pills, 2=Molotov, 4=Pipe Bomb, 8=Kit. Add numbers together (15=All, 0=Off).
 		l4d_item_passer_flag "511"
+
+		// Which key to pass items? 1=Reload, 2=Right Mouse, 4=Use, add numbers together
+		l4d_item_passer_type "1"
 		```
 </details>
 
@@ -68,6 +71,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.1h (2024-10-26)
+		* Update cvars
+
 	* v1.0h (2024-8-20)
 		* Pass more items with +reload button
 		* Add cvars
@@ -107,5 +113,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (L4D1) 那些物品可傳送? 1=藥丸, 2=火瓶, 4=土製炸彈, 8=治療包 (15=全部, 0=無).
 		l4d_item_passer_flag "511"
+
+		// 使用哪個按鍵傳送物資? 1=R鍵, 2=滑鼠右鍵, 4=E鍵, 請將數字相加起來
+		l4d_item_passer_type "1"
 		```
 </details>
