@@ -18,6 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -62,10 +63,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 Any Mode
 	```
 
-* <details><summary>Similar Plugin | 相似插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d2_scope_wallhack](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_scope_wallhack): Survivor can use sniper scopes to see the infected model glows though the wall
 		> 倖存者打開狙擊鏡能透視看到特感
+		
 	2. [l4d2_glow_item_weapon_cheat](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_glow_item_weapon_cheat): Admins can use commands to see the infected model glows though the wall
 		> 管理員輸入指令能透視看到武器與物資
 </details>

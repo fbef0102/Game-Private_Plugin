@@ -35,12 +35,12 @@
    - 如果是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
    - 如果是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
-    sv_maxplayers 8 // 允許八位真人玩家可以加入伺服器 (數值可以調整，介於4~30之間)
+    sv_maxplayers 8 // 允許八位真人玩家可以加入伺服器 (數值可以調整，介於4~31之間)
     sv_visiblemaxplayers 8 // 伺服器顯示的空位人數 (建議數值跟_maxplayers一樣)
-    sv_force_unreserved 1 // 強迫伺服器移除大廳限制，強制 _allow_lobby_connect_only 為0.
-    sv_allow_lobby_connect_only 0 // 0=可以從遊戲大廳或透過控制台輸入連線IP加入伺服器 (1=只能從遊戲大廳加入伺服器)
-    sm_cvar precache_all_survivors 1 // 預先載入所有倖存者的角色模組
-    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來 (開啟檔案遊戲一致性的檢查)
+    sv_force_unreserved 0 // 1=強迫伺服器移除動態大廳，強制 _allow_lobby_connect_only 為0.
+    sv_allow_lobby_connect_only 0 // 0=可以從遊戲大廳或透過控制台與伺服器列表直連IP加入伺服器 (1=當有動態大廳時，只能從遊戲大廳加入伺服器)
+    sm_cvar precache_all_survivors 1 // 1=預先載入所有倖存者的角色模組
+    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來 (1=開啟檔案遊戲一致性的檢查)
     ```
    - 可參考我的[Server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
@@ -134,7 +134,7 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚
 
-* [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
+* [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system_l4d): 終點安全室必須等待一段時間才會開門，這期間必須團隊合作抵抗屍潮與Tank
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): 服用腎上腺素或藥丸，提升裝彈速度、開槍速度、近戰砍速、動畫起身速度
 

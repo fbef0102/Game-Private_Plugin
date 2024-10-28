@@ -29,7 +29,7 @@
       2. 確保文件```cfg/server.cfg```(沒有文件請自己創立) 有寫以下指令，並重啟伺服器
           ```php
           sv_allow_lobby_connect_only 0
-          sv_force_unreserved 1
+          sv_force_unreserved 0
           ```
       3. 重啟伺服器，[自己開大廳匹配](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件#如何從大廳匹配到專屬伺服器)
 </details>
@@ -190,7 +190,7 @@
 * 原因: steam 與 Left 4 Dead 的問題，從遊戲發售至今沒有解決過，再問就是Valve吃大便
 * 解決方式: 
   * 法一: 使用不同台電腦安裝專屬伺服器
-  * 法二: 先steam平台上執行Left 4 Dead 2 -> 專屬伺服器的主目錄刪除```steam_appid.txt```文件 -> 再啟動專屬伺服器
+  * 法二: 專屬伺服器的主目錄刪除```steam_appid.txt```文件 -> 再啟動專屬伺服器
   <br/>![image](https://github.com/user-attachments/assets/b90ab4da-ad31-45fa-8e97-ff4033d23bcf)
 
 - - - -

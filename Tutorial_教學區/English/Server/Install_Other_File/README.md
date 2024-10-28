@@ -44,8 +44,8 @@
 		* [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
 
 * Installation
-	1. Go to [l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases) and download files depending on your game and system
-	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6151a17e-6915-4fa0-b18f-05c6ea642ef6)
+	1. Go to [l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases) and download files depending on your game and system
+	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
@@ -57,14 +57,22 @@
 			// How many human players can join server (Not including AI Bots)
 			sv_maxplayers 18
 
-			// Overrides the max players reported to prospective clients
+			// Maximum players" number that's visible to people in the server browser and server queries
+			// Suggest to set the same number as sv_maxplayers
 			sv_visiblemaxplayers 18
 
-			// If 1, Players may only join this server from matchmaking lobby, may not connect directly.
+			//If 0, Allow to join server via matchmaking lobby, connect, or server list
+			//If 0, server has reserve match system when from lobby only
+			//If 0, Allow to change sv_cheats to 1 anytime
+			//If 1, Allow to join this server from matchmaking lobby only
+			//If 1, server has reserve match system no matter how players join server 
+			//If 1, Now allow to change sv_cheats to 1
 			sv_allow_lobby_connect_only 0
 
-			// If 1, Disallow lobby reservation cookie
-			sv_force_unreserved 1
+			//This cvar from l4dtoolz extension
+			//If 1, force sv_allow_lobby_connect_only to be 0
+			//If 1, no reserved cookie + don't reply reservation request form lobby
+			sv_force_unreserved 0
 			```
 
 	4. By default, the game engine only allow 18 max clients. To change max clients
@@ -117,7 +125,7 @@
 	5. Restart Server，type ```plugin_print``` in serve console
 		```php
 		] plugin_print
-		1: 　"Tickrate_Enabler 1.5, ProdigySim"
+		1: 　"Tickrate_Enabler 1.6, ProdigySim"
 		```
 
 	6. Join server，open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100

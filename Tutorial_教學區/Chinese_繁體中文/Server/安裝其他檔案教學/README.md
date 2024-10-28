@@ -44,8 +44,8 @@
 		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
 * 安裝步驟
-	1. 到[l4dtoolz](https://github.com/fbef0102/l4dtoolz/releases)，根據你的遊戲與系統選擇檔案下載
-	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/6151a17e-6915-4fa0-b18f-05c6ea642ef6)
+	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
+	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
@@ -60,13 +60,18 @@
 			// 顯示給外面玩家看到的伺服器空位人數
 			sv_visiblemaxplayers 18
 
-			// 為1時，動態大廳匹配制度，可能無法直接透過IP連線伺服器，不能使用_cheats 1
-			// 為0時，關閉動態大廳匹配制度，可以使用_cheats 1
+			// 為0時，可以從遊戲大廳或透過控制台與伺服器列表直連IP加入伺服器
+			// 為0時，從大廳匹配時才會有動態大廳(吸引路人)
+			// 為0時，可以使用 _cheats 1
+			// 為1時，當有動態大廳時，只能從遊戲大廳加入伺服器
+			// 為1時，無論第一位玩家用何種方式加入伺服器都會有動態大廳(吸引路人)
+			// 為1時，不能使用 _cheats 1
 			sv_allow_lobby_connect_only 0
 
-			// 為1時，強制_allow_lobby_connect_only為0
-			// 為1時，移除lobby reservation cookie
-			sv_force_unreserved 1
+			// 此指令來自 l4dtoolz extension
+			// 為1時，強迫伺服器移除動態大廳 (lobby reservation cookie)
+			// 為1時，強制 _allow_lobby_connect_only為0
+			sv_force_unreserved 0
 			```
 
 	4. 遊戲預設客戶端人數上限只到18位，如果要改變客戶端上限
@@ -92,7 +97,7 @@
 	* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
 * 安裝步驟
-	1. 到[Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇檔案下載
+	1. 到[Tickrate-Enabler](https://github.com/fbef0102/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇其中一個下載
 	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
@@ -119,7 +124,7 @@
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
 		] plugin_print
-		1:　"Tickrate_Enabler 1.5, ProdigySim"
+		1:　"Tickrate_Enabler 1.6, ProdigySim"
 		```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100

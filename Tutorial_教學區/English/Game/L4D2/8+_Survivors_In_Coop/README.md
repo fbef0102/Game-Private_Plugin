@@ -37,11 +37,11 @@
    - write down cvars in cfg/listenserver.cfg if listen server (🟥if file doesn't exist, create it🟥)
     ```php
     sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 30)
-    sv_visiblemaxplayers 8 //number is same as above
-    sv_force_unreserved 1 //your server will stay unreserved and allow players to connect using connect command, this command sets sv_allow_lobby_connect_only 0.
-    sv_allow_lobby_connect_only 0 // 1=Only join server from lobby.
-    sm_cvar precache_all_survivors 1 // Precache/Load all models of survivors to prevent crash
-    sm_cvar sv_consistency 0 // the server enforces file consistency (1: Enable, 0: Disable) 
+    sv_visiblemaxplayers 8 // Number set same as above
+    sv_force_unreserved 0 // 1=Your server will stay unreserved + no reserved cookie + don't reply reservation request form lobby
+    sv_allow_lobby_connect_only 0 // 0=Allow to join server via matchmaking lobby, connect, or server list, 1=Only join server from lobby.
+    sm_cvar precache_all_survivors 1 // 1=Precache/Load all models of survivors to prevent crash
+    sm_cvar sv_consistency 0 // The server enforces file consistency (1: Enable, 0: Disable) 
     ```
    - [My server.cfg](https://github.com/fbef0102/L4D2-Server4Dead/blob/main/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
@@ -127,7 +127,7 @@
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
 
-* [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system-l4d2): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
+* [Lockdown System Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system_l4d): When someone tries to open end saferoom door, it will stay closed until a certain amount of time has passed. All the survivors need to do is to survive the incoming waves of mob and tanks.
 
 * [Adrenaline & Pills Powerups Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_powerups_rush): On the use of Adrenaline & Pain Pills, various actions are performed faster (Reloading, weapon firing, and melee swinging)
 
