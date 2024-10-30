@@ -156,10 +156,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d2_zombie_transform
-	```
-	* ```scripting\include\l4d2_zombie_transform.inc```
+	* [l4d2_zombie_transform.inc](scripting\include\l4d2_zombie_transform.inc)
+		```php
+		library name: l4d2_zombie_transform
+		```
 </details>
 
 * Apply to | 適用於

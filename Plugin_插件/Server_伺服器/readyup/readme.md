@@ -123,10 +123,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: readyup
-	```
-	* ```scripting\include\readyup.inc```
+	* [readyup.inc](scripting\include\readyup.inc)
+		```php
+		library name: readyup
+		```
 </details>
 
 * Apply to | 適用於

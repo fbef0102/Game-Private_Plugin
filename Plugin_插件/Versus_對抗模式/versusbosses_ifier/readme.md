@@ -113,10 +113,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: versusbosses_ifier
-	```
-	* ```scripting\include\versusbosses_ifier.inc```
+	* [versusbosses_ifier.inc](scripting\include\versusbosses_ifier.inc)
+		```php
+		library name: versusbosses_ifier
+		```
 </details>
 
 * <details><summary>Data Config</summary>

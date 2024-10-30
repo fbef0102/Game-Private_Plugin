@@ -42,10 +42,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_witch_target_forever
-	```
-	* ```scripting\include\l4d_witch_target_forever.inc```
+	* [l4d_witch_target_forever.inc](scripting\include\l4d_witch_target_forever.inc)
+		```php
+		library name: l4d_witch_target_forever
+		```
 </details>
 
 * Apply to | 適用於

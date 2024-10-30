@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>API | 串接</summary>
 
     ```php
-    Registers a library name: l4d2_melee_modify_damage
+    library name: l4d2_melee_modify_damage
     ```
 </details>
 

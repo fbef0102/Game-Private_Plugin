@@ -98,10 +98,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: pause
-	```
-	* ```scripting\include\pause.inc```
+	* [pause.inc](scripting\include\pause.inc)
+		```php
+		library name: pause
+		```
 </details>
 
 * Apply to | 適用於

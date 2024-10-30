@@ -129,10 +129,10 @@
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_ranking_system
-	```
-	* ```scripting\include\l4d_ranking_system.inc```
+	* [l4d_ranking_system.inc](scripting\include\l4d_ranking_system.inc)
+		```php
+		library name: l4d_ranking_system
+		```
 </details>
 
 * <details><summary>文件設定</summary>

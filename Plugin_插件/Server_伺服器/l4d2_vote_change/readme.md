@@ -91,7 +91,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>API | 串接</summary>
 
 	```php
-	Registers a library name: l4d2_vote_change
+	library name: l4d2_vote_change
 	```
 	* ```scripting\include\l4d2_vote_change.inc```
 </details>

@@ -86,10 +86,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_ranking_system
-	```
-	* ```scripting\include\l4d_ranking_system.inc```
+	* [l4d_ranking_system.inc](scripting\include\l4d_ranking_system.inc)
+		```php
+		library name: l4d_ranking_system
+		```
 </details>
 
 * <details><summary>Data Config</summary>

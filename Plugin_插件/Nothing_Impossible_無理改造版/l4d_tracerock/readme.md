@@ -20,14 +20,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		//  0=Disable, 1=Enable this plugin 
 		l4d_tracerock_enable "1"
 
-		// The chance of trace of rock [0-100](int)
+		// The chance of trace rock [0-100]%
 		l4d_tracerock_chance "100"
 
 		// Trace rock's speed
 		l4d_tracerock_speed "300"
-
-		// (L4D2) Set trace rock's glow type. 0 = OFF, 1 = OnUse (doesn't works well), 2 = OnLookAt (doesn't works well), 3 = Constant (better results)
-		l4d_tracerock_glow_type "3"
 
 		// (L4D2) Set trace rock's glow range
 		l4d_tracerock_glow_range "1500"
@@ -46,6 +43,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Players with these flags have access to throw trace rock. (Empty = Everyone, -1: Nobody)
 		l4d_tracerock_access_flag "z"
+
+		// If 1, AI tank can throw trace rock
+		l4d_tracerock_ai_tank "1"
 		```
 </details>
 
@@ -56,17 +56,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```c
-	/**
-	* @brief Called whenever tank already threw the trace rock
-	*
-	* @param tank			tank client index
-	* @param rock			the rock entity index
-	*
-	* @noreturn
-	*/
-	forward void L4D_OnTraceRockCreated(int tank, int rock);
-	```
+	* [l4d_tracerock.inc](scripting\include\l4d_tracerock.inc)
+		```php
+		library name: l4d_tracerock
+		```
 </details>
 
 
@@ -81,6 +74,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Tank不扔石頭而是扔出特感
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6h (2024-10-30)
+		* Update cvars
+		* App api
 
 	* v1.5h (2024-4-12)
 		* Update cvars
@@ -138,7 +135,10 @@ Tank的石頭自動追蹤倖存者
 		// 更新追蹤石頭的時間間格 (間隔越短，越容易改變飛行軌跡精準砸中)
 		l4d_tracerock_time_interval "0.03"
 
-		// 擁有這些權限的玩家，才可以丟追蹤石頭 (留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的真人玩家，才可以丟追蹤石頭 (留白 = 任何人都能, -1: 無人)
 		l4d_tracerock_access_flag "z"
+
+		// 為1時，AI Tank可以丟追蹤石頭 
+		l4d_tracerock_ai_tank "1"
 		```
 </details>

@@ -124,10 +124,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_h_csm
-	```
-	* ```scripting\include\l4d_h_csm.inc```
+	* [l4d_h_csm.inc](scripting\include\l4d_h_csm.inc)
+		```php
+		library name: l4d_h_csm
+		```
 </details>
 
 * Apply to | 適用於

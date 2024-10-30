@@ -63,10 +63,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_death_weapon_lock
-	```
-	* ```scripting\include\l4d_death_weapon_lock.inc```
+    * [l4d_death_weapon_lock.inc](scripting\include\l4d_death_weapon_lock.inc)
+        ```php
+        library name: l4d_death_weapon_lock
+        ```
 </details>
 
 * Apply to | 適用於

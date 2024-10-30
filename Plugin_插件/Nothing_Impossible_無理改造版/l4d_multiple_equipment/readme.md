@@ -128,10 +128,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	```php
-	Registers a library name: l4d_multiple_equipment
-	```
-	* ```scripting\include\l4d_multiple_equipment.inc```
+    * [l4d_multiple_equipment.inc](scripting\include\l4d_multiple_equipment.inc)
+        ```php
+        library name: l4d_multiple_equipment
+        ```
 </details>
 
 * Apply to | 適用於
