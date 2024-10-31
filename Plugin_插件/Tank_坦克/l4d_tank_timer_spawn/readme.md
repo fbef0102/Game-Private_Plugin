@@ -17,13 +17,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		1. Spawn random numbers of tanks each time.
 		2. Random time interval
 		3. Disable tank spawn after final starts
-	* Does not affect director tank
+	* Disable director/mutation/static tank
 	* (Versus) Tanks will pass to players
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
+	2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -31,6 +31,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d_tank_timer_spawn_enable "1"
+
+		// If 1, Disable director/mutation/static tank spawn
+		l4d_tank_timer_spawn_disable_director "1"
 
 		// Set max interval time to spawn tank
 		l4d_tank_timer_spawn_interval_max "120"
@@ -66,12 +69,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related | 相關插件</summary>
 
 	1. [l4d_tank_spawn](/Plugin_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
-    	* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.0 (2024-3-16)
+	* v1.1 (2024-10-31)
+		* Update cvars
+
+	* v1.0 (2024-3-16)
 		* Initial Release
 </details>
 
@@ -84,7 +90,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		1. 每次數量隨機
 		2. 時間間隔隨機
 		3. 救援開始後不生成tank
-	* 此插件不影響遊戲導演生成Tank
+	* 此插件會停止遊戲導演生成Tank
 	* (對抗模式) Tank生成後會轉移給玩家操控
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -93,6 +99,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d_tank_timer_spawn_enable "1"
+
+		// 為1時，停止 遊戲導演/突變模式/地圖固定 生成Tank
+		l4d_tank_timer_spawn_disable_director "1"
 
 		// 生成tank的時間間隔 (最長時間)
 		l4d_tank_timer_spawn_interval_max "120"

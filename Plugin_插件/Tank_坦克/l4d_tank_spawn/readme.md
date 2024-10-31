@@ -25,15 +25,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// When furthest survivor reach 79% of map completion, 2 Tanks will be spawned.
 			Next Tank Spawn: 79% - Amount: 2
 			```
-	* Does not affect director tank
-	* Does not affect tank static spawn by map, for example: C13M2/C7M1
+	* Disable director/mutation/static tank
 	* (Versus) Tanks will pass to players
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -41,6 +40,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Disable, 1=Enable Plugin, Spawn numbers of Tanks depending on the map (Does not affect director spawn)
 		l4d_tank_spawn_enable "1"
+
+		// If 1, Disable director/mutation/static tank spawn
+		l4d_tank_spawn_disable_director "1"
 
 		// Set interval time check to spawn
 		l4d_tank_spawn_interval "0.5"
@@ -78,7 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_tank_spawn_final_min_rescue_ready "2"
 
 		// If 1, Set multi Tanks to spawn simultaneously on first/regular/final map
-		l4d_tank_spawn_enable_simultaneous "1"
+		l4d_tank_spawn_simultaneous "1"
 
 		// Set a minimum of Tanks to spawn simultaneously
 		l4d_tank_spawn_min_simultaneous "1"
@@ -125,11 +127,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.1 (2024-3-12)
+	* v1.2h (2024-10-31)
+		* Update cvars
+		
+	* v1.1 (2024-3-12)
 		* Control max and min numbers of tanks to spawn
 		* Update cvars
 
-    * v1.0 (2023-12-5)
+	* v1.0 (2023-12-5)
 		* Initial Release
 </details>
 
@@ -153,7 +158,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// 當人類走到79%的地圖路程時，生成兩隻Tank
 			下次Tank生成: 79% - 數量: 2
 			```
-	* 此插件不影響遊戲導演生成Tank
+	* 此插件會停止遊戲導演生成Tank
 	* 不影響有固定刷Tank的地圖，譬如C13M2/C7M1
 	* (對抗模式) Tank生成後會轉移給玩家操控
 
@@ -163,6 +168,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件, 在地圖上不同路程分別生成坦克 (不影響遊戲導演生成Tank)
 		l4d_tank_spawn_enable "1"
+
+		// 為1時，停止 遊戲導演/突變模式/地圖固定 生成Tank
+		l4d_tank_spawn_disable_director "1"
 
 		// 每0.5秒檢查一次人類路程並生成Tank
 		l4d_tank_spawn_interval "0.5"
@@ -200,7 +208,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_tank_spawn_final_min_rescue_ready "2"
 
 		// 為1時，地圖的 第一關/正常關卡/最後一關路程上 每次產生不同數量的Tank
-		l4d_tank_spawn_enable_simultaneous "1"
+		l4d_tank_spawn_simultaneous "1"
 
 		// (第一關/正常關卡/最後一關救援開始之前路程上) 每次產生Tank時，所生成的最少數量
 		l4d_tank_spawn_min_simultaneous "1"
