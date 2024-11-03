@@ -47,8 +47,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// When pass tank to another player or AI, 0=Inherit time left, 1=Reset Timer
 		l4d_tank_alive_time_limit_pass_reset "0"
 
-		// Add more time if punch survivor (0=Off)
-		l4d_tank_alive_time_limit_punch_add "15"
+		// Add more time if tank punches standing survivor
+		// Add one time only per punch (0=Off)
+		l4d_tank_alive_time_limit_punch_add_stand "15"
+
+		// Add more time if tank punches incap survivor
+		// Add one time only per punch (0=Off)
+		l4d_tank_alive_time_limit_punch_add_incap "7"
 
 		// Add more time if tank rocks hit survivor (0=Off)
 		l4d_tank_alive_time_limit_rock_add "2"
@@ -80,6 +85,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-11-3)
+		* Update cvars
+
 	* v1.0 (2024-8-28)
 		* Initial Release
 </details>
@@ -99,6 +107,7 @@ Tank真人玩家如果不攻擊倖存者，時間到將會被自動處死
 
 * 用意在哪?
 	* 避免無謂的消耗戰，Tank玩家持續在遠處丟石頭與倖存者周旋，很花時間
+	* 避免Tank玩家在不掉控制權的情形下打持久戰
 	* 適合安裝多人對抗伺服器上，強迫Tank玩家積極進攻
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -126,8 +135,13 @@ Tank真人玩家如果不攻擊倖存者，時間到將會被自動處死
 		// 當控制權轉移給其他玩家時, 0=繼承剩餘時間, 1=重新計時
 		l4d_tank_alive_time_limit_pass_reset "0"
 
-		// 用拳頭攻擊到倖存者，可延長的時間 (0=不延長)
-		l4d_tank_alive_time_limit_punch_add "15"
+		// 用拳頭攻擊到站立的倖存者，可延長的時間
+		// 一個拳頭只增加一次時間 (0=不延長)
+		l4d_tank_alive_time_limit_punch_add_stand "15"
+
+		// 用拳頭攻擊到倒地或掛邊的倖存者，可延長的時間
+		// 一個拳頭只增加一次時間 (0=不延長)
+		l4d_tank_alive_time_limit_punch_add_incap "7"
 
 		// 丟石頭打到倖存者，可延長的時間 (0=不延長)
 		l4d_tank_alive_time_limit_rock_add "2"

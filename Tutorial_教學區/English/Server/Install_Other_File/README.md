@@ -1,5 +1,5 @@
 # Navigation
-> 2024/10/3 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/11/2 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
@@ -42,6 +42,7 @@
 	* Max slot limit is 31 in left4dead 1/2
 		* [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 		* [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
+	* 🟥 Not apply to local server
 
 * Installation
 	1. Go to [l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases) and download files depending on your game and system
@@ -50,8 +51,8 @@
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
 
-	3. Write down the following cvars in cfg/server.cfg
-		* If you don't have server.cfg, then create it
+	3. Write down the following cvars in ```cfg/server.cfg```
+		* If you don't have ```server.cfg```, then create it
 			```php
 			// Max Human Players, free to modify value (1~31)
 			// How many human players can join server (Not including AI Bots)
@@ -88,6 +89,9 @@
 		Listing 11 plugins:
 		[04] L4DToolZ (1.1.0.2) by Accelerator, Ivailosp
 		```
+
+	6. Install plugin [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
+		* Removes lobby reservation when server is full, allow 9+ players to join server
 
 - - - -
 ## TickrateEnabler

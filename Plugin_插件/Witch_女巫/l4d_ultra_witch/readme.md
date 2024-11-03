@@ -24,9 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, The Witch's hit sends survivor flying.
 		l4d_ultra_witch_flying_enable "1"
 
-		// If 1, Instantly incap survivor if witch's hit damage is greater than or equal to survivor hard health
-		l4d_ultra_witch_hard_health_realism "0"
-
 		// (L4D2) Which method to send survivor flying.
 		// 0=Flings a player to the ground, like they were hit by a Charger
 		// 1=Punch player, like they were hit by a Tank
@@ -55,6 +52,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4h (2024-11-3)
+		* Update cvars
 
 	* v1.3h (2024-6-20)
 		* Fix wrong health damage
@@ -99,9 +99,6 @@ Witch不會一抓倒地，而是擊飛倖存者
 
 		// 為1時，Witch的抓傷會擊飛倖存者
 		l4d_ultra_witch_flying_enable "1"
-
-		// 為1時，如果抓傷大於玩家的實血則立即倒地
-		l4d_ultra_witch_hard_health_realism "0"
 
 		// (L4D2) 選擇擊飛倖存者的方式
 		// 0=撞飛倖存者, 就像被Charger撞到

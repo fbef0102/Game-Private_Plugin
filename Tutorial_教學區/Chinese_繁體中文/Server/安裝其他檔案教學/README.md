@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/11/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -42,6 +42,7 @@
 	* 最多只能有31位玩家同時在伺服器裡面 (不能超過31人，否則伺服器會崩潰)
 		* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
+	* 🟥 不適用區域房
 
 * 安裝步驟
 	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
@@ -50,8 +51,8 @@
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
 
-	3. 到cfg/server.cfg寫上以下指令
-		* 沒有server.cfg檔案則新建
+	3. 到```cfg/server.cfg```寫上以下指令
+		* 沒有```server.cfg```檔案則新建
 			```php
 			// 18位真人玩家可以加入伺服器，自行修改此數值 (範圍1~31)
 			// 此數值為真人玩家的允許人數 (不包含AI Bot)
@@ -87,6 +88,9 @@
 		Listing 11 plugins:
 		[04] L4DToolZ (1.1.0.2) by Accelerator, Ivailosp
 		```
+
+	6. 安裝插件[l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
+		* 功能: 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
 
 - - - -
 ## 安裝TickrateEnabler
