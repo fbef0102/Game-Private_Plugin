@@ -1,5 +1,5 @@
 # Description | 內容
-L4D2 Upgrade Laser Sights by using commands
+Auto upgrade laser sights to weapons or manually upgrade by commands
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -9,6 +9,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 <br/>None
+
+* <details><summary>How does it work?</summary>
+
+	* Pick up weapons -> Auto upgrade laser sights
+	* Type ```!laser``` -> on/off upgrade sight
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -21,6 +27,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		//  How long do the commands 'cool down' (0=No cold down)
 		l4d2_lasersight_delay "1.0"
 
+		// If 1, Auto upgrade laser sight when survivors pick up primary weapons
+		l4d2_lasersight_auto "1"
+
 		// If 1, block laser command once game starts (survivors leaving saferoom / survival or scavenge begins)
 		l4d2_lasersight_game_block "0"
 
@@ -30,16 +39,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Command | 命令</summary>
-	
-	* **Upgrade laser sight**
-		```php
-		sm_laseron
-		```
-
-	* **Remove laser sight**
-		```php
-		sm_laseroff
-		```
 
 	* **Toggle laser sight**
 		```php
@@ -63,6 +62,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2024-11-4)
+		* Auto upgrade laser sight when survivors pick up primary weapons
+		* Update cvars
+		* Update cmds
+
 	* v1.1h (2024-9-3)
 		* Add translation file
 
@@ -76,10 +80,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-玩家使用指令升級紅外線雷射
+武器自動升級紅外線雷射或輸入指令升級
 
 * 原理
-	* 拿主武器，輸入```!laser```，升級紅外線雷射
+	* 拿主武器，自動升級紅外線雷射
+	* 或拿主武器，輸入```!laser```，開關紅外線雷射
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -87,6 +92,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 使用!laser的冷卻時間 (0=無冷卻時間)
 		l4d2_lasersight_delay "1.0"
+
+		// 為1時，玩家撿起主武器時，自動升級紅外線雷射
+		l4d2_lasersight_auto "1"
 
 		// 為1時，遊戲開始後不能使用指令 (倖存者離開安全區域 / 生存或清道夫模式計時開始)
 		l4d2_lasersight_game_block "0"
@@ -97,16 +105,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
-
-	* **升級紅外線**
-		```php
-		sm_laseron
-		```
-
-	* **移除紅外線**
-		```php
-		sm_laseroff
-		```
 
 	* **開/關紅外線**
 		```php
