@@ -826,7 +826,7 @@
    3. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
       - ```force_install_dir "My_Server_Path"```
-         - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
+         - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds_run所在的資料夾 (請輸入完整路徑)
       - ```login anonymous```
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲

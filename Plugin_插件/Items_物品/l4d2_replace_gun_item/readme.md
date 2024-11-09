@@ -14,7 +14,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Detect all weapons/items/melees on round start and replace with other guns/items/melees or just remove
+	* Detect all weapons/items/melees and replace with other guns/items/melees on round start
+	* Replace the weapon if the weapon is late spawn during the game. For example:
+		* Bile jar, nightstick from uncommon infected
+		* Items from Foot Locker
 	* Modify [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		* Replace big guns with other guns
 		* Replace items with other items
@@ -34,10 +37,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Replace the weapon if the weapon is late spawn during the game.
 		l4d2_replace_gun_item_late_spawn "0"
 
+		// If 1, Don't replace the weapon & item if survivor carries them.
+		l4d2_replace_gun_item_player_in_use "1"
+
 		// Replace the primary weapon
 		l4d2_replace_gun_item_primary "1"
 
-		// Replace the secondary weapon.
+		// Replace the secondary weapon. (Not including melee)
 		l4d2_replace_gun_item_secondary "1"
 
 		// Replace the throwable weapon.
@@ -74,60 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
 	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
-		```php
-		"l4d2_replace_gun_item"
-		{
-			"Weapons" // Do not modify this line
-			{
-				"weapon_pumpshotgun"
-				{
-					// -1=Don't remove or replace
-					"replace" "-1"
-				}
-				"weapon_autoshotgun"
-				{
-					// replace autoshotgun with pumpshotgun
-					"replace" "weapon_pumpshotgun"
-				}
-				"weapon_sniper_awp"
-				{
-					// replace awp with melee: fireaxe 
-					"replace" 			"weapon_melee"
-					"melee_name"		"fireaxe"
-
-					// If fireaxe failed to spawn => replace with shotgun instead
-					"second_replace"	"weapon_shotgun_chrome"	
-				}
-			}
-
-			"Special"
-			{
-				"weapon_oxygentank"
-				{
-					// Empty = Remove Weapon
-					"replace" ""
-				}
-				"weapon_gascan"
-				{
-					// Will NOT replace scavenge gascan
-					"replace" "weapon_adrenaline"
-				}
-			}
-
-			"Melee"
-			{
-				// Default replace for melee weapons
-				"default"
-				{
-					"replace" "-1"
-				}
-
-				// Add other custom weapon if you want
-				...
-
-			}
-		}
-		```
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -137,6 +90,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.3 (2024-11-9)
+		* Update cvars
+
 	* v1.2 (2024-9-7)
 		* Replace melee weapons with other weapons/items or replace other weapons/items with melee weapons 
 		* Updata data file
@@ -156,13 +112,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 地圖載入後的0.8秒後
 		* 將所有大槍武器刪除並替換成小槍
-		* 地圖載入後，將所有治療包與電擊器刪除並替換成藥丸
-		* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)，刪除並替換成其他武器/物品/近戰
+		* 將所有治療包與電擊器刪除並替換成藥丸
 	* 遊戲中途生成或掉落的物資也能被替換，譬如
 		* 墮落生還者掉落的物資
 		* CEDA掉落的膽汁瓶
 		* 綠色補給箱的無限物資
 		* 警察掉落的警棍
+	* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)，自行設定其他武器/物品/近戰
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -174,10 +130,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，替換遊戲中途生成或掉落的物資 (譬如管理員生成物品、墮落生還者掉落的物資、CEDA掉落的膽汁瓶、綠色補給箱的無限物資).
 		l4d2_replace_gun_item_late_spawn "0"
 
+		// 1=不替換倖存者手上的武器與物資
+		// 0=替換
+		l4d2_replace_gun_item_player_in_use "1"
+
 		// 為1時，偵測主武器的槍械並取代
 		l4d2_replace_gun_item_primary "1"
 
-		// 為1時，偵測副武器的槍械並取代
+		// 為1時，偵測副武器的槍械並取代 (不包含近戰武器)
 		l4d2_replace_gun_item_secondary "1"
 
 		// 為1時，偵測投擲物品並取代
@@ -200,59 +160,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
-		```php
-		"l4d2_replace_gun_item"
-		{
-			"Weapons" // 武器列表
-			{
-				"weapon_pumpshotgun"
-				{
-					// -1 = 單發散彈槍不刪除也不取代
-					"replace" "-1"
-				}
-				"weapon_autoshotgun"
-				{
-					// 連發散彈槍刪除並替換成單發散彈槍
-					"replace" "weapon_pumpshotgun"
-				}
-				"weapon_sniper_awp"
-				{
-					// AWP 替換成近戰武器: 斧頭
-					"replace" 			"weapon_melee"
-					"melee_name"		"fireaxe"
-
-					// 如果要斧頭近戰無法生成，則另取代成其他武器
-					"second_replace"	"weapon_shotgun_chrome"	
-				}
-			}
-
-			"Special"  // 特殊物品列表
-			{
-				"weapon_oxygentank"
-				{
-					// 留白 = 移除所有瓦斯桶
-					"replace" ""
-				}
-				"weapon_gascan"
-				{
-					// 不會影響黃色與綠色的汽油桶
-					// 所有汽油桶替換成腎上腺素
-					"replace" "weapon_adrenaline"
-				}
-			}
-
-			"Melee" // 近戰武器列表
-			{
-				// 預設的替換
-				"default"
-				{
-					"replace" "-1"
-				}
-
-				// 自行新增其他三方圖近戰
-				...
-				
-			}
-		}
-		```
+		> 內有中文說明，可點擊查看
 </details>

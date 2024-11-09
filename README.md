@@ -191,8 +191,8 @@
     * 在特感身上顯示剩餘血量
   * [l4d_infected_hp_text](/Plugin_插件/Special_Infected_特感/l4d_infected_hp_text): Display health bar text of Special Infected to attacker
     * 向攻擊者顯示特感血條
-  * [l4d_stagger_block](/Plugin_插件/Special_Infected_特感/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/....
-    * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/... 波及而硬直震退
+  * [l4d_stagger_block](/Plugin_插件/Special_Infected_特感/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/survivor shove....
+    * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/倖存者右鍵... 波及而硬直震退
   * [l4d2_si_fire_damage](/Plugin_插件/Special_Infected_特感/l4d2_si_fire_damage): Reset Fire Damage To SI/Tank
     * 更改火焰對Tank/特感造成的傷害
   * [end_safedoor_teleport](/Plugin_插件/Special_Infected_特感/end_safedoor_teleport): Teleport ci/si/tank outside the end saferoom if they spawn inside

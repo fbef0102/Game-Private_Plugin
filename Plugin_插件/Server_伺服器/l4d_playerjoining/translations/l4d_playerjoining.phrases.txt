@@ -27,9 +27,11 @@
     }
     "Connect_Server (Dedicated Server)"
     {
-        // {1} Name
-        // {2} Country
-        // {2} City
+        // {1} Name 名字
+        // {2} Country 國家
+        // {3} City 城市
+        // {4} 玩家總人數
+        // {5} 伺服器空位
         "#format"		"{1:s},{2:s},{3:s}"
         "en"        "{olive}[Join] {green}{1}{default} has connected to the server {green}({2}, {3})"
         "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
@@ -37,7 +39,7 @@
     }
     "Connect_Server"
     {
-        // {1} Name
+        // {1} Name 名字
         "#format"		"{1:s}"
         "en"        "{olive}[Join] {green}{1}{default} has connected to the server"
         "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器"
@@ -46,29 +48,23 @@
     "LAN Country Desc"
     {
         "en"        "Local Network"
-        "zho"       "區域網路"
-        "chi"       "区域网路"
     }
     "Unknown Country Desc"
     {
         "en"        "Unknown Country"
-        "zho"       "未知國家"
-        "chi"       "未知国家"
     }
     "LAN City Desc"
     {
         "en"        "Local City"
-        "zho"       "當地城市"
-        "chi"       "当地城市"
     }
     "Unknown City Desc"
     {
         "en"        "Somewhere"
-        "zho"       "未知城市"
-        "chi"       "未知城市"
     }
     "Left_Server"
     {
+        // {1} Name 名字
+        // {2} reason 離線原因
         "#format"		"{1:s},{2:s}"
         "en"        "{olive}[Join] {green}{1}{default} has left the server {green}({2})"
         "zho"       "{olive}[Join] {green}{1}{default} 離開了伺服器 {green}({2})"
