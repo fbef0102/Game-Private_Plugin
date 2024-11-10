@@ -176,7 +176,7 @@
 		"chi"	"[CSM] 直到下回合之前不能使用角色或模型 (次数已达限制)"
 		"ru"	"[CSM] Вы не сможете снова изменить своего персонажа до следующего раунда. (limit reached)."
 	}
-	"Adm changes your character"
+	"Adm changes your character (C)"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[{olive}CSM{default}] Adm({lightgreen}%N{default}) changes your character to {green}{1}{default}"
@@ -184,7 +184,7 @@
 		"chi"	"[{olive}CSM{default}] 管理员({lightgreen}%N{default}) 改变你的角色为 {green}{1}{default}"
 		"ru"	"[{olive}CSM{default}] Adm({lightgreen}%N{default}) меняет вашего персонажа на {green}{1}{default}"
 	}
-	"Adm changes your character2"
+	"Adm changes your character"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[CSM] Adm(%N) changes your character to {1}"
@@ -192,7 +192,7 @@
 		"chi"	"[CSM] 管理员(%N) 改变你的角色为 {1}"
 		"ru"	"[CSM] Adm(%N) меняет вашего персонажа на {1}"
 	}
-	"You change client character"
+	"You change client character (C)"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[{olive}CSM{default}] You change {olive}%N{default}'s character to {green}{1}{default}"
@@ -200,7 +200,7 @@
 		"chi"	"[{olive}CSM{default}] 你改变 {olive}%N{default} 的角色为 {green}{1}{default}"
 		"ru"	"[{olive}CSM{default}] Ты меняешь {olive}%N{default} персонаж на {green}{1}{default}"
 	}
-	"You change client character2"
+	"You change client character"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[CSM] You change %N's character to {1}"
@@ -208,7 +208,7 @@
 		"chi"	"[CSM] 你改变 %N 的角色为 {1}"
 		"ru"	"[CSM] Ты изменил %N персонаж на {1}"
 	}
-	"Your character"
+	"Your character (C)"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[{olive}CSM{default}] Your character is now {green}{1}{default}"
@@ -216,7 +216,7 @@
 		"chi"	"[{olive}CSM{default}] 你的角色目前为 {green}{1}{default}"
 		"ru"	"[{olive}CSM{default}] Ваш персонаж сейчас {green}{1}{default}"
 	}
-	"Your character2"
+	"Your character"
 	{
 		"#format" 		"{1:t}"
 		"en"	"[CSM] Your character is now {1}"
@@ -266,6 +266,30 @@
 		"zho"	"[{olive}CSM{default}] 目標玩家 {olive}{1}{default} 目前狀態忙碌，請重新選擇！"
 		"chi"	"[{olive}CSM{default}] 目标玩家 {olive}{1}{default} 目前状态忙碌，请重新选择！"
 		"ru"	"[{olive}CSM{default}] Target {olive}{1}{default} занята, выберите еще раз!"
+	}
+	
+	
+	"Target character is already (C)"
+	{
+		"#format" 		"{1:N},{2:t}"
+		"en"	"[{olive}CSM{default}] Target {olive}{1}{default} character is already {green}{2}{default}!"
+		"zho"	"[{olive}CSM{default}] 目標玩家 {olive}{1}{default} 的角色已是 {green}{2}{default}！"
+		"chi"	"[{olive}CSM{default}] 目标玩家 {olive}{1}{default} 的角色已是 {green}{2}{default}！"
+	}
+	
+	"Your character is already (C)"
+	{
+		"#format" 		"{1:t}"
+		"en"	"[{olive}CSM{default}] Your character is already {green}{1}{default}"
+		"zho"	"[{olive}CSM{default}] 你的角色已是 {green}{1}{default}"
+		"chi"	"[{olive}CSM{default}] 你的角色已是 {green}{1}{default}"
+	}
+	"Your character is already"
+	{
+		"#format" 		"{1:t}"
+		"en"	"[CSM] Your character is already {1}"
+		"zho"	"[CSM] 你的角色已是 {1}"
+		"chi"	"[CSM] 你的角色已是 {1}"
 	}
 }
 

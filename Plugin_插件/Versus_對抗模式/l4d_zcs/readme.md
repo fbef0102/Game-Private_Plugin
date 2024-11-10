@@ -104,7 +104,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_zcs_charger_limit "-1"
 
 		// How many Tanks allowed. (0=None Allowed)
-		l4d_zcs_tank_limit "1"
+		l4d_zcs_tank_limit "0"
 
 		// If 1, Allow Smoker Ghost player to select class. (0=Not Allow)
 		l4d_zcs_smoker_ghost_allow "1"
@@ -265,7 +265,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_zcs_charger_limit "-1"
 
 		// Tank的數量限制 (0=不允許)
-		l4d_zcs_tank_limit "1"
+		l4d_zcs_tank_limit "0"
 
 		// 為1時，允許靈魂特感Smoker切換其他特感類型 (0=不允許)
 		l4d_zcs_smoker_ghost_allow "1"

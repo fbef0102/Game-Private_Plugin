@@ -153,6 +153,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9h (2024-11-11)
+		* Optimize code
+		* Update translation
+
 	* v1.8h (2024-9-7)
 		* Fixed change wrong character by !francis cmd 
 
