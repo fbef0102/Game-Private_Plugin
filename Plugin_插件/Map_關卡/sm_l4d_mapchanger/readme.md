@@ -75,8 +75,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
-		// After campaign credit end or players press space to skip credit, delay before force of changelevel in coop/realism. (0=Don't force to change map)
-		sm_l4d_fmc_delay_coop_final "1.0"
+		// In coop/realism final map, when to change next map? 
+		// -1=Wait until campaign credit end or players press space to skip credit.
+		// 0=Don't force to change map
+		// >0: After final rescue vehicle leaving, delay before force of changelevel
+		sm_l4d_fmc_delay_coop_final "15.0"
 
 		// Enables next mission and how many chances left to advertise to players.
 		sm_l4d_fmc_announce "1"
@@ -113,20 +116,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command</summary>
 	
 	* **Display Next Map**
-			```php
-			sm_fmc_nextmap
-			sm_fmc
-			```
+		```php
+		sm_fmc_nextmap
+		sm_fmc
+		```
 
 	* **Vote the next map**
-			```php
-			sm_mapvote
-			```
+		```php
+		sm_mapvote
+		```
 
 	* **See all the votes**
-			```php
-			sm_mapvotes
-			```
+		```php
+		sm_mapvotes
+		```
 </details>
 
 * <details><summary>Example Config</summary>
@@ -193,6 +196,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7h (2024-11-12)
+		* Update cvars
 
 	* v1.6h (2024-9-29)
 		* In coop/realism mode, force of changelevel in coop/realism after campaign credit end or players press space to skip credit
@@ -294,8 +300,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 清道夫模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
-		// 戰役/寫實模式，地圖統計表跑完之後或是玩家們按下"空白鍵-投票跳過", 1秒之後切換下一張地圖. (0=不要切換地圖)
-		sm_l4d_fmc_delay_coop_final "1.0"
+		// 戰役/寫實模式 最後一關結束後，何時換圖?
+		// -1=地圖統計表跑完之後或是玩家們按下"空白鍵-投票跳過"
+		// 0=不要切換地圖
+		// >0: 上了救援載具並且等待此秒數之後切換下一張地圖
+		sm_l4d_fmc_delay_coop_final "15.0"
 
 		// 為1時，持續發公告顯示下一張地圖.
 		sm_l4d_fmc_announce "1"
@@ -332,20 +341,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>命令中文介紹 (點我展開)</summary>
 	
 	* **顯示下一張地圖**
-			```php
-			sm_fmc_nextmap
-			sm_fmc
-			```
+		```php
+		sm_fmc_nextmap
+		sm_fmc
+		```
 
 	* **投票下一張地圖**
-			```php
-			sm_mapvote
-			```
+		```php
+		sm_mapvote
+		```
 
 	* **查看所有票數**
-			```php
-			sm_mapvotes
-			```
+		```php
+		sm_mapvotes
+		```
 </details>
 
 * <details><summary>文件設定</summary>
