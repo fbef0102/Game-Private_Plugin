@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"Melee Shock Ability (C)"
+	{
+		"en"	"{green}Melee Shock Ability"
+		"zho"	"{green}近戰隔空砍傷"
+		"chi"	"{green}近战隔空砍伤"
+	}
+	
+	"Melee Shock Ability"
+	{
+		"en"	"Melee Shock Ability"
+		"zho"	"近戰隔空砍傷"
+		"chi"	"近战隔空砍伤"
+	}
+}
+

@@ -203,6 +203,8 @@
     * 強制將特感擊殺者改成造成傷害最多的玩家
   * [l4d_super_si](/Plugin_插件/Special_Infected_特感/l4d_super_si): Make special infected become super SI (increase HP/movement/invisibility + catch fire)
     * 增強特感變成超級特感 (增加血量/移動速度/透明度 + 自身著火)
+  * [l4d_ghost_restrict_remove](/Plugin_插件/Special_Infected_特感/l4d_ghost_restrict_remove): Remove Special infected ghost spawn resctricts such as in start/end safe areas, be seen by survivors, too close
+    * 移除靈魂特感的生成限制，玩家可以在安全室裡面復活、在倖存者眼前復活
 </details>
 
 * <details><summary><b>Smoker | 舌頭</b></summary>
@@ -637,6 +639,8 @@
     * 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
   * [l4d_aimbot](/Plugin_插件/Nothing_Impossible_無理改造版/l4d_aimbot): Give you a legal aimbot made by sourcemod in l4d
     * 輸入指令開啟武器自瞄系統，合法自動瞄準殭屍射擊
+  * [l4d2_melee_shock](/Plugin_插件/Nothing_Impossible_無理改造版/l4d2_melee_shock): Press shift and swing melee to active melee shock effect, slash the C.I./S.I./witch around you
+    * 近戰武器可以隔空砍周圍的殭屍與特感
 </details>
 
 * <details><summary><b>Map | 關卡</b></summary>
