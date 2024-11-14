@@ -49,7 +49,7 @@
 	} 
 	"c8m5_rooftop" // current map
 	{
-		"next mission map" "c9m2_lots"   // <-- next campaign in coop/versus/realism
+		"next mission map" "c9m1_alleys"   // <-- next campaign in coop/versus/realism
 		"next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
 		
 		"survival_nextmap" "c1m2_streets"	// <-- next map in survival mode

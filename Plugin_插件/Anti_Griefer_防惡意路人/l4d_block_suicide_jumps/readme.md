@@ -39,7 +39,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_block_suicide_jumps_enable "1"
 
-		// Ban player who attempts to suicide with jump for X time.
+		// Ban player who attempts to suicide with jump for X time. (0=off)
 		l4d_block_suicide_jumps_limit "3"
 
 		// Ban How many mins. (0=Permanent Ban, -1=Kick)
@@ -85,10 +85,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//rekcah @ 20211
-	//HarryPotter @ 2023-2024
-	```
+	* v1.2h (2024-11-14)
+		* Optimize code
+
 	* v1.1h (2024-2-20)
 		* Add data config to disable plugin in some maps
 
@@ -139,7 +138,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d_block_suicide_jumps_enable "1"
 
-		// 企圖自殺已達三次以上，立刻踢出並封鎖玩家
+		// 企圖自殺已達三次以上，立刻踢出並封鎖玩家 (0=關閉)
 		l4d_block_suicide_jumps_limit "3"
 
 		// 封鎖時間 (0=永遠, -1=只踢出伺服器)
