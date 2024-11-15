@@ -71,6 +71,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2024-11-15)
+		* Optimize code
+
 	* v1.2 (2024-9-3)
 		* Add translation file
 

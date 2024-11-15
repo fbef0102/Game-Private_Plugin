@@ -39,7 +39,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>ConVar</summary>
 
-	* cfg\sourcemod\sm_l4d_mapchanger.cfg
+	* cfg/sourcemod/sm_l4d_mapchanger.cfg
 		```php
 		// Mission for change by default on final map in coop/realism.
 		// Empty=Use configs/missioncycle.coop.txt map order
@@ -157,14 +157,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 
 			// If map name not in this file
-			// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs\missioncycle.coop.txt
-			// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs\missioncycle.versus.txt
-			// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs\missioncycle.survival.txt
-			// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs\missioncycle.scavenge.txt
+			// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs/missioncycle.coop.txt
+			// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs/missioncycle.versus.txt
+			// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs/missioncycle.survival.txt
+			// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs/missioncycle.scavenge.txt
 		} 
 		```
 
-	* [configs\finale.coop.txt](configs\finale.coop.txt)
+	* [configs/finale.coop.txt](configs/finale.coop.txt)
 		```php
 		// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
 		l4d2_deathcraft_05_lighthouse
@@ -264,22 +264,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg\sourcemod\sm_l4d_mapchanger.cfg
+	* cfg/sourcemod/sm_l4d_mapchanger.cfg
 		```php
 		// 預設 戰役/寫實模式 最終關之後的下一張地圖
-		// 空=下一張地圖依照configs\missioncycle.coop.txt的地圖順序
+		// 空=下一張地圖依照configs/missioncycle.coop.txt的地圖順序
 		sm_l4d_fmc_def_coop ""
 
 		// 預設 生存模式 的下一張地圖
-		// 空=下一張地圖依照configs\missioncycle.survival.txt的地圖順序
+		// 空=下一張地圖依照configs/missioncycle.survival.txt的地圖順序
 		sm_l4d_fmc_def_survival "c5m5_bridge"
 
 		// 預設 對抗模式 最終關之後的下一張地圖
-		// 空=下一張地圖依照configs\missioncycle.versus.txt的地圖順序
+		// 空=下一張地圖依照configs/missioncycle.versus.txt的地圖順序
 		sm_l4d_fmc_def_versus ""
 
 		// 預設 清道夫模式 的下一張地圖
-		// 空=下一張地圖依照configs\missioncycle.scavenge.txt的地圖順序
+		// 空=下一張地圖依照configs/missioncycle.scavenge.txt的地圖順序
 		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
 
 		// 戰役/寫實模式 下非最終關卡，生還者滅團超過三次則切換到下一個關卡 (0=關閉這項功能)
@@ -382,14 +382,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 
 			// 沒有寫地圖名的其他關卡，則
-			// 戰役/寫實模式 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.coop.txt的地圖順序
-			// 對抗模式 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.versus.txt的地圖順序
-			// 生存模式 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.survival.txt的地圖順序
-			// 清道夫模式 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫地圖則依照configs\missioncycle.scavenge.txt的地圖順序
+			// 戰役/寫實模式 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.coop.txt的地圖順序
+			// 對抗模式 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.versus.txt的地圖順序
+			// 生存模式 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.survival.txt的地圖順序
+			// 清道夫模式 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.scavenge.txt的地圖順序
 		} 
 		```
 
-	* 設定文件[configs\finale.coop.txt](configs\finale.coop.txt)決定哪些關卡為最終章節
+	* 設定文件[configs/finale.coop.txt](configs/finale.coop.txt)決定哪些關卡為最終章節
 		```php
 		// 戰役/對抗/寫實模式下 這些關卡將視為最終章節，在這些章節可以投票與自動換圖
 		// 避免一堆垃圾三方圖明明是救援關卡卻不是最後的章節
@@ -403,29 +403,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. <details><summary>安裝此插件之後</summary>
 
 		* 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
-			* configs\missioncycle.coop.txt
-			* configs\missioncycle.scavenge.txt
-			* configs\missioncycle.survival.txt
-			* configs\missioncycle.versus.txt
-			* configs\finale.coop.txt
+			* configs/missioncycle.coop.txt
+			* configs/missioncycle.scavenge.txt
+			* configs/missioncycle.survival.txt
+			* configs/missioncycle.versus.txt
+			* configs/finale.coop.txt
 	</details>
 
 	2. <details><summary>安裝新的三方圖</summary>
 
-		* 每當安裝新的三方圖時，left4dead2\addons\sourcemod\configs\內的文件內容會有變化，自動新增三方圖的關卡與地圖名
-			* configs\missioncycle.coop.txt
-			* configs\missioncycle.scavenge.txt
-			* configs\missioncycle.survival.txt
-			* configs\missioncycle.versus.txt
+		* 每當安裝新的三方圖時，left4dead2/addons/sourcemod/configs/內的文件內容會有變化，自動新增三方圖的關卡與地圖名
+			* configs/missioncycle.coop.txt
+			* configs/missioncycle.scavenge.txt
+			* configs/missioncycle.survival.txt
+			* configs/missioncycle.versus.txt
 	</details>
 
 	3. <details><summary>刪除三方圖</summary>
 
 		* 每次刪除三方圖檔案的時候，我建議關閉伺服器然後刪除以下檔案
-			* configs\missioncycle.coop.txt
-			* configs\missioncycle.scavenge.txt
-			* configs\missioncycle.survival.txt
-			* configs\missioncycle.versus.txt
+			* configs/missioncycle.coop.txt
+			* configs/missioncycle.scavenge.txt
+			* configs/missioncycle.survival.txt
+			* configs/missioncycle.versus.txt
 		* 再重新啟動服務器，如果不這麼做那也沒關係
 	</details>
 
@@ -433,8 +433,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. <details><summary>能否修改地圖順序?</summary>
 
 		* 可以更動以下檔案的內容，改變地圖順序
-			* configs\missioncycle.coop.txt
-			* configs\missioncycle.scavenge.txt
-			* configs\missioncycle.survival.txt
-			* configs\missioncycle.versus.txt
+			* configs/missioncycle.coop.txt
+			* configs/missioncycle.scavenge.txt
+			* configs/missioncycle.survival.txt
+			* configs/missioncycle.versus.txt
 	</details>

@@ -30,10 +30,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
   * It require some time to initialize map list at first time server launch. (20 - 60 sec, and < 2 sec. next times)
   * Plugin auto-generates the following files, please **DO NOT modify**
-      * data\l4d_all_missions_list_coop.txt
-      * data\l4d_all_missions_list_scavenge.txt
-      * data\l4d_all_missions_list_survival.txt
-      * data\l4d_all_missions_list_versus.txt
+      * data/l4d_all_missions_list_coop.txt
+      * data/l4d_all_missions_list_scavenge.txt
+      * data/l4d_all_missions_list_survival.txt
+      * data/l4d_all_missions_list_versus.txt
 </details>
 
 * Require | 必要安裝
@@ -161,18 +161,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         * 第一次啟動伺服器時，插件需要花30~60秒讀取分析地圖，因此伺服器卡住是正常的現象，請等待插件跑完
         * 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
-            * data\l4d_all_missions_list_coop.txt
-            * data\l4d_all_missions_list_scavenge.txt
-            * data\l4d_all_missions_list_survival.txt
-            * data\l4d_all_missions_list_versus.txt
+            * data/l4d_all_missions_list_coop.txt
+            * data/l4d_all_missions_list_scavenge.txt
+            * data/l4d_all_missions_list_survival.txt
+            * data/l4d_all_missions_list_versus.txt
     </details>
 
     2. <details><summary>安裝新的三方圖</summary>
 
-        * 每當安裝三方圖時，left4dead2\addons\sourcemod\data\內的文件內容會有變化，自動新增三方圖的地圖與關卡
+        * 每當安裝三方圖時，left4dead2/addons/sourcemod/data/內的文件內容會有變化，自動新增三方圖的地圖與關卡
         * 反之，每當移除三方圖時，自動移除三方圖的地圖與關卡
-            * data\l4d_all_missions_list_coop.txt
-            * data\l4d_all_missions_list_scavenge.txt
-            * data\l4d_all_missions_list_survival.txt
-            * data\l4d_all_missions_list_versus.txt
+            * data/l4d_all_missions_list_coop.txt
+            * data/l4d_all_missions_list_scavenge.txt
+            * data/l4d_all_missions_list_survival.txt
+            * data/l4d_all_missions_list_versus.txt
     </details>

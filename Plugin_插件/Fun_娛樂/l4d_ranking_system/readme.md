@@ -86,7 +86,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d_ranking_system.inc](scripting\include\l4d_ranking_system.inc)
+	* [l4d_ranking_system.inc](scripting/include/l4d_ranking_system.inc)
 		```php
 		library name: l4d_ranking_system
 		```
@@ -94,35 +94,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* [configs\l4d_ranking_system.cfg](configs\l4d_ranking_system.cfg)
-		```php
-		"l4d_ranking_system"
-		{
-			"Rank"
-			{
-				"num"		"18" // There are 18 Rank titles
-				"1" // If player has point between 0~999, he got rank title "SILVER Ⅰ"
-				{
-					"Name"		"SILVER Ⅰ" 
-					"Point_Min"	"0"
-					"Point_Max"	"1000"
-				}
-				"2" // If player has point between 1000~1999, he got rank title "SILVER Ⅱ"
-				{
-					"Name"		"SILVER Ⅱ"
-					"Point_Min"	"1000"
-					"Point_Max"	"2000"
-				}
-				...
-			}
-		}
-		```
+	* [configs/l4d_ranking_system.cfg](configs/l4d_ranking_system.cfg)
+		> Manual in this file, click for more details...
 </details>
 
 * <details><summary>Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod/configs/databases.cfg*
 			```php
 			// There would a data table named "Ranking_System_V2" in database
 			"rank"
@@ -136,9 +115,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod\configs\databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod/configs/databases.cfg*
 			```php
-			// Database in saved to ```sourcemod\data\sqlite\rank_system.sq3```
+			// Database in saved to ```sourcemod/data/sqlite/rank_system.sq3```
 			"rank"
 			{
 				"driver"			"sqlite"

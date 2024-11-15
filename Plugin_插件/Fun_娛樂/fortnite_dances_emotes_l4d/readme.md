@@ -81,8 +81,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. Preparation
 		* Download all files(addons, materials, models, and sound).
 		* Put them in your game server
-			* If L4D1, ```Left 4 Dead Dedicated Server\left4dead```
-			* If L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* If L4D1, ```Left 4 Dead Dedicated Server/left4dead```
+			* If L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
 		* Prepare your content-server for FastDL, if you don't know what "FastDL" is, please google it
 
 	2. Setup server to work with downloadable content
@@ -103,11 +103,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* If you are L4D1, ```your-content-server.com/game/left4dead/models/``` and ```your-content-server.com/game/left4dead/sound/```
 			* If you are L4D2, ```your-content-server.com/game/left4dead2/models/``` and ```your-content-server.com/game/left4dead2/sound/```
 		* Upload "models" and "sound" folder to game server.
-			* If you are L4D1, ```Left 4 Dead Dedicated Server\left4dead```
-			* If you are L4D2, ```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* If you are L4D1, ```Left 4 Dead Dedicated Server/left4dead```
+			* If you are L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
 		* Upload "models" and "sound" folder to your client's game folder (for test).
-			* If you are L4D1, ```left 4 dead\left4dead\models\``` and ```left 4 dead\left4dead\sound\```
-			* If you are L4D2, ```Left 4 Dead 2\left4dead2\models\``` and ```Left 4 Dead 2\left4dead2\sound\```
+			* If you are L4D1, ```left 4 dead/left4dead/models/``` and ```left 4 dead/left4dead/sound/```
+			* If you are L4D2, ```Left 4 Dead 2/left4dead2/models/``` and ```Left 4 Dead 2/left4dead2/sound/```
 
 	4. Start the server and test
 		* Join survivor and type !dance.
@@ -260,8 +260,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. 準備清單
 		* 下載所有文件（插件和模組檔案與音樂）。
 		* 將它們放入遊戲伺服器資料夾中
-			* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead```
-			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2```
+			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead```
+			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2```
 		* 準備你的網空並可以支援FastDL, 不知道什麼是FastDL請自行Google
 		
 	2. 設置伺服器以處理可下載的內容
@@ -282,11 +282,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 如果你是 L4D1，```your-content-server.com/game/left4dead/models/``` 和 ```your-content-server.com/game/left4dead/sound/```
 			* 如果你是 L4D2，```your-content-server.com/game/left4dead2/models/``` 和 ```your-content-server.com/game/left4dead2/sound/```
 		* 將"models" 和 "sound"資料夾複製到您的伺服器資料夾上。
-			* 如果你是 L4D1，```Left 4 Dead Dedicated Server\left4dead\models\``` 和 ```Left 4 Dead Dedicated Server\left4dead\sound\```
-			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server\left4dead2\models\``` 和 ```Left 4 Dead 2 Dedicated Server\left4dead\sound\```
+			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead/models/``` 和 ```Left 4 Dead Dedicated Server/left4dead/sound/```
+			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2/models/``` 和 ```Left 4 Dead 2 Dedicated Server/left4dead/sound/```
 		* 將"models" 和 "sound"資料夾上傳到您的遊戲本地資料夾（用於測試）。
-			* 如果你是 L4D1，```left 4 dead\left4dead\models\``` 和 ```left 4 dead\left4dead\sound\```
-			* 如果你是 L4D2，```Left 4 Dead 2\left4dead2\models\``` 和 ```Left 4 Dead 2\left4dead2\sound\```
+			* 如果你是 L4D1，```left 4 dead/left4dead/models/``` 和 ```left 4 dead/left4dead/sound/```
+			* 如果你是 L4D2，```Left 4 Dead 2/left4dead2/models/``` 和 ```Left 4 Dead 2/left4dead2/sound/```
 		
 	4. 啟動伺服器並測試
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作

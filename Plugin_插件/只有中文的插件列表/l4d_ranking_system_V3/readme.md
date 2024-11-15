@@ -137,36 +137,14 @@
 
 * <details><summary>文件設定</summary>
 
-	* [configs\l4d_ranking_system_V3.cfg](configs\l4d_ranking_system_V3.cfg) 設置階級頭銜名稱
-	* 經驗值最大只到2147483647，超過會發生bug，認真你就輸了 (有誰他馬的會達到這個21億點經驗值)
-		```php
-		"l4d_ranking_system"
-		{
-			"Rank"
-			{
-				"num"		"18" // 自訂有18個階級頭銜
-				"1" // 當玩家的經驗值介於 0~999, 得到 "SILVER Ⅰ" 稱號
-				{
-					"Name"		"SILVER Ⅰ" 
-					"Point_Min"	"0"
-					"Point_Max"	"1000"
-				}
-				"2" // 當玩家的經驗值介於 1000~1999, 得到 "SILVER Ⅱ" 稱號
-				{
-					"Name"		"SILVER Ⅱ"
-					"Point_Min"	"1000"
-					"Point_Max"	"2000"
-				}
-				... // 以下類推
-			}
-		}
-		```
+	* [configs/l4d_ranking_system_V3.cfg](configs/l4d_ranking_system_V3.cfg)設置
+		> 內有中文說明，可點擊查看
 </details>
 
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod/configs/databases.cfg*
 			```php
 			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
 			"rank"
@@ -180,9 +158,9 @@
 			}
 			```
 			
-		2. SQLite: 本地資料庫，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		2. SQLite: 本地資料庫，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod/configs/databases.cfg*
 			```php
-			// 資料庫位於 ```sourcemod\data\sqlite\rank_system.sq3``` (自動創建)
+			// 資料庫位於 ```sourcemod/data/sqlite/rank_system.sq3``` (自動創建)
 			"rank"
 			{
 				"driver"			"sqlite"

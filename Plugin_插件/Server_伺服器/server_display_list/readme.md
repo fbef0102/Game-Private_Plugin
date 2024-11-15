@@ -38,28 +38,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* [data\server_display_list.cfg](data\server_display_list.cfg)
-		```php
-		"server"
-		{
-			"27020" //Match Current Server Port
-			{
-				"num" "2" //total
-				"1" //type !server to show list
-				{
-					"name" "Main IP"
-					"ip" "1.2.3.4:7777"
-					"author" "Hong Kong"
-				}
-				"2"
-				{
-					"name" "KR VPN(Test)"
-					"ip" "I.am.groo.t:7777"
-					"author" "USA"
-				}
-			}
-		}
-		```
+	* [data/server_display_list.cfg](data/server_display_list.cfg)
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -120,26 +100,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* 可自行設定顯示內容
-	* [data\server_display_list.cfg](data\server_display_list.cfg)
-		```php
-		"server"
-		{
-			"27020" //符合目前伺服器port 
-			{
-				"num" "2" // 顯示兩個資訊
-				"1" //輸入!server顯示以下兩個內容
-				{
-					"name" "Main IP"
-					"ip" "1.2.3.4:7777"
-					"author" "Hong Kong"
-				}
-				"2"
-				{
-					"name" "KR VPN(Test)"
-					"ip" "I.am.groo.t:7777"
-					"author" "USA"
-				}
-			}
-		}
-		```
+	* [data/server_display_list.cfg](data/server_display_list.cfg)
+		> 內有中文說明，可點擊查看
 </details>

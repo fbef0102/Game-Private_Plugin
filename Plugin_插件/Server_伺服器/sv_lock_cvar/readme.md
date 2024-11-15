@@ -37,6 +37,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
 	* [data/sv_lock_cvar.cfg](data/sv_lock_cvar.cfg)
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -66,7 +67,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 鎖住指令的值，不會被遊戲、地圖、玩家竄改
 
 * 原理
-	* 在 [data\sv_lock_cvar.cfg](data\sv_lock_cvar.cfg) 寫下你想要鎖住，不要被竄改的指令列表
+	* 在 [data/sv_lock_cvar.cfg](data/sv_lock_cvar.cfg) 寫下你想要鎖住，不要被竄改的指令列表
 	* 當遊戲中，這些指令的值被更動時，強制將指令值修改回來
 	* 為何指令值會更動?
 		* 玩家嘗試修改 (使用作弊方法之類)
@@ -76,4 +77,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定範例</summary>
 
 	* [data/sv_lock_cvar.cfg](data/sv_lock_cvar.cfg)
+		> 內有中文說明，可點擊查看
 </details>

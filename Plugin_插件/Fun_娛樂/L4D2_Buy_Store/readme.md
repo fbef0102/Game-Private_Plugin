@@ -405,10 +405,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Choose one of the following method to save money
 		1. CookiesCached: Save player money locally via sourcemod data, set ```sm_shop_CookiesCached_enable "1"``` 
 			```php
-			//Cookies are saved to sourcemod\data\sqlite\clientprefs-sqlite.sq3
+			//Cookies are saved to sourcemod/data/sqlite/clientprefs-sqlite.sq3
 			```
 
-		2. MySQL: Database across server, set ```sm_shop_database "shop"``` and set *sourcemod\configs\databases.cfg*
+		2. MySQL: Database across server, set ```sm_shop_database "shop"``` and set *sourcemod/configs/databases.cfg*
 			```php
 			// There would a data table named "Buy_Store_database" in database
 			"shop"
@@ -790,10 +790,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 以下方法二選一
 		1. CookiesCached: 能幫玩家儲值金額到本地sourcemod庫上，開啟指令 ```sm_shop_CookiesCached_enable "1"```
 			```php
-			//儲存於sourcemod\data\sqlite\clientprefs-sqlite.sq3
+			//儲存於sourcemod/data/sqlite/clientprefs-sqlite.sq3
 			```
 
-		2. MySQL: 跨伺服器儲值金額，設定指令 ```sm_shop_database "shop"```，然後設定文件 *sourcemod\configs\databases.cfg*
+		2. MySQL: 跨伺服器儲值金額，設定指令 ```sm_shop_database "shop"```，然後設定文件 *sourcemod/configs/databases.cfg*
 			```php
 			// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
 			"shop"

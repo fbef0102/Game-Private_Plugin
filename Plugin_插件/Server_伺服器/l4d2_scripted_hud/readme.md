@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* You can create multi .nut files
 
 	* Note
-		* Load data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUD?" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` cvar text. If both empty, then load GetHUD?_Text functions (? is 1~5) 
+		* Load data/l4d2_scripted_hud.cfg "HUD_Texts" => "HUD?" first. If empty, then load ```l4d2_scripted_hud_hud?_text``` cvar text. If both empty, then load GetHUD?_Text functions (? is 1~5) 
 		* The limit of each HUD text is up to 127 characters.
 		* HUD Text can be moved and animated effect, please read cfg.
 </details>
@@ -555,7 +555,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> __Note__ (如果已有.nut檔案，可以先備份)
 
 	* 注意事項
-		* 插件先讀取 data\l4d2_scripted_hud.cfg "HUD_Texts" => "HUD?" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hud?_text``` 指令文字. 如果兩者皆空, 使用插件內建的 GetHUD?_Text 文字 (? 是 1~5)
+		* 插件先讀取 data/l4d2_scripted_hud.cfg "HUD_Texts" => "HUD?" 文字. 如果空白則讀取 ```l4d2_scripted_hud_hud?_text``` 指令文字. 如果兩者皆空, 使用插件內建的 GetHUD?_Text 文字 (? 是 1~5)
 		* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
 		* 每個Hud文字可有滑動跟閃紅光的特效，請詳細閱讀指令
 </details>

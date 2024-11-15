@@ -149,8 +149,8 @@
     * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
   * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
     * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
-  * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
-    * 新型投票系統 (使用官方內建的投票)
+  * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI) + Add custom vote
+    * 新型的投票系統，可自行新增投票 (使用官方內建的投票)
   * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specific country or area
     * 限制來自某些國家或地區的玩家，禁止進入伺服器
   * [l4d_switchteam_panel](/Plugin_插件/Server_伺服器/l4d_switchteam_panel): Admin can use panel to swap player to another team
@@ -579,6 +579,8 @@
     * 輸入命令切換到另一個Bot角色遊玩
   * [l4d_TougherSurvivorBots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Makes the survivor bots deal more damage against SIs and be more resistant to damage.
     * 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
+  * [l4d_TougherSurvivorBots](/Plugin_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Survivor bots auto self-revive after incap, hanging from ledge + auto self-clear if get pinned by special infected
+    * AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動殺死特感
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

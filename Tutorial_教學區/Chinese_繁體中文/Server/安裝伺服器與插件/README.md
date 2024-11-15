@@ -462,7 +462,7 @@
 2. 點擊[Steam ID Finder](https://steamid.xyz/)，將複製的網址貼上去提交，會得到自己的steam ID
    ![image](https://i.imgur.com/xHfmmq6.png)
 
-3. 到伺服器位置addons\sourcemod\configs\ 資料夾找到一個檔案為admins_simple.ini，用筆記本打開文件，在最底下方新增一行內容
+3. 到伺服器位置addons/sourcemod/configs/ 資料夾找到一個檔案為admins_simple.ini，用筆記本打開文件，在最底下方新增一行內容
    - STEAM_X:X:XXXXXX 為你的steam ID
    ```php
    "STEAM_X:X:XXXXXX" "99:z" //這位玩家是管理員
