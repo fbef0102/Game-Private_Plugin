@@ -137,8 +137,8 @@
     * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
   * [l4d_vote_block](/Plugin_插件/Server_伺服器/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
     * 根據遊戲模式和難度禁止使用Esc->發起投票
-  * [l4d2_scripted_hud](/Plugin_插件/Server_伺服器/l4d2_scripted_hud): Display text for up to 5 scripted HUD slots on the screen.
-    * 在玩家畫面上方五個Hud位置顯示不同的特殊文字
+  * [l4d2_scripted_hud_remake](/Plugin_插件/Server_伺服器/l4d2_scripted_hud_remake): Display text for up to 15 scripted HUD slots on the screen.
+    * 在玩家畫面可顯示至多15個Hud, 每個Hud顯示不同的內容
   * [readyup](/Plugin_插件/Server_伺服器/readyup): Ready-up plugin
     * 所有玩家準備才能開始遊戲的插件
   * [pause](/Plugin_插件/Server_伺服器/pause): Pause plugin

@@ -54,8 +54,8 @@
 	3. 到```cfg/server.cfg```寫上以下指令
 		* 沒有```server.cfg```檔案則新建
 			```php
-			// 18位真人玩家可以加入伺服器，自行修改此數值 (範圍1~31)
-			// 此數值為真人玩家的允許人數 (不包含AI Bot)
+			// 真人玩家允許加入伺服器的人數 (不包含AI Bot)
+			// 自行修改此數值 (範圍1~31)
 			sv_maxplayers 18
 
 			// 顯示給外面玩家看到的伺服器空位人數
@@ -75,11 +75,11 @@
 			sv_force_unreserved 0
 			```
 
-	4. 遊戲預設客戶端人數上限只到18位，如果要改變客戶端上限
-		* 客戶端 = 真人玩家 + AI Bot
+	4. 遊戲預設玩家人數上限只到18位，如果要改變上限，請修改
 		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
 		* 如使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
+		* 玩家人數上限 = 伺服器允許的真人玩家 + AI Bot 總數量
 		* 🟥 不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功

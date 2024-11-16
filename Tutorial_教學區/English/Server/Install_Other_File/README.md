@@ -54,8 +54,8 @@
 	3. Write down the following cvars in ```cfg/server.cfg```
 		* If you don't have ```server.cfg```, then create it
 			```php
-			// Max Human Players, free to modify value (1~31)
-			// How many human players can join server (Not including AI Bots)
+			// How many real players can join server (Not including AI Bots)
+			// Free to modify value (1~31)
 			sv_maxplayers 18
 
 			// Maximum players" number that's visible to people in the server browser and server queries
@@ -76,11 +76,11 @@
 			sv_force_unreserved 0
 			```
 
-	4. By default, the game engine only allow 18 max clients. To change max clients
-		* Max. clients = Human player + AI Bots
+	4. By default, the game engine only allow 18 max players. To change max clients
 		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
+		* Max. clients = Real players + AI Bots
 		* 🟥 Server would crash if set over 31 clients
 
 	5. Restart Server，type ```meta list``` in serve console
