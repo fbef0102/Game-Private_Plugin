@@ -352,7 +352,7 @@
 * <details><summary><b>Survivor | 人類</b></summary>
 
   * [antisaferoomdooropen](/Plugin_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
-    * 起始安全室的安全門將會鎖住直到時間結束 + 沒有安全門的關卡一旦離開安全區域會傳送回起始安全區域
+    * 起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始
   * [l4d_survivor_damage_modify](/Plugin_插件/Survivor_人類/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
     * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
   * [l4d_unstuck](/Plugin_插件/Survivor_人類/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips

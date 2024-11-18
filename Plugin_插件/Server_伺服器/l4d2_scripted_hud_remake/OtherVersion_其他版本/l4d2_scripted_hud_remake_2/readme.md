@@ -1,5 +1,5 @@
 # Description | 內容
-Display different Default HUD Text, for versus/zonemod campaign (variant 2)
+Display different Default HUD Text, for versus/zonemod server (variant 2)
 
 * Original: [l4d2_scripted_hud_remake](/Plugin_插件/Server_伺服器/l4d2_scripted_hud_remake)
 

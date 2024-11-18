@@ -1,34 +1,60 @@
 "Phrases"
 {
-	"Timer_1"
+	"Wait_Loader (C)"
 	{
-		"#format"	"{1:d}"
-		"en"	"{1} second(s) left to open the door!"
-		"zho"	"{1} 秒後才能開門!"
-		"chi"	"{1} 秒后才能开门!"
+		"en"	"[{olive}TS{default}] Saferoom locks: {green}Waiting for players connecting"
+		"zho"	"[{olive}TS{default}] 安全室鎖住: {green}等待所有玩家載入"
+		"chi"	"[{olive}TS{default}] 安全室锁住: {green}等待所有玩家载入"
+	}
+	
+	"Wait_Loader"
+	{
+		"en"	"Saferoom locks: waiting for players connecting"
+		"zho"	"安全室鎖住: 等待所有玩家載入"
+		"chi"	"安全室锁住: 等待所有玩家载入"
+	}
+	
+	"Door Locks (C)"
+	{
+		"en"	"{green}Door Locks, please wait!"
+		"zho"	"{green}安全門鎖住, 請稍後!"
+		"chi"	"{green}安全门锁住, 请稍后!"
+	}
+	
+	"Door Locks"
+	{
+		"en"	"Door Locks, please wait!"
+		"zho"	"安全門鎖住, 請稍後!"
+		"chi"	"安全门锁住, 请稍后!"
 	}
 	
 	"Timer_2 (C)"
 	{
 		"#format"	"{1:d}"
-		"en"	"[{olive}TS{default}] You can leave saferoom area until {green}{1}{default} second(s)"
-		"zho"	"[{olive}TS{default}] {green}{1}{default} 秒後才能離開安全室"
-		"chi"	"[{olive}TS{default}] {green}{1}{default} 秒后才能离开安全室"
+		"en"	"[{olive}TS{default}] Saferoom locks: {green}{1}{default} second(s)"
+		"zho"	"[{olive}TS{default}] 安全室鎖住: {green}{1}{default} 秒"
+		"chi"	"[{olive}TS{default}] 安全室锁住: {green}{1}{default} 秒"
 	}
 
 	"Timer_2"
 	{
 		"#format"	"{1:d}"
-		"en"	"You can leave saferoom area until {1} second(s)"
-		"zho"	"{1} 秒後才能離開安全室"
-		"chi"	"{1} 秒后才能离开安全室"
+		"en"	"Saferoom locks: {1} second(s)"
+		"zho"	"安全室鎖住: {1} 秒"
+		"chi"	"安全室锁住: {1} 秒"
 	}
 	
-	"Timer_3"
+	"Leave (C)"
 	{
-		"#format"	"{1:d}"
-		"en"	"{1} second(s) left to leave the safe area!"
-		"zho"	"{1} 秒後才能離開安全區域!"
-		"chi"	"{1} 秒后才能离开安全区域!"
+		"en"	"{green}Not allowed to leave the saferoom, please wait!"
+		"zho"	"{green}還不能離開安全室, 請稍後!"
+		"chi"	"{green}还不能离开安全室, 请稍后!"
+	}
+	
+	"Leave"
+	{
+		"en"	"Door Locks, please Wait!"
+		"zho"	"安全門鎖住, 請稍後!"
+		"chi"	"安全门锁住, 请稍后!"
 	}
 }

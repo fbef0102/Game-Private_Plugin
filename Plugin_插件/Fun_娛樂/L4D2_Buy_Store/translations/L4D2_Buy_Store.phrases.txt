@@ -1332,7 +1332,7 @@
 		"zho"	"人類購買冷卻時間 {green}{1}{default} 秒未到!"
 		"chi"	"人类购买冷却时间 {green}{1}{default} 秒未到!"
 		"ru"	"Жди ещё {green}{1} {default}секунд."
-        "es"	"¡Los supervivientes no pueden comprar tan rápido! Espera al menos {green}{1}{default} segundos.
+        "es"	"¡Los supervivientes no pueden comprar tan rápido! Espera al menos {green}{1}{default} segundos."
 	}
 	"Tank Limit Reached"
 	{
@@ -1569,7 +1569,7 @@
 		"pt"	"Congelar todos os infectados (curto periodo)"
 		"zho"	"冰凍世界 (短暫時間)"
 		"chi"	"冰冻世界 (短暂时间)"
-		"ru"	Заморозить боссов (временно)
+		"ru"	"Заморозить боссов (временно)"
 		"es"	"Congela a todos los infectados (Por poco tiempo)"
 	}
 	"You are not dead"
@@ -1589,7 +1589,7 @@
 		"zho"	"所有特感 {green}{1} {default}秒內 {blue}凍結{default}，無法移動與攻擊"
 		"chi"	"所有特感 {green}{1} {default}秒内 {blue}冻结{default}，无法移动与攻击"
 		"ru"	"Все боссы {blue}Заморожены{default}, на {green}{1}{default} секунд"
-		"es"	"Todos los infectados {blue}se congelan{default}, incapaces de moverse y atacar en {green}{1}{default} segundos.
+		"es"	"Todos los infectados {blue}se congelan{default}, incapaces de moverse y atacar en {green}{1}{default} segundos."
 	}
 	"Freeze-Infected Effect Time Out"
 	{
@@ -1617,7 +1617,7 @@
 		"zho"	"你不在{blue}倖存者隊伍{default}裡，能撈就撈、能混就混!"
 		"chi"	"你不在{blue}生还者队伍{default}里"
 		"ru"	"Ты не в {blue}команде выживших{default}!"
-		"es"	"No estás en el equipo {blue}de supervivientes{default}
+		"es"	"No estás en el equipo {blue}de supervivientes{default}"
 	}
 	"No Any Other Survivors"
 	{
@@ -1689,7 +1689,7 @@
 		"en"	"You lose control and become {red}AI Tank{default}, reduce {green}{1}{default} credits."
 		"zho"	"失去控制權變成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
 		"chi"	"失去控制权变成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
-		"es"	"Pierdes el control y te conviertes en {red}Tank Bot{default}, reduces {green}{1}{default} puntos.
+		"es"	"Pierdes el control y te conviertes en {red}Tank Bot{default}, reduces {green}{1}{default} puntos."
 	}
 }
 

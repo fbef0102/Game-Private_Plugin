@@ -84,6 +84,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	English
 	繁體中文
 	简体中文
+	Russian
+	Ukraine
 	```
 </details>
 
