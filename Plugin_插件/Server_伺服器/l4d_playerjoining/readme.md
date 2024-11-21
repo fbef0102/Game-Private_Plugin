@@ -4,6 +4,8 @@ Informs other players when a client connects to the server and changes teams.
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+<br/>🟥Dedicated Server Only
+<br/>🟥只能安裝在Dedicated Server
 
 * Video | 影片展示
 <br/>None
@@ -16,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Display the following when player joins server
 		* Player name
-		* Country, city (🟥Dedicated Server Only) 
+		* Country, city
 	* Display the following when leaves server
 		* Player name
 		* Reason
@@ -95,7 +97,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 玩家連線進來伺服器時顯示
 		* 玩家名稱
-		* 玩家的國家與城市 (🟥只適用於Dedicated Server) 
+		* 玩家的國家與城市 
 	* 玩家離開伺服器時顯示
 		* 玩家名稱
 		* 離開原因

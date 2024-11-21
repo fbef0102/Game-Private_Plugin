@@ -16,8 +16,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Display multi kill text and play sound when player keep killing special infected including tank
 	* Accumulate S.I kill combo when headshot only
     * Type ```!kc```, Settings will be saved to sCookiesCached. Player will have same settings if rejoin server next time.
-        * Sound: on/off sound
+        * Sound: choose custom kill combo sound
         * Display: Off, Center text, Hint, Menu
+        * Display All Players' Multi Combo Result: On/Off
+    * Make custom sound in [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
 </details>
 
 * Require | 必要安裝
@@ -43,40 +45,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Reset kill combo if receive this amount of damage during combo (0=off)
         l4d_kill_combo_reset_damage "10.0"
 
-        // Play sound file when first kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_1 "ui/littlereward.wav"
-
-        // Play sound file when double kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_2 "ui/beep07.wav"
-
-        // Play sound file when triple kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_3 "ui/beep22.wav"
-
-        // Play sound file when 4th kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_4 "ui/beepclear.wav"
-
-        // Play sound file when 5th kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_5 "ui/gift_drop.wav"
-
-        // Play sound file when 6th kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_6 "ui/bigreward.wav"
-
-        // Play sound file when 7th kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_7 "ui/menu_enter05.wav"
-
-        // Play sound file when 8th kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_8 "ui/survival_medal.wav"
-
-        // Play sound file when 9+ kill (relative to to sound/, empty=No Sound)
-        l4d_kill_combo_sound_multi "ui/survival_teamrec.wav"
-
-        // Announce player's kill combo in chatbox when
-        // 1=After kill combo time end
-        // 2=Once Count combo >= _notify_numbe cvar value
-        // 0=off
+        // Announce player's kill combo in chatbox and display trophy achievement when
+        // 1=After kill combo time end (_time cvar)
+        // 2=Once Count combo >= _notify_number cvar value
+        // 0=Off
         l4d_kill_combo_notify_type "2"
 
-        // If player's kill combo >= this valve, announce kill combo in chatbox
+        // If player's kill combo >= this valve, announce kill combo in chatbox and display trophy achievement
         l4d_kill_combo_notify_number "5"
         ```
 </details>
@@ -87,6 +62,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_kc
 		```
+</details>
+
+* <details><summary>Data Config</summary>
+  
+    * [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
+        > Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -105,6 +86,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2024-11-21)
+        * Update cvars, translation, menu
+        * Add data file
 
     * v1.2 (2024-2-15)
         * Headshot only when kill si
@@ -128,10 +113,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 在一定時間內連續擊殺特感，會有提示與音效，擊殺Tank也算
     * 自己的擊殺數超過一定數量之後，顯示訊息給所有玩家
-    * 可限定爆頭才算連殺
     * 玩家輸入```!kc```，有自動保存機制，下次玩家進來無須重新選擇
-        * 音效: 打開/關閉
+        * 音效: 選擇自定義的音效
         * 顯示: 關閉, 螢幕中間, 下方黑底白字, 介面
+        * 提示其他人與自己的連殺: 開啟/關閉
+    * 自定義連殺音效: [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
 
 * 用意在哪?
     * 模仿CS連殺提示，爽而已
@@ -158,40 +144,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 如果受到10滴以上的傷害，中斷計時與擊殺數 (0=關閉這項功能)
         l4d_kill_combo_reset_damage "10.0"
 
-        // 首殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_1 "ui/littlereward.wav"
-
-        // 雙殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_2 "ui/beep07.wav"
-
-        // 三連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_3 "ui/beep22.wav"
-
-        // 4連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_4 "ui/beepclear.wav"
-
-        // 5連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_5 "ui/gift_drop.wav"
-
-        // 6連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_6 "ui/bigreward.wav"
-
-        // 7連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_7 "ui/menu_enter05.wav"
-
-        // 8連殺的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_8 "ui/survival_medal.wav"
-
-        // 9連殺以上的音效 (路徑相對於 sound 資料夾, 空白=無音效)
-        l4d_kill_combo_sound_multi "ui/survival_teamrec.wav"
-
         // (將自己的擊殺數顯示給所有玩家 + 並在頭上冒出獎盃的特效)
-        // 1 = 當計時時間到之時
+        // 1 = 當計時時間到之時 (l4d_kill_combo_time)
         // 2 = 當殺死特感並擊殺數大於或等於"l4d_kill_combo_notify_number"指令值之時
         // 0 = 關閉此功能
         l4d_kill_combo_notify_type "2"
 
-        // 當自己的擊殺數大於或等於此指令值，在聊天框打印自己的擊殺數，顯示給所有玩家
+        // 當自己的擊殺數大於或等於此指令值，
+        // 在聊天框打印自己的擊殺數，顯示給所有玩家
+        // 以及頭上顯示獎盃成就
         l4d_kill_combo_notify_number "5"
         ```
 </details>
@@ -202,4 +163,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_kc
 		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+  
+    * [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
+        > 內有中文說明，可點擊查看
 </details>

@@ -74,40 +74,84 @@
 		"zho"	"連殺介面"
 		"chi"	"连杀介面"
 	}
-	"Sound: On"
-	{
-		"en"	"Sound: On"
-		"zho"	"連殺音效: 打開"
-		"chi"	"连杀音效: 打开"
-	}
+
 	"Sound: Off"
 	{
-		"en"	"Sound: Off"
-		"zho"	"連殺音效: 關閉"
-		"chi"	"连杀音效: 关闭"
+		"en"	"Off"
+		"zho"	"關閉"
+		"chi"	"关闭"
 	}
+
+	"Display Title (Main)"
+	{
+		"#format"		"{1:s}"
+		"en"	"Display Position: {1}"
+		"zho"	"連殺顯示位置: {1}"
+		"chi"	"连杀显示位置: {1}"
+	}
+
+	"Display Title"
+	{
+		"en"	"Display Position"
+		"zho"	"連殺顯示位置"
+		"chi"	"连杀显示位置"
+	}
+
 	"Display: Off"
 	{
-		"en"	"Display: Off"
-		"zho"	"連殺顯示: 關閉"
-		"chi"	"连杀显示: 关闭"
+		"en"	"Off"
+		"zho"	"關閉"
+		"chi"	"关闭"
 	}
 	"Display: Center text"
 	{
-		"en"	"Display: Center text"
-		"zho"	"連殺顯示: 螢幕中間"
-		"chi"	"连杀显示: 萤幕中间"
+		"en"	"Center text"
+		"zho"	"螢幕中間"
+		"chi"	"萤幕中间"
 	}
 	"Display: Hint"
 	{
-		"en"	"Display: Hint"
-		"zho"	"連殺顯示: 下方黑底白字"
-		"chi"	"连杀显示: 下方黑底白字"
+		"en"	"Hint"
+		"zho"	"下方黑底白字"
+		"chi"	"下方黑底白字"
 	}
 	"Display: Menu"
 	{
-		"en"	"Display: Menu"
-		"zho"	"連殺顯示: 介面"
-		"chi"	"连杀显示: 界面"
+		"en"	"Menu"
+		"zho"	"介面"
+		"chi"	"界面"
+	}
+	"Current"
+	{
+		"en"	" (Current)"
+		"zho"	" (目前)"
+		"chi"	" (目前)"
+	}
+	"Display To All: On"
+	{
+		"en"	"Display All Players' Multi Combo Result: On"
+		"zho"	"提示其他人與自己的連殺: 開啟"
+		"chi"	"提示其他人与自己的连杀: 开启"
+	}
+	"Display To All: Off"
+	{
+		"en"	"Display All Players' Multi Combo Result: Off"
+		"zho"	"提示其他人與自己的連殺: 關閉"
+		"chi"	"提示其他人与自己的连杀: 关闭"
+	}
+
+	"Sound Title (Main)"
+	{
+		"#format"		"{1:s}"
+		"en"	"Multi Kill Sound: {1}"
+		"zho"	"連殺音效: {1}"
+		"chi"	"连杀音效: {1}"
+	}
+
+	"Sound Title"
+	{
+		"en"	"Multi Kill Sound"
+		"zho"	"連殺音效"
+		"chi"	"连杀音效"
 	}
 }
