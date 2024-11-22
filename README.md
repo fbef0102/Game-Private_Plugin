@@ -165,6 +165,8 @@
     * 鎖住指令的值，不會被遊戲、地圖、玩家竄改
   * [sv_protect_cvar](/Plugin_插件/Server_伺服器/sv_protect_cvar): Protect and hide sensitive ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible
     * 保護一些敏感的指令數值，不讓外界與客戶端查看，服務器內的客戶端可能會看到假數值
+  * [l4d2_lock_director_script_value](/Plugin_插件/Server_伺服器/l4d2_lock_director_script_value): Force director script values by config instead of VPK or vscript file
+    * 使用data文件強制修改導演系統的參數，無須安裝vpk或撰寫vscript
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
