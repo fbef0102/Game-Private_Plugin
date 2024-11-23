@@ -1,0 +1,97 @@
+/* 翻譯文件支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色)  - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色)  - 倖存者隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported for translation:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red)    - There must be at least one player or bot in infected team，or red will turn into olive color
+	 - {blue}		(blue)   - There must be at least one player or bot in survivor team，or blue will turn into olive color
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"Has been killed (AI)"
+	{
+		"#format"		"{1:N}"
+		"en"	"[{olive}TS{default}] {red}{1}{default} has been killed."
+		"zho"	"[{olive}TS{default}] {red}{1}{default} 已陣亡."
+		"chi"	"[{olive}TS{default}] {red}{1}{default} 已阵亡."
+	}
+	
+	"Has been killed"
+	{
+		"#format"		"{1:N}"
+		"en"	"[{olive}TS{default}] {red}Tank: {1}{default} has been killed."
+		"zho"	"[{olive}TS{default}] {red}Tank: {1}{default} 已陣亡."
+		"chi"	"[{olive}TS{default}] {red}Tank: {1}{default} 已阵亡."
+	}
+	
+	"stats_1 (public)"
+	{
+		//1=damage
+		//2=percentage
+		//3=Punch
+		//4=Rock
+		//5=Hittable
+		//6=Player
+		"#format"		"{1:d},{2:i},{3:d},{4:d},{5:d},{6:N}"
+		"en"	"[{red}{1}{default}] ({red}{2}%%{default}) Punch: {red}{3}{default} Rock: {red}{4}{default}, Hittable: {red}{5}{default} {olive}{6}"
+		"zho"	"[{red}{1}{default}] ({red}{2}%%{default}) 吃拳: {red}{3}{default} 吃石: {red}{4}{default}, 吃鐵: {red}{5}{default} {olive}{6}"
+		"chi"	"[{red}{1}{default}] ({red}{2}%%{default}) 吃拳: {red}{3}{default} 吃饼: {red}{4}{default}, 吃铁: {red}{5}{default} {olive}{6}"
+	}
+	
+	"stats_2 (public)"
+	{
+		//1=damage
+		//2=percentage
+		//3=Player
+		"#format"		"{1:d},{2:i},{3:N}"
+		"en"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}{3}"
+		"zho"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}{3}"
+		"chi"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}{3}"
+	}
+	
+	"stats_3"
+	{
+		//1=damage
+		//2=percentage
+		"#format"		"{1:d},{2:i}"
+		"en"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}Other damage"
+		"zho"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}其他傷害"
+		"chi"	"[{red}{1}{default}] ({red}{2}%%{default}) {olive}其他伤害"
+	}
+	
+	"stats_1 (private)"
+	{
+		//1=damage
+		//2=percentage
+		//3=Punch
+		//4=Rock
+		//5=Hittable
+		"#format"		"{1:d},{2:i},{3:d},{4:d},{5:d}"
+		"en"	"[{red}{1}{default}] ({red}{2}%%{default}) Punch: {red}{3}{default} Rock: {red}{4}{default}, Hittable: {red}{5}{default}"
+		"zho"	"[{red}{1}{default}] ({red}{2}%%{default}) 吃拳: {red}{3}{default} 吃石: {red}{4}{default}, 吃鐵: {red}{5}{default}"
+		"chi"	"[{red}{1}{default}] ({red}{2}%%{default}) 吃拳: {red}{3}{default} 吃饼: {red}{4}{default}, 吃铁: {red}{5}{default}"
+	}
+	
+	"stats_2 (private)"
+	{
+		//1=damage
+		//2=percentage
+		"#format"		"{1:d},{2:i}"
+		"en"	"[{red}{1}{default}] ({red}{2}%%{default})"
+		"zho"	"[{red}{1}{default}] ({red}{2}%%{default})"
+		"chi"	"[{red}{1}{default}] ({red}{2}%%{default})"
+	}
+}
