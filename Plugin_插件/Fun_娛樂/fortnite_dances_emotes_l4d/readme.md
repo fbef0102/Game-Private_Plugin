@@ -18,7 +18,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
 	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
-	* You must prepare fastdl, otherwise players can not dance (If you don't know what "FastDL" is, please google it)
+	* 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), othersie this plugin will not work 
+	* If you don't know what "FastDL" is, please google it
 </details>
 
 * Require | 必要安裝
@@ -83,25 +84,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Put them in your game server
 			* If L4D1, ```Left 4 Dead Dedicated Server/left4dead```
 			* If L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
-		* Prepare your content-server for FastDL, if you don't know what "FastDL" is, please google it
+		* Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), if you don't know what "FastDL" is, please google it
 
 	2. Setup server to work with downloadable content
-		* ConVars in your cfg/server.cfg should be:
+		* Write down in your ```cfg/server.cfg```:
 			* If you are L4D1
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead/"
+			sm_cvar sv_downloadurl "http://your-content-server.com/left4dead/"
 			```
 			* If you are L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2/"	
+			sm_cvar sv_downloadurl "http://your-content-server.com/left4dead2/"	
 			```
 
 	3. Uploading files to server.
 		* Upload "models" and "sound" folder to content-server
-			* If you are L4D1, ```your-content-server.com/game/left4dead/models/``` and ```your-content-server.com/game/left4dead/sound/```
-			* If you are L4D2, ```your-content-server.com/game/left4dead2/models/``` and ```your-content-server.com/game/left4dead2/sound/```
+			* If you are L4D1, ```your-content-server.com/left4dead/models/``` and ```your-content-server.com/left4dead/sound/```
+			* If you are L4D2, ```your-content-server.com/left4dead2/models/``` and ```your-content-server.com/left4dead2/sound/```
 		* Upload "models" and "sound" folder to game server.
 			* If you are L4D1, ```Left 4 Dead Dedicated Server/left4dead```
 			* If you are L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
@@ -110,7 +111,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* If you are L4D2, ```Left 4 Dead 2/left4dead2/models/``` and ```Left 4 Dead 2/left4dead2/sound/```
 
 	4. Start the server and test
-		* Join survivor and type !dance.
+		* Launch your game, Options-> Multiplayer -> CUSTOM SERVER CONTENT -> Allow All
+		<br/>![fortnite_dances_emotes_0](image/fortnite_dances_emotes_0.jpg)
+		* Connect to server. 
+		* Join survivor and type ```!dance```.
+
+	5. Players should download custom mp3 files when connecting to your server
+		<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.jpg)
 </details>
 
 * Apply to | 適用於
@@ -200,9 +207,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 管理員輸入` ```!admin``` -> "玩家指令" -> "表情玩家" -> 指定玩家跳舞
 	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
-
-> __Note__ 需自備網空且支援FastDL，客戶端才會下載跳舞的檔案，否則此插件會無效 
-> <br/>(不知道什麼是FastDL請自行Google)
+	* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL)，否則此插件會無效 (不知道什麼是FastDL請自行Google)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -262,25 +267,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 將它們放入遊戲伺服器資料夾中
 			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead```
 			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2```
-		* 準備你的網空並可以支援FastDL, 不知道什麼是FastDL請自行Google
+		* 準備[你的網空並可以支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL), 不知道什麼是FastDL請自行Google
 		
 	2. 設置伺服器以處理可下載的內容
-		* 寫入以下內容到cfg/server.cfg
+		* 寫入以下內容到```cfg/server.cfg```
 			* 如果你是 L4D1
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead/"
+			sm_cvar sv_downloadurl "http://your-content-server.com/left4dead/"
 			```
 			* 如果你是 L4D2
 			```php
 			sm_cvar sv_allowdownload "1"
-			sm_cvar sv_downloadurl "http://your-content-server.com/game/left4dead2/"	
+			sm_cvar sv_downloadurl "http://your-content-server.com/left4dead2/"	
 			```
 		
 	3. 上傳文件到伺服器。
 		* 將"models" 和 "sound"資料夾上傳到網空伺服器
-			* 如果你是 L4D1，```your-content-server.com/game/left4dead/models/``` 和 ```your-content-server.com/game/left4dead/sound/```
-			* 如果你是 L4D2，```your-content-server.com/game/left4dead2/models/``` 和 ```your-content-server.com/game/left4dead2/sound/```
+			* 如果你是 L4D1，```your-content-server.com/left4dead/models/``` 和 ```your-content-server.com/left4dead/sound/```
+			* 如果你是 L4D2，```your-content-server.com/left4dead2/models/``` 和 ```your-content-server.com/left4dead2/sound/```
 		* 將"models" 和 "sound"資料夾複製到您的伺服器資料夾上。
 			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead/models/``` 和 ```Left 4 Dead Dedicated Server/left4dead/sound/```
 			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2/models/``` 和 ```Left 4 Dead 2 Dedicated Server/left4dead/sound/```
@@ -289,5 +294,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* 如果你是 L4D2，```Left 4 Dead 2/left4dead2/models/``` 和 ```Left 4 Dead 2/left4dead2/sound/```
 		
 	4. 啟動伺服器並測試
+		* 打開你的遊戲，選項->多人連線->自訂伺服器內容->全部允許
+		<br/>![zho/fortnite_dances_emotes_0](image/zho/fortnite_dances_emotes_0.jpg)
+		* 連線到伺服器
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
+
+	5. 玩家加入伺服器時，會自動下載自製的音樂檔案
+		<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.jpg)
 </details>

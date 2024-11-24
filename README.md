@@ -463,6 +463,8 @@
     * 管理員輸入指令能看到玩家的子彈軌跡 (方便看自瞄作弊)
   * [l4d_no_shove_fatigue](/Plugin_插件/Weapons_武器/l4d_no_shove_fatigue): Allow certain weapons to shove infinitely (no fatigue)
     * 指定的武器可以無限次數推人，就像L4D1 (不會疲勞)
+  * [l4d_minigun_dmg_modify](/Plugin_插件/Weapons_武器/l4d_minigun_dmg_modify): Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
+    * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
