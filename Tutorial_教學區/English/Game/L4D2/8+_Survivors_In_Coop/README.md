@@ -79,6 +79,8 @@
 * [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) Stops clients from getting kicked via the Kill input
     * Fixed ```Kicked by Console : CBaseEntity::InputKill()```
 
+* [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): Fixes the server can not reads the plugin's cvars and cmds in cfg files
+
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install
@@ -145,7 +147,7 @@
 
 * [Graves (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): When a survivor die, on his body appear a grave.
 
-* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left for vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
+* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left before vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
 

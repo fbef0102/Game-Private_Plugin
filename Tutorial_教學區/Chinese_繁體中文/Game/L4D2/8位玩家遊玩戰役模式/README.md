@@ -83,6 +83,8 @@
 * [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) 防止玩家因為一二代地圖NPC導致被踢
     * 被踢出遊戲的訊息```Kicked by Console : CBaseEntity::InputKill()```
   
+* [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): 修復插件讀不到cfg文件內的指令與命令
+  
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
@@ -152,7 +154,7 @@
 
 * [Graves (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): 為人類屍體造一個墓碑以做紀念
 
-* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
+* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知的世界
 

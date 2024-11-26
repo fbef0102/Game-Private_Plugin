@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Display statistics on tank death.
+	* Display statistics on tank death or round ends.
 	* Support multi tanks stats
 </details>
 
@@ -86,8 +86,9 @@ Tank死亡時，顯示對Tank造成傷害統計表 + 顯示受到的 拳頭/石�
 <br/>![zho/l4d_tank_dmg_report_1](image/zho/l4d_tank_dmg_report_1.jpg)
 
 * 原理
+	* Tank死亡時或回合結束時，顯示傷害統計表
 	* 按照傷害排序
-	* 支援多隻Tanks
+	* 支援多隻Tank
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

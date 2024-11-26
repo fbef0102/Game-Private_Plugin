@@ -331,6 +331,8 @@
     * Witch 不會被狙擊槍/高爆子彈/土製炸彈... 震退
   * [l4d_witch_idle_target_fix](/Plugin_插件/Witch_女巫/l4d_witch_idle_target_fix): Fixed that witch will lose target if player startles the witch when going idle
     * Witch 不會因為玩家閒置而丟失目標
+  * [l4d_witch_dmg_report](/Plugin_插件/Witch_女巫/l4d_witch_dmg_report): Displays how much damage done to witch on witch death + display health remaining when witch kills or incaps the survivor.
+    * Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人時，顯示剩餘血量
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>

@@ -1,0 +1,73 @@
+/* 翻譯文件支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色)  - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色)  - 倖存者隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported for translation:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red)    - There must be at least one player or bot in infected team，or red will turn into olive color
+	 - {blue}		(blue)   - There must be at least one player or bot in survivor team，or blue will turn into olive color
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"Has been killed"
+	{
+		"en"	"[{olive}TS{default}] {green}Witch{default} has been killed"
+		"zho"	"[{olive}TS{default}] {green}Witch{default} 已死亡."
+		"chi"	"[{olive}TS{default}] {green}Witch{default} 已死亡."
+	}
+	
+	"stats_1"
+	{
+		//1=damage
+		//2=percentage
+		//3=Player
+		"#format"		"{1:d},{2:i},{3:N}"
+		"en"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}{3}"
+		"zho"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}{3}"
+		"chi"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}{3}"
+	}
+	
+	"stats_2"
+	{
+		//1=damage
+		//2=percentage
+		"#format"		"{1:d},{2:i}"
+		"en"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}Other damage"
+		"zho"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}其他傷害"
+		"chi"	"[{green}{1}{default}] ({green}{2}%%{default}) {olive}其他伤害"
+	}
+
+	"Witch_Health"
+	{
+		"#format"		"{1:d}"
+		"en"		"{green}Witch{default} had {green}{1}{default} health remaining."
+		"zho"		"{green}Witch{default} 還剩餘 {green}{1}{default} 血量."
+		"chi"		"{green}Witch{default} 还剩余 {green}{1}{default} 血量."	
+	}
+	
+	"Witch_Incap"
+	{
+		"en"		"{green}Witch{olive} crowned {lightgreen}%N{default}."
+		"zho"		"{lightgreen}%N{default} 反被 {green}Witch{olive} 擊☆倒{default}."
+		"chi"		"{lightgreen}%N{default} 反被 {green}Witch{olive} 击☆倒{default}."	
+	}
+
+	"Witch_Kill"
+	{
+		"en"		"{green}Witch{olive} crowned {lightgreen}%N{default}."
+		"zho"		"{lightgreen}%N{default} 反被 {green}Witch{olive} 擊☆殺{default}."
+		"chi"		"{lightgreen}%N{default} 反被 {green}Witch{olive} 击☆杀{default}."	
+	}
+}
