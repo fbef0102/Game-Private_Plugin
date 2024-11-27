@@ -1,5 +1,5 @@
 # Description | 內容
-Allows infected team players to change their class in ghost mode.
+Give ghost players multi S.I. class + allow ghost players to change S.I. class.
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -13,8 +13,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
+	* Determine ghost zombie class when infected player spawn as ghost state (Not despawn)
+		* It means that infected team can get two ghost hunters or two ghost jockeys at the same time, depends on the cvar you set
 	* Right Mouse to change their class in ghost mode
-	* Can change to Tank class
+		* Can change to Tank class
 </details>
 
 * Require | 必要安裝
@@ -85,25 +87,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Time before tank class is allowed after tank death in (s). (0=No delay, 1-300=Delay)
 		l4d_zcs_cooldown_tank "0"
 
-		// How many Smokers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_smoker_limit "-1"
+		// How many Smokers allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed
+		l4d_zcs_smoker_limit "2"
 
-		// How many Boomers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_boomer_limit "-1"
+		// How many Boomers allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowe)
+		l4d_zcs_boomer_limit "2"
 
-		// How many Hunters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_hunter_limit "-1"
+		// How many Hunters allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed
+		l4d_zcs_hunter_limit "2"
 
-		// How many Spitters allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_spitter_limit "-1"
+		// How many Spitters allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed
+		l4d_zcs_spitter_limit "2"
 
-		// How many Jockeys allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_jockey_limit "-1"
+		// How many Jockeys allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed
+		l4d_zcs_jockey_limit "2"
 
-		// How many Chargers allowed. (-1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed)
-		l4d_zcs_charger_limit "-1"
+		// How many Chargers allowed. (Alive + Ghost)
+		// -1=Use Official Cvar '_versus_smoker_limit', 0=None Allowed
+		l4d_zcs_charger_limit "2"
 
-		// How many Tanks allowed. (0=None Allowed)
+		// How many Tanks allowed.
+		// 0=None Allowed
 		l4d_zcs_tank_limit "0"
 
 		// If 1, Allow Smoker Ghost player to select class. (0=Not Allow)
@@ -128,7 +137,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_zcs_tank_ghost_allow "1"
 
 		// If 1, Determine ghost zombie class when infected player spawn as ghost state (Not despawn). (0=Spawn ghost normally via the director)
-		l4d_zcs_determine_class_when_ghost "0"
+		l4d_zcs_determine_class_when_ghost "1"
 
 		// Number of uses can ghost player select class every time? (0=No limit)
 		l4d_zcs_change_class_limit "0"
@@ -156,6 +165,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2024-11-27)
+		* Optimize code
+
 	* v1.1h (2024-4-17)
 		* Add inc file
 		* Update cvars
@@ -176,11 +188,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-特感玩家可以在靈魂狀態自行切換特感種類
+當玩家進入靈魂狀態時，由此插件決定特感種類 + 靈魂狀態下右鍵自由切換特感種類
 
 * 原理
-	* 靈魂狀態時，使用滑鼠右鍵切換特感類型，可以切換成Tank
-	* 重新回到靈魂狀態不得再次切換
+	* 當玩家進入靈魂狀態時(非回魂狀態)，由此插件決定特感種類
+		* 根據場上的特感數量限制決定
+		* 意思是說特感隊伍可有兩隻靈魂Hunter或兩隻靈魂Jockey, 諸如此類設定，請看指令
+	* 靈魂狀態時，使用滑鼠右鍵切換特感種類，可以切換成Tank
+		* 重新回到靈魂狀態不得再次切換
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -195,31 +210,31 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，特感Bot也會被計算於限制數量之內
 		l4d_zcs_count_fake_bots "1"
 
-		// 為1時，最終救援開始之後也可以切換特感類型 (0=不准)
+		// 為1時，最終救援開始之後也可以切換特感種類 (0=不准)
 		l4d_zcs_allow_finale_switch "1"
 
-		// 為1時，允許玩家切換到上次遊玩的特感類型 (0=不准)
+		// 為1時，允許玩家切換到上次遊玩的特感種類 (0=不准)
 		l4d_zcs_allow_last_class "0"
 
-		// 為1時，當玩家離倖存者太遠時，允許玩家切換特感類型 (0=不准)
+		// 為1時，當玩家離倖存者太遠時，允許玩家切換特感種類 (0=不准)
 		l4d_zcs_allow_cull_switch "1"
 
-		// 為1時，當玩家重生回靈魂狀態時，允許玩家切換特感類型 (0=不准)
+		// 為1時，當玩家重生回靈魂狀態時，允許玩家切換特感種類 (0=不准)
 		l4d_zcs_allow_despawn_switch "0"
 
-		// 擁有這些權限的玩家，才可以切換特感類型　(留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的玩家，才可以切換特感種類　(留白 = 任何人都能, -1: 無人)
 		l4d_zcs_access_level ""
 
-		// 甚麼按鍵切換特感類型　(1=右鍵, 2=R鍵, 3=滑鼠滾輪鍵)
+		// 甚麼按鍵切換特感種類　(1=右鍵, 2=R鍵, 3=滑鼠滾輪鍵)
 		l4d_zcs_select_key "1"
 
-		// 切換特感類型的時間間隔 (s)
+		// 切換特感種類的時間間隔 (s)
 		l4d_zcs_select_delay "0.5"
 
-		// 為1時，提示玩家使用哪種按鍵切換特感類型
+		// 為1時，提示玩家使用哪種按鍵切換特感種類
 		l4d_zcs_notify_key "1"
 
-		// 為1時，每次玩家變成靈魂狀態時，提示玩家如何切換特感類型. (0=只在第一次靈魂狀態時提示)
+		// 為1時，每次玩家變成靈魂狀態時，提示玩家如何切換特感種類. (0=只在第一次靈魂狀態時提示)
 		l4d_zcs_notify_key_repeat "0"
 
 		// 為1時，提示特感種類與數量限制
@@ -246,52 +261,58 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Tank玩家死亡之後允許再次選擇Tank的冷卻時間. (0=無冷卻時間, 請設置1~300秒)
 		l4d_zcs_cooldown_tank "300"
 
-		// Smoker的數量限制 (-1=使用官方指令z_versus_smoker_limit設置的數量, 0=不允許)
-		l4d_zcs_smoker_limit "-1"
+		// Smoker的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_smoker_limit設置的數量, 0=不允許
+		l4d_zcs_smoker_limit "2"
 
-		// Boomer的數量限制 (-1=使用官方指令z_versus_boomer_limit設置的數量, 0=不允許)
-		l4d_zcs_boomer_limit "-1"
+		// Boomer的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_boomer_limit設置的數量, 0=不允許
+		l4d_zcs_boomer_limit "2"
 
-		// Hunter的數量限制 (-1=使用官方指令z_versus_hunter_limit設置的數量, 0=不允許)
-		l4d_zcs_hunter_limit "-1"
+		// Hunter的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_hunter_limit設置的數量, 0=不允許
+		l4d_zcs_hunter_limit "2"
 
-		// Spitter的數量限制 (-1=使用官方指令z_versus_spitter_limit設置的數量, 0=不允許)
-		l4d_zcs_spitter_limit "-1"
+		// Spitter的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_spitter_limit設置的數量, 0=不允許
+		l4d_zcs_spitter_limit "2"
 
-		// Jockey的數量限制 (-1=使用官方指令z_versus_jockey_limit設置的數量, 0=不允許)
-		l4d_zcs_jockey_limit "-1"
+		// Jockey的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_jockey_limit設置的數量, 0=不允許
+		l4d_zcs_jockey_limit "2"
 
-		// Charger的數量限制 (-1=使用官方指令z_versus_charger_limit設置的數量, 0=不允許)
-		l4d_zcs_charger_limit "-1"
+		// Charger的數量限制 (活者+靈魂)
+		// -1=使用官方指令z_versus_charger_limit設置的數量, 0=不允許
+		l4d_zcs_charger_limit "2"
 
 		// Tank的數量限制 (0=不允許)
 		l4d_zcs_tank_limit "0"
 
-		// 為1時，允許靈魂特感Smoker切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Smoker切換其他特感種類 (0=不允許)
 		l4d_zcs_smoker_ghost_allow "1"
 
-		// 為1時，允許靈魂特感Boomer切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Boomer切換其他特感種類 (0=不允許)
 		l4d_zcs_boomer_ghost_allow "1"
 
-		// 為1時，允許靈魂特感Hunter切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Hunter切換其他特感種類 (0=不允許)
 		l4d_zcs_hunter_ghost_allow "1"
 
-		// 為1時，允許靈魂特感Spitter切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Spitter切換其他特感種類 (0=不允許)
 		l4d_zcs_spitter_ghost_allow "1"	
 
-		// 為1時，允許靈魂特感Jockey切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Jockey切換其他特感種類 (0=不允許)
 		l4d_zcs_jockey_ghost_allow "1"
 
-		// 為1時，允許靈魂特感Charger切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Charger切換其他特感種類 (0=不允許)
 		l4d_zcs_charger_ghost_allow "1"
 
-		// 為1時，允許靈魂特感Tank切換其他特感類型 (0=不允許)
+		// 為1時，允許靈魂特感Tank切換其他特感種類 (0=不允許)
 		l4d_zcs_tank_ghost_allow "1"
 
-		// 當玩家進入靈魂狀態時(非回魂狀態)，1 = 由此插件決定特感類型 (根據場上的特感數量限制決定)，0 = 交給導演系統決定
-		l4d_zcs_determine_class_when_ghost "0"
+		// 當玩家進入靈魂狀態時(非回魂狀態)，1 = 由此插件決定特感種類 (根據場上的特感數量限制決定)，0 = 交給導演系統決定
+		l4d_zcs_determine_class_when_ghost "1"
 
-		// 每次靈魂狀態時，可以切換特感類型的次數? (0=無限制次數)
+		// 每次靈魂狀態時，可以切換特感種類的次數? (0=無限制次數)
 		l4d_zcs_change_class_limit "0"
 		```
 </details>

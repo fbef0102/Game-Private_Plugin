@@ -62,25 +62,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Example Config</summary>
 
 	* [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
-		```php
-		"l4d2_final_rescue_arrive_time"
-		{
-			"c1m4_atrium" // Map name
-			{
-				"time"		"0" // Scavenge Final, 0=Turn off the plugin in this map
-			}
-			"c2m5_concert" // Map name
-			{
-				"time"      "600" // set rescue arrive time (seconds)
-				"start"		"0"	// When to countdown timer, 0=Once Final Starts, 1=First Tank Stage, 2=Second Tank Stage
-			}
-			"c7m3_port"
-			{
-				"time"		"200"
-				"start"		"3"	// When to countdown timer, 0=Once Final Starts, 1=First Tank Stage, 2=Second Tank Stage, 3=Third Tank Stage
-			} 
-		}
-		```
+		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -94,6 +76,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	English
 	繁體中文
 	简体中文
+	Spanish
 	```
 </details>
 
@@ -147,7 +130,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 救援載具抵達時間 (預設)
 		l4d2_final_rescue_arrive_time_default "360"
 
-		// 救援載具抵達時間何時開始倒數計時, 0=救援開始時, 1=第一波Tank階段, 2=第二波Tank階段, 3=第三波Tank階段, 譬如c7m3_port
+		// 救援載具抵達時間何時開始倒數計時, 0=救援開始時, 1=第一波Tank階段時, 2=第二波Tank階段時, 3=第三波Tank階段時, 譬如c7m3_port
 		l4d2_final_rescue_arrive_time_start "0"
 
 		// 剩餘90秒時，開始顯示倒數
@@ -170,23 +153,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>文件設定</summary>
 
 	* 設定文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
-		```php
-		"l4d2_final_rescue_arrive_time"
-		{
-			"c1m4_atrium" // 地圖名
-			{
-				"time"		"0" // 灌汽油載具, 0=關閉此插件
-			}
-			"c2m5_concert" // 地圖名
-			{
-				"time"      "600" // 設置救援抵達的時間 (秒數)
-				"start"		"0"	// 何時開始倒數計時, 0=救援開始時, 1=第一波Tank階段, 2=第二波Tank階段, 3=第三波Tank階段
-			}
-			"c7m3_port"
-			{
-				"time"		"200"
-				"start"		"3"	// 何時開始倒數計時, 0=救援開始時, 1=第一波Tank階段, 2=第二波Tank階段, 3=第三波Tank階段
-			} 
-		}
-		```
+		> 內有中文說明，可點擊查看
 </details>

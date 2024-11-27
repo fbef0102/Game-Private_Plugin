@@ -295,8 +295,8 @@
     * Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
   * [l4d2_tank_hittable_reset](/Plugin_插件/Tank_坦克/l4d2_tank_hittable_reset): Tank can use menu to reset all hittable and enter practice mode
     * Tank可以重置所有物件的位置並練習如何揮打車子
-  * [l4d2_huge_tank_rock](/Plugin_插件/Tank_坦克/l4d2_huge_tank_rock): Make Tank Rock Huge
-    * Tank石頭變得巨大
+  * [l4d2_huge_tank_rock](/Plugin_插件/Tank_坦克/l4d2_huge_tank_rock): Make Tank Rock Huge and deals more damage
+    * Tank石頭變得巨大且更多傷害
   * [l4d_tankhp_dynamic_adjust](/Plugin_插件/Tank_坦克/l4d_tankhp_dynamic_adjust): Dynamic Adjust Tank HP depends on 5+ survivors in server
     * 隨著玩家人數越多，Tank血量越厚
   * [l4d_tank_punch_range](/Plugin_插件/Tank_坦克/l4d_tank_punch_range): Adjust Tank punch range and hit multi survivors with one punch
@@ -483,8 +483,8 @@
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 
 
-  * [l4d_zcs](/Plugin_插件/Versus_對抗模式/l4d_zcs): Allows infected team players to change their class in ghost mode.
-    * 特感玩家可以在靈魂狀態自行切換特感種類
+  * [l4d_zcs](/Plugin_插件/Versus_對抗模式/l4d_zcs): Give ghost players multi S.I. class + allow ghost players to change S.I. class.
+    * 當玩家進入靈魂狀態時，由此插件決定特感種類 + 靈魂狀態下右鍵自由切換特感種類
   * [versusbosses_ifier](/Plugin_插件/Versus_對抗模式/versusbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in versus mode
     * 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d_trade_player](/Plugin_插件/Versus_對抗模式/l4d_trade_player): Type !trade to open a menu to select two players to swap, one from survivor team and another one from infected team.
