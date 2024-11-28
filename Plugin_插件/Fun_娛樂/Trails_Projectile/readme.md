@@ -17,6 +17,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![Trails_Projectile_6](image/Trails_Projectile_6.jpg)
 </details>
 
+* <details><summary>How does it work?</summary>
+
+    * When survivors throw Pipe Bomb / Molotov / VomitJar, add trails
+    * When survivors fire Grenade Launcher, add trails
+    * When spitter spits, add trails
+    * When tanks throw tank rock, add trails
+</details>
+
 * Require | 必要安裝
 <br>None
 
@@ -29,6 +37,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // If 1, Enable pipe bomb trail
         Trails_Projectile_pipebomb_enable "1"
+
+        // Players with these flags have trail when throw pipe bombs (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_pipebomb_flag ""
 
         // pipe bomb trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 255 48 48]
@@ -43,6 +54,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, Enable Molotov trail
         Trails_Projectile_molotov_enable "1"
 
+        // Players with these flags have trail when throw molotovs (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_molotov_flag ""
+
         // Molotov trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 255 255 0]
         Trails_Projectile_molotov_color "255 255 0"
@@ -55,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // (L4D2) If 1, Enable vomitjar trail
         Trails_Projectile_vomitjar_enable "1"
+
+        // Players with these flags have trail when throw vomitjars (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_vomitjar_flag ""
 
         // (L4D2) Vomitjar trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 50 205 50]
@@ -69,6 +86,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D2) If 1, Enable grenade trail
         Trails_Projectile_grenade_enable "1"
 
+        // Players with these flags have trail when fire grenade (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_grenade_flag ""
+
         // (L4D2) Grenade trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 160 32 240]
         Trails_Projectile_grenade_color "160 32 240"
@@ -82,6 +102,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D2) If 1, Enable spitter projectile trail
         Trails_Projectile_spitter_enable "1"
 
+        // Players with these flags have trail when spit (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_spitter_flag ""
+
         // (L4D2) spitter projectile trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 0 255 0]
         Trails_Projectile_spitter_color "0 255 0"
@@ -94,6 +117,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // If 1, Enable tank rock trail
         Trails_Projectile_rock_enable "1"
+
+        // Players with these flags have trail when throw tank rock (Empty = Everyone, -1: Nobody)
+        Trails_Projectile_rock_flag ""
 
         // Tank rock trail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue.
         // [default: 200 200 200]
@@ -119,6 +145,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     ```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2024-11-28)
+        * Update cvars
+        * Optimize code
 
     * v1.2 (2022-10-26)
         * More Cvars
@@ -146,6 +176,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，土製炸彈有拖曳軌跡效果
         Trails_Projectile_pipebomb_enable "1"
 
+        // 擁有這些權限的玩家，投擲的土製炸彈有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_pipebomb_flag ""
+
         // 土製炸彈的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 255 48 48]
         Trails_Projectile_pipebomb_color "255 48 48"
@@ -158,6 +191,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，汽油彈有拖曳軌跡效果
         Trails_Projectile_molotov_enable "1"
+
+        // 擁有這些權限的玩家，投擲的汽油彈有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_molotov_flag ""
 
         // 汽油彈的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 255 255 0]
@@ -172,6 +208,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D2) 為1時，膽汁瓶有拖曳軌跡效果
         Trails_Projectile_vomitjar_enable "1"
 
+        // 擁有這些權限的玩家，投擲的膽汁瓶有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_vomitjar_flag ""
+
         // (L4D2) 膽汁瓶的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 50 205 50]
         Trails_Projectile_vomitjar_color "50 205 50"
@@ -184,6 +223,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // (L4D2) 為1時，榴彈有拖曳軌跡效果
         Trails_Projectile_grenade_enable "1"
+
+        // 擁有這些權限的玩家，射出的榴彈有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_grenade_flag ""
 
         // (L4D2) 榴彈的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 160 32 240]
@@ -198,6 +240,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D2) 為1時，Spitter唾液物有拖曳軌跡效果
         Trails_Projectile_spitter_enable "1"
 
+        // 擁有這些權限的玩家，Spitter唾液物有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_spitter_flag ""
+
         // (L4D2) Spitter唾液物的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 0 255 0]
         Trails_Projectile_spitter_color "0 255 0"
@@ -210,6 +255,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 為1時，Tank石頭有拖曳軌跡效果
         Trails_Projectile_rock_enable "1"
+
+        // 擁有這些權限的玩家，投擲的Tank石頭有拖曳軌跡效果 (留白 = 任何人都能, -1: 無人)
+        Trails_Projectile_rock_flag ""
 
         // Tank石頭的軌跡顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         // [預設: 200 200 200]
