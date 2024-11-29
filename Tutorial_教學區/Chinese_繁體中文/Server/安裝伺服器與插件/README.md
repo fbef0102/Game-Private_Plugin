@@ -1,5 +1,5 @@
 # 問題總攬
-> 2024/9/30 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/11/29 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -28,7 +28,7 @@
 
 - - - -
 ## 前言介紹
-- Valve上的遊戲像是惡靈勢力、CSGO、TF2等等，提供社群玩家自己架設伺服器
+- Valve上的遊戲像是惡靈勢力、Counter-Strike: Source、No More Room in Hell、TF2等等，提供社群玩家自己架設伺服器
 - 社群玩家可以在伺服器上安裝插件隨意修改遊戲內容與玩法，讓這款遊戲創造豐富多樣的玩法
    * 凡舉CS的殭屍、大逃殺、團隊死鬥等等都是玩家架設伺服器並利用插件達成的
    * 惡靈勢力的8V8對抗、多人連線戰役等等也是玩家架設伺服器並利用插件達成的
@@ -61,16 +61,20 @@
    4. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
       - ```force_install_dir ./L4D2_Server/```
-         - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login anonymous```
+         - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
+      - ```login xxxxx```
+         - xxxxx 是你的steam帳戶的帳號
+         - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
+      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4Dead - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
-            - 232330 為CSS - Dedicated Server
-            - 740 為CSGO - Dedicated Server
+            - 232330 為Counter-Strike: Source - Dedicated Server
+            - 317670 為No More Room in Hell - Dedicated Server
          
-      ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/73131bec-add3-44ad-b2bf-5a5421dc061d)
+      <br/>![image](https://github.com/user-attachments/assets/41f80b2f-972a-4bac-a8f6-60665dc7b67b)
 
    5. 完成安裝之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/485bbc07-b0fd-4957-bc92-6561800ca655)
@@ -88,17 +92,21 @@
 
    2. 等到出現Loading Steam API...OK，依序輸入以下指令
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
-      - ```force_install_dir ./My_Server/```
-         - My_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login anonymous```
+      - ```force_install_dir ./L4D2_Server/```
+         - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
+      - ```login xxxxx```
+         - xxxxx 是你的steam帳戶的帳號
+         - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
+      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4Dead - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
-            - 232330 為CSS - Dedicated Server
-            - 740 為CSGO - Dedicated Server
+            - 232330 為Counter-Strike: Source - Dedicated Server
+            - 317670 為No More Room in Hell - Dedicated Server
 
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/83d33186-7fb1-40c8-937d-9c2a08467571)
+      <br/>![image](https://github.com/user-attachments/assets/41f80b2f-972a-4bac-a8f6-60665dc7b67b)
 
    3. 完成安裝之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/932403e4-f5ab-4c8f-981e-9aa3ba8ecb53)
@@ -166,8 +174,8 @@
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
-         - 如果是CSS，xxxxxx改成cstrike
-         - 如果是CSGO，xxxxxx改成csgo
+         - 如果是Counter-Strike: Source，xxxxxx改成cstrike
+         - 如果是No More Room in Hell，xxxxxx改成nmrih
       - ```-port 27016``` 為設定的Port
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - ```+log on``` 打開伺服器紀錄儀
@@ -198,8 +206,8 @@
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
-         - 如果是CSS，xxxxxx改成cstrike
-         - 如果是CSGO，xxxxxx改成csgo
+         - 如果是Counter-Strike: Source，xxxxxx改成cstrike
+         - 如果是No More Room in Hell，xxxxxx改成nmrih
       - ```-port 27016``` 為設定的Port
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - ```+log on``` 打開伺服器紀錄儀
@@ -669,8 +677,7 @@
 * 查看官方指令有哪些
 	* [L4D Cvars](https://developer.valvesoftware.com/wiki/List_of_L4D_Cvars)
 	* [L4D2 Cvars](https://developer.valvesoftware.com/wiki/List_of_L4D2_Cvars)
-	* [CSS Cvars](https://developer.valvesoftware.com/wiki/List_of_CS:S_Cvars)
-	* [CSGO Cvars](https://developer.valvesoftware.com/wiki/List_of_CS:GO_Cvars)
+	* [Counter-Strike: Source Cvars](https://developer.valvesoftware.com/wiki/List_of_CS:S_Cvars)
 	* 其他遊戲自行搜索
 	
 * 查看插件指令有哪些
@@ -800,15 +807,19 @@
       <br/>![image](https://user-images.githubusercontent.com/12229810/187817885-b54191d4-e050-49ba-b870-8c6bbc0e4690.png)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
-      - ```login anonymous```
+      - ```login xxxxx```
+         - xxxxx 是你的steam帳戶的帳號
+         - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
+      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID
             - 222840 為L4Dead - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
-            - 232330 為CSS - Dedicated Server
-            - 740 為CSGO - Dedicated Server
+            - 232330 為Counter-Strike: Source - Dedicated Server
+            - 317670 為No More Room in Hell - Dedicated Server
 
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/c75121ac-198d-499e-ab53-328dd9abb911)
+      <br/>![image](https://github.com/user-attachments/assets/dbfe755b-0924-4637-b61a-4fbe80eb1e97)
 
    6. 完成更新之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/485bbc07-b0fd-4957-bc92-6561800ca655)
@@ -827,15 +838,19 @@
       <br/>![image](https://user-images.githubusercontent.com/12229810/202987175-ec27bd5c-3c3c-4cd8-8870-3f75fb46d820.png)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds_run所在的資料夾 (請輸入完整路徑)
-      - ```login anonymous```
+      - ```login xxxxx```
+         - xxxxx 是你的steam帳戶的帳號
+         - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
+      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4Dead - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
-            - 232330 為CSS - Dedicated Server
-            - 740 為CSGO - Dedicated Server
+            - 232330 為Counter-Strike: Source - Dedicated Server
+            - 317670 為No More Room in Hell - Dedicated Server
 
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/7e60d753-d422-4764-a699-d38716f57bc2)
+      <br/>![image](https://github.com/user-attachments/assets/8840dd1a-1fec-4a0b-b720-6d35138b3155)
 
    4. 完成更新之後輸入exit結束steamcmd
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/932403e4-f5ab-4c8f-981e-9aa3ba8ecb53)

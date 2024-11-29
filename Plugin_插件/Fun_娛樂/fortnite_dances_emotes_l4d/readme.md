@@ -13,6 +13,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![fortnite_dances_emotes_l4d_2](image/fortnite_dances_emotes_l4d_2.gif)
 	* Support Lux's Model Changer (支援模組改變)
 	<br/>![fortnite_dances_emotes_l4d_3](image/fortnite_dances_emotes_l4d_3.gif)
+	* You can move while dancing (可以一邊移動一邊跳舞)
+	<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.gif)
+	<br/>![fortnite_dances_emotes_l4d_5](image/fortnite_dances_emotes_l4d_5.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -51,8 +54,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Hide enemy players when dancing
 		fortnite_dances_emotes_l4d_hide_enemies "0"
 
-		// If 1, Teleport back to the exact position when he started to dance. (Some maps need this for teleport triggers)
-		fortnite_dances_emotes_l4d_teleportonend "1"
+		// 0=Player can move while dancing
+		// 1=Player can not move while dancing + teleport back to the exact position when he started to dance.
+		fortnite_dances_emotes_l4d_teleportonend "0"
 
 		// Sets the playback speed of the animation. [0.0-1.0]
 		fortnite_dances_emotes_l4d_speed "0.80"
@@ -112,12 +116,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	4. Start the server and test
 		* Launch your game, Options-> Multiplayer -> CUSTOM SERVER CONTENT -> Allow All
-		<br/>![fortnite_dances_emotes_0](image/fortnite_dances_emotes_0.jpg)
+		<br/>![fortnite_dances_emotes_l4d_t0](image/fortnite_dances_emotes_l4d_t0.jpg)
 		* Connect to server. 
 		* Join survivor and type ```!dance```.
 
 	5. Players should download custom mp3 files when connecting to your server
-		<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.jpg)
+		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
 
 * Apply to | 適用於
@@ -149,6 +153,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6h (2024-11-29)
+		* You can move while dancing
+		* Fixed stuck or falling if dance on the evelator or any other moving vehicle
+	
 	* v1.5h (2024-9-23)
 		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
 
@@ -234,7 +242,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		//為1時，跳舞時隱藏敵人
 		fortnite_dances_emotes_l4d_hide_enemies "0"
 
-		// 為1時，跳舞完畢後回到原始的位置
+		// 0=跳舞時可以移動
+		// 1=跳舞時不可移動，跳舞完畢後回到原始的位置
 		fortnite_dances_emotes_l4d_teleportonend "0"
 
 		// 跳舞速度 [數值介於 0.0~1.0]
@@ -295,10 +304,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 	4. 啟動伺服器並測試
 		* 打開你的遊戲，選項->多人連線->自訂伺服器內容->全部允許
-		<br/>![zho/fortnite_dances_emotes_0](image/zho/fortnite_dances_emotes_0.jpg)
+		<br/>![zho/fortnite_dances_emotes_l4d_t0](image/zho/fortnite_dances_emotes_l4d_t0.jpg)
 		* 連線到伺服器
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
 
 	5. 玩家加入伺服器時，會自動下載自製的音樂檔案
-		<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.jpg)
+		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
