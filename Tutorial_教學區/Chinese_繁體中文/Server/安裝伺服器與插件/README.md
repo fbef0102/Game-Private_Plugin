@@ -52,7 +52,7 @@
    1. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
    2. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
-      - 譬如D:\steamcmd
+      - 譬如```D:\steamcmd```
       <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
 
    3. 執行steamcmd.exe，等它自己跑完套件與更新包
@@ -481,7 +481,7 @@
 
 - - - -
 ## 如何編譯源碼
-1. 此處用Windows系統方便操作，將想要編譯的源碼檔案丟入```addons\sourcemod\scripting\``` 資料夾裡面
+1. 此處用Windows系統方便操作，將想要編譯的源碼檔案丟入```addons/sourcemod/scripting/``` 資料夾裡面
    - 源碼檔案的副檔名是.sp
    - 請先開啟顯示副檔名
    ![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/795afc68-41bf-418a-b460-0d7519466762)
@@ -489,19 +489,19 @@
 2. 接著拖曳.sp檔案到同資料夾底下的compile.exe <br/>
    ![image](https://i.imgur.com/PrWaypt.gif)
 
-3. 編譯完成的檔案將會在addons\sourcemod\scripting\compiled\ 資料夾裡面
+3. 編譯完成的檔案將會在addons/sourcemod/scripting/compiled/ 資料夾裡面
    - 視窗如果顯示編譯失敗，代表缺少安裝必要的檔案或者源碼有錯誤，請洽作者
       * [常見的編譯錯誤訊息](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E6%8F%92%E4%BB%B6/README.md#常見的編譯錯誤訊息)
    - 編譯完成的檔案都通用於Windows、Linux、macOs系統，不會有不相容的問題
 
 - - - -
 ## 如何安裝插件
-1. 無論是自己編譯好的插件或是從網路上下載的插件，將檔案放入```addons\sourcemod\plugins```
+1. 無論是自己編譯好的插件或是從網路上下載的插件，將檔案放入```addons/sourcemod/plugins```
    - 插件檔案的副檔名是.smx
    - 插件名稱可自行修改，不要取中文，想自己吃鱉就試試
 
 2. 若安裝包有其他的文件，放入相同資料夾即可
-   - 翻譯文件.txt 放入addons\sourcemod\translations
+   - 翻譯文件.txt 放入addons/sourcemod/translations
 		<details>
 		<summary>判斷是否為翻譯文件 (點我展開)</summary>
 		此處為範例
@@ -528,7 +528,7 @@
 		```
 		</details>
 		
-   - Gamedata文件.txt 放入addons\sourcemod\gamedata
+   - Gamedata文件.txt 放入addons/sourcemod/gamedata
 		<details>
 		<summary>判斷是否為Gamedata文件 (點我展開)</summary>
 		此處為範例
@@ -614,7 +614,7 @@
 
 - - - -
 ## 如何移除插件
-1. 將不想要的.smx插件從addons\sourcemod\plugins移除
+1. 將不想要的.smx插件從addons/sourcemod/plugins移除
    - 刪除或是移動到別的資料夾
 2. 切換地圖或重啟伺服器
 
@@ -623,9 +623,9 @@
 1. 當發現作者更新了插件版本之後
    - 可以選擇自己拿到新版本的源碼.sp檔案進行編譯
    - 或者直接拿編譯好的.smx檔案
-2. 把.smx檔案放入addons\sourcemod\plugins覆蓋即可
+2. 把.smx檔案放入addons/sourcemod/plugins覆蓋即可
    - 若有其他的文件，放入相同資料夾覆蓋即可
-   - 🟥若cfg\sourcemod\ 有對應的.cfg文件則必須手動刪除🟥
+   - 🟥若cfg/sourcemod/ 有對應的.cfg文件則必須手動刪除🟥
 3. 重啟伺服器
 4. 到伺服器後台上，輸入```sm plugins info xxxxxx```，確認版本有更新
    - xxxxxx為插件的檔案名稱
@@ -645,7 +645,7 @@
 
 > __Warning__<br/>
   不建議遊戲中途卸載插件，可能導致伺服器殘留插件的作用<br/>
-  即使遊戲中途卸載插件，只要.smx插件檔案還在addons\sourcemod\plugins目錄之下，載入下一張地圖插件依然會生效
+  即使遊戲中途卸載插件，只要.smx插件檔案還在addons/sourcemod/plugins目錄之下，載入下一張地圖插件依然會生效
 
 <details>
   <summary>遊戲中途載入插件 (點我展開)</summary>
@@ -716,17 +716,17 @@
 ## 如何修改指令
 * 插件自帶的指令
    * 有自動產生相對應的.cfg文件
-      1. cfg\sourcemod\ 打開對應的.cfg文件－＞修改指令－＞儲存
+      1. cfg/sourcemod/ 打開對應的.cfg文件－＞修改指令－＞儲存
       2. 切換地圖或重啟伺服器<br/>
 
    * 沒有自動產生相對應的.cfg文件
-      1. cfg\server.cfg 寫入指令－＞儲存
+      1. cfg/server.cfg 寫入指令－＞儲存
          * 如果沒有server.cfg檔案可以創建
       2. 切換地圖或重啟伺服器
 > __Note__ 有的插件會自動產生.cfg文件，有的插件即使自帶指令也不會產生.cfg文件，全看原作者心情
 	
 * 官方原有的指令
-   1. cfg\server.cfg 寫入指令－＞儲存
+   1. cfg/server.cfg 寫入指令－＞儲存
       * 如果沒有server.cfg檔案可以創建
    2. 切換地圖或重啟伺服器
 > __Note__ 有些官方指令需要加上sm_cvar 才會生效，譬如```sm_cvar sb_stop 1```
@@ -797,7 +797,7 @@
    2. 下載[SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
    3. 解壓縮到電腦上任一路徑，最好自己創建資料夾且路徑不要有中文
-      - 譬如D:\steamcmd
+      - 譬如```D:\steamcmd```
       <br/>![image](https://user-images.githubusercontent.com/12229810/202984413-4f5c1bef-a213-4f28-a78b-b4286fffa9c0.png)
 
    4. 執行steamcmd.exe，等它自己跑完套件與更新包
@@ -884,19 +884,19 @@
 * 伺服器後台 = Server Console
    * 伺服器端的控制台
 * .smx 插件 = Plugin
-   * 位於sourcemod\plugins裡面的檔案
+   * 位於sourcemod/plugins裡面的檔案
 * .sp 源碼 = Source Code
-   * 位於sourcemod\scripting裡面的檔案，是插件的源碼
+   * 位於sourcemod/scripting裡面的檔案，是插件的源碼
 * extension
-   * 位於sourcemod\extensions裡面的檔案
+   * 位於sourcemod/extensions裡面的檔案
 * 插件翻譯文件 = translation file
-   * 位於sourcemod\translations裡面的檔案，是幫插件翻譯各國語言的文件
+   * 位於sourcemod/translations裡面的檔案，是幫插件翻譯各國語言的文件
 * 插件輔助文件 = gamedata file
-   * 位於sourcemod\gamedata裡面的檔案，是幫插件抓取windows與linux各種奇葩涵式的文件
+   * 位於sourcemod/gamedata裡面的檔案，是幫插件抓取windows與linux各種奇葩涵式的文件
 * 插件cfg文件 = plugin cfg file
-   * 位於cfg\sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令
+   * 位於cfg/sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令
 * 記錄檔 = log file
-   * 位於sourcemod\logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件錯誤原因
+   * 位於sourcemod/logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件錯誤原因
 * 指令 = Cvar = ConVar
    * 官方原有或插件產生的Cvar，譬如sv_cheats、sv_maxplayers
 * 命令 = Cmd = Command

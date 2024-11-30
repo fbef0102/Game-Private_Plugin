@@ -467,6 +467,8 @@
     * 指定的武器可以無限次數推人，就像L4D1 (不會疲勞)
   * [l4d_minigun_dmg_modify](/Plugin_插件/Weapons_武器/l4d_minigun_dmg_modify): Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
     * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
+  * [l4d2_laser_transfer_pickup](/Plugin_插件/Weapons_武器/l4d2_laser_transfer_pickup): Transfer your current weapon laser sight to another while picking up new gun
+    * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

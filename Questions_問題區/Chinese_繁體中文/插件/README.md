@@ -31,7 +31,7 @@
 
 2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
     - xxxxxx為插件的檔案名稱
-    - 插件檔案位於```addons\sourcemod\plugins```，副檔名是.smx
+    - 插件檔案位於```addons/sourcemod/plugins```，副檔名是.smx
       ```php
       ] sm plugins info test
       Filename: test.smx
@@ -49,7 +49,7 @@
       ![image](https://user-images.githubusercontent.com/12229810/210702001-0b65c878-8a45-48b9-978a-6047026f6c94.png)
 
       * 原因: 你沒有把.smx檔案放入正確的路徑
-      * 解決方式: 請確認.smx檔案位於 addons\sourcemod\plugins 資料夾底下
+      * 解決方式: 請確認.smx檔案位於 addons/sourcemod/plugins 資料夾底下
     </details>
 
 3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
@@ -97,7 +97,7 @@
 
   * 原因: 沒有放好所有文件
   * 解決方式: 插件需要的翻譯檔案或者輔助文件，必須要放到適當的資料夾上 (路徑與名稱必須正確無誤)
-    - 翻譯文件.txt 放入addons\sourcemod\translations
+    - 翻譯文件.txt 放入addons/sourcemod/translations
       <details>
       <summary>判斷是否為翻譯文件 (點我展開)</summary>
       此處為範例
@@ -124,7 +124,7 @@
       ```
       </details>
       
-    - Gamedata文件.txt 放入addons\sourcemod\gamedata
+    - Gamedata文件.txt 放入addons/sourcemod/gamedata
       <details>
       <summary>判斷是否為Gamedata文件 (點我展開)</summary>
       此處為範例
