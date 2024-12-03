@@ -9,14 +9,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Image | 圖示
 	<br/>![l4d2_Sinister_Jockey_1](image/l4d2_Sinister_Jockey_1.jpg)
-	<br/>![l4d2_Sinister_Jockey_2](image/l4d2_Sinister_Jockey_2.jpg)
-	<br/>![l4d2_Sinister_Jockey_3](image/l4d2_Sinister_Jockey_3.jpg)
+	<br/>![l4d2_Sinister_Jockey_2](image/l4d2_Sinister_Jockey_2.gif)
+	<br/>![l4d2_Sinister_Jockey_3](image/l4d2_Sinister_Jockey_3.gif)
+	<br/>![l4d2_Sinister_Jockey_4](image/l4d2_Sinister_Jockey_4.gif)
 
 * <details><summary>Details</summary>
 
 	* <b>Ghost Stalker ability</b> - Allowing the Jockey to become nearly invisible.
 	* <b>Gravity Pounce ability</b> - The Jockey can inflict damage based on how far he drops on a Survivor.
 	* <b>Human Shield ability</b> - The Jockey can use the Survivor as a human shield while riding.
+	* <b>Brutal Leap ability</b> - The Jockey can leap higher and farther
+	* <b>Meteor Strike ability</b> - the high pounces by jockeys create meteor strike, inflict extra damage and send nearby survivors flying.
 </details>
 
 * Require | 必要安裝
@@ -30,27 +33,57 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Enables the Ghost Stalker ability, allowing the Jockey to become nearly invisible.
 		l4d2_Sinister_Jockey_ghoststalker_enable "1"
 
-		// Modifies the opacity of the Jockey to become closer to invisible (0-255)
+		// (Ghost Stalker) Modifies the opacity of the Jockey to become closer to invisible (0-255)
 		l4d2_Sinister_Jockey_ghoststalker_visibility "100"
-
-		// Maximum amount of damage the Jockey can inflict while dropping (Should be Survivor health max).
-		l4d2_Sinister_Jockey_gravitypounce_cap "100"
 
 		// If 1, Enables the Gravity Pounce ability, the Jockey can inflict damage based on how far he drops on a Survivor.
 		l4d2_Sinister_Jockey_gravitypounce_enable "1"
 
-		// Amount to multiply the damage dealt by the Jockey when dropping.
+		// (Gravity Pounce) Maximum amount of damage the Jockey can inflict while dropping.
+		l4d2_Sinister_Jockey_gravitypounce_cap "100"
+
+		// (Gravity Pounce) Amount to multiply the damage dealt by the Jockey when dropping.
 		l4d2_Sinister_Jockey_gravitypounce_multiplier "1.0"
-
-		// Damage that inflicted to the Survivor while Human Shield ability enabled.
-		// Damge = the damage jockey received / this cvar valve (0=No damage)
-		l4d2_Sinister_Jockey_humanshield_divisor "30.0"
-
+		
 		// If 1, Enables the Human Shield ability, the Jockey can use the Survivor as a human shield while riding.
 		l4d2_Sinister_Jockey_humanshield_enable "1"
 
-		// Percent of damage the Jockey avoids using a Survivor as a shield.
+		// (Human Shield) Percent of damage the Jockey avoids using a Survivor as a shield.
 		l4d2_Sinister_Jockey_humanshield_percent "0.7"
+
+		// (Human Shield) Damage that inflicted to the Survivor while Human Shield ability enabled.
+		// Damge = the damage jockey received / this cvar valve (0=No damage)
+		l4d2_Sinister_Jockey_humanshield_divisor "30.0"
+
+		// If 1, Enables Brutal Leap ability, the Jockey can leap higher and farther.
+		l4d2_Sinister_Jockey_brutal_leap_enable "1"
+
+		// (Brutal Leap) If 1, also apply to bots.
+		l4d2_Sinister_Jockey_brutal_leap_bot "0"
+
+		// (Brutal Leap) Jockey Leap velocity force multiply
+		l4d2_Sinister_Jockey_brutal_force_multi "2.0"
+
+		// (Brutal Leap) Jockey Leap vertical force multiply
+		l4d2_Sinister_Jockey_brutal_vertical_mult "1.8"
+
+		// If 1, Enables Meteor Strike ability, the high pounces by jockeys create meteor strike, inflict extra damage and send nearby survivors flying.
+		l4d2_Sinister_Jockey_meteor_enable "1"
+
+		// (Meteor Strike) Distance needed to trigger meteor strike.
+		l4d2_Sinister_Jockey_meteor_distance "1000.0"
+
+		// (Meteor Strike) Range.
+		l4d2_Sinister_Jockey_meteor_range "200.0"
+
+		// (Meteor Strike) Damage caused.
+		l4d2_Sinister_Jockey_meteor_damage "8.0"
+
+		// (Meteor Strike) How much force is applied to the survivor.
+		l4d2_Sinister_Jockey_meteor_power "300.0"
+
+		// (Meteor Strike) Vertical force multiplier.
+		l4d2_Sinister_Jockey_meteor_vertical_mult "1.5"
 		```
 </details>
 
@@ -107,10 +140,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Mortiegama @ 2014
-	//HarryPotter @ 2022-2023
-	```
+	* v1.2h (2024-12-3)
+		* Add two ability: "Brutal Leap" + "Meteor Strike"
+		* Update cvars
+
 	* v1.1h (2023-2-14)
 		* Rename all cvars
 		* Remake Human Shield ability and make new damage calculation formula
@@ -132,14 +165,70 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 能力1: <b>Ghost Stalker</b> - 身體接近透明
-	* 能力2: <b>Human Shield</b> - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
-	* 能力3: <b>Gravity Pounce</b> - 跟Hunter一樣有高撲傷害
+	* 能力2: <b>Gravity Pounce</b> - 跟Hunter一樣有高撲傷害
+	* 能力3: <b>Human Shield</b> - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
+	* 能力4: <b>Brutal Leap</b> - Jockey 可以跳得更遠更高
+	* 能力5: <b>Meteor Strike</b> - Jockey 騎到人時，如果高撲距離足夠會造成核彈衝擊波，震飛周圍玩家
 
-* 功能
-	* 可設定各能力的開關
-	* 可設定Ghost Stalker的透明程度
-	* 可設定Human Shield的轉移傷害程度
-	* 可設定Gravity Pounce的最大傷害
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d2_Sinister_Jockey.cfg
+		```php
+		// 為1時, 啟用能力: Ghost Stalker - 身體接近透明
+		l4d2_Sinister_Jockey_ghoststalker_enable "1"
+
+		// (Ghost Stalker) 透明度 (0-255)
+		l4d2_Sinister_Jockey_ghoststalker_visibility "100"
+
+		// 為1時, 啟用能力: Gravity Pounce - 跟Hunter一樣有高撲傷害
+		l4d2_Sinister_Jockey_gravitypounce_enable "1"
+
+		// (Gravity Pounce) 最大高撲傷害
+		l4d2_Sinister_Jockey_gravitypounce_cap "100"
+
+		// (Gravity Pounce) 高撲傷害倍率.
+		l4d2_Sinister_Jockey_gravitypounce_multiplier "1.0"
+		
+		// 為1時, 啟用能力: Human Shield - 抓住倖存者的時候使用倖存者的身體當盾牌，轉移自己受到的傷害
+		l4d2_Sinister_Jockey_humanshield_enable "1"
+
+		// (Human Shield) Jockey 受到的傷害 = 傷害 x 此數值 (0=無傷)
+		l4d2_Sinister_Jockey_humanshield_percent "0.7"
+
+		// (Human Shield) 倖存者受到的傷害 = Jockey 受到的傷害 / 此數值 (0=倖存者不受傷)
+		l4d2_Sinister_Jockey_humanshield_divisor "30.0"
+
+		// 為1時, 啟用能力: Brutal Leap - Jockey 可以跳得更遠更高
+		l4d2_Sinister_Jockey_brutal_leap_enable "1"
+
+		// (Brutal Leap) 為1時, AI Jockey 也可以跳得更遠更高
+		l4d2_Sinister_Jockey_brutal_leap_bot "0"
+
+		// (Brutal Leap) Jockey 跳躍的力道，數值越高，可以跳得更遠
+		l4d2_Sinister_Jockey_brutal_force_multi "2.0"
+
+		// (Brutal Leap) Jockey 跳躍的向上力道，數值越高，可以跳得更高
+		l4d2_Sinister_Jockey_brutal_vertical_mult "1.8"
+
+		// 為1時, 啟用能力: Meteor Strike - Jockey 騎到人時，如果高撲距離足夠會造成核彈衝擊波，震飛周圍玩家
+		l4d2_Sinister_Jockey_meteor_enable "1"
+
+		// (Meteor Strike) 高撲距離到此門檻才會觸發
+		l4d2_Sinister_Jockey_meteor_distance "1000.0"
+
+		// (Meteor Strike) 核彈衝擊波範圍.
+		l4d2_Sinister_Jockey_meteor_range "200.0"
+
+		// (Meteor Strike) 核彈衝擊波的傷害.
+		l4d2_Sinister_Jockey_meteor_damage "8.0"
+
+		// (Meteor Strike) 震飛周圍玩家的力道
+		l4d2_Sinister_Jockey_meteor_power "300.0"
+
+		// (Meteor Strike) 震飛周圍玩家的力道向上倍率
+		l4d2_Sinister_Jockey_meteor_vertical_mult "1.5"
+		```
+</details>
 
 * <details><summary>Human Shield的傷害計算 (點我展開)</summary>
 	

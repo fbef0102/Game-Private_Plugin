@@ -1,0 +1,133 @@
+﻿"Phrases"
+{
+	"Menu Title"
+	{
+		"#format"	"{1:s}"
+		"en"		"Transfer your {1}"
+		"zho"		"轉移: {1}"
+		"chi"		"转移: {1}"
+	}	
+	
+	"No Players Available Now"
+	{
+		"en"		"No Players Available Now"
+		"zho"		"無可轉移的玩家"
+		"chi"		"无可转移的玩家"
+	}	
+	
+	"same player cool down"
+	{
+		"#format"	"{1:.1f}"
+		"en"		"Wait {green}{1}s{default} cool down to transfer this player again"
+		"zho"		"等待 {green}{1}秒{default} 才能再次轉移給該玩家"
+		"chi"		"等待 {green}{1}秒{default} 才能再次转移给该玩家"
+	}	
+	
+	"Target is invalid!"
+	{
+		"en"		"Target is invalid!"
+		"zho"		"目標玩家已不是活著的倖存者"
+		"chi"		"目标玩家已不是活着的幸存者"
+	}	
+	
+	"Item is invalid"
+	{
+		"en"		"Item is invalid!, Please hold your item at hands!"
+		"zho"		"物品不存在! 請手持物品再嘗試轉移!"
+		"chi"		"物品不存在! 请手持物品再尝试转移!"
+	}	
+	
+	"Target already has item"
+	{
+		"en"		"Target already has item, choose again!"
+		"zho"		"目標玩家已持有物品, 請重新選擇!"
+		"chi"		"目标玩家已持有物品, 请重新选择!"
+	}
+	
+	"Transfer (C)"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"You transferred {green}{2}{default} to {olive}{1}"
+		"zho"		"你將 {green}{2}{default} 轉移給 {olive}{1}"
+		"chi"		"你将 {green}{2}{default} 转移给 {olive}{1}"
+	}
+	
+	"Transfer"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"You transferred {2} to {1}"
+		"zho"		"您將 {2} 轉移給 {1}"
+		"chi"		"您将 {2} 转移给 {1}"
+	}
+	
+	"Transfer by (C)"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{olive}{1}{default} transferred {green}{2}{default} to You"
+		"zho"		"{olive}{1}{default} 將 {green}{2}{default} 轉移給您"
+		"chi"		"{olive}{1}{default} 将 {green}{2}{default} 转移给您"
+	}
+	
+	"Transfer by"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} transferred {2} to You"
+		"zho"		"{1} 將 {2} 轉移給您"
+		"chi"		"{1} 将 {2} 转移给您"
+	}
+	
+	"Defibrillator"
+	{
+		"en"	"Defibrillator"
+		"zho"	"電擊器"
+		"chi"	"电击器"
+	}
+	"First Aid Kit"
+	{
+		"en"	"First Aid Kit"
+		"zho"	"治療包"
+		"chi"	"治疗包"
+	}
+	"Pills"
+	{
+		"en"	"Pain Pill"
+		"zho"	"止痛藥丸"
+		"chi"	"止痛药丸"
+	}
+	"Adrenaline"
+	{
+		"en"	"Adrenaline"
+		"zho"	"腎上腺素"
+		"chi"	"肾上腺素"
+	}
+	"Pipe Bomb"
+	{
+		"en"	"Pipe Bomb"
+		"zho"	"土製炸彈"
+		"chi"	"土制炸弹"
+	}
+	"Molotov"
+	{
+		"en"	"Molotov"
+		"zho"	"火瓶"
+		"chi"	"火瓶"
+	}
+	"Bile Bomb"
+	{
+		"en"	"Vomitjar"
+		"zho"	"膽汁瓶"
+		"chi"	"胆汁瓶"
+	}
+	"Incendiary Ammo Pack"
+	{
+		"en"	"Incendiary Pack"
+		"zho"	"火焰包"
+		"chi"	"火焰包"
+	}
+	"Explosive Ammo Pack"
+	{
+		"en"	"Explosive Pack"
+		"zho"	"高爆彈"
+		"chi"	"高爆弹"
+	}
+}

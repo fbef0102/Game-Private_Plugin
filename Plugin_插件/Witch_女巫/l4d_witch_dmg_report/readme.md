@@ -33,6 +33,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, display witch health remaining when witch kills the survivor.
 		l4d_witch_dmg_report_kill "1"
+
+		// Witch damage report type, 0=Stats report, dmg+percentage, 1=Assist report, dmg only
+		l4d_witch_dmg_report_display_type "0"
+
+		// How many players displayed in each line of damage report
+		l4d_witch_dmg_report_display_num "1"
 		```
 </details>
 
@@ -67,6 +73,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2024-12-3)
+		* Update cvars
+		* Update translation
+
 	* v1.0 (2024-11-26)
 		* Initial Release
 </details>
@@ -96,5 +106,11 @@ Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人�
 
 		// 為1時，Witch抓死人時，顯示剩餘血量
 		l4d_witch_dmg_report_kill "1"
+
+		// 顯示哪一種傷害統計表, 0=統計報告, 傷害+百分比, 1=協助擊殺報告, 只顯示傷害
+		l4d_witch_dmg_report_display_type "0"
+
+		// 報告表當中, 每一行顯示多少玩家? (用於多人房，倖存者數量太多顯示不完)
+		l4d_witch_dmg_report_display_num "1"
 		```
 </details>

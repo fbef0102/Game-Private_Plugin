@@ -5,7 +5,8 @@ Transfer your current weapon laser sight to another while picking up new gun
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/eNFcXMafLuQ)
+* Video | 影片展示
+<br/>None
 
 * Image | 圖示
 	| Before (裝此插件之前) | After (裝此插件之後) |
@@ -17,6 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* If player has the laser sight on primary ```weapon A```
 		* When player picks up the new ```weapon B``` => the laser sight would be transferred from old ```weapon A``` to new ```weapon B```
+	* Also apply to AI survivor bots
 </details>
 
 * Require | 必要安裝
@@ -31,12 +33,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Players with these flags have access to transfer laser sight while picking up new gun
 		l4d2_laser_transfer_pickup_flags ""
+
+		// If 1, also apply to ai survivor bots
+		l4d2_laser_transfer_pickup_bot "1"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
-	None
+	* **Remove laser sight**
+		```php
+		sm_removelaser
+		```
 </details>
 
 * Apply to | 適用於
@@ -57,6 +65,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 假設玩家手上的```武器A```有雷射裝置
 		* 玩家拿取新```武器B```時，舊```武器A```的雷射裝置轉移到新```武器B```上
+	* AI也適用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -67,5 +76,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 擁有這些權限的玩家，可以將紅外線雷射裝置拆掉並裝在新武器上 (留白 = 任何人都能, -1: 無人)
 		l4d2_laser_transfer_pickup_flags ""
+
+		// 為1時，AI倖存者也適用
+		l4d2_laser_transfer_pickup_bot "1"
 		```
 </details>

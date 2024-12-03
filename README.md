@@ -433,6 +433,8 @@
     * 用R鍵直接傳送物資給隊友 (火瓶、土製炸彈、膽汁瓶、電擊器、治療包、高爆彈包、火焰彈包、藥丸、腎上腺素)
   * [l4d_Teleport_Item](/Plugin_插件/Items_物品/l4d_Teleport_Item): Open Menu to teleport items on the map.
     * 打開選單傳送地圖上所有物品到身邊
+  * [l4d_item_transfter_menu](/Plugin_插件/Items_物品/l4d_item_transfter_menu): Press E+Right Mouse to open the menu to transfer to teammate while holding the items and throwables
+    * 按E+右鍵打開菜單，傳送手上的物品給隊友 (火瓶、土製炸彈、膽汁瓶、電擊器、治療包、高爆彈包、火焰彈包、藥丸、腎上腺素)，無論距離多遠
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
@@ -469,6 +471,8 @@
     * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
   * [l4d2_laser_transfer_pickup](/Plugin_插件/Weapons_武器/l4d2_laser_transfer_pickup): Transfer your current weapon laser sight to another while picking up new gun
     * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
+  * [l4d2_incap_gun_replace](/Plugin_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee with regular pistols when incapped.
+    * 倒地時如果手持近戰或瑪格南手槍，改換成其他手槍
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 

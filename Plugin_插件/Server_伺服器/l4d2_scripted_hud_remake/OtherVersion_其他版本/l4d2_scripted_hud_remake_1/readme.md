@@ -19,7 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Display HUD Text on player's screen
-	* Adjust each hud in file [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg),
+	* Adjust each hud in file [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg),
 		* Custom text
 		* Position
 		* Animated movement 

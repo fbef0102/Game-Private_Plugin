@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Display HUD Text on player's screen
-	* Adjust each hud in file [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg),
+	* Adjust each hud in file [data/l4d2_scripted_hud_remake_2.cfg](data/l4d2_scripted_hud_remake_2.cfg),
 		* Custom text
 		* Position
 		* Animated movement 
@@ -120,7 +120,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 功能
 	* 在玩家的畫面上顯示Hud文字
-	* 修改文件 [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg), 自行調整
+	* 修改文件 [data/l4d2_scripted_hud_remake_2.cfg](data/l4d2_scripted_hud_remake_2.cfg), 自行調整
 		* 顯示的文字內容
 		* 顯示位置
 		* 文字移動的動畫效果
@@ -144,7 +144,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d2_scripted_hud_remake_1.cfg
+	* cfg/sourcemod/l4d2_scripted_hud_remake_2.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d2_scripted_hud_remake_2_enable "1"

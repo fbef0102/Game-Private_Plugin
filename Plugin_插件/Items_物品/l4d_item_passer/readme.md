@@ -5,7 +5,8 @@ Player can pass slot 3~5 items(molo, pipe, vomitjar, defi, kit, explosive pack, 
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/1G6euowfyFI)
+* Video | 影片展示
+<br>None
 
 * Image | 圖示
 	<br/>![l4d_item_passer_1](image/l4d_item_passer_1.gif)
