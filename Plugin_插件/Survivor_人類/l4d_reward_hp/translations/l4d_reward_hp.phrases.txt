@@ -4,205 +4,205 @@
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for healing teammate"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (治療隊友)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (治疗队友)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (治療隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (治疗队友)"
 	}
 	"Heal"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for healing teammate"
-		"zho"			"您恢復了 +{1} 血量 (治療隊友)"
-		"chi"			"您恢复了 +{1} 血量 (治疗队友)"
+		"zho"			"您恢復了+{1} 血量 (治療隊友)"
+		"chi"			"您恢复了+{1} 血量 (治疗队友)"
 	}
 	"KillWitchOneShot (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Witch (One shot)"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (秒殺Witch)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (秒杀女巫)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (秒殺Witch)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (秒杀女巫)"
 	}
 	"KillWitchOneShot"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing a Witch (One shot)"
-		"zho"			"您恢復了 +{1} 血量 (秒殺Witch)"
-		"chi"			"您恢复了 +{1} 血量 (秒杀女巫)"
+		"zho"			"您恢復了+{1} 血量 (秒殺Witch)"
+		"chi"			"您恢复了+{1} 血量 (秒杀女巫)"
 	}
-	"KillWitchShots (C)"
+	"DamageWitch (C)"
 	{
 		"#format"		"{1:i}"
-		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Witch"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Witch)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀女巫)"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for dmg to Witch"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (傷害Witch)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (伤害女巫)"
 	}
-	"KillWitchShots"
+	"DamageWitch"
 	{
 		"#format"		"{1:i}"
-		"en"			"You got +{1} HP Reward for killing Witch"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Witch)"
-		"chi"			"您恢复了 +{1} 血量 (击杀女巫)"
+		"en"			"You got +{1} HP Reward for dmg to Witch"
+		"zho"			"您恢復了+{1} 血量 (傷害Witch)"
+		"chi"			"您恢复了+{1} 血量 (伤害女巫)"
 	}
 
-	"KillTank (C)"
+	"DamageTank (C)"
 	{
 		"#format"		"{1:i}"
-		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing tank"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Tank)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Witch)"
+		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for dmg to tank"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (傷害Tank)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (伤害坦克)"
 	}
-	"KillTank"
+	"DamageTank"
 	{
 		"#format"		"{1:i}"
-		"en"			"You got +{1} HP Reward for killing tank"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Tank)"
-		"chi"			"您恢复了 +{1} 血量 (击杀坦克)"
+		"en"			"You got +{1} HP Reward for dmg to tank"
+		"zho"			"您恢復了+{1} 血量 (傷害Tank)"
+		"chi"			"您恢复了+{1} 血量 (伤害坦克)"
 	}
 
 	"KillSmoker (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Smoker"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Smoker)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Smoker)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Smoker)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Smoker)"
 	}
 	"KillSmoker"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Smoker"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Smoker)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Smoker)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Smoker)"
+		"chi"			"您恢复了+{1} 血量 (击杀Smoker)"
 	}
 
 	"KillBoomer (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Boomer"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Boomer)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Boomer)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Boomer)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Boomer)"
 	}
 
 	"KillBoomer"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Boomer"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Boomer)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Boomer)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Boomer)"
+		"chi"			"您恢复了+{1} 血量 (击杀Boomer)"
 	}
 
 	"KillHunter (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Hunter"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Hunter)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Hunter)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Hunter)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Hunter)"
 	}
 	"KillHunter"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Hunter"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Hunter)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Hunter)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Hunter)"
+		"chi"			"您恢复了+{1} 血量 (击杀Hunter)"
 	}
 
 	"KillSpitter (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Spitter"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Spitter)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Spitter)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Spitter)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Spitter)"
 	}
 	"KillSpitter"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Spitter"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Spitter)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Spitter)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Spitter)"
+		"chi"			"您恢复了+{1} 血量 (击杀Spitter)"
 	}
 
 	"KillJockey (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Jockey"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Jockey)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Jockey)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Jockey)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Jockey)"
 	}
 	"KillJockey"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Jockey"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Jockey)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Jockey)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Jockey)"
+		"chi"			"您恢复了+{1} 血量 (击杀Jockey)"
 	}
 
 	"KillCharger (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for killing Charger"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (擊殺Charger)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (击杀Charger)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (擊殺Charger)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (击杀Charger)"
 	}
 	"KillCharger"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for killing Charger"
-		"zho"			"您恢復了 +{1} 血量 (擊殺Charger)"
-		"chi"			"您恢复了 +{1} 血量 (击杀Charger)"
+		"zho"			"您恢復了+{1} 血量 (擊殺Charger)"
+		"chi"			"您恢复了+{1} 血量 (击杀Charger)"
 	}
 
 	"Defi (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for saving people with defibrillator"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (復活隊友)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (复活队友)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (復活隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (复活队友)"
 	}
 	"Defi"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for saving people with defibrillator"
-		"zho"			"您恢復了 +{1} 血量 (復活隊友)"
-		"chi"			"您恢复了 +{1} 血量 (复活队友)"
+		"zho"			"您恢復了+{1} 血量 (復活隊友)"
+		"chi"			"您恢复了+{1} 血量 (复活队友)"
 	}
 	"ReviveHang (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for reviving teammate hanging from ledge"
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (救起掛邊隊友)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (救起挂边队友)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (救起掛邊隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (救起挂边队友)"
 	}
 	"ReviveHang"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for reviving teammate hanging from ledge"
-		"zho"			"您恢復了 +{1} 血量 (救起掛邊隊友)"
-		"chi"			"您恢复了 +{1} 血量 (救起挂边队友)"
+		"zho"			"您恢復了+{1} 血量 (救起掛邊隊友)"
+		"chi"			"您恢复了+{1} 血量 (救起挂边队友)"
 	}
 	"ReviveIncap (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for reviving incapacitated teammate."
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (救起倒地隊友)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (救起倒地队友)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (救起倒地隊友)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (救起倒地队友)"
 	}
 	"ReviveIncap"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for reviving incapacitated teammate."
-		"zho"			"您恢復了 +{1} 血量 (救起倒地隊友)"
-		"chi"			"您恢复了 +{1} 血量 (救起倒地队友)"
+		"zho"			"您恢復了+{1} 血量 (救起倒地隊友)"
+		"chi"			"您恢复了+{1} 血量 (救起倒地队友)"
 	}
 	"Rescue (C)"
 	{
 		"#format"		"{1:i}"
 		"en"			"[{olive}TS{default}] You got {green}+{1}{default} HP Reward for doing the rescue."
-		"zho"			"[{olive}TS{default}] 您恢復了 {green}+{1}{default} 血量 (營救倖存者)"
-		"chi"			"[{olive}TS{default}] 您恢复了 {green}+{1}{default} 血量 (营救生还者)"
+		"zho"			"[{olive}TS{default}] 您恢復了{green}+{1}{default} 血量 (營救倖存者)"
+		"chi"			"[{olive}TS{default}] 您恢复了{green}+{1}{default} 血量 (营救生还者)"
 	}
 	"Rescue"
 	{
 		"#format"		"{1:i}"
 		"en"			"You got +{1} HP Reward for doing the rescue."
-		"zho"			"您恢復了 +{1} 血量 (營救倖存者)"
-		"chi"			"您恢复了 +{1} 血量 (营救生还者)"
+		"zho"			"您恢復了+{1} 血量 (營救倖存者)"
+		"chi"			"您恢复了+{1} 血量 (营救生还者)"
 	}
 }

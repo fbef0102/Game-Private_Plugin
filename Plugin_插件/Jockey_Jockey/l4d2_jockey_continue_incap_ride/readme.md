@@ -14,8 +14,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Jockey can ride the incapacitated survivor
-	* Does not apply to AI Jockeys
+	* Jockey can ride the survivor who is already incapacitated (Not hanging from ledge)
+	* Jockey can continue to ride the survivor who is about be incapacitated. 
+		* Jockey keeps riding until survivor's 300 incap HP reached zero
+	* By default, AI Jockeys won't target incapacitated survivors
+		* You install [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): Make AI Jockeys target incapacitated survivors
 </details>
 
 * Require | 必要安裝
@@ -66,10 +69,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//dcx2 @ 2013
-	//HarryPotter @ 2023
-	```
 	* v1.2h (2023-11-25)
 		* Add gamedata to support damage hurt, thanks to [Forgetest](https://github.com/jensewe)
 
@@ -92,9 +91,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 Jockey可以繼續騎倒地的倖存者
 
 * 原理
-	* Jockey可以繼續騎倒地的倖存者 (掛邊不算)
-	* 如果倖存者即將倒地，則Jockey可以續騎
-	* AI Jockey不適用
+	* Jockey可以繼續騎已經倒在地上的倖存者 (掛邊不算)
+	* Jockey騎的時候，倖存者不會倒地而是繼續被騎，直到倖存者倒到的300HP血量耗盡死亡
+	* AI Jockey也適用，AI Jockey不會主動去騎倒地的玩家
+		* 可安裝 [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): 能使AI Jockey主動騎倒地的倖存者
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

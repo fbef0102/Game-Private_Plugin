@@ -93,7 +93,7 @@
 
   * <details><summary><b>Notice</b></summary>
 
-    * If you want free plugins, cheeck below ["Public Plugins List"](#公開的插件列表-public-plugins-list)
+    * If you want free plugins, check below ["Public Plugins List"](#公開的插件列表-public-plugins-list)
     * Ask price before deal  
     * I won't repeat any questions or steps that have been already mentioned in manual
     * Extra new request or new function, extra payment
@@ -167,6 +167,8 @@
     * 保護一些敏感的指令數值，不讓外界與客戶端查看，服務器內的客戶端可能會看到假數值
   * [l4d2_lock_director_script_value](/Plugin_插件/Server_伺服器/l4d2_lock_director_script_value): Force director script values by config instead of VPK or vscript file
     * 使用data文件強制修改導演系統的參數，無須安裝vpk或撰寫vscript
+  * [l4d_name_prefix_game](/Plugin_插件/Server_伺服器/l4d_name_prefix_game): Set Prefix Name based on team, character, infected class
+    * 根據玩家的狀態與所在隊伍在名字前面增加前輟
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>

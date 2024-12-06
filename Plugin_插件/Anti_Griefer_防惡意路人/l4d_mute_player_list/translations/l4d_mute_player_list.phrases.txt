@@ -92,4 +92,20 @@
 		"zho"		"{1} 已在個人名單上 移除封鎖 {2} 的語音."
 		"chi"		"{1} 已在个人名单上 解除屏蔽 {2} 的语音."
 	}
+
+	"Mute_Mic_Note (C)"
+	{
+		"#format"	"{1:N}"
+		"en"		"You muted {olive}{1}{default}'s mic voice personally. Type {green}!mutemenu{default} to unmute"
+		"zho"		"你已私下封鎖 {olive}{1}{default} 的語音. 若要解除封鎖, 輸入 {green}!mutemenu{default}"
+		"chi"		"你已私下封锁 {olive}{1}{default} 的语音. 若要解除封锁, 输入 {green}!mutemenu{default}"
+	}
+
+	"Mute_Chat_Note (C)"
+	{
+		"#format"	"{1:N}"
+		"en"		"You muted {olive}{1}{default}'s mic voice personally. Type {green}!mutemenu{default} to unmute"
+		"zho"		"你已私下封鎖 {olive}{1}{default} 的文字聊天. 若要解除封鎖, 輸入 {green}!mutemenu{default}"
+		"chi"		"你已私下封锁 {olive}{1}{default} 的文字聊天. 若要解除封锁, 输入 {green}!mutemenu{default}"
+	}
 }

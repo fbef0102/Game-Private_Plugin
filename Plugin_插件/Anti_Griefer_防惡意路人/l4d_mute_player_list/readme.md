@@ -13,9 +13,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type ```!mutemenu -> Display Menu -> choose player -> mute player chat text or mte player mic voice```
-		* mute player mic voice: you won't hear this player's mic voice
-		* mute player chat text: you won't see this player's context in chatbox
+	* Type ```!mutemenu``` -> Display Menu -> choose player
+		* Mute player mic voice: you won't hear this player's mic voice
+		* Mute player chat text: you won't see this player's context in chatbox
+	* Save player's mute list in data file: [data/l4d_mute_player_list.cfg](data/l4d_mute_player_list.cfg)
+		* The player can have same personal mute list even if server restart or disconnect from server.
+		* DO NOT MODIFY data file unlesss you know what you are doing
 	* Admin won't be muted
 </details>
 
@@ -35,6 +38,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Players with these flags will not be in the mute list. (Empty = Everyone, -1: Nobody)
 		l4d_mute_player_list_ignore_flag "z"
+
+		// If 1, save player's personal mute list in data file: data/l4d_mute_player_list.cfg
+		// The player can have same personal mute list even if server restart or disconnect from server.
+		l4d_mute_player_list_save_data "1"
 		```
 </details>
 
@@ -43,6 +50,55 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **Open menu to mute other player's chat text and mic voice**
 		```php
 		sm_mutemenu
+		```
+</details>
+
+* <details><summary>Data Config</summary>
+
+	* [data/l4d_mute_player_list.cfg](data/l4d_mute_player_list.cfg)
+	* DO NOT MODIFY this file unlesss you know what you are doing
+		```php
+		"l4d_mute_player_list"
+		{
+			// Player A Steam ID 64
+			"76561198026784913"
+			{
+				// Player A Name
+				"Name"		"HarryPotter_"
+
+				// Player A's personal mute mic list
+				// Player A personally mute Player B's mic voice
+				"mute_mic"
+				{
+					// Player B Steam ID 64
+					"76561198835850999" 
+					{
+						// Player B Name
+						"Name"		"I am Retarded"
+					}
+					"1234567890"
+					{
+						"Name"		"xxxxxx"
+					}
+				}
+
+				// Player A's personal mute chat list
+				// Player A personally mute Player B's mic chat text
+				"mute_chat"
+				{
+					// Player B Steam ID 64
+					"76561198835850999"
+					{
+						// Player B Name
+						"Name"		"I am Retarded"
+					}
+					"1234567890"
+					{
+						"Name"		"xxxxxx"
+					}
+				}
+			}
+		}
 		```
 </details>
 
@@ -63,6 +119,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2024-12-6)
+		* Save player's mute list in data file
+		* The player can have same personal mute list even if server restart or disconnect from server.
+
 	* v1.2 (2024-8-3)
 		* Require simple_chatprocessor 1.8h or above
 
@@ -82,9 +142,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_mute_player_list_2_zho](image/zho/l4d_mute_player_list_2_zho.jpg)
 
 * 原理
-	* 每一位玩家可以輸入!mutemenu，選擇其他玩家採取動作，封鎖語音或聊天文字
+	* 每一位玩家可以輸入```!mutemenu```，選擇其他玩家採取動作
 		* 封鎖語音: 聽不見這位玩家發出的語音 (其他人依然能聽見)
 		* 封鎖聊天文字: 看不見這位玩家輸入的聊天文字 (其他人依然能看見)
+	* 儲存玩家的封鎖表於文件: [data/l4d_mute_player_list.cfg](data/l4d_mute_player_list.cfg)
+		* 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖表
+		* 不要修改此文件除非你知道這是在幹嗎
 	* 管理員不會被封鎖
 
 * 用意在哪?
@@ -103,6 +166,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 擁有這些權限的玩家，不會被其他玩家封鎖語音或聊天文字 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
 		l4d_mute_player_list_ignore_flag "z"
+
+		// 為1時，儲存玩家的封鎖表於文件: data/l4d_mute_player_list.cfg
+		// 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖表
+		l4d_mute_player_list_save_data "1"
 		```
 </details>
 
@@ -111,5 +178,54 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **打開選單，選擇其他玩家採取動作，封鎖語音或聊天文字**
 		```php
 		sm_mutemenu
+		```
+</details>
+
+* <details><summary>數據文件</summary>
+
+	* [data/l4d_mute_player_list.cfg](data/l4d_mute_player_list.cfg)
+	* 不要修改此文件除非你知道這是在幹嗎
+		```php
+		"l4d_mute_player_list"
+		{
+			// 玩家A的Steam ID 64
+			"76561198026784913"
+			{
+				// 玩家A的名稱
+				"Name"		"HarryPotter_"
+
+				// 玩家A的個人封鎖語音列表
+				// 玩家A對玩家B封鎖語音
+				"mute_mic"
+				{
+					// 玩家B的Steam ID 64
+					"76561198835850999" 
+					{
+						// 玩家B的名稱
+						"Name"		"智障俄羅斯玩家"
+					}
+					"1234567890"
+					{
+						"Name"		"xxxxxx"
+					}
+				}
+
+				// 玩家A的個人封鎖聊天文字列表
+				// 玩家A對玩家B封鎖聊天文字
+				"mute_chat"
+				{
+					// 玩家B的Steam ID 64
+					"76561198835850999"
+					{
+						// 玩家B的名稱
+						"Name"		"智障俄羅斯玩家"
+					}
+					"1234567890"
+					{
+						"Name"		"xxxxxx"
+					}
+				}
+			}
+		}
 		```
 </details>

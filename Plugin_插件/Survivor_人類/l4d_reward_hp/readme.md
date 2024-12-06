@@ -13,8 +13,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Hp Reward for helping teammate
-	* Hp Reward for killing Tank or Witch
+	* Hp Reward for helping teammate, reviving the teammate, and doing the rescue.
+	* Hp Reward for killing Tank,Witch, and S.I.
+	* Can gain over 100 hp
 </details>
 
 * Require | 必要安裝
@@ -31,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_reward_hp_announce_type "1"
 
-		// Hp reward for healing people with kit.
+		// Hp reward for healing people with kit, Hp = amount of health restored ÷ this value.
 		l4d_reward_hp_heal_teammate "8"
 
 		// Hp reward for killing Smoker.
@@ -52,16 +53,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Hp reward for killing Charger.
 		l4d_reward_hp_kill_charger "3"
 
-		// Hp reward for killing Tank.
-		l4d_reward_hp_kill_tank "10"
+		// Hp reward on tank death. Hp = damage to Tank ÷ this value. (0=Off)
+		l4d_reward_hp_hurt_tank "600"
 
-		// Hp reward for killing Witch (Many shots).
-		l4d_reward_hp_kill_witch_shots "5"
+		// Hp reward on witch death. Hp = damage to witch ÷ this value. (0=Off)
+		l4d_reward_hp_hurt_witch "250"
 
 		// Hp reward for killing Witch (One shot).
 		l4d_reward_hp_kill_witch_one_shot "10"
 
-		// Hp reward for doing the rescue.
+		// Hp reward for saving people from rescue room.
 		l4d_reward_hp_rescue_teammate "5"
 
 		// Hp reward for reviving the incapacitated teammate.
@@ -106,6 +107,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2024-12-6)
+		* Update cvars
+		* Update translation
+		* Hp reward based on dmg to tank/witch
+		* Hp reward based on amount of health restored for healing people
+
 	* v1.2 (2024-8-31)
 		* Update cvars
 		* Update translation
@@ -140,7 +147,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 血量獎賞提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_reward_hp_announce_type "1"
 
-		// 治療隊友 獲得的血量
+		// 治療隊友 獲得血量 (獲得的血量 = 治療恢復的血量 / 此數值)
 		l4d_reward_hp_heal_teammate "8"
 
 		// 殺死 Smoker 獲得的血量
@@ -161,11 +168,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 殺死 Charger 獲得的血量 
 		l4d_reward_hp_kill_charger "3"
 
-		// 殺死Tank 獲得的血量
-		l4d_reward_hp_kill_tank "10"
+		// 殺死Tank 獲得的血量 (獲得的血量 = 玩家對Tank的傷害 ÷ 此數值), 0=關閉
+		l4d_reward_hp_hurt_tank "600"
 
-		// 殺死Witch 獲得的血量 (不是一發死)
-		l4d_reward_hp_kill_witch_shots "5"
+		// 殺死Witch 獲得的血量 (不是一發死掉, 獲得的血量 = 玩家對Witch的傷害 ÷ 此數值), 0=關閉
+		l4d_reward_hp_hurt_witch "250"
 
 		// 殺死Witch 獲得的血量 (一發死)
 		l4d_reward_hp_kill_witch_one_shot "10"

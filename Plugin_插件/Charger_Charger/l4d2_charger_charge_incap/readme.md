@@ -15,7 +15,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Charger can carry any incapacitated player
 	* Charger can impact any incapacitated player during charging
-	* Also apply to bot charger
+	* By default, AI Chargers won't target incapacitated survivors
+		* You install [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): Make AI Chargers target incapacitated survivors
 </details>
 
 * Require | 必要安裝
@@ -67,8 +68,8 @@ Charger可以衝撞帶走倒地的倖存者並撞倒他們
 * 原理
 	* 衝刺期間能夠抓起倒地玩家
 	* 衝刺期間可以撞飛倒地玩家
-	* Bot Charger 也適用
-		* 不影響bot的行為，不會主動衝撞倒地的倖存者
+	* AI Charger也適用，但AI Charger不會主動去撞倒地的玩家
+		* 可安裝 [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): 能使AI Charger主動撞倒地的倖存者
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

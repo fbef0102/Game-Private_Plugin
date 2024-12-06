@@ -14,8 +14,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Smoker can target incapacitated/hanging from ledge survivors -> shoot tongue to drag and pull
-	* Does not apply to AI Smokers
+	* Smoker can target incapacitated/ledge hanging survivors -> shoot tongue to drag and pull
+	* By default, AI Smokers won't target incapacitated/ledge hanging survivors
+		* You install [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): Make AI Smokers target incapacitated/ledge hanging survivors
 </details>
 
 * Require | 必要安裝
@@ -60,7 +61,8 @@ Somker可以對倒地的倖存者吐出舌頭並拖走
 * 原理
 	* Smoker準心對準倒地的倖存者，可以吐舌頭拖走
 	* 掛邊的倖存者也可以
-	* AI Smoker不適用
+	* AI Smoker也適用，AI Smoker不會主動拉倒地的倖存者
+		* 可安裝 [Target Override](https://forums.alliedmods.net/showthread.php?p=2688165): 能使AI Smoker主動拉倒地的倖存者
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

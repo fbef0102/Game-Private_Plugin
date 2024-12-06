@@ -17,6 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* When swing the melee
 		* Press shift -> Shock effect: slash the C.I./S.I./witch around you (dmg_slash)
 		* Press Reload -> Burn effect: slash + burn the C.I./S.I./witch around you (dmg_slash + incendiary bullet)
+	* Modify glow, range, damage in [data/l4d2_melee_shock.cfg](data/l4d2_melee_shock.cfg)
 </details>
 
 * Require | 必要安裝
@@ -35,12 +36,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Command | 命令</summary>
 
 	None
-</details>
-
-* <details><summary>Data Config</summary>
-  
-	* [data/l4d2_melee_shock.cfg](data/l4d2_melee_shock.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -62,6 +57,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 當左鍵揮砍近戰時
 		* 按住shift鍵: 隔空砍傷周圍的殭屍與特感
 		* 按住R鍵: 隔空砍傷周圍的殭屍與特感並給予灼傷效果
+	* 文件設置按鍵、顏色、範圍、傷害: [data/l4d2_melee_shock.cfg](data/l4d2_melee_shock.cfg)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -70,10 +66,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d2_melee_shock_enable "1"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-  
-	* [data/l4d2_melee_shock.cfg](data/l4d2_melee_shock.cfg)
-		> 內有中文說明，可點擊查看
 </details>
