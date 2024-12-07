@@ -81,10 +81,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Damage to special special infected
 		l4d_jump_battale_kick_damage_si "40.0"
 
-		// Damage to common infected
+		// Damage to witch
 		l4d_jump_battale_kick_damage_witch "100.0"
 
-		// Damage to witch
+		// Damage to common infected
 		l4d_jump_battale_kick_damage_common "50.0"
 
 		// Damage to teammate

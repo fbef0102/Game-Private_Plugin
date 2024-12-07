@@ -393,8 +393,8 @@
     * 給真人倖存者玩家增加許多能力
   * [l4d_kill_combo](/Plugin_插件/Survivor_人類/l4d_kill_combo): Display Kill Combo and play sound when killing special infected
     * 連續擊殺特感會有提示與音效
-  * [l4d_block_ff_shake](/Plugin_插件/Survivor_人類/l4d_block_ff_shake): No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
-    * 關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
+  * [l4d_block_ff_shake](/Plugin_插件/Survivor_人類/l4d_block_ff_shake): Prevent survivor vision from getting experiencing recoil and screen shaking when teammates or bots shoot/shove you
+    * 關閉子彈打中與右鍵推人造成隊友螢幕晃動與後座力降低
   * [l4d2_afk_saveweapons](/Plugin_插件/Survivor_人類/l4d2_afk_saveweapons): Save weapons/items when survivor player going AFK or Game Crash
     * 當倖存者玩家閒置、旁觀、崩潰、閃退時，保存攜帶的武器、物資
   * [l4d_disable_ledgehang](/Plugin_插件/Survivor_人類/l4d_disable_ledgehang): Disable ledge hanging by player

@@ -18,10 +18,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
+	* Type ```!buy``` in chatbox, buy anything you want, have special items
 	* (Survivor) Killing zombies and infected to earn credits
 	* (Infected) Doing Damage to survivors to earn credits
-	* Type !buy in chatbox, buy anything you want
 	* Save player's credits to server. (Database)
+		* Player will can keep credits even if server restart or player disconnect from server
+	* Modify item price or disable item: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 * Require | 必要安裝
@@ -57,8 +59,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Giving money for killing a spitter
 		sm_shop_spitterkilled "10"
 
-		// Giving one dollar money for hurting tank per X hp
-		sm_shop_tank_hurt "40"
+		// Giving money on tank death, money = hurting tank hp ÷ this value
+		sm_shop_tank_hurt "100"
 
 		// Giving money for killing a witch
 		sm_shop_witchkilled "80"
@@ -83,12 +85,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 dollar)
 		sm_shop_survivor_TK_enable "1"
-
-		// Can not buy gas can in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-		sm_shop_gascan_map_off "c1m4_atrium,c6m3_port,c14m2_lighthouse"
-
-		// Can not buy cola in these maps, separate by commas (no spaces). (0=All maps, Empty = none).
-		sm_shop_cola_map_off "c1m2_streets"
 
 		// Max Air Jump Limit for survivor special item.
 		sm_shop_special_max_jump_limit "3"
@@ -176,6 +172,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_credit
 		sm_credits
 		```
+
 	* **Buy item short command list**
 		```php
 		Weapon
@@ -261,7 +258,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"!buy Kill_Commons"				-> Kill Commons
 			"!buy Kill_Witches"				-> Kill Witches
 			"!buy Heal_Survivors"			-> Heal Survivors
-			"!buy Jump+1"					-> Jump+1
+			"!buy jump_add_1"				-> Jump On Air +1
 			"!buy Slay_Infected"			-> Slay Infected Attacker
 			"!buy Respawn"					-> Respawn Alive
 			"!buy Freeze_Infected"			-> Freeze-Infected
@@ -281,7 +278,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		Infected Special
 		{
-			"!buy Health" 	-> Full Health
+			"!buy Health" 	-> Restore Health
 			"!buy Teleport" -> Teleport to survivor
 			"!buy Immune" 	-> Immune Everything
 			"!buy Horde" 	-> Zombie Horde
@@ -309,13 +306,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_allbank [name]
 		```
 
-	* **Adm gives/reduces money (ADMFLAG_BAN)**
+	* **Adm gives/reduces money (ADMFLAG_ROOT)**
 		```php
 		sm_givemoney <name> <+-money>
 		sm_givecredit <name> <+-money>
 		```
 
-	* **Adm removes player's all money (ADMFLAG_BAN)**
+	* **Adm removes player's all money (ADMFLAG_ROOT)**
 		```php
 		sm_clearmoney <name>
 		sm_deductmoney <name>
@@ -324,80 +321,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Special Item</summary>
 
-	* **Survivor Shop**
-		* Fire
-		<br/>Description: Do you feel annoying that you are surrounded by common infecteds?
-		No need to throw molotov or use melee, create fire around you!!
-
-		* Boom
-		<br/>Description: Create the pipebomb from you and it is going to explode!!
-
-		* Adrenaline_Power
-		<br/>Description: Gain Adrenaline Power RIGHT NOW!! Move Faster and Save Faster
-
-		* Revive
-		<br/>Description: Save yourself when handing from ledge or incapacitated
-
-		* Fire Infeceted
-		<br/>Description: Tank throws a rock on the roof and smoker uses his tongue from nowhere, buy this item to burn them all!!
-
-		* Teleport
-		<br/>Description: Are you always alone and behind your team? Don't worry, buy this item to teleport back to your team.
-
-		* Infinite Ammo
-		<br/>Description: Just shoot the enemy and no need to reload your gun. Enjoy the fun
-
-		* Dead Eyes
-		<br/>Description: Special Infecteds always hide and seek, buy this item to see them all!!
-		<br/>![Dead_Eyes](image/Dead_Eyes.jpg)
-		
-		* No Friendly Fire
-		<br/>Description: Are you tired of stupid friendly fire ? You are gonna love this item.
-
-		* Kill Commons
-		<br/>Description: Hate zombies, hate horde? Kill them all
-
-		* Kill Witches
-		<br/>Description: No longer you hear witch crying!
-
-		* Heal Survivors
-		<br/>Description: Your teammates are all down, buy this item to bring your team back to fight again.. No Surrender !!!
-
-		* Jump+1
-		<br/>Description: Now you are super mario, jump and skip the path quickly.
-
-		* Slay Infected Attacker
-		<br/>Description: Smoker drags you, Hunter pounces you, Jockey rides on you, charger charges you, and you can't do anything. Now buy this item to slay the infected and be free again.
-
-		* Respawn Alive
-		<br/>Description: Dead person isn't a good survivor, activate spell card: Dead Reborn
-
-		* Ice World
-		<br/>Description: Freeze All Infected, they can't move and attack. The most powerful item :D
-		<br/>![Ice_World](image/Ice_World.jpg)
-
-	* **Infected Shop**
-		* Full Health
-		<br/>Description: You can have second chance.
-
-		* Zombie Horde
-		<br/>Description: Mob Incoming !!! Keep survivors busy.
-
-		* Spawn Witch
-		<br/>Description: Choose your location wisely and spawn a witch, survivors will feel very hard to complete the mission.
-		<br/>![Spawn_Witch](image/Spawn_Witch.jpg)
-
-		* Teleport
-		<br/>Description: Do you want to attack immediately? Give survivors a surprise !
-
-		* God Mode
-		<br/>Description: Being immune every damage from survivors, they can't stumble you, they can't shove you. No one can stop you, You are THE GOD!
-		<br/>![God_Mode](image/God_Mode.jpg)
-</details>
-
-* <details><summary>How to modify the item price</summary>
-
-	* Modify [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+	* See [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 * <details><summary>Database</summary>
@@ -443,6 +367,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.5 (2024-12-7)
+		* Update data
+		* Update translation
+		* Support custom melee from custom map
+
 	* v5.4 (2024-6-19)
 		* Fix translation
 
@@ -479,11 +408,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * 原理
+	* 輸入```!buy```購買商品，有特殊商品
 	* (人類) 殺死特感與小殭屍獲取金額
 	* (特感) 對倖存者造成傷害獲取金額
-	* 輸入!buy購買商品，有特殊商品
 	* 能購轉移金錢給其他玩家
 	* 跨伺服器資料庫儲存設定
+		* 玩家下次進來伺服器依然保留自己的金額
+	* 設定商品金額: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -513,8 +444,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 殺死 Spitter 獲得的金額
 		sm_shop_spitterkilled "10"
 
-		// 每對Tank造成40滴傷害，獲得一元
-		sm_shop_tank_hurt "40"
+		// Tank死亡後給予有造成傷害的倖存者金錢，金額 = 造成Tank傷害 ÷ 此數值
+		sm_shop_tank_hurt "100"
 
 		// 殺死 Witch 獲得的金額
 		sm_shop_witchkilled "80"
@@ -539,12 +470,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，友傷會扣除金錢 (1hp = 1元)
 		sm_shop_survivor_TK_enable "1"
-
-		// 不能在這些地圖上購買汽油桶 (無空白). (0=全部地圖，留白=無)
-		sm_shop_gascan_map_off "c1m4_atrium,c6m3_port,c14m2_lighthouse"
-
-		// 不能在這些地圖上購買可樂瓶 (無空白). (0=全部地圖，留白=無)
-		sm_shop_cola_map_off "c1m2_streets"
 
 		// (倖存者特殊商品) "超級瑪利歐 跳躍+1" 最大跳躍數
 		sm_shop_special_max_jump_limit "3"
@@ -719,7 +644,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"!buy Kill_Commons"				-> 殺死所有普通殭屍
 			"!buy Kill_Witches"				-> 殺死所有Witch
 			"!buy Heal_Survivors"			-> 團隊治癒+100
-			"!buy Jump+1"					-> 超級瑪利歐
+			"!buy jump_add_1"				-> 超級瑪利歐, 空中跳躍+1
 			"!buy Slay_Infected"			-> 處死攻擊你的特感
 			"!buy Respawn"					-> 魔法卡: 死者甦醒
 			"!buy Freeze_Infected"			-> 冰凍世界
@@ -739,8 +664,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		快速購買特感特殊物品
 		{
-			"!buy Health" 	-> 滿血恢復
-			"!buy Teleport" -> 異時空傳送門
+			"!buy Health" 	-> 恢復一定血量
+			"!buy Teleport" -> 異時空傳送門 (Tank不能購買)
 			"!buy Immune" 	-> God 上帝模式
 			"!buy Horde" 	-> 屍潮降臨
 			"!buy Witch" 	-> 召喚Witch
@@ -767,22 +692,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_allbank [name]
 		```
 
-	* **管理員打錢 (權限：ADMFLAG_BAN)**
+	* **管理員打錢 (權限：ADMFLAG_ROOT)**
 		```php
 		sm_givemoney <玩家名稱> <+-金錢>
 		sm_givecredit <玩家名稱> <+-金錢>
 		```
 
-	* **管理員沒收玩家的金錢 (權限：ADMFLAG_BAN)**
+	* **管理員沒收玩家的金錢 (權限：ADMFLAG_ROOT)**
 		```php
 		sm_clearmoney <玩家名稱>
 		sm_deductmoney <玩家名稱>
 		```
-</details>
-
-* <details><summary>如何設定各商品金額</summary>
-
-	* 修改文件 [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 * <details><summary>資料庫設定</summary>
@@ -810,65 +730,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>特殊商品中文介紹 (點我展開)</summary>
 
-	* **人類商品**
-		* 振火神通
-		<br/>說明: 原地著火
-
-		* 爆爆王
-		<br/>說明: 創造一顆即將要爆炸的土製炸彈
-
-		* 注射興奮劑 (短暫時間)
-		<br/>說明: 直接獲得腎上腺素效果
-
-		* 拯救自己
-		<br/>說明: 掛邊或倒地時自救
-
-		* 炎之呼吸
-		<br/>說明: 所有特感著火
-
-		* 飛雷神之術
-		<br/>說明: 傳送到附近的隊友身上
-
-		* 無限子彈 (短暫時間)
-
-		* 心靈透視
-		<br/>說明: 直接看到特感與小殭屍位置
-		<br/>![Dead_Eyes](image/Dead_Eyes.jpg)
-		
-		* 不會造成與受到友傷 (當前回合)
-
-		* 殺死所有普通殭屍
-
-		* 殺死所有Witch
-
-		* 團隊治癒+100
-
-		* 超級瑪利歐 跳躍+1 (當前回合)
-		<br/>說明: 空中二段跳
-
-		* 處死攻擊你的特感
-
-		* 魔法卡: 死者甦醒
-		<br/>說明: 從死亡狀態直接復活
-
-		* 冰凍世界 (短暫時間)
-		<br/>說明: 凍結所有特感，所有特感均不能移動與攻擊
-		<br/>![Ice_World](image/Ice_World.jpg)
-
-	* **特感商品**
-		* 滿血恢復
-
-		* 屍潮降臨
-
-		* 召喚Witch (在你的位置上)
-		<br/>![Spawn_Witch](image/Spawn_Witch.jpg)
-
-		* 異時空傳送門
-		<br/>說明: 直接傳送到人類身上
-
-		* God 上帝模式 (短暫時間)
-		<br/>說明: 不會被震暈、不會被推開、不會受傷，無人能擋
-		<br/>![God_Mode](image/God_Mode.jpg)
+	* 查看 [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
 </details>
 
 

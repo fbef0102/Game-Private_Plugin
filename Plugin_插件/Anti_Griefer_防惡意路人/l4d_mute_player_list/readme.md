@@ -36,8 +36,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_mute_player_list_announce_type "1"
 
-		// Players with these flags will not be in the mute list. (Empty = Everyone, -1: Nobody)
-		l4d_mute_player_list_ignore_flag "z"
+		// Players with these flags can use mute voice list. (Empty = Everyone, -1: Nobody)
+		l4d_mute_player_list_flag_voice ""
+
+		// Players with these flags can use mute chat list. (Empty = Everyone, -1: Nobody)
+		l4d_mute_player_list_flag_chat ""
+
+		// Players with these flags will not be in the mute voice list. (Empty = Everyone, -1: Nobody)
+		l4d_mute_player_list_ignore_flag_voice "z"
+
+		// Players with these flags will not be in the mute chat list. (Empty = Everyone, -1: Nobody)
+		l4d_mute_player_list_ignore_flag_chat "z"
 
 		// If 1, save player's personal mute list in data file: data/l4d_mute_player_list.cfg
 		// The player can have same personal mute list even if server restart or disconnect from server.
@@ -119,6 +128,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2024-12-7)
+		* Update cvars
+		* Update translation
+
 	* v1.3 (2024-12-6)
 		* Save player's mute list in data file
 		* The player can have same personal mute list even if server restart or disconnect from server.
@@ -164,8 +177,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_mute_player_list_announce_type "1"
 
-		// 擁有這些權限的玩家，不會被其他玩家封鎖語音或聊天文字 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
-		l4d_mute_player_list_ignore_flag "z"
+		// 擁有這些權限的玩家，可以使用"封鎖語音" (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		l4d_mute_player_list_flag_voice ""
+
+		// 擁有這些權限的玩家，可以使用"封鎖聊天文字" (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		l4d_mute_player_list_flag_chat ""
+
+		// 擁有這些權限的玩家，不會被其他玩家封鎖語音 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		l4d_mute_player_list_ignore_flag_voice "z"
+
+		// 擁有這些權限的玩家，不會被其他玩家封鎖聊天文字 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		l4d_mute_player_list_ignore_flag_chat "z"
 
 		// 為1時，儲存玩家的封鎖表於文件: data/l4d_mute_player_list.cfg
 		// 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖表

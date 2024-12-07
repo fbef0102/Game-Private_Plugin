@@ -218,12 +218,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關最遠 (數值範圍: 0.00~1.00, 0.85代表85%路程)
 		```
 
-* <details><summary>文件設定範例</summary>
-
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		> 點擊文件查看更多說明...
-</details>
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/versusbosses_ifier.cfg
@@ -277,4 +271,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_voteboss <數字> <數字>
 		sm_bossvote <數字> <數字>
 		```
+</details>
+
+* <details><summary>文件設定範例</summary>
+
+	* [data/mapinfo.txt](data/mapinfo.txt)
+		> 點擊文件查看更多說明...
 </details>

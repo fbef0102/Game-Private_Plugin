@@ -20,7 +20,7 @@
 	}
 	"No one"
 	{
-		"en"		"There Are No Any Other Players"
+		"en"		"No Players Available"
 		"zho"       "沒有其他玩家"
 		"chi"       "没有其他玩家"
 	}
@@ -38,59 +38,59 @@
 	}
 	"Chat_blocked (C)"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} have muted {green}{2}{default}'s chat text in personal list."
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 已在個人名單上 封鎖 {green}{2}{default} 的文字聊天."
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 已在个人名单上 屏蔽 {green}{2}{default} 的文字聊天."
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] You muted {green}{1}{default}'s chat text in personal list."
+		"zho"		"[{olive}TS{default}] 您已在個人名單上封鎖 {green}{1}{default} 的文字聊天."
+		"chi"		"[{olive}TS{default}] 您已在个人名单上屏蔽 {green}{1}{default} 的文字聊天."
 	}
 	"Chat_blocked"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"{1} have muted {2}'s chat text in personal list."
-		"zho"		"{1} 已在個人名單上 封鎖 {2} 的文字聊天."
-		"chi"		"{1} 已在个人名单上 屏蔽 {2} 的文字聊天."
+		"#format"	"{1:N}"
+		"en"		"You muted {1}'s chat text in personal list."
+		"zho"		"您已在個人名單上封鎖 {1} 的文字聊天."
+		"chi"		"您已在个人名单上屏蔽 {1} 的文字聊天."
 	}
 	"Chat_unblocked (C)"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} have unmuted {green}{2}{default}'s chat text in personal list."
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 已在個人名單上 移除封鎖 {green}{2}{default} 的文字聊天."
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 已在个人名单上 解除屏蔽 {green}{2}{default} 的文字聊天."
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] You have unmuted {green}{1}{default}'s chat text in personal list."
+		"zho"		"[{olive}TS{default}] 您已在個人名單上移除封鎖 {green}{1}{default} 的文字聊天."
+		"chi"		"[{olive}TS{default}] 您已在个人名单上解除屏蔽 {green}{1}{default} 的文字聊天."
 	}
 	"Chat_unblocked"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"{1} have unmuted {2}'s chat text in personal list."
-		"zho"		"{1} 已在個人名單上 移除封鎖 {2} 的文字聊天."
-		"chi"		"{1} 已在个人名单上 解除屏蔽 {2} 的文字聊天."
+		"#format"	"{1:N}"
+		"en"		"You have unmuted {1}'s chat text in personal list."
+		"zho"		"您已在個人名單上移除封鎖 {1} 的文字聊天."
+		"chi"		"您已在个人名单上解除屏蔽 {1} 的文字聊天."
 	}
 	"Voice_blocked (C)"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} have muted {green}{2}{default}'s mic voice in personal list."
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 已在個人名單上 封鎖 {green}{2}{default} 的語音."
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 已在个人名单上 屏蔽 {green}{2}{default} 的语音."
+		"#format"	"{1:N}"
+		"en"		"[{olive}TS{default}] You have muted {green}{1}{default}'s mic voice in personal list."
+		"zho"		"[{olive}TS{default}] 您已在個人名單上 封鎖 {green}{1}{default} 的語音."
+		"chi"		"[{olive}TS{default}] 您已在个人名单上 屏蔽 {green}{1}{default} 的语音."
 	}
 	"Voice_blocked"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"{1} have muted {2}'s mic voice in personal list."
-		"zho"		"{1} 已在個人名單上 封鎖 {2} 的語音."
-		"chi"		"{1} 已在个人名单上 屏蔽 {2} 的语音."
+		"#format"	"{1:N}"
+		"en"		"You have muted {1}'s mic voice in personal list."
+		"zho"		"您已在個人名單上 封鎖 {1} 的語音."
+		"chi"		"您已在个人名单上 屏蔽 {1} 的语音."
 	}
 	"Voice_unblocked (C)"
 	{
 		"#format"	"{1:N},{2:N}"
-		"en"		"[{olive}TS{default}] {olive}{1}{default} have unmuted {green}{2}{default}'s mic voice in personal list."
-		"zho"		"[{olive}TS{default}] {olive}{1}{default} 已在個人名單上 移除封鎖 {green}{2}{default} 的語音."
-		"chi"		"[{olive}TS{default}] {olive}{1}{default} 已在个人名单上 解除屏蔽 {green}{2}{default} 的语音."
+		"en"		"[{olive}TS{default}] You have unmuted {green}{1}{default}'s mic voice in personal list."
+		"zho"		"[{olive}TS{default}] 您已在個人名單上 移除封鎖 {green}{1}{default} 的語音."
+		"chi"		"[{olive}TS{default}] 您已在个人名单上 解除屏蔽 {green}{1}{default} 的语音."
 	}
 	"Voice_unblocked"
 	{
-		"#format"	"{1:N},{2:N}"
-		"en"		"{1} have unmuted {2}'s mic voice in personal list."
-		"zho"		"{1} 已在個人名單上 移除封鎖 {2} 的語音."
-		"chi"		"{1} 已在个人名单上 解除屏蔽 {2} 的语音."
+		"#format"	"{1:N}"
+		"en"		"You have unmuted {1}'s mic voice in personal list."
+		"zho"		"您已在個人名單上 移除封鎖 {1} 的語音."
+		"chi"		"您已在个人名单上 解除屏蔽 {1} 的语音."
 	}
 
 	"Mute_Mic_Note (C)"
@@ -107,5 +107,12 @@
 		"en"		"You muted {olive}{1}{default}'s mic voice personally. Type {green}!mutemenu{default} to unmute"
 		"zho"		"你已私下封鎖 {olive}{1}{default} 的文字聊天. 若要解除封鎖, 輸入 {green}!mutemenu{default}"
 		"chi"		"你已私下封锁 {olive}{1}{default} 的文字聊天. 若要解除封锁, 输入 {green}!mutemenu{default}"
+	}
+	
+	"No Access"
+	{
+		"en"		"You don't have access"
+		"zho"		"你沒有權限使用"
+		"chi"		"你没有权限使用"
 	}
 }

@@ -1,5 +1,5 @@
 # Description | 內容
-No friendly fire, and prevent survivor vision from getting experiencing recoil and screen shaking
+Prevent survivor vision from getting experiencing recoil and screen shaking when teammates or bots shoot/shove you
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -13,10 +13,25 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* No friendly fire
-	* Prevent survivor vision from getting experiencing recoil and screen shaking
-	* This plugin will disable any friendly fire damage (bullet) between survivors, don't install this with other plugins which modify friendly fire damage.
-	* Molotove, gascan, flame, explosive proptank still does FF damage
+	* Before
+		* When teammmates or ai bots shoot you
+			* Has FF damage
+			* Screen shaking
+			* Experiencing recoil
+		* When teammmates or ai bots shoves you
+			* Screen shaking
+			* Experiencing recoil
+	* After
+		* When teammates or ai bots shoot you
+			* No FF damage
+			* No screen shaking
+			* Not getting experiencing recoil
+		* When teammates or ai bots shove you
+			* No screen shaking
+			* Not getting experiencing recoil
+
+	* 🟥 This plugin will disable any friendly fire bullet damage between survivors, don't install this with other plugins which modify friendly fire damage.
+		* Molotove, gascan, flame, explosive proptank still does FF damage
 </details>
 
 * Require | 必要安裝
@@ -56,20 +71,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-關閉友傷與右鍵推人造成隊友螢幕晃動與後座力降低
+關閉子彈打中與右鍵推人造成隊友螢幕晃動與後座力降低
 
 * 原理
-	* (裝此插件之前) 官方預設中，開槍打到對友
-		* 有友傷
-		* 使得隊友螢幕晃動
-		* 隊友的後座力會降低
-	* (裝此插件之後) 子彈穿透隊友
-		* 不會造成友傷
-		* 不會使得隊友螢幕晃動
-		* 不會使得隊友的後座力降低
-
-* 注意事項
-	* 安裝上此插件會使得倖存者的子彈友傷強制變成0 (火燒傷、瓦斯桶爆炸依然會有傷害)，會與其他有關友傷的插件產生衝突
+	* 裝此插件之前
+		* 官方預設中，當你被隊友或Bots的子彈打中
+			* 有友傷
+			* 使得隊友螢幕晃動
+			* 隊友的後座力會降低
+		* 官方預設中，當你被隊友或Bots的右鍵推到
+			* 使得隊友螢幕晃動
+			* 隊友的後座力會降低
+	* 裝此插件之後
+		* 當你被隊友或Bots的子彈打中
+			* 不會造成友傷，子彈穿透隊友
+			* 不會使得隊友螢幕晃動
+			* 不會使得隊友的後座力降低
+		* 當你被隊友或Bots的右鍵推到
+			* 不會使得隊友螢幕晃動
+			* 不會使得隊友的後座力降低
+	* 🟥 安裝上此插件會使得倖存者的子彈友傷強制變成0，會與其他有關友傷的插件產生衝突
+		* 火燒傷、瓦斯桶爆炸依然會有傷害
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
