@@ -24,6 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Admin types ```!admin``` -> Server Commands -> "List of Maps" -> choose map -> server change map immediately
 	* Player types ```!maplist``` -> call a vote to change map.
 	* Automatically add all official maps and custom maps to menu list, no need to add map manually.
+	* You can add translation for custom maps
 </details>
 
 * <details><summary>Notice</summary>
@@ -95,6 +96,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.3h (2024-12-8)
+        * You can add translation for custom maps
+        * Update translation
+
     * v1.2h (2024-10-11)
         * Fixed map menu mess up or wrong order or missing if there are multi missions or multi gamemodes in vpk file
 
@@ -127,6 +132,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 玩家輸入```!maplist``` -> 即可出現所有地圖與關卡表
       * 選擇關卡之後，發起投票換圖
 	* 自動新增三方圖的地圖與關卡，無須手動新增
+    * 三方圖關卡名稱可自己翻譯
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -143,7 +149,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>命令中文介紹 (點我展開)</summary>
     
 	* **所有地圖與關卡選單**
 		```php

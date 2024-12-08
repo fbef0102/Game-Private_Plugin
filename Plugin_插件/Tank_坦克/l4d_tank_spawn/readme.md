@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// When furthest survivor reach 79% of map completion, 2 Tanks will be spawned.
 			Next Tank Spawn: 79% - Amount: 2
 			```
-	* Disable director/mutation/static tank
+	* Does not affect director tank
 	* (Versus) Tanks will pass to players
 </details>
 
@@ -42,7 +42,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_tank_spawn_enable "1"
 
 		// If 1, Disable director/mutation/static tank spawn
-		l4d_tank_spawn_disable_director "1"
+		l4d_tank_spawn_disable_director "0"
 
 		// Set interval time check to spawn
 		l4d_tank_spawn_interval "0.5"
@@ -170,7 +170,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_tank_spawn_enable "1"
 
 		// 為1時，停止 遊戲導演/突變模式/地圖固定 生成Tank
-		l4d_tank_spawn_disable_director "1"
+		l4d_tank_spawn_disable_director "0"
 
 		// 每0.5秒檢查一次人類路程並生成Tank
 		l4d_tank_spawn_interval "0.5"

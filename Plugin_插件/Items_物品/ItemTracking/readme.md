@@ -37,69 +37,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// If 1, Keep item spawns the same as first sound in coop/realism/survival
 		itemtracking_savespawns_CP "0"
-
-		// Limits the number of adrenaline shots in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		adrenaline_end_area_limit "-1"
-
-		// Limits the number of adrenaline shots outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		adrenaline_limit "-1"
-
-		// Limits the number of adrenaline shots in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		adrenaline_start_area_limit "-1"
-
-		// Limits the number of defibrillators in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		defib_end_area_limit "-1"
-
-		// Limits the number of defibrillators outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		defib_limit "-1"
-
-		// Limits the number of defibrillators in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		defib_start_area_limit "-1"
-
-		// Limits the number of first aid kits in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		kits_end_area_limit "-1"
-
-		// Limits the number of first aid kits outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		kits_limit "-1"
-
-		// Limits the number of first aid kits in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		kits_start_area_limit "-1"
-
-		// Limits the number of molotovs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		molotov_end_area_limit "-1"
-
-		// Limits the number of molotovs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		molotov_limit "-1"
-
-		// Limits the number of molotovs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		molotov_start_area_limit "-1"
-
-		// Limits the number of pain pills in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pills_end_area_limit "-1"
-
-		// Limits the number of pain pills outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pills_limit "-1"
-
-		// Limits the number of pain pills in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pills_start_area_limit "-1"
-
-		// Limits the number of pipe bombs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pipebomb_end_area_limit "-1"
-
-		// Limits the number of pipe bombs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pipebomb_limit "-1"
-
-		// Limits the number of pipe bombs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		pipebomb_start_area_limit "-1"
-
-		// Limits the number of bile bombs in end safe area & in final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		vomitjar_end_area_limit "-1"
-
-		// Limits the number of bile bombs outside saferoom & outside final area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		vomitjar_limit "-1"
-
-		// Limits the number of bile bombs in start safe area on each map by default. -1: Don't Remove; >=0: limit to cvar value
-		vomitjar_start_area_limit "-1"
 		```
 </details>
 
@@ -152,6 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Remove final area
 		* Support all maps
 		* Remake code
+		* control more items: gas cans, prop tanks, oxy tanks, firworks
 
 	* v1.2h (2024-2-19)
 		* Support second final area (ex: c2m5)
@@ -194,69 +132,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 為1時，戰役/寫實/生存模式第二.三.四......回合之後，強制所有物品位置與數量要與第一回合相同
 		itemtracking_savespawns_CP "0"
-
-		// 終點安全區域&救援區域內腎上腺素數量限制（-1=不移除;0=移除全部)
-		adrenaline_end_area_limit "-1"
-
-		// 安全區域/救援區域外腎上腺素數量限制（-1=不移除;0=移除全部)
-		adrenaline_limit "-1"
-
-		// 起始安全區域內腎上腺素數量限制（-1=不移除;0=移除全部)
-		adrenaline_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內電擊器數量限制（-1=不移除;0=移除全部)
-		defib_end_area_limit "-1"
-
-		// 安全區域/救援區域外電擊器數量限制（-1=不移除;0=移除全部)
-		defib_limit "-1"
-
-		// 起始安全區域內電擊器數量限制（-1=不移除;0=移除全部)
-		defib_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內治療包數量限制（-1=不移除;0=移除全部)
-		kits_end_area_limit "-1"
-
-		// 安全區域/救援區域外治療包數量限制（-1=不移除;0=移除全部)
-		kits_limit "-1"
-
-		// 起始安全區域內治療包數量限制（-1=不移除;0=移除全部)
-		kits_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內汽油彈數量限制（-1=不移除;0=移除全部)
-		molotov_end_area_limit "-1"
-
-		// 安全區域/救援區域外汽油彈數量限制（-1=不移除;0=移除全部)
-		molotov_limit "-1"
-
-		// 起始安全區域內汽油彈數量限制（-1=不移除;0=移除全部)
-		molotov_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內藥丸數量限制（-1=不移除;0=移除全部)
-		pills_end_area_limit "-1"
-
-		// 安全區域/救援區域外藥丸數量限制（-1=不移除;0=移除全部)
-		pills_limit "-1"
-
-		// 終點安全區域&救援區域內藥丸數量限制（-1=不移除;0=移除全部)
-		pills_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內土製炸彈數量限制（-1=不移除;0=移除全部)
-		pipebomb_end_area_limit "-1"
-
-		// 安全區域/救援區域外土製炸彈數量限制（-1=不移除;0=移除全部)
-		pipebomb_limit "-1"
-
-		// 終點安全區域&救援區域內土製炸彈數量限制（-1=不移除;0=移除全部)
-		pipebomb_start_area_limit "-1"
-
-		// 終點安全區域&救援區域內膽汁瓶數量限制（-1=不移除;0=移除全部)
-		vomitjar_end_area_limit "-1"
-
-		// 安全區域/救援區域外膽汁瓶數量限制（-1=不移除;0=移除全部)
-		vomitjar_limit "-1"
-
-		// 終點安全區域&救援區域內膽汁瓶數量限制（-1=不移除;0=移除全部)
-		vomitjar_start_area_limit "-1"
 		```
 </details>
 
