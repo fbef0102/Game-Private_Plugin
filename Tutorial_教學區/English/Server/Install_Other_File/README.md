@@ -1,5 +1,5 @@
 # Navigation
-> 2024/11/2 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/12/9 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
@@ -87,7 +87,7 @@
 		```php
 		] meta list
 		Listing 11 plugins:
-		[04] L4DToolZ (1.1.0.2) by Accelerator, Ivailosp
+		[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
 		```
 
 	6. Install plugin [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
@@ -129,7 +129,7 @@
 	5. Restart Server，type ```plugin_print``` in serve console
 		```php
 		] plugin_print
-		1: 　"Tickrate_Enabler 1.6, ProdigySim"
+		1: 　"Tickrate_Enabler 1.5, ProdigySim"
 		```
 
 	6. Join server，open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
@@ -168,27 +168,20 @@
 * When to install?
 	* Plugins that need to retrieve data from client, such as IP, country, region, city.
 		* Plugin: [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
-	* You have geoipcity.ext or geoip2.ext
-		* Unsupported, please REMOVE geoipcity.ext and geoip2.ext, they are now included with SourceMod v1.11 or above
+	* If you have Please geoipcity.ext and geoip2.ext. please REMOVE. They are now included with SourceMod v1.11 or above
 
 * Installation
 	1. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases
 
-	2. [Go to account](https://www.maxmind.com/en/account/) -> My License Keys -> Create new license key.  
+	2. My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
+	<br/>![image](https://github.com/user-attachments/assets/a8155c2b-cf9d-49d8-a7e6-6de1ed0974c1)
 
-	3. Go to this page: https://www.maxmind.com/en/accounts/XXXXXX/geoip/downloads
-		* XXXXXX is your account ID
-		<br/>![ID](https://user-images.githubusercontent.com/12229810/205027221-05798d84-08ab-40c3-8d54-ef66a892c295.jpg)
-
-	4. Seach "GeoLite2 Country" and "GeoLite2 City" -> download databases.
+	3. Seach "GeoLite2 Country" and "GeoLite2 City" -> download databases.
 	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
 	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
 
-	5. Put mmdb database files to path addons/sourcemod/configs/geoip/ folder
+	4. Put GeoLite2-City.mmdb and GeoLite2-Country.mmdb files to path ```addons/sourcemod/configs/geoip/``` folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
-	
-	6. Recompile all plugins that use geoip.inc, done.
-
 - - - -
 ## Others
 * [Questions](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80)

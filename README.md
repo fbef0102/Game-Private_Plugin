@@ -42,6 +42,7 @@
     * 不重複說明書已寫過的步驟或內容，會有插件說明書，不懂可詢問
     * 先詢問價錢與問題再交易，保障雙方權益
     * 想增加、改動插件功能、特殊需求請先說明，新增功能額外付費
+      * 如不接受我改動後販賣，請別來
     * 以交易日期計算只有半年保固期，半年內插件有問題或者出現bug或者有優化可以免費更新修復到好
       * 因其他插件而造成的衝突或錯誤則不在此限
       * 更新的版本有新增額外內容，補小差額，不需要再次重新購買
@@ -97,6 +98,7 @@
     * Ask price before deal  
     * I won't repeat any questions or steps that have been already mentioned in manual
     * Extra new request or new function, extra payment
+      * If you don't agree I sell new request or new function after finish, then don't bother me
     * Half-Year warranty since deal, fix any bug for free
       * Exception: Bug is caused by other plugin conflict.
       * If the updated version has new extra content, add small payment, no need to re-buy full price again
@@ -623,6 +625,8 @@
     * 根據管理員或玩家身分修改聊天窗口的對話顏色
   * [l4d2_melee_knock_survivor](/Plugin_插件/Fun_娛樂/l4d2_melee_knock_survivor): Use Melees to knockback teammates
     * 近戰武器可以把隊友打開
+  * [spray_control_cooldown](/Plugin_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
+    * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
 </details>
 
 * <details><summary><b>Nothing Impossible | 無理改造版</b></summary>
@@ -801,6 +805,7 @@
   * ✗如要架設伺服器、安裝插件，請自己先做功課，過程遇到任何問題可以詢問教學，而不是都丟給其他人做
   * ✗不提供懶人安裝包
   * ✗沒有源碼的插件，請附上來源網址
+  * ✗如不接受我受理需求後販賣，請別來
 </details>
 
 * <details><summary><b>拒絕名單</b></summary>
@@ -844,6 +849,7 @@
   * ✗ Non-steam、old game version、old sourcemod version、decompiled plugin
   * ✗ Only plugin with no source code, please attach original link
   * ✗ I won't provide AllInOne-lazy-package, please do it yourself
+  * ✗ If you don't agree I sell plugins after finish new request or new function, then don't bother me
 </details>
 
 * <details><summary><b>Blacklist</b></summary>

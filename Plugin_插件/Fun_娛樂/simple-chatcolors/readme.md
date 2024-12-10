@@ -9,12 +9,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>None
 
 * Image | 圖示
-	* Admin & VIP colors (管理員 & VIP 顏色)
+	* Chat Colors & Title (聊天的顏色與稱號)
 	<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
-	* Change chat colors in [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
+	* Admin can have different colors and title in chatbox
+	* You can customize in [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
+		* Set admin, vip and normal players
+		* Set chat colors and title
 </details>
 
 * Require | 必要安裝
@@ -37,12 +40,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_printcolors
 		```
-</details>
-
-* <details><summary>Data Config</summary>
-
-	* [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -89,11 +86,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 管理員在聊天窗口輸入文字並送出之後，依照其身分顯示對應的稱號並修改顏色
 	* 普通玩家也可以有稱號與顏色
-	* 自行在文件裡修改顏色與稱號: [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
-
-* <details><summary>文件設定範例</summary>
-
-	* 可自訂顏色與稱號
-	* [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
-		> 內有中文說明，可點擊查看
-</details>
+	* 自行在文件裡修改: [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
+		* 可以自行根據玩家身分做調整
+		* 設置顏色與稱號

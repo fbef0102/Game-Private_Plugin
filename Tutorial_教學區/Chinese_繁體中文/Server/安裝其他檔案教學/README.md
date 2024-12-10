@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/11/2 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2024/12/9 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -86,7 +86,7 @@
 		```php
 		] meta list
 		Listing 11 plugins:
-		[04] L4DToolZ (1.1.0.2) by Accelerator, Ivailosp
+		[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
 		```
 
 	6. 安裝插件[l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
@@ -128,7 +128,7 @@
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
 		] plugin_print
-		1:　"Tickrate_Enabler 1.6, ProdigySim"
+		1:　"Tickrate_Enabler 1.5, ProdigySim"
 		```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
@@ -167,27 +167,20 @@
 * 何時需要用到?
 	* 有插件需要抓取玩家的IP、國家、城市、地區等等
 		* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
-	* 有安裝geoipcity.ext, geoip2.ext等等
-		* 已經過時，請移除geoipcity.ext與geoip2.ext這些檔案並升級sourcemod v1.12以上
+	* 如果你有安裝geoipcity.ext, geoip2.ext，請移除
 
 * 安裝步驟
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)
 
-	2. [到個人帳戶](https://www.maxmind.com/en/account/) -> My License Keys -> Create new license key
+	2. 到個人帳戶: My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
+	<br/>![image](https://github.com/user-attachments/assets/a8155c2b-cf9d-49d8-a7e6-6de1ed0974c1)
 
-	3. 到這個網頁: https://www.maxmind.com/en/accounts/XXXXXX/geoip/downloads
-		* XXXXXX 是你的帳戶ID
-		<br/>![ID](https://user-images.githubusercontent.com/12229810/205027221-05798d84-08ab-40c3-8d54-ef66a892c295.jpg)
-
-	4. 搜尋 "GeoLite2 Country" 和 "GeoLite2 City" -> 下載資料庫
+	3. 搜尋 "GeoLite2 Country" 和 "GeoLite2 City" -> 下載資料庫
 	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
 	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
 
-	5. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 addons/sourcemod/configs/geoip/ 資料夾
+	4. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 addons/sourcemod/configs/geoip/ 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
-	
-	6. 重新編譯有使用 geoip.inc 的插件，大功告成
-
 - - - -
 ## 其他
 * [安裝伺服器與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件)
