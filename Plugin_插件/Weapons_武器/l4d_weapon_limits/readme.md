@@ -1,5 +1,5 @@
 # Description | 內容
-Restrict weapons individually or together
+Restrict weapons and melees individually or together
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -23,8 +23,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
         l4d_weapon_limits_add 0 1 weapon_hunting_rifle
+
+        // limit 2 melee weapons
         l4d_weapon_limits_add 2 0 weapon_melee
+        // limit 1 fireaxe
         l4d_weapon_limits_add 1 0 fireaxe
+        // limit 1 crowbar
         l4d_weapon_limits_add 1 0 crowbar
 
         // Add other custom melee if you want
@@ -145,10 +149,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-限制每個武器可以拿取的數量，超過就不能拿取
+限制每個武器與近戰可以拿取的數量，超過就不能拿取
 
 * 原理
-    * 當要撿起武器時，計算隊友之中已經拿取的數量，超過便不能撿起武器 
+    * 當要撿起武器或進戰時，計算隊友之中已經拿取的數量，超過便不能撿起武器 
     * 可以進一步限制每個近戰種類
     * 適用真人玩家與Bot
 
@@ -163,10 +167,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_limits_add 3 1 weapon_pumpshotgun
         l4d_weapon_limits_add 3 1 weapon_shotgun_chrome
         l4d_weapon_limits_add 1 0 weapon_pistol_magnum
-        l4d_weapon_limits_add 2 0 weapon_melee
         l4d_weapon_limits_add 0 1 weapon_hunting_rifle
-        l4d_weapon_limits_add 1 0 fireaxe
-        l4d_weapon_limits_add 1 0 crowbar
+
+        // 近戰武器限制兩把
+        l4d_weapon_limits_add 2 0 weapon_melee
+        // 斧頭限制一把
+        l4d_weapon_limits_add 1 0 fireaxe 
+        // 鐵撬限制一把
+        l4d_weapon_limits_add 1 0 crowbar 
 
         // 可以自行新增三方圖近戰武器
         // meleejb, finger 近戰武器來自地圖: 廣州增城

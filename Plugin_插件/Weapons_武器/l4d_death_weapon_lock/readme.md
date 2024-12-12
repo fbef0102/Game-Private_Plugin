@@ -8,8 +8,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/TEQUEbWQkCg)
 
 * Image | 圖示
-	* You can't take death player's weapons and items (無法撿起死亡玩家的武器與物品)
+	* You can't pick up death player's weapons and items
     <br/>![l4d_death_weapon_lock_1](image/l4d_death_weapon_lock_1.gif)
+    <br/>![l4d_death_weapon_lock_2](image/l4d_death_weapon_lock_2.jpg)
+
+* <details><summary>How does it work?</summary>
+
+    * When player dies, display menu "Give up weapons?"
+        * Yes -> Lock the weapons and items dropped (red glow), no one can pick up
+        * No -> Unlock the weapons and items dropped (green glow), anyone can pick up
+    * Everyone can pick up if owner has left the server or period time passed
+</details>
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -21,6 +30,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
         // 0=Plugin off, 1=Plugin on.
         l4d_death_weapon_lock_enable "1"
+
+        // Players with these flags can lock their own weapons and items when they die. (Empty = Everyone, -1: Nobody)
+        l4d_death_weapon_lock_access_flag ""
+
+        // If 1, Display menu to dead players if they want to give up weapons and items.
+        l4d_death_weapon_lock_display_menu "1"
 
         // Glow color (RGB) for weapons and items droped by dead survivors and lock. [0 0 0: No Glow]
         l4d_death_weapon_lock_color_lock "255 0 0"
@@ -91,10 +106,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.2h (2023/12/17)
+    * v1.3h (2024-12-12)
+        * Update cvars
+        * Update translation
+        * Add menu to dead players
+
+    * v1.2h (2023-12-17)
         * Add cvars to Lock or Unlock each slot weapon/items
 
-    * v1.1h (2023/12/13)
+    * v1.1h (2023-12-13)
         * Add Api
 
     * v1.0h (2023-11-28)
@@ -105,9 +125,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
 
+* 圖示
+	* 無法撿起死亡玩家的武器與物品
+    <br/>![zho/l4d_death_weapon_lock_1](image/zho/l4d_death_weapon_lock_1.gif)
+    <br/>![zho/l4d_death_weapon_lock_2](image/zho/l4d_death_weapon_lock_2.jpg)
+
 * 原理
-    * 玩家死亡時掉落的武器與物品，鎖住並產生紅色光環，任何人不能撿起他掉落的武器與物品
-    * 如果玩家離開伺服器或超過一定時間後，光環變成綠色，任何人可以撿起
+    * 玩家死亡時，顯示介面詢問玩家 "是否放棄武器?"
+        * Yes -> 鎖住掉落的武器與物品 (紅色光環)，任何人不能撿
+        * No -> 解鎖住掉落的武器與物品 (綠色光環)，任何人可以撿
+    * 如果玩家離開伺服器或超過一定時間後，解鎖地上的武器與物品，任何人可以撿
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -115,6 +142,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
         // 0=關閉插件, 1=啟動插件
         l4d_death_weapon_lock_enable "1"
+
+        // 擁有這些權限的玩家，死亡時掉落的武器與物品會鎖住 (留白 = 任何人都能, -1: 無人)
+        l4d_death_weapon_lock_access_flag ""
+
+        // 為1時，顯示介面詢問死亡玩家 "是否放棄武器?"
+        l4d_death_weapon_lock_display_menu "1"
 
         // 倖存者死亡時掉落的武器與物品，鎖住的光環顏色，填入RGB三色 (三個數值介於0~255，需要空格) [0 0 0: 不加顏色]
         l4d_death_weapon_lock_color_lock "255 0 0"

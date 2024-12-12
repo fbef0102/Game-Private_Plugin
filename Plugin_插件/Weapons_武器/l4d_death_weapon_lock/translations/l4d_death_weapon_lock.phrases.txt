@@ -6,4 +6,22 @@
 		"zho"			"你不能撿起這位玩家的武器與物品"
 		"chi"			"你不能捡起这位玩家的武器与物品"
 	}
+	"give up"
+	{
+		"en"			"Give up your weapons?"
+		"zho"			"解鎖並放棄你的武器?"
+		"chi"			"解锁并放弃你的武器?"
+	}	
+	"no"
+	{
+		"en"			"no"
+		"zho"			"no"
+		"chi"			"no"
+	}	
+	"yes"
+	{
+		"en"			"yes"
+		"zho"			"yes"
+		"chi"			"yes"
+	}
 }

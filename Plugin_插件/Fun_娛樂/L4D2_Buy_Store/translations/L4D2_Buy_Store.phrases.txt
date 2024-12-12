@@ -1704,5 +1704,20 @@
 		"zho"	"此商品暫時關閉"
 		"chi"	"此商品暂时关闭"
 	}
+
+	"Shop Disabled! Survivors leave the safe room."
+	{
+		"#format"		"{1:d}"
+		"en"	"Survivor Shop is disabed! {blue}Survivors{default} has left the safe room over {green}{1}{default} seconds."
+		"zho"	"倖存者商店已關閉! {blue}倖存者{default}已離開安全室超過 {green}{1}{default} 秒"
+		"chi"	"生还者商店已关闭! {blue}生还者{default}已离开安全室超过 {green}{1}{default} 秒"
+	}
+
+	"Health_100 too much"
+	{
+		"en"	"Can't give 100 health anymore"
+		"zho"	"你的血量已達上限"
+		"chi"	"你的血量已达上限"
+	}
 }
 

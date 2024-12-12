@@ -41,104 +41,67 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, use CookiesCached to save player money. Otherwise, the moeny will not be saved if player leaves the server.
 		sm_shop_CookiesCached_enable "1"
 
-		// Giving money for killing a boomer
+		// Database to save money to.
+		// Empty = don't connect to database
+		//  (MySQL & SQLite supported)
+		sm_shop_database ""
+
+		// Maximum money limit. (Money saved when map change/leaving server)
+		sm_shop_max_moeny_limit "32000"
+
+		// Disable Survivor Shop after survivors have left start safe area over X seconds. (0=Survivor Shop available anytime)
+		sm_shop_survivor_disable_time "0"
+
+		// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=No Cold Down).
+		sm_shop_survivor_cooltime_block "5.0"
+
+		// Giving money for killing a boomer  (0=off)
 		sm_shop_boomkilled "10"
 
-		// Giving money for killing a charger
+		// Giving money for killing a charger  (0=off)
 		sm_shop_chargerkilled "30"
 
-		// Giving money for killing a smoker
+		// Giving money for killing a smoker  (0=off)
 		sm_shop_smokerkilled "20"
 
-		// Giving money for killing a hunter
+		// Giving money for killing a hunter  (0=off)
 		sm_shop_hunterkilled "20"
 
-		// Giving money for killing a jockey
+		// Giving money for killing a jockey  (0=off)
 		sm_shop_jockeykilled "25"
 
-		// Giving money for killing a spitter
+		// Giving money for killing a spitter  (0=off)
 		sm_shop_spitterkilled "10"
 
-		// Giving money on tank death, money = hurting tank hp ÷ this value
+		// Giving money on tank death, money = hurting tank hp ÷ this value (0=off)
 		sm_shop_tank_hurt "100"
 
-		// Giving money for killing a witch
+		// Giving money for killing a witch  (0=off)
 		sm_shop_witchkilled "80"
 
-		// Giving money for killing a zombie
+		// Giving money for killing a zombie  (0=off)
 		sm_shop_zombiekilled "1"
 
 		// If 1, Giving money for healing people with kit (Money=Amount of health restored)
 		sm_shop_heal_teammate "1"
 
-		// Giving money for saving people with defibrillator
+		// Giving money for saving people with defibrillator  (0=off)
 		sm_shop_defi_save "200"
 
-		// Giving money for saving incapacitated people. (No Hanging from legde)
+		// Giving money for saving incapacitated people. (No Hanging from legde) (0=off)
 		sm_shop_help_teammate_save "30"
 
-		// Giving money for incapacitating a survivor. (No Hanging from legde)
-		sm_shop_infected_survivor_incap "30"
-
-		// Giving money for killing a survivor.
-		sm_shop_infected_survivor_killed "100"
-
-		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 dollar)
+		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 credit)
 		sm_shop_survivor_TK_enable "1"
 
-		// Max Air Jump Limit for survivor special item.
-		sm_shop_special_max_jump_limit "3"
-
-		// How long could "Infinite Ammo" state last for survivor special item.
-		sm_shop_special_infinite_ammo_time "20"
-
-		// Giving money to each alive survivor for mission accomplished award (non-final).
+		// Giving money to each alive survivor for mission accomplished award (non-final). (0=off)
 		sm_shop_stage_complete "400"
 
-		// Giving money to each alive survivor for mission accomplished award (final).
+		// Giving money to each alive survivor for mission accomplished award (final). (0=off)
 		sm_shop_final_mission_complete "3000"
 
-		// Giving money to each infected player for wiping out survivors.
-		sm_shop_mission_lost "300"
-
-		// If 1, Enable shop for infected.
-		sm_shop_infected_enable "1"
-
-		// Infected player must wait until survivors have left start safe area for at least X seconds to buy item. (0=Infected Shop available anytime)
-		sm_shop_infected_wait_time "10"
-
-		// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=off).
-		sm_shop_infected_cooltime_block "30.0"
-
-		// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=off).
-		sm_shop_survivor_cooltime_block "5.0"
-
-		// How long could "Immune Everything" last for infected special item.
-		sm_shop_special_immune_everything_time "10"
-
-		// Tank limit on the field before infected can buy a tank. (0=Can't buy Tank)
-		sm_shop_infected_tank_limit "1"
-
-		// Witch limit on the field before infected can buy a witch. (0=Can't buy Witch)
-		sm_shop_infected_witch_limit "4"
-
-		// How far away from survivors an infected can buy and spawn witch.
-		sm_shop_infected_witch_spawn_safety_range "1250"
-
-		// Amount of seconds before a witch is kicked. (only remove witches bought by player in this plugin)
-		sm_shop_infected_witch_lifespan "180"
-
-		// How long could "Freeze-Infected" state last for survivor special item.
-		sm_shop_special_freeze_time "20"
-
-		// How long could "Gain Adrenaline Power" state last for survivor special item.
-		sm_shop_special_adrenaline_time "20"
-
-		// Maximum money limit. (Money saved when map change/leaving server)
-		sm_shop_max_moeny_limit "32000"
-
-		// How long could "Dead-Eyes" state last for survivor special item.
-		sm_shop_special_dead_eyes_time "60"
+		// Reduce money to each survivor player for mission lost (0=off)
+		sm_shop_survivor_mission_lost "300"
 
 		// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		sm_shop_kill_infected_announce_type "1"
@@ -146,13 +109,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// "Changes how 'You got credits by helping teammate' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		sm_shop_help_teammate_announce_type "1"
 
+		// If 1, Enable shop for infected.
+		sm_shop_infected_enable "1"
+
+		// Infected Shop available after survivors have left start safe area over X seconds. (0=Infected Shop available anytime)
+		sm_shop_infected_open_time "10"
+
+		// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=No Cold Down).
+		sm_shop_infected_cooltime_block "30.0"
+
+		// Giving money for incapacitating a survivor. (No Hanging from legde) (0=off)
+		sm_shop_infected_survivor_incap "30"
+
+		// Giving money for killing a survivor. (0=off)
+		sm_shop_infected_survivor_killed "100"
+
+		// Giving money to each infected player for wiping out survivors. (0=off)
+		sm_shop_infected_mission_lost "300"
+
 		// Reduce money if tank players lose control and become AI tank. (0=off)
 		sm_shop_tank_lost_control "1500"
-
-		// Database to save money to.
-		// empty = don't connect to database
-		//  (MySQL & SQLite supported)
-		sm_shop_database ""
 		```
 </details>
 
@@ -367,9 +343,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.6 (2024-12-12)
 	* v5.5 (2024-12-7)
 		* Update data
 		* Update translation
+		* Update cvars
 		* Support custom melee from custom map
 
 	* v5.4 (2024-6-19)
@@ -426,105 +404,67 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，使用 CookiesCached 儲存玩家金錢. 意思是說，下次開服時，玩家依然保留上次遊玩的金額
 		sm_shop_CookiesCached_enable "1"
 
-		// 殺死 Boomer 獲得的金額
-		sm_shop_boomkilled "10"
-
-		// 殺死 Charger 獲得的金額
-		sm_shop_chargerkilled "30"
-
-		// 殺死 Smoker 獲得的金額
-		sm_shop_smokerkilled "20"
-
-		// 殺死 Hunter 獲得的金額
-		sm_shop_hunterkilled "20"
-
-		// 殺死 Jockey 獲得的金額
-		sm_shop_jockeykilled "25"
-
-		// 殺死 Spitter 獲得的金額
-		sm_shop_spitterkilled "10"
-
-		// Tank死亡後給予有造成傷害的倖存者金錢，金額 = 造成Tank傷害 ÷ 此數值
-		sm_shop_tank_hurt "100"
-
-		// 殺死 Witch 獲得的金額
-		sm_shop_witchkilled "80"
-
-		// 殺死 普通感染者 獲得的金額
-		sm_shop_zombiekilled "1"
-
-		// 使用治療包療隊友 可以獲得金額 (獲得金額=治療回復的血量)
-		sm_shop_heal_teammate "1"
-
-		// 電擊器復活隊友 獲得的金額
-		sm_shop_defi_save "200"
-
-		// 拯救倒地的隊友(掛邊不算) 獲得的金額
-		sm_shop_help_teammate_save "30"
-
-		// 使倖存者倒地的特感玩家(掛邊不算) 獲得的金額
-		sm_shop_infected_survivor_incap "30"
-
-		// 殺死倖存者的特感玩家(掛邊不算) 獲得的金額
-		sm_shop_infected_survivor_killed "100"
-
-		// 為1時，友傷會扣除金錢 (1hp = 1元)
-		sm_shop_survivor_TK_enable "1"
-
-		// (倖存者特殊商品) "超級瑪利歐 跳躍+1" 最大跳躍數
-		sm_shop_special_max_jump_limit "3"
-
-		// (倖存者特殊商品) "無限子彈" 效果時間
-		sm_shop_special_infinite_ammo_time "20"
-
-		// 過關進入安全室時，活著的倖存者獲得的金額 (非救援關卡).
-		sm_shop_stage_complete "400"
-
-		// 破完地圖上救援載具時，活著的倖存者獲得的金額 (救援關卡).
-		sm_shop_final_mission_complete "3000"
-
-		// 滅團之後倖存者扣除的金額
-		// 滅團之後特感玩家獲得的金額
-		sm_shop_mission_lost "300"
-
-		// 為1時，特感也能購買商品
-		sm_shop_infected_enable "1"
-
-		// 特感玩家必須等人類至少出門安全區域10秒後才能購買商品 (0=特感可以在任意時間點購買)
-		sm_shop_infected_wait_time "10"
-
-		// 特感玩家再次購買商品的冷卻時間 (0=無冷卻時間).
-		sm_shop_infected_cooltime_block "30.0"
-
-		// 倖存者再次購買商品的冷卻時間 (0=無冷卻時間).
-		sm_shop_survivor_cooltime_block "5.0"
-
-		// (特感特殊商品) "God 上帝模式" 效果時間
-		sm_shop_special_immune_everything_time "10"
-
-		// 場上的Tank數量達到此限制時，特感不能購買Tank生成 (0=無法購買Tank)
-		sm_shop_infected_tank_limit "1"
-
-		// (特感特殊商品) 場上的Witch數量達到此限制時，特感不能購買Witch生成 (0=無法購買Witch)
-		sm_shop_infected_witch_limit "4"
-
-		// (特感特殊商品) 特感玩家必須離倖存者多遠才能購買 Witch生成
-		sm_shop_infected_witch_spawn_safety_range "1250"
-
-		// 特感玩家購買的Witch在180秒後將被移除
-		sm_shop_infected_witch_lifespan "180"
-
-		// (倖存者特殊商品) "冰凍世界" 效果時間
-		sm_shop_special_freeze_time "20"
-
-		// (倖存者特殊商品) "注射興奮劑" 效果時間
-		sm_shop_special_adrenaline_time "20"
+		// 資料庫設定
+		// 留白 = 不使用資料庫
+		// (支援 MySQL & SQLite)
+		sm_shop_database ""
 
 		// 最大能儲存的金額
 		sm_shop_max_moeny_limit "32000"
 
-		// (倖存者特殊商品) "心靈透視" 效果時間
-		sm_shop_special_dead_eyes_time "60"
+		// 倖存者離開安全區域超過此秒數後不能再購買商品 (0=人類可以在任意時間點購買)
+		sm_shop_survivor_disable_time "0"
+
+		// 倖存者再次購買商品的冷卻時間 (0=無冷卻時間).
+		sm_shop_survivor_cooltime_block "5.0"
+
+		// 殺死 Boomer 獲得的金額 (0=關閉這項功能)
+		sm_shop_boomkilled "10"
+
+		// 殺死 Charger 獲得的金額 (0=關閉這項功能)
+		sm_shop_chargerkilled "30"
+
+		// 殺死 Smoker 獲得的金額 (0=關閉這項功能)
+		sm_shop_smokerkilled "20"
+
+		// 殺死 Hunter 獲得的金額 (0=關閉這項功能)
+		sm_shop_hunterkilled "20"
+
+		// 殺死 Jockey 獲得的金額 (0=關閉這項功能)
+		sm_shop_jockeykilled "25"
+
+		// 殺死 Spitter 獲得的金額 (0=關閉這項功能)
+		sm_shop_spitterkilled "10"
+
+		// Tank死亡後給予有造成傷害的倖存者金錢，金額 = 造成Tank傷害 ÷ 此數值 (0=關閉這項功能)
+		sm_shop_tank_hurt "100"
+
+		// 殺死 Witch 獲得的金額 (0=關閉這項功能)
+		sm_shop_witchkilled "80"
+
+		// 殺死 普通感染者 獲得的金額 (0=關閉這項功能)
+		sm_shop_zombiekilled "1"
+
+		// 為1時，使用治療包療隊友，可以獲得金額 (獲得金額=治療回復的血量)
+		sm_shop_heal_teammate "1"
+
+		// 電擊器復活隊友 獲得的金額 (0=關閉這項功能)
+		sm_shop_defi_save "200"
+
+		// 拯救倒地的隊友(掛邊不算) 獲得的金額 (0=關閉這項功能)
+		sm_shop_help_teammate_save "30"
+
+		// 為1時，友傷會扣除金錢 (每造成1hp友傷扣減1元)
+		sm_shop_survivor_TK_enable "1"
+
+		// 過關進入安全室時，活著的倖存者獲得的金額 (非救援關卡). (0=關閉這項功能)
+		sm_shop_stage_complete "400"
+
+		// 過關進入救援載具時，活著的倖存者獲得的金額 (救援關卡). (0=關閉這項功能)
+		sm_shop_final_mission_complete "3000"
+
+		// 滅團之後倖存者扣除的金額
+		sm_shop_survivor_mission_lost "300"
 
 		// "你殺死XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		sm_shop_kill_infected_announce_type "1"
@@ -532,13 +472,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// "你幫助隊友獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		sm_shop_help_teammate_announce_type "1"
 
+		// 為1時，特感也能購買商品
+		sm_shop_infected_enable "1"
+
+		// 特感玩家必須等人類出門安全區域超過此秒數後才能購買商品 (0=特感可以在任意時間點購買)
+		sm_shop_infected_open_time "10"
+
+		// 特感玩家再次購買商品的冷卻時間 (0=無冷卻時間).
+		sm_shop_infected_cooltime_block "30.0"
+
+		// 使倖存者倒地的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
+		sm_shop_infected_survivor_incap "30"
+
+		// 殺死倖存者的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
+		sm_shop_infected_survivor_killed "100"
+
+		// 滅團之後特感玩家獲得的金額 (0=關閉這項功能)
+		sm_shop_infected_mission_lost "300"
+
 		// Tank玩家失去控制權變成AI tank，將扣除金額. (0=關閉這項功能)
 		sm_shop_tank_lost_control "1500"
-
-		// 資料庫設定
-		// 留白 = 不使用資料庫
-		// (支援 MySQL & SQLite)
-		sm_shop_database ""
 		```
 </details>
 
