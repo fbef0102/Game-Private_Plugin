@@ -93,6 +93,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2024-12-14)
+		* Fix team change if server is using mixmap plugin
+
 	* v1.2h (2024-1-20)
 		* Don't save team after final map change
 		* Don't save team when map change in game

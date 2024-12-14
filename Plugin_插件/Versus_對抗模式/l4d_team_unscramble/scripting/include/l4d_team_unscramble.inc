@@ -7,7 +7,7 @@
  *  Version:        1.0
  *
  *  Copyright (C) 2020 raziEiL [disawar1] <mr.raz4291@gmail.com>
- *  Copyright (C) 2023 HarryPotter
+ *  Copyright (C) 2023-2024 HarryPotter
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by

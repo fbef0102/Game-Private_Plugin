@@ -21,13 +21,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Type ```!tailmenu``` -> choose colors and sprite -> have fun
 	* You can add Custom Colors or tail sprite in [configs/l4d_player_tail.cfg](addons/sourcemod/configs/l4d_player_tail.cfg)
+	* 🟥 Tail could temporarily disappear if player stop moving
 </details>
 
-* <details><summary>Important Note</summary>
-
-	* l4d_player_tail_lifetime must greater than or equal to l4d_player_tail_changecolor_interval
-	* Tail could temporarily disappear if player stop moving
-</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -40,11 +36,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 1=Enable Tail effect for everyone default? [1-Enable/0-Disable]
 		l4d_player_tail_default_value "1"
 
-		// If 1, Enable Tail effect for Bot Infected
-		l4d_player_tail_bot_infected_enable "1"
+		// Enable Tail effect for Survivor, 1=Bot, 2=Real player, 3=Both
+		l4d_player_tail_survivor_enable "3"
 
-		// If 1, Enable Tail effect for Bot Survivor
-		l4d_player_tail_bot_survivor_enable "1"
+		// Enable Tail effect for Infected, 1=Bot, 2=Real player, 3=Both
+		l4d_player_tail_infected_enable "3"
 
 		// Players with these flags have access to have tail effect and use tail command. (Empty = Everyone, -1: Nobody)
 		l4d_player_tail_command_access_flag ""
@@ -52,10 +48,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Transparency of the tail (10-255).
 		l4d_player_tail_color_alpha "100"
 
-		// The default tail color. Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
-		l4d_player_tail_color "-1 -1 -1"
+		// The default tail color for survivor. 
+		// Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_player_tail_color_sur "-1 -1 -1"
+
+		// The default tail color for infected.
+		// Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. [-1 -1 -1: Random]
+		l4d_player_tail_color_inf "-1 -1 -1"
 
 		// How long the beam is shown. (Tail could temporarily disappear if player stop moving)
+		// This value must greater than or equal to _changecolor_interval
 		l4d_player_tail_lifetime "5.0"
 
 		// The width of the beam to the beginning.
@@ -146,6 +148,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0 (2024-12-14)
+		* Update cvars
+
 	* v1.9 (2024-7-9)
 		* Fix not working in l4d1
 
@@ -185,13 +190,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![zho/l4d_player_tail_1](image/zho/l4d_player_tail_1.jpg)
 	* 會自動儲存於資料庫，下次玩家進來伺服器，顏色與貼圖保持不變
 	* 尾巴過一段時間會隨機變色
-
-* 功能
 	* 可以設定文件[configs/l4d_player_tail.cfg](addons/sourcemod/configs/l4d_player_tail.cfg)，自定義尾巴的顏色與圖案
-
-* 注意事項
-	* ```l4d_player_tail_lifetime``` 指令數值必須大於或等於 ```l4d_player_tail_changecolor_interval``` 指令數值
-	* 如果倖存者不動，尾巴特效會短暫消失，建議```l4d_player_tail_lifetime``` 指令數值不要設置太高
+	* 🟥 如果倖存者不動，尾巴特效會短暫消失
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -200,11 +200,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，幫所有玩家預設打開特效尾巴
 		l4d_player_tail_default_value "1"
 
-		// 為1時，幫特感Bot打開特效尾巴
-		l4d_player_tail_bot_infected_enable "1"
+		// 倖存者打開特效尾巴, 1=Bot, 2=真人玩家, 3=兩者都打開
+		l4d_player_tail_survivor_enable "3"
 
-		// 為1時，幫倖存者Bot打開特效尾巴
-		l4d_player_tail_bot_survivor_enable "1"
+		// 特感打開特效尾巴, 1=Bot, 2=真人玩家, 3=兩者都打開
+		l4d_player_tail_infected_enable "3"
 
 		// 擁有這些權限的玩家，才可以使用尾巴特效 (留白 = 任何人都能, -1: 無人)
 		l4d_player_tail_command_access_flag ""
@@ -212,10 +212,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 尾巴顏色透明度 (10-255).
 		l4d_player_tail_color_alpha "100"
 
-		// 設置尾巴顏色，填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機顏色]
-		l4d_player_tail_color "-1 -1 -1"
+		// 設置倖存者尾巴顏色
+		// 填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機顏色]
+		l4d_player_tail_color_sur "-1 -1 -1"
+
+		// 設置特感尾巴顏色
+		// 填入RGB三色 (三個數值介於0~255，需要空格) [-1 -1 -1: 隨機顏色]
+		l4d_player_tail_color_inf "-1 -1 -1"
 
 		// 尾巴特效的時間 (如果玩家不動，尾巴特效可能會暫時消失)
+		// 指令數值必須大於或等於 ```l4d_player_tail_changecolor_interval``` 指令數值
 		l4d_player_tail_lifetime "5.0"
 
 		// 尾巴特效的起點寬度

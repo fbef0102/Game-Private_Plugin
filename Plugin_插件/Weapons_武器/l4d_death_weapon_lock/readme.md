@@ -73,7 +73,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
     
-    None
+	* **Open menu to give up your weapons and items**
+		```php
+		sm_giveup
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -106,10 +109,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.4h (2024-12-14)
     * v1.3h (2024-12-12)
         * Update cvars
         * Update translation
         * Add menu to dead players
+        * Add cmd
 
     * v1.2h (2023-12-17)
         * Add cvars to Lock or Unlock each slot weapon/items
@@ -180,5 +185,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // (藥丸/腎上腺素), 1=鎖住, 0=不鎖住
         l4d_death_weapon_lock_slot4 "1"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+	* **打開菜單放棄你的武器與物品**
+		```php
+		sm_giveup
 		```
 </details>

@@ -481,8 +481,6 @@
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
 
-  * [l4d_full_hp_map_transition](/Plugin_插件/Coop_戰役模式/l4d_full_hp_map_transition): (Abandoned) Set survivor health when mission complete in coop mode
-    * (棄用) 戰役模式通關之時恢復並設定倖存者血量
   * [coopbosses_ifier](/Plugin_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point based on the percentage of passing the map in coop mode
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d2_change_m1](/Plugin_插件/Coop_戰役模式/l4d2_change_m1): If all survivors die, change level to the map 1 of current campaign (Restart Campaign)

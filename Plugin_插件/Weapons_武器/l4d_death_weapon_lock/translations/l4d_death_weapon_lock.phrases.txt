@@ -24,4 +24,16 @@
 		"zho"			"yes"
 		"chi"			"yes"
 	}
+	"no access"
+	{
+		"en"			"You don't have access"
+		"zho"			"無權限"
+		"chi"			"无权限"
+	}
+	"no weapons"
+	{
+		"en"			"You don't have any weapons or items locked"
+		"zho"			"你沒有鎖住的武器或物資"
+		"chi"			"你没有锁住的武器或物资"
+	}
 }

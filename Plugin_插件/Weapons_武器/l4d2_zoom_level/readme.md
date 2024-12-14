@@ -23,9 +23,5 @@ This Plugin has been discontinued, Use [Scope Level Adjust](https://forums.allie
 # 中文說明
 玩家使用指令調整狙擊鏡的遠近範圍 (可以看得更遠)
 
-* 原理
-    * 狙擊鏡自行調整遠近範圍
-    * 每個玩家使用命令```!zoom```調整自己的狙擊鏡
-
 > __Note__ <br/>
 此插件已停止更新，請使用[Scope Level Adjust](https://forums.alliedmods.net/showthread.php?t=341112)
