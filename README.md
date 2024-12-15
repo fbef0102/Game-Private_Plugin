@@ -687,6 +687,8 @@
     * 移除地圖上所有的空氣牆
   * [remove_deathfall_camera](/Plugin_插件/Entity_實體物件/remove_deathfall_camera): Remove all death fall camera on the map (Prevent locking view)
     * 移除地圖上所有高空墬落的鏡頭 (避免玩家視角被鎖住)
+  * [l4d_ragdoll_vanish](/Plugin_插件/Entity_實體物件/l4d_ragdoll_vanish): Make ragdolls from survivor/common infected/S.I./Witch vanish when they die.
+    * 倖存者/普通殭屍/特感/Witch死亡時，屍體立馬消失
 </details>
 
 * <details><summary><b>Miscellaneous | 雜項</b></summary>

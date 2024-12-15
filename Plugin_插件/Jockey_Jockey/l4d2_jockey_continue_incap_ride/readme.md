@@ -69,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2024-12-15)
+		* Fixed error if jockey tries to ride other infected's victim
+
 	* v1.2h (2023-11-25)
 		* Add gamedata to support damage hurt, thanks to [Forgetest](https://github.com/jensewe)
 
