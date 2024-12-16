@@ -13,6 +13,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![css_team_noblock_2](image/css_team_noblock_2.gif)
     <br/>![css_team_noblock_3](image/css_team_noblock_3.gif)
 
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Run through teammates, only collisions with enemies
@@ -47,11 +52,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.3h (2024-10-23)
@@ -77,6 +77,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 隊友可以穿透不擋路
+
+* 適用於
+	```
+	絕對武力：次世代
+	```
 
 * 原理
 	* 穿透隊友不會造成擋路，只跟敵人身體有碰撞

@@ -8,8 +8,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * [Video | 影片展示](https://youtu.be/4josvz9xJso)
 
 * Image | 圖示
-	* Drop pistol, grenades, knife and remaining armor (手槍、手榴彈、煙霧彈、閃光彈、刀、剩餘的防彈背心)
-    <br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
+<br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
+
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
+* <details><summary>How does it work?</summary>
+
+	* Drop pistol, grenades, knife and remaining armor when player dies
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -58,11 +67,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0h (2023-3-8)
@@ -79,6 +83,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 死亡時掉落所有武器、刀、手榴彈與防彈背心
+
+* 適用於
+	```
+	絕對武力：次世代
+	```
 
 * 原理
     * 死亡時掉落身上所有東西

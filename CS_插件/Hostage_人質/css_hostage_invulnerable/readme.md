@@ -12,6 +12,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Players won't have hostage penalty. (打到人質也不會被扣錢)
 	<br/>![css_hostage_invulnerable_1](image/css_hostage_invulnerable_1.gif)
 
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
 * Require | 必要安裝
 <br/>None
 
@@ -33,12 +38,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
-
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0 (2023-3-3)
@@ -48,6 +47,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 人質不會受傷死亡
+
+* 適用於
+	```
+	絕對武力：次世代
+	```
 
 * 原理
     * 人質不會受傷也不會死亡

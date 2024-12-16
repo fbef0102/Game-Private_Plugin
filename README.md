@@ -707,12 +707,6 @@
 </details>
 
 ###### **CS Plugin List | CS插件列表**
-* <details><summary><b>Server | 伺服器</b></summary>
-
-  * [css_DynamicHostname](/css_DynamicHostname): Server name with txt file (Support any language)
-    * 伺服器房名可以寫中文的插件
-</details>
-
 * <details><summary><b>Player | 玩家</b></summary>
 
   * [css_team_noblock](/CS_插件/Player_玩家/css_team_noblock): Prevents collisions with teammates.
@@ -735,12 +729,6 @@
     * 人質不會受傷死亡
 </details>
 
-* <details><summary><b>Map | 關卡</b></summary>
-
-  * [l4d_restartmap_command](/Plugin_插件/Map_關卡/l4d_restartmap_command): Admin say !restartmap to restart current map 
-    * 管理員輸入!restartmap能重新地圖關卡
-</details>
-
 - - - -
 
 # 公開的插件列表 Public Plugins List
@@ -754,7 +742,7 @@
 
 * <details><summary><b>CSS</b></summary>
 
-  * [CS:S plugins | CS:S 插件列表](https://github.com/fbef0102/CSS-Plugins)
+  * [Source Engine plugins | Source引擎 插件列表](https://github.com/fbef0102/Sourcemod-Plugins)
 </details>
 
 - - - -

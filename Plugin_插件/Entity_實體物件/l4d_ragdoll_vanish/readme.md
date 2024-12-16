@@ -22,6 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Ragdolls vanish when they die.
 	* Survivors' death model vanish when they die, other players can not use defibrillator ro revive dead player
 		* You can disable in cvars
+	* Decrease server performance cost for dead bodies
 </details>
 
 * Require | 必要安裝

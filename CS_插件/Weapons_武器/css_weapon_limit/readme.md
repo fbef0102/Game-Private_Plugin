@@ -13,6 +13,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * display message when you try to pick up or buy weapons (顯示武器拿取限制)
     <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
 
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
 * <details><summary>How does it work?</summary>
 
     * Restrict each weapon limit in CT and T team respectively, the player can't pick up or buy limit weapons
@@ -85,11 +90,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0
@@ -99,6 +99,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
+
+* 適用於
+	```
+	絕對武力：次世代
+	```
 
 * 原理
     * 當要撿起武器時，計算隊友之中已經拿取的數量，超過便不能撿起

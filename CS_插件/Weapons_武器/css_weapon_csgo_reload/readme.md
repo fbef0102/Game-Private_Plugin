@@ -12,6 +12,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![css_weapon_csgo_reload_1](image/css_weapon_csgo_reload_1.gif)
     <br/>![css_weapon_csgo_reload_2](image/css_weapon_csgo_reload_2.gif)
 
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
+* <details><summary>How does it work?</summary>
+
+	* Quick reloading your magazine like most modern games today.
+</details>
+
 * Require | 必要安裝
 <br/>None
 
@@ -161,11 +171,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
-* Apply to | 適用於
-    ```
-    CSS
-    ```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.0 (2023-3-6)
@@ -175,6 +180,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 - - - -
 # 中文說明
 將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
+
+* 適用於
+	```
+	絕對武力：次世代
+	```
 
 * 原理
     * 當武器動畫是裝上彈夾的時候，彈夾會填滿 (就像CSGO那樣)    
