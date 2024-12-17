@@ -7,16 +7,19 @@ Auto ban players who have disconnected from the server instantly after joined th
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 	<br/>![bandisconnected_1](image/bandisconnected_1.jpg)
 	<br/>![bandisconnected_2](image/bandisconnected_2.jpg)
 
+* Apply to | 適用於
+	```
+	Any Source Game
+	```
+
 * <details><summary>How does it work?</summary>
 
-	* Auto ban players who have disconnected from the server with 60 seconds after joined the server
+	* Auto ban players who have disconnected from the server
+		* Ban for short time, wait for 5 mins later to rejoin server again
 	* Say ```!admin->Player Commands->Ban Discnnect Player```, Tracks all players who has left server. 
 	* The player will not get auto ban if disconnect reason is
 		* Crash
@@ -42,14 +45,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Enable Auto Ban when player disconnects.
 		bandisconnected_enable_auto_ban "1"
 
-		// Ban player who disconnects within x seconds after player has joined server.
-		bandisconnected_ban_within_join_seconds "60.0"
+		// Ban player who disconnects within x seconds after joining server. (0=Always Ban when player disconnects)
+		bandisconnected_ban_within_join_seconds "0"
 
 		// If 1, disable Auto Ban when player crashed.
 		bandisconnected_crash_ban_disable "1"
 
 		// Ban How many mins for disconnected player. (Mins, 0=Permanent Ban)
-		bandisconnected_ban_mins "60"
+		bandisconnected_ban_mins "5"
 
 		// Players with these flags have immune to not be banned automatically. (Empty = Everyone, -1: Nobody)
 		bandisconnected_immue_flag "z"
@@ -73,18 +76,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//mad_hamster @ 2011
-	//HarryPotter @ 2022-2023
-	```
+	* v1.2 (2024-12-17)
+		* Update cvars
+		* Only record sourceban++ if ban is permanent
+
 	* v1.1 (2023-6-14)
 		* Fix players got banned when map change
 
@@ -103,7 +100,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
 
 * 原理
-	* 玩家進來伺服器60內退出，將會被自動封鎖，不能再進來伺服器
+	* 玩家進來伺服器60內退出，將會被自動封鎖，不能短時間內再進來伺服器
 		* 玩家崩潰、網路斷線，則不會被自動封鎖
 	* 玩家離開伺服器之後，伺服器會記錄該位玩家的離開原因、steamid、名子
 	* 管理員輸入```!admin->玩家指令->Ban Discnnect Player```查看所有離開伺服器的玩家
@@ -112,7 +109,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 用意在哪?
 	* 封鎖進來後秒退的玩家
-	* 有的玩家進來後不喜歡這個伺服器於是秒退，但是匹配房間又會不小心再進來
 	* 有的低能玩家頻繁進來又退出又進來
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -125,14 +121,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，自動封鎖進來後秒退的玩家
 		bandisconnected_enable_auto_ban "1"
 
-		// 進來伺服器後60秒內退出的玩家將會被自動封鎖
-		bandisconnected_ban_within_join_seconds "60.0"
+		// 進來伺服器後60秒內又退出的玩家才會被自動封鎖 (0=只要玩家離線就是封鎖)
+		bandisconnected_ban_within_join_seconds "0"
 
 		// 為1時，如果玩家崩潰退出則不會被自動封鎖
 		bandisconnected_crash_ban_disable "1"
 
 		// 設置封鎖的時間 (分鐘, 0=永久)
-		bandisconnected_ban_mins "60"
+		bandisconnected_ban_mins "5"
 
 		// 擁有這些權限的玩家，不會被自動封鎖 (留白 = 任何人都不會被自動封鎖, -1: 任何人都會被自動封鎖)
 		bandisconnected_immue_flag "z"

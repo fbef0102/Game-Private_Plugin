@@ -5,11 +5,13 @@ Whitelist or ban players from specific country or area
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br>None
-
 * Image
 	<br/>![ban_country_player_1](image/ban_country_player_1.jpg)
+
+* Apply to | 適用於
+	```
+	Any Source Game
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -71,12 +73,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* [All country names](http://www.geonames.org/countries/)
 	* [Steam ID finder](https://steamid.xyz/)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
