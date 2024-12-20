@@ -119,7 +119,7 @@
 
 * [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
 
-* [l4d_h_csm (哈利版本)](/Plugin_插件/Survivor_人類/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
+* [l4d_h_csm (哈利版本)](/L4D_插件/Survivor_人類/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
     - 此為CSM插件重製版，輸入!csm打開角色選擇介面
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
@@ -158,13 +158,13 @@
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知的世界
 
-* [L4D2 Survivors And Infected Shop Improved](/Plugin_插件/Fun_娛樂/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
+* [L4D2 Survivors And Infected Shop Improved](/L4D_插件/Fun_娛樂/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
 
-* [5+ Survivors More Supply](/Plugin_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
+* [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
 
-* [l4d_infected_limit_control](/Plugin_插件/Common_Infected_普通感染者/l4d_infected_limit_control): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
+* [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
 
-* [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
+* [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
 
 - - - -
 ## 其他

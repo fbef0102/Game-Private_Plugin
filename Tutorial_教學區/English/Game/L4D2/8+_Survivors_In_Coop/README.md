@@ -112,7 +112,7 @@
 
 * [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): Fixes Whenever more than four survivors enter a rescue vehicle, four more survivors are left behind and die.
     
-* [l4d_h_csm (Harry Version)](/Plugin_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+* [l4d_h_csm (Harry Version)](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     - typ !csm to open menu
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
@@ -151,13 +151,13 @@
 
 * [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
 
-* [L4D2 Survivors And Infected Shop Improved](/Plugin_插件/Fun_娛樂/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
+* [L4D2 Survivors And Infected Shop Improved](/L4D_插件/Fun_娛樂/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
 
-* [5+ Survivors More Supply](/Plugin_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
+* [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
 
-* [l4d_infected_limit_control](/Plugin_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
+* [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
 
-* [l4d_healing_field](/Plugin_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
+* [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
 
 - - - -
 ## Others
