@@ -1,7 +1,5 @@
 # Description | 內容
-Auto ban players who have disconnected from the server instantly after joined the server
-<br/>+
-<br/>Tracks recently-disconnected players and lets you ban them
+Auto ban players who have disconnected from the server for short time + Tracks recently-disconnected players and lets you ban them
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -46,7 +44,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		bandisconnected_enable_auto_ban "1"
 
 		// Ban player who disconnects within x seconds after joining server. (0=Always Ban when player disconnects)
-		bandisconnected_ban_within_join_seconds "0"
+		bandisconnected_ban_within_join_seconds "60"
 
 		// If 1, disable Auto Ban when player crashed.
 		bandisconnected_crash_ban_disable "1"
@@ -97,10 +95,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
+自動封鎖退出伺服器的玩家，短時間內不能加入 + 查看所有退出伺服器的玩家列表
 
 * 原理
-	* 玩家進來伺服器60內退出，將會被自動封鎖，不能短時間內再進來伺服器
+	* 玩家進來伺服器60秒內退出，將會被自動封鎖，不能短時間內再進來伺服器
 		* 玩家崩潰、網路斷線，則不會被自動封鎖
 	* 玩家離開伺服器之後，伺服器會記錄該位玩家的離開原因、steamid、名子
 	* 管理員輸入```!admin->玩家指令->Ban Discnnect Player```查看所有離開伺服器的玩家
@@ -118,16 +116,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 在"Ban Discnnect Player"介面上顯示的玩家數量 （所有離開伺服器的玩家列表）
 		bandisconnected_max "100"
 
-		// 為1時，自動封鎖進來後秒退的玩家
+		// 為1時，自動封鎖退出伺服器的玩家
 		bandisconnected_enable_auto_ban "1"
 
-		// 進來伺服器後60秒內又退出的玩家才會被自動封鎖 (0=只要玩家離線就是封鎖)
-		bandisconnected_ban_within_join_seconds "0"
+		// 進來伺服器後X秒內又退出的玩家才會被自動封鎖 (0=只要玩家離線就是封鎖)
+		bandisconnected_ban_within_join_seconds "60"
 
 		// 為1時，如果玩家崩潰退出則不會被自動封鎖
 		bandisconnected_crash_ban_disable "1"
 
-		// 設置封鎖的時間 (分鐘, 0=永久)
+		// 設置封鎖的時間 (單位: 分鐘, 0=永久)
 		bandisconnected_ban_mins "5"
 
 		// 擁有這些權限的玩家，不會被自動封鎖 (留白 = 任何人都不會被自動封鎖, -1: 任何人都會被自動封鎖)

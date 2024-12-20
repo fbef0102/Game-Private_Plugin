@@ -5,9 +5,6 @@ Sets the real killer of a special infected, based on who inflicted the most dama
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 	| Before (裝此插件之前)  			| After (裝此插件之後) |
 	| -------------|:-----------------:|
@@ -60,6 +57,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     None
 </details>
 
+* <details><summary>API | 串接</summary>
+
+    * [l4d2_kills_manager.inc](scripting/include/l4d2_kills_manager.inc)
+        ```php
+        library name: l4d2_kills_manager
+        ```
+</details>
+
 * Apply to | 適用於
     ```
     L4D1
@@ -75,6 +80,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>    
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2h (2024-12-20)
+        * Add API
 
     * v1.1h (2024-3-28)
         * Fixed damage error if attacker is game system or map

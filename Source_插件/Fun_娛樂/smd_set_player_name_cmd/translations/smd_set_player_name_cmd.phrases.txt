@@ -1,0 +1,46 @@
+//Please use notpad++ or vscode to open this file, so you will see the special ascii character
+//= \x01 (SOH) - Use normal color from this point forward
+//= \x02 (STX) - Use team color up to the end of the player name
+//= \x03 (ETX) - Use team color from this point forward
+//= \x04 (EOT) - Use location color from this point forward 
+//= \x05 (ENQ) - Use achievement color from this point forward
+
+"Phrases"
+{
+	"disable"
+	{
+		"en"			"This command is disable."
+		"zho"			"插件已關閉"
+		"chi"			"插件已关闭"
+	}	
+	
+	"No Access Other"
+	{
+		"en"			"[SM] You dont't have access to set other player's name"
+		"zho"			"[SM] 無權限更改別人玩家名稱"
+		"chi"			"[SM] 无权限更改别人玩家名称"
+	}
+	
+	"No Access Self"
+	{
+		"en"			"[SM] You dont't have access to set your name"
+		"zho"			"[SM] 無權限更改自己名稱"
+		"chi"			"[SM] 无权限更改自己名称"
+	}
+	
+	"Change player name"
+	{
+		"#format"		"{1:N}"
+		"en"			"You changed {1}'s name"
+		"zho"			"你已幫{1}改名"
+		"chi"			"你已帮{1}改名"
+	}
+	
+	"Change yuor name"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} changed your name"
+		"zho"			"{1}已幫你改名"
+		"chi"			"{1}已帮你改名"
+	}
+}

@@ -153,8 +153,8 @@
     * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
   * [smd_mute_player_list](/Source_插件/Anti_Griefer_防惡意路人/smd_mute_player_list): Player can personally mute someone chat text and mic voice.
     * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
-  * [bandisconnected](/Source_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server instantly after joined the server + Tracks recently-disconnected players and lets you ban them
-    * 自動封鎖近來伺服器後秒退的玩家 + 查看所有退出伺服器的玩家列表
+  * [bandisconnected](/Source_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server for short time + Tracks recently-disconnected players and lets you ban them
+    * 自動封鎖退出伺服器的玩家，短時間內不能加入 + 查看所有退出伺服器的玩家列表
   * [smd_invalid_name](/Source_插件/Anti_Griefer_防惡意路人/smd_invalid_name): Kick player or change name if has invalid or dirty name
     * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
 </details>
@@ -163,8 +163,10 @@
 
   * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
     * 根據管理員或玩家身分修改聊天窗口的對話顏色
-  * [spray_control_cooldown](/L4D_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
+  * [spray_control_cooldown](/Source_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
     * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
+  * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
+    * 玩家自己改名 + 管理員幫玩家改名
 </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
