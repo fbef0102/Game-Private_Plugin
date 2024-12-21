@@ -5,8 +5,7 @@ Make ragdolls from survivor/common infected/S.I./Witch vanish when they die.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* [Video | 影片展示](https://youtu.be/QJX4RjQ50Sk)
 
 * <details><summary>Image | 圖示</summary>
 

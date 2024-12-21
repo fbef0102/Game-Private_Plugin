@@ -36,6 +36,22 @@
 		"zho"	"[{olive}TS{default}] {red}Tank: {1}{default} 已陣亡."
 		"chi"	"[{olive}TS{default}] {red}Tank: {1}{default} 已阵亡."
 	}
+
+	"Health Remaining (AI)"
+	{
+		"#format"		"{1:N},{2:d}"
+		"en"	"[{olive}TS{default}] {red}{1}{default} had {red}{2}{default} health remaining."
+		"zho"	"[{olive}TS{default}] {red}{1}{default} 剩餘 {red}{2}{default} 血量."
+		"chi"	"[{olive}TS{default}] {red}{1}{default} 剩余 {red}{2}{default} 血量"
+	}
+	
+	"Health Remaining"
+	{
+		"#format"		"{1:N},{2:d}"
+		"en"	"[{olive}TS{default}] {red}Tank: {1}{default} had {red}{2}{default} health remaining."
+		"zho"	"[{olive}TS{default}] {red}Tank: {1}{default} 剩餘 {red}{2}{default} 血量."
+		"chi"	"[{olive}TS{default}] {red}Tank: {1}{default} 剩余 {red}{2}{default} 血量"
+	}
 	
 	"stats_1 (public)"
 	{

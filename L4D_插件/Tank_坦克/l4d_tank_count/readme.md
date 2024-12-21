@@ -5,16 +5,13 @@ Show how long is tank alive, how much damage done, and tank incap/death/punch/ro
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image
 	<br/>![l4d_tank_count_1](image/l4d_tank_count_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
 	* Display statistics on tank death or round ends.
-	* Support multi tanks stats
+	* Support multi tanks
 </details>
 
 * Require | 必要安裝
@@ -74,5 +71,5 @@ Tank死亡時，顯示Tank存活多長時間、對倖存者造成的 倒地/死�
 	<br/>![l4d_tank_count_1_zho](image/zho/l4d_tank_count_1_zho.jpg)
 
 * 原理
-	* 適用於對抗模式，但只支援場上一隻Tank的統計
-	* 適用於戰役/生存/寫實模式，支援場上多隻Tank的統計
+	* 適用於對抗/戰役/生存/模式，支援場上多隻Tank的統計
+	* Tank死亡或回合結束時打印

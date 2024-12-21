@@ -5,16 +5,14 @@ Displays how much damage done to tank + rock/punch/hittable from tank statistics
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 <br/>![l4d_tank_dmg_report_1](image/l4d_tank_dmg_report_1.jpg)
+<br/>![l4d_tank_dmg_report_2](image/l4d_tank_dmg_report_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
 	* Display statistics on tank death or round ends.
-	* Support multi tanks stats
+	* Support multi tanks
 </details>
 
 * Require | 必要安裝
@@ -67,6 +65,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2024-12-21)
+		* Display health remaining on round end
+		* Update translation
+
 	* v1.1h (2024-11-23)
 		* Update cvars
 		* Add translation
@@ -84,6 +86,7 @@ Tank死亡時，顯示對Tank造成傷害統計表 + 顯示受到的 拳頭/石�
 
 * 圖示
 <br/>![zho/l4d_tank_dmg_report_1](image/zho/l4d_tank_dmg_report_1.jpg)
+<br/>![zho/l4d_tank_dmg_report_2](image/zho/l4d_tank_dmg_report_2.jpg)
 
 * 原理
 	* Tank死亡時或回合結束時，顯示傷害統計表
