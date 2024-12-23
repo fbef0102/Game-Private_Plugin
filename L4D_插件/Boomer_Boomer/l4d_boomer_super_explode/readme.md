@@ -14,7 +14,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* AI Boomer (AI也適用)
 	<br/>![l4d_boomer_super_explode_3](image/l4d_boomer_super_explode_3.gif)
 
-
 * <details><summary>How does it work?</summary>
 
 	* Player-controlled Boomer holds crouch for 4 seconds, press jump to self explode

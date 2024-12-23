@@ -94,7 +94,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     1. [l4d2_spectating_cheat](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spectating_cheat): A spectator can now see the special infected model glows though the wall
         * 旁觀者可以看到特感的光圈，方便旁觀者觀賞
-    2. [l4d_flashlight_speconly](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Spectator_%E6%97%81%E8%A7%80%E8%80%85/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
+    2. [l4d_flashlight_speconly](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Spectator_%E6%97%81%E8%A7%80%E8%80%85/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
         * 給死亡玩家或旁觀者手電筒，照亮地圖
 </details>
 

@@ -5,11 +5,12 @@ Prevent survivor vision from getting experiencing recoil and screen shaking when
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
-<br/>None
+	| Before (裝此插件之前) | After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d_block_ff_shake_1](image/l4d_block_ff_shake_1.gif)|![l4d_block_ff_shake_2](image/l4d_block_ff_shake_2.gif)|
+	| ![l4d_block_ff_shake_3](image/l4d_block_ff_shake_3.gif)|![l4d_block_ff_shake_4](image/l4d_block_ff_shake_4.gif)|
+
 
 * <details><summary>How does it work?</summary>
 
@@ -44,8 +45,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_block_ff_shake_enable "1"
 
-		// If 1, Block shove too
-		l4d_block_ff_shake_shove "1"
+		// 1=Block FF shaking, 2=Block shove shaking, 3=Both
+		l4d_block_ff_shake_type "3"
+
+		// Players with these flags have can block ff shaking. (Empty = Everyone, -1: Nobody)
+		l4d_block_ff_shake_ff_flag ""
+
+		// Players with these flags have can block shove shaking. (Empty = Everyone, -1: Nobody)
+		l4d_block_ff_shake_shove_flag ""
 		```
 </details>
 
@@ -61,6 +68,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2024-12-23)
+		* Update cvars
 
 	* v1.1 (2024-10-8)
 		* Fixed shove not working on teammate who is pinned by infected
@@ -100,7 +110,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d_block_ff_shake_enable "1"
 
-		// 為1時，關閉右鍵推人造成隊友螢幕晃動與後座力降低
-		l4d_block_ff_shake_shove "1"
+		// 1=隊友或Bots的子彈打中不會使得螢幕晃動, 2=隊友或Bots的右鍵推到不會使得螢幕晃動, 3=兩者皆是
+		l4d_block_ff_shake_type "3"
+
+		// 擁有這些權限的玩家，被隊友的子彈打中不會螢幕晃動 (留白 = 任何人都能, -1: 無人)
+		l4d_block_ff_shake_ff_flag ""
+
+		// 擁有這些權限的玩家，被隊友的右鍵推到不會螢幕晃動 (Empty = Everyone, -1: Nobody)
+		l4d_block_ff_shake_shove_flag ""
 		```
 </details>

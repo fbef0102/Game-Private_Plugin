@@ -11,11 +11,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * punish player who said dirty word
     <br/>![sm_regexfilter_1](image/sm_regexfilter_1.jpg)
 
-* Apply to | 適用於
-	```
-	Any Source Game
-	```
-
 * <details><summary>How does it work?</summary>
 
     * Punish player who said dirty word (Ban, Slap, Kick, ...)

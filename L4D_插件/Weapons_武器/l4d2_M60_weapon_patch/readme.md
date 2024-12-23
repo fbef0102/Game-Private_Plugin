@@ -55,7 +55,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d2_shield_equip](/Plugin_%E6%8F%92%E4%BB%B6/Nothing_Impossible_%E7%84%A1%E7%90%86%E6%94%B9%E9%80%A0%E7%89%88/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
+	1. [l4d2_shield_equip](/L4D_插件/Nothing_Impossible_%E7%84%A1%E7%90%86%E6%94%B9%E9%80%A0%E7%89%88/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
 		> 新武器: 防暴盾牌
 </details>
 

@@ -27,27 +27,27 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_ghost_checkpoint_spawn.cfg
-	```php
-	// 0=Plugin off, 1=Plugin on.
-	l4d_ghost_checkpoint_spawn_enable "1"
+		```php
+		// 0=Plugin off, 1=Plugin on.
+		l4d_ghost_checkpoint_spawn_enable "1"
 
-	// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-	l4d_ghost_checkpoint_spawn_announce_type "1"
+		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_ghost_checkpoint_spawn_announce_type "1"
 
-	// When to allow ghost to spawn in start saferoom even if not all survivors leave?
-	// 0=Game default
-	// 1: First survivor leaves safe area
-	// 2: After tank spawn
-	// 3: While tank alive
-	l4d_ghost_checkpoint_spawn_in_start "1"
+		// When to allow ghost to spawn in start saferoom even if not all survivors leave?
+		// 0=Game default
+		// 1: First survivor leaves safe area
+		// 2: After tank spawn
+		// 3: While tank alive
+		l4d_ghost_checkpoint_spawn_in_start "1"
 
-	// When to allow ghost to spawn in end saferoom?
-	// 0=Game default
-	// 1: First survivor leaves safe area
-	// 2: After tank spawn
-	// 3: While tank alive
-	l4d_ghost_checkpoint_spawn_in_end "1"
-	```
+		// When to allow ghost to spawn in end saferoom?
+		// 0=Game default
+		// 1: First survivor leaves safe area
+		// 2: After tank spawn
+		// 3: While tank alive
+		l4d_ghost_checkpoint_spawn_in_end "1"
+		```
 </details>
 
 * <details><summary>Command | 命令</summary>

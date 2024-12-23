@@ -31,7 +31,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Optional | 可選安裝
 	1. [l4d2_hybrid_scoremod](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_hybrid_scoremod.sp): The next generation scoring mod
 		> Zonemod用的分數插件
-	2. [l4d2_versus_scoremod](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Versus_%E5%B0%8D%E6%8A%97%E6%A8%A1%E5%BC%8F/l4d2_versus_scoremod): Override versus score depending on survivor health and damage bonus
+	2. [l4d2_versus_scoremod](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Versus_%E5%B0%8D%E6%8A%97%E6%A8%A1%E5%BC%8F/l4d2_versus_scoremod): Override versus score depending on survivor health and damage bonus
 		> 根據玩家的血量與傷害改變對抗模式的分數
 
 * <details><summary>ConVar | 指令</summary>

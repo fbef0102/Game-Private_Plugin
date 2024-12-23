@@ -74,31 +74,29 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, still active loner punish if only two alive survivor left.
         l4d_together_two_alive_survivor_enable "1"
         ```
+
+    * (Example) If there are 4 alive survivors, when the loner is 2000 meter far away (behind or front) from 2 survivors for at least 5 ~ 15 seconds, constantly spawn special infected around the loner.
+        ```php
+        // What percentage of the ALIVE survivors the loner must away from to active loner punish.
+        l4d_together_alive_survivor_percentage "50"
+
+        // punish interval max seconds
+        l4d_together_loner_punish_interval_max "15.0"
+
+        // punish interval min seconds
+        l4d_together_loner_punish_interval_min "5.0"
+
+        // How many infected spawn every time to punish the loner
+        l4d_together_loner_punish_infected_number "2"
+
+        // If someone is away from survivor team, he is the loner
+        l4d_together_loner_range "2000.0"
+        ```
 </details>
 
 * <details><summary>Command | 命令</summary>
+    
     None
-</details>
-
-* <details><summary>ConVar Example (Click me to expend)</summary>
-
-    > If there are 4 alive survivors, when the loner is 2000 meter far away (behind or front) from 2 survivors for at least 5 ~ 15 seconds, constantly spawn special infected around the loner.
-    ```php
-    // What percentage of the ALIVE survivors the loner must away from to active loner punish.
-    l4d_together_alive_survivor_percentage "50"
-
-    // punish interval max seconds
-    l4d_together_loner_punish_interval_max "15.0"
-
-    // punish interval min seconds
-    l4d_together_loner_punish_interval_min "5.0"
-
-    // How many infected spawn every time to punish the loner
-    l4d_together_loner_punish_infected_number "2"
-
-    // If someone is away from survivor team, he is the loner
-    l4d_together_loner_range "2000.0"
-    ```
 </details>
 
 * Apply to | 適用於
@@ -115,10 +113,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    ```php
-    //panxiaohai @ 2009 - 2011
-    //Harry @ 2021 - 2024
-    ```
     * v1.7 (2024-3-14)
         * Add translation
 

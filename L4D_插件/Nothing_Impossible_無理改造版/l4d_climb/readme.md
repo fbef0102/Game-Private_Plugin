@@ -126,7 +126,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* v1.0h
       * Translation Support
       * Modify cvars
-      * Support [Ready up plugin](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Server_%E4%BC%BA%E6%9C%8D%E5%99%A8/readyup), allow to climb wall during ready-up
+      * Support [Ready up plugin](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Server_%E4%BC%BA%E6%9C%8D%E5%99%A8/readyup), allow to climb wall during ready-up
 
 	* v1.05
       * [Shadowysn's fork](https://forums.alliedmods.net/showpost.php?p=2681114&postcount=99)
