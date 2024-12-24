@@ -28,7 +28,7 @@
 		"chi"	"安全门锁住, 请稍后!"
 	}
 	
-	"Timer_2 (C)"
+	"Door_Timer (C)"
 	{
 		"#format"	"{1:d}"
 		"en"	"[{olive}TS{default}] Saferoom locks: {green}{1}{default} second(s)"
@@ -36,7 +36,7 @@
 		"chi"	"[{olive}TS{default}] 安全室锁住: {green}{1}{default} 秒"
 	}
 
-	"Timer_2"
+	"Door_Timer"
 	{
 		"#format"	"{1:d}"
 		"en"	"Saferoom locks: {1} second(s)"
@@ -44,17 +44,33 @@
 		"chi"	"安全室锁住: {1} 秒"
 	}
 	
+	"Zone_Timer (C)"
+	{
+		"#format"	"{1:d}"
+		"en"	"[{olive}TS{default}] Locks safe zone: {green}{1}{default} second(s)"
+		"zho"	"[{olive}TS{default}] 不能離開安全區域: {green}{1}{default} 秒"
+		"chi"	"[{olive}TS{default}] 不能离开安全区域: {green}{1}{default} 秒"
+	}
+
+	"Zone_Timer"
+	{
+		"#format"	"{1:d}"
+		"en"	"Locks safe zone: {1} second(s)"
+		"zho"	"不能離開安全區域: {1} 秒"
+		"chi"	"不能离开安全区域: {1} 秒"
+	}
+	
 	"Leave (C)"
 	{
-		"en"	"{green}Not allowed to leave the saferoom, please wait!"
-		"zho"	"{green}還不能離開安全室, 請稍後!"
-		"chi"	"{green}还不能离开安全室, 请稍后!"
+		"en"	"{green}Not allowed to leave the safe zone, please wait!"
+		"zho"	"{green}還不能離開安全區域, 請稍後!"
+		"chi"	"{green}还不能离开安全区域, 请稍后!"
 	}
 	
 	"Leave"
 	{
-		"en"	"Door Locks, please Wait!"
-		"zho"	"安全門鎖住, 請稍後!"
-		"chi"	"安全门锁住, 请稍后!"
+		"en"	"Not allowed to leave the safe zone, please wait!"
+		"zho"	"還不能離開安全區域, 請稍後!"
+		"chi"	"还不能离开安全区域, 请稍后!"
 	}
 }

@@ -15,7 +15,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Lock start saferoom door until all connecting players are loaded or until time pass
-    * Teleport survivor back to safe area when door locks
+    * Teleport survivor back to safe area if does not have start saferoom door
     * Saferoom door drops after door open
 </details>
 
@@ -45,15 +45,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, saferoom door drops after door open
         antisaferoomdooropen_fake "1"
 
-        // If 1, Door fades after it it drops.
+        // If 1, Door fades after it drops.
         antisaferoomdooropen_fade "1"
 
-        // If 1, Players will be teleported back to saferoom if leaves the safe area when door locks. (0=off)
-        // Only work if map doesn't have start saferoom door
-        antisaferoomdooropen_left_start_area_teleport "41"
+        // If 1, Players will be teleported back to saferoom if try to leave the safe area when door locks
+        // Useful if map does not have start saferoom door
+        antisaferoomdooropen_left_start_area_teleport "1"
 
-        // If 1, Players won't take any damage when door locks
-        // Only work if map doesn't have start saferoom door
+        //If 1, Players won't take any damage when door locks
         antisaferoomdooropen_left_start_area_god "1"
 
         // If 1, Spawn player to safe area if player dies when door locks
@@ -106,6 +105,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.7 (2024-12-25)
+        * Update cvars
 
     * v2.7 (2024-11-19)
         * Waiting for connecting players
@@ -172,17 +174,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         antisaferoomdooropen_fade "1"
 
         // (大門鎖住時) 為1時，倖存者離開安全區域會被傳送回起點 (0=關閉這項功能)
-        // 關卡沒有安全室才會生效
-        antisaferoomdooropen_left_start_area_teleport "41"
+        // 適合關卡沒有起始安全門的時候
+        antisaferoomdooropen_left_start_area_teleport "1"
 
-        // (大門鎖住時) 為1時，倖存者們不會受到任何傷害直到 _left_start_area_time 設置的時間結束
-        // 關卡沒有安全室才會生效
+        // (大門鎖住時) 為1時，倖存者們不會受到任何傷害
         antisaferoomdooropen_left_start_area_god "1"
 
-        // (大門鎖住時) 為1時，如果玩家在安全室內死亡則會復活 (時間到之前)
+        // (大門鎖住時) 為1時，如果玩家在安全室內死亡則會復活
         antisaferoomdooropen_open_spawn_player "0"
 
-        // (大門鎖住時) 為1時，玩家取代Bot時會返回安全區域 (時間到之前)
+        // (大門鎖住時) 為1時，玩家取代Bot時會返回安全區域
         antisaferoomdooropen_return_player "0"
 
         // 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
