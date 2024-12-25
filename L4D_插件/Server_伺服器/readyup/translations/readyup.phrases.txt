@@ -125,23 +125,23 @@
 	"AutoStartCountdown"
 	{
 		"#format"	"{1:d}"
-		"en"		"Game starts in: {1}"
-		"chi"		"对局开始于：{1}"
-		"zho"		"回合開始於：{1}"
+		"en"		"(Auto Start) Game starts in: {1}"
+		"chi"		"(自動開始) 对局开始于：{1}"
+		"zho"		"(自动开始) 回合開始於：{1}"
 
 	}
 	
 	"AutoStartWaiting"
 	{
-		"en"		"Waiting for loading players..."
-		"chi"		"等待玩家加入..."
-		"zho"		"等待玩家加入..."
+		"en"		"(Auto Start) Waiting for loading players..."
+		"chi"		"(自動開始) 等待玩家加入..."
+		"zho"		"(自动开始) 等待玩家加入..."
 	}
 	
 	"AutoStartNotEnoughPlayers"
 	{
-		"en"		"More players are required..."
-		"chi"		"玩家数量不足..."
-		"zho"		"玩家數量不足..."
+		"en"		"(Auto Start) More players are required..."
+		"chi"		"(自動開始) 玩家数量不足..."
+		"zho"		"(自动开始) 玩家數量不足..."
 	}
 }

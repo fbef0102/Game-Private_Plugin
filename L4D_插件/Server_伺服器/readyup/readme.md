@@ -13,13 +13,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* When new round begins, freeze all survivors and infecteds, and display readyup hud
+	* When new round begins, freeze all survivors, and display readyup hud
 		* Survivors can not leave saferoom
 		* (Versus) Infected can not spawn
 	* Players have to type ```!ready``` to mark as ready
 	* Once everyone is ready, the game starts
 	* Type ```!hide``` or ```!show``` to close or open readyup hud
-	* This Plugin also work in coop/realism mode
+	* This Plugin work in coop/realism/survival/versus/scavenge mode
 </details>
 
 * Require | 必要安裝
@@ -31,7 +31,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/readyup.cfg
 		```php
-		// Enable this plugin. (Values: 0 = Disabled)
+		// Enable this plugin. (Values: 0 = Disabled, 1 = Manual ready, 2 = Auto start, 3 = Team ready)
 		l4d_ready_enabled "1"
 
 		// Configname to display on the ready-up panel
@@ -61,6 +61,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// The sound that plays when a round goes live
 		l4d_ready_live_sound "ui/survival_medal.wav"
 
+		// The sound that plays when auto-start goes on countdown
+		l4d_ready_autostart_sound "ui/buttonrollover.wav"
+
 		// Enable random moustachio chuckle during countdown
 		l4d_ready_chuckle "0"
 
@@ -69,6 +72,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Number of seconds to count down before the round goes live.
 		l4d_ready_delay "3"
+
+		// (Force start) Number of seconds added to the duration of live count down.
+		l4d_ready_force_extra "2"
+
+		// (Auto start) Number of seconds to count down before auto-start kicks in.
+		l4d_ready_autostart_delay "5"
+
+		// (Auto start) Number of seconds to wait for connecting players before auto-start is forced.
+		l4d_ready_autostart_wait "20"
+
+		// (Auto start) Percent of max players (Versus/Scavenge = 8, Coop/Realism/Survival = 4) in game to allow auto-start to proceed.
+		l4d_ready_autostart_min "0.25"
+
+		// If 1, Allow game to go live when teams are not full in versus/scavenge.
+		l4d_ready_unbalanced_start "0"
+
+		// Minimum of players in each team to allow a unbalanced start in versus/scavenge.
+		l4d_ready_unbalanced_min "2"
 		```
 </details>
 
@@ -123,7 +144,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>API | 串接</summary>
 
-	* [readyup.inc](scripting\include\readyup.inc)
+	* [readyup.inc](scripting/include/readyup.inc)
 		```php
 		library name: readyup
 		```
@@ -146,8 +167,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4h (2024-12-25)
+		* Dispaly caster if use caster_system plugin
+		* Add auto start, team start
+		* Update cvars
+		* Update translation
+
 	* v1.3h (2024-2-22)
-		* Remove API and include file
+		* Add API and include file
 		* Update cvars
 
 	* v1.2h (2024-1-23)
@@ -173,14 +200,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* (對抗) 特感無法復活
 		* 可修改源碼自行決定Ready介面要顯示甚麼內容
 	* 玩家必須輸入```!ready```表示已準備好遊玩
-	* 當所有玩家準備好之後，遊戲就會開始
-	* 戰役/寫實/生存模式也適用，所有倖存者玩家準備好，遊戲才會開始
+	* 當所有玩家準備好之後，遊戲才會開始
+	* 適用於戰役/寫實/生存/對抗/清道夫模式
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/readyup.cfg
 		```php
-		// 0=關閉插件, 1=啟動插件
+		// 0=關閉插件, 1=手動準備, 2=人數足夠則自動開始, 3=隊伍準備
 		l4d_ready_enabled "1"
 
 		// 在Ready介面上顯示的模式名稱
@@ -217,8 +244,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 玩家準備時頭上顯示秘密的獎盃圖案 (只限倖存者)
 		l4d_ready_secret "1"
 
-		// 所有玩家準備好之後倒數3秒開始
+		// 所有玩家準備好之後倒數X秒開始
 		l4d_ready_delay "3"
+
+		// (強制開始) 額外增加的倒數開始秒數
+		l4d_ready_force_extra "2"
+
+		// (自動開始) 倒數開始的秒數.
+		l4d_ready_autostart_delay "5"
+
+		// (自動開始) 自動開始之前等待連線中的玩家的秒數.
+		l4d_ready_autostart_wait "20"
+
+		// (自動開始) 當玩家數量超過滿人(對抗/清道夫: 8人, 戰役/寫實/生存: 4人)的百分比時，自動開始.
+		l4d_ready_autostart_min "0.25"
+
+		// 為1時，雙方隊伍沒有滿人也可以開始 (對抗/清道夫)
+		l4d_ready_unbalanced_start "0"
+
+		// 為1時，雙方隊伍各自至少有X人之時，回合可以開始 (對抗/清道夫)
+		l4d_ready_unbalanced_min "2"
 		```
 </details>
 

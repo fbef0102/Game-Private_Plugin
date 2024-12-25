@@ -38,11 +38,11 @@
  * @param attackerisbot		is the attacker a bot
  * @param victimname		What type of zombie, so we don't have zombie names
  * @param victimisbot		is the victim a bot
- * @param abort				did the victim abort (I don't don't what it is)
+ * @param abort				did the victim abort (I don't know what it is)
  * @param type				damage type
- * @param victim_x			victim x (I don't don't what it is)
- * @param victim_y			victim y (I don't don't what it is)
- * @param victim_z			victim z (I don't don't what it is)
+ * @param victim_x			victim x (I don't know what it is)
+ * @param victim_y			victim y (I don't know what it is)
+ * @param victim_z			victim z (I don't know what it is)
  *
  * @noreturn
  */

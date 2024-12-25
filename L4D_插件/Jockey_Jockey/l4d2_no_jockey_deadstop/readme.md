@@ -49,6 +49,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [l4d2_Sinister_Jockey](/L4D_插件/Jockey_Jockey/l4d2_Sinister_Jockey): Allows for unique Jockey abilities to empower the small tyrant.
 		> 增強Jockey，賦予多種超能力成為小小的暴君
+	2. [l4d2_jockey_hitbox_fix](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_jockey_hitbox): Fix jockey hitbox issues when riding on survivors.
+		> 修復Jockey騎在倖存者身上的Hitbox判定
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
