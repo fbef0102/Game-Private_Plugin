@@ -12,6 +12,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.jpg)
     <br/>![antisaferoomdooropen_3](image/antisaferoomdooropen_3.gif)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * <details><summary>How does it work?</summary>
 
 	* Lock start saferoom door until all connecting players are loaded or until time pass
@@ -83,12 +89,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
 * <details><summary>Translation Support | 支援翻譯</summary>
 
 	```
@@ -101,10 +101,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
     1. [lockdown_system_l4d](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lockdown_system_l4d): Locks Saferoom Door Until Someone Opens It.
-        > 終點安全門鎖住直到時間結束
+		* 終點安全門鎖住直到時間結束
+	2. [l4d_start_safe_area](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_start_safe_area): Add Custom safe area for any map on start
+		* 遊戲開局時，強制將出生點周圍區域判定為安全區，以確保玩家安全
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.8 (2025-1-1)
+        * Make door drop after door is fully opened
 
     * v2.7 (2024-12-25)
         * Update cvars

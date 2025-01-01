@@ -147,8 +147,8 @@
         * 像是[Resident Evil](https://steamcommunity.com/sharedfiles/filedetails/?id=533677587)、[Questionable Ethics](https://steamcommunity.com/sharedfiles/filedetails/?id=2783476025&searchtext=question)等等
     * 有插件會修改遊戲指導系統
         * 像是[l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/blob/master/l4d2_item_hint)等等
-        <br/>![l4d2_item_hint](https://raw.githubusercontent.com/fbef0102/L4D2-Plugins/master/l4d2_item_hint/image/l4d2_item_hint_3.jpg)
-    * 你剛買這遊戲，還是新手的時候
+        <br/>![l4d2_item_hint](https://github.com/user-attachments/assets/665e3926-445f-46f3-9c54-70034890cb95)
+    * 你是新手的時候
 
 * <details><summary>問題1: 為什麼打開了還是看不到 ?</b></summary>
 
@@ -162,19 +162,20 @@
 * 自訂伺服器內容?
     * 遊戲提供社群玩家自己架設伺服器並創造多樣化的玩法，在某些伺服器當中，會使用自製的模組或檔案，提供玩家下載
         * [播放自製音樂](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart): 所有人能聽到音樂
-        <br/>![l4d_MusicMapStart_2](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/l4d_MusicMapStart/image/l4d_MusicMapStart_2.jpg)
-        * [自製地圖塗鴉](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals): 所有人能看到圖案
-        <br/>![map-decals_3](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/map-decals/image/map-decals_3.jpg)
+        <br/>![image](https://github.com/user-attachments/assets/94947d69-08d1-485f-9e40-8a3f0490e38a)
+        * [自製地圖塗鴉](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/map-decals): 所有人能看到圖案
+        <br/>![image](https://github.com/user-attachments/assets/8ac6cf71-a50d-4c8e-a609-7546ffba5819)
         * [自製角色模組](https://forums.alliedmods.net/showthread.php?t=284157): 所有人能看到Ada Wong人物
         <br/>![image](https://user-images.githubusercontent.com/12229810/205225817-b240eec1-a877-4d01-921d-d937e87a8998.png)
         * [跳舞動作](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Fun_%E5%A8%9B%E6%A8%82/fortnite_l4d1%262): 所有人能看到舞蹈動作
-        <br/>![fortnite_l4d1 2_3](https://user-images.githubusercontent.com/12229810/233370478-276b9b8d-7584-49b2-a377-fc159dd916f3.gif)
+        <br/>![gif](https://user-images.githubusercontent.com/12229810/233370478-276b9b8d-7584-49b2-a377-fc159dd916f3.gif)
 
 * 如何開啟?
     * ESC->選項->多人連線->自訂伺服器內容->全部允許
     <br/>![image](https://user-images.githubusercontent.com/12229810/205226195-796cf18f-1382-4fc4-8999-b8c05eb01f76.jpg)
-    * 開啟之後，在連線伺服器的過程中會自動下載自製檔案(如果有的話)
-    <br/>![sm_downloader_1](https://raw.githubusercontent.com/fbef0102/L4D1_2-Plugins/master/sm_downloader/image/sm_downloader_1.jpg)
+    * 開啟之後，在連線伺服器的過程中會自動下載自製檔案，打開遊戲控制台會看到 (如果有的話)
+        * L4D1 不會顯示這些
+        <br/>![image](https://github.com/user-attachments/assets/ded70b0f-853c-44a7-b594-308bd9096308)
 
 * 我可以關閉嗎?
     * 可以關閉但是我不推薦，進去社群玩家伺服器之後不會自動下載檔案，聽不見自製音樂、看不見自製模組

@@ -61,19 +61,22 @@
 		// 殺死Hunter所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_hunter_killed "4"
 
-		// 空爆Hunter所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		// 空爆Hunter所獲得的戰力值 (0=關閉)
+		// 需安裝插件l4d2_skill_detect by Harry
 		l4d_ranking_system_hunter_skeeted "8"
 
 		// 殺死Jockey所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_jockey_killed "6"
 
-		// 空爆Jockey所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		// 空爆Jockey所獲得的戰力值 (0=關閉)
+		// 需安裝插件l4d2_skill_detect by Harry
 		l4d_ranking_system_jockey_skeeted "12"
 
 		// 殺死Charger所獲得的經驗值 (0=關閉)
 		l4d_ranking_system_charger_killed "7"
 
-		// 秒殺衝鋒的Charger所獲得的戰力值\n需安裝插件l4d2_skill_detect by Harry
+		// 秒殺衝鋒的Charger所獲得的戰力值 (0=關閉)
+		// 需安裝插件l4d2_skill_detect by Harry
 		l4d_ranking_system_charger_leveled "14"
 
 		// 殺死Spitter所獲得的經驗值 (0=關閉)
@@ -99,6 +102,9 @@
 
 		// '經驗排行榜' 顯示多少個排名玩家?
 		l4d_ranking_system_top_rank_numbers "200"
+
+		// 為1時，玩家進來後自動顯示Rank面板
+		l4d_ranking_system_join_display_hud "1"
 
 		// 團滅損失XX經驗值. (0=關閉)
 		l4d_ranking_system_survivor_mission_lost "50"

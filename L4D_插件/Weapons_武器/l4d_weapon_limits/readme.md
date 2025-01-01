@@ -88,7 +88,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
-    4. Optional - [l4d_multiple_equipment](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment)
 
 * <details><summary>ConVar | 指令</summary>
 

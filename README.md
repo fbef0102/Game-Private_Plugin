@@ -612,7 +612,7 @@
     * 輸入命令切換到另一個Bot角色遊玩
   * [l4d_TougherSurvivorBots](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Makes the survivor bots deal more damage against SIs and be more resistant to damage.
     * 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
-  * [l4d_TougherSurvivorBots](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Survivor bots auto self-revive after incap, hanging from ledge + auto self-clear if get pinned by special infected
+  * [l4d_bot_auto_self_help](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_auto_self_help): Survivor bots auto self-revive after incap, hanging from ledge + auto self-clear if get pinned by special infected
     * AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動殺死特感
 </details>
 

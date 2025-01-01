@@ -74,13 +74,15 @@
 
 * [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 
-* [l4d2_transition_info_fix](https://forums.alliedmods.net/showpost.php?p=2810276&postcount=12): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+* [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 
 * [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) Stops clients from getting kicked via the Kill input
     * Fixed ```Kicked by Console : CBaseEntity::InputKill()```
 
 * [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): Fixes the server can not reads the plugin's cvars and cmds in cfg files
 
+* [l4d2_maptankfix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_maptankfix): Fix issues where customized map tank does not spawn, cause the map process break 
+  
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install

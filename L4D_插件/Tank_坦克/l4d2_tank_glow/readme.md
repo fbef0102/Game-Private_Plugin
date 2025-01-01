@@ -12,7 +12,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. Optional - [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -52,6 +51,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [witch_glow](/L4D_插件/Witch_女巫/witch_glow): Sets glows on witches everyone can see
 		* 在Witch身上打上光圈，所有人都可以看見Witch在哪裡
+	2. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651): Allows plugins to attach things to weapons. Fixes player attachments when their model changes.
+		* 檢測模組被改變
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

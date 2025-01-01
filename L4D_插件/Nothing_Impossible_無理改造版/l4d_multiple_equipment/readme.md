@@ -49,7 +49,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
     4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
-    5. Optional - [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -151,8 +150,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_weapon_limits](/L4D_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
-		* 限制每個武器可以拿取的數量，超過就不能拿取
+    1. [l4d_weapon_limits](/L4D_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
+        * 限制每個武器可以拿取的數量，超過就不能拿取
+    2. [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+        * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
