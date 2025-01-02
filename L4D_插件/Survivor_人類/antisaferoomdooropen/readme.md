@@ -23,6 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Lock start saferoom door until all connecting players are loaded or until time pass
     * Teleport survivor back to safe area if does not have start saferoom door
     * Saferoom door drops after door open
+    * To control enable/disable on some custom maps, modify file: [data/antisaferoomdooropen.cfg](data/antisaferoomdooropen.cfg)
 </details>
 
 * Require | 必要安裝
@@ -108,10 +109,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v2.8 (2025-1-1)
+    * v3.0 (2025-1-2)
+        * Add data file to control enable/disable on specific maps
+
+    * v2.9 (2025-1-1)
         * Make door drop after door is fully opened
 
-    * v2.7 (2024-12-25)
+    * v2.8 (2024-12-25)
         * Update cvars
 
     * v2.7 (2024-11-19)
@@ -147,6 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 當所有玩家已載入遊戲或時間到之後，大門解鎖
     * 如果關卡沒有安全室，則離開安全區域會被傳送回去
     * 大門打開後，門掉落在地上 (不能再關回去)
+    * 可到文件設置某些三方圖不要修改安全門: [data/antisaferoomdooropen.cfg](data/antisaferoomdooropen.cfg)
 
 * 用意在哪?
     * 讓隊友等待玩家

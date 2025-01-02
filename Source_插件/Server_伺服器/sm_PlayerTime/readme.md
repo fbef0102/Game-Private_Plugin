@@ -16,7 +16,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D1
 	L4D2
 	CSS
 	```
@@ -33,14 +32,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. L4D/L4D2: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
+	2. L4D2: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
 	3. CSS: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/sm_PlayerTime.cfg
 		```php
-		// Application ID of current game. CS:S (240), L4D (500), L4D2 (550)
+		// Application ID of current game. CS:S (240), L4D2 (550)
 		sm_playtime_appid "550"
 
 		// If 1, Announce the time played when player joins the server.
@@ -135,7 +134,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/sm_PlayerTime.cfg
 		```php
-		// 遊戲專屬的ID，安裝在L4D寫500，安裝在L4D2寫550
+		// 遊戲專屬的ID
+		// 安裝在L4D2寫550
+		// 安裝在CS:S寫240
 		sm_playtime_appid "550"
 
 		// 為1時，玩家連線時顯示遊戲時數
