@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Count medkit to which player. (1=Person doing the healing, 2=Person being healed)
 		l4d_medkit_status_count_player "1"
 
-		// If 1, start to count medkit used once survivors leaving saferoom or survival begins (0=Always count)
+		// If 1, start to count medkit used after game starts (survivors leaving saferoom / survival or scavenge begins) (0=Always count)
 		l4d_medkit_status_game_start_enable "1"
 
 		// Reset all players data when 0=Map Change, 1=Next New Round, 2=Next Game starts (survivors leaving saferoom / survival or scavenge begins)
@@ -96,7 +96,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_medkit_status_count_player "1"
 
 		// 為1時，遊戲開始之後才會計算治療包使用數量 (倖存者離開安全室 或 生存/清道夫 計時開始)
-		// 0=一直都計算
+		// 0 = 一直都計算
 		l4d_medkit_status_game_start_enable "1"
 
 		// 何時重置治療包數據? 0=換圖時, 1=新的回合開始時, 2=下次遊戲開始之時 (離開安全室 / 生存或清道夫模式計時開始).

@@ -20,6 +20,13 @@
 		"zho"	"你不是特感"
 		"chi"	"你不是特感"
 	}
+	
+	"Spectator"
+	{
+		"en"	"Spectators won't work"
+		"zho"	"旁觀者無法使用"
+		"chi"	"旁观者无法使用"
+	}
 
 	"You are busy (sur)"
 	{
@@ -69,6 +76,13 @@
 		"zho"	"特感變回人類角色"
 		"chi"	"特感变回人类角色"
 	}
+	
+	"Turn Client into Ghost"
+	{
+		"en"	"Turn Client into Ghost Infected"
+		"zho"	"玩家變成靈魂特感"
+		"chi"	"玩家变成灵魂特感"
+	}
 
 	"No Any Survivor"
 	{
@@ -82,6 +96,13 @@
 		"en"			"No Any Infecteds"
 		"zho"			"目前沒有適合的特感"
 		"chi"			"目前没有适合的特感"
+	}
+	
+	"No One In Game"
+	{
+		"en"			"No Any players in game"
+		"zho"			"目前倖存者/感染者沒有人"
+		"chi"			"目前生还者/感染者没有人"
 	}
 
 	"Wrong character name"
@@ -97,7 +118,21 @@
 		"zho"			"選擇特感玩家"
 		"chi"			"选择特感玩家"
 	}
+	
+	"Choose In Game Player"
+	{
+		"en"			"Choose Player In Game"
+		"zho"			"選擇遊玩的玩家"
+		"chi"			"选择游玩的玩家"
+	}
 
+	"Choose Infected Player (Real player only)"
+	{
+		"en"			"Choose Infected Player (Real player only)"
+		"zho"			"選擇特感玩家 (AI不適用)"
+		"chi"			"选择特感玩家 (AI不适用)"
+	}
+	
 	"Choose Infected Player (Real player only)"
 	{
 		"en"			"Choose Infected Player (Real player only)"
@@ -146,6 +181,13 @@
 		"zho"			"目標玩家已不是特感"
 		"chi"			"目标玩家已不是特感"
 	}
+	
+	"Target invalid"
+	{
+		"en"			"Target is invalid or not in survivor/infected team"
+		"zho"			"目標玩家已不是倖存者或感染者"
+		"chi"			"目标玩家已不是幸存者或感染者"
+	}
 
 	"Target is not infected player"
 	{
@@ -175,6 +217,22 @@
 		"en"			"You were turned into {green}{1}{default} by {olive}{2}{default}"
 		"zho"			"{olive}{2}{default} 將你變異成 {green}{1}{default}"
 		"chi"			"{olive}{2}{default} 将你变异成 {green}{1}{default}"
+	}
+	
+	"Turn Target Into Ghost"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"You turn {olive}{1}{default} into {green}{2}{default} ghost state"
+		"zho"			"你強制將 {olive}{1}{default} 變異成 {green}{2}{default} 靈魂狀態"
+		"chi"			"你强制将 {olive}{1}{default} 变异成 {green}{2}{default} 灵魂状态"
+	}
+
+	"Turn Into Ghost By"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"You were turned into {green}{1}{default} ghost state by {olive}{2}{default}"
+		"zho"			"{olive}{2}{default} 將你變成 {green}{1}{default} 靈魂狀態"
+		"chi"			"{olive}{2}{default} 将你变成 {green}{1}{default} 灵魂状态"
 	}
 
 	"Turn Target Into Survivor"
@@ -256,6 +314,55 @@
 		"en"			"Tank"
 		"zho"			"Tank"
 		"chi"			"Tank"
+	}
+	
+	"Ghost Smoker"
+	{
+		"en"			"Ghost Smoker"
+		"zho"			"Ghost Smoker"
+		"chi"			"Ghost Smoker"
+	}
+
+	"Ghost Boomer"
+	{
+		"en"			"Ghost Boomer"
+		"zho"			"Ghost Boomer"
+		"chi"			"Ghost Boomer"
+	}
+
+	"Ghost Hunter"
+	{
+		"en"			"Ghost Hunter"
+		"zho"			"Ghost Hunter"
+		"chi"			"Ghost Hunter"
+	}
+
+	"Ghost Spitter"
+	{
+		"en"			"Ghost Spitter"
+		"zho"			"Ghost Spitter"
+		"chi"			"Ghost Spitter"
+	}
+
+	"Ghost Jockey"
+	{
+		"en"			"Ghost Jockey"
+		"zho"			"Ghost Jockey"
+		"chi"			"Ghost Jockey"
+	}
+
+	"Ghost Charger"
+	{
+		"en"			"Ghost Charger"
+		"zho"			"Ghost Charger"
+		"chi"			"Ghost Charger"
+	}
+
+	"Ghost Tank"
+	{
+		"en"			"Ghost Tank"
+		"zho"			"Ghost Tank"
+		"chi"			"Ghost Tank"
 	}
 
 	"Random"

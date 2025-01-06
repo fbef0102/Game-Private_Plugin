@@ -25,6 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* ```!zTank```, ```!zSmoker``` ... : Transform yorself from survivor into Zombie class
 		* ```!zNick```, ```!zBill``` ... : Transform yorself from infected into character
 		* ```!zSur```, ... : Transform yorself from infected into survivor (model not change, can use infected ability)
+		* ```!gBoomer```, ```!gHunter```... : Transform yorself into ghost infected
 	* Admin can type ```!zmenu``` to open zombie transform menu
 	* API for developers
 </details>
@@ -54,6 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Player with these flag have access to use command to transform from infected into character (Empty=Everyone, -1=No one)
 		l4d2_zombie_transform_character_access "z"
 
+		// Player with these flag have access to use command to transform into ghost infected (Empty=Everyone, -1=No one)
+		l4d2_zombie_transform_ghost_access "z"
+
 		// Only transform zombie or survivor when player is alive
 		l4d2_zombie_transform_alive_only "1"
 		```
@@ -76,7 +80,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_zBoomer <0/1/2/3>
 		```
 
-	* **Transform yorself from survivor into Hunter, Usage: sm_zHunter or sm_zHunter <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random"**
+	* **Transform yorself from survivor into Hunter, Usage: sm_zHunter or sm_zHunter <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random**
 		```php
 		sm_zHunter <0/1/2>
 		```
@@ -152,6 +156,41 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_zLouis
 		```
+
+	* **Transform yorself into Ghost Smoker**
+		```php
+		sm_gSmoker
+		```
+
+	* **Transform yorself into Ghost Boomer**
+		```php
+		sm_gBoomer
+		```
+
+	* **Transform yorself into Ghost Hunter**
+		```php
+		sm_gHunter
+		```
+
+	* **Transform yorself into Ghost Spitter**
+		```php
+		sm_gSpitter
+		```
+
+	* **Transform yorself into Ghost Jockey**
+		```php
+		sm_gJockey
+		```
+
+	* **Transform yorself into Ghost Charger**
+		```php
+		sm_gCharger
+		```
+
+	* **Transform yorself into Ghost Tank**
+		```php
+		sm_gTank
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -178,6 +217,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2025-1-5)
+		* Update cmds, cvars, translatin file
+		* Player can use cmd to become ghost infected
+
 	* v1.2 (2024-7-31)
 		* Still can transform when pin survivor or get pinned by infected
 
@@ -197,6 +240,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* ```!zTank```, ```!zSmoker```... : 倖存者變成特感
 		* ```!zNick```, ```!zBill``` ... : 特感變成人類角色
 		* ```!zSur```, ... : 特感變成人類 (保留特感模型, 可使用特感能力)
+		* ```!gBoomer```, ```!gHunter```... : 玩家變成靈魂特感
 	* 管理員輸入 ```!zmenu``` 可以打開選單，幫玩家轉換特感或人類
 	* 保留API給其他插件做使用
 
@@ -218,6 +262,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 擁有這些權限的玩家，才可以輸入命令從特感變成人類角色 (留白 = 任何人都能, -1: 無人)
 		l4d2_zombie_transform_character_access "z"
+
+		// 擁有這些權限的玩家，才可以輸入命令變成靈魂特感 (留白 = 任何人都能, -1: 無人)
+		l4d2_zombie_transform_ghost_access "z"
 
 		// 為1時，只有當玩家活著才可以轉變
 		l4d2_zombie_transform_alive_only "1"
@@ -241,7 +288,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_zBoomer <0/1/2/3>
 		```
 
-	* **從倖存者變異成Hunter, 使用方式: sm_zHunter 或 sm_zHunter <0/1/2>, 1=L4D2模型, 2=L4D1模型, 0=隨機"**
+	* **從倖存者變異成Hunter, 使用方式: sm_zHunter 或 sm_zHunter <0/1/2>, 1=L4D2模型, 2=L4D1模型, 0=隨機**
 		```php
 		sm_zHunter <0/1/2>
 		```
@@ -316,5 +363,40 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **從特感變異回角色: Louis**
 		```php
 		sm_zLouis
+		```
+
+	* **變成靈魂Smoker**
+		```php
+		sm_gSmoker
+		```
+
+	* **變成靈魂Boomer**
+		```php
+		sm_gBoomer
+		```
+
+	* **變成靈魂Hunter**
+		```php
+		sm_gHunter
+		```
+
+	* **變成靈魂 Spitter**
+		```php
+		sm_gSpitter
+		```
+
+	* **變成靈魂Jockey**
+		```php
+		sm_gJockey
+		```
+
+	* **變成靈魂Charger**
+		```php
+		sm_gCharger
+		```
+
+	* **變成靈魂Tank**
+		```php
+		sm_gTank
 		```
 </details>

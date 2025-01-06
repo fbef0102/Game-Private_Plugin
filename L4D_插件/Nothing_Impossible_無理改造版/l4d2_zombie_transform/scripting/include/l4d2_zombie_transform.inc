@@ -29,10 +29,18 @@ forward void OnTurnZombieIntoSurvivor(int client, int classType, bool bSaveAbili
  */
 forward void OnTurnClientIntoCharacter(int client, const char[] sCharacterName);
 
+/**
+ * Called when client has turned into ghost infected
+ * 
+ * @param client 			The client index.
+ * @param classType 		The zombie classType. (1~8)
+ */
+forward void OnTurnClientIntoGhost(int client, int classType);
+
 
 /** Turn client into zombie
  *
- * @param client                The client index.
+ * @param client                The client index. Only accept infected or survivor
  * @param classType             The zombie classType. (1~8)
  * @param variantModel          The zombie variant model, (0=Random)
  *                                  Smoker: 	1=L4D2 Model, 2=L4D1 Model, 0=Random.
@@ -42,26 +50,41 @@ forward void OnTurnClientIntoCharacter(int client, const char[] sCharacterName);
  * @param bAbility              If true, give infected custom ability
  * 
  * @return                      true if successful, false otherwise
+ * @error	client is spectator or classtype is invalid
  */
 native bool Z_TurnClientIntoZombie(int client, int classType, int variantModel = 1, bool bAbility = true);
 
 /** Turn client from infected into survivor
+ * @Note Does not work if client is bot
  *
  * @param client                The client index. Only accept not-bot infected player
  * @param bSaveAbility          If true, keep infected custom ability
  * 
  * @return                      true if successful, false otherwise
+ * @error	client is not real infected player
  */
 native bool Z_TurnZombieIntoSurvivor(int client, bool bSaveAbility = false);
 
 /** Turn client into character
  *
- * @param client                The client index.
+ * @param client                The client index. Only accept infected or survivor
  * @param sCharacterName        The Character name that client changed to: "bill", "zoey", "louis", "francis", "nick", "rochelle", "coach", "ellis"
  * 
  * @return                      true if successful, false otherwise
+ * @error	client is spectator or Character name is invalid
  */
 native bool Z_TurnClientIntoCharacter(int client, const char[] sCharacterName);
+
+/** Turn client into ghost infected
+ * @Note Does not work if client is bot
+ *
+ * @param client                The client index. Only accept not-bot infected or survivor
+ * @param classType             The zombie classType. (1~8)
+ * 
+ * @return                      true if successful, false otherwise
+ * @error	client is bot or classtype is invalid
+ */
+native bool Z_TurnClientIntoGhost(int client, int classType);
 
 public SharedPlugin __pl_l4d2_zombie_transform =
 {

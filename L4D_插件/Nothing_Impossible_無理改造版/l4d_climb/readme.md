@@ -13,10 +13,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_climb_1](image/l4d_climb_1.jpg)
 	<br/>![l4d_climb_2](image/l4d_climb_2.jpg)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Press Jump+E to climb the wall
-	* Support [Ready up](/L4D_插件/Server_伺服器/readyup), climb the wall during readyup only
 </details>
 
 * Require | 必要安裝
@@ -37,6 +42,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Players with these flags have access to climb the wall (Empty = Everyone, -1: Nobody)
 		l4d_climb_flag ""
+
+		// Players can climb only during ready-up (Require readyup plugin)
+		l4d_climb_readyup "1"
 
 		// Smoker Enable Mode: 0=Off, 1=On
 		l4d_climb_smoker "1"
@@ -93,12 +101,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Translation Support | 支援翻譯</summary>
 
 	```
@@ -108,32 +110,37 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 </details>
 
+* <details><summary>Related | 相關插件</summary>
+
+    1. [readyup](/L4D_插件/Server_伺服器/readyup): Ready-up plugin
+        * 所有玩家準備才能開始遊戲的插件
+</details>
+
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4h (2024-1-5)
+		* Update cvar
+
 	* v1.3h (2023-7-19)
-      * Add a convar
-		```php
-		// Players with these flags have access to climb the wall (Empty = Everyone, -1: Nobody)
-		l4d_climb_flag ""
-		```
+		* Update convar
 
 	* v1.2h (2023-6-30)
-      * Safely create entity and Safely remove entity
+		* Safely create entity and Safely remove entity
 
 	* v1.1h (2023-6-9)
-      * Fixed bots stuck on wall if change team while climing
+		* Fixed bots stuck on wall if change team while climing
 
 	* v1.0h
-      * Translation Support
-      * Modify cvars
-      * Support [Ready up plugin](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Server_%E4%BC%BA%E6%9C%8D%E5%99%A8/readyup), allow to climb wall during ready-up
+		* Translation Support
+		* Modify cvars
+		* Support Ready up plugin, allow to climb wall during ready-up
 
 	* v1.05
-      * [Shadowysn's fork](https://forums.alliedmods.net/showpost.php?p=2681114&postcount=99)
+		* [Shadowysn's fork](https://forums.alliedmods.net/showpost.php?p=2681114&postcount=99)
 
 	* v1.02
-      * [cravenge's fork](https://forums.alliedmods.net/showpost.php?p=2424617&postcount=92)
-      * [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=161280)
+		* [cravenge's fork](https://forums.alliedmods.net/showpost.php?p=2424617&postcount=92)
+		* [Original Plugin by panxiaohai](https://forums.alliedmods.net/showthread.php?t=161280)
 </details>
 
 - - - -
@@ -144,7 +151,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 跳躍到牆壁上按E鍵即可爬牆
 	* Tank也可以
 	* 爬空氣牆都不是問題
-	* 支援[Ready up插件](/L4D_插件/Server_伺服器/readyup)，準備期間可爬牆
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -161,6 +167,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 擁有這些權限的玩家可以爬牆 (留白 = 任何人都能爬牆, -1: 無人能爬牆)
 		l4d_climb_flag ""
+
+		// 玩家只能在準備階段爬牆 (需要安裝readyup插件)
+		l4d_climb_readyup "1"
 
 		// Smoker 能否爬牆?: 0=不可以, 1=可以
 		l4d_climb_smoker "1"

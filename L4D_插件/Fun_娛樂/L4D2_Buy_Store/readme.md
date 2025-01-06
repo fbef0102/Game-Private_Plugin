@@ -298,6 +298,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Special Item</summary>
 
 	* See [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+		* Survivor Special Menu ```"survivorSpecial"```
+		* Infected Specials Menu ```"infectedSpecial"```
 </details>
 
 * <details><summary>Database</summary>
@@ -684,6 +686,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>特殊商品中文介紹 (點我展開)</summary>
 
 	* 查看 [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+		* 人類特殊商品表 ```"survivorSpecial"```
+		* 特感特殊商品表 ```"infectedSpecial"```
 </details>
 
 
