@@ -127,6 +127,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5 (2025-1-8)
+		* Fixed error
+
 	* v1.4 (2024-12-7)
 		* Update cvars
 		* Update translation

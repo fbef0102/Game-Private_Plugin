@@ -55,10 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Antithasys @ 2011
-	//HarryPotter @ 2023-2024
-	```
+	* v1.4h (2025-1-8)
+		* Fixed error
+
 	* v1.3h (2024-8-3)
 		* Require simple_chatprocessor 1.8h or above
 		

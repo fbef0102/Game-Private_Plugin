@@ -41,42 +41,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
     * [configs/regexrestrict.cfg](configs/regexrestrict.cfg)
-        ```php
-        "Censor"
-        {
-            "Block2_English"  // Whatever name
-            {
-                "chatpattern"		"fuck" // dirty word you want to ban, comparison is case insensitive.
-                "chatpattern"		"shit"
-                "replace"			"****" // Replace the matches with a string
-                "warn"				"Don't say that!" // Warn the client they are violating the matching rules
-                "action"			"sm_slap #%u 30"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
-		
-                // 3 times dirty words within 4000 seconds, player will be banned 180 mins
-                "limit"				"3"
-                "forgive"			"4000"
-                "punish"			"sm_ban #%u 180 #%r" //A punishment (RCON command)
-                
-                //Allow admins with specified levels to be immune (Empty = Everyone, -1: Nobody)	
-                "immunity"          "z" 
-            }	
-        }
-        ```
-
-    * Other keyValue
-        ```php
-        "replaceall" "****" // Replace the whole sentance with a string
-        "block" "1" // Block message
-        ```
-
-    * action
-        ```php
-        #%u = user id
-        #%i = client id
-        #%n = player name
-        #%s = player steam id
-        #%r = warn message
-        ```
+        > Manual in this file, click for more details...
 </details>
 
 * <details><summary>Related | 相關插件</summary>
@@ -92,6 +57,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.5h (2025-1-8)
+        * Fixed error
 
     * v1.4h (2024-9-21)
         * Fix memory leak
@@ -159,40 +127,5 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 可設置權限，管理員的言論不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
     * [configs/regexrestrict.cfg](configs/regexrestrict.cfg)
-        ```php
-        "Censor"
-        {
-            "Block3_China" //敏感字詞合集名稱，可自取
-            {
-                "chatpattern"       "nmsl" //敏感字詞為nmsl，即使字母大寫也會被檢測到
-                "chatpattern"       "cao"
-                "replaceall"        "我是傻B！" // 取代整句話
-                "warn"              "少说脏话!" // 顯示警告
-                "action"            "sm_slap #%u 30" //設置要懲罰的動作，此處命令巴掌30滴傷害，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
-
-                // 在4000秒內說出3次敏感字詞將會被伺服器封鎖長達180分鐘
-                "limit"             "3"
-                "forgive"           "4000"
-                "punish"            "sm_ban #%u 180 '脏话太多，已被封禁3小时'"
-
-                //有這個權限的管理員不受到審查 (空 = 所有人不受審查, -1: 所有人受審查)
-                "immunity"          "z"
-            }	
-        }
-        ```
-
-    * 其他可用參數
-        ```php
-        "replace" "xxxx" // 敏感字詞用其他文字取代
-        "block" "1" // 阻擋訊息
-        ```
-
-    * action能寫的參數
-        ```php
-        #%u = 玩家的user id
-        #%i = 玩家的client id
-        #%n = 玩家名字
-        #%s = 玩家的Steam ID (Steam_x:x:xxxx)
-        #%r = 警告訊息
-        ```
+        > 內有中文說明，可點擊查看
 </details>

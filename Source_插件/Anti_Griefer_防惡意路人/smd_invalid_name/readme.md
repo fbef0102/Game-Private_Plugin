@@ -13,9 +13,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![smd_invalid_name_2](image/smd_invalid_name_2.jpg)
 
 * Apply to | 適用於
-	```
-	Any Source Game
-	```
+    ```
+    Any Source Game
+    ```
 
 * <details><summary>How does it work?</summary>
 
@@ -46,40 +46,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Data Config</summary>
 
     * [configs/smd_invalid_name.cfg](configs/smd_invalid_name.cfg)
-        ```php
-        "smd_invalid_name"
-        {
-            "Block2_English"  // Whatever name
-            {
-                "chatpattern"		"fuck" // dirty word you want to ban, comparison is case insensitive.
-                "chatpattern"		"shit"
-                "chatpattern"		"pussy"
-                "chatpattern"		"idiot"
-                "chatpattern"		"retarded"
-                "chatpattern"		"moron"
-                "chatpattern"		"bitch"
-                
-                "replace"			"**" // Change name, replace the matches with this string
-                "warn"				"You have {green}dirty word{default} in name, Change name please!" // Warn the client they are violating the matching rules
-                "action"			"sm_slay #%u"  // server executes an RCON command, to see more cmds: https://wiki.alliedmods.net/Admin_commands_(sourcemod)#Basic_Commands
-                "immunity"          "z" //Allow admins with specified levels to be immune
-            }	
-        }
-        ```
-
-    * Other keyValue
-        ```php
-        "replaceall" "****" // Change name, Replace the whole name with a string
-        ```
-
-    * action
-        ```php
-        #%u = user id
-        #%i = client id
-        #%n = player name
-        #%s = player steam id
-        #%r = warn message
-        ```
+        > Manual in this file, click for more details...
 </details>
 
 * <details><summary>Related | 相關插件</summary>
@@ -89,6 +56,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1 (2025-1-8)
+        * Fixed error
 
     * v1.0 (2024-1-31)
         * Initial Release
@@ -128,35 +98,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 可設置權限，管理員的名字不會受到插件的審查
     * 敏感字詞可以用其他文字和諧取代
     * [configs/smd_invalid_name.cfg](configs/smd_invalid_name.cfg)
-        ```php
-        "smd_invalid_name"
-        {
-            "Block3_China" //敏感字詞合集名稱，可自取
-            {
-                "chatpattern"       "nmsl" //敏感字詞為nmsl，即使字母大寫也會被檢測到
-                "chatpattern"       "cao"
-                "chatpattern"		"shabi"
-
-                "replaceall"        "我是傻B！" // 幫玩家改全名 
-               	"warn"				"名字带有{green}脏话{default}! 已改名!" // 顯示警告
-		        "action"			"sm_slay #%u" //伺服器會採取的命令動作，此處命令為處死玩家，想看更多命令：https://wiki.alliedmods.net/Admin_commands_(sourcemod)
-		        "immunity"          "z" //z權限的玩家不受影響
-            }	
-        }
-        ```
-
-    * 其他可用參數
-        ```php
-        "replace" "xxxx" // 幫玩家改名, 名字內的敏感字詞用其他文字取代
-        ```
-
-    * action能寫的參數
-        ```php
-        #%u = 玩家的user id
-        #%i = 玩家的client id
-        #%n = 玩家名字
-        #%s = 玩家的Steam ID (Steam_x:x:xxxx)
-        #%r = 警告訊息
-        ```
+        > 內有中文說明，可點擊查看
 </details>
 
