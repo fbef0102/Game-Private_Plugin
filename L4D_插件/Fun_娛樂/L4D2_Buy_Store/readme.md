@@ -225,7 +225,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			"!buy Fire"						-> Fire Yourself
 			"!buy Boom"						-> Drop Pipebomb
 			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
-			"!buy Revive"					-> Save Yorself
+			"!buy Revive"					-> Save Yourself
 			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
 			"!buy Teleport"					-> Teleport to teammate
 			"!buy Infinite_Ammo"			-> Infinite Ammo

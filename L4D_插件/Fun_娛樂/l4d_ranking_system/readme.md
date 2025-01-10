@@ -5,18 +5,28 @@ Kill infected to get Exp and rank, type !rank to show rank menu
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-	<br/>None
-
 * <details><summary>Image | 圖示</summary>
 
 	* Your Rank statistics (你的Rank統計表)
 	<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
-	* Add Rank tag to Name in chatbox (聊天框的玩家名字前面給予Rank稱號)
 	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
-	* CSGO Rank (仿CSGO Rank)
+	* Custom Rank (自製Rank)
 	<br/>![l4d_ranking_system_3](image/l4d_ranking_system_3.jpg)
 </details>
+
+* <details><summary>How does it work?</summary>
+
+	* Kill common infected, tank, witch, and special infected to get exp, and save exp in database
+	* Type ```!rank``` to see your statistics
+	* Add rank tag to player name in chatbox
+	* You can edit rank tag and exp in [configs/l4d_ranking_system.cfg](configs/l4d_ranking_system.cfg)
+</details>
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -98,7 +108,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Manual in this file, click for more details...
 </details>
 
-* <details><summary>Database</summary>
+* <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
 		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod/configs/databases.cfg*
@@ -125,12 +135,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

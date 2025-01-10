@@ -18,6 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Player can type ```!setname xxx``` to changed your name during game
 	* Admin can type ```!setplayername <#userid|name> xxx``` to changed other player's name during game
+		* Can't change ai bot's name
 </details>
 
 * Require | 必要安裝
@@ -82,6 +83,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 玩家輸入  ```!setname xxx``` 幫自己改名
 	* 管理員輸入  ```!setplayername <#userid|name> xxx``` 幫別的玩家改名
+		* 不能改AI Bots的名稱
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

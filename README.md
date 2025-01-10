@@ -266,6 +266,10 @@
     * 增強Hunter，賦予多種超能力成為毀滅性的野獸
   * [l4d2_hunter_steal_charger_victim](/L4D_插件/Hunter_Hunter/l4d2_hunter_steal_charger_victim): The hunter can pounce on the charger's victim.
     * Hunter可以搶走Charger正在控的倖存者
+  * [l4d_skeet_database_remake](/L4D_插件/Hunter_Hunter/l4d_skeet_database_remake): Adding a statistic of hunter skeets, and save to database
+    * 統計一槍殺死Hunter的數量，並儲存於數據庫當中
+  * [l4d_pounce_database_remake](/L4D_插件/Hunter_Hunter/l4d_pounce_database_remake): Adding a statistic of hunter 25 damage pounces, and save to database
+    * 統計Hunter高撲玩家25傷害的次數，並儲存於數據庫當中
 </details>
 
 * <details><summary><b>Jockey | Jockey</b></summary>
@@ -364,6 +368,8 @@
     * Witch 不會因為玩家閒置而丟失目標
   * [l4d_witch_dmg_report](/L4D_插件/Witch_女巫/l4d_witch_dmg_report): Displays how much damage done to witch on witch death + display health remaining when witch kills or incaps the survivor.
     * Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人時，顯示剩餘血量
+  * [l4d_with_crowns_database_remake](/L4D_插件/Witch_女巫/l4d_with_crowns_database_remake): Adding a statistic of witch crowns and save to database
+    * 統計一槍殺死Witch的數量，並儲存於數據庫當中
 </details>
 
 * <details><summary><b>Common Infected | 普通感染者</b></summary>

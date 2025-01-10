@@ -5,9 +5,6 @@
 <br/>此為私人插件，請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 <br/>此插件只有中文沒有英文
 
-* 影片展示
-<br/>無
-
 * <details><summary>圖示</summary>
 
 	* 打開 Rank System 選單
@@ -19,6 +16,12 @@
 	* 支援跨伺服器儲存資料庫
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
 </details>
+
+* 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * 原理
 	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
@@ -147,7 +150,7 @@
 		> 內有中文說明，可點擊查看
 </details>
 
-* <details><summary>資料庫設定</summary>
+* <details><summary>如何設定資料庫</summary>
 
 	* 以下方法二選一
 		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod/configs/databases.cfg*
@@ -174,12 +177,6 @@
 			}
 			```
 </details>
-
-* 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>版本日誌</summary>
 

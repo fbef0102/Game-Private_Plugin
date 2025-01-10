@@ -1626,7 +1626,7 @@
 	}
 	"Save Yorself"
 	{
-		"en"	"Save Yorself"
+		"en"	"Save Yourself"
 		"zho"	"拯救自己"
 		"chi"	"拯救自己"
 		"es"	"Sálvate a ti mismo"

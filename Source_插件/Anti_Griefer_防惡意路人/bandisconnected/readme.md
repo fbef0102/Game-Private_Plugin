@@ -18,7 +18,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Auto ban players who have disconnected from the server
 		* Ban for short time, wait for 5 mins later to rejoin server again
-	* Say ```!admin->Player Commands->Ban Discnnect Player```, Tracks all players who has left server. 
 	* The player will not get auto ban if disconnect reason is
 		* Crash
 		* Kick
@@ -28,6 +27,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Your client has failed to reply to a query in time
 		* No Steam logon
 		* No Response
+	* The player will not get auto ban
+		* During Map change
+		* While connecting to server (Not load in server yet)
+	* Say ```!admin->Player Commands->Ban Discnnect Player```, Tracks all players who has left server. 
+	* Support Sourceban++
 </details>
 
 * Require | 必要安裝
@@ -99,11 +103,21 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
 	* 玩家進來伺服器60秒內退出，將會被自動封鎖，不能短時間內再進來伺服器
-		* 玩家崩潰、網路斷線，則不會被自動封鎖
+	* 以下離線原因不會被自動封鎖，
+		* Crash => 崩潰
+		* Kick => 被踢
+		* Timed out => 網路斷線
+		* VAC Status Checker => 被VAC
+		* This Steam accout does not own this game => 此帳號未擁有遊戲
+		* Your client has failed to reply to a query in time  => 沒有回應伺服器的網路數據 (可能是網路斷線)
+		* No Steam logon => 沒有偵測到 Steam 正版帳號 (可能是網路斷線)
+		* No Response => 玩家無回應 (可能是網路斷線)
+	* 以下情況不會被自動封鎖，
+		* 正在換圖過程中
+		* 正在連線Loading當中離開伺服器時 (還未完全進入伺服器)
 	* 玩家離開伺服器之後，伺服器會記錄該位玩家的離開原因、steamid、名子
-	* 管理員輸入```!admin->玩家指令->Ban Discnnect Player```查看所有離開伺服器的玩家
-	* 正在連線Loading當中離開伺服器時(還未完全進入伺服器)，不會被自動封鎖
-	* 正在換圖過程中離開伺服器時，不會被自動封鎖
+	* 管理員輸入```!admin->玩家指令->Ban Discnnect Player``` 查看所有離開伺服器的玩家
+	* 支援Sourceban++
 
 * 用意在哪?
 	* 封鎖進來後秒退的玩家
@@ -153,12 +167,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>離線原因名詞解釋</summary>
 
 	* Discennet by user => 玩家自主離開
+	* Banned => 被封禁
 	* Crash => 崩潰
 	* Kick => 被踢
 	* Timed out => 網路斷線
 	* VAC Status Checker => 被VAC
-	* This Steam accout does not own this game => 此帳號未擁有惡靈勢力遊戲
+	* This Steam accout does not own this game => 此帳號未擁有遊戲
 	* Your client has failed to reply to a query in time  => 沒有回應伺服器的網路數據 (可能是網路斷線)
-	* No Steam logon => 沒有偵測到 Steam 正版帳號
+	* No Steam logon => 沒有偵測到 Steam 正版帳號 (可能是網路斷線)
 	* No Response => 玩家無回應 (可能是網路斷線)
 </details>

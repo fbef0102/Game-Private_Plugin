@@ -1,0 +1,35 @@
+"skeetdata"
+{
+	"info"
+	{
+		"count"		"5"
+	}
+	"data"
+	{
+		"76561198026784913"
+		{
+			"skeet"		"4"
+			"Name"		"交錯戰線 [TW]"
+		}
+		"6666666666"
+		{
+			"skeet"		"10"
+			"Name"		"Lion"
+		}
+		"55555"
+		{
+			"skeet"		"11"
+			"Name"		"Player B"
+		}
+		"44444"
+		{
+			"skeet"		"12"
+			"Name"		"Harry"
+		}
+		"44444"
+		{
+			"skeet"		"20"
+			"Name"		"I am noob"
+		}
+	}
+}

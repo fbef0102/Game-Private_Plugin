@@ -22,10 +22,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* Player can use type cmd
-		* ```!zTank```, ```!zSmoker``` ... : Transform yorself from survivor into Zombie class
-		* ```!zNick```, ```!zBill``` ... : Transform yorself from infected into character
-		* ```!zSur```, ... : Transform yorself from infected into survivor (model not change, can use infected ability)
-		* ```!gBoomer```, ```!gHunter```... : Transform yorself into ghost infected
+		* ```!zTank```, ```!zSmoker``` ... : Transform yourself from survivor into Zombie class
+		* ```!zNick```, ```!zBill``` ... : Transform yourself from infected into character
+		* ```!zSur```, ... : Transform yourself from infected into survivor (model not change, can use infected ability)
+		* ```!gBoomer```, ```!gHunter```... : Transform yourself into ghost infected
 	* Admin can type ```!zmenu``` to open zombie transform menu
 	* API for developers
 </details>
@@ -70,124 +70,124 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_zmenu
 		```
 
-	* **Transform yorself from survivor into Smoker, Usage: sm_zSmoker or sm_zSmoker <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random**
+	* **Transform yourself from survivor into Smoker, Usage: sm_zSmoker or sm_zSmoker <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random**
 		```php
 		sm_zSmoker <0/1/2>
 		```
 
-	* **Transform yorself from survivor into Boomer, Usage: sm_zBoomer or sm_zBoomer <0/1/2/3>, 1=L4D2 Model, 2=L4D1 Model, 3=Female Boomer, 0=Random**
+	* **Transform yourself from survivor into Boomer, Usage: sm_zBoomer or sm_zBoomer <0/1/2/3>, 1=L4D2 Model, 2=L4D1 Model, 3=Female Boomer, 0=Random**
 		```php
 		sm_zBoomer <0/1/2/3>
 		```
 
-	* **Transform yorself from survivor into Hunter, Usage: sm_zHunter or sm_zHunter <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random**
+	* **Transform yourself from survivor into Hunter, Usage: sm_zHunter or sm_zHunter <0/1/2>, 1=L4D2 Model, 2=L4D1 Model, 0=Random**
 		```php
 		sm_zHunter <0/1/2>
 		```
 
-	* **Transform yorself from survivor into Spitter, Usage: sm_zSpitter**
+	* **Transform yourself from survivor into Spitter, Usage: sm_zSpitter**
 		```php
 		sm_zSpitter
 		```
 
-	* **Transform yorself from survivor into Jockey, Usage: sm_zJockey**
+	* **Transform yourself from survivor into Jockey, Usage: sm_zJockey**
 		```php
 		sm_zJockey
 		```
 
-	* **Transform yorself from survivor into Charger, Usage: sm_zCharger**
+	* **Transform yourself from survivor into Charger, Usage: sm_zCharger**
 		```php
 		sm_zCharger
 		```
 
-	* **Transform yorself from survivor into Tank, Usage: sm_zTank or sm_zTank <0/1/2/3>, 1=L4D1 Model, 2=DLC Model, 0=Random**
+	* **Transform yourself from survivor into Tank, Usage: sm_zTank or sm_zTank <0/1/2/3>, 1=L4D1 Model, 2=DLC Model, 0=Random**
 		```php
 		sm_zTank <0/1/2/3>
 		```
 
-	* **Transform yorself from infected into survivor (model not change, can use infected ability)**
+	* **Transform yourself from infected into survivor (model not change, can use infected ability)**
 		```php
 		sm_zSurvivor
 		sm_zSur
 		sm_zT2
 		```
 
-	* **Transform yorself from infected into character, Usage: sm_zcsm or sm_zcsm <Nick/Rochelle/Coach/Ellis/Bill/Zoey/Francis/Louis>**
+	* **Transform yourself from infected into character, Usage: sm_zcsm or sm_zcsm <Nick/Rochelle/Coach/Ellis/Bill/Zoey/Francis/Louis>**
 		```php
 		sm_zcsm <Nick/Rochelle/Coach/Ellis/Bill/Zoey/Francis/Louis>
 		```
 
-	* **Transform yorself from infected into Nick**
+	* **Transform yourself from infected into Nick**
 		```php
 		sm_zNick
 		```
 
-	* **Transform yorself from infected into Rochelle**
+	* **Transform yourself from infected into Rochelle**
 		```php
 		sm_zRochelle
 		```
 
-	* **Transform yorself from infected into Coach**
+	* **Transform yourself from infected into Coach**
 		```php
 		sm_zCoach
 		```
 
-	* **Transform yorself from infected into Ellis**
+	* **Transform yourself from infected into Ellis**
 		```php
 		sm_zEllis
 		```
 
-	* **Transform yorself from infected into Bill**
+	* **Transform yourself from infected into Bill**
 		```php
 		sm_zBill
 		```
 
-	* **Transform yorself from infected into Zoey**
+	* **Transform yourself from infected into Zoey**
 		```php
 		sm_zZoey
 		```
 
-	* **Transform yorself from infected into Francis**
+	* **Transform yourself from infected into Francis**
 		```php
 		sm_zFrancis
 		```
 
-	* **Transform yorself from infected into Louis**
+	* **Transform yourself from infected into Louis**
 		```php
 		sm_zLouis
 		```
 
-	* **Transform yorself into Ghost Smoker**
+	* **Transform yourself into Ghost Smoker**
 		```php
 		sm_gSmoker
 		```
 
-	* **Transform yorself into Ghost Boomer**
+	* **Transform yourself into Ghost Boomer**
 		```php
 		sm_gBoomer
 		```
 
-	* **Transform yorself into Ghost Hunter**
+	* **Transform yourself into Ghost Hunter**
 		```php
 		sm_gHunter
 		```
 
-	* **Transform yorself into Ghost Spitter**
+	* **Transform yourself into Ghost Spitter**
 		```php
 		sm_gSpitter
 		```
 
-	* **Transform yorself into Ghost Jockey**
+	* **Transform yourself into Ghost Jockey**
 		```php
 		sm_gJockey
 		```
 
-	* **Transform yorself into Ghost Charger**
+	* **Transform yourself into Ghost Charger**
 		```php
 		sm_gCharger
 		```
 
-	* **Transform yorself into Ghost Tank**
+	* **Transform yourself into Ghost Tank**
 		```php
 		sm_gTank
 		```
