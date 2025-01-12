@@ -26,33 +26,37 @@
 	}
 	"You have 10 seconds to type the config name in chat"
 	{
-		"zho"		"你有十秒的時間在聊天視窗為這配置文件命名"
-		"chi"		"你有十秒的时间在聊天视窗为这配置文件命名"
+		"zho"		"你有十秒的時間在聊天視窗為這配置文件命名 (英文+數字)"
+		"chi"		"你有十秒的时间在聊天视窗为这配置文件命名 (英文+数字)"
 		"en"		"You have 10 seconds to type the config name in chat"
 	}
 	"New shared gas config saved"
 	{
-		"zho"		"新的共享配置文件 [{green}%s{default}] 由 {olive}%N{default} 產生"
-		"chi"		"新的共享配置文件 [{green}%s{default}] 由 {olive}%N{default} 产生"
-		"en"		"New shared gas config saved [{green}%s{default}] by {olive}%N"
+		"#format"		"{1:s},{2:N}"
+		"zho"		"新的共享配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 產生"
+		"chi"		"新的共享配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 产生"
+		"en"		"New shared gas config saved [{green}{1}{default}] by {olive}{2}"
 	}
 	"New Personal gas config saved"
 	{
-		"zho"		"新的私人配置文件 [{green}%s{default}] 由 {olive}%N{default} 產生"
-		"chi"		"新的私人配置文件 [{green}%s{default}] 由 {olive}%N{default} 产生"
-		"en"		"New Personal gas config saved [{green}%s{default}] by {olive}%N"
+		"#format"		"{1:s},{2:N}"
+		"zho"		"新的私人配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 產生"
+		"chi"		"新的私人配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 产生"
+		"en"		"New Personal gas config saved [{green}{1}{default}] by {olive}{2}"
 	}
 	"Shared Gas config removed"
 	{
-		"zho"		"共享配置文件 [{green}%s{default}] 已被 {olive}%N{default} 移除"
-		"chi"		"共享配置文件 [{green}%s{default}] 已被 {olive}%N{default} 移除"
-		"en"		"Shared Gas config removed [{green}%s{default}] by {olive}%N"
+		"#format"		"{1:s},{2:N}"
+		"zho"		"共享配置文件 [{green}{1}{default}] 已被 {olive}{2}{default} 移除"
+		"chi"		"共享配置文件 [{green}{1}{default}] 已被 {olive}{2}{default} 移除"
+		"en"		"Shared Gas config removed [{green}{1}{default}] by {olive}{2}"
 	}
 	"Your Gas config removed"
 	{
-		"zho"		"你移除了私人配置文件 [{green}%s{default}]"
-		"chi"		"你移除了私人配置文件 [{green}%s{default}]"
-		"en"		"Your Gas config removed [{green}%s{default}]"
+		"#format"		"{1:s}"
+		"zho"		"你移除了私人配置文件 [{green}{1}{default}]"
+		"chi"		"你移除了私人配置文件 [{green}{1}{default}]"
+		"en"		"Your Gas config removed [{green}{1}{default}]"
 	}
 	"File does not exist"
 	{
@@ -68,33 +72,38 @@
 	}
 	"Save Failed! Shared Gas config"
 	{
-		"zho"		"儲存失敗! 共享配置文件 {green}%s{default} 已存在"
-		"chi"		"储存失败! 共享配置文件 {green}%s{default} 已存在"
-		"en"		"Save Failed! Shared Gas config {green}%s{default} already exists."
+		"#format"		"{1:s}"
+		"zho"		"儲存失敗! 共享配置文件 {green}{1}{default} 已存在"
+		"chi"		"储存失败! 共享配置文件 {green}{1}{default} 已存在"
+		"en"		"Save Failed! Shared Gas config {green}{1}{default} already exists."
 	}
 	"Already have shared configs for this map"
 	{
-		"zho"		"{lightgreen}這張地圖已有 %i 個共享配置文件，請先刪除一個再來創造新的配置文件"
-		"chi"		"{lightgreen}这张地图已有 %i 个共享配置文件，请先删除一个再来创造新的配置文件"
-		"en"		"{lightgreen}Already have %i shared configs for this map. Need to delete one before creating a new one."
+		"#format"		"{1:i}"
+		"zho"		"{lightgreen}這張地圖已有 {1} 個共享配置文件，請先刪除一個再來創造新的配置文件"
+		"chi"		"{lightgreen}这张地图已有 {1} 个共享配置文件，请先删除一个再来创造新的配置文件"
+		"en"		"{lightgreen}Already have {1} shared configs for this map. Need to delete one before creating a new one."
 	}
 	"Already have personal configs for this map"
 	{
-		"zho"		"{lightgreen}這張地圖您已有 %i 個私人配置文件，請先刪除一個再來創造新的配置文件"
-		"chi"		"{lightgreen}这张地图您已有 %i 个私人配置文件，请先删除一个再来创造新的配置文件"
-		"en"		"{lightgreen}Already have %i personal configs for this map. Need to delete one before creating a new one."
+		"#format"		"{1:i}"
+		"zho"		"{lightgreen}這張地圖您已有 {1} 個私人配置文件，請先刪除一個再來創造新的配置文件"
+		"chi"		"{lightgreen}这张地图您已有 {1} 个私人配置文件，请先删除一个再来创造新的配置文件"
+		"en"		"{lightgreen}Already have {1} personal configs for this map. Need to delete one before creating a new one."
 	}
 	"Unlocked Shared Gas config"
 	{
-		"zho"		"解鎖了共享配置文件 [{green}%s{default}]，可以刪除"
-		"chi"		"解锁了共享配置文件 [{green}%s{default}]，可以删除"
-		"en"		"Unlocked Shared Gas config [{green}%s{default}], which can be deleted."
+		"#format"		"{1:s}"
+		"zho"		"解鎖了共享配置文件 [{green}{1}{default}]，可以刪除"
+		"chi"		"解锁了共享配置文件 [{green}{1}{default}]，可以删除"
+		"en"		"Unlocked Shared Gas config [{green}{1}{default}], which can be deleted."
 	}
 	"Locked Shared Gas config"
 	{
-		"zho"		"鎖定了共享配置文件 [{green}%s{default}]，不可刪除"
-		"chi"		"锁定了共享配置文件 [{green}%s{default}]，不可删除"
-		"en"		"Locked Shared Gas config [{green}%s{default}], which can not be deleted by anyone."
+		"#format"		"{1:s}"
+		"zho"		"鎖定了共享配置文件 [{green}{1}{default}]，不可刪除"
+		"chi"		"锁定了共享配置文件 [{green}{1}{default}]，不可删除"
+		"en"		"Locked Shared Gas config [{green}{1}{default}], which can not be deleted by anyone."
 	}
 	"Couldn't load the CfgList file"
 	{
@@ -110,15 +119,17 @@
 	}
 	"set as map default gas setup"
 	{
-		"zho"		"{green}%s{default} 成為地圖預設配置文件，設置者: {olive}%N{default}"
-		"chi"		"{green}%s{default} 成为地图预设配置文件，设置者: {olive}%N{default}"
-		"en"		"{green}%s{default} set as map default gas setup by {olive}%N"
+		"#format"		"{1:s},{2:N}"
+		"zho"		"{green}{1}{default} 成為地圖預設配置文件，設置者: {olive}{2}{default}"
+		"chi"		"{green}{1}{default} 成为地图预设配置文件，设置者: {olive}{2}{default}"
+		"en"		"{green}{1}{default} set as map default gas setup by {olive}{2}"
 	}
 	"Map Default gas setup removed"
 	{
-		"zho"		"{olive}%N{default} 移除了這張地圖的預設配置文件"
-		"chi"		"{olive}%N{default} 移除了这张地图的预设配置文件"
-		"en"		"Map Default gas setup removed by {olive}%N"
+		"#format"		"{1:N}"
+		"zho"		"{olive}{1}{default} 移除了這張地圖的預設配置文件"
+		"chi"		"{olive}{1}{default} 移除了这张地图的预设配置文件"
+		"en"		"Map Default gas setup removed by {olive}{1}"
 	}
 	"Can only move gas before the survival begins."
 	{
@@ -146,15 +157,17 @@
 	}
 	"Load Shared Gas config by"
 	{
-		"zho"		"共享配置文件: {green}%s{default} 由 {olive}%N{default} 載入"
-		"chi"		"共享配置文件: {green}%s{default} 由 {olive}%N{default} 载入"
-		"en"		"Load Shared Gas config: {green}%s{default} by {olive}%N"
+		"#format"		"{1:s},{2:N}"
+		"zho"		"共享配置文件: {green}{1}{default} 由 {olive}{2}{default} 載入"
+		"chi"		"共享配置文件: {green}{1}{default} 由 {olive}{2}{default} 载入"
+		"en"		"Load Shared Gas config: {green}{1}{default} by {olive}{2}"
 	}
 	"Load Personal Gas config by"
 	{
-		"zho"		"私人共享配置文件: {green}%s{default} 由 {olive}%N{default} 載入"
-		"chi"		"私人共享配置文件: {green}%s{default} 由 {olive}%N{default} 载入"
-		"en"		"Load Personal Gas config: {green}%s{default} by {olive}%N"
+		"#format"		"{1:N},{2:s}"
+		"zho"		"{olive}{1}{default} 載入私人共享配置文件: {green}{2}{default}"
+		"chi"		"{olive}{1}{default} 载入私人共享配置文件: {green}{2}{default}"
+		"en"		"{olive}{1} Load Personal Gas config {green}{2}{default}"
 	}
 	"Failed! Gas config is locked."
 	{
@@ -222,6 +235,12 @@
 		"chi"		"传送所有汽油桶"
 		"en"		"Move All Gas Here"
 	}
+	"Not Available in this map"
+	{
+		"zho"		"此地圖不可用"
+		"chi"		"此地图不可用"
+		"en"		"Not Available in this map"
+	}
 	"Personal Configs"
 	{
 		"zho"		"私人配置"
@@ -251,5 +270,12 @@
 		"zho"		"鎖定"
 		"chi"		"锁定"
 		"en"		"Locked"
+	}
+	
+	"Character Limit"
+	{
+		"zho"		"文件名稱長度必須介於 2-15 個字符"
+		"chi"		"文件名称长度必须介于 2-15 个字符"
+		"en"		"[SM] config name must be between 2-15 characters."
 	}
 }

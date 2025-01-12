@@ -17,7 +17,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	1. Play survival map, take and place items on the map before survival begins
+	1. Play survival map, take and put items on the map before survival begins
         *  Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
     2. Save Gas Config
         * Shared：Admin types ```!gasmenu``` -> "Create Shared Gas Config And Save" -> type in chatbox to name the config -> saved
@@ -86,13 +86,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_survival_setup](/L4D_插件/Survival_生存模式/l4d_survival_setup): Set up weapon slots before survival starts
-        > 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
-
+        * 生存模式開始之前設定自己想要拿取的武器與物品，下次回合開始之時會自動裝備
     2. [l4d_Teleport_Item](/L4D_插件/Survival_生存模式/l4d_Teleport_Item): Open Menu to teleport items on the map.
-        > 打開選單傳送地圖上所有物品到身邊
+        * 打開選單傳送地圖上所有物品到身邊
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3h (2025-1-12)
+        * Update translation
+        * Limit Gas config name 2-15 characters
 
     * v1.2h (2023-1-26)
         * Add "Locked Shared Gas Config", if the config is locked, anyone can not delete that config.
@@ -118,7 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 生存模式開始之前設定汽油桶位置，下次回合開始之時汽油桶自動擺放
 
-* Image | 圖示
+* 圖示
 	* 輸入!gasmenu打開設定介面
     <br/>![l4d_survival_GasConfig_4](image/l4d_survival_GasConfig_4.jpg)
 	* 個人的gas config

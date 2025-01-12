@@ -11,16 +11,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_tank_speed_boost_1](image/l4d_tank_speed_boost_1.gif)
 	<br/>![l4d_tank_speed_boost_2](image/l4d_tank_speed_boost_2.gif)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Increase Tank movement speed
-	* Increase Tank animation speed (ex. climb the wall)
+	* Increase Tank climb over the obstacle speed
 	* Reset all speed when hit survivors (Re-increase speed)
 	* Does not apply to Human Tank Player
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+<br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -63,12 +69,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	None
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [skip_tank_taunt](https://github.com/fbef0102/Game-Private_Plugin/tree/main/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback version
@@ -102,8 +102,6 @@ AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為�
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d_tank_speed_boost.cfg
-		```php
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
 		```php
 		// 每過一段時間增加AI Tank的移動與爬行障礙物速度 (0=關閉此插件)

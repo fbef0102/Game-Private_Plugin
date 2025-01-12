@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/10/3 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/1/12 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -86,7 +86,9 @@
 * [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): 修復插件讀不到cfg文件內的指令與命令
 
 * [l4d2_maptankfix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_maptankfix): 防止地圖自帶的機關Tank因為人數不夠問題​​無法刷新而造成卡關
-  
+
+* [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡，無法列入對抗分數
+
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
@@ -118,8 +120,6 @@
     - 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
-
-* [8+ survivors in rescue vehicle](https://forums.alliedmods.net/showpost.php?p=2771588&postcount=53): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡
 
 * [l4d_h_csm (哈利版本)](/L4D_插件/Survivor_人類/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
     - 此為CSM插件重製版，輸入!csm打開角色選擇介面
