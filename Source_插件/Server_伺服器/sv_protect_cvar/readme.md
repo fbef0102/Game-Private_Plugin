@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. sv_protect_cvar](/Source_插件/Server_伺服器/sv_protect_cvar): Enforces ConVars consistency from the data-file values
+	1. [sv_protect_cvar](/Source_插件/Server_伺服器/sv_protect_cvar): Enforces ConVars consistency from the data-file values
     	* 鎖住CVAR的值，不會被遊戲或地圖或玩家竄改
 </details>
 

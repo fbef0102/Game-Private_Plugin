@@ -35,18 +35,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_final_rescue_arrive_time_enable "1"
-
-		// Default time before rescue vehicle arrived.
-		l4d2_final_rescue_arrive_time_default "360"
-
-		// By default, when to start countdown timer, 0=Once Final Starts, 1=First Tank Stage, 2=Second Tank Stage, 3=Third Tank Stage (c7m3_port)
-		l4d2_final_rescue_arrive_time_start "0"
-
-		// Display count down hint text when remaining time is below this value
-		l4d2_final_rescue_arrive_time_announce_left "90.0"
-
-		// If 1, time pause when tank is on the field
-		l4d2_final_rescue_arrive_time_tank_pause "0"
 		```
 </details>
 
@@ -57,12 +45,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_finaltimeleft
 		sm_finaltime
 		```
-</details>
-
-* <details><summary>Example Config</summary>
-
-	* [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * Apply to | 適用於
@@ -88,6 +70,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.3 (2025-1-13)
+		* Update cvars
+		* Update data
+
     * v1.2 (2024-3-11)
 		* Fixed standard final custom map not working
 
@@ -111,7 +97,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 增加救援抵達的時間，救援載具不會來臨直到時間結束
 	* 2波Tank階段後，生成無限屍潮，時間結束之後，強制刷出救援載具
 	* 適用於所有官方地圖與三方地圖
-	* 🟥 遇到以下救援類型則自動關閉功能
+	* 🟥 遇到以下救援類型則自動關閉插件
 		1. 衝刺跑圖, 譬如: c5m5, c13m4
 		2. 灌汽油載具, 譬如: c1m4, c6m3
 	* 可以設置文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
@@ -126,18 +112,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d2_final_rescue_arrive_time_enable "1"
-
-		// 救援載具抵達時間 (預設)
-		l4d2_final_rescue_arrive_time_default "360"
-
-		// 救援載具抵達時間何時開始倒數計時, 0=救援開始時, 1=第一波Tank階段時, 2=第二波Tank階段時, 3=第三波Tank階段時, 譬如c7m3_port
-		l4d2_final_rescue_arrive_time_start "0"
-
-		// 剩餘90秒時，開始顯示倒數
-		l4d2_final_rescue_arrive_time_announce_left "90.0"
-
-		// 為1時，Tank在場上時，倒數時間暫停
-		l4d2_final_rescue_arrive_time_tank_pause "0"
 		```
 </details>
 
@@ -148,10 +122,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_finaltimeleft
 		sm_finaltime
 		```
-</details>
-
-* <details><summary>文件設定</summary>
-
-	* 設定文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
-		> 內有中文說明，可點擊查看
 </details>
