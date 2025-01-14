@@ -510,8 +510,8 @@
     * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
   * [l4d2_laser_transfer_pickup](/L4D_插件/Weapons_武器/l4d2_laser_transfer_pickup): Transfer your current weapon laser sight to another while picking up new gun
     * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
-  * [l4d2_incap_gun_replace](/L4D_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee with regular pistols when incapped.
-    * 倒地時如果手持近戰或瑪格南手槍，改換成其他手槍
+  * [l4d2_incap_gun_replace](/L4D_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee/chainsaw/dual pistol with regular pistols or magnum when incapped.
+    * 倒地時如果手持近戰/電鋸/瑪格南手槍/雙手槍，改換成其他手槍
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -874,7 +874,7 @@
 * [Questions | 問題集合區](/Questions_問題區)
   * [為甚麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
   * [常見的插件錯誤訊息](/Questions_問題區/Chinese_繁體中文/插件/README.md#常見的插件錯誤訊息)
-* [Tutorial  | 教學區](/Tutorial_教學區)
+* [Tutorial | 教學區](/Tutorial_教學區)
   * [架設多人伺服器，讓8位玩家遊玩戰役模式](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式/README.md#安裝總攬)
   * [安裝Stripper](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝stripper)
   * [安裝l4dtoolz](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝l4dtoolz)

@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/1/12 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/1/14 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -10,7 +10,7 @@
 	
 - - - -
 ## 前言
-> 本篇教學完成之後，你的伺服器可以多達８位玩家加入戰役模式大亂鬥
+> 本篇教學完成之後，你的伺服器可以多達8位或以上的玩家加入戰役模式大亂鬥
 <br/>![l4dmultislots_1](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/796efe51-2fac-43f2-9899-fef09b52328d)
 <br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
 * [English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
@@ -88,6 +88,11 @@
 * [l4d2_maptankfix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_maptankfix): 防止地圖自帶的機關Tank因為人數不夠問題​​無法刷新而造成卡關
 
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡，無法列入對抗分數
+
+* (對抗模式) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): 提供以下三種功能
+    * 每一位玩家都算距離分數
+    * 雙方分數打平時，依照傷害量最多的隊伍多加分數
+    * 靈魂特感可以按E傳送到每位倖存者身上
 
 - - - -
 ## 額外檔案

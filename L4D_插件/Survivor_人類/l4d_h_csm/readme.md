@@ -68,7 +68,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_csm
 		```
 
-	* **Brings up a menu to select a client's character (Adm required: ADMFLAG_GENERIC)**
+	* **Brings up a menu to select a client's character (Adm required: ADMFLAG_ROOT)**
 		```php
 		sm_csc
 		```
@@ -257,7 +257,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_csm
 		```
 
-	* **管理員強制指定的玩家切換角色 (權限: ADMFLAG_GENERIC)**
+	* **管理員強制指定的玩家切換角色 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_csc
 		```

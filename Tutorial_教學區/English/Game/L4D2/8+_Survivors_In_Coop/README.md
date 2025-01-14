@@ -85,6 +85,11 @@
   
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): Try to fix extra 5+ survivors bug after finale rescue leaving, such as: die, fall down, not count as alive, versus score bug
 
+* (Versus) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): Fixed score bug and provide the following features
+    * Each player earn score points
+    * When both teams complete chapter with the same score Tiebreak manager will be started
+    * Ghost infected can teleport to each survivor
+
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install
