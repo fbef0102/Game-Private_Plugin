@@ -15,6 +15,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Kick all spectators
 	<br/>![l4d_slot_vote_2](image/l4d_slot_vote_2.jpg)
 
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Change server slots
@@ -85,12 +91,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_kickspecs
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

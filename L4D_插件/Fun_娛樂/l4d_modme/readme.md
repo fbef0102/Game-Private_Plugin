@@ -20,6 +20,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_modme_6](image/l4d_modme_6.jpg)
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Point an entity -> type ```!modcopy``` -> type ```!modmenu``` to change player model -> have fun!
@@ -84,12 +90,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_modplayer <player name> <model path>
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

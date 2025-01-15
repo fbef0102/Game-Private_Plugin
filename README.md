@@ -129,6 +129,34 @@
   </details>
 
 ###### **Source Plugin List | Source遊戲插件列表**
+* <details><summary><b>Anti Griefer | 防路人搗亂-反制傻B合集</b></summary>
+
+  * [sm_regexfilter](/Source_插件/Anti_Griefer_防惡意路人/sm_regexfilter): Filter players' dirty words on chatbox
+    * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
+  * [smd_mute_player_list](/Source_插件/Anti_Griefer_防惡意路人/smd_mute_player_list): Player can personally mute someone chat text and mic voice.
+    * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
+  * [bandisconnected](/Source_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server for short time + Tracks recently-disconnected players and lets you ban them
+    * 自動封鎖退出伺服器的玩家，短時間內不能加入 + 查看所有退出伺服器的玩家列表
+  * [smd_invalid_name](/Source_插件/Anti_Griefer_防惡意路人/smd_invalid_name): Kick player or change name if has invalid or dirty name
+    * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
+</details>
+
+* <details><summary><b>Player | 玩家</b></summary>
+
+  * [smd_air_jump_force](/Source_插件/Player_玩家/smd_air_jump_force): Allows jump force on air.
+    * 玩家可以在空中跳得更高更遠
+</details>
+
+* <details><summary><b>Fun | 娛樂</b></summary>
+
+  * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
+    * 根據管理員或玩家身分修改聊天窗口的對話顏色
+  * [spray_control_cooldown](/Source_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
+    * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
+  * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
+    * 玩家自己改名 + 管理員幫玩家改名
+</details>
+
 * <details><summary><b>Server | 伺服器</b></summary>
 
   * [server_display_list](/Source_插件/Server_伺服器/server_display_list): Type Command to show Vpn List
@@ -145,28 +173,6 @@
     * 鎖住指令的值，不會被遊戲、地圖、玩家竄改
   * [sv_protect_cvar](/Source_插件/Server_伺服器/sv_protect_cvar): Protect and hide sensitive ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible
     * 保護一些敏感的指令數值，不讓外界與客戶端查看，服務器內的客戶端可能會看到假數值
-</details>
-
-* <details><summary><b>Anti Griefer | 防路人搗亂-反制傻B合集</b></summary>
-
-  * [sm_regexfilter](/Source_插件/Anti_Griefer_防惡意路人/sm_regexfilter): Filter players' dirty words on chatbox
-    * 禁詞表，任何人打字說出髒話或敏感詞彙，字詞會被屏蔽、禁言並處死玩家
-  * [smd_mute_player_list](/Source_插件/Anti_Griefer_防惡意路人/smd_mute_player_list): Player can personally mute someone chat text and mic voice.
-    * 玩家可以在個人列表上封鎖其他人的語音與聊天文字
-  * [bandisconnected](/Source_插件/Anti_Griefer_防惡意路人/bandisconnected): Auto ban players who have disconnected from the server for short time + Tracks recently-disconnected players and lets you ban them
-    * 自動封鎖退出伺服器的玩家，短時間內不能加入 + 查看所有退出伺服器的玩家列表
-  * [smd_invalid_name](/Source_插件/Anti_Griefer_防惡意路人/smd_invalid_name): Kick player or change name if has invalid or dirty name
-    * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
-</details>
-
-* <details><summary><b>Fun | 娛樂</b></summary>
-
-  * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
-    * 根據管理員或玩家身分修改聊天窗口的對話顏色
-  * [spray_control_cooldown](/Source_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
-    * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
-  * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
-    * 玩家自己改名 + 管理員幫玩家改名
 </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**
@@ -497,7 +503,7 @@
   * [l4d_weapon_auto_shoot](/L4D_插件/Weapons_武器/l4d_weapon_auto_shoot): Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
     * 按住左鍵，手槍、狙擊槍武器可以自動射擊
   * [l4d_infinite_clip](/L4D_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
-    * 指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
+    * 指定的武器可以無限子彈射擊，不需要換彈夾 + 電鋸擁有無限油量
   * [l4d_weapon_block_ammo_pile](/L4D_插件/Weapons_武器/l4d_weapon_block_ammo_pile): Cannot refill the ammo of the weapons
     * 指定的武器無法填裝彈藥
   * [l4d2_chainsaw_ammo](/L4D_插件/Weapons_武器/l4d2_chainsaw_ammo): Cannot refill the ammo of the weapons
@@ -602,6 +608,8 @@
     * 企圖跳樓自殺的玩家將會傳送回樓頂，並封鎖踢出伺服器
   * [l4d_saferoom_prevent_kit](/L4D_插件/Anti_Griefer_防惡意路人/l4d_saferoom_prevent_kit): Block Player from using Kit in Saferoom
     * 在安全區域內禁止人類使用治療包
+  * [l4d_anti_juggle_pickup](/L4D_插件/Anti_Griefer_防惡意路人/l4d_anti_juggle_pickup): Limit the numbers of times weapons/items can be picked up within short time
+    * 限制玩家頻繁撿取武器或物資，避免搬運或切洗
 </details>
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
@@ -730,6 +738,12 @@
 </details>
 
 ###### **CS Plugin List | CS插件列表**
+* <details><summary><b>Hostage | 人質</b></summary>
+
+  * [css_hostage_invulnerable](/CS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
+    * 人質不會受傷死亡
+</details>
+
 * <details><summary><b>Player | 玩家</b></summary>
 
   * [css_team_noblock](/CS_插件/Player_玩家/css_team_noblock): Prevents collisions with teammates.
@@ -744,12 +758,6 @@
     * 死亡時掉落所有武器、刀、手榴彈與防彈背心
   * [css_weapon_limit](/CS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
     * 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
-</details>
-
-* <details><summary><b>Hostage | 人質</b></summary>
-
-  * [css_hostage_invulnerable](/CS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
-    * 人質不會受傷死亡
 </details>
 
 - - - -

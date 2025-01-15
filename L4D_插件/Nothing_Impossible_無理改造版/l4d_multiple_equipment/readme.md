@@ -15,6 +15,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_multiple_equipment_3](image/l4d_multiple_equipment_3.gif)
     <br/>![l4d_multiple_equipment_4](image/l4d_multiple_equipment_4.gif)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * <details><summary>How does it work?</summary>
 
     * Everyone can carry
@@ -133,12 +139,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
 * <details><summary>Translation Support | 支援翻譯</summary>
 
 	```
@@ -157,6 +157,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.1h (2025-1-15)
+        * Fixed m60 or grenade launcher disappear
 
     * v2.0h (2024-7-9)
         * Add back primary weapon ammo lock

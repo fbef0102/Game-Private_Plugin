@@ -7,9 +7,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* Video | 影片展示
-<br/>None
-
 * <details><summary>Image</summary>
 
 	* Automatically change next level when survivors wipe out in coop/realism
@@ -18,6 +15,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![sm_l4d_mapchanger_2](image/sm_l4d_mapchanger_2.jpg)
 	<br/>![sm_l4d_mapchanger_3](image/sm_l4d_mapchanger_3.jpg)
 </details>
+
+* Apply to | 適用於
+	```
+	L4D2 Dedicated Server
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -171,11 +173,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d2_minecraft_evolution
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2 coop/survival/versus/realism/scavenge
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

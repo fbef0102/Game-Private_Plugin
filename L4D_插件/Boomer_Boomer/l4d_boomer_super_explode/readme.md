@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Player-controlled Boomer holds crouch for 4 seconds, press jump to self explode
 	* AI Boomer will super explode after vomit (see cvar below)
-		* Create fire, explode particle, cause more damage to survivors nearby and shock wave
+	* Create fire, explode particle, cause more damage to survivors nearby and shock wave
 </details>
 
 * Require | 必要安裝

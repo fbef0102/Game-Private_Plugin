@@ -7,9 +7,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* Video | 影片展示
-<br/>None
-
 * <details><summary>Image</summary>
 
 	* (Admin) !admin -> Server Commands -> "List of Maps"
@@ -18,6 +15,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* (Player) !maplist -> call a vote to change map.
 	<br/>![l4d_all_missions_list_3](image/l4d_all_missions_list_3.jpg)
 </details>
+
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -70,12 +73,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_mission_list_update
 		```
 </details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

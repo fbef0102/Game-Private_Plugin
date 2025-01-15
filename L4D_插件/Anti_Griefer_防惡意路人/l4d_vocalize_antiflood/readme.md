@@ -7,15 +7,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-
 * [Video | 影片展示](https://youtu.be/coX2i0tun0k)
 
 * Image | 圖示
 	<br/>![l4d_vocalize_antiflood_1](image/l4d_vocalize_antiflood_1.jpg)
 
-* Require | 必要安裝
-	1. [sceneprocessor](https://forums.alliedmods.net/showpost.php?p=2766130&postcount=59)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -28,6 +29,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Player token limit reach: Player can't use vocalize command
 	* Stops vocalize when reaching token limit, token would be decreased after certain time
 </details>
+
+* Require | 必要安裝
+	1. [sceneprocessor](https://forums.alliedmods.net/showpost.php?p=2766130&postcount=59)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,17 +60,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_vocalize_antiflood_immue_flag "z"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 Dedicated Server
-	L4D2 Dedicated Server
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

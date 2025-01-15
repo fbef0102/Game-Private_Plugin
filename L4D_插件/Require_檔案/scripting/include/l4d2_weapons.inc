@@ -55,11 +55,11 @@ enum /*WeaponId*/
 	WEPID_DEFIBRILLATOR,    // 24
 	WEPID_VOMITJAR,         // 25
 	WEPID_RIFLE_AK47,       // 26
-	WEPID_GNOME_CHOMPSKI,   // 27
-	WEPID_COLA_BOTTLES,     // 28
-	WEPID_FIREWORKS_BOX,    // 29
-	WEPID_INCENDIARY_AMMO,  // 30
-	WEPID_FRAG_AMMO,        // 31
+	WEPID_GNOME_CHOMPSKI,   // 27, weapon_gnome
+	WEPID_COLA_BOTTLES,     // 28, weapon_cola_bottles
+	WEPID_FIREWORKS_BOX,    // 29, weapon_fireworkcrate
+	WEPID_INCENDIARY_AMMO,  // 30, weapon_upgradepack_incendiary
+	WEPID_FRAG_AMMO,        // 31, weapon_upgradepack_explosive
 	WEPID_PISTOL_MAGNUM,    // 32
 	WEPID_SMG_MP5,          // 33
 	WEPID_RIFLE_SG552,      // 34
@@ -567,8 +567,12 @@ stock void GetMeleeWeaponModel(int wepid, char[] modelBuffer, const int length)
 // Helper function used for getting an entity's internal melee name
 stock bool GetMeleeWeaponNameFromEntity(int entity, char[] buffer, const int length)
 {
+	if (entity <= MaxClients|| !IsValidEntity(entity)) {
+		return false;
+	}
+
 	char classname[64], sModelName[PLATFORM_MAX_PATH];
-	if (!GetEdictClassname(entity, classname, sizeof(classname))) {
+	if (!GetEntityClassname(entity, classname, sizeof(classname))) {
 		return false;
 	}
 
@@ -643,14 +647,50 @@ stock void GetWeaponModel(int wepid, char[] modelBuffer, const int length)
  */
 stock int IdentifyWeapon(int entity)
 {
-	if (!entity || !IsValidEntity(entity) || !IsValidEdict(entity)) {
+	if (entity <= MaxClients|| !IsValidEntity(entity)) {
 		return WEPID_NONE;
 	}
 
 	char class[64];
-	if (!GetEdictClassname(entity, class, sizeof(class))) {
+	if (!GetEntityClassname(entity, class, sizeof(class))) {
 		return WEPID_NONE;
 	}
+
+	if (strcmp(class, "weapon_spawn") == 0) {
+		return GetEntProp(entity, Prop_Send, "m_weaponID");
+	}
+
+	int len = strlen(class);
+	int len2 = len - 6;
+	if (len2 > 0 && strcmp(class[len2], "_spawn") == 0) {
+		class[len2] = '\0';
+		return WeaponNameToId(class);
+	}
+
+	return WeaponNameToId(class);
+}
+
+/**
+ * Identifies a weapon spawn or weapon entity as a WeaponID and get full classname
+ * @remark Should work on most weapon ents--even spawns, singles, held, etc.
+ *
+ * @param 	entity      Index of entity to identify
+ * @param	buffer		Buffer to copy classname
+ * @param	maxlength	Maximum size of the buffer
+ * @return int for the entity if it is a weapon, WEPID_NONE otherwise
+ */
+stock int IdentifyWeaponAndFullClassName(int entity, char[] buffer, int maxlength)
+{
+	if (entity <= MaxClients|| !IsValidEntity(entity)) {
+		return WEPID_NONE;
+	}
+
+	if (!GetEntityClassname(entity, buffer, maxlength)) {
+		return WEPID_NONE;
+	}
+
+	char class[64];
+	FormatEx(class, sizeof(class), "%s", buffer);
 
 	if (strcmp(class, "weapon_spawn") == 0) {
 		return GetEntProp(entity, Prop_Send, "m_weaponID");
@@ -729,7 +769,7 @@ stock int MeleeNameToMeleeId(const char[] meleeName)
  */
 stock int ConvertWeaponSpawn(int entity, int wepid, int count = 5, const char[] model = "")
 {
-	if (!IsValidEntity(entity)) {
+	if (entity <= MaxClients|| !IsValidEntity(entity)) {
 		return -1;
 	}
 	
@@ -748,7 +788,7 @@ stock int ConvertWeaponSpawn(int entity, int wepid, int count = 5, const char[] 
 	AcceptEntityInput(entity, "kill");
 
 	entity = CreateEntityByName("weapon_spawn");
-	if (!IsValidEntity(entity)) {
+	if (entity <= MaxClients || !IsValidEntity(entity)) {
 		return -1;
 	}
 	

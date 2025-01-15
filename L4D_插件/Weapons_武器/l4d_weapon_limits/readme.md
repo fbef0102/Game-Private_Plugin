@@ -129,6 +129,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v2.5 (2025-1-15)
+        * Fixed m60 or grenade launcher disappear
+
     * v2.4 (2024-5-11)
         * Support Custom Melee
         * Fixed melee error

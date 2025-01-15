@@ -11,6 +11,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.gif)
 	<br/>![l4d_gun_blastpushback_2](image/l4d_gun_blastpushback_2.gif)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
+* <details><summary>How does it work?</summary>
+
+	* Hold a weapon -> right mouse to shove -> Have air push power from muzzle
+    * Push special infected, tank, witch, common infecte, and including hittable cvars
+</details>
+
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -114,17 +127,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_gun_blastpushback_weapon "6,12,13"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-   
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

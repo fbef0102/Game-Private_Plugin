@@ -26,6 +26,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Trace rock's speed
 		l4d_tracerock_speed "300"
 
+		// (L4D2) If 1, Enable trace rock glow
+		l4d_tracerock_glow_enable "1"
+
 		// (L4D2) Set trace rock's glow range
 		l4d_tracerock_glow_range "1500"
 
@@ -75,6 +78,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.7h (2025-1-15)
+		* Update cvars
+
 	* v1.6h (2024-10-30)
 		* Update cvars
 		* App api
@@ -117,8 +123,8 @@ Tank的石頭自動追蹤倖存者
 		// 追蹤石頭的飛行速度
 		l4d_tracerock_speed "300"
 
-		// (L4D2) 追蹤石頭的光圈型態. 0 = 關閉光圈, 1 = 使用時才發光 (沒捨用), 2 = 看到時才發光 (沒捨用), 3 = 隔牆發光 (建議使用此值)
-		l4d_tracerock_glow_type "3"
+		// (L4D2) 為1時，追蹤石頭有光圈
+		l4d_tracerock_glow_enable "1"
 
 		// (L4D2) 追蹤石頭的光圈發光範圍
 		l4d_tracerock_glow_range "1500"

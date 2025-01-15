@@ -7,12 +7,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* Video | 影片展示
-<br/>None
-
 * Image
 	<br/>![l4d_playerjoining_1](image/l4d_playerjoining_1.jpg)
 	<br/>![l4d_playerjoining_2](image/l4d_playerjoining_2.jpg)
+
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -48,16 +51,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 

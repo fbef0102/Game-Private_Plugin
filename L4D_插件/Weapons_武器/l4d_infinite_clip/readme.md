@@ -96,7 +96,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
+指定的武器可以無限子彈射擊，不需要換彈夾 + 電鋸擁有無限油量
 
 * 原理
     * 根據指令設定，指定的武器彈夾為無限子彈，不需要換彈夾

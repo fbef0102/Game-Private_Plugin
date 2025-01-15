@@ -16,8 +16,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Apply to | 適用於
 	```
-	L4D2
-	CSS
+	L4D2 Dedicated Server
+	CSS Dedicated Server
 	```
 
 * <details><summary>How does it work?</summary>
