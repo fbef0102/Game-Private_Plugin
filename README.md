@@ -526,7 +526,7 @@
     * 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
   * [l4d2_change_m1](/L4D_插件/Coop_戰役模式/l4d2_change_m1): If all survivors die, change level to the map 1 of current campaign (Restart Campaign)
     * 戰役模式下如果倖存者滅團，則直接回到地圖的第一關重新開始戰役
-  * [l4d_coop_saferoom_resupply](/L4D_插件/Coop_戰役模式/l4d_coop_saferoom_resupply): When mission complete in coop mode, restore survivors all survivors with 100 hp + refill full ammo + give medical items
+  * [l4d_coop_saferoom_resupply](/L4D_插件/Coop_戰役模式/l4d_coop_saferoom_resupply): When survivors have made it in end saferoom, restore survivors all survivors with 100 hp + refill full ammo + give medical items
     * 戰役模式通關之時，恢復倖存者血量 + 補充彈藥 + 補充醫療物品 
 </details>
 
