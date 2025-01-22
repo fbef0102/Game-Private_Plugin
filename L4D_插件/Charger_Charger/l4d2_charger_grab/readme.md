@@ -67,7 +67,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> 增強Charger，賦予多種超能力成為無人能檔的雷神 (Bot 也適用)
 	2. [l4d2_charger_pickup_incap](/L4D_插件/Charger_Charger/l4d2_charger_pickup_incap): The charger is able to carry any incapacitated player and fling any incapacitated player
 		> Charger可以衝撞帶走倒地的倖存者並撞倒他們 (Bot 也適用)
-	3. [l4d2_release_victim](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
+	3. [l4d2_release_victim](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_release_victim): Allow to release victim
 		> 特感可以釋放被抓住的倖存者
 </details>
 

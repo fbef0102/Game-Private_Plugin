@@ -771,7 +771,6 @@
 * <details><summary><b>Left 4 Dead</b></summary>
 
   * [L4D1+2 plugins | 惡靈勢力1+2 插件列表](https://github.com/fbef0102/L4D1_2-Plugins)
-  * [L4D2 plugins | 惡靈勢力2 插件列表](https://github.com/fbef0102/L4D2-Plugins)
   * [L4D2 Ultimate Offical Maps | 惡靈勢力2 我創造的終極官方地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
   * [L4D1 Rotoblin-AZ Mod | 惡靈勢力1 競技對抗模式](https://github.com/fbef0102/Rotoblin-AZMod)
 </details>

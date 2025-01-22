@@ -171,7 +171,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [Vomit Screen Fade by Marttt](https://forums.alliedmods.net/showthread.php?t=334143): Adds a blind fade effect while on vomit
 		> 被膽汁噴到有致盲效果
-	2. [l4d2_biletheworld](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_biletheworld3): Vomit Jars hit Survivors, Boomer Explosions slime Infected.
+	2. [l4d2_biletheworld](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_biletheworld3): Vomit Jars hit Survivors, Boomer Explosions slime Infected.
 		> 膽汁瓶會噴到倖存者身上，Boomer爆炸的膽汁噴到特感、Tank、Witch、普通感染者
 	2. [l4d2_boomer_vomit_move](/L4D_插件/Boomer_Boomer/l4d2_boomer_vomit_move): Continue normal movement speed while Boomer vomit (AI + Human)
 		> Boomer可以邊吐邊移動 (AI與真人都適用)

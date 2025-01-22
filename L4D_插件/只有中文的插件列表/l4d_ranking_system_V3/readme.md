@@ -40,7 +40,7 @@
 	3. [simple_chatprocessor](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/simple_chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 	5. 可選 - [readyup](/L4D_插件/Server_伺服器/readyup)
-	6. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_skill_detect)
+	6. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_skill_detect)
 
 * <details><summary>指令</summary>
 

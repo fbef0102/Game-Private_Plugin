@@ -140,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [anti-friendly_fire_RPG](/L4D_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_RPG): shoot teammate = shoot yourself RPG
 		> 反傷插件，但是有更多的RPG功能
 
-	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
+	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
 		> 修改槍械傷害比和近戰武器傷害比的插件
 </details>
 

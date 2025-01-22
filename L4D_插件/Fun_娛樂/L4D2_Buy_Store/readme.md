@@ -56,7 +56,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_shop_survivor_cooltime_block "5.0"
 
 		// Giving money for killing a boomer  (0=off)
-		sm_shop_boomkilled "10"
+		sm_shop_boomerkilled "10"
 
 		// Giving money for killing a charger  (0=off)
 		sm_shop_chargerkilled "30"
@@ -421,7 +421,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_shop_survivor_cooltime_block "5.0"
 
 		// 殺死 Boomer 獲得的金額 (0=關閉這項功能)
-		sm_shop_boomkilled "10"
+		sm_shop_boomerkilled "10"
 
 		// 殺死 Charger 獲得的金額 (0=關閉這項功能)
 		sm_shop_chargerkilled "30"

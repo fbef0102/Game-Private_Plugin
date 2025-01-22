@@ -84,7 +84,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
         * 生成多特感控制插件
-    2. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
+    2. [AI_HardSI](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
         * 增強特感攻擊行為
     3. [l4d_claw_dmg](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_claw_dmg): Make claw damage follow convar *_pz_claw_dmg
         * 修改 特感 右鍵抓傷的傷害值

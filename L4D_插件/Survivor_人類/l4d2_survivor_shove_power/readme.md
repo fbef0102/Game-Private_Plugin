@@ -16,9 +16,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d2_survivor_shove_power_5](image/l4d2_survivor_shove_power_5.gif)
 </details>
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * <details><summary>How does it work?</summary>
 
-	* Type ```!sshove``` to enable shove power ability
+    * Type ```!sshove``` to enable shove power ability
         * Shove back teammate (no damage)
         * Shove Tank
         * Shove Witch
@@ -29,7 +34,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -57,7 +63,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 1=Punch survivors, like they were hit by a Tank
         // 2=Stagger survivors
         // 3=Flings survivor, like they were hit by a Charger
-        l4d2_survivor_shove_power_teammate_type "1"
+        l4d2_survivor_shove_power_teammate_type "0"
 
         // If 1, Allows shoving to stagger chargers
         l4d2_survivor_shove_power_charger_enable "1"
@@ -69,7 +75,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d2_survivor_shove_power_witch_enable "1"
 
         // If 1, Allows shoving to punch common infected
-        l4d2_survivor_shove_power_common_enable "1"
+        l4d2_survivor_shove_power_common_enable "0"
 
         // If 1, Allows shoving to punch hittable car
         l4d2_survivor_shove_power_hittable_enable "1"
@@ -80,29 +86,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // which zombie class can be punched by shoving? 
         // 0=None, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. Add numbers together. (63=All)
         l4d2_survivor_shove_power_si_flag "63"
+
+        // How many time each player can shove in one round (0=No limit)
+        l4d2_survivor_shove_power_round_limit "5"
         ```
 </details>
 
 * <details><summary>Command | 命令</summary>
-	
-	* **Turn on/off shove power ability.**
-		```php
-		sm_sshove
-		```
+    
+    * **Turn on/off shove power ability.**
+        ```php
+        sm_sshove
+        ```
 </details>
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * 1.0h (2023-6-21)
-	    * Initial Release
+    * 1.1h (2025-1-22)
+        * Add round limit
+        * Update cvars
 
-    * 1.15
-	    * [Original Plugin By Silvers](https://forums.alliedmods.net/showthread.php?t=318694)
+    * 1.0h (2023-6-21)
+        * Remake code
+        * Update cvars
+
+    * Original
+        * [Original Plugin](https://forums.alliedmods.net/showthread.php?t=318694)
 </details>
 
 - - - -
@@ -135,7 +144,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 請將數字相加起來
         l4d2_survivor_shove_power_modes_tog "0"
 
-        // 擁有這些權限的玩家，可輸入```!sshove``` 啟用右鍵推特殊效果 (留白 = 任何人都能, -1: 無人)
+        // 擁有這些權限的玩家，可輸入!sshove 啟用右鍵推特殊效果 (留白 = 任何人都能, -1: 無人)
         l4d2_survivor_shove_power_flags ""
 
         // 什麼按鍵才能使用特殊效果 1=右鍵, 2=右鍵+E, 3=右鍵+shift.
@@ -169,5 +178,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 哪些特感會被拍飛? (就像被Tank打一樣)
         // 0=無, 1=Smoker, =Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. 請將數字相加起來. (63=全部)
         l4d2_survivor_shove_power_si_flag "63"
+
+        // 每個玩家一回合內可以使用右鍵特殊效果的次數，玩家使用一次效果後必須自己手動輸入!sshove
+        // 0=無限制，玩家不需要重複輸入!sshove
+        l4d2_survivor_shove_power_round_limit "5"  
         ```
 </details>

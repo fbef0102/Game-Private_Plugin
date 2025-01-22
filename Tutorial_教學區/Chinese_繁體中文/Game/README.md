@@ -146,7 +146,7 @@
     * 遊玩三方圖，需要知道地圖上的機關如何啟動或路線怎麼走，絕大部分的地圖會有提示
         * 像是[Resident Evil](https://steamcommunity.com/sharedfiles/filedetails/?id=533677587)、[Questionable Ethics](https://steamcommunity.com/sharedfiles/filedetails/?id=2783476025&searchtext=question)等等
     * 有插件會修改遊戲指導系統
-        * 像是[l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/blob/master/l4d2_item_hint)等等
+        * 像是[l4d2_item_hint](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint)等等
         <br/>![l4d2_item_hint](https://github.com/user-attachments/assets/665e3926-445f-46f3-9c54-70034890cb95)
     * 你是新手的時候
 

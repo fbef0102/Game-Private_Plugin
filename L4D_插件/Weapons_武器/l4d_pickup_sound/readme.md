@@ -5,11 +5,20 @@ Play custom sound when player pick up weapons/items/ammo
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
 
-* Image | 圖示
-<br/>None
+* <details><summary>How does it work?</summary>
+
+	* Play custom sound when pick up
+        1. New weapon/item
+        2. Prop tank、gas can、oxy tank、cola、gnome
+        3. Ammo
+    * Make the game feel more like counter strike :D
+</details>
 
 * Require | 必要安裝
 <br/>None
@@ -34,17 +43,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_pickup_sound_ammo "items/itempickup.wav"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

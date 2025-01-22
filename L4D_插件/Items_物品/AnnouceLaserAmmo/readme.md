@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br>None
 
 * Similar Plugin | 相似插件
-	1. [l4d2_item_hint](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
+	1. [l4d2_item_hint](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 	    > 使用語音雷達"看"可以標記任何物品、武器、地點、特感
 
 * Note

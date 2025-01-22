@@ -13,7 +13,7 @@ Allows spectator listen others team voice and see others team chat for l4d
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * Related Plugin | 相關插件
-    1. [show_mic](https://github.com/fbef0102/L4D2-Plugins/tree/master/show_mic): Voice Announce in centr text + create hat to Show Who is speaking.
+    1. [show_mic](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/show_mic): Voice Announce in centr text + create hat to Show Who is speaking.
 	    > 顯示誰在語音並且在說話的玩家頭上帶帽子
 
 * <details><summary>ConVar | 指令</summary>
@@ -85,7 +85,7 @@ Allows spectator listen others team voice and see others team chat for l4d
         * 看不到倖存者和特感的隊伍對話
         * 聽不到倖存者和特感的隊伍MIC談話
     * ```sv_alltalk 1``` 開啟的時候，此插件會暫時失效
-    * 可以搭配[show_mic插件](https://github.com/fbef0102/L4D2-Plugins/tree/master/show_mic)，顯示誰在語音並且在說話的玩家頭上帶帽子
+    * 可以搭配[show_mic插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/show_mic)，顯示誰在語音並且在說話的玩家頭上帶帽子
     * 戰役模式也適用
 
 * 功能

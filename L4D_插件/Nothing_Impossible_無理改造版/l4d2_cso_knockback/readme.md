@@ -68,10 +68,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
 		* 殭屍變得更強大，他們只要站著不動便可以自癒傷勢　(仿CSO惡靈降世 殭屍技能)
 
-	2. [weapon_csgo_reload](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_weapon_csgo_reload): Weapon Quickswitch Reloading in L4D1+2
+	2. [weapon_csgo_reload](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_weapon_csgo_reload): Weapon Quickswitch Reloading in L4D1+2
 		* 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
 
-	3. [l4d2_supply_woodbox](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_supply_woodbox): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
+	3. [l4d2_supply_woodbox](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_supply_woodbox): Supply boxes are dropped randomly in the map every certain seconds to provide support for the fight against the zombies.
 		* 地圖上隨機出現補給箱，提供人類強力支援 (仿CSO惡靈降世 補給箱)
 
 	4. [l4d_si_slowdown_gunfire](/L4D_插件/Special_Infected_特感/l4d_si_slowdown_gunfire): Manages the gunfire slowdown for infected team (Also apply to AI)

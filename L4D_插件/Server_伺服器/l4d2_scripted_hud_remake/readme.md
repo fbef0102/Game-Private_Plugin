@@ -101,7 +101,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
+	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
 		> L4D2擊殺提示改成CS遊戲的擊殺列表
 </details>
 

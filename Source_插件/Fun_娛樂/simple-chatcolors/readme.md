@@ -5,9 +5,6 @@ Changes the colors of players chat based on config file.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 	* Chat Colors & Title (聊天的顏色與稱號)
 	<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
@@ -29,19 +26,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [simple_chatprocessor](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/simple_chatprocessor)
 	2. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
 
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
 * <details><summary>Command | 命令</summary>
 
-	* **Reloads settings from the config file (Adm Required: ADMFLAG_CONFIG)**
+	* **Reloads settings from the config file (Adm Required: ADMFLAG_ROOT)**
 		```php
 		sm_reloadscc
 		```
 		
-	* **Prints out the color names in their color (Adm Required: ADMFLAG_CONFIG)**
+	* **Prints out the color names in their color (Adm Required: ADMFLAG_ROOT)**
 		```php
 		sm_printcolors
 		```
@@ -87,3 +79,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 自行在文件裡修改: [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
 		* 可以自行根據玩家身分做調整
 		* 設置顏色與稱號
+
+* <details><summary>Command | 命令</summary>
+
+	* **重新載入文件 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_reloadscc
+		```
+		
+	* **打印所有可用顏色 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_printcolors
+		```
+</details>

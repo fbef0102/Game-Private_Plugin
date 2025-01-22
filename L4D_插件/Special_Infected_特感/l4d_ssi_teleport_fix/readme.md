@@ -12,7 +12,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Teleport far AI Infected player to the other player who is much nearer to survivors.
+	* Teleport far AI special infected to the other special infected who is much nearer to survivors.
+    * Teleport AI special infected when they are out of sight of the survivors.
+    * It won't teleport human-controlled infected player
     * Increase game difficulty
 </details>
 
@@ -99,7 +101,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // Teleport to the Infected player whose distance from survivors is outside min range
         l4d_ssi_teleport_fix_tp2_range_min "150"
 
-        // If 1, infected players can be teleported to the player thats about to be seen by the survivors.
+        // If 1, infected players can be teleported even if they are seen by the survivors.
         l4d_ssi_teleport_fix_tp2_visiblethreats "0"
         ```
 </details>
@@ -119,7 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [l4dinfectedbots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)
 		> 生成多特感控制插件
-	2. [AI_HardSI](https://github.com/fbef0102/L4D2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
+	2. [AI_HardSI](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/AI_HardSI): Improves the AI behaviour of special infected
 		> 強化每個AI 特感的行為與提高智商，積極攻擊倖存者
 </details>
 
@@ -149,6 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
     * 比較遠的特感傳送到距離倖存者比較近的特感身上
     * 不會傳送真人特感玩家，但會把AI特感傳送到真人特感玩家
+    * 特感看不見時才會傳送
 
 * 用意在哪?
     * 可配合多特感插件使得每一波特感的攻擊對倖存者造成巨大的壓力
@@ -157,6 +160,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
+	* cfg/sourcemod/l4d_ssi_teleport_fix.cfg
     * 假設需要傳送 "特感A" 到 "特感B" 身上
         ```php
         // 倖存者經過地圖10%總路程才會開始傳送特感

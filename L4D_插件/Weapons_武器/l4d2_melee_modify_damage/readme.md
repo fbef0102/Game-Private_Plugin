@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
-    3. [charging_takedamage_patch](https://github.com/fbef0102/L4D2-Plugins/tree/master/charging_takedamage_patch)
+    3. [charging_takedamage_patch](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/charging_takedamage_patch)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -164,7 +164,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-    1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
+    1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
         * 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
     1. [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
         * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
