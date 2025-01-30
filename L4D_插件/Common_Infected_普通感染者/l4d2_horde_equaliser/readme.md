@@ -5,15 +5,18 @@ Make certain event hordes finite
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
 
-* <details><summary>Notice</summary>
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
-	* To install this plugin, you must disable nature horde, see official cvars below
+* <details><summary>How does it work?</summary>
+
+	* Make infinite event hordes -> finite hordes
+	* To install this plugin, you must disable nature horde
 	* 🟥 Please write down the following official cvars in ```cfg/server.cfg```
 		```php
 		// Nature horde interval (second)
@@ -44,38 +47,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
 	
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		```php
-		"MapInfo"
-		{
-			"c2m3_coaster" //Map Name
-			{
-				"horde_limit" //Set the horde limit according to 'survivor limit'
-				{
-					"survivor_1"	"60"// replace infinite horde with finite event of 60 commons when survivor limit is 1
-					"survivor_2"	"120"// replace infinite horde with finite event of 120 commons when survivor limit is 2
-					"survivor_3"	"180"// replace infinite horde with finite event of 180 commons when survivor limit is 3
-					"survivor_4"	"240" // replace infinite horde with finite event of 240 commons when survivor limit is 4
-					"survivor_5" 	"300" // replace infinite horde with finite event of 300 commons when survivor limit is 5
-
-					"survivor_x"	.. 	//add more if you want (x=1~28)
-				}
-			}
-		}
-		```
+	* [data/l4d2_horde_equaliser.cfg](data/l4d2_horde_equaliser.cfg)
+		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
@@ -87,6 +63,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5h (2025-1-30)
+		* Update data
 
 	* v1.4h (2024-4-16)
 		* Add translation
@@ -160,24 +139,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* 根據伺服器當前的倖存者數量決定屍潮數量
-	* 設置文件```data/mapinfo.txt```調整每一關的有限屍潮數量
-		```php
-		"MapInfo"
-		{
-			"c2m3_coaster"//地圖名
-			{
-				"horde_limit" // 根據伺服器當前的倖存者數量決定屍潮數量
-				{
-					"survivor_1"	"60" // 當僅有一位倖存者時，將無限屍潮改為有限的60隻殭屍數量
-					"survivor_2"	"120" // 當兩位倖存者時，將無限屍潮改為有限的120隻殭屍數量
-					"survivor_3"	"180" // 當三位倖存者時，將無限屍潮改為有限的180隻殭屍數量
-					"survivor_4"	"240" // 當四位倖存者時，將無限屍潮改為有限的240隻殭屍數量
-					"survivor_5" 	"300" // 當五位倖存者時，將無限屍潮改為有限的300隻殭屍數量
-
-					"survivor_x"	.. 	// 自由新增更多倖存者數量 (x=1~28)
-				}
-			}
-		}
-		```
+	* [data/l4d2_horde_equaliser.cfg](data/l4d2_horde_equaliser.cfg)
+		> 內有中文說明，可點擊查看
 </details>

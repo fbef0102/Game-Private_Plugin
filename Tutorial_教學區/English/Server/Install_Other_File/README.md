@@ -42,7 +42,6 @@
 	* Max slot limit is 31 in left4dead 1/2
 		* [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 		* [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
-	* 🟥 Not apply to local server
 
 * Installation
 	1. Go to [l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases) and download files depending on your game and system
@@ -51,8 +50,8 @@
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
 
-	3. Write down the following cvars in ```cfg/server.cfg```
-		* If you don't have ```server.cfg```, then create it
+	3. Write down the following cvars
+		* (Dedicated server) in ```cfg/server.cfg``` (🟥if file doesn't exist, create it🟥)
 			```php
 			// How many real players can join server (Not including AI Bots)
 			// Free to modify value (1~31)
@@ -75,8 +74,18 @@
 			//If 1, no reserved cookie + don't reply reservation request form lobby
 			sv_force_unreserved 0
 			```
+		* (Listen Server) In ```cfg/listenserver.cfg``` if (🟥if file doesn't exist, create it🟥)
+			```php
+			// How many real players can join server (Not including AI Bots)
+			// Free to modify value (1~8)
+			sv_maxplayers 8
 
-	4. By default, the game engine only allow 18 max players. To change max clients
+			// Maximum players" number that's visible to people in the server browser and server queries
+			// Suggest to set the same number as sv_maxplayers
+			sv_visiblemaxplayers 8
+			```
+
+	4. (Dedicated server) By default, the game engine only allow 18 max players. To change max clients
 		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
@@ -90,7 +99,7 @@
 		[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
 		```
 
-	6. Install plugin [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
+	6. (Dedicated server) Install plugin [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
 		* Removes lobby reservation when server is full, allow 9+ players to join server
 
 - - - -

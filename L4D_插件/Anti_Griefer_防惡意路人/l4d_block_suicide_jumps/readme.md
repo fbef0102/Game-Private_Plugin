@@ -13,6 +13,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_block_suicide_jumps_3](image/l4d_block_suicide_jumps_3.jpg)
 	<br/>![l4d_block_suicide_jumps_4](image/l4d_block_suicide_jumps_4.jpg)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Auto ban players who attemp to suicide
@@ -47,32 +53,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
   
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		```php
-		"MapInfo"
-		{
-			"c8m1_apartment"　//Map Name
-			{
-				"l4d_block_suicide_jumps_off" "1" // disabe plugin in this map
-			}
-
-			...
-		}
-		```
+	* [data/l4d_block_suicide_jumps.cfg](data/l4d_block_suicide_jumps.cfg)
+		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
@@ -84,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2025-1-30)
+		* Update data
 
 	* v1.2h (2024-11-14)
 		* Optimize code
@@ -148,16 +136,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
   
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		```php
-		"MapInfo"
-		{
-			"c8m1_apartment"　//地圖名
-			{
-				"l4d_block_suicide_jumps_off" "1" // 1=在這張地圖關閉此插件 (沒有寫則自動開啟)
-			}
-
-			...
-		}
-		```
+	* [data/l4d_block_suicide_jumps.cfg](data/l4d_block_suicide_jumps.cfg)
+		> 內有中文說明，可點擊查看
 </details>

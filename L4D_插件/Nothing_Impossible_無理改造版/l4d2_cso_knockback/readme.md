@@ -14,6 +14,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_cso_knockback_3](image/l4d2_cso_knockback_3.gif)
 	<br/>![l4d2_cso_knockback_4](image/l4d2_cso_knockback_4.gif)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* When special infected get shot, they are being pushed back and can't move forward
@@ -47,21 +52,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
 
 	* [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
 		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
@@ -79,6 +74,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2025-1-30)
+		* Improve knockback of grenade launcher projectile
 
 	* v1.0 (2024-3-4)
 		* Initial Release

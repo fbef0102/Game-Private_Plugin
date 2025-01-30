@@ -5,11 +5,11 @@ Control items limit on map
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
-* Image | 圖示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -40,11 +40,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
 
 	* [data/ItemTracking.cfg](data/ItemTracking.cfg)
@@ -69,12 +64,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar director_oxygen_tank_density 	"6.48"
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Related | 相關插件</summary>
 

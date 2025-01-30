@@ -12,6 +12,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![L4D2_Spitter_Supergirl_2](image/L4D2_Spitter_Supergirl_2.gif)
 	<br/>![L4D2_Spitter_Supergirl_3](image/L4D2_Spitter_Supergirl_3.gif)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * <details><summary>Details</summary>
 
 	* <b>Acidic Bile ability</b> - Survivors that have wandered into an acid pool have a chance of being splashed with bile and attracting common infected.
@@ -106,11 +111,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Known Conflicts</summary>
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
@@ -126,11 +126,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar z_spitter_speed  210
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * Related Plugin | 相關插件
 	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once

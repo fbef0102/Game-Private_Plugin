@@ -294,6 +294,8 @@
     * 增強Spitter，賦予多種超能力成為超能小妹妹
   * [l4d2_spitter_spit_hell](/L4D_插件/Spitter_Spitter/l4d2_spitter_spit_hell): A pool of Spit starts to damage survivors immediately instead of zero damage while spreading
     * Spitter的酸液剛開始擴散之時對人類是0傷害改變成能造成傷害
+  * [l4d2_acid_ignite_explosives](/L4D_插件/Spitter_Spitter/l4d2_acid_ignite_explosives): Make Spitter acid to be able to ignite explosives
+    * Spitter的酸液可以點燃汽油桶、煙火盒、瓦斯桶、氧氣罐
 </details>
 
 * <details><summary><b>Charger | Charger</b></summary>
@@ -388,8 +390,8 @@
     * 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
   * [l4d2_common_infected_nightmare](/L4D_插件/Common_Infected_普通感染者/l4d2_common_infected_nightmare): Common infected spawns with random health, speed, size, damage, armor. Make sure that hordes become your worst nightmare.
     * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
-  * [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
-    * 根據玩家人數多寡與地圖，設定普通殭屍與屍潮的數量限制
+  * [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors/map/gamemode
+    * 根據玩家人數多寡/地圖/遊戲模式，設定普通殭屍與屍潮的數量
   * [l4d2_fallen_survivor_item_change](/L4D_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
     * 改變墮落倖存者掉落的物品
   * [l4d_ci_stagger_block](/L4D_插件/Common_Infected_普通感染者/l4d_ci_stagger_block): Block Common Infected stumble by Boomer/Genade Launcher/Shove....

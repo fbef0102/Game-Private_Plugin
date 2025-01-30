@@ -26,20 +26,17 @@
 * [Metamod](https://wiki.alliedmods.net/Installing_Metamod:Source)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): Download 8_slots_lobby.vpk. You can have 8 slots lobby. <br/>
+* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): You can have 8 slots lobby.
+   - Install in client-side folder
    - Only start game when there are 2 players above
-   - 8 Slots Lobby Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
+   - This Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
 - - - -
 ## Require
 * [l4dtoolz EXTENSION](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
-   - write down cvars in cfg/server.cfg if dedicated server (🟥if file doesn't exist, create it🟥)
-   - write down cvars in cfg/listenserver.cfg if listen server (🟥if file doesn't exist, create it🟥)
+   - Write down the following cvars in ```cfg/server.cfg``` if dedicated server (🟥if file doesn't exist, create it🟥)
+   - Write down the following cvars in ```cfg/listenserver.cfg``` if listen server (🟥if file doesn't exist, create it🟥)
     ```php
-    sv_maxplayers 8 // 8 players can join the server, set number whatever you like (range 4 to 30)
-    sv_visiblemaxplayers 8 // Number set same as above
-    sv_force_unreserved 0 // 1=Your server will stay unreserved + no reserved cookie + don't reply reservation request form lobby
-    sv_allow_lobby_connect_only 0 // 0=Allow to join server via matchmaking lobby, connect, or server list, 1=Only join server from lobby.
     sm_cvar precache_all_survivors 1 // 1=Precache/Load all models of survivors to prevent crash
     sm_cvar sv_consistency 0 // The server enforces file consistency (1: Enable, 0: Disable) 
     ```
@@ -50,7 +47,7 @@
 
 * [l4dmultislots (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): Allows additional survivor players in server when 5+ player joins the server
    - How could I control the number of bots spawned at the start
-      - cfg/sourcemod/l4dmultislots.cfg
+      - ```cfg/sourcemod/l4dmultislots.cfg```
 		```php
 		l4d_multislots_min_survivors "8"
 		l4d_multislots_spawn_survivors_roundstart "1" 

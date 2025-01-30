@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/1/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/1/30 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -25,22 +25,19 @@
 * [安裝伺服器與Sourcemod + Metamod](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#%E9%81%B8%E6%93%87%E5%8D%80%E5%9F%9F%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%96%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8)
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
-* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): 下載安裝8_slots_lobby.vpk可讓大廳有八個位子 <br/>
+* [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): 下載安裝8_slots_lobby.vpk可讓大廳有八個位子
+   - 只需要安裝在遊戲的資料夾，不需要放在伺服器裡
    - 有兩位以上玩家在大廳才能開始遊戲
-   - 安裝8 Slots Lobby Mod 會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
+   - 安裝此Mod之後會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
   
 - - - -
 ## 必要檔案
 * [l4dtoolz EXTENSION](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝l4dtoolz): 解鎖伺服器人數限制
-   - 如果是專屬伺服器，在 cfg/server.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
-   - 如果是區域伺服器，在 cfg/listenserver.cfg　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果是專屬伺服器，在 ```cfg/server.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+   - 如果是區域伺服器，在 ```cfg/listenserver.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
     ```php
-    sv_maxplayers 8 // 允許八位真人玩家可以加入伺服器 (數值可以調整，介於4~31之間)
-    sv_visiblemaxplayers 8 // 伺服器顯示的空位人數 (建議數值跟_maxplayers一樣)
-    sv_force_unreserved 0 // 1=強迫伺服器移除動態大廳，強制 _allow_lobby_connect_only 為0.
-    sv_allow_lobby_connect_only 0 // 0=可以從遊戲大廳或透過控制台與伺服器列表直連IP加入伺服器 (1=當有動態大廳時，只能從遊戲大廳加入伺服器)
     sm_cvar precache_all_survivors 1 // 1=預先載入所有倖存者的角色模組
-    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來 (1=開啟檔案遊戲一致性的檢查)
+    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來, 1=開啟檔案遊戲一致性的檢查
     ```
    - 可參考我的[Server.cfg](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
@@ -51,7 +48,7 @@
    - 如何回合開始就有8個Bot?
       - 安裝插件之後運行伺服器，等待插件自己生成 cfg/sourcemod/l4dmultislots.cfg 文件
         * 這個文件會自己創建，如果沒有創建表示你安裝l4dmultislots失敗
-      - cfg/sourcemod/l4dmultislots.cfg 設置
+      - ```cfg/sourcemod/l4dmultislots.cfg``` 設置
 		```php
 		l4d_multislots_min_survivors "8"
 		l4d_multislots_spawn_survivors_roundstart "1" 

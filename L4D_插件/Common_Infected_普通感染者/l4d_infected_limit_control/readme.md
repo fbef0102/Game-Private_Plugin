@@ -1,19 +1,35 @@
 # Description | 內容
-Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
+Adjust common infecteds/hordes/mobs depends on 5+ survivors/map/gamemode
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
-
 * Image | 圖示
 	<br/>![l4d_infected_limit_control_1](image/l4d_infected_limit_control_1.jpg)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
-	* Modfiy [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg), set common infected and horde limit depends on the numbers of survivors and map.
+	* Set the following depends on the numbers of survivors/map/gamemode
+		* Common infected limit
+		* Amount of zombies to spawn in Map Event horde/Alarm horde/Director Panic Event
+		* Amount of zombies to spawn in natural hordes/z_spawn mob/boomer hordes/bile bomb
+		* Time in seconds between natural horde spawns
 	* Override limit in director vscript, prevent custom map from changing common infected limit
+	* All settings are in [data/l4d_infected_limit_control](data/l4d_infected_limit_control) folder
+		* Please Read: [data/l4d_infected_limit_control/readme_說明書.txt](data/l4d_infected_limit_control/readme_說明書.txt)
+		* Run coop mode => plugin reads ```coop.cfg```
+		* Run versus mode => plugin reads```versus.cfg```
+		* Run survival mode => plugin reads```survival .cfg```
+		* Run scavenge mode => plugin reads```scavenge.cfg```
+		* Run realism mode => plugin reads```realism.cfg```
+		* Run mutation gamemode => plugin reads```xxxx.cfg``` (```xxxx``` = mutation name)
 </details>
 
 * Require | 必要安裝
@@ -29,6 +45,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 1=Enable notify, 0=Disable notify
 		l4d_infected_limit_control_hint "1"
+
+		// How to calculate numbers of survivors, 0=Alive, 1=Dead+Alive
+		l4d_infected_limit_control_calculate_sur "1"
+
+		// Which xxxx.cfg file should this plugin read for settings in data/l4d_infected_limit_control folder (Ex: "custom_no_zombie" = reads custom_no_zombie.cfg)
+		// Empty=By default, reads xxxx.cfg (xxxx = gamemode or mutation name).
+		l4d_infected_limit_control_read_data ""
 		```
 </details>
 
@@ -38,12 +61,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_zminfo
 		```
-</details>
-
-* <details><summary>Data Config</summary>
-
-	* [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * <details><summary>Related Official ConVar</summary>
@@ -56,13 +73,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| z_mega_mob_size          			| 50   | Amount of zombies to spawn in Map Event horde & Alarm horde & Director Panic Event 
 	| z_mob_spawn_min_size          	| 10   | Minimum amount of zombies to spawn in natural hordes & z_spawn mob & boomer hordes & bile bomb
 	| z_mob_spawn_max_size          	| 30   | Maximum amount of zombies to spawn in natural hordes & z_spawn mob & boomer hordes & bile bomb
+	| z_mob_spawn_min_interval_easy     | 120  | Minimum time in seconds between natural horde spawns on easy difficulty
+	| z_mob_spawn_min_interval_normal   | 90   | Minimum time in seconds between natural horde spawns on normal difficulty
+	| z_mob_spawn_min_interval_hard     | 90   | Minimum time in seconds between natural horde spawns on hard difficulty
+	| z_mob_spawn_min_interval_expert   | 90   | Minimum time in seconds between natural horde spawns on impossible difficulty
+	| z_mob_spawn_max_interval_easy     | 240  | Maximum time in seconds between natural horde spawns on easy difficulty
+	| z_mob_spawn_max_interval_normal   | 180  | Maximum time in seconds between natural horde spawns on normal difficulty
+	| z_mob_spawn_max_interval_hard     | 180  | Maximum time in seconds between natural horde spawns on hard difficulty
+	| z_mob_spawn_max_interval_expert   | 180  | Maximum time in seconds between natural horde spawns on impossible difficulty
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Translation Support | 支援翻譯</summary>
 
@@ -85,6 +104,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6 (2025-1-30)
+		* Update data file
+		* Control natural horde spawn interval
+
 	* v1.5 (2024-10-12)
 		* Dynamic adjust depends on map
 		* Update Data file
@@ -106,25 +129,33 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Prevent too many common infected and horde keep coming, cause final stage stuck
 
 	* v1.0 (2023-11-29)
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -
 # 中文說明
-根據玩家人數多寡與地圖，設定普通殭屍與屍潮的數量限制
+根據玩家人數多寡/地圖/遊戲模式，設定普通殭屍與屍潮的數量
 
 * 圖示
 	<br/>![zho/l4d_infected_limit_control_1](image/zho/l4d_infected_limit_control_1.jpg)
 
 * 原理
-	* 設置文件[data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
-		* 依照倖存者的數量，設置更多的殭屍與屍潮數量
-		* 依照地圖名稱，設置殭屍與屍潮數量
+	* 依照倖存者的數量，設置更多的殭屍與屍潮數量
+	* 依照地圖名稱/遊戲模式，設置不同的殭屍與屍潮數量
 	* 修改的有
 		* 殭屍同時存在的總數量
 		* 警報車/地圖機關 殭屍數量
 		* Boomer噴到/自然屍潮 殭屍數量
+		* 自然屍潮 生成間隔
 	* 強制覆蓋遊戲導演系統或地圖腳本，防止三方圖攥改殭屍與屍潮的數量
+	* 所有功能設置都在 [data/l4d_infected_limit_control](data/l4d_infected_limit_control) 資料夾裡
+		* 中文說明書: [data/l4d_infected_limit_control/readme_說明書.txt](data/l4d_infected_limit_control/readme_說明書.txt)
+		* 當前模式是戰役 => 插件讀取```coop.cfg```
+		* 當前模式是對抗 => 插件讀取```versus.cfg```
+		* 當前模式是生存 => 插件讀取```survival.cfg```
+		* 當前模式是清道夫 => 插件讀取```scavenge.cfg```
+		* 當前模式是寫實 => 插件讀取```realism.cfg```
+		* 其他模式 => 插件讀取```xxxx.cfg``` (```xxxx``` = 遊戲模式名稱或突變模式名稱)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -135,6 +166,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 1=啟用提示, 0=關閉提示
 		l4d_infected_limit_control_hint "1"
+
+		// 如何計算倖存者數量, 0=只計算活著, 1=死亡+活著
+		l4d_infected_limit_control_calculate_sur "1"
+
+		// 自訂此插件位於data/l4d_infected_limit_control資料夾想要讀取的文件名稱 (譬如: "custom_no_zombie"，此插件讀取 custom_no_zombie.cfg)
+		// 留白=插件預設讀取xxxx.cfg (xxxx = 遊戲模式名稱或突變模式名稱).
+		l4d_infected_limit_control_read_data ""
 		```
 </details>
 
@@ -144,12 +182,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_zminfo
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/l4d_infected_limit_control.cfg](data/l4d_infected_limit_control.cfg)
-		> 內有中文說明，可點擊查看
 </details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
@@ -162,4 +194,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| z_mega_mob_size          			| 50   | 警報車/地圖機關/導演屍潮 生成的殭屍數量.
 	| z_mob_spawn_min_size          	| 10   | Boomer噴到/自然屍潮/膽汁瓶/z_spawn mob 最少生成的殭屍數量
 	| z_mob_spawn_max_size          	| 30   | Boomer噴到/自然屍潮/膽汁瓶/z_spawn mob 最多生成的殭屍數量
+	| z_mob_spawn_min_interval_easy     | 120  | 簡單難度: 自然屍潮生成最短間隔 (秒)
+	| z_mob_spawn_min_interval_normal   | 90   | 一般難度: 自然屍潮生成最短間隔 (秒)
+	| z_mob_spawn_min_interval_hard     | 90   | 進階難度: 自然屍潮生成最短間隔 (秒)
+	| z_mob_spawn_min_interval_expert   | 90   | 專家難度: 自然屍潮生成最短間隔 (秒)
+	| z_mob_spawn_max_interval_easy     | 240  | 簡單難度: 自然屍潮生成最長間隔 (秒)
+	| z_mob_spawn_max_interval_normal   | 180  | 一般難度: 自然屍潮生成最長間隔 (秒)
+	| z_mob_spawn_max_interval_hard     | 180  | 進階難度: 自然屍潮生成最長間隔 (秒)
+	| z_mob_spawn_max_interval_expert   | 180  | 專家難度: 自然屍潮生成最長間隔 (秒)
 </details>

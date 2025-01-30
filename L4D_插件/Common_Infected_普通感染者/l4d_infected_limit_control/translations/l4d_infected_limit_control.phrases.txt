@@ -6,6 +6,13 @@
 		"en"	"{green}Zombie Count Information:↓↓↓"
 		"zho"	"{green}殭屍數量資訊:↓↓↓"
 		"chi"	"{green}僵尸数量信息:↓↓↓"
+	}		
+	
+	"Zombie Count Information:↓↓↓ (Final)"
+	{
+		"en"	"{green}(Final) Zombie Count Information:↓↓↓"
+		"zho"	"{green}(救援開始後) 殭屍數量資訊:↓↓↓"
+		"chi"	"{green}(救援开始后) 僵尸数量信息:↓↓↓"
 	}	
 	
 	"Zombie Count Settings (CMD)"
@@ -20,32 +27,39 @@
 	{
 		"#format"	"{1:d}"
 		"en"	"{olive}z_common_limit = {lightgreen}{1}"
-		"zho"	"{olive}殭屍總數量 (z_common_limit) = {lightgreen}{1}"
-		"chi"	"{olive}僵尸总数量 (z_common_limit) = {lightgreen}{1}"
+		"zho"	"{olive}殭屍總數量 = {lightgreen}{1}"
+		"chi"	"{olive}僵尸总数量 = {lightgreen}{1}"
 	}	
 	
 	"z_mega_mob_size"
 	{
 		"#format"	"{1:d}"
 		"en"	"{olive}z_mega_mob_size = {lightgreen}{1}"
-		"zho"	"{olive}警報/機關 殭屍數量 (z_mega_mob_size) = {lightgreen}{1}"
-		"chi"	"{olive}警报/机关 僵尸数量 (z_mega_mob_size) = {lightgreen}{1}"
+		"zho"	"{olive}警報/機關 殭屍數量 = {lightgreen}{1}"
+		"chi"	"{olive}警报/机关 僵尸数量 = {lightgreen}{1}"
 	}	
 	
-	"z_mob_spawn_min_size"
+	"z_mob_spawn_x_size"
 	{
-		"#format"	"{1:d}"
-		"en"	"{olive}z_mob_spawn_min_size = {lightgreen}{1}"
-		"zho"	"{olive}Boomer/自然屍潮 殭屍最少數量 (z_mob_spawn_min_size) = {lightgreen}{1}"
-		"chi"	"{olive}Boomer/自然尸潮 僵尸最少数量 (z_mob_spawn_min_size) = {lightgreen}{1}"
+		"#format"	"{1:d},{2:d}"
+		"en"	"{olive}z_mob_spawn_size min~max = {lightgreen}{1}~{2}"
+		"zho"	"{olive}Boomer/自然屍潮 殭屍數量 = {lightgreen}{1}~{2}"
+		"chi"	"{olive}Boomer/自然尸潮 僵尸数量 = {lightgreen}{1}~{2}"
 	}	
 	
-	"z_mob_spawn_max_size"
+	"z_mob_spawn_x_interval_x"
 	{
-		"#format"	"{1:d}"
-		"en"	"{olive}z_mob_spawn_max_size = {lightgreen}{1}"
-		"zho"	"{olive}Boomer/自然屍潮 殭屍最多數量 (z_mob_spawn_max_size) = {lightgreen}{1}"
-		"chi"	"{olive}Boomer/自然尸潮 僵尸最多数量 (z_mob_spawn_max_size) = {lightgreen}{1}"
+		"#format"	"{1:.0f},{2:.0f}"
+		"en"	"{olive}z_mob_spawn_interval min~max = {lightgreen}{1}~{2}"
+		"zho"	"{olive}自然屍潮 生成間隔 = {lightgreen}{1}~{2}"
+		"chi"	"{olive}自然尸潮 生成间隔 = {lightgreen}{1}~{2}"
+	}
+	
+	"z_mob_spawn_x_interval_default"
+	{
+		"en"	"{olive}z_mob_spawn_interval min~max = Game Default"
+		"zho"	"{olive}自然屍潮 生成間隔 = 遊戲預設"
+		"chi"	"{olive}自然尸潮 生成间隔 = 游戏预设"
 	}
 
 	"Disable"	

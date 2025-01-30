@@ -39,7 +39,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Usage: !setplayername <#userid|name> xxx
 		smd_set_player_name_cmd_other_flag "z"
 
-		// If 1, announce name change
+		// 1=Announce name change + trigger "player_changename" event, 0=Disable announce and trigger
 		smd_set_player_name_cmd_announce "1"
 		```
 </details>
@@ -100,7 +100,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 使用方式: !setplayername <#userid|name> xxx
 		smd_set_player_name_cmd_other_flag "z"
 
-		// 為1時，聊天框會提示玩家改名
+		// // 1=聊天框會提示玩家改名 + 觸發事件 "player_changename" , 0=不提示不觸發事件
 		smd_set_player_name_cmd_announce "1"
 		```
 </details>
