@@ -127,9 +127,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Related Plugin | 相關插件
+* <details><summary>Related Plugin | 相關插件</summary>
+
 	1. [Spitter Extra Projectiles by Marttt](https://forums.alliedmods.net/showthread.php?t=331085): Allow spitters to spit more than a single projectile at once
 		> Spitter可以一次吐多個酸液
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

@@ -17,6 +17,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.gif)
 	<br/>![fortnite_dances_emotes_l4d_5](image/fortnite_dances_emotes_l4d_5.gif)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
@@ -124,12 +130,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Translation Support | 支援翻譯</summary>
 
 	```
@@ -153,8 +153,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.6h (2024-11-29)
-		* You can move while dancing
+	* v1.7h (2025-1-31)
+		* You can move and jump while dancing
 		* Fixed stuck or falling if dance on the evelator or any other moving vehicle
 	
 	* v1.5h (2024-9-23)

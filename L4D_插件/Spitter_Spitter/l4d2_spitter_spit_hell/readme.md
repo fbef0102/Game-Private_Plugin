@@ -12,6 +12,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
+* Require | 必要安裝
+<br>None
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_spitter_spit_hell.cfg
