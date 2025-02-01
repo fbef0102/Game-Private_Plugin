@@ -5,11 +5,14 @@ Make special infected become super SI (increase HP/movement/invisibility + catch
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image | 圖示
 	<br/>![l4d_super_si_1](image/l4d_super_si_1.jpg)
+
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -178,22 +181,36 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Probalility of catch fire when the super tank spawns [0-100]%
 		l4d_super_si_fire_tank "0"
+
+		// Limit of the super smoker
+		l4d_super_si_limit_smoker "2"
+
+		// Limit of the super boomer spawns
+		l4d_super_si_limit_boomer "2"
+
+		// Limit of the super hunter spawn
+		l4d_super_si_limit_hunter "2"
+
+		// Limit of the super spitter spawns
+		l4d_super_si_limit_spitter "2"
+
+		// Limit of the super jockey spawns
+		l4d_super_si_limit_jockey "2"
+
+		// Limit of the super charger spawns
+		l4d_super_si_limit_charger "2"
+
+		// Limit of the super tank spawns
+		l4d_super_si_limit_tank "2"
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2025-2-1)
+		* Add limit
+		* Update cvars
+		
 	* v1.1h (2024-4-2)
 		* Update cvars
 
@@ -375,5 +392,26 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 超級Tank著火機率. [0-100]%
 		l4d_super_si_fire_tank "0"
+
+		// 超級Smoker的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_smoker "2"
+
+		// 超級Boomer的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_boomer "2"
+
+		// 超級Hunter的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_hunter "2"
+
+		// 超級Spitter的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_spitter "2"
+
+		// 超級Jockey的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_jockey "2"
+
+		// 超級Charger的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_charger "2"
+
+		// 超級Tank的數量上限 (超過就不會再生成)
+		l4d_super_si_limit_tank "2"
 		```
 </details>

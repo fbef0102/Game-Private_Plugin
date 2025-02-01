@@ -16,6 +16,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_ragdoll_vanish_5](image/l4d_ragdoll_vanish_5.gif)
 </details>
 
+* Apply to | 適用於
+	```
+	L4D1 
+	L4D2
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Ragdolls vanish when they die.
@@ -52,20 +58,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (L4D1) clear Which zombie class dead body, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=All)
 		// (Instantly vanish)
-		l4d_ragdoll_vanish_infected_class "127"
+		l4d_ragdoll_vanish_infected_class "15"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -114,6 +109,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// (L4D1) 哪些特感死亡時，屍體會消失, 0=None, 1=Smoker, 2=Boomer, 4=Hunter, 8=Tank. Add numbers together. (15=全部)
 		// (瞬間消失)
-		l4d_ragdoll_vanish_infected_class "127"
+		l4d_ragdoll_vanish_infected_class "15"
 		```
 </details>
