@@ -23,16 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 <br/>None
 
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [sv_protect_cvar](/L4D_插件/Server_伺服器/sv_protect_cvar): Protect ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible

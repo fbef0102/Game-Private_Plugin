@@ -24,16 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 <br/>None
 
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [sv_protect_cvar](/Source_插件/Server_伺服器/sv_protect_cvar): Enforces ConVars consistency from the data-file values

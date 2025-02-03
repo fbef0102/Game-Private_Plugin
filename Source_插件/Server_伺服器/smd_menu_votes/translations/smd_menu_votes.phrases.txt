@@ -1,0 +1,269 @@
+// Please use notepad++ or vscode to open this file, so you will see the special ascii character for Colors tag
+// Colors tag (Colors are different and some not work in each source engine game, you need to test)
+//	= \x01 (SOH)
+//	= \x02 (STX)
+//	= \x03 (ETX)
+//	= \x04 (EOT)
+//	= \x05 (ENQ)
+//	= \x06 (ACK)
+//	= \x07 (BEL)
+// --
+// 使用notepad++ 或是 vscode 文件編輯器，你才會看到顏色標籤的特殊符號
+// 以下為顏色標籤 (每個Source引擎遊戲呈現的顏色都不同, 符號也不一定有用, 請自己測試)
+//	= \x01 (SOH)
+//	= \x02 (STX)
+//	= \x03 (ETX)
+//	= \x04 (EOT)
+//	= \x05 (ENQ)
+//	= \x06 (ACK)
+//	= \x07 (BEL)
+
+"Phrases"
+{
+	"Main Vote Title"
+	{
+		"en"		"Vote List"
+		"zho"		"投票列表"
+		"chi"		"投票列表"
+	}
+
+	"map"
+	{
+		"en"		"Change Map"
+		"zho"		"換圖"
+		"chi"		"换图"
+	}
+
+	"kick"
+	{
+		"en"		"Kick Player"
+		"zho"		"踢出玩家"
+		"chi"		"踢出玩家"
+	}
+
+	"restartmap"
+	{
+		"en"		"Restart Map"
+		"zho"		"重新地圖"
+		"chi"		"重新地图"
+	}
+
+	"custom"
+	{
+		"en"		"Custom Votes"
+		"zho"		"自定義投票"
+		"chi"		"自定义投票"
+	}
+
+	"ChangeMap Menu Title"
+	{
+		"en"		"- Choose the map -"
+		"zho"		"- 請選擇地圖 -"
+		"chi"		"- 请选择地图 -"
+	}
+
+	"Kick Player Menu Title"
+	{
+		"en"		"Kick Player"
+		"zho"		"選擇玩家踢出"
+		"chi"		"选择玩家踢出"
+	}
+
+	"Custom Vote Menu Title"
+	{
+		"en"		"Custom Votes"
+		"zho"		"自定義投票列表"
+		"chi"		"自定义投票列表"
+	}
+
+	"Not In Game"
+	{
+		"en"		"Target is not in game, choose again"
+		"zho"		"玩家不存在，請重新選擇!"
+		"chi"		"玩家不存在，请重新选择!"
+	}
+
+	"Kick Yourself"
+	{
+		"en"		"Kick Yourself?"
+		"zho"		"踢你自己幹嗎?"
+		"chi"		"踢你自己干吗?"
+	}
+
+	"is immune to be kicked"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} is immune to being kicked!"
+		"zho"		"{1} 玩家免疫被踢!"
+		"chi"		"{1} 玩家免疫被踢!"
+	}
+
+	"tries to kick you"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} tried to kick you, but you are immune"
+		"zho"		"{1} 嘗試發起投票踢你，但你免疫"
+		"chi"		"{1} 尝试发起投票踢你，但你免疫"
+	}
+
+	"You cannot start vote"
+	{
+		"en"		"You cannot start vote until the current vote ends."
+		"zho"		"當前有投票項目正在進行."
+		"chi"		"当前有投票项目正在进行."
+	}
+
+	"Wait"
+	{
+		"#format"	"{1:i}"
+		"en"		"You must wait for {1} sec then start a new vote!"
+		"zho"		"你必須等待 {1} 秒才能發起新投票"
+		"chi"		"你必须等待 {1} 秒才能发起新投票"
+	}
+
+	"Not enough players"
+	{
+		"#format"	"{1:d}"
+		"en"		"Not enough {1} players in server."
+		"zho"		"人數不足 {1} 位, 無法發起投票."
+		"chi"		"人数不足 {1} 位, 无法发起投票."
+	}
+
+	"Restart map"
+	{
+		"en"		"Restart Map?"
+		"zho"		"重新地圖?"
+		"chi"		"重新地图?"
+	}
+
+	"Kick player"
+	{
+		"#format"	"{1:s}"
+		"en"		"Kick player: {1}?"
+		"zho"		"踢出玩家: {1}?"
+		"chi"		"踢出玩家: {1}?"
+	}
+
+	"Change map"
+	{
+		"#format"	"{1:s}"
+		"en"		"Change map to {1}?"
+		"zho"		"更換地圖: {1}?"
+		"chi"		"更换地图: {1}?"
+	}
+
+	"Start vote: restart map"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} starts a vote: Restart map"
+		"zho"		"{1} 發起投票: 重新地圖"
+		"chi"		"{1} 发起投票: 重新地图"
+	}
+
+	"Start vote: kick player"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} starts a vote: Kick Player {2}"
+		"zho"		"{1} 發起投票: 踢出玩家 {2}"
+		"chi"		"{1} 发起投票: 踢出玩家 {2}"
+	}
+
+	"Start vote: change map"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} starts a vote: Change map to {2}"
+		"zho"		"{1} 發起投票: 更換地圖 {2}"
+		"chi"		"{1} 发起投票: 更换地图 {2}"
+	}
+
+	"Start a custom vote"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} starts a custom vote: {2}"
+		"zho"		"{1} 發起投票: {2}"
+		"chi"		"{1} 发起投票: {2}"
+	}
+
+	"No Maps"
+	{
+		"en"		"No Maps"
+		"zho"		"沒圖"
+		"chi"		"没图"
+	}
+	
+	"Map is invalid"
+	{
+		"en"		"Map is invalid or not exist"
+		"zho"		"此地圖不存在"
+		"chi"		"此地图不存在"
+	}
+
+	"Vote Stats"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Agree: {1}\nDisagree: {2}"
+		"zho"		"同意: {1}\n不同意: {2}"
+		"chi"		"同意: {1}\n不同意: {2}"
+	}
+
+	"No votes"
+	{
+		"en"		"No votes"
+		"zho"		"無人投票"
+		"chi"		"无人投票"
+	}
+
+	"Vote fail."
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"en"	"Vote fail. At least {1}%% to agree.(agree: {2}%%, total: {3} votes)"
+		"zho"	"投票不通過. 至少要 {1}%% 同意(同意比: {2}%%, 全票: {3})"
+		"chi"	"投票不通过. 至少要 {1}%% 同意(同意比: {2}%%, 全票: {3})"
+	}
+
+	"Vote pass."
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"	"Vote pass. (agree: {1}%%, total: {2} votes)"
+		"zho"	"投票通過. (同意比: {1}%%, 全票: {2})"
+		"chi"	"投票通过. (同意比: {1}%%, 全票: {2})"
+	}
+
+	"Prepare to change map"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"	"{1} sec to change map: {2}"
+		"zho"	"{1} 秒後換圖: {2}"
+		"chi"	"{1} 秒后换图: {2}"
+	}
+
+	"Player has been kicked"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"	"{1} has been kicked, ban {2} mins"
+		"zho"	"{1} 已被踢出伺服器, {2} 分內不能進來"
+		"chi"	"{1} 已被踢出伺服器, {2} 分内不能进来"
+	}
+
+	"Restarting..."
+	{
+		"#format"	"{1:i}"
+		"en"		"Get Ready!\nMap restart in: {1}"
+		"zho"		"準備好!\n於 {1} 秒後重新關卡"
+		"chi"		"准备好!\n于 {1} 秒后重新关卡"
+	}
+
+	"Disable"
+	{
+		"en"		"Disable"
+		"zho"		"關閉"
+		"chi"		"关闭"
+	}
+
+	"No Custom Vote"
+	{
+		"en"		"No Custom Vote"
+		"zho"		"沒有其他投票可選"
+		"chi"		"没有其他投票可选"
+	}
+}

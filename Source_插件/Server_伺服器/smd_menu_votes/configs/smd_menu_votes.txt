@@ -1,0 +1,46 @@
+// add map list 
+// "mapcode" <-- map code
+// "mapname" <-- map name display on menu
+// --
+// 新增地圖列表
+// "mapcode" <-- 地圖代碼
+// "mapname" <-- 地圖名稱, 顯示在介面上
+
+"smd_menu_votes"
+{
+	"1"
+	{
+		"mapcode"		"dod_anzio"
+		"mapname"		"Dods anzio"
+	}
+	"2"
+	{
+		"mapcode"		"dod_argentan"
+		"mapname"		"Dods argentan"
+	}
+	"3"
+	{
+		"mapcode"		"dod_avalanche"
+		"mapname"		"Dods avalanche"
+	}
+	"4"
+	{
+		"mapcode"		"dod_donner"
+		"mapname"		"Dods donner"
+	}
+	"5"
+	{
+		"mapcode"		"dod_flash"
+		"mapname"		"Dods flash"
+	}	
+	"6"
+	{
+		"mapcode"		"dod_kalt"
+		"mapname"		"Dods kalt"
+	}	
+	"7"
+	{
+		"mapcode"		"c1m2_streets"
+		"mapname"		"c1m2_streets"
+	}
+}

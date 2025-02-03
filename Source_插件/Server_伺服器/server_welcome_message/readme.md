@@ -5,9 +5,6 @@ Display Welcome Message to new players (support translation)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
 * Image
 	<br/>![server_welcome_message_1](image/server_welcome_message_1.jpg)
 
@@ -41,11 +38,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Players with these flags are considered as vip. (Empty=Off)
 		server_welcome_message_vip_flag "qr"
 		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
 </details>
 	
 * <details><summary>Translation Support | 支援翻譯</summary>

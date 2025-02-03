@@ -173,6 +173,8 @@
     * 鎖住指令的值，不會被遊戲、地圖、玩家竄改
   * [sv_protect_cvar](/Source_插件/Server_伺服器/sv_protect_cvar): Protect and hide sensitive ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible
     * 保護一些敏感的指令數值，不讓外界與客戶端查看，服務器內的客戶端可能會看到假數值
+  * [smd_menu_votes](/Source_插件/Server_伺服器/smd_menu_votes): Simple menu votes: Change map, restart map, kick player, custom vote
+    * 簡單的投票系統: 換圖、重新地圖、踢人、執行指令
 </details>
 
 ###### **L4D1/2 Plugin List | L4D1和2插件列表**

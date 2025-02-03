@@ -10,6 +10,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 方便修改一些遊戲設定 (新的回合開始/遊戲開始/回合結束之時)
 	<br/>![exec_round_cfg_1](image/exec_round_cfg_1.jpg)
 
+* Apply to | 適用於
+	```
+	Any Source Game
+	```
+
 * <details><summary>How does it work?</summary>
 
 	* Exec ```cfg/exec_round_cfg/round_start.cfg``` when new round starts
@@ -54,16 +59,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		exec_round_cfg_end_delay "0.5"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	Any Source Game
-	```
 
 * <details><summary>Related | 相關插件</summary>
 
