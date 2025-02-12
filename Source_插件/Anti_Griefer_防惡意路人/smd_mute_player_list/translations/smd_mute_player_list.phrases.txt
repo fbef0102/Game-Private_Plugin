@@ -80,7 +80,7 @@
 	}
 	"Voice_unblocked (C)"
 	{
-		"#format"	"{1:N},{2:N}"
+		"#format"	"{1:N}"
 		"en"		"[{olive}TS{default}] You have unmuted {green}{1}{default}'s mic voice in personal list."
 		"zho"		"[{olive}TS{default}] 您已在個人名單上 移除封鎖 {green}{1}{default} 的語音."
 		"chi"		"[{olive}TS{default}] 您已在个人名单上 解除屏蔽 {green}{1}{default} 的语音."

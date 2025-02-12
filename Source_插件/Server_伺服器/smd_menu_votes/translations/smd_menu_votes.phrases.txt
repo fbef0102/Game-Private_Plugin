@@ -1,22 +1,28 @@
 // Please use notepad++ or vscode to open this file, so you will see the special ascii character for Colors tag
 // Colors tag (Colors are different and some not work in each source engine game, you need to test)
-//	= \x01 (SOH)
-//	= \x02 (STX)
-//	= \x03 (ETX)
-//	= \x04 (EOT)
-//	= \x05 (ENQ)
+//	= \x01 (SOH) 
+//	= \x02 (STX) 
+//	= \x03 (ETX) grey
+//	= \x04 (EOT) green
+//	= \x05 (ENQ) black
 //	= \x06 (ACK)
 //	= \x07 (BEL)
+//
+//	FFFFFFFF	= \x08 custom color with alpha (RGBA)
+//	FFFFFF	= \x07 custom color (RGB)
 // --
 // 使用notepad++ 或是 vscode 文件編輯器，你才會看到顏色標籤的特殊符號
 // 以下為顏色標籤 (每個Source引擎遊戲呈現的顏色都不同, 符號也不一定有用, 請自己測試)
-//	= \x01 (SOH)
+//	= \x01 (SOH) 
 //	= \x02 (STX)
-//	= \x03 (ETX)
-//	= \x04 (EOT)
-//	= \x05 (ENQ)
-//	= \x06 (ACK)
+//	= \x03 (ETX) 灰色
+//	= \x04 (EOT) 綠色
+//	= \x05 (ENQ) 黑色
+//	= \x06 (ACK) 
 //	= \x07 (BEL)
+
+//	FFFFFFFF	= \x08 自訂顏色 (RGBA)
+//	FFFFFF	= \x07 自訂顏色 (RGB)
 
 "Phrases"
 {

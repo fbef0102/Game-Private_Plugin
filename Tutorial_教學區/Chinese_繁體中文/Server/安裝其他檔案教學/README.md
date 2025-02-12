@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2024/12/9 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/2/12 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -90,12 +90,18 @@
 		* 玩家人數上限 = 伺服器允許的真人玩家 + AI Bot 總數量
 		* 🟥 不能設置超過31位，否則伺服器會崩潰
 
-	5. 啟動伺服器，控制台輸入```meta list```確認安裝成功
-		```php
-		] meta list
-		Listing 11 plugins:
-		[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
-		```
+	5. 啟動伺服器
+		* 控制台輸入```meta list```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
+			```php
+			] meta list
+			Listing 11 plugins:
+			[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
+			```
+		* (專屬伺服器) 控制台輸入```maxplayers```確認數字為31，如果不是31表示你前面步驟有誤或l4dtoolz版本不對
+			```php
+			] maxplayers
+			"maxplayers" is "31"
+			```
 
 	6. (專屬伺服器) 安裝插件[l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
 		* 功能: 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器

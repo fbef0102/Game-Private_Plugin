@@ -86,6 +86,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2024-2-12)
+		* Fixed Error
+
 	* v1.1 (2024-6-4)
 		* Upate Translation
 		* Only intected team can use menu

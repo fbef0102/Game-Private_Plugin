@@ -92,12 +92,18 @@
 		* Max. clients = Real players + AI Bots
 		* 🟥 Server would crash if set over 31 clients
 
-	5. Restart Server，type ```meta list``` in serve console
-		```php
-		] meta list
-		Listing 11 plugins:
-		[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
-		```
+	5. Restart Server
+		* Type ```meta list``` in server console. If it doesn't show, that means not install correctly
+			```php
+			] meta list
+			Listing 11 plugins:
+			[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
+			```
+		* (Dedicated server) type ```maxplayers``` in server console. If number is not 31, that means not install correctly or l4dtoolz version is old
+			```php
+			] maxplayers
+			"maxplayers" is "31"
+			```
 
 	6. (Dedicated server) Install plugin [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
 		* Removes lobby reservation when server is full, allow 9+ players to join server
