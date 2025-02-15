@@ -5,8 +5,11 @@ Press E+Right Mouse to open the menu to transfer to teammate while holding the i
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d_item_transfter_menu_1](image/l4d_item_transfter_menu_1.jpg)
@@ -52,31 +55,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// Transfer items to same player Cool Down (seconds)
 		l4d_item_transfter_menu_cd "60.0"
+
+		// Display Menu Time (seconds), 0=Forever
+		l4d_item_transfter_menu_time "20"
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
+* Translation Support | 支援翻譯
 	```
-	L4D1
-	L4D2
+	translations/l4d_item_transfter_menu.phrases.txt
 	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.1 (2025-2-15)
+		* Update cvars
+
 	* v1.0 (2024-12-3)
 		* Initial Release
 </details>
@@ -118,5 +112,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 傳送物資給同一位玩家的CD (秒)
 		l4d_item_transfter_menu_cd "60.0"
+
+		// 顯示菜單的時間 (秒), 0=永遠
+		l4d_item_transfter_menu_time "20"
 		```
 </details>

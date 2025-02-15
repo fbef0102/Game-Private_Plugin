@@ -1,5 +1,5 @@
 # Navigation
-> 2024/12/9 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/2/13 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
@@ -85,12 +85,16 @@
 			sv_visiblemaxplayers 8
 			```
 
-	4. (Dedicated server) By default, the game engine only allow 18 max players. To change max clients
-		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
-		* If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
+	4. By default, the game engine only allow 18 max players. To change max clients
+		* (Dedicated server) If using launch panel/software tool/linux system，please input launch parameter ```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
-		* Max. clients = Real players + AI Bots
-		* 🟥 Server would crash if set over 31 clients
+		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
+		* (Listen Server) Launch options ```-maxplayers 31```
+		<br/>![image](https://github.com/user-attachments/assets/0b605d35-9e09-44e1-91bd-8a18b73ef962)
+		* 🟥 Max. players and sv_maxplayers are different
+			* Max. players (-maxplayers) = Max Real players + AI Bots in server
+			* sv_maxplayers = How many real players can join server (Not including AI Bots)
+		* 🟥 Server would crash if set over 31 Max. players (-maxplayers)
 
 	5. Restart Server
 		* Type ```meta list``` in server console. If it doesn't show, that means not install correctly
@@ -99,7 +103,7 @@
 			Listing 11 plugins:
 			[04] L4DToolZ (2.0.1) by Accelerator, Ivailosp
 			```
-		* (Dedicated server) type ```maxplayers``` in server console. If number is not 31, that means not install correctly or l4dtoolz version is old
+		* Type ```maxplayers``` in server console. If number is not 31, that means not install correctly or l4dtoolz version is old
 			```php
 			] maxplayers
 			"maxplayers" is "31"
