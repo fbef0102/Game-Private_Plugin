@@ -130,20 +130,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
-	Spanish
-	Turkish
+	translations/fortnite_dances_emotes_l4d.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987): LMC Allows you to use most models with most characters
+	1. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
 		* 可以自由變成其他角色或NPC的模組
 	2. [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart): Download and play custom music in game
 		* 回合開始播放音樂，使用!music點歌系統，可播放自製的音樂
@@ -158,7 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Fixed stuck or falling if dance on the evelator or any other moving vehicle
 	
 	* v1.5h (2024-9-23)
-		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
+		* Compatible with with "Lux's Model Changer"
 
 	* v1.4h (2024-5-8)
 		* Update Translation
@@ -202,7 +196,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Combine L4D1 and L4D2 required files
 		* Add convar to disable dance dounce and stop downloading sound files
 
-	* v1.4.3
+	* Original & Credit
 		* [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
 </details>
 

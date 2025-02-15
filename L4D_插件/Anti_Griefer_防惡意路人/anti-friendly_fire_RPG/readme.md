@@ -94,14 +94,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2
 	```
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/anti-friendly_fire_RPG.phrases
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

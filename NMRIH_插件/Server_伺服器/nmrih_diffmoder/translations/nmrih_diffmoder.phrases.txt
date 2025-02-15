@@ -1,0 +1,601 @@
+// Please use notepad++ or vscode to open this file, so you will see the special ascii character for Colors tag
+// Colors tag (Colors are different and some not work in each source engine game, you need to test)
+//	= \x01 (SOH) 
+//	= \x02 (STX) 
+//	= \x03 (ETX) grey
+//	= \x04 (EOT) green
+//	= \x05 (ENQ) black
+//	= \x06 (ACK)
+//	= \x07 (BEL)
+//
+//	FFFFFFFF	= \x08 custom color with alpha (RGBA)
+//	FFFFFF	= \x07 custom color (RGB)
+// --
+// 使用notepad++ 或是 vscode 文件編輯器，你才會看到顏色標籤的特殊符號
+// 以下為顏色標籤 (每個Source引擎遊戲呈現的顏色都不同, 符號也不一定有用, 請自己測試)
+//	= \x01 (SOH) 
+//	= \x02 (STX)
+//	= \x03 (ETX) 灰色
+//	= \x04 (EOT) 綠色
+//	= \x05 (ENQ) 黑色
+//	= \x06 (ACK) 
+//	= \x07 (BEL)
+
+//	FFFFFFFF	= \x08 自訂顏色 (RGBA)
+//	FFFFFF	= \x07 自訂顏色 (RGB)
+
+"Phrases"
+{
+	"Yes"
+	{
+		"en"			"Yes"
+		"zho"			"是"
+		"chi"			"是"
+		"ru"			"да"
+	}
+	"No"
+	{
+		"en"			"No"
+		"zho"			"否"
+		"chi"			"否"
+		"ru"			"нет"
+	}
+	"On"
+	{
+		"en"			"On"
+		"zho"			"開"
+		"chi"			"开"
+		"ru"			"включено"
+	}
+	"Off"
+	{
+		"en"			"Off"
+		"zho"			"關"
+		"chi"			"关"
+		"ru"			"выключено"
+	}
+	"VoteInProgress"
+	{
+		"en"			"Vote in Progress"
+		"zho"			"投票正在進行中"
+		"chi"			"投票正在进行中"
+		"ru"			"Запущено голосование"
+	}
+	"NoVotesCast"
+	{
+		"en"			"No Votes Cast"
+		"zho"			"投票已經取消"
+		"chi"			"投票已经取消"
+		"ru"			"Голосование отменено"
+	}
+	"VoteFailed"
+	{
+		"en"			"Vote Failed"
+		"zho"			"投票未通過"
+		"chi"			"投票未通过"
+		"ru"			"Голосование провалилось"
+	}
+	"VoteFinish"
+	{
+		"en"			"Vote Finish"
+		"zho"			"投票通過"
+		"chi"			"投票通过"
+		"ru"			"Голосование окончено"
+	}
+	"VoteByAlive"
+	{
+		"en"			"Vote only when you live"
+		"zho"			"你存活時才能進行投票"
+		"chi"			"你存活时才能进行投票"
+		"ru"			"Только живые могут голосовать"
+	}
+	"VoteFinishToOn"
+	{
+		"en"			"Vote Finish switch to on"
+		"zho"			"投票通過開啟此參數"
+		"chi"			"投票通过开启此参数"
+		"ru"			"Большинство проголосовало за включение"
+	}
+	"VoteFinishToOff"
+	{
+		"en"			"Vote Finish switch to off"
+		"zho"			"投票通過關閉此參數"
+		"chi"			"投票通过关闭此参数"
+		"ru"			"Большинство проголосовало за выключение"
+	}
+	"VoteDelaySeconds"
+	{
+		"#format"		"{1:d}"
+		"en"			"You must wait {1} seconds before starting another vote."
+		"zho"			"您必須再等 {1} 秒後才能發起新一輪投票"
+		"chi"			"您必须再等 {1} 秒后才能发起新一轮投票"
+		"ru"			"Вы должны подождать {1} секунд, прежде чем начать новое голосование"
+	}
+	"ChatFlag"
+	{
+		"en"			"[DiffModer]"
+		"zho"			"[系统]"
+		"chi"			"[系统]"
+		"ru"			"[DiffModer]"
+	}
+	"ZombieFlag"
+	{
+		"en"			"[Zombie]"
+		"zho"			"[喪屍]"
+		"chi"			"[丧尸]"
+	}
+	"DifFlag"
+	{
+		"en"			"[Difficulty]"
+		"zho"			"[難度]"
+		"chi"			"[难度]"
+		"ru"			"[Сложность]"
+	}
+	"RealismFlag"
+	{
+		"en"			"[Realism]"
+		"zho"			"[寫實]"
+		"chi"			"[写实]"
+		"ru"			"[Реализм]"
+	}
+	"FriendlyFlag"
+	{
+		"en"			"[Friendly Fire]"
+		"zho"			"[隊友傷害]"
+		"chi"			"[友伤]"
+		"ru"			"[Дружественный огонь]"
+	}
+	"HardcoreFlag"
+	{
+		"en"			"[Hardcore]"
+		"zho"			"[專家生還]"
+		"chi"			"[专家生还]"
+		"ru"			"[Хардкор]"
+	}
+	"ModDisable"
+	{
+		"en"			"The DiffModer was disabled."
+		"zho"			"伺服器已禁止更改難度模式."
+		"chi"			"服务器已禁止更改难度模式."
+		"ru"			"DiffModer был отключён"
+	}
+	"TopMenuTitle"
+	{
+		"en"			"[DiffModer] Select:"
+		"zho"			"[模式難度] 選項:"
+		"chi"			"[模式难度] 选项:"
+		"ru"			"[DiffModer]"
+	}
+	"TopMenuItemZombie"
+	{
+		"en"			"Zombie Mode"
+		"zho"			"喪屍模式"
+		"chi"			"丧尸模式"
+	}
+	"TopMenuItemDifficult"
+	{
+		"en"			"Game Difficult"
+		"zho"			"遊戲難度"
+		"chi"			"游戏难度"
+		"ru"			"Сложность игры"
+	}
+	"TopMenuItemConfig"
+	{
+		"en"			"Game Configs"
+		"zho"			"遊戲參數"
+		"chi"			"游戏参数"
+		"ru"			"Настройки игры"
+	}
+	"ModMenuTitle"
+	{
+		"en"			"Mode Select"
+		"zho"			"選擇模式"
+		"chi"			"选择模式"
+		"ru"			"Выберите режим:"
+	}
+	"ConfMenuTitle"
+	{
+		"en"			"Configs Select"
+		"zho"			"選擇開啟關閉參數"
+		"chi"			"选择打开关闭参数"
+		"ru"			"Выберите настройки:"
+	}
+	"DifMenuTitle"
+	{
+		"en"			"Difficult Select"
+		"zho"			"選擇難度"
+		"chi"			"选择难度"
+		"ru"			"Выберите сложность:"
+	}
+	"ModMenuItemRunner"
+	{
+		"en"			"Runner Mode"
+		"zho"			"奔跑模式"
+		"chi"			"奔跑模式"
+	}
+	"ConfMenuItemRealism"
+	{
+		"en"			"Realism"
+		"zho"			"寫實模式開關"
+		"chi"			"写实开关开关"
+		"ru"			"Реализм"
+	}
+	"ConfMenuItemFriendly"
+	{
+		"en"			"Friendly Fire"
+		"zho"			"隊友傷害開關"
+		"chi"			"友伤开关开关"
+		"ru"			"Дружественный огонь"
+	}
+	"ConfMenuItemHardcore"
+	{
+		"en"			"Hardcore"
+		"zho"			"硬核生存開關"
+		"chi"			"专家生还开关"
+		"ru"			"Хардкор"
+	}
+	"ConfMenuItemInfinity"
+	{
+		"en"			"Infinity Ammo"
+		"zho"			"無限彈藥開關"
+		"chi"			"无限弹药开关"
+		"ru"			"бесконечное боеприпасов"
+	}
+	"ConfMenuItemDefault"
+	{
+		"en"			"default"
+		"zho"			"預設遊戲參數"
+		"chi"			"默认游戏参数"
+		"ru"			"по умолчанию"
+	}
+	"DifMenuItemClassic"
+	{
+		"en"			"Classic"
+		"zho"			"經典難度"
+		"chi"			"经典难度"
+		"ru"			"Классика"
+	}
+	"ModMenuItemKid"
+	{
+		"en"			"Kid Mode"
+		"zho"			"全小孩模式"
+		"chi"			"全小孩模式"
+	}
+	"DifMenuItemCasual"
+	{
+		"en"			"Casual"
+		"zho"			"休閒難度"
+		"chi"			"休闲难度"
+		"ru"			"Легко"
+	}
+	"DifMenuItemNightmare"
+	{
+		"en"			"Nightmare"
+		"zho"			"惡夢難度"
+		"chi"			"噩梦难度"
+		"ru"			"Кошмар"
+	}
+	"DifMenuItemDefault"
+	{
+		"en"			"default"
+		"zho"			"預設難度"
+		"chi"			"默认难度"
+		"ru"			"по умолчанию"
+	}
+	"ModMenuItemDefault"
+	{
+		"en"			"Default"
+		"zho"			"預設模式"
+		"chi"			"默认模式"
+		"ru"			"по умолчанию"
+	}
+	"ModMenuRunerVote"
+	{
+		"en"			"Vote for all runner mode"
+		"zho"			"投票更換喪屍奔跑模式"
+		"chi"			"投票更换丧尸奔跑模式"
+	}
+	"PrintMenuRunerVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for all runner mode"
+		"zho"			"{1} 想投票切換喪屍奔跑模式"
+		"chi"			"{1} 想投票切换丧尸奔跑模式"
+		"ru"			"{1} запустил голосование за режим 'Только бегуны'"
+	}
+	"ConfMenuRealismVote"
+	{
+		"en"			"Vote for switch the realism"
+		"zho"			"投票切換寫實模式"
+		"chi"			"投票切换写实模式"
+	}
+	"PrintMenuRealismVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for switch the realism"
+		"zho"			"{1} 想投票切換寫實模式"
+		"chi"			"{1} 想投票切换写实模式"
+		"ru"			"{1} запустил голосование за режим 'Реализм'"
+	}
+	"ConfMenuFriendlyVote"
+	{
+		"en"			"Vvote for switch the friendly fire"
+		"zho"			"投票切換隊友傷害"
+		"chi"			"投票切换队友伤害"
+	}
+	"PrintMenuFriendlyVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for switch the friendly fire"
+		"zho"			"{1} 想投票切換隊友傷害"
+		"chi"			"{1} 想投票切换队友伤害"
+		"ru"			"{1} запустил голосование за переключение режима дружественного огня"
+	}
+	"ConfMenuHardcoreVote"
+	{
+		"en"			"Vote for difficulty to hardcore"
+		"zho"			"投票切換硬核生存"
+		"chi"			"投票切换专家生还"
+	}
+	"PrintMenuHardcoreVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for difficulty to hardcore"
+		"zho"			"{1} 想投票切換硬核生存"
+		"chi"			"{1} 想投票切换专家生还"
+		"ru"			"{1} запустил голосование за сложность 'Хардкор'"
+	}
+	"ConfMenuDefaultVote"
+	{
+		"en"			"Vote for switch the default configs"
+		"zho"			"投票恢復預設遊戲參數"
+		"chi"			"投票恢复默认游戏参数"
+	}
+	"PrintMenuDefaultVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for switch the default configs"
+		"zho"			"{1} 想投票恢復預設遊戲參數"
+		"chi"			"{1} 想投票恢复默认游戏参数"
+		"ru"			"{1} запустил голосование за возвращение настроек по умолчанию"
+	}
+	"DifMenuClassicVote"
+	{
+		"en"			"Vote for difficulty to classic"
+		"zho"			"投票切換難度為經典難度"
+		"chi"			"投票切换难度为经典难度"
+	}
+	"PrintMenuClassicVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for difficulty to classic"
+		"zho"			"{1} 想投票切換難度為經典難度"
+		"chi"			"{1} 想投票切换难度为经典难度"
+		"ru"			"{1} запустил голосование за сложность 'Хардкор'"
+	}
+	"DifMenuCasualVote"
+	{
+		"en"			"Vote for difficulty to casual"
+		"zho"			"想投票切換難度為休閒難度"
+		"chi"			"想投票切换难度为休闲难度"
+	}
+	"PrintMenuCasualVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for difficulty to casual"
+		"zho"			"{1} 想投票切換難度為休閒難度"
+		"chi"			"{1} 想投票切换难度为休闲难度"
+		"ru"			"{1} запустил голосование за сложность 'Легко'"
+	}
+	"DifMenuNightmareVote"
+	{
+		"en"			"Vote for difficulty to nightmare"
+		"zho"			"投票切換難度為惡夢難度"
+		"chi"			"投票切换难度为噩梦难度"
+	}
+	"PrintMenuNightmareVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for difficulty to nightmare"
+		"zho"			"{1} 想投票切換難度為惡夢難度"
+		"chi"			"{1} 想投票切换难度为噩梦难度"
+		"ru"			"{1} запустил голосование за сложность 'Кошмар'"
+	}
+	"DifMenuDefVote"
+	{
+		"en"			"Vote for default difficulty"
+		"zho"			"投票切換回預設難度"
+		"chi"			"投票切换回默认难度"
+	}
+	"PrintMenuDefVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for default difficulty"
+		"zho"			"{1} 想投票切換回預設難度"
+		"chi"			"{1} 想投票切换回默认难度"
+		"ru"			"{1} запустил голосование за сложность по умолчанию"
+	}
+	"ModMenuKidVote"
+	{
+		"en"			"Vote for all kid mode"
+		"zho"			"投票切換喪屍全小孩模式"
+		"chi"			"投票切换丧尸全小孩模式"
+	}
+	"PrintMenuKidVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for all kid mode"
+		"zho"			"{1} 想投票切換喪屍全小孩模式"
+		"chi"			"{1} 想投票切换丧尸全小孩模式"
+		"ru"			"{1} запустил голосование за режим 'Только дети'"
+	}
+	"ModMenuDefVote"
+	{
+		"en"			"Vote for default mode"
+		"zho"			"投票切換回預設模式"
+		"chi"			"投票切换回默认模式"
+	}
+	"PrintMenuDefVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for default mode"
+		"zho"			"{1} 想投票切換回預設模式"
+		"chi"			"{1} 想投票切换回默认模式"
+		"ru"			"{1} запустил голосование за "
+	}
+	"DifMenuTitle"
+	{
+		"en"			"Difficulty Select"
+		"zho"			"選擇難度"
+		"chi"			"选择难度"
+		"ru"			"Выберите сложность"
+	}
+	"ConfMenuTitle"
+	{
+		"en"			"Configs Select"
+		"zho"			"選擇參數"
+		"chi"			"选择参数"
+		"ru"			"Выберите настройки"
+	}
+
+	"RestartRound"
+	{
+		"en"			"Restart Round"
+		"zho"			"重啟回合"
+		"chi"			"重启回合"
+	}
+
+	"RestartRound Vote Title"
+	{
+		"en"			"Restart Round ?"
+		"zho"			"投票重啟回合 ?"
+		"chi"			"投票重启回合 ?"
+	}
+
+	"RestartRound Print Vote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to Restart Round"
+		"zho"			"{1} 想投票重啟回合"
+		"chi"			"{1} 想投票重启回合"
+	}
+
+	"Delay to Restart Round"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Restart round in FFFF00{1} sec later"
+		"zho"			"FFFF00{1} 秒後重啟回合"
+		"chi"			"FFFF00{1} 秒后重启回合"
+	}
+
+	"ConfMenuStaminaVote"
+	{
+		"en"			"Vote for infinite stamina"
+		"zho"			"投票切換無限體力"
+		"chi"			"投票切换无限体力"
+	}
+	"PrintMenuStaminaVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for infinite stamina"
+		"zho"			"{1} 想投票切換無限體力"
+		"chi"			"{1} 想投票切换无限体力"
+	}
+	"ConfMenuItemStamina"
+	{
+		"en"			"Infinite Stamina"
+		"zho"			"無限體力開關"
+		"chi"			"无限体力开关"
+	}
+	"StaminaFlag"
+	{
+		"en"			"[Infinite Stamina]"
+		"zho"			"[無限體力]"
+		"chi"			"[无限体力]"
+	}
+
+	"ConfMenuAmmoVote"
+	{
+		"en"			"Vote for infinite ammo"
+		"zho"			"投票切換無限子彈"
+		"chi"			"投票切换无限子弹"
+	}
+	"PrintMenuAmmoVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for infinite ammo"
+		"zho"			"{1} 想投票切換無限子彈"
+		"chi"			"{1} 想投票切换无限子弹"
+	}
+	"ConfMenuItemAmmo"
+	{
+		"en"			"Infinite Ammo"
+		"zho"			"無限子彈開關"
+		"chi"			"无限子弹开关"
+	}
+	"AmmoFlag"
+	{
+		"en"			"[Infinite Ammo]"
+		"zho"			"[無限子彈]"
+		"chi"			"[无限子弹]"
+	}
+
+	"ConfMenuBleedingVote"
+	{
+		"en"			"Vote for bleeding out"
+		"zho"			"投票切換血流不止"
+		"chi"			"投票切换血流不止"
+	}
+	"PrintMenuBleedingVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for bleeding out"
+		"zho"			"{1} 想投票切換血流不止"
+		"chi"			"{1} 想投票切换血流不止"
+	}
+	"ConfMenuItemBleeding"
+	{
+		"en"			"Bleeding Out"
+		"zho"			"血流不止開關"
+		"chi"			"血流不止开关"
+	}
+	"BleedingFlag"
+	{
+		"en"			"[Bleeding Out]"
+		"zho"			"[血流不止]"
+		"chi"			"[血流不止]"
+	}
+
+	"ConfMenuInfectedVote"
+	{
+		"en"			"Vote for infected chance"
+		"zho"			"投票切換感染屍變"
+		"chi"			"投票切换感染尸变"
+	}
+	"PrintMenuInfectedVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for infected chance"
+		"zho"			"{1} 想投票切換感染屍變"
+		"chi"			"{1} 想投票切换感染尸变"
+	}
+	"ConfMenuItemInfected"
+	{
+		"en"			"Infected Chance"
+		"zho"			"感染屍變開關"
+		"chi"			"感染尸变开关"
+	}
+	"InfectedFlag"
+	{
+		"en"			"[Infected Chance]"
+		"zho"			"[感染屍變]"
+		"chi"			"[感染尸变]"
+	}
+
+	"TopMenuShowSettings"
+	{
+		"en"			"Show Current Settings"
+		"zho"			"顯示目前設置"
+		"chi"			"显示目前设置"
+	}
+}

@@ -11,6 +11,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_common_infected_nightmare_1](image/l4d2_common_infected_nightmare_1.jpeg)
 	<br/>![l4d2_common_infected_nightmare_2](image/l4d2_common_infected_nightmare_2.jpg)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
+* <details><summary>How does it work?</summary>
+
+	* Each common infected has chance to become with random health, speed, size, damage, armor.
+	* See ConVar below
+	* 🟥 Common infected hitbox won't change !!
+</details>
+
 * Require | 必要安裝
 <br>None
 
@@ -126,26 +138,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* Related Plugin | 相關插件
 	1. [l4d2_spawn_uncommons](/L4D_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
 		> 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Mortiegama @ 2014
-	//HarryPotter @ 2023
-	```
 	* v1.0h (2023-7-3)
 		* Remake Code
 		* Convert code to latest syntax
@@ -162,14 +162,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
 
 * 原理
-	* 共有四種類型的普通感染者可以改造，每一種類型可以利用指令分別設置
+	* 每隻普通感染者隨機生成四種類型
+	* 每一種類型可以利用指令分別設置
 		* 最大血量與最小血量
 		* 奔跑最大速度與最小速度
 		* 身體模型大小
 		* 攻擊倖存者的傷害加成
 		* 受到倖存者減傷的減傷比
-	* 即使殭屍身體模型變大，Hitbox範圍不會跟著變大
 	* 不影響特殊一般感染者
+	* 🟥 即使殭屍身體模型變大，Hitbox範圍不會跟著變大，子彈擊中的判定範圍不改變 !!
 
 * <details><summary>指令中文介紹(點我展開)</summary>
 
@@ -183,6 +184,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		/*改造類型 1*/
 		// 將感染者改造成類型 1的權重 [0.0, 10.0] (0=關閉類型 1)
+		// 權重值越大 生成的類型 1的機率越大
 		l4d2_common_infected_nightmare_type1_weight "8"
 
 		// 類型 1: 殭屍的模型大小
@@ -208,6 +210,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		/*改造類型 2*/
 		// 將感染者改造成類型 2的權重 [0.0, 10.0] (0=關閉類型 2)
+		// 權重值越大 生成的類型 2的機率越大
 		l4d2_common_infected_nightmare_type2_weight "8"
 
 		// 類型 2: 殭屍的模型大小
@@ -233,6 +236,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		/*改造類型 3*/
 		// 將感染者改造成類型 3的權重 [0.0, 10.0] (0=關閉類型 3)
+		// 權重值越大 生成的類型 3的機率越大
 		l4d2_common_infected_nightmare_type3_weight "8"
 
 		// 類型 3: 殭屍的模型大小
@@ -258,6 +262,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		/*改造類型 4*/
 		// 將感染者改造成類型 4的權重 [0.0, 10.0] (0=關閉類型 4)
+		// 權重值越大 生成的類型 4的機率越大
 		l4d2_common_infected_nightmare_type4_weight "8"
 		
 		// 類型 4: 殭屍的模型大小

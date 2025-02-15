@@ -69,7 +69,7 @@
     * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
     * [授權條款合法買賣](https://www.sourcemod.net/license.php)
-    * [控訴代碼?](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
+    * [控訴代碼](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
   </details>
 
 > My Private Plugins (Updating more...) 
@@ -177,7 +177,7 @@
     * 簡單的投票系統: 換圖、重新地圖、踢人、執行指令
 </details>
 
-###### **L4D1/2 Plugin List | L4D1和2插件列表**
+###### **L4D1/2 Plugin List | 惡靈勢力1和2插件列表**
 * <details><summary><b>Server | 伺服器</b></summary>
 
   * [l4d_slot_vote](/L4D_插件/Server_伺服器/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
@@ -522,6 +522,8 @@
     * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
   * [l4d2_incap_gun_replace](/L4D_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee/chainsaw/dual pistol with regular pistols or magnum when incapped.
     * 倒地時如果手持近戰/電鋸/瑪格南手槍/雙手槍，改換成其他手槍
+  * [l4d_weapon_clear_reload](/L4D_插件/Weapons_武器/l4d_weapon_clear_reload): Abandon magazine when reload weapon
+    * 武器裝彈時放棄彈夾內的所有子彈
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -726,6 +728,12 @@
     * 倖存者/普通殭屍/特感/Witch死亡時，屍體立馬消失
 </details>
 
+* <details><summary><b>Sound | 音效</b></summary>
+
+  * [l4d2_block_music_play](/L4D_插件/Sound_音效/l4d2_block_music_play): Block specific music or song from playing to clients
+    * 阻擋背景音樂或BGM播放給玩家聽，譬如: Tank BGM, 屍潮音樂, 被特感控的音樂, 倒地或掛邊時音樂
+</details>
+
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
   * [laser_block](/L4D_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
@@ -741,27 +749,34 @@
   * [l4d_ranking_system_V3](/L4D_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 </details>
 
-###### **CS Plugin List | CS插件列表**
+###### **CSS Plugin List | 絕對武力次世代 插件列表**
 * <details><summary><b>Hostage | 人質</b></summary>
 
-  * [css_hostage_invulnerable](/CS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
+  * [css_hostage_invulnerable](/CSS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
     * 人質不會受傷死亡
 </details>
 
 * <details><summary><b>Player | 玩家</b></summary>
 
-  * [css_team_noblock](/CS_插件/Player_玩家/css_team_noblock): Prevents collisions with teammates.
+  * [css_team_noblock](/CSS_插件/Player_玩家/css_team_noblock): Prevents collisions with teammates.
     * 隊友可以穿透不擋路
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>
 
-  * [css_weapon_csgo_reload](/CS_插件/Weapons_武器/css_weapon_csgo_reload): Modern weapon reload, like csgo quick reloading
+  * [css_weapon_csgo_reload](/CSS_插件/Weapons_武器/css_weapon_csgo_reload): Modern weapon reload, like csgo quick reloading
     * 將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
-  * [css_drop_on_death](/CS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
+  * [css_drop_on_death](/CSS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
     * 死亡時掉落所有武器、刀、手榴彈與防彈背心
-  * [css_weapon_limit](/CS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
+  * [css_weapon_limit](/CSS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
     * 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
+</details>
+
+###### **NMRIH Plugin List | 地獄已滿插件 列表**
+* <details><summary><b>Server | 伺服器</b></summary>
+
+  * [nmrih_diffmoder](/NMRIH_插件/Server_伺服器/nmrih_diffmoder): Allow player to call menu vote to change difficult, config, and zombie mode.
+    * 輸入 !difmenu 可以打開菜單投票切換參數, 模式, 難度
 </details>
 
 - - - -

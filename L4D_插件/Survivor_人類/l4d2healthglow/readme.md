@@ -155,7 +155,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [l4d_h_csm](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
 		* 允許玩家在遊戲中更換一二代角色
-	2. [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987): LMC Allows you to use most models with most characters
+	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
 		* 可以自由變成其他角色或NPC的模組
 </details>
 
@@ -165,7 +165,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Update cvars
 
 	* v1.3h (2024-9-30)
-		* Compatible with with [Lux's Model Changer](https://forums.alliedmods.net/showthread.php?t=286987)
+		* Compatible with with "Lux's Model Changer"
 		* You can see yourself glow when thirdperson view
 
 	* v1.2h (2024-3-19)
