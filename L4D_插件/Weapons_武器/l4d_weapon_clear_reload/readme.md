@@ -1,20 +1,20 @@
 # Description | 內容
-Block specific music or song from playing to clients
+Abandon magazine when reload weapon
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
-
-* Image | 圖示
-	| Before (裝此插件之前)  			| After (裝此插件之後) |
-	| -------------|:-----------------:|
-	| ![l4d_weapon_clear_reload_before_1](image/l4d_weapon_clear_reload_before_1.gif)|![l4d_weapon_clear_reload_after_1](image/l4d_weapon_clear_reload_after_1.gif)|
 
 * Apply to | 適用於
 	```
 	L4D1
 	L4D2
 	```
+
+* Image | 圖示
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d_weapon_clear_reload_before_1](image/l4d_weapon_clear_reload_before_1.gif)|![l4d_weapon_clear_reload_after_1](image/l4d_weapon_clear_reload_after_1.gif)|
 
 * <details><summary>How does it work?</summary>
 
@@ -34,6 +34,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=off plugin, 1=on plugin
 		l4d_weapon_clear_reload_allow "1"
 		```
+</details>
+
+* <details><summary>Known Conflicts</summary>
+	
+	If you don't use any of these plugins at all, no need to worry about conflicts.
+	1. [l4d2_weapon_csgo_reload](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_weapon_csgo_reload)
+		* Quickswitch Reloading like CS:GO in L4D2
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -58,4 +65,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d_weapon_clear_reload_allow "1"
 		```
+</details>
+
+* <details><summary>會衝突的插件</summary>
+	
+    如果沒安裝以下插件就不需要擔心衝突
+	1. [l4d2_weapon_csgo_reload](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_weapon_csgo_reload)
+		* 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
 </details>
