@@ -5,12 +5,12 @@ A pool of Spit starts to damage survivors immediately instead of zero damage whi
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/pLS2BFyePIc)
-
 * Apply to | 適用於
 	```
 	L4D2
 	```
+
+* [Video | 影片展示](https://youtu.be/pLS2BFyePIc)
 
 * Require | 必要安裝
 <br>None

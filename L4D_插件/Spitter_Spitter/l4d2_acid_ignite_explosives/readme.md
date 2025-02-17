@@ -5,13 +5,13 @@ Make Spitter acid to be able to ignite explosives
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-    <br/>![l4d2_acid_ignite_explosives_1](image/l4d2_acid_ignite_explosives_1.gif)
-
 * Apply to | 適用於
 	```
 	L4D2
 	```
+
+* Image | 圖示
+    <br/>![l4d2_acid_ignite_explosives_1](image/l4d2_acid_ignite_explosives_1.gif)
 
 * <details><summary>How does it work?</summary>
 

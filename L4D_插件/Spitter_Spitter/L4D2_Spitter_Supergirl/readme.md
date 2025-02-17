@@ -5,17 +5,17 @@ Adds a lot of abilities and powers to the Spitter to become Supergirl.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/wOXLIEBrIS0)
 
 * Image | 圖示
 	<br/>![L4D2_Spitter_Supergirl_1](image/L4D2_Spitter_Supergirl_1.gif)
 	<br/>![L4D2_Spitter_Supergirl_2](image/L4D2_Spitter_Supergirl_2.gif)
 	<br/>![L4D2_Spitter_Supergirl_3](image/L4D2_Spitter_Supergirl_3.gif)
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Details</summary>
 

@@ -49,4 +49,16 @@
 		"zho"		"尾巴特效"
 		"chi"		"尾巴特效"
 	}
+	"Tail On"
+	{
+		"en"		"Turn On Tail"
+		"zho"		"開啟尾巴特效"
+		"chi"		"开启尾巴特效"
+	}
+	"Tail Off"
+	{
+		"en"		"Turn off Tail"
+		"zho"		"關閉尾巴特效"
+		"chi"		"关闭尾巴特效"
+	}
 }

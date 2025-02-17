@@ -5,6 +5,11 @@ Spawn Uncommon Infected on all maps (Support The Last Stand New Model)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
 
 * Image | 圖示
@@ -83,21 +88,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	| ConVar/Command  				| Parameters or default value 	| Descriptor  			| Effect|
 	| -------------|:-----------------:|:-------------:|:-------------:|
-	| z_fallen_kill_suppress_time 	| 300 | Seconds 		 | When a Fallen Survivor is killed, how long in seconds should pass before another can spawn.
-	| z_fallen_max_count          	| 1   | Arbitrary number | How many Fallen Survivors can be active at once.
+	| z_fallen_kill_suppress_time 	| 300 | Seconds 		 | When a Fallen Survivor is killed, how long in seconds should pass before another can spawn. |
+	| z_fallen_max_count          	| 1   | Arbitrary number | How many Fallen Survivors can be active at once. |
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//AtomicStryker @ 2009-2011
-	//HarryPotter @ 2023
-	```
 	* v1.0h (2023-1-26)
 		* Remake Code
 		* Convert code to latest syntax
@@ -187,6 +183,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	| 指令  				| 預設值 	| 單位  			| 影響|
 	| -------------|:-----------------:|:-------------:|:-------------:|
-	| z_fallen_kill_suppress_time 	| 300  | 秒數 | 當場上的墮落生還者殺死之後，有300秒冷卻時間不會出現墮落生還者
-	| z_fallen_max_count          	| 1    | 數量 | 場上只能有一隻墮落生還者
+	| z_fallen_kill_suppress_time 	| 300  | 秒數 | 當場上的墮落生還者殺死之後，有300秒冷卻時間不會出現墮落生還者|
+	| z_fallen_max_count          	| 1    | 數量 | 場上只能有一隻墮落生還者|
 </details>

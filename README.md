@@ -821,7 +821,7 @@
 * <details><summary><b>擅長的領域</b></summary>
 
   * ✔windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲
-  * ✔六年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
+  * ✔七年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
   * ✔翻修舊插件，重寫為Sourcemod 1.12以上能適用的新版本
   * ✔重製十年以上的老插件，檢查程式漏洞，有效解決崩潰、卡頓、記憶體不足等問題
   * ✔翻譯英文，撰寫各國語言的翻譯文件
@@ -833,6 +833,7 @@
 
 * <details><summary><b>不受理的範圍</b></summary>
 
+  * ✗🟥只接受我有興趣或覺得有價值的需求，準備退休
   * ✗不清晰、不合理的插件需求
   * ✗不是每個需求都能100%做到的，插件不是萬能
   * ✗非Steam平台、盜版、舊版本的Sourcemod、反編譯插件
@@ -874,15 +875,16 @@
 * <details><summary><b>Master Skills</b></summary>
 
   * ✔ Dealed with windoes, linux, local server, dedicated server
-  * ✔ Possess 6-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
+  * ✔ Possess 7-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
   * ✔ Remake code, support sourcemod v1.12, convert code to latest syntax.
+  * ✔ Stripper cfg, modify nav, map objects, or events
 </details>
 
 * <details><summary><b>Ask for help Rule</b></summary>
 
+  * 🟥 Only accept request I am interested or valuable, prepare to retired
   * ✗ Won't do any VIP, RPG, or any admin group plugin
   * ✗ I know nothing much about .vpk mod, don't ask
-  * ✗ Decline any unreasonable plugin request, the source plugins can not do 100% everything
   * ✗ Non-steam、old game version、old sourcemod version、decompiled plugin
   * ✗ Only plugin with no source code, please attach original link
   * ✗ I won't provide AllInOne-lazy-package, please do it yourself

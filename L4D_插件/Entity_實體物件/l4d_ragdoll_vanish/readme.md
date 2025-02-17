@@ -44,6 +44,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// (Fade slowly and vanish) Can't use defibrillator ro revive dead player in l4d2
 		l4d_ragdoll_vanish_survivor_death_model "0"
 
+		// 1=All ragdolls fade (witch, common, special infected, tank) (Can't adjust by each cvar)
+		// 0=All ragdolls instantly vanish (adjust by each cvar)
+		l4d_ragdoll_vanish_fade_instead "0"
+
 		// If 1, remove common infected dead body.
 		// (Instantly vanish)
 		l4d_ragdoll_vanish_common_infected "1"
@@ -63,6 +67,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2025-2-17)
+		* Update cvars
 
 	* v1.0h (2024-12-15)
 		* Add cvars
@@ -94,6 +101,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，倖存者死亡時，屍體會消失
 		// (緩慢消失) 其他玩家不能用電擊器復活
 		l4d_ragdoll_vanish_survivor_death_model "0"
+
+		// 1=所有屍體緩慢消失 (Witch, 普通感染者, 特感, Tank) (不能分別調整指令開關)
+		// 0=所有屍體瞬間消失 (可以分別調整指令)
+		l4d_ragdoll_vanish_fade_instead "0"
 
 		// 為1時，普通感染者死亡時，屍體會消失
 		// (瞬間消失)
