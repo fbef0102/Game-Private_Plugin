@@ -134,22 +134,22 @@
 	"RealismFlag"
 	{
 		"en"			"[Realism]"
-		"zho"			"[寫實]"
-		"chi"			"[写实]"
+		"zho"			"[寫實模式]"
+		"chi"			"[写实模式]"
 		"ru"			"[Реализм]"
 	}
 	"FriendlyFlag"
 	{
 		"en"			"[Friendly Fire]"
 		"zho"			"[隊友傷害]"
-		"chi"			"[友伤]"
+		"chi"			"[友军伤害]"
 		"ru"			"[Дружественный огонь]"
 	}
 	"HardcoreFlag"
 	{
 		"en"			"[Hardcore]"
-		"zho"			"[專家生還]"
-		"chi"			"[专家生还]"
+		"zho"			"[硬核生存]"
+		"chi"			"[硬核生存]"
 		"ru"			"[Хардкор]"
 	}
 	"ModDisable"
@@ -231,7 +231,7 @@
 	{
 		"en"			"Hardcore"
 		"zho"			"硬核生存開關"
-		"chi"			"专家生还开关"
+		"chi"			"硬核生存开关"
 		"ru"			"Хардкор"
 	}
 	"ConfMenuItemInfinity"
@@ -335,14 +335,14 @@
 	{
 		"en"			"Vote for difficulty to hardcore"
 		"zho"			"投票切換硬核生存"
-		"chi"			"投票切换专家生还"
+		"chi"			"投票切换硬核生存"
 	}
 	"PrintMenuHardcoreVote"
 	{
 		"#format"		"{1:N}"
 		"en"			"{1} wants to vote for difficulty to hardcore"
 		"zho"			"{1} 想投票切換硬核生存"
-		"chi"			"{1} 想投票切换专家生还"
+		"chi"			"{1} 想投票切换硬核生存"
 		"ru"			"{1} запустил голосование за сложность 'Хардкор'"
 	}
 	"ConfMenuDefaultVote"
@@ -597,5 +597,83 @@
 		"en"			"Show Current Settings"
 		"zho"			"顯示目前設置"
 		"chi"			"显示目前设置"
+	}
+
+	"ConfMenuZombieRespawnVote"
+	{
+		"en"			"Vote for Zombie Respawn"
+		"zho"			"投票切換殭屍重生"
+		"chi"			"投票切换丧尸复活"
+	}
+	"PrintMenuZombieRespawnVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for Zombie Respawn"
+		"zho"			"{1} 想投票切換殭屍重生"
+		"chi"			"{1} 想投票切换丧尸复活"
+	}
+	"ConfMenuItemZombieRespawn"
+	{
+		"en"			"Zombie Respawn"
+		"zho"			"殭屍重生開關"
+		"chi"			"丧尸复活开关"
+	}
+	"ZombieRespawnFlag"
+	{
+		"en"			"[Zombie Respawn]"
+		"zho"			"[殭屍重生]"
+		"chi"			"[丧尸复活]"
+	}
+
+	"ConfMenuAmmoWeightVote"
+	{
+		"en"			"Vote for Weighted Ammo"
+		"zho"			"投票切換彈藥重量"
+		"chi"			"投票切换重量化弹药"
+	}
+	"PrintMenuAmmoWeightVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for Weighted Ammo"
+		"zho"			"{1} 想投票切換彈藥重量"
+		"chi"			"{1} 想投票切换重量化弹药"
+	}
+	"ConfMenuItemAmmoWeight"
+	{
+		"en"			"Weighted Ammo"
+		"zho"			"彈藥重量開關"
+		"chi"			"重量化弹药开关"
+	}
+	"AmmoWeightFlag"
+	{
+		"en"			"[Weighted Ammo]"
+		"zho"			"[彈藥重量]"
+		"chi"			"[重量化弹药]"
+	}
+
+	"ConfMenuDeathnoticesVote"
+	{
+		"en"			"Vote for Deathnotices"
+		"zho"			"投票切換死亡提示"
+		"chi"			"投票切换死亡提示"
+	}
+	"PrintMenuDeathnoticesVote"
+	{
+		"#format"		"{1:N}"
+		"en"			"{1} wants to vote for Deathnotices"
+		"zho"			"{1} 想投票切換死亡提示"
+		"chi"			"{1} 想投票切换死亡提示"
+	}
+	"ConfMenuItemDeathnotices"
+	{
+		"en"			"Deathnotices"
+		"zho"			"死亡提示開關"
+		"chi"			"死亡提示开关"
+	}
+	"DeathnoticesFlag"
+	{
+		"en"			"[Deathnotices]"
+		"zho"			"[死亡提示]"
+		"chi"			"[死亡提示]"
 	}
 }
