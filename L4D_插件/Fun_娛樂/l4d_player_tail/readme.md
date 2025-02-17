@@ -5,6 +5,12 @@ l4d player tail effect (prop_dynamic_override)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/VC7-96qwwuo)
 
 * <details><summary>Image | 圖示</summary>
@@ -13,8 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_player_tail_2](image/l4d_player_tail_2.jpg)
 	<br/>![l4d_player_tail_3](image/l4d_player_tail_3.jpg)
 	<br/>![l4d_player_tail_4](image/l4d_player_tail_4.jpg)
-	<br/>![l4d_player_tail_5](image/l4d_player_tail_5.jpg)
-	<br/>![l4d_player_tail_6](image/l4d_player_tail_6.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>
@@ -125,20 +129,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			```
 </details>
 
-* Apply to | 適用於
+* Translation Support | 支援翻譯
 	```
-	L4D1
-	L4D2
+	translations/l4d_player_tail.phrases.txt
 	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 
@@ -147,6 +141,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.1 (2025-2-17)
+		* Update menu
 
 	* v2.0 (2024-12-14)
 		* Update cvars
@@ -184,10 +181,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 # 中文說明
 玩家走路，會有尾巴特效 (使用物件: prop_dynamic_override)
 
+* 圖示
+<br/>![zho/l4d_player_tail_1](image/zho/l4d_player_tail_1.jpg)
+
 * 原理
 	* 線條色塊，逐漸變色
 	* 輸入```!tail```開關尾巴特效或者```!tailmenu```打開介面選擇顏色與貼圖
-	<br/>![zho/l4d_player_tail_1](image/zho/l4d_player_tail_1.jpg)
 	* 會自動儲存於資料庫，下次玩家進來伺服器，顏色與貼圖保持不變
 	* 尾巴過一段時間會隨機變色
 	* 可以設定文件[configs/l4d_player_tail.cfg](addons/sourcemod/configs/l4d_player_tail.cfg)，自定義尾巴的顏色與圖案
@@ -253,8 +252,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_tail
 		sm_tails
-		sm_harrypotter
-		sm_hy
 		```
 		
 	* **打開尾巴選單介面**
