@@ -115,30 +115,22 @@
       <br/>![image](https://user-images.githubusercontent.com/12229810/202990809-157f0743-bc4c-41a3-bbb2-a481ef3b7f96.png)
 
    5. **Linux要安裝環境庫才能繼續下一個步驟，視環境系統輸入對應的指令**，[參考來源](https://linuxgsm.com/servers/l4d2server/)
-      * Ubuntu =< 20.04
-         ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
-         sudo apt install lib32z1
-         ```
+      * Ubuntu =< 20.04 : **不再支援**
       * Ubuntu => 20.10
          ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
-         sudo apt install lib32z1
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 lib32z1 gcc-multilib steamcmd
          ```
       * Debian =< 10
          ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 zlib1g:i386
-         sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
          ```
       * Debian => 11
          ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 zlib1g:i386
-         sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
+         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
          ```
       * CentOS
          ```
-         yum install epel-release
-         yum install curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686 zlib.i686
+         yum install epel-release curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686 zlib.i686
          ```
 
 - - - -
@@ -154,7 +146,7 @@
    - 紅色圖案代表此版本尚未支援該系統平台
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
  
-3. 將所有檔案解壓縮到伺服器路徑上，最後會看起來如圖片所示
+3. 將所有檔案解壓縮到伺服器路徑上，最後會看起來如圖片所示 (注意路徑)
    <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/a11b6bcf-9091-454b-9012-dd788d6c9d08)
    <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/7c905fc5-1e83-410d-96d1-89b12fb063df)
 
@@ -169,7 +161,7 @@
       start srcds.exe -console -game xxxxxx -port 27016 +log on +exec server.cfg +sv_lan 0 -maxplayers 31 +map c1m1_hotel
       ```
       <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/39e702e9-9a51-49ee-ad19-4cc3b915a3b1)
-      <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/649c7ce9-3b0c-484a-b754-d047bec7c524)
+      <br/>![image](https://github.com/user-attachments/assets/a3def547-26ef-4a3f-83e0-1b9d2e7a6944)
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2

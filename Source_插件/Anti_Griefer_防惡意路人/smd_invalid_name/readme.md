@@ -5,17 +5,14 @@ Kick player or change name if has invalid or dirty name
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
-* Image
-    <br/>![smd_invalid_name_1](image/smd_invalid_name_1.jpg)
-    <br/>![smd_invalid_name_2](image/smd_invalid_name_2.jpg)
-
 * Apply to | 適用於
     ```
     Any Source Game
     ```
+
+* Image
+    <br/>![smd_invalid_name_1](image/smd_invalid_name_1.jpg)
+    <br/>![smd_invalid_name_2](image/smd_invalid_name_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -38,11 +35,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-    None
-</details>
-
 * <details><summary>Data Config</summary>
 
     * [configs/smd_invalid_name.cfg](configs/smd_invalid_name.cfg)
@@ -57,7 +49,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.1 (2025-1-8)
+    * v1.1 (2025-2-26)
         * Fixed error
 
     * v1.0 (2024-1-31)

@@ -69,7 +69,7 @@
     * 使用你的眼睛與頭查看每個插件的版本日誌，如果有修改別的會註明原網址與作者，歡迎各位使用原始插件，再自行比較
     * 沒有人逼你跟我買
     * [授權條款合法買賣](https://www.sourcemod.net/license.php)
-    * [控訴代碼](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
+    * [了解GPL條款](https://forums.alliedmods.net/showthread.php?t=348125)
   </details>
 
 > My Private Plugins (Updating more...) 
@@ -125,7 +125,7 @@
     * Use your eye and head to check the "ChangeLog", I will credit the original link and author as I can. You are welcome to use orignal plugin before deal.
     * Nobody forces you to buy plugins and make deal with me
     * [License](https://www.sourcemod.net/license.php)
-    * [False accusation](https://forums.alliedmods.net/showpost.php?p=2824865&postcount=20)
+    * [False accusation](https://forums.alliedmods.net/showthread.php?t=348125)
   </details>
 
 ###### **Source Plugin List | Source遊戲插件列表**
@@ -145,6 +145,8 @@
 
   * [smd_air_jump_force](/Source_插件/Player_玩家/smd_air_jump_force): Allows jump force on air.
     * 玩家可以在空中跳得更高更遠
+  * [smd_nicknames_lock](/Source_插件/Player_玩家/smd_nicknames_lock): Save player's nickname in database and limit name change
+    * 儲存玩家的遊戲名稱於資料庫並且限制玩家改名
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

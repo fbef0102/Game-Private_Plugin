@@ -298,7 +298,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		
 	4. 啟動伺服器並測試
 		* 打開你的遊戲，選項->多人連線->自訂伺服器內容->全部允許
-		<br/>![zho/fortnite_dances_emotes_l4d_t0](image/zho/fortnite_dances_emotes_l4d_t0.jpg)
+		<br/>![zho/fortnite_dances_emotes_0](image/zho/fortnite_dances_emotes_0.jpg)
 		* 連線到伺服器
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
 

@@ -5,18 +5,18 @@ Start saferoom door locks until all connecting players are loaded or certain tim
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/b3A14C7Qie8)
 
 * Image
     <br/>![antisaferoomdooropen_1](image/antisaferoomdooropen_1.jpg)
     <br/>![antisaferoomdooropen_2](image/antisaferoomdooropen_2.jpg)
     <br/>![antisaferoomdooropen_3](image/antisaferoomdooropen_3.gif)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>How does it work?</summary>
 
@@ -29,6 +29,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d_start_safe_area](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_start_safe_area): Add Custom safe area for any map on start
+		* 遊戲開局時，強制將出生點周圍區域判定為安全區，以確保玩家安全
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -85,19 +91,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+    translations/antisaferoomdooropen.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

@@ -5,6 +5,12 @@ Ready-up plugin
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/AOVQpSg1Kqg)
 
 * Image | 圖示
@@ -26,6 +32,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d_start_safe_area](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_start_safe_area): Add Custom safe area for any map on start
+		* 遊戲開局時，強制將出生點周圍區域判定為安全區，以確保玩家安全
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -149,21 +161,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		library name: readyup
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 	
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+    translations/readyup.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

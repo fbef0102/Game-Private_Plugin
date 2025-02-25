@@ -5,14 +5,14 @@ Allows jump force on air.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	<br/>![smd_air_jump_force_1](image/smd_air_jump_force_1.gif)
-	<br/>![smd_air_jump_force_2](image/smd_air_jump_force_2.gif)
-
 * Apply to | 適用於
 	```
 	Any source game
 	```
+
+* Image | 圖示
+	<br/>![smd_air_jump_force_1](image/smd_air_jump_force_1.gif)
+	<br/>![smd_air_jump_force_2](image/smd_air_jump_force_2.gif)
 
 * <details><summary>How does it work?</summary>
 

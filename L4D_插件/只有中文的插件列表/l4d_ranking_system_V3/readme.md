@@ -5,6 +5,12 @@
 <br/>此為私人插件，請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 <br/>此插件只有中文沒有英文
 
+* 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>圖示</summary>
 
 	* 打開 Rank System 選單
@@ -17,12 +23,6 @@
 	<br/>![l4d_ranking_system_V3_4](image/l4d_ranking_system_V3_4.jpg)
 </details>
 
-* 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * 原理
 	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的頭銜名稱
 	* 友傷黑槍隊友、滅團、倒地、死亡，扣除經驗值
@@ -33,14 +33,17 @@
 * 功能
 	* 可設置殺死不同的特感獲得不同的經驗值，查看指令設置
 	* 可自訂階級名稱，位於[configs/l4d_ranking_system_V3.cfg](configs/l4d_ranking_system_V3.cfg)
+		* 內有中文說明，可點擊查看
 
 * 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [simple_chatprocessor](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/simple_chatprocessor)
 	4. [smlib](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/smlib-Colors)
-	5. 可選 - [readyup](/L4D_插件/Server_伺服器/readyup)
-	6. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_skill_detect)
+
+* 支援插件
+	1. 可選 - [readyup](/L4D_插件/Server_伺服器/readyup)
+	2. 可選 - [l4d2_skill_detect](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_skill_detect)
 
 * <details><summary>指令</summary>
 
@@ -144,16 +147,10 @@
 		```
 </details>
 
-* <details><summary>文件設定</summary>
-
-	* [configs/l4d_ranking_system_V3.cfg](configs/l4d_ranking_system_V3.cfg)設置
-		> 內有中文說明，可點擊查看
-</details>
-
 * <details><summary>如何設定資料庫</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
 			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
 			"rank"
@@ -167,9 +164,9 @@
 			}
 			```
 			
-		2. SQLite: 本地資料庫，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		2. SQLite: 本地資料庫，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
-			// 資料庫位於 ```sourcemod/data/sqlite/rank_system.sq3``` (自動創建)
+			// 自動創建檔案: sourcemod/data/sqlite/rank_system.sq3
 			"rank"
 			{
 				"driver"			"sqlite"

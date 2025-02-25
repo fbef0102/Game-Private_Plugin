@@ -89,7 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| sv_realism          	        | 0 | Enables/disables realism mode. Headshots will be instant kills and all other areas of the body will take no damage.|
 	| mp_friendlyfire          	    | 0 | Allows team members to injure other members of their team|
 	| sv_hardcore_survival          | 0 | Enables or disables survival hardcore mode|
-	| sv_difficulty          	    | classic | Difficulty mode|
+	| sv_difficulty          	    | classic | Difficulty mode, "classic", "casual", "Nightmare"|
 	| sv_infection_chance          	| 1.0 | Chance for zombie to infect players per hit. (1.0 = 100%)|
 	| sv_bleedout_chance_high       | 0.05 | Chance for bleedout at not low health (0.05 = 5%)|
 	| sv_bleedout_chance_low        | 0.15 | Chance for bleedout at low health (0.15 = 15%)|
@@ -168,17 +168,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 0=關閉插件, 1=啟動插件
         nmrih_diffmoder_enable "1"
 
-        // Players with these flags have access in this plugin. (Empty = All players have access, -1: Noboday has access)
+        // 擁有這些權限的玩家，享有特權 (留白 = 任何人都有特權, -1: 無人有特權)
         nmrih_diffmoder_admin_access "-1"
 
-        // Ammo mode for all non-access players (With infinite ammo vote enable)
-        // 1 - Infinite ammo, 2 - Infinite clip
+        // 沒有特權的玩家 (必須要投票開啟無限子彈)
+        // 1 - 無限彈藥 (要裝彈）, 2 - 無限彈夾 (不用裝彈)
         nmrih_diffmoder_infinite_ammo_all "1"
 
-        // Ammo mode for all access players (Without infinite ammo vote enable)
-        // 0 - Normal mode
-        // 1 - Infinite ammo
-        // 2 - Infinite clip
+        // 有特權的玩家 (不用投票開啟無限子彈)
+        // 0 - 正常
+        // 1 - 無限彈藥 (要裝彈)
+        // 2 - 無限彈夾 (不用裝彈)
         nmrih_diffmoder_infinite_ammo_admin "1"
         ```
 </details>

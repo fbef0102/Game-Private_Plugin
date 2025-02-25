@@ -5,6 +5,12 @@ Adding a statistic of hunter 25 damage pounces, and save to database
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>Image | 圖示</summary>
 
 	* Record Top 5
@@ -13,12 +19,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Support MySql & Sqlite (支援資料庫，跨伺服器儲存)
 	<br/>![l4d_pounce_database_remake_3](image/l4d_pounce_database_remake_3.jpg)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -76,7 +76,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_pounce_database_remake_sql "pounce"``` and set *sourcemod/configs/databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_pounce_database_remake_sql "pounce"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
 			// There would a data table named "pounce_database_V2" in database
 			"pounce"
@@ -161,7 +161,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>如何設定資料庫</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_pounce_database_remake_sql "pounce"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_pounce_database_remake_sql "pounce"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
 			// 資料庫中自動創建表格，名稱是 "pounce_database_V2"
 			"pounce"
@@ -177,6 +177,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			
 		2. Data: 本地資料庫，設定指令 ```l4d_pounce_database_remake_sql ""```
 			```php
-			// 所有數據位於 ```sourcemod/data/l4d_pounce_database_remake.txt``` (自動創建)
+			// 自動創建檔案: sourcemod/data/l4d_pounce_database_remake.txt
 			```
 </details>

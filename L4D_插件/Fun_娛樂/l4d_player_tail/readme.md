@@ -104,7 +104,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_player_tail_database "tail"``` and add the following in *sourcemod/configs/databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
 			// There would a data table named "L4D_Player_Tail" in database
 			"tail"
@@ -118,9 +118,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and add the following in *sourcemod/configs/databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
-			// Database in saved to ```sourcemod/data/sqlite/player_tail.sq3```
+			// There would be a file created: sourcemod/data/sqlite/player_tail.sq3
 			"tail"
 			{
 				"driver"			"sqlite"
@@ -263,7 +263,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值玩家的尾巴特效與顏色，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值玩家的尾巴特效與顏色，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
 			// 資料庫中自動創建表格，名稱是 "L4D_Player_Tail"
 			"tail"
@@ -277,9 +277,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: 本地資料庫，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		2. SQLite: 本地資料庫，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
-			// 資料庫位於 ```sourcemod/data/sqlite/player_tail.sq3``` (自動創建)
+			// 自動創建檔案: sourcemod/data/sqlite/player_tail.sq3
 			"tail"
 			{
 				"driver"			"sqlite"
