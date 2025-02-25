@@ -64,7 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_with_crowns_database_remake_sql "crowns"``` and set *sourcemod/configs/databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_with_crowns_database_remake_sql "crowns"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
 			// There would a data table named "crown_database_v2" in database
 			"crowns"
@@ -140,7 +140,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>如何設定資料庫</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_with_crowns_database_remake_sql "crowns"```，然後設定文件 *sourcemod/configs/databases.cfg*
+		1. MySQL: 支援跨伺服器，儲值經驗值，設定指令 ```l4d_with_crowns_database_remake_sql "crowns"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
 			// 資料庫中自動創建表格，名稱是 "crown_database_v2"
 			"crowns"
@@ -156,6 +156,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			
 		2. Data: 本地資料庫，設定指令 ```l4d_with_crowns_database_remake_sql ""```
 			```php
-			// 所有數據位於 ```sourcemod/data/l4d_with_crowns_database_remake.txt``` (自動創建)
+			// 自動創建檔案: sourcemod/data/l4d_with_crowns_database_remake.txt
 			```
 </details>

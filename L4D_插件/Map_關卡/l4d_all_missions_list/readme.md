@@ -7,6 +7,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
+
 * <details><summary>Image</summary>
 
 	* (Admin) !admin -> Server Commands -> "List of Maps"
@@ -15,12 +21,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* (Player) !maplist -> call a vote to change map.
 	<br/>![l4d_all_missions_list_3](image/l4d_all_missions_list_3.jpg)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 Dedicated Server
-	L4D2 Dedicated Server
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -45,6 +45,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 	4. [[INC] localizer](https://github.com/dragokas/SM-Localizer/blob/master/localizer.inc)
+	5. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	6. [l4d2_transition_info_fix](/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -85,9 +89,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
-        > 修復手動更換地圖會遇到的問題
-	2. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
+	1. [l4d_restartmap_command](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
     	> 管理員輸入!restartmap能重新地圖關卡 + 滅團N次後重新地圖
 </details>
 

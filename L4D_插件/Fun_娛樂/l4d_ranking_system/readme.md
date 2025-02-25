@@ -5,6 +5,12 @@ Kill infected to get Exp and rank, type !rank to show rank menu
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>Image | 圖示</summary>
 
 	* Your Rank statistics (你的Rank統計表)
@@ -21,12 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Add rank tag to player name in chatbox
 	* You can edit rank tag and exp in [configs/l4d_ranking_system.cfg](configs/l4d_ranking_system.cfg)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -111,7 +111,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod/configs/databases.cfg*
+		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
 			// There would a data table named "Ranking_System_V2" in database
 			"rank"
@@ -125,9 +125,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 
-		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and set *sourcemod/configs/databases.cfg*
+		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
-			// Database in saved to ```sourcemod/data/sqlite/rank_system.sq3```
+			// There would be a file created: sourcemod/data/sqlite/rank_system.sq3
 			"rank"
 			{
 				"driver"			"sqlite"

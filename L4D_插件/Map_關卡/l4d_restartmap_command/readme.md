@@ -5,8 +5,11 @@ Admin say !restartmap to restart current map + Force of restartmap after Quantit
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d_restartmap_command_1](image/l4d_restartmap_command_1.jpg)
@@ -20,6 +23,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	4. [l4d2_transition_info_fix](/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,18 +62,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_restartmap
 		sm_rs
 		```
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
-        > 修復手動更換地圖會遇到的問題
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

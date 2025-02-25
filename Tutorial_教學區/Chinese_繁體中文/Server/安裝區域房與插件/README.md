@@ -83,7 +83,7 @@
 2. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
    - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
    - 紅色圖案代表此版本尚未支援該系統平台
-   - [sourcemod下載有分兩種](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E4%BC%BA%E6%9C%8D%E5%99%A8/README.md#為什麼sourcemod下載有分兩種)
+   - [不要下載Dev版本](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/%E4%BC%BA%E6%9C%8D%E5%99%A8/README.md#為什麼sourcemod下載有分兩種)
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821617-5f82e0c3-def7-4d7f-ab50-0b98b238e0ac.png)
 
 3. [MetaMod](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
@@ -91,13 +91,14 @@
    - 紅色圖案代表此版本尚未支援該系統平台
    <br/>![image](https://user-images.githubusercontent.com/12229810/187821844-c93fff63-b8e5-4474-b6c1-11cfeed3d9e7.png)
  
-4. 將所有檔案解壓縮到遊戲本體路徑上，最後會看起來如圖片所示
+4. 將所有檔案解壓縮到遊戲本體路徑上，最後會看起來如圖片所示 (注意路徑)
    <br/>![image](https://user-images.githubusercontent.com/12229810/202615505-d6062270-a7b0-4c5c-9172-92b72d45f51e.png)
    <br/>![image](https://user-images.githubusercontent.com/12229810/202615529-e857d56a-f481-4e76-aed1-7739a4618236.png)
 
 5. 到[sourcemm.net vdf](https://www.sourcemm.net/vdf)，選擇相對應的遊戲，然後點擊"Generate medamod.vtf"，下載metamod.vtf到addons資料夾上覆蓋原有的檔案
-   <br/>![image](https://user-images.githubusercontent.com/12229810/187822802-8a3d0b4d-e1a1-4b2c-a025-1cca763abe5c.png)
-	 
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/e3f8fd21-582b-4bc7-b500-dc99e28ee329)
+   <br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/469fcb75-fe05-441c-a89b-a1383bc17efb)
+
 - - - -
 ## 如何執行區域伺服器
 1. 依照圖片指示在遊戲啟動選項輸入-insecure

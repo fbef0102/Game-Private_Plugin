@@ -5,14 +5,17 @@ Changes the colors of players chat based on config file.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	* Chat Colors & Title (聊天的顏色與稱號)
-	<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
-
 * Apply to | 適用於
 	```
 	Any Source Game
 	```
+
+* Image | 圖示
+	* Chat Colors & Title (聊天的顏色與稱號)
+		* L4D1/2
+		<br/>![simple-chatcolors_1](image/simple-chatcolors_1.jpg)
+		* Other Source Game - 其他Sourcemod引擎遊戲
+		<br/>![simple-chatcolors_2](image/simple-chatcolors_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -20,6 +23,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* You can customize in [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
 		* Set admin, vip and normal players
 		* Set chat colors and title
+	* 🟥 Colors are different and some not work in each source engine game, you need to test
 </details>
 
 * Require | 必要安裝
@@ -79,8 +83,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 自行在文件裡修改: [configs/simple-chatcolors.cfg](configs/simple-chatcolors.cfg)
 		* 可以自行根據玩家身分做調整
 		* 設置顏色與稱號
+	* 🟥 每個Source引擎遊戲呈現的顏色都不同, 符號也不一定有用, 請自己測試
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>命令中文介紹 (點我展開)</summary>
 
 	* **重新載入文件 (權限: ADMFLAG_ROOT)**
 		```php
