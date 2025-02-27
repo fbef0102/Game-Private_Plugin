@@ -7,6 +7,11 @@ Gives the Survivors a health glow around them.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/0MkBgAibf3U)
 
 * <details><summary>Image | 圖示</summary>
@@ -29,6 +34,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
 	3. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?t=298649)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d_h_csm](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
+		* 允許玩家在遊戲中更換一二代角色
+	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
+		* 可以自由變成其他角色或NPC的模組
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -139,24 +152,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Not recommend to hide
 		l4d2healthglow_player_eq_hide "0"
 		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2 coop/versus/survival/scavenge
-	```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d_h_csm](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
-		* 允許玩家在遊戲中更換一二代角色
-	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
-		* 可以自由變成其他角色或NPC的模組
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

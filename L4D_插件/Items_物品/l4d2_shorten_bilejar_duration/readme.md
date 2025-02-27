@@ -5,8 +5,10 @@ Shorten bile jar effect duration as soon as it shatters
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d2_shorten_bilejar_duration_1](image/l4d2_shorten_bilejar_duration_1.gif)
@@ -33,11 +35,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>Related Official ConVar</summary>
 
 	* [vomitjar_projectile](https://developer.valvesoftware.com/wiki/Vomitjar_projectile)
@@ -49,20 +46,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// bilejar effect duration if hits any common infected
 		sm_cvar vomitjar_duration_infected_pz 		20
 		```
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

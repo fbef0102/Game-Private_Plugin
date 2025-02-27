@@ -18,6 +18,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Removes items until total numbers match the limit
 		* First aid kits、defibrillators、pills、adrenalines、molotovs、pipe bombs、vomitjars、prop tanks、oxy tanks、gas cans、fireworks
 	* Modify [data/ItemTracking.cfg](data/ItemTracking.cfg) and control items limit on the map
+		* Click file for more details...
 	* Keep item spawns the same position number on both rounds in versus/scavenge
 </details>
 
@@ -38,12 +39,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// If 1, Keep item spawns the same as first sound in coop/realism/survival
 		itemtracking_savespawns_CP "0"
 		```
-</details>
-
-* <details><summary>Data Config</summary>
-
-	* [data/ItemTracking.cfg](data/ItemTracking.cfg)
-		> Watch file for more details...
 </details>
 
 * <details><summary>Related Official ConVar</summary>
@@ -107,6 +102,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 此插件刪除地圖上原有的物品，並非生成新物品
 		* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶、瓦斯、氧氣灌、汽油桶、煙火盒
 	* 設置文件[data/ItemTracking.cfg](data/ItemTracking.cfg)，控制地圖上的物品生成數量或限制
+		* 內有中文說明，可點擊文件查看...
 	* 對抗/清道夫模式的第二回合，所有物品位置與數量與第一回合相同
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -122,12 +118,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，戰役/寫實/生存模式第二.三.四......回合之後，強制所有物品位置與數量要與第一回合相同
 		itemtracking_savespawns_CP "0"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/ItemTracking.cfg](data/ItemTracking.cfg)，控制每一關的物品生成數量與限制
-		> 點擊文件查看更多說明...
 </details>
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>

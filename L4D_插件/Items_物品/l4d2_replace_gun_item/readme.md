@@ -5,8 +5,10 @@ Delete weapons and items on the map and replace guns/items/melees with other gun
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2 Any Mode
+	```
 
 * Image | 圖示
 <br/>![l4d2_replace_gun_item_1](image/l4d2_replace_gun_item_1.jpg)
@@ -64,11 +66,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>API | 串接</summary>
 
 	* [l4d2_replace_gun_item.inc](scripting\include\l4d2_replace_gun_item.inc)
@@ -76,17 +73,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		library name: l4d2_replace_gun_item
 		```
 </details>
-
-* <details><summary>Data Config</summary>
-
-	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
-		> Manual in this file, click for more details...
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2 Any Mode
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
@@ -119,6 +105,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 綠色補給箱的無限物資
 		* 警察掉落的警棍
 	* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)，自行設定其他武器/物品/近戰
+		* 內有中文說明，可點擊查看
+</details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -155,10 +143,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，偵測近戰武器並取代 (支援三方圖近戰)
 		l4d2_replace_gun_item_melee "1"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
-		> 內有中文說明，可點擊查看
 </details>

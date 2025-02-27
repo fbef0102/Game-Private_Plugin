@@ -5,8 +5,10 @@ Display instruction hint when someone uses ammo or laser sight
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	* Laser Sight (雷射裝置)
@@ -24,21 +26,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Note
 	* Player must Enabled GAME INSTRUCTOR, in ESC -> Options -> Multiplayer, or they can't see the hint
     * DO NOT modify convar ```sv_gameinstructor_disable``` this force all clients to disable their game instructors.
-
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

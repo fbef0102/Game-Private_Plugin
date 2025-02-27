@@ -10,7 +10,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	L4D2 Scavenge
 	```
 	
-* Image
+* Image | 圖示
 	<br/>![l4d2_scavenge_infinite_1](image/l4d2_scavenge_infinite_1.jpg)
 
 * <details><summary>How does it work?</summary>
@@ -51,6 +51,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2025-2-27)
+		* Fixed "return to lobby" vote
 
 	* v1.0 (2024-6-18)
 		* Initial Release

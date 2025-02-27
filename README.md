@@ -486,6 +486,8 @@
     * 打開選單傳送地圖上所有物品到身邊
   * [l4d_item_transfter_menu](/L4D_插件/Items_物品/l4d_item_transfter_menu): Press E+Right Mouse to open the menu to transfer to teammate while holding the items and throwables
     * 按E+右鍵打開菜單，傳送手上的物品給隊友 (火瓶、土製炸彈、膽汁瓶、電擊器、治療包、高爆彈包、火焰彈包、藥丸、腎上腺素)，無論距離多遠
+  * [l4d_selfhelp_remake](/L4D_插件/Items_物品/l4d_selfhelp_remake): Self revive with medkid, defibrillator, pain pills and adrenaline shot whie incapped, hanging from ledge, pinned by special infected.
+    * 倒地、掛邊、被控時，可以消耗身上的醫療物品自救
 </details>
 
 * <details><summary><b>Weapons | 武器</b></summary>

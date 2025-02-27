@@ -5,6 +5,11 @@ Vote to change map, the map is chosen randomly from data
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/VskIo4LnBuI)
 
 * Image | 圖示
@@ -14,6 +19,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+	4. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	5. [l4d2_transition_info_fix](/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死4   
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -45,17 +54,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         c2m1_highway
         c1m4_atrium
         ```
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-    1. [l4d_team_unscramble](/L4D_插件/Server_伺服器/l4d_team_unscramble): Puts players on the right team after map/campaign change and provides API.
-        > 換圖或者換關卡之後，將玩家還原到上次所在的隊伍
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

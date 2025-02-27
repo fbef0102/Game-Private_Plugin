@@ -5,6 +5,11 @@ Increase gas cans in scavenge events, and to be randomly placed by custom list o
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2 Coop/Versus/Realism/Scavenge
+	```
+
 * [Video | 影片展示](https://youtu.be/7qUJMo9vUL4)
 
 * <details><summary>Image | 圖示</summary>
@@ -25,7 +30,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* In coop/versus/realism mode, C1M4, C6M3, C14M2 map, increase gas cans in scavenge events
 	* In scavenge mode, increase gas cans in scavenge events
-	* Gascans are randomly placed by custom data, so gas can locations are different every time. (But the total gas cans are still the same)
+	* Gascans are randomly placed by custom data file: [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
+		* Gas can locations are different every time. (But the total gas cans are still the same)
 </details>
 
 * Require | 必要安裝
@@ -118,21 +124,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-
-	* [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
-		```php
-		"l4d2_remix_gascan"
-		{
-			"c1m4_atrium" //Map Name
-			{
-				"coop" 		"30" // Value = How many Gas Cans to spawn from the pool in coop/versus/realism mode. (-1=Do Nothing in this map, Use cvar "l4d2_remix_gascan_count_coop" if no keyvalue)
-				"scavenge" 	"20" // Value = How many Gas Cans to spawn from the pool in Scavenge mode. (-1=Do Nothing in this map, Use cvar "l4d2_remix_gascan_can_count_scavenge" if no keyvalue)
-			}
-		}
-		```
-</details>
-
 * Q&A
 	* <details><summary><b>How to spawn gascan</b></summary>
 
@@ -168,17 +159,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			* No Clue
 	</details>
 
-* Apply to | 適用於
-	```
-	L4D2 Coop/Versus/Realism/Scavenge
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
 	
-	```php
-	//pvtschlag @ 2010
-	//HarryPotter @ 2022-2023
-	```
 	* v1.0h (2023-5-31)
 		* Data Support
 		* Remake code, convert code to latest syntax
@@ -187,8 +169,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* "coop", "scavenge" files respectively
 		* Fixed Edit mode Error
 
-	* v0.0
-	    * [Original Plugin By pvtschlag](https://forums.alliedmods.net/showthread.php?t=112096)
+	* Original & Credit
+	    * [pvtschlag](https://forums.alliedmods.net/showthread.php?t=112096)
 </details>
 
 - - - -
@@ -198,8 +180,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 在戰役/對抗/寫實模式中，C1M4、C6M3、C14M2的汽油桶關卡，可以自由新增汽油桶位置與數量
 	* 在清道夫模式中，可以自由新增汽油桶位置與數量
-	* 從文件裡挑選的汽油桶位置是隨機的，所以每次生成汽油桶的位置會不一樣 (但數量還是一樣)
-
+	* 從文件裡挑選汽油桶生成數量: [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
+		* 每次生成汽油桶的位置會不一樣 (但數量還是一樣)
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d2_remix_gascan.cfg
@@ -221,21 +203,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 在清道夫模式中，從文件裡選擇多少個汽油桶生成? (會隨機挑選)
 		l4d2_remix_gascan_can_count_scavenge "16"
-		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/l4d2_remix_gascan.cfg](addons/sourcemod/data/l4d2_remix_gascan.cfg)
-		```php
-		"l4d2_remix_gascan"
-		{
-			"c1m4_atrium" //地圖名
-			{
-				"coop" 		"30" // 在戰役/對抗/寫實模式中，從文件挑選汽油桶生成的數量. (-1=在這張地圖關閉插件，如果沒有寫此行，預設使用指令l4d2_remix_gascan_count_coop)
-				"scavenge" 	"20" // 在清道夫模式中，從文件挑選汽油桶生成的數量. (-1=在這張地圖關閉插件，如果沒有寫此行，預設使用指令l4d2_remix_gascan_can_count_scavenge)
-			}
-		}
 		```
 </details>
 
