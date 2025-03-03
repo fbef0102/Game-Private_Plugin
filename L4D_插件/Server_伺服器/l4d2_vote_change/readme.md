@@ -5,6 +5,12 @@ New Vote System (use L4D built-in votes UI) + Add custom vote
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * <details><summary>Image</summary>
 
 	* Type ```!newvotes``` to open vote menu
@@ -21,12 +27,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_vote_change_6](image/l4d2_vote_change_6.jpg)
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>How does it work?</summary>
 
 	* Type ```!newvotes``` to open vote menu -> select -> call a vote -> F1 to yes or F2 to no
@@ -37,12 +37,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Manual in this file, click for more details...
 </details>
 
-* Require
+* Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
+	6. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	7. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+		
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
+		* 沒有權限的玩家不能隨意發起官方投票
+	2. [l4d2_custom_difficulty](/L4D_插件/Server_伺服器/l4d2_custom_difficulty): Set your own custom difficulty and damage + vote to change custom difficulty
+		* 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -107,26 +119,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d2_vote_change.phrases.txt
 	```
-</details>
-
-* <details><summary>Related | 相關插件</summary>
-
-	1. [l4d2_vote_manager3](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vote_manager3): Unable to call valve vote if player does not have access
-		* 沒有權限的玩家不能隨意發起官方投票
-	2. [l4d2_custom_difficulty](/L4D_插件/Server_伺服器/l4d2_custom_difficulty): Set your own custom difficulty and damage + vote to change custom difficulty
-		* 自訂遊戲難度、特感傷害、殭屍傷害、Tank傷害、Witch傷害 + 投票更換自訂的難度
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.6h (2024-2-12)
+	* v1.6h (2025-2-12)
 		* Fixed Error
 		
 	* v1.5h (2024-8-16)
@@ -171,13 +171,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 使用官方的內建投票圖形UI
 	<br/>![l4d2_vote_change_6_zho](image/zho/l4d2_vote_change_6_zho.jpg)
 </details>
-
-* 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
-	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dl4dtoolz)
 
 * 原理
 	* 輸入```!newvotes``` -> 選擇項目 -> 發起投票 -> F1同意 或 F2不同意

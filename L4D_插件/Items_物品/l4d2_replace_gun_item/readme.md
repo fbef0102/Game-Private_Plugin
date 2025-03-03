@@ -36,11 +36,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_replace_gun_item_enable "1"
 
-		// Replace the weapon if the weapon is late spawn during the game.
+		// If 1, Replace the weapon if the weapon is late spawn during the game. Ex: Foot Locker, fallen survivor... (0=Don't replace)
 		l4d2_replace_gun_item_late_spawn "0"
 
-		// If 1, Don't replace the weapon & item if survivor carries them.
-		l4d2_replace_gun_item_player_in_use "1"
+		// If 1, Replace the weapon & item if survivor carries them. (0=Don't replace)
+		l4d2_replace_gun_item_player_in_use "0"
+
+		// If 1, Replace the weapon & item if dropped from survivor. Ex: Survivor death, take new weapon... (0=Don't replace)
+		l4d2_replace_gun_item_player_drop "0"
 
 		// Replace the primary weapon
 		l4d2_replace_gun_item_primary "1"
@@ -76,6 +79,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.4 (2025-3-4)
+		* Replace the weapon & item if dropped from survivor
+		* Update cvars
+		
 	* v1.3 (2024-11-9)
 		* Update cvars
 
@@ -115,12 +122,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉插件, 1=啟動插件
 		l4d2_replace_gun_item_enable "1"
 
-		// 為1時，替換遊戲中途生成或掉落的物資 (譬如管理員生成物品、墮落生還者掉落的物資、CEDA掉落的膽汁瓶、綠色補給箱的無限物資).
+		// 1=替換遊戲中途生成或掉落的物資 (譬如管理員生成物品、墮落生還者掉落的物資、CEDA掉落的膽汁瓶、綠色補給箱的無限物資).
+		// 0=不替換
 		l4d2_replace_gun_item_late_spawn "0"
 
-		// 1=不替換倖存者手上的武器與物資
-		// 0=替換
-		l4d2_replace_gun_item_player_in_use "1"
+		// 1=替換倖存者手上的武器與物資
+		// 0=不替換
+		l4d2_replace_gun_item_player_in_use "0"
+
+		// 1=替換從倖存者身上掉落的武器與物資 (譬如玩家死亡、撿起新武器)
+		// 0=不替換
+		l4d2_replace_gun_item_player_drop "0"
 
 		// 為1時，偵測主武器的槍械並取代
 		l4d2_replace_gun_item_primary "1"
