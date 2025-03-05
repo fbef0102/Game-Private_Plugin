@@ -157,6 +157,8 @@
     * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
   * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
     * 玩家自己改名 + 管理員幫玩家改名
+  * [smd_tag_system](/Source_插件/Fun_娛樂/smd_tag_system): Give player tag name based on total time played in server
+    * 根據玩家在伺服器內的遊玩時數給予對應的稱號
 </details>
 
 * <details><summary><b>Server | 伺服器</b></summary>
@@ -750,7 +752,7 @@
 
 * <details><summary><b>只有中文的插件列表</b></summary>
 
-  * [l4d_ranking_system_V3](/L4D_插件/只有中文的插件列表/l4d_ranking_system_V3): 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
+  None
 </details>
 
 ###### **CSS Plugin List | 絕對武力次世代 插件列表**

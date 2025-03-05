@@ -43,12 +43,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Related | 相關插件</summary>
-
-	1. [l4d_ranking_system](/L4D_插件/Fun_娛樂/l4d_ranking_system)
-		* 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.4h (2025-1-8)

@@ -175,7 +175,7 @@
 		"es"	"[TS] No puedes donarte a ti mismo"
 		"ru"	"[TS] Себе нельзя!"
 	}
-	"Donate moeny to you"
+	"Donate money to you"
 	{
 		"#format"		"{1:s},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} donates {green}{2}{default} credits to you!"
@@ -185,7 +185,7 @@
 		"es"	"[{olive}TS{default}] {olive}{1}{default} te dona {green}{2}{default} puntos!"
 		"ru"	"[{olive}TS{default}] {olive}{1} {default}перевёл {green}{2} {default} кредитов тебе!"
 	}
-	"You Donate moeny"
+	"You Donate money"
 	{
 		"#format"		"{1:d},{2:s}"
 		"en"	"[{olive}TS{default}] You donate {olive}{1}{default} credits to {olive}{2}{default}."
@@ -204,7 +204,7 @@
 		"es"	"[TS] Sin puntos cero."
 		"ru"	"[TS] Не нулевой баланс."
 	}
-	"You reduce player moeny"
+	"You reduce player money"
 	{
 		"#format"		"{1:s},{2:d}"
 		"en"	"[{olive}TS{default}] Reduce {olive}{1}{default}'s {green}{2}{default} credits."
@@ -214,7 +214,7 @@
 		"es"	"[{olive}TS{default}] Reduce {olive}{1}{default}'de {green}{2}{default} puntos."
 		"ru"	"[{olive}TS{default}] Конфисковано {olive}{1} {green}{2} {default}кредитов"
 	}
-	"Adm reduces your moeny"
+	"Adm reduces your money"
 	{
 		"#format"		"{1:s},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to reduce your {green}{2}{default} credits."
@@ -224,7 +224,7 @@
 		"es"	"[{olive}TS{default}] {olive}{1}{default} utiliza acceso !admin para reducir sus {green}{2}{default} puntos."
 		"ru"	"[{olive}TS{default}] {olive}{1} {default}использует админку, чтобы конфисковать {green}{2} {default} кредитов."
 	}
-	"You give player moeny"
+	"You give player money"
 	{
 		"#format"		"{1:s},{2:d}"
 		"en"	"[{olive}TS{default}] Give {olive}{1}{default} {green}+{2}{default} credits."
@@ -234,7 +234,7 @@
 		"es"	"[{olive}TS{default}] Dar {olive}{1}{default} {green}+{2}{default} puntos."
 		"ru"	"[{olive}TS{default}] Выдано {olive}{1} {green}+ {2} {default}кредитов"
 	}
-	"Adm gives your moeny"
+	"Adm gives your money"
 	{
 		"#format"		"{1:s},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to give you {green}+{2}{default} credits."
@@ -244,7 +244,7 @@
 		"es"	"[{olive}TS{default}] {olive}{1}{default} usa acceso !admin para darle {green}+{2}{default} puntos."
 		"ru"	"[{olive}TS{default}] {olive}{1} {default}использует админку, чтобы дать {green}+{2} {default}кредитов."
 	}
-	"You deduct player moeny"
+	"You deduct player money"
 	{
 		"#format"		"{1:s}"
 		"en"	"[{olive}TS{default}] Clear {olive}{1}{default}'s all credits."
@@ -254,7 +254,7 @@
 		"es"	"[{olive}TS{default}] Borrar todos los puntos de {olive} {1} {default}"
 		"ru"	"[{olive}TS{default}] Очистил {olive}{1} {default}все кредиты"
 	}
-	"Adm deducts your moeny"
+	"Adm deducts your money"
 	{
 		"#format"		"{1:s}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to deduct you all credits."

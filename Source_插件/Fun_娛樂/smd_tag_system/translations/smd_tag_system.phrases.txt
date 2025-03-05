@@ -1,0 +1,130 @@
+// Please use notepad++ or vscode to open this file, so you will see the special ascii character for Colors tag
+// Colors tag (Colors are different and some not work in each source engine game, you need to test)
+//	= \x01 (SOH) 
+//	= \x02 (STX) 
+//	= \x03 (ETX)
+//	= \x04 (EOT)
+//	= \x05 (ENQ)
+//	= \x06 (ACK)
+//	= \x07 (BEL)
+//
+//	FFFFFFFF	= \x08 custom color with alpha (RGBA)
+//	FFFFFF	= \x07 custom color (RGB)
+// --
+// 使用notepad++ 或是 vscode 文件編輯器，你才會看到顏色標籤的特殊符號
+// 以下為顏色標籤 (每個Source引擎遊戲呈現的顏色都不同, 符號也不一定有用, 請自己測試)
+//	= \x01 (SOH) 
+//	= \x02 (STX)
+//	= \x03 (ETX)
+//	= \x04 (EOT)
+//	= \x05 (ENQ)
+//	= \x06 (ACK) 
+//	= \x07 (BEL)
+
+//	FFFFFFFF	= \x08 自訂顏色 (RGBA)
+//	FFFFFF	= \x07 自訂顏色 (RGB)
+
+"Phrases"
+{
+	"Main Menu Title"
+	{
+		"en"	"(Admin) Name Tag for Player"
+		"zho"	"(管理員) 修改玩家稱號"
+		"chi"	"(管理员) 修改玩家称号"
+	}
+	
+	"Add Custom Name Tag"
+	{
+		"en"	"Add Custom Name Tag"
+		"zho"	"新增玩家稱號"
+		"chi"	"新增玩家称号"
+	}	
+	
+	"Remove Custom Name Tag"
+	{
+		"en"	"Remove Custom Name Tag"
+		"zho"	"移除玩家稱號"
+		"chi"	"移除玩家称号"
+	}	
+	
+	"default"
+	{
+		"en"	"default"
+		"zho"	"預設"
+		"chi"	"默认"
+	}
+
+	"You don't have access"
+	{
+		"en"	"You don't have access"
+		"zho"	"无法更改称号 (不开放给非权限玩家)"
+		"chi"	"无法更改称号 (不开放给非权限玩家)"
+	}
+
+	"Time Shield"
+	{
+		"#format"	"{1:d}"
+		"en"	"Can't change custom tag (Not enough {1} hour time played )"
+		"zho"	"無法更改稱號 (遊玩時間不足{1}小時)"
+		"chi"	"无法更改称号 (游玩时间不足{1}小时)"
+	}
+
+	"Personal Menu Title"
+	{
+		"#format"	"{1:s}"
+		"en"	"Your tag title: {1}"
+		"zho"	"你目前的稱號: {1}"
+		"chi"	"你目前的称号: {1}"
+	}
+	
+	"Add Personal Custom Name Tag"
+	{
+		"en"	"Add Custom Name Tag"
+		"zho"	"新增稱號"
+		"chi"	"新增称号"
+	}	
+	
+	"Remove Personal Custom Name Tag"
+	{
+		"en"	"Remove Custom Name Tag"
+		"zho"	"移除稱號"
+		"chi"	"移除称号"
+	}	
+	
+	"Target is not in game!"
+	{
+		"en"	"Target is not in game!"
+		"zho"	"目標玩家已不存在"
+		"chi"	"目标玩家已不存在"
+	}
+	
+	"Changed tag successfully"
+	{
+		"en"	"Changed tag successfully"
+		"zho"	"成功修改稱號"
+		"chi"	"成功修改称号"
+	}	
+	
+	"Time out! Failed to type name"
+	{
+		"en"	"Time out! Failed to type name"
+		"zho"	"時間到! 修改稱號失敗!"
+		"chi"	"时间到! 修改称号失败!"
+	}	
+	
+	"Time sec"
+	{
+		"#format"	"{1:i}"
+		"en"	"You have {1} seconds to type name in chatbox"
+		"zho"	"你有 {1} 秒時間在聊天框輸入稱號"
+		"chi"	"你有 {1} 秒时间在聊天框输入称号"
+	}
+
+	"Display Message"
+	{
+		"#format"	"{1:N},{2:d},{3:s}"
+		"en"	"{1} has connected to server, tiem played: {2}, tag: {3}"
+		"zho"	"{1} 已連線到服务器, 遊玩時數: {2}, 稱號: {3}"
+		"chi"	"{1} 已连接到服务器, 游玩时数: {2}, 称号: {3}"
+	}
+}

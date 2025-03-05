@@ -1,0 +1,347 @@
+//		-------Following named colors are only supported in l4d1/l4d2-------
+//		{default} - Default White
+//		{olive} - Green
+//		{lightgreen} - Lightgreen
+//		{red} - Red - There must be at least one player or bot in infected team，or red will turn into {G} color
+//		{blue} - Blue - There must be at least one player or bot in survivor team，or blue will turn into {G} color
+//		{green} - Olive
+//		Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together
+//
+//
+// 中文說明
+//		-------支援以下顏色 (只限L4D1與L4D2)-------
+//		{default}-預設白色
+//		{olive}-綠色
+//		{lightgreen}-淺綠色
+//		{red}-紅色 		- 特感隊伍要有人或bot在才會顯示紅色，否則顯示綠色
+//		{blue}-藍色 		- 人類隊伍要有人或bot在才會顯示紅色，否則顯示綠色
+//		{green}-橘色
+//		警告:  藍色, 紅色, 淺綠色，這三種顏色的其中兩種不可同時出現在同一句話裡，插件會報錯
+
+"Phrases"
+{
+	"Admin Tag Menu Title"
+	{
+		"en"	"(Admin) Name Tag for Player"
+		"zho"	"(管理員) 修改玩家稱號"
+		"chi"	"(管理员) 修改玩家称号"
+	}
+	
+	"Admin Add Custom Name Tag"
+	{
+		"en"	"Add Custom Name Tag"
+		"zho"	"新增玩家稱號"
+		"chi"	"新增玩家称号"
+	}	
+	
+	"Admin Remove Custom Name Tag"
+	{
+		"en"	"Remove Custom Name Tag"
+		"zho"	"移除玩家稱號"
+		"chi"	"移除玩家称号"
+	}	
+	
+	"default"
+	{
+		"en"	"default"
+		"zho"	"預設"
+		"chi"	"默认"
+	}
+
+	"You don't have access"
+	{
+		"en"	"You don't have access"
+		"zho"	"无法更改称号 (不开放给非权限玩家)"
+		"chi"	"无法更改称号 (不开放给非权限玩家)"
+	}
+
+	"Exp Shield"
+	{
+		"#format"	"{1:d}"
+		"en"	"{default}Can't change custom tag (Not enough {green}{1}{default} exp)"
+		"zho"	"{default}無法更改稱號 (經驗值不足{green}{1}{default})"
+		"chi"	"{default}无法更改称号 (经验值不足{green}{1}{default})"
+	}
+
+	"Personal Tag Menu Title"
+	{
+		"#format"	"{1:s}"
+		"en"	"Your tag title: {1}"
+		"zho"	"你目前的稱號: {1}"
+		"chi"	"你目前的称号: {1}"
+	}
+	
+	"Add Personal Custom Name Tag"
+	{
+		"en"	"Add Custom Name Tag"
+		"zho"	"新增稱號"
+		"chi"	"新增称号"
+	}	
+	
+	"Remove Personal Custom Name Tag"
+	{
+		"en"	"Remove Custom Name Tag"
+		"zho"	"移除稱號"
+		"chi"	"移除称号"
+	}	
+	
+	"Target is not in game!"
+	{
+		"en"	"Target is not in game!"
+		"zho"	"目標玩家已不存在"
+		"chi"	"目标玩家已不存在"
+	}
+	
+	"Changed tag successfully"
+	{
+		"en"	"Changed tag successfully"
+		"zho"	"成功修改稱號"
+		"chi"	"成功修改称号"
+	}	
+	
+	"Time out! Failed to type name"
+	{
+		"en"	"Time out! Failed to type name"
+		"zho"	"時間到! 修改稱號失敗!"
+		"chi"	"时间到! 修改称号失败!"
+	}	
+	
+	"Time sec"
+	{
+		"#format"	"{1:i}"
+		"en"	"{default}You have {green}{1}{default} seconds to type name in chatbox"
+		"zho"	"{default}你有 {green}{1}{default} 秒時間在聊天框輸入稱號"
+		"chi"	"{default}你有 {green}{1}{default} 秒时间在聊天框输入称号"
+	}
+
+	"Kill CI"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing common infected"
+		"zho"	"殺死普通感染者獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀普通感染者获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Smoker"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Smoker"
+		"zho"	"殺死Smoker獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Smoker获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Hunter"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Hunter"
+		"zho"	"殺死Hunter獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Hunter获得 {green}{1}{default} 经验"
+	}
+
+	"Skeet Hunter"
+	{
+		"#format"	"{1:i}"
+		"en"	"You skeeted Hunter, got {green}{1}{default} exp"
+		"zho"	"空爆Hunter獲得 {green}{1}{default} 經驗"
+		"chi"	"空爆Hunter获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Boomer"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Boomer"
+		"zho"	"殺死Boomer獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Boomer获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Jockey"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Jockey"
+		"zho"	"殺死Jockey獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Jockey获得 {green}{1}{default} 经验"
+	}
+
+	"Skeet Jockey"
+	{
+		"#format"	"{1:i}"
+		"en"	"You skeeted Jockey, got {green}{1}{default} exp"
+		"zho"	"空爆Jockey獲得 {green}{1}{default} 經驗"
+		"chi"	"空爆Jockey获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Charger"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Charger"
+		"zho"	"殺死Charger獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Charger获得 {green}{1}{default} 经验"
+	}
+
+	"Level Charger"
+	{
+		"#format"	"{1:i}"
+		"en"	"You leveled Charger, got {green}{1}{default} exp"
+		"zho"	"秒殺衝鋒的Charger獲得 {green}{1}{default} 經驗"
+		"chi"	"秒杀冲锋的Charger获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Spitter"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Spitter"
+		"zho"	"殺死Spitter獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Spitter获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Tank"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Tank"
+		"zho"	"殺死Tank獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Tank获得 {green}{1}{default} 经验"
+	}
+
+	"Kill Witch"
+	{
+		"#format"	"{1:i}"
+		"en"	"You got {green}{1}{default} exp for killing Witch"
+		"zho"	"殺死Witch獲得 {green}{1}{default} 經驗"
+		"chi"	"击杀Witch获得 {green}{1}{default} 经验"
+	}
+
+	"Join Server"
+	{
+		"#format"	"{1:N},{2:d}"
+		"en"	"{lightgreen}{1}{default} has joined the server, rank: {green}{2}"
+		"zho"	"{lightgreen}{1}{default} 已連接到伺服器，排名: {green}{2}"
+		"chi"	"{lightgreen}{1}{default} 已连接到服务器，排名: {green}{2}"
+	}
+
+	"Left Server"
+	{
+		"#format"	"{1:N},{2:d}"
+		"en"	"{lightgreen}{1}{default} has left the server, rank: {green}{2}"
+		"zho"	"{lightgreen}{1}{default} 已離開伺服器，排名: {green}{2}"
+		"chi"	"{lightgreen}{1}{default} 已離開服务器，排名: {green}{2}"
+	}
+
+	"Join Survivor"
+	{
+		"#format"	"{1:N},{2:d}"
+		"en"	"{lightgreen}{1}{default} has joined survivor team, rank: {green}{2}"
+		"zho"	"{lightgreen}{1}{default} 加入了倖存者，排名: {green}{2}"
+		"chi"	"{lightgreen}{1}{default} 加入了生还者，排名: {green}{2}"
+	}
+
+	"MissionLost"
+	{
+		"#format"	"{1:i}"
+		"en"	"Wipe out, all survivors lose {green}{1}{default} exp"
+		"zho"	"滅團，所有倖存者損失 {green}{1}{default} 點經驗值"
+		"chi"	"灭团，所有幸存者损失 {green}{1}{default} 点经验值"
+	}
+
+	"Incap"
+	{
+		"#format"	"{1:i}"
+		"en"	"Incap, you lose {green}{1}{default} exp"
+		"zho"	"倒地損失 {green}{1}{default} 點經驗值"
+		"chi"	"倒地损失 {green}{1}{default} 点经验值"
+	}
+
+	"FF Kill"
+	{
+		"#format"	"{1:i}"
+		"en"	"Friendly fire kill, you lose {green}{1}{default} exp"
+		"zho"	"友傷黑死隊友損失 {green}{1}{default} 點經驗值"
+		"chi"	"友伤黑死队友损失 {green}{1}{default} 点经验值"
+	}
+
+	"Death"
+	{
+		"#format"	"{1:i}"
+		"en"	"Death, you lose {green}{1}{default} exp"
+		"zho"	"死亡損失 {green}{1}{default} 點經驗值"
+		"chi"	"死亡损失 {green}{1}{default} 点经验值"
+	}
+
+	"FF Dmg"
+	{
+		"#format"	"{1:N},{2:i},{3:i}"
+		"en"	"You did {green}{2}{default} damage to {blue}{1}{default}, lose {green}{3}{default} exp"
+		"zho"	"你對 {blue}{1}{default} 造成 {green}{2}{default} 滴友傷，損失 {green}{3}{default} 點經驗值"
+		"chi"	"你对 {blue}{1}{default} 造成 {green}{2}{default} 滴友伤，损失 {green}{3}{default} 点经验值"
+	}
+
+	"Player database loading"
+	{
+		"en"	"Player's data loading, try again later"
+		"zho"	"玩家的資料尚未載入完成，請稍後再試。"
+		"chi"	"玩家的资料尚未加载完成，请稍后再试。"
+	}
+
+	"Player database loading"
+	{
+		"en"	"Player's data loading, try again later"
+		"zho"	"玩家的資料尚未載入完成，請稍後再試。"
+		"chi"	"玩家的资料尚未加载完成，请稍后再试。"
+	}
+
+	"Refresh"
+	{
+		"en"	"Refresh"
+		"zho"	"重新整理"
+		"chi"	"刷新"
+	}
+
+	"Others"
+	{
+		"en"	"Others"
+		"zho"	"其他人"
+		"chi"	"其他人"
+	}
+
+	"Top"
+	{
+		"#format"	"{1:d}"
+		"en"	"Top {1}"
+		"zho"	"前{1}名經驗排行榜"
+		"chi"	"前{1}名经验排行榜"
+	}
+
+	"Back"
+	{
+		"en"	"Back"
+		"zho"	"返回"
+		"chi"	"返回"
+	}
+
+	"Others panel title"
+	{
+		"en"	"Check Other Player"
+		"zho"	"查看其他人"
+		"chi"	"查看其他人"
+	}
+
+	"Top panel title"
+	{
+		"en"	"Top Player"
+		"zho"	"排行榜"
+		"chi"	"排行榜"
+	}
+
+	"No other players"
+	{
+		"en"	"No other players"
+		"zho"	"目前没有其他玩家"
+		"chi"	"目前没有其他玩家"
+	}
+
+	"No other players yet"
+	{
+		"en"	"No other players yet"
+		"zho"	"尚无其他玩家"
+		"chi"	"尚无其他玩家"
+	}
+}

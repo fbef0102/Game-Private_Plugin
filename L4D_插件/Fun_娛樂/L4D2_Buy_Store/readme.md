@@ -19,6 +19,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![L4D2_Buy_Store_3](image/L4D2_Buy_Store_3.jpg)
 	<br/>![L4D2_Buy_Store_4](image/L4D2_Buy_Store_4.jpg)
 	<br/>![L4D2_Buy_Store_5](image/L4D2_Buy_Store_5.jpg)
+	<br/>![L4D2_Buy_Store_6](image/L4D2_Buy_Store_6.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>
@@ -26,15 +27,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Type ```!buy``` in chatbox, buy anything you want, have special items
 	* (Survivor) Killing zombies and infected to earn credits
 	* (Infected) Doing Damage to survivors to earn credits
-	* Save player's credits to server. (Database)
+	* Save player's credits to server. (Support Cookie & Database)
 		* Player will can keep credits even if server restart or player disconnect from server
-	* Modify item price or disable item: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+	* To see all items, pleace check: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+		* You can modify item price or disable item
+		* Survivor Special items, check ```"survivorSpecial"```
+		* Infected Special items, check ```"infectedSpecial"```
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. To unlock all melee weapons in all campaigns, you MUST use the [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586) plugin which supersedes the extension.
+	3. [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586): To unlock all melee weapons in all campaigns
+		* 解鎖所有官方圖的近戰武器
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -43,16 +48,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Numbers of real survivor and infected player require to active this plugin.
 		sm_shop_player_require "4"
 
-		// If 1, use CookiesCached to save player money. Otherwise, the moeny will not be saved if player leaves the server.
+		// If 1, use CookiesCached to save player money. Otherwise, the money will not be saved if player leaves the server.
 		sm_shop_CookiesCached_enable "1"
 
 		// Database to save money to.
 		// Empty = don't connect to database
-		//  (MySQL & SQLite supported)
+		// (MySQL & SQLite supported)
 		sm_shop_database ""
 
 		// Maximum money limit. (Money saved when map change/leaving server)
-		sm_shop_max_moeny_limit "32000"
+		sm_shop_max_money_limit "32000"
 
 		// Disable Survivor Shop after survivors have left start safe area over X seconds. (0=Survivor Shop available anytime)
 		sm_shop_survivor_disable_time "0"
@@ -300,13 +305,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Special Item</summary>
-
-	* See [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
-		* Survivor Special Menu ```"survivorSpecial"```
-		* Infected Specials Menu ```"infectedSpecial"```
-</details>
-
 * <details><summary>Database</summary>
 
 	* Choose one of the following method to save money
@@ -377,6 +375,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![zho/L4D2_Buy_Store_3](image/zho/L4D2_Buy_Store_3.jpg)
 	<br/>![zho/L4D2_Buy_Store_4](image/zho/L4D2_Buy_Store_4.jpg)
 	<br/>![zho/L4D2_Buy_Store_5](image/zho/L4D2_Buy_Store_5.jpg)
+	<br/>![zho/L4D2_Buy_Store_6](image/zho/L4D2_Buy_Store_6.jpg)
 </details>
 
 * 原理
@@ -384,9 +383,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* (人類) 殺死特感與小殭屍獲取金額
 	* (特感) 對倖存者造成傷害獲取金額
 	* 能購轉移金錢給其他玩家
-	* 跨伺服器資料庫儲存設定
+	* 支援Cookie或資料庫儲存
 		* 玩家下次進來伺服器依然保留自己的金額
-	* 設定商品金額: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+	* 查看所有可買商品，請閱讀文件: [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
+		* 可自行修改商品的價錢或是關閉商品
+		* 人類特殊商品請查看```"survivorSpecial"```
+		* 特感特殊商品請查看```"infectedSpecial"```
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -404,7 +406,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_shop_database ""
 
 		// 最大能儲存的金額
-		sm_shop_max_moeny_limit "32000"
+		sm_shop_max_money_limit "32000"
 
 		// 倖存者離開安全區域超過此秒數後不能再購買商品 (0=人類可以在任意時間點購買)
 		sm_shop_survivor_disable_time "0"
@@ -674,14 +676,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			}
 			```
 </details>
-
-* <details><summary>特殊商品中文介紹 (點我展開)</summary>
-
-	* 查看 [data/L4D2_Buy_Store.cfg](data/L4D2_Buy_Store.cfg)
-		* 人類特殊商品表 ```"survivorSpecial"```
-		* 特感特殊商品表 ```"infectedSpecial"```
-</details>
-
 
 
 
