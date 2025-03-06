@@ -1,3 +1,24 @@
+//		-------Following named colors are only supported in l4d1/l4d2-------
+//		{default} - Default White
+//		{olive} - Green
+//		{lightgreen} - Lightgreen
+//		{red} - Red - There must be at least one player or bot in infected team，or red will turn into {G} color
+//		{blue} - Blue - There must be at least one player or bot in survivor team，or blue will turn into {G} color
+//		{green} - Olive
+//		Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together
+//
+//
+// 中文說明
+//		-------支援以下顏色 (只限L4D1與L4D2)-------
+//		{default}-預設白色
+//		{olive}-綠色
+//		{lightgreen}-淺綠色
+//		{red}-紅色 		- 特感隊伍要有人或bot在才會顯示紅色，否則顯示綠色
+//		{blue}-藍色 		- 人類隊伍要有人或bot在才會顯示紅色，否則顯示綠色
+//		{green}-橘色
+//		警告:  藍色, 紅色, 淺綠色，這三種顏色的其中兩種不可同時出現在同一句話裡，插件會報錯
+
+
 "Phrases"
 {
 	"You can self help"
@@ -20,6 +41,22 @@
 		"zho"	"正在自救..."
 		"chi"	"正在自救..."
 	}
+	
+	"You are helping other"
+	{
+		"#format"		"{1:N}"
+		"en"	"You are helping {1}..."
+		"zho"	"正在互救{1}..."
+		"chi"	"正在互救{1}..."
+	}
+	
+	"helping you"
+	{
+		"#format"		"{1:N}"
+		"en"	"{1} is helping you"
+		"zho"	"{1} 正在救你"
+		"chi"	"{1} 正在救你"
+	}
 
 	"Reason"
 	{
@@ -27,5 +64,13 @@
 		"en"	"{blue}{1}{default} used self help to kill you"
 		"zho"	"{blue}{1}{default} 使用醫療物資自救, 將你處死"
 		"chi"	"{blue}{1}{default} 使用医疗物资自救, 将你处死"
+	}
+	
+	"Helping other successfully"
+	{
+		"#format"		"{1:N}"
+		"en"	"You helped {olive}{1}{default} get up"
+		"zho"	"倒地互救 {olive}{1}{default} 成功起身"
+		"chi"	"倒地互救 {olive}{1}{default} 成功起身"
 	}
 }

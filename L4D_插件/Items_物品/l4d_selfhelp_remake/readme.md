@@ -16,6 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_selfhelp_remake_2](image/l4d_selfhelp_remake_2.gif)
 	<br/>![l4d_selfhelp_remake_3](image/l4d_selfhelp_remake_3.gif)
 	<br/>![l4d_selfhelp_remake_4](image/l4d_selfhelp_remake_4.gif)
+	<br/>![l4d_selfhelp_remake_5](image/l4d_selfhelp_remake_5.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -23,6 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Gain more temp health from incap
 		* Kill special infected attacker
 	* You can pick up medical items within the range around you while incap, Aim items and Press E
+	* While incap, you can Help other players who are incap or hanging from ledge within the range around you
 	* Control each medical items in data file: [data/l4d_selfhelp_remake.cfg](data/l4d_selfhelp_remake.cfg)
 </details>
 
@@ -46,6 +48,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2025-3-6)
+		* Update data
 
 	* v1.0h (2025-2-27)
 		* Add temp health after self help from incap
@@ -72,6 +77,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 倒地自救後獲得更多的血量
 		* 處死控制你的特感
 	* 倒地期間可以撿起周圍的醫療物品，準心指向物品後按E鍵
+	* 倒地期間, 你可以救起來範圍內倒地或掛邊的玩家
 	* 控制每個醫療物品: [data/l4d_selfhelp_remake.cfg](data/l4d_selfhelp_remake.cfg)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
