@@ -5,6 +5,12 @@ Emotes and Dance in L4D1/2
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/iIDv53oFaJE)
 
 * Image | 圖示
@@ -17,27 +23,24 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![fortnite_dances_emotes_l4d_4](image/fortnite_dances_emotes_l4d_4.gif)
 	<br/>![fortnite_dances_emotes_l4d_5](image/fortnite_dances_emotes_l4d_5.gif)
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>How does it work?</summary>
 
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
 	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
-	* 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), othersie this plugin will not work 
 	* If you don't know what "FastDL" is, please google it
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), othersie this plugin will not work 
+		* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL)，否則此插件會無效 (不知道什麼是FastDL請自行Google)
+	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
+	1. [l4d_force_client_custom_download](/L4D_插件/Player_玩家/l4d_force_client_custom_download): Force player to download your server's custom content
+		* 強制玩家打開設置下載伺服器自製的檔案
+	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
 		* 可以自由變成其他角色或NPC的模組
 </details>
 
@@ -132,7 +135,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Connect to server. 
 		* Join survivor and type ```!dance```.
 
-	5. Players should download custom mp3 files when connecting to your server
+	5. Players download custom mp3 files when connecting to your server (They need to set Options-> Multiplayer -> CUSTOM SERVER CONTENT -> Allow All)
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
 
@@ -213,7 +216,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 管理員輸入` ```!admin``` -> "玩家指令" -> "表情玩家" -> 指定玩家跳舞
 	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
-	* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL)，否則此插件會無效 (不知道什麼是FastDL請自行Google)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -306,6 +308,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 連線到伺服器
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
 
-	5. 玩家加入伺服器時，會自動下載自製的音樂檔案
+	5. 玩家加入伺服器時，會自動下載自製的音樂檔案 (玩家必須自己打開選項->多人連線->自訂伺服器內容->全部允許)
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>

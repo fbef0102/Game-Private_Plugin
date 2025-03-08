@@ -1,5 +1,5 @@
 # Navigation
-> 2025/1/23 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/3/8 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -17,7 +17,7 @@
 * This tutorial applies to L4D1 and L4D2
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
-   - Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
+    * Local listen Server is unstable and easily crash because Sourcemod doesn't support listen server.
 * Including 5+ players fix
 
 - - - -
@@ -27,27 +27,27 @@
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): You can have 8 slots lobby.
-   - Install in client-side folder
-   - Only start game when there are 2 players above
-   - This Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
+    * Install in client-side folder
+    * Only start game when there are 2 players above
+    * This Mod makes you unable to use ESC->Idle function，Install [AFK and Join Team Commands Improved](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32) to use command to afk.
 
 - - - -
 ## Require
 * [l4dtoolz EXTENSION](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
-   - Write down the following cvars in ```cfg/server.cfg``` if dedicated server (🟥if file doesn't exist, create it🟥)
-   - Write down the following cvars in ```cfg/listenserver.cfg``` if listen server (🟥if file doesn't exist, create it🟥)
-    ```php
-    sm_cvar precache_all_survivors 1 // 1=Precache/Load all models of survivors to prevent crash
-    sm_cvar sv_consistency 0 // The server enforces file consistency (1: Enable, 0: Disable) 
-    ```
-   - [My server.cfg](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
+    * Write down the following cvars in ```cfg/server.cfg``` if dedicated server (🟥if file doesn't exist, create it🟥)
+    * Write down the following cvars in ```cfg/listenserver.cfg``` if listen server (🟥if file doesn't exist, create it🟥)
+        ```php
+        sm_cvar precache_all_survivors 1 // 1=Precache/Load all models of survivors to prevent crash
+        sm_cvar sv_consistency 0 // The server enforces file consistency (1: Enable, 0: Disable) 
+        ```
+    * [My server.cfg](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
 * [Remove Lobby Reservation (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): Remove the lobby reservation once server is full, so 9+ players can connect to server directly through IP.
-    - 🟥Doesn't work in listen server🟥
+     * 🟥Doesn't work in listen server🟥
 
 * [l4dmultislots (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): Allows additional survivor players in server when 5+ player joins the server
-   - How could I control the number of bots spawned at the start
-      - ```cfg/sourcemod/l4dmultislots.cfg```
+    * How could I control the number of bots spawned at the start
+    * ```cfg/sourcemod/l4dmultislots.cfg``` (Start server and this file will be auto-generated)
 		```php
 		l4d_multislots_min_survivors "8"
 		l4d_multislots_spawn_survivors_roundstart "1" 
@@ -86,6 +86,9 @@
     * Each player earn score points
     * When both teams complete chapter with the same score Tiebreak manager will be started
     * Ghost infected can teleport to each survivor
+    
+* [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
+    * This plugin will remove l4d1 survivors npc on The Passing map
 
 - - - -
 ## Optional
@@ -93,38 +96,36 @@
 * [AFK and Join Team Commands Improved Version](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32): Add more commands to let the player spectate and join team. (!afk, !survivors, !infected, etc.), but no changing team abuse.
 
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.</s>
-    - 🟥Broken after 2023/05 update, please wait for author to fix🟥
+     * 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
 * <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.</s>
-    - 🟥Broken after 2023/05 update, please wait for author to fix🟥
+     * 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
-    - 🟥Doesn't work in listen server🟥
+     * 🟥Doesn't work in listen server🟥
    
 * [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
-    - 🟥Doesn't work in listen server🟥
+     * 🟥Doesn't work in listen server🟥
 
 * [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
-    - 🟥Doesn't work in listen server🟥
+     * 🟥Doesn't work in listen server🟥
    
 * [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
 
 * [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
-    - The Passing Fix - download <b>"Stripper_passingfix.7z"</b> (see Attached Files in [L4D2]Character_manager thread) for the passing to prevent players using L4D1 characters from being teleported/killed in this campaign.
-      - Unzip all cfg files in addons\stripper\maps\ 
-    - Remove **Survivor Identity Fix for 5+ Survivors** while using this plugin.
+     * Remove **Survivor Identity Fix for 5+ Survivors** while using this plugin.
 
 * [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
    
 * [l4d_h_csm (Harry Version)](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
-    - typ !csm to open menu
+     * typ !csm to open menu
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
 
 * [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): Gives reactions to both l4d1 and 2 survivors
 
 * [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): Force L4D2 arms, names, and icons for everyone that joins.
-    - Can't guarantee that everyone will be able to get this fix
+     * Can't guarantee that everyone will be able to get this fix
 
 - - - -
 ## Fun

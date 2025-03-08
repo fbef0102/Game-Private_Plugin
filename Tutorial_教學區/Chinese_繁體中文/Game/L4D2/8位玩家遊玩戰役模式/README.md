@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/1/30 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/3/8 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -17,7 +17,7 @@
 * 本篇教學適用於L4D1和L4D2
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
-   - 因為Sourcemod本來就不支援區域伺服器，請自行斟酌
+    * 因為Sourcemod本來就不支援區域伺服器，請自行斟酌
 * 此處教學包含修正5+以上玩家會發生的問題
 
 - - - -
@@ -26,39 +26,39 @@
 * [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/file): 下載安裝8_slots_lobby.vpk可讓大廳有八個位子
-   - 只需要安裝在遊戲的資料夾，不需要放在伺服器裡
-   - 有兩位以上玩家在大廳才能開始遊戲
-   - 安裝此Mod之後會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
+    * 只需要安裝在遊戲的資料夾，不需要放在伺服器裡
+    * 有兩位以上玩家在大廳才能開始遊戲
+    * 安裝此Mod之後會導致你在遊戲中無法使用 ESC->閒置功能，可安裝[AFK and Join Team Commands Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands)插件使用命令閒置
   
 - - - -
 ## 必要檔案
 * [l4dtoolz EXTENSION](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝l4dtoolz): 解鎖伺服器人數限制
-   - 如果是專屬伺服器，在 ```cfg/server.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
-   - 如果是區域伺服器，在 ```cfg/listenserver.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
-    ```php
-    sm_cvar precache_all_survivors 1 // 1=預先載入所有倖存者的角色模組
-    sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來, 1=開啟檔案遊戲一致性的檢查
-    ```
-   - 可參考我的[Server.cfg](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
+    * 如果是專屬伺服器，在 ```cfg/server.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+    * 如果是區域伺服器，在 ```cfg/listenserver.cfg```　寫以下指令 (🟥如果檔案不存在，可自己創建🟥)
+        ```php
+        sm_cvar precache_all_survivors 1 // 1=預先載入所有倖存者的角色模組
+        sm_cvar sv_consistency 0 // 0=關閉遊戲檔案一致性的檢查，避免玩家使用太多的模組進不來, 1=開啟檔案遊戲一致性的檢查
+        ```
+    * 可參考我的[Server.cfg](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
 
 * [Remove Lobby Reservation (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家透過IP或伺服器瀏覽加入伺服器
-    - 🟥只適用於專屬伺服器🟥
+    *  🟥只適用於專屬伺服器🟥
 
 * [l4dmultislots (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots): 生成bot給第五位玩家取代並加入倖存者陣營
-   - 如何回合開始就有8個Bot?
-      - 安裝插件之後運行伺服器，等待插件自己生成 cfg/sourcemod/l4dmultislots.cfg 文件
-        * 這個文件會自己創建，如果沒有創建表示你安裝l4dmultislots失敗
-      - ```cfg/sourcemod/l4dmultislots.cfg``` 設置
-		```php
-		l4d_multislots_min_survivors "8"
-		l4d_multislots_spawn_survivors_roundstart "1" 
-		```
+    * 如何回合開始就有8個Bot?
+        * 安裝插件之後運行伺服器，等待插件自己生成 cfg/sourcemod/l4dmultislots.cfg 文件
+            * 這個文件會自己創建，如果沒有創建表示你安裝l4dmultislots失敗
+        * ```cfg/sourcemod/l4dmultislots.cfg``` 設置
+            ```php
+            l4d_multislots_min_survivors "8"
+            l4d_multislots_spawn_survivors_roundstart "1" 
+            ```
       
 * [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
-    - 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
-    - 修正第五人以上玩家死亡的時候，屍體在別的角色身上
+    * 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
+    * 修正第五人以上玩家死亡的時候，屍體在別的角色身上
 
 * [Survivor_AFK_Fix](https://forums.alliedmods.net/showthread.php?t=326742): 修正5+多人遊戲裡，使用閒置的時候，閒置錯成別的相同模組角色的bot，如果相同模組角色已經有真人玩家取代或閒置，則會變成完全旁觀者
 
@@ -71,7 +71,7 @@
 * [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 	
 * [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
-    - 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
+    * 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
 
 * [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
 
@@ -91,47 +91,48 @@
     * 雙方分數打平時，依照傷害量最多的隊伍多加分數
     * 靈魂特感可以按E傳送到每位倖存者身上
 
+* [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
+    * 此插件會移除The Passing地圖上的一代倖存者NPC
+
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
 * [AFK and Join Team Commands Improved Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands): 提供多種命令轉換隊伍陣營 (譬如: !afk, !survivors, !infected), 但不可濫用.
 
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動</s>
-    - 🟥會導致伺服器崩潰，等待作者修復🟥
+    * 🟥會導致伺服器崩潰，等待作者修復🟥
 
 * <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動</s>
-    - 🟥會導致伺服器崩潰，等待作者修復🟥
+    * 🟥會導致伺服器崩潰，等待作者修復🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127)
-    - 🟥只適用於專屬伺服器🟥
-    - 修正五人以上友傷沒有語音
-    - 修正玩家被hunter撲/被Charger撞沒有語音
-    - 修正一代角色看見隊友屍體沒有反應
+    * 🟥只適用於專屬伺服器🟥
+    * 修正五人以上友傷沒有語音
+    * 修正玩家被hunter撲/被Charger撞沒有語音
+    * 修正一代角色看見隊友屍體沒有反應
    
 * [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
-    - 🟥只適用於專屬伺服器🟥
+    * 🟥只適用於專屬伺服器🟥
 
 * [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
-    - 🟥只適用於專屬伺服器🟥
+    * 🟥只適用於專屬伺服器🟥
    
 * [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
 
 * [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
-    - 安裝此插件會導致在The Passing地圖或含有一代NPC的三方圖當中，一代角色的玩家會被傳送到地圖之外或死亡，想要修正此問題請安裝<b>"Stripper_passingfix.7z"</b>(位於此插件貼文附檔區)
-      - 解壓縮檔案到addons\stripper\maps\ 相同資料夾
-    - 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
+    * 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 
 * [l4d_h_csm (哈利版本)](/L4D_插件/Survivor_人類/l4d_h_csm): 允許玩家在遊戲中更換一二代角色(外觀, 手 和 語音) 或是模組(只有外觀)
-    - 此為CSM插件重製版，輸入!csm打開角色選擇介面
+    * 此為CSM插件重製版，輸入!csm打開角色選擇介面
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
 
 * [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
 
 * [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): 修復每個人都能看到一二代角色的名子與頭像
-    - 不一定對每個人都有用
+    * 不一定對每個人都有用
 
 - - - -
 ## 娛樂檔案

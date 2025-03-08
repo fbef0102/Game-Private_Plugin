@@ -1,0 +1,9 @@
+"Phrases"
+{
+	"Kick"
+	{
+		"en"	"Change the Options -> Multiplayer -> Custom Server Content -> Allow All\nReconnect to Server again"
+		"zho"	"請設置: 選項->多人連線->自訂伺服器內容->全部允許\n再嘗試連線至伺服器"
+		"chi"	"请打开: 选项->多人联机->自定义服务器内容->允许全部\n再重新连线至服务器"
+	}
+}
