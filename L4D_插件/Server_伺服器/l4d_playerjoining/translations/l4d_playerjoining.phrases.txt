@@ -61,6 +61,7 @@
     {
         "en"        "Somewhere"
     }
+	
     "Left_Server"
     {
         // {1} Name 名字
@@ -69,6 +70,43 @@
         "en"        "{olive}[Join] {green}{1}{default} has left the server {green}({2})"
         "zho"       "{olive}[Join] {green}{1}{default} 離開了伺服器 {green}({2})"
         "chi"       "{olive}[Join] {green}{1}{default} 离开了伺服器 {green}({2})"
+    }
+	
+   "VAC BAN"
+    {
+        "en"        "VAC BAN"
+        "zho"       "VAC 封禁"
+        "chi"       "VAC 封禁"
+    }
+
+   "This Steam accout does not own this game"
+    {
+        "en"        "This Steam accout does not own this game"
+        "zho"       "此帳號不擁有遊戲，不准用家庭分享"
+        "chi"       "此帐号不拥有游戏，不准用家庭分享"
+    }
+
+   "Your client has failed to reply to a query in time"
+    {
+        "en"        "Your client has failed to reply to a query in time"
+        "zho"       "您的客戶端未能及時響應"
+        "chi"       "您的客户端未能及时回复查询"
+    }
+
+   "No Steam logon"
+    {
+        "en"        "No Steam logon"
+        "zho"       "No Steam logon"
+        "chi"       "No Steam logon"
+    }
+
+	// Add more reason if you want (reason must be English)
+	// 自行新增離線原因 (離線原因必須是英文)
+    "xxxx"
+    {
+        "en"        "xxxx"
+        "zho"       "xxxx"
+        "chi"       "xxxx"
     }
 }
 

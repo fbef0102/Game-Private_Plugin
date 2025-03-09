@@ -7,15 +7,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* Image
-	<br/>![l4d_playerjoining_1](image/l4d_playerjoining_1.jpg)
-	<br/>![l4d_playerjoining_2](image/l4d_playerjoining_2.jpg)
-
 * Apply to | 適用於
 	```
 	L4D1 Dedicated Server
 	L4D2 Dedicated Server
 	```
+
+* Image
+	<br/>![l4d_playerjoining_1](image/l4d_playerjoining_1.jpg)
+	<br/>![l4d_playerjoining_2](image/l4d_playerjoining_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -32,6 +32,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. To retrieve data from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
+		* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -52,14 +53,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations\l4d_playerjoining.phrases.txt
 	```
-</details>
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 	
@@ -68,6 +65,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2025-3-9)
+		* Translate disconnect reason
 
 	* v1.1 (2024-8-10)
 		* Update translation
@@ -97,10 +97,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 玩家更換隊伍時顯示
 		* 玩家名稱
 	* 想要新增更多提示譬如IP、伺服器人數、Steam ID，請聯繫我修改
-
-* 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
