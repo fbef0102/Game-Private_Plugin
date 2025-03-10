@@ -1,5 +1,5 @@
 # 問題總攬
-> 2024/11/29 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/3/10 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [問題總攬](#問題總攬)
   - [前言介紹](#前言介紹)
   - [選擇區域伺服器或專屬伺服器](#選擇區域伺服器或專屬伺服器)
@@ -170,7 +170,9 @@
       - ```-port 27016``` 為設定的Port
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
       - ```+log on``` 打開伺服器紀錄儀
-      - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件 (沒有此文件請自行創立)
+      - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
+         * 🟥 沒有此文件請自行創立, 內容依照不同遊戲的需求自行修改
+         * 我的[server.cfg範例](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server.cfg)
       - ```+sv_lan 0``` 改成網際網路 (廢話)
       - ```-maxplayers 31``` 最多的客戶端人數上限，即使設定31人，伺服器人數受到遊戲模式的限制
          - L4D 戰役模式最多4人、對抗模式最多8人
