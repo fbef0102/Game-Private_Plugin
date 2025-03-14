@@ -69,6 +69,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Display which message? Add numbers together
 		// 1=Tank has spawned, 2=Witch has spawned, 4=Tank flow percentage, 8=Witch flow percentage
 		l4d_coop_boss_chat_flag "15"
+
+		// 1=Disable director tank spawn and witch spawn, 0=Won't affect director
+		l4d_coop_boss_disable_director "1"
 		```
 </details>
 
@@ -131,6 +134,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9h (2025-3-15)
 	* v1.8h (2024-10-6)
 		* Update cvars
 		* Update data
@@ -206,6 +210,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 顯示以下哪些訊息給玩家看? 請將數字相加
 		// 1=Tank已復活, 2=Witch已復活, 4=Witch路程, 8=Tank路程
 		l4d_coop_boss_chat_flag "15"
+
+		// 1=關閉Tank與Witch導演生成系統, 0=不要影響導演系統
+		l4d_coop_boss_disable_director "1"
 		```
 </details>
 

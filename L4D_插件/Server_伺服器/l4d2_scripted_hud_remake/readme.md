@@ -5,8 +5,10 @@ Display text for up to 15 scripted HUD slots on the screen.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	* Survivor - 人類方
@@ -94,23 +96,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Hud position depends on Gaming Monitor Resolutions
 </details>
 
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
-		> L4D2擊殺提示改成CS遊戲的擊殺列表
-</details>
-
 * <details><summary>Other Version | 其他版本</summary>
 
 	1. [l4d2_scripted_hud_remake_1](OtherVersion_其他版本/l4d2_scripted_hud_remake_1): Display different Default HUD Text, for coop campaign (variant 1)
 		> 不同的預設 HUD 文字，搭配戰役用 (變體代號1)
 	1. [l4d2_scripted_hud_remake_2](OtherVersion_其他版本/l4d2_scripted_hud_remake_2): Display different Default HUD Text, for versus/zonemod campaign (variant 2)
 		> 不同的預設 HUD 文字，搭配對抗與Zonemod用 (變體代號2)
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d2_cs_kill_hud](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_cs_kill_hud): HUD with cs kill info list.
+		> L4D2擊殺提示改成CS遊戲的擊殺列表
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

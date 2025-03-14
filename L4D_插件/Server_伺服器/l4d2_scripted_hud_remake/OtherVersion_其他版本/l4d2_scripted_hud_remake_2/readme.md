@@ -7,8 +7,10 @@ Display different Default HUD Text, for versus/zonemod server (variant 2)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d2_scripted_hud_remake_1](image/l4d2_scripted_hud_remake_1.jpg)
@@ -28,11 +30,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
-* Optional | 可選安裝
-	1. [l4d2_hybrid_scoremod](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_hybrid_scoremod.sp): The next generation scoring mod
-		> Zonemod用的分數插件
-	2. [l4d2_versus_scoremod](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Versus_%E5%B0%8D%E6%8A%97%E6%A8%A1%E5%BC%8F/l4d2_versus_scoremod): Override versus score depending on survivor health and damage bonus
-		> 根據玩家的血量與傷害改變對抗模式的分數
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d2_hybrid_scoremod](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_hybrid_scoremod.sp): Modify vesus score for zonemod, display hud 3 score
+		* Zonemod用的藥抗分數插件，裝上後Hud3 顯示分數
+	2. [l4d2_versus_scoremod](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Versus_%E5%B0%8D%E6%8A%97%E6%A8%A1%E5%BC%8F/l4d2_versus_scoremod): Display hud 3 score
+		* Hud3 顯示分數
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -93,11 +97,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* The limit of each HUD text is up to 127 characters.
 		* Hud position depends on Gaming Monitor Resolutions
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

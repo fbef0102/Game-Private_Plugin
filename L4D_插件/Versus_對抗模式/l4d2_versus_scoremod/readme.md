@@ -5,8 +5,10 @@ Override versus score depending on survivor health and damage bonus
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2 Versus
+	```
 
 * Image | 圖示
 	* Display Versus Bonus (輸入!bonus顯示通關獎勵分數)
@@ -26,6 +28,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [SirPlease/L4D2-Competitive-Rework l4d2_penalty_bonus](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_penalty_bonus.sp): Give versus much bonus when a tank/witch is killed
+    	* 殺死tank或witch可獲得額外的對抗分數
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -114,26 +122,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		}
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2 Versus
-	```
 	
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	l4d2_versus_scoremod/l4d2_versus_scoremod.phrases.txt
 	```
-</details>
-
-* <details><summary>Related Plugin | 相關插件</summary>
-	
-	1. [SirPlease/L4D2-Competitive-Rework l4d2_penalty_bonus](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_penalty_bonus.sp): Give versus much bonus when a tank/witch is killed
-    	* 殺死tank或witch可獲得額外的對抗分數
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
