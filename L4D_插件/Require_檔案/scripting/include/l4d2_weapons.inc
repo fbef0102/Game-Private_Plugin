@@ -6,7 +6,7 @@
 #include <sdktools>
 
 /**
- * Version: 1.0h (2023-12-13)
+ * Version: 1.1h (2025-3-21)
  * Author: HarryPotter
  */
 
@@ -376,23 +376,38 @@ stock static StringMap hWeaponNamesTrie = null;
 stock static StringMap hMeleeWeaponNamesTrie = null;
 stock static StringMap hMeleeWeaponModelsTrie = null;
 stock static StringMap hMeleeWeaponModelsHandTrie = null;
+stock static StringMap hPropPhysicModelsTrie = null;
+//stock static StringMap hPropPhysicModelsHandTrie = null;
 
 stock void InitWeaponNamesTrie()
 {
+	delete hWeaponNamesTrie;
 	hWeaponNamesTrie = new StringMap();
 
 	for (int i = 0; i < WEPID_SIZE; i++) {
 		hWeaponNamesTrie.SetValue(WeaponNames[i], i);
 	}
 
+	delete hMeleeWeaponNamesTrie;
 	hMeleeWeaponNamesTrie = new StringMap();
+	delete hMeleeWeaponModelsTrie;
 	hMeleeWeaponModelsTrie = new StringMap();
+	delete hMeleeWeaponModelsHandTrie;
 	hMeleeWeaponModelsHandTrie = new StringMap();
 
 	for (int i = 0; i < WEPID_MELEES_SIZE; i++) {
 		hMeleeWeaponNamesTrie.SetValue(MeleeWeaponNames[i], i);
 		hMeleeWeaponModelsTrie.SetString(MeleeWeaponModels[i], MeleeWeaponNames[i]);
 		hMeleeWeaponModelsHandTrie.SetString(MeleeWeaponModels_Hand[i], MeleeWeaponNames[i]);
+	}
+
+	delete hPropPhysicModelsTrie;
+	hPropPhysicModelsTrie = new StringMap();
+	//delete hPropPhysicModelsHandTrie;
+	//hPropPhysicModelsHandTrie = new StringMap();
+	for (int i = 0; i < WEPID_SIZE; i++) {
+		hPropPhysicModelsTrie.SetString(WeaponModels[i], WeaponNames[i]);
+		//hPropPhysicModelsHandTrie.SetString(WeaponModels_Hand[i], WeaponNames[i]);
 	}
 }
 
@@ -623,6 +638,50 @@ stock bool GetMeleeWeaponNameFromEntity(int entity, char[] buffer, const int len
 
 	return false;
 }
+/**
+ * Tries to get weapon name from prop_physics or physics_prop
+ */
+stock bool GetWeaponNameFromProp(int entity, char[] buffer, const int length)
+{
+	if (entity <= MaxClients|| !IsValidEntity(entity)) {
+		return false;
+	}
+
+	char classname[64], sModelName[PLATFORM_MAX_PATH];
+	if (!GetEntityClassname(entity, classname, sizeof(classname))) {
+		return false;
+	}
+
+	if (hPropPhysicModelsTrie == null) {
+		InitWeaponNamesTrie();
+	}
+
+	if (strncmp(classname, "physics_prop", 12, false) == 0)
+	{
+		// nothing
+	} 
+	else if (strncmp(classname, "prop_physics", 12, false) == 0) 
+	{
+		if (!HasEntProp(entity, Prop_Send, "m_isCarryable")) 
+			return false;
+	}
+	else
+	{
+		return false;
+	}
+
+	GetEntPropString(entity, Prop_Data, "m_ModelName", sModelName, sizeof(sModelName));
+	// Strip models directory
+	if (strncmp(sModelName, "models/", 7, false) == 0) {
+		strcopy(sModelName, sizeof(sModelName), sModelName[6]);
+	}
+
+	if (hPropPhysicModelsTrie.GetString(sModelName, buffer, length)) {
+		return true;
+	}
+
+	return false;
+}
 
 /**
  * Tries to look up the weapon model for a given WeaponId.
@@ -659,6 +718,20 @@ stock int IdentifyWeapon(int entity)
 	if (strcmp(class, "weapon_spawn") == 0) {
 		return GetEntProp(entity, Prop_Send, "m_weaponID");
 	}
+	else if (strncmp(class, "physics_prop", 12, false) == 0)
+	{
+		if(!GetWeaponNameFromProp(entity, class, sizeof(class)))
+		{
+			return WEPID_NONE;
+		}
+	}
+	else if (strncmp(class, "prop_physics", 12, false) == 0)
+	{
+		if(!GetWeaponNameFromProp(entity, class, sizeof(class)))
+		{
+			return WEPID_NONE;
+		}
+	}
 
 	int len = strlen(class);
 	int len2 = len - 6;
@@ -694,6 +767,20 @@ stock int IdentifyWeaponAndFullClassName(int entity, char[] buffer, int maxlengt
 
 	if (strcmp(class, "weapon_spawn") == 0) {
 		return GetEntProp(entity, Prop_Send, "m_weaponID");
+	}
+	else if (strncmp(class, "physics_prop", 12, false) == 0)
+	{
+		if(!GetWeaponNameFromProp(entity, class, sizeof(class)))
+		{
+			return WEPID_NONE;
+		}
+	}
+	else if (strncmp(class, "prop_physics", 12, false) == 0)
+	{
+		if(!GetWeaponNameFromProp(entity, class, sizeof(class)))
+		{
+			return WEPID_NONE;
+		}
 	}
 
 	int len = strlen(class);

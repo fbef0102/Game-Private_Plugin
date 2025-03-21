@@ -1,5 +1,5 @@
 # Description | 內容
-Control items limit on map
+Control weapons and items limit on map
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -14,10 +14,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
 	* On map starts loading 0.5 second later
-		* Find all items on the map and control limit
-		* Removes items until total numbers match the limit
-		* First aid kits、defibrillators、pills、adrenalines、molotovs、pipe bombs、vomitjars、prop tanks、oxy tanks、gas cans、fireworks
-	* Modify [data/ItemTracking.cfg](data/ItemTracking.cfg) and control items limit on the map
+		* Find all weapons and items on the map and control limit
+		* Removes weapons and items until total numbers match the limit
+			* First aid kits, defibrillators, pills, adrenalines, molotovs, pipe bombs, vomitjars, prop tanks, oxy tanks, gas cans, fireworks
+			* Melee weapons, chainsaws
+			* Pistol, magnum pistols
+			* All primary weapons
+	* Modify [data/ItemTracking.cfg](data/ItemTracking.cfg) and control weapons and items limit on the map
 		* Click file for more details...
 	* Keep item spawns the same position number on both rounds in versus/scavenge
 </details>
@@ -25,6 +28,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d2_replace_gun_item](/L4D_插件/Items_物品/l4d2_replace_gun_item): Delete weapons and items on the map and replace guns/items/melees with other guns/items/melees
+		* 刪除地圖上的大槍、治療包、近戰、其他投擲物與物品，並替換成其他武器、物品、近戰
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -43,21 +52,30 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Official ConVar</summary>
 
-	* write down the following cvars in cfg/server.cfg
-		```php
-		// Item density, Items per 100 yards square
-		// modify if you want
-		sm_cvar director_pain_pill_density 		"6.48"
-		sm_cvar director_adrenaline_density		"6.48"
-		sm_cvar director_defibrillator_density 	"6.48"
-		sm_cvar director_molotov_density 		"6.48"
-		sm_cvar director_pipe_bomb_density 		"6.48"
-		sm_cvar director_vomitjar_density 		"6.48"
+	* You can ignore the following convars.
 
-		sm_cvar director_propane_tank_density 	"6.48"
-		sm_cvar director_gas_can_density 		"6.48"
-		sm_cvar director_oxygen_tank_density 	"6.48"
-		```
+	| ConVar/Command  				| Parameters or default value	   			| Effect|
+	| -------------|:-----------------:|:-------------:|
+	| director_adrenaline_density 					| 6.48 	| Adrenaline shots per 100 yards square |
+	| director_ammo_density         				| 6.48  | Ammo per 100 yards square |
+	| director_configurable_weapon_spawn_density    | -1.0  | Items per 100 yards square (-1 to spawn all) |
+	| director_defibrillator_density         		| 6.48  | Defibrillators per 100 yards square |
+	| director_gas_can_density         				| 6.48  | Gas cans per 100 yards square |
+	| director_magnum_spawn_density         		| -1.0  | Magnum weapons per 100 yards square (-1 to spawn all) |
+	| director_melee_weapon_density         		| 6.48  | Melee weapons per 100 yards square |
+	| director_molotov_density        				| 6.48  | Molotovs per 100 yards square |
+	| director_oxygen_tank_density         			| 6.48  | Oxygen tanks per 100 yards square |
+	| director_pain_pill_density         			| 6.48  | Pain pills per 100 yards square |
+	| director_pipe_bomb_density         			| 6.48  | Pipe bombs per 100 yards square |
+	| director_pistol_density         				| 4  	| Pistols per 100 yards square |
+	| director_propane_tank_density         		| 6.48  | Propane tanks per 100 yards square |
+	| director_super_weapon_density         		| 6.48  | Items per 100 yards square (Grenade Launcher, M60) |
+	| director_upgradepack_density         			| 6.48  | Upgrade packs per 100 yards square |
+	| director_vomitjar_density         			| 6.48  | Vomitjars per 100 yards square |
+	| director_scavenge_item_override         		| 0  	| Override map-specified item densities with cvar values for tuning |
+	| director_finale_item_cluster_count         	| 3 	| How many clusters of items will be populated in the finale |
+	| director_item_cluster_range         			| 50 	| Scavenge items of the same kind that are this close to each other are considered a single 'cluster' for population purposes |
+	| director_weapon_cluster_range         		| 100 	| Scavenge weapons within this range are selected to be of the same tier, and not contain duplicate types |
 </details>
 
 * <details><summary>Related | 相關插件</summary>
@@ -68,6 +86,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* 1.4h (2025/3/21)
+		* Add all weapons, melee and chainsaws....
+		* Update data file
+
 	* v1.3h (2024-12-7)
 		* Update data
 		* Remove final area
@@ -94,13 +116,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 - - - -
 # 中文說明
-控制地圖上的物品數量與限制
+控制地圖上的武器、物品的數量與限制
 
 * 原理
 	* 地圖載入後的0.5秒後
-		* 控制地圖上的物品生成數量或限制
-		* 此插件刪除地圖上原有的物品，並非生成新物品
-		* 目前能控制的物品: 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶、瓦斯、氧氣灌、汽油桶、煙火盒
+		* 控制地圖上的武器、物品生成數量或限制
+		* 此插件刪除地圖上原有的武器、物品，並非生成新物品
+		* 目前能控制的物品
+			* 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶、瓦斯、氧氣灌、汽油桶、煙火盒
+			* 近戰武器、電鋸
+			* 手槍, 瑪格南手槍
+			* 所有主武器
 	* 設置文件[data/ItemTracking.cfg](data/ItemTracking.cfg)，控制地圖上的物品生成數量或限制
 		* 內有中文說明，可點擊文件查看...
 	* 對抗/清道夫模式的第二回合，所有物品位置與數量與第一回合相同
@@ -122,18 +148,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
-	* 以下指令寫入文件 cfg/server.cfg，可自行調整
-		```php
-		// 物品生成密度，每 100 碼平方單位生成的數量 (數字越大，地圖上該物品數量越多)
-		sm_cvar director_pain_pill_density 		"6.48" // 藥丸
-		sm_cvar director_adrenaline_density		"6.48" // 腎上腺素
-		sm_cvar director_defibrillator_density 	"6.48" // 電擊器
-		sm_cvar director_molotov_density 		"6.48" // 汽油彈
-		sm_cvar director_pipe_bomb_density 		"6.48" // 土製炸彈
-		sm_cvar director_vomitjar_density 		"6.48" // 膽汁瓶
+	* 以下指令可以寫入文件 ```cfg/server.cfg```，自行調整 (也可以不用寫)
 
-		sm_cvar director_propane_tank_density 	"6.48" // 瓦斯桶
-		sm_cvar director_gas_can_density 		"6.48" // 汽油桶
-		sm_cvar director_oxygen_tank_density 	"6.48" // 氧氣灌
-		```
+	| ConVar/Command  				| Parameters or default value	   			| Effect|
+	| -------------|:-----------------:|:-------------:|
+	| director_adrenaline_density 					| 6.48 	| 腎上腺素生成密度，每 100 碼平方單位生成的數量 (數字越大，地圖上該物品數量越多) |
+	| director_ammo_density         				| 6.48  | 彈藥堆生成密度，每 100 碼平方單位生成的數量 (數字越大，地圖上該物品數量越多) |
+	| director_configurable_weapon_spawn_density    | -1.0  | 每 100 碼平方單位生成的武器數量 (-1 = 全部生成) |
+	| director_defibrillator_density         		| 6.48  | 電擊器生成密度，每 100 碼平方單位生成的數量 |
+	| director_gas_can_density         				| 6.48  | 汽油桶生成密度，每 100 碼平方單位生成的數量 |
+	| director_magnum_spawn_density         		| -1.0  | 瑪格南手槍生成密度，每 100 碼平方單位生成的數量 (-1 = 全部生成) |
+	| director_melee_weapon_density         		| 6.48  | 近戰武器生成密度，每 100 碼平方單位生成的數量 |
+	| director_molotov_density        				| 6.48  | 火瓶生成密度，每 100 碼平方單位生成的數量 |
+	| director_oxygen_tank_density         			| 6.48  | 氧氣罐生成密度，每 100 碼平方單位生成的數量 |
+	| director_pain_pill_density         			| 6.48  | 藥丸生成密度，每 100 碼平方單位生成的數量 |
+	| director_pipe_bomb_density         			| 6.48  | 土製炸彈生成密度，每 100 碼平方單位生成的數量 |
+	| director_pistol_density         				| 4  	| 手槍生成密度，每 100 碼平方單位生成的數量 |
+	| director_propane_tank_density         		| 6.48  | 瓦斯桶生成密度，每 100 碼平方單位生成的數量 |
+	| director_super_weapon_density         		| 6.48  | 超級武器生成密度，每 100 碼平方單位生成的數量 (榴彈發射器, M60) |
+	| director_upgradepack_density         			| 6.48  | 高爆彈包與火焰彈包生成密度，每 100 碼平方單位生成的數量 |
+	| director_vomitjar_density         			| 6.48  | 膽汁瓶生成密度，每 100 碼平方單位生成的數量 |
+	| director_scavenge_item_override         		| 0  	| (不知道實際功能) Override map-specified item densities with cvar values for tuning |
+	| director_finale_item_cluster_count         	| 3 	| (不知道實際功能) How many clusters of items will be populated in the finale |
+	| director_item_cluster_range         			| 50 	| (不知道實際功能) Scavenge items of the same kind that are this close to each other are considered a single 'cluster' for population purposes |
+	| director_weapon_cluster_range         		| 100 	| (不知道實際功能) Scavenge weapons within this range are selected to be of the same tier, and not contain duplicate types |
 </details>

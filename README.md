@@ -332,8 +332,8 @@
 
   * [L4D_NoSafeRoomMedKits](/L4D_插件/Items_物品/L4D_NoSafeRoomMedKits): No Safe Room Medkits
     * 刪除安全室的治療包並替換成別的物品
-  * [ItemTracking](/L4D_插件/Items_物品/ItemTracking): Control items limit on map
-    * 控制地圖上的物品數量與限制
+  * [ItemTracking](/L4D_插件/Items_物品/ItemTracking): Control weapons and items limit on map
+    * 控制地圖上的武器、物品的數量與限制
   * [AnnouceLaserAmmo](/L4D_插件/Items_物品/AnnouceLaserAmmo): Display instruction hint when someone uses ammo or laser sight
     * 玩家補給子彈或雷射時顯示大大的提示給其他玩家看到
   * [l4d_medkit_status](/L4D_插件/Items_物品/l4d_medkit_status): Report Personal Medkit Status when player used Medkits

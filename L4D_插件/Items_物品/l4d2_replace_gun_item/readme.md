@@ -16,7 +16,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Detect all weapons/items/melees and replace with other guns/items/melees on round start
+	* Detect all weapons/items/melees and replace with other guns/items/melees on round start 0.8 sec later
 	* Replace the weapon if the weapon is late spawn during the game. For example:
 		* Bile jar, nightstick from uncommon infected
 		* Items from Foot Locker
@@ -28,6 +28,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [ItemTracking](/L4D_插件/Items_物品/ItemTracking): Control weapons and items limit on map
+		* 控制地圖上的武器、物品的數量與限制
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -79,6 +85,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.5 (2025-3-21)
+		* Fixed not replace prop items (cola, gnome...)
+		* Update l4d2_weapons.inc
+
 	* v1.4 (2025-3-4)
 		* Replace the weapon & item if dropped from survivor
 		* Update cvars
