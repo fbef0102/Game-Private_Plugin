@@ -5,8 +5,11 @@ Sets a tank and witch spawn point based on the percentage of passing the map in 
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 Coop
+	L4D2 Coop/Realism
+	```
 
 * Image | 圖示
 	<br/>![coopbosses_ifier_1](image/coopbosses_ifier_1.jpg)
@@ -107,12 +110,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* [data/mapinfo.txt](data/mapinfo.txt)
 		> Watch file for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 Coop
-	L4D2 Coop/Realism
-	```
 
 * <details><summary>Related | 相關插件</summary>
 

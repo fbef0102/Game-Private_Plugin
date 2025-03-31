@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/3/9 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/3/31 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -89,6 +89,8 @@
     * 每一位玩家都算距離分數
     * 雙方分數打平時，依照傷害量最多的隊伍多加分數
     * 靈魂特感可以按E傳送到每位倖存者身上
+
+* [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
 
 * [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
     * 此插件會移除The Passing地圖上的一代倖存者NPC

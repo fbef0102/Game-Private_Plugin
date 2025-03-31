@@ -66,7 +66,7 @@
 			//If 0, Allow to change sv_cheats to 1 anytime
 			//If 1, Allow to join this server from matchmaking lobby only
 			//If 1, server has reserve match system no matter how players join server 
-			//If 1, Now allow to change sv_cheats to 1
+			//If 1, Not allow to change sv_cheats to 1
 			sv_allow_lobby_connect_only 0
 
 			//This cvar from l4dtoolz extension

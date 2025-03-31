@@ -28,6 +28,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
+	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * <details><summary>Support | 支援插件</summary>
 
@@ -85,9 +86,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.6 (2025-3-31)
 	* v1.5 (2025-3-21)
 		* Fixed not replace prop items (cola, gnome...)
-		* Update l4d2_weapons.inc
+		* Need to update l4d2_weapons.inc and recompile
+		* Require left4dhooks
 
 	* v1.4 (2025-3-4)
 		* Replace the weapon & item if dropped from survivor

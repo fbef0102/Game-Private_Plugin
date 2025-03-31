@@ -1,8 +1,11 @@
 # Description | 內容
 Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Image | 圖示</summary>
 
@@ -37,22 +40,6 @@ Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
 
 * Require | 必要安裝
 <br/>None
-
-* <details><summary>ConVar | 指令</summary>
-
-    None
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

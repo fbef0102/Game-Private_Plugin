@@ -5,10 +5,13 @@ shoot teammate = shoot yourself RPG
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/5edUrzY1x5c)
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
-* Image | 圖示
-<br/>None
+* [Video | 影片展示](https://youtu.be/5edUrzY1x5c)
 
 * <details><summary>How does it work?</summary>
 
@@ -77,33 +80,22 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
   
 	* [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
 		> Manual in this file, click for more details...
 </details>
 
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * Translation Support | 支援翻譯
 	```
-	translations/anti-friendly_fire_RPG.phrases
+	translations/anti-friendly_fire_RPG.phrases.txt
 	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
 		* 簡單版反傷插件
-	2. [anti-friendly_fire_V2](https://github.com/fbef0102/Game-Private_Plugin/tree/main/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
+	2. [anti-friendly_fire_V2](/L4D_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
 		* 簡單版反傷插件，第二版本
 </details>
 

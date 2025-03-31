@@ -1,5 +1,5 @@
 # Navigation
-> 2025/3/9 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/3/31 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -85,6 +85,8 @@
     * Each player earn score points
     * When both teams complete chapter with the same score Tiebreak manager will be started
     * Ghost infected can teleport to each survivor
+
+* [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from NavLadder::GetPosAtHeight.
     
 * [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
     * This plugin will remove l4d1 survivors npc on The Passing map
