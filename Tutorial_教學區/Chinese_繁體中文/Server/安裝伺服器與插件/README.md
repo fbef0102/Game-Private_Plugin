@@ -65,11 +65,11 @@
       - ```login xxxxx```
          - xxxxx 是你的steam帳戶的帳號
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-            - 222840 為L4Dead - Dedicated Server
+            - 222840 為L4D - Dedicated Serverr
             - 222860 為L4D2 - Dedicated Server
             - 232330 為Counter-Strike: Source - Dedicated Server
             - 317670 為No More Room in Hell - Dedicated Server
@@ -97,11 +97,11 @@
       - ```login xxxxx```
          - xxxxx 是你的steam帳戶的帳號
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-            - 222840 為L4Dead - Dedicated Server
+            - 222840 為L4D - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
             - 232330 為Counter-Strike: Source - Dedicated Server
             - 317670 為No More Room in Hell - Dedicated Server
@@ -803,11 +803,11 @@
       - ```login xxxxx```
          - xxxxx 是你的steam帳戶的帳號
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID
-            - 222840 為L4Dead - Dedicated Server
+            - 222840 為L4D - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
             - 232330 為Counter-Strike: Source - Dedicated Server
             - 317670 為No More Room in Hell - Dedicated Server
@@ -834,11 +834,11 @@
       - ```login xxxxx```
          - xxxxx 是你的steam帳戶的帳號
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-      - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-      - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
+         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
-            - 222840 為L4Dead - Dedicated Server
+            - 222840 為L4D - Dedicated Server
             - 222860 為L4D2 - Dedicated Server
             - 232330 為Counter-Strike: Source - Dedicated Server
             - 317670 為No More Room in Hell - Dedicated Server
@@ -860,7 +860,7 @@
 3. 重新安裝所有插件
    * 必要時，請自己上網查看插件是否有更新
    * 建議一律下載最新版本的插件並更新
-   * 建議建議保留源碼並自己編譯
+   * 建議保留源碼並自己編譯
 
 - - - -
 ## 專業術語介紹

@@ -1,18 +1,18 @@
 # Description | 內容
-Protect and hide sensitive ConVars from the data-file (should not be exposed to clients or logs), and send fake value to clients if possible
+Protect and hide sensitive ConVars from the data-file (should not be exposed to clients, logs or monitoring), and send fake value to clients if possible
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	<br/>![sv_protect_cvar_1](image/sv_protect_cvar_1.jpg)
-	<br/>![sv_protect_cvar_2](image/sv_protect_cvar_2.jpg)
-
 * Apply to | 適用於
 	```
 	Any Source Game
 	```
+
+* Image | 圖示
+	<br/>![sv_protect_cvar_1](image/sv_protect_cvar_1.jpg)
+	<br/>![sv_protect_cvar_2](image/sv_protect_cvar_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -31,6 +31,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2025-4-7)
+		* Optimize code
 
 	* v1.1 (2024-10-28)
 		* Fixed error

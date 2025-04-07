@@ -8,32 +8,32 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* Image | 圖示
-	* Name, country, city, play time, lerp
-	<br/>![sm_PlayerTime_1](image/sm_PlayerTime_1.jpg)
-	* From Game Stats
-	<br/>![sm_PlayerTime_2](image/sm_PlayerTime_2.jpg)
-
 * Apply to | 適用於
 	```
 	L4D2 Dedicated Server
 	CSS Dedicated Server
 	```
 
+* Image | 圖示
+	* Name, country, city, play time, lerp
+	<br/>![sm_PlayerTime_1](image/sm_PlayerTime_1.jpg)
+	* From Game Stats
+	<br/>![sm_PlayerTime_2](image/sm_PlayerTime_2.jpg)
+
 * <details><summary>How does it work?</summary>
 
 	* Display Name, country, city, play time, lerp on client connection
 	* Played time is from game statistics
-	* Any player whose total time played is below 100 hours can not join the server.
+	* You can translate country and city name manually (write in translation file)
 </details>
-
-* Important Step
-	* To retrieve country and city from client, You must [install country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. L4D2: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
-	3. CSS: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
+	2. Steamworks
+		- L4D2: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
+		- CSS: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
+	4. [Country and city database](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#country-and-city-database)
+		* 抓取玩家的地理位置，需安裝[國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -58,7 +58,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_playtime_block_ban_time "1440"
 
 		// Any player whose total time played is below this value can not join the server. (Mins) (0=off)
-		sm_playtime_block_short "6000"
+		sm_playtime_block_short "0"
 
 		// Any player whose total time played is higher this value can not join the server. (Mins) (0=off)
 		sm_playtime_block_long "0"
@@ -76,18 +76,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
-	Russian
-	Ukraine
+	translations/sm_PlayerTimes.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.5 (2025-4-7)
+		* Translate country and city name
 
 	* v2.4 (2024-5-27)
 		* Fixed not working well in sourcemod 1.12
@@ -120,15 +117,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 圖示
 	* 名子、國家、城市、遊戲時數
 	<br/>![zho/sm_PlayerTime_1](image/zho/sm_PlayerTime_1.jpg)
-	* 從遊戲統計
+	* 遊戲統計中的真實時數
 	<br/>![zho/sm_PlayerTime_2](image/zho/sm_PlayerTime_2.jpg)
 
 * 原理
 	* 玩家進來伺服器之時，抓取他的實際遊玩時數 (與'Steam個人檔案上顯示的遊戲時數'會有所不同)
 	* 即使玩家的steam個人資料或頁面設定為未公開，依然可以抓取實際遊玩時數
-
-* 必看步驟
-	* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9D%E5%9C%8B%E5%AE%B6%E8%88%87%E5%9F%8E%E5%B8%82%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB)
+	* 可以顯示中文的地區與城市名稱 (需要自行翻譯)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -155,7 +150,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_playtime_block_ban_time "1440"
 
 		// 遊戲時數少於此數值的玩家將會被封鎖 (單位: 分鐘，0=關閉這項功能)
-		sm_playtime_block_short "6000"
+		sm_playtime_block_short "0"
 
 		// 遊戲時數大於此數值的玩家將會被封鎖 (單位: 分鐘，0=關閉這項功能)
 		sm_playtime_block_long "0"

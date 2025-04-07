@@ -21,9 +21,9 @@
 	"Display_Time_Game"
 	{
 		"#format"		"{1:N},{2:d},{3:d}"
-		"en"	"{1}'s time played on record: {2} hrs {3} mins. (Game Stats)"
-		"zho"	"{1} 的遊戲總時數: {2} 小時 {3} 分. (Game Stats)"
-		"chi"	"{1} 的游戏总时数: {2} 小时 {3} 分. (Game Stats)"
+		"en"	"{1}'s time played on record: {2} hrs {3} mins."
+		"zho"	"{1} 的遊戲總時數: {2} 小時 {3} 分."
+		"chi"	"{1} 的游戏总时数: {2} 小时 {3} 分."
 	}
 	"Display_Unknown"
 	{
@@ -35,39 +35,86 @@
 	"Notify_Unknown_Game"
 	{
 		"#format"		"{1:N},{2:s},{3:s},{4:.1f}" //1=Name, 2=Country, 3=City, 4=Lerp
-		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown (Game Stats)"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown (Game Stats)"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown (Game Stats)"
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown"
 	}
 	"Notify_Time_Game"
 	{
 		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d},{6:.1f}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min, 6=Lerp
-		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min (Game Stats)"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分 (Game Stats)"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分 (Game Stats)"
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分 | lerp: {6}"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分 | lerp: {6}"
 	}
     "LAN Country Desc"
+    {
+        "en"        "Local Network"
+    }
+    "Unknown Country Desc"
+    {
+        "en"        "Unknown Country"
+    }
+    "LAN City Desc"
+    {
+        "en"        "Local City"
+    }
+    "Unknown City Desc"
+    {
+        "en"        "Somewhere"
+    }
+	
+    "Local Network"
     {
         "en"        "Local Network"
         "zho"       "區域網路"
         "chi"       "区域网路"
     }
-    "Unknown Country Desc"
+    "Unknown Country"
     {
         "en"        "Unknown Country"
         "zho"       "未知國家"
         "chi"       "未知国家"
     }
-    "LAN City Desc"
+    "Local City"
     {
         "en"        "Local City"
         "zho"       "當地城市"
         "chi"       "当地城市"
     }
-    "Unknown City Desc"
+    "Somewhere"
     {
         "en"        "Somewhere"
         "zho"       "未知城市"
         "chi"       "未知城市"
     }
+
+	// Translate country and city name manually
+	// 自行翻譯地區與城市
+	"Taiwan"
+	{
+		"en"        "Taiwan"
+        "zho"       "台灣"
+        "chi"       "台湾"
+	}
+	
+	"China"
+	{
+		"en"        "China"
+        "zho"       "中國"
+        "chi"       "中国"
+	}			
+	
+	"Taipei"
+	{
+		"en"        "Taipei"
+        "zho"       "台北"
+        "chi"       "台北"
+	}
+	
+	"Chongqing"
+	{
+		"en"        "Chongqing"
+        "zho"       "重慶"
+        "chi"       "重庆"
+	}
 }
