@@ -5,25 +5,20 @@ Prevents collisions with teammates.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
 
 * Image | 圖示
     <br/>![css_team_noblock_1](image/css_team_noblock_1.gif)
     <br/>![css_team_noblock_2](image/css_team_noblock_2.gif)
     <br/>![css_team_noblock_3](image/css_team_noblock_3.gif)
 
-* Apply to | 適用於
-	```
-	Counter-Strike: Source
-	```
-
 * <details><summary>How does it work?</summary>
 
 	* Run through teammates, only collisions with enemies
     * Grendates fly through teammates
-    * NO physics mayhem/bouncing props BUG
-    * 🟥 This plugin will disable friendly fire except for grenades
 </details>
 
 * <details><summary>Known Issue</summary>
@@ -33,7 +28,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-<br>None
+    1. [Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?t=348804): Fix physics mayhem/bouncing props BUG
+        * 解決物體或武器下沉地圖的Bug
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -47,16 +43,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.3h (2024-10-23)
         * Remove CollisionHook
-        * sm1.12 stable
+        * Require sm1.12 or above
 
     * v1.2h (2024-4-6)
         * Require CollisionHook
@@ -86,8 +77,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 穿透隊友不會造成擋路，只跟敵人身體有碰撞
 	* 手榴彈可以穿透隊友
-    * 沒有物體或武器下沉地圖的Bug
-	* 🟥 此插件會導致友傷關閉，請注意 (手榴彈除外)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -100,7 +89,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         css_team_noblock_grenade_enable "1"
         ```
 </details>
-
 
 * <details><summary>已知問題</summary>
 

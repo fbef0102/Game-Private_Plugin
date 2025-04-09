@@ -6,17 +6,14 @@ Restrict each weapon limit in CT and T team respectively
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-    <br/>None
-
-* Image | 圖示
-    * display message when you try to pick up or buy weapons (顯示武器拿取限制)
-    <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
-
 * Apply to | 適用於
 	```
 	Counter-Strike: Source
 	```
+
+* Image | 圖示
+    * display message when you try to pick up or buy weapons (顯示武器拿取限制)
+    <br/>![css_weapon_limit_1](image/css_weapon_limit_1.jpg)
 
 * <details><summary>How does it work?</summary>
 

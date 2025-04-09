@@ -5,15 +5,15 @@ Drop all weapons, grenades, knife and remaining armor on death.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/4josvz9xJso)
-
-* Image | 圖示
-<br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
-
 * Apply to | 適用於
 	```
 	Counter-Strike: Source
 	```
+
+* [Video | 影片展示](https://youtu.be/4josvz9xJso)
+
+* Image | 圖示
+<br/>![css_drop_on_death_1.gif](image/css_drop_on_death_1.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -60,11 +60,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, Drop all weapons and armor if using command to suicide ("kill", "explode")
         css_drop_on_death_suicide_detect "1"
         ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

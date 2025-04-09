@@ -767,8 +767,8 @@
 ###### **CSS Plugin List | 絕對武力次世代 插件列表**
 * <details><summary><b>Hostage | 人質</b></summary>
 
-  * [css_hostage_invulnerable](/CSS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die.
-    * 人質不會受傷死亡
+  * [css_hostage_invulnerable](/CSS_插件/Hostage_人質/css_hostage_invulnerable): Hostages become invulnerable and never die + No collide with players.
+    * 人質不會受傷死亡+不會與玩家有碰撞 (直接穿透)
 </details>
 
 * <details><summary><b>Player | 玩家</b></summary>

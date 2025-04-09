@@ -43,8 +43,8 @@
 	{
 		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d},{6:.1f}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min, 6=Lerp
 		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分 | lerp: {6}"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分 | lerp: {6}"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分"
 	}
     "LAN Country Desc"
     {

@@ -5,17 +5,17 @@ Modern weapon reload, like csgo quick reloading
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	Counter-Strike: Source
+	```
+
 * [Video | 影片展示](https://youtu.be/8PmqsZRmtto)
 
 * Image | 圖示
 	* Quick reloading (快速裝彈)
     <br/>![css_weapon_csgo_reload_1](image/css_weapon_csgo_reload_1.gif)
     <br/>![css_weapon_csgo_reload_2](image/css_weapon_csgo_reload_2.gif)
-
-* Apply to | 適用於
-	```
-	Counter-Strike: Source
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -164,11 +164,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // USP45 max clip
         css_weapon_csgo_reload_usp_clip_max "12"
         ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
