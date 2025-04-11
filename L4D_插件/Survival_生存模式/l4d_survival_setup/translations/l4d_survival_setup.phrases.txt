@@ -20,17 +20,17 @@
 		"chi"		"生存装备设定界面"
 		"en"		"Auto Setup Menu"
 	}
-	"Turn On"
+	"Setup: On"
 	{
-		"zho"		"開啟自動裝備"
-		"chi"		"开启自动装备"
-		"en"		"Turn On"
+		"zho"		"自動裝備: 開啟"
+		"chi"		"自动装备: 开启"
+		"en"		"Setup: On"
 	}
-	"Turn Off"
+	"Setup: Off"
 	{
-		"zho"		"關閉自動裝備"
-		"chi"		"关闭自动装备"
-		"en"		"Turn Off"
+		"zho"		"自動裝備: 關閉"
+		"chi"		"自动装备: 关闭"
+		"en"		"Setup: Off"
 	}
 	"Define Setup"
 	{
@@ -108,17 +108,17 @@
 		"chi"		"[未定义]"
 		"en"		"[NOT DEFINED]"
 	}
-	"Turn Off Laser Sight"
+	"Laser Sight: Off"
 	{
-		"zho"		"關閉 雷射紅外線"
-		"chi"		"关闭 雷射激光"
-		"en"		"Turn Off Laser Sight"
+		"zho"		"雷射紅外線: 關閉"
+		"chi"		"雷射激光: 关闭"
+		"en"		"Laser Sight: Off"
 	}
-	"Turn On Laser Sight"
+	"Laser Sight: On"
 	{
-		"zho"		"開啟 雷射紅外線"
-		"chi"		"开启 雷射激光"
-		"en"		"Turn On Laser Sight"
+		"zho"		"雷射紅外線: 開啟"
+		"chi"		"雷射激光: 开启"
+		"en"		"Laser Sight: On"
 	}
 	"Setup is disable in this map."
 	{
@@ -179,5 +179,11 @@
 		"zho"		"武器已不在原本的位置上"
 		"chi"		"武器已不在原本的位置上"
 		"en"		"The weapon is not at original location."
+	}	
+	"Data loading"
+	{
+		"zho"		"資料載入中, 請稍後再試"
+		"chi"		"数据载入中, 请稍后再试"
+		"en"		"Data loading, try again later"
 	}
 }

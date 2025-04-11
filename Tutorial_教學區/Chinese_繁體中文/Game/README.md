@@ -165,9 +165,9 @@
         <br/>![image](https://github.com/user-attachments/assets/94947d69-08d1-485f-9e40-8a3f0490e38a)
         * [自製地圖塗鴉](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/map-decals): 所有人能看到圖案
         <br/>![image](https://github.com/user-attachments/assets/8ac6cf71-a50d-4c8e-a609-7546ffba5819)
-        * [自製角色模組](https://forums.alliedmods.net/showthread.php?t=284157): 所有人能看到Ada Wong人物
+        * [自製角色模組](https://forums.alliedmods.net/showthread.php?t=284157): 所有人能看到自製的人物角色
         <br/>![image](https://user-images.githubusercontent.com/12229810/205225817-b240eec1-a877-4d01-921d-d937e87a8998.png)
-        * [跳舞動作](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_插件/Fun_%E5%A8%9B%E6%A8%82/fortnite_l4d1%262): 所有人能看到舞蹈動作
+        * [跳舞動作](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): 所有人能看到舞蹈動作
         <br/>![gif](https://user-images.githubusercontent.com/12229810/233370478-276b9b8d-7584-49b2-a377-fc159dd916f3.gif)
 
 * 如何開啟?
