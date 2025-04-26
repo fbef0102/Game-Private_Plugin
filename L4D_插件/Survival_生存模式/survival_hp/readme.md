@@ -5,8 +5,11 @@ Restore Health when survival begins.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 Survival
+	L4D2 Survival
+	```
 
 * Image | 圖示
 	* display message when survival begins (計時開始時提示訊息)
@@ -27,17 +30,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		survival_hp_god_before_game "1"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 Survival
-	L4D2 Survival
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

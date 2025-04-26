@@ -5,6 +5,11 @@ Adjustable each melee swing rate and each weapon fire rate.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/cco802XNOfk)
 
 * Image | 圖示
@@ -147,11 +152,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_wpspd
 		```
 </details>
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

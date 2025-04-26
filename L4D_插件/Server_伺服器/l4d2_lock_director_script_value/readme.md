@@ -5,8 +5,10 @@ Force director script values by config instead of VPK or vscript file
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d2_lock_director_script_value_1](image/l4d2_lock_director_script_value_1.jpg)
@@ -36,11 +38,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>Data Config</summary>
 
 	* In [data/l4d2_lock_director_script_value](data/l4d2_lock_director_script_value) folder
@@ -52,11 +49,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Run realism mode => plugin reads```realism.cfg```
 		* Run mutation gamemode => plugin reads```xxxx.cfg``` (```xxxx``` = mutation name)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

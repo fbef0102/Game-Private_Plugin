@@ -5,8 +5,11 @@ Survivor bots auto self-revive after incap, hanging from ledge + auto self-clear
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d_bot_auto_self_help_1](image/l4d_bot_auto_self_help_1.gif)
@@ -38,22 +41,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
 
 	* [data/l4d_bot_auto_self_help.cfg](data/l4d_bot_auto_self_help.cfg)
 		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

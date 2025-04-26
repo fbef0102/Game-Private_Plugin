@@ -5,6 +5,12 @@ Save and load gas configs
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1 Survival
+    L4D2 Survival
+    ```
+
 * [Video | 影片展示](https://youtu.be/78Ed0eMKk1U)
 
 * Image
@@ -68,20 +74,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * Don't try to modify unless you know what you are doing
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1 Survival
-    L4D2 Survival
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_survival_GasConfig.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

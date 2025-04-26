@@ -5,6 +5,12 @@ Teleport Call Menu, adm can teleport players to start area, end checkpoint, fina
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/iux1bUZycjM)
 
 * Image
@@ -48,25 +54,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
+* Translation Support | 支援翻譯
 	```
-	L4D1
-	L4D2
+	translations/l4d_teleport_call.phrases.txt
 	```
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 
 	1. [l4d_wind](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_wind): Create a survivor bot in game + Teleport player
 		> 新增Bot + 傳送玩家到其他位置上
-</details>
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

@@ -5,8 +5,11 @@ Simple MVP Statistics after command or in the end of the round
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![L4D2_Stats_Percentage_UP_1](image/L4D2_Stats_Percentage_UP_1.jpg)
@@ -21,11 +24,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 <br/>None
 
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
 * <details><summary>Command | 命令</summary>
 
 	* **Display Survivors Stats**
@@ -33,12 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_stats
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 Coop/Survival/Realism
-	L4D2 Coop/Survival/Realism
-	```
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 

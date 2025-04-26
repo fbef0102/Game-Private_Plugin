@@ -5,6 +5,12 @@ Give ghost players multi S.I. class + allow ghost players to change S.I. class.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/gIbID8wfX8k)
 
 * Image | 圖示
@@ -144,11 +150,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>API | 串接</summary>
 
 	* [l4d_zcs.inc](scripting\include\l4d_zcs.inc)
@@ -157,10 +158,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
+
+* Translation Support | 支援翻譯
 	```
-	L4D1
-	L4D2
+	translations/l4d_zcs.phrases.txt
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>

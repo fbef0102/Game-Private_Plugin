@@ -5,6 +5,12 @@ Allows Bots To Throw Grenades Themselves.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/VzXO-AOm7YQ)
 
 * Image | 圖示
@@ -123,17 +129,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_gtb_throw_vomit_range "1000.0"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

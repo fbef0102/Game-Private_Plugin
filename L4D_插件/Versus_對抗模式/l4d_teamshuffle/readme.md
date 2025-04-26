@@ -5,8 +5,11 @@ Allows teamshuffles by voting or admin-forced before round starts.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
 
 * Image | 圖示
 	<br/>![l4d_teamshuffle_1](image/l4d_teamshuffle_1.jpg)
@@ -20,11 +23,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
 
 * <details><summary>Command | 命令</summary>
 
@@ -40,12 +38,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_forceteamshuffle
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 versus
-	L4D2 versus
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

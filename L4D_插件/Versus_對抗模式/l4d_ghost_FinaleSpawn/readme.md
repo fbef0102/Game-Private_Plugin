@@ -5,10 +5,13 @@ Adjust ghost infected spawn range on finales
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/sXjPd-sALGs)
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
 
-* Image | 圖示
-<br/>None
+* [Video | 影片展示](https://youtu.be/sXjPd-sALGs)
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -31,17 +34,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_ghost_FinaleSpawn_range "200.0"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 Versus
-	L4D2 Versus
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

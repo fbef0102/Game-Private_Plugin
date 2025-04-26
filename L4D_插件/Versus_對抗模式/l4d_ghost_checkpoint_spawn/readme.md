@@ -5,8 +5,11 @@ Changes to conditions for ghost spawning in start/end areas.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
 
 * Image | 圖示
 	* Allow to spawn in start saferoom (起始安全室內復活)
@@ -49,17 +52,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_ghost_checkpoint_spawn_in_end "1"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 Versus
-	L4D2 Versus
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

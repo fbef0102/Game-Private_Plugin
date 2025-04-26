@@ -5,8 +5,11 @@ Remove survivors' default kits/pills/dual pistol in survival/scavenge mode
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 Survival
+	L4D2 Survival/Scavenge
+	```
 
 * Image | 圖示
 	* Remove survivors' default kits/pills/dual pistol (移除系統自動給予的武器，只剩下一把手槍)
@@ -28,17 +31,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		survival_remove_start_items_enable "1"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1 Survival
-	L4D2 Survival/Scavenge
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

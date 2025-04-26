@@ -130,6 +130,7 @@
   </details>
 
 ###### **Source Plugin List | Source遊戲插件列表**
+> Apply to most source-engine games (適合大部分遊戲的插件)
 * <details><summary><b>Anti Griefer | 防路人搗亂-反制傻B合集</b></summary>
 
   * [sm_regexfilter](/Source_插件/Anti_Griefer_防惡意路人/sm_regexfilter): Filter players' dirty words on chatbox

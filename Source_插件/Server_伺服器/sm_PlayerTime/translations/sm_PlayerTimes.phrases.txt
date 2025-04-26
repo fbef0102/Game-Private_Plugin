@@ -34,87 +34,101 @@
 	}
 	"Notify_Unknown_Game"
 	{
-		"#format"		"{1:N},{2:s},{3:s},{4:.1f}" //1=Name, 2=Country, 3=City, 4=Lerp
+		"#format"		"{1:N},{2:s},{3:s}" //1=Name, 2=Country, 3=City
 		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}Unknown"
 		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}Unknown"
 		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}Unknown"
 	}
 	"Notify_Time_Game"
 	{
-		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d},{6:.1f}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min, 6=Lerp
+		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:d}" //1=Name, 2=Country, 3=City, 4=Hr, 5=Min
 		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: {green}{4} hr {5} min"
 		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分"
 		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分"
 	}
-    "LAN Country Desc"
-    {
-        "en"        "Local Network"
-    }
-    "Unknown Country Desc"
-    {
-        "en"        "Unknown Country"
-    }
-    "LAN City Desc"
-    {
-        "en"        "Local City"
-    }
-    "Unknown City Desc"
-    {
-        "en"        "Somewhere"
-    }
+	"Notify_Time_Game_Admin"
+	{
+		"#format"		"{1:N},{2:s},{3:s}" //1=Name, 2=Country, 3=City
+		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: Nerver Knows"
+		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，時長: 就不告訴你"
+		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，时长: 就不告诉你"
+	}
+	"LAN Country Desc"
+	{
+		"en"        "Local Network"
+	}
+	"Unknown Country Desc"
+	{
+		"en"        "Unknown Country"
+	}
+	"LAN City Desc"
+	{
+		"en"        "Local City"
+	}
+	"Unknown City Desc"
+	{
+		"en"        "Somewhere"
+	}
 	
-    "Local Network"
-    {
-        "en"        "Local Network"
-        "zho"       "區域網路"
-        "chi"       "区域网路"
-    }
-    "Unknown Country"
-    {
-        "en"        "Unknown Country"
-        "zho"       "未知國家"
-        "chi"       "未知国家"
-    }
-    "Local City"
-    {
-        "en"        "Local City"
-        "zho"       "當地城市"
-        "chi"       "当地城市"
-    }
-    "Somewhere"
-    {
-        "en"        "Somewhere"
-        "zho"       "未知城市"
-        "chi"       "未知城市"
-    }
+	"Local Network"
+	{
+		"en"        "Local Network"
+		"zho"       "區域網路"
+		"chi"       "区域网路"
+	}
+	"Unknown Country"
+	{
+		"en"        "Unknown Country"
+		"zho"       "未知國家"
+		"chi"       "未知国家"
+	}
+	"Local City"
+	{
+		"en"        "Local City"
+		"zho"       "當地城市"
+		"chi"       "当地城市"
+	}
+	"Somewhere"
+	{
+		"en"        "Somewhere"
+		"zho"       "未知城市"
+		"chi"       "未知城市"
+	}
 
 	// Translate country and city name manually
 	// 自行翻譯地區與城市
 	"Taiwan"
 	{
 		"en"        "Taiwan"
-        "zho"       "台灣"
-        "chi"       "台湾"
+		"zho"       "台灣"
+		"chi"       "台湾"
 	}
 	
 	"China"
 	{
 		"en"        "China"
-        "zho"       "中國"
-        "chi"       "中国"
+		"zho"       "中國"
+		"chi"       "中国"
 	}			
 	
 	"Taipei"
 	{
 		"en"        "Taipei"
-        "zho"       "台北"
-        "chi"       "台北"
+		"zho"       "台北"
+		"chi"       "台北"
+	}
+
+	"New Taipei City"
+	{
+		"en"        "New Taipei City"
+		"zho"       "新北市"
+		"chi"       "新北市"
 	}
 	
 	"Chongqing"
 	{
 		"en"        "Chongqing"
-        "zho"       "重慶"
-        "chi"       "重庆"
+		"zho"       "重慶"
+		"chi"       "重庆"
 	}
 }

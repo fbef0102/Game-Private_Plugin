@@ -21,10 +21,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* Display the following when player joins server
 		* Player name
-		* Country, city
+		* Country, city (you can translate)
 	* Display the following when leaves server
 		* Player name
-		* Reason
+		* Reason (you can translate)
 	* Display the following when player changed team
 		* Player name
 </details>
@@ -66,6 +66,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2025-4-26)
+		* Translate Country & City
+
 	* v1.2 (2025-3-9)
 		* Translate disconnect reason
 
@@ -83,17 +86,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 圖示
 	* 當玩家更換隊伍時
-	<br/>![l4d_playerjoining_3](image/l4d_playerjoining_3.jpg)
+	<br/>![zho/l4d_playerjoining_1](image/zho/l4d_playerjoining_1.jpg)
 	* 當玩家連線、離開伺服器之時
-	<br/>![l4d_playerjoining_4](image/l4d_playerjoining_4.jpg)
+	<br/>![zho/l4d_playerjoining_2](image/zho/l4d_playerjoining_2.jpg)
 
 * 原理
 	* 玩家連線進來伺服器時顯示
 		* 玩家名稱
-		* 玩家的國家與城市 
+		* 玩家的國家與城市 (自行翻譯)
 	* 玩家離開伺服器時顯示
 		* 玩家名稱
-		* 離開原因
+		* 離開原因 (自行翻譯)
 	* 玩家更換隊伍時顯示
 		* 玩家名稱
 	* 想要新增更多提示譬如IP、伺服器人數、Steam ID，請聯繫我修改

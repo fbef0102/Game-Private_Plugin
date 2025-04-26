@@ -5,6 +5,12 @@ Type !trade to open a menu to select two players to swap, one from survivor team
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1 versus
+	L4D2 versus
+	```
+
 * [Video | 影片展示](https://youtu.be/-AK10jtCpnc)
 
 * Image | 圖示
@@ -35,12 +41,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_trade
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 versus
-	L4D2 versus
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

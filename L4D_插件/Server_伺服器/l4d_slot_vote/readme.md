@@ -7,6 +7,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
+
 * [Video | 影片展示](https://youtu.be/HyKyNw80x7Y)
 
 * Image | 圖示
@@ -14,12 +20,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_1.jpg)
 	* Kick all spectators
 	<br/>![l4d_slot_vote_2](image/l4d_slot_vote_2.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1 Dedicated Server
-	L4D2 Dedicated Server
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -92,14 +92,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_slot_vote.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
