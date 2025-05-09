@@ -69,8 +69,8 @@
 			sv_allow_lobby_connect_only 0
 
 			// 此指令來自 l4dtoolz extension
-			// 為1時，強迫伺服器移除動態大廳 (lobby reservation cookie)
 			// 為1時，強制 _allow_lobby_connect_only為0
+			// 為1時，不會處理大廳匹配請求(也不會有lobby reservation cookie)
 			sv_force_unreserved 0
 			```
 		* (區域房) 到```cfg/listenserver.cfg``` (🟥如果檔案不存在，可自己創建🟥)

@@ -61,9 +61,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* HUD 1: 
 		1. CI kill Top Rank
 	* HUD 2: 
-		2. SI kill Top Rank
+		1. SI kill Top Rank
 	* HUD 3: 
-		3. Damage to tank Top Rank
+		1. Damage to tank Top Rank
 	* HUD 4: 
 		1. Damage to witch Top Rank
 		2. System data + time + server slots

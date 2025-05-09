@@ -5,8 +5,10 @@ Change what item dropped from fallen survivor
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d2_fallen_survivor_item_change_1](image/l4d2_fallen_survivor_item_change_1.gif)
@@ -48,20 +50,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [Fallen Survivor Item Control](https://forums.alliedmods.net/showthread.php?t=346525): Fallen survivor item control (Only Kit, Pill, Pipebomb, Molotov)
-		* 控制墮落倖存者可攜帶的物品 (只有治療包、藥丸、土製炸彈、火瓶)
+	1. [l4d2_uncommon_adjustment](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_uncommon_adjustment): Uncommon Adjustment
+		* 此插件可以控制墮落倖存者攜帶的物品 (只有治療包、藥丸、土製炸彈、火瓶)
 	2. [l4d2_spawn_uncommons](/L4D_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps  (Support The Last Stand New Model)
     	* 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
 </details>
