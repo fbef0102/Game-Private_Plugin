@@ -16,6 +16,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d2_spawn_uncommons_1](image/l4d2_spawn_uncommons_1.jpeg)
 	<br/>![l4d2_spawn_uncommons_2](image/l4d2_spawn_uncommons_2.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	* Turn normal common infected into uncommon infected such as
+		* Fallen survivor
+		* Riot
+		* CEDA
+		* Clown
+		* Mudman
+		* Roadcrew
+		* Jimmy
+	* Support custom maps
+	* Support The Last Stand New Model
+</Chargedetails>
+
 * Require | 必要安裝
 <br>None
 
@@ -26,7 +40,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Do you want all uncommons randomly spawning on all maps
 		l4d2_spawn_uncommons_auto_shuffle "1"
 
-		// If l4d2_spawn_uncommons_autoshuffle is 1, X chance to turn into uncommon when common infected spawns
+		// If l4d2_spawn_uncommons_autoshuffle is 1, X chance to turn into uncommon when common infected spawns [1~100]%
 		l4d2_spawn_uncommons_auto_chance "15"
 
 		// Binary flag of allowed autoshuffle zombies. 1 = riot, 2 = ceda, 4 = clown, 8 = mudman, 16 = roadcrew, 32 = jimmy, 64 = fallen, 127=All
@@ -75,9 +89,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 
-	* **Spawn uncommon infected ANYTIME. Usage: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (Adm required: ADMFLAG_ROOT)**
+	* **Spawn uncommon infected ANYTIME. (Adm required: ADMFLAG_ROOT)**
 		```php
-		sm_spawnuncommon
+		sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random>
 		```
 </details>
 
@@ -170,9 +184,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **在準心上生成特殊一班感染者. 使用方式: sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random> (權限: ADMFLAG_ROOT)**
+	* **在準心上生成特殊一般感染者. (權限: ADMFLAG_ROOT)**
 		```php
-		sm_spawnuncommon
+		sm_spawnuncommon <riot|ceda|clown|mud|roadcrew|jimmy|fallen|random>
 		```
 </details>
 

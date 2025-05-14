@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/3/31 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/5/13 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -53,7 +53,7 @@
             l4d_multislots_spawn_survivors_roundstart "1" 
             ```
       
-* [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
+* (L4D2) [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): 修正5+多人遊戲裡，電擊器無法復活屍體或復活到活著的玩家
 
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn版本)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36)
     * 修正第五人以上玩家離線或閒置或加入遊戲的時候，Bot模組角色被更換
@@ -63,20 +63,20 @@
 
 * [l4dafkfix_deadbot](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dafkfix_deadbot): 修正5+多人遊戲裡，當真人玩家閒置的時候如果他的Bot死亡，真人玩家不會取代死亡Bot而是變成完全旁觀者
 
-* [lfd_both_fixUpgradePack (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_both_fixUpgradePack): 修正高爆彈與燃燒彈無法被重複角色模組的倖存者撿起來
+* (L4D2) [lfd_both_fixUpgradePack (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_both_fixUpgradePack): 修正高爆彈與燃燒彈無法被重複角色模組的倖存者撿起來
 
-* [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
+* (L4D2) [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Charger無法衝撞第五位以上的玩家
 
 * [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 	
-* [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
+* (L4D2) [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
     * 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
 
-* [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
+* (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
 
-* [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+* (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
-* [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) 防止玩家因為一二代地圖NPC導致被踢
+* (L4D2) [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): 防止玩家因為一二代地圖NPC導致被踢
     * 被踢出遊戲的訊息```Kicked by Console : CBaseEntity::InputKill()```
   
 * [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): 修復插件讀不到cfg文件內的指令與命令
@@ -85,15 +85,17 @@
 
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡，無法列入對抗分數
 
-* (對抗模式) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): 提供以下三種功能
+* (L4D2 對抗模式) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): 提供以下三種功能
     * 每一位玩家都算距離分數
     * 雙方分數打平時，依照傷害量最多的隊伍多加分數
     * 靈魂特感可以按E傳送到每位倖存者身上
 
-* [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
+* (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
 
-* [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
+* (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
     * 此插件會移除The Passing地圖上的一代倖存者NPC
+
+* (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): 減少玩家因為 "No Steam Logon" 離線的機率 (Steam驗證失敗)
 
 - - - -
 ## 額外檔案
@@ -103,7 +105,7 @@
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動</s>
     * 🟥會導致伺服器崩潰，等待作者修復🟥
 
-* <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動</s>
+* (L4D2) <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動</s>
     * 🟥會導致伺服器崩潰，等待作者修復🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127)
@@ -112,15 +114,15 @@
     * 修正玩家被hunter撲/被Charger撞沒有語音
     * 修正一代角色看見隊友屍體沒有反應
    
-* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
+* (L4D2) [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
     * 🟥只適用於專屬伺服器🟥
 
-* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
+* (L4D2) [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
     * 🟥只適用於專屬伺服器🟥
    
-* [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
+* (L4D2) [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
 
-* [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
+* (L4D2) [Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
     * 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
@@ -130,10 +132,11 @@
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
 
-* [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
+* (L4D2) [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
+* (L4D1) [L4D Modified Talker](https://www.gamemaps.com/details/3863): 角色有更多語音
 
-* [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): 修復每個人都能看到一二代角色的名子與頭像
-    * 不一定對每個人都有用
+* (L4D2) [Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): 修復每個人都能看到一二代角色的名子與頭像
+    * 不一定對每個人都有用，沒用請刪除
 
 - - - -
 ## 娛樂檔案

@@ -72,7 +72,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* 對抗模式不知道怎麼分配玩家時可以使用這個插件
 	* 避免每次都是那幾個人同一個隊伍，增加隊伍多樣性
 
-* <details><summary>Command | 命令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* **開啟shuffle打散玩家並隨機分配隊伍 (需要雙方隊伍同意)**
 		```php

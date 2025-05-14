@@ -464,7 +464,7 @@
     * 在玩家畫面可顯示至多15個Hud, 每個Hud顯示不同的內容
   * [readyup](/L4D_插件/Server_伺服器/readyup): Ready-up plugin
     * 所有玩家準備才能開始遊戲的插件
-  * [pause](/L4D_插件/Server_伺服器/pause): Pause plugin
+  * [pause](/L4D_插件/Server_伺服器/pause): Provide the Command to Pause The Game
     * 暫停遊戲的插件
   * [l4d_playerjoining](/L4D_插件/Server_伺服器/l4d_playerjoining): Informs other players when a client connects to the server and changes teams.
     * 當玩家更換隊伍、連線、離開伺服器之時，通知所有玩家
@@ -837,7 +837,7 @@
 * <details><summary><b>擅長的領域</b></summary>
 
   * ✔windoes與linux系統上L4D遊戲專用伺服器、本地區域插件房、5+多人戰役遊戲
-  * ✔七年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
+  * ✔八年以上Sourcemod插件的經驗，對抗、戰役、寫實、生存、清道夫模式
   * ✔翻修舊插件，重寫為Sourcemod 1.12以上能適用的新版本
   * ✔重製十年以上的老插件，檢查程式漏洞，有效解決崩潰、卡頓、記憶體不足等問題
   * ✔翻譯英文，撰寫各國語言的翻譯文件
@@ -892,10 +892,12 @@
 **Accept paypal、Alipay、Taiwan local bank ATM**<br/>
 * <details><summary><b>Master Skills</b></summary>
 
-  * ✔ Dealed with windoes, linux, local server, dedicated server
-  * ✔ Possess 7-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
+  * ✔ Dealed with Windoes, linux, local server, dedicated server
+  * ✔ Handled database, MySql and Sqlite
+  * ✔ Possess 8-year experience in Sourcepawn code. Made lots of plugins for Coop, Versus, Realism, Surival
   * ✔ Remake code, support sourcemod v1.12, convert code to latest syntax.
   * ✔ Stripper cfg, modify nav, map objects, or events
+  * ✔ 🟦All program codes are made by hands, none of them created by AI
 </details>
 
 * <details><summary><b>Ask for help Rule</b></summary>

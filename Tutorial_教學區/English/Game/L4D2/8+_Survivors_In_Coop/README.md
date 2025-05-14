@@ -1,5 +1,5 @@
 # Navigation
-> 2025/3/31 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/5/13 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -52,7 +52,7 @@
 		l4d_multislots_spawn_survivors_roundstart "1" 
 		```
 
-* [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
+* (L4D2) [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483): Fixes valve's defib not defibbing correct survivor, sometimes even reviving an alive player
 
 * [Survivor Identity Fix for 5+ Survivors (Shadowysn Version)](https://forums.alliedmods.net/showpost.php?p=2718792&postcount=36): Fix bug where a survivor will change identity when a player connects/disconnects if there are 5+ survivors
 
@@ -60,19 +60,19 @@
 
 * [l4dafkfix_deadbot](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dafkfix_deadbot): Fixes issue when a bot die, his IDLE player become fully spectator rather than take over dead bot in 4+ survivors games.
 
-* [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
+* (L4D2) [lfd_both_fixUpgradePack (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_both_fixUpgradePack): Fixes upgrade packs pickup bug when there are 5+ survivors
 
-* [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Fixes charging only allowing to hit 1 of each survivor character index and allows charger smashing into the same survivor more than once, survivors no longer become a brick wall after being charger smashed once.
+* (L4D2) [Better_Charger_Collision+patch](https://forums.alliedmods.net/showthread.php?t=315482): Fixes charging only allowing to hit 1 of each survivor character index and allows charger smashing into the same survivor more than once, survivors no longer become a brick wall after being charger smashed once.
 
 * [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Fixes witch going after wrong clone survivor
 
-* [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
+* (L4D2) [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
 
-* [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+* (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 
-* [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+* (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 
-* [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): (L4D2) Stops clients from getting kicked via the Kill input
+* (L4D2) [InputKill Kick Prevention](https://forums.alliedmods.net/showthread.php?t=332860): Stops clients from getting kicked via the Kill input
     * Fixed ```Kicked by Console : CBaseEntity::InputKill()```
 
 * [Command and ConVar - Buffer Overflow Fixer](https://forums.alliedmods.net/showthread.php?t=309656): Fixes the server can not reads the plugin's cvars and cmds in cfg files
@@ -81,15 +81,17 @@
   
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): Try to fix extra 5+ survivors bug after finale rescue leaving, such as: die, fall down, not count as alive, versus score bug
 
-* (Versus) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): Fixed score bug and provide the following features
+* (L4D2 Versus) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): Fixed score bug and provide the following features
     * Each player earn score points
     * When both teams complete chapter with the same score Tiebreak manager will be started
     * Ghost infected can teleport to each survivor
 
-* [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from NavLadder::GetPosAtHeight.
+* (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from NavLadder::GetPosAtHeight.
     
-* [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
+* (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
     * This plugin will remove l4d1 survivors npc on The Passing map
+
+* (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): Reduce player "No Steam Logon" disconnect probability (Steam verification failed)
 
 - - - -
 ## Optional
@@ -99,21 +101,21 @@
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute.</s>
      * 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
-* <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.</s>
+* (L4D2) <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): With this, L4D1 survivors should be able to mourn each other again and L4D2 survivors will be able to mourn them upon seeing their corpses. Both bug-free.</s>
      * 🟥Broken after 2023/05 update, please wait for author to fix🟥
 
 * [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127): Attempts to fix mourning/friendly fire for 5+ survivors.
      * 🟥Doesn't work in listen server🟥
    
-* [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
+* (L4D2) [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): This plugin Re-uses the Generic Hunter Pounced lines from C1M1 so that Nick, Ellis and Coach can warn for a Hunter Pouncing their clones on server with 8+ players where multiple survivor clones are a frequent thing.
      * 🟥Doesn't work in listen server🟥
 
-* [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
+* (L4D2) [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): There are unused lines for all 8 survivors where they react to players team killing each other, this plugin restores these reactions.
      * 🟥Doesn't work in listen server🟥
    
-* [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
+* (L4D2) [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
 
-* [[L4D2]Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
+* (L4D2) [Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): Sets bots to least used survivor character when spawned (l4d1+l4d2 survivors possible in game)
      * Remove **Survivor Identity Fix for 5+ Survivors** while using this plugin.
 
 * [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
@@ -123,10 +125,12 @@
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): Allows a single rescue entity to rescue all eligible survivors.
 
-* [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): Gives reactions to both l4d1 and 2 survivors
+* (L4D2) [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): Gives reactions to both l4d1 and 2 survivors
+* (L4D1) [L4D Modified Talker](https://www.gamemaps.com/details/3863): The L4D Modified Talker is an addon which improves the survivor's conversation. It includes many exclusive dialogues, unused survivor's speeches and every survivor has more than 15 kinds of laughter now
 
-* [[L4D2] Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): Force L4D2 arms, names, and icons for everyone that joins.
+* (L4D2) [Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): Force L4D2 arms, names, and icons for everyone that joins.
      * Can't guarantee that everyone will be able to get this fix
+     * Remove if it doesn't work
 
 - - - -
 ## Fun

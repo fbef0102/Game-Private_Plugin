@@ -50,12 +50,19 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //final map max (range: 0.00~1.00, 0.85=85% percentage)
 		```
 	* Does not affect boss static spawn by map, for example: C6M1/C13M2/C7M1
+	* To control witch/tank spawn in each map, modify file: [data/mapinfo.txt](data/mapinfo.txt)
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [readyup](/L4D_插件/Server_伺服器/readyup): Display Tank/Witch percentage on readyup panel
+		* 在Readyup的面板上預先顯示這回合Tank與Witch的生成路程
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -122,12 +129,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		> Watch file for more details...
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/versusbosses_ifier.phrases.txt
@@ -135,23 +136,23 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related | 相關插件</summary>
 
-	1. [readyup](/L4D_插件/Server_伺服器/readyup): Ready Plugin
-		* 準備插件，讓Boss路程預先顯示在Ready Hud上面
-
-	2. [coopbosses_ifier](/L4D_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+	1. [coopbosses_ifier](/L4D_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
 		* 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 
-	3. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
+	2. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
 		* 使用指令顯示人類目前的路程
 
-	4. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+	3. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
 		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
 
-	5. [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+	4. [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
 		* 遊戲開始後每隔一段時間在地圖上生成Witch
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.8h (2025-5-14)
+		* Support readyup panel
 
 	* v1.7h (2024-10-6)
 		* Update cvars
@@ -210,6 +211,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar versus_boss_flow_min_finale 	"0.25" //最後一關最短 (數值範圍: 0.00~1.00, 0.25代表25%路程)
 		sm_cvar versus_boss_flow_max_finale 	"0.85" //最後一關最遠 (數值範圍: 0.00~1.00, 0.85代表85%路程)
 		```
+	* 若想要控制每張地圖的 tank/witch 生成，請修改文件: [data/mapinfo.txt](data/mapinfo.txt)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -264,10 +266,4 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_voteboss <數字> <數字>
 		sm_bossvote <數字> <數字>
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/mapinfo.txt](data/mapinfo.txt)
-		> 點擊文件查看更多說明...
 </details>

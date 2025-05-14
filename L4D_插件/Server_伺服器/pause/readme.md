@@ -1,5 +1,5 @@
 # Description | 內容
-Pause plugin
+Provide the Command to Pause The Game
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
@@ -19,8 +19,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>How does it work?</summary>
 
-	* Type !puase -> Pause the game
-	* Type !ready to mark your team ready
+	* Type ```!pause``` -> Pause the game
+	* Type ```!ready``` to mark your team ready, ```!unready``` to mark your team unready
+	* Admin types ```!fp``` to force pause the game, ```!fs``` to force unpause the game
+
 </details>
 
 * Require | 必要安裝

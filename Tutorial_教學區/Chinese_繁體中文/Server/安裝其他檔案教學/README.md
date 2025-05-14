@@ -43,7 +43,89 @@
 		* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
-* 安裝步驟
+* <details><summary>L4D2 安裝步驟</summary>
+
+	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，下載檔案
+	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+
+	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
+	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+
+	3. 寫上以下指令
+		* (專屬伺服器) 到```cfg/server.cfg``` (🟥如果檔案不存在，可自己創建🟥)
+			```php
+			// 真人玩家允許加入伺服器的人數 (不包含AI Bot)
+			// 自行修改此數值 (範圍1~31)
+			sv_maxplayers 18
+
+			// 顯示給外面玩家看到的伺服器空位人數
+			sv_visiblemaxplayers 18
+
+			// 為0時，可以從遊戲大廳或透過控制台與伺服器列表直連IP加入伺服器
+			// 為0時，從大廳匹配時才會有動態大廳(吸引路人)
+			// 為0時，可以使用 _cheats 1
+			// 為1時，當有動態大廳時，只能從遊戲大廳加入伺服器
+			// 為1時，無論第一位玩家用何種方式加入伺服器都會有動態大廳(吸引路人)
+			// 為1時，不能使用 _cheats 1
+			sv_allow_lobby_connect_only 1
+
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 為1時，強制 _allow_lobby_connect_only為0
+			// 為1時，不會處理大廳匹配請求(也不會有lobby reservation cookie)
+			sv_force_unreserved 0
+
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 1=不驗證SteamID, 0=驗證
+			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被離線的問題 (僅限開啟狀態下進入的玩家)
+			// 開啟本功能會削弱伺服器安全性,且禁止家庭共享功能將失效
+			// 注意: 開啟此功能會導致A2S_INFO結果異常,可以透過外掛程式修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			sv_steam_bypass 1
+
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 1=禁止家庭共享, 開啟本功能可以完全禁止家庭共享帳號(小號)進入伺服器
+			sv_anti_sharing 0
+			```
+		* (區域房) 到```cfg/listenserver.cfg``` (🟥如果檔案不存在，可自己創建🟥)
+			```php
+			// 真人玩家允許加入伺服器的人數 (不包含AI Bot)
+			// 自行修改此數值 (範圍1~8)
+			sv_maxplayers 8
+
+			// 顯示給外面玩家看到的伺服器空位人數
+			sv_visiblemaxplayers 8
+			```
+
+	4. 遊戲預設玩家人數上限只到18位，如果要改變上限，請修改玩家人數上限
+		* (專屬伺服器) 如使用其他開服方式或者是linux系統，請輸入啟動參數```+sv_setmax 31```
+		<br/>![image](https://github.com/user-attachments/assets/cf24e0ba-0caa-42b7-a295-8af7abd7f411)
+		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
+		* (區域房) 啟動選項輸入```+sv_setmax 31```
+		<br/>![image](https://github.com/user-attachments/assets/475e6a9b-8e88-495d-b4da-3412883129df)
+		* 🟥 Max. players 和 sv_maxplayers 是不同的概念
+			* Max. players (+sv_setmax) = 伺服器內玩家總數量，包含真人 + AI Bot 
+			* sv_maxplayers = 真人玩家允許加入伺服器的人數 (不包含AI Bot)
+		* 🟥 Max. players 不能設置超過31位，否則伺服器會崩潰
+
+	5. 啟動伺服器
+		* 控制台輸入```plugin_print```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
+			```php
+			] plugin_print
+			Loaded plugins:
+			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			```
+		* 控制台輸入```maxplayers```確認數字為31，如果不是31表示你前面步驟有誤或l4dtoolz版本不對
+			```php
+			] maxplayers
+			"maxplayers" is "31"
+			```
+
+	6. 安裝插件
+		* (專屬伺服器) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
+		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用sv_steam_bypass功能時才需安裝)
+</details>
+
+* <details><summary>L4D1 安裝步驟</summary>
+
 	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
 	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
 
@@ -66,7 +148,7 @@
 			// 為1時，當有動態大廳時，只能從遊戲大廳加入伺服器
 			// 為1時，無論第一位玩家用何種方式加入伺服器都會有動態大廳(吸引路人)
 			// 為1時，不能使用 _cheats 1
-			sv_allow_lobby_connect_only 0
+			sv_allow_lobby_connect_only 1
 
 			// 此指令來自 l4dtoolz extension
 			// 為1時，強制 _allow_lobby_connect_only為0
@@ -92,7 +174,7 @@
 		* 🟥 Max. players 和 sv_maxplayers 是不同的概念
 			* Max. players (-maxplayers) = 伺服器內玩家總數量，包含真人 + AI Bot 
 			* sv_maxplayers = 真人玩家允許加入伺服器的人數 (不包含AI Bot)
-		* 🟥 Max. players (-maxplayers) 不能設置超過31位，否則伺服器會崩潰
+		* 🟥 Max. players 不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器
 		* 控制台輸入```meta list```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
@@ -107,8 +189,9 @@
 			"maxplayers" is "31"
 			```
 
-	6. (專屬伺服器) 安裝插件[l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)
-		* 功能: 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
+	6. 安裝插件
+		* (專屬伺服器) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
+</details>
 
 - - - -
 ## 安裝TickrateEnabler
@@ -118,7 +201,51 @@
 		* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
 	* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
-* 安裝步驟
+* <details><summary>L4D2 安裝步驟</summary>
+
+	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，下載檔案
+		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
+		<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+
+	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
+	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+
+	3. 到cfg/server.cfg寫上以下指令
+		* 沒有server.cfg檔案則新建
+			```php
+			// 這是100 Tick的設定，可以自由修改數值
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
+			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
+			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
+			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
+	
+	4. 輸入參數
+		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
+		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		* (區域房) 啟動選項輸入```-tickrate 100```
+		<br/>![image](https://github.com/user-attachments/assets/47c1cdda-7a62-4c6a-96db-d0b232fcbd62)
+		
+	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
+		```php
+		] plugin_print
+		1:　"Tickrate_Enabler 1.5, ProdigySim"
+		```
+
+	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
+	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+
+	7. 安裝插件
+		* [l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修正非30tick對抗模式下boomer噴吐距離問題
+</details>
+
+* <details><summary>L4D1 安裝步驟</summary>
+
 	1. 到[Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇其中一個下載
 	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
 
@@ -140,8 +267,11 @@
 			sm_cvar fps_max					"0"
 			```
 	
-	4. 伺服器啟動選項輸入參數
-		* ```-tickrate 100```
+	4. 輸入參數
+		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
+		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		* (區域房) 啟動選項輸入```-tickrate 100```
+		<br/>![image](https://github.com/user-attachments/assets/47c1cdda-7a62-4c6a-96db-d0b232fcbd62)
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
@@ -151,10 +281,11 @@
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+</details>
 
-	> __Warning__ 
-	> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
-	> * 調整tickate必須一起修改server.cfg與啟動選項
+> __Warning__ 
+> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
+> * 調整tickate必須一起修改server.cfg與啟動選項
 
 * <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
 
