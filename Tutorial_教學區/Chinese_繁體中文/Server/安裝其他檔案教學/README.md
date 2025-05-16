@@ -45,7 +45,7 @@
 
 * <details><summary>L4D2 安裝步驟</summary>
 
-	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，下載檔案
+	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
 	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
@@ -203,7 +203,7 @@
 
 * <details><summary>L4D2 安裝步驟</summary>
 
-	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，下載檔案
+	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
 		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
 		<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
 
