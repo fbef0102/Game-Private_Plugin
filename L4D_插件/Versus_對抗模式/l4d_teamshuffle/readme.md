@@ -26,13 +26,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Command | 命令</summary>
 
-	* **Vote for a team shuffle.**
+	* **Vote for a team shuffle. <number> = numbers of time to shuffle**
 		```php
-		sm_shuffle
-		sm_teamshuffle
+		sm_shuffle <number>
+		sm_teamshuffle <number>
 		```
 
-	* **Force team shuffle. Admins only. (Adm Required: ADMFLAG_BAN)**
+	* **Force to Shuffle the teams. <number> = numbers of time to shuffle (Adm Required: ADMFLAG_ROOT)**
 		```php
 		sm_forceshuffle
 		sm_forceteamshuffle
@@ -48,6 +48,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2025-5-26)
+		* Use builtin-votes
 
 	* v1.0h (2024-3-17)
 		* Require lef4dhooks
@@ -74,15 +77,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* **開啟shuffle打散玩家並隨機分配隊伍 (需要雙方隊伍同意)**
+	* **開啟shuffle打散玩家並隨機分配隊伍, <數字> 指的是洗牌次數**
 		```php
-		sm_shuffle
-		sm_teamshuffle
+		sm_shuffle <數字>
+		sm_teamshuffle <數字>
 		```
 
-	* **強制shuffle啟動 (權限: ADMFLAG_BAN)**
+	* **強制shuffle啟動, <數字> 指的是洗牌次數 (權限: ADMFLAG_ROOT)**
 		```php
-		sm_forceshuffle
-		sm_forceteamshuffle
+		sm_forceshuffle <數字>
+		sm_forceteamshuffle <數字>
 		```
 </details>
