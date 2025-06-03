@@ -46,13 +46,6 @@
 		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，遊戲總時數: {green}{4} 小時 {5} 分"
 		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，游戏总时数: {green}{4} 小时 {5} 分"
 	}
-	"Notify_Time_Game_Admin"
-	{
-		"#format"		"{1:N},{2:s},{3:s}" //1=Name, 2=Country, 3=City
-		"en"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) has joined server，total time played: Nerver Knows"
-		"zho"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了伺服器，時長: 就不告訴你"
-		"chi"	"【{olive}TS{default}】{olive}{1}{default} ({lightgreen}{2}, {3}{default}) 加入了服务器，时长: 就不告诉你"
-	}
 	"LAN Country Desc"
 	{
 		"en"        "Local Network"

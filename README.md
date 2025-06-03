@@ -314,8 +314,8 @@
     * 玩家外觀可以變成地圖任何一個物件模型
   * [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
     * 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
-  * [l4d2_melee_knock_survivor](/L4D_插件/Fun_娛樂/l4d2_melee_knock_survivor): Use Melees to knockback teammates
-    * 近戰武器可以把隊友打開
+  * [l4d2_melee_knock](/L4D_插件/Fun_娛樂/l4d2_melee_knock): Use Melees to knockback teammates/S.I.
+    * 近戰武器可以擊飛隊友或特感
 </details>
 
 * <details><summary><b>Hunter | Hunter</b></summary>
@@ -538,6 +538,8 @@
     * 增強特感變成超級特感 (增加血量/移動速度/透明度 + 自身著火)
   * [l4d_ghost_restrict_remove](/L4D_插件/Special_Infected_特感/l4d_ghost_restrict_remove): Remove Special infected ghost spawn resctricts such as in start/end safe areas, be seen by survivors, too close
     * 移除靈魂特感的生成限制，玩家可以在安全室裡面復活、在倖存者眼前復活
+  * [l4d_no_dmg_to_incap](/L4D_插件/Special_Infected_特感/l4d_no_dmg_to_incap): S.I can not pin or scratch incapacitated survivors
+    * 禁止特感對人類鞭屍，無法對倒地的倖存者造成二次傷害
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
