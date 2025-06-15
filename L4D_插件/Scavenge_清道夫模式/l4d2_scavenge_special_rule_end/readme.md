@@ -5,8 +5,10 @@ Display Scavenge score and time, checks various win conditions mid-round and for
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D2 Scavenge
+	```
 
 * Image
 	* Display round score and time
@@ -20,11 +22,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	
 	* Special rule win : Both Team fill zero gascan, but second team lives longer, second team wins.
 	<br/>![l4d2_scavenge_special_rule_end_4](image/l4d2_scavenge_special_rule_end_4.jpg)
-
-* Apply to | 適用於
-	```
-	L4D2 Scavenge
-	```
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -59,14 +56,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d2_scavenge_special_rule_end.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

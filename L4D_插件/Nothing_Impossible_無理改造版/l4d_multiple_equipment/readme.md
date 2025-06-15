@@ -5,6 +5,12 @@ Carry 2 weapons or items in each slot
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/c5alhdER2Dc)
 
 * Image | 圖示
@@ -14,12 +20,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     <br/>![l4d_multiple_equipment_2](image/l4d_multiple_equipment_2.gif)
     <br/>![l4d_multiple_equipment_3](image/l4d_multiple_equipment_3.gif)
     <br/>![l4d_multiple_equipment_4](image/l4d_multiple_equipment_4.gif)
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>How does it work?</summary>
 
@@ -55,6 +55,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
     4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d2_melee_durability](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+		* 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+
+	2. [fortnite_dances_emotes_l4d](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Emotes and Dance in L4D1/2
+		* 搞笑動作模組: 表情與舞蹈
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -139,14 +148,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_multiple_equipment.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
@@ -157,6 +162,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.2h (2025-6-16)
+        * Support l4d2_melee_durability and fortnite_dances_emotes_l4d plugin by harry
 
     * v2.1h (2025-1-15)
         * Fixed m60 or grenade launcher disappear

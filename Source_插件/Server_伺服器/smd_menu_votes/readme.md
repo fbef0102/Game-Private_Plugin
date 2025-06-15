@@ -5,6 +5,11 @@ Simple menu votes: Change map, restart map, kick player, custom vote
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	Any Source Game
+	```
+
 * <details><summary>Image</summary>
 
 	<br/>![smd_menu_votes_1](image/smd_menu_votes_1.jpg)
@@ -13,11 +18,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![smd_menu_votes_4](image/smd_menu_votes_4.jpg)
 	<br/>![smd_menu_votes_5](image/smd_menu_votes_5.jpg)
 </details>
-
-* Apply to | 適用於
-	```
-	Any Source Game
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -78,14 +78,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     	* (L4D1/L4D2) 新型的投票系統，可自行新增投票 (使用官方內建的投票)
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/smd_menu_votes.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

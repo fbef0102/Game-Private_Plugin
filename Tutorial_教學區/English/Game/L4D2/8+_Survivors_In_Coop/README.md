@@ -1,5 +1,5 @@
 # Navigation
-> 2025/5/13 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/6/16 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -151,7 +151,7 @@
 
 * [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint): When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
-* [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Change target when the witch incapacitates or kills victim + witch auto follows survivors
+* [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Change target when the witch incapacitates or kills victim + witch auto follows survivors
 
 * [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
 

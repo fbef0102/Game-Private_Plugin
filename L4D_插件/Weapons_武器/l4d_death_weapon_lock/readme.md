@@ -5,6 +5,11 @@ Lock the weapons and items dropped by dead survivors, no one else can pick up.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/TEQUEbWQkCg)
 
 * Image | 圖示
@@ -87,19 +92,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_death_weapon_lock.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

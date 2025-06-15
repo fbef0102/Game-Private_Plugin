@@ -1,20 +1,29 @@
 # Description | 內容
 Allows spectator listen others team voice and see others team chat for l4d
-(```sv_alltalk 1``` support)
 
-* Video | 影片展示
-<br/>None
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
 
 * Image
-	* Type ```!hear``` in chatbox to enable or disable listen mode
     <br/>![l4d_versus_specListener_1](image/l4d_versus_specListener_1.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Spectator can type ```!hear``` in chatbox
+        * Allow spectator to listen survivor and infected team voice
+        * Allow spectator to see survivor and infected team chat
+    * This plugin auto disabled when ```sv_alltalk 1```
+</details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-
-* Related Plugin | 相關插件
-    1. [show_mic](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/show_mic): Voice Announce in centr text + create hat to Show Who is speaking.
-	    > 顯示誰在語音並且在說話的玩家頭上帶帽子
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -42,19 +51,15 @@ Allows spectator listen others team voice and see others team chat for l4d
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_versus_specListener.phrases.txt
 	```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+    1. [show_mic](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/show_mic): Voice Announce in centr text + create hat to Show Who is speaking.
+	    > 顯示誰在語音並且在說話的玩家頭上帶帽子
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

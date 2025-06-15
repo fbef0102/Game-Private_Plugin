@@ -5,16 +5,16 @@ Player can personally mute someone chat text and mic voice.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	Any source game
+	```
+	
 * [Video | 影片展示](https://youtu.be/U-ncYt-JVWQ)
 
 * Image
 	<br/>![smd_mute_player_list_1](image/smd_mute_player_list_1.jpg)
 	<br/>![smd_mute_player_list_2](image/smd_mute_player_list_2.jpg)
-
-* Apply to | 適用於
-	```
-	Any source game
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -116,14 +116,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 	
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/smd_mute_player_list.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

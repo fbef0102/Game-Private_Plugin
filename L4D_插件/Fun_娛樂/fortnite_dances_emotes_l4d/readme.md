@@ -154,6 +154,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8h (2025-6-16)
+		* Fixed cvar not working
+		* add more native and api
+
 	* v1.7h (2025-1-31)
 		* You can move and jump while dancing
 		* Fixed stuck or falling if dance on the evelator or any other moving vehicle

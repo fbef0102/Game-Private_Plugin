@@ -1,8 +1,14 @@
 # Description | 內容
 The hunter can pounce on the charger's victim.
 
-* Video | 影片展示
-<br/>None
+> __Note__ <br/>
+This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+
+* Apply to | 適用於
+	```
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d2_hunter_steal_charger_victim_1](image/l4d2_hunter_steal_charger_victim_1.gif)
@@ -34,16 +40,6 @@ The hunter can pounce on the charger's victim.
 		l4d2_hunter_steal_charger_victim_reset_ability "1"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

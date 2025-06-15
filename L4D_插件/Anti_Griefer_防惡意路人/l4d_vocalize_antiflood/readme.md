@@ -7,16 +7,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
-* [Video | 影片展示](https://youtu.be/coX2i0tun0k)
-
-* Image | 圖示
-	<br/>![l4d_vocalize_antiflood_1](image/l4d_vocalize_antiflood_1.jpg)
-
 * Apply to | 適用於
 	```
 	L4D1 Dedicated Server
 	L4D2 Dedicated Server
 	```
+
+* [Video | 影片展示](https://youtu.be/coX2i0tun0k)
+
+* Image | 圖示
+	<br/>![l4d_vocalize_antiflood_1](image/l4d_vocalize_antiflood_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -61,14 +61,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_vocalize_antiflood.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

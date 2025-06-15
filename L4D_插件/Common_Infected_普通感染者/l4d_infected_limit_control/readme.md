@@ -83,14 +83,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| z_mob_spawn_max_interval_expert   | 180  | Maximum time in seconds between natural horde spawns on impossible difficulty
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_infected_limit_control.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

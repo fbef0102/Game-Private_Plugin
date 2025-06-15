@@ -5,6 +5,12 @@ If the witch incap/kill players that aren't her initial target, then make the wi
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtube.com/shorts/MRTO6KnmbN4)
 
 * Image | 圖示
@@ -35,11 +41,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>API | 串接</summary>
 
 	* [l4d_witch_target_forever.inc](scripting\include\l4d_witch_target_forever.inc)
@@ -47,12 +48,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		library name: l4d_witch_target_forever
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
@@ -62,14 +57,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* 四個修復Witch的插件可以裝
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_witch_target_forever.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

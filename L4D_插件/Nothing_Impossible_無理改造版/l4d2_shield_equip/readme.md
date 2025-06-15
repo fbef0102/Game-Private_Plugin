@@ -5,6 +5,11 @@ You can get shield by killing tank/witch or shield dropped by riot uncommon infe
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/BiTti6O-Gd8)
 
 * <details><summary>Image | 圖示</summary>
@@ -236,19 +241,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/ll4d2_shield_equip.phrases.txt
 	```
-</details>
 
 * Related Plugin | 相關插件
 	1. [l4d2_spawn_uncommons](/L4D_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps (Support The Last Stand New Model)

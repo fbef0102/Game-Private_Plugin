@@ -5,10 +5,13 @@ Teleport AI Infected player to the teammate who is much nearer to survivors.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/_-M3zYlvYPU)
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
 
-* Image | 圖示
-<br/>None
+* [Video | 影片展示](https://youtu.be/_-M3zYlvYPU)
 
 * <details><summary>How does it work?</summary>
 
@@ -105,17 +108,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_ssi_teleport_fix_tp2_visiblethreats "0"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

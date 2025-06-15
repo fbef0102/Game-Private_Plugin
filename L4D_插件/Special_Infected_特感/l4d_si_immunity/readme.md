@@ -5,6 +5,11 @@ Turns special infected immunes to survivors's fire, exploisve, shove, melee... v
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/53aA3nE-B8g)
 
 * Image | 圖示
@@ -77,16 +82,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_si_immunity_grenade_launcher_flag "127"
 		```
 </details>
-
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

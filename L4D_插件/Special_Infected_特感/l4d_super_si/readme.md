@@ -5,14 +5,14 @@ Make special infected become super SI (increase HP/movement/invisibility + catch
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	<br/>![l4d_super_si_1](image/l4d_super_si_1.jpg)
-
 * Apply to | 適用於
 	```
 	L4D1
 	L4D2
 	```
+
+* Image | 圖示
+	<br/>![l4d_super_si_1](image/l4d_super_si_1.jpg)
 
 * <details><summary>How does it work?</summary>
 

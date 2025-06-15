@@ -6,7 +6,7 @@
 /* Natives */
 
 /**
- * Checks client's emote status
+ * Checks client's dance status
  *
  * @param client    Client index
  * @return          True if is danceing, false otherwise
@@ -14,20 +14,29 @@
 native bool fortnite_dances_emotes_l4d_IsClientEmoting(int client);
 
 /**
- * When a client is about to do a emote
+ * @brief When a client is about to do the dance
  *
  * @param client    Client index
  * 
- * @return				Plugin_Handled to block the target player from doing a emote, Plugin_Continue otherwise
+ * @return				Plugin_Handled to block the target player from doing the dance, Plugin_Continue otherwise
  */
 forward Action fortnite_dances_emotes_l4d_OnEmote_Pre(int client);
 
 /**
- * When a client do a emote
+ * @brief When a client starts to do the dance
+ * @remarks This forward will not trigger if the relative pre-hook forward has been blocked with Plugin_Handled
  *
  * @param client    Client index
  */
-forward void fortnite_dances_emotes_l4d_OnEmote(int client);
+forward void fortnite_dances_emotes_l4d_OnEmote_Post(int client);
+
+/**
+ * @brief When a client ends the dance
+ * @remarks This forward will not trigger if the relative pre-hook forward has been blocked with Plugin_Handled
+ *
+ * @param client    Client index
+ */
+forward void fortnite_dances_emotes_l4d_OnEnd(int client);
 
 public SharedPlugin __pl_fortnite_dances_emotes_l4d =
 {

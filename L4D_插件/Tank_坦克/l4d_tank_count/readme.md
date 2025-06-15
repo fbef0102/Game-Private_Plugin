@@ -5,6 +5,12 @@ Show how long is tank alive, how much damage done, and tank incap/death/punch/ro
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * Image
 	<br/>![l4d_tank_count_1](image/l4d_tank_count_1.jpg)
 
@@ -18,36 +24,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
-* <details><summary>ConVar | 指令</summary>
-
-	None
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_tank_dmg_report](/L4D_插件/Tank_坦克/l4d_tank_dmg_report): Displays Damage Information on Tank Death.
 		* Tank死亡時顯示對Tank造成傷害統計表
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_tank_count.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

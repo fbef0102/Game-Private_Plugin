@@ -5,6 +5,12 @@ Prevents players griefing by suicide with jump
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/tF9F1uvGxPY)
 
 * Image
@@ -12,12 +18,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_block_suicide_jumps_2](image/l4d_block_suicide_jumps_2.gif)
 	<br/>![l4d_block_suicide_jumps_3](image/l4d_block_suicide_jumps_3.jpg)
 	<br/>![l4d_block_suicide_jumps_4](image/l4d_block_suicide_jumps_4.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -59,14 +59,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Manual in this file, click for more details...
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_block_suicide_jumps.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

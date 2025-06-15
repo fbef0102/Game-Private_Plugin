@@ -5,6 +5,12 @@ Manages the gunfire slowdown for infected team (Also apply to AI)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/TtGyesF7mhs)
 
 * Image | 圖示
@@ -106,11 +112,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * <details><summary>Gunfire Slowdown Calculation Formula</summary>
 	
 	* Tank current speed is 210
@@ -140,12 +141,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_si_slowdown_gunfire_crouch_multi "0.5"
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

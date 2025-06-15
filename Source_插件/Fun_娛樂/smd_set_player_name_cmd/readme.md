@@ -5,14 +5,14 @@ Player can set name via cmd + Admin can set other player's name
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	<br/>![smd_set_player_name_cmd_1](image/smd_set_player_name_cmd_1.jpg)
-	<br/>![smd_set_player_name_cmd_2](image/smd_set_player_name_cmd_2.jpg)
-
 * Apply to | 適用於
 	```
 	Any source game
 	```
+
+* Image | 圖示
+	<br/>![smd_set_player_name_cmd_1](image/smd_set_player_name_cmd_1.jpg)
+	<br/>![smd_set_player_name_cmd_2](image/smd_set_player_name_cmd_2.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -57,14 +57,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/smd_set_player_name_cmd.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

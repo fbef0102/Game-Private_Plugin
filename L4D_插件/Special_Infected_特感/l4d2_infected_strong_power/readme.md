@@ -5,11 +5,10 @@ Add power abilities to infected
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br>None
-
-* Image | 圖示
-<br>None
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
 
 * <details><summary>Detail</summary>
 
@@ -72,11 +71,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_betank
 		```
 </details>
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

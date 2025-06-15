@@ -5,13 +5,13 @@ Whitelist or ban players from specific country or area
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image
-	<br/>![ban_country_player_1](image/ban_country_player_1.jpg)
-
 * Apply to | 適用於
 	```
-	Any Source Game
+	Any source game
 	```
+
+* Image
+	<br/>![ban_country_player_1](image/ban_country_player_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -74,14 +74,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* [Steam ID finder](https://steamid.xyz/)
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/ban_country_player.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

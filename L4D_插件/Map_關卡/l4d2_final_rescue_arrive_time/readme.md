@@ -6,6 +6,11 @@ Increase the finale rescue time, survivors must hold up until time passed
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 
+* Apply to | 適用於
+	```
+	L4D2 coop/versus/realism
+	```
+
 * [Video | 影片展示](https://youtube.com/shorts/dEV8-GZUpT4)
 
 * Image
@@ -52,15 +57,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     L4D2 coop/versus/realism
     ```
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
-	Spanish
+	translations/l4d2_final_rescue_arrive_time.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

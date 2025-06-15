@@ -5,8 +5,11 @@ Dynamic Adjust Tank HP depends on 5+ survivors in server
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
 
 * Image | 圖示
 	<br/>![l4d_tankhp_dynamic_adjust_1](image/l4d_tankhp_dynamic_adjust_1.jpg)
@@ -33,11 +36,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// Dynamic Adjust Tank Hp depends on, 0=the number of alive survivors, 1=the number of alive + dead survivors.
 		l4d_tankhp_dynamic_adjust_including_dead "1"
 		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
 </details>
 
 * <details><summary>Data Config</summary>
@@ -74,13 +72,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| -------------|:-----------------:|:-------------:|
 	| z_tank_health 					| 4000   | Tank Zombie max health|
 </details>
-
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

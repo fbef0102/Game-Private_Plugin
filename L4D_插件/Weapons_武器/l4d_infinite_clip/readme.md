@@ -5,9 +5,12 @@ Weapons now have infinite clip without reload + Chainsaw now is always refilled
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+    
 * Image | 圖示
     <br/>![l4d_infinite_clip_1](image/l4d_infinite_clip_1.gif)
     <br/>![l4d_infinite_clip_2](image/l4d_infinite_clip_2.gif)
@@ -68,17 +71,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_infinite_clip_weapon "1,2,3,4,5,6"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

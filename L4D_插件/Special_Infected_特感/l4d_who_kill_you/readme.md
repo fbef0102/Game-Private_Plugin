@@ -5,8 +5,11 @@ Display who killed you (weapons, distance and damage)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br>None
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
 
 * <details><summary>Image</summary>
 
@@ -65,20 +68,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-    ```
-    English
-    繁體中文
-    简体中文
-    ```
-</details>
+* Translation Support | 支援翻譯
+	```
+	translations/l4d_who_kill_you.phrases.txt
+	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

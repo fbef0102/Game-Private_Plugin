@@ -5,13 +5,13 @@ Make certain event hordes finite
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image | 圖示
-	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
-
 * Apply to | 適用於
 	```
 	L4D2
 	```
+
+* Image | 圖示
+	<br/>![l4d2_horde_equaliser_1](image/l4d2_horde_equaliser_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -53,14 +53,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		> Manual in this file, click for more details...
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d2_horde_equaliser.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -130,11 +126,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 為1時，Tank存活期間，無限屍潮暫停刷殭屍
 		l4d2_horde_equaliser_no_tank_horde "0"
 		```
-</details>
-
-* <details><summary>命令中文介紹</summary>
-
-	None
 </details>
 
 * <details><summary>文件設定範例</summary>

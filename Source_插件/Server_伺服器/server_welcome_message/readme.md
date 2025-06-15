@@ -5,13 +5,13 @@ Display Welcome Message to new players (support translation)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Image
-	<br/>![server_welcome_message_1](image/server_welcome_message_1.jpg)
-
 * Apply to | 適用於
 	```
 	Any Source Game
 	```
+
+* Image
+	<br/>![server_welcome_message_1](image/server_welcome_message_1.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -40,14 +40,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 	
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/server_welcome_message.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

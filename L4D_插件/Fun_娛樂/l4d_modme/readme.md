@@ -7,6 +7,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
+* Apply to | 適用於
+	```
+	L4D1 Dedicated Server
+	L4D2 Dedicated Server
+	```
+
 * [Video | 影片展示](https://youtu.be/dKdnKxFNUXk)
 
 * <details><summary>Image | 圖示</summary>
@@ -19,12 +25,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	<br/>![l4d_modme_5](image/l4d_modme_5.jpg)
 	<br/>![l4d_modme_6](image/l4d_modme_6.jpg)
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1 Dedicated Server
-	L4D2 Dedicated Server
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -91,14 +91,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_modme.phrases.txt
 	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

@@ -5,6 +5,12 @@ Makes Everyone Climb On Walls.
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * Video | 影片展示
   * [Demo](https://youtu.be/MPtEzoKdJXc)
   * [Bully Maguire「惡霸麥奎爾」蜘蛛人](https://www.youtube.com/shorts/qJetU6lAGzM)
@@ -12,12 +18,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image | 圖示
 	<br/>![l4d_climb_1](image/l4d_climb_1.jpg)
 	<br/>![l4d_climb_2](image/l4d_climb_2.jpg)
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>How does it work?</summary>
 
@@ -96,19 +96,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d_climb.phrases.txt
 	```
-</details>
 
 * <details><summary>Related | 相關插件</summary>
 

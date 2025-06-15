@@ -5,6 +5,12 @@ Calls a vote to enable / disable locking teams in place once game starts (so no 
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/B1oghdYb_gE)
 
 * <details><summary>Image</summary>
@@ -76,20 +82,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
+* Translation Support | 支援翻譯
 	```
-	L4D1
-	L4D2
+	translations/teamlock_vote.phrases.txt
 	```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
-	```
-	English
-	繁體中文
-	简体中文
-	```
-</details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

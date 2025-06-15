@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/5/13 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/6/16 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -157,7 +157,7 @@
 
 * [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint): 使用角色語音"看"，可讓物品標記光圈，亦可以標記特感或地點
 
-* [Witch target override Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
+* [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
 
 * [Death Soul (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
 

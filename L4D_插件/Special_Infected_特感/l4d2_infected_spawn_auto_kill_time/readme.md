@@ -5,8 +5,10 @@ Kill special infected after spawn over 60 seconds (Also apply to AI)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br>None
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
 
 * Image
     <br/>![l4d2_infected_spawn_auto_kill_time_1](image/l4d2_infected_spawn_auto_kill_time_1.jpg)
@@ -68,19 +70,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
-* <details><summary>Translation Support | 支援翻譯</summary>
-
+* Translation Support | 支援翻譯
 	```
-	English
-	繁體中文
-	简体中文
+	translations/l4d2_infected_spawn_auto_kill_time.phrases.txt
 	```
-</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

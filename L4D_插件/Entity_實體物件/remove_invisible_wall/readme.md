@@ -5,11 +5,11 @@ Remove all invisible wall on the map
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* Video | 影片展示
-<br/>None
-
-* Image | 圖示
-<br/>None
+* Apply to | 適用於
+	```
+	L4D1 
+	L4D2
+	```
 
 * <details><summary>How does it work?</summary>
 
@@ -59,12 +59,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		<br/>![remove_invisible_wall_2](image/remove_invisible_wall_2.jpg)
 		* Pink: Block survivor, Red: Block Survivor + Infected, Purple: Block Infected
 	</details>
-
-* Apply to | 適用於
-	```
-	L4D1 
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
