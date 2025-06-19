@@ -422,7 +422,7 @@
     * 武器與近戰都有CSO 殭屍擊退效果
   * [l4d2_zombie_transform](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_zombie_transform): Survivor can transform into zombie + zombie can transform into survivor
     * 人類能變成特感 + 特感能變成人類
-  * [l4d_jump_battale_kick](/L4D_插件/Nothing_Impossible_無理改造版/l4d_jump_battale_kick): Survivor press WALK+JUMP to do the battle kick, stagger back all S.I. and Witch
+  * [l4d_jump_battle_kick](/L4D_插件/Nothing_Impossible_無理改造版/l4d_jump_battle_kick): Survivor press WALK+JUMP to do the battle kick, stagger back all S.I. and Witch
     * 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
   * [l4d_aimbot](/L4D_插件/Nothing_Impossible_無理改造版/l4d_aimbot): Give you a legal aimbot made by sourcemod in l4d
     * 輸入指令開啟武器自瞄系統，合法自動瞄準殭屍射擊
@@ -730,6 +730,8 @@
     * 倒地時如果手持近戰/電鋸/瑪格南手槍/雙手槍，改換成其他手槍
   * [l4d_weapon_clear_reload](/L4D_插件/Weapons_武器/l4d_weapon_clear_reload): Abandon magazine when reload weapon
     * 武器裝彈時放棄彈夾內的所有子彈
+  * [l4d2_chainsaw_deploy_speed](/L4D_插件/Weapons_武器/l4d2_chainsaw_deploy_speed): Reduce the start duration of chainsaw deploying animation
+    * 減少啟動電鋸的時間，能快速使用電鋸
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

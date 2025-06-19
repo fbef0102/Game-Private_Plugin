@@ -5,6 +5,11 @@ Allows jockeys to continue riding incapacitated survivors
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/hSEXo0PvKd4)
 
 * Image | 圖示
@@ -39,11 +44,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -55,11 +55,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		sm_cvar z_leap_interval_post_incap "30"
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

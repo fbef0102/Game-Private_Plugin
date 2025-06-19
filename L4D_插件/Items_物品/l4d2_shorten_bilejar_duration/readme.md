@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>Related Official ConVar</summary>
 
 	* [vomitjar_projectile](https://developer.valvesoftware.com/wiki/Vomitjar_projectile)
-	* You can write down the following cvars in cfg/server.cfg and modify value
+	* You can write down the following cvars in ```cfg/server.cfg``` and modify value
 		```php
 		// bilejar effect duration if hits any special infected
 		sm_cvar vomitjar_duration_infected_bot 		20
@@ -77,7 +77,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>相關的官方指令中文介紹 (點我展開)</summary>
 
 	* [膽汁瓶投擲物官方介紹](https://developer.valvesoftware.com/wiki/Vomitjar_projectile)
-	* You can write down the following cvars in cfg/server.cfg and modify value
+	* 可將以下指令寫在 ```cfg/server.cfg``` 並自行修改
 		```php
 		// 膽汁瓶丟在特感身上的效果時間
 		sm_cvar vomitjar_duration_infected_bot 		20

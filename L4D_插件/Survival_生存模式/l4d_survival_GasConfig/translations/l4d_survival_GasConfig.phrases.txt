@@ -1,4 +1,26 @@
-﻿"Phrases"
+﻿/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
 {
 	"The current game mode is not survival."
 	{
@@ -39,10 +61,10 @@
 	}
 	"New Personal gas config saved"
 	{
-		"#format"		"{1:s},{2:N}"
-		"zho"		"新的私人配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 產生"
-		"chi"		"新的私人配置文件 [{green}{1}{default}] 由 {olive}{2}{default} 产生"
-		"en"		"New Personal gas config saved [{green}{1}{default}] by {olive}{2}"
+		"#format"		"{1:s}"
+		"zho"		"新的私人配置文件 [{green}{1}{default}] 由{olive}您{default}產生"
+		"chi"		"新的私人配置文件 [{green}{1}{default}] 由{olive}您{default}产生"
+		"en"		"New Personal gas config saved [{green}{1}{default}] by {olive}you"
 	}
 	"Shared Gas config removed"
 	{
@@ -277,5 +299,28 @@
 		"zho"		"文件名稱長度必須介於 2-15 個字符"
 		"chi"		"文件名称长度必须介于 2-15 个字符"
 		"en"		"[SM] config name must be between 2-15 characters."
+	}
+	
+	"Highlight gas items"
+	{
+		"zho"		"打光所有汽油桶的位置"
+		"chi"		"打光所有汽油桶的位置"
+		"en"		"Highlight gas items"
+	}
+	
+	"highlight off"
+	{
+		"#format"		"{1:N}"
+		"zho"		"[sm_gasmenu] {lightgreen}{1}{default} 將汽油桶提示光亮改成: {green}off"
+		"chi"		"[sm_gasmenu] {lightgreen}{1}{default} 将汽油桶提示光亮改成: {green}off"
+		"en"		"[sm_gasmenu] {lightgreen}{1}{default} toggled gas item highlight {green}off"
+	}
+
+	"highlight on"
+	{
+		"#format"		"{1:N}"
+		"zho"		"[sm_gasmenu] {lightgreen}{1}{default} 將汽油桶提示光亮改成: {green}on"
+		"chi"		"[sm_gasmenu] {lightgreen}{1}{default} 将汽油桶提示光亮改成: {green}on"
+		"en"		"[sm_gasmenu] {lightgreen}{1}{default} toggled gas item highlight {green}on"
 	}
 }

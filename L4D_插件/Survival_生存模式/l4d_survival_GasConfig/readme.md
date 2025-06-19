@@ -16,9 +16,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Image
 	* Display Menu
     <br/>![l4d_survival_GasConfig_1](image/l4d_survival_GasConfig_1.jpg)
-	* Personal config
     <br/>![l4d_survival_GasConfig_2](image/l4d_survival_GasConfig_2.jpg)
-	* Support Gascan, Firework Crate, Propane Tank, Oxygen Tank, Explosive Pack, Incendiary Pack
+	* Save and load Gascans' position
     <br/>![l4d_survival_GasConfig_3](image/l4d_survival_GasConfig_3.jpg)
 
 * <details><summary>How does it work?</summary>
@@ -52,6 +51,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // Players with these flags have access to use "Lock gas config" menu
         l4d_survival_GasConfig_adm_lock_flag "z"
+
+        // If 1, Hightlight all gas/prop items when save config
+        l4d_survival_GasConfig_hightlight_save "1"
         ```
 </details>
 
@@ -70,8 +72,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Data Config</summary>
 
-	* Auto create files in [data/GasConfigs](data/GasConfigs) folder to save gas config
-    * Don't try to modify unless you know what you are doing
+	* [data/GasConfigs](data/GasConfigs) folder: Save gas config
+        * DO NOT modify unless you know what it is
+    * [data/l4d_survival_GasConfig.cfg](data/l4d_survival_GasConfig.cfg) file: control settings in specific maps
+        * Manual in this file, click for more details...
 </details>
 
 * Translation Support | 支援翻譯
@@ -88,6 +92,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4h (2025-6-19)
+        * Update translation
+        * Add cvars
+        * Update menu
+        * Add data file
 
     * v1.3h (2025-1-12)
         * Update translation
@@ -119,14 +129,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 圖示
 	* 輸入!gasmenu打開設定介面
-    <br/>![l4d_survival_GasConfig_4](image/l4d_survival_GasConfig_4.jpg)
-	* 個人的gas config
-    <br/>![l4d_survival_GasConfig_5](image/l4d_survival_GasConfig_5.jpg)
+    <br/>![zho/l4d_survival_GasConfig_1](image/zho/l4d_survival_GasConfig_1.jpg)
+    <br/>![zho/l4d_survival_GasConfig_2](image/zho/l4d_survival_GasConfig_2.jpg)
 	* 載入不同的汽油桶擺放配置
-    <br/>![l4d_survival_GasConfig_6](image/l4d_survival_GasConfig_6.jpg)
+    <br/>![zho/l4d_survival_GasConfig_3](image/zho/l4d_survival_GasConfig_3.jpg)
 
 * 原理
-    * 在生存模式中，自動擺放好玩家預先設定的物品位置
+    * 在生存模式中，自動擺放好玩家預先設置的物品位置
         * 汽油桶、瓦斯桶、氧氣罐、煙火盒、火焰包、高爆彈
     * 所有設定會自動保存到配置文件中
 
@@ -156,6 +165,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 擁有這些權限的玩家，才可以鎖定並刪除 "共享汽油配置" (留白 = 任何人都能, -1: 無人)
         l4d_survival_GasConfig_adm_lock_flag "z"
+
+        // 為1時，當玩家儲存配置時打光所有的汽油桶/物品
+        l4d_survival_GasConfig_hightlight_save "1"
         ```
 </details>
 
@@ -174,8 +186,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>文件設定範例</summary>
 
-	* 此插件會自動創建文件於[data/GasConfigs](data/GasConfigs)資料夾，用來儲存玩家的物資擺放設定
-    * 沒事別改動文件除非你知道這是在幹嗎
+	* [data/GasConfigs](data/GasConfigs)資料夾: 用來儲存玩家的物資擺放設定
+        * 沒事別改動文件除非你知道這是在幹嗎
+    * [data/l4d_survival_GasConfig.cfg](data/l4d_survival_GasConfig.cfg)文件: 控制指令地圖用
+        * 文件內有說明書, 可自行修改
 </details>
 
 

@@ -32,7 +32,6 @@ forward void fortnite_dances_emotes_l4d_OnEmote_Post(int client);
 
 /**
  * @brief When a client ends the dance
- * @remarks This forward will not trigger if the relative pre-hook forward has been blocked with Plugin_Handled
  *
  * @param client    Client index
  */

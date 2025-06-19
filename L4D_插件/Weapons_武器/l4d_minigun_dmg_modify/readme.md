@@ -5,8 +5,6 @@ Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/eNFcXMafLuQ)
-
 * Image | 圖示
 	| Before (裝此插件之前) | After (裝此插件之後) |
 	| -------------|:-----------------:|
