@@ -732,6 +732,8 @@
     * 武器裝彈時放棄彈夾內的所有子彈
   * [l4d2_chainsaw_deploy_speed](/L4D_插件/Weapons_武器/l4d2_chainsaw_deploy_speed): Reduce the start duration of chainsaw deploying animation
     * 減少啟動電鋸的時間，能快速使用電鋸
+  * [l4d_explosive_incendiary_dmg](/L4D_插件/Weapons_武器/l4d_explosive_incendiary_dmg): Modify explosive and incendiary bullet dmg
+    * 修改高爆彈、火焰子彈對隊友與特感的傷害
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>

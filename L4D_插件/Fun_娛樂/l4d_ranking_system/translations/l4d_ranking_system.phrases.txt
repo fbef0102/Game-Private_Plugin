@@ -344,4 +344,41 @@
 		"zho"	"尚无其他玩家"
 		"chi"	"尚无其他玩家"
 	}
+	
+	"No enough players"
+	{
+		"#format"	"{1:d}"
+		"en"	"Rank system not available, numbers of players not enough {1}"
+		"zho"	"Rank系統不可用，人數必須大於等於 {1} 名玩家。"
+		"chi"	"Rank系统不可用，人数必须大于等于 {1} 名玩家。"
+	}	
+	
+	"Database Loading"
+	{
+		"en"	"Rank system database is still loading, try again later"
+		"zho"	"Rank 資料讀取中，請稍後。"
+		"chi"	"Rank 资料读取中，请稍后。"
+	}	
+	
+	"Database Loading"
+	{
+		"en"	"Rank system database is still loading, try again later"
+		"zho"	"Rank 資料讀取中，請稍後。"
+		"chi"	"Rank 资料读取中，请稍后。"
+	}	
+	
+	"Server clear your tag"
+	{
+		"en"	"Server sets your tag to default"
+		"zho"	"伺服器已清除你的稱號"
+		"chi"	"服务器已清除你的称号"
+	}
+	
+	"Server sets your tag"
+	{
+		"#format"	"{1:s}"
+		"en"	"Server sets your tag:{olive}{1}"
+		"zho"	"伺服器已設置您的稱號:{olive}{1}"
+		"chi"	"服务器已设置您的称号:{olive}{1}"
+	}
 }

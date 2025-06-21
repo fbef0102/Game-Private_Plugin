@@ -150,6 +150,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		sm_tag
 		```
+
+	* **(Server) Set player's rank title manually**
+		```php
+		sm_tag <player name> <tag>
+		```
+
+	* **(Server) Remove player's custom rank title**
+		```php
+		sm_tag <player name>
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -194,6 +204,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.9h (2025-6-21)
+		* Add cmd
+		* Update translation
 
 	* v1.8h (2025-3-5)
 		* Require simple_chatprocessor
@@ -366,6 +380,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **(非管理員的玩家) 修改自己的Rank稱號**
 		```php
 		sm_tag
+		```
+
+	* **(伺服器後台) 設置玩家的Rank稱號**
+		```php
+		sm_tag <player name> <tag>
+		```
+
+	* **(伺服器後台) 移除玩家的Rank稱號**
+		```php
+		sm_tag <player name>
 		```
 </details>
 
