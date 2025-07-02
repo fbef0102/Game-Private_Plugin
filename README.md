@@ -668,6 +668,10 @@
     * 在Tank身上打上光圈，所有人都可以看見Tank在哪裡
   * [l4d_tank_alive_time_limit](/L4D_插件/Tank_坦克/l4d_tank_alive_time_limit): Set the time limit how long can tank live
     * Tank真人玩家如果不攻擊倖存者，時間到將會被自動處死 
+  * [l4d_tank_rock_block_ff](/L4D_插件/Tank_坦克/l4d_tank_rock_block_ff): Prevent Tank rocks from killing another tank, witch or other S.I.
+    * 避免Tank的石頭砸死另一個Tank、Witch、特感
+  * [l4d_tank_spawn_more_si](/L4D_插件/Tank_坦克/l4d_tank_spawn_more_si): Tank will bring lots of friends when spawns
+    * Tank生成時有機率出現多個Tank、Witch、特感
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 

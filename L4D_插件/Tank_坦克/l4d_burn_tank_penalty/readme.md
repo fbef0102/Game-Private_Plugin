@@ -18,17 +18,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg/sourcemod/l4d_burn_tank_penalty.cfg
 		```php
-		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		l4d_burn_tank_penalty_announce_type "1"
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d_burn_tank_penalty_enable "1"
 
-		// Time in seconds to change player speed.
-		l4d_burn_tank_penalty_speed_time "10.0"
+		// Changes how message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+		l4d_burn_tank_penalty_announce_type "1"
 
 		// Change Player Speed if he burns tank.
 		l4d_burn_tank_penalty_speed_value "120"
+
+		// Time in seconds to change player speed.
+		l4d_burn_tank_penalty_speed_time "10.0"
 		```
 </details>
 
@@ -50,6 +50,20 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* Tank被玩家燃燒時，該玩家速度會變慢
 
-* 功能
-	* 可設置減緩的速度數值
-	* 可設置減速的時間
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_burn_tank_penalty.cfg
+		```php
+        // 0=關閉插件, 1=啟動插件
+		l4d_burn_tank_penalty_enable "1"
+
+		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+		l4d_burn_tank_penalty_announce_type "1"
+
+		// Tank被玩家燃燒時，該玩家速度會變慢
+		l4d_burn_tank_penalty_speed_value "120"
+
+		// 玩家速度會變慢的時間
+		l4d_burn_tank_penalty_speed_time "10.0"
+		```
+</details>

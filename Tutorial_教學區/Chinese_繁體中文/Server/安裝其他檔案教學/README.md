@@ -16,7 +16,8 @@
 		* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
 		* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 
-* 安裝步驟
+* <details><summary>安裝步驟 (點我展開)</summary>
+
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS
 	<br/>![image](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
 
@@ -33,6 +34,7 @@
 		notify singleplayer replicated
 		- Stripper Version
 		```
+</details>
 
 - - - -
 ## 安裝l4dtoolz
@@ -43,7 +45,7 @@
 		* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
 		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
 
-* <details><summary>L4D2 安裝步驟</summary>
+* <details><summary>L4D2 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
 	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
@@ -101,10 +103,10 @@
 		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
 		* (區域房) 啟動選項輸入```+sv_setmax 31```
 		<br/>![image](https://github.com/user-attachments/assets/475e6a9b-8e88-495d-b4da-3412883129df)
-		* 🟥 Max. players 和 sv_maxplayers 是不同的概念
-			* Max. players (+sv_setmax) = 伺服器內玩家總數量，包含真人 + AI Bot 
+		* 🟥 ```玩家人數上限```和```sv_maxplayers```是不同的概念
+			* 玩家人數上限 (+sv_setmax) = 伺服器內玩家總數量，包含真人 + AI Bot 
 			* sv_maxplayers = 真人玩家允許加入伺服器的人數 (不包含AI Bot)
-		* 🟥 Max. players 不能設置超過31位，否則伺服器會崩潰
+		* 🟥 ```玩家人數上限```不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器
 		* 控制台輸入```plugin_print```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
@@ -124,7 +126,7 @@
 		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用sv_steam_bypass功能時才需安裝)
 </details>
 
-* <details><summary>L4D1 安裝步驟</summary>
+* <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
 	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
@@ -201,7 +203,7 @@
 		* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
 	* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
 
-* <details><summary>L4D2 安裝步驟</summary>
+* <details><summary>L4D2 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
 		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
@@ -244,7 +246,7 @@
 		* [l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修正非30tick對抗模式下boomer噴吐距離問題
 </details>
 
-* <details><summary>L4D1 安裝步驟</summary>
+* <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇其中一個下載
 	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
@@ -318,7 +320,8 @@
 		* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
 	* 如果你有安裝geoipcity.ext, geoip2.ext，請移除
 
-* 安裝步驟
+* <details><summary>安裝步驟 (點我展開)</summary>
+
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)
 
 	2. 到個人帳戶: My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
@@ -330,6 +333,8 @@
 
 	4. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 addons/sourcemod/configs/geoip/ 資料夾
 	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
+</details>
+
 - - - -
 ## 其他
 * [安裝伺服器與插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件)
