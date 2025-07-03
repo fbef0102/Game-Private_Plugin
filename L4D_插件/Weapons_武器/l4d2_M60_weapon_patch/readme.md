@@ -5,6 +5,11 @@ Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill 
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/w9X7Vcw2VXQ)
 
 * Image | 圖示
@@ -23,20 +28,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // If 1, drop M60 when reaching 0 clip/ammo.
         l4d2_M60_weapon_patch_drop "0"
 
-        // M60 Reload Speed is multiplied by this value (clamped between 0.2 and 1.0)
+        // M60 Reload Speed is multiplied by this value (clamped between 0.2 and 1.0, 1.0=Off)
         l4d2_M60_weapon_patch_weaponreload_rate "1.0"
 
-        // If 1, Refill M60 Explosive Ammo on pickup
+        // Refill M60 Explosive Ammo on pickup, 0=Off, 1=Cost current ammo, 2=Give extra ammo
         l4d2_M60_weapon_patch_upgrade_explosive_fix "1"
 
-        // If 1, Refill M60 Incendiary Ammo on pickup
+        // Refill M60 Incendiary Ammo on pickup, 0=Off, 1=Cost current ammo, 2=Give extra ammo
         l4d2_M60_weapon_patch_upgrade_incendiary_fix "1"
         ```
-</details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
 </details>
 
 * <details><summary>Related Official ConVar</summary>
@@ -48,11 +48,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d2_shield_equip](/L4D_插件/Nothing_Impossible_%E7%84%A1%E7%90%86%E6%94%B9%E9%80%A0%E7%89%88/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
@@ -60,6 +55,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1h (2025-7-3)
+        * Refill Explosive/Incendiary ammo with extra ammo
+        * Update cvars
 
     * v1.0h (2023-7-5)
 	    * Add cvars
@@ -90,13 +89,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // 為1時，M60武器子彈歸0時自動丟棄
         l4d2_M60_weapon_patch_drop "0"
 
-        // M60 裝彈速度調整 (介於 0.2 ~ 1.0)
+        // M60 裝彈速度調整 (介於 0.2 ~ 1.0, 1.0=不改變)
         l4d2_M60_weapon_patch_weaponreload_rate "1.0"
 
-        // 為1時，M60武器可以裝滿高爆子彈
+        // M60武器可以裝滿高爆子彈, 0=關閉這樣項功能, 1=消耗普通彈藥, 2=不消耗普通彈藥
         l4d2_M60_weapon_patch_upgrade_explosive_fix "1"
 
-        // If 1，M60武器可以裝滿火焰子彈
+        // M60武器可以裝滿火焰子彈, 0=關閉這樣項功能, 1=消耗普通彈藥, 2=不消耗普通彈藥
         l4d2_M60_weapon_patch_upgrade_incendiary_fix "1"
         ```
 </details>

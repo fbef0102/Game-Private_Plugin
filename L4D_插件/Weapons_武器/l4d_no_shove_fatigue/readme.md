@@ -5,8 +5,13 @@ Allow certain weapons to shove infinitely (no fatigue)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1 
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtube.com/shorts/Zoj6_4RuaCA)
-<br/>None
 
 * Image | 圖示
     * Infinite Shoving (無限推)
@@ -90,17 +95,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_no_shove_fatigue_weapon "1,7,8,9,10,11,12,13"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1 
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

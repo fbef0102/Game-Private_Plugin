@@ -5,6 +5,12 @@ Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/GSBYrMNC08o)
 
 * Image | 圖示
@@ -50,17 +56,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_weapon_auto_shoot_weapons "1,2,3,4,5"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

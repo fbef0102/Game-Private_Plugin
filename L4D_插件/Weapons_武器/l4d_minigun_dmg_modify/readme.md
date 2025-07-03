@@ -5,6 +5,12 @@ Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * Image | 圖示
 	| Before (裝此插件之前) | After (裝此插件之後) |
 	| -------------|:-----------------:|
@@ -32,22 +38,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Data Config</summary>
   
 	* [data/l4d_minigun_dmg_modify.cfg](data/l4d_minigun_dmg_modify.cfg)
 		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

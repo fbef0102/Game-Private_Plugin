@@ -5,6 +5,11 @@ Press R using pick up anim when full ammo (View weapons mod)
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/2dsUJz3gtVM)
 
 * <details><summary>Image | 圖示</summary>
@@ -41,16 +46,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         l4d_view_mods_pickup_anim_enable "1"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

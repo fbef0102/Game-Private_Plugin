@@ -5,16 +5,16 @@ Transfer your current weapon laser sight to another while picking up new gun
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * Image | 圖示
 	| Before (裝此插件之前) | After (裝此插件之後) |
 	| -------------|:-----------------:|
 	| ![l4d2_laser_transfer_pickup_1](image/l4d2_laser_transfer_pickup_1.gif)|![l4d2_laser_transfer_pickup_2](image/l4d2_laser_transfer_pickup_2.gif)|
 	| ![l4d2_laser_transfer_pickup_3](image/l4d2_laser_transfer_pickup_3.gif)|![l4d2_laser_transfer_pickup_4](image/l4d2_laser_transfer_pickup_4.gif)|
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>How does it work?</summary>
 
