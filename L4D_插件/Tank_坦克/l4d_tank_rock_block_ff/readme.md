@@ -24,7 +24,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * Require | 必要安裝
-	1. [collisionhook](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/collisionhook)
+	1. [collisionhook](https://github.com/fbef0102/Collisionhook/releases)
 
 * <details><summary>ConVar | 指令</summary>
 

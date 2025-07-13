@@ -43,7 +43,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	5. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
-* <details><summary>ConVar</summary>
+* <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/sm_l4d_mapchanger.cfg
 		```php
@@ -119,7 +119,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command</summary>
+* <details><summary>Command | 命令</summary>
 	
 	* **Display Next Map**
 		```php
@@ -135,6 +135,14 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* **See all the votes**
 		```php
 		sm_mapvotes
+		```
+</details>
+
+* <details><summary>API | 串接</summary>
+
+	* [sm_l4d_mapchanger.inc](scripting/include/sm_l4d_mapchanger.inc)
+		```php
+		library name: sm_l4d_mapchanger
 		```
 </details>
 

@@ -93,6 +93,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5h (2025-7-13)
+        * Optimize code about glow
+
     * v1.4h (2025-6-19)
         * Update translation
         * Add cvars

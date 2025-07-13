@@ -29,7 +29,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	2. [collisionhook](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/collisionhook)
+	2. [collisionhook](https://github.com/fbef0102/Collisionhook/releases)
 
 * <details><summary>ConVar | 指令</summary>
 

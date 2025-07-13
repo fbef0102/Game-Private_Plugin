@@ -304,6 +304,7 @@
 		* Method 2：Using windows 7 instead
 		* Method 3：Using linux server instead
 		* Method 4：Connect Server from lobby with ```mm_dedicated_force_servers``` command, it will fix 64 tick issue in windows server
+		* Method 5: [Windows Unlock Tool](https://b23.tv/NQxIT55)
 </details>
 
 * <details><summary>Q&A 2: Why player's tickrate is not 100?</b></summary>

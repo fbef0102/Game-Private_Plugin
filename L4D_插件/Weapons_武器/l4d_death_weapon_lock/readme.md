@@ -20,9 +20,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * <details><summary>How does it work?</summary>
 
     * When player dies, display menu "Give up weapons?"
-        * Yes -> Lock the weapons and items dropped (red glow), no one can pick up
-        * No -> Unlock the weapons and items dropped (green glow), anyone can pick up
+        * Yes -> Unlock the weapons and items dropped (green glow), anyone can pick up
     * Everyone can pick up if owner has left the server or period time passed
+        * No -> Lock the weapons and items dropped (red glow), no one can pick up
 </details>
 
 * Require | 必要安裝
@@ -133,8 +133,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * 原理
     * 玩家死亡時，顯示介面詢問玩家 "是否放棄武器?"
-        * Yes -> 鎖住掉落的武器與物品 (紅色光環)，任何人不能撿
-        * No -> 解鎖住掉落的武器與物品 (綠色光環)，任何人可以撿
+        * Yes -> 解鎖住掉落的武器與物品 (綠色光環)，任何人可以撿
+        * No -> 鎖住掉落的武器與物品 (紅色光環)，任何人不能撿
     * 如果玩家離開伺服器或超過一定時間後，解鎖地上的武器與物品，任何人可以撿
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

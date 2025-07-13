@@ -299,6 +299,7 @@
 		* 法二：windows降級到windows 7
 		* 法三：租一台linux系統
 		* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
+		* 法五: [Windows調整時鐘精度工具](https://b23.tv/NQxIT55)
 </details>
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>

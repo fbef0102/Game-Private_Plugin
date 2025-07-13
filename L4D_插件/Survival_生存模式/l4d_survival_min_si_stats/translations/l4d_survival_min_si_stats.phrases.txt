@@ -2,28 +2,28 @@
 {
 	"Minimum SI 4"
 	{
-		"#format"	"{1:d}"
+		"#format"	"{1:f}"
 		"en"		"Minimum SI/Min requirement for {olive}full-team{default} category on this map is {green}{1}{default}."
 		"zho"		"此地圖({olive}4人隊伍{default}) 每分鐘特感擊殺最低要求是 {green}{1}{default}."
 		"chi"		"此地图({olive}4人队伍{default}) 每分钟特感击杀最低要求是 {green}{1}{default}."
 	}
 	"Minimum SI 3"
 	{
-		"#format"	"{1:d}"
+		"#format"	"{1:f}"
 		"en"		"Minimum SI/Min requirement for {olive}trio{default} category on this map is {green}{1}{default}."
 		"zho"		"此地圖({olive}3人隊伍{default}) 每分鐘特感擊殺最低要求是 {green}{1}{default}."
 		"chi"		"此地图({olive}3人队伍{default}) 每分钟特感击杀最低要求是 {green}{1}{default}."
 	}
 	"Minimum SI 2"
 	{
-		"#format"	"{1:d}"
+		"#format"	"{1:f}"
 		"en"		"Minimum SI/Min requirement for {olive}duo{default} category on this map is {green}{1}{default}."
 		"zho"		"此地圖({olive}2人隊伍{default}) 每分鐘特感擊殺最低要求是 {green}{1}{default}."
 		"chi"		"此地图({olive}2人队伍{default}) 每分钟特感击杀最低要求是 {green}{1}{default}."
 	}
 	"Minimum SI 1"
 	{
-		"#format"	"{1:d}"
+		"#format"	"{1:f}"
 		"en"		"Minimum SI/Min requirement for solo category on this map is {green}{1}{default}."
 		"zho"		"此地圖({olive}1人隊伍{default}) 每分鐘特感擊殺最低要求是 {green}{1}{default}."
 		"chi"		"此地图({olive}1人队伍{default}) 每分钟特感击杀最低要求是 {green}{1}{default}."

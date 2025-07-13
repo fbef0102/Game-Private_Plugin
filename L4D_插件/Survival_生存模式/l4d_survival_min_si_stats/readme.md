@@ -12,8 +12,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 
 * Image
-	* Display message when survival begins and round end
 	<br/>![l4d_survival_min_si_stats_1](image/l4d_survival_min_si_stats_1.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* This plugin just display message only.
+	* Display Minimum SI/min requirement and stats on each survival map.
+	* Display message when survival begins and round end.
+	* Edit Minimum SI/min requirement in file: [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
+		* Manual in this file, click for more details...
+</Chargedetails>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -28,36 +36,16 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-
-	* [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
-		```php
-		"l4d_survival_min_si_require"
-		{
-			"c1m2_streets" // map name
-			{
-				"SI_Requirement_4"	"12" // if 4 alive survivors
-				"SI_Requirement_3"	"9" // if 3 alive survivors
-				"SI_Requirement_2"	"6" // if 2 alive survivors
-				"SI_Requirement_1"	"3" // if 1 alive survivor
-			}
-			"c1m4_atrium"
-			{
-				"SI_Requirement_4"	"15" // if 4 alive survivors
-				"SI_Requirement_3"	"10" // if 3 alive survivors
-				"SI_Requirement_2"	"5" // if 2 alive survivors
-				"SI_Requirement_1"	"4" // if 1 alive survivor
-			}
-		}
-		```
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/l4d_survival_min_si_stats.phrases.txt
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2025-7-13)
+		* Update data
+		* Update translation
 
 	* v1.2 (2024-3-16)
 		* Update Cvars
@@ -77,33 +65,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 生存模式下顯示人類隊伍全體的特感擊殺數與數據
 
 * 圖示
-	* 提示訊息 (生存模式開始時與回合結束時)
 	<br/>![l4d_survival_min_si_stats_1](image/zho/l4d_survival_min_si_stats_1.jpg)
 
 * 原理
-	* 只適用於生存模式
-	* 平均每分鐘，最少要擊殺多少特感，不同地圖不同要求
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
-		```php
-		"l4d_survival_min_si_require"
-		{
-			"c1m2_streets" // 地圖名
-			{
-				"SI_Requirement_4"	"12" // 此地圖(4人隊伍)每分鐘特感擊殺最低要求是 12
-				"SI_Requirement_3"	"9" // 此地圖(3人隊伍)每分鐘特感擊殺最低要求是 9
-				"SI_Requirement_2"	"6" // 此地圖(2人隊伍)每分鐘特感擊殺最低要求是 6
-				"SI_Requirement_1"	"3" // 此地圖(只有1人)每分鐘特感擊殺最低要求是 3
-			}
-			"c1m4_atrium"
-			{
-				"SI_Requirement_4"	"15" // 此地圖(4人隊伍)每分鐘特感擊殺最低要求是 15
-				"SI_Requirement_3"	"10" // 此地圖(3人隊伍)每分鐘特感擊殺最低要求是 10
-				"SI_Requirement_2"	"5" // 此地圖(2人隊伍)每分鐘特感擊殺最低要求是 5
-				"SI_Requirement_1"	"4" // 此地圖(只有1人)每分鐘特感擊殺最低要求是 4
-			}
-		}
-		```
-</details>
+	* 只適用於生存模式，此插件只是提示訊息用
+	* 顯示```平均每分鐘，最少要擊殺的特感數量```，不同地圖不同要求
+	* 在生存模式開始時提示訊息，回合結束時提示是否達標
+	* 可自行到文件修改門檻: [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
