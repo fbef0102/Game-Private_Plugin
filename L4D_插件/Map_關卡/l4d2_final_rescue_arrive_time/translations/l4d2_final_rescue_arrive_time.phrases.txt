@@ -68,6 +68,13 @@
 		"es"			"¡Llegó el vehículo de rescate! ¡¡VAMOS!!"
 	}
 
+	"Rescue Vehicle Tank (C)"
+	{
+		"en"			"The rescue vehicle cannot arrive with tanks around!"
+		"zho"			"Tank存活! 救援無法抵達"
+		"chi"			"Tank存活! 救援无法抵达"
+	}
+
 	"Rescue Vehicle Tank"
 	{
 		"en"			"The rescue vehicle cannot arrive with tanks around!"

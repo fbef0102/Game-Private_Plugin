@@ -70,6 +70,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.4 (2025-7-14)
+		* Update data
+
     * v1.3 (2025-1-13)
 		* Update cvars
 		* Update data
