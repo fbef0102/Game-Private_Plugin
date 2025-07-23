@@ -232,43 +232,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		Survivor Special
 		{
-			"!buy Fire"						-> Fire Yourself
-			"!buy Boom"						-> Drop Pipebomb
-			"!buy Adrenaline_Power"			-> Gain Adrenaline Power
-			"!buy Revive"					-> Save Yourself
-			"!buy Fire_Infeceted"			-> All Infected Gets On Fire
-			"!buy Teleport"					-> Teleport to teammate
-			"!buy Infinite_Ammo"			-> Infinite Ammo
-			"!buy No_FF"					-> No Friendly Fire
-			"!buy Dead_Eyes"				-> Dead-Eyes
-			"!buy Kill_Commons"				-> Kill Commons
+			"!buy fire"						-> Fire Yourself
+			"!buy boom"						-> Drop Pipebomb
+			"!buy adrenaline_power"			-> Gain Adrenaline Power
+			"!buy revive"					-> Save Yourself
+			"!buy fire_infeceted"			-> All Infected Gets On Fire
+			"!buy teleport"					-> Teleport to teammate
+			"!buy infinite_ammo"			-> Infinite Ammo
+			"!buy no_ff"					-> No Friendly Fire
+			"!buy dead_eyes"				-> Dead-Eyes
+			"!buy kill_commons"				-> Kill Commons
 			"!buy Kill_Witches"				-> Kill Witches
-			"!buy Heal_Survivors"			-> Heal Survivors
+			"!buy heal_survivors"			-> Heal Survivors
+			"!buy god_mode"					-> God Mode
 			"!buy jump_add_1"				-> Jump On Air +1
-			"!buy Slay_Infected"			-> Slay Infected Attacker
+			"!buy slay_infected"			-> Slay Infected Attacker
 			"!buy Respawn"					-> Respawn Alive
-			"!buy Freeze_Infected"			-> Freeze-Infected
+			"!buy freeze_infected"			-> Freeze-Infected
 		}
 
 		Infected Spawn
 		{
-			"!buy Suicide" 	-> Suicide
-			"!buy Smoker" 	-> Smoker
-			"!buy Boomer" 	-> Boomer
-			"!buy Hunter" 	-> Hunter
-			"!buy Spitter" 	-> Spitter
-			"!buy Jockey" 	-> Jockey
-			"!buy Charger" 	-> Charger
-			"!buy Tank" 	-> Tank
+			"!buy suicide" 	-> Suicide
+			"!buy smoker" 	-> Smoker
+			"!buy boomer" 	-> Boomer
+			"!buy hunter" 	-> Hunter
+			"!buy spitter" 	-> Spitter
+			"!buy jockey" 	-> Jockey
+			"!buy charger" 	-> Charger
+			"!buy tank" 	-> Tank
 		}
 
 		Infected Special
 		{
-			"!buy Health" 	-> Restore Health
-			"!buy Teleport" -> Teleport to survivor
-			"!buy Immune" 	-> Immune Everything
-			"!buy Horde" 	-> Zombie Horde
-			"!buy Witch" 	-> Witch
+			"!buy health" 	-> Restore Health
+			"!buy teleport" -> Teleport to survivor
+			"!buy immune" 	-> Immune Everything
+			"!buy horde" 	-> Zombie Horde
+			"!buy witch" 	-> Witch
 		}
 		```
 
@@ -318,7 +319,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// There would a data table named "Buy_Store_database" in database
 			"shop"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"
@@ -335,6 +336,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.7 (2025-7-23)
 	* v5.6 (2024-12-12)
 	* v5.5 (2024-12-7)
 		* Update data
@@ -581,43 +583,44 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		快速購買人類特殊物品
 		{
-			"!buy Fire"						-> 振火神通
-			"!buy Boom"						-> 爆爆王
-			"!buy Adrenaline_Power"			-> 注射興奮劑
-			"!buy Revive"					-> 拯救自己
-			"!buy Fire_Infeceted"			-> 炎之呼吸
-			"!buy Teleport"					-> 飛雷神之術
-			"!buy Infinite_Ammo"			-> 無限子彈
-			"!buy No_FF"					-> 不會造成與受到友傷
-			"!buy Dead_Eyes"				-> 心靈透視
-			"!buy Kill_Commons"				-> 殺死所有普通殭屍
-			"!buy Kill_Witches"				-> 殺死所有Witch
-			"!buy Heal_Survivors"			-> 團隊治癒+100
+			"!buy fire"						-> 振火神通
+			"!buy boom"						-> 爆爆王
+			"!buy adrenaline_power"			-> 注射興奮劑
+			"!buy revive"					-> 拯救自己
+			"!buy fire_infeceted"			-> 炎之呼吸
+			"!buy teleport"					-> 飛雷神之術
+			"!buy infinite_ammo"			-> 無限子彈
+			"!buy no_ff"					-> 不會造成與受到友傷
+			"!buy dead_eyes"				-> 心靈透視
+			"!buy kill_commons"				-> 殺死所有普通殭屍
+			"!buy kill_witches"				-> 殺死所有Witch
+			"!buy heal_survivors"			-> Heal Survivors
+			"!buy heal_survivors"			-> 團隊治癒+100
 			"!buy jump_add_1"				-> 超級瑪利歐, 空中跳躍+1
-			"!buy Slay_Infected"			-> 處死攻擊你的特感
-			"!buy Respawn"					-> 魔法卡: 死者甦醒
-			"!buy Freeze_Infected"			-> 冰凍世界
+			"!buy slay_infected"			-> 處死攻擊你的特感
+			"!buy respawn"					-> 魔法卡: 死者甦醒
+			"!buy freeze_Infected"			-> 冰凍世界
 		}
 
 		快速購買特感種類
 		{
-			"!buy Suicide" 	-> 自殺
-			"!buy Smoker" 	-> Smoker
-			"!buy Boomer" 	-> Boomer
-			"!buy Hunter" 	-> Hunter
-			"!buy Spitter" 	-> Spitter
-			"!buy Jockey" 	-> Jockey
-			"!buy Charger" 	-> Charger
-			"!buy Tank" 	-> Tank
+			"!buy suicide" 	-> 自殺
+			"!buy smoker" 	-> Smoker
+			"!buy boomer" 	-> Boomer
+			"!buy hunter" 	-> Hunter
+			"!buy spitter" 	-> Spitter
+			"!buy jockey" 	-> Jockey
+			"!buy charger" 	-> Charger
+			"!buy tank" 	-> Tank
 		}
 
 		快速購買特感特殊物品
 		{
-			"!buy Health" 	-> 恢復一定血量
-			"!buy Teleport" -> 異時空傳送門 (Tank不能購買)
-			"!buy Immune" 	-> God 上帝模式
-			"!buy Horde" 	-> 屍潮降臨
-			"!buy Witch" 	-> 召喚Witch
+			"!buy health" 	-> 恢復一定血量
+			"!buy teleport" -> 異時空傳送門 (Tank不能購買)
+			"!buy immune" 	-> God 上帝模式
+			"!buy horde" 	-> 屍潮降臨
+			"!buy witch" 	-> 召喚Witch
 		}
 		```
 
@@ -667,7 +670,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
 			"shop"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"

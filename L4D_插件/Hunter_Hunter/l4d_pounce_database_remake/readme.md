@@ -81,7 +81,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// There would a data table named "pounce_database_V2" in database
 			"pounce"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"
@@ -166,7 +166,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// 資料庫中自動創建表格，名稱是 "pounce_database_V2"
 			"pounce"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"

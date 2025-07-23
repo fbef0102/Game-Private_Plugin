@@ -5,6 +5,28 @@
 // Russian by maclarens
 // Portuguese by Mi.Cura
 
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
 "Phrases"
 {
 	"Shop Menu Title"
@@ -1436,7 +1458,7 @@
 	"Immune Everything Now"
 	{
 		"#format"		"{1:d}"
-		"en"	"You are Now Immune All Damage within {green}{1}{default} seconds"
+		"en"	"You are now Immune All Damage within {green}{1}{default} seconds"
 		"pt"	"Você agora esta em Modo DEUS, não recebe dano por {green}{1}{default} seconds"
 		"zho"	"你現在 {green}{1}{default} 秒內免疫一切傷害"
 		"chi"	"你现在 {green}{1}{default} 秒内免疫一切伤害"
@@ -1549,7 +1571,7 @@
 	{
 		"en"	"You are not dead..."
 		"pt"	"Você não esta morto..."
-		"zho"	"你現在不是死亡狀態，歸剛欸"
+		"zho"	"你現在不是死亡狀態"
 		"chi"	"你现在不是死亡状态，买个毛线，你马Ｂ"
 		"ru"	"{green} Ты итак живой!!"
 		"es"	"Usted no está muerto..."
@@ -1718,6 +1740,26 @@
 		"en"	"Can't give 100 health anymore"
 		"zho"	"你的血量已達上限"
 		"chi"	"你的血量已达上限"
+	}
+	
+	"God Mode"
+	{
+		"en"	"God Mode"
+		"zho"	"無敵 (短暫時間)"
+		"chi"	"无限 (短暂时间)"
+	}
+	"God Mode Now"
+	{
+		"#format"		"{1:d}"
+		"en"	"You are now god mode within {green}{1}{default} seconds"
+		"zho"	"你現在 {green}{1}{default} 秒內不受任何傷害, 不會被特感抓"
+		"chi"	"你现在 {green}{1}{default} 秒内不受任何伤害, 不会被特感抓"
+	}
+	"God Mode Timer"
+	{
+		"en"	"God Mode timer is out"
+		"zho"	"無敵模式 狀態已結束"
+		"chi"	"无限模式 状态已结束"
 	}
 }
 

@@ -202,7 +202,7 @@
          - 如果是Counter-Strike: Source，xxxxxx改成cstrike
          - 如果是No More Room in Hell，xxxxxx改成nmrih
       - ```-port 27016``` 為設定的Port
-         - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間🟥
+         - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
       - ```+sv_lan 0``` 改成網際網路
@@ -383,7 +383,7 @@
 * 以我為例
    
    0. 請使用網路線連接電腦與路由器(數據機)，不要用WiFi
-      * 🟥把加速器、VPN，任何會改變網路的軟體都關閉
+      * 🟥把加速器、VPN，任何會改變網路或IP的軟體都關閉
       * 伺服器後台輸入```status```，記住IP
       <br/>![image](https://github.com/user-attachments/assets/52ef494d-00fa-4d2a-a4b5-b0cf1ee8454d)
       * 拍照你家的路由器(數據機)，記住型號
@@ -430,6 +430,7 @@
 
    8. 如果IP相同，你已經成功
       * 以上看不懂不會操作，請聯繫我
+      * [其他路由器品牌的操作，感謝網友提供](https://forum.gamer.com.tw/Co.php?bsn=11333&sn=133594)
 
 - - - -
 ## 如何從大廳匹配到專屬伺服器

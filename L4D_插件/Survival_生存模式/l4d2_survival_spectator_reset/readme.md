@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* If player is spectator or player changes team after survival begins
 		* This player CAN NOT get the survival time record.
-</Chargedetails>
+</details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 

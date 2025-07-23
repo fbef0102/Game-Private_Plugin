@@ -56,7 +56,12 @@
 	3. 寫上以下指令
 		* (專屬伺服器) 到```cfg/server.cfg``` (🟥如果檔案不存在，可自己創建🟥)
 			```php
-			// 真人玩家允許加入伺服器的人數 (不包含AI Bot)
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 最大客戶端 (最大玩家數量): 伺服器內能容納玩家的人數，包含真人 + AI Bot 
+			// 此數值不准修改 (max: 31)
+			sv_setmax 31
+
+			// 真人玩家允許加入伺服器的人數，不包含AI Bot
 			// 自行修改此數值 (範圍1~31)
 			sv_maxplayers 18
 
@@ -103,10 +108,10 @@
 		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
 		* (區域房) 啟動選項輸入```+sv_setmax 31```
 		<br/>![image](https://github.com/user-attachments/assets/475e6a9b-8e88-495d-b4da-3412883129df)
-		* 🟥 ```玩家人數上限```和```sv_maxplayers```是不同的概念
-			* 玩家人數上限 (+sv_setmax) = 伺服器內玩家總數量，包含真人 + AI Bot 
-			* sv_maxplayers = 真人玩家允許加入伺服器的人數 (不包含AI Bot)
-		* 🟥 ```玩家人數上限```不能設置超過31位，否則伺服器會崩潰
+		* 🟥 ```sv_setmax```和```sv_maxplayers```是不同的概念
+			* sv_setmax (最大客戶端/最大玩家數量) = 伺服器內能容納玩家的人數，包含真人 + AI Bot 
+			* sv_maxplayers = 真人玩家允許加入伺服器的人數，不包含AI Bot
+		* 🟥 ```sv_setmax```不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器
 		* 控制台輸入```plugin_print```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
@@ -173,10 +178,10 @@
 		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
 		* (區域房) 啟動選項輸入```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/256a3c25-d803-4b39-9761-7785eae58f0d)
-		* 🟥 Max. players 和 sv_maxplayers 是不同的概念
-			* Max. players (-maxplayers) = 伺服器內玩家總數量，包含真人 + AI Bot 
-			* sv_maxplayers = 真人玩家允許加入伺服器的人數 (不包含AI Bot)
-		* 🟥 Max. players 不能設置超過31位，否則伺服器會崩潰
+		* 🟥 maxplayers 和 sv_maxplayers 是不同的概念
+			* maxplayers (最大客戶端/最大玩家數量) = 伺服器內能容納玩家的人數，包含真人 + AI Bot 
+			* sv_maxplayers = 真人玩家允許加入伺服器的人數，不包含AI Bot
+		* 🟥 maxplayers 不能設置超過31位，否則伺服器會崩潰
 
 	5. 啟動伺服器
 		* 控制台輸入```meta list```確認安裝成功，如果沒出現表示你前面步驟有誤或l4dtoolz版本不對
@@ -293,13 +298,13 @@
 
 	![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
 
-	* 原因: windows 10 的問體，windows系統對遊戲伺服器不怎麼友善，
+	* 原因: windows系統的問體
 	* 解決方式: 
 		* 法一：去跟微軟抱怨
 		* 法二：windows降級到windows 7
 		* 法三：租一台linux系統
 		* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
-		* 法五: [Windows調整時鐘精度工具](https://b23.tv/NQxIT55)
+		* 法五: [Windows調整時鐘精度工具](https://b23.tv/NQxIT55)，強制解鎖sv
 </details>
 
 * <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>

@@ -21,7 +21,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	* Display message when survival begins and round end.
 	* Edit Minimum SI/min requirement in file: [data/l4d_survival_min_si_stats.cfg](data/l4d_survival_min_si_stats.cfg)
 		* Manual in this file, click for more details...
-</Chargedetails>
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)

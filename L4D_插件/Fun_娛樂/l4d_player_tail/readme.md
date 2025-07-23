@@ -109,7 +109,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// There would a data table named "L4D_Player_Tail" in database
 			"tail"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"
@@ -268,7 +268,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// 資料庫中自動創建表格，名稱是 "L4D_Player_Tail"
 			"tail"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"

@@ -69,7 +69,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// There would a data table named "Tag_System_V1" in database
 			"name_tag"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"
@@ -158,7 +158,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 			// 資料庫中自動創建表格，名稱是 "Tag_System_V1"
 			"name_tag"
 			{
-				"driver"			"default"
+				"driver"			"mysql"
 				"host"				"x.x.x.x"
 				"database"			"yourdatabase"
 				"user"				"youruser"

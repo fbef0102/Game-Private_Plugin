@@ -28,7 +28,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Jimmy
 	* Support custom maps
 	* Support The Last Stand New Model
-</Chargedetails>
+</details>
 
 * Require | 必要安裝
 <br>None

@@ -56,6 +56,11 @@
 	3. Write down the following cvars
 		* (Dedicated server) in ```cfg/server.cfg``` (🟥if file doesn't exist, create it🟥)
 			```php
+			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
+			// Max. clients/players, how many real players + bots allowed in server
+			// Do not modify value (max: 31)
+			sv_setmax 31
+
 			// How many real players can join server (Not including AI Bots)
 			// Free to modify value (1~31)
 			sv_maxplayers 18
@@ -105,8 +110,8 @@
 		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* (Listen Server) Launch options ```+sv_setmax 31```
 		<br/>![image](https://github.com/user-attachments/assets/2370fd51-97eb-4413-bc0c-a590dfeba499)
-		* 🟥 Max. players and sv_maxplayers are different
-			* Max. players (+sv_setmax) = Max Real players + AI Bots in server
+		* 🟥 sv_setmax and sv_maxplayers are different
+			* sv_setmax = Max Real players + AI Bots allowed in server
 			* sv_maxplayers = How many real players can join server (Not including AI Bots)
 		* 🟥 Server would crash if set over 31 Max. players
 
@@ -178,8 +183,8 @@
 		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
 		* (Listen Server) Launch options ```-maxplayers 31```
 		<br/>![image](https://github.com/user-attachments/assets/0b605d35-9e09-44e1-91bd-8a18b73ef962)
-		* 🟥 Max. players and sv_maxplayers are different
-			* Max. players (-maxplayers) = Max Real players + AI Bots in server
+		* 🟥 maxplayers and sv_maxplayers are different
+			* maxplayers = Max Real players + AI Bots allowed in server
 			* sv_maxplayers = How many real players can join server (Not including AI Bots)
 		* 🟥 Server would crash if set over 31 Max. players
 
@@ -304,7 +309,7 @@
 		* Method 2：Using windows 7 instead
 		* Method 3：Using linux server instead
 		* Method 4：Connect Server from lobby with ```mm_dedicated_force_servers``` command, it will fix 64 tick issue in windows server
-		* Method 5: [Windows Unlock Tool](https://b23.tv/NQxIT55)
+		* Method 5: [Windows Unlock Tool](https://b23.tv/NQxIT55), force to unlock sv
 </details>
 
 * <details><summary>Q&A 2: Why player's tickrate is not 100?</b></summary>
