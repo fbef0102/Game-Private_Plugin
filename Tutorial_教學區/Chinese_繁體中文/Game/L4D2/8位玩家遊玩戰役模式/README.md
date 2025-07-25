@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/6/16 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/7/25 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -97,6 +97,8 @@
 
 * (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): 減少玩家因為 "No Steam Logon" 離線的機率 (Steam驗證失敗)
 
+* [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
+
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
@@ -123,7 +125,7 @@
 * (L4D2) [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
 
 * (L4D2) [Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
-    * 與必要檔案的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
+    * 與上面插件的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 

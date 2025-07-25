@@ -93,6 +93,8 @@
 
 * (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): Reduce player "No Steam Logon" disconnect probability (Steam verification failed)
 
+* [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
+
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install

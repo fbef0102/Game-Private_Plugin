@@ -35,8 +35,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* **Force to Shuffle the teams. <number> = numbers of time to shuffle (Adm Required: ADMFLAG_ROOT)**
 		```php
-		sm_forceshuffle
-		sm_forceteamshuffle
+		sm_forceshuffle <number>
+		sm_forceteamshuffle <number>
 		```
 </details>
 
@@ -49,6 +49,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2025-7-25)
+		* Add number of times to shuffle
 
 	* v1.1h (2025-5-26)
 		* Use builtin-votes
