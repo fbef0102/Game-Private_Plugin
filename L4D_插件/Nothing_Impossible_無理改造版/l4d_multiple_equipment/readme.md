@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
     * Everyone can carry
         * 2 different primary weapons
-        * 2 different melee weapons (Support Custom Melee) or pistols
+        * 2 different melee weapons (Support Custom Melee), chainsaws or pistols
         * 2 thorwable items
         * 2 kits/defibrillators/upgradepacks
         * 2 pills/adrenalines

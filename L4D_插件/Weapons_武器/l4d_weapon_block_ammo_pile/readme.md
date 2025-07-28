@@ -23,6 +23,18 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
     1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* <details><summary>Support | 支援插件</summary>
+
+    1. [l4d2_M60_weapon_patch](/L4D_插件/Weapons_武器/l4d2_M60_weapon_patch): Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill Explosive/Incendiary ammo
+        * 改造M60 機關槍，可以拿取子彈、填充子彈、裝彈變快、升級火焰子彈與高爆子彈
+    2. [GrenadeLauncher_AmmoPile_patch](https://forums.alliedmods.net/showthread.php?t=323408): Refill Grenade Launcher ammo
+        * 榴彈發射器可以補充子彈
+    3. [Reserve (Ammo) Control](https://forums.alliedmods.net/showthread.php?t=334274): Individually control weapons's reserve counts independent of the ammo_* cvars.
+        * 每一種槍枝都有獨立的備用彈藥
+    4. [l4d_infinite_clip](/L4D_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
+        * 指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_weapon_block_ammo_pile.cfg
@@ -49,6 +61,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // "weapon_rifle_sg552",				13
         // "weapon_sniper_awp",				    14
         // "weapon_sniper_scout",				15
+        // "weapon_rifle_m60",				    16
+        // "weapon_grenade_launcher",			17
         l4d_weapon_block_ammo_pile_weapon "14,15"
 
         // (L4D1) Empty string to block all. Cannot refill the ammo of these weapon IDs in this plugin, separate by commas (no spaces). See plugin source code for more details.
@@ -74,16 +88,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	```
 	translations/l4d_weapon_block_ammo_pile.phrases.txt
 	```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-    1. [Reserve (Ammo) Control](https://forums.alliedmods.net/showthread.php?t=334274): Individually control weapons's reserve counts independent of the ammo_* cvars.
-        * 每一種槍枝都有獨立的備用彈藥
-    2. [l4d_infinite_clip](/L4D_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
-        * 指定的武器可以無限射擊，不需要換彈夾 + 電鋸擁有無限油量
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1 (2025-7-28)
+        * Add M60, grenade launcher
 
     * v1.0 (2024-3-27)
         * Initial Release
@@ -122,6 +130,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // "weapon_rifle_sg552",				13
         // "weapon_sniper_awp",				    14
         // "weapon_sniper_scout",				15
+        // "weapon_rifle_m60",				    16
+        // "weapon_grenade_launcher",			17
         l4d_weapon_block_ammo_pile_weapon "14,15"
 
         // (L4D1) 空=限制全武器. 填入武器的ID，指定這些武器無法填裝彈藥, 逗號分隔（不須空格）. 請打開源碼查看武器的ID列表
