@@ -155,21 +155,14 @@
 
 * [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Change target when the witch incapacitates or kills victim + witch auto follows survivors
 
-* [Death Soul (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): Soul of the dead survivor flies away to the afterlife.
-
-* [Graves (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): When a survivor die, on his body appear a grave.
-
-* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): When rescue vehicle arrived and a timer will display how many time left before vehicle leaving. If a player is not on rescue vehicle or zone, slay him.
-
-* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config by Harry. Create the Unlimited Map.
-
-* [L4D2 Survivors And Infected Shop Improved](/L4D_插件/Fun_娛樂/L4D2_Buy_Store): Killing zombies and infected to earn credits, use !buy to purchase weapons and items.
-
 * [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
 
 * [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors and map
 
-* [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
+* Other Fun Plugins
+    * [Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)
+    * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+    * [Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin): Private Plugin List.
 
 - - - -
 ## Others

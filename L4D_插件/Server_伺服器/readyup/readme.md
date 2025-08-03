@@ -37,6 +37,8 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	1. [l4d_start_safe_area](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_start_safe_area): Add Custom safe area for any map on start
 		* 遊戲開局時，強制將出生點周圍區域判定為安全區，以確保玩家安全
+	2. [caster_system](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/caster_system.sp): Standalone caster handler.
+		* Caster 插件，註冊為比賽的解說員或是直播員
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -52,8 +54,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// ConVar to retrieve the server name for displaying on the ready-up panel
 		l4d_ready_server_cvar "sn_main_name"
 
-		// Maximum number of players to show on the ready-up panel.
-		l4d_ready_max_players "12"
+		// Maximum number of spectators to show on the ready-up panel.
+		l4d_ready_max_spec "3"
+
+		// Maximum number of casters to show on the ready-up panel. (if caster available)
+		l4d_ready_max_caster "3"
 
 		// Prevent SI from having spawns during ready-up
 		l4d_ready_disable_spawns "0"
@@ -169,6 +174,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.5h (2025-8-3)
+		* Update cvars
+
 	* v1.4h (2024-12-25)
 		* Dispaly caster if use caster_system plugin
 		* Add auto start, team start
@@ -180,8 +188,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		* Update cvars
 
 	* v1.2h (2024-1-23)
-		* Remove Caster
-
 	* v1.1h (2023-2-27)
 		* Translation Support
 
@@ -218,8 +224,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 準備介面要顯示的房名，使用哪一種指令? (指令不存在會使用官方預設"hostname")
 		l4d_ready_server_cvar "sn_main_name"
 
-		// 在Ready介面上最多能顯示的玩家數量
-		l4d_ready_max_players "12"
+		// 在Ready介面上最多能顯示的旁觀者數量
+		l4d_ready_max_spec "3"
+
+		// 在Ready介面上最多能顯示的caster數量 (如果有裝caster插件)
+		l4d_ready_max_caster "3"
 
 		// 為1時，準備期間特感無法進入靈魂狀態
 		l4d_ready_disable_spawns "0"

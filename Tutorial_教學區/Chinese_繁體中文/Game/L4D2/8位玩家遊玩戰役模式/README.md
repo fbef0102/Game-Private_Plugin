@@ -18,7 +18,7 @@
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
     * 因為Sourcemod本來就不支援區域伺服器，請自行斟酌
-* 此處教學包含修正5+以上玩家會發生的問題
+* 此處教學包含修復5+以上玩家會發生的問題
 
 - - - -
 ## 準備檔案
@@ -161,21 +161,14 @@
 
 * [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
 
-* [Death Soul (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_death_soul): 人類死亡，靈魂升天
-
-* [Graves (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_graves): 為人類屍體造一個墓碑以做紀念
-
-* [Rescue vehicle leave timer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_rescue_vehicle_leave_timer): 最終關卡救援來臨時，絕命逃跑倒數計時，時間一到城市將會遭受核彈爆裂
-
-* [L4D2-Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map): 終極地圖，打造迷宮與探索未知的世界
-
-* [L4D2 Survivors And Infected Shop Improved](/L4D_插件/Fun_娛樂/L4D2_Buy_Store): 人類與特感的購物商城 (附有特殊商品與資料庫)
-
 * [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
 
 * [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): 隨著玩家人數越多，殭屍/屍潮 數量越來越多
 
-* [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
+* 以下連結提供更多插件自行挖寶 (有中英文說明)
+    * [Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)
+    * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
+    * [Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin): 私人插件列表 (需付費)
 
 - - - -
 ## 其他

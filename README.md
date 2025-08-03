@@ -874,12 +874,6 @@
   * ✗AI生成的代碼
 </details>
 
-* <details><summary><b>拒絕名單</b></summary>
-
-  * 以下作者的插件或原始碼, 一律不受理
-    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
-</details>
-
 # Introduce MySelf
 * 👩‍💻Taiwanese, majored in in Department of Computer Science & Engineering
 * 🕹️[Steam "Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 and cs for over 10 years 
@@ -919,12 +913,6 @@
   * ✗ Only plugin with no source code, please attach original link
   * ✗ I won't provide AllInOne-lazy-package, please do it yourself
   * ✗ If you don't agree I sell plugins after finish new request or new function, then don't bother me
-</details>
-
-* <details><summary><b>Blacklist</b></summary>
-
-  * Refuse to modify the following people's work
-    1. [Silvers](https://forums.alliedmods.net/member.php?u=85778): [Scummy move](https://i.imgur.com/4SDX9Vd.jpeg)
 </details>
 
 - - - -
