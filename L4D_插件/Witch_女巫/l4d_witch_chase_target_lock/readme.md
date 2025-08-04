@@ -20,6 +20,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * Require | 必要安裝
 	1. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
 
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d_witch_follow_kill_everyone](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills initial target
+		* Witch追殺死第一個驚嚇她的人之後，可以轉移到其他目標
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_witch_chase_target_lock.cfg
@@ -27,12 +33,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Plugin off, 1=Plugin on.
 		l4d_witch_chase_target_lock_enable "1"
 		```
-</details>
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witch auto follows survivors
-    	> Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

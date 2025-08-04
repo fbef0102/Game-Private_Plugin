@@ -19,11 +19,13 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	| ![l4d_team_flashlight_remake_before_1](image/l4d_team_flashlight_remake_before_1.jpg)|![l4d_team_flashlight_remake_after_1](image/l4d_team_flashlight_remake_after_1.jpg)|
 	| ![l4d_team_flashlight_remake_before_2](image/l4d_team_flashlight_remake_before_2.jpg)|![l4d_team_flashlight_remake_after_2](image/l4d_team_flashlight_remake_after_2.jpg)|
 	| ![l4d_team_flashlight_remake_before_3](image/l4d_team_flashlight_remake_before_3.gif)|![l4d_team_flashlight_remake_after_3](image/l4d_team_flashlight_remake_after_3.gif)|
+	| ![l4d_team_flashlight_remake_before_4](image/l4d_team_flashlight_remake_before_4.gif)|![l4d_team_flashlight_remake_after_4](image/l4d_team_flashlight_remake_after_4.gif)|
 
 * <details><summary>How does it work?</summary>
 
 	* Double tapping ```F key``` to enable/disable dynamic light
 	* Add flash spotlight to where survivors are pointing with flashlights on.
+		* The radius of the spotlight will get smaller or bigger based on the player's distance from walls/surfaces
 	* Attach ambient spotlight to survivors with flashlights on.
 </Chargedetails>
 
@@ -58,7 +60,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_team_flashlight_remake_flash_show "3"
 
 		// Distance the flash spotlight shines before not lighting up.
-		l4d_team_flashlight_remake_flash_distance "1000"
+		l4d_team_flashlight_remake_flash_distance "800"
 
 		// The RGB render color of the flash spotlight 
 		l4d_team_flashlight_remake_flash_color "13 13 13"
@@ -66,8 +68,11 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// The intensity of the flash spotlight. Maximum: 127
 		l4d_team_flashlight_remake_flash_brightness "3"
 
-		// This is the size of the flash spotlight, at the object that it is hitting.
-		l4d_team_flashlight_remake_flash_size "200.0"
+		// This is the size of the flash spotlight, at the object that it is hitting. (The radius will get smaller based on the player's distance from walls/surfaces)
+		l4d_team_flashlight_remake_flash_size "50.0"
+
+		// Based on the player's distance from walls/surfaces, the radius of the flash spotlight will get 0=bigger, 1=smaller
+		l4d_team_flashlight_remake_flash_type "0"
 
 		// The angles of the inner flash spotlight beam. 0: makes it omnidirectional.
 		l4d_team_flashlight_remake_flash_inner_cone "1"
@@ -116,6 +121,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 * 原理
 	* 雙擊```F鍵```即可開啟或關閉此插件的光照特效
 	* 倖存者的手電筒照到牆壁上，牆壁上有圓光特效，隊友都可以看到
+		* 隨著玩家距離牆壁越遠, 牆壁上光環圓圈變小或變大
 	* 倖存者的手電筒打開時，身體周圍會有環境光照效果
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -145,7 +151,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_team_flashlight_remake_flash_show "3"
 
 		// 手電筒最遠照射距離
-		l4d_team_flashlight_remake_flash_distance "1000"
+		l4d_team_flashlight_remake_flash_distance "800"
 
 		// 手電筒照到牆壁上的顏色，填入RGB三色 (三個數值介於0~255，需要空格)
 		l4d_team_flashlight_remake_flash_color "13 13 13"
@@ -154,7 +160,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		l4d_team_flashlight_remake_flash_brightness "3"
 
 		// 手電筒照到牆壁上的光環圓圈大小
-		l4d_team_flashlight_remake_flash_size "200.0"
+		l4d_team_flashlight_remake_flash_size "50.0"
+
+		// 隨著玩家距離牆壁越遠, 光環圓圈 0=越大, 1=越小
+		l4d_team_flashlight_remake_flash_type "0"
 
 		// 手電筒內部聚光燈光束的角度 0: 全方位. (看不懂則不要修改)
 		l4d_team_flashlight_remake_flash_inner_cone "1"

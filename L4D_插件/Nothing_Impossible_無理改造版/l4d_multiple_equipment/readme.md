@@ -102,8 +102,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (L4D2 only) 1=Allow pick up same pill/adrenaline items (0=Not Allow)
         l4d_multiple_equipment_slot4_same "1"
 
-        // How to switch equipments, 0=Single Press slot 1,2,3,4,5, 1=Double Press Q + Single Press slot 1,2,3,4,5
-        l4d_multiple_equipment_switch_mode "1"
+        // How to switch equipments
+        // 0=Single Press slot 1,2,3,4,5
+        // 1=Double Press Q + Single Press slot 1,2,3,4,5 (conflict while using the scroll wheel)
+        l4d_multiple_equipment_switch_mode "0"
 
         // If 1, player can type !sw to switch equipments
         l4d_multiple_equipment_switch_cmd "1"
@@ -288,7 +290,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         // (限L4D2) (可攜帶相同 藥丸/腎上腺素),  0=不可以, 1=可以
         l4d_multiple_equipment_slot4_same "1"
 
-        // 玩家如何切換裝備, 0=單擊 Slot 1,2,3,4,5 按鈕, 1=雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕
+        // 玩家如何切換裝備
+        // 0=單擊 Slot 1,2,3,4,5 按鈕
+        // 1=雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕 (會與滾輪切換武器產生衝突)
         l4d_multiple_equipment_switch_mode "1"
 
         // 為1時，玩家也可以輸入 !sw 切換裝備

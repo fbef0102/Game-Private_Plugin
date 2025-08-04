@@ -678,6 +678,8 @@
     * 避免Tank的石頭砸死另一個Tank、Witch、特感
   * [l4d_tank_spawn_more_si](/L4D_插件/Tank_坦克/l4d_tank_spawn_more_si): Tank will bring lots of friends when spawns
     * Tank生成時有機率出現多個Tank、Witch、特感
+  * [l4d_tank_force_attack_spawn](/L4D_插件/Tank_坦克/l4d_tank_force_attack_spawn): Force AI Tanks in coop/realism to attack instead of waiting.
+    * 戰役/寫實模式下，AI Tank會直接往前進並攻擊倖存者，而非待在原地等待
 </details>
 
 * <details><summary><b>Versus | 對抗模式</b></summary> 
@@ -774,6 +776,8 @@
     * Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人時，顯示剩餘血量
   * [l4d_with_crowns_database_remake](/L4D_插件/Witch_女巫/l4d_with_crowns_database_remake): Adding a statistic of witch crowns and save to database
     * 統計一槍殺死Witch的數量，並儲存於數據庫當中
+  * [l4d_witch_follow_kill_everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills victim + witch auto follows survivors
+    * Witch被驚嚇後，會追殺死所有倖存者 + Witch會自動跟蹤你
 </details>
 
 * <details><summary><b>只有中文的插件列表</b></summary>

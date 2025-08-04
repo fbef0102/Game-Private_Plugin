@@ -28,6 +28,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
 	4. [l4d_change_witch_victim](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_change_witch_victim)
+    5. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills victim + witch auto follows survivors
+		* Witch被驚嚇後，會追殺死所有倖存者 + Witch會自動跟蹤你
+	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
+		* 四個修復Witch的插件可以裝
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -47,14 +56,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```php
 		library name: l4d_witch_target_forever
 		```
-</details>
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-	1. [witch_target_override](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/witch_target_override): Change target when the witch incapacitates or kills victim + witch auto follows survivors
-		* Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
-	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
-		* 四個修復Witch的插件可以裝
 </details>
 
 * Translation Support | 支援翻譯
