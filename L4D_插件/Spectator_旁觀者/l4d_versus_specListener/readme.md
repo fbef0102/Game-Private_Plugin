@@ -29,17 +29,17 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 	* cfg\sourcemod\l4d_versus_specListener.cfg
         ```php
-        // Players with these flags have access to use sm_hear command to enable or disable hear feature. (Empty = Everyone, -1: Nobody)
-        l4d_versus_specListener_command_access_flag ""
+        // 0=Plugin off, 1=Plugin on.
+        l4d_versus_specListener_enable "1"
 
         // If 1, Enable Hear Feature for all spectators by default [0-Disable]
         l4d_versus_specListener_default "1"
 
-        // 0=Plugin off, 1=Plugin on.
-        l4d_versus_specListener_enable "1"
-
         // If 1, Show Spectators Survivors and Infected Team chat?
         l4d_versus_specListener_team_chat_spec "1"
+
+        // Players with these flags have access to use sm_hear command to enable or disable hear feature. (Empty = Everyone, -1: Nobody)
+        l4d_versus_specListener_command_access_flag ""
         ```
 </details>
 
@@ -93,6 +93,28 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
     * 可以搭配[show_mic插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/show_mic)，顯示誰在語音並且在說話的玩家頭上帶帽子
     * 戰役模式也適用
 
-* 功能
-    * 預設旁觀者開關監聽模式
-    * 可設置擁有特定權限的人才能開啟監聽模式
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg\sourcemod\l4d_versus_specListener.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        l4d_versus_specListener_enable "1"
+
+        // 監聽模式 1=預設打開, 0=預設關閉
+        l4d_versus_specListener_default "1"
+
+        // 為1時，旁觀者能透過聊天視窗看到倖存者和特感的隊伍對話
+        l4d_versus_specListener_team_chat_spec "1"
+
+        // 擁有這些權限的玩家，可以輸入!hear (留白 = 任何人都能, -1: 無人)
+        l4d_versus_specListener_command_access_flag ""
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+    * **開啟/關閉 監聽模式 (個人)**
+        ```php
+        sm_hear
+        ```
+</details>

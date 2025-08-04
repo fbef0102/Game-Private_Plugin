@@ -266,6 +266,8 @@
     * 普通感染者 不會被Boomer/榴彈/倖存者右鍵... 震退
   * [l4d_infected_no_slowdown](/L4D_插件/Common_Infected_普通感染者/l4d_infected_no_slowdown): Prevent survivor from slowdown by common infected
     * 被普通感染者攻擊不會减少移動速度
+  * [l4d2_bile_out_nav_negate](/L4D_插件/Common_Infected_普通感染者/l4d2_bile_out_nav_negate): If vomit jar is thrown at the place which is out of map (NAV), negate bile effect
+    * 如果丟膽汁瓶到地圖外面，則無效膽汁效果
 </details>
 
 * <details><summary><b>Coop | 戰役模式</b></summary> 
@@ -444,6 +446,8 @@
     * 槍口增加逼真的閃光
   * [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
     * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+  * [l4d_team_flashlight_remake](/L4D_插件/Real_Realism_真寫實模式/l4d_team_flashlight_remake): Remake Survivor Realism Dynamic Flash Lights!
+    * 倖存者有真實的手電筒光照效果
 </details>
 
 * <details><summary><b>Scavenge | 清道夫模式</b></summary> 
@@ -548,6 +552,8 @@
     * 給死亡玩家或旁觀者手電筒，照亮地圖
   * [l4d_versus_specListener](/L4D_插件/Spectator_旁觀者/l4d_versus_specListener): Allows spectator listen others team voice and see others team chat for l4d
     * 旁觀者可以透過聊天視窗看到倖存者和特感的隊伍對話，亦可透過音頻聽到隊伍談話
+  * [spectator_block_vote](/L4D_插件/Spectator_旁觀者/spectator_block_vote): Spectators can not call official vote and not eligible to vote (F1/F2)
+    * 禁止旁觀者參與官方的投票，移除旁觀者的投票資格
 </details>
 
 * <details><summary><b>Spitter | Spitter</b></summary>

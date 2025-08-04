@@ -1,0 +1,62 @@
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"DynamicLight_Toggle (C)"
+	{
+		"en"			"Toggle the dynamic light by double tapping your flashlight key {green}(F){default}."
+		"zho"			"雙擊手電筒按鍵 {green}(F){default} 切換動態光源."
+		"chi"			"双击手电筒按键 {green}(F){default} 切换动态光源."
+	}
+	"DynamicLight_TurnedOn (C)"
+	{
+		"en"			"Dynamic Light On. Double tap your flashlight key {green}(F){default} to toggle."
+		"zho"			"動態光源開啟. 雙擊手電筒按鍵 {green}(F){default} 切換."
+		"chi"			"动态光源开启. 双击手电筒按键 {green}(F){default} 切换."
+	}
+	"DynamicLight_TurnedOff (C)"
+	{
+		"en"			"Dynamic Light Off. Double tap your flashlight key {green}(F){default} to toggle."
+		"zho"			"動態光源關閉. 雙擊手電筒按鍵 {green}(F){default} 切換."
+		"chi"			"动态光源关闭. 双击手电筒按键 {green}(F){default} 切换."
+	}
+	
+	"DynamicLight_Toggle"
+	{
+		"en"			"Toggle the dynamic light by double tapping your flashlight key (F)."
+		"zho"			"雙擊手電筒按鍵 (F) 切換動態光源."
+		"chi"			"双击手电筒按键 (F) 切换动态光源."
+	}
+	"DynamicLight_TurnedOn"
+	{
+		"en"			"Dynamic Light On. Double tap your flashlight key (F) to toggle."
+		"zho"			"動態光源開啟. 雙擊手電筒按鍵 (F) 切換."
+		"chi"			"动态光源开启. 双击手电筒按键 (F) 切换."
+	}
+	"DynamicLight_TurnedOff"
+	{
+		"en"			"Dynamic Light Off. Double tap your flashlight key (F) to toggle."
+		"zho"			"動態光源關閉. 雙擊手電筒按鍵 (F) 切換."
+		"chi"			"动态光源关闭. 双击手电筒按键 (F) 切换."
+	}
+}

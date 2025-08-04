@@ -5,6 +5,12 @@ Make It So The Person Calling The Vote Gets Kicked!
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/tc92PDgY5RA)
 
 * Image | 圖示
@@ -69,17 +75,6 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
         kick_the_voter_surv_restart_access "z"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-	
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

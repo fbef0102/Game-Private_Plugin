@@ -5,14 +5,23 @@ Adds dynamic muzzle flash to gunfire
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/wlI10amIbW4)
 
-* <details><summary>Image | 圖示</summary>
-
-	* Fire Muzzle Flash (手槍逼真光源)
+* Image | 圖示
 	<br/>![l4d_dynamic_muzzle_flash_1](image/l4d_dynamic_muzzle_flash_1.jpg)
 	<br/>![l4d_dynamic_muzzle_flash_2](image/l4d_dynamic_muzzle_flash_2.jpg)
-</details>
+
+* <details><summary>How does it work?</summary>
+
+	* Give mzzle flash when gun fire
+	* Everyone can see including teammates and spectators
+</Chargedetails>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -96,30 +105,15 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//sereky @ 2012
-	//Harry @ 2022
-	```
 	* v1.0h (2022-11-17)
 		* Remake code.
 		* Add convars to allow specified weapons
 		* Probability to change the brightness of the light
 
-	* 1.0
-		* [Fork of sereky's Dynamic Muzzle Flash](https://forums.alliedmods.net/showpost.php?p=1765869&postcount=6)
+	* Credit
+		* Original: [Fork of sereky's Dynamic Muzzle Flash](https://forums.alliedmods.net/showpost.php?p=1765869&postcount=6)
 </details>
 
 - - - -

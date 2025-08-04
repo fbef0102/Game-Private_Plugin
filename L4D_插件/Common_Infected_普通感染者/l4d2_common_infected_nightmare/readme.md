@@ -5,16 +5,16 @@ Common infected spawns with random health, speed, size, damage, armor. Make sure
 This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/isTpGqmf1qA)
 
 * Image | 圖示
 	<br/>![l4d2_common_infected_nightmare_1](image/l4d2_common_infected_nightmare_1.jpeg)
 	<br/>![l4d2_common_infected_nightmare_2](image/l4d2_common_infected_nightmare_2.jpg)
-
-* Apply to | 適用於
-	```
-	L4D2
-	```
 
 * <details><summary>How does it work?</summary>
 
