@@ -55,6 +55,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=Off. 1=Show hint when first using the flashlight, 2=Show hint on toggle, 3=Both.
 		l4d_team_flashlight_remake_hints "1"
 
+		// If 1, player can double tapping flashlight key(F) to enable/disable dynamic light
+		l4d_team_flashlight_remake_toggle "1"
+
 		// Who can see the dynamic flash light? 0=No one
 		// 1=Owner, 2=Other players, 3=Both.
 		l4d_team_flashlight_remake_flash_show "3"
@@ -102,7 +105,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.0h (2022-11-17)
+	* v1.1h (2025-8-9)
+		* Add cvars
+
+	* v1.0h (2025-08-06)
 		* Remake code.
 		* Use left4dhooks to improve code
 		* Remove Lux's library include
@@ -145,6 +151,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 		// 0=關閉提示. 1=第一次使用手電筒時提示, 2=每次使用手電筒時提示, 3=兩者皆提示.
 		l4d_team_flashlight_remake_hints "1"
+
+		// 為1時，玩家雙擊```F鍵```即可開啟或關閉此插件的光照特效
+		l4d_team_flashlight_remake_toggle "1"
 
 		// 誰可以看見手電筒照到牆壁上的光 (0=沒人能看見)
 		// 1=自己, 2=其他人, 3=兩者皆是.
