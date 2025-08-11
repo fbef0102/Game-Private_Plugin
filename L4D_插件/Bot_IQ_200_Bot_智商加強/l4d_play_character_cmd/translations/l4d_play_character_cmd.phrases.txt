@@ -1,0 +1,32 @@
+﻿"Phrases"
+{
+	"title"
+	{
+		"en"		"Choose character bot"
+		"zho"		"請選擇角色Bot"
+		"chi"		"请选择角色Bot"
+	}	
+	
+	"Cmd disabled after round is live"
+	{
+		"en"		"Cmd disabled after round is live"
+		"zho"		"遊戲開始後不能選角"
+		"chi"		"游戏开始后不能选角"
+	}
+		
+	"not survivor"
+	{
+		"en"		"You must be survivor first"
+		"zho"		"請先成為倖存者"
+		"chi"		"请先成为幸存者"
+	}
+	
+	"invalid"
+	{
+		"en"		"Target is not an alive survivor bot"
+		"zho"		"選擇的對象已不是活著的倖存者Bot"
+		"chi"		"选择的对象已不是活着的幸存者Bot"
+	}
+	
+	
+}

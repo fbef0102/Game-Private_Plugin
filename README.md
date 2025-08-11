@@ -232,7 +232,7 @@
     * 更改AI Bot的喜愛武器順序，優先拿取合適的武器
   * [bot_replace_player](/L4D_插件/Bot_IQ_200_Bot_智商加強/bot_replace_player): If bot takes over the dead/incapacitated player who has disconnected, bot can repsawn and recovery HP.
     * AI Bot取代離開遊戲的死亡與倒地玩家時，自動復活並給予武器
-  * [l4d_play_character_cmd](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_play_character_cmd): Use cmd to play another bot charater
+  * [l4d_play_character_cmd](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_play_character_cmd): Use cmd to play another survivor bot
     * 輸入命令切換到另一個Bot角色遊玩
   * [l4d_TougherSurvivorBots](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Makes the survivor bots deal more damage against SIs and be more resistant to damage.
     * 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
