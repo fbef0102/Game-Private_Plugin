@@ -10,11 +10,12 @@
 - - - -
 ## Stripper
 * What is stripper?
-	* Modify, add, delete entities on the map, even create map event
-		* [Video](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
 	* Build the map by yourself
 		* [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
+		* [Video](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
+	* Modify, add, delete obstacle, propsm weapons on the map, and even create horde event
 		* [l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
+		* [Map Modify](https://github.com/fbef0102/L4D2-Unlimited-Map#modify--%E5%85%B6%E4%BB%96%E4%BF%AE%E6%94%B9)
 
 * <details><summary>Installation</summary>
 

@@ -130,6 +130,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // Show 'switch_cmd' message to players entering survivor, 0=Off, 1=Chatbox, 2=Hint
         l4d_multiple_equipment_cmd_notify "1"
+
+        // If 1, Show 'Can't pick up same weapon/melee' message to players, 0=Off
+        l4d_multiple_equipment_same_notify "1"
+
+        // If 1, Show 'You can carry more weapons' message to players, 0=Off
+        l4d_multiple_equipment_more_notify "1"
 		```
 </details>
 
@@ -164,6 +170,9 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.3h (2025-8-13)
+        * Update cvars
 
     * v2.2h (2025-6-16)
         * Support l4d2_melee_durability and fortnite_dances_emotes_l4d plugin by harry
@@ -318,6 +327,12 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
         // 指令操作該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框)
         l4d_multiple_equipment_cmd_notify "1"
+
+        // 1=顯示'無法撿起相同的武器/近戰'給玩家看, 0=不顯示
+        l4d_multiple_equipment_same_notify "1"
+
+        // 1=顯示'可攜帶額外武器'給玩家看, 0=不顯示
+        l4d_multiple_equipment_more_notify "1"
 		```
 </details>
 

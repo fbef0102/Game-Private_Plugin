@@ -10,11 +10,12 @@
 - - - -
 ## 安裝Stripper
 * Stripper 用途是什麼?
-	* 修改地圖，可以在地圖上新增各種障礙物、道具、機關事件等等
-		* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
-	* 把地圖改造成迷宮都不是問題
+	* 把地圖改造成迷宮
 		* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
+		* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
+	* 修改地圖，可以在地圖上新增各種障礙物、道具、機關、屍潮事件、武器變更等等
 		* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
+		* [地圖修改列表](https://github.com/fbef0102/L4D2-Unlimited-Map#modify--%E5%85%B6%E4%BB%96%E4%BF%AE%E6%94%B9)
 
 * <details><summary>安裝步驟 (點我展開)</summary>
 

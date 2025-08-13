@@ -152,7 +152,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 		// 0=關閉提示. 1=第一次使用手電筒時提示, 2=每次使用手電筒時提示, 3=兩者皆提示.
 		l4d_team_flashlight_remake_hints "1"
 
-		// 為1時，玩家雙擊```F鍵```即可開啟或關閉此插件的光照特效
+		// 為1時，玩家雙擊F鍵即可開啟或關閉此插件的光照特效
 		l4d_team_flashlight_remake_toggle "1"
 
 		// 誰可以看見手電筒照到牆壁上的光 (0=沒人能看見)
