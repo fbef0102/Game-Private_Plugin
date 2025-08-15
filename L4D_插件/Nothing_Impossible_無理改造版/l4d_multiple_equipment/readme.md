@@ -2,8 +2,8 @@
 Carry 2 weapons or items in each slot
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Apply to | 適用於
     ```
@@ -58,10 +58,10 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d2_melee_durability](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+	1. [l4d2_melee_durability](/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
 		* 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 
-	2. [fortnite_dances_emotes_l4d](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Emotes and Dance in L4D1/2
+	2. [fortnite_dances_emotes_l4d](/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Emotes and Dance in L4D1/2
 		* 搞笑動作模組: 表情與舞蹈
 </details>
 

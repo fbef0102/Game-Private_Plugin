@@ -2,8 +2,8 @@
 Let users Bunny Hop with simplicity 
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Apply to | 適用於
 	```
@@ -64,7 +64,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_rejump](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_rejump): Allows multi-jumping on air.
+	1. [l4d_rejump](/L4D_插件/Nothing_Impossible_無理改造版/l4d_rejump): Allows multi-jumping on air.
 		> 超級瑪利歐，空中使用月步，多次連跳
 </details>
 

@@ -2,8 +2,8 @@
 Increase AI Tank speed until hitting survivors
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * [Video | 影片展示](https://youtu.be/qQEAqHX2v4I)
 
@@ -71,7 +71,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [skip_tank_taunt](https://github.com/fbef0102/Game-Private_Plugin/tree/main/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback version
+	1. [skip_tank_taunt](/L4D_插件/Tank_坦克/skip_tank_taunt): Skip Tank Victory + Speed up Obstacle animation playback version
 		* Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 
 	2. [l4d_tankAttackOnSpawn](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankAttackOnSpawn): Forces AI tank to leave stasis and attack while spawn in coop.

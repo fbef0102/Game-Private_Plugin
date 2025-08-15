@@ -2,8 +2,8 @@
 Fixed the issue that witch sometimes changes target to attack special infected or other people, the witch will never change the initial target
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Apply to | 適用於
     ```
@@ -22,7 +22,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d_witch_follow_kill_everyone](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills initial target
+	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills initial target
 		* Witch追殺死第一個驚嚇她的人之後，可以轉移到其他目標
 </details>
 

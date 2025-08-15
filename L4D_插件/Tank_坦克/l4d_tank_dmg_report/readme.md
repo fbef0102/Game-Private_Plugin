@@ -2,8 +2,8 @@
 Displays how much damage done to tank + rock/punch/hittable from tank statistics on tank death.
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Apply to | 適用於
 	```
@@ -50,7 +50,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 	1. [l4d2_assist](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_assist): Show damage done to S.I. by survivors
 		> 每個特感死亡時顯示對特感傷害統計表
 
-	2. [l4d_tank_count](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
+	2. [l4d_tank_count](/L4D_插件/Tank_坦克/l4d_tank_count): Show how long is tank alive, how much damage done, and tank incap/death/punch/rock/car statistics
 		> Tank死亡時顯示Tank存活多長時間、對倖存者造成的 倒地/死亡/總傷害/拳頭/石頭/車子 統計表
 </details>
 

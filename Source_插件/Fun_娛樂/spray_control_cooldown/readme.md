@@ -2,8 +2,8 @@
 Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Image | 圖示
 	<br/>![spray_control_cooldown_1](image/spray_control_cooldown_1.gif)

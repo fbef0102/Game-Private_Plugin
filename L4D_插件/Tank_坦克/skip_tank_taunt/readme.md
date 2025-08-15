@@ -2,8 +2,8 @@
 Skip Tank Victory + Speed up Obstacle animation playback
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * [Video | 影片展示](https://youtu.be/UYLsDKxyHs8)
 
@@ -41,7 +41,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 
-	1. [l4d_tank_speed_boost](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_tank_speed_boost): Increase Tank speed until hitting survivorsanimation playback version
+	1. [l4d_tank_speed_boost](/L4D_插件/Tank_坦克/l4d_tank_speed_boost): Increase Tank speed until hitting survivorsanimation playback version
 		> Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為止 
 </details>
 

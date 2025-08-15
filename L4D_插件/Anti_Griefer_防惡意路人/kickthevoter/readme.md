@@ -2,8 +2,8 @@
 Make It So The Person Calling The Vote Gets Kicked!
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Apply to | 適用於
     ```
@@ -78,7 +78,7 @@ This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Pri
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d_vote_block](https://github.com/fbef0102/Game-Private_Plugin/tree/main/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
+	1. [l4d_vote_block](/L4D_插件/Server_伺服器/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
 		* 根據遊戲模式和難度禁止使用Esc->發起投票
 </details>
 

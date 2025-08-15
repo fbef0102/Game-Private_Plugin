@@ -2,8 +2,8 @@
 Auto ban players who have disconnected from the server for short time + Tracks recently-disconnected players and lets you ban them
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
 * Image | 圖示
 	<br/>![bandisconnected_1](image/bandisconnected_1.jpg)

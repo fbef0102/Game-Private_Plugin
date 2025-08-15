@@ -3,8 +3,8 @@ Showing the time played in Game Stats while player joins the server
 (Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings)
 
 > __Note__ <br/>
-This plugin is private, Please contact [me](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)<br/>
-此為私人插件, 請聯繫[本人](https://github.com/fbef0102/Game-Private_Plugin#私人插件列表-private-plugins-list)
+This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
+此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 <br/>🟥Dedicated Server Only
 <br/>🟥只能安裝在Dedicated Server
 
