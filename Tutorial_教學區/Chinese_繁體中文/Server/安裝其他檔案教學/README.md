@@ -5,7 +5,7 @@
 	- [安裝l4dtoolz](#安裝l4dtoolz)
 	- [安裝TickrateEnabler](#安裝tickrateenabler)
 	- [安裝國家與城市的資料庫](#安裝國家與城市的資料庫)
-	- [安裝Accelerator的崩潰檢測工具](#安裝Accelerator的崩潰檢測工具)
+	- [安裝Accelerator的崩潰檢測工具](#安裝accelerator的崩潰檢測工具)
 	- [其他](#其他)
 
 - - - -

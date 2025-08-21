@@ -105,6 +105,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2025-8-21)
+		* Fixed ambient light glitch when flashlight is off
+
 	* v1.1h (2025-8-9)
 		* Add cvars
 

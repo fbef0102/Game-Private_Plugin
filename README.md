@@ -936,4 +936,4 @@
   * [安裝Stripper](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝stripper)
   * [安裝l4dtoolz](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝l4dtoolz)
   * [安裝TickrateEnabler](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝tickrateenabler)
-  * [安裝Accelerator的崩潰檢測工具](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝Accelerator的崩潰檢測工具)
+  * [安裝Accelerator的崩潰檢測工具](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝accelerator的崩潰檢測工具)

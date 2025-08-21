@@ -17,7 +17,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Press ```WALK(Shift)+JUMP``` to do battle kick attack
+	* Press ```WALK+JUMP``` to do battle kick attack
+		* WALK(Shift), JUMP(Space)
 		* Stagger back special infected and cause damage, inculding tank and witch
 		* Stagger back teammate and cause damage
 		* Kick physical prop or hittable car
@@ -127,7 +128,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
 
 * 原理
-	* 人類按下 ```WALK(Shift)+JUMP``` 鍵可以使出飛踢攻擊
+	* 人類按下 ```WALK+JUMP``` 鍵可以使出飛踢攻擊
+		* WALK=Shift鍵, JUMP=空格鍵
 		* 擊退所有特感、Tank、Ｗitch並造成傷害
 		* 震開隊友並造成傷害
 		* 能夠踢走任何車子或物件
