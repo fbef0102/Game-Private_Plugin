@@ -33,11 +33,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-    None
-</details>
-
 * <details><summary>Data Config</summary>
 
     * [configs/regexrestrict.cfg](configs/regexrestrict.cfg)

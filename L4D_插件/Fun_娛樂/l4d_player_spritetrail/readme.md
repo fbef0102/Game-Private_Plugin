@@ -5,6 +5,12 @@ l4d player tail effect (env_spritetrail)
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/SXZMB0t2mtc)
 
 * <details><summary>Image | 圖示</summary>
@@ -79,12 +85,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_tails
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Similar Plugin | 相似插件</summary>
 

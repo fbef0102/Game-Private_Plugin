@@ -11,9 +11,10 @@
 - - - -
 ## Introduction
 > What's the simplest way to install 8-survivors-coop (Including 5+ players fix)?
-<br/>![l4dmultislots_1](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/796efe51-2fac-43f2-9899-fef09b52328d)
-<br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-* [繁體中文說明請看這](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
+<br/>![image](image/1.jpg)
+<br/>![image](image/2.jpg)
+
+* [Chinese Here | 中文教學看這](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
 * This tutorial applies to L4D1 and L4D2
 * Dedicated Server can unlock 8+ or more player slots
 * Local listen Server only 8 players and unable to unlock 8+ or more player slots
@@ -24,7 +25,7 @@
 ## Prepare
 * [Sourcemod](https://wiki.alliedmods.net/Installing_sourcemod)
 * [Metamod](https://wiki.alliedmods.net/Installing_Metamod:Source)
-* [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
+* [Stripper:Source](/Tutorial_教學區/English/Server/Install_Other_File#stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2754956355): You can have 8 slots lobby.
     * Subscribe, create lobby and you will see 8 slots.
@@ -32,7 +33,7 @@
 
 - - - -
 ## Require
-* [l4dtoolz EXTENSION](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
+* [l4dtoolz EXTENSION](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz): Unlock server limit
     * Write down the following cvars in ```cfg/server.cfg``` if dedicated server (🟥if file doesn't exist, create it🟥)
     * Write down the following cvars in ```cfg/listenserver.cfg``` if listen server (🟥if file doesn't exist, create it🟥)
         ```php
@@ -91,8 +92,9 @@
 * (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
     * This plugin will remove l4d1 survivors npc on The Passing map
 
-* (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): Reduce player "No Steam Logon" disconnect probability (Steam verification failed)
-
+* <s>(L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): Reduce player "No Steam Logon" disconnect probability (Steam verification failed)</s>
+    * Not working
+    
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
 
 - - - -
@@ -166,5 +168,5 @@
 
 - - - -
 ## Others
-* [Questions](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80)
+* [Questions](/Questions_問題區)
 

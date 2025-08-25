@@ -5,6 +5,12 @@ When the Tank dies a health field is generated in which the survivors receive he
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/2rtUI2A5aQ4)
 
 * Image | 圖示
@@ -47,12 +53,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_healing
 		```
 </details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

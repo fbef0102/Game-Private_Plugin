@@ -11,9 +11,10 @@
 - - - -
 ## 前言
 > 本篇教學完成之後，你的伺服器可以多達8位或以上的玩家加入戰役模式大亂鬥
-<br/>![l4dmultislots_1](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/796efe51-2fac-43f2-9899-fef09b52328d)
-<br/>![l4dmultislots_2](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
-* [English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
+<br/>![image](image/1.jpg)
+<br/>![image](image/2.jpg)
+
+* [切換英文說明 | English](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop/)
 * 本篇教學適用於L4D1和L4D2
 * 專屬伺服器可以開到8位以上的玩家加入戰役模式
 * 區域伺服器只能到8位玩家，無法再增加
@@ -22,8 +23,8 @@
 
 - - - -
 ## 準備檔案
-* [安裝伺服器與Sourcemod + Metamod](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#%E9%81%B8%E6%93%87%E5%8D%80%E5%9F%9F%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%96%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8)
-* [Stripper:Source](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9DStripper)
+* [安裝伺服器與Sourcemod + Metamod](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#%E9%81%B8%E6%93%87%E5%8D%80%E5%9F%9F%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%96%E5%B0%88%E5%B1%AC%E4%BC%BA%E6%9C%8D%E5%99%A8)
+* [Stripper:Source](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝stripper)
 * [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2754956355): 可讓大廳有八個位子
     * 訂閱即可，開房後大廳會有八個位子
@@ -95,7 +96,8 @@
 * (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
     * 此插件會移除The Passing地圖上的一代倖存者NPC
 
-* (L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): 減少玩家因為 "No Steam Logon" 離線的機率 (Steam驗證失敗)
+* <s>(L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): 減少玩家因為 "No Steam Logon" 離線的機率 (Steam驗證失敗)</s>
+    * 沒用
 
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
 

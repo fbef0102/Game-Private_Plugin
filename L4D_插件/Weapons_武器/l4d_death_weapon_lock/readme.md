@@ -19,10 +19,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-    * When player dies, display menu "Give up weapons?"
+    * When player dies, lock the weapons and items dropped (red glow), no one can pick up
+        * Display menu "Give up weapons?"
         * Yes -> Unlock the weapons and items dropped (green glow), anyone can pick up
+        * No -> Keep weapons locked
     * Everyone can pick up if owner has left the server or period time passed
-        * No -> Lock the weapons and items dropped (red glow), no one can pick up
 </details>
 
 * Require | 必要安裝
@@ -105,6 +106,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5h (2025-8-25)
+        * Fixed bug the player can't pick up weapons if using drop plugin
+
     * v1.4h (2024-12-14)
     * v1.3h (2024-12-12)
         * Update cvars
@@ -132,9 +136,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     <br/>![zho/l4d_death_weapon_lock_2](image/zho/l4d_death_weapon_lock_2.jpg)
 
 * 原理
-    * 玩家死亡時，顯示介面詢問玩家 "是否放棄武器?"
-        * Yes -> 解鎖住掉落的武器與物品 (綠色光環)，任何人可以撿
-        * No -> 鎖住掉落的武器與物品 (紅色光環)，任何人不能撿
+    * 玩家死亡時，鎖住掉落的武器與物品 (紅色光環)，任何人不能撿
+        * 顯示介面詢問死亡玩家 "是否放棄武器?"
+        * Yes -> 解鎖掉落的武器與物品 (綠色光環)，任何人可以撿
+        * No -> 繼續鎖
     * 如果玩家離開伺服器或超過一定時間後，解鎖地上的武器與物品，任何人可以撿
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

@@ -5,6 +5,12 @@ Player can select other character's voice and vocalize
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/EVW_neSFDLg)
 
 * <details><summary>Image | 圖示</summary>
@@ -56,37 +62,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>Data Config</summary>
 
 	* [data/l4d_character_vocalize_select.cfg](data/l4d_character_vocalize_select.cfg)
-		```php
-		"l4d_character_vocalize_select"
-		{
-			"Ellis" // Please do not change
-			{
-				"num"		"3" // How many Ellis Vocal Commands
-				"1"
-				{
-					"Name"		"嚕嚕嚕嚕嚕嚕嚕嚕~" // Name whatevert you want
-					"Sound"		"player/survivor/voice/mechanic/adrenaline03.wav" // sound path, relative to “sound” folder
-				}
-				"2"
-				{
-					"Name"		"Kill all son of bitches"
-					"Sound"		"player/survivor/voice/mechanic/worldsigns11.wav"
-				}
-				"3"
-				{
-					"Name"		"I LOVE YOU"
-					"Sound"		"player/survivor/voice/mechanic/worldc2m1b09.wav"
-				}
-			}
-		}
-		```
+		> Manual in this file, click for more details...
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
@@ -146,28 +123,5 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>文件設定範例</summary>
 
 	* [data/l4d_character_vocalize_select.cfg](data/l4d_character_vocalize_select.cfg)
-		```php
-		"l4d_character_vocalize_select"
-		{
-			"Ellis" // 請不要修改
-			{
-				"num"		"3" // Ellis的語音數量
-				"1"
-				{
-					"Name"		"嚕嚕嚕嚕嚕嚕嚕嚕~" // 名稱隨便取，可以寫中文
-					"Sound"		"player/survivor/voice/mechanic/adrenaline03.wav" // 對話音效檔路徑，相對於“sound”資料夾
-				}
-				"2"
-				{
-					"Name"		"Kill all son of bitches"
-					"Sound"		"player/survivor/voice/mechanic/worldsigns11.wav"
-				}
-				"3"
-				{
-					"Name"		"I LOVE YOU"
-					"Sound"		"player/survivor/voice/mechanic/worldc2m1b09.wav"
-				}
-			}
-		}
-		```
+		> 內有中文說明，可點擊查看
 </details>

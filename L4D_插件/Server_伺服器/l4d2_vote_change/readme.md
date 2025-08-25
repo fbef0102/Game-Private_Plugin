@@ -42,7 +42,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
-	5. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
+	5. [l4dtoolz](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz)
 	6. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 		* 修復手動更換地圖會遇到的問題
 	7. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.

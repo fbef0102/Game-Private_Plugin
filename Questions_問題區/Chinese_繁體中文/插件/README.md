@@ -1,5 +1,5 @@
 # 插件問題總攬
-> 2024/2/23 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/8/25 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [總攬](#問題總攬)
     - [前言準備](#前言準備)
     - [為什麼插件沒有運作](#為什麼插件沒有運作)
@@ -10,6 +10,7 @@
     - [插件可以有中文嗎](#插件可以有中文嗎)
     - [為什麼會有亂碼](#為什麼會有亂碼)
     - [插件不拿源碼會怎樣](#插件不拿源碼會怎樣)
+    - [模組跟插件差別在哪?](#模組跟插件差別在哪)
 
 - - - -
 ## 前言準備
@@ -21,56 +22,59 @@
 
 - - - -
 ## 為什麼插件沒有運作
-> 在你向插件作者詢問 **"插件沒有作用"** 之前，可以先來做些自我檢查
-1. 只要依照插件說明書，都會成功運作，請先確認
-  <br/>✔ 有安裝插件的最新版本
-  <br/>✔ 有安裝說明書指示的必要檔案
-  <br/>✔ 有依照說明書指示的重要步驟
-  <br/>✔ 有安裝插件輔助的文件
-  <br/>✔ Sourcemod版本符合插件的要求
+> 在你向插件作者抱怨 **"插件沒有作用"** 之前，可以先來做些自我檢查
+* <details><summary>檢查流程 (點我展開)</summary>
 
-2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
-    - xxxxxx為插件的檔案名稱
-    - 插件檔案位於```addons/sourcemod/plugins```，副檔名是.smx
-      ```php
-      ] sm plugins info test
-      Filename: test.smx
-      Title: [L4D & L4D2] Test
-      Author: HarryPotter
-      Version: 1.0
-      Error: Error detected in plugin startup (see error logs)
-      ```
-   - 檢查Author是否跟原作者一樣，**否則插件肯定不是他寫的**
-   - 檢查Version是否跟作者貼文上所寫的版本一樣
-   - 檢查是否有Error
+  1. 只要依照插件說明書，都會成功運作，請先確認
+    <br/>✔ 有安裝插件的最新版本
+    <br/>✔ 有安裝說明書指示的必要檔案
+    <br/>✔ 有依照說明書指示的重要步驟
+    <br/>✔ 有安裝插件輔助的文件
+    <br/>✔ Sourcemod版本符合插件的要求
 
-    * <details><summary>為什麼顯示: <b>XXX.smx is not loaded.</b></summary>
-
-      ![image](https://user-images.githubusercontent.com/12229810/210702001-0b65c878-8a45-48b9-978a-6047026f6c94.png)
-
-      * 原因: 你沒有把.smx檔案放入正確的路徑
-      * 解決方式: 請確認.smx檔案位於 addons/sourcemod/plugins 資料夾底下
-    </details>
-
-3. 看見Error代表此插件無法成功載入，請到sourcemod/logs資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
-   <br/>![Q$8Z SZT(IE M_M@_%_ Z3I](https://user-images.githubusercontent.com/12229810/206925606-cd9c3ebe-eae5-492e-b12c-76b41cd0c8df.png)
-   - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
-   - 🟥要是你有修改源碼請誠實招來，當原作者發現錯誤的行數不相符會放生不想鳥你
-      <details><summary>錯誤原文範例 (點我展開)</summary>
-
+  2. 到伺服器後台上，輸入```sm plugins info xxxxxx```
+      - xxxxxx為插件的檔案名稱
+      - 插件檔案位於```addons/sourcemod/plugins```，副檔名是.smx
         ```php
-        L 03/28/2022 - 02:24:27: [SM] Exception reported: XXXXXXXXXXXXXXXXXXXX
-        L 03/28/2022 - 02:24:27: [SM] Blaming: xxxxxxxxxx.smx
-        L 03/28/2022 - 02:24:27: [SM] Call stack trace:
-        L 03/28/2022 - 02:24:27: [SM]   [0] ThrowNativeError
-        L 03/28/2022 - 02:24:27: [SM]   [1] Line 5394, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::ValidateAddress
-        L 03/28/2022 - 02:24:27: [SM]   [2] Line 6131, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::Native_CDirector_IsAnySurvivorInStartArea
-        L 03/28/2022 - 02:24:27: [SM]   [4] L4D_IsAnySurvivorInStartArea
-        L 03/28/2022 - 02:24:27: [SM]   [5] Line 172, f:\Stuff\EVERYTHING ELSE\Left 4 Dead 2 Dedicated Servers\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::OnPluginStart
+        ] sm plugins info test
+        Filename: test.smx
+        Title: [L4D & L4D2] Test
+        Author: HarryPotter
+        Version: 1.0
+        Error: Error detected in plugin startup (see error logs)
         ```
-      </details>
+    - 檢查Author是否跟原作者一樣，**否則插件肯定不是他寫的**
+    - 檢查Version是否跟作者貼文上所寫的版本一樣
+    - 檢查是否有Error
 
-4. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止才能安心 
+  3. 看見Error代表此插件無法成功載入，請到```sourcemod/logs```資料夾查看errors_開頭的文件，閱讀錯誤原因並嘗試解決
+    <br/>![image](image/1.jpg)
+    - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
+    - 🟥要是你有修改源碼請誠實招來，當原作者發現錯誤的行數不相符會放生不想鳥你
+        <details><summary>錯誤原文範例 (點我展開)</summary>
+
+          ```php
+          L 03/28/2022 - 02:24:27: [SM] Exception reported: XXXXXXXXXXXXXXXXXXXX
+          L 03/28/2022 - 02:24:27: [SM] Blaming: xxxxxxxxxx.smx
+          L 03/28/2022 - 02:24:27: [SM] Call stack trace:
+          L 03/28/2022 - 02:24:27: [SM]   [0] ThrowNativeError
+          L 03/28/2022 - 02:24:27: [SM]   [1] Line 5394, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::ValidateAddress
+          L 03/28/2022 - 02:24:27: [SM]   [2] Line 6131, C:\Servers\L4D2\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::Native_CDirector_IsAnySurvivorInStartArea
+          L 03/28/2022 - 02:24:27: [SM]   [4] L4D_IsAnySurvivorInStartArea
+          L 03/28/2022 - 02:24:27: [SM]   [5] Line 172, f:\Stuff\EVERYTHING ELSE\Left 4 Dead 2 Dedicated Servers\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::OnPluginStart
+          ```
+        </details>
+
+  4. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止才能安心 
+</details>
+
+* <details><summary>問題1: 查看插件卻顯示: <b>XXX.smx is not loaded.</b></summary>
+
+  <br/>![image](image/2.jpg)
+
+  * 原因: 你沒有把.smx檔案放入正確的路徑
+  * 解決方式: 請確認.smx檔案位於 ```addons/sourcemod/plugins``` 資料夾底下
+</details>
 
 - - - -
 ## 常見的插件錯誤訊息
@@ -369,64 +373,77 @@
 
 - - - -
 ## 我能否修改源碼
-* Sourcemod不限制任何人修改，歡迎任何人編輯並發布自己的作品，讓遊戲玩法更豐富多元
-* 拿到網路上或別人的源碼，如果你有想法或者單純漢化或者修正錯誤可以自己修改
-* 請記得標記原開發者，擅自修改作者為自己讓人誤會是完全缺德的行為
-* 一但你修改源碼之後，如果插件有錯誤想要回報，**大部分的原插件作者完全不會鳥你**
-* 遇到技術或程式上的問題，可以請教論壇上的大佬們，我通常建議把你修改後的源碼發給對方過目
+* <details><summary>說明 (點我展開)</summary>
+
+  * Sourcemod不限制任何人修改，歡迎任何人編輯並發布自己的作品，讓遊戲玩法更豐富多元
+  * 拿到網路上或別人的源碼，如果你有想法或者單純漢化或者修正錯誤可以自己修改
+  * 請記得標記原開發者，擅自修改作者名稱讓人誤會是完全缺德的行為
+  * 一但你修改源碼之後，如果插件有錯誤想要回報，**大部分的原插件作者完全不會鳥你**
+  * 遇到技術或程式上的問題，可以請教論壇上的大佬們，我通常建議把你修改後的源碼發給對方過目
+</details>
 
 - - - -
 ## 哪裡能詢問插件問題
-* [AlliedModders](https://forums.alliedmods.net/index.php)，建議註冊一個用戶
-* 英文網站，只能全英文交流，只會中文建議找會說中文的大佬尋求幫助
-* 我們要詢問的是Sourcemod，而非AMX Mod X，小心別PO錯版
-  * [插件需求與想法](https://forums.alliedmods.net/forumdisplay.php?f=60): 貼出你的新點子或需求，
-  * [插件綜合討論](https://forums.alliedmods.net/forumdisplay.php?f=58): 一般討論伺服器或插件現況，
-  * [插件源碼問題](https://forums.alliedmods.net/forumdisplay.php?f=107): 有源碼程式上的問題需要幫助
-* 插件有問題請直接找到原作者對應的貼文底下留言，不要找不相關的人事物
-* 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
-  <br/>![image](https://user-images.githubusercontent.com/12229810/202846043-6babc7e2-1225-4f7a-a177-f728efd137f0.jpg)
+* <details><summary>說明 (點我展開)</summary>
+
+  * 英文圈: [AlliedModders](https://forums.alliedmods.net/index.php)，建議註冊一個用戶
+    * 英文網站，只能全英文交流，只會中文建議找會說中文的大佬尋求幫助
+    * 我們要詢問的是Sourcemod，而非AMX Mod X，小心別PO錯版
+      * [插件需求與想法](https://forums.alliedmods.net/forumdisplay.php?f=60): 貼出你的新點子或需求，
+      * [插件綜合討論](https://forums.alliedmods.net/forumdisplay.php?f=58): 一般討論伺服器或插件現況，
+      * [插件源碼問題](https://forums.alliedmods.net/forumdisplay.php?f=107): 有源碼程式上的問題需要幫助
+    * 插件有問題請直接找到原作者對應的貼文底下留言，不要找不相關的人事物
+    * 如果比較害羞或是想找某一位大佬幫忙，到個人檔案私訊對方
+      <br/>![image](image/3.jpg)
+
+  * 中文圈: QQ群、貼吧、巴哈姆特電玩資訊站、B站
+    * 我建議到B站搜尋，很多作者親自發佈影片展示自己寫的插件
+</details>
 
 * <details><summary><b>潛規則</b></summary>
     
   如果提出願意付費，能吸引很多大佬前來幫忙
-  </details>
+</details>
 
 - - - -
 ## 插件可以有中文嗎
-* Sourcemod是以英文為主，一切編碼讀取與執行命令都是英文，不能改成中文是很正常的
-  * 譬如插件名稱改成中文、指令說明與數值改成中文、執行文件寫中文說明，都是不行的，更別提韓文、日文、德文，誰叫Sourcemod是HL2 mod，世界霸權美國，去你馬英文。
-  * 我碰過一個玩家實際案例，伺服器讀取太多中文文字導致伺服器崩潰，所以想吃鱉可以試試看。
-* 只要是輸出文字給玩家看訊息，基本上可以寫中文，有中文需求請詢問插件作者
-  * 譬如翻譯文件、作者利用第三方輔助文件等等，可以改成多國語言
+* <details><summary>說明 (點我展開)</summary>
+
+  * Sourcemod是以英文為主，一切編碼讀取與執行命令都是英文，不能改成中文是很正常的
+    * 插件名稱不能改成中文
+    * 指令說明與數值不能改成中文
+    * 插件讀取的.cfg指令文件不能寫中文也不能有中文註釋說明
+    * 別提韓文、日文、德文，只能英文
+    * 🟥 伺服器讀取太多中文文字導致伺服器崩潰，所以想吃鱉可以試試看。
+  * 只要是輸出文字給玩家看訊息，基本上可以寫中文，有中文需求請詢問插件作者
+    * 譬如翻譯文件、作者利用第三方輔助文件等等，可以改成多國語言
+</details>
 
 - - - -
 ## 為什麼會有亂碼
 * <details><summary>提問1: 文件內是亂碼</summary>
 
-  ![image](https://user-images.githubusercontent.com/12229810/202860854-c243aace-3d3f-4dc1-b545-8afd57f1d18d.png)
+  ![image](image/4.jpg)
 
   * 原因: 編碼不對
   * 解決方式: 文件的編碼請確認為UTF-8，可以用筆記本另存新檔的時候設定
-  <br/>![image](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
+  <br/>![image](image/5.jpg)
 </details>
 
 * <details><summary>提問2: 文件顯示正常，但遊戲不行</summary>
 
   文件內的中文顯示正常，明明編譯也過，都依照說明書安裝，插件也沒有報錯，為什麼遊戲中會出現亂碼？
-  <br/>![image](https://user-images.githubusercontent.com/12229810/202858744-0d380968-9c24-4008-9592-0ed980488144.png)
-  <br/>![image](https://user-images.githubusercontent.com/12229810/202858784-297294d9-ff71-46e3-944d-873da2efa86b.png)
+  <br/>![image](image/6.jpg)
+  <br/>![image](image/7.jpg)
 
   * 原因: 編碼不對
   * 解決方式: 文件的編碼請確認為UTF-8，可以用筆記本另存新檔的時候設定
-  <br/>![image](https://user-images.githubusercontent.com/12229810/202859995-2f04eee9-532e-4a5a-bacf-7f038ac79415.jpg)
+  <br/>![image](image/8.jpg)
 </details>
 
 * <details><summary>提問3: 看不到簡體中文</summary>
 
-  情況一：我去中國大陸的伺服器，能看到英文與繁體字，但顯示簡體的時候會是亂碼
-  <br/>情況二：從大陸網站下載插件，打開源碼文件能看到英文與繁體字，但顯示簡體的時候會是亂碼
-
+  顯示簡體中文的時候會是亂碼
   * 原因: 你的電腦系統不支援簡體中文，無法顯示簡體字
   * 解決方式: 電腦系統添加語言，選擇簡體中文
 </details>
@@ -434,26 +451,26 @@
 - - - -
 ## 插件不拿源碼會怎樣
 * 源碼是.sp檔案，插件是.smx檔案，如果是我，都一定會拿源碼然後自己編譯成插件，所以我擁有的每個插件都有源碼
-  * 因為每個人安裝的sm(Sourcemod的簡稱)版本不同，自己拿到電腦上編譯最安全也符合你所安裝的Sourcemod版本
-  * 只要源碼編譯不給過代表此插件肯定無法使用，如果懂源碼的人會自己修改，不懂源碼的人最好請人修改
+  * 因為每個人安裝的Sourcemod平台版本不同，自己拿到電腦上編譯最安全也符合你所安裝的Sourcemod版本
+  * 只要源碼編譯時失敗代表此插件肯定無法使用，如果懂源碼的人會自己修改，不懂源碼的人最好請人修改
 
-* 回到問題，**直接拿插件安裝不拿源碼會怎麼樣?**
-  * 答案: 不會怎麼樣，但是淺在風險與問題很多
+* <details><summary>直接拿插件安裝不拿源碼會怎麼樣?</summary>
 
-  * <details><summary> 狀況一: 無法成功運作，最新版本不支援</summary>
+  答案: 淺在風險與問題很多
+   <details><summary>狀況一: 無法成功運作，最新版本不支援</summary>
 
     * 十年前寫好的插件也許十年前能使用，但是放到現在版本可能已經無法適用或者被淘汰
     * 這時候怎麼辦? 當然是去看源碼並修改，所以保留源碼是很重要的
   </details>
 
-  * <details><summary> 狀況二: 伺服器卡頓，功能不完整</summary>
+  <details><summary>狀況二: 伺服器卡頓，功能不完整</summary>
 
     * 十年前Sourcemod程式語法還不完善，很多作者當時用粗暴並且暴力的方式達成很多功能
     * sm從1.7之後語法大改，sm1.11之後新增Dhooks、Voicehook、GeoIPCity各種功能並優化，大幅改善伺服器崩潰與卡頓的機率
     * 如果有保存源碼，會請人大幅改善源碼
   </details>
 
-  * <details><summary> 狀況三: 插件有問題或需求</summary>
+  <details><summary>狀況三: 插件有問題或需求</summary>
 
     * 當你突然發現插件有問題、或者想新增功能，你要請教別人，卻沒有源碼，這時候別人會叫你去吃屎
     * 沒源碼的人請別人重新寫插件，費時又費力還可能收很貴的報酬費(像我就是)，有源碼的人就好辦事
@@ -461,35 +478,86 @@
     * 退一萬步來說，只有看到源碼才知道插件是否有任何問題要改善
   </details>
 
-  * <details><summary> 狀況四: 自由漢化，更改指令彈性高</summary>
+  <details><summary>狀況四: 自由漢化，更改指令彈性高</summary>
 
     * 當你想要看很多英文訊息，想要漢化或修改，其實許多作者也懶得幫忙寫中文翻譯或者不可能就為了你一個人幫忙改訊息
     * 但是有源碼就方便多，自己想改捨就改捨，不要刻意亂改源碼都沒問題
   </details>
 
-  * <details><summary> 狀況五: 插件內容偷塞政治或者炸服程式</summary>
+  <details><summary>狀況五: 插件內容偷塞政治或者炸服程式</summary>
 
-    * 假設插件內偷塞XXX下台、XXX是境外勢力等等訊息，然後沒有源碼你也不知道，被陷害莫名被Ban也找不出原因，傻傻的
-    * 我看過有個案例，有服主拿到未知的插件安裝之後卻一直伺服器崩潰，還狂燒電腦100%CPU，原因是插件內有炸服程式碼
+    * 沒有源碼你也不知道作者塞了甚麼炸服程式碼，被陷害莫名被Ban也找不出原因，傻傻的
     * 只要不公開源碼，作者想塞任何東西在程式碼都是可以
   </details>
 
-  * <details><summary> 狀況六: 拿到插件，卻不知道作者</summary>
+  <details><summary>狀況六: 拿到插件，卻不知道作者</summary>
 
-    * 假如插件有bug想回報，這時候你發現不知道要找誰，那個提供插件的人可能不是作者只是盜版
+    * 假如插件有bug想回報，這時候你發現不知道要找誰，那個提供插件的人可能不是作者只是給你懶人包罷了
     * 插件有問題理應先回報給作者知道，只有作者最能知道怎麼修復並快速解決，找不到作者或者作者退休不再維護才需要找其他大佬
   </details>
+</details>
 
-* 結論：**不要拿來路不明的插件，不要拿沒有源碼的插件，拿到源碼要知道作者是誰。如插件有問題，請攜帶源碼請教大佬**
+* <details><summary>作者提供插件不提供源碼怎麼辦?</summary>
 
-  * <details><summary> 狀況七: 作者提供插件不提供源碼</summary>
+  * 根據Sourcemod的License授權公約，有人提供.smx就必須要提供.sp檔案。以上都是官腔屁話，我相信沒人關切License授權公約是捨
+  <br/>![image](image/9.jpg)
+  * 想盡辦法要拿到源碼避免後續問題，如果願意付錢那很好，
+  * 但是作者百般不願意提供源碼那就不要使用了，寧願拿到有源碼的插件也不要被坑
+</details>
 
-    * 根據Sourcemod的License授權公約，有人提供.smx就必須要提供.sp檔案，以上是官腔話，我相信沒人關切License授權公約是捨
-    * 想盡辦法要拿到源碼避免後續問題，如果願意付錢那很好，寧願拿到有源碼的插件也不要被坑
-    * 但是作者百般不願意提供源碼你也沒轍，如果是我就不拿插件了
-  </details>
+* <details><summary>結論</summary>
 
+  1. 不要拿來路不明的插件
+  2. 不要拿沒有源碼的插件
+  3. 拿到源碼要知道作者是誰
+  4. 如插件有問題，請攜帶源碼請教大佬
+</details>
 
+- - - -
+## 模組跟插件差別在哪
+| 比較           | 模組           		| 插件            |
+| ----------    |:-----------------:|:-------------:|
+| 英文        	| mod    	| 	plugin |
+| 副檔名        | .vpk      					|   .smx         |
+| 來源          | Steam工作仿訂閱武器皮膚或是網站上下載三方圖都算是mod      					|   網站上找別人寫好的         |
+| 程式架構      | 某些模組會使用VScript腳本達成功能     | Sourcepawn程式語言達成功能 |
+| 使用方式      | 訂閱或放到addons資料夾安裝即可生效     |  還要裝sourcemod才會生效 |
+| 差別          | 影響客戶端的遊戲文件   	   |   影響伺服器端的遊戲文件  |
+| 擅長領域       | 改動模型、角色、武器、皮膚、地圖  	   |   改動9+多人戰役到10VS10對抗大亂鬥都行  |
+| 對象          | 幾乎只會對有裝模組的玩家生效，沒有裝模組的玩家不會生效不受影響    	|   只要裝上去就會影響伺服器在內的全體玩家，即使玩家自己的電腦上沒有安裝插件也會生效  |
+| 區域房 (Local Server)       | 99%模組只能在自己開區域房時生效    						|   少部分插件不支援區域房使用  |
+| 專屬伺服器 (Dedicated Server)   | 少部分模組有支援專屬伺服器    			|   所有插件均支援專屬伺服器  |
+| 兼容              | 90%的模組容易互相打架衝突，幾乎不兼容，很常出現我使用了A模組就不能使用B模組的情況  |   大部分的插件互相兼容，只要作者願意，互相補助強化功能效果都是可行的  |
+| 崩潰             | 模組產生的崩潰很難找出來，甚至沒有崩潰日誌可以看，尋找錯誤全靠猜測  |   🟦 插件有錯誤會有錯誤日誌，有崩潰日誌可以看，尋找問題很好解決  |
+
+* <details><summary>總結與個人建議</summary>
+
+    1. 🟥 開服只使用插件不要使用模組，插件取代模組，能少裝模組就不要裝!!
+    2. 🟦 伺服器只裝插件與地圖，玩家只裝角色、武器、皮膚模組與地圖，這是我十年來的開服方式
+</details>
+
+* <details><summary>問題1: 我放地圖到伺服器裡面，玩家會自動下載嗎？</summary>
+
+    * 不會，請玩家必須自行下載地圖
+</details>
+
+* <details><summary>問題2: 我放角色模型的模組到伺服器裡面，玩家會看到一樣的模型嗎？</summary>
+
+    * 不會，想讓每個玩家都有相同的角色模型，玩家必須自行下載相同的模組
+</details>
+
+* <details><summary>問題3: 我發現很多好玩的模組，可不可以放到伺服器上？</summary>
+
+    * 我他馬一律都不建議放，出問題自己找模組作者
+</details>
+
+* <details><summary>問題4: 模組也會導致伺服器崩潰嗎?</summary>
+
+    * 如果模組作者寫得不好，高機率會，我感覺比插件出事的機率還高
+    * 有些奇葩的三方圖與模組自帶腳本干擾伺服器運作，地圖也會導致崩潰不用懷疑
+    * 就像爛插件導致崩潰，也會有爛模組與爛的三方圖導致崩潰
+    * 當伺服器有崩潰或異常bug，我一律建議刪除所有mod與地圖
+</details>
 
 
 

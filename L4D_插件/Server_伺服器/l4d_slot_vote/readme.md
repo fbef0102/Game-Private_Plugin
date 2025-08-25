@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Require
-	1. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz)
+	1. [l4dtoolz](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 
@@ -118,7 +118,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![l4d_slot_vote_1](image/l4d_slot_vote_3.jpg)
 
 * 必要安裝
-	1. [l4dtoolz](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#l4dtoolz): 解鎖伺服器人數上限
+	1. [l4dtoolz](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz): 解鎖伺服器人數上限
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
 

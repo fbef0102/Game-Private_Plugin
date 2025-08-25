@@ -5,6 +5,12 @@ A simple anti - runner system, punish the runner by spawn SI behind her.
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+    ```
+    L4D1
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/L6slnUSsTSI)
 
 * Image | 圖示
@@ -93,17 +99,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         l4d_together_loner_range "2000.0"
         ```
 </details>
-
-* <details><summary>Command | 命令</summary>
-    
-    None
-</details>
-
-* Apply to | 適用於
-    ```
-    L4D1
-    L4D2
-    ```
 
 * <details><summary>Related Plugin | 相關插件</summary>
 

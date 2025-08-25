@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/8/14 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/8/25 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -10,24 +10,26 @@
 
 - - - -
 ## 安裝Stripper
-* Stripper 用途是什麼?
+* <details><summary>Stripper 用途是什麼? (點我展開)</summary>
+
 	* 把地圖改造成迷宮
 		* [終極地圖](https://github.com/fbef0102/L4D2-Unlimited-Map)
 		* [影片範例](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
 	* 修改地圖，可以在地圖上新增各種障礙物、道具、機關、屍潮事件、武器變更等等
 		* [造物插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 		* [地圖修改列表](https://github.com/fbef0102/L4D2-Unlimited-Map#modify--%E5%85%B6%E4%BB%96%E4%BF%AE%E6%94%B9)
+</details>
 
 * <details><summary>安裝步驟 (點我展開)</summary>
 
 	1. 到[Stripper:Source網站](https://forums.alliedmods.net/showthread.php?t=39439)點擊SNAPSHOTS AT
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+	<br/>![image](image/1.jpg)
 
 	2. 往下找最新的版本，依照各自的電腦系統下載對應的版本
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
+	<br/>![image](image/2.jpg)
 
 	3. 解壓縮並移動檔案到伺服器相同的路徑上。最後addons資料夾內看起來如圖片所示，多一個 ```stripper``` 資料夾
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206859157-102eceeb-e5c7-4fbd-95b9-d01d2c82d963.png)
+	<br/>![image](image/3.jpg)
 
 	4. 重啟伺服器，控制台輸入```stripper_version```確認安裝成功
 		```php
@@ -40,20 +42,22 @@
 
 - - - -
 ## 安裝l4dtoolz
-* l4dtoolz 用途是什麼?
+* <details><summary>l4dtoolz 用途是什麼? (點我展開)</summary>
+
 	* 解鎖伺服器人數上限，有八位以上的玩家可以進入伺服器遊玩
-		<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
+		<br/>![image](image/4.jpg)
 	* 最多只能有31位玩家同時在伺服器裡面 (不能超過31人，否則伺服器會崩潰)
 		* [多人插件](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
-		* [如何戰役模式開八人房](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Game/L4D2/8%E4%BD%8D%E7%8E%A9%E5%AE%B6%E9%81%8A%E7%8E%A9%E6%88%B0%E5%BD%B9%E6%A8%A1%E5%BC%8F/)
+		* [如何戰役模式開八人房](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式)
+</details>
 
 * <details><summary>L4D2 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
-	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+	<br/>![image](image/5.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
-	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+	<br/>![image](image/6.jpg)
 
 	3. 寫上以下指令
 		* (專屬伺服器) 到```cfg/server.cfg``` (🟥如果檔案不存在，可自己創建🟥)
@@ -106,10 +110,10 @@
 
 	4. 遊戲預設玩家人數上限只到18位，如果要改變上限，請修改玩家人數上限
 		* (專屬伺服器) 如使用其他開服方式或者是linux系統，請輸入啟動參數```+sv_setmax 31```
-		<br/>![image](https://github.com/user-attachments/assets/cf24e0ba-0caa-42b7-a295-8af7abd7f411)
-		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
+		<br/>![image](image/7.jpg)
+		<br/>![image](image/8.jpg)
 		* (區域房) 啟動選項輸入```+sv_setmax 31```
-		<br/>![image](https://github.com/user-attachments/assets/475e6a9b-8e88-495d-b4da-3412883129df)
+		<br/>![image](image/9.jpg)
 		* 🟥 ```sv_setmax```和```sv_maxplayers```是不同的概念
 			* sv_setmax (最大客戶端/最大玩家數量) = 伺服器內能容納玩家的人數，包含真人 + AI Bot 
 			* sv_maxplayers = 真人玩家允許加入伺服器的人數，不包含AI Bot
@@ -136,10 +140,10 @@
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
-	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
+	<br/>![image](image/10.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
+	<br/>![image](image/11.jpg)
 
 	3. 寫上以下指令
 		* (專屬伺服器) 到```cfg/server.cfg``` (🟥如果檔案不存在，可自己創建🟥)
@@ -176,10 +180,10 @@
 
 	4. 遊戲預設玩家人數上限只到18位，如果要改變上限，請修改玩家人數上限
 		* (專屬伺服器) 如使用其他開服方式或者是linux系統，請輸入啟動參數```-maxplayers 31```
-		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
-		<br/>![image](https://github.com/user-attachments/assets/26c84751-9d95-4999-a067-58601faffbbd)
+		<br/>![image](image/12.jpg)
+		<br/>![image](image/13.jpg)
 		* (區域房) 啟動選項輸入```-maxplayers 31```
-		<br/>![image](https://github.com/user-attachments/assets/256a3c25-d803-4b39-9761-7785eae58f0d)
+		<br/>![image](image/14.jpg)
 		* 🟥 maxplayers 和 sv_maxplayers 是不同的概念
 			* maxplayers (最大客戶端/最大玩家數量) = 伺服器內能容納玩家的人數，包含真人 + AI Bot 
 			* sv_maxplayers = 真人玩家允許加入伺服器的人數，不包含AI Bot
@@ -204,20 +208,22 @@
 
 - - - -
 ## 安裝TickrateEnabler
-* TickrateEnabler 用途是什麼?
+* <details><summary>TickrateEnabler 用途是什麼? (點我展開)</summary>
+
 	* 解鎖伺服器Tickrate只有30的上限，可以突破到100tick
 		* 不知道Tickrate是甚麼請自行Google
 		* 簡單說，Tickrate越高越能夠帶來非常流暢的遊戲體驗，精準的射擊判定、連貫的動作，相當於伺服器端的fps
 	* 把Tickrate想成是一種更新伺服器狀態的頻率，一秒內更新次數越多，越消耗更多電腦資源，所以高Tickrate很吃電腦的cpu，自行斟酌安裝
+</details>
 
 * <details><summary>L4D2 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
 		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
-		<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+		<br/>![image](image/5.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
-	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+	<br/>![image](image/6.jpg)
 
 	3. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
@@ -236,9 +242,9 @@
 	
 	4. 輸入參數
 		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		<br/>![image](image/15.jpg)
 		* (區域房) 啟動選項輸入```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/47c1cdda-7a62-4c6a-96db-d0b232fcbd62)
+		<br/>![image](image/16.jpg)
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
@@ -247,7 +253,7 @@
 		```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](image/17.jpg)
 
 	7. 安裝插件
 		* [l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修正非30tick對抗模式下boomer噴吐距離問題
@@ -256,10 +262,10 @@
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇其中一個下載
-	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
+	<br/>![image](image/18.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+	<br/>![image](image/19.jpg)
 
 	3. 到cfg/server.cfg寫上以下指令
 		* 沒有server.cfg檔案則新建
@@ -278,9 +284,9 @@
 	
 	4. 輸入參數
 		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		<br/>![image](image/20.jpg)
 		* (區域房) 啟動選項輸入```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/47c1cdda-7a62-4c6a-96db-d0b232fcbd62)
+		<br/>![image](image/16.jpg)
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
@@ -289,78 +295,82 @@
 		```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](image/17.jpg)
 </details>
 
 > __Warning__ 
 > * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
 > * 調整tickate必須一起修改server.cfg與啟動選項
 
-* <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</b></summary>
+* <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</summary>
 
-	![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+	![image](image/21.jpg)
 
 	* 原因: windows系統的問體
 	* 解決方式: 
 		* 法一：去跟微軟抱怨
 		* 法二：windows降級到windows 7
 		* 法三：租一台linux系統
-		* 法四：[從大廳匹配到專屬伺服器](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%88%87%E6%8F%92%E4%BB%B6/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
+		* 法四：[從大廳匹配到專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何從大廳匹配到專屬伺服器)，可以將tickrate變回100，至於為何會這樣，我也不知道
 		* 法五: [Windows調整時鐘精度工具](https://b23.tv/NQxIT55)，強制解鎖sv
 </details>
 
-* <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</b></summary>
+* <details><summary>問題2: 為什麼我的tickrate網路數據沒有到100?</summary>
 
-	![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+	![image](image/22.jpg)
 
 	* 原因: 受限於你的遊戲內fps影響，只會影響你這位玩家，你的遊戲內fps超過100以上才能享有100 tickrate
-	<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+	<br/>![image](image/23.jpg)
 	* 解決方式: 
 		* 法一：調高遊戲的fps，到選項->視訊->進階設定->等待垂直同步改成"已停用"，這選項能夠解鎖遊戲的fps
-		<br/>![image](https://user-images.githubusercontent.com/12229810/207045656-764b59f4-94d9-4af8-aebb-1872c631a111.png)
+		<br/>![image](image/24.jpg)
 		* 法二：法一沒有用那就去升級你的顯卡
 </details>
 
 - - - -
 ## 安裝國家與城市的資料庫
-* 何時需要用到?
+* <details><summary>何時需要用到? (點我展開)</summary>
+
 	* 有插件需要抓取玩家的IP、國家、城市、地區等等
 		* 像是 [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
 	* 如果你的```addons/sourcemod/extension```資料夾內有安裝geoipcity.ext, geoip2.ext，請移除
+</details>
 
 * <details><summary>安裝步驟 (點我展開)</summary>
 
 	1. 註冊 [maxmind.com](https://www.maxmind.com/en/geolite2/signup)
 
 	2. 到個人帳戶: My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
-	<br/>![image](https://github.com/user-attachments/assets/a8155c2b-cf9d-49d8-a7e6-6de1ed0974c1)
+	<br/>![image](image/25.jpg)
 
 	3. 搜尋 "GeoLite2 Country" 和 "GeoLite2 City" -> 下載資料庫
-	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
-	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
+	<br/>![GeoLite2_Country](image/GeoLite2_Country.jpg)
+	<br/>![GeoLite2_City](image/GeoLite2_City.jpg)
 
 	4. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 ```addons/sourcemod/configs/geoip/``` 資料夾
-	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
+	<br/>![image](image/26.jpg)
 </details>
 
 - - - -
 ## 安裝Accelerator的崩潰檢測工具
-* 這用途是什麼?
+* <details><summary>這用途是什麼?</summary>
+
 	* 當伺服器發生崩潰時，會生成崩潰日誌並上傳到[crash.limetech.org網站](https://crash.limetech.org/)解析
-	* 檢測伺服器崩潰, 快速幫服主找出崩潰原因
-	* 服主可自行查看崩潰日誌或是分享給有經驗的大佬修復
-* 🟥 目前該工具年久失修，不適用
-	* L4D1 linux
-	* L4D2 linux且Sourcemod平台為1.12以上的版本
+		* 檢測伺服器崩潰, 快速幫服主找出崩潰原因
+		* 服主可自行查看崩潰日誌或是分享給有經驗的大佬修復
+	* 🟥 目前該工具年久失修，不適用
+		* L4D1 linux
+		* L4D2 linux且Sourcemod平台為1.12以上的版本
+</details>
 
 * <details><summary>安裝步驟 (點我展開)</summary>
 
 	1. 到[Accelerator - Crash Reporting網站](https://forums.alliedmods.net/showthread.php?t=277703)點擊Download，根據你的系統選擇最新版本下載
-	<br/>![image](https://github.com/user-attachments/assets/268413de-ea3b-427f-930d-1bf7cd018eba)
-	<br/>![image](https://github.com/user-attachments/assets/12e210b8-d345-4c30-a665-64787cf21f77)
+	<br/>![image](image/27.jpg)
+	<br/>![image](image/28.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!
-	<br/>![image](https://github.com/user-attachments/assets/062cffbc-e4be-4e8f-89ff-e0bb550d7e83)
+	<br/>![image](image/29.jpg)
 
 	3. 將以下內容複製貼上到```sourcemod/configs/core.cfg```文件裡面
 		* 內容
@@ -414,12 +424,12 @@
 			"MinidumpBinaryUrl"	"http://crash.limetech.org/binary/submit"
 			```
 		* 請注意要貼在"Core"{}裡面，如圖片所示
-		<br/>![image](https://github.com/user-attachments/assets/5c1c623b-a38d-428d-ae57-25e40080d6e6)
+		<br/>![image](image/30.jpg)
 	
 	4. ```core.cfg```文件內"xxxxxxxxxxxxxxxxx"請改成你的steamid 64
 		* [查找自己的steamid 64](https://steamid.io/)
-		<br/>![image](https://github.com/user-attachments/assets/6766ef54-a03c-4fa5-9a50-3e0a6ca6d8c5)
-		<br/>![image](https://github.com/user-attachments/assets/21efa6d8-21c9-46da-a626-4eed517a0b15)
+		<br/>![image](image/31.jpg)
+		<br/>![image](image/32.jpg)
 
 	5. 啟動伺服器
 		* 控制台輸入```sm exts list```確認安裝成功，如果沒出現表示你前面步驟有誤
@@ -429,7 +439,7 @@
 			[01] Accelerator (2.x.x-xxxxx): SRCDS Crash Handler
 			```
 		* ```addons\sourcemod\logs```會出現```accelerator.log```文件，如果沒出現表示你前面步驟有誤 (該文件沒有內容屬正常現象)
-		<br/>![image](https://github.com/user-attachments/assets/64e563da-4bb7-410e-ac03-f0fe804b24fa)
+		<br/>![image](image/33.jpg)
 </details>
 
 * <details><summary>接下來發生伺服器崩潰時</summary>
@@ -443,30 +453,30 @@
 
 	2. 崩潰日誌會自動上傳到[crash.limetech.org網站](https://crash.limetech.org/)，解析需要等到一段時間，要有耐心
 		* 將Crash ID輸入即可獲得崩潰日誌
-		<br/>![image](https://github.com/user-attachments/assets/9d85c52b-a884-43b0-9ab4-d852a871416f)
-		<br/>![image](https://github.com/user-attachments/assets/b1add029-d2fa-4d17-95e4-b4eae2e6f0cc)
+		<br/>![image](image/34.jpg)
+		<br/>![image](image/35.jpg)
 	
 	3. 想知道更多崩潰細節需要登入該網站
 		* 用Steam帳密登入，怕的話就不要勉強
-		<br/>![image](https://github.com/user-attachments/assets/6f5f8c37-33f5-464e-9e74-0ff5abebdd39)
+		<br/>![image](image/36.jpg)
 		* 出現你的崩潰日誌列表，如果沒有，表示你在安裝步驟寫的SteamID 64是錯的
-		<br/>![image](https://github.com/user-attachments/assets/cbe22583-fecc-4d48-8f20-af6e67311015)
-		<br/>![image](https://github.com/user-attachments/assets/239def63-3356-49ec-8e1b-692c96f0d344)
+		<br/>![image](image/37.jpg)
+		<br/>![image](image/38.jpg)
 </details>
 
 * <details><summary>怎麼看崩潰日誌?</summary>
 
 	1. 建議用steam登入查看更多細節
-	<br/>![image](https://github.com/user-attachments/assets/c0748459-ea3d-4fc7-a297-8fa42573ca4b)
+	<br/>![image](image/39.jpg)
 
 	2. 你看不懂崩潰代碼是正常，看得懂你就是valve的工程師，G胖應該邀請你去上班
 	
 	3. 可以將崩潰日誌分享給有經驗處理過崩潰的大佬或是上網求助
 		* (法一) 貼Crash ID給對方
 		* (法二) 分享你的崩潰日誌列表給對方，需輸入對方的SteamID 64
-		<br/>![image](https://github.com/user-attachments/assets/4288d051-0d7a-4c9a-955d-5b32a81a812d)
-		<br/>![image](https://github.com/user-attachments/assets/01a4bbe7-5227-4dae-b4d5-d8e4dce8e44d)
-		<br/>![image](https://github.com/user-attachments/assets/7db4b35f-e203-4c79-aaf4-7b5806674d3d)
+		<br/>![image](image/40.jpg)
+		<br/>![image](image/41.jpg)
+		<br/>![image](image/42.jpg)
 </details>
 
 * <details><summary>自我排除崩潰步驟</summary>
@@ -474,10 +484,10 @@
 	> 當你崩潰到受不了，幾乎想砸爛電腦時，不仿可以嘗試以下步驟自行減少崩潰的機率
 
 	1. [Sourcemod 有新版本則更新](https://www.sourcemod.net/downloads.php?branch=stable)且必須要是Stable Builds
-		<br/>![image](https://github.com/user-attachments/assets/b14c65ae-09bc-4411-b7a7-b15e6306c0a0)
+		<br/>![image](image/43.jpg)
 
 	2. [Metamod 有新版本則更新](https://www.metamodsource.net/downloads.php/?branch=stable)且必須要是Stable Builds
-		<br/>![image](https://github.com/user-attachments/assets/58822a20-3fe9-4f9a-ad50-84cbf9e76050)
+		<br/>![image](image/44.jpg)
 
 	3. 控制台輸入```sm plugins list``` 查看所有插件列表
 		* 一個一個找原始作者或你當初從哪下載插件的連接，插件如果有新版本則更新
@@ -502,7 +512,7 @@
 
 	8. 丟給AI分析，AI雖然資料有限但至少會幫你分析可能的原因
 		* 使用的是ChatGPT Pro
-		<br/>![image](https://github.com/user-attachments/assets/02509c48-bd12-4365-8411-1cd280f0350e)
+		<br/>![image](image/45.jpg)
 </details>
 
 - - - -

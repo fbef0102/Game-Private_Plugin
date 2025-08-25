@@ -10,24 +10,26 @@
 
 - - - -
 ## Stripper
-* What is stripper?
+* <details><summary>What is stripper?</summary>
+
 	* Build the map by yourself
 		* [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map)
 		* [Video](https://www.youtube.com/watch?v=I_-QSn8F8Cs)
 	* Modify, add, delete obstacle, propsm weapons on the map, and even create horde event
 		* [l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)
 		* [Map Modify](https://github.com/fbef0102/L4D2-Unlimited-Map#modify--%E5%85%B6%E4%BB%96%E4%BF%AE%E6%94%B9)
+</details>
 
 * <details><summary>Installation</summary>
 
 	1. Go to [Stripper:Source](https://forums.alliedmods.net/showthread.php?t=39439) and click SNAPSHOTS
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206858893-688521a3-6f69-469b-8a80-92470ab13db6.jpg)
+	<br/>![image](image/1.jpg)
 
 	2. Search the latest version and download files depending on your system
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206859034-5e0c5e5e-fcbd-4329-9d27-5298025c4616.png)
+	<br/>![image](image/2.jpg)
 
 	3. Unzip all files to your server same folder, press yes if ask override. You will have ```stripper``` folder in addons folder
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206859157-102eceeb-e5c7-4fbd-95b9-d01d2c82d963.png)
+	<br/>![image](image/3.jpg)
 
 	4. Restart Server, type ```stripper_version``` in serve console
 		```php
@@ -40,20 +42,22 @@
 
 - - - -
 ## l4dtoolz
-*  What is l4dtoolz?
+* <details><summary>What is l4dtoolz?</summary>
+
 	* To unlock server slots limit, you can have 8+ players in your server
-		<br/>![image](https://user-images.githubusercontent.com/12229810/206860045-582a79ea-8453-45a7-b73a-4ecfd051be6b.jpg)
+		<br/>![image](image/4.jpg)
 	* Max slot limit is 31 in left4dead 1/2
 		* [l4dmultislots](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dmultislots)
-		* [8+ Survivors In Coop](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8%2B_Survivors_In_Coop)
+		* [8+ Survivors In Coop](/Tutorial_教學區/English/Game/L4D2/8%2B_Survivors_In_Coop)
+</details>
 
 * <details><summary>L4D2 Installation</summary>
 
 	1. Go to [l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases) and download files
-	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+	<br/>![image](image/5.jpg)
 
 	2. Unzip all files to your server addons folder, press yes if ask override. You will have ```l4dtoolz``` files in addons folder
-	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+	<br/>![image](image/6.jpg)
 
 	3. Write down the following cvars
 		* (Dedicated server) in ```cfg/server.cfg``` (🟥if file doesn't exist, create it🟥)
@@ -108,10 +112,10 @@
 
 	4. By default, the game engine only allow 18 max players. To change max clients
 		* (Dedicated server) If using launch panel/software tool/linux system, please input launch parameter ```+sv_setmax 31```
-		<br/>![image](https://github.com/user-attachments/assets/cf24e0ba-0caa-42b7-a295-8af7abd7f411)
-		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
+		<br/>![image](image/7.jpg)
+		<br/>![image](image/8.jpg)
 		* (Listen Server) Launch options ```+sv_setmax 31```
-		<br/>![image](https://github.com/user-attachments/assets/2370fd51-97eb-4413-bc0c-a590dfeba499)
+		<br/>![image](image/9.jpg)
 		* 🟥 sv_setmax and sv_maxplayers are different
 			* sv_setmax = Max Real players + AI Bots allowed in server
 			* sv_maxplayers = How many real players can join server (Not including AI Bots)
@@ -139,10 +143,10 @@
 * <details><summary>L4D1 Installation</summary>
 
 	1. Go to [l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases) and download files depending on your game and system
-	<br/>![image](https://github.com/user-attachments/assets/41ac929c-1e96-4972-86b8-63f8aeea1570)
+	<br/>![image](image/10.jpg)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860306-d0fead16-9997-410d-93cc-bca7109d5977.png)
+	<br/>![image](image/11.jpg)
 
 	3. Write down the following cvars
 		* (Dedicated server) in ```cfg/server.cfg``` (🟥if file doesn't exist, create it🟥)
@@ -181,10 +185,10 @@
 
 	4. By default, the game engine only allow 18 max players. To change max clients
 		* (Dedicated server) If using launch panel/software tool/linux system, please input launch parameter ```-maxplayers 31```
-		<br/>![image](https://github.com/user-attachments/assets/dc605332-e20e-4c55-a429-23db7491e352)
-		<br/>![image](https://github.com/user-attachments/assets/f123fe6f-fbe7-4132-b608-2b05d99d2ff1)
+		<br/>![image](image/12.jpg)
+		<br/>![image](image/13.jpg)
 		* (Listen Server) Launch options ```-maxplayers 31```
-		<br/>![image](https://github.com/user-attachments/assets/0b605d35-9e09-44e1-91bd-8a18b73ef962)
+		<br/>![image](image/14.jpg)
 		* 🟥 maxplayers and sv_maxplayers are different
 			* maxplayers = Max Real players + AI Bots allowed in server
 			* sv_maxplayers = How many real players can join server (Not including AI Bots)
@@ -209,19 +213,22 @@
 
 - - - -
 ## TickrateEnabler
-* What is TickrateEnabler ?
+* <details><summary>What is TickrateEnabler?</summary>
+
 	* To unlock server tickrate limit, up to 100 tickrate
 		* If you don't know tickrate, please google it
 		* Tickrate = Server fps
 	* High Tickrate costs more cpu performance
+</details>
 
 * <details><summary>L4D2 Installation</summary>
 
 	1. Go to [l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases) and download files
-	<br/>![image](https://github.com/user-attachments/assets/cdfa497e-ee25-449b-90be-57be8d1209cb)
+		* This version of l4dtoolz includes the functions to unlock server max players and tickrates
+		<br/>![image](image/5.jpg)
 
 	2. Unzip all files to your server addons folder, press yes if ask override. You will have ```l4dtoolz``` files in addons folder
-	<br/>![image](https://github.com/user-attachments/assets/259cd048-c948-49d6-bce9-8fe21e9b13eb)
+	<br/>![image](image/6.jpg)
 
 	3. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
@@ -240,9 +247,9 @@
 	
 	4. Input the Launch Parameters
 		* (Dedicated server) Launch Parameters ```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		<br/>![image](image/15.jpg)
 		* (Listen Server) Launch options```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/0acd34ab-75d5-4700-86d4-8b404e8334f9)
+		<br/>![image](image/16.jpg)
 		
 	5. Restart Server, type ```plugin_print``` in serve console
 		```php
@@ -251,7 +258,7 @@
 		```
 
 	6. Join server, open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](image/17.jpg)
 
 	7. Install plugin
 		* [l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix): Patches Boomer Vomit behavior to fix an issue where vomit range scaled inversely with tickrate.
@@ -260,10 +267,10 @@
 * <details><summary>L4D1 Installation</summary>
 
 	1. Go to [Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases) and download files depending on your game and system
-	<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/44f26cc8-25b0-4308-a52d-1e7496b57596)
+	<br/>![image](image/18.jpg)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206860975-1bc616cc-5e1c-4bfb-88b4-af699e302287.png)
+	<br/>![image](image/19.jpg)
 
 	3. Write down the following cvars in cfg/server.cfg
 		* If you don't have server.cfg, then create it
@@ -282,9 +289,9 @@
 	
 	4. Input the Launch Parameters
 		* (Dedicated server) Launch Parameters ```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/3803894b-f000-45b2-aab8-b35748e3004b)
+		<br/>![image](image/20.jpg)
 		* (Listen Server) Launch options```-tickrate 100```
-		<br/>![image](https://github.com/user-attachments/assets/0acd34ab-75d5-4700-86d4-8b404e8334f9)
+		<br/>![image](image/16.jpg)
 		
 	5. Restart Server, type ```plugin_print``` in serve console
 		```php
@@ -293,17 +300,16 @@
 		```
 
 	6. Join server, open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
-	<br/>![image](https://user-images.githubusercontent.com/12229810/206861890-a37cf9d9-f5cc-4ec2-b3d3-07991cd89e1f.jpg)
+	<br/>![image](image/17.jpg)
 </details>
 
 > __Warning__ 
 > * High Tickrate costs more cpu performance, you can adjust tickrate to 60 or 45
 > * Need to modify server.cfg and Launch Parameters together to change tickrate
 
+* <details><summary>Q&A 1: Why the windows server Tickrate stuck at 64?</summary>
 
-* <details><summary>Q&A 1: Why the windows server Tickrate stuck at 64?</b></summary>
-
-	![image](https://user-images.githubusercontent.com/12229810/206862598-8f36433c-bcce-4edf-b8b9-7843d0f8534a.jpg)
+	![image](image/21.jpg)
 
 	* Reason: Windows system problem
 	* To Solve: 
@@ -314,58 +320,62 @@
 		* Method 5: [Windows Unlock Tool](https://b23.tv/NQxIT55), force to unlock sv
 </details>
 
-* <details><summary>Q&A 2: Why player's tickrate is not 100?</b></summary>
+* <details><summary>Q&A 2: Why player's tickrate is not 100?</summary>
 
-	![image](https://user-images.githubusercontent.com/12229810/207044622-5c0145a3-85be-4eef-b3ec-59ec6fcaba01.png)
+	![image](image/22.jpg)
 
 	* Reason: Limited by your fps, Your in-game fps must be above 100 to enjoy 100 tickrate
-	<br/>![image](https://user-images.githubusercontent.com/12229810/207044800-04d8cbcb-610a-4ede-8896-d8cf992b8719.png)
+	<br/>![image](image/23.jpg)
 	* To Solve: 
 		* Method 1：Options->Video->Advanved Settings->WAIT FOR VERTICAL SYNC "Disabled", Unlock fps limit
-		<br/>![image](https://github.com/fbef0102/Game-Private_Plugin/assets/12229810/fe84f5a1-df7c-409d-9721-4ddf0984bf21)
+		<br/>![image](image/24.jpg)
 		* Method 2：Better upgrade Graphics Card (GPU)
 </details>
 
 - - - -
 ## Country and City Database
-* When to install?
+* <details><summary>When to install?</summary>
+
 	* Plugins that need to retrieve data from client, such as IP, country, region, city.
 		* Plugin: [cannounce](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/cannounce)
 	* If you have Please geoipcity.ext and geoip2.ext. please REMOVE. They are now included with SourceMod v1.11 or above
+</details>
 
 * <details><summary>Installation</summary>
 
 	1. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases
 
 	2. My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
-	<br/>![image](https://github.com/user-attachments/assets/a8155c2b-cf9d-49d8-a7e6-6de1ed0974c1)
+	<br/>![image](image/25.jpg)
 
 	3. Seach "GeoLite2 Country" and "GeoLite2 City" -> download databases.
-	<br/>![GeoLite2 Country](https://user-images.githubusercontent.com/12229810/204966692-ac339bc6-4760-4acc-b320-b776d46e7064.jpg)
-	<br/>![GeoLite2 City](https://user-images.githubusercontent.com/12229810/204966795-a57a5949-abcf-4127-9325-90b9fdb8124f.jpg)
+	<br/>![GeoLite2_Country](image/GeoLite2_Country.jpg)
+	<br/>![GeoLite2_City](image/GeoLite2_City.jpg)
 
 	4. Put GeoLite2-City.mmdb and GeoLite2-Country.mmdb files to path ```addons/sourcemod/configs/geoip/``` folder
-	<br/>![image](https://user-images.githubusercontent.com/12229810/222086453-ee59e6c3-e61c-4a16-9aa7-8eb9d39a4d37.png)
+	<br/>![image](image/26.jpg)
 </details>
 
 - - - -
 ## Accelerator Crash Report
-* What is this?
+* <details><summary>What is this?</summary>
+
 	* When server crash, it uploads the crash reports to a [community-accessible processing backend](https://crash.limetech.org/)
-	* Helpful notices with clear information help server owners quickly resolve crash causes
-	* Check the crash reports and try to fix or share with others who can fix
-* 🟥 Does not apply to
-	* L4D1 linux
-	* L4D2 linux and Sourcemod v1.12 or above
+		* Helpful notices with clear information help server owners quickly resolve crash causes
+		* Check the crash reports and try to fix or share with others who can fix
+	* 🟥 Does not apply to
+		* L4D1 linux
+		* L4D2 linux and Sourcemod v1.12 or above
+</details>
 
 * <details><summary>Installation</summary>
 
 	1. Go to [Accelerator - Crash Reporting That Doesn't Suck](https://forums.alliedmods.net/showthread.php?t=277703) and click Download, download files depending on your system
-	<br/>![image](https://github.com/user-attachments/assets/268413de-ea3b-427f-930d-1bf7cd018eba)
-	<br/>![image](https://github.com/user-attachments/assets/b6faccc7-1657-47a3-9427-dc49d26f9e3f)
+	<br/>![image](image/27.jpg)
+	<br/>![image](image/28.jpg)
 
 	2. Unzip all files to your server same folder
-	<br/>![image](https://github.com/user-attachments/assets/062cffbc-e4be-4e8f-89ff-e0bb550d7e83)
+	<br/>![image](image/29.jpg)
 
 	3. Copy the folloing and paste into ```sourcemod/configs/core.cfg```
 		* Configuration
@@ -419,12 +429,12 @@
 			"MinidumpBinaryUrl"	"http://crash.limetech.org/binary/submit"
 			```
 		* Note that must be inside the "Core"{}, as the image shows
-		<br/>![image](https://github.com/user-attachments/assets/b628ab39-47c0-4886-8d82-4f4468e452fa)
+		<br/>![image](image/30.jpg)
 	
 	4. Change "xxxxxxxxxxxxxxxxx" and write your own steamid 64 in ```core.cfg```
 		* [Find steamid 64](https://steamid.io/)
-		<br/>![image](https://github.com/user-attachments/assets/55d95607-7b8d-4ad4-b72f-0153ff550a68)
-		<br/>![image](https://github.com/user-attachments/assets/e30be60d-d666-4859-97a4-6b3446489110)
+		<br/>![image](image/31.jpg)
+		<br/>![image](image/32.jpg)
 
 	5. Restart Server
 		* Type ```sm exts list``` in server console. If it doesn't show, that means not install correctly
@@ -434,10 +444,10 @@
 			[01] Accelerator (2.x.x-xxxxx): SRCDS Crash Handler
 			```
 		* There should be a file named ```accelerator.log``` in ```addons\sourcemod\logs``` folder. If it doesn't appear, that means not install correctly (The file is empty)
-		<br/>![image](https://github.com/user-attachments/assets/b0e143ca-ae93-40cb-aa63-0dcff5944d1e)
+		<br/>![image](image/33.jpg)
 </details>
 
-* <details><summary>Next, when server crash</summary>
+* <details><summary>Next, wait for server crash</summary>
 
 	1. When server crash, it would start to generate crash report and notify Crash ID
 		* You will have the Crash ID in file ```addons\sourcemod\logs\accelerator.log```
@@ -448,30 +458,30 @@
 
 	2. Uploads the crash reports to [crash.limetech.org](https://crash.limetech.org/), the processing backend analyses crash reports to extract useful information
 		* Type Crash ID
-		<br/>![image](https://github.com/user-attachments/assets/9d85c52b-a884-43b0-9ab4-d852a871416f)
-		<br/>![image](https://github.com/user-attachments/assets/b1add029-d2fa-4d17-95e4-b4eae2e6f0cc)
+		<br/>![image](image/34.jpg)
+		<br/>![image](image/35.jpg)
 	
 	3. If you want to know more details about crash report
 		* Login with steam account
-		<br/>![image](https://github.com/user-attachments/assets/6f5f8c37-33f5-464e-9e74-0ff5abebdd39)
+		<br/>![image](image/36.jpg)
 		* View Dashboard. If there are no any crash reports on the list, that means the steamid 64 is wrong in ```sourcemod/configs/core.cfg```
-		<br/>![image](https://github.com/user-attachments/assets/cbe22583-fecc-4d48-8f20-af6e67311015)
-		<br/>![image](https://github.com/user-attachments/assets/239def63-3356-49ec-8e1b-692c96f0d344)
+		<br/>![image](image/37.jpg)
+		<br/>![image](image/38.jpg)
 </details>
 
 * <details><summary>How to analyze crash report?</summary>
 
 	1. Please loign with steam account, you can see more details about crash report
-	<br/>![image](https://github.com/user-attachments/assets/de5256a8-4cfb-4207-acce-226b486d09e4)
+	<br/>![image](image/39.jpg)
 
 	2. It's normal that unable to understand the crash report. If understand it, you should be hired by Valve company
 	
 	3. You can share the crash log with experienced sourcemod programmer or ask for help
 		* (Method 1) Share Crash ID
 		* (Method 2) Share dashboard with other players, type their steam id 64
-		<br/>![image](https://github.com/user-attachments/assets/4288d051-0d7a-4c9a-955d-5b32a81a812d)
-		<br/>![image](https://github.com/user-attachments/assets/01a4bbe7-5227-4dae-b4d5-d8e4dce8e44d)
-		<br/>![image](https://github.com/user-attachments/assets/7db4b35f-e203-4c79-aaf4-7b5806674d3d)
+		<br/>![image](image/40.jpg)
+		<br/>![image](image/41.jpg)
+		<br/>![image](image/42.jpg)
 </details>
 
 * <details><summary>Troubleshooting Crashes</summary>
@@ -479,10 +489,10 @@
 	> Try the following steps to reduce the probability of server crash
 
 	1. [Update Sourcemod Stable Version](https://www.sourcemod.net/downloads.php?branch=stable)
-		<br/>![image](https://github.com/user-attachments/assets/b14c65ae-09bc-4411-b7a7-b15e6306c0a0)
+		<br/>![image](image/43.jpg)
 
 	2. [Update Metamod Stable Version](https://www.metamodsource.net/downloads.php/?branch=stable)
-		<br/>![image](https://github.com/user-attachments/assets/58822a20-3fe9-4f9a-ad50-84cbf9e76050)
+		<br/>![image](image/44.jpg)
 
 	3. Type ```sm plugins list``` to view all plugins
 		* Find the original author or the link where you downloaded one by one, and update the plugin if newer version.
@@ -507,12 +517,13 @@
 
 	8. Let AI help analyze
 		* Using ChatGPT Pro
-		<br/>![image](https://github.com/user-attachments/assets/82cd76ff-cebd-4504-9d43-a03f0aad238d)
+		* AI may not be correct, but better than nothing
+		<br/>![image](image/45.jpg)
 </details>
 
 - - - -
 ## Others
-* [Questions](/Questions_%E5%95%8F%E9%A1%8C%E5%8D%80)
+* [Questions](/Questions_問題區)
 
 
 
