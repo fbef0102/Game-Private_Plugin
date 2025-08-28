@@ -13,7 +13,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Immune every friendly fire damage or reflict to attacker, see "ConVar" below
+	* Immune every friendly fire damage or reflict to attacker, see [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
+		* Manual in this file, click for more details...
 	* Announce total ff damage after 1 second
 	* 🟥 Do not use with other plugin which modify friendly fire damage.
 </details>
@@ -36,12 +37,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Default: data/anti-friendly_fire_V2.cfg
 		anti-friendly_fire_V2_read_data "data/anti-friendly_fire_V2.cfg"
 		```
-</details>
-
-* <details><summary>Data Config</summary>
-  
-	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * Translation Support | 支援翻譯
@@ -92,7 +87,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 隊友開槍射你會反彈傷害，第二版本
 
 * 原理
-	* 控制每個友傷的種類，免疫受傷或者反彈傷害，詳見下方"指令中文介紹"
+	* 控制每個友傷的種類，免疫受傷或者反彈傷害，詳見文件: [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
+		* 內有中文說明，可點擊查看
 	* 插件自帶傷害提示
 	* 一秒後計算總友傷，然後反彈給攻擊者
 	* 🟥切勿與其他會修改友傷的插件並用
@@ -112,10 +108,3 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		anti-friendly_fire_V2_read_data "data/anti-friendly_fire_V2.cfg"
 		```
 </details>
-
-* <details><summary>文件設定範例</summary>
-  
-	* [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
-		> 內有中文說明，可點擊查看
-</details>
-

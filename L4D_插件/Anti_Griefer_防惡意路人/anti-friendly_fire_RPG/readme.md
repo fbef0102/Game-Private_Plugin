@@ -25,17 +25,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			Player B(victim) received 20/1 = 20 dmg，victim counter+1=2
 
 			// Second time FF
-			Player A received 20*3 = 60 dmg, attack counter+1=4
-			Player B received 20/2 = 10 dmg，victim counter+1=3
+			Player A(attacker) received 20*3 = 60 dmg, attack counter+1=4
+			Player B(victim) received 20/2 = 10 dmg，victim counter+1=3
 
 			// Third time FF
-			Player A received 20*4 = 80 dmg, attack counter+1=5
-			Player B received 20/3 = 6 dmg，victim counter+1=4
+			Player A(attacker) received 20*4 = 80 dmg, attack counter+1=5
+			Player B(victim) received 20/3 = 6 dmg，victim counter+1=4
 
+			// And so on
 			...
 			```
 	* Kill attacker if cause too many damage
 	* Announce total ff damage and reflict to attacker after 1 second
+	* To handle flame, explosive, melee damage, see [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
+		* Manual in this file, click for more details...
 	* 🟥 Do not use with other plugin which modify friendly fire damage.
 </details>
 
@@ -154,17 +157,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			B玩家(受害者)受到20/1 = 20傷害，victim計數器+1=2
 
 			// 第二次產生友傷時
-			A玩家受到20*3 = 60傷害，attack計數器+1=4
-			B玩家受到20/2 = 10傷害，victim計數器+1=3
+			A玩家(攻擊者)受到20*3 = 60傷害，attack計數器+1=4
+			B玩家(受害者)受到20/2 = 10傷害，victim計數器+1=3
 
 			// 第三次產生友傷時
-			A玩家受到20*4 = 80傷害，attack計數器+1=5
-			B玩家受到20/3 = 6傷害，victim計數器+1=4
+			A玩家(攻擊者)受到20*4 = 80傷害，attack計數器+1=5
+			B玩家(受害者)受到20/3 = 6傷害，victim計數器+1=4
 
+			// 以下類推
 			...
 			```
 	* 當攻擊者造成太多次友傷，將會處死
 	* 一秒後計算總友傷，然後反彈給攻擊者
+	* 控制火焰、爆炸等等傷害，詳見文件: [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
+		* 內有中文說明，可點擊查看
 	* 🟥切勿與其他會修改友傷的插件並用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -202,10 +208,4 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 預設: ddata/anti-friendly_fire_RPG.cfg
 		l4d_rpg_friendly_fire_read_data "data/anti-friendly_fire_RPG.cfg"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-  
-	* [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
-		> 內有中文說明，可點擊查看
 </details>

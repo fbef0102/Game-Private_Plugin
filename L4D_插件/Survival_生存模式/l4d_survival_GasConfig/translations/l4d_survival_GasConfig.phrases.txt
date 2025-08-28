@@ -50,7 +50,7 @@
 	{
 		"zho"		"你有十秒的時間在聊天視窗為這配置文件命名 (英文+數字)"
 		"chi"		"你有十秒的时间在聊天视窗为这配置文件命名 (英文+数字)"
-		"en"		"You have 10 seconds to type the config name in chat"
+		"en"		"You have 10 seconds to type the config name in chat (English letters+Number only)"
 	}
 	"New shared gas config saved"
 	{
@@ -322,5 +322,12 @@
 		"zho"		"[sm_gasmenu] {lightgreen}{1}{default} 將汽油桶提示光亮改成: {green}on"
 		"chi"		"[sm_gasmenu] {lightgreen}{1}{default} 将汽油桶提示光亮改成: {green}on"
 		"en"		"[sm_gasmenu] {lightgreen}{1}{default} toggled gas item highlight {green}on"
+	}
+
+	"Not Valid Character"
+	{
+		"zho"		"文件名稱只能英文+數字且禁止使用任何標點符號. 除了()-這三個標點符號"
+		"chi"		"文件名稱只能英文+數字且禁止使用任何標點符號. 除了()-這三個標點符號"
+		"en"		"Config name must only have english letters and number"
 	}
 }

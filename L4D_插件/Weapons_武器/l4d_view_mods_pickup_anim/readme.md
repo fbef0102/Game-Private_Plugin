@@ -29,11 +29,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Some custom weapon/item mods have changed pick-up animation,  For example: [Weapon mods by Denny凯妈](https://steamcommunity.com/profiles/76561198422460647/myworkshopfiles/)
         * View hidden or secret animation
         * View weapon or item like csgo
+        * If mod adds more pick-up animation, you can modify [data/l4d_view_mods_pickup_anim.cfg](data/l4d_view_mods_pickup_anim.cfg)
     * Does not work on official mods
+    * 🟥 This plugins is only designed for custom weapon mods, not working on all custom mods
 </details>
-
-> __Warning__
-<br/> 🟥 This plugins is only designed for custom weapon mods, not working on all custom mods
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -49,6 +48,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2025-8-29)
+	    * Add date file
+        * You can add more view weapons pick-up animation in data file 
+
     * v1.0 (2023-9-21)
 	    * Initial Release
 </details>
@@ -61,10 +64,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * 拿著槍枝或物品－＞按下R鍵 (彈夾必須滿膛)－＞會有伸手動作
 
 * 用意在哪?
-    * 有些自製的槍枝或物品模組，將伸手動作修改成其他的動畫
+    * 有些自製的槍枝或物品模組，有自製的檢視武器動畫
         * 譬如: [這位作者的槍枝模組](https://steamcommunity.com/profiles/76561198422460647/myworkshopfiles/)，大部分模組有檢視武器的動畫效果
         * 可以像CSGO，檢視槍枝模型或隱藏秘密動畫
+        * 若模組作者有新增更多檢視武器動畫, 需到文件自行新增動畫: [data/l4d_view_mods_pickup_anim.cfg](data/l4d_view_mods_pickup_anim.cfg)
     * 不適用官方的模組
-
-> __Warning__
-<br/> 🟥 為自製的模組檢視武器設計用的插件，並不是每個槍枝模組都有特殊動畫
+    * 🟥 為自製的模組檢視武器設計用的插件，並不是每個槍枝模組都有特殊動畫
