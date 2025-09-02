@@ -1,27 +1,68 @@
-﻿"Phrases"
+﻿/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
 {
 	"FF_dealt (C)"
 	{
-		"en"		"You did {green}%d{default} friendly fire damage to {lightgreen}%s{default}."
-		"zho"		"你剛造成 {green}%d{default} 滴血給 {lightgreen}%s{default}."
-		"chi"		"你刚造成 {green}%d{default} 滴血给 {lightgreen}%s{default}."
+		"#format"		"{1:d},{2:s}"
+		"en"		"You did {green}{1}{default} friendly fire damage to {lightgreen}{2}{default}."
+		"zho"		"你剛造成 {green}{1}{default} 滴血給 {lightgreen}{2}{default}."
+		"chi"		"你刚造成 {green}{1}{default} 滴血给 {lightgreen}{2}{default}."
 	}
 	"FF_dealt"
 	{
-		"en"		"You did %d friendly fire damage to %s."
-		"zho"		"你剛造成 %d 滴血給 %s."
-		"chi"		"你刚造成 %d 滴血给 %s."
+		"#format"		"{1:d},{2:s}"
+		"en"		"You did {1} friendly fire damage to {2}."
+		"zho"		"你剛造成 {1} 滴血給 {2}."
+		"chi"		"你刚造成 {1} 滴血给 {2}."
 	}
 	"FF_receive (C)"
 	{
-		"en"		"{lightgreen}%s{default} did {green}%d{default} friendly fire damage to you"
-		"zho"		"{lightgreen}%s{default} 造成了 {green}%d{default} 滴血給你."
-		"chi"		"{lightgreen}%s{default} 造成了 {green}%d{default} 滴血给你."
+		"#format"		"{1:s},{2:d}"
+		"en"		"{lightgreen}{1}{default} did {green}{2}{default} friendly fire damage to you"
+		"zho"		"{lightgreen}{1}{default} 造成了 {green}{2}{default} 滴血給你."
+		"chi"		"{lightgreen}{1}{default} 造成了 {green}{2}{default} 滴血给你."
 	}
 	"FF_receive"
 	{
-		"en"		"%s did %d friendly fire damage to you"
-		"zho"		"%s 造成了 %d 滴血給你."
-		"chi"		"%s 造成了 %d 滴血给你."
+		"#format"		"{1:s},{2:d}"
+		"en"		"{1} did {2} friendly fire damage to you"
+		"zho"		"{1} 造成了 {2} 滴血給你."
+		"chi"		"{1} 造成了 {2} 滴血给你."
+	}
+	
+	"FF_dealt_2 (C)"
+	{
+		"#format"		"{1:d},{2:s},{3:d}"
+		"en"		"You did {green}{1}{default} friendly fire damage to {lightgreen}{2}{default}. Reflect: {green}{3}"
+		"zho"		"你剛造成 {green}{1}{default} 滴血給 {lightgreen}{2}{default}. 反傷: {green}{3}"
+		"chi"		"你刚造成 {green}{1}{default} 滴血给 {lightgreen}{2}{default}. 反伤: {green}{3}"
+	}
+	"FF_dealt_2"
+	{
+		"#format"		"{1:d},{2:s},{3:d}"
+		"en"		"You did {1} friendly fire damage to {2}. Reflect: {green}{3}"
+		"zho"		"你剛造成 {1} 滴血給 {2}. 反傷: {green}{3}"
+		"chi"		"你刚造成 {1} 滴血给 {2}. 反伤: {green}{3}"
 	}
 }

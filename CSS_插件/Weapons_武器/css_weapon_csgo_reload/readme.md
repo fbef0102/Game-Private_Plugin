@@ -174,7 +174,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-將CS武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
+將CS武器改成現代遊戲的裝子彈機制 (仿CS2切槍裝彈設定)
 
 * 適用於
 	```

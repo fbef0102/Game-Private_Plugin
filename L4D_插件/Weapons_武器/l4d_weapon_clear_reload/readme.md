@@ -40,7 +40,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	
 	If you don't use any of these plugins at all, no need to worry about conflicts.
 	1. [l4d2_weapon_csgo_reload](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_weapon_csgo_reload)
-		* Quickswitch Reloading like CS:GO in L4D2
+		* Quickswitch Reloading like CS2 in L4D2
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -71,5 +71,5 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	
     如果沒安裝以下插件就不需要擔心衝突
 	1. [l4d2_weapon_csgo_reload](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_weapon_csgo_reload)
-		* 將武器改成現代遊戲的裝子彈機制 (仿CS:GO切槍裝彈設定)
+		* 將武器改成現代遊戲的裝子彈機制 (仿CS2切槍裝彈設定)
 </details>

@@ -54,6 +54,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.1 (2025-9-2)
+		* Updata data
+
 	* v2.0 (2024-10-16)
 		* Update cvars
 		* Updata data
