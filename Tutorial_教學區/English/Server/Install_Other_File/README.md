@@ -252,10 +252,12 @@
 		<br/>![image](image/16.jpg)
 		
 	5. Restart Server, type ```plugin_print``` in serve console
-		```php
-		] plugin_print
-		1: 　"Tickrate_Enabler 1.5, ProdigySim"
-		```
+		* This version of l4dtoolz includes the functions to unlock server max players and tickrates
+			```php
+			] plugin_print
+			Loaded plugins:
+			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			```
 
 	6. Join server, open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100
 	<br/>![image](image/17.jpg)

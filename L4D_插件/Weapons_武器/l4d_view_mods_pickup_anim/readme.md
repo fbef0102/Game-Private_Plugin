@@ -43,10 +43,26 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```php
         // 0=Plugin off, 1=Plugin on.
         l4d_view_mods_pickup_anim_enable "1"
+
+        // Press which button to trigger animation, 131072=Shift, 32=Use, 8192=Reload, 524288=Middle Mouse
+        // You can add numbers together, ex: 139264=Shift + Reload
+        l4d_view_mods_pickup_anim_buttons "8192"
+        ```
+</details>
+
+* <details><summary>Command | 命令</summary>
+    
+    * **Trigger pick up anim animation**
+        ```php
+        sm_viewpickup
         ```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.2 (2025-9-10)
+        * Update cvars
+        * Add cmds
 
     * v1.1 (2025-8-29)
 	    * Add date file
@@ -70,3 +86,24 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * 若模組作者有新增更多檢視武器動畫, 需到文件自行新增動畫: [data/l4d_view_mods_pickup_anim.cfg](data/l4d_view_mods_pickup_anim.cfg)
     * 不適用官方的模組
     * 🟥 為自製的模組檢視武器設計用的插件，並不是每個槍枝模組都有特殊動畫
+
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+    * cfg/sourcemod/l4d_view_mods_pickup_anim.cfg
+        ```php
+        // 0=關閉插件, 1=啟動插件
+        l4d_view_mods_pickup_anim_enable "1"
+
+		// 使用哪個按鍵觸發伸手動作 (檢視武器動畫)? 131072=Shift鍵, 32=E鍵, 8192=裝彈鍵, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 139264=必須同時按 "Shift鍵 + 裝彈鍵"
+        l4d_view_mods_pickup_anim_buttons "8192"
+        ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+    
+    * **觸發伸手動作 (檢視武器動畫)**
+        ```php
+        sm_viewpickup
+        ```
+</details>

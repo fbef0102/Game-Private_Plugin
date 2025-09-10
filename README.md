@@ -14,7 +14,7 @@
 # 私人插件列表 Private Plugins List
 ###### **Important | 購買交易**
 > 我的未公開私人插件列表 (持續更新中)<br/>
-* 在這裡的插件均須收費交易，每一個插件至少150台幣**以上** (35人民幣**以上**)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
+* 在這裡的插件均須收費交易，大部分插件價格區間**150~450台幣** (**35~100人民幣**)，想要購買請聯繫，[Steam](https://steamcommunity.com/profiles/76561198026784913) 或 [Telegram](https://t.me/HarryPotter_TW)
   * 可接受小幅度的修改或漢化處理
   * 有任何新點子或想法可以聯繫並提出來討論
   * [委託撰寫插件、遇到困難問題諮詢](#委託撰寫插件)
@@ -50,7 +50,8 @@
       * 可隨時查看每個插件的網頁內的"Changelog | 版本日誌"，獲悉插件有無更新版本
     * 保密交易，不會公開透露交易資訊與買家個資
     * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期並不再提供支援
-    * 🟦 所有程式碼皆手工完成，無使用任何AI生成
+    * 🟥 所有插件皆可以在Dedicated伺服器運行，不保證會在listen server(本地房)完美運作
+      * [Sourcemod已有說明不支援本地房](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server)，想使用於本地房請斟酌後購買
   </details>
 
   * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
@@ -74,7 +75,7 @@
   </details>
 
 > My Private Plugins (Updating more...) 
-* Every plugin here is private (At least US$6 dollars **above** each plugin), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
+* Every plugin here is private (Most plugins price range: US$6~US$15), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
   * Add new request and discuss
   * [Paid Work、Difficult Issues Consultation](#plugin-paid-work)
@@ -107,6 +108,8 @@
       * To know if the plugin has updated, check "Changelog" on readme.md page
     * Privacy Policy, other people will never know our deal
     * Provide source code. If distribute or share, will void the warranty and I won't longer support.
+    * 🟥 All plugins can run on Dedicated Server, not guarantee works the same result on listen(local) server.
+      * [Sourcemod does not support listen server](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server), please consider before purchasing if wanna install on listen server 
   </details>
 
   * <details><summary><b>Why high-priced?</b></summary>
@@ -836,17 +839,17 @@
 * 👩‍💻台灣人，資訊工程學系，略懂電腦程式碼
 * 🕹️[Steam暱稱"哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力與CS長達10年以上
 * 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)：分享L4D1與L4D2遊玩影片，偶爾會拍其他遊戲或短影片
-* 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888)：分享自己製作的遊戲插件、地圖、模組，
+* 🔥[Youtube副頻道](https://www.youtube.com/@HarryPotter_TW888)：分享自己製作的遊戲插件、地圖、模組，
 偶爾會利用遊戲拍些迷因影片
 * 📜[Alliedmod插件論壇](https://forums.alliedmods.net/member.php?u=281812)：有六年的sourcemod經驗，寫過L4D1與L4D2 對抗、戰役、寫實、清道夫模式相關遊戲插件，處理過windows/linux 伺服器、資料庫、FastDL
 * ⛰️[GameMaps模組](https://www.gamemaps.com/profile/194420)：非專業的模組大佬
 
 * <details><summary><b>遊戲事蹟</b></summary>
 
-  * 2019 夏季中國懷舊杯 - 協辦人
-  * 2019 夏季中國懷舊杯 - 第二名 - IB隊伍成員
-  * 2022 懷舊世界盃 - 協辦人
-  * 2022 懷舊世界盃 - 第三名 - IB隊伍成員
+  * 2019 L4D1 對抗夏季中國懷舊杯 - 協辦人
+  * 2019 L4D1 對抗夏季中國懷舊杯 - 第二名 - IB隊伍成員
+  * 2022 L4D1 對抗懷舊世界盃 - 協辦人
+  * 2022 L4D1 對抗懷舊世界盃 - 第三名 - IB隊伍成員
 </details>
 
 - - - -

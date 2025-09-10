@@ -247,10 +247,12 @@
 		<br/>![image](image/16.jpg)
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
-		```php
-		] plugin_print
-		1:　"Tickrate_Enabler 1.5, ProdigySim"
-		```
+		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
+			```php
+			] plugin_print
+			Loaded plugins:
+			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
 	<br/>![image](image/17.jpg)

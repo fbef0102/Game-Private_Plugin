@@ -99,4 +99,11 @@
 		"zho"			"無權限切換備用裝備"
 		"chi"			"无权限切换备用装备"
 	}
+	
+	"Current weapon is out of ammo"
+	{
+		"en"			"Current weapon is out of clip and ammo"
+		"zho"			"當前武器子彈已用完"
+		"chi"			"当前武器子弹已用完"
+	}
 }

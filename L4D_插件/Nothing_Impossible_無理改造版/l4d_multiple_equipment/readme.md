@@ -136,6 +136,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // If 1, Show 'You can carry more weapons' message to players, 0=Off
         l4d_multiple_equipment_more_notify "1"
+
+        // If 1, Show 'Current weapon is out of ammo' message to players, 0=Off
+        l4d_multiple_equipment_empty_notify "1"
 		```
 </details>
 
@@ -170,6 +173,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.4h (2025-9-10)
+        * Update cvars
+        * Optimize ammo lock code
+        * Update translation
 
     * v2.3h (2025-8-13)
         * Update cvars
@@ -333,6 +341,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // 1=顯示'可攜帶額外武器'給玩家看, 0=不顯示
         l4d_multiple_equipment_more_notify "1"
+
+        // 1=顯示'當前武器子彈已用完'給玩家看, 0=不顯示
+        l4d_multiple_equipment_empty_notify "1"
 		```
 </details>
 

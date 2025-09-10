@@ -171,6 +171,7 @@
       ```
       <br/>![image](image/15.jpg)
       <br/>![image](image/16.jpg)
+      - 這些都是啟動選項的參數, 以後要新增其他啟動選項都是寫這裡
       - ```xxxxxx``` 為設定的遊戲
          - 如果是L4D1，xxxxxx改成left4dead
          - 如果是L4D2，xxxxxx改成left4dead2
