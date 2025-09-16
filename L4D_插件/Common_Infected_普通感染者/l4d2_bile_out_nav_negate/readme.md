@@ -48,6 +48,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 一樣的效果但不同的檢測方法，比較耗費伺服器的CPU
 </details>
 
+* Translation Support | 支援翻譯
+	```
+	translations/l4d2_bile_out_nav_negate.phrases.txt
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0 (2025-8-4)

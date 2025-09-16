@@ -32,10 +32,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills victim + witch auto follows survivors
-		* Witch被驚嚇後，會追殺死所有倖存者 + Witch會自動跟蹤你
-	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
-		* 四個修復Witch的插件可以裝
+	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): If install both plugins, the witch's priority option is to kill her initial target first and then change target
+		* 如果兩個插件同時裝, Witch會優先攻擊並殺死原始目標, 之後才會改變目標
+    2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
+        * 四個修復Witch的插件可以裝, 不會跟此插件有衝突
 </details>
 
 * <details><summary>ConVar | 指令</summary>

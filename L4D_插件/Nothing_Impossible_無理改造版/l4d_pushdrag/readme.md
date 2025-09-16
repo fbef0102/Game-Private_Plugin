@@ -42,8 +42,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Grab tank rock distance within this range
 		l4d_pushdrag_grab_rock_distance "400"
 
-		// Which key to grab the objects. (0=Use, 1=Walk, 2=Crouch, 3=Middle Mouse)
-		l4d_pushdrag_grab_key "0"
+		// Press which button twice to grab the objects, , 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse
+		// You can add numbers together, ex: 655360=Shift + Middle Mouse
+		l4d_pushdrag_grab_buttons "32"
 
 		// Block players using keys when grabbing the objects. (0=Disable, 1=Attack, 2=Attack2, 4=Reload, 7=All, add numbers together)
 		l4d_pushdrag_grab_block_key "6"
@@ -110,11 +111,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
 * Apply to | 適用於
 	```
 	L4D1
@@ -123,10 +119,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//panxiaohai @ 2010
-	//HarryPotter @ 2022-2023
-	```
+	* v1.5h (2025-9-16)
 	* v1.4h (2024-3-9)
 		* Update cvars
 
@@ -158,7 +151,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-飄浮咒，溫咖癲啦唯啊薩
+玩家對準物品雙擊E鍵，可以使物品或玩家飄浮在半空中
 
 * 原理
 	* 玩家對準物品雙擊E鍵，可以使物品飄浮在半空中
@@ -186,8 +179,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 可以抓400公尺範圍內 Tank丟出去的石頭
 		l4d_pushdrag_grab_rock_distance "400"
 
-		// 哪一個按鍵雙擊兩下可以使用飄浮咒. (0=E鍵, 1=Shift鍵, 2=蹲下鍵, 3=滑鼠滾輪鍵)
-		l4d_pushdrag_grab_key "0"
+		// 哪個按鍵雙擊兩下可以使用飄浮咒? 131072=Shift鍵, 4=Ctrl鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
+		l4d_pushdrag_grab_buttons "32"
 
 		// 當玩家被其他人使用飄浮咒控制時，禁止使用以下按鈕. (0=關閉這項功能, 1=左鍵, 2=右鍵, 4=裝彈, 請將數字相加起來, 7=全部)
 		l4d_pushdrag_grab_block_key "6"

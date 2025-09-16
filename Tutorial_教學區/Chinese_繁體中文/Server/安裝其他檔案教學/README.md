@@ -140,7 +140,10 @@
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)，根據你的遊戲與系統選擇其中一個下載
-	<br/>![image](image/10.jpg)
+		* windows系統選擇win
+		* linux系統比較新的版本選擇linux
+		* linux系統比較舊的版本選擇oldlinux
+		<br/>![image](image/10.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```l4dtoolz``` 資料夾
 	<br/>![image](image/11.jpg)

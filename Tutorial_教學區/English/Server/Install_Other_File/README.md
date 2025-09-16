@@ -143,7 +143,10 @@
 * <details><summary>L4D1 Installation</summary>
 
 	1. Go to [l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases) and download files depending on your game and system
-	<br/>![image](image/10.jpg)
+		* win: windows system
+		* linux: linux system newer version
+		* oldlinux: linux system older version
+		<br/>![image](image/10.jpg)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```l4dtoolz``` folder in addons folder
 	<br/>![image](image/11.jpg)

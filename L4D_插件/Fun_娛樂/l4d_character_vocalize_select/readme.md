@@ -43,7 +43,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Cold Down Time in seconds a player can use menu again. (0=No Cold Down)
 		l4d_character_vocalize_select_cooldown_time "0.5"
 
-		// Hold Reload button for at least X seconds to open menu. (-1=Disable button)
+		// Press which button to trigger full auto mode, 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse
+		// You can add numbers together, ex: 655360=Shift + Middle Mouse
+		l4d_character_vocalize_select_buttons_key "8192"
+
+		// Hold button key for at least X seconds to open menu. (-1=Disable button)
 		l4d_character_vocalize_select_button_press "2.0"
 
 		// If 1, player can only select his own character
@@ -66,6 +70,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2025-9-16)
+		* Update cvars
 
 	* v1.1 (2024-8-19)
 		* Add Infeced/NPC/Custom
@@ -104,7 +111,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 語音冷卻時間 (0=無冷卻)
 		l4d_character_vocalize_select_cooldown_time "0.5"
 
-		// 長按R鍵出現語音選單列表的時間. (-1=關閉這項功能)
+		// 使用哪個按鍵出現語音選單? 131072=Shift鍵, 4=Ctrl鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
+		l4d_character_vocalize_select_buttons_key "8192"
+
+		// 長按鍵位出現語音選單列表的時間. (-1=關閉這項功能)
 		l4d_character_vocalize_select_button_press "2.0"
 
 		// 為1時, 玩家只能選擇自己的角色語音

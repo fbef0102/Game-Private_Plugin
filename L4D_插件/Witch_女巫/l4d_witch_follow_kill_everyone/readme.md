@@ -31,10 +31,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-    1. [l4d_witch_target_forever](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_target_forever): If the witch incap/kill players that aren't her initial target, then make the witch proceed to chase her initial target.
-        * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標
-    2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
-        * 四個修復Witch的插件可以裝
+    1. [l4d_witch_target_forever](/L4D_插件/Witch_女巫/l4d_witch_target_forever): If install both plugins, the witch's priority option is to kill her initial target first and then change target
+        * 如果兩個插件同時裝, Witch會優先攻擊並殺死原始目標, 之後才會改變目標
+    2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
+        * 四個修復Witch的插件可以裝, 不會跟此插件有衝突
 </details>
 
 * <details><summary>ConVar | 指令</summary>

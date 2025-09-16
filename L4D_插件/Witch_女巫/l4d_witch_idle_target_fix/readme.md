@@ -38,8 +38,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 plugins By Lux
-    	* 四個修復Witch的插件可以裝
+    1. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
+        * 四個修復Witch的插件可以裝, 不會跟此插件有衝突
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
