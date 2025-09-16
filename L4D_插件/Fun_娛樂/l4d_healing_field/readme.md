@@ -18,6 +18,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+    2. [l4d_heartbeat](/l4d_heartbeat)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -48,16 +49,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Command | 命令</summary>
     
-	* **Create an entity which radiates healing for anyone in the vicinity. (Adm Required: ADMFLAG_BAN)**
+	* **Create an entity which radiates healing for anyone in the vicinity. (Adm Required: ADMFLAG_ROOT)**
 		```php
-		sm_healing
+		sm_healingfield
 		```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.2h (2025-9-17)
+        * Update cmds
+        * Optimize code, require l4d_heartbeat
+
     * v1.1h (2023-11-21)
-        * Fixed Crash: collide error
+        * Fixed Crash: vphysic collide error
 
     * v1.0h (2023-5-12)
 	    * Optimize code and improve performance
@@ -110,9 +115,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
     
-	* **在自己身上創造治療光圈 (權限: ADMFLAG_BAN)**
+	* **在自己身上創造治療光圈 (權限: ADMFLAG_ROOT)**
 		```php
-		sm_healing
+		sm_healingfield
 		```
 </details>
 
