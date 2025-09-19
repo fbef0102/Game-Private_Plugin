@@ -52,7 +52,6 @@
     * 會給源碼sp檔案，隨意二次發布、分享，將失去保固期並不再提供支援
     * 🟥 所有插件皆可以在Dedicated伺服器運行，不保證會在listen server(本地房)完美運作
       * [Sourcemod已有說明不支援本地房](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server)，想使用於本地房請斟酌後購買
-      * 不受理任何安裝到本地房的插件問題與bugs
   </details>
 
   * <details><summary><b>甚麼樣的插件價錢比較貴?</b></summary>
@@ -111,7 +110,6 @@
     * Provide source code. If distribute or share, will void the warranty and I won't longer support.
     * 🟥 All plugins can run on Dedicated Server, not guarantee works the same result on listen(local) server.
       * [Sourcemod does not support listen server](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server), please consider before purchasing if wanna install on listen server 
-      * I won't accept any bugs or problems on listen server 
   </details>
 
   * <details><summary><b>Why high-priced?</b></summary>

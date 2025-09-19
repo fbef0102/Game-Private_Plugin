@@ -50,8 +50,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.2h (2025-9-17)
+		* Update data
+		* Set temp health or permant health
+		* Kill attacker and set health
+
 	* v1.1h (2025-3-6)
-		* Update data, add new config
+		* Update data
 		
 	* v1.0h (2025-2-27)
 		* Add temp health after self help from incap

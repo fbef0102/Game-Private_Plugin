@@ -44,6 +44,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // Max client Health limit
         l4d_healing_field_health_max "200"
+
+        // How to heal survivors if not incap before, 0=Get Permant health, 1=Get Temporary Health
+        l4d_healing_field_health_type_1 "0"
+
+        // How to heal survivors if incap before, 0=Get Permant health (will reset incap count), 1=Get Temporary Health
+        l4d_healing_field_health_type_2 "1"
         ```
 </details>
 
@@ -56,6 +62,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3h (2025-9-19)
+        * Update cvars, Get permant health (reset incap count) when healing
 
     * v1.2h (2025-9-17)
         * Update cmds
@@ -110,6 +119,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // 治療光圈可回復的生命值最大上限
         l4d_healing_field_health_max "200"
+
+        // 如何治療沒有倒地過的玩家, 0=獲得實血, 1=獲得虛血
+        l4d_healing_field_health_type_1 "0"
+
+        // 如何治療已倒地過的玩家, 0=獲得實血(會重置倒地次數), 1=獲得虛血
+        l4d_healing_field_health_type_2 "1"
         ```
 </details>
 
