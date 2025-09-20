@@ -22,8 +22,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills initial target
-		* Witch追殺死第一個驚嚇她的人之後，可以轉移到其他目標
+	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): If install both plugins, witch kills the initial target first, then go for other survivors
+		* 如果兩個插件同時裝, Witch會優先殺死原始目標, 之後開始攻擊其他人
 </details>
 
 * <details><summary>ConVar | 指令</summary>

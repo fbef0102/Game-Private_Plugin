@@ -779,7 +779,7 @@
     * Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人時，顯示剩餘血量
   * [l4d_with_crowns_database_remake](/L4D_插件/Witch_女巫/l4d_with_crowns_database_remake): Adding a statistic of witch crowns and save to database
     * 統計一槍殺死Witch的數量，並儲存於數據庫當中
-  * [l4d_witch_follow_kill_everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Witch will chase another survivor after the witch incapacitates or kills victim + witch auto follows survivors
+  * [l4d_witch_follow_kill_everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Witch will chase another survivor until everyone is incap or dead + witch auto follows survivors
     * Witch被驚嚇後，會追殺死所有倖存者 + Witch會自動跟蹤你
 </details>
 

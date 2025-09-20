@@ -1,5 +1,5 @@
 # Description | 內容
-Witch will chase another survivor after the witch incapacitates or kills victim + witch auto follows survivors
+Witch will chase another survivor until everyone is incap or dead + witch auto follows survivors
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
