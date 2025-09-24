@@ -493,34 +493,37 @@
 
 	> Try the following steps to reduce the probability of server crash
 
-	1. [Update Sourcemod Stable Version](https://www.sourcemod.net/downloads.php?branch=stable)
+	1. If you are local server (listen server), please get a dedicated server
+		* [Sourcemod does not support listen server](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server), can't hold too many mods and plugins
+
+	2. [Update Sourcemod Stable Version](https://www.sourcemod.net/downloads.php?branch=stable)
 		<br/>![image](image/43.jpg)
 
-	2. [Update Metamod Stable Version](https://www.metamodsource.net/downloads.php/?branch=stable)
+	3. [Update Metamod Stable Version](https://www.metamodsource.net/downloads.php/?branch=stable)
 		<br/>![image](image/44.jpg)
 
-	3. Type ```sm plugins list``` to view all plugins
+	4. Type ```sm plugins list``` to view all plugins
 		* Find the original author or the link where you downloaded one by one, and update the plugin if newer version.
 		* 🟥 Suggest not using plugins without source code, because if they are broken, there is no way to repair.
 		* 🟥 More than ten years old plugins without any update and fix, please remove.
 		
-	4. Type ```sm exts list``` to view all extensions
+	5. Type ```sm exts list``` to view all extensions
 		* Find the original author or the link where you downloaded one by one, and update the plugin if newer version.
 
-	5. Check if any ```error_xxx.log``` in ```addons/sourcemod/logs``` folder
+	6. Check if any ```error_xxx.log``` in ```addons/sourcemod/logs``` folder
 		* Please check the file and try to fix the errors it says.
 		* Report the errors to the plugin author
 		* 🟥 Must fix until no errors
 
-	6. Try to remove plugins until figure out the reason
+	7. Try to remove plugins until figure out the reason
 		* Remove half plugins -> test -> remove half plugins if crash -> test -> remove half plugins if crash -> repeatedly
 
-	7. Try to remove mods or custom maps until figure out the reason
+	8. Try to remove mods or custom maps until figure out the reason
 		* I don't recommend using .vpk mods in server.
 		* Some weird mods or maps have custom vscript that could interfere the server.
 		* Just as bad plugins cause poor performance and crashes, so do bad mods and bad maps.
 
-	8. Let AI help analyze
+	9. Let AI help analyze
 		* Using ChatGPT Pro
 		* AI may not be correct, but better than nothing
 		<br/>![image](image/45.jpg)

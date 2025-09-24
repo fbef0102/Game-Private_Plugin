@@ -62,7 +62,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-生存模式下顯示人類隊伍全體的特感擊殺數與數據
+生存模式下，顯示人類隊伍全體的特感擊殺數與數據
 
 * 圖示
 	<br/>![l4d_survival_min_si_stats_1](image/zho/l4d_survival_min_si_stats_1.jpg)

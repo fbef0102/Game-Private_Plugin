@@ -21,15 +21,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Grendates fly through teammates
 </details>
 
-* <details><summary>Known Issue</summary>
-
-	1. After install plugin, the props on the map become floating and bouncing.
-		> To Fix Mayhem Bug, install [Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?p=2826180)
-</details>
-
 * Require | 必要安裝
-    1. [Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?t=348804): Fix physics mayhem/bouncing props BUG
-        * 解決物體或武器下沉地圖的Bug
+    1. [Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?t=348804): Fix physics mayhem/bouncing props BUG due to m_CollisionGroup changed
+        * 解決因改變m_CollisionGroup導致物體或武器下沉地圖的Bug
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -89,11 +83,3 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         css_team_noblock_grenade_enable "1"
         ```
 </details>
-
-* <details><summary>已知問題</summary>
-
-	1. 裝這插件之後，地圖經常發生物件掉落或浮空的問題
-		> 修復請安裝[Physics Mayhem Bug Fix](https://forums.alliedmods.net/showthread.php?p=2826180)
-</details>
-
-

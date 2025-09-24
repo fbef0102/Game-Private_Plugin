@@ -488,34 +488,37 @@
 
 	> 當你崩潰到受不了，幾乎想砸爛電腦時，不仿可以嘗試以下步驟自行減少崩潰的機率
 
-	1. [Sourcemod 有新版本則更新](https://www.sourcemod.net/downloads.php?branch=stable)且必須要是Stable Builds
+	1. 不要使用本地房(區域房, local server, listen server), 去搞一台專屬伺服器
+		* [Sourcemod一直都不支援](https://wiki.alliedmods.net/Installing_SourceMod_(simple)#Your_Server), 當你的插件與模組越來越多, 本地房越容易崩潰
+
+	2. [Sourcemod 有新版本則更新](https://www.sourcemod.net/downloads.php?branch=stable)且必須要是Stable Builds
 		<br/>![image](image/43.jpg)
 
-	2. [Metamod 有新版本則更新](https://www.metamodsource.net/downloads.php/?branch=stable)且必須要是Stable Builds
+	3. [Metamod 有新版本則更新](https://www.metamodsource.net/downloads.php/?branch=stable)且必須要是Stable Builds
 		<br/>![image](image/44.jpg)
 
-	3. 控制台輸入```sm plugins list``` 查看所有插件列表
+	4. 控制台輸入```sm plugins list``` 查看所有插件列表
 		* 一個一個找原始作者或你當初從哪下載插件的連接，插件如果有新版本則更新
 		* 🟥 沒有源碼的插件我一律不建議使用，因為壞掉了也無從修復
 		* 🟥 超過十年以上的插件很容易年久失修，更不上現在遊戲版本兼容導致出問題
 		
-	4. 控制台輸入```sm exts list``` 查看所有extension列表
+	5. 控制台輸入```sm exts list``` 查看所有extension列表
 		* 一個一個找原始作者或你當初從哪下載extension的連接，如果有新版本則更新
 
-	5. ```addons/sourcemod/logs```資料夾底下是否由出現```error_xxx.log```的文件
+	6. ```addons/sourcemod/logs```資料夾底下是否由出現```error_xxx.log```的文件
 		* 有的話請打開，雖然都是英文但請嘗試找出錯誤原因並修復
 		* 看不懂錯誤原因請洽作者，將錯誤原文直接發給開發者，無須一堆廢話
 		* 🟥 必須修復到沒有error為止
 
-	6. 嘗試刪除插件直到找到崩潰原因
+	7. 嘗試刪除插件直到找到崩潰原因
 		* 刪除一半的插件->測試->崩潰->再刪除刪除一半的插件->測試->崩潰->再刪除刪除一半的插件->重複循環...
 
-	7. 嘗試刪除裝在伺服器內的模組或三方圖直到找到崩潰原因
+	8. 嘗試刪除裝在伺服器內的模組或三方圖直到找到崩潰原因
 		* 不建議安裝工作仿訂閱模組在伺服器上 (模組副檔名是.vpk，英文叫Mods)
 		* 有些奇葩的三方圖與模組自帶腳本干擾伺服器運作
 		* 就像爛插件導致崩潰，也會有爛模組與爛的三方圖導致崩潰
 
-	8. 丟給AI分析，AI雖然資料有限但至少會幫你分析可能的原因
+	9. 丟給AI分析，AI雖然資料有限但至少會幫你分析可能的原因
 		* 使用的是ChatGPT Pro
 		<br/>![image](image/45.jpg)
 </details>

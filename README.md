@@ -584,7 +584,9 @@
   * [survival_remove_start_items](/L4D_插件/Survival_生存模式/survival_remove_start_items): Remove survivors' default kits/pills/dual pistol in survival/scavenge mode
     * 生存模式與清道夫模式中，移除人類身上預設的裝備: 雙手槍、治療包、藥丸
   * [l4d_survival_min_si_status](/L4D_插件/Survival_生存模式/l4d_survival_min_si_stats): Display Minimum SI/min requirement and stats on each survival map.
-    * 生存模式下顯示人類隊伍全體的特感擊殺數與數據
+    * 生存模式下，顯示人類隊伍全體的特感擊殺數與數據
+  * [l4d_survival_gas_item_counts_check](/L4D_插件/Survival_生存模式/l4d_survival_gas_item_counts_check): Check if the total number of Gas/Prop/Ammp Pack items more than map allowed when survival begins
+    * 生存模式計時開始之後，檢查物資數量是否不符合地圖預設數量
 </details>
 
 * <details><summary><b>Survivor | 人類</b></summary>
