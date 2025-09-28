@@ -295,6 +295,8 @@
     * 移除地圖上所有高空墬落的鏡頭 (避免玩家視角被鎖住)
   * [l4d_ragdoll_vanish](/L4D_插件/Entity_實體物件/l4d_ragdoll_vanish): Make ragdolls from survivor/common infected/S.I./Witch vanish when they die.
     * 倖存者/普通殭屍/特感/Witch死亡時，屍體立馬消失
+  * [l4d_prop_boost](/L4D_插件/Entity_實體物件/l4d_prop_boost): Give a boost when players jump on specific props
+    * 指定物件變成彈簧床, 玩家站上去會跳得很高
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

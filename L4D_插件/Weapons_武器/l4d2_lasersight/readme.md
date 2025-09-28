@@ -16,6 +16,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Pick up weapons -> Auto upgrade laser sights
 	* Type ```!laser``` -> on/off upgrade sight
+	* Can set cmd use limit
 </details>
 
 * Require | 必要安裝
@@ -37,6 +38,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// If 1, block laser command if there are no any upgrade_laser_sight on the map
 		l4d2_lasersight_map_block "0"
+
+		// Players with these flags have access to have laser sight and type laser command (Empty = Everyone, -1: Nobody)
+		l4d2_lasersight_access_flag "0"
+
+		// How many time can player use command to toggle laser per map? (-1=Command blocked, 0=No limit)
+		l4d2_lasersight_map_count "0"
 		```
 </details>
 
@@ -54,6 +61,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2025-9-29)
+		* Update cvars
 
 	* v1.2h (2024-11-4)
 		* Auto upgrade laser sight when survivors pick up primary weapons
@@ -94,6 +104,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 為1時，地圖上沒有紅外線雷射升級裝置時，不能使用指令
 		l4d2_lasersight_map_block "0"
+
+		// 擁有這些權限的玩家，可以自動裝備紅外線與使用指令 (留白 = 任何人都能, -1: 無人)
+		l4d2_lasersight_access_flag "0"
+
+		// 每個關卡當中，玩家使用指令裝備紅外線的次數限制 (-1=不能使用指另, 0: 無限制)
+		l4d2_lasersight_map_count "0"
 		```
 </details>
 

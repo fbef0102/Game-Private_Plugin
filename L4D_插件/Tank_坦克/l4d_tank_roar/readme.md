@@ -25,7 +25,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -72,6 +72,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// How message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d_tank_roar_hint "2"
+
+		// Press which button to trigger the tank roar, 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse
+		// You can add numbers together, ex: 655360=Shift + Middle Mouse
+		l4d_tank_roar_buttons "8192"
 		```
 </details>
 
@@ -82,7 +86,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-    * v1.0h (2024-1-10)
+	* v1.1h (2025-9-29)
+		* Update cvars
+
+	* v1.0h (2024-1-10)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
 		* Optimize code and improve performance
@@ -91,7 +98,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Add Cvars
 		* AI Tank now also use roar ability
 
-    * v1.2.2
+	* v1.2.2
 		* [Original Plugin by אKarma](https://forums.alliedmods.net/showthread.php?t=126919)
 </details>
 
@@ -150,5 +157,9 @@ Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
 
 		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d_tank_roar_hint "2"
+
+		// Tank按下哪一個按鍵使用能力? 131072=Shift鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
+		l4d_tank_roar_buttons "8192"
 		```
 </details>

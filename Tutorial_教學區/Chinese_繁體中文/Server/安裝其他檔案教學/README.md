@@ -65,6 +65,7 @@
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
 			// 最大客戶端 (最大玩家數量): 伺服器內能容納玩家的人數，包含真人 + AI Bot 
 			// 此數值不准修改 (max: 31)
+			// 伺服器的啟動選項也要寫
 			sv_setmax 31
 
 			// 真人玩家允許加入伺服器的人數，不包含AI Bot

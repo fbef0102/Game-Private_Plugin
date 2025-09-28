@@ -65,6 +65,7 @@
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
 			// Max. clients/players, how many real players + bots allowed in server
 			// Do not modify value (max: 31)
+			// Also write in server launch parameter
 			sv_setmax 31
 
 			// How many real players can join server (Not including AI Bots)

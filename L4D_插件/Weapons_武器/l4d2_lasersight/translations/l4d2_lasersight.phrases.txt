@@ -36,4 +36,25 @@
 		"chi"			"[{olive}TS{default}] 你不能使用此指令, 请等待 {1} 秒"
 	}
 	
+	"No Access"
+	{
+		"en"			"[{olive}TS{default}] You don't have access"
+		"zho"			"[{olive}TS{default}] 沒有權限使用"
+		"chi"			"[{olive}TS{default}] 没有权限使用"
+	}
+	
+	"Use limit has been reached"
+	{
+		"en"			"[{olive}TS{default}] Use limit has been reached"
+		"zho"			"[{olive}TS{default}] 使用次數已達上限"
+		"chi"			"[{olive}TS{default}] 使用次数已达上限"
+	}
+
+	"Left"
+	{
+		"#format"		"{1:i}"
+		"en"			"[{olive}TS{default}] You have {green}{1}{default} left to toggle laser sight"
+		"zho"			"[{olive}TS{default}] 您剩餘 {green}{1}{default} 次數可以裝備紅外線"
+		"chi"			"[{olive}TS{default}] 您剩余 {green}{1}{default} 次数可以装备红外线"
+	}
 }
