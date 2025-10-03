@@ -108,13 +108,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-統計一槍殺死Hunter的數量，並儲存於數據庫當中
+統計一槍擊殺Hunter的數量，並儲存於數據庫當中
 
 * 原理
-	* 當玩家一槍殺死Hunter時 (Hunter必須是正在飛撲當中)，統計+1
+	* 當玩家一槍擊殺Hunter時 (Hunter必須是正在飛撲當中)，統計+1
 	* 儲存到數據庫當中，請不要修改文件: [data/l4d_skeet_database_remake.txt](data/l4d_skeet_database_remake.txt)
-	* 輸入 ```!tops``` 查看前五名一槍殺死Hunter數量的玩家
-	* 輸入 ```!mys``` 查看自己一槍殺死Hunter的數量與排行榜
+	* 輸入 ```!tops``` 查看前五名一槍擊殺Hunter數量的玩家
+	* 輸入 ```!mys``` 查看自己一槍擊殺Hunter的數量與排行榜
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -147,12 +147,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **查看自己一槍殺死Hunter的數量與排行榜**
+	* **查看自己一槍擊殺Hunter的數量與排行榜**
 		```php
 		sm_mys
 		```
 
-	* **查看前五名一槍殺死Hunter數量的玩家**
+	* **查看前五名一槍擊殺Hunter數量的玩家**
 		```php
 		sm_tops
 		```

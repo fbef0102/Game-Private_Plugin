@@ -99,12 +99,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-驚嚇或殺死Witch會引發屍潮 + Witch殺死人類也會引發屍潮
+驚嚇或擊殺Witch會引發屍潮 + Witch擊殺人類也會引發屍潮
 
 * 原理
 	* 人類驚醒Witch，引發屍潮
-	* 人類殺死Witch，引發屍潮
-	* Witch殺死人類，引發屍潮
+	* 人類擊殺Witch，引發屍潮
+	* Witch擊殺人類，引發屍潮
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -128,28 +128,28 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Witch被驚醒時呼叫的屍潮數量
 		l4d_witch_cry_alart_horde_mob "1"
 
-		// 為1時，Witch被殺死時呼叫屍潮
+		// 為1時，Witch被擊殺時呼叫屍潮
 		l4d_witch_cry_death_enable "1"
 
-		// Witch被殺死時呼叫屍潮的機率 [1~100]%
+		// Witch被擊殺時呼叫屍潮的機率 [1~100]%
 		l4d_witch_cry_death_chance "100"
 
-		// Witch被殺死 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
+		// Witch被擊殺 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
 		l4d_witch_cry_death_horde_time "2.0"
 
-		// Witch被殺死時呼叫的屍潮數量
+		// Witch被擊殺時呼叫的屍潮數量
 		l4d_witch_cry_death_horde_mob "1"
 
-		// 為1時，Witch殺死倖存者時呼叫屍潮
+		// 為1時，Witch擊殺倖存者時呼叫屍潮
 		l4d_witch_cry_kill_enable "1"
 
-		// Witch殺死倖存者時呼叫屍潮的機率 [1~100]%
+		// Witch擊殺倖存者時呼叫屍潮的機率 [1~100]%
 		l4d_witch_cry_kill_chance "50"
 
-		// Witch殺死倖存者 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
+		// Witch擊殺倖存者 2秒後呼叫屍潮. (0=不等秒數直接呼叫屍潮)
 		l4d_witch_cry_kill_time "2.0"
 
-		// Witch殺死倖存者時呼叫的屍潮數量
+		// Witch擊殺倖存者時呼叫的屍潮數量
 		l4d_witch_cry_kill_mob "1"
 		```
 </details>

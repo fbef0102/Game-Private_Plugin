@@ -257,14 +257,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
+擊殺殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 
 * 圖示
 	<br/>![zho/l4d_ranking_system_1](image/zho/l4d_ranking_system_1.jpg)
 	<br/>![zho/l4d_ranking_system_2](image/zho/l4d_ranking_system_2.jpg)
 
 * 原理
-	* 殺死殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的Rank頭銜名稱
+	* 擊殺殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的Rank頭銜名稱
 	* 友傷黑槍隊友、滅團、倒地、死亡...，扣除經驗值
 	* 在聊天框的玩家名子前顯示Rank頭銜名稱
 	* 輸入```!rank```隨時查看自己或他人資料

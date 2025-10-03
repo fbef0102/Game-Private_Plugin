@@ -55,13 +55,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動殺死特感
+AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動處死特感
 
 * 原理
 	* AI Bot 自動救起來
 		* 倒地
 		* 掛邊
-	* AI Bot 被特感抓住時自動殺死特感
+	* AI Bot 被特感抓住時自動處死特感
 		* 被smoker抓
 		* 被Hunter抓
 		* 被Jockey抓

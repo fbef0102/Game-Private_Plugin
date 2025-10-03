@@ -32,7 +32,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>Support | 支援插件</summary>
 
     1. [l4d_witch_target_forever](/L4D_插件/Witch_女巫/l4d_witch_target_forever): If install both plugins, the witch's priority option is to kill her initial target first and then change target
-        * 如果兩個插件同時裝, Witch會優先攻擊並殺死原始目標, 之後才會改變目標
+        * 如果兩個插件同時裝, Witch會優先攻擊並擊殺原始目標, 之後才會改變目標
     2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
         * 四個修復Witch的插件可以裝, 不會跟此插件有衝突
 </details>
@@ -96,11 +96,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-Witch會自動跟蹤你，一旦驚嚇到她，不殺死任何人絕不罷休
+Witch會自動跟蹤你，一旦驚嚇到她，不擊殺任何人絕不罷休
 
 * 原理
     * 出現在Witch看得到的視野之內，她將會自動走向你
-    * 嚇到Witch之後，將目標玩家倒地或殺死之後，自動把目標轉向剩餘的倖存者繼續追殺
+    * 嚇到Witch之後，將目標玩家倒地或擊殺之後，自動把目標轉向剩餘的倖存者繼續追殺
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

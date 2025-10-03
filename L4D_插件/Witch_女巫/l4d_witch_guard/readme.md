@@ -161,10 +161,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
+擊殺Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
 
 * 原理
-	* 殺死Witch之後，有機率獲得Witch防衛者，自動放在背後
+	* 擊殺Witch之後，有機率獲得Witch防衛者，自動放在背後
 	* 按下Ctrl+E鍵四秒鐘可以放下Witch防衛者
 	* Witch防衛者的作用
 		* 自動對附近的普通感染者開槍
@@ -204,7 +204,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 為1時，玩家死亡，背上的Witch防衛者會消失
 		l4d_witch_guard_lose_in_death "1"
 
-		// 為1時，AI Bots殺死Witch也能獲得Witch防衛者
+		// 為1時，AI Bots擊殺Witch也能獲得Witch防衛者
 		l4d_witch_guard_bots "0"
 
 		// Witch防衛者可以使用哪種槍枝? 0 = 隨機, 1 = 步槍, 2 = 獵槍, 3 = 自動連發散彈槍.
@@ -228,13 +228,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// (只限L4D2) 為1時，放下Witch防衛者時顯示進展過程
 		l4d_witch_guard_showbar "1"
 
-		// Witch被殺死之後，誰能獲得Witch防衛者 0 = 最後一槍的兇手, 1 = 造成最多傷害的人.
+		// Witch被擊殺之後，誰能獲得Witch防衛者 0 = 最後一槍的兇手, 1 = 造成最多傷害的人.
 		l4d_witch_guard_mode "0"
 
-		// 為1時，Witch防衛者殺死的特感與殭屍都算在擁有者的統計上
+		// 為1時，Witch防衛者擊殺的特感與殭屍都算在擁有者的統計上
 		l4d_witch_guard_scoredamage "0"
 
-		// Witch被殺死之後，獲得Witch防衛者的機率
+		// Witch被擊殺之後，獲得Witch防衛者的機率
 		l4d_witch_guard_chance "25.0"
 
 		// 為1時，可以攜帶Witch防衛者過關到下一關卡 (只限戰役/寫實)

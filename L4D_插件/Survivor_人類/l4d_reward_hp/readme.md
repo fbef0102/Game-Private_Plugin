@@ -118,7 +118,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-倖存者殺死特感或幫助隊友會獲得血量獎賞
+倖存者擊殺特感或幫助隊友會獲得血量獎賞
 
 * 原理
 	* 以下情況會獲得血量

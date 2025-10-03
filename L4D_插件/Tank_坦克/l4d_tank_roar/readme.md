@@ -76,6 +76,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Press which button to trigger the tank roar, 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse
 		// You can add numbers together, ex: 655360=Shift + Middle Mouse
 		l4d_tank_roar_buttons "8192"
+
+		// Rank roar ring color, Three values between 0-255 separated by spaces. RGB Color255 - Red Green Blue. (Empty=Ring Off)
+		l4d_tank_roar_color "0 0 250"
 		```
 </details>
 
@@ -161,5 +164,9 @@ Tank可以按下R鍵震開周圍的倖存者 (遠離或朝向)
 		// Tank按下哪一個按鍵使用能力? 131072=Shift鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
 		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
 		l4d_tank_roar_buttons "8192"
+
+		// Tank使用能力產生的光圈顏色 (三色 RGB)
+		// 留空=不產生光圈
+		l4d_tank_roar_color "0 0 250"
 		```
 </details>

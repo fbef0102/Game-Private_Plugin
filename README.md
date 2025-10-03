@@ -240,7 +240,7 @@
   * [l4d_TougherSurvivorBots](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_TougherSurvivorBots): Makes the survivor bots deal more damage against SIs and be more resistant to damage.
     * 增加AI Bot對特感的傷害 + 減少AI Bot受到的傷害
   * [l4d_bot_auto_self_help](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_auto_self_help): Survivor bots auto self-revive after incap, hanging from ledge + auto self-clear if get pinned by special infected
-    * AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動殺死特感
+    * AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動處死特感
 </details>
 
 * <details><summary><b>Charger | Charger</b></summary>
@@ -312,7 +312,7 @@
   * [L4D2_Buy_Store](/L4D_插件/Fun_娛樂/L4D2_Buy_Store): L4D2 Human and Zombie Shop by HarryPoter
     * 人類與特感的購物商城 (附有特殊商品與資料庫)
   * [l4d_ranking_system](/L4D_插件/Fun_娛樂/l4d_ranking_system): Kill infected to get Exp and rank, type !rank to show rank menu
-    * 殺死殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
+    * 擊殺殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
   * [Trails_Projectile](/L4D_插件/Fun_娛樂/Trails_Projectile): Trails Projectile (Pipe Bomb / Molotov / VomitJar / Grenade / Spitter Projectile / Tank Rock)
     * 投擲物品時有拖曳軌跡 (土製炸彈 / 汽油彈 / 膽汁瓶 / 榴彈 / Spitter唾液物 / Tank石頭)
   * [l4d_character_vocalize_select](/L4D_插件/Fun_娛樂/l4d_character_vocalize_select): Player can select other character's voice and vocalize
@@ -332,7 +332,7 @@
   * [l4d2_hunter_steal_charger_victim](/L4D_插件/Hunter_Hunter/l4d2_hunter_steal_charger_victim): The hunter can pounce on the charger's victim.
     * Hunter可以搶走Charger正在控的倖存者
   * [l4d_skeet_database_remake](/L4D_插件/Hunter_Hunter/l4d_skeet_database_remake): Adding a statistic of hunter skeets, and save to database
-    * 統計一槍殺死Hunter的數量，並儲存於數據庫當中
+    * 統計一槍擊殺Hunter的數量，並儲存於數據庫當中
   * [l4d_pounce_database_remake](/L4D_插件/Hunter_Hunter/l4d_pounce_database_remake): Adding a statistic of hunter 25 damage pounces, and save to database
     * 統計Hunter高撲玩家25傷害的次數，並儲存於數據庫當中
 </details>
@@ -618,7 +618,7 @@
   * [l4d_more_supply](/L4D_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server
     * 隨著玩家人數越多，地圖上的資源可以重複拿很多次
   * [l4d_reward_hp](/L4D_插件/Survivor_人類/l4d_reward_hp): Players get hp reward for killing S.I., Tank, Witch or helping each other
-    * 倖存者殺死特感或幫助隊友會獲得血量獎賞
+    * 倖存者擊殺特感或幫助隊友會獲得血量獎賞
   * [l4d2_survivor_shove_power](/L4D_插件/Survivor_人類/l4d2_survivor_shove_power): Allows shoving to stagger or punch survivors, tank, witch, special infected, common infected and hittable
     * 倖存者的拳頭可以推開Tank、Ｗitch、Charger、車子，還能拍飛特感、小殭屍、隊友
   * [l4d2_survivor_fire_power](/L4D_插件/Survivor_人類/l4d2_survivor_fire_power): Adjustable each melee swing rate and each weapon fire rate.
@@ -637,6 +637,8 @@
     * 倖存者不會掛邊而是直接墬落
   * [l4d_sethp_player](/L4D_插件/Survivor_人類/l4d_sethp_player): Allow to give survivors health and select the amount of HP from menu
     * 打開選單設置倖存者的血量
+  * [l4d_incap_revive_kill](/L4D_插件/Survivor_人類/l4d_incap_revive_kill): Incapacitated survivors can kill C.I/S.I./Tank/Witch to get up by themselves
+    * 倒地的倖存者擊殺特感/Tank/Witch/普通感染者，可以自救並獲得血量
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>
@@ -760,9 +762,9 @@
   * [l4d_ultra_witch](/L4D_插件/Witch_女巫/l4d_ultra_witch): The Witch's hit deals a set amount of damage instead of instantly incapping, while also sending the survivor flying.
     * Witch不會一抓倒地，而是擊飛倖存者
   * [l4d_witch_guard](/L4D_插件/Witch_女巫/l4d_witch_guard): Witch killer takes the witch on his back and uses it as a guard
-    * 殺死Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
+    * 擊殺Witch之後可以把她背在後面，把Witch放置下來之後她會幫忙打殭屍和特感
   * [l4d_witch_cry](/L4D_插件/Witch_女巫/l4d_witch_cry): Call the horde if player woke up or killed the witch or witch killed player
-    * 驚嚇或殺死Witch會引發屍潮 + Witch殺死人類也會引發屍潮
+    * 驚嚇或擊殺Witch會引發屍潮 + Witch擊殺人類也會引發屍潮
   * [l4d_witch_psychotic](/L4D_插件/Witch_女巫/l4d_witch_psychotic): Adds a lot of abilities and fear to the witch to become the most dangerous infected.
     * 增強Witch，賦予多種超能力成為史上最危險的特感
   * [l4d_witch_immune_fire](/L4D_插件/Witch_女巫/l4d_witch_immune_fire): Witch is immune to fire + witch won't lose target by fire
@@ -782,9 +784,9 @@
   * [l4d_witch_dmg_report](/L4D_插件/Witch_女巫/l4d_witch_dmg_report): Displays how much damage done to witch on witch death + display health remaining when witch kills or incaps the survivor.
     * Witch死亡時，顯示對Witch造成傷害統計表 + Witch抓傷或抓死人時，顯示剩餘血量
   * [l4d_with_crowns_database_remake](/L4D_插件/Witch_女巫/l4d_with_crowns_database_remake): Adding a statistic of witch crowns and save to database
-    * 統計一槍殺死Witch的數量，並儲存於數據庫當中
+    * 統計一槍擊殺Witch的數量，並儲存於數據庫當中
   * [l4d_witch_follow_kill_everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Witch will chase another survivor until everyone is incap or dead + witch auto follows survivors
-    * Witch被驚嚇後，會追殺死所有倖存者 + Witch會自動跟蹤你
+    * Witch被驚嚇後，會追擊殺所有倖存者 + Witch會自動跟蹤你
 </details>
 
 * <details><summary><b>只有中文的插件列表</b></summary>

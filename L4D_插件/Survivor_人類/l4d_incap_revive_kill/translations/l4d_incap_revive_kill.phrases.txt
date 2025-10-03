@@ -1,0 +1,168 @@
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"Kill CI (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing common infecteds"
+		"zho"			"您殺死普通感染者獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死普通感染者获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill CI"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing common infecteds"
+		"zho"			"您殺死普通感染者獲得 {1} 血量起身"
+		"chi"			"您杀死普通感染者获得 {1} 血量起身"
+	}
+	
+	"Kill Witch (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Witch"
+		"zho"			"您殺死Witch獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Witch获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Witch"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Witch"
+		"zho"			"您殺死Witch獲得 {1} 血量起身"
+		"chi"			"您杀死Witch获得 {1} 血量起身"
+	}	
+	
+	"Kill Smoker (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Smoker"
+		"zho"			"您殺死Smoker獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Smoker获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Smoker"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Smoker"
+		"zho"			"您殺死Smoker獲得 {1} 血量起身"
+		"chi"			"您杀死Smoker获得 {1} 血量起身"
+	}
+	
+	"Kill Boomer (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Boomer"
+		"zho"			"您殺死Boomer獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Boomer获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Boomer"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Boomer"
+		"zho"			"您殺死Boomer獲得 {1} 血量起身"
+		"chi"			"您杀死Boomer获得 {1} 血量起身"
+	}	
+	
+	"Kill Hunter (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Hunter"
+		"zho"			"您殺死Hunter獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Hunter获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Hunter"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Hunter"
+		"zho"			"您殺死Hunter獲得 {1} 血量起身"
+		"chi"			"您杀死Hunter获得 {1} 血量起身"
+	}
+	
+	"Kill Spitter (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Spitter"
+		"zho"			"您殺死Spitter獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Spitter获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Spitter"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Spitter"
+		"zho"			"您殺死Spitter獲得 {1} 血量起身"
+		"chi"			"您杀死Spitter获得 {1} 血量起身"
+	}
+	
+	"Kill Jockey (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Jockey"
+		"zho"			"您殺死Jockey獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Jockey获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Jockey"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Jockey"
+		"zho"			"您殺死Jockey獲得 {1} 血量起身"
+		"chi"			"您杀死Jockey获得 {1} 血量起身"
+	}
+	
+	"Kill Charger (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Charger"
+		"zho"			"您殺死Charger獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Charger获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Charger"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Charger"
+		"zho"			"您殺死Charger獲得 {1} 血量起身"
+		"chi"			"您杀死Charger获得 {1} 血量起身"
+	}
+	
+	"Kill Tank (C)"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {green}{1}{default} hp by killing a Tank"
+		"zho"			"您殺死Tank獲得 {green}{1}{default} 血量起身"
+		"chi"			"您杀死Tank获得 {green}{1}{default} 血量起身"
+	}
+	
+	"Kill Tank"
+	{
+		"#format"		"{1:i}"
+		"en"			"You get up with {1} hp by killing a Tank"
+		"zho"			"您殺死Tank獲得 {1} 血量起身"
+		"chi"			"您杀死Tank获得 {1} 血量起身"
+	}
+}
