@@ -22,6 +22,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
+	* Run plugin and let server auto-generate ```cfg/sourcemod/sm_PlayerTime.cfg```
+		* -> Change game APP ID ```sm_playtime_appid xxx``` -> Save and restart server
 	* Display Name, country, city, play time, lerp on client connection
 	* Played time is from game statistics
 	* You can translate country and city name manually (write in translation file)
@@ -30,10 +32,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. Steamworks
-		- L4D2: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
+		- Other: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
 		- CSS: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
 	4. [Country and city database](/Tutorial_教學區/English/Server/Install_Other_File#country-and-city-database)
 		* 抓取玩家的地理位置，需安裝[國家與城市的資料庫](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝國家與城市的資料庫)
+
+* <details><summary>Known Conflicts</summary>
+	
+	If you don't use any of these files at all, no need to worry about conflicts.
+	1. [lakwsh/l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases): SteamWorks would stop working if set ```sv_steam_bypass 1```
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -107,7 +115,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Get Game total time played even if the steam profile is publicly visible. Private, friends-only, and other privacy settings
 
 	* v1.8
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -
@@ -121,9 +129,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![zho/sm_PlayerTime_2](image/zho/sm_PlayerTime_2.jpg)
 
 * 原理
+	* 安裝插件後先運行伺服器，之後會自動產生文件: ```cfg/sourcemod/sm_PlayerTime.cfg```
+		* -> 修改指令 APP ID ```sm_playtime_appid xxx``` -> 儲存並重啟
 	* 玩家進來伺服器之時，抓取他的實際遊玩時數 (與'Steam個人檔案上顯示的遊戲時數'會有所不同)
 	* 即使玩家的steam個人資料或頁面設定為未公開，依然可以抓取實際遊玩時數
 	* 可以顯示中文的地區與城市名稱 (需要自行翻譯)
+
+* <details><summary>會衝突的檔案</summary>
+	
+	如果沒安裝以下檔案就不需要擔心衝突
+	1. [lakwsh/l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases): 如果設置 ```sv_steam_bypass 1```, SteamWorks會停止運作
+</details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

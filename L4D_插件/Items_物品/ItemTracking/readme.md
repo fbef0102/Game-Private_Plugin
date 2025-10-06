@@ -86,7 +86,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
-	* 1.4h (2025/3/21)
+	* 1.5h (2025-10-6)
+		* Add function: replace item with other item
+		* Update data file
+
+	* 1.4h (2025-3-21)
 		* Add all weapons, melee and chainsaws....
 		* Update data file
 
@@ -111,7 +115,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Control items in start safe area and in end safe area & in final area
 
 	* v0.0
-	    * [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/ItemTracking.sp)
+		* [From SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/confoglcompmod/ItemTracking.sp)
 </details>
 
 - - - -

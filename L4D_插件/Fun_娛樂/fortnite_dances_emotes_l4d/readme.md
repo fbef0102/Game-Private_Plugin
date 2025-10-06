@@ -40,8 +40,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	1. [l4d_force_client_custom_download](/L4D_插件/Player_玩家/l4d_force_client_custom_download): Force player to download your server's custom content
 		* 強制玩家打開設置下載伺服器自製的檔案
-	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
-		* 可以自由變成其他角色或NPC的模組
+	2. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): Change model and dance
+		* 可以自由變成其他角色或NPC的模組然後跳舞
 </details>
 
 * <details><summary>ConVar | 指令</summary>

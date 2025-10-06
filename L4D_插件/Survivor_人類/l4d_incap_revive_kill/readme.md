@@ -72,6 +72,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// How much hp can get if killing a witch (0=Off)
 		l4d_incap_revive_kill_witch_hp "80"
+
+		// How to heal survivors, 0=Get Permant health (reset incap count), 1=Get Temporary Health
+		l4d_incap_revive_kill_health_type "1"
 		```
 </details>
 
@@ -138,5 +141,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 殺Witch自救的血量 (0=殺Witch不能自救)
 		l4d_incap_revive_kill_witch_hp "80"
+
+		// 獲得的血量為
+		// 0=實血 (會重置倒地次數)
+		// 1=虛血
+		l4d_incap_revive_kill_health_type "1"
 		```
 </details>

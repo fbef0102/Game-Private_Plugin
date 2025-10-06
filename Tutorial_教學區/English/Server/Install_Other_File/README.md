@@ -94,6 +94,7 @@
 			// This feature can alleviate the No Steam logon (code 6) issue (only for players who enter while the feature is enabled).
 			// Enabling this feature will weaken server security, and Family Sharing functionality will be disabled.
 			// Note: Enabling this feature will cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// Note: Enabling this feature will cause SteamWorks extension not working
 			sv_steam_bypass 1
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz

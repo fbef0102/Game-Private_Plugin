@@ -93,6 +93,7 @@
 			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被離線的問題 (僅限開啟狀態下進入的玩家)
 			// 開啟本功能會削弱伺服器安全性,且禁止家庭共享功能將失效
 			// 注意: 開啟此功能會導致A2S_INFO結果異常,可以透過外掛程式修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 注意: 開啟此功能會導致SteamWorks extension部分功能失效
 			sv_steam_bypass 1
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz

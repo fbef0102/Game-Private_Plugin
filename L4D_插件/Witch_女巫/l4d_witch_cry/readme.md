@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
+	3. [l4d_witch_retreat_panic_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_witch_retreat_panic_fix)
 
 * <details><summary>ConVar | 指令</summary>
 
