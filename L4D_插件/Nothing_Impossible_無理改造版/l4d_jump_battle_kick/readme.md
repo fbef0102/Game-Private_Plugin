@@ -37,6 +37,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Player with these flag can do battle kick (Empty=Everyone, -1=No one)
 		l4d_jump_battle_kick_flags ""
 
+		// Press which button to trigger battle kick, 131072=Shift, 2=JUMP, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse\nYou can add numbers together, ex: 131074=Shift+JUMP
+		l4d_jump_battle_buttons_key "131074"
+
 		// Jump kick force
 		l4d_jump_battle_kick_force "400.0"
 
@@ -108,6 +111,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2025-10-7)
+		* Define custom key
+		* Update cvars
+
 	* v1.1h (2024-8-9)
 		* Jump kick now can make SI fly away instead of stagger
 		* Update cvars
@@ -143,6 +150,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 擁有這些權限的玩家，才可以使出飛踢攻擊 (留白 = 任何人都能, -1: 無人)
 		l4d_jump_battle_kick_flags ""
+
+		// 使用哪個按鍵使出飛踢攻擊? 131072=Shift鍵, 2=跳躍鍵, 4=Ctrl鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 131074=必須同時按 "Shift鍵+跳躍鍵"
+		l4d_jump_battle_buttons_key "131074"
 
 		// 飛踢力道
 		l4d_jump_battle_kick_force "400.0"

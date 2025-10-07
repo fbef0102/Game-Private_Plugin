@@ -5,7 +5,7 @@ Doraemon Aircannon
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/HQgxXpngBxI)
+* [Video | 影片展示](https://youtu.be/WvbfBtBvr7U)
 
 * Image | 圖示
 	<br/>![l4d_gun_blastpushback_1](image/l4d_gun_blastpushback_1.gif)
@@ -19,10 +19,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Hold a weapon -> right mouse to shove -> Have air push power from muzzle
-    * Push special infected, tank, witch, common infecte, and including hittable cvars
+	* Hold a specific weapon -> right mouse to shove -> Have air push power from muzzle
+    * Push special infected, tank, witch, common infected, including hittable cvars
 </details>
-
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -125,10 +124,25 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // "weapon_propanetank",				12
         // "weapon_oxygentank",				    13
         l4d_gun_blastpushback_weapon "6,12,13"
+
+        // If 1, display Aircannon trajectory (Laser beam)
+        l4d_gun_blastpushback_laser_enable "1"
+
+        // Set trajectory color for Aircannon, Three values between 0-255 separated by spaces. RGB: Red Green Blue. [-1 -1 -1: Random]
+        l4d_gun_blastpushback_laser_color "0 200 200"
         ```
 </details>
 
+* Translation Support | 支援翻譯
+	```
+	translations/l4d_gun_blastpushback.phrases.txt
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1 (2025-10-7)
+        * Add aircannon trajectory laser beam effect
+        * Update cvars
 
     * v1.0
 	    * Initial Release
@@ -245,6 +259,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // "weapon_propanetank",				12
         // "weapon_oxygentank",				    13
         l4d_gun_blastpushback_weapon "6,12,13"
+
+        // 為1時, 空氣砲有彈道軌跡 (雷射光線)
+        l4d_gun_blastpushback_laser_enable "1"
+
+        // 空氣砲的彈道軌跡顏色 [-1 -1 -1: 隨機]
+        l4d_gun_blastpushback_laser_color "0 200 200"
         ```
 
     * 範例效果:
