@@ -8,7 +8,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * [Video | 影片展示](https://youtu.be/gtJMe7gCnEk)
 
 * Image | 圖示
-	* Idea comes from [Counter Strike Online Knockback](https://zombieescape.fandom.com/wiki/Knockback)
 	<br/>![l4d2_cso_knockback_1](image/l4d2_cso_knockback_1.gif)
 	<br/>![l4d2_cso_knockback_2](image/l4d2_cso_knockback_2.gif)
 	<br/>![l4d2_cso_knockback_3](image/l4d2_cso_knockback_3.gif)
@@ -21,6 +20,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
+	* Idea comes from [Counter Strike Online Knockback](https://zombieescape.fandom.com/wiki/Knockback)
 	* When special infected get shot, they are being pushed back and can't move forward
 	* Allow Knockback while special infected using their ability, Witch does not apply
 		* Tank throwing
@@ -36,6 +36,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* HeadShot ＝＞ More KnockBack
 	* Weapons, Melees, grenades now have knockback power
 	* Use data [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg) to control knockback power
+		* Manual in this file, click for more details...
+	* To make game more like cso zombie, you can install [l4d_si_slowdown_gunfire](/L4D_插件/Special_Infected_特感/l4d_si_slowdown_gunfire)
 </details>
 
 * Require | 必要安裝
@@ -52,12 +54,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-
-	* [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
-		> Manual in this file, click for more details...
-</details>
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_cso_zombie_Regeneration](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_cso_zombie_Regeneration): The zombies have grown stronger, now they are able to heal their injuries by standing still without receiving any damage.
@@ -71,6 +67,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	4. [l4d_si_slowdown_gunfire](/L4D_插件/Special_Infected_特感/l4d_si_slowdown_gunfire): Manages the gunfire slowdown for infected team (Also apply to AI)
 		* 依據槍械種類修改特感的槍緩速度 (AI特感也適用)
+
+	5. [l4d2_chainsaw_knockback](/L4D_插件/Weapons_武器/l4d2_chainsaw_knockback): Make chainsaw has knock power when shove
+    	* 電鋸右鍵可大範圍擊退殭屍與特感
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -100,7 +99,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 傷害越大 ＝＞ 擊退力越強
 		* 距離越近 ＝＞ 擊退力越強
 		* 射擊頭部 ＝＞ 擊退力越強
-	* 武器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件[data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
+	* 榴彈發射器、近戰、榴彈、瓦斯桶...，均會有擊退效果，如果要修改請參見文件[data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
+		* 內有中文說明，可點擊查看
 	* 搭配槍緩插件: [l4d_si_slowdown_gunfire](/L4D_插件/Special_Infected_特感/l4d_si_slowdown_gunfire)，可以完美復刻CSO殭屍擊退效果
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -110,10 +110,4 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=關閉插件, 1=啟動插件
 		l4d2_cso_knockback_enable "1"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* [data/l4d2_cso_knockback.cfg](data/l4d2_cso_knockback.cfg)
-		> 內有中文說明，可點擊查看
 </details>

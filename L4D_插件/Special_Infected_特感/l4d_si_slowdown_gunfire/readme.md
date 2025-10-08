@@ -32,20 +32,56 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/l4d_si_slowdown_gunfire.cfg
 		```php
-		// Maximum slowdown from gunfire for AI SI (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: 1%%-100%% slowdown)
-		l4d_si_slowdown_gunfire_ai "0.0"
+		// Maximum slowdown from gunfire for AI smoker (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_smoker_ai "0.1"
 
-		// Maximum slowdown from gunfire for SI Player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: 1%%-100%% slowdown)
-		l4d_si_slowdown_gunfire_player "0.0"
+		// Maximum slowdown from gunfire for AI boomer (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_boomer_ai "0.1"
 
-		// Maximum slowdown from gunfire for the AI Tank (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: 1%%-100%% slowdown)
+		// Maximum slowdown from gunfire for AI huhnter (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_hunter_ai "0.1"
+
+		// Maximum slowdown from gunfire for AI spitter (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_spitter_ai "0.1"
+
+		// Maximum slowdown from gunfire for AI jockey (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_jockey_ai "0.1"
+
+		// Maximum slowdown from gunfire for AI charger (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_charger_ai "0.1"
+
+		// Maximum slowdown from gunfire for AI tank (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
 		l4d_si_slowdown_gunfire_tank_ai "0.17"
 
-		// Maximum slowdown from gunfire for the Tank Player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: 1%%-100%% slowdown)
+		// Maximum slowdown from gunfire for smoker player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_smoker_player "0.0"
+
+		// Maximum slowdown from gunfire for boomer player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_boomer_player "0.0"
+
+		// Maximum slowdown from gunfire for hunter player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_hunter_player "0.0"
+
+		// Maximum slowdown from gunfire for spitter player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_spitter_player "0.0"
+
+		// Maximum slowdown from gunfire for jockey player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_jockey_player "0.0"
+
+		// Maximum slowdown from gunfire for charger player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
+		l4d_si_slowdown_gunfire_charger_player "0.0"
+
+		// Maximum slowdown from gunfire for tank player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
 		l4d_si_slowdown_gunfire_tank_player "0.1"
 
 		// Fire causes this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
 		l4d_si_slowdown_gunfire_fire_percent "0.0"
+
+		// Melee weapons causes this much slowdown * SI/Tank Maximum slowdown . (-1: Game default settings; 0.0: No slowdown)
+		l4d_si_slowdown_gunfire_melee_percent "0.5"
+
+		// Chainsaw causes this much slowdown * SI/Tank Maximum slowdown . (-1: Game default settings; 0.0: No slowdown)
+		l4d_si_slowdown_gunfire_chainsaw_percent "0.8"
 
 		// Pistols cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
 		l4d_si_slowdown_gunfire_pistol_percent "-1.0"
@@ -125,11 +161,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Infected
 		```php
-		// If AI Infected being shot by any weapon, game default slowdown settings
-		l4d_si_slowdown_gunfire_ai "-1.0"
+		// If AI smoker being shot by any weapon, game default slowdown settings
+		l4d_si_slowdown_gunfire_smoker_ai "-1.0"
 
-		// If Infected Player being shot by any weapon, no slowdown
-		l4d_si_slowdown_gunfire_player "0.0"
+		// If smoker Player being shot by any weapon, no slowdown
+		l4d_si_slowdown_gunfire_smoker_player "0.0"
 		```
 
 	* Tank crouch speed is 75
@@ -137,12 +173,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If Tank Player being shot by ak47 bullet when crouch, speed is 75 - (75 * 0.8 * 1.0 * 0.5) = 45
 		l4d_si_slowdown_gunfire_tank_player "0.8"
 		l4d_si_slowdown_gunfire_ak_percent "1.0"
-
 		l4d_si_slowdown_gunfire_crouch_multi "0.5"
 		```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2025-10-8)
+		* Add chainsaw and melee slowdown
+		* Update cvars
 
 	* v1.1h (2024-2-28)
 		* Control slowdown when crouch
@@ -182,20 +221,56 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/l4d_si_slowdown_gunfire.cfg
 		```php
-		// AI 特感的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: 1%%-100%% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_ai "0.0"
+		// AI smoker 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_smoker_ai "0.1"
 
-		// 真人特感玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: 1%%-100%% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_player "0.0"
+		// AI boomer 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_boomer_ai "0.1"
 
-		// AI Tank的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: 1%%-100%% 槍緩減少移動速度)
+		// AI hunter 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_hunter_ai "0.1"
+
+		// AI spitter 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_spitter_ai "0.1"
+
+		// AI jockey 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_jockey_ai "0.1"
+
+		// AI charger 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_charger_ai "0.1"
+
+		// AI tank 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
 		l4d_si_slowdown_gunfire_tank_ai "0.17"
 
-		// 真人Tank的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: 1%%-100%% 槍緩減少移動速度)
+		// 真人smoker玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_smoker_player "0.0"
+
+		// 真人boomer玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_boomer_player "0.0"
+
+		// 真人hunter玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_hunter_player "0.0"
+
+		// 真人spitter玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_spitter_player "0.0"
+
+		// 真人jockey玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_jockey_player "0.0"
+
+		// 真人charger玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
+		l4d_si_slowdown_gunfire_charger_player "0.0"
+
+		// 真人tank玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
 		l4d_si_slowdown_gunfire_tank_player "0.1"
 
 		// 火焰傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
 		l4d_si_slowdown_gunfire_fire_percent "0.0"
+
+		// 近戰武器造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
+		l4d_si_slowdown_gunfire_melee_percent "0.5"
+
+		// 電鋸造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
+		l4d_si_slowdown_gunfire_chainsaw_percent "0.8"
 
 		// 手槍傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
 		l4d_si_slowdown_gunfire_pistol_percent "-1.0"
@@ -268,18 +343,18 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		// AI Tank被AK47射中時，速度變成210 - (210 * 0.17 * 0.6) = 188
 		// 真人Tank被AK47射中時，速度變成210 - (210 * 0.1 * 0.6) = 197
-		l4d_si_slowdown_gunfire_ai "0.17"
-		l4d_si_slowdown_gunfire_player "0.1"
+		l4d_si_slowdown_gunfire_si_ai "0.17"
+		l4d_si_slowdown_gunfire_si_player "0.1"
 		l4d_si_slowdown_gunfire_ak_percent "0.6"
 		```
 
 	* 當特感射中
 		```php
-		// 當AI特感被任一槍械射中時，槍緩減速為遊戲預設
-		l4d_si_slowdown_gunfire_ai "-1.0"
+		// 當AI smoker被任一槍械射中時，槍緩減速為遊戲預設
+		l4d_si_slowdown_gunfire_smoker_ai "-1.0"
 
-		// 當真人特感被任一槍械射中時，沒有槍緩減速
-		l4d_si_slowdown_gunfire_player "0.0"
+		// 當真人 smoker被任一槍械射中時，沒有槍緩減速
+		l4d_si_slowdown_gunfire_smoker_player "0.0"
 		```
 
 	* Tank蹲下速度為75
@@ -287,7 +362,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 真人Tank蹲下狀態被AK47射中時，速度變成 75 - (75 * 0.8 * 1.0 * 0.5) = 45
 		l4d_si_slowdown_gunfire_tank_player "0.8"
 		l4d_si_slowdown_gunfire_ak_percent "1.0"
-
 		l4d_si_slowdown_gunfire_crouch_multi "0.5"
 		```
 </details>

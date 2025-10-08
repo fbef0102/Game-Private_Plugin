@@ -146,6 +146,12 @@
     * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家或幫玩家改名
 </details>
 
+* <details><summary><b>Entity | 實體物件</b></summary>
+
+  * [AcceptInput_crash_fix](/Source_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null/invalid activator in source engine game entities inputs
+    * 修復物件不存在或不合法或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方地圖)
+</details>
+
 * <details><summary><b>Fun | 娛樂</b></summary>
 
   * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
@@ -285,8 +291,6 @@
 
 * <details><summary><b>Entity | 實體物件</b></summary>
 
-  * [AcceptInput_crash_fix](/L4D_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null activator in L4D1/L4D2 entities Inputs
-    * 修復物件不存在或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方圖)
   * [grave_break](/L4D_插件/Entity_實體物件/grave_break): say !breakgrave to break all graves
     * 打破地圖上所有墓碑
   * [remove_invisible_wall](/L4D_插件/Entity_實體物件/remove_invisible_wall): Remove all invisible wall on the map
@@ -755,6 +759,8 @@
     * 減少啟動電鋸的時間，能快速使用電鋸
   * [l4d_explosive_incendiary_dmg](/L4D_插件/Weapons_武器/l4d_explosive_incendiary_dmg): Modify explosive and incendiary bullet dmg
     * 修改高爆彈、火焰子彈對隊友與特感的傷害
+  * [l4d2_chainsaw_knockback](/L4D_插件/Weapons_武器/l4d2_chainsaw_knockback): Make chainsaw has knockback power when shove
+    * 電鋸右鍵可大範圍擊退殭屍與特感
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
@@ -814,7 +820,7 @@
   * [css_drop_on_death](/CSS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
     * 死亡時掉落所有武器、刀、手榴彈與防彈背心
   * [css_weapon_limit](/CSS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
-    * 限制反恐小組與恐怖份子隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
+    * 限制CT與T各自隊伍內，每一種武器可以拿取的數量，超過就不能撿起也不能購買
 </details>
 
 ###### **NMRIH Plugin List | 地獄已滿插件 列表**
