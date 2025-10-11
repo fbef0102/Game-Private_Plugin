@@ -38,7 +38,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg\sourcemod\l4d2_zombie_transform.cfg
+	* cfg/sourcemod/l4d2_zombie_transform.cfg
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_zombie_transform_enable "1"
@@ -195,7 +195,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d2_zombie_transform.inc](scripting\include\l4d2_zombie_transform.inc)
+	* [l4d2_zombie_transform.inc](scripting/include/l4d2_zombie_transform.inc)
 		```php
 		library name: l4d2_zombie_transform
 		```
@@ -246,7 +246,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg\sourcemod\l4d2_zombie_transform.cfg
+	* cfg/sourcemod/l4d2_zombie_transform.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d2_zombie_transform_enable "1"

@@ -56,6 +56,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// (MySQL & SQLite supported)
 		sm_shop_database ""
 
+		// If new player join the sever, give credit (0=off)
+		sm_shop_new_player_credit "100"
+
 		// Maximum money limit. (Money saved when map change/leaving server)
 		sm_shop_max_money_limit "32000"
 
@@ -336,6 +339,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.8 (2025-10-12)
+		* Update data, translation, cvars
+
 	* v5.7 (2025-7-23)
 	* v5.6 (2024-12-12)
 	* v5.5 (2024-12-7)
@@ -406,6 +412,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 留白 = 不使用資料庫
 		// (支援 MySQL & SQLite)
 		sm_shop_database ""
+
+		// 新玩家的初始金額 (0=不給)
+		sm_shop_new_player_credit "100"
 
 		// 最大能儲存的金額
 		sm_shop_max_money_limit "32000"

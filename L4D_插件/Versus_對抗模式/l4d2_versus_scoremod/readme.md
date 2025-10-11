@@ -97,7 +97,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d2_versus_scoremod.inc](scripting\include\l4d2_versus_scoremod.inc)
+	* [l4d2_versus_scoremod.inc](scripting/include/l4d2_versus_scoremod.inc)
 		```php
 		library name: l4d2_versus_scoremod
 		```

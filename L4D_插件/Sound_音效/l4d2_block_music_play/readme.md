@@ -10,6 +10,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	L4D2
 	```
 
+* [Video | 影片展示](https://youtu.be/pAFlwoM-L4Q)
+
 * <details><summary>How does it work?</summary>
 
 	* Block specific music or song from playing to clients, Such as

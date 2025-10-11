@@ -59,7 +59,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d_tracerock.inc](scripting\include\l4d_tracerock.inc)
+	* [l4d_tracerock.inc](scripting/include/l4d_tracerock.inc)
 		```php
 		library name: l4d_tracerock
 		```

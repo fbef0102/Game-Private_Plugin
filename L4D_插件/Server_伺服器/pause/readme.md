@@ -106,7 +106,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [pause.inc](scripting\include\pause.inc)
+	* [pause.inc](scripting/include/pause.inc)
 		```php
 		library name: pause
 		```

@@ -152,7 +152,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d_zcs.inc](scripting\include\l4d_zcs.inc)
+	* [l4d_zcs.inc](scripting/include/l4d_zcs.inc)
 		```php
 		library name: l4d_zcs
 		```

@@ -511,6 +511,8 @@
 
   * [l4d2_block_music_play](/L4D_插件/Sound_音效/l4d2_block_music_play): Block specific music or song from playing to clients
     * 阻擋背景音樂或BGM播放給玩家聽，譬如: Tank BGM, 屍潮音樂, 被特感控的音樂, 倒地或掛邊時音樂
+  * [l4d_tank_restore_burn_sound](/L4D_插件/Sound_音效/l4d_tank_restore_burn_sound): Restore Tank burn voice sounds that exist in l4d1 game and not overridden by pain sounds
+    * 恢復Tank燃燒吼叫的語音，這是L4D1早年的特色
 </details>
 
 * <details><summary><b>Special Infected | 特感</b></summary>
@@ -850,6 +852,7 @@
 # 自我簡介
 * 👩‍💻台灣人，資訊工程學系，略懂電腦程式碼
 * 🕹️[Steam暱稱"哈利"](https://steamcommunity.com/profiles/76561198026784913)，遊玩惡靈勢力與CS長達10年以上
+* 🔥[B站](https://space.bilibili.com/3493122166229024): 分享自己製作的遊戲插件、地圖、模組
 * 🔥[Youtube頻道](https://www.youtube.com/c/HarryPotterxToy)：分享L4D1與L4D2遊玩影片，偶爾會拍其他遊戲或短影片
 * 🔥[Youtube副頻道](https://www.youtube.com/@HarryPotter_TW888)：分享自己製作的遊戲插件、地圖、模組，
 偶爾會利用遊戲拍些迷因影片
@@ -903,6 +906,7 @@
 # Introduce MySelf
 * 👩‍💻Taiwanese, majored in in Department of Computer Science & Engineering
 * 🕹️[Steam "Harry"](https://steamcommunity.com/profiles/76561198026784913), have played l4d1/2 and cs for over 10 years 
+* 🔥[bilibili](https://space.bilibili.com/3493122166229024): Upload videos about plugins
 * 🔥[Youtube Channel](https://www.youtube.com/@HarryPotterxToy) - Play and record l4d1 versus and l4d2 custom map on Youtube
 * 🔥[2nd Youtube Channel](https://www.youtube.com/@HarryPotter_TW888) - Plugins, maps, and mods
 * 📜[Alliedmod](https://forums.alliedmods.net/member.php?u=281812) - Six years of experience in Sourcepawn code

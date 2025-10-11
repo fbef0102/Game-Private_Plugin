@@ -108,7 +108,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-    * [l4d2_melee_durability.inc](scripting\include\l4d2_melee_durability.inc)
+    * [l4d2_melee_durability.inc](scripting/include/l4d2_melee_durability.inc)
         ```php
         library name: l4d2_melee_durability
         ```

@@ -34,7 +34,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-    * cfg\sourcemod\spectator_block_vote.cfg
+    * cfg/sourcemod/spectator_block_vote.cfg
         ```php
         // 0=Plugin off, 1=Plugin on.
         spectator_block_vote_enable "1"
@@ -93,7 +93,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-    * cfg\sourcemod\spectator_block_vote.cfg
+    * cfg/sourcemod/spectator_block_vote.cfg
         ```php
         // 0=關閉插件, 1=啟動插件
         spectator_block_vote_enable "1"

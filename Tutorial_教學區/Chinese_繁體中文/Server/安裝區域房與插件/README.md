@@ -192,7 +192,7 @@
 * <details><summary>插件自帶的指令</summary>
 
    * 有自動產生相對應的.cfg文件
-      1. cfg\sourcemod\ 打開對應的.cfg文件－＞修改指令－＞儲存
+      1. cfg/sourcemod/ 打開對應的.cfg文件－＞修改指令－＞儲存
       2. 切換地圖或重啟遊戲<br/>
 
    * 沒有自動產生相對應的.cfg文件

@@ -130,7 +130,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-	* [l4d_h_csm.inc](scripting\include\l4d_h_csm.inc)
+	* [l4d_h_csm.inc](scripting/include/l4d_h_csm.inc)
 		```php
 		library name: l4d_h_csm
 		```

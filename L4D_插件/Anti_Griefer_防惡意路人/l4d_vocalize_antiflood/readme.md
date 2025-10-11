@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg\sourcemod\l4d_vocalize_antiflood.cfg
+	* cfg/sourcemod/l4d_vocalize_antiflood.cfg
 		```php
 		// Time interval to decrease a player token. (second)
 		l4d_vocalize_antiflood_player_token_time "10"
@@ -99,7 +99,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg\sourcemod\l4d_vocalize_antiflood.cfg
+	* cfg/sourcemod/l4d_vocalize_antiflood.cfg
 		```php
 		// 每10秒降低一個 玩家token
 		l4d_vocalize_antiflood_player_token_time "10"

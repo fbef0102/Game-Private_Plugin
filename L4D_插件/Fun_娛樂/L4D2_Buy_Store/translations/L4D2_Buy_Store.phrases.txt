@@ -1760,6 +1760,12 @@
 		"en"	"God Mode timer is out"
 		"zho"	"無敵模式 狀態已結束"
 		"chi"	"无限模式 状态已结束"
+	}	
+	"Map Disable"
+	{
+		"en"	"Shop disabled in this map"
+		"zho"	"此地圖關閉商店"
+		"chi"	"此地图关闭商店"
 	}
 }
 

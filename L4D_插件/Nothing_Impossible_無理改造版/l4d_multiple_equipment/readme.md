@@ -58,11 +58,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d2_melee_durability](/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-		* 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+	1. [l4d2_melee_durability](/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Slot 2 melee equipment has durability
+		* 備用的近戰武器也有耐久值
 
-	2. [fortnite_dances_emotes_l4d](/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Emotes and Dance in L4D1/2
-		* 搞笑動作模組: 表情與舞蹈
+	2. [fortnite_dances_emotes_l4d](/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Hide your equipments when dancing
+		* 跳舞時不顯示身上的額外裝備
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -153,7 +153,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-    * [l4d_multiple_equipment.inc](scripting\include\l4d_multiple_equipment.inc)
+    * [l4d_multiple_equipment.inc](scripting/include/l4d_multiple_equipment.inc)
         ```php
         library name: l4d_multiple_equipment
         ```
@@ -173,6 +173,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.5h (2025-10-12)
+        * Remake code again, oOptimize code and improve performance
+        * Hide player's item and restore item instead of deleting and creating entities
 
     * v2.4h (2025-9-10)
         * Update cvars

@@ -26,7 +26,7 @@ public void __pl_l4d_multiple_equipment_SetNTVOptional()
  * 
  * @param client	Client (don't input fake client)
  * @param slot		Weapons Slot (0~4)	
- * @param str       String to store weapon classname.
+ * @param str       String to store weapon classname or melee classname.
  * @param size      size of String to store.
  * 
  * @return		    True if suceed, false if not

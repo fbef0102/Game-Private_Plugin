@@ -104,7 +104,7 @@ AI Tank爬行障礙物速度與移動速度逐漸變快直到打到倖存者為�
 
 	* cfg/sourcemod/l4d_tank_speed_boost.cfg
 		```php
-		// 每過一段時間增加AI Tank的移動與爬行障礙物速度 (0=關閉此插件)
+		// 時間間隔多少秒增加一次，AI Tank的移動與爬行障礙物速度 (0=關閉此插件)
 		l4d_tank_speed_boost_interval "2.5"
 
 		// 為1時，每過一段時間增加AI Tank的移動速度

@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar</summary>
 
-	* cfg\sourcemod\l4d2_map_nuke.cfg
+	* cfg/sourcemod/l4d2_map_nuke.cfg
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d2_map_nuke_enable "1.0"
@@ -112,7 +112,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg\sourcemod\l4d2_map_nuke.cfg
+	* cfg/sourcemod/l4d2_map_nuke.cfg
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d2_map_nuke_enable "1.0"

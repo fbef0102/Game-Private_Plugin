@@ -87,7 +87,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-    * [l4d_death_weapon_lock.inc](scripting\include\l4d_death_weapon_lock.inc)
+    * [l4d_death_weapon_lock.inc](scripting/include/l4d_death_weapon_lock.inc)
         ```php
         library name: l4d_death_weapon_lock
         ```
