@@ -6,6 +6,7 @@
 		"zho"	"這張地圖不適用"
 		"chi"	"这张地图不适用"
 		"es"	"¡¡El mapa actual no es un final estándar!!"
+		"en"	"Данная карта не стандартный финал!!"
 	}
 	
 	"Rescue Arrive None"
@@ -14,6 +15,7 @@
 		"zho"	"[{olive}Rescue Arrive{default}] 剩餘時間: {green}無"
 		"chi"	"[{olive}Rescue Arrive{default}] 剩余时间: {green}无"
 		"es"	"[{olive}Rescate{default}] Tiempo restante: {green}Ninguno"
+		"ru"	"[{olive}Прибытие спасения{default}] Осталось времени: {green}Нет"
 	}	
 	
 	"Rescue Arrive Left"
@@ -32,6 +34,7 @@
 		"zho"	"[{olive}Rescue Arrive{default}] 剩餘時間暫停: {green}{1}:{2}"
 		"chi"	"[{olive}Rescue Arrive{default}] 剩余时间暂停: {green}{1}:{2}"
 		"es"	"[{olive}Rescate{default}] Tiempo pausado: {green}{1}:{2}"
+		"ru"	"[{olive}Прибытие спасения{default}] Время остановлено: {green}{1}:{2}"
 	}
 
 	"Rescue Arrive in seconds (C)"
@@ -41,6 +44,7 @@
 		"zho"	"[{olive}Rescue Arrive{default}] 救援將於 {green}{1}:{2} 秒後抵達 !!!"
 		"chi"	"[{olive}Rescue Arrive{default}] 救援将于 {green}{1}:{2} 秒后抵达 !!!"
 		"es"	"[{olive}Rescate{default}] Llegada en {green}{1}:{2} segundos"
+		"ru"	"[{olive}Прибытие спасения{default}] Спасение прибудет через {green}{1}:{2} секунд(-ы)"
 	}	
 	
 	"Rescue Arrive in seconds"
@@ -50,6 +54,7 @@
 		"zho"	"救援將於 {1}:{2} 後抵達 !!!"
 		"chi"	"救援将于 {1}:{2} 后抵达 !!!"
 		"es"	"¡¡El rescate llega en {1}:{2} segundos!!"
+		"ru"	"Спасение прибудет через {1}:{2} секунд(-ы)"
 	}	
 	
 	"Rescue Vehicle Arrive (C)"
@@ -58,6 +63,7 @@
 		"zho"			"[{olive}Rescue Arrive{default}] {green}救援載具已抵達! GO! GO! GO!"
 		"chi"			"[{olive}Rescue Arrive{default}] {green}救援载具已抵达! GO! GO! GO!"
 		"es"			"[{olive}Rescate{default}] {green}¡Llegó el vehículo de rescate! ¡¡VAMOS!!"
+		"ru"	        "[{olive}Прибытие спасения{default}] Спасение прибыло!Сваливаем отсюда!"
 	}
 	
 	"Rescue Vehicle Arrive"
@@ -66,6 +72,7 @@
 		"zho"			"救援載具已抵達! GO! GO! GO!"
 		"chi"			"救援载具已抵达! GO! GO! GO!"
 		"es"			"¡Llegó el vehículo de rescate! ¡¡VAMOS!!"
+		"ru"	        "Спасение прибыло!Сваливаем отсюда!"
 	}
 
 	"Rescue Vehicle Tank (C)"
@@ -73,6 +80,7 @@
 		"en"			"The rescue vehicle cannot arrive with tanks around!"
 		"zho"			"Tank存活! 救援無法抵達"
 		"chi"			"Tank存活! 救援无法抵达"
+		"ru"	        "Спасение не прибудет,пока рядом Танки"
 	}
 
 	"Rescue Vehicle Tank"
@@ -80,35 +88,42 @@
 		"en"			"The rescue vehicle cannot arrive with tanks around!"
 		"zho"			"Tank存活! 救援無法抵達"
 		"chi"			"Tank存活! 救援无法抵达"
+		"ru"	        "Спасение не прибудет,пока рядом Танки"
 	}
 	
 	"Rescue Arrive Menu"
 	{
 		"en"			"Rescue Arrive Menu"
+		"ru"	        "Меню прибытия спасения"
 	}
 
 	"Display: Off"
 	{
 		"en"			"Display: Off"
+		"ru"	        "Показ: Отключено"
 	}
 
 	"Display: Center text"
 	{
 		"en"			"Display: Center text"
+		"ru"	        "Показ: Текст в центре"
 	}
 
 	"Display: Hint"
 	{
 		"en"			 "Display: Hint"
+		"ru"	         "Показ: Окно подсказки"
 	}
 
 	"Display: Menu"
 	{
 		"en"			"Display: Menu"
+		"ru"	        "Показ: Меню"
 	}
 
 	"Display: Chat"
 	{
 		"en"			"Display: Chat"
+		"ru"	        "Показ: Чат"
 	}
 }

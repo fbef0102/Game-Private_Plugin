@@ -6,7 +6,7 @@
 
 
 /**
- * Returns the melee durability
+ * Get the melee durability
  *
  * @param entity    	Entity index
  * @return          	Melee durability 
@@ -15,7 +15,7 @@
 native int GetMeleeDurability(int entity);
 
 /**
- * Returns the melee durability
+ * Set the melee durability
  *
  * @param entity    	Entity index to set melee durability
  * @param durability    Melee durability to Set

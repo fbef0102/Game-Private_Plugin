@@ -439,6 +439,8 @@
     * 輸入指令開啟武器自瞄系統，合法自動瞄準殭屍射擊
   * [l4d2_melee_shock](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_melee_shock): Press shift and swing melee to active melee shock effect, slash the C.I./S.I./witch around you
     * 近戰武器可以隔空砍周圍的殭屍與特感
+  * [l4d_attachable_grenade_launcher](/L4D_插件/Nothing_Impossible_無理改造版/l4d_attachable_grenade_launcher): Gun weapons now have under-barrel grenade launcher attached, cost ammot to shoot grenade
+    * 槍械擁有附加式榴彈發射器，消耗彈藥發射榴彈
 </details>
 
 * <details><summary><b>Player | 玩家</b></summary>

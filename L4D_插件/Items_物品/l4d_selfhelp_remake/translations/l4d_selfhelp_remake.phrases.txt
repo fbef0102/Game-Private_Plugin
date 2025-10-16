@@ -26,6 +26,7 @@
 		"en"	"You can self help"
 		"zho"	"你可以自救"
 		"chi"	"你可以自救"
+		"ru"	"Вы можете помочь себе"
 	}
 
 	"You can self help (Key)"
@@ -33,6 +34,7 @@
 		"en"	"You can self help, Press X Key"
 		"zho"	"你可以自救, 輸入X按鍵"
 		"chi"	"你可以自救, 输入X按键"
+		"ru"	"Вы можете помочь себе задержите CTRL"
 	}
 
 	"You are helping youself"
@@ -40,6 +42,7 @@
 		"en"	"Helping youself..."
 		"zho"	"正在自救..."
 		"chi"	"正在自救..."
+		"ru"	"Оказание самопомощи..."
 	}
 	
 	"You are helping other"
@@ -48,6 +51,7 @@
 		"en"	"You are helping {1}..."
 		"zho"	"正在互救{1}..."
 		"chi"	"正在互救{1}..."
+		"ru"	"Вы помогаете {1}..."
 	}
 	
 	"helping you"
@@ -56,6 +60,7 @@
 		"en"	"{1} is helping you"
 		"zho"	"{1} 正在救你"
 		"chi"	"{1} 正在救你"
+		"ru"	"{1} помогает вам встать"
 	}
 
 	"Reason"
@@ -64,6 +69,7 @@
 		"en"	"{blue}{1}{default} used self help to kill you"
 		"zho"	"{blue}{1}{default} 使用醫療物資自救, 將你處死"
 		"chi"	"{blue}{1}{default} 使用医疗物资自救, 将你处死"
+		"ru"	"{blue}{1}{default} использовал(-а) самопомощь,чтобы покарать вас"
 	}
 	
 	"Helping other successfully"
@@ -72,5 +78,6 @@
 		"en"	"You helped {olive}{1}{default} get up"
 		"zho"	"倒地互救 {olive}{1}{default} 成功起身"
 		"chi"	"倒地互救 {olive}{1}{default} 成功起身"
+		"ru"	"Вы помогли {olive}{1}{default} встать"
 	}
 }

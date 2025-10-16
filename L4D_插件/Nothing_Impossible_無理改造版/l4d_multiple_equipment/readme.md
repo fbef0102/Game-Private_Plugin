@@ -168,8 +168,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
     1. [l4d_weapon_limits](/L4D_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
         * 限制每個武器可以拿取的數量，超過就不能拿取
-    2. [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-        * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -177,6 +175,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * v2.5h (2025-10-12)
         * Remake code again, oOptimize code and improve performance
         * Hide player's item and restore item instead of deleting and creating entities
+        * Update API
 
     * v2.4h (2025-9-10)
         * Update cvars

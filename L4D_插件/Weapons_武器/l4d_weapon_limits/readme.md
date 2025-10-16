@@ -89,6 +89,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
 
+* <details><summary>Support | 支援插件</summary>
+
+    1. [l4d_multiple_equipment](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Restrict weapons and melees when carry second equipment (No conflict)
+        * 每個人攜帶的第二把武器或物品也會被限制 (與此插件不衝突)
+</details>
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_weapon_limits.cfg
@@ -110,12 +119,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 	translations/l4d_weapon_limits.phrases.txt
 	```
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-    1. [l4d_multiple_equipment](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot (No conflict)
-        > 每個人可以攜帶兩種武器或物品 (與此插件不衝突)
-</details>
 
 * <details><summary>Other Version | 其他版本</summary>
 

@@ -154,6 +154,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9h (2025-10-16)
+		* You can add more custom dance model in data file
+		* Change dance model, author: nearlycivilized
+
 	* v1.8h (2025-6-16)
 		* Fixed cvar not working
 		* add more native and api
@@ -209,6 +213,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Original & Credit
 		* [Original plugin by Kodua, Franc1sco franug, TheBO$$, Foxhound](https://forums.alliedmods.net/showpost.php?p=2712458&postcount=163)
+		* [Dance model by nearlycivilized](https://forums.alliedmods.net/showpost.php?p=2823676&postcount=261)
 </details>
 
 - - - -

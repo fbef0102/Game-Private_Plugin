@@ -22,13 +22,33 @@ public void __pl_l4d_multiple_equipment_SetNTVOptional()
 #endif
 
 /**
- * Get client's backup weapon classname or melee classname in a player's slot.
+ * Get client's backup equipment in a player's slot.
  * 
- * @param client	Client (don't input fake client)
- * @param slot		Weapons Slot (0~4)	
- * @param str       String to store weapon classname or melee classname.
- * @param size      size of String to store.
+ * @param client				Client (don't input fake client)
+ * @param slot					Weapon Slot (0~4)	
+ * @param strClassName   		String to store weapon classname.
+ * @param strClassSize      	Size of string to store weapon classname.
+ * @param strMeleeName   		String to store melee classname if weapon is melee, empty string if weapon is not melee
+ * @param strMeleeSize      	Size of String to store melee classname.
  * 
- * @return		    True if suceed, false if not
+ * @return		    			The entity index of weapon, 0 if not exist or invalid
  */
-native bool Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] str, int size);
+native int Multi_EQ_GetPlayerSlot_BackUpWeapon(int client, int slot, char[] strClassName, int strClassSize, char[] strMeleeName, int strMeleeSize);
+
+/**
+* @brief Called when save second equipment on map transition (Post)
+*
+* @param client    the client who made it to saferoom.
+*
+* @noreturn
+*/
+forward void Multi_EQ_OnEquipmentSave(int client);
+
+/**
+* @brief Called when restore and give second equipment to a player (Post)
+*
+* @param client    the client who is given to.
+*
+* @noreturn
+*/
+forward void Multi_EQ_OnEquipmentRestore(int client);

@@ -1,8 +1,8 @@
-// English by HarryPotter
+// English by HarryPotter (corrected by The Crawler)
 // Traditional Chinese by HarryPotter
 // Simplified Chinese by Target
 // Spanish by gamer_kanelita
-// Russian by maclarens
+// Russian by The Crawler
 // Portuguese by Mi.Cura
 
 /*
@@ -73,7 +73,7 @@
 		"zho"	"醫療與投擲物品"
 		"chi"	"医疗与投掷物品"
 		"es"	"Salud y objetos arrojadizos"
-		"ru"	"Медик и Метательное"
+		"ru"	"Медицина и Метательное"
 	}
 	"othersMenu"
 	{
@@ -91,7 +91,7 @@
 		"zho"	"特殊商品"
 		"chi"	"特殊商品"
 		"es"	"Compras especiales"
-		"ru"	"Специальное"
+		"ru"	"Особое"
 	}
 	"Weapon Menu Title"
 	{
@@ -159,7 +159,7 @@
 		"zho"	"死者無法購物!!"
 		"chi"	"死者无法购物!!"
 		"es"	"¡Solo el sobreviviente puede comprar artículos!"
-		"ru"	"Сначало купите !b respawn "
+		"ru"	"Сначала купите !b respawn "
 	}
 	"No negative number"
 	{
@@ -168,7 +168,7 @@
 		"zho"	"[TS] 無法負數錢捐出去，"
 		"chi"	"[TS] 无法捐款负数钱!"
 		"es"	"[TS] ¡Ningún número negativo!"
-		"ru"	"[TS] Не отрицательное число!"
+		"ru"	"[TS] Неотрицательное число!"
 	}
 	"Not enough money to donate"
 	{
@@ -177,7 +177,7 @@
 		"zho"	"沒有足夠的錢捐款!"
 		"chi"	"没有足够的钱捐款!"
 		"es"	"¡No tienes suficientes puntos para donar!"
-		"ru"	"Не хватает кредитов"
+		"ru"	"Не хватает кредитов для передачи"
 	}
 	"Only donate to survivor"
 	{
@@ -249,12 +249,12 @@
 	"You give player money"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"	"[{olive}TS{default}] Give {olive}{1}{default} {green}+{2}{default} credits."
+		"en"	"[{olive}TS{default}] Given {olive}{1}{default} {green}+{2}{default} credits."
 		"pt"	"[{olive}TS{default}] Dar {olive}{1}{default} {green}+{2}{default} créditos."
 		"zho"	"[{olive}TS{default}] 給予 {olive}{1}{default} 金錢 {green}+{2}{default} 元"
 		"chi"	"[{olive}TS{default}] 给予 {olive}{1}{default} 金钱 {green}+{2}{default} 元"
 		"es"	"[{olive}TS{default}] Dar {olive}{1}{default} {green}+{2}{default} puntos."
-		"ru"	"[{olive}TS{default}] Выдано {olive}{1} {green}+ {2} {default}кредитов"
+		"ru"	"[{olive}TS{default}] Выдано {olive}{1} {green}+{2}{default}кредитов"
 	}
 	"Adm gives your money"
 	{
@@ -294,7 +294,7 @@
 		"zho"	"治療隊友 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"治疗队友 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos curando a un compañero de equipo. (Escribe !buy para comprar)"
-		"ru"	"+{green}{1} {default}кредитов за лечение напарника."
+		"ru"	"Вы получаете {1}кредитов за лечение напарника."
 	}
 	"Revive Teammate"
 	{
@@ -304,7 +304,7 @@
 		"zho"	"拯救隊友復活 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"拯救队友复活 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos reviviendo compañero. (Escribe !buy para comprar)"
-		"ru"	"+{green}{1} {default}кредитов за оживление."
+		"ru"	"Вы получаете {green}{1} {default}кредитов за оживление."
 	}
 	"Help Teammate"
 	{
@@ -314,7 +314,7 @@
 		"zho"	"拉起隊友復活 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"拉起队友复活 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos ayudando a su compañero de equipo. (Escribe !buy para comprar)"
-		"ru"	"+{green}{1} {default}кредитов за помощь."
+		"ru"	"Вы получаете {green}{1} {default}кредитов за помощь."
 	}
 	"Incap Survivor"
 	{
@@ -324,7 +324,7 @@
 		"zho"	"擊倒倖存者 獲得 {1} 元."
 		"chi"	"制服生还者 获得 {1} 元."
 		"es"	"Obtienes {1} puntos al incapacitar a un sobreviviente."
-		"ru"	"+{green}{1} {default}кредитов за подъём"
+		"ru"	"Вы получаете {green}{1} {default}кредитов за подъём"
 	}
 	"Kill Survivor"
 	{
@@ -334,7 +334,7 @@
 		"zho"	"殺死倖存者 獲得 {1} 元."
 		"chi"	"杀死生还者 获得 {1} 元."
 		"es"	"Obtienes {1} matando a un sobreviviente."
-		"ru"	"+{green}{1} {default}кредитов за убийство выжившего"
+		"ru"	"Вы получаете {green}{1} {default}кредитов за убийство выжившего"
 	}
 	"Kill Witch"
 	{
@@ -344,7 +344,7 @@
 		"zho"	"殺死 Witch 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"杀死 Witch 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos por matar a la witch. (Escribe !buy para comprar)"
-		"ru"	"+{green}{1} {default}кредитов за убийство ведьмы"
+		"ru"	"Вы получаете {green}{1} {default}кредитов за убийство ведьмы"
 	}
 	"Kill Infected"
 	{
@@ -354,17 +354,17 @@
 		"zho"	"殺死特感獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"杀死特感获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos matando infectados. (Escribe !buy para comprar)"
-		"ru"	"+{green}{1} {default}кредитов за убийство босса."
+		"ru"	"Вы получаете {green}{1} {default}кредитов за убийство босса."
 	}
 	"Not enough money"
 	{
 		"#format"		"{1:d},{2:d}"
-		"en"	"[{olive}TS{default}] Only {red}{1}{default} credits left, can't purchase item {green}{2}{default}."
+		"en"	"[{olive}TS{default}] Your balance {red}{1}{default} credits, when item cost {green}{2}{default}."
 		"pt"	"[{olive}TS{default}] Restam apenas {red}{1}{default} créditos, você não pode comprar o item {green}{2}{default}."
 		"zho"	"[{olive}TS{default}] 剩下 {red}{1}{default} 元不足以支付金額 {green}{2}{default}"
 		"chi"	"[{olive}TS{default}] 剩下 {red}{1}{default} 元不足以支付金额 {green}{2}{default}"
 		"es"	"[{olive}TS{default}] Solo quedan {red}{1}{default} puntos, no se puede comprar el artículo {green}{2}{default}."
-		"ru"	"[{olive}TS{default}] Твой баланс {red}{1}{default} кредитов , а вещь стоит {green}{2}{default}."
+		"ru"	"[{olive}TS{default}] Твой баланс {red}{1}{default} кредитов, когда вещь стоит {green}{2}{default}."
 	}
 	"Left Money"
 	{
@@ -423,12 +423,12 @@
 	}
 	"Can't buy when handing from ledge"
 	{
-		"en"	"Can't purchase this item when handing from ledge"
+		"en"	"Can't purchase this item when hanging from ledge"
 		"pt"	"Você não pode comprar quando estiver preso na borda"
 		"zho"	"懸掛時無法購買此商品!"
 		"chi"	"处于挂边状态时无法购买此商品!"
 		"es"	"No se puede comprar este artículo cuando se cuelga de la repisa"
-		"ru"	"Нельзя покупать когда тебя подымают"
+		"ru"	"Нельзя покупать когда тебя свисаешь с уступа"
 	}
 	"Buy"
 	{
@@ -466,7 +466,7 @@
 		"zho"	"你已經達到跳躍次數上限"
 		"chi"	"你已经达到跳跃次数上限"
 		"es"	"Has alcanzado el límite de salto."
-		"ru"	"Достигнут лимит!"
+		"ru"	"Достигнут лимит прыжков!"
 	}
 	"Unit"
 	{
@@ -502,7 +502,7 @@
 		"zho"	"木製霰彈槍"
 		"chi"	"木制霰弹枪"
 		"es"	"Escopeta corredera"
-		"ru"	"Ружьё"
+		"ru"	"Помповый дробовик"
 	}
 	"Chrome Shotgun"
 	{
@@ -511,7 +511,7 @@
 		"zho"	"鐵製霰彈槍"
 		"chi"	"铁制霰弹枪"
 		"es"	"Escopeta cromada"
-		"ru"	"Хромовый дробовик"
+		"ru"	"Хромированный дробовик"
 	}
 	"Smg"
 	{
@@ -520,7 +520,7 @@
 		"zho"	"機槍"
 		"chi"	"机枪"
 		"es"	"SMG"
-		"ru"	"Узи"
+		"ru"	"UZI"
 	}
 	"Silenced Smg"
 	{
@@ -529,7 +529,7 @@
 		"zho"	"消音機槍"
 		"chi"	"消音机枪"
 		"es"	"SMG silenciada"
-		"ru"	"Mак10"
+		"ru"	"MAC-10"
 	}
 	"MP5"
 	{
@@ -538,12 +538,12 @@
 		"zho"	"MP5衝鋒槍"
 		"chi"	"MP5冲锋枪"
 		"es"	"MP5"
-		"ru"	"МП5"
+		"ru"	"MP5"
 	}
 	"Rifle"
 	{
-		"en"	"Rifle"
-		"pt"	"Rifle"
+		"en"	"Rifle M16"
+		"pt"	"Rifle M16"
 		"zho"	"步槍"
 		"chi"	"步枪"
 		"es"	"Rifle M16"
@@ -551,12 +551,12 @@
 	}
 	"AK47"
 	{
-		"en"	"AK47"
-		"pt"	"AK47"
-		"zho"	"AK47"
-		"chi"	"AK47"
-		"es"	"Rifle AK47"
-		"ru"	"AK47"
+		"en"	"AK-47"
+		"pt"	"AK-47"
+		"zho"	"AK-47"
+		"chi"	"AK-47"
+		"es"	"Rifle AK-47"
+		"ru"	"AK-47"
 	}
 	"Desert Rifle"
 	{
@@ -565,7 +565,7 @@
 		"zho"	"三連發步槍"
 		"chi"	"三连发步枪"
 		"es"	"Rifle SCAR"
-		"ru"	"Скар"
+		"ru"	"SCAR"
 	}
 	"SG552"
 	{
@@ -574,7 +574,7 @@
 		"zho"	"SG552步槍"
 		"chi"	"SG552步枪"
 		"es"	"Rifle CSS SG552"
-		"ru"	"СГ552"
+		"ru"	"SG552"
 	}
 	"Spas Shotgun"
 	{
@@ -583,7 +583,7 @@
 		"zho"	"戰鬥霰彈槍"
 		"chi"	"战斗霰弹枪"
 		"es"	"Escopeta de Combate"
-		"ru"	"Спас 12"
+		"ru"	"SPAS-12"
 	}
 	"Autoshotgun"
 	{
@@ -601,7 +601,7 @@
 		"zho"	"獵槍"
 		"chi"	"猎枪"
 		"es"	"Rifle de caza"
-		"ru"	"Охотничья снайперка"
+		"ru"	"Охотничья Винтовка"
 	}
 	"Military Sniper"
 	{
@@ -610,7 +610,7 @@
 		"zho"	"軍用狙擊槍"
 		"chi"	"军用狙击枪"
 		"es"	"Rifle militar"
-		"ru"	"Военная снайперка"
+		"ru"	"Военная Винтовка"
 	}
 	"SCOUT"
 	{
@@ -619,7 +619,7 @@
 		"zho"	"SCOUT狙擊槍"
 		"chi"	"SCOUT狙击枪"
 		"es"	"SCOUT"
-		"ru"	"Муха"
+		"ru"	"Scout"
 	}
 	"AWP"
 	{
@@ -628,7 +628,7 @@
 		"zho"	"AWP"
 		"chi"	"AWP"
 		"es"	"AWP"
-		"ru"	"Авп"
+		"ru"	"AWP"
 	}
 	"Grenade Launcher"
 	{
@@ -646,7 +646,7 @@
 		"zho"	"殲滅者 M60"
 		"chi"	"毁灭者 M60"
 		"es"	"Rifle M60"
-		"ru"	"M60 Пулик"
+		"ru"	"M60"
 	}
 	"chainsaw"
 	{
@@ -736,7 +736,7 @@
 		"zho"	"警棍"
 		"chi"	"警棍"
 		"es"	"Porra"
-		"ru"	"Резиновая дубинка"
+		"ru"	"Полицейская дубинка"
 	}
 	"golfclub"
 	{
@@ -790,7 +790,7 @@
 		"zho"	"電擊器"
 		"chi"	"电击器"
 		"es"	"Desfibrilador"
-		"ru"	"Дефиб"
+		"ru"	"Дефибриллятор"
 	}
 	"First Aid Kit"
 	{
@@ -808,7 +808,7 @@
 		"zho"	"止痛藥丸"
 		"chi"	"止痛药丸"
 		"es"	"Pildoras"
-		"ru"	"Болеутоляющие таблетки"
+		"ru"	"Таблетки"
 	}
 	"Adrenaline"
 	{
@@ -817,8 +817,7 @@
 		"zho"	"腎上腺素"
 		"chi"	"肾上腺素"
 		"es"	"Adrenalina"
-		"ru"	"Шприц адреналина"
-	}
+		"ru"	"Шприц с адреналином"
 	"Pipe Bomb"
 	{
 		"en"	"Pipe Bomb"
@@ -907,7 +906,7 @@
 		"zho"	"瓦斯桶"
 		"chi"	"煤气罐"
 		"es"	"Tanque de propano"
-		"ru"	"Балон пропана"
+		"ru"	"Пропановая бочка"
 	}
 	"Oxygen Tank"
 	{
@@ -934,7 +933,7 @@
 		"zho"	"汽油"
 		"chi"	"油桶"
 		"es"	"Bidon de Gasolina"
-		"ru"	"Канистра бензина"
+		"ru"	"Канистра с бензином"
 	}
 	"Gnome"
 	{
@@ -1061,7 +1060,7 @@
 		"zho"	"你沒有被特感攻擊"
 		"chi"	"你没有被特感控"
 		"es"	"No estas siendo atacado"
-		"ru"	"Ты не {red}атакован{default} в данный момент"
+		"ru"	"Ты не {red}атакован{default}"
 	}
 	"Stage Complete"
 	{
@@ -1119,12 +1118,12 @@
 		"zho"	"有人已購買此商品，請等待時間結束"
 		"chi"	"有人已购买此商品，请等待时间结束"
 		"es"	"Alguien ya compro este artículo, espere hasta que se acabe el tiempo"
-		"ru"	"Уже куплено другим, жди когда истечёт время услуги!"
+		"ru"	"Кто-то уже купил этот предмет, жди когда истечёт время услуги!"
 	}
 	"Dead-Eyes Effect"
 	{
 		"#format"		"{1:d}"
-		"en"	"[{olive}TS{default}] Survivors can now see all Infected and common within {green}{1} {default}seconds"
+		"en"	"[{olive}TS{default}] Survivors can now see all infected within {green}{1} {default}seconds"
 		"pt"	"[{olive}TS{default}] Sobreviventes podem ver agora todos os Infectados e Zombies durante {green}{1} {default}seconds"
 		"zho"	"[{olive}TS{default}] 倖存者於 {green}{1} {default}秒內能看到特感與殭屍"
 		"chi"	"[{olive}TS{default}] 生还者于 {green}{1} {default}秒內能看到特感与丧尸"
@@ -1157,7 +1156,7 @@
 		"zho"	"金錢轉移，選擇玩家: (剩餘金額: {1} 元)"
 		"chi"	"金钱转移，选择玩家: (剩余金额: {1} 元)"
 		"es"	"Transferir puntos elige jugador: (Saldo: {1} puntos)."
-		"ru"	"Выберите игрока|Баланс: {1} кредитов"
+		"ru"	"Передача кредитов.Выберите игрока|Баланс: {1} кредитов"
 	}
 	"Transfer Credit Menu Title"
 	{
@@ -1167,7 +1166,7 @@
 		"zho"	"金錢轉移，選擇金額: (剩餘金額: {1} 元)"
 		"chi"	"金钱转移，选择金額: (剩余金额: {1} 元)"
 		"es"	"Transferir puntos elija puntos: (Saldo: {1} puntos)."
-		"ru"	"Выбери кредиты для передачи|Баланс: {1} кредитов"
+		"ru"	"Выберите кредиты для передачи|Баланс: {1} кредитов"
 	}
 	"There are no any players at this moment."
 	{
@@ -1176,16 +1175,16 @@
 		"zho"	"目前沒有其他玩家"
 		"chi"	"目前没有其他玩家"
 		"es"	"No hay jugadores en este momento."
-		"ru"	"Никого нету."
+		"ru"	"Нет никаких других игроков на данный момент."
 	}
 	"The chosen player is not in server now! Choose again!"
 	{
-		"en"	"[{olive}TS{default}] The chosen player is not in server now! Choose again!"
+		"en"	"[{olive}TS{default}] The chosen player is not in server! Choose again!"
 		"pt"	"[{olive}TS{default}] O jogadores escolhido não esta disponivel agora! Escolha outro!"
 		"zho"	"[{olive}TS{default}] 選擇的玩家目前不在伺服器! 請重新選擇!"
 		"chi"	"[{olive}TS{default}] 选择的玩家目前不在服务器! 请重新选择!"
 		"es"	"[{olive}TS{default}] ¡El jugador elegido no esta en el servidor ahora! ¡Elige a otro!"
-		"ru"	"[{olive}TS{default}] Этот игрок не в игре!"
+		"ru"	"[{olive}TS{default}] Этот игрок не в игре!Выберите снова"
 	}
 	"Failed! Credits balance is not enough to transfer."
 	{
@@ -1194,7 +1193,7 @@
 		"zho"	"[{olive}TS{default}] 失敗! 沒有足夠的金錢轉移!"
 		"chi"	"[{olive}TS{default}] 转移失败! 没有足够的金钱转移!"
 		"es"	"[{olive}TS{default}] ¡Fallo! ¡El saldo de puntos no es suficiente para donar!"
-		"ru"	"[{olive}TS{default}] Недостаточно кредитов!"
+		"ru"	"[{olive}TS{default}] Не вышло!Недостаточно кредитов для передачи"
 	}
 	"Transfer credit to player"
 	{
@@ -1214,7 +1213,7 @@
 		"zho"	"[{olive}TS{default}] {olive}%N{default} 轉移了 {green}{1}{default} 元給你."
 		"chi"	"[{olive}TS{default}] {olive}%N{default} 转移了 {green}{1}{default} 元给你."
 		"es"	"[{olive}TS{default}] {olive}% N {default} se transfirio {green} {1} {default} puntos a usted."
-		"ru"	"[{olive}TS{default}] {olive}%N {default}передал {green}{1} {default}кредитов тебе."
+		"ru"	"[{olive}TS{default}] {olive}%N {default}передал {green}{1} {default}вам кредитов."
 	}
 	"Infected Shop is disabled"
 	{
@@ -1223,7 +1222,7 @@
 		"zho"	"[TS] 特感商店目前不開放!"
 		"chi"	"[TS] 特感商店目前不开放!"
 		"es"	"[TS] La tienda infectada esta deshabilitada"
-		"ru"	"[TS] Магазин заражённых выключен"
+		"ru"	"[TS] Магазин заражённых отключен"
 	}
 	"Infected Menu Title"
 	{
@@ -1242,7 +1241,7 @@
 		"zho"	"對倖存者造成傷害能獲得金錢!"
 		"chi"	"对生还者造成伤害能获得金钱!"
 		"es"	"Consigue puntos haciendo daño a los supervivientes."
-		"ru"	"Получи кредиты повреждая выживших."
+		"ru"	"Получите кредиты нанося урон по выживших."
 	}
 	"InfectedSpawnMenu"
 	{
@@ -1270,7 +1269,7 @@
 		"zho"	"生成特感列表 (存款: {1} 元)"
 		"chi"	"生成特感列表 (存款: {1} 元)"
 		"es"	"Lista de engendros infectados (saldo: {1} puntos)."
-		"ru"	"Баланс: {1} кредитов"
+		"ru"	"Список спавна заражённых.Баланс: {1} кредитов"
 	}
 	"Infected Specials Menu Title"
 	{
@@ -1280,7 +1279,7 @@
 		"zho"	"特感特殊商品列表 (存款: {1} 元)"
 		"chi"	"特感特殊商品列表 (存款: {1} 元)"
 		"es"	"Lista de infectados especiales (saldo: {1} puntos)."
-		"ru"	"Баланс: {1} кредитов"
+		"ru"	"Список Особых Заражённых.Баланс: {1} кредитов"
 	}
 	"You are not in Infected Team"
 	{
@@ -1298,7 +1297,7 @@
 		"zho"	"只有{red}死掉的感染者{default}才能購買!"
 		"chi"	"只有{red}死掉的感染者{default}才能购买!"
 		"es"	"No eres un {red}muerto infectado{default}!"
-		"ru"	"Ты не {red}мертый зараженный {default}!"
+		"ru"	"Ты не {red}мертвый зараженный {default}!"
 	}
 	"Alive Infected First"
 	{
@@ -1316,7 +1315,7 @@
 		"zho"	"此時此刻無法生成特感!"
 		"chi"	"此时此刻无法生成特感!"
 		"es"	"¡No se pueden engendrar infectados en este momento!"
-		"ru"	"Пока нельзя!"
+		"ru"	"Нельзя спавнить заражённх на данный момент!"
 	}
 	"Infected Can not buy so quickly"
 	{
@@ -1326,7 +1325,7 @@
 		"zho"	"特感購買冷卻時間 {green}{1}{default} 秒未到!"
 		"chi"	"特感购买冷却时间 {green}{1}{default} 秒未到!"
 		"es"	"No se puede comprar tan rapido! Espera al menos {green}{1}{default} segundos."
-		"ru"	"Жди ещё {green}{1} {default}секунд."
+		"ru"	"Особые Заражённые не покупают так быстро.Подождите ещё {green}{1} {default}секунд."
 	}
 	"Survivor Can not buy so quickly"
 	{
@@ -1335,7 +1334,7 @@
 		"pt"	"Sobreviventes não podem comprar tão rapidamente! Espere pelo menos {green}{1}{default} segundos."
 		"zho"	"人類購買冷卻時間 {green}{1}{default} 秒未到!"
 		"chi"	"人类购买冷却时间 {green}{1}{default} 秒未到!"
-		"ru"	"Жди ещё {green}{1} {default}секунд."
+		"ru"	"Выжившие не могут покупать так быстро.Подождите ещё {green}{1} {default}секунд."
         "es"	"¡Los supervivientes no pueden comprar tan rápido! Espera al menos {green}{1}{default} segundos."
 	}
 	"Tank Limit Reached"
@@ -1434,7 +1433,7 @@
 		"pt"	"Dar Spawn em uma Bruxa (em sua localização)"
 		"zho"	"召喚Witch (在你的位置上)"
 		"chi"	"召唤Witch (在你的位置上)"
-		"ru"	"Заспавнить ведьму возле тебя"
+		"ru"	"Заспавнить ведьму возле себя"
 		"es"	"Engendrar bruja (en tu ubicación)"
 	}	
 	"Zombie Horde"
@@ -1448,8 +1447,8 @@
 	}
 	"Immune Everything"
 	{
-		"en"	"Immune Everything (short time)"
-		"en"	"God Mod (por curto período)"
+		"en"	"God Mode (short time)"
+		"en"	"God Mode (por curto período)"
 		"zho"	"God 上帝模式 (短暫時間)"
 		"chi"	"God 上帝模式 (短暂时间)"
 		"es"	"Inmune a todo (periodo de tiempo)"
@@ -1458,7 +1457,7 @@
 	"Immune Everything Now"
 	{
 		"#format"		"{1:d}"
-		"en"	"You are now Immune All Damage within {green}{1}{default} seconds"
+		"en"	"You are now Immune to All Damage within {green}{1}{default} seconds"
 		"pt"	"Você agora esta em Modo DEUS, não recebe dano por {green}{1}{default} seconds"
 		"zho"	"你現在 {green}{1}{default} 秒內免疫一切傷害"
 		"chi"	"你现在 {green}{1}{default} 秒内免疫一切伤害"
@@ -1504,7 +1503,7 @@
 	}
 	"Please Stand on the ground"
 	{
-		"en"	"Please Stand on the ground"
+		"en"	"Purchasing is not allowed on air"
 		"pt"	"Por favor fique no chão"
 		"zho"	"請站在地面上"
 		"chi"	"请站在地面上"
@@ -1517,7 +1516,7 @@
 		"pt"	"Você esta muuito perto dos sobreviventes, ou pode ser visto por eles"
 		"zho"	"離倖存者太近或是能被倖存者看見"
 		"chi"	"离生还者太近或是能被生还者看见"
-		"ru"	"Ты слишком близко к выжившему"
+		"ru"	"Ты слишком близко к Выжившему или вы можете быть замечены Выжившим"
 		"es"	"Estás demasiado cerca de los sobrevivientes o los sobrevivientes te pueden ver"
 	}
 	"Witch Spawn Error at this location"
@@ -1569,11 +1568,11 @@
 	}
 	"You are not dead"
 	{
-		"en"	"You are not dead..."
+		"en"	"You aren't dead..."
 		"pt"	"Você não esta morto..."
 		"zho"	"你現在不是死亡狀態"
 		"chi"	"你现在不是死亡状态，买个毛线，你马Ｂ"
-		"ru"	"{green} Ты итак живой!!"
+		"ru"	"{green} Вы не мертвы!!"
 		"es"	"Usted no está muerto..."
 	}
 	"Freeze-Infected Effect"
@@ -1583,7 +1582,7 @@
 		"pt"	"[{olive}TS{default}] Todos infectados estão {blue}Congelados{default}, não podem se mover ou atacar por {green}{1}{default} segundos"
 		"zho"	"[{olive}TS{default}] 所有特感 {green}{1} {default}秒內 {blue}凍結{default}，無法移動與攻擊"
 		"chi"	"[{olive}TS{default}] 所有特感 {green}{1} {default}秒内 {blue}冻结{default}，无法移动与攻击"
-		"ru"	"[{olive}TS{default}] Все боссы {blue}Заморожены{default}, на {green}{1}{default} секунд"
+		"ru"	"[{olive}TS{default}] Все боссы {blue}заморожены{default}, на {green}{1}{default} секунд"
 		"es"	"[{olive}TS{default}] Todos los infectados {blue}se congelan{default}, incapaces de moverse y atacar en {green}{1}{default} segundos."
 	}
 	"Freeze-Infected Effect Time Out"
@@ -1611,7 +1610,7 @@
 		"pt"	"Você não esta no {blue}time de sobreviventes{default}"
 		"zho"	"你不在{blue}倖存者隊伍{default}裡，能撈就撈、能混就混!"
 		"chi"	"你不在{blue}生还者队伍{default}里"
-		"ru"	"Ты не в {blue}команде выживших{default}!"
+		"ru"	"Ты не в команде выживших{blue}!"
 		"es"	"No estás en el equipo {blue}de supervivientes{default}"
 	}
 	"No Any Other Survivors"
@@ -1620,7 +1619,7 @@
 		"pt" 	"Não há outros sobreviventes em pé neste momento"
 		"zho"	"此時此刻沒有可行動的倖存者"
 		"chi"	"此時此刻沒有可行動的生还者"
-		"ru"	"Увы но нету выживших кто стоит на ногах.."
+		"ru"	"Увы, но нет выживших кто стоит на ногах.."
 		"es"	"No hay otros supervivientes en pie en este momento"
 	}
 	"No Friendly Fire"
@@ -1638,6 +1637,7 @@
 		"zho"	"注射興奮劑 (短暫時間)"
 		"chi"	"注射兴奋剂 (短暂时间)"
 		"es"	"Gana efectos de la adrenalina (Por poco tiempo)"
+		"ru"	"Получен эффект Адреналина (временно)"
 	}
 	"Drop Pipebomb"
 	{
@@ -1645,6 +1645,7 @@
 		"zho"	"爆爆王"
 		"chi"	"炸弹人"
 		"es"	"Suelta la Bomba casera"
+		"ru"	"Бросить Пайп Бомбу"
 	}
 	"Save Yorself"
 	{
@@ -1652,13 +1653,15 @@
 		"zho"	"拯救自己"
 		"chi"	"拯救自己"
 		"es"	"Sálvate a ti mismo"
+		"ru"	"Помочь себе"
 	}
 	"You can only buy this when handing from ledge or incapacitated"
 	{
-		"en"	"You can only purchase this item handing from ledge or incapacitated"
+		"en"	"You can only purchase this item hanging from ledge or incapacitated"
 		"zho"	"懸掛時或倒地時才能購買此商品!"
 		"chi"	"处于挂边状态或倒地时才能购买此商品!"
 		"es"	"Sólo puedes comprar este objeto desde la cornisa o incapacitado"
+		"ru"	"Вы можете купить предмет только если вы висите или инкапнуты"
 	}
 	
 	"repeatbuy"
@@ -1668,6 +1671,7 @@
 		"zho"	"重複購買商品 ({1})"
 		"chi"	"重复购买商品 ({1})"
 		"es"	"Repetir compra ({1})"
+		"ru"	"Повторить покупку ({1})"
 	}
 	
 	"repeatbuy_nothing"
@@ -1676,22 +1680,25 @@
 		"zho"	"重複購買商品 (無)"
 		"chi"	"重复购买商品 (无)"
 		"es"	"Repetir compra (Ninguno)"
+		"ru"	"Повторить покупку (Отклонено)"
 	}
 	
 	"Tank Lose Control"
 	{
 		"#format"		"{1:d}"
-		"en"	"[{olive}TS{default}] You lose control and become {red}AI Tank{default}, reduce {green}{1}{default} credits."
+		"en"	"[{olive}TS{default}] You lost control over Tank{red}, reduce {green}{1}{default} credits."
 		"zho"	"[{olive}TS{default}] 失去控制權變成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
 		"chi"	"[{olive}TS{default}] 失去控制权变成 {red}AI Tank{default}，扣款 {green}{1}{default} 元"
 		"es"	"[{olive}TS{default}] Pierdes el control y te conviertes en {red}Tank Bot{default}, reduces {green}{1}{default} puntos."
+		"ru"	"[{olive}TS{default}] Вы потеряли контроль над {red}Танком, штраф {green}{1}{default} кредитов."
 	}
 	
 	"Alive/Ghost Infected First"
 	{
-		"en"	"You must be {red}alive or ghost{default}!"
+		"en"	"You must be {red}alive or on ghost mode{default}!"
 		"zho"	"只有{red}活著或靈魂狀態{default}才能購買!"
 		"chi"	"只有{red}活着或灵魂状态{default}才能购买!"
+		"ru"	"Вы должны быть {red}живым или находиться в режиме призрака{default}!"
 	}
 	
 	"Not Tank"
@@ -1699,6 +1706,8 @@
 		"en"	"{red}Tank{default} can not buy this item!"
 		"zho"	"{red}Tank{default} 無法購買此商品!"
 		"chi"	"{red}Tank{default} 无法购买此商品!"
+		"ru"	"{red}Танк{default} не может купить этот предмет!"
+
 	}
 	
 	"Alive Infected First"
@@ -1706,12 +1715,14 @@
 		"en"	"You must be {red}alive{default}!"
 		"zho"	"只有{red}活著的特感{default}才能購買!"
 		"chi"	"只有{red}活着的特感{default}才能购买!"
+		"ru"	"Вы должны быть {red}живы{default}!"
 	}
 	"Restore Health"
 	{
 		"en"	"Restore health"
 		"zho"	"回復一定血量"
 		"chi"	"回复一定血量"
+		"ru"	"Восстановить здоровье"
 	}
 	"Melee Not Allow in this map"
 	{
@@ -1719,12 +1730,14 @@
 		"en"	"[{olive}TS{default}] Can't spawn melee {green}{1}{default} in this map"
 		"zho"	"[{olive}TS{default}] 此地圖無法生成近戰 {green}{1}{default}"
 		"chi"	"[{olive}TS{default}] 此地图无法生成近战 {green}{1}{default}"
+		"ru"	"[{olive}TS{default}] Невозможно заспавнить рукопашку {green}{1}{default} на этой карте!"
 	}
 	"Item Disabled"
 	{
 		"en"	"This Item is disabled for now"
 		"zho"	"此商品暫時關閉"
 		"chi"	"此商品暂时关闭"
+		"ru"	"Эта вещь пока что удалена"
 	}
 
 	"Shop Disabled! Survivors leave the safe room."
@@ -1733,6 +1746,7 @@
 		"en"	"Survivor Shop is disabed! {blue}Survivors{default} has left the safe room over {green}{1}{default} seconds."
 		"zho"	"倖存者商店已關閉! {blue}倖存者{default}已離開安全室超過 {green}{1}{default} 秒"
 		"chi"	"生还者商店已关闭! {blue}生还者{default}已离开安全室超过 {green}{1}{default} 秒"
+		"ru"	"Магазин Выживших отключен!{blue}Выжившие{default} покинули убежище за {green}{1}{default} секунд"
 	}
 
 	"Health_100 too much"
@@ -1740,6 +1754,7 @@
 		"en"	"Can't give 100 health anymore"
 		"zho"	"你的血量已達上限"
 		"chi"	"你的血量已达上限"
+		"ru"	"Невозможно больше выдать 100% здоровья"
 	}
 	
 	"God Mode"
@@ -1747,6 +1762,7 @@
 		"en"	"God Mode"
 		"zho"	"無敵 (短暫時間)"
 		"chi"	"无限 (短暂时间)"
+		"ru"	"Режим бога"
 	}
 	"God Mode Now"
 	{
@@ -1754,18 +1770,21 @@
 		"en"	"You are now god mode within {green}{1}{default} seconds"
 		"zho"	"你現在 {green}{1}{default} 秒內不受任何傷害, 不會被特感抓"
 		"chi"	"你现在 {green}{1}{default} 秒内不受任何伤害, 不会被特感抓"
-	}
+		"ru"	"Вы в режиме бога на {green}{1}{default} секунд"	
+    }
 	"God Mode Timer"
 	{
 		"en"	"God Mode timer is out"
 		"zho"	"無敵模式 狀態已結束"
 		"chi"	"无限模式 状态已结束"
+		"ru"	"Время Режима бога вышло"
 	}	
 	"Map Disable"
 	{
 		"en"	"Shop disabled in this map"
 		"zho"	"此地圖關閉商店"
 		"chi"	"此地图关闭商店"
+		"ru"	"Магазин отключен на этой карте"
 	}
 }
 
