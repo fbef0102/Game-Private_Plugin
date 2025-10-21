@@ -249,6 +249,16 @@
     * AI bot倒地或掛邊時自動救起來 + AI bot被特感抓住時自動處死特感
 </details>
 
+* <details><summary><b>Chainsaw | 電鋸</b></summary>
+
+  * [l4d2_chainsaw_ammo](/L4D_插件/Chainsaw_電鋸/l4d2_chainsaw_ammo): Cannot refill the ammo of the weapons
+    * 電鋸可以用彈藥堆填充油量
+  * [l4d2_chainsaw_deploy_speed](/L4D_插件/Chainsaw_電鋸/l4d2_chainsaw_deploy_speed): Reduce the start duration of chainsaw deploying animation
+    * 減少啟動電鋸的時間，能快速使用電鋸
+  * [l4d2_chainsaw_knockback](/L4D_插件/Chainsaw_電鋸/l4d2_chainsaw_knockback): Make chainsaw has knockback power when shove
+    * 電鋸右鍵可大範圍擊退殭屍與特感
+</details>
+
 * <details><summary><b>Charger | Charger</b></summary>
 
   * [l4d2_charger_grab](/L4D_插件/Charger_Charger/l4d2_charger_grab): The Charger can grab survivor and drop
@@ -325,8 +335,6 @@
     * 玩家外觀可以變成地圖任何一個物件模型
   * [l4d_healing_field](/L4D_插件/Fun_娛樂/l4d_healing_field): When the Tank dies a health field is generated in which the survivors receive health.
     * 當Tank死亡時產生一個治療光圈，人類可以獲得治療回復HP
-  * [l4d2_melee_knock](/L4D_插件/Fun_娛樂/l4d2_melee_knock): Use Melees to knockback teammates/S.I.
-    * 近戰武器可以擊飛隊友或特感
 </details>
 
 * <details><summary><b>Hunter | Hunter</b></summary>
@@ -397,6 +405,24 @@
     * 增加最後救援的防守時間，倖存者必須等待時間結束，救援載具才會來臨
 </details>
 
+* <details><summary><b>Melee | 近戰武器</b></summary>
+
+  * [l4d2_melee_durability](/L4D_插件/Melee_近戰武器/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+    * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+  * [l4d2_melee_modify_damage](/L4D_插件/Melee_近戰武器/l4d2_melee_modify_damage): Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
+    * 修改電鋸與每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
+  * [l4d2_melee_knock](/L4D_插件/Melee_近戰武器/l4d2_melee_knock): Use Melees to knockback teammates/S.I.
+    * 近戰武器可以擊飛隊友或特感
+  * [l4d2_melee_shock](/L4D_插件/Melee_近戰武器/l4d2_melee_shock): Press shift and swing melee to active melee shock effect, slash the C.I./S.I./witch around you
+    * 近戰武器可以隔空砍周圍的殭屍與特感
+</details>
+
+* <details><summary><b>Minigun | 地圖機槍</b></summary>
+
+  * [l4d_minigun_dmg_modify](/L4D_插件/Minigun_地圖機槍/l4d_minigun_dmg_modify): Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
+    * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
+</details>
+
 * <details><summary><b>Miscellaneous | 雜項</b></summary>
 
   * [laser_block](/L4D_插件/Miscellaneous_雜項/laser_block): Stop survivors from upgrading laser sight once survivors leave saferoom or survival begins
@@ -437,8 +463,6 @@
     * 人類按下 WALK+JUMP 可以使出飛踢攻擊，擊退所有特感與Ｗitch
   * [l4d_aimbot](/L4D_插件/Nothing_Impossible_無理改造版/l4d_aimbot): Give you a legal aimbot made by sourcemod in l4d
     * 輸入指令開啟武器自瞄系統，合法自動瞄準殭屍射擊
-  * [l4d2_melee_shock](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_melee_shock): Press shift and swing melee to active melee shock effect, slash the C.I./S.I./witch around you
-    * 近戰武器可以隔空砍周圍的殭屍與特感
   * [l4d_attachable_grenade_launcher](/L4D_插件/Nothing_Impossible_無理改造版/l4d_attachable_grenade_launcher): Gun weapons now have under-barrel grenade launcher attached, cost ammot to shoot grenade
     * 槍械擁有附加式榴彈發射器，消耗彈藥發射榴彈
 </details>
@@ -455,8 +479,6 @@
 
   * [l4d_dynamic_muzzle_flash](/L4D_插件/Real_Realism_真寫實模式/l4d_dynamic_muzzle_flash): Adds dynamic muzzle flash to gunfire
     * 槍口增加逼真的閃光
-  * [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-    * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
   * [l4d_team_flashlight_remake](/L4D_插件/Real_Realism_真寫實模式/l4d_team_flashlight_remake): Remake Survivor Realism Dynamic Flash Lights!
     * 倖存者有真實的手電筒光照效果
 </details>
@@ -511,6 +533,10 @@
 
 * <details><summary><b>Sound | 音效</b></summary>
 
+  * [l4d_headshot_reward_sound](/L4D_插件/Sound_音效/l4d_headshot_reward_sound): Play Reward Sound when headshot
+    * 特感或普通感染者爆頭的時候有獎勵提示與音效
+  * [l4d_pickup_sound](/L4D_插件/Sound_音效/l4d_pickup_sound): Play custom sound when player pick up weapons/items/ammo
+    * 玩家撿起武器/物品/彈藥時播放自製音效
   * [l4d2_block_music_play](/L4D_插件/Sound_音效/l4d2_block_music_play): Block specific music or song from playing to clients
     * 阻擋背景音樂或BGM播放給玩家聽，譬如: Tank BGM, 屍潮音樂, 被特感控的音樂, 倒地或掛邊時音樂
   * [l4d_tank_restore_burn_sound](/L4D_插件/Sound_音效/l4d_tank_restore_burn_sound): Restore Tank burn voice sounds that exist in l4d1 game and not overridden by pain sounds
@@ -613,8 +639,6 @@
     * 允許玩家在遊戲中更換一二代角色
   * [l4d_teleport_call](/L4D_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, or to admin self
     * 呼叫傳送功能選單，能傳送玩家到起點、終點、救援載具區域、身邊
-  * [l4d_headshot_reward_sound](/L4D_插件/Survivor_人類/l4d_headshot_reward_sound): Play Reward Sound when headshot
-    * 特感或普通感染者爆頭的時候有獎勵提示與音效
   * [l4d2healthglow](/L4D_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them + survivors always glow with a non-disappearing aura for infected (Even if survivor doesn't move or walk)
     * 根據玩家生命值狀態給予輪廓光圈適當的顏色 + 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
   * [l4d_friendly_fire_stats](/L4D_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.
@@ -735,36 +759,24 @@
     * 最大彈夾容量時候按R鍵循環播放伸手動作（為mod檢視武器設計）
   * [l4d_death_weapon_lock](/L4D_插件/Weapons_武器/l4d_death_weapon_lock): Lock the weapons and items dropped by dead survivors, no one else can pick up.
     * 無法撿起其他死亡玩家掉落的武器與物品 (避免被撿走)
-  * [l4d_pickup_sound](/L4D_插件/Weapons_武器/l4d_pickup_sound): Play custom sound when player pick up weapons/items/ammo
-    * 玩家撿起武器/物品/彈藥時播放自製音效
-  * [l4d2_melee_modify_damage](/L4D_插件/Weapons_武器/l4d2_melee_modify_damage): Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
-    * 修改電鋸與每一種近戰武器對 普通殭屍/Tank/Witch/特感 的傷害值
   * [l4d_weapon_auto_shoot](/L4D_插件/Weapons_武器/l4d_weapon_auto_shoot): Automatic shooting for pistol, sniper, hold ATTACK1 (Mouse1).
     * 按住左鍵，手槍、狙擊槍武器可以自動射擊
   * [l4d_infinite_clip](/L4D_插件/Weapons_武器/l4d_infinite_clip): Weapons now have infinite clip without reload + Chainsaw now is always refilled
     * 指定的武器可以無限子彈射擊，不需要換彈夾 + 電鋸擁有無限油量
   * [l4d_weapon_block_ammo_pile](/L4D_插件/Weapons_武器/l4d_weapon_block_ammo_pile): Cannot refill the ammo of the weapons
     * 指定的武器無法填裝彈藥
-  * [l4d2_chainsaw_ammo](/L4D_插件/Weapons_武器/l4d2_chainsaw_ammo): Cannot refill the ammo of the weapons
-    * 電鋸可以用彈藥堆填充油量
   * [l4d_spec_lasertag_cheat](/L4D_插件/Weapons_武器/l4d_spec_lasertag_cheat): Admins can use command to see the Lasertag with bullets when player shoots
     * 管理員輸入指令能看到玩家的子彈軌跡 (方便看自瞄作弊)
   * [l4d_no_shove_fatigue](/L4D_插件/Weapons_武器/l4d_no_shove_fatigue): Allow certain weapons to shove infinitely (no fatigue)
     * 指定的武器可以無限次數推人，就像L4D1 (不會疲勞)
-  * [l4d_minigun_dmg_modify](/L4D_插件/Weapons_武器/l4d_minigun_dmg_modify): Modify damage from heavy machine gun and minigun to SI/Witch/Tank/Common
-    * 修改地圖上的重機槍與加特林機槍對 Tank/特感/Witch/小殭屍 造成的傷害
   * [l4d2_laser_transfer_pickup](/L4D_插件/Weapons_武器/l4d2_laser_transfer_pickup): Transfer your current weapon laser sight to another while picking up new gun
     * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
   * [l4d2_incap_gun_replace](/L4D_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee/chainsaw/dual pistol with regular pistols or magnum when incapped.
     * 倒地時如果手持近戰/電鋸/瑪格南手槍/雙手槍，改換成其他手槍
   * [l4d_weapon_clear_reload](/L4D_插件/Weapons_武器/l4d_weapon_clear_reload): Abandon magazine when reload weapon
     * 武器裝彈時放棄彈夾內的所有子彈
-  * [l4d2_chainsaw_deploy_speed](/L4D_插件/Weapons_武器/l4d2_chainsaw_deploy_speed): Reduce the start duration of chainsaw deploying animation
-    * 減少啟動電鋸的時間，能快速使用電鋸
   * [l4d_explosive_incendiary_dmg](/L4D_插件/Weapons_武器/l4d_explosive_incendiary_dmg): Modify explosive and incendiary bullet dmg
     * 修改高爆彈、火焰子彈對隊友與特感的傷害
-  * [l4d2_chainsaw_knockback](/L4D_插件/Weapons_武器/l4d2_chainsaw_knockback): Make chainsaw has knockback power when shove
-    * 電鋸右鍵可大範圍擊退殭屍與特感
 </details>
 
 * <details><summary><b>Witch | 女巫</b></summary>
