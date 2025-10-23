@@ -1,15 +1,28 @@
 "Phrases"
 {
-	"Ghost (C)"
+	"Ghost_Fly (C)"
 	{
 		"en"	"[{olive}GhostFly{default}] As a ghost you can fly by holding {green}RELOAD{default} button."
 		"zho"	"[{olive}GhostFly{default}] 靈魂狀態下可以按住 {green}R{default} 鍵飛行."
 		"chi"	"[{olive}GhostFly{default}] 灵魂状态下可以按住 {green}R{default} 键飞行."
 	}
-	"Ghost"
+	"Ghost_Fly"
 	{
 		"en"	"As a ghost you can fly by holding RELOAD button."
 		"zho"	"靈魂狀態下可以按住 R 鍵飛行."
 		"chi"	"灵魂状态下可以按住 R 键飞行."
+	}
+	
+	"Ghost_Leap (C)"
+	{
+		"en"	"[{olive}GhostFly{default}] As a ghost you can jump vert high by holding {green}RELOAD{default} button."
+		"zho"	"[{olive}GhostFly{default}] 靈魂狀態下可以按住 {green}R{default} 鍵跳得很高."
+		"chi"	"[{olive}GhostFly{default}] 灵魂状态下可以按住 {green}R{default} 键跳得很高."
+	}
+	"Ghost_Leap"
+	{
+		"en"	"As a ghost you can fly by holding RELOAD button."
+		"zho"	"靈魂狀態下可以按住 R 鍵跳得很高."
+		"chi"	"灵魂状态下可以按住 R 键跳得很高."
 	}
 }

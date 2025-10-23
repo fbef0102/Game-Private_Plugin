@@ -561,8 +561,8 @@
     * 給真人特感玩家增加許多能力
   * [l4d2_infected_spawn_auto_kill_time](/L4D_插件/Special_Infected_特感/l4d2_infected_spawn_auto_kill_time): Kill special infected after spawn over 60 seconds (Also apply to AI)
     * 特感生成60秒之後，強制處死 (AI特感也適用)
-  * [l4d_ghost_fly](/L4D_插件/Special_Infected_特感/l4d_ghost_fly): Fly as a ghost.
-    * 靈魂特感可以自由飛行
+  * [l4d_ghost_fly](/L4D_插件/Special_Infected_特感/l4d_ghost_fly): Ghost Infected can fly or jump very high.
+    * 靈魂特感可以自由飛行或跳得很高
   * [l4d2_infected_hp_hint](/L4D_插件/Special_Infected_特感/l4d2_infected_hp_hint): Display corresponding health value hint of all Special Infected
     * 在特感身上顯示剩餘血量
   * [l4d_infected_hp_text](/L4D_插件/Special_Infected_特感/l4d_infected_hp_text): Display health bar text of Special Infected to attacker
