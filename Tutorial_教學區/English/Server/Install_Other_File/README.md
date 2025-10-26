@@ -1,5 +1,5 @@
 # Navigation
-> 2025/8/14 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/8/14 updated
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)

@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/8/25 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/8/25 更新
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)

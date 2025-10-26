@@ -948,5 +948,192 @@
 		"zho"			"你真厲害"
 		"chi"			"你真厉害"
 	}
+	"Emote_Smooth_Moves"
+	{
+		"en"			"Smooth_Moves"
+	}
 
+	"Emote_Friday13"
+	{
+		"en"			"Friday 13th"
+	}
+
+	"Emote_Thanos_Twerk"
+	{
+		"en"			"Drag queen Bad ass"
+	}
+
+	"Emote_Gangnam_Style"
+	{
+		"en"			"Gangnam Style"
+	}
+
+	"Emote_InDaGhetto"
+	{
+		"en"			"In Da Ghetto"
+	}
+
+	"Emote_BlindingLights"
+	{
+		"en"			"Blinding Lights"
+	}
+
+	"Emote_Griddy"
+	{
+		"en"			"Griddy"
+	}
+
+	"Emote_ILikeToMoveIt"
+	{
+		"en"			"I Like To Move It"
+	}
+
+	"Emote_Macarena"
+	{
+		"en"			"Macarena"
+	}
+
+	"Emote_NeverGonna"
+	{
+		"en"			"Never Gonna"
+	}
+
+	"Emote_NinjaStyle"
+	{
+		"en"			"Ninja Style"
+	}
+
+	"Emote_PumpkinDance"
+	{
+		"en"			"Pumpkin Dance"
+	}
+
+	"Emote_PumpUpTheJam"
+	{
+		"en"			"Pump Up The Jam"
+	}
+
+	"Emote_Renegade"
+	{
+		"en"			"Renegade"
+	}
+
+	"Emote_RushinAround"
+	{
+		"en"			"Rushin Around"
+	}
+
+	"Emote_SaySo"
+	{
+		"en"			"Say So"
+	}
+
+	"Emote_Stuck"
+	{
+		"en"			"Stuck"
+	}
+
+	"Emote_ToosieSlide"
+	{
+		"en"			"Toosie Slide"
+	}
+
+	"Emote_AirShredder"
+	{
+		"en"			"Air Shredder"
+	}
+
+	"Emote_Crossbounce"
+	{
+		"en"			"Crossbounce"
+	}
+
+	"Emote_DistractionDance"
+	{
+		"en"			"Distraction Dance"
+	}
+
+	"Emote_Headbanger"
+	{
+		"en"			"Headbanger"
+	}
+
+	"Emote_HitchHiker"
+	{
+		"en"			"HitchHiker"
+	}
+
+	"Emote_ItsGoTime"
+	{
+		"en"			"It's Go Time"
+	}
+
+	"Emote_KneeSlapper"
+	{
+		"en"			"Knee Slapper"
+	}
+	"Emote_Showstopper"
+	{
+		"en"			"Showstopper"
+	}
+
+	"Emote_Sprinkler"
+	{
+		"en"			"Sprinkler"
+	}
+
+	"Emote_Gmod"
+	{
+		"en"			"Gmod Dance"
+	}
+
+	"Emote_Cena"
+	{
+		"en"			"You Can't See Me"
+	}
+
+	"Emote_ChickenDance"
+	{
+		"en"			"Chicken Dance"
+	}
+
+	"Emote_Ghostbusters"
+	{
+		"en"			"Ghostbusters"
+	}
+
+	"Emote_Lebron"
+	{
+		"en"			"Lebron James"
+	}
+
+	"Emote_Martian"
+	{
+		"en"			"Martian Dance"
+	}
+
+	"Emote_RememberMe_Intro"
+	{
+		"en"			"Remember Me Intro"
+	}
+
+	"Emote_RememberMe_Loop"
+	{
+		"en"			"Remember Me Loop"
+	}
+
+	"Emote_Rollie"
+	{
+		"en"			"Rollie"
+	}
+
+	"Emote_Scenario"
+	{
+		"en"			"Scenario"
+	}
+
+	"Emote_Tpose"
+	{
+		"en"			"T-Pose"
+	}
 }

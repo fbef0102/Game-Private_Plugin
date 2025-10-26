@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/7/25 更新 by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/7/25
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -100,6 +100,8 @@
     * 沒用
 
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
+
+* [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): 修復bot取代倖存者或倖存者取代bot的一系列問題
 
 - - - -
 ## 額外檔案

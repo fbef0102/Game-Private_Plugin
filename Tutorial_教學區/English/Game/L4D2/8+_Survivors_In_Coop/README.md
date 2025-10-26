@@ -1,5 +1,5 @@
 # Navigation
-> 2025/6/16 updated by [Harry](https://steamcommunity.com/profiles/76561198026784913)
+> 2025/6/16 updated
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -96,6 +96,8 @@
     * Not working
     
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
+
+* [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): Fix issues with infected targeting when replacing survivors.
 
 - - - -
 ## Optional

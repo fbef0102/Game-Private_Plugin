@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. [l4d_heartbeat](/l4d_heartbeat)
+    2. [l4d_heartbeat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_heartbeat)
 
 * <details><summary>ConVar | 指令</summary>
 
