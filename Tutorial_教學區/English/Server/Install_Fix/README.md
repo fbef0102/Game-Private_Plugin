@@ -1,5 +1,4 @@
-
-> 2025/10/26 update
+> 2025/10/27 update
 * Reduce server crashes
 * Fix serious issues with the source engine or the game itself
 * Improve server stability
@@ -122,9 +121,9 @@
       
    * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from ```NavLadder::GetPosAtHeight```
 
-   * (L4D2) [TriggerMoved_Detour](https://forums.alliedmods.net/showpost.php?p=2752346&postcount=10): Fix Crash ```CM_TriggerWorldSpaceBounds()``` null pointer
+   * (L4D2) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): Fix Crash ```CM_TriggerWorldSpaceBounds()``` null pointer
 
-   * (L4D2) [EnumEntity-Fix](https://forums.alliedmods.net/showpost.php?p=2752346&postcount=10): Fix Crash ```CTriggerTraceEnum::EnumEntity``` null pointer
+   * (L4D2) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): Fix Crash ```CTriggerTraceEnum::EnumEntity``` null pointer
 
    * (L4D2) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): Fix Crash ```CLagCompensationManager::StartLagCompensation with NULL CUser```
 
@@ -133,11 +132,19 @@
 
    * (L4D1/2) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): Fix Crash ```CUtlRBTree overflow```
 
+   * (L4D2) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): Fixing the null pointer dereference in ```SV_SolidMoved```
+
+   * (L4D2) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): Fixing the crash with null pointer dereference in ```CM_GetCollideableTriggerTestBox```
+
    * (L4D2 linux) [IsReachable_Detour](https://forums.alliedmods.net/showpost.php?p=2725898&postcount=22): Fix Crash ```SurvivorBot::IsReachable``` null pointer
 
    * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): Fixed server crash due to chainsaw sound issue in l4d2 linux  ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
 
-   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://forums.alliedmods.net/showpost.php?p=2730868&postcount=7): Fix Crash ```server.dll + 0x1d7cbb``` null pointer
+   * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): Temp. walkaround agains wrong mem. address access in ```Tier0```, maybe some mem. scan related
+
+   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Server_sub_101D7CB0_Detour): Fix Crash ```server.dll + 0x1d7cbb``` null pointer
+
+   * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): Fixed server crash caused by zero pointer of model_t passed to ```CM_VCollideForModel``` function
 </details>
 
 * <details><summary><b>Hacker and Cheat</b></summary>

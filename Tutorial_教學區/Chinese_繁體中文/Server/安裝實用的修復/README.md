@@ -1,5 +1,5 @@
 
-> 2025/10/26 更新
+> 2025/10/27 更新
 * 在這裡列出的插件
    * 降低伺服器崩潰
    * 修復source引擎或遊戲本身存在的一些嚴重問題
@@ -132,9 +132,9 @@
       
    * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰: ```NavLadder::GetPosAtHeight```
 
-   * (L4D2) [TriggerMoved_Detour](https://forums.alliedmods.net/showpost.php?p=2752346&postcount=10): 修正崩潰: ```CM_TriggerWorldSpaceBounds()``` 涵式內的空指針
+   * (L4D2) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): 修正崩潰: ```CM_TriggerWorldSpaceBounds()``` 涵式內的空指針
 
-   * (L4D2) [EnumEntity-Fix](https://forums.alliedmods.net/showpost.php?p=2752346&postcount=10): 修正崩潰: ```CTriggerTraceEnum::EnumEntity``` 涵式內的空指針
+   * (L4D2) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): 修正崩潰: ```CTriggerTraceEnum::EnumEntity``` 涵式內的空指針
 
    * (L4D2) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): 修正崩潰: ```CLagCompensationManager::StartLagCompensation with NULL CUser```
 
@@ -143,11 +143,19 @@
 
    * (L4D1/2) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): 修復崩潰: ```CUtlRBTree overflow```
 
+   * (L4D2) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): 修復崩潰 ```SV_SolidMoved``` 涵式內的空指針
+
+   * (L4D2) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): 修復崩潰 ```CM_GetCollideableTriggerTestBox``` 涵式內的空指針
+
    * (L4D2 linux) [IsReachable_Detour](https://forums.alliedmods.net/showpost.php?p=2725898&postcount=22): 修正崩潰: ```SurvivorBot::IsReachable``` 涵式內的空指針
 
    * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): 修復L4D2 linux系統下電鋸音效導致伺服器崩潰: ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
 
-   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://forums.alliedmods.net/showpost.php?p=2730868&postcount=7): 修正崩潰: ```server.dll + 0x1d7cbb``` 涵式內的空指針
+   * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): 修復崩潰 ```tier0.dll``` 涵式相關記憶體錯誤
+
+   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Server_sub_101D7CB0_Detour): 修正崩潰: ```server.dll + 0x1d7cbb``` 涵式內的空指針
+
+   * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): 修復崩潰: 傳給```CM_VCollideForModel``` 涵式內的zero pointer
 </details>
 
 * <details><summary><b>防駭客與外掛</b></summary>

@@ -49,6 +49,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3h (2025-10-27)
+		* Fixed buttons detect while incap or hanging from ledge
+
 	* v1.2h (2025-9-17)
 		* Update data
 		* Set temp health or permant health
