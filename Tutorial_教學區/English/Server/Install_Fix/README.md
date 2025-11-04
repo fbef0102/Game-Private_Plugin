@@ -96,9 +96,11 @@
 
    * (L4D2) [l4d2_sg552_zoom_fix](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_sg552_zoom_fix.sp): Fix SG552 zoom, preventing the player's camera from getting stuck
       
-   * (L4D2 linux) [l4d_fix_linux_surface](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_linux_surface): Tricky fix for surfaces with wrong attributes on linux dedicated servers.
+   * (L4D1/2 linux) [l4d_fix_linux_surface](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_linux_surface): Tricky fix for surfaces with wrong attributes on linux dedicated servers.
 
-   * (L4D2) [l4d2_resolve_collision_fix](https://forums.alliedmods.net/showthread.php?t=344019): Fixes longstanding issues with low ```nb_update_frequency```
+   * (L4D2) l4d2_resolve_collision_fix: Fixes longstanding issues with low ```nb_update_frequency```
+      * [Windows version](https://forums.alliedmods.net/showpost.php?p=2837837&postcount=84)
+      * [Linux version](https://forums.alliedmods.net/showthread.php?t=344019)
       * Write the following in ```cfg/server.cfg```
          ```c
          // Multiplier of commons collision force

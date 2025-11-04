@@ -107,9 +107,11 @@
 
    * (L4D2) [l4d2_sg552_zoom_fix](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_sg552_zoom_fix.sp): 修正tickrate在高tick(96以上)的情況下，sg552的狙擊鏡在玩家跳躍/裝彈/落下時會卡住
       
-   * (L4D2 linux) [l4d_fix_linux_surface](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_linux_surface): 修復在linux專用服裡玩家走在冰面上不會滑動
+   * (L4D1/2 linux) [l4d_fix_linux_surface](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_linux_surface): 修復在linux專用服裡玩家走在冰面上不會滑動
    
-   * (L4D2) [l4d2_resolve_collision_fix](https://forums.alliedmods.net/showthread.php?t=344019): 修復```nb_update_frequency```指令值過低造成的問題
+   * (L4D2) l4d2_resolve_collision_fix: 修復```nb_update_frequency```指令值過低造成的問題
+      * [Windows 版本](https://forums.alliedmods.net/showpost.php?p=2837837&postcount=84)
+      * [Linux 版本](https://forums.alliedmods.net/showthread.php?t=344019)
       * 寫以下內容於文件 ```cfg/server.cfg```
          ```c
          // 修改感染者之間的碰撞頻率

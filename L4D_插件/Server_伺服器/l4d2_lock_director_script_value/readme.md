@@ -41,7 +41,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>Data Config</summary>
 
 	* In [data/l4d2_lock_director_script_value](data/l4d2_lock_director_script_value) folder
-		> Manual in this file, click for more details...
+		* Please Read: [data/l4d2_lock_director_script_value/readme_說明書.txt](data/l4d2_lock_director_script_value/readme_說明書.txt)
 		* Run coop mode => plugin reads ```coop.cfg```
 		* Run versus mode => plugin reads```versus.cfg```
 		* Run survival  mode => plugin reads```survival .cfg```
@@ -86,7 +86,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>文件設定範例</summary>
 
 	* 在 [data/l4d2_lock_director_script_value](data/l4d2_lock_director_script_value) 資料夾裡
-		> 內有中文說明，可點擊查看
+		* 中文說明書: [data/l4d2_lock_director_script_value/readme_說明書.txt](data/l4d2_lock_director_script_value/readme_說明書.txt)
 		* 當前模式是戰役 => 插件讀取```coop.cfg```
 		* 當前模式是對抗 => 插件讀取```versus.cfg```
 		* 當前模式是生存 => 插件讀取```survival.cfg```

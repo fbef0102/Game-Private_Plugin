@@ -236,7 +236,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		l4d_versus_boss_global_percent "1"
 
 		// 顯示以下哪些訊息給玩家看? 請將數字相加
-		// 1=Tank已復活, 2=Witch已復活, 4=Witch路程, 8=Tank路程
+		// 1=Tank已復活, 2=Witch已復活, 4=Tank路程, 8=Witch路程
 		l4d_versus_boss_chat_flag "15"
 		```
 </details>

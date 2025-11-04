@@ -14,8 +14,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * [Video | 影片展示](https://youtu.be/-AK10jtCpnc)
 
 * Image | 圖示
-	* would like to initiate a trade to swap player 1 with player 2, do you accept? (投票)
 	<br/>![l4d_trade_player_1](image/l4d_trade_player_1.jpg)
+
+* <details><summary>How does it work?</summary>
+
+	* Type ```!trade```
+		* -> select player A (your team) -> select player B (enemy team)
+		* -> Initiate a vote to swap player A with player B
+</Chargedetails>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -26,11 +32,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/l4d_trade_player.cfg
 		```php
-		// Delay to start another trade vote after trade vote ends.
-		l4d_trade_player_delay "60"
-
 		// 0=Plugin off, 1=Plugin on.
 		l4d_trade_player_enable "1"
+
+		// Delay to start another trade vote after trade vote ends.
+		l4d_trade_player_delay "60"
 		```
 </details>
 
@@ -62,9 +68,26 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 輸入!trade打開選單選擇雙方隊伍一位玩家，然後全體投票決定兩位玩家交換隊伍
 
 * 原理
-	* 輸入!trade打開選單選擇己方一位玩家，接著選擇對方一位玩家，選完之後全體玩家投票，投票通過後，兩位玩家互換陣營
+	* 輸入```!trade```打開選單選擇己方一位玩家，接著選擇對方一位玩家，選完之後全體玩家投票，投票通過後，兩位玩家互換陣營
 	* 離開安全室之後就不能投票了
 	* 覺得隊友太爛，對面隊伍太強，實力不平衡可以使用這插件
 
-* 功能
-	* 設置投票間隔時間
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_trade_player.cfg
+		```php
+		// 0=關閉插件, 1=啟動插件
+		l4d_trade_player_enable "1"
+
+		// 投票間隔
+		l4d_trade_player_delay "60"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **打開菜單選擇我方玩家與敵方玩家互換**
+		```php
+		sm_trade
+		```
+</details>

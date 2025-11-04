@@ -34,6 +34,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2025-11-4)
+		* Add gamedata, use dhooks to block defaut items
+
 	* v1.0 (2023-12-14)
 		* Initial Release
 </details>
