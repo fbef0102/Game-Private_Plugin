@@ -45,6 +45,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2025-11-9)
+        * Replace chainsaw shove and hit world sound
+        * Update data
+
     * v1.0 (2025-10-8)
         * Initial Release
 </details>
