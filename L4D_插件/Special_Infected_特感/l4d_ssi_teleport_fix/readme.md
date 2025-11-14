@@ -16,8 +16,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Teleport far AI special infected to the other special infected who is much nearer to survivors.
-    * Teleport AI special infected when they are out of sight of the survivors.
+        * For example: Teleport Tank (oustide 800 range) to smoker (close 250 range to survivor)
     * It won't teleport human-controlled infected player
+    * It won't teleport infected player if they can be seen by survivors
     * Increase game difficulty
 </details>
 
@@ -80,10 +81,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // AI Smoker will be teleported if distance from survivors is outside this range.
         l4d_ssi_teleport_fix_tp1_range_smoker "800"
 
-        // AI Tank will be teleported if distance from survivors is outside this range.
+        // AI Spitter will be teleported if distance from survivors is outside this range.
         l4d_ssi_teleport_fix_tp1_range_spitter "800"
 
-        // AI Smoker will be teleported if distance from survivors is outside this range.
+        // AI Tank will be teleported if distance from survivors is outside this range.
         l4d_ssi_teleport_fix_tp1_range_tank "800"
 
         // If 1, AI Smoker will be teleported.
@@ -142,8 +143,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
     * 比較遠的特感傳送到距離倖存者比較近的特感身上
+        * 譬如把遠方的Tank傳送到倖存者附近的Smoker身上
+    * 特感無法被人類看見時才會傳送
     * 不會傳送真人特感玩家，但會把AI特感傳送到真人特感玩家
-    * 特感看不見時才會傳送
 
 * 用意在哪?
     * 可配合多特感插件使得每一波特感的攻擊對倖存者造成巨大的壓力
@@ -206,10 +208,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // AI Smoker 必須離倖存者800公尺外才能被傳送
         l4d_ssi_teleport_fix_tp1_range_smoker "800"
 
-        // AI Tank 必須離倖存者800公尺外才能被傳送
+        // AI Spitter 必須離倖存者800公尺外才能被傳送
         l4d_ssi_teleport_fix_tp1_range_spitter "800"
 
-        // AI Smoker 必須離倖存者800公尺外才能被傳送
+        // AI Tank 必須離倖存者800公尺外才能被傳送
         l4d_ssi_teleport_fix_tp1_range_tank "800"
 
         // 為1時, 可以傳送 AI Smoker

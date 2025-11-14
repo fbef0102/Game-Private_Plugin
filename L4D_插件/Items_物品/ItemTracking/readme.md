@@ -14,8 +14,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* On map starts loading 0.5 second later
-		* Find all weapons and items on the map and control limit
-		* Removes weapons and items until total numbers match the limit
+		* Find all weapons/items on the map and control them
+		* Removes weapons/items until total numbers match the limit
+		* Or replace weapons/items with other weapons/items
 			* First aid kits, defibrillators, pills, adrenalines, molotovs, pipe bombs, vomitjars, prop tanks, oxy tanks, gas cans, fireworks
 			* Melee weapons, chainsaws
 			* Pistol, magnum pistols
@@ -124,8 +125,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 地圖載入後的0.5秒後
-		* 控制地圖上的武器、物品生成數量或限制
-		* 此插件刪除地圖上原有的武器、物品，並非生成新物品
+		* 找出地圖上的所有武器、物品
+		* 然後限制其生成數量或是取代成其他武器、物品
 		* 目前能控制的物品
 			* 治療包、電擊器、藥丸、腎上腺素、汽油彈、土製炸彈、膽汁瓶、瓦斯、氧氣灌、汽油桶、煙火盒
 			* 近戰武器、電鋸

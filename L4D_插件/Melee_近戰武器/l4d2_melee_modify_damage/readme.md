@@ -78,6 +78,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5 (2025-11-14)
+        * Update data
+        * Add different hitgroup melee damage
+
     * v1.4 (2024-8-11)
         * Optimize Code
         * Update Gamedata

@@ -136,7 +136,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![zho/l4d_infected_limit_control_1](image/zho/l4d_infected_limit_control_1.jpg)
 
 * 原理
-	* 依照倖存者的數量，設置更多的殭屍與屍潮數量
+	* 倖存者的數量用多，殭屍與屍潮數量越多
 	* 依照地圖名稱/遊戲模式，設置不同的殭屍與屍潮數量
 	* 修改的有
 		* 殭屍同時存在的總數量
