@@ -25,8 +25,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Endless hordes after 2 final tank waves
 	* Apply to all official/custom maps
 	* 🟥 Auto disable plugin in the following final type.
-		1. Gauntlet final, ex: c5m5, c13m4
-		2. Scavenge final, ex: c1m4, c6m3
+		1. Gauntlet final, e.g., c5m5, c13m4
+		2. Scavenge final, e.g., c1m4, c6m3
 	* You can customize time for each map in file [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
 </details>
 

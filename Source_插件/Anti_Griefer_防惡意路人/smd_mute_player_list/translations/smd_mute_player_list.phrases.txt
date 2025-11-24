@@ -114,5 +114,26 @@
 		"en"		"You don't have access"
 		"zho"		"你沒有權限使用"
 		"chi"		"你没有权限使用"
+	}	
+	
+	"Loading"
+	{
+		"en"		"(DATA PROCESSING)"
+		"zho"		"(資料處理中)"
+		"chi"		"(数据处理中)"
+	}	
+	
+	"Refresh"
+	{
+		"en"		"Click me to refresh"
+		"zho"		"點我刷新"
+		"chi"		"点我刷新"
+	}	
+	
+	"Immune"
+	{
+		"en"		"(Immune)"
+		"zho"		"(免疫被封)"
+		"chi"		"(免疫被封)"
 	}
 }

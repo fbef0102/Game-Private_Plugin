@@ -13,18 +13,48 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * [Video | 影片展示](https://youtu.be/U-ncYt-JVWQ)
 
 * Image
+	* Personal mute list
 	<br/>![smd_mute_player_list_1](image/smd_mute_player_list_1.jpg)
 	<br/>![smd_mute_player_list_2](image/smd_mute_player_list_2.jpg)
+	* Support Database (MySQL & SQLite)
+	<br/>![smd_mute_player_list_3](image/smd_mute_player_list_3.jpg)
 
 * <details><summary>How does it work?</summary>
 
 	* Type ```!mutemenu``` -> Display Menu -> choose player
 		* Mute player mic voice: you won't hear this player's mic voice
 		* Mute player chat text: you won't see this player's context in chatbox
-	* Save player's mute list in data file: [data/smd_mute_player_list.cfg](data/smd_mute_player_list.cfg)
+	* Support Database (MySQL & SQLite)
 		* The player can have same personal mute list even if server restart or disconnect from server.
-		* DO NOT MODIFY data file unlesss you know what you are doing
-	* Admin won't be muted
+	* Admin won't be muted, check cvars
+</details>
+
+* <details><summary>How to Set Database</summary>
+
+	* Choose one of the following method
+		1. MySQL: Database across server, set ConVar ```smd_mute_player_list_database "mute_player_list"``` and write the following in ```sourcemod/configs/databases.cfg```
+			```php
+			// There would a data table named "mute_player_list" in database
+			"mute_player_list"
+			{
+				"driver"			"mysql"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+
+		2. SQLite: Local Database, set ConVar ```smd_mute_player_list_database "mute_player_list""``` and write the following in ```sourcemod/configs/databases.cfg```
+			```php
+			// There would be a file created: sourcemod/data/sqlite/mute_player_list.sq3
+			"mute_player_list"
+			{
+				"driver"			"sqlite"
+				"database"			"mute_player_list"
+			}
+			```
 </details>
 
 * Require | 必要安裝
@@ -53,9 +83,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Players with these flags will not be in the mute chat list. (Empty = Everyone, -1: Nobody)
 		smd_mute_player_list_ignore_flag_chat "z"
 
-		// If 1, save player's personal mute list in data file: data/smd_mute_player_list.cfg
-		// The player can have same personal mute list even if server restart or disconnect from server.
-		smd_mute_player_list_save_data "1"
+		// Database to save personal mute list. (MySQL & SQLite supported)
+		smd_mute_player_list_database "mute_player_list"
 		```
 </details>
 
@@ -66,55 +95,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_mutemenu
 		```
 </details>
-
-* <details><summary>Data Config</summary>
-
-	* [data/smd_mute_player_list.cfg](data/smd_mute_player_list.cfg)
-	* DO NOT MODIFY this file unlesss you know what you are doing
-		```php
-		"smd_mute_player_list"
-		{
-			// Player A Steam ID 64
-			"76561198026784913"
-			{
-				// Player A Name
-				"Name"		"HarryPotter_"
-
-				// Player A's personal mute mic list
-				// Player A personally mute Player B's mic voice
-				"mute_mic"
-				{
-					// Player B Steam ID 64
-					"76561198835850999" 
-					{
-						// Player B Name
-						"Name"		"I am Retarded"
-					}
-					"1234567890"
-					{
-						"Name"		"xxxxxx"
-					}
-				}
-
-				// Player A's personal mute chat list
-				// Player A personally mute Player B's mic chat text
-				"mute_chat"
-				{
-					// Player B Steam ID 64
-					"76561198835850999"
-					{
-						// Player B Name
-						"Name"		"I am Retarded"
-					}
-					"1234567890"
-					{
-						"Name"		"xxxxxx"
-					}
-				}
-			}
-		}
-		```
-</details>
 	
 * Translation Support | 支援翻譯
 	```
@@ -122,6 +102,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.6 (2025-11-24)
+		* Update translation, cvars
+		* Remove data file
+		* Support database (MySQL & SQLite)
 
 	* v1.5 (2025-1-8)
 		* Fixed error
@@ -149,21 +134,51 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 玩家可以在個人列表上封鎖其他人的語音與聊天文字
 
 * 圖示
-	<br/>![smd_mute_player_list_1_zho](image/zho/smd_mute_player_list_1_zho.jpg)
-	<br/>![smd_mute_player_list_2_zho](image/zho/smd_mute_player_list_2_zho.jpg)
+	* 封鎖菜單
+	<br/>![zho/smd_mute_player_list_1_zho](image/zho/smd_mute_player_list_1.jpg)
+	<br/>![zho/smd_mute_player_list_2_zho](image/zho/smd_mute_player_list_2.jpg)
+	* 使用資料庫保存玩家的封鎖名單 (支援 MySQL & SQLite)
+	<br/>![zho/smd_mute_player_list_3_zho](image/zho/smd_mute_player_list_3.jpg)
 
 * 原理
 	* 每一位玩家可以輸入```!mutemenu```，選擇其他玩家採取動作
 		* 封鎖語音: 聽不見這位玩家發出的語音 (其他人依然能聽見)
 		* 封鎖聊天文字: 看不見這位玩家輸入的聊天文字 (其他人依然能看見)
-	* 儲存玩家的封鎖表於文件: [data/smd_mute_player_list.cfg](data/smd_mute_player_list.cfg)
-		* 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖表
-		* 不要修改此文件除非你知道這是在幹嗎
-	* 管理員不會被封鎖
+	* 使用資料庫保存玩家的封鎖名單 (支援 MySQL & SQLite)
+		* 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖名單
+	* 管理員不會被封鎖，詳細請查看指令
 
 * 用意在哪?
 	* 經常有惡意路人進來播放音樂或者輸入文字打廣告，這時候管理員不一定每次都在伺服器裡面
 	* 提供玩家自行選擇封鎖對方的語音或聊天文字，讓玩家開心玩遊戲
+
+* <details><summary>如何設定資料庫</summary>
+
+	* 以下方法二選一
+		1. MySQL: 支援跨伺服器儲值，設定指令 ``````smd_mute_player_list_database "mute_player_list"``````，然後設定文件 ```sourcemod/configs/databases.cfg```
+			```php
+			// 資料庫中自動創建表格，名稱是 "mute_player_list"
+			"mute_player_list"
+			{
+				"driver"			"mysql"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+			
+		2. SQLite: 本地資料庫儲值，設定指令 ```md_mute_player_list_database "mute_player_list"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+			```php
+			// 自動創建檔案: sourcemod/data/sqlite/mute_player_list.sq3
+			"mute_player_list"
+			{
+				"driver"			"sqlite"
+				"database"			"mute_player_list"
+			}
+			```
+</details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -175,21 +190,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		smd_mute_player_list_announce_type "1"
 
-		// 擁有這些權限的玩家，可以使用"封鎖語音" (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		// 擁有這些權限的玩家，可以使用"封鎖語音" (留白 = 任何人都能使用, -1:所有人不能使用)
 		smd_mute_player_list_flag_voice ""
 
-		// 擁有這些權限的玩家，可以使用"封鎖聊天文字" (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		// 擁有這些權限的玩家，可以使用"封鎖聊天文字" (留白 = 任何人都能使用, -1:所有人不能使用)
 		smd_mute_player_list_flag_chat ""
 
-		// 擁有這些權限的玩家，不會被其他玩家封鎖語音 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		// 擁有這些權限的玩家，不會被其他玩家封鎖語音 (留白 = 任何人都不會被封鎖, -1:所有人都可以被封鎖)
 		smd_mute_player_list_ignore_flag_voice "z"
 
-		// 擁有這些權限的玩家，不會被其他玩家封鎖聊天文字 (留白 = 任何人都不會被封鎖, -1:任何人都可以被封鎖)
+		// 擁有這些權限的玩家，不會被其他玩家封鎖聊天文字 (留白 = 任何人都不會被封鎖, -1:所有人都可以被封鎖)
 		smd_mute_player_list_ignore_flag_chat "z"
 
-		// 為1時，儲存玩家的封鎖表於文件: data/smd_mute_player_list.cfg
-		// 即使玩家離開或伺服器重啟，下次加入遊戲依然保留個人的封鎖表
-		smd_mute_player_list_save_data "1"
+		// 儲存玩家的封鎖清單數據庫. (支援 MySQL & SQLite)
+		smd_mute_player_list_database "mute_player_list"
 		```
 </details>
 
@@ -198,54 +212,5 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* **打開選單，選擇其他玩家採取動作，封鎖語音或聊天文字**
 		```php
 		sm_mutemenu
-		```
-</details>
-
-* <details><summary>數據文件</summary>
-
-	* [data/smd_mute_player_list.cfg](data/smd_mute_player_list.cfg)
-	* 不要修改此文件除非你知道這是在幹嗎
-		```php
-		"smd_mute_player_list"
-		{
-			// 玩家A的Steam ID 64
-			"76561198026784913"
-			{
-				// 玩家A的名稱
-				"Name"		"HarryPotter_"
-
-				// 玩家A的個人封鎖語音列表
-				// 玩家A對玩家B封鎖語音
-				"mute_mic"
-				{
-					// 玩家B的Steam ID 64
-					"76561198835850999" 
-					{
-						// 玩家B的名稱
-						"Name"		"智障俄羅斯玩家"
-					}
-					"1234567890"
-					{
-						"Name"		"xxxxxx"
-					}
-				}
-
-				// 玩家A的個人封鎖聊天文字列表
-				// 玩家A對玩家B封鎖聊天文字
-				"mute_chat"
-				{
-					// 玩家B的Steam ID 64
-					"76561198835850999"
-					{
-						// 玩家B的名稱
-						"Name"		"智障俄羅斯玩家"
-					}
-					"1234567890"
-					{
-						"Name"		"xxxxxx"
-					}
-				}
-			}
-		}
 		```
 </details>

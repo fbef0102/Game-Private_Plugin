@@ -28,6 +28,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
 	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
 	* If you don't know what "FastDL" is, please google it
+	* You can import custom dance model, animation sequnce adn music in [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
 </details>
 
 * Require | 必要安裝
@@ -223,6 +224,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
 	* 任何人輸入```!dance```可以跳舞，所有玩家都會看到你在跳舞
 	* 管理員輸入` ```!admin``` -> "玩家指令" -> "表情玩家" -> 指定玩家跳舞
+	* 可自定義與載入自己的跳舞模型與音樂資源，詳情看文件: [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
 	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
 	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 

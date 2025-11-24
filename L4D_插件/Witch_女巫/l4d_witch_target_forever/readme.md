@@ -86,6 +86,7 @@ Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊
 	* 假設: A玩家驚嚇了Witch，A玩家就是witch的原始目標，Witch開始追逐A玩家
 		* 如果B玩家擋住Witch的路線，在Witch改變目標抓傷B玩家之後，繼續追擊A玩家
 		* 如果C玩家丟火或膽汁到Witch，在Witch改變目標抓傷C玩家之後，繼續追擊A玩家
+		* Witch抓傷A玩家(原始目標)之後，Witch將撤退
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

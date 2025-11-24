@@ -18,9 +18,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Kick player if player not set options -> multiplayer -> custom server content -> allow all
 	* Force player to download your server's custom content via fastdl such as
-		* Custom music, ex: [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart)
-		* Custom materials, ex: [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals)
-		* Custom models, ex: [fortnite_dances_emotes_l4d](/L4D_插件/Fun_娛樂/fortnite_dances_emotes_l4d)
+		* Custom music: [l4d_MusicMapStart](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_MusicMapStart)
+		* Custom materials: [map-decals](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/map-decals)
+		* Custom models: [fortnite_dances_emotes_l4d](/L4D_插件/Fun_娛樂/fortnite_dances_emotes_l4d)
 </details>
 
 * Require | 必要安裝

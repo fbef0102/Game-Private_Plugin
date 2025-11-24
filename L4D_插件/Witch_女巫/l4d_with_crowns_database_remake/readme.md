@@ -7,7 +7,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Image | 圖示</summary>
 
-	* Record Top 5
+	* Record crowns
 	<br/>![l4d_with_crowns_database_remake_1](image/l4d_with_crowns_database_remake_1.jpg)
 	<br/>![l4d_with_crowns_database_remake_2](image/l4d_with_crowns_database_remake_2.jpg)
 	* Support MySql & Sqlite (支援資料庫，跨伺服器儲存)
@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Add statistic when a player killed the witch in one shot
-	* Save to database, do not modify [data/l4d_with_crowns_database_remake.txt](data/l4d_with_crowns_database_remake.txt)
+	* Support Database (MySQL & SQLite), data saved even if player disconnected from server or server restart
 	* Type ```!topc``` to see top 5 witch crowner
 	* Type ```!myc``` to see your crowns and rank
 </details>
@@ -42,7 +42,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		l4d_with_crowns_database_remake_survivor_required "2"
 
 		// Database to save crown to.
-		// Empty = Don't connect to database, use data/l4d_with_crowns_database_remake.txt only
 		// (MySQL & SQLite supported)
 		l4d_with_crowns_database_remake_sql "crowns"
 		```
@@ -78,13 +77,22 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			}
 			```
 
-		2. Data: Local Database, set ConVar ```l4d_with_crowns_database_remake_sql ""```
+		2. SQLite: Local Database, set ConVar ```l4d_with_crowns_database_remake_sql "crowns"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
-			// All datas saved to ```sourcemod/data/l4d_with_crowns_database_remake.txt```
+			// There would be a file created: sourcemod/data/sqlite/crowns.sq3
+			"crowns"
+			{
+				"driver"			"sqlite"
+				"database"			"crowns"
+			}
 			```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2025-11-24)
+		* Remove data file
+		* Optimize code
 
 	* v1.0h (2025-1-10)
 		* Remake code
@@ -103,7 +111,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 當玩家一槍擊殺Witch時，統計+1
-	* 儲存到數據庫當中，請不要修改文件: [data/l4d_with_crowns_database_remake.txt](data/l4d_with_crowns_database_remake.txt)
+	* 使用資料庫保存玩家的統計數據 (支援 MySQL & SQLite)，即使離開伺服器或伺服器重啟，玩家數據依然保存
 	* 輸入 ```!topc``` 查看前五名一槍擊殺Witch數量的玩家
 	* 輸入 ```!myc``` 查看自己一槍擊殺Witch的數量與排行榜
 
@@ -118,7 +126,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		l4d_with_crowns_database_remake_survivor_required "2"
 
 		// 儲存統計的資料庫
-		// 空 = 不使用資料庫, 只使用data/l4d_with_crowns_database_remake.txt
 		// (支援 MySQL & SQLite)
 		l4d_with_crowns_database_remake_sql "crowns"
 		```
@@ -154,8 +161,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			}
 			```
 			
-		2. Data: 本地資料庫，設定指令 ```l4d_with_crowns_database_remake_sql ""```
+		2. SQLite: 本地資料庫儲值，設定指令 ```l4d_with_crowns_database_remake_sql "crowns"```，然後設定文件 ```sourcemod/configs/databases.cfg```
 			```php
-			// 自動創建檔案: sourcemod/data/l4d_with_crowns_database_remake.txt
+			// 自動創建檔案: sourcemod/data/sqlite/crowns.sq3
+			"crowns"
+			{
+				"driver"			"sqlite"
+				"database"			"crowns"
+			}
 			```
 </details>

@@ -12,8 +12,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * Image | 圖示
+	* Player data
 	<br/>![l4d_ranking_system_1](image/l4d_ranking_system_1.jpg)
 	<br/>![l4d_ranking_system_2](image/l4d_ranking_system_2.jpg)
+	* Support Database (MySQL & SQLite)
+	<br/>![l4d_ranking_system_5](image/l4d_ranking_system_5.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -27,8 +30,35 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Non-Admin players can type ```!tag``` to change tag name (if enough exp)
 	<br/>![l4d_ranking_system_4](image/l4d_ranking_system_4.jpg)
 	* You can modify rank title and color in [configs/l4d_ranking_system.cfg](configs/l4d_ranking_system.cfg)
-	* Save Database (MySQL & SQLite supported)
-	<br/>![l4d_ranking_system_5](image/l4d_ranking_system_5.jpg)
+	* Support Database (MySQL & SQLite), data saved even if player disconnected from server or server restart
+</details>
+
+* <details><summary>How to Set Database</summary>
+
+	* Choose one of the following method
+		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
+			```php
+			// There would a data table named "Ranking_System_V3" in database
+			"rank"
+			{
+				"driver"			"mysql"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+
+		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
+			```php
+			// There would be a file created: sourcemod/data/sqlite/rank_system.sq3
+			"rank"
+			{
+				"driver"			"sqlite"
+				"database"			"rank_system"
+			}
+			```
 </details>
 
 * Require | 必要安裝
@@ -170,34 +200,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>How to Set Database</summary>
-
-	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would a data table named "Ranking_System_V3" in database
-			"rank"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
-
-		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would be a file created: sourcemod/data/sqlite/rank_system.sq3
-			"rank"
-			{
-				"driver"			"sqlite"
-				"database"			"rank_system"
-			}
-			```
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/l4d_ranking_system.phrases.txt
@@ -260,8 +262,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 擊殺殭屍與特感獲得經驗值與頭銜名稱，輸入!rank顯示排行榜選單
 
 * 圖示
+	* 玩家的資料
 	<br/>![zho/l4d_ranking_system_1](image/zho/l4d_ranking_system_1.jpg)
 	<br/>![zho/l4d_ranking_system_2](image/zho/l4d_ranking_system_2.jpg)
+	* 資料庫保存玩家的經驗值 (支援 MySQL & SQLite)
+	<br/>![zho/l4d_ranking_system_5](image/zho/l4d_ranking_system_5.jpg)
 
 * 原理
 	* 擊殺殭屍與特感獲得經驗值，根據玩家的經驗值獲得對應的Rank頭銜名稱
@@ -274,8 +279,35 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![zho/l4d_ranking_system_3](image/zho/l4d_ranking_system_3.jpg)
 	* 非管理員的玩家可以輸入 ```!tag``` 修改自己的稱號 (必須達到一定的經驗值)
 	<br/>![zho/l4d_ranking_system_4](image/zho/l4d_ranking_system_4.jpg)
-	* 使用資料庫保存玩家的經驗值 (支援 MySQL & SQLite)
-	<br/>![zho/l4d_ranking_system_5](image/zho/l4d_ranking_system_5.jpg)
+	* 使用資料庫保存玩家的經驗值 (支援 MySQL & SQLite)，即使離開伺服器或伺服器重啟，玩家數據依然保存
+
+* <details><summary>如何設定資料庫</summary>
+
+	* 以下方法二選一
+		1. MySQL: 支援跨伺服器儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+			```php
+			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
+			"rank"
+			{
+				"driver"			"mysql"
+				"host"				"x.x.x.x"
+				"database"			"yourdatabase"
+				"user"				"youruser"
+				"pass"				"yourpass"
+				"port"				"yourport"
+			}
+			```
+			
+		2. SQLite: 本地資料庫儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+			```php
+			// 自動創建檔案: sourcemod/data/sqlite/rank_system.sq3
+			"rank"
+			{
+				"driver"			"sqlite"
+				"database"			"rank_system"
+			}
+			```
+</details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -391,32 +423,4 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_tag <player name>
 		```
-</details>
-
-* <details><summary>如何設定資料庫</summary>
-
-	* 以下方法二選一
-		1. MySQL: 支援跨伺服器儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
-			"rank"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
-			
-		2. SQLite: 本地資料庫儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 自動創建檔案: sourcemod/data/sqlite/rank_system.sq3
-			"rank"
-			{
-				"driver"			"sqlite"
-				"database"			"rank_system"
-			}
-			```
 </details>

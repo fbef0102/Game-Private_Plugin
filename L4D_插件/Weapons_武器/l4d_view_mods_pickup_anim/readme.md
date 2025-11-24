@@ -47,6 +47,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // Press which button to trigger animation, 131072=Shift, 32=Use, 8192=Reload, 524288=Middle Mouse
         // You can add numbers together, ex: 139264=Shift + Reload
         l4d_view_mods_pickup_anim_buttons "8192"
+
+        // If 1, enable debug mode (inspect animation sequences of the weapon currently in hand)
+        l4d_view_mods_pickup_anim_debug "0"
         ```
 </details>
 
@@ -97,6 +100,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 使用哪個按鍵觸發伸手動作 (檢視武器動畫)? 131072=Shift鍵, 32=E鍵, 8192=裝彈鍵, 524288=滾輪鍵
 		// 可以數字相加, 譬如: 139264=必須同時按 "Shift鍵 + 裝彈鍵"
         l4d_view_mods_pickup_anim_buttons "8192"
+
+        // 為1時, 啟用debug模式 (顯示目前武器的動畫sequence)
+        l4d_view_mods_pickup_anim_debug "0"
         ```
 </details>
 

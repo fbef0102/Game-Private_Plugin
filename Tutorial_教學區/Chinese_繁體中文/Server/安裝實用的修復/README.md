@@ -122,6 +122,11 @@
          ```
 
    * (L4D1/2) [witch_pipebomb_exploit_fix_&_death_optmizer](https://forums.alliedmods.net/showthread.php?t=342000): 修復當一群殭屍與witch一起被土製炸彈,瓦斯桶,榴彈...爆炸物炸飛時, Witch會消失
+
+   * (L4D2) [l4d2_vscript_purifier](https://github.com/Mineralcr/L4D2_Public_Plugins/tree/main/l4d2_vscript_purifier): 阻止專用伺服器上三方地圖VScript腳本污染的問題
+      * 即在地圖A上運行了地圖B的腳本，這通常是由於地圖作者在腳本水平方面參差不齊導致的
+         * 舉例: 在地圖A預先使用地圖B的自製模型，導致模型出現error
+      * 如果你的伺服器安裝非常多三方圖，需要安裝此插件
 </details>
 
 * <details><summary><b>修復伺服器崩潰</b></summary>

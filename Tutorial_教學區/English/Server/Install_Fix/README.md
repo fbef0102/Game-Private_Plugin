@@ -112,6 +112,12 @@
          ```
 
    * (L4D1/2) [witch_pipebomb_exploit_fix_&_death_optmizer](https://forums.alliedmods.net/showthread.php?t=342000): Fixes exploit throwing pipebomb at witch with horde, cause with to disappear
+
+   * (L4D2) [l4d2_vscript_purifier](https://github.com/Mineralcr/L4D2_Public_Plugins/tree/main/l4d2_vscript_purifier): Prevent third-party map script contamination on dedicated servers
+      * The script for map B was run on map A. This is usually due to uneven script proficiency among map authors
+      * Common pollution scripts include director_mase-addon, scriptedmode-addon, mapspawn-addon, coop, realism, and many other global loading scripts
+         * e.g., Pre-loading custom models from Map B in Map A resulted in model errors.
+      * Install ths plugin if have lots of third-party maps
 </details>
 
 * <details><summary><b>Server Crash</b></summary>
