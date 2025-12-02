@@ -41,13 +41,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Related | 相關插件</summary>
 
-    1. [lfd_noTeamSay](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/lfd_noTeamSay): Redirecting all 'say_team' messages to 'say'
-        * 沒有隊伍頻道，任何人打字說話一律大家都看得見
-    2. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
+    1. [GagMuteBanEx](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GagMuteBanEx): gag & mute & ban - Ex
         * 封鎖/禁音/禁字-強化版
-    3. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
+    2. [savechat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/savechat): Records player chat messages to a file
         * 紀錄玩家的聊天紀錄到文件裡
-    4. [l4d_invalid_name](/L4D_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player if has invalid name via Regular Expressions
+    3. [l4d_invalid_name](/L4D_插件/Anti_Griefer_防惡意路人/l4d_invalid_name): Kick player if has invalid name via Regular Expressions
         * 名字封鎖表，任何人的名字有髒話或敏感詞彙，會踢出玩家
 </details>
 

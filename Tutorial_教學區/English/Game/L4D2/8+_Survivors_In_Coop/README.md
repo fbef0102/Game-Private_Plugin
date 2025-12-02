@@ -6,6 +6,7 @@
   - [Require](#require)
   - [Optional](#optional)
   - [Fun](#fun)
+  - [Question](#question)
   - [Others](#others)
 	
 - - - -
@@ -167,6 +168,14 @@
     * [Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)
     * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
     * [Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin): Private Plugin List.
+
+- - - -
+## Question
+* Q1: 5+ players unable to join server via connect ip
+    * Answer: Please install l4dtoolz and l4d_unreservelobby and check if they are running
+
+* Q2: 5+ players can join server but unable to join survivor team or infected team
+    * Answer: Install multi slots plugin or multi infecteds plugin
 
 - - - -
 ## Others

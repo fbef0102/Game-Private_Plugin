@@ -122,16 +122,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // 0=關閉插件, 1=啟動插件
         1vSpecials_enable "1"
 
-        // Smoker 抓到倖存者後造成20點傷害並自殺 (-1=關閉這項功能)
+        // Smoker 抓到倖存者後造成此數值傷害並自殺 (-1=關閉這項功能)
         1vSpecials_smoker_attack_dmg "20"
 
-        // Hunter 抓到倖存者後造成25點傷害並自殺 (-1=關閉這項功能)
+        // Hunter 抓到倖存者後造成此數值傷害並自殺 (-1=關閉這項功能)
         1vSpecials_hunter_attack_dmg "25"
 
-        // Jockey 抓到倖存者後造成25點傷害並自殺 (-1=關閉這項功能)
+        // Jockey 抓到倖存者後造成此數值傷害並自殺 (-1=關閉這項功能)
         1vSpecials_jockey_attack_dmg "30"
 
-        // Charger 抓到倖存者後造成25點傷害並自殺 (-1=關閉這項功能)
+        // Charger 抓到倖存者後造成此數值傷害並自殺 (-1=關閉這項功能)
         1vSpecials_charger_attack_dmg "35"
 
         // 為1時，特感自殺前提示剩餘的血量

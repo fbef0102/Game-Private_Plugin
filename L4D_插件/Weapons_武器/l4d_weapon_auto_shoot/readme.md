@@ -35,6 +35,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         shotgun spas
         grenade launcher // if change clip
         ```
+    * Auto reload weapons if clip is 0 while holding ATTACK1 (Mouse1)
 </details>
 
 * Require | 必要安裝
@@ -98,6 +99,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         自動連發戰鬥散彈槍
         榴彈發射器 // 如果彈夾被改變
         ```
+    * 彈夾為0時左鍵不用放掉，武器會自動裝彈
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

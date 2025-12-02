@@ -6,6 +6,7 @@
   - [必要檔案](#必要檔案)
   - [額外檔案](#額外檔案)
   - [娛樂檔案](#娛樂檔案)
+  - [問題](#問題)
   - [其他](#其他)
 	
 - - - -
@@ -173,6 +174,14 @@
     * [Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)
     * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
     * [Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin): 私人插件列表 (需付費)
+
+- - - -
+## 問題
+* 問題1: 第五位以上玩家進不去伺服器
+    * 答: 沒裝好l4dtoolz與l4d_unreservelobby
+
+* 問題2: 第五以上玩家可以加入伺服器但無法遊玩倖存者或特感
+    * 答: 沒有裝好多人多特感插件
 
 - - - -
 ## 其他
