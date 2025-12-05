@@ -479,7 +479,8 @@
 - - - -
 ## 如何成為伺服器的管理員
 * <details><summary>說明 (點我展開)</summary>
-   1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址"
+
+   1. 首先要知道自己的steam的ID為何，打開steam平台，到自己的steam個人頁面，右鍵點擊"複製頁面網址" 
       <br/>![image](image/34.jpg)
 
    2. 點擊[Steam ID Finder](https://steamid.xyz/)，將複製的網址貼上去提交，會得到自己的steam ID
@@ -491,7 +492,7 @@
       "STEAM_X:X:XXXXXX" "99:z" //這位玩家是管理員
       ```
       
-   4. 儲存，重啟伺服器，進入遊戲之後聊天視窗輸入!admin，如果左邊有介面跑出來代表已經成功為伺服器的管理員
+   4. 儲存，重啟伺服器，進入遊戲之後聊天視窗輸入```!admin```，如果左邊有介面跑出來代表已經成功為伺服器的管理員
       <br/>![image](image/36.jpg)
 </details>
 
@@ -500,6 +501,7 @@
 * <details><summary>編譯流程說明 (點我展開)</summary>
 
    1. 此處用Windows系統方便操作，將想要編譯的源碼檔案丟入```addons/sourcemod/scripting/``` 資料夾裡面
+      - 不建議修改檔案名稱，不要取中文
       - 源碼檔案的副檔名是.sp
       - 請先開啟顯示副檔名
       <br/>![image](image/37.jpg)
@@ -518,13 +520,13 @@
 
    1. 無論是自己編譯好的插件或是從網路上下載的插件，將檔案放入```addons/sourcemod/plugins```
       - 插件檔案的副檔名是.smx
-      - 插件名稱可自行修改，不要取中文，想自己吃鱉就試試
+      - 不建議修改插件名稱，不要取中文
 
    2. 若安裝包有其他的文件，放入相同資料夾即可
       - 翻譯文件.txt 放入addons/sourcemod/translations
          <details><summary>判斷是否為翻譯文件 (點我展開)</summary>
-         此處為範例
-         
+
+         檔案名稱: xxxx.phrases.txt
          ```
          "Phrases"
          {
@@ -549,8 +551,8 @@
          
       - Gamedata文件.txt 放入addons/sourcemod/gamedata
          <details><summary>判斷是否為Gamedata文件 (點我展開)</summary>
-         此處為範例
          
+         檔案名稱: xxxx.txt
          ```
          "Games"
          {
@@ -598,9 +600,8 @@
 
    > 只要不是自己手殘或眼殘，通常依照插件說明書指示都會成功載入
    1. 到伺服器後台上，輸入```sm plugins info xxxxxx```
-      - xxxxxx為插件的檔案名稱
-         <details>
-         <summary>範例 (點我展開)</summary>
+      - xxxxxx為插件的檔案名稱 (不用寫副檔名)
+         <details><summary>範例 (點我展開)</summary>
 
          ```php
          ] sm plugins info trigger_horde_notify
@@ -618,9 +619,9 @@
 
    3. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，必須直到沒有error為止
       * 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
-         <details>
-         <summary>範例 (點我展開)</summary>
+         <details><summary>範例 (點我展開)</summary>
 
+         檔案名稱: errors_xxxxx.log
          ```php
          L 03/28/2022 - 02:24:27: [SM] Exception reported: g_pDirector not available ().
          L 03/28/2022 - 02:24:27: [SM] Blaming: left4dhooks.smx
@@ -647,6 +648,7 @@
 - - - -
 ## 如何更新插件
 * <details><summary>說明 (點我展開)</summary>
+
    1. 當發現作者更新了插件版本之後
       - 可以選擇自己拿到新版本的源碼.sp檔案進行編譯
       - 或者直接拿編譯好的.smx檔案
@@ -810,10 +812,10 @@
 * <details><summary>使用命令方式</summary>
 
    * 法一：伺服器後台輸入命令名稱
-      - 有些命令不支援伺服器後台
+      - 有些命令無法於伺服器後台輸入，自行注意
          ```php
-      ] sm_admin
-      [SM] This command can only be used in-game.
+         ] sm_admin
+         [SM] This command can only be used in-game.
          ```
    * 法二：遊戲內玩家在控制台輸入命令
       ```php
@@ -925,38 +927,26 @@
 ## 專業術語介紹
 * <details><summary>列表 (點我展開)</summary>
 
-   * 客戶端 = client 或 Player
-      * 開啟遊戲的玩家
-   * 伺服器端 = 服務器 = Server
-      * 伺服器本身
-   * 專屬伺服器 = Dedicated Server
-      * 過其他三方軟體開啟伺服器
-   * 區域伺服器 = Local Server = Listen Server
-      * 客戶端自己打開遊戲大廳創建遊戲房
-   * 遊戲控制台 = Game Console
-      * 客戶端的控制台
-   * 伺服器後台 = Server Console
-      * 伺服器端的控制台
-   * .smx 插件 = Plugin
-      * 位於sourcemod/plugins裡面的檔案
-   * .sp 源碼 = Source Code
-      * 位於sourcemod/scripting裡面的檔案，是插件的源碼
-   * extension
-      * 位於sourcemod/extensions裡面的檔案
-   * 插件翻譯文件 = translation file
-      * 位於sourcemod/translations裡面的檔案，是幫插件翻譯各國語言的文件
-   * 插件輔助文件 = gamedata file
-      * 位於sourcemod/gamedata裡面的檔案，是幫插件抓取windows與linux各種奇葩涵式的文件
-   * 插件cfg文件 = plugin cfg file
-      * 位於cfg/sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令
-   * 記錄檔 = log file
-      * 位於sourcemod/logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件錯誤原因
-   * 指令 = Cvar = ConVar
-      * 官方原有或插件產生的Cvar，譬如sv_cheats、sv_maxplayers
-   * 命令 = Cmd = Command
-      * 插件產生的Command，譬如sm_admin、!ban、/kick
-   * 參數 = parameter
-      * 給予命令所需要的資料
+   | 中文        	                     | 英文        		                   | 說明                                                  |
+   | ---------------------------------|:----------------------------------:|:----------------------------------------------------:|
+   | 客戶端        	                  | client、player   	                  | 	伺服器內的玩家，AI Bot也算 |
+   | 伺服器端、服務器                  | Server      					            |   伺服器本身         |
+   | 專屬伺服器                        | Dedicated Server      					|   過其他三方軟體開啟伺服器         |
+   | 區域伺服器、本地房、本地服、區域房     | Local Server、Listen Server       |  玩家自己打開遊戲創立房間->選擇區域(本地) |
+   | 遊戲控制台                        | Game Console    	                  |   客戶端的控制台，打開遊戲後再打開遊戲的控制台  |
+   | 伺服器後台、伺服器控制台         | Server Console    	                   |   伺服器後台，輸入各種指令操作伺服器的地方  |
+   | .smx 插件                      | Plugin    	                           |   位於addons/sourcemod/plugins裡面的檔案，是已編譯完成的文件  |
+   | .sp 源碼                       | Source Code    	                         |   位於addons/sourcemod/scripting裡面的檔案，是插件的源碼  |
+   | 掛勾、模塊                      | Extension    	                           |   位於addons/sourcemod/extensions裡面的檔案，輔助伺服器用  |
+   | 插件的翻譯文件                      | Translation file    	             |   位於addons/sourcemod/translations裡面的檔案，是幫插件翻譯各國語言的文件  |
+   | 插件的簽證、簽名                   | Gamedata file    	               |   位於addons/sourcemod/gamedata裡面的檔案，是幫插件抓取windows與linux系統各種奇葩涵式的文件  |
+   | 插件的cfg文件                     | Plugin cfg file    	               |  位於cfg/sourcemod裡面的檔案，是插件自動產生的文件，裡面都是插件自帶的指令  |
+   | 記錄檔、伺服器的日誌、紀錄文件     | Log file    	                     |  位於addons/sourcemod/logs裡面的檔案，紀錄伺服器發生的事情，也會記錄插件的資訊或錯誤原因  |
+   | 指令                           | Cvar、ConVar    	                     |  遊戲官方原有或插件產生Cvar，譬如sv_cheats、sv_maxplayers  |
+   | 命令                           | Cmd、Command    	                     |  插件產生的Cmd，譬如sm_admin、!ban  |
+   | 參數                            | Parameter    	                        |  給予命令所需要的資料  |
+   | 伺服器的啟動選項、伺服器的啟動參數    | Server Launch Parameter、Server Command Line |  啟動伺服器程式時設定的參數  |
+
 </details> 
 
 - - - -

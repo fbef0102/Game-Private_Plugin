@@ -50,6 +50,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_finaltimeleft
 		sm_finaltime
 		```
+
+    * **Call rescue vehicle immediately. (Adm required: ADMFLAG_ROOT)**
+        ```php
+        sm_callrescue
+        ```
 </details>
 
 * Apply to | 適用於
@@ -125,4 +130,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_finaltimeleft
 		sm_finaltime
 		```
+
+    * **強制呼叫救援載具來臨 (救援開始之後才能使用) (權限: ADMFLAG_ROOT)**
+        ```php
+        sm_callrescue
+        ```
 </details>

@@ -23,6 +23,12 @@
 		"zho"			"[{olive}Emotes{default}] 你沒有權限可以使用表情!"
 		"chi"			"[{olive}Emotes{default}] 你没有权限可以使用表情!"
 	}
+	"NO_EMOTES_CMD_FLAG"
+	{
+		"en"			"[{olive}Emotes{default}] You don't have access to use dance ID!!"
+		"zho"			"[{olive}Emotes{default}] 你沒有權限使用跳舞ID!"
+		"chi"			"[{olive}Emotes{default}] 你没有权限使用跳舞ID!"
+	}
 	
 	"MUST_BE_ALIVE"
 	{
@@ -71,11 +77,12 @@
 
 	"INVALID_EMOTE_ID"
 	{
-		"en"			"[{olive}Emotes{default}] Invalid Emote ID, Should be between (1-84)"
-		"tr"			"[{olive}Emotes{default}] Geçersiz Emote ID, (1-84) arasında olmalıdır"	
-		"es"			"[{olive}Emotes{default}] Emote ID inválida, Debe estar entre (1-84)"
-		"zho"			"[{olive}Emotes{default}] 表情ID不合法，應介於1~84!"
-		"chi"			"[{olive}Emotes{default}] 表情ID不合法，应介于1~84!"
+		"#format"		"{1:d}"	
+		"en"			"[{olive}Emotes{default}] Invalid Emote ID, Should be between (1-{1})"
+		"tr"			"[{olive}Emotes{default}] Geçersiz Emote ID, (1-{1}) arasında olmalıdır"	
+		"es"			"[{olive}Emotes{default}] Emote ID inválida, Debe estar entre (1-{1})"
+		"zho"			"[{olive}Emotes{default}] 表情ID不合法，應介於1~{1}!"
+		"chi"			"[{olive}Emotes{default}] 表情ID不合法，应介于1~{1}!"
 	}
 
 	"INVALID_BUSY"
@@ -152,11 +159,9 @@
 
 	"EMOTE_PLAYER"
 	{
-		"en"			"Emote player"
-		"tr"			"Emote oyuncu"
-		"es"			"Reproductor de Emotes"
-		"zho"			"表情玩家"
-		"chi"			"表情玩家"
+		"en"			"Emote/Dance player"
+		"zho"			"設置玩家表情/跳舞"
+		"chi"			"设置玩家表情/跳舞"
 	}	
 
 	"SELECT_EMOTE"

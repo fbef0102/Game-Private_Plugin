@@ -12,6 +12,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 	L4D2 Dedicated Server
 	CSS Dedicated Server
+	Alien Swarm Dedicated Server
 	```
 
 * Image | 圖示
@@ -22,10 +23,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Run plugin and let server auto-generate ```cfg/sourcemod/sm_PlayerTime.cfg```
-		* -> Change game APP ID ```sm_playtime_appid xxx``` -> Save and restart server
 	* Display Name, country, city, play time, lerp on client connection
-	* Played time is from game statistics
+	* Played time is from steam database (game statistics), more details see [steamdb.info](https://steamdb.info/)
 	* You can translate country and city name manually (write in translation file)
 </details>
 
@@ -47,9 +46,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/sm_PlayerTime.cfg
 		```php
-		// Application ID of current game. CS:S (240), L4D2 (550)
-		sm_playtime_appid "550"
-
 		// If 1, Announce the time played when player joins the server.
 		sm_playtime_announce "1"
 
@@ -91,6 +87,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.6 (2025-12-5)
+		* Support Alien Swarm
+
 	* v2.5 (2025-4-7)
 		* Translate country and city name
 
@@ -129,9 +128,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![zho/sm_PlayerTime_2](image/zho/sm_PlayerTime_2.jpg)
 
 * 原理
-	* 安裝插件後先運行伺服器，之後會自動產生文件: ```cfg/sourcemod/sm_PlayerTime.cfg```
-		* -> 修改指令 APP ID ```sm_playtime_appid xxx``` -> 儲存並重啟
 	* 玩家進來伺服器之時，抓取他的實際遊玩時數 (與'Steam個人檔案上顯示的遊戲時數'會有所不同)
+	* 遊戲時數來自Steam的資料庫 (遊戲統計資料)，詳細內容請看[steamdb.info](https://steamdb.info/)
 	* 即使玩家的steam個人資料或頁面設定為未公開，依然可以抓取實際遊玩時數
 	* 可以顯示中文的地區與城市名稱 (需要自行翻譯)
 
@@ -145,11 +143,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/sm_PlayerTime.cfg
 		```php
-		// 遊戲專屬的ID
-		// 安裝在L4D2寫550
-		// 安裝在CS:S寫240
-		sm_playtime_appid "550"
-
 		// 為1時，玩家連線時顯示遊戲時數
 		sm_playtime_announce "1"
 

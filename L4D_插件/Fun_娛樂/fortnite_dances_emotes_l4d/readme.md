@@ -27,13 +27,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
 	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
-	* If you don't know what "FastDL" is, please google it
 	* You can import custom dance model, animation sequnce adn music in [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
+	* Use FastDL to make player download custom dance models and music files while joining server
 </details>
 
 * Require | 必要安裝
-	1. 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), othersie this plugin will not work 
-		* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL)，否則此插件會無效 (不知道什麼是FastDL請自行Google)
+	1. 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL): Players download custom files while joining server
+		* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL): 玩家進入伺服器時自動下載自製的文件 (不知道什麼是FastDL請自行Google)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
@@ -57,6 +57,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// Sound volume for the emotes/dances. [0.0-1.0]
 		fortnite_dances_emotes_l4d_sound_volume "1.0"
+
+		// Players with these flags have access to use sm_dance [ID] cmd to dance. (Empty = Everyone, -1: Nobody)
+		fortnite_dances_emotes_l4d_flag_dance_cmd ""
 
 		// Players with these flags have access to use emotes menu. (Empty = Everyone, -1: Nobody)
 		fortnite_dances_emotes_l4d_flag_emote_menu ""
@@ -90,7 +93,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_dance
 		```
 
-	* **Adm forces someone to dance, check source code to see Emote ID (Adm required: ADMFLAG_ROOT)**
+	* **Dance for specific Emote ID, check data file to see Emote ID**
+		```php
+		sm_dances [Emote ID]
+		sm_dances [Emote ID]
+		```
+
+	* **Adm forces someone to dance, check data file to see Emote ID (Adm required: ADMFLAG_ROOT)**
 		```php
 		sm_setdances <#userid|name> [Emote ID]
 		sm_setdance <#userid|name> [Emote ID]
@@ -100,7 +109,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How do I set up files</summary>
 
 	1. Preparation
-		* Download all files(addons, materials, models, and sound).
+		* Download all files(addons, models, and sound).
 		* Put them in your game server
 			* If L4D1, ```Left 4 Dead Dedicated Server/left4dead```
 			* If L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
@@ -154,6 +163,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.0h (2025-12-5)
+		* Update cvars, cmds, data, translation
+		* Player can now use cmd to dance for specific Emote ID
 
 	* v1.9h (2025-10-16)
 		* You can add more custom dance model in data file
@@ -223,10 +236,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 任何人輸入```!dance```可以跳舞，所有玩家都會看到你在跳舞
-	* 管理員輸入` ```!admin``` -> "玩家指令" -> "表情玩家" -> 指定玩家跳舞
+	* 管理員輸入` ```!admin``` -> "玩家指令" -> "設置玩家表情/跳舞" -> 指定玩家跳舞
+	* 玩家的模組做特殊的動作，即使是訂閱工作仿的角色皮膚模組，依然能做表情與舞蹈
 	* 可自定義與載入自己的跳舞模型與音樂資源，詳情看文件: [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
-	* 玩家的模組做特殊的動作，總共有80多種表情與舞蹈
-	* 即使是使用自製的角色模組，依然能做表情與舞蹈
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -241,10 +253,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 跳舞音樂的音量 [數值介於 0.0~1.0] (1.0是最大了)
 		fortnite_dances_emotes_l4d_sound_volume "1.0"
 
-		// 擁有這些權限的玩家，才可以使用表情 (留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的玩家，可以使用命令: sm_dance [ID] (留白 = 任何人都能, -1: 無人)
+		fortnite_dances_emotes_l4d_flag_dance_cmd ""
+
+		// 擁有這些權限的玩家，可以使用表情 (留白 = 任何人都能, -1: 無人)
 		fortnite_dances_emotes_l4d_flag_emote_menu ""
 
-		// 擁有這些權限的玩家，才可以使用跳舞 (留白 = 任何人都能, -1: 無人)
+		// 擁有這些權限的玩家，可以使用跳舞 (留白 = 任何人都能, -1: 無人)
 		fortnite_dances_emotes_l4d_flag_dance_menu ""
 
 		// 為1時，跳舞時隱藏武器
@@ -273,7 +288,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_dance
 		```
 
-	* **管理員指定玩家強制跳舞 (權限: ADMFLAG_ROOT)**
+	* **指定舞蹈ID直接跳舞, 跳舞ID請查看data文件**
+		```php
+		sm_dances [Emote ID]
+		sm_dances [Emote ID]
+		```
+
+	* **管理員指定舞蹈ID並強制玩家跳舞, 跳舞ID請查看data文件 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_setdances <#userid|name> [Emote ID]
 		sm_setdance <#userid|name> [Emote ID]
@@ -283,7 +304,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>如何安裝與設定檔案</summary>
 
 	1. 準備清單
-		* 下載所有文件（插件和模組檔案與音樂）。
+		* 下載所有文件（跳舞模組與音樂檔案）。
 		* 將它們放入遊戲伺服器資料夾中
 			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead```
 			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2```
