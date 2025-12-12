@@ -193,11 +193,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-	1. [l4d2_sb_fix](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Improve Survivor Bot's behavior and IQ fix
-		> 強化AI Bot的智商與行為
+	* [l4d2_sb_fix](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Improve Survivor Bot's behavior and IQ fix
+		* 強化AI Bot的智商與行為
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1h (2025-12-13)
+		* Remake bot system and remove redundant code
+		* Optimize game performance and reduce server laggy
 
 	* v1.0h (2025-9-21)
 		* Update cvars

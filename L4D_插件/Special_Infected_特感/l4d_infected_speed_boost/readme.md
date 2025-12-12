@@ -17,6 +17,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     <br/>![l4d_infected_speed_boost_1](image/l4d_infected_speed_boost_1.gif)
     <br/>![l4d_infected_speed_boost_2](image/l4d_infected_speed_boost_2.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Special Infecteds get speed boost while duck or climbing the ladder
+	    * e.g., Hunter climb faster when duck, Tank climb ladder faster
+    * Apply to AI infected player and real infected player
+</Chargedetails>
+
 * Require | 必要安裝
     1. [Lagged Movement - Plugin Conflict Resolver](https://forums.alliedmods.net/showthread.php?t=340345)
 
@@ -95,7 +102,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 用意在哪?
     * 加快特感攻擊速度，勿浪費時間爬特感梯子
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
     * cfg/sourcemod/l4d_infected_speed_boost.cfg
         ```php

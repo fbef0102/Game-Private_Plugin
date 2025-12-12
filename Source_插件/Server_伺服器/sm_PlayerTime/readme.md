@@ -12,7 +12,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 	L4D2 Dedicated Server
 	CSS Dedicated Server
-	Alien Swarm Dedicated Server
+	Alien Swarm (and Alien Swarm SDK) Dedicated Server
 	```
 
 * Image | 圖示

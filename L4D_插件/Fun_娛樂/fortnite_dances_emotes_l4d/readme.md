@@ -73,8 +73,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, Hide enemy players when dancing
 		fortnite_dances_emotes_l4d_hide_enemies "0"
 
-		// 0=Player can move while dancing
-		// 1=Player can not move while dancing + teleport back to the exact position when he started to dance.
+		// 0=Player can move freely while dancing (The attached models such as hats won't follow the dance movement)
+		// 1=Player can't move while dancing. (The attached models such as hats will follow the dance movement)
 		fortnite_dances_emotes_l4d_teleportonend "0"
 
 		// Sets the playback speed of the animation. [0.0-1.0]
@@ -268,8 +268,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		//為1時，跳舞時隱藏敵人
 		fortnite_dances_emotes_l4d_hide_enemies "0"
 
-		// 0=跳舞時可以移動
-		// 1=跳舞時不可移動，跳舞完畢後回到原始的位置
+		// 0=跳舞時可以移動 (玩家的裝飾譬如帽子插件不會跟隨跳舞而有變化)
+		// 1=跳舞時不可移動，跳舞完畢後回到原始的位置 (玩家的裝飾譬如帽子插件會跟隨跳舞而有位置變化)
 		fortnite_dances_emotes_l4d_teleportonend "0"
 
 		// 跳舞速度 [數值介於 0.0~1.0]

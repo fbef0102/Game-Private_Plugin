@@ -16,8 +16,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Image | 圖示
 	<br/>![l4d_kick_stuck_infected_1](image/l4d_kick_stuck_infected_1.jpg)
 
+* <details><summary>How does it work?</summary>
+
+	* When AI special infected spawns, start a timer
+	* If AI special infecteds don't attack and being stuck on the same position, once time out, they will be kicked or killed
+	* If AI special infecteds get hurt or attack survivor or move out the same position, timer resert
+	* Won't affect real infected player and AI Tank
+</Chargedetails>
+
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors))
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -88,9 +97,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 AI 特感一段時間內不攻擊或卡住將會被處死
 
 * 原理
-	* 當AI 特感復活時就會開始計時，在這段時間內如果不攻擊且原地卡住，將會被處死
+	* 當AI 特感復活時就會開始計時，在這段時間內如果原地卡住，將會被處死或踢出遊戲
 	* 當AI 特感受到傷害、發動攻擊、走出原地，則重新計時
-	* 不影響真人特感，Tank不算
+	* 不影響真人特感，不影響 AI Tank
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
