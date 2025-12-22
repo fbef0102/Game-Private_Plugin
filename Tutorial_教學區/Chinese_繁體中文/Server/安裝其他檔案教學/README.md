@@ -211,6 +211,20 @@
 		* (專屬伺服器) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
 </details>
 
+* <details><summary>問題1: sv_maxplayers與maxplayers有捨差別?</summary>
+
+	* l4dtoolz的指令```sv_maxplayers```: 設置真人玩家加入伺服器的人數 (不包含AI Bots)
+	* 伺服器啟動選項```-maxplayers```或```+sv_setmax```: 設置伺服器內真人玩家+AI bots的人數上限
+	* 舉例: 
+		```c
+		//設置
+		指令: sv_maxplayers 16
+		啟動選項: -maxplayers 31
+		```
+		* 只有16個真人玩家可以加入伺服器，任何第17位玩家會被擋住 (無法進入伺服器)
+		* 伺服器可以同時存在31位真人玩家與AI玩家(包含特感+倖存者+旁觀者)，任何第32位AI特感或是倖存者將會被擋住 (無法復活也不無法生成)
+</details>
+
 - - - -
 ## 安裝TickrateEnabler
 * <details><summary>TickrateEnabler 用途是什麼? (點我展開)</summary>

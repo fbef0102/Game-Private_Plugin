@@ -216,6 +216,19 @@
 		* (Dedicated server) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): Removes lobby reservation when server is full, allow 9+ players to join server
 </details>
 
+* <details><summary>Q&A 1: What is the differece between sv_maxplayers and maxplayers</summary>
+
+	* l4dtoolz cvar```sv_maxplayers```: How many real players can join server (Not including AI Bots) 
+	* l4dtoolz request server launch option```-maxplayers``` or ```+sv_setmax```: Max. clients/players, how many real players + ai bots allowed in server
+	* For example:
+		```c
+		cvar: sv_maxplayers 16
+		server launch option: -maxplayers 31
+		```
+		* Only 16 real players can join server, any 17th real player will be blocked (unable to join server)
+		* There can be 31 AI + real players(infecteds + surviviors + specatotors) in the server, any 32th AI infected or survivor will be blocked (unable to spawn)
+</details>
+
 - - - -
 ## TickrateEnabler
 * <details><summary>What is TickrateEnabler?</summary>

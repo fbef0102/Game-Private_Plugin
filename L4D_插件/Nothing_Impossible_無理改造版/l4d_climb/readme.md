@@ -12,8 +12,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * Video | 影片展示
-  * [Demo](https://youtu.be/MPtEzoKdJXc)
-  * [Bully Maguire「惡霸麥奎爾」蜘蛛人](https://www.youtube.com/shorts/qJetU6lAGzM)
+* [Demo](https://youtu.be/MPtEzoKdJXc)
+* [Bully Maguire「惡霸麥奎爾」蜘蛛人](https://www.youtube.com/shorts/qJetU6lAGzM)
 
 * Image | 圖示
 	<br/>![l4d_climb_1](image/l4d_climb_1.jpg)
@@ -22,10 +22,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Press Jump+E to climb the wall
+	* Remake code and support Luxs-Model-Changer
 </details>
 
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>Support | 支援插件</summary>
+
+	* [Luxs-Model-Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): Custom models
+		* 爬行的模型換成自製模型
+
+	* [readyup](/L4D_插件/Server_伺服器/readyup): Only climb wall while ready stage
+		* 只有在準備階段才可以爬牆
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -101,17 +111,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	translations/l4d_climb.phrases.txt
 	```
 
-* <details><summary>Related | 相關插件</summary>
-
-    1. [readyup](/L4D_插件/Server_伺服器/readyup): Ready-up plugin
-        * 所有玩家準備才能開始遊戲的插件
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.4h (2024-1-5)
-		* Update cvar
+	* v1.5h (2025-12-22)
+		* Remake code
+		* Support Luxs-Model-Changer
 
+	* v1.4h (2024-1-5)
 	* v1.3h (2023-7-19)
 		* Update convar
 
