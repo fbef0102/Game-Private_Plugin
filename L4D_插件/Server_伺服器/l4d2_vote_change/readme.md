@@ -99,12 +99,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_customvotes
 		```
 
-	* **Admin can force pass the current vote (Adm Required: ADMFLAG_BAN)**
+	* **Admin can force pass the current vote (Adm Required: ADMFLAG_ROOT)**
 		```php
 		sm_vp
 		```
 
-	* **Admin can force cancel the current vote (Adm Required: ADMFLAG_BAN)**
+	* **Admin can force cancel the current vote (Adm Required: ADMFLAG_ROOT)**
 		```php
 		sm_vc
 		```
@@ -223,12 +223,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_customvotes
 		```
 
-	* **管理員可以強制通過 (權限: ADMFLAG_BAN)**
+	* **管理員可以強制通過 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_vp
 		```
 
-	* **管理員可以強制否則 (權限: ADMFLAG_BAN)**
+	* **管理員可以強制否則 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_vc
 		```

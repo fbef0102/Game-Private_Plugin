@@ -283,7 +283,10 @@
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
 
 	1. 到[Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)，根據你的遊戲與系統選擇其中一個下載
-	<br/>![image](image/18.jpg)
+		* windows系統選擇win
+		* linux系統比較新的版本選擇linux
+		* linux系統比較舊的版本選擇oldlinux
+		<br/>![image](image/18.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
 	<br/>![image](image/19.jpg)
@@ -537,6 +540,11 @@
 	9. 丟給AI分析，AI雖然資料有限但至少會幫你分析可能的原因
 		* 使用的是ChatGPT Pro
 		<br/>![image](image/45.jpg)
+</details>
+
+* <details><summary>安裝嘗試修復崩潰的檔案</summary>
+
+	* [安裝實用的修復](/Tutorial_教學區/Chinese_繁體中文/Server/安裝實用的修復)
 </details>
 
 - - - -

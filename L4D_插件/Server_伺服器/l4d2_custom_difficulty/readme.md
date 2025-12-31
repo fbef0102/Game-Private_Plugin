@@ -20,7 +20,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Type ```!dvote``` -> select custom difficulty -> call vote to change -> load custom difficulty
-	* Modify custom difficulty name and damage, file is in [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
+	* Modify custom difficulty name and damage in file: [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
+		* Manual in this file, click for more details...
 	* Auto exec cfg when switching difficulties, for example:
 		* impossible+ -> hard+ (exec reset.cfg -> hard+.cfg)
 		* hard+ -> impossible++ (exec reset.cfg -> impossible++.cfg)
@@ -55,6 +56,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		z_custom_difficulty_index <number>
 		```
+
+	* **Admin can force pass the current vote (Adm Required: ADMFLAG_ROOT)**
+		```php
+		sm_vp
+		```
+
+	* **Admin can force cancel the current vote (Adm Required: ADMFLAG_ROOT)**
+		```php
+		sm_vc
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
@@ -62,34 +73,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* [l4d2_custom_difficulty.inc](scripting/include/l4d2_custom_difficulty.inc)
 		```php
 		library name: l4d2_custom_difficulty
-		```
-</details>
-
-* <details><summary>Data Config</summary>
-
-	* Modify custom difficulty and damage
-	* [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
-		```php
-		"l4d2_custom_difficulty"
-		{
-			"Total"
-			{
-				// There are 8 different difficulty
-				"num"   "8"
-				
-				// Default, load Custom Difficulty by index (0=Off)
-				"default" "5"
-				
-				// First Custom Difficulty, index is 1
-				"1"
-				{
-					// Modify for your own settings
-					...
-				}
-
-				...
-			}
-		}
 		```
 </details>
 
@@ -145,6 +128,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 投票更換難度後自動執行的cfg文件，譬如
 		* 專家+ -> 進階+ (先執行 reset.cfg -> 後執行 hard+.cfg)
 		* 進階+ -> 專家++ (先執行 reset.cfg -> 後執行 impossible++.cfg)
+	* 自由修改難度與傷害數值於文件: [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
+		* 內有中文說明，可點擊查看
 	
 * <details><summary>指令中文介紹(點我展開)</summary>
 
@@ -170,32 +155,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		z_custom_difficulty_index <索引數字>
 		```
-</details>
 
-* <details><summary>文件設定範例</summary>
-
-	* 自由修改難度與傷害數值
-	* [data/l4d2_custom_difficulty.cfg](addons/sourcemod/data/l4d2_custom_difficulty.cfg)
+	* **管理員可以強制通過 (權限: ADMFLAG_ROOT)**
 		```php
-		"l4d2_custom_difficulty"
-		{
-			"Total"
-			{
-				// 有8種不同的遊戲難度
-				"num"   "8"
-				
-				// 伺服器啟動後預設載入的自製難度	(0=不預設載入)
-				"default" "5"
-				
-				// 第一個自製難度, 索引是1
-				"1"
-				{
-					// 自行修改數據
-					...
-				}
+		sm_vp
+		```
 
-				...
-			}
-		}
+	* **管理員可以強制否則 (權限: ADMFLAG_ROOT)**
+		```php
+		sm_vc
 		```
 </details>

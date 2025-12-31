@@ -63,4 +63,23 @@
 		"zho"		"(目前)"
 		"chi"		"(目前)"
 	}
+	
+	"forces to pass (C)"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forced to pass the vote"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制通過目前投票項目"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制通过"
+	}
+	"forces to pass"
+	{
+		"en"		"%N Admin forced to pass the vote"
+		"zho"		"%N 管理員強制通過目前投票項目"
+		"chi"		"%N 管理员一票强制通过"
+	}
+	"forces to cancel (C)"
+	{
+		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forced to cancel the vote"
+		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制否决目前投票項目"
+		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制否决"
+	}
 }

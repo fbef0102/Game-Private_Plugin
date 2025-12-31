@@ -287,7 +287,10 @@
 * <details><summary>L4D1 Installation</summary>
 
 	1. Go to [Tickrate-Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases) and download files depending on your game and system
-	<br/>![image](image/18.jpg)
+		* win: windows system
+		* linux: linux system newer version
+		* oldlinux: linux system older version
+		<br/>![image](image/18.jpg)
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
 	<br/>![image](image/19.jpg)
@@ -542,6 +545,11 @@
 		* Using ChatGPT Pro
 		* AI may not be correct, but better than nothing
 		<br/>![image](image/45.jpg)
+</details>
+
+* <details><summary>Install Crash Fix</summary>
+
+	* [Click Me To See Useful Fix List](/Tutorial_教學區/English/Server/Install_Fix)
 </details>
 
 - - - -
