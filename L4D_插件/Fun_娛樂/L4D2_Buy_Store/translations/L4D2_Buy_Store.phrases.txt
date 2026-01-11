@@ -1787,5 +1787,17 @@
 		"chi"	"此地图关闭商店"
 		"ru"	"Магазин отключен на этой карте"
 	}
+	"Respawn All"
+	{
+		"en"	"Respawn all dead players"
+		"zho"	"領域展開: 全體復活"
+		"chi"	"全体复活"
+	}
+	"No Any Other Dead Survivors"
+	{
+		"en"	"There are no any other dead survivors at this moment"
+		"zho"	"此時此刻沒有死亡的倖存者"
+		"chi"	"此時此刻沒有死亡的生还者"
+	}
 }
 

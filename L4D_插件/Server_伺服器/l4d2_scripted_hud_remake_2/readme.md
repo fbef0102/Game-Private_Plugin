@@ -24,7 +24,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Animated movement 
 		* Background, blink from white to red
 	* 🟥 The limit of each HUD text is up to 127 characters. (Go ask Valve)
-	* To display score and bonus, you must install scoremod plugin, see "Optional" below
+	* To display score and bonus, you must install scoremod plugin, see "Support | 支援插件" below
 </details>
 
 * Require | 必要安裝
@@ -125,7 +125,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 文字移動的動畫效果
 		* 黑色背景框, 文字閃紅色的特效
 	* 🟥 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了，再問就是Valve的鍋
-	* 請安裝分數插件，才能顯示對抗分數，查看上方 "可選安裝"
+	* 請安裝分數插件，才能顯示對抗分數，查看上方 "Support | 支援插件"
 
 * <details><summary>預設的 HUD 文字 (點我展開)</summary>
 

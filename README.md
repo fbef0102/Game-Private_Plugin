@@ -499,6 +499,10 @@
     * 根據遊戲模式和難度禁止使用Esc->發起投票
   * [l4d2_scripted_hud_remake](/L4D_插件/Server_伺服器/l4d2_scripted_hud_remake): Display text for up to 15 scripted HUD slots on the screen.
     * 在玩家畫面可顯示至多15個Hud, 每個Hud顯示不同的內容
+  * [l4d2_scripted_hud_remake_1](/L4D_插件/Server_伺服器/l4d2_scripted_hud_remake_1): Display different Default HUD Text, for coop campaign
+    * Script HUD 顯示倖存者統計數據，搭配戰役用
+  * [l4d2_scripted_hud_remake_2](/L4D_插件/Server_伺服器/l4d2_scripted_hud_remake_2): Display different Default HUD Text, for versus/zonemod campaign
+    * Script HUD 顯示倖存者路程、Tank、Witch、分數，搭配對抗與Zonemod用
   * [readyup](/L4D_插件/Server_伺服器/readyup): Ready-up plugin
     * 所有玩家準備才能開始遊戲的插件
   * [pause](/L4D_插件/Server_伺服器/pause): Provide the Command to Pause The Game

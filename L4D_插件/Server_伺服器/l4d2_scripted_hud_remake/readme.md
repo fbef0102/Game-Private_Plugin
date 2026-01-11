@@ -98,9 +98,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Other Version | 其他版本</summary>
 
-	1. [l4d2_scripted_hud_remake_1](OtherVersion_其他版本/l4d2_scripted_hud_remake_1): Display different Default HUD Text, for coop campaign (variant 1)
+	1. [l4d2_scripted_hud_remake_1](/L4D_插件/Server_伺服器/l4d2_scripted_hud_remake_1): Display different Default HUD Text, for coop campaign (variant 1)
 		> 不同的預設 HUD 文字，搭配戰役用 (變體代號1)
-	1. [l4d2_scripted_hud_remake_2](OtherVersion_其他版本/l4d2_scripted_hud_remake_2): Display different Default HUD Text, for versus/zonemod campaign (variant 2)
+	1. [l4d2_scripted_hud_remake_2](/L4D_插件/Server_伺服器/l4d2_scripted_hud_remake_2): Display different Default HUD Text, for versus/zonemod campaign (variant 2)
 		> 不同的預設 HUD 文字，搭配對抗與Zonemod用 (變體代號2)
 </details>
 

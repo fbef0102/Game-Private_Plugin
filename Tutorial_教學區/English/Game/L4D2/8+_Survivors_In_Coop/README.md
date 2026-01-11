@@ -31,6 +31,7 @@
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2754956355): You can have 8 slots lobby.
     * Subscribe, create lobby and you will see 8 slots.
     * This Mod makes you unable to use ESC->Idle
+* [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
 
 - - - -
 ## Require
@@ -142,6 +143,9 @@
 - - - -
 ## Fun
 > __Note__<br/> Choose fun plugins you like
+
+* [L4D2-Unlimited-Map (Harry Version)](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config. Create the Unlimited Map.
+
 * [Survivor Respawn (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): When a Survivor dies, will respawn after a period of time.
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): Spawns multi infected bots in any mode + allows playable special infected in coop/survival + unlock infected slots (10 VS 10 available)

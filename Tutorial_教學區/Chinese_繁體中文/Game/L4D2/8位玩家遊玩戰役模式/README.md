@@ -30,7 +30,8 @@
 * [8 Slots Lobby Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2754956355): 可讓大廳有八個位子
     * 訂閱即可，開房後大廳會有八個位子
     * 安裝此Mod之後會導致你在遊戲中無法使用 ESC->閒置功能
-  
+* [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
+
 - - - -
 ## 必要檔案
 * [l4dtoolz EXTENSION](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝l4dtoolz): 解鎖伺服器人數限制
@@ -148,6 +149,9 @@
 - - - -
 ## 娛樂檔案
 > __Note__ 適合多人伺服器的娛樂插件
+
+* [L4D2-Unlimited-Map (哈利版本)](https://github.com/fbef0102/L4D2-Unlimited-Map): 將地圖打造成迷宮與創造多重機關障礙物
+
 * [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
 
 * [Infected Bots Control Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4dinfectedbots): 生成多特感模式，隨著玩家人數越多，特感數量越多、Tank血量越厚

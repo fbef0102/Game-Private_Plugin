@@ -339,6 +339,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v5.9 (2026-1-11)
+		* Update data, translation
+		* Add survivor specail item "Respawn All": Respawn All Dead Survivors
+
 	* v5.8 (2025-10-12)
 		* Update data, translation, cvars
 
