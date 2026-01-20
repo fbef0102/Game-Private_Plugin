@@ -32,6 +32,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Leaving the saferoom
 		* Survival/Scavenge round starts 
 	* Auto change map to official map if no one in server when playing custom maps
+	* Support fuzzy matching. Example: ```!mapvote dead```, filter maps whose names contain "dead".
+	<br/>![sm_l4d_mapchanger_4](image/sm_l4d_mapchanger_4.jpg)
 </details>
 
 * Require | 必要安裝
@@ -132,6 +134,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_mapvote
 		```
 
+	* **Filter map name list (fuzzy matching)**
+		```php
+		sm_mapvote <string>
+		```
+
 	* **See all the votes**
 		```php
 		sm_mapvotes
@@ -202,6 +209,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.9h (2026-1-20)
+		* Support fuzzy matching, use ```!mapvote <string>```
+		* Update translation
+
 	* v1.8h (2025-2-27)
 	* v1.7h (2024-11-12)
 		* Update cvars
@@ -246,10 +257,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>圖示</summary>
 
 	* 自動切換到下一張地圖
-	<br/>![sm_l4d_mapchanger_1_zho](image/zho/sm_l4d_mapchanger_1_zho.jpg)
+	<br/>![zho/sm_l4d_mapchanger_1](image/zho/sm_l4d_mapchanger_1.jpg)
 	* 玩家可以投票選擇下一張地圖 (會自動顯示所有地圖包括三方圖)
-	<br/>![sm_l4d_mapchanger_2_zho](image/zho/sm_l4d_mapchanger_2_zho.jpg)
-	<br/>![sm_l4d_mapchanger_3_zho](image/zho/sm_l4d_mapchanger_3_zho.jpg)
+	<br/>![zho/sm_l4d_mapchanger_2](image/zho/sm_l4d_mapchanger_2.jpg)
+	<br/>![zho/sm_l4d_mapchanger_3](image/zho/sm_l4d_mapchanger_3.jpg)
 </details>
 
 * 原理
@@ -264,6 +275,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 生存模式計時開始之後
 		* 清道夫模式計時開始之後
 	* 三方圖沒有人時，自動換回官方圖
+	* 支援模糊詞搜尋投票地圖清單，譬如輸入```!mapvote 广```，只會出現有"广"名稱的地圖
+	<br/>![zho/sm_l4d_mapchanger_3](image/zho/sm_l4d_mapchanger_4.jpg)
 
 * 功能
 	* 自動新增三方圖的關卡與地圖名，無須手動新增
@@ -356,6 +369,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* **投票下一張地圖**
 		```php
 		sm_mapvote
+		```
+
+	* **使用模糊詞過濾投票地圖清單**
+		```php
+		sm_mapvote <string>
 		```
 
 	* **查看所有票數**

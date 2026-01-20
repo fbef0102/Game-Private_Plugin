@@ -192,16 +192,32 @@
 	
 	"Choose a Map"
 	{
-		"en"			"Choose the Next Map"
-		"zho"			"請選擇下一張地圖"
-		"chi"			"请选择下一张地图"
+		"en"			"Fuzzy matching:\n!mapvote <string>\nExample: !mapvote city\nChoose the Next Map:"
+		"zho"			"進行模糊搜索:\n!mapvote 模糊詞\n舉例: !mapvote 廣西\n請選擇下一張關卡:"
+		"chi"			"进行模糊搜索:\n!mapvote 模糊词\n举例: !mapvote 广西\n请选择下一张关卡:"
 	}
 	
 	"Choose a Mission"
 	{
-		"en"			"Choose the Next Campaign"
-		"zho"			"請選擇下一張地圖"
-		"chi"			"请选择下一张地图"
+		"en"			"Fuzzy matching:\n!mapvote <string>\nExample: !mapvote city\nChoose the Next Mission:"
+		"zho"			"模糊查詢:\n!mapvote 模糊詞\n舉例: !mapvote 廣西\n請選擇下一張地圖:"
+		"chi"			"模糊查询:\n!mapvote 模糊词\n举例: !mapvote 广西\n请选择下一张地图:"
+	}
+	
+	"Choose a Mission (fuzzy matching)"
+	{
+		"#format"		"{1:s}"
+		"en"			"Fuzzy matching: {1}\nChoose the Next Mission:"
+		"zho"			"搜尋: {1}\n請選擇下一張地圖:"
+		"chi"			"搜寻: {1}\n请选择下一张地图:"
+	}	
+	
+	"Choose a Map (fuzzy matching)"
+	{
+		"#format"		"{1:s}"
+		"en"			"Fuzzy matching: {1}\nChoose the Next Map:"
+		"zho"			"搜尋: {1}\n請選擇下一張關卡:"
+		"chi"			"搜寻: {1}\n请选择下一张关卡:"
 	}
 	
 	"I dont care" 
@@ -276,5 +292,12 @@
 		"en"			"Change next map after campaign credit end or players press space to skip credit"	
 		"zho"			"等待統計表跑完後或按空格鍵跳過統計，將自動換下一張地圖"
 		"chi"			"等待统计表跑完后或按空格键跳过统计，将自动换下一张地图"
+	}
+	
+	"No matching names found"
+	{
+		"en"			"No matching names found"
+		"zho"			"找不到相似名稱的地圖"
+		"chi"			"找不到相似名称的地图"
 	}
 }

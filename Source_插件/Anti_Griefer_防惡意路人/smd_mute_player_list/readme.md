@@ -32,29 +32,31 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```smd_mute_player_list_database "mute_player_list"``` and write the following in ```sourcemod/configs/databases.cfg```
+		1. MySQL: Database across server, you must build your own extra database system
+			* Set ConVar ```smd_mute_player_list_database "mute_player_list"``` and write the following in ```sourcemod/configs/databases.cfg```
 			```php
-			// There would a data table named "mute_player_list" in database
-			"mute_player_list"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+				// There would a data table named "mute_player_list" in database
+				"mute_player_list"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 
-		2. SQLite: Local Database, set ConVar ```smd_mute_player_list_database "mute_player_list""``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would be a file created: sourcemod/data/sqlite/mute_player_list.sq3
-			"mute_player_list"
-			{
-				"driver"			"sqlite"
-				"database"			"mute_player_list"
-			}
-			```
+		2. SQLite: SourceMod built-in Local Database
+			* Set ConVar ```smd_mute_player_list_database "mute_player_list""``` and write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// There would be a file created: sourcemod/data/sqlite/mute_player_list.sq3
+				"mute_player_list"
+				{
+					"driver"			"sqlite"
+					"database"			"mute_player_list"
+				}
+				```
 </details>
 
 * Require | 必要安裝
@@ -152,34 +154,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 經常有惡意路人進來播放音樂或者輸入文字打廣告，這時候管理員不一定每次都在伺服器裡面
 	* 提供玩家自行選擇封鎖對方的語音或聊天文字，讓玩家開心玩遊戲
 
-* <details><summary>如何設定資料庫</summary>
-
-	* 以下方法二選一
-		1. MySQL: 支援跨伺服器儲值，設定指令 ``````smd_mute_player_list_database "mute_player_list"``````，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 資料庫中自動創建表格，名稱是 "mute_player_list"
-			"mute_player_list"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
-			
-		2. SQLite: 本地資料庫儲值，設定指令 ```md_mute_player_list_database "mute_player_list"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 自動創建檔案: sourcemod/data/sqlite/mute_player_list.sq3
-			"mute_player_list"
-			{
-				"driver"			"sqlite"
-				"database"			"mute_player_list"
-			}
-			```
-</details>
-
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/smd_mute_player_list.cfg
@@ -213,4 +187,35 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_mutemenu
 		```
+</details>
+
+* <details><summary>如何設定資料庫</summary>
+
+	* 以下方法二選一
+		1. MySQL: 支援跨伺服器，您需要另外安裝並使用自己的資料庫，儲值玩家的數據
+			* 如果不會安裝就選擇第二種方法
+			* 設定指令 ``````smd_mute_player_list_database "mute_player_list"``````，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 資料庫中自動創建表格，名稱是 "mute_player_list"
+				"mute_player_list"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
+			
+		2. SQLite: Sourcemod自帶的本地資料庫，您無須另外安裝
+			* 設定指令 ```smd_mute_player_list_database "mute_player_list"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 自動創建檔案: sourcemod/data/sqlite/mute_player_list.sq3
+				"mute_player_list"
+				{
+					"driver"			"sqlite"
+					"database"			"mute_player_list"
+				}
+				```
 </details>

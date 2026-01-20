@@ -1,12 +1,5 @@
 "Phrases"
 {
-	"List of Maps"
-	{
-		"en"			"List of Maps"
-		"zho"			"地圖列表"
-		"chi"			"地图列表"
-	}
-	
 	"Maps (Valve)"
 	{
 		"en"			"Maps (Valve)"
@@ -93,6 +86,28 @@
 		"en"			"[{olive}TS{default}] Map is changing..."
 		"zho"			"[{olive}TS{default}] 地圖正在切換..."
 		"chi"			"[{olive}TS{default}] 地图正在切换..."
+	}
+	
+	"List of Maps"
+	{
+		"en"			"Fuzzy matching:\n!maplist <string>\nExample: !maplist city\nList of Maps:"
+		"zho"			"進行模糊搜索:\n!maplist 模糊詞\n舉例: !maplist 廣西\n地圖列表:"
+		"chi"			"进行模糊搜索:\n!maplist 模糊词\n举例: !maplist 广西\n地图列表:"
+	}
+	
+	"List of Maps (fuzzy matching)"
+	{
+		"#format"		"{1:s}"
+		"en"			"Fuzzy matching: {1}\nList of Maps:"
+		"zho"			"搜尋: {1}\n選擇地圖:"
+		"chi"			"搜寻: {1}\n选择地图:"
+	}	
+	
+	"No matching names found"
+	{
+		"en"			"No matching names found"
+		"zho"			"找不到相似名稱的地圖"
+		"chi"			"找不到相似名称的地图"
 	}
 
 	// add translation for custom map if you want

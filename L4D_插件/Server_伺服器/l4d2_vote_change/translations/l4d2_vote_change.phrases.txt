@@ -502,9 +502,16 @@
 	}
 	"Choose_campaign"
 	{
-		"en"		"- Choose the campaign -"
-		"zho"		"- 請選擇地圖 -"
-		"chi"		"- 请选择地图 -"
+		"en"		"Fuzzy matching:\n!newmapvote <string>\nExample: !newmapvote city\nChoose the campaign:"
+		"zho"		"進行模糊搜索:\n!newmapvote 模糊詞\n舉例: !newmapvote 廣西\n請選擇地圖:"
+		"chi"		"进行模糊搜索:\n!newmapvote 模糊词\n举例: !newmapvote 广西\n请选择地图:"
+	}
+	"Choose_campaign (fuzzy matching)"
+	{
+		"#format"		"{1:s}"
+		"en"			"Fuzzy matching: {1}\nChoose the campaign:"
+		"zho"			"搜尋: {1}\n請選擇地圖:"
+		"chi"			"搜寻: {1}\n请选择地图:"
 	}
 	"No_maps_in_group"
 	{
@@ -1530,5 +1537,12 @@
 		"en"		"White Forest"
 		"zho" 		"白森林"
 		"chi" 		"白森林"
+	}
+	
+	"No matching names found"
+	{
+		"en"			"No matching names found"
+		"zho"			"找不到相似名稱的地圖"
+		"chi"			"找不到相似名称的地图"
 	}
 }

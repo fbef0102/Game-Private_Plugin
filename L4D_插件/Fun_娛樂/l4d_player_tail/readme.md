@@ -104,29 +104,31 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would a data table named "L4D_Player_Tail" in database
-			"tail"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		1. MySQL: Database across server, you must build your own extra database system
+			* Set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// There would a data table named "L4D_Player_Tail" in database
+				"tail"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 
-		2. SQLite: Local Database, set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would be a file created: sourcemod/data/sqlite/player_tail.sq3
-			"tail"
-			{
-				"driver"			"sqlite"
-				"database"			"player_tail"
-			}
-			```
+		2. SQLite: SourceMod built-in Local Database
+			* Set ConVar ```l4d_player_tail_database "tail"``` and write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// There would be a file created: sourcemod/data/sqlite/tail.sq3
+				"tail"
+				{
+					"driver"			"sqlite"
+					"database"			"tail"
+				}
+				```
 </details>
 
 * Translation Support | 支援翻譯
@@ -263,27 +265,30 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器，儲值玩家的尾巴特效與顏色，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 資料庫中自動創建表格，名稱是 "L4D_Player_Tail"
-			"tail"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		1. MySQL: 支援跨伺服器，您需要另外安裝並使用自己的資料庫，儲值玩家的數據
+			* 如果不會安裝就選擇第二種方法
+			* 設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 資料庫中自動創建表格，名稱是 "L4D_Player_Tail"
+				"tail"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 
-		2. SQLite: 本地資料庫，設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 自動創建檔案: sourcemod/data/sqlite/player_tail.sq3
-			"tail"
-			{
-				"driver"			"sqlite"
-				"database"			"player_tail"
-			}
-			```
+		2. SQLite: Sourcemod自帶的本地資料庫，您無須另外安裝
+			* 設定指令 ```l4d_player_tail_database "tail"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 自動創建檔案: sourcemod/data/sqlite/tail.sq3
+				"tail"
+				{
+					"driver"			"sqlite"
+					"database"			"tail"
+				}
+				```
 </details>

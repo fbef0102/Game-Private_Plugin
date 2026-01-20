@@ -109,9 +109,8 @@
       
    * (L4D1/2 linux) [l4d_fix_linux_surface](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_linux_surface): 修復在linux專用服裡玩家走在冰面上不會滑動
    
-   * (L4D2) l4d2_resolve_collision_fix: 修復```nb_update_frequency```指令值過低造成的問題: 小殭屍與Witch移動容易卡住、反彈後撤
-      * [Windows 版本](https://forums.alliedmods.net/showpost.php?p=2837837&postcount=84)
-      * [Linux 版本](https://forums.alliedmods.net/showthread.php?t=344019)
+   * (L4D2) [l4d2_resolve_collision_fix](https://forums.alliedmods.net/showthread.php?t=344019): 修復```nb_update_frequency```指令值過低造成的問題
+      * 譬如: 小殭屍與Witch移動容易卡住、反彈後撤
       * 寫以下內容於文件 ```cfg/server.cfg```
          ```c
          // 修改感染者之間的碰撞頻率

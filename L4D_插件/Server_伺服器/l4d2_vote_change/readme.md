@@ -35,6 +35,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 🟥 Don't modify this file
 	* Customize vote, add more custom vote in [data/l4d2_vote_change.cfg](data/l4d2_vote_change.cfg)
 		* Manual in this file, click for more details...
+	* Type ```!newmapvote xxxx``` to filter custom map list. Example: ```!newmapvote city```, filter maps whose names contain "city".
+	<br/>![l4d2_vote_change_7](image/l4d2_vote_change_7.jpg)
 </details>
 
 * Require | 必要安裝
@@ -108,10 +110,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_vc
 		```
+
+	* **Filter custom map name list (fuzzy matching)**
+		```php
+		newmapvote <string>
+		```
 </details>
 
 * <details><summary>API | 串接</summary>
-
 
 	* [l4d2_vote_change.inc](scripting/include/l4d2_vote_change.inc)
 		```php
@@ -125,6 +131,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.7h (2026-1-20)
+		* Custom map vote supports fuzzy matching, use ```!newmapvote <string>```
+		* Update translation
 
 	* v1.6h (2025-2-12)
 		* Fixed Error
@@ -159,17 +169,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>圖示(點我展開)</summary>
 
 	* 輸入```!newvotes```打開投票選單
-	<br/>![l4d2_vote_change_1_zho](image/zho/l4d2_vote_change_1_zho.jpg)
+	<br/>![zho/l4d2_vote_change_1](image/zho/l4d2_vote_change_1.jpg)
 	* "主要投票"
-	<br/>![l4d2_vote_change_2_zho](image/zho/l4d2_vote_change_2_zho.jpg)
+	<br/>![zho/l4d2_vote_change_2](image/zho/l4d2_vote_change_2.jpg)
 	* "更改難度"
-	<br/>![l4d2_vote_change_3_zho](image/zho/l4d2_vote_change_3_zho.jpg)
+	<br/>![zho/l4d2_vote_change_3](image/zho/l4d2_vote_change_3.jpg)
 	* "自定義投票"，可自行新增
-	<br/>![l4d2_vote_change_4_zho](image/zho/l4d2_vote_change_4_zho.jpg)
+	<br/>![zho/l4d2_vote_change_4](image/zho/l4d2_vote_change_4.jpg)
 	* 官方圖與三方圖可以選擇關卡 (能自動識別並新增三方圖)
-	<br/>![l4d2_vote_change_5_zho](image/zho/l4d2_vote_change_5_zho.jpg)
+	<br/>![zho/l4d2_vote_change_5](image/zho/l4d2_vote_change_5.jpg)
 	* 使用官方的內建投票圖形UI
-	<br/>![l4d2_vote_change_6_zho](image/zho/l4d2_vote_change_6_zho.jpg)
+	<br/>![zho/l4d2_vote_change_6](image/zho/l4d2_vote_change_6.jpg)
 </details>
 
 * 原理
@@ -179,6 +189,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 🟥 不要修改此文件
 	* 打開文件 [data/l4d2_vote_change.cfg](data/l4d2_vote_change.cfg) 自行增加更多投票
 		* 內有中文說明，可點擊查看
+	* 三方圖投票清單支援模糊詞搜尋，譬如輸入```!newmapvote 广```，只會出現有"广"名稱的地圖
+	<br/>![zho/l4d2_vote_change_7](image/zho/l4d2_vote_change_7.jpg)
 
 * 投票選單表
 	* 請看上方圖示
@@ -231,5 +243,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* **管理員可以強制否則 (權限: ADMFLAG_ROOT)**
 		```php
 		sm_vc
+		```
+
+	* **使用模糊詞過濾地圖清單**
+		```php
+		sm_newmapvote <string>
 		```
 </details>

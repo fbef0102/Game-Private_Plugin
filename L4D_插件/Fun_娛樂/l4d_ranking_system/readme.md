@@ -36,29 +36,31 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How to Set Database</summary>
 
 	* Choose one of the following method
-		1. MySQL: Database across server, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would a data table named "Ranking_System_V3" in database
-			"rank"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		1. MySQL: Database across server, you must build your own extra database system
+			* Set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// There would a data table named "Ranking_System_V3" in database
+				"rank"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 
-		2. SQLite: Local Database, set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would be a file created: sourcemod/data/sqlite/rank_system.sq3
-			"rank"
-			{
-				"driver"			"sqlite"
-				"database"			"rank_system"
-			}
-			```
+		2. SQLite: SourceMod built-in Local Database
+			* Set ConVar ```l4d_ranking_system_database "rank"``` and write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// There would be a file created: sourcemod/data/sqlite/rank.sq3
+				"rank"
+				{
+					"driver"			"sqlite"
+					"database"			"rank"
+				}
+				```
 </details>
 
 * Require | 必要安裝
@@ -284,29 +286,32 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>如何設定資料庫</summary>
 
 	* 以下方法二選一
-		1. MySQL: 支援跨伺服器儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
-			"rank"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		1. MySQL: 支援跨伺服器，您需要另外安裝並使用自己的資料庫，儲值玩家的數據
+			* 如果不會安裝就選擇第二種方法
+			* 設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 資料庫中自動創建表格，名稱是 "Ranking_System_V3"
+				"rank"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 			
-		2. SQLite: 本地資料庫儲值，設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 自動創建檔案: sourcemod/data/sqlite/rank_system.sq3
-			"rank"
-			{
-				"driver"			"sqlite"
-				"database"			"rank_system"
-			}
-			```
+		2. SQLite: Sourcemod自帶的本地資料庫，您無須另外安裝
+			* 設定指令 ```l4d_ranking_system_database "rank"```，然後設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 自動創建檔案: sourcemod/data/sqlite/rank_system.sq3
+				"rank"
+				{
+					"driver"			"sqlite"
+					"database"			"rank_system"
+				}
+				```
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
