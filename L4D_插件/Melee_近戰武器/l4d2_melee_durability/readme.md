@@ -22,11 +22,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Every melee weapons have durability
     * Cost durability when melee S.I., Witch, infected, objects.....
     * The melee weapon will be removed once run out durability, and give pistol
+    * The melee durability can be saved to the next level in coop/realism mode
 </details>
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+    3. [l4d_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_transition_forward)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -120,6 +122,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2026-1-27)
+		* Save melee durability to the next level in coop/realism mode
 
     * v1.3 (2024-7-9)
         * Add API

@@ -103,6 +103,13 @@
 		"chi"			"搜寻: {1}\n选择地图:"
 	}	
 	
+	"List of Maps (Admin)"
+	{
+		"en"			"List of Official/Custom Maps"
+		"zho"			"選擇官方或三方地圖"
+		"chi"			"选择官方或三方地图"
+	}	
+	
 	"No matching names found"
 	{
 		"en"			"No matching names found"

@@ -20,6 +20,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Replace the weapon if the weapon is late spawn during the game. For example:
 		* Bile jar, nightstick from uncommon infected
 		* Items from Foot Locker
+	* The weapons won't be replaced or removed if weapons are transitioned entities between maps
 	* Modify [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		* Replace big guns with other guns
 		* Replace items with other items
@@ -29,6 +30,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	3. [l4d_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_transition_forward)
 
 * <details><summary>Support | 支援插件</summary>
 
@@ -86,6 +88,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.7 (2026-1-27)
+		* Don't replace weapons if weapons are transitioned entities between maps
+
 	* v1.6 (2025-3-31)
 	* v1.5 (2025-3-21)
 		* Fixed not replace prop items (cola, gnome...)
@@ -124,7 +129,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* CEDA掉落的膽汁瓶
 		* 綠色補給箱的無限物資
 		* 警察掉落的警棍
-	* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)，自行設定其他武器/物品/近戰
+	* 過關攜帶的武器在下一關不會被取代或刪除
+	* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
+		* 自行修改要取代的其他武器/物品/近戰
 		* 內有中文說明，可點擊查看
 </details>
 

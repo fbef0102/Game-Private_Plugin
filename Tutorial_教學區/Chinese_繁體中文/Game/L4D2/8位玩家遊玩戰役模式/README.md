@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2025/7/25
+> 2026/1/27
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -72,8 +72,10 @@
 
 * [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Witch 追錯第五位以上的玩家目標
 	
-* (L4D2) [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): 修復不同模組的倖存者在不同的地圖啟動地圖上的機關會出現問題
-    * 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機還是一直說話
+* (L4D2) [l4d2_trigger_flow_fix (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_trigger_flow_fix): 修復不同模組的倖存者在三方地圖啟動地圖上的機關會出現問題
+
+* (L4D2) [l4d2_vocalizebasedmodel (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vocalizebasedmodel): 倖存者根據自身模組發出對應的角色語音+修復不同模組的倖存者在三方地圖無法出現語音劇情對話
+    * 譬如使用二代角色模組在一代地圖上與對講機溝通呼叫最後救援，但是對講機不會回應
 
 * (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): 解決直接用ForceChangeLevel指令換圖會遇到的問題，導演系統不知道換圖了
 
@@ -97,9 +99,6 @@
 
 * (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
     * 此插件會移除The Passing地圖上的一代倖存者NPC
-
-* <s>(L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): 減少玩家因為 "No Steam Logon" 離線的機率 (Steam驗證失敗)</s>
-    * 沒用
 
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
 

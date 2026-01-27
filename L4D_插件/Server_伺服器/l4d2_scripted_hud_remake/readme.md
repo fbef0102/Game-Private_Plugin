@@ -28,6 +28,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Position
 		* Animated movement 
 		* Background, blink from white to red
+	* [Up to 15 custom script HUDs](https://developer.valvesoftware.com/wiki/Left_4_Dead_2/Scripting/Expanded_Mutation_System/Appendix:_HUD)
 	* 🟥 The limit of each HUD text is up to 127 characters. (Go ask Valve)
 </details>
 

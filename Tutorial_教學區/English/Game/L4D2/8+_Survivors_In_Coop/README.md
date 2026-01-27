@@ -1,5 +1,5 @@
 # Navigation
-> 2025/6/16 updated
+> 2026/1/27 updated
 - [Navigation](#navigation)
   - [Introduction](#introduction)
   - [Prepare](#prepare)
@@ -69,7 +69,9 @@
 
 * [witch_target_patch](https://github.com/LuxLuma/Left-4-fix/tree/master/left%204%20fix/witch/witch_target_patch): Fixes witch going after wrong clone survivor
 
-* (L4D2) [Survivor Set Flow Fix](https://forums.alliedmods.net/showthread.php?t=339155): Prevents custom maps from softlocking due to a poorly made trigger flow.
+* (L4D2) [l4d2_trigger_flow_fix (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_trigger_flow_fix): Prevents custom maps from softlocking due to a poorly filter_activator_model's logic when playing with different survivor models
+
+* (L4D2) [l4d2_vocalizebasedmodel (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_vocalizebasedmodel): Survivors will vocalize based on their model + Fixes conversation stucks when playing with l4d1+2 survivor models in custom maps
 
 * (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 
@@ -93,9 +95,6 @@
     
 * (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
     * This plugin will remove l4d1 survivors npc on The Passing map
-
-* <s>(L4D2) [l4d2_block_no_steam_logon](https://github.com/blueblur0730/modified-plugins/tree/main/source/l4d2_block_no_steam_logon): Reduce player "No Steam Logon" disconnect probability (Steam verification failed)</s>
-    * Not working
     
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
 

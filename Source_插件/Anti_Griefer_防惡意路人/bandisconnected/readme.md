@@ -163,17 +163,3 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_listdisconnected
 		```
 </details>
-
-* <details><summary>離線原因名詞解釋</summary>
-
-	* Discennet by user => 玩家自主離開
-	* Banned => 被封禁
-	* Crash => 崩潰
-	* Kick => 被踢
-	* Timed out => 網路斷線
-	* VAC Status Checker => 被VAC
-	* This Steam accout does not own this game => 此帳號未擁有遊戲
-	* Your client has failed to reply to a query in time  => 沒有回應伺服器的網路數據 (可能是網路斷線)
-	* No Steam logon => 沒有偵測到 Steam 正版帳號 (可能是網路斷線)
-	* No Response => 玩家無回應 (可能是網路斷線)
-</details>

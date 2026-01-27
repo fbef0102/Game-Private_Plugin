@@ -83,11 +83,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
-		// In coop/realism final map, when to change next map? 
-		// -1=Wait until campaign credit end or players press space to skip credit.
+		// In coop/realism final map, when to change next map?
 		// 0=Don't force to change map
-		// >0: After final rescue vehicle leaving, delay before force of changelevel
-		sm_l4d_fmc_delay_coop_final "15.0"
+		// 1=Campaign stats starts
+		// 2=Campaign stats end or players press space to skip credit
+		sm_l4d_fmc_coop_final_type "2"
 
 		// Enables next mission and how many chances left to advertise to players.
 		sm_l4d_fmc_announce "1"
@@ -321,10 +321,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_l4d_fmc_delay_scavenge "15.0"
 
 		// 戰役/寫實模式 最後一關結束後，何時換圖?
-		// -1=地圖統計表跑完之後或是玩家們按下"空白鍵-投票跳過"
 		// 0=不要切換地圖
-		// >0: 上了救援載具並且等待此秒數之後切換下一張地圖
-		sm_l4d_fmc_delay_coop_final "15.0"
+		// 1=地圖統計表開始跑之時
+		// 2=地圖統計表跑完之後或是所有玩家們按下"空白鍵-投票跳過"
+		sm_l4d_fmc_coop_final_type "2"
 
 		// 為1時，持續發公告顯示下一張地圖.
 		sm_l4d_fmc_announce "1"
