@@ -116,6 +116,13 @@
 		"zho"			"找不到相似名稱的地圖"
 		"chi"			"找不到相似名称的地图"
 	}
+	
+	"No maps"
+	{
+		"en"			"No any maps yet"
+		"zho"			"尚無地圖"
+		"chi"			"尚无地图"
+	}
 
 	// add translation for custom map if you want
 	// 自行新增三方圖的關卡翻譯

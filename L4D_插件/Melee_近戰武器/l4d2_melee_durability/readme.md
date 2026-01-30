@@ -28,7 +28,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. [l4d_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_transition_forward)
+    3. [l4d2_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_forward)
+    4. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
 
 * <details><summary>ConVar | 指令</summary>
 

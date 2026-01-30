@@ -52,9 +52,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Players with these flags have access to use !itemglow cmd to see all glow entites in survivor and infected team. (Empty = Everyone, -1: Nobody)
 		l4d2_glow_item_weapon_cheat_watch_flag "z"
 
-		// If 1, Enable item glow for spectator (0=off)
-		// 1=Spectators can also use !itemglow cmd
-		l4d2_glow_item_weapon_cheat_spec_enable "0"
+		// If 1, Enable cheat glow for player when join server
+		l4d2_glow_item_weapon_cheat_default "1"
+
+		// If 1, Spectators can see item glow + can use !itemglow cmd
+		l4d2_glow_item_weapon_cheat_spec "1"
+
+		// If 1, Survivors can see item glow + can use !itemglow cmd
+		l4d2_glow_item_weapon_cheat_sur "1"
+
+		// If 1, Infecteds can see item glow + can use !itemglow cmd
+		l4d2_glow_item_weapon_cheat_inf "0"
 		```
 </details>
 
@@ -106,6 +114,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* v1.2h (2026-1-30)
 	* v1.1h (2024-3-5)
 		* Update Cvars
 
@@ -166,9 +175,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 擁有這些權限的倖存者或感染者，才可以輸入!itemglow (留白 = 任何人都能, -1: 無人能輸入)
 		l4d2_glow_item_weapon_cheat_watch_flag "z"
 
-		// 為1時，旁觀者預設可以看到物品發光 (0=關閉這項功能)
-		// 1=旁觀者也可以輸入!itemglow開關
-		l4d2_glow_item_weapon_cheat_spec_enable "0"
+		// 近來伺服器的新玩家預設可以看到物品發光 (0=關閉這項功能)
+		l4d2_glow_item_weapon_cheat_default "0"
+
+		// 為1時，旁觀者可以看到物品發光 + 也可以輸入!itemglow開關
+		l4d2_glow_item_weapon_cheat_spec "1"
+
+		// 為1時，倖存者可以看到物品發光 + 也可以輸入!itemglow開關
+		l4d2_glow_item_weapon_cheat_sur "1"
+
+		// 為1時，感染者可以看到物品發光 + 也可以輸入!itemglow開關
+		l4d2_glow_item_weapon_cheat_inf "0"
 		```
 </details>
 
