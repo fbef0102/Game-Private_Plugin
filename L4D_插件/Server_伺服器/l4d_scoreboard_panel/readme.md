@@ -13,25 +13,23 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Image | 圖示</summary>
 
-	* A = Afk (Idle Player), X = Dead, ~ = Incapacitated, + = Alive, H = Hanging from ledge, 0 = Spectator, number = HP
-		> A = Afk (閒置玩家), X = 死亡, ~ = 倒地, + = 活著站立, H = 掛邊, 0 = 旁觀者, 數字為玩家的血量
-		<br/>![l4d_scoreboard_panel_1](image/l4d_scoreboard_panel_1.jpg)
-	* SI(+) = Alive Infected, SI(G) = Ghost Infected, number = HP
-		> SI(+) = 活著的特感玩家, SI(G) = 靈魂特感玩家, 數字為玩家的血量
-		<br/>![l4d_scoreboard_panel_2](image/l4d_scoreboard_panel_2.jpg)
-	* Support multi players
-		> 支援多人倖存者
-		<br/>![l4d_scoreboard_panel_3](image/l4d_scoreboard_panel_3.jpg)
+	* Number = HP, see convar to know symbols meaning (數字為玩家的血量，符號代表的意義請看下方指令中文說明)
+	<br/>![l4d_scoreboard_panel_1](image/l4d_scoreboard_panel_1.jpg)
+	* Support multi players (支援五人以上伺服器)
+	<br/>![l4d_scoreboard_panel_2](image/l4d_scoreboard_panel_2.jpg)
+	<br/>![l4d_scoreboard_panel_3](image/l4d_scoreboard_panel_3.jpg)
 </details>
 
 * <details><summary>How does it work?</summary>
 
 	* Type tab Key (IN_SCORE) to show a hud for 8 seconds, it displays all players' state
 	* The game default scoreboard is client side, so unfortunately can't block it.
+	* Sort survivor list by health from highest to lowest
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [l4d_heartbeat](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_heartbeat)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -81,10 +79,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// Symbol for spectator players
 		l4d_scoreboard_panel_spectator_team_symbol "O"
+
+		// If 1, display infected bot to infected player
+		l4d_scoreboard_panel_infected_bot_display "0"
 		```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2 (2026-1-31)
+		* Update panel, sort survivor list by health from highest to lowest
+		* Update cvars
 
 	* v1.1 (2023-1-8)
 	    * Draw more details on panel
@@ -99,8 +104,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 按下Tab之後顯示每個玩家的狀態，特感也有
-	* 人類看不到特感玩家的狀態
+		* 倖存者看不到特感玩家的狀態
+	* 依生命值從高到低排序倖存者列表
 	* 適合用於多人連線的伺服器，因為遊戲內的記分板最多只能顯示五個人類與五個特感玩家狀態
+	* 遊戲預設按Tab出現的遊戲預設記分板依然會顯示
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -150,9 +157,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 顯示的符號 - 旁觀者
 		l4d_scoreboard_panel_spectator_team_symbol "O"
+
+		// 為1時，特感玩家不會在列表上看到特感Bot
+		l4d_scoreboard_panel_infected_bot_display "0"
 		```
 </details>
-
-* 注意事項
-	* 原本遊戲的記分板依然會顯示，那是客戶端的文件，伺服器無法阻擋 (認真你就輸了)
-	<br/>![image](https://user-images.githubusercontent.com/12229810/210696441-02a5b27e-d540-4f0b-a760-0f60e59300d4.png)
