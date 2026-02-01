@@ -62,6 +62,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.7 (2026-2-1)
+		* Fixed plugin not working if player is incap and rejoin server
+
 	* v1.6 (2024-10-3)
 		* Require l4d_heartbeat
 
