@@ -1,11 +1,12 @@
 # 安裝總攬
-> 2026/1/27
+> 2026/2/5 更新
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
   - [必要檔案](#必要檔案)
   - [額外檔案](#額外檔案)
   - [娛樂檔案](#娛樂檔案)
+  - [不建議安裝的檔案](#不建議安裝的檔案)
   - [問題](#問題)
   - [其他](#其他)
 	
@@ -97,8 +98,8 @@
 
 * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
 
-* (L4D2) [The Passing Character Fix](https://forums.alliedmods.net/showthread.php?t=348949): 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
-    * 此插件會移除The Passing地圖上的一代倖存者NPC
+* (L4D2) [Fix Mixed Characters](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): 修復在一些地圖中有使用一代NPC角色，如果玩家剛好也有使用一代角色，保護玩家不會被踢或是被跟著傳送
+    * 譬如玩The Passing地圖，使用一代角色的倖存者會被傳送或是被踢出遊戲
 
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
 
@@ -109,28 +110,7 @@
 > __Note__ 此處額外檔案可以不用裝，自行決定
 * [AFK and Join Team Commands Improved Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands): 提供多種命令轉換隊伍陣營 (譬如: !afk, !survivors, !infected), 但不可濫用.
 
-* <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875): 八位玩家能有更多的角色語音互動</s>
-    * 🟥會導致伺服器崩潰，等待作者修復🟥
-
-* (L4D2) <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903): 一二代倖存者看見屍體能有更多的角色語音互動</s>
-    * 🟥會導致伺服器崩潰，等待作者修復🟥
-
-* [Scene Adjustments/Fixes](https://forums.alliedmods.net/showthread.php?t=321127)
-    * 🟥只適用於專屬伺服器🟥
-    * 修正五人以上友傷沒有語音
-    * 修正玩家被hunter撲/被Charger撞沒有語音
-    * 修正一代角色看見隊友屍體沒有反應
-   
-* (L4D2) [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
-    * 🟥只適用於專屬伺服器🟥
-
-* (L4D2) [Team Kill Reactions Vocalize Fix](https://forums.alliedmods.net/showthread.php?t=259791): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
-    * 🟥只適用於專屬伺服器🟥
-   
 * (L4D2) [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
-
-* (L4D2) [Character_manager](https://forums.alliedmods.net/showthread.php?t=309601): 一二代倖存者能同時存在
-    * 與上面插件的 **Survivor Identity Fix for 5+ Survivors** 會有衝突，請先移除
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 
@@ -139,11 +119,23 @@
 
 * [Survivor Rescue Closet](https://forums.alliedmods.net/showthread.php?t=340659): 救援房間可以復活第五位以上的倖存者
 
-* (L4D2) [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
-* (L4D1) [L4D Modified Talker](https://www.gamemaps.com/details/3863): 角色有更多語音
+* [5+ Survivor Friendly Fire Quote Fix](https://forums.alliedmods.net/showthread.php?t=321127)
+    * 🟥只適用於專屬伺服器🟥
+    * 修正五人以上友傷沒有語音
+    * 修正玩家被hunter撲/被Charger撞沒有語音
+   
+* (L4D2) [Survivor Clones Hunter Pounced Warning Fix](https://forums.alliedmods.net/showthread.php?t=248776): 角色看到與自己相同模組的角色被Hunter撲倒，有角色語音互動
+    * 🟥只適用於專屬伺服器🟥
 
-* (L4D2) [Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947): 修復每個人都能看到一二代角色的名子與頭像
-    * 不一定對每個人都有用，沒用請刪除
+* (L4D2) [Team Kill Reactions Vocalize Fix (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_team_kill_reactions): 玩家TK導致隊友倒地或死亡，能有更多的角色語音互動
+    * 🟥只適用於專屬伺服器🟥
+
+* (L4D2) [Survivors mourn fix (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_survivor_mourn_fix): 修復一代倖存者互相看見屍體時沒有語音反應
+    * 🟥只適用於專屬伺服器🟥
+
+* (L4D2) [8 Player Modified Talker](https://steamcommunity.com/sharedfiles/filedetails/?id=2462741269): 一二代角色能有更多的語音互動
+
+* (L4D1) [L4D Modified Talker](https://www.gamemaps.com/details/3863): 角色有更多語音
 
 - - - -
 ## 娛樂檔案
@@ -177,6 +169,43 @@
     * [Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)
     * [L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)
     * [Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin): 私人插件列表 (需付費)
+
+- - - -
+## 不建議安裝的檔案
+> __Note__ 副作用太多，弊大於利，不建議使用
+
+* <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875)</s>
+    * 效果: 八位玩家能有更多的角色語音互動
+    * 🟥崩潰: 會導致伺服器崩潰，等待作者修復
+
+* (L4D2) <s>[Real Survivor Mourn Fix](https://forums.alliedmods.net/showthread.php?t=335903)</s>
+    * 效果: 一二代倖存者看見屍體能有更多的角色語音互動
+    * 🟥崩潰: 會導致伺服器崩潰，等待作者修復
+
+* (L4D2) <s>[Character_manager](https://forums.alliedmods.net/showthread.php?t=309601)</s>
+    * 效果: 一二代倖存者能同時存在
+    * 效果: 此插件會修改地圖的SurvivorSet，然後當倖存者生成或Bot替換時，插件會幫忙修改角色對應的圖標與名稱還有模型
+    * 衝突: 使用此插件時需要移除**Survivor Identity Fix for 5+ Survivors**，功能重複會有衝突
+    * 🟥副作用: 此插件會改變survivor set，這將導致部分三方地圖卡關，因為劇情對話與事件無法順利地觸發
+
+* (L4D2) <s>[Force L4D2 survivor arms, names, icons](https://forums.alliedmods.net/showthread.php?t=345947)</s>
+    * 效果: 修復每個人都能看到一二代角色正確的名稱、頭像、手臂
+    * 🟥副作用: 傳送假情報給客戶端該遊戲模式為dash(僅在C2M2)或是shootzones(所有地圖)
+    * 🟥副作用: 此插件會改變survivor set (強制為二代倖存者)，這將導致部分三方地圖卡關，因為劇情對話與事件無法順利地觸發
+
+* (L4D2) <s>[The Passing character fix with DHooks](https://forums.alliedmods.net/showthread.php?t=337428)</s>
+    * 效果: 修復人類玩家有使用一代角色，在The Passing或是有使用一代角色NPC的三方地圖，不會被踢或是被跟著傳送
+    * 🟥副作用: 在C6M1 切換成一代角色，然後等待滅團重啟，有一代角色的玩家依然會被傳送到橋上
+    * 🟥副作用: 一代角色無法在一代地圖順利觸發劇情對話，譬如C8M5呼叫救援無線電
+
+* (L4D2) <s>[The Passing Character Fix with EntityLump](https://forums.alliedmods.net/showthread.php?t=348949)</s>
+    * 效果: 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
+    * 🟥副作用: 此插件會移除The Passing地圖上的一代倖存者NPC
+    * 可以使用**Fix Mixed Characters**，取代此插件
+
+* <s>[Survivor Character Fixes](https://forums.alliedmods.net/showthread.php?t=336328)</s>
+    * 效果: 修復"m_survivorCharacter"角色屬性的內部問題，推薦與能改變角色的插件如CSM一起使用
+    * 🟥實際修復什麼效果不明，作者更新緩慢
 
 - - - -
 ## 問題

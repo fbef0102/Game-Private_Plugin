@@ -23,7 +23,6 @@ public void __pl_l4d_ranking_system_SetNTVOptional()
 
 /**
  * Get Rank Title for client
- * native int Rank_System_GetRankTitle(int client, char[] str, int size);
  * 
  * @param client	Client to get rank title
  * @param str       String to store rank title.

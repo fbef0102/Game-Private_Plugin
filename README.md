@@ -217,6 +217,8 @@
     * 在安全區域內禁止人類使用治療包
   * [l4d_anti_juggle_pickup](/L4D_插件/Anti_Griefer_防惡意路人/l4d_anti_juggle_pickup): Limit the numbers of times weapons/items can be picked up within short time
     * 限制玩家頻繁撿取武器或物資，避免搬運或切洗
+  * [antisaferoomdooropen](/L4D_插件/Anti_Griefer_防惡意路人/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
+    * 起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始
 </details>
 
 * <details><summary><b>Boomer | Boomer</b></summary>
@@ -631,8 +633,6 @@
 
 * <details><summary><b>Survivor | 人類</b></summary>
 
-  * [antisaferoomdooropen](/L4D_插件/Survivor_人類/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
-    * 起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始
   * [l4d_survivor_damage_modify](/L4D_插件/Survivor_人類/l4d_survivor_damage_modify): Modify damage done to survivors from Tank, SI, Witch, Common, Fall
     * 傷害比例調整插件，可自行調整 Tank/Witch/特感/小殭屍/跳樓 對人類造成的傷害比
   * [l4d_unstuck](/L4D_插件/Survivor_人類/l4d_unstuck): Allows players to get themselves unstuck from charger glitches and level clips
