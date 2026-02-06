@@ -43,10 +43,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, Enabled this plugin.
 		l4d_slot_vote_enabled "1"
 
-		// Minimum allowed number of server slots (this value must be equal or lesser than l4d_slot_vote_max).
+		// Minimum allowed number of server slots.
 		l4d_slot_vote_min "9"
 
-		// Maximum allowed number of server slots (this value must be equal or greater than l4d_slot_vote_min).
+		// Maximum allowed number of server slots.
 		l4d_slot_vote_max "28"
 
 		// Minimum # of players in game to start the vote
@@ -72,6 +72,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// If 1, non-admin can not call vote to change slots or kick spectators
 		l4d_slot_vote_player_block "1"
+
+		// If 1, lock server slots (_maxplayers) until server restarts after slot changed by vote or by admin
+		l4d_slot_vote_lock "1"
 		```
 </details>
 
@@ -99,9 +102,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.0h (2026-2-6)
+		* Update cvars
+		* support l4d1
+
 	* v2.4 (2023-2-2)
 		* Use the L4D2 built-in vote screens for l4d2
-		* Require "builtinvotes" extension (l4d2 only)
+		* Require "builtinvotes" extension
 
 	* v2.3
 		* Initial Release
@@ -166,6 +173,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 為1時，非管理員的玩家不可以輸入 !kickspec 或 !slots 發起投票
 		l4d_slot_vote_player_block "0"
+
+		// 為1時，玩家或管理員使用件更改了伺服器人數，該伺服器人數永遠不改變除非伺服器重啟
+		l4d_slot_vote_lock "1"
 		```
 </details>
 

@@ -3,24 +3,24 @@
 	"Medkit Usage"
 	{
 		"en"			"Medkit Usage:"
-		"zho"			"治療包數據:"
-		"chi"			"治疗包数据:"
+		"zho"			"急救包使用統計:"
+		"chi"			"急救包使用统计:"
 	}
 	
 	"stats_1"
 	{
 		"#format"		"{1:N},{2:d}"
 		"en"			"{olive}{1}{default} [{green}{2}{default} Medkit]"
-		"zho"			"{olive}{1}{default} [{green}{2}{default} 個治療包]"
-		"chi"			"{olive}{1}{default} [{green}{2}{default} 个治疗包]"
+		"zho"			"{olive}{1}{default} [{green}{2}{default} 個]"
+		"chi"			"{olive}{1}{default} [{green}{2}{default} 个]"
 	}	
 	
 	"stats_2"
 	{
 		"#format"		"{1:N}"
 		"en"			"{olive}{1}{default} [{green}0{default} Medkit]"
-		"zho"			"{olive}{1}{default} [{green}0{default} 個治療包]"
-		"chi"			"{olive}{1}{default} [{green}0{default} 个治疗包]"
+		"zho"			"{olive}{1}{default} [{green}0{default} 個]"
+		"chi"			"{olive}{1}{default} [{green}0{default} 个]"
 	}
 	
 	"Total"
@@ -33,16 +33,16 @@
 	
 	"First kit used (C)"
 	{
-		"en"			"{green}First{default} kit used."
-		"zho"			"{green}第一次{default} 使用治療包."
-		"chi"			"{green}第一次{default} 使用治疗包."
+		"en"			"{green}First{default} medkit used."
+		"zho"			"{green}第一次{default}使用急救包."
+		"chi"			"{green}第一次{default}使用急救包."
 	}
 	
 	"First kit used"
 	{
-		"en"			"First kit used."
-		"zho"			"第一次 使用治療包."
-		"chi"			"第一次 使用治疗包."
+		"en"			"First medkit used."
+		"zho"			"第一次使用急救包."
+		"chi"			"第一次使用急救包."
 	}
 	
 	"second (C)"
@@ -97,16 +97,16 @@
 	{
 		"#format"		"{1:d},{2:s}"
 		"en"			"{green}{1}{default} kits used (last one used {2} ago)"
-		"zho"			"已使用 {green}{1}{default} 個治療包 (最後一次使用於 {2} 之前)"
-		"chi"			"已使用 {green}{1}{default} 个治疗包 (最后一次使用于 {2} 之前)"
+		"zho"			"{green}{1}{default} 個急救包被使用 (距離上一次使用 {2})"
+		"chi"			"{green}{1}{default} 个急救包被使用 (距离上一次使用 {2})"
 	}
 	
 	"kits used"
 	{
 		"#format"		"{1:d},{2:s}"
 		"en"			"{1} kits used (last one used {2} ago)"
-		"zho"			"已使用 {1} 個治療包 (最後一次使用於 {2} 之前)"
-		"chi"			"已使用 {1} 个治疗包 (最后一次使用于 {2} 之前)"
+		"zho"			"{1} 個急救包被使用 (距離上一次使用 {2})"
+		"chi"			"{1} 个急救包被使用 (距离上一次使用 {2})"
 	}
 	
 	"s"

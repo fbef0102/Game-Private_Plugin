@@ -58,6 +58,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2 (2026-2-6)
+		* Optimize code
+
 	* v1.1 (2024-9-3)
 		* Add translation file
 

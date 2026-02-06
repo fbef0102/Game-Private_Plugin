@@ -36,7 +36,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
-    4. [[INC] localizer](https://github.com/dragokas/SM-Localizer/blob/master/localizer.inc)
+    4. [[INC] localizer](https://github.com/dragokas/SM-Localizer/)
     5. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
         * 修復手動更換地圖會遇到的問題
     6. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
