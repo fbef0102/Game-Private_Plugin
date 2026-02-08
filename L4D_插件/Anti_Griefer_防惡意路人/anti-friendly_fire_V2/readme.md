@@ -54,6 +54,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.2 (2026-2-8)
+		* If the damage exceeds the victim's health, set the damage to the same value as their health.
+
 	* v2.1 (2025-9-2)
 		* Updata data
 
