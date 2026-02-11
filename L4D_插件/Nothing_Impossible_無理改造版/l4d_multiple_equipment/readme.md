@@ -173,8 +173,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v2.6h (2026-2-12)
+        * Fixed equipments from last level disappear after survivor wipe out and start second new round
+
     * v2.5h (2025-10-12)
-        * Remake code again, oOptimize code and improve performance
+        * Remake code again, optimize code and improve performance
         * Hide player's item and restore item instead of deleting and creating entities
         * Update API
 
