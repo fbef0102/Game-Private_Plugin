@@ -18,16 +18,24 @@
    "VIP_Active"
    {
       "#format"   "{1:s}"
-      "en"  "VIP: {green}{1}"
-      "zho" "VIP身分: {green}{1}"
-      "chi" "VIP身分: {green}{1}"
+      "en"  "VIP/ADMIN: {green}{1}"
+      "zho" "VIP/ADMIN身分: {green}{1}"
+      "chi" "VIP/ADMIN身分: {green}{1}"
    }
 
    "VIP_None"
    {
-      "en"  "VIP: {green}None"
-      "zho" "VIP身分: {green}無"
-      "chi" "VIP身分: {green}無"
+      "en"  "VIP/ADMIN: {green}None"
+      "zho" "VIP/ADMIN身分: {green}無"
+      "chi" "VIP/ADMIN身分: {green}無"
+   }
+   
+
+   "LeftSafeRoom_Message"
+   {
+      "en"  "{green}[TS]{default} You left saferoom, be cafeful!"
+      "zho" "{green}[TS]{default} 你離開了安全室, 路上小心"
+      "chi" "{green}[TS]{default} 你离开了安全室, 路上小心"
    }
 }
 

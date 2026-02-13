@@ -19,10 +19,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* CI is the percentage of commons killed by each player from all kills by everyone.
 	* SI is the percentage of specials killed by each player from all kills by everyone.
 	* T is the percentage of damage to all tanks by each player from the total damage to all tanks from all players.
+	* Support versus mode
+	* Support damage done to multi tanks
 </details>
 
 * Require | 必要安裝
-<br/>None
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * <details><summary>Command | 命令</summary>
 
@@ -32,13 +34,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Similar Plugin | 相似插件</summary>
+* <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [kills](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/kills): Show statistics of surviviors (kill S.I, C.I. and FF)on round end
 		> 擊殺殭屍與特殊感染者統計
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.0h (2026-2-13)
+		* Remake code
+		* Support versus and damage done to multi tank
 
 	* v1.1
 	    * More accurate damage done to tank
@@ -56,4 +62,5 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* CI 為 普通殭屍的擊殺百分比<br/>
 		* SI 為 特感的擊殺百分比<br/>
 		* T 為 所有Tank傷害的百分比
-	* 不適用於對抗模式
+	* 適用於對抗模式
+	* 可儲存對多隻Tank造成的傷害

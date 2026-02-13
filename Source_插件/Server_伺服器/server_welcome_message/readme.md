@@ -16,11 +16,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Display welcome message when player joins server
-	* Message depends on player's country or area
+	* (L4D1/2 only) Display message when player left saferoom
+	* You can modify message in translation file: [translations/server_welcome_message.phrases.txt](translations/server_welcome_message.phrases.txt)
 </details>
 
 * Require | 必要安裝
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. L4D1/2: [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -35,8 +37,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, display server hostname and ip to new player
 		server_welcome_message_hostname_ip "1"
 
-		// Players with these flags are considered as vip. (Empty=Off)
-		server_welcome_message_vip_flag "qr"
+		// If 1, display player's admin/vip flag.
+		server_welcome_message_vip_flag "1"
+
+		// (L4D1/2) If 1, display message to play after player left the safe room.
+		server_welcome_message_left_saferoom_l4d "1"
 		```
 </details>
 	
@@ -46,6 +51,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2026-2-13)
+		* Display message when player left saferoom (L4D1/2 only)
 
 	* v1.2 (2024-1-31)
 		* Display hostname, ip, vip status
@@ -65,8 +73,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![zho/server_welcome_message_1](image/zho/server_welcome_message_1.jpg)
 
 * 原理
-	* 玩家加入伺服器後，根據玩家的語言顯示歡迎訊息
-	* 可以自行修改歡迎訊息，到```translations\server_welcome_message.phrases.txt```修改
+	* 玩家加入伺服器後，顯示歡迎訊息
+	* (限L4D1/2) 玩家離開安全區域後，顯示訊息
+	* 可以自行修改訊息，文件: [translations/server_welcome_message.phrases.txt](translations/server_welcome_message.phrases.txt)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -81,7 +90,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 為1時，歡迎訊息顯示房間名稱與IP
 		server_welcome_message_hostname_ip "1"
 
-		// 擁有這些權限的玩家，被視為VIP並顯示 (留白 = 關閉VIP顯示)
+		// 為1時，對玩家顯示其VIP/ADMIN等級
 		server_welcome_message_vip_flag "qr"
+
+		// (L4D1/2) 為1時，玩家離開安全室時顯示訊息
+		server_welcome_message_left_saferoom_l4d "1"
 		```
 </details>
