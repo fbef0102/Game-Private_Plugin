@@ -9,7 +9,7 @@
  * @param sBaseDifficulty 			Base on which official difficulty? "Easy", "Normal", "Hard", "Impossible"
  * @param sCustomDifficultyName 	Custom difficulty name
  */
-forward void OnCustomDifficultyLoaded(char sBaseDifficulty, char sCustomDifficultyName);
+forward void OnCustomDifficultyLoaded(const char[] sBaseDifficulty, const char[] sCustomDifficultyName);
 
 /**
  * Get custom difficulty name by index

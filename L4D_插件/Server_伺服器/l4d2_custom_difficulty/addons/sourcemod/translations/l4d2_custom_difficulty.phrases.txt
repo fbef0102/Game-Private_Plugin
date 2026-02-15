@@ -81,5 +81,68 @@
 		"en"		"[{olive}TS{default}] {lightgreen}%N{default} Admin forced to cancel the vote"
 		"zho"		"[{olive}TS{default}] {lightgreen}%N{default} 管理員強制否决目前投票項目"
 		"chi"		"[{olive}TS{default}] {lightgreen}%N{default} 管理员一票强制否决"
+	}	
+	
+	"Please use difficulty selection menu instead (C)"
+	{
+		"en"		"[{olive}TS{default}] Please use difficulty selection menu instead"
+		"zho"		"[{olive}TS{default}] 禁止官方投票更改難度, 請使問菜單列表"
+		"chi"		"[{olive}TS{default}] 禁止官方投票更改难度, 请选择难度菜单列表"
+	}
+	
+	"Easy (Translate)"
+	{
+		"en"		"Easy-Custom"
+		"zho"		"簡單-自製"
+		"chi"		"简单-自制"
+	}
+	
+	"Normal (Translate)"
+	{
+		"en"		"Normal-Custom"
+		"zho"		"一般-自製"
+		"chi"		"一般-自制"
+	}
+	
+	"Hard (Translate)"
+	{
+		"en"		"Hard-Custom"
+		"zho"		"進階-自製"
+		"chi"		"困难-自制"
+	}	
+	
+	"Impossible (Translate)"
+	{
+		"en"		"Impossible-Custom"
+		"zho"		"專家-自製"
+		"chi"		"专家-自制"
+	}	
+	
+	"Hard+ (Translate)"
+	{
+		"en"		"Hard+"
+		"zho"		"進階+"
+		"chi"		"困难+"
+	}	
+	
+	"Impossible+ (Translate)"
+	{
+		"en"		"Impossible+"
+		"zho"		"專家+"
+		"chi"		"专家+"
+	}	
+	
+	"Impossible++ (Translate)"
+	{
+		"en"		"Impossible++"
+		"zho"		"專家++"
+		"chi"		"专家++"
+	}	
+	
+	"Impossible+++ (Translate)"
+	{
+		"en"		"Impossible+++"
+		"zho"		"專家+++"
+		"chi"		"专家+++"
 	}
 }

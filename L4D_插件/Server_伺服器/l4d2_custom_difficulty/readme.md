@@ -41,6 +41,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// How many players at least to vote custom difficulty.
 		l4d2_custom_difficulty_vote_need_player "4"
+
+		// If 1, Block native difficulty vote and opens the plugin's difficulty selection menu instead
+		l4d2_custom_difficulty_block_native_vote "1"
 		```
 </details>
 
@@ -50,6 +53,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_difficultyvote
 		sm_dvote
+		sm_vd
+		sm_votedifficulty
+		sm_difficulty
+		sm_hard
+		sm_hardcore
 		```
 
 	* **(Server Cmd) Load custom difficulty by index, starting from 1**
@@ -90,6 +98,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.4 (2026-2-16)
+		* Fixed API variables
+		* Add a listener for the native difficulty vote that intercepts the action and opens the plugin’s difficulty selection menu instead
+		* Made reset.cfg execute consistently on any difficulty change
+		* Always execute reset.cfg + difficulty.cfg after map change
+		* Add "menu_desc" field support in data/cfg: Text Display in vote menu (via translation file) 
+		* Added a few extra commands to open the menu.
+		* Update cvars/data/transltion
 
 	* v1.3 (2024-8-16)
 		* Update API
@@ -140,6 +157,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 倖存者與特感隊伍總共要有X位真人玩家在場才能發起投票.
 		l4d2_custom_difficulty_vote_need_player "4"
+
+		// 為1時，禁止玩家使用官方投票更改難度並顯示此插件的投票菜單
+		l4d2_custom_difficulty_block_native_vote "1"
 		```
 </details>
 
@@ -149,6 +169,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_difficultyvote
 		sm_dvote
+		sm_vd
+		sm_votedifficulty
+		sm_difficulty
+		sm_hard
+		sm_hardcore
 		```
 
 	* **(伺服器專用) 強制載入該索引的自製難度, 索引數字從1開始**
