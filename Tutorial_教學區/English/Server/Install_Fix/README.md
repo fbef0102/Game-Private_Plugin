@@ -24,6 +24,9 @@
 * <details><summary><b>Server Crash</b></summary>
 
    * [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null/invalid activator in source engine game entities inputs
+
+   * [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): Fixes 'CUtlRBTree overflow!' crashes.
+      * Does not apply to L4D1/2
 </details>
 
 * <details><summary><b>Hacker and Cheat</b></summary>

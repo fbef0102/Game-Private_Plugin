@@ -647,8 +647,8 @@
     * 根據玩家生命值狀態給予輪廓光圈適當的顏色 + 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
   * [l4d_friendly_fire_stats](/L4D_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.
     * 顯示造成與受到的友傷以及兇手，有友傷統計
-  * [l4d_dead_save_nodify](/L4D_插件/Survivor_人類/l4d_dead_save_nodify): Notify people when survivor is dead or someone uses defibrillator to revive
-    * 當玩家死亡或者從地獄被救活時，提示導演系統訊息
+  * [l4d_danger_director_notify](/L4D_插件/Survivor_人類/l4d_danger_director_notify): Notify people when survivor is dead/incap/hanging from ledge or when someone uses defibrillator to revive a survivor
+    * 當玩家死亡/倒地/掛邊或者從地獄被救活時，提示導演系統訊息給大家
   * [l4d_pill_adrenaline_save](/L4D_插件/Survivor_人類/l4d_pill_adrenaline_save): Player can throw adrenaline shot/pill at incapacitated teammates and help them get up immediately.
     * 玩家可以朝向倒地玩家扔手中的藥丸或腎上腺素，幫助他們快速救起
   * [l4d_more_supply](/L4D_插件/Survivor_人類/l4d_more_supply): Player can take an item on the map multi times depends on 5+ survivors in server

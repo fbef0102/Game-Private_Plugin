@@ -26,6 +26,9 @@
 * <details><summary><b>修復伺服器崩潰</b></summary>
 
    * [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): 修復物件不存在或不合法或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方地圖)
+
+   * [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): 修復崩潰: ```CUtlRBTree overflow```
+      * 不適用L4D1/2     
 </details>
 
 * <details><summary><b>防駭客與外掛</b></summary>

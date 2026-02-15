@@ -30,7 +30,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* The player will not get auto ban
 		* During Map change
 		* While connecting to server (Not load in server yet)
-	* Say ```!admin->Player Commands->Ban Discnnect Player```, Tracks all players who has left server. 
+	* Say ```!admin->Player Commands->Ban Disconnected Player```, Tracks all players who has left server. 
 	* Support Sourceban++
 </details>
 
@@ -116,7 +116,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 正在換圖過程中
 		* 正在連線Loading當中離開伺服器時 (還未完全進入伺服器)
 	* 玩家離開伺服器之後，伺服器會記錄該位玩家的離開原因、steamid、名子
-	* 管理員輸入```!admin->玩家指令->Ban Discnnect Player``` 查看所有離開伺服器的玩家
+	* 管理員輸入```!admin->玩家指令->Ban Disconnected Player``` 查看所有離開伺服器的玩家
 	* 支援Sourceban++
 
 * 用意在哪?
@@ -127,7 +127,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/bandisconnected.cfg
 		```php
-		// 在"Ban Discnnect Player"介面上顯示的玩家數量 （所有離開伺服器的玩家列表）
+		// 在"Ban Disconnected Player"介面上顯示的玩家數量 （所有離開伺服器的玩家列表）
 		bandisconnected_max "100"
 
 		// 為1時，自動封鎖退出伺服器的玩家
