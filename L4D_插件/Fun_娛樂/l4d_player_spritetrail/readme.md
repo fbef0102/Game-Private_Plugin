@@ -28,7 +28,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Require | 必要安裝
-	1. [SpriteTrail Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spritetrail_fix)
+	1. [SpriteTrail Fix](https://github.com/fbef0102/Sourcemod-Plugins/tree/main/smd_spritetrail_fix)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 

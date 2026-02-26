@@ -30,8 +30,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
 	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    3. [l4d2_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_forward)
-    4. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
+	3. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
 	
 * <details><summary>Support | 支援插件</summary>
 
@@ -111,10 +110,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Update cvar
 
 	* v1.1 (2023-7-1)
-	    * Fixed scavenge gascan removed
+		* Fixed scavenge gascan removed
 
 	* v1.0 (2023-5-3)
-	    * Initial Release
+		* Initial Release
 </details>
 
 - - - -

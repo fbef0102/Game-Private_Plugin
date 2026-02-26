@@ -1,5 +1,5 @@
 # Navigation
-> 2026/2/5 updated
+> 2026/2/26 updated
 - [Navigation](#navigation)
 - [Introduction](#introduction)
 - [Prepare](#prepare)
@@ -104,6 +104,8 @@
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
 
 * [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): Fix issues with infected targeting when replacing survivors.
+
+* [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): Restoring transition data by player's UserId instead of character (With DHooks and Source Scramble)
 
 - - - -
 ## Optional

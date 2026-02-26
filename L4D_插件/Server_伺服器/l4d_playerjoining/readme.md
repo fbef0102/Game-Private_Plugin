@@ -30,8 +30,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Require
-	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	2. To retrieve data from client, You must [install country and city database](/Tutorial_教學區/English/Server/Install_Other_File#country-and-city-database)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. To retrieve data from client, You must [install country and city database](/Tutorial_教學區/English/Server/Install_Other_File#country-and-city-database)
 		* 抓取玩家的地理位置，需[安裝國家與城市的資料庫](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝國家與城市的資料庫)
 
 * <details><summary>ConVar | 指令</summary>

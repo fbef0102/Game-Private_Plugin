@@ -30,20 +30,22 @@
         // {1} Name 名字
         // {2} Country 國家
         // {3} City 城市
-        // {4} 玩家總人數
-        // {5} 伺服器空位
-        "#format"		"{1:s},{2:s},{3:s}"
-        "en"        "{olive}[Join] {green}{1}{default} has connected to the server {green}({2}, {3})"
-        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器 {green}({2}, {3})"
-        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器 {green}({2}, {3})"
+        // {4} Player Count玩家總人數
+        // {5} Serve Slot 伺服器空位
+        "#format"		"{1:s},{2:s},{3:s},{4:d},{5:d}"
+        "en"        "{olive}[Join] {green}{1}{default} has connected to the server {green}({2}, {3}), Slot: {4}/{5}"
+        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器 {green}({2}, {3}), 人數: {4}/{5}"
+        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器 {green}({2}, {3}), 人数: {4}/{5}"
     }
     "Connect_Server"
     {
         // {1} Name 名字
-        "#format"		"{1:s}"
-        "en"        "{olive}[Join] {green}{1}{default} has connected to the server"
-        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器"
-        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器"
+        // {2} Player Count玩家總人數
+        // {3} Serve Slot 伺服器空位
+        "#format"		"{1:s},{2:d},{3:d}"
+        "en"        "{olive}[Join] {green}{1}{default} has connected to the server, Slot: {2}/{3}"
+        "zho"       "{olive}[Join] {green}{1}{default} 正在連線伺服器, 人數: {2}/{3}"
+        "chi"       "{olive}[Join] {green}{1}{default} 正在连线伺服器, 人数: {2}/{3}"
     }
     "LAN Country Desc"
     {

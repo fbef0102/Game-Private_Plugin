@@ -28,14 +28,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Everyone types ```!dance``` -> Enjoy, everyone can see you dance
 	* Admin types ```!admin``` -> Player commands -> "Emote player" -> make player dance
 	* You can import custom dance model, animation sequnce adn music in [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
-	* Use FastDL to make player download custom dance models and music files while joining server
+	* Use FastDL if you need players to download custom dance models and music files while joining server
 </details>
 
 * Require | 必要安裝
-	1. 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL): Players download custom files while joining server
-		* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL): 玩家進入伺服器時自動下載自製的文件 (不知道什麼是FastDL請自行Google)
-	2. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. 🟥 Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL): Players download dance model and sould files while joining server
+		* 🟥 需[自備網空且支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL): 玩家進入伺服器時下載跳舞模型與音樂檔案 (不知道什麼是FastDL請自行Google)
 
 * <details><summary>Support | 支援插件</summary>
 
@@ -239,6 +239,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 管理員輸入` ```!admin``` -> "玩家指令" -> "設置玩家表情/跳舞" -> 指定玩家跳舞
 	* 玩家的模組做特殊的動作，即使是訂閱工作仿的角色皮膚模組，依然能做表情與舞蹈
 	* 可自定義與載入自己的跳舞模型與音樂資源，詳情看文件: [addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg](addons/sourcemod/data/fortnite_dances_emotes_l4d.cfg)
+	* 如果要玩家自動下載跳舞模型與音樂，請自行準備fastdl
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

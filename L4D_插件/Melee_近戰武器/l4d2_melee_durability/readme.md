@@ -28,8 +28,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-    3. [l4d2_transition_forward](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_forward)
-    4. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
+    3. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -118,14 +117,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Translation Support | 支援翻譯
-	```
-	translations/l4d2_melee_durability.phrases.txt
-	```
+    ```
+    translations/l4d2_melee_durability.phrases.txt
+    ```
 
 * <details><summary>Changelog | 版本日誌</summary>
 
     * v1.4 (2026-1-27)
-		* Save melee durability to the next level in coop/realism mode
+        * Save melee durability to the next level in coop/realism mode
 
     * v1.3 (2024-7-9)
         * Add API
