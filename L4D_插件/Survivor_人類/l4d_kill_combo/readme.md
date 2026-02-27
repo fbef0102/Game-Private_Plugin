@@ -21,11 +21,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
     * Display multi kill text and play sound when player keep killing special infected including tank
 	* Accumulate S.I kill combo when headshot only
-    * Type ```!kc```, Settings will be saved to sCookiesCached. Player will have same settings if rejoin server next time.
+    * Type ```!kc```, settings will be saved to Cookies Cached. Player will have same settings if rejoin server next time.
         * Sound: choose custom kill combo sound
         * Display: Off, Center text, Hint, Menu
         * Display All Players' Multi Combo Result: On/Off
+    * Reward weapon ammo if player has kill combo
     * Make custom sound in [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
+        * Manual in this file, click for more details...
 </details>
 
 * Require | 必要安裝
@@ -59,6 +61,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // If player's kill combo >= this valve, announce kill combo in chatbox and display trophy achievement
         l4d_kill_combo_notify_number "5"
+
+        // If 1, reward weapon ammo when player has kill combo
+        l4d_kill_combo_reward_ammo "1"
         ```
 </details>
 
@@ -70,18 +75,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-  
-    * [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
-        > Manual in this file, click for more details...
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/l4d_kill_combo.phrases.txt
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4 (2026-2-27)
+        * Reward weapon ammo if player has kill combo
+        * Update data
 
     * v1.3 (2024-11-21)
         * Update cvars, translation, menu
@@ -113,7 +116,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * 音效: 選擇自定義的音效
         * 顯示: 關閉, 螢幕中間, 下方黑底白字, 介面
         * 提示其他人與自己的連殺: 開啟/關閉
+    * 當玩家獲得擊殺數時，獎勵主武器的備用子彈
     * 自定義連殺音效: [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
+        * 內有中文說明，可點擊查看
 
 * 用意在哪?
     * 模仿CS連殺提示，爽而已
@@ -150,6 +155,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // 在聊天框打印自己的擊殺數，顯示給所有玩家
         // 以及頭上顯示獎盃成就
         l4d_kill_combo_notify_number "5"
+
+        // 為1時，當玩家獲得擊殺數時，獎勵主武器的備用子彈
+        l4d_kill_combo_reward_ammo "1"
         ```
 </details>
 
@@ -159,10 +167,4 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_kc
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-  
-    * [data/al4d_kill_combo.cfg](data/l4d_kill_combo.cfg)
-        > 內有中文說明，可點擊查看
 </details>
