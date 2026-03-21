@@ -63,11 +63,12 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir ./L4D2_Server/```
          - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login xxxxx```
-         - xxxxx 是你的steam帳戶的帳號
+      - ```login xxxxx yyyyy```
+         - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
+         - yyyyy 是你的steam帳戶的密碼
+         - 🟥 請記得空格
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4D - Dedicated Serverr
@@ -97,11 +98,12 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir ./L4D2_Server/```
          - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login xxxxx```
-         - xxxxx 是你的steam帳戶的帳號
+      - ```login xxxxx yyyyy```
+         - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
+         - yyyyy 是你的steam帳戶的密碼
+         - 🟥 請記得空格
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4D - Dedicated Server
@@ -855,11 +857,12 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
-      - ```login xxxxx```
-         - xxxxx 是你的steam帳戶的帳號
+      - ```login xxxxx yyyyy```
+         - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
+         - yyyyy 是你的steam帳戶的密碼
+         - 🟥 請記得空格
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID
             - 222840 為L4D - Dedicated Server
@@ -888,11 +891,12 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds_run所在的資料夾 (請輸入完整路徑)
-      - ```login xxxxx```
-         - xxxxx 是你的steam帳戶的帳號
+      - ```login xxxxx yyyyy```
+         - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
+         - yyyyy 是你的steam帳戶的密碼
+         - 🟥 請記得空格
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
-         - 第一次登入時出現```password: ```要輸入steam帳戶的密碼，看不到自己的密碼是正常的
-         - 如果要二次驗證就輸入Steam Guard Mobile驗證碼
+         - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
          - XXXXXX 為遊戲伺服器的App ID，[steamdb](https://steamdb.info/) 自行搜尋遊戲
             - 222840 為L4D - Dedicated Server

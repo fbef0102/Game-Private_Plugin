@@ -89,7 +89,7 @@
    * (L4D1/2) [l4d_remove_item_collision](https://forums.alliedmods.net/showthread.php?t=328327): Changes the collision from all weapons or carryables to collide only with the world and static stuff
       * Useful on servers where is possible to have many items in almost the same place (e.g. through !buy system), which can cause lag because of the number of items colliding.
    
-   * (L4D1/2) [disable_cameras](https://github.com/shqke/sp_public/tree/master/disable_cameras): 修復玩家被地圖上的鏡頭卡住視角
+   * (L4D1/2) [disable_cameras](https://github.com/shqke/sp_public/tree/master/disable_cameras): Fixes crash when kicking a bot during an intro sequence (when transition is controlled by point_viewcontrol_survivor from side view to first person). Fixes multiple potential visual bugs on round restart, such as missing HUD and viewmodel for spectators after "finale vehicle escape" sequence team swap.
 
    * (L4D1/2) [l4d_fix_deathfall_cam](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_deathfall_cam)
       * Fixes crash when kicking a bot during an intro sequence (when transition is controlled by point_viewcontrol_survivor from side view to first person)

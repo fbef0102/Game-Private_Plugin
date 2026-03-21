@@ -149,7 +149,7 @@
 * <details><summary><b>Entity | 實體物件</b></summary>
 
   * [AcceptInput_crash_fix](/Source_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null/invalid activator in source engine game entities inputs
-    * 修復物件不存在或不合法或玩家離開伺服器，實體輸入所造成的崩潰 (常見於三方地圖)
+    * 修復物件實體被輸入錯誤或不合法的參數所造成的崩潰 (常見於三方地圖)
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>

@@ -87,6 +87,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 	
+	* 1.6h (2026-3-21)
+		* Fixed "pistol_magnum" wrong spawning
+
 	* 1.5h (2025-10-6)
 		* Add function: replace item with other item
 		* Update data file
