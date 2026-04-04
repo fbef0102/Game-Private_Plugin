@@ -105,11 +105,24 @@
 			```php
 			// How many real players can join server (Not including AI Bots)
 			// Free to modify value (1~8)
+			// Local server only allows 8 real players
 			sv_maxplayers 8
 
 			// Maximum players" number that's visible to people in the server browser and server queries
 			// Suggest to set the same number as sv_maxplayers
 			sv_visiblemaxplayers 8
+
+			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
+			// 1=bypass SteamID verification, 0=Off
+			// This feature can alleviate the No Steam logon (code 6) issue (only for players who enter while the feature is enabled).
+			// Enabling this feature will weaken server security, and Family Sharing functionality will be disabled.
+			// Note: Enabling this feature will cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// Note: Enabling this feature will cause SteamWorks extension not working
+			sv_steam_bypass 1
+
+			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
+			// 1=Activating this function can completely prohibit family shared accounts (alt accounts) from entering the server, 0=Off
+			sv_anti_sharing 0
 			```
 
 	4. By default, the game engine only allow 18 max players. To change max clients
@@ -386,9 +399,6 @@
 	* When server crash, it uploads the crash reports to a [community-accessible processing backend](https://crash.limetech.org/)
 		* Helpful notices with clear information help server owners quickly resolve crash causes
 		* Check the crash reports and try to fix or share with others who can fix
-	* 🟥 Does not apply to
-		* L4D1 linux
-		* L4D2 linux and Sourcemod v1.12 or above
 </details>
 
 * <details><summary>Installation</summary>
@@ -459,7 +469,71 @@
 		<br/>![image](image/31.jpg)
 		<br/>![image](image/32.jpg)
 
-	5. Restart Server
+	5. (Linux requires extra step, Winodws skips this step)
+		1. Navigate to where your server is installed and run the following command, run the following command
+			```c
+			find ./bin -type f -name "libstdc++*" 2>/dev/null
+			```
+			```c
+			find ./bin -type f -name "libgcc*" 2>/dev/null
+			```
+			You should get an output similar to this image, delete all files that are found. (Remember to back up your files. If haven't printed any files, then there's no need to delete them)
+		<br/>![image](image/46.jpg)
+
+		2. Check srcds
+			* If server is running 32 bits version, name is ```srcds_run```, run
+				```c
+				sudo dpkg --add-architecture i386
+				sudo apt update
+				sudo apt install libstdc++6:i386 libstdc++6:i386
+				```
+				
+			* If server is running 64 bits version, name is ```srcds64_run```, run
+				```c
+				sudo apt update
+				sudo apt install libstdc++6 libstdc++6
+				```
+
+		3. Let's locate the system's lib files by running the following command :
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libc.so*" 2>/dev/null
+			```
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libgcc*" 2>/dev/null
+			```
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libstdc++*" 2>/dev/null
+			```
+			<br/>![image](image/47.jpg)
+			* If running 64 bits version, copy the path with the '64'
+			* If running 32 bits version then copy the other path
+
+		4. Navigate to where your server is installed
+			* If running 32 bits version
+				* Rename ```srcds_linux``` to ```srcds_linux_original```
+				* Create a script called  ```srcds_linux``` with the following contents:
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="/usr/lib/i386-linux-gnu/libc.so.6:/usr/lib/i386-linux-gnu/libgcc_s.so.1:/usr/lib/i386-linux-gnu/libstdc++.so.6"
+					exec ./srcds_linux_original "$@"
+					```
+				* Copy and past the path of lib files after 'LD_PRELOAD=', multi paths separate by :
+			<br/>![image](image/48.jpg)
+
+
+			* If running 64 bits version
+				* Rename ```srcds_linux64``` to ```srcds_linux64_original```
+				* Create a script called ```srcds_linux64``` with the following contents:
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libc.so.6:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30"
+					exec ./srcds_linux64_original "$@"
+					```
+				* Copy and past the path of lib files after 'LD_PRELOAD=', multi path separate by :
+
+	6. Restart Server
+		* (Windows) Launch server as usual
+		* (Liunx) Launch server with ```./srcds_run -game...``` or ```./srcds64_run -game...``` as usual
 		* Type ```sm exts list``` in server console. If it doesn't show, that means not install correctly
 			```php
 			] sm exts list

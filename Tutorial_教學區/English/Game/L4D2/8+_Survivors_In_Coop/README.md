@@ -1,5 +1,5 @@
 # Navigation
-> 2026/2/26 updated
+> 2026/4/2 updated
 - [Navigation](#navigation)
 - [Introduction](#introduction)
 - [Prepare](#prepare)
@@ -98,7 +98,7 @@
 
 * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from NavLadder::GetPosAtHeight.
     
-* (L4D2) [Fix Mixed Characters](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): Prioritize character searching (Team 4 bots) to hopefully fix issues with 8+ survivors.
+* (L4D2) [l4d2_fix_character_mixed](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): Prioritize character searching (Team 4 bots) to hopefully fix issues with 8+ survivors.
     * Fix issues with L4D1 bots on maps like The Passing.
     
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): Fix bugs if not enough slots to spawn bots to take over + Kick Previously human-controlled SI bots
@@ -145,6 +145,8 @@
 > __Note__<br/> Choose fun plugins you like
 
 * [L4D2-Unlimited-Map (Harry Version)](https://github.com/fbef0102/L4D2-Unlimited-Map): Original L4D2 maps are modified in this config. Create the Unlimited Map.
+
+* [l4d2_max_health](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_max_health): Custom maximum survivor health
 
 * [Survivor Respawn (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): When a Survivor dies, will respawn after a period of time.
 

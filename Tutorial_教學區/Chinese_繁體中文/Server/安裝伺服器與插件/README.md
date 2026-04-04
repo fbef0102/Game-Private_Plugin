@@ -119,24 +119,8 @@
    4. 到所安裝的路徑查看伺服器檔案
       <br/>![image](image/8.jpg)
 
-   5. **Linux要安裝環境庫才能繼續下一個步驟，視環境系統輸入對應的指令**，[參考來源](https://linuxgsm.com/servers/l4d2server/)
-      * Ubuntu =< 20.04 : **不再支援**
-      * Ubuntu => 20.10
-         ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 lib32z1 gcc-multilib steamcmd
-         ```
-      * Debian =< 10
-         ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
-         ```
-      * Debian => 11
-         ```
-         sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
-         ```
-      * CentOS
-         ```
-         yum install epel-release curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686 zlib.i686
-         ```
+   5. **Linux要安裝環境庫才能繼續下一個步驟，視環境系統輸入對應的指令**
+      * [請點我查看各系統的安裝指令](https://github.com/fbef0102/Sourcemod-Server?tab=readme-ov-file#dependencies)
 </details>
 
 - - - -

@@ -75,8 +75,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* readyup顯示期間不會被rank面板擋住
 	2. [l4d2_skill_detect](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_skill_detect): Skeet hunter, jockey or level charger to get more exp
 		* 人類透過花式技巧殺死特感可以獲得更多經驗值
-	3. [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Support chat color
-		* 修改聊天窗口的對話顏色，可以與Rank稱號一起顯示
+	3. [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Support chat color and tag
+		* 根據管理員或玩家身分給予專屬稱號與聊天窗的專屬顏色，可以與Rank稱號一起顯示
 </details>
 
 * <details><summary>ConVar | 指令</summary>

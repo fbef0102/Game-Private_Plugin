@@ -108,6 +108,18 @@
 
 			// 顯示給外面玩家看到的伺服器空位人數
 			sv_visiblemaxplayers 8
+
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 1=不驗證SteamID, 0=驗證
+			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被離線的問題 (僅限開啟狀態下進入的玩家)
+			// 開啟本功能會削弱伺服器安全性,且禁止家庭共享功能將失效
+			// 注意: 開啟此功能會導致A2S_INFO結果異常,可以透過外掛程式修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 注意: 開啟此功能會導致SteamWorks extension部分功能失效
+			sv_steam_bypass 1
+
+			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
+			// 1=禁止家庭共享, 開啟本功能可以完全禁止家庭共享帳號(小號)進入伺服器
+			sv_anti_sharing 0
 			```
 
 	4. 遊戲預設玩家人數上限只到18位，如果要改變上限，請修改玩家人數上限
@@ -382,9 +394,6 @@
 	* 當伺服器發生崩潰時，會生成崩潰日誌並上傳到[crash.limetech.org網站](https://crash.limetech.org/)解析
 		* 檢測伺服器崩潰, 快速幫服主找出崩潰原因
 		* 服主可自行查看崩潰日誌或是分享給有經驗的大佬修復
-	* 🟥 目前該工具年久失修，不適用
-		* L4D1 linux
-		* L4D2 linux且Sourcemod平台為1.12以上的版本
 </details>
 
 * <details><summary>安裝步驟 (點我展開)</summary>
@@ -455,7 +464,71 @@
 		<br/>![image](image/31.jpg)
 		<br/>![image](image/32.jpg)
 
-	5. 啟動伺服器
+	5. (Linux 需要額外的步驟, Winodws請跳過)
+		1. 打開終端機到你安裝的伺服器路徑上，依序輸入
+			```c
+			find ./bin -type f -name "libstdc++*" 2>/dev/null
+			```
+			```c
+			find ./bin -type f -name "libgcc*" 2>/dev/null
+			```
+			會得到一些檔案的路徑，找到並刪除 (記得備份, 沒有打印任何檔案那表示不需要刪除)
+		<br/>![image](image/46.jpg)
+
+		2. 到你安裝的伺服器路徑上檢查
+			* 如果遊戲是使用32 bit的srcds，檔案名稱是```srcds_run```，終端機輸入安裝
+				```c
+				sudo dpkg --add-architecture i386
+				sudo apt update
+				sudo apt install libstdc++6:i386 libstdc++6:i386
+				```
+				
+			* 如果遊戲是使用64 bit的srcds，檔案名稱是```srcds64_run```，終端機輸入安裝
+				```c
+				sudo apt update
+				sudo apt install libstdc++6 libstdc++6
+				```
+
+		3. 尋找系統的環境庫路徑
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libc.so*" 2>/dev/null
+			```
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libgcc*" 2>/dev/null
+			```
+			```c
+			find /usr/lib /usr/lib64 /lib /lib64 -type f -name "libstdc++*" 2>/dev/null
+			```
+			<br/>![image](image/47.jpg)
+			* 如果遊戲是使用32 bit的srcds，將32bit的版本路徑複製
+			* 如果遊戲是使用64 bit的srcds，將64bit的版本路徑複製
+
+		4. 到你安裝的伺服器路徑上
+			* 如果遊戲是使用32 bit的srcds
+				* 將```srcds_linux```命名成```srcds_linux_original```
+				* 新增檔案命名為```srcds_linux```，打開並寫入以下內容
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="/usr/lib/i386-linux-gnu/libc.so.6:/usr/lib/i386-linux-gnu/libgcc_s.so.1:/usr/lib/i386-linux-gnu/libstdc++.so.6"
+					exec ./srcds_linux_original "$@"
+					```
+				* 將剛才找到的環境庫路徑貼到LD_PRELOAD=後面取代，有多個路徑請使用:區隔
+			<br/>![image](image/48.jpg)
+
+
+			* 如果遊戲是使用64 bit的srcds
+				* 將```srcds_linux64```命名成```srcds_linux64_original```
+				* 新增檔案命名為```srcds_linux64```，打開並寫入以下內容
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libc.so.6:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30"
+					exec ./srcds_linux64_original "$@"
+					```
+				* 將剛才找到的環境庫路徑貼到LD_PRELOAD=後面取代，有多個路徑請使用:區隔
+
+	6. 啟動伺服器
+		* (Windows) 正常啟動伺服器
+		* (Liunx) 正常用 ```./srcds_run -game...``` 或 ```./srcds64_run -game...``` 啟動伺服器
 		* 控制台輸入```sm exts list```確認安裝成功，如果沒出現表示你前面步驟有誤
 			```php
 			] sm exts list

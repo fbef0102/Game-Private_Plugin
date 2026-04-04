@@ -34,8 +34,8 @@
 		"#format"		"{1:d}"
 		"en"	"Shop List (Balance: {1} credits)."
 		"pt"    "Loja de Compras (Saldo: {1} créditos)."
-		"zho"	"商店列表 (剩餘金額: {1} 元)"
-		"chi"	"商店列表 (剩余金额: {1} 元)"
+		"zho"	"商店列表 (剩餘: {1} 元)"
+		"chi"	"商店列表 (剩余: {1} 元)"
 		"es"	"Lista de la tienda (saldo: {1} puntos)."
 		"ru"	"Магазин|Баланс: {1} кредитов"
 	}	
@@ -199,7 +199,7 @@
 	}
 	"Donate money to you"
 	{
-		"#format"		"{1:s},{2:d}"
+		"#format"		"{1:N},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} donates {green}{2}{default} credits to you!"
 		"pt"	"[{olive}TS{default}] {olive}{1}{default} Doou {green}{2}{default} créditos para você!"
 		"zho"	"[{olive}TS{default}] {olive}{1}{default} 捐款了 {green}{2}{default} 元給你!"
@@ -209,7 +209,7 @@
 	}
 	"You Donate money"
 	{
-		"#format"		"{1:d},{2:s}"
+		"#format"		"{1:d},{2:N}"
 		"en"	"[{olive}TS{default}] You donate {olive}{1}{default} credits to {olive}{2}{default}."
 		"pt"	"[{olive}TS{default}] Você doou {olive}{1}{default} créditos para {olive}{2}{default}."
 		"zho"	"[{olive}TS{default}] 你捐款了 {green}{1}{default} 元給 {olive}{2}{default}"
@@ -228,7 +228,7 @@
 	}
 	"You reduce player money"
 	{
-		"#format"		"{1:s},{2:d}"
+		"#format"		"{1:N},{2:d}"
 		"en"	"[{olive}TS{default}] Reduce {olive}{1}{default}'s {green}{2}{default} credits."
 		"pt"	"[{olive}TS{default}] Reduzio {olive}{1} {green}{2}{default} em créditos."
 		"zho"	"[{olive}TS{default}] 扣款 {olive}{1}{default} 金錢 {green}{2}{default} 元"
@@ -238,17 +238,17 @@
 	}
 	"Adm reduces your money"
 	{
-		"#format"		"{1:s},{2:d}"
+		"#format"		"{1:N},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to reduce your {green}{2}{default} credits."
 		"pt"	"[{olive}TS{default}] {olive}{1}{default} Usou acesso de Admin para reduzir seus {green}{2}{default} créditos."
 		"zho"	"[{olive}TS{default}] {olive}{1}{default} 使用特殊權限扣款你金錢 {green}{2}{default} 元"
 		"chi"	"[{olive}TS{default}] {olive}{1}{default} 使用特殊权限扣款你金钱 {green}{2}{default} 元"
 		"es"	"[{olive}TS{default}] {olive}{1}{default} utiliza acceso !admin para reducir sus {green}{2}{default} puntos."
-		"ru"	"[{olive}TS{default}] {olive}{1} {default}использует админку, чтобы конфисковать {green}{2} {default} кредитов."
+		"ru"	"[{olive}TS{default}] {olive}{1}{default} использует админку, чтобы конфисковать {green}{2} {default} кредитов."
 	}
 	"You give player money"
 	{
-		"#format"		"{1:s},{2:d}"
+		"#format"		"{1:N},{2:d}"
 		"en"	"[{olive}TS{default}] Given {olive}{1}{default} {green}+{2}{default} credits."
 		"pt"	"[{olive}TS{default}] Dar {olive}{1}{default} {green}+{2}{default} créditos."
 		"zho"	"[{olive}TS{default}] 給予 {olive}{1}{default} 金錢 {green}+{2}{default} 元"
@@ -256,19 +256,19 @@
 		"es"	"[{olive}TS{default}] Dar {olive}{1}{default} {green}+{2}{default} puntos."
 		"ru"	"[{olive}TS{default}] Выдано {olive}{1} {green}+{2}{default}кредитов"
 	}
-	"Adm gives your money"
+	"Adm gives you money"
 	{
-		"#format"		"{1:s},{2:d}"
+		"#format"		"{1:N},{2:d}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to give you {green}+{2}{default} credits."
 		"pt"	"[{olive}TS{default}] {olive}{1}{default} Usou acesso admin para dar a você {green}+{2}{default} em créditos."
 		"zho"	"[{olive}TS{default}] {olive}{1}{default} 使用特殊權限給予你金錢 {green}+{2}{default} 元"
 		"chi"	"[{olive}TS{default}] {olive}{1}{default} 使用特殊权限给予你金钱 {green}+{2}{default} 元"
 		"es"	"[{olive}TS{default}] {olive}{1}{default} usa acceso !admin para darle {green}+{2}{default} puntos."
-		"ru"	"[{olive}TS{default}] {olive}{1} {default}использует админку, чтобы дать {green}+{2} {default}кредитов."
+		"ru"	"[{olive}TS{default}] {olive}{1}{default} использует админку, чтобы дать {green}+{2} {default}кредитов."
 	}
 	"You deduct player money"
 	{
-		"#format"		"{1:s}"
+		"#format"		"{1:N}"
 		"en"	"[{olive}TS{default}] Clear {olive}{1}{default}'s all credits."
 		"pt"	"[{olive}TS{default}] Zerar {olive}{1}{default} todos os créditos."
 		"zho"	"[{olive}TS{default}] 沒收 {olive}{1}{default} 所有金錢"
@@ -278,7 +278,7 @@
 	}
 	"Adm deducts your money"
 	{
-		"#format"		"{1:s}"
+		"#format"		"{1:N}"
 		"en"	"[{olive}TS{default}] {olive}{1}{default} uses adm access to deduct you all credits."
 		"pt"	"[{olive}TS{default}] {olive}{1}{default} Use acesso admin para deduzir todos os créditos."
 		"zho"	"[{olive}TS{default}] {olive}{1}{default} 使用特殊權限沒收你所有金錢！"
@@ -286,6 +286,17 @@
 		"es"	"[{olive}TS{default}] {olive}{1}{default} usa acceso !admin para deducirle todos los puntos."
 		"ru"	"[{olive}TS{default}] {olive}{1} {default}использует админку, чтобы убрать все кредиты"
 	}
+	"Heal Teammate (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by healing teammate. (type !buy to purchase)"
+		"pt"	"Você ganhou {green}{1}{default} créditos por curar um amigo. (Digite !buy para comprar itens)"
+		"zho"	"治療隊友 獲得 {green}{1}{default} 元. (輸入 !buy 購物商品)"
+		"chi"	"治疗队友 获得 {green}{1}{default} 元. (输入 !buy 购物商品)"
+		"es"	"Obtienes {green}{1}{default} puntos curando a un compañero de equipo. (Escribe !buy para comprar)"
+		"ru"	"Вы получаете {green}{1}{default} кредитов за лечение напарника."
+	}
+	
 	"Heal Teammate"
 	{
 		"#format"		"{1:d}"
@@ -296,6 +307,16 @@
 		"es"	"Obtienes {1} puntos curando a un compañero de equipo. (Escribe !buy para comprar)"
 		"ru"	"Вы получаете {1}кредитов за лечение напарника."
 	}
+	"Revive Teammate (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by reviving teammate. (type !buy to purchase)"
+		"pt"	"Você ganhou {green}{1}{default} créditos por reviver um amigo. (Digite !buy para comprar itens)"
+		"zho"	"拯救隊友復活 獲得 {green}{1}{default} 元. (輸入 !buy 購物商品)"
+		"chi"	"拯救队友复活 获得 {green}{1}{default} 元. (输入 !buy 购物商品)"
+		"es"	"Obtienes {green}{1}{default} puntos reviviendo compañero. (Escribe !buy para comprar)"
+		"ru"	"Вы получаете {green}{1}{default} кредитов за оживление."
+	}
 	"Revive Teammate"
 	{
 		"#format"		"{1:d}"
@@ -304,7 +325,17 @@
 		"zho"	"拯救隊友復活 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"拯救队友复活 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos reviviendo compañero. (Escribe !buy para comprar)"
-		"ru"	"Вы получаете {green}{1} {default}кредитов за оживление."
+		"ru"	"Вы получаете {1} кредитов за оживление."
+	}
+	"Help Teammate (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by helping teammate. (type !buy to purchase)"
+		"pt"	"Você ganhou {green}{1}{default} créditos por ajudar um amigo. (Digite !buy para comprar itens)"
+		"zho"	"拉起隊友復活 獲得 {green}{1}{default} 元. (輸入 !buy 購物商品)"
+		"chi"	"拉起队友复活 获得 {green}{1}{default} 元. (输入 !buy 购物商品)"
+		"es"	"Obtienes {green}{1}{default} puntos ayudando a su compañero de equipo. (Escribe !buy para comprar)"
+		"ru"	"Вы получаете {green}{1}{default} кредитов за помощь."
 	}
 	"Help Teammate"
 	{
@@ -314,7 +345,17 @@
 		"zho"	"拉起隊友復活 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"拉起队友复活 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos ayudando a su compañero de equipo. (Escribe !buy para comprar)"
-		"ru"	"Вы получаете {green}{1} {default}кредитов за помощь."
+		"ru"	"Вы получаете {1} кредитов за помощь."
+	}
+	"Incap Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by incapacitating a survivor."
+		"pt"	"Você ganhou {green}{1}{default} créditos por incapacitar um sobrevivente."
+		"zho"	"擊倒倖存者 獲得 {green}{1}{default} 元."
+		"chi"	"制服生还者 获得 {green}{1}{default} 元."
+		"es"	"Obtienes {green}{1}{default} puntos al incapacitar a un sobreviviente."
+		"ru"	"Вы получаете {green}{1}{default} кредитов за подъём"
 	}
 	"Incap Survivor"
 	{
@@ -324,7 +365,17 @@
 		"zho"	"擊倒倖存者 獲得 {1} 元."
 		"chi"	"制服生还者 获得 {1} 元."
 		"es"	"Obtienes {1} puntos al incapacitar a un sobreviviente."
-		"ru"	"Вы получаете {green}{1} {default}кредитов за подъём"
+		"ru"	"Вы получаете {1} кредитов за подъём"
+	}
+	"Kill Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by killing a survivor."
+		"pt"	"Você ganhou {green}{1}{default} créditos por matar um sobrevivente."
+		"zho"	"殺死倖存者 獲得 {green}{1}{default} 元."
+		"chi"	"杀死生还者 获得 {green}{1}{default} 元."
+		"es"	"Obtienes {green}{1}{default} matando a un sobreviviente."
+		"ru"	"Вы получаете {green}{1}{default} кредитов за убийство выжившего"
 	}
 	"Kill Survivor"
 	{
@@ -334,7 +385,17 @@
 		"zho"	"殺死倖存者 獲得 {1} 元."
 		"chi"	"杀死生还者 获得 {1} 元."
 		"es"	"Obtienes {1} matando a un sobreviviente."
-		"ru"	"Вы получаете {green}{1} {default}кредитов за убийство выжившего"
+		"ru"	"Вы получаете {1} кредитов за убийство выжившего"
+	}
+	"Kill Witch (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by killing witch. (type !buy to purchase)"
+		"pt"	"Você ganhou {green}{1}{default} créditos por matar uma Bruxa. (Digite !buy para comprar itens)"
+		"zho"	"殺死 Witch 獲得 {green}{1}{default} 元. (輸入 !buy 購物商品)"
+		"chi"	"杀死 Witch 获得 {green}{1}{default} 元. (输入 !buy 购物商品)"
+		"es"	"Obtienes {green}{1}{default} puntos por matar a la witch. (Escribe !buy para comprar)"
+		"ru"	"Вы получаете {green}{1}{default} кредитов за убийство ведьмы"
 	}
 	"Kill Witch"
 	{
@@ -344,8 +405,18 @@
 		"zho"	"殺死 Witch 獲得 {1} 元. (輸入 !buy 購物商品)"
 		"chi"	"杀死 Witch 获得 {1} 元. (输入 !buy 购物商品)"
 		"es"	"Obtienes {1} puntos por matar a la witch. (Escribe !buy para comprar)"
-		"ru"	"Вы получаете {green}{1} {default}кредитов за убийство ведьмы"
+		"ru"	"Вы получаете {1} кредитов за убийство ведьмы"
 	}
+	"Kill Infected (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by killing infected. (type !buy to purchase)"
+		"pt"	"Você ganhou {green}{1}{default} créditos por matar um infectado. (Digite !buy para comprar itens)"
+		"zho"	"殺死特感獲得 {green}{1}{default} 元. (輸入 !buy 購物商品)"
+		"chi"	"杀死特感获得 {green}{1}{default} 元. (输入 !buy 购物商品)"
+		"es"	"Obtienes {green}{1}{default} puntos matando infectados. (Escribe !buy para comprar)"
+		"ru"	"Вы получаете {green}{1}{default} кредитов за убийство босса."
+	}	
 	"Kill Infected"
 	{
 		"#format"		"{1:d}"
@@ -959,8 +1030,8 @@
 		"#format"		"{1:d}"
 		"en"	"Special (Balance: {1} credits)."
 		"pt"	"Especiais (Saldo: {1} em créditos)."
-		"zho"	"特殊商品 (剩餘金額: {1} 元)"
-		"chi"	"特殊商品 (剩余金额: {1} 元)"
+		"zho"	"特殊商品 (剩餘: {1} 元)"
+		"chi"	"特殊商品 (剩余: {1} 元)"
 		"es"	"Compras Especiales (saldo: {1} credits)."
 		"ru"	"Баланс: {1} кредитов"
 	}
@@ -1022,8 +1093,8 @@
 	{
 		"en"	"Teleport to the nearest teammate"
 		"pt"	"Teleportar amigo para perto"
-		"zho"	"飛雷神之術"
-		"chi"	"飞雷神之术"
+		"zho"	"飛雷神之術: 傳送到隊友身邊"
+		"chi"	"飞雷神之术: 传送到队友身边"
 		"es"	"Teletransportarse a un compañero de equipo"
 		"ru"	"Телепорт к ближайшим игрокам"
 	}
@@ -1154,20 +1225,20 @@
 		"#format"		"{1:d}"
 		"en"	"credits Transfer, choose player: (Balance: {1} credits)."
 		"pt"	"Tranferência de créditos, escolha o Jogador: (Saldo: {1} em créditos)."
-		"zho"	"金錢轉移，選擇玩家: (剩餘金額: {1} 元)"
-		"chi"	"金钱转移，选择玩家: (剩余金额: {1} 元)"
+		"zho"	"金錢轉移，選擇玩家: (剩餘: {1} 元)"
+		"chi"	"金钱转移，选择玩家: (剩余: {1} 元)"
 		"es"	"Transferir puntos elige jugador: (Saldo: {1} puntos)."
 		"ru"	"Передача кредитов.Выберите игрока|Баланс: {1} кредитов"
 	}
 	"Transfer Credit Menu Title"
 	{
-		"#format"		"{1:d}"
-		"en"	"credits Transfer, choose credits: (Balance: {1} credits)."
-		"pt"	"Tranferência de créditos, escolha quanto: (Saldo: {1} em créditos)."
-		"zho"	"金錢轉移，選擇金額: (剩餘金額: {1} 元)"
-		"chi"	"金钱转移，选择金額: (剩余金额: {1} 元)"
-		"es"	"Transferir puntos elija puntos: (Saldo: {1} puntos)."
-		"ru"	"Выберите кредиты для передачи|Баланс: {1} кредитов"
+		"#format"		"{1:d},{2:N}"
+		"en"	"credits Transfer, choose number: (Balance: {1} credits, Target: {2})."
+		"pt"	"Tranferência de créditos, escolha quanto: (Target: {1}, Saldo: {2} em créditos)."
+		"zho"	"金錢轉移，選擇金額: (剩餘: {1} 元, 對象: {2})"
+		"chi"	"金钱转移，选择金額: (剩余: {2} 元, 对象: {2})"
+		"es"	"Transferir puntos elija puntos: (Saldo: {1} puntos, Target: {2})."
+		"ru"	"Выберите кредиты для передачи|Баланс: {1} кредитов, Target: {2}"
 	}
 	"There are no any players at this moment."
 	{
@@ -1198,23 +1269,23 @@
 	}
 	"Transfer credit to player"
 	{
-		"#format"		"{1:d}"
-		"en"	"[{olive}TS{default}] You transferred {green}{1}{default} credits to {olive}%N{default}."
-		"pt"	"[{olive}TS{default}] Você tranferiu {green}{1}{default} créditos para {olive}%N{default}."
-		"zho"	"[{olive}TS{default}] 你轉移了 {green}{1}{default} 元給 {olive}%N{default}."
-		"chi"	"[{olive}TS{default}] 你转移了 {green}{1}{default} 元给 {olive}%N{default}."
-		"es"	"[{olive}TS{default}] Transfirio {green} {1} {default} puntos a {olive}% N {default}."
-		"ru"	"[{olive}TS{default}] Передано {green}{1} {default}кредитов игроку {olive}%N {default}."
+		"#format"		"{1:d},{2:N}"
+		"en"	"[{olive}TS{default}] You transferred {green}{1}{default} credits to {olive}{2}{default}."
+		"pt"	"[{olive}TS{default}] Você tranferiu {green}{1}{default} créditos para {olive}{2}{default}."
+		"zho"	"[{olive}TS{default}] 你轉移了 {green}{1}{default} 元給 {olive}{2}{default}."
+		"chi"	"[{olive}TS{default}] 你转移了 {green}{1}{default} 元给 {olive}{2}{default}."
+		"es"	"[{olive}TS{default}] Transfirio {green} {1} {default} puntos a {olive}{2} {default}."
+		"ru"	"[{olive}TS{default}] Передано {green}{1} {default}кредитов игроку {olive}{2} {default}."
 	}
 	"Player transfer credit to you"
 	{
-		"#format"		"{1:d}"
-		"en"	"[{olive}TS{default}] {olive}%N{default} transferred {green}{1}{default} credits to you."
-		"pt"	"[{olive}TS{default}] {olive}%N{default} transferiu {green}{1}{default} créditos para você."
-		"zho"	"[{olive}TS{default}] {olive}%N{default} 轉移了 {green}{1}{default} 元給你."
-		"chi"	"[{olive}TS{default}] {olive}%N{default} 转移了 {green}{1}{default} 元给你."
-		"es"	"[{olive}TS{default}] {olive}% N {default} se transfirio {green} {1} {default} puntos a usted."
-		"ru"	"[{olive}TS{default}] {olive}%N {default}передал {green}{1} {default}вам кредитов."
+		"#format"		"{1:N},{2:d}"
+		"en"	"[{olive}TS{default}] !!!{olive}{1}{default} transferred {green}{2}{default} credits to you!!!"
+		"pt"	"[{olive}TS{default}] !!!{olive}{1}{default} transferiu {green}{2}{default} créditos para você!!!"
+		"zho"	"[{olive}TS{default}] !!!{olive}{1}{default} 轉移了 {green}{2}{default} 元給你!!!"
+		"chi"	"[{olive}TS{default}] !!!{olive}{1}{default} 转移了 {green}{2}{default} 元给你!!!"
+		"es"	"[{olive}TS{default}] !!!{olive}{1} {default} se transfirio {green} {2} {default} puntos a usted!!!"
+		"ru"	"[{olive}TS{default}] !!!{olive}{1} {default}передал {green}{2} {default}вам кредитов!!!"
 	}
 	"Infected Shop is disabled"
 	{
@@ -1230,8 +1301,8 @@
 		"#format"		"{1:d}"
 		"en"	"Infected Shop List (Balance: {1} credits)."
 		"pt"	"Lista Loja de Infectados (Balance: {1} em créditos)."
-		"zho"	"特感商店列表 (剩餘金額: {1} 元)"
-		"chi"	"特感商店列表 (剩余金额: {1} 元)"
+		"zho"	"特感商店列表 (剩餘: {1} 元)"
+		"chi"	"特感商店列表 (剩余: {1} 元)"
 		"es"	"Lista de tienda infectada (saldo: {1} puntos)."
 		"ru"	"Магазин заражённых|Баланс: {1} кредитов"
 	}
@@ -1554,7 +1625,7 @@
 		"en"	"Respawn near alive players"
 		"pt"	"Reviver próximo de jogadores vivos"
 		"zho"	"魔法卡: 死者甦醒"
-		"chi"	"死者苏生"
+		"chi"	"魔法卡: 死者苏生"
 		"ru"	"Возродиться около игроков"
 		"es"	"Reaparecer cerca de jugadores vivos"
 	}
@@ -1562,8 +1633,8 @@
 	{
 		"en"	"Freeze All Infected (short time)"
 		"pt"	"Congelar todos os infectados (curto periodo)"
-		"zho"	"冰凍世界 (短暫時間)"
-		"chi"	"冰冻世界 (短暂时间)"
+		"zho"	"冰凍世界: 凍結所有特感 (短暫時間)"
+		"chi"	"冰冻世界: 冻结所有特感 (短暂时间)"
 		"ru"	"Заморозить боссов (временно)"
 		"es"	"Congela a todos los infectados (Por poco tiempo)"
 	}
@@ -1643,8 +1714,8 @@
 	"Drop Pipebomb"
 	{
 		"en"	"Drop Pipebomb"
-		"zho"	"爆爆王"
-		"chi"	"炸弹人"
+		"zho"	"爆爆王: 生成一個土製炸彈"
+		"chi"	"炸弹人: 生成一个土制炸弹"
 		"es"	"Suelta la Bomba casera"
 		"ru"	"Бросить Пайп Бомбу"
 	}
@@ -1702,7 +1773,7 @@
 		"ru"	"Вы должны быть {red}живым или находиться в режиме призрака{default}!"
 	}
 	
-	"Not Tank"
+	"Tank unable to buy"
 	{
 		"en"	"{red}Tank{default} can not buy this item!"
 		"zho"	"{red}Tank{default} 無法購買此商品!"
@@ -1791,13 +1862,279 @@
 	{
 		"en"	"Respawn all dead players"
 		"zho"	"領域展開: 全體復活"
-		"chi"	"全体复活"
+		"chi"	"领域展开: 全体复活"
 	}
 	"No Any Other Dead Survivors"
 	{
 		"en"	"There are no any other dead survivors at this moment"
 		"zho"	"此時此刻沒有死亡的倖存者"
 		"chi"	"此時此刻沒有死亡的生还者"
+	}	
+	"Not Official Weapon"
+	{
+		"en"	"Your primary weapon is not official weapon"
+		"zho"	"你不是使用官方的武器"
+		"chi"	"你不是使用官方的武器"
+	}	
+	"Ammo is infinite"
+	{
+		"en"	"No need to buy ammo seriously, ammo is already infinite, you blind"
+		"zho"	"備彈已被設置成無限, 無需購買"
+		"chi"	"备弹已被设置成无限, 无需购买"
+	}	
+	"Ammo Reach Limit"
+	{
+		"en"	"Your ammo reaches the max limit!"
+		"zho"	"備彈已超過限制, 無需購買"
+		"chi"	"备弹已超过限制, 无需购买"
+	}	
+	
+	"ADM Give Money"
+	{
+		"en"	"ADM Give Money"
+		"zho"	"管理員給予金額"
+		"chi"	"管理员给予金额"
+	}	
+	
+	"ADM Clear Money"
+	{
+		"en"	"ADM Clear Money"
+		"zho"	"管理員沒收金額"
+		"chi"	"管理员没收金额"
+	}
+	
+	"You are Spectator"
+	{
+		"en"	"You are Spectator"
+		"zho"	"你現在是旁觀者"
+		"chi"	"你现在是旁观者"
+	}
+	
+	"ADM Give Player Menu Title"
+	{
+		"en"	"Give credit, choose player"
+		"zho"	"充值玩家金錢，選擇玩家"
+		"chi"	"充值玩家金钱，选择玩家"
+	}	
+	
+	"ADM Give Credit Menu Title"
+	{
+		"#format"		"{1:N}"
+		"en"	"Give credit, choose number (Target: {1})"
+		"zho"	"充值玩家金錢，選擇金額 (對象: {1})"
+		"chi"	"充值玩家金钱，选择金额 (对象: {1})"
+	}
+	
+	"ADM Clear Player Menu Title"
+	{
+
+		"en"	"Reduce credit, choose player"
+		"zho"	"沒收玩家金錢，選擇玩家"
+		"chi"	"沒收玩家金钱，选择玩家"
+	}	
+	
+	"ADM Clear Credit Menu Title"
+	{
+		"#format"		"{1:N}"
+		"en"	"Reduce credit, choose number (Target: {1})"
+		"zho"	"沒收玩家金錢，選擇金額 (對象: {1})"
+		"chi"	"没收玩家金钱，选择金额 (对象: {1})"
+	}
+	"Kill Tank, Reward All (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"All survivors get {green}{1}{default} credits by killing {red}a tank{green}."
+		"zho"	"殺死{red}Tank{green}，全體獲得 {green}{1}{default} 元."
+		"chi"	"杀死{red}坦克{green}，全体获得 {green}{1}{default} 元."
+	}	
+	"Kill Tank, Reward All"
+	{
+		"#format"		"{1:d}"
+		"en"	"All survivors get {1} credits by killing a tank."
+		"zho"	"殺死Tank，全體獲得 {1} 元."
+		"chi"	"杀死坦克，全体获得 {1} 元."
+	}
+	"Kill Tank (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits by killing {red}a tank{green}."
+		"zho"	"殺死{red}Tank{green}獲得 {green}{1}{default} 元."
+		"chi"	"杀死{red}坦克{green}获得 {green}{1}{default} 元."
+	}	
+	"Kill Tank"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits by killing a tank."
+		"zho"	"殺死Tank獲得 {1} 元."
+		"chi"	"杀死坦克获得 {1} 元."
+	}	
+	"Protect Teammate (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for protecting teammates."
+		"zho"	"保護隊友獲得 {green}{1}{default} 元."
+		"chi"	"保护队友获得 {green}{1}{default} 元."
+	}	
+	"Protect Teammate"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for protecting teammates."
+		"zho"	"保護隊友獲得 {1} 元."
+		"chi"	"保护队友获得 {1} 元."
+	}	
+	"Rescue Teammate (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for rescuing a survivor."
+		"zho"	"拯救房間的倖存者獲得 {green}{1}{default} 元."
+		"chi"	"拯救房间的幸存者获得 {green}{1}{default} 元."
+	}	
+	"Rescue Teammate"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for rescuing a survivor."
+		"zho"	"拯救房間的倖存者獲得 {1} 元."
+		"chi"	"拯救房间的幸存者获得 {1} 元."
+	}	
+	"KILLED_INFECTED (C)"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"You get {green}{2}{default} credits by killing {green}{1}{default} zombies."
+		"zho"	"擊殺{green}{1}{default}隻殭屍獲得 {green}{2}{default} 元."
+		"chi"	"击杀{green}{1}{default}只僵尸获得 {green}{2}{default} 元."
+	}	
+	"KILLED_INFECTED"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"	"You get {2} credits by killing {1} zombies."
+		"zho"	"擊殺{1}隻殭屍獲得 {2} 元."
+		"chi"	"击杀{1}只僵尸获得 {2} 元."
+	}	
+	"Slammed Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for slamming a survivor into a wall/floor."
+		"zho"	"你抓著倖存者撞擊牆壁/地板獲得 {green}{1}{default} 元."
+		"chi"	"你抓着幸存者撞击墙壁/地板获得 {green}{1}{default} 元."
+	}	
+	"Slammed Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for slamming a survivor into a wall/floor."
+		"zho"	"你抓著倖存者撞擊牆壁/地板獲得 {1} 元."
+		"chi"	"你抓着幸存者撞击墙壁/地板获得 {1} 元."
+	}	
+	"Impacted Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for impacting a survivor."
+		"zho"	"你撞飛倖存者獲得 {green}{1}{default} 元."
+		"chi"	"你撞飞幸存者获得 {green}{1}{default} 元."
+	}	
+	"Impacted Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for impacting a survivor."
+		"zho"	"你撞飛倖存者獲得 {1} 元."
+		"chi"	"你撞飞幸存者获得 {1} 元."
+	}	
+	"Vomit Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for vomiting a survivor."
+		"zho"	"你噴到倖存者獲得 {green}{1}{default} 元."
+		"chi"	"你喷到幸存者获得 {green}{1}{default} 元."
+	}	
+	"Vomit Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for vomiting a survivor."
+		"zho"	"你噴到倖存者獲得 {1} 元."
+		"chi"	"你喷到幸存者获得 {1} 元."
+	}		
+	"Pounce Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for pouncing a survivor."
+		"zho"	"你撲到倖存者獲得 {green}{1}{default} 元."
+		"chi"	"你扑到幸存者获得 {green}{1}{default} 元."
+	}	
+	"Pounce Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for pouncing a survivor."
+		"zho"	"你撲到倖存者獲得 {1} 元."
+		"chi"	"你扑到幸存者获得 {1} 元."
+	}	
+	"Grab Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for grabbing a survivor."
+		"zho"	"你拉到倖存者獲得 {green}{1}{default} 元."
+		"chi"	"你拉到幸存者获得 {green}{1}{default} 元."
+	}	
+	"Grab Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for grabbing a survivor."
+		"zho"	"你拉到倖存者獲得 {1} 元."
+		"chi"	"你拉到幸存者获得 {1} 元."
+	}		
+	"Ride Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for jumping on a survivor."
+		"zho"	"你騎到倖存者獲得 {green}{1}{default} 元."
+		"chi"	"你骑到幸存者获得 {green}{1}{default} 元."
+	}	
+	"Ride Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for jumping on a survivor."
+		"zho"	"你騎到倖存者獲得 {1} 元."
+		"chi"	"你骑到幸存者获得 {1} 元."
+	}	
+	"Hurt Survivor (C)"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {green}{1}{default} credits for doing damage to survivors."
+		"zho"	"你對倖存者造成傷害獲得 {green}{1}{default} 元."
+		"chi"	"你对幸存者造成伤害获得 {green}{1}{default} 元."
+	}	
+	"Hurt Survivor"
+	{
+		"#format"		"{1:d}"
+		"en"	"You get {1} credits for doing damage to survivors."
+		"zho"	"你對倖存者造成傷害獲得 {1} 元."
+		"chi"	"你对幸存者造成伤害获得 {1} 元."
+	}
+
+	"Bleeding health"
+	{
+		"en"	"Bleeding health"
+		"zho"	"血鬼術: 倖存者血量變成虛血"
+		"chi"	"血鬼术: 生还者血量变成虚血"
+	}
+	
+	"Extinguish Fire"
+	{
+		"en"	"Extinguish Fire On Body"
+		"zho"	"滅身上的火"
+		"chi"	"灭身上的火"
+	}
+	
+	"Vomit All Survivors"
+	{
+		"en"	"Vomit All Survivors"
+		"zho"	"始祖之力: 倖存者淋上膽汁"
+		"chi"	"始祖之力: 生还者淋上胆汁"
+	}
+	
+	"You are not on fire"
+	{
+		"en"	"You are not on fire"
+		"zho"	"你沒有著火"
+		"chi"	"你没有着火"
 	}
 }
 

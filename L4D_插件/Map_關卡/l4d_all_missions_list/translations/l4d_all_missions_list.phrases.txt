@@ -139,4 +139,11 @@
 		"zho"			"空軍俱樂部"
 		"chi"			"空军俱乐部"
 	}
+	
+	"The Cure"
+	{
+		"en"		"The Cure"
+		"zho"		"治癒"
+		"chi"		"治愈"
+	}
 }

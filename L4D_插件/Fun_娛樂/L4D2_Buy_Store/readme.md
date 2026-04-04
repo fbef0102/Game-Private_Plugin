@@ -44,105 +44,158 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/L4D2_Buy_Store.cfg
-		```php
-		// Numbers of real survivor and infected player require to active this plugin.
-		sm_shop_player_require "4"
+		* Settings
+			```php
+			// Numbers of real survivor and infected player require to active this plugin.
+			sm_shop_player_require "4"
 
-		// If 1, use CookiesCached to save player money. Otherwise, the money will not be saved if player leaves the server.
-		sm_shop_CookiesCached_enable "1"
+			// How server saves money 
+			// (0=Off, 1=Use cookie to save, 2=Use MySQL & SQLite to save)
+			sm_shop_db_type "1"
 
-		// Database to save money to.
-		// Empty = don't connect to database
-		// (MySQL & SQLite supported)
-		sm_shop_database ""
+			// Database to save money to.
+			// Empty = don't connect to database
+			// (only works with _db_type=2, MySQL & SQLite supported)
+			sm_shop_database ""
 
-		// If new player join the sever, give credit (0=off)
-		sm_shop_new_player_credit "100"
+			// Maximum money limit. (Money saved when map change/leaving server)
+			sm_shop_max_money_limit "32000"
 
-		// Maximum money limit. (Money saved when map change/leaving server)
-		sm_shop_max_money_limit "32000"
+			// If new player join the sever, give credit (0=off)
+			sm_shop_new_player_credit "100"
 
-		// Disable Survivor Shop after survivors have left start safe area over X seconds. (0=Survivor Shop available anytime)
-		sm_shop_survivor_disable_time "0"
+			// How many credits players will have after resetting point every new round? (only works with _db_type=0)
+			sm_shop_reset_credit "150"
 
-		// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=No Cold Down).
-		sm_shop_survivor_cooltime_block "5.0"
+			// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+			sm_shop_kill_infected_announce_type "1"
 
-		// Giving money for killing a boomer  (0=off)
-		sm_shop_boomerkilled "10"
+			// Changes how 'You got credits by helping teammate' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+			sm_shop_help_teammate_announce_type "1"
 
-		// Giving money for killing a charger  (0=off)
-		sm_shop_chargerkilled "30"
+			// Changes how 'You got credits by hurting survivor' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
+			sm_shop_infected_hurt_survivor_announce_type "1"
+			```
 
-		// Giving money for killing a smoker  (0=off)
-		sm_shop_smokerkilled "20"
+		* Survivor
+			```php
+			// Disable Survivor Shop after survivors have left start safe area over X seconds. (0=Survivor Shop available anytime)
+			sm_shop_survivor_disable_time "0"
 
-		// Giving money for killing a hunter  (0=off)
-		sm_shop_hunterkilled "20"
+			// Cold Down Time in seconds a survivor player can not buy again after player buys item. (0=No Cold Down).
+			sm_shop_survivor_cooltime_block "5.0"
 
-		// Giving money for killing a jockey  (0=off)
-		sm_shop_jockeykilled "25"
+			// Giving money for killing a boomer  (0=off)
+			sm_shop_boomerkilled "10"
 
-		// Giving money for killing a spitter  (0=off)
-		sm_shop_spitterkilled "10"
+			// Giving money for killing a charger  (0=off)
+			sm_shop_chargerkilled "30"
 
-		// Giving money on tank death, money = hurting tank hp ÷ this value (0=off)
-		sm_shop_tank_hurt "100"
+			// Giving money for killing a smoker  (0=off)
+			sm_shop_smokerkilled "20"
 
-		// Giving money for killing a witch  (0=off)
-		sm_shop_witchkilled "80"
+			// Giving money for killing a hunter  (0=off)
+			sm_shop_hunterkilled "20"
 
-		// Giving money for killing a zombie  (0=off)
-		sm_shop_zombiekilled "1"
+			// Giving money for killing a jockey  (0=off)
+			sm_shop_jockeykilled "25"
 
-		// If 1, Giving money for healing people with kit (Money=Amount of health restored)
-		sm_shop_heal_teammate "1"
+			// Giving money for killing a spitter  (0=off)
+			sm_shop_spitterkilled "10"
 
-		// Giving money for saving people with defibrillator  (0=off)
-		sm_shop_defi_save "200"
+			// Giving money for killing a tank (0=off)
+			sm_shop_tankkilled "200"
 
-		// Giving money for saving incapacitated people. (No Hanging from legde) (0=off)
-		sm_shop_help_teammate_save "30"
+			// Who will get the money when killing a tank? (0=All Survivors, 1=Attacker Only)
+			sm_shop_tankkill_type "0"
 
-		// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 credit)
-		sm_shop_survivor_TK_enable "1"
+			// Giving extra money if player does some damges to tank after tank dead, money = hurting tank hp ÷ this value (0=off)
+			sm_shop_tank_hurt "100"
 
-		// Giving money to each alive survivor for mission accomplished award (non-final). (0=off)
-		sm_shop_stage_complete "400"
+			// Giving money for killing a witch  (0=off)
+			sm_shop_witchkilled "80"
 
-		// Giving money to each alive survivor for mission accomplished award (final). (0=off)
-		sm_shop_final_mission_complete "3000"
+			// How many killed infected does it take to earn money (0=off)
+			sm_shop_zombiekilled_x "10"
 
-		// Reduce money to each survivor player for mission lost (0=off)
-		sm_shop_survivor_mission_lost "300"
+		    // Giving money for killing a certain number of common infected (0=off)
+			sm_shop_zombiekilled_y "1"
 
-		// Changes how 'You got credits by killing infected' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		sm_shop_kill_infected_announce_type "1"
+			// Giving money for healing people with kit (0=off, -1=Money is the amount of health restored)
+			sm_shop_heal_teammate "1"
 
-		// "Changes how 'You got credits by helping teammate' Message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
-		sm_shop_help_teammate_announce_type "1"
+			// Giving money for saving people with defibrillator  (0=off)
+			sm_shop_defi_save "200"
 
-		// If 1, Enable shop for infected.
-		sm_shop_infected_enable "1"
+			// Giving money for saving incapacitated people. (No Hanging from legde) (0=off)
+			sm_shop_help_teammate_save "30"
 
-		// Infected Shop available after survivors have left start safe area over X seconds. (0=Infected Shop available anytime)
-		sm_shop_infected_open_time "10"
+			// If 1, decrease money if survivor friendly fire each other. (1 hp = 1 credit)
+			sm_shop_survivor_TK_enable "1"
 
-		// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=No Cold Down).
-		sm_shop_infected_cooltime_block "30.0"
+			// Giving money to each alive survivor for mission accomplished award (non-final). (0=off)
+			sm_shop_stage_complete "400"
 
-		// Giving money for incapacitating a survivor. (No Hanging from legde) (0=off)
-		sm_shop_infected_survivor_incap "30"
+			// Giving money to each alive survivor for mission accomplished award (final). (0=off)
+			sm_shop_final_mission_complete "3000"
 
-		// Giving money for killing a survivor. (0=off)
-		sm_shop_infected_survivor_killed "100"
+			// Reduce money to each survivor player for mission lost (0=off)
+			sm_shop_survivor_mission_lost "300"
 
-		// Giving money to each infected player for wiping out survivors. (0=off)
-		sm_shop_infected_mission_lost "300"
+			// Giving money to player who protects teammates (0=off)
+			sm_shop_survivor_protect_teammate "1"
 
-		// Reduce money if tank players lose control and become AI tank. (0=off)
-		sm_shop_tank_lost_control "1500"
-		```
+			// Giving money to player who rescued the dead survivor (0=off)
+			sm_shop_survivor_rescued "2"
+			```
+
+		* Infected
+			```php
+			// If 1, Enable shop for infected.
+			sm_shop_infected_enable "1"
+
+			// Infected Shop available after survivors have left start safe area over X seconds. (0=Infected Shop available anytime)
+			sm_shop_infected_open_time "10"
+
+			// Cold Down Time in seconds an infected player can not buy again after player buys item. (0=No Cold Down).
+			sm_shop_infected_cooltime_block "30.0"
+
+			// Giving money for incapacitating a survivor. (No Hanging from legde) (0=off)
+			sm_shop_infected_survivor_incap "30"
+
+			// Giving money for killing a survivor. (0=off)
+			sm_shop_infected_survivor_killed "100"
+
+			// Giving money to each infected player for wiping out survivors. (0=off)
+			sm_shop_infected_mission_lost "300"
+
+			// Reduce money if tank players lose control and become AI tank. (0=off)
+			sm_shop_tank_lost_control "1500"
+
+			// Giving money [as a charger] when a survivor is slammed into a wall/floor by a Charger. 0=Disabled
+			sm_shop_infected_charger_slamme "1"
+
+			// Giving money [as a charger] when a survivor is flung by a charger impact. 0=Disabled
+			sm_shop_infected_charger_impact "1"
+
+			// Giving money [as a boomer] when you vomit/explode on a survivor. (0=off)
+			sm_shop_infected_boomer_vomit "1"
+
+			// Giving money [as a smoker] when you grab a survivor. (0=off)
+			sm_shop_infected_smoker_grab "1"
+
+			// Giving money [as a hunter] when you pounce a survivor. (0=off)
+			sm_shop_infected_hunter_pounce "1"
+
+			// Giving money [as a jockey] when you ride on a survivor. (0=off)
+			sm_shop_infected_jockey_ride "1"
+
+			// How many damage done to survivors to earn money (0=off)
+			sm_shop_infected_hurt_x "10"
+
+			// Giving money for doing a certain number of damage to survivors (0=off)
+			sm_shop_infected_hurt_y "2"
+			```
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -164,116 +217,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* **Buy item short command list**
 		```php
-		Weapon
-		{
-			"!buy pistol" 				-> Pistol
-			"!buy pistol_magnum"		-> Magnum
-			"!buy pumpshotgun"			-> Pumpshotgun
-			"!buy shotgun_chrome"		-> Chrome Shotgun
-			"!buy smg"					-> Smg
-			"!buy smg_silenced"			-> Silenced Smg
-			"!buy smg_mp5"				-> MP5
-			"!buy rifle"				-> Rifle
-			"!buy rifle_ak47"			-> AK47
-			"!buy rifle_desert"			-> Desert Rifle
-			"!buy rifle_sg552"			-> SG552
-			"!buy shotgun_spas"			-> Spas Shotgun
-			"!buy autoshotgun"			-> Autoshotgun
-			"!buy hunting_rifle"		-> Hunting Rifle
-			"!buy sniper_military"		-> Military Sniper
-			"!buy sniper_scout"			-> SCOUT
-			"!buy sniper_awp"			-> AWP
-			"!buy rifle_m60"			-> M60 Machine Gun
-			"!buy grenade_launcher"		-> Grenade Launcher
-		}
-
-		Melee
-		{
-			"!buy chainsaw"				-> Chainsaw
-			"!buy baseball_bat"			-> Baseball Bat
-			"!buy cricket_bat"			-> Cricket Bat
-			"!buy crowbar"				-> Crowbar
-			"!buy electric_guitar"		-> Electric Guitar
-			"!buy fireaxe"				-> Fire Axe
-			"!buy frying_pan"			-> Frying Pan
-			"!buy katana"				-> Katana
-			"!buy machete"				-> Machete
-			"!buy tonfa"				-> Tonfa
-			"!buy golfclub"				-> Golf Club
-			"!buy knife"				-> Knife
-			"!buy pitchfork"			-> Pitchfork
-			"!buy shovel"				-> Shovel
-		}
-
-		Medic and Throwable
-		{
-			"!buy health_100"			-> Health+100
-			"!buy defibrillator"		-> Defibrillator
-			"!buy first_aid_kit"		-> First Aid Kit
-			"!buy pain_pills"			-> Pain Pill
-			"!buy adrenaline"			-> Adrenaline
-			"!buy pipe_bomb"			-> Pipe Bomb
-			"!buy molotov"				-> Molotov
-			"!buy vomitjar"				-> Vomitjar
-		}
-
-		Other
-		{
-			"!buy ammo"								-> Ammo
-			"!buy laser_sight"						-> Laser Sight
-			"!buy incendiary_ammo"					-> Incendiary Ammo
-			"!buy explosive_ammo"					-> Explosive Ammo
-			"!buy weapon_upgradepack_incendiary"	-> Incendiary Pack
-			"!buy weapon_upgradepack_explosive"		-> Explosive Pack
-			"!buy propanetank"						-> Propane Tank
-			"!buy oxygentank"						-> Oxygen Tank
-			"!buy fireworkcrate"					-> Firework Crate
-			"!buy gascan"							-> Gascan
-			"!buy cola_bottles"						-> Cola Bottles
-			"!buy gnome"							-> Gnome
-		}
-
-		Survivor Special
-		{
-			"!buy fire"						-> Fire Yourself
-			"!buy boom"						-> Drop Pipebomb
-			"!buy adrenaline_power"			-> Gain Adrenaline Power
-			"!buy revive"					-> Save Yourself
-			"!buy fire_infeceted"			-> All Infected Gets On Fire
-			"!buy teleport"					-> Teleport to teammate
-			"!buy infinite_ammo"			-> Infinite Ammo
-			"!buy no_ff"					-> No Friendly Fire
-			"!buy dead_eyes"				-> Dead-Eyes
-			"!buy kill_commons"				-> Kill Commons
-			"!buy Kill_Witches"				-> Kill Witches
-			"!buy heal_survivors"			-> Heal Survivors
-			"!buy god_mode"					-> God Mode
-			"!buy jump_add_1"				-> Jump On Air +1
-			"!buy slay_infected"			-> Slay Infected Attacker
-			"!buy Respawn"					-> Respawn Alive
-			"!buy freeze_infected"			-> Freeze-Infected
-		}
-
-		Infected Spawn
-		{
-			"!buy suicide" 	-> Suicide
-			"!buy smoker" 	-> Smoker
-			"!buy boomer" 	-> Boomer
-			"!buy hunter" 	-> Hunter
-			"!buy spitter" 	-> Spitter
-			"!buy jockey" 	-> Jockey
-			"!buy charger" 	-> Charger
-			"!buy tank" 	-> Tank
-		}
-
-		Infected Special
-		{
-			"!buy health" 	-> Restore Health
-			"!buy teleport" -> Teleport to survivor
-			"!buy immune" 	-> Immune Everything
-			"!buy horde" 	-> Zombie Horde
-			"!buy witch" 	-> Witch
-		}
+		see data/L4D2_Buy_Store.cfg
 		```
 
 	* **repeat purchase item you bought last time**
@@ -281,55 +225,40 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_repeatbuy
 		sm_lastbuy
 		```
-
-	* **donate money to another player (Or use "Credits Transfer" in shop menu)**
-		```php
-		sm_pay <name> <money>
-		sm_donate <name> <money>
-		```
-
-	* **See all players' or specific player's deposit**
-		```php
-		sm_inspectbank [name]
-		sm_checkbank [name]
-		sm_lookbank [name]
-		sm_allbank [name]
-		```
-
-	* **Adm gives/reduces money (ADMFLAG_ROOT)**
-		```php
-		sm_givemoney <name> <+-money>
-		sm_givecredit <name> <+-money>
-		```
-
-	* **Adm removes player's all money (ADMFLAG_ROOT)**
-		```php
-		sm_clearmoney <name>
-		sm_deductmoney <name>
-		```
 </details>
 
 * <details><summary>Database</summary>
 
 	* Choose one of the following method to save money
-		1. CookiesCached: Save player money locally via sourcemod data, set ```sm_shop_CookiesCached_enable "1"``` 
-			```php
-			//Cookies are saved to sourcemod/data/sqlite/clientprefs-sqlite.sq3
-			```
+		1. Cookies: Save player money locally via sourcemod data, 
+			* Set plugin cvar
+				```
+				sm_shop_db_type "1"
+				```
+			* Data location
+				```php
+				// 數據儲存於sourcemod/data/sqlite/clientprefs-sqlite.sq3
+				```
 
-		2. MySQL: Database across server, set ```sm_shop_database "shop"``` and write the following in ```sourcemod/configs/databases.cfg```
-			```php
-			// There would a data table named "Buy_Store_database" in database
-			"shop"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		2. MySQL: Database across server
+			* Set plugin cvar
+				```
+				sm_shop_db_type "2"
+				sm_shop_database "shop"
+				```
+			* Write the following in ```sourcemod/configs/databases.cfg```
+				```php
+				// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
+				"shop"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 </details>
 
 * Translation Support | 支援翻譯
@@ -338,6 +267,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v6.0 (2026-4-4)
+		* Add "ADM Give Money", "ADM Clear Money" in main menu (Root Admin only)
+		* Update translation, data, cvars
+		* Add more points if special infected attacks survivor
+		* Control weapon max ammo limit when buy "Ammo"
+		* Add more speical items in infected team
 
 	* v5.9 (2026-1-11)
 		* Update data, translation
@@ -392,7 +328,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 輸入```!buy```購買商品，有特殊商品
-	* (人類) 殺死特感與小殭屍獲取金額
+	* (人類) 擊殺特感與普通殭屍獲取金額
 	* (特感) 對倖存者造成傷害獲取金額
 	* 能購轉移金錢給其他玩家
 	* 支援Cookie或資料庫儲存
@@ -405,105 +341,158 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/L4D2_Buy_Store.cfg
-		```php
-		// 倖存者與特感隊伍必須有至少4位以上的真人玩家才會啟動插件
-		sm_shop_player_require "4"
+		* 基本設置
+			```php
+			// 倖存者與特感隊伍必須有至少4位以上的真人玩家才會啟動插件
+			sm_shop_player_require "4"
 
-		// 為1時，使用 CookiesCached 儲存玩家金錢. 意思是說，下次開服時，玩家依然保留上次遊玩的金額
-		sm_shop_CookiesCached_enable "1"
+			// 如何儲存玩家金錢. 意思是說，下次開服時，玩家依然保留上次遊玩的金額 
+			// (0=不儲存, 1=使用cookie本地儲存, 2=使用MySQL & SQLite跨服儲存)
+			sm_shop_db_type "1"
 
-		// 資料庫設定
-		// 留白 = 不使用資料庫
-		// (支援 MySQL & SQLite)
-		sm_shop_database ""
+			// 資料庫設定
+			// 留白 = 不使用資料庫
+			// (需要先設置指令 _db_type=2, 支援 MySQL & SQLite)
+			sm_shop_database ""
 
-		// 新玩家的初始金額 (0=不給)
-		sm_shop_new_player_credit "100"
+			// 最大能儲存的金額
+			sm_shop_max_money_limit "32000"
 
-		// 最大能儲存的金額
-		sm_shop_max_money_limit "32000"
+			// 新玩家的初始金額 (0=不給)
+			sm_shop_new_player_credit "100"
 
-		// 倖存者離開安全區域超過此秒數後不能再購買商品 (0=人類可以在任意時間點購買)
-		sm_shop_survivor_disable_time "0"
+			// 每回合開始時，所有玩家的初始金額 (需要先設置指令 _db_type=1,)
+			sm_shop_reset_credit "150"
 
-		// 倖存者再次購買商品的冷卻時間 (0=無冷卻時間).
-		sm_shop_survivor_cooltime_block "5.0"
+			// "你擊殺XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+			sm_shop_kill_infected_announce_type "1"
 
-		// 殺死 Boomer 獲得的金額 (0=關閉這項功能)
-		sm_shop_boomerkilled "10"
+			// "你幫助隊友獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+			sm_shop_help_teammate_announce_type "1"
 
-		// 殺死 Charger 獲得的金額 (0=關閉這項功能)
-		sm_shop_chargerkilled "30"
+			// "特感傷害倖存者獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
+			sm_shop_infected_hurt_survivor_announce_type "1"
+			```
 
-		// 殺死 Smoker 獲得的金額 (0=關閉這項功能)
-		sm_shop_smokerkilled "20"
+		* 倖存者設置
+			```php
+			// 倖存者離開安全區域超過此秒數後不能再購買商品 (0=人類可以在任意時間點購買)
+			sm_shop_survivor_disable_time "0"
 
-		// 殺死 Hunter 獲得的金額 (0=關閉這項功能)
-		sm_shop_hunterkilled "20"
+			// 倖存者再次購買商品的冷卻時間 (0=無冷卻時間).
+			sm_shop_survivor_cooltime_block "5.0"
 
-		// 殺死 Jockey 獲得的金額 (0=關閉這項功能)
-		sm_shop_jockeykilled "25"
+			// 擊殺 Boomer 獲得的金額 (0=關閉這項功能)
+			sm_shop_boomerkilled "10"
 
-		// 殺死 Spitter 獲得的金額 (0=關閉這項功能)
-		sm_shop_spitterkilled "10"
+			// 擊殺 Charger 獲得的金額 (0=關閉這項功能)
+			sm_shop_chargerkilled "30"
 
-		// Tank死亡後給予有造成傷害的倖存者金錢，金額 = 造成Tank傷害 ÷ 此數值 (0=關閉這項功能)
-		sm_shop_tank_hurt "100"
+			// 擊殺 Smoker 獲得的金額 (0=關閉這項功能)
+			sm_shop_smokerkilled "20"
 
-		// 殺死 Witch 獲得的金額 (0=關閉這項功能)
-		sm_shop_witchkilled "80"
+			// 擊殺 Hunter 獲得的金額 (0=關閉這項功能)
+			sm_shop_hunterkilled "20"
 
-		// 殺死 普通感染者 獲得的金額 (0=關閉這項功能)
-		sm_shop_zombiekilled "1"
+			// 擊殺 Jockey 獲得的金額 (0=關閉這項功能)
+			sm_shop_jockeykilled "25"
 
-		// 為1時，使用治療包療隊友，可以獲得金額 (獲得金額=治療回復的血量)
-		sm_shop_heal_teammate "1"
+			// 擊殺 Spitter 獲得的金額 (0=關閉這項功能)
+			sm_shop_spitterkilled "10"
 
-		// 電擊器復活隊友 獲得的金額 (0=關閉這項功能)
-		sm_shop_defi_save "200"
+			// 擊殺 Tank 獲得的金額 (0=關閉這項功能)
+			sm_shop_tankkilled "200"
 
-		// 拯救倒地的隊友(掛邊不算) 獲得的金額 (0=關閉這項功能)
-		sm_shop_help_teammate_save "30"
+			// Tank死亡後誰能獲得 "_tankkilled" 的金額 (0=所有倖存者, 1=擊殺者)
+			sm_shop_tankkill_type "0"
 
-		// 為1時，友傷會扣除金錢 (每造成1hp友傷扣減1元)
-		sm_shop_survivor_TK_enable "1"
+			// Tank死亡後給予有造成Tank傷害的倖存者金錢，金額 = 造成Tank傷害 ÷ 此數值 (0=關閉這項功能)
+			sm_shop_tank_hurt "100"
 
-		// 過關進入安全室時，活著的倖存者獲得的金額 (非救援關卡). (0=關閉這項功能)
-		sm_shop_stage_complete "400"
+			// 擊殺 Witch 獲得的金額 (0=關閉這項功能)
+			sm_shop_witchkilled "80"
 
-		// 過關進入救援載具時，活著的倖存者獲得的金額 (救援關卡). (0=關閉這項功能)
-		sm_shop_final_mission_complete "3000"
+			// 擊殺 "_zombiekilled_x" 隻普通感染者才能獲得 "zombiekilled_y" 金額 (0=關閉這項功能)
+			sm_shop_zombiekilled_x "10"
 
-		// 滅團之後倖存者扣除的金額
-		sm_shop_survivor_mission_lost "300"
+		    // 擊殺 "_zombiekilled_x" 隻普通感染者才能獲得 "zombiekilled_y" 金額 (0=關閉這項功能)
+			sm_shop_zombiekilled_y "1"
 
-		// "你殺死XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
-		sm_shop_kill_infected_announce_type "1"
+			// 使用治療包療隊友，可以獲得的金額 (0=關閉這項功能, -1=獲得的金額等於治療回復的血量)
+			sm_shop_heal_teammate "1"
 
-		// "你幫助隊友獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
-		sm_shop_help_teammate_announce_type "1"
+			// 電擊器復活隊友 獲得的金額 (0=關閉這項功能)
+			sm_shop_defi_save "200"
 
-		// 為1時，特感也能購買商品
-		sm_shop_infected_enable "1"
+			// 拯救倒地的隊友(掛邊不算) 獲得的金額 (0=關閉這項功能)
+			sm_shop_help_teammate_save "30"
 
-		// 特感玩家必須等人類出門安全區域超過此秒數後才能購買商品 (0=特感可以在任意時間點購買)
-		sm_shop_infected_open_time "10"
+			// 為1時，友傷會扣除金錢 (每造成1hp友傷扣減1元)
+			sm_shop_survivor_TK_enable "1"
 
-		// 特感玩家再次購買商品的冷卻時間 (0=無冷卻時間).
-		sm_shop_infected_cooltime_block "30.0"
+			// 過關進入安全室時，活著的倖存者獲得的金額 (非救援關卡) (0=關閉這項功能)
+			sm_shop_stage_complete "400"
 
-		// 使倖存者倒地的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
-		sm_shop_infected_survivor_incap "30"
+			// 過關進入救援載具時，活著的倖存者獲得的金額 (救援關卡) (0=關閉這項功能)
+			sm_shop_final_mission_complete "3000"
 
-		// 殺死倖存者的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
-		sm_shop_infected_survivor_killed "100"
+			// 滅團之後倖存者扣除的金額
+			sm_shop_survivor_mission_lost "300"
 
-		// 滅團之後特感玩家獲得的金額 (0=關閉這項功能)
-		sm_shop_infected_mission_lost "300"
+			// 保護隊友獲得的金額 (0=關閉這項功能)
+			sm_shop_survivor_protect_teammate "1"
 
-		// Tank玩家失去控制權變成AI tank，將扣除金額. (0=關閉這項功能)
-		sm_shop_tank_lost_control "1500"
-		```
+			// 拯救出救援房間內的隊友獲得的金額 (0=關閉這項功能)
+			sm_shop_survivor_rescued "2"
+			```
+
+		* 感染者設置
+			```php
+			// 為1時，特感也能購買商品
+			sm_shop_infected_enable "1"
+
+			// 特感玩家必須等人類出門安全區域超過此秒數後才能購買商品 (0=特感可以在任意時間點購買)
+			sm_shop_infected_open_time "10"
+
+			// 特感玩家再次購買商品的冷卻時間 (0=無冷卻時間)
+			sm_shop_infected_cooltime_block "30.0"
+
+			// 使倖存者倒地的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_survivor_incap "30"
+
+			// 擊殺倖存者的特感玩家(掛邊不算) 獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_survivor_killed "100"
+
+			// 滅團之後特感玩家獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_mission_lost "300"
+
+			// Tank玩家失去控制權變成AI tank，將扣除的金額 (0=關閉這項功能)
+			sm_shop_tank_lost_control "1500"
+
+			// [Charger] 抓著倖存者撞牆或地板之後獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_charger_slamme "1"
+
+			// [Charger] 撞飛倖存者獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_charger_impact "1"
+
+			// [Boomer] 噴到或是炸到倖存者獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_charger_impact "1"
+
+			// [Smoker] 拉到倖存者獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_smoker_grab "1"
+
+			// [Hunter] 撲到倖存者獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_hunter_pounce "1"
+
+			// [Jockey] 騎到倖存者獲得的金額 (0=關閉這項功能)
+			sm_shop_infected_jockey_ride "1"
+
+			// 對倖存者造成 "_infected_hurt_x" 傷害後才能獲得 "_infected_hurt_y" 金額 (0=關閉這項功能)
+			sm_shop_infected_hurt_x "10"
+
+			// 對倖存者造成 "_infected_hurt_x" 傷害後才能獲得 "_infected_hurt_y" 金額 (0=關閉這項功能)
+			sm_shop_infected_hurt_y "2"
+			```
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
@@ -525,116 +514,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* **直接購買商品短名列表**
 		```php
-		快速購買武器
-		{
-			"!buy pistol" 				-> 手槍
-			"!buy pistol_magnum"		-> 沙漠之鷹
-			"!buy pumpshotgun"			-> 木製霰彈槍
-			"!buy shotgun_chrome"		-> 鐵製霰彈槍
-			"!buy smg"					-> 機槍
-			"!buy smg_silenced"			-> 消音機槍
-			"!buy smg_mp5"				-> MP5衝鋒槍
-			"!buy rifle"				-> 步槍
-			"!buy rifle_ak47"			-> AK47
-			"!buy rifle_desert"			-> 三連發步槍
-			"!buy rifle_sg552"			-> SG552步槍
-			"!buy shotgun_spas"			-> 戰鬥霰彈槍
-			"!buy autoshotgun"			-> 連發霰彈槍
-			"!buy hunting_rifle"		-> 獵槍
-			"!buy sniper_military"		-> 軍用狙擊槍
-			"!buy sniper_scout"			-> SCOUT狙擊槍
-			"!buy sniper_awp"			-> AWP
-			"!buy rifle_m60"			-> 殲滅者 M60
-			"!buy grenade_launcher"		-> 榴彈發射器
-		}
-
-		快速購買近戰武器
-		{
-			"!buy chainsaw"				-> 奪魂鋸
-			"!buy baseball_bat"			-> 球棒
-			"!buy cricket_bat"			-> 板球拍
-			"!buy crowbar"				-> 鐵撬
-			"!buy electric_guitar"		-> 電吉他
-			"!buy fireaxe"				-> 斧頭
-			"!buy frying_pan"			-> 平底鍋
-			"!buy katana"				-> 武士刀
-			"!buy machete"				-> 開山刀
-			"!buy tonfa"				-> 警棍
-			"!buy golfclub"				-> 高爾夫球棒
-			"!buy knife"				-> 小刀
-			"!buy pitchfork"			-> 草叉
-			"!buy shovel"				-> 鐵鏟
-		}
-
-		快速購買醫療與投擲物品
-		{
-			"!buy health_100"			-> 生命值+100
-			"!buy defibrillator"		-> 電擊器
-			"!buy first_aid_kit"		-> 治療包
-			"!buy pain_pills"			-> 止痛藥丸
-			"!buy adrenaline"			-> 腎上腺素
-			"!buy pipe_bomb"			-> 土製炸彈
-			"!buy molotov"				-> 火瓶
-			"!buy vomitjar"				-> 膽汁
-		}
-
-		快速購買其他物品
-		{
-			"!buy ammo"								-> 彈藥補給
-			"!buy laser_sight"						-> 雷射裝置
-			"!buy incendiary_ammo"					-> 火焰子彈
-			"!buy explosive_ammo"					-> 高爆子彈
-			"!buy weapon_upgradepack_incendiary"	-> 火焰包
-			"!buy weapon_upgradepack_explosive"		-> 高爆彈
-			"!buy propanetank"						-> 瓦斯桶
-			"!buy oxygentank"						-> 氧氣罐
-			"!buy fireworkcrate"					-> 煙火盒
-			"!buy gascan"							-> 汽油
-			"!buy cola_bottles"						-> 可樂瓶
-			"!buy gnome"							-> 精靈小矮人
-		}
-
-		快速購買人類特殊物品
-		{
-			"!buy fire"						-> 振火神通
-			"!buy boom"						-> 爆爆王
-			"!buy adrenaline_power"			-> 注射興奮劑
-			"!buy revive"					-> 拯救自己
-			"!buy fire_infeceted"			-> 炎之呼吸
-			"!buy teleport"					-> 飛雷神之術
-			"!buy infinite_ammo"			-> 無限子彈
-			"!buy no_ff"					-> 不會造成與受到友傷
-			"!buy dead_eyes"				-> 心靈透視
-			"!buy kill_commons"				-> 殺死所有普通殭屍
-			"!buy kill_witches"				-> 殺死所有Witch
-			"!buy heal_survivors"			-> Heal Survivors
-			"!buy heal_survivors"			-> 團隊治癒+100
-			"!buy jump_add_1"				-> 超級瑪利歐, 空中跳躍+1
-			"!buy slay_infected"			-> 處死攻擊你的特感
-			"!buy respawn"					-> 魔法卡: 死者甦醒
-			"!buy freeze_Infected"			-> 冰凍世界
-		}
-
-		快速購買特感種類
-		{
-			"!buy suicide" 	-> 自殺
-			"!buy smoker" 	-> Smoker
-			"!buy boomer" 	-> Boomer
-			"!buy hunter" 	-> Hunter
-			"!buy spitter" 	-> Spitter
-			"!buy jockey" 	-> Jockey
-			"!buy charger" 	-> Charger
-			"!buy tank" 	-> Tank
-		}
-
-		快速購買特感特殊物品
-		{
-			"!buy health" 	-> 恢復一定血量
-			"!buy teleport" -> 異時空傳送門 (Tank不能購買)
-			"!buy immune" 	-> God 上帝模式
-			"!buy horde" 	-> 屍潮降臨
-			"!buy witch" 	-> 召喚Witch
-		}
+		查看文件 data/L4D2_Buy_Store.cfg
 		```
 
 	* **重複購買上次的商品**
@@ -642,55 +522,40 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_repeatbuy
 		sm_lastbuy
 		```
-
-	* **捐贈金額給其他人 (或在商城列表使用"金錢轉移")**
-		```php
-		sm_pay <玩家名稱> <金錢>
-		sm_donate <玩家名稱> <金錢>
-		```
-
-	* **查看所有玩家的銀行儲值**
-		```php
-		sm_inspectbank [name]
-		sm_checkbank [name]
-		sm_lookbank [name]
-		sm_allbank [name]
-		```
-
-	* **管理員打錢 (權限：ADMFLAG_ROOT)**
-		```php
-		sm_givemoney <玩家名稱> <+-金錢>
-		sm_givecredit <玩家名稱> <+-金錢>
-		```
-
-	* **管理員沒收玩家的金錢 (權限：ADMFLAG_ROOT)**
-		```php
-		sm_clearmoney <玩家名稱>
-		sm_deductmoney <玩家名稱>
-		```
 </details>
 
 * <details><summary>資料庫設定</summary>
 
 	* 以下方法二選一
-		1. CookiesCached: 能幫玩家儲值金額到本地sourcemod庫上，開啟指令 ```sm_shop_CookiesCached_enable "1"```
-			```php
-			// 數據儲存於sourcemod/data/sqlite/clientprefs-sqlite.sq3
-			```
+		1. Cookies: 能幫玩家儲值金額到本地sourcemod資料庫上
+			* 設置插件指令
+				```
+				sm_shop_db_type "1"
+				```
+			* 資料位置
+				```php
+				// 數據儲存於sourcemod/data/sqlite/clientprefs-sqlite.sq3，請不要修改此文件
+				```
 
-		2. MySQL: 跨伺服器儲值金額，設定指令 ```sm_shop_database "shop"```，然後設定文件 ```sourcemod/configs/databases.cfg```
-			```php
-			// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
-			"shop"
-			{
-				"driver"			"mysql"
-				"host"				"x.x.x.x"
-				"database"			"yourdatabase"
-				"user"				"youruser"
-				"pass"				"yourpass"
-				"port"				"yourport"
-			}
-			```
+		2. MySQL: 跨伺服器儲值金額
+			* 設置插件指令
+				```
+				sm_shop_db_type "2"
+				sm_shop_database "shop"
+				```
+			* 設定文件 ```sourcemod/configs/databases.cfg```
+				```php
+				// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
+				"shop"
+				{
+					"driver"			"mysql"
+					"host"				"x.x.x.x"
+					"database"			"yourdatabase"
+					"user"				"youruser"
+					"pass"				"yourpass"
+					"port"				"yourport"
+				}
+				```
 </details>
 
 

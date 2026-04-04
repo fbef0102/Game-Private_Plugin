@@ -154,8 +154,8 @@
 
 * <details><summary><b>Fun | 娛樂</b></summary>
 
-  * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat based on config file.
-    * 根據管理員或玩家身分修改聊天窗口的對話顏色
+  * [simple-chatcolors](/Source_插件/Fun_娛樂/simple-chatcolors): Changes the colors of players chat and give player tag name based on config file.
+    * 根據管理員或玩家身分給予專屬稱號與聊天窗的專屬顏色
   * [spray_control_cooldown](/Source_插件/Fun_娛樂/spray_control_cooldown): Control Dead/Spectator/Alive player's ability to spray and cool down based on config file.
     * 根據管理員或玩家身分，禁止或允許噴漆 + 死亡玩家或旁觀者也能噴漆
   * [smd_set_player_name_cmd](/Source_插件/Fun_娛樂/smd_set_player_name_cmd): Player can set name via cmd + Admin can set other player's name
@@ -777,8 +777,8 @@
     * 拿起新武器時，可以將紅外線雷射裝置拆掉並裝在新武器上
   * [l4d2_incap_gun_replace](/L4D_插件/Weapons_武器/l4d2_incap_gun_replace): Replace magnum/melee/chainsaw/dual pistol with regular pistols or magnum when incapped.
     * 倒地時如果手持近戰/電鋸/瑪格南手槍/雙手槍，改換成其他手槍
-  * [l4d_weapon_clear_reload](/L4D_插件/Weapons_武器/l4d_weapon_clear_reload): Abandon magazine when reload weapon
-    * 武器裝彈時放棄彈夾內的所有子彈
+  * [l4d_weapon_clear_reload](/L4D_插件/Weapons_武器/l4d_weapon_clear_reload): Abandon magazine when reload weapon like CS2
+    * 仿CS2裝彈機制，武器裝彈時放棄彈夾內的所有子彈
   * [l4d_explosive_incendiary_dmg](/L4D_插件/Weapons_武器/l4d_explosive_incendiary_dmg): Modify explosive and incendiary bullet dmg
     * 修改高爆彈、火焰子彈對隊友與特感的傷害
 </details>

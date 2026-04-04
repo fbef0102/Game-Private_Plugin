@@ -105,8 +105,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // How to switch equipments
         // 0=Single Press slot 1,2,3,4,5
-        // 1=Double Press Q + Single Press slot 1,2,3,4,5 (conflict while using the scroll wheel)
+        // 1="_switch_buttons" key + Single Press slot 1,2,3,4,5
         l4d_multiple_equipment_switch_mode "0"
+
+        // (_switch_mode=1 only)Hold which button to trigger "Switch Equipments Slot 1,2,3,4,5", 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 65536=Tab, 524288=Middle Mouse
+        // You can add numbers together, ex: 655360=Shift + Middle Mouse
+        l4d_multiple_equipment_switch_buttons "65536"
 
         // If 1, player can type !sw to switch equipments
         l4d_multiple_equipment_switch_cmd "1"
@@ -172,6 +176,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v2.7h (2026-4-4)
+       * Fixed primary equipments dropped on the ground have no ammo after player dies
+       * To avoid annonying double Q key or slot 1,2,3,4,5 key, now add a new cvar: player must hold a specific button to trigger "Switch Equipments Slot 1,2,3,4,5"
+       * Update cvars, translations
 
     * v2.6h (2026-2-12)
         * Fixed equipments from last level disappear after survivor wipe out and start second new round
@@ -261,10 +270,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * 兩個藥丸/腎上腺素
     * 如何拿取第二把武器
         1. 撿第一把武器
-        2. 雙擊 Q 或單擊 Slot 1 按鈕，將第一把武器換到備用裝備 (會有提示)
+        2. 單擊 Slot 1 按鈕，將第一把武器換到備用裝備 (會有提示)
         3. 撿第二把武器
-    * 如何切換武器或物品
-        1. 雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕，切換備用裝備
+    * 如何切換第二把武器或物品
+        1. 單擊 Slot 1,2,3,4,5 按鈕，切換至第二把備用裝備
         2. 輸入 ```!sw```
     * 如何將第二把武器或物品切回武器欄
         1. 右鍵推擊或單擊 Slot 1,2,3,4,5 按鈕
@@ -316,8 +325,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
         // 玩家如何切換裝備
         // 0=單擊 Slot 1,2,3,4,5 按鈕
-        // 1=雙擊 Q 或單擊 Slot 1,2,3,4,5 按鈕 (會與滾輪切換武器產生衝突)
-        l4d_multiple_equipment_switch_mode "1"
+        // 1=按住"switch_buttons"指定的按鍵+單擊 Slot 1,2,3,4,5 按鈕
+        l4d_multiple_equipment_switch_mode "0"
+
+        // (_switch_mode 必須為1) 按住哪個按鍵開啟"單擊 Slot 1,2,3,4,5 按鈕切換裝備"? 
+        // 131072=Shift鍵, 4=蹲下鍵, 32=E鍵, 8192=R鍵, 65536=Tab, 524288=滾輪鍵
+		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
+        l4d_multiple_equipment_switch_buttons "65536"
 
         // 為1時，玩家也可以輸入 !sw 切換裝備
         l4d_multiple_equipment_switch_cmd "1"

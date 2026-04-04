@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2026/2/26 更新
+> 2026/4/2 更新
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -98,7 +98,7 @@
 
 * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
 
-* (L4D2) [Fix Mixed Characters](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): 修復在一些地圖中有使用一代NPC角色，如果玩家剛好也有使用一代角色，保護玩家不會被踢或是被跟著傳送
+* (L4D2) [l4d2_fix_character_mixed](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): 修復在一些地圖中有使用一代NPC角色，如果玩家剛好也有使用一代角色，保護玩家不會被踢或是被跟著傳送
     * 譬如玩The Passing地圖，使用一代角色的倖存者會被傳送或是被踢出遊戲
 
 * [l4d_full_slot_bot_replace_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_full_slot_bot_replace_fix): 修復伺服器客戶端已滿的狀態下無法生成Bot取代玩家所造成的嚴重問題
@@ -144,6 +144,8 @@
 > __Note__ 適合多人伺服器的娛樂插件
 
 * [L4D2-Unlimited-Map (哈利版本)](https://github.com/fbef0102/L4D2-Unlimited-Map): 將地圖打造成迷宮與創造多重機關障礙物
+
+* [l4d2_max_health](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_max_health): 自定義生還者最大血量
 
 * [Survivor Respawn (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Survivor_Respawn): 當玩家死亡時，過一段時間自動復活
 

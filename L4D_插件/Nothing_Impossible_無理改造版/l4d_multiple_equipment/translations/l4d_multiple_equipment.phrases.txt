@@ -35,30 +35,30 @@
 		"chi"			"可多携带 slot 5 物品"
 	}
 	
-	"Double Q (C)"
+	"Key+Single (C)"
 	{
-		"en"			"[{olive}Multi EQ{default}] Press {green}Double Q{default} or {green}Single 1,2,3,4,5{default} to switch equipments"
-		"zho"			"[{olive}備用裝備{default}] 雙擊 {green}Ｑ{default} 或單擊 {green}1,2,3,4,5{default} 切換備用裝備"
-		"chi"			"[{olive}备用装备{default}] 双击 {green}Ｑ{default} 或单击 {green}1,2,3,4,5{default} 切换备用装备"
+		"en"			"[{olive}Multi EQ{default}] Hold {green}specific key{default} + {green}Slot 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}備用裝備{default}] 按住{green}指定的按鍵{default}並單擊 {green}Slot 1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}备用装备{default}] 双击{green}指定的按键{default}并点击 {green}Slot 1,2,3,4,5{default} 切换备用装备"
 	}
 	
-	"Double Q"
+	"Key+Single"
 	{
-		"en"			"Press Double Q or Single slot 1,2,3,4,5 to switch equipments"
-		"zho"			"雙擊 Ｑ 或單擊 1,2,3,4,5 切換備用武器裝備"
-		"chi"			"双击 Ｑ 或单击 1,2,3,4,5 切换备用武器装备"
+		"en"			"[Multi EQ] Hold specific key + Slot 1,2,3,4,5 to switch equipments"
+		"zho"			"[備用裝備] 按住指定的按鍵並單擊 Slot 1,2,3,4,5 切換備用裝備"
+		"chi"			"[备用装备] 双击指定的按键并单击 Slot 1,2,3,4,5 切换备用装备"
 	}
 	
 	"Single (C)"
 	{
-		"en"			"[{olive}Multi EQ{default}] {green}Single 1,2,3,4,5{default} to switch equipments"
-		"zho"			"[{olive}備用裝備{default}] 單擊 {green}1,2,3,4,5{default} 切換備用裝備"
-		"chi"			"[{olive}备用装备{default}] 单击 {green}1,2,3,4,5{default} 切换备用装备"
+		"en"			"[{olive}Multi EQ{default}] Press {green}Slot 1,2,3,4,5{default} to switch equipments"
+		"zho"			"[{olive}備用裝備{default}] 單擊 {green}Slot 1,2,3,4,5{default} 切換備用裝備"
+		"chi"			"[{olive}备用装备{default}] 单击 {green}Slot 1,2,3,4,5{default} 切换备用装备"
 	}
 	
 	"Single"
 	{
-		"en"			"Single slot 1,2,3,4,5 to switch equipments"
+		"en"			"Press slot 1,2,3,4,5 to switch equipments"
 		"zho"			"單擊 1,2,3,4,5 切換備用裝備"
 		"chi"			"单击 1,2,3,4,5 切换备用装备"
 	}
