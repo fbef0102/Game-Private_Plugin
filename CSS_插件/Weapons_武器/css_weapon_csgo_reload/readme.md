@@ -1,5 +1,5 @@
 # Description | 內容
-Modern weapon reload, like csgo quick reloading
+(CS2 Reload Mechanism) Modern weapon reload + Abandon magazine when reload
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
@@ -19,7 +19,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Quick reloading your magazine like most modern games today.
+	* Quick reloading your magazine like most modern games today
+    * Abandon magazine when reload like CS2 (you can disable this feature in cvar)
 </details>
 
 * Require | 必要安裝
@@ -31,6 +32,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```php
         // 0=Off plugin, 1=On plugin
         css_weapon_csgo_reload_allow "1"
+
+        // If 1, Abandon magazine when reload like CS2
+        css_weapon_csgo_reload_abandon "1"
 
         // Reload time for AK-47 clip
         css_weapon_csgo_reload_ak47_clip_time "1.5"
@@ -168,13 +172,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.1 (2026-4-6)
+        * Abandon magazine when reload like CS2
+
     * v1.0 (2023-3-6)
         * Initial Release
 </details>
 
 - - - -
 # 中文說明
-將CS武器改成現代遊戲的裝子彈機制 (仿CS2切槍裝彈設定)
+仿CS2裝彈機制，武器裝彈時放棄彈夾內的所有子彈+且能快入填裝彈夾
 
 * 適用於
 	```
@@ -182,8 +189,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * 原理
-    * 當武器動畫是裝上彈夾的時候，彈夾會填滿 (就像CSGO那樣)    
-    * 裝彈切槍，耍酷用
+    * 當武器動畫是裝上彈夾的時候，彈夾會填滿 (就像CS2那樣)  
+        * 裝彈切槍，耍酷用  
+    * 武器裝彈時放棄彈夾內的所有子彈 (可以調整指令關閉這項功能)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -191,6 +199,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```php
         // 0=關閉插件, 1=啟動插件
         css_weapon_csgo_reload_allow "1"
+
+        // 為1時．武器裝彈時放棄彈夾內的所有子彈
+        css_weapon_csgo_reload_abandon "1"
 
         // AK-47 快速填裝的時間
         css_weapon_csgo_reload_ak47_clip_time "1.5"

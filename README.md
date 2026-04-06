@@ -835,8 +835,8 @@
 
 * <details><summary><b>Weapons | 武器</b></summary>
 
-  * [css_weapon_csgo_reload](/CSS_插件/Weapons_武器/css_weapon_csgo_reload): Modern weapon reload, like csgo quick reloading
-    * 將CS武器改成現代遊戲的裝子彈機制 (仿CS2切槍裝彈設定)
+  * [css_weapon_csgo_reload](/CSS_插件/Weapons_武器/css_weapon_csgo_reload): (CS2 Reload Mechanism) Modern weapon reload + Abandon magazine when reload
+    * 仿CS2裝彈機制，武器裝彈時放棄彈夾內的所有子彈+且能快入填裝彈夾
   * [css_drop_on_death](/CSS_插件/Weapons_武器/css_drop_on_death): Drop all weapons, grenades, knife and remaining armor on death.
     * 死亡時掉落所有武器、刀、手榴彈與防彈背心
   * [css_weapon_limit](/CSS_插件/Weapons_武器/css_weapon_limit): Restrict each weapon limit in CT and T team respectively
