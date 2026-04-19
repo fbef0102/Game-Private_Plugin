@@ -49,6 +49,7 @@ Fixes a crash due to null/invalid activator in source engine game entities input
             1. [point_viewcontrol](https://developer.valvesoftware.com/wiki/Point_viewcontrol)
             2. [point_viewcontrol_survivor](https://developer.valvesoftware.com/wiki/Point_viewcontrol_survivor)
             3. [point_viewcontrol_multiplayer](https://developer.valvesoftware.com/wiki/Point_viewcontrol_multiplayer)
+	* [Other useful fixes to prevent crashes](/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Fix)
 </details>
 
 * Require | 必要安裝
@@ -78,8 +79,7 @@ Fixes a crash due to null/invalid activator in source engine game entities input
 
 * 原理
     * 這是所有source引擎的遊戲都會有的bug
-    * <details><summary>修復以下實體所造成的崩潰</summary>
-
+    * 修復以下實體所造成的崩潰
         * 當正在操控的玩家突然離開遊戲時，伺服器會立刻崩潰. (常見於三方圖)
             1. [```game_ui```](https://developer.valvesoftware.com/wiki/Game_ui): 反應玩家的鍵盤或滑鼠，用來操控譬如直升機、車子之類的載具
         * 過濾物件 (常見於三方圖)，如果 activator 物件不存在，呼叫TestActivator輸入將導致伺服器崩潰。
@@ -100,4 +100,4 @@ Fixes a crash due to null/invalid activator in source engine game entities input
             1. [point_viewcontrol](https://developer.valvesoftware.com/wiki/Point_viewcontrol)
             2. [point_viewcontrol_survivor](https://developer.valvesoftware.com/wiki/Point_viewcontrol_survivor)
             3. [point_viewcontrol_multiplayer](https://developer.valvesoftware.com/wiki/Point_viewcontrol_multiplayer)
-    </details>
+	* [安裝其他實用的修復崩潰列表](/Tutorial_教學區/Chinese_繁體中文/Server/安裝實用的修復)

@@ -1,5 +1,5 @@
 
-> 2025/10/27 更新
+> 2026/4/13 更新
 * 在這裡列出的插件
    * 降低伺服器崩潰
    * 修復source引擎或遊戲本身存在的一些嚴重問題
@@ -25,9 +25,9 @@
 
 * <details><summary><b>修復伺服器崩潰</b></summary>
 
-   * [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): 修復物件實體被輸入錯誤或不合法的參數所造成的崩潰 (常見於三方地圖)
+   * (Linux/Windows) [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): 修復物件實體被輸入錯誤或不合法的參數所造成的崩潰 (常見於三方地圖)
 
-   * [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): 修復崩潰: ```CUtlRBTree overflow```
+   * (Linux/Windows) [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): 修復崩潰: ```CUtlRBTree overflow```
       * 不適用L4D1/2     
 </details>
 
@@ -133,30 +133,30 @@
 
 * <details><summary><b>修復伺服器崩潰</b></summary>
 
-   * (L4D2) <s>[FollowTarget_Detour](https://forums.alliedmods.net/showpost.php?p=2725811&postcount=19): 修復崩潰: ```CMoveableCamera::FollowTarget```</s>
+   * (L4D2 linux/windows) <s>[FollowTarget_Detour](https://forums.alliedmods.net/showpost.php?p=2725811&postcount=19): 修復崩潰: ```CMoveableCamera::FollowTarget```</s>
       * 🟥 Valve 已於2023/8/23更新時修復
 
-   * (L4D2) <s>[charger_nav_path_fix-l4d2](https://forums.alliedmods.net/showpost.php?p=2774066&postcount=11): 修正Charger長時間未能返回有效Nav導航時可能出現的崩潰</s>
+   * (L4D2 linux/windows) <s>[charger_nav_path_fix-l4d2](https://forums.alliedmods.net/showpost.php?p=2774066&postcount=11): 修正Charger長時間未能返回有效Nav導航時可能出現的崩潰</s>
       * 🟥 Valve已於2024/4/23更新時修復
       
-   * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰: ```NavLadder::GetPosAtHeight```
+   * (L4D2 linux/windows) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰: ```NavLadder::GetPosAtHeight```
 
-   * (L4D2) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): 修正崩潰: ```CM_TriggerWorldSpaceBounds()``` 涵式內的空指針
+   * (L4D2 linux/windows) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): 修正崩潰: ```CM_TriggerWorldSpaceBounds()``` 涵式內的空指針
 
-   * (L4D2) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): 修正崩潰: ```CTriggerTraceEnum::EnumEntity``` 涵式內的空指針
+   * (L4D2 linux/windows) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): 修正崩潰: ```CTriggerTraceEnum::EnumEntity``` 涵式內的空指針
 
-   * (L4D2) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): 修正崩潰: ```CLagCompensationManager::StartLagCompensation with NULL CUser```
+   * (L4D2 linux/windows) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): 修正崩潰: ```CLagCompensationManager::StartLagCompensation with NULL CUser```
 
-   * (L4D2) [code_patcher](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/code_patcher.sp): 修復L4D2在2019大更新之後開火或走在水裡面時會掉tick的問題
+   * (L4D2 linux/windows) [code_patcher](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/code_patcher.sp): 修復L4D2在2019大更新之後開火或走在水裡面時會掉tick的問題
       * 要裝[Gamedata文件](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/gamedata/code_patcher.txt)
 
-   * (L4D1/2) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): 修復崩潰: ```CUtlRBTree overflow```
+   * (L4D1/2 linux/windows) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): 修復崩潰: ```CUtlRBTree overflow```
 
-   * (L4D2) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): 修復崩潰 ```SV_SolidMoved``` 涵式內的空指針
+   * (L4D2 linux/windows) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): 修復崩潰 ```SV_SolidMoved``` 涵式內的空指針
 
-   * (L4D2) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): 修復崩潰 ```CM_GetCollideableTriggerTestBox``` 涵式內的空指針
+   * (L4D2 linux/windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): 修復崩潰 ```CM_GetCollideableTriggerTestBox``` 涵式內的空指針
 
-   * (L4D2 linux) [IsReachable_Detour](https://forums.alliedmods.net/showpost.php?p=2725898&postcount=22): 修正崩潰: ```SurvivorBot::IsReachable``` 涵式內的空指針
+   * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): 修正崩潰: ```SurvivorBot::IsReachable``` 涵式內的空指針
 
    * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): 修復L4D2 linux系統下電鋸音效導致伺服器崩潰: ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
 

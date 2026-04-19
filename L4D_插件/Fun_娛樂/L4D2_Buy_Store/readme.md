@@ -237,7 +237,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				```
 			* Data location
 				```php
-				// 數據儲存於sourcemod/data/sqlite/clientprefs-sqlite.sq3
+				// All data saved in sourcemod/data/sqlite/clientprefs-sqlite.sq3, please do not modify
 				```
 
 		2. MySQL: Database across server
@@ -248,7 +248,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				```
 			* Write the following in ```sourcemod/configs/databases.cfg```
 				```php
-				// 資料庫中自動創建表格，名稱是 "Buy_Store_database"
+				// There would a data table named "Buy_Store_database" in database
 				"shop"
 				{
 					"driver"			"mysql"
@@ -267,6 +267,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v6.1 (2026-4-19)
+		* Support custom melee weapons from custom map
 
 	* v6.0 (2026-4-4)
 		* Add "ADM Give Money", "ADM Clear Money" in main menu (Root Admin only)
@@ -288,7 +291,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Update data
 		* Update translation
 		* Update cvars
-		* Support custom melee from custom map
 
 	* v5.4 (2024-6-19)
 		* Fix translation

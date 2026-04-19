@@ -1,4 +1,4 @@
-> 2025/10/27 update
+> 2026/4/13 update
 * Reduce server crashes
 * Fix serious issues with the source engine or the game itself
 * Improve server stability
@@ -23,9 +23,9 @@
 
 * <details><summary><b>Server Crash</b></summary>
 
-   * [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null/invalid activator in source engine game entities inputs
+   * (Linux/Windows) [AcceptInput_crash_fix](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Source_插件/Entity_實體物件/AcceptInput_crash_fix): Fixes a crash due to null/invalid activator in source engine game entities inputs
 
-   * [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): Fixes 'CUtlRBTree overflow!' crashes.
+   * (Linux/Windows) [sm-stringpool-fix](https://github.com/azalty/sm-stringpool-fix): Fixes 'CUtlRBTree overflow!' crashes.
       * Does not apply to L4D1/2
 </details>
 
@@ -123,30 +123,30 @@
 
 * <details><summary><b>Server Crash</b></summary>
 
-   * (L4D2) <s>[FollowTarget_Detour](https://forums.alliedmods.net/showpost.php?p=2725811&postcount=19): Fix Crash ```CMoveableCamera::FollowTarget```</s>
+   * (L4D2 linux/windows) <s>[FollowTarget_Detour](https://forums.alliedmods.net/showpost.php?p=2725811&postcount=19): Fix Crash ```CMoveableCamera::FollowTarget```</s>
       * 🟥 Valve fixed in 2023/8/23 update
 
-   * (L4D2) <s>[charger_nav_path_fix-l4d2](https://forums.alliedmods.net/showpost.php?p=2774066&postcount=11): Fixed a potential crash if a Charger failed to return to valid nav for an extended period of time</s>
+   * (L4D2 linux/windows) <s>[charger_nav_path_fix-l4d2](https://forums.alliedmods.net/showpost.php?p=2774066&postcount=11): Fixed a potential crash if a Charger failed to return to valid nav for an extended period of time</s>
       * 🟥 Valve fixed in 2024/4/23 update
       
-   * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from ```NavLadder::GetPosAtHeight```
+   * (L4D2 linux/windows) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from ```NavLadder::GetPosAtHeight```
 
-   * (L4D2) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): Fix Crash ```CM_TriggerWorldSpaceBounds()``` null pointer
+   * (L4D2 linux/windows) [TriggerMoved_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/TriggerMoved_Detour): Fix Crash ```CM_TriggerWorldSpaceBounds()``` null pointer
 
-   * (L4D2) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): Fix Crash ```CTriggerTraceEnum::EnumEntity``` null pointer
+   * (L4D2 linux/windows) [EnumEntity-Fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/EnumEntity-Fix): Fix Crash ```CTriggerTraceEnum::EnumEntity``` null pointer
 
-   * (L4D2) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): Fix Crash ```CLagCompensationManager::StartLagCompensation with NULL CUser```
+   * (L4D2 linux/windows) [l4d2_null_cusercmd_fix](https://forums.alliedmods.net/showpost.php?p=2784704&postcount=6): Fix Crash ```CLagCompensationManager::StartLagCompensation with NULL CUser```
 
-   * (L4D2) [code_patcher](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/code_patcher.sp): Fix issues with Server performance dipping severely when players were in the water and when player fire bullet
+   * (L4D2 linux/windows) [code_patcher](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/code_patcher.sp): Fix issues with Server performance dipping severely when players were in the water and when player fire bullet
       * [Gamedata](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/gamedata/code_patcher.txt)
 
-   * (L4D1/2) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): Fix Crash ```CUtlRBTree overflow```
+   * (L4D1/2 linux/windows) [cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases): Fix Crash ```CUtlRBTree overflow```
 
-   * (L4D2) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): Fixing the null pointer dereference in ```SV_SolidMoved```
+   * (L4D2 linux/windows) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): Fixing the null pointer dereference in ```SV_SolidMoved```
 
-   * (L4D2) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): Fixing the crash with null pointer dereference in ```CM_GetCollideableTriggerTestBox```
+   * (L4D2 linux/windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): Fixing the crash with null pointer dereference in ```CM_GetCollideableTriggerTestBox```
 
-   * (L4D2 linux) [IsReachable_Detour](https://forums.alliedmods.net/showpost.php?p=2725898&postcount=22): Fix Crash ```SurvivorBot::IsReachable``` null pointer
+   * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): Fix Crash ```SurvivorBot::IsReachable``` null pointer
 
    * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): Fixed server crash due to chainsaw sound issue in l4d2 linux  ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
 
