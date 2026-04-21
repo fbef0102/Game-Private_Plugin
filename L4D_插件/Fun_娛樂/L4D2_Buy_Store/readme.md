@@ -38,8 +38,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [Mission and Weapons - Info Editor](https://forums.alliedmods.net/showthread.php?t=310586): To unlock all melee weapons in all campaigns
-		* 解鎖所有官方圖的近戰武器
+	3. [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -268,8 +267,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v6.2 (2026-4-21)
 	* v6.1 (2026-4-19)
 		* Support custom melee weapons from custom map
+		* Update data
+		* Auto close menu after buy
 
 	* v6.0 (2026-4-4)
 		* Add "ADM Give Money", "ADM Clear Money" in main menu (Root Admin only)
