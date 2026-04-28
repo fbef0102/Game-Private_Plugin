@@ -31,7 +31,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	2. Steamworks
-		- Other: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
+		- Other Source Game: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)
 		- CSS: [SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases/tag/v1.2.3)
 	4. [Country and city database](/Tutorial_教學區/English/Server/Install_Other_File#country-and-city-database)
 		* 抓取玩家的地理位置，需安裝[國家與城市的資料庫](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學#安裝國家與城市的資料庫)

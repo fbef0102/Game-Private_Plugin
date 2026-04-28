@@ -42,8 +42,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// How message displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)
 		l4d2_afk_saveweapons_announce_type "1"
 
-		// If 1, Save Weapons/Items/Health when player going afk
+		// If 1, Save Weapons/Items/Health when player going afk (Idle state, not spectator)
 		l4d2_afk_saveweapons_going_afk "1"
+
+		// If 1, Save Weapons/Items/Health when player going spectator (Not Idle)
+		l4d2_afk_saveweapons_going_spec "1"
 
 		// Save Weapons/Items/Health when the alive survivor player 1=Left the server, 2=Game crash (3=Both, 0=Off)
 		l4d2_afk_saveweapons_disconnect "2"
@@ -61,6 +64,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.8 (2026-4-28)
+		* Update cvars
 
 	* v1.7 (2026-2-1)
 		* Fixed plugin not working if player is incap and rejoin server
@@ -115,8 +121,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 武器、物資、血量恢復提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
 		l4d2_afk_saveweapons_announce_type "1"
 
-		// 為1時，倖存者真人玩家閒置、旁觀時，保存身上攜帶的武器、物資、血量
+		// 為1時，倖存者真人玩家閒置時(非完全旁觀者)，保存身上攜帶的武器、物資、血量
 		l4d2_afk_saveweapons_going_afk "1"
+
+		// 為1時，倖存者真人玩家完全旁觀時(非閒置)，保存身上攜帶的武器、物資、血量
+		l4d2_afk_saveweapons_going_spec "1"
 
 		// 下列何種離線情況，保存身上攜帶的武器、物資、血量。1=玩家離開伺服器時, 2=玩家遊戲崩潰或閃退時
 		// 3=兩者都適用, 0=關閉此功能

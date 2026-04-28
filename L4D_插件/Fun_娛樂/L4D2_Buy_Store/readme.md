@@ -60,7 +60,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			// Maximum money limit. (Money saved when map change/leaving server)
 			sm_shop_max_money_limit "32000"
 
-			// If new player join the sever, give credit (0=off)
+			// If new player join the sever, give credit (0=off, only works with _db_type=1,2)
 			sm_shop_new_player_credit "100"
 
 			// How many credits players will have after resetting point every new round? (only works with _db_type=0)
@@ -362,10 +362,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			// 最大能儲存的金額
 			sm_shop_max_money_limit "32000"
 
-			// 新玩家的初始金額 (0=不給)
+			// 新玩家的初始金額 (0=不給, 要先設置指令 _db_type=1或2)
 			sm_shop_new_player_credit "100"
 
-			// 每回合開始時，所有玩家的初始金額 (需要先設置指令 _db_type=1,)
+			// 每回合開始時，所有玩家的初始金額 (需要先設置指令 _db_type=0)
 			sm_shop_reset_credit "150"
 
 			// "你擊殺XXX獲得XX元" 提示該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框, 3: 螢幕正中間)
