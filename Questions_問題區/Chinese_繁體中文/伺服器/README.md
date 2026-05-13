@@ -65,7 +65,7 @@
 
     ![image](image/6.jpg)
 
-    * 原因: 啟動選項有輸入```-insecure```
+    * 原因: 啟動選項有輸入```-insecure```，這會導致你無法進入有VAC保護的伺服器
     * 解決方式: 到[啟動選項](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#設定啟動選項)把```-insecure```刪除
 </details>
 
@@ -99,7 +99,7 @@
     ![image](image/9.jpg)
 
     * 原因: 地圖與伺服器的版本不同
-    * 解決方式: 確認你所使用的地圖跟伺服器安裝的地圖，版本是一樣的，最好的方式是從同一個網站上下載
+    * 解決方式: 確認你所使用的地圖跟伺服器安裝的地圖，版本是一樣的，最好的方式是從同一個網站上或是工作仿下載
 </details>
 
 * <details><summary>問題10: 斷線，畫面出現<b>STEAM validation rejected</b></summary>
@@ -108,11 +108,10 @@
 
     * 原因一: 你的遊戲與專屬伺服器都在同一台電腦上同時運作，steam平台無法分辨
         * 解決方式: 
-        * 法一: 使用不同台電腦安裝專屬伺服器，最好是裝在不同的區域網路
-        * 法二: 
-            先steam平台上執行Left 4 Dead 2 -> 伺服器的主目錄下刪除```steam_appid.txt```文件 -> 啟動專屬伺服器 -> 與朋友或路人開大廳匹配
-        <br/>![image](https://github.com/user-attachments/assets/b90ab4da-ad31-45fa-8e97-ff4033d23bcf)
-        <br/>-> 如果畫面依然出現<b>STEAM validation rejected</b> -> 重開遊戲 -> 直接加入伺服器房間
+        * 法一: 建議使用不同台電腦安裝專屬伺服器，最好是裝在不同的網路
+        * 法二: 伺服器啟動選項輸入-insecure (但是會導致你的伺服器沒有VAC保護) -> 伺服器的主目錄下刪除```steam_appid.txt```文件 -> steam平台就不會認為你開了L4D2重複遊戲 -> 先啟動伺服器 -> 再啟動遊戲
+        <br/>![image](image/10_2.jpg)
+        <br/>如果畫面依然出現<b>STEAM validation rejected</b> -> 重開steam與遊戲 -> 直接加入伺服器房間
 
     * 原因二: steam帳號驗證失敗，steam沒有登入或網路被改變
         * 解決方式: 重啟steam平台登入

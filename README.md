@@ -795,8 +795,8 @@
     * 增強Witch，賦予多種超能力成為史上最危險的特感
   * [l4d_witch_immune_fire](/L4D_插件/Witch_女巫/l4d_witch_immune_fire): Witch is immune to fire + witch won't lose target by fire
     * Witch不會著火+也不會因為著火而失去目標
-  * [l4d_witch_chase_target_lock](/L4D_插件/Witch_女巫/l4d_witch_chase_target_lock): Fixed the issue that witch sometimes changes target to attack special infected or other people, the witch will never change the initial target
-    * 修復Witch轉移目標攻擊特感或其他人，不管多少人阻擋她的路，Witch永遠不會改變目標
+  * [l4d_witch_chase_target_lock](/L4D_插件/Witch_女巫/l4d_witch_chase_target_lock): The witch will never change the initial target no matter other survivors block her path, burn her or throw bile jar
+    * Witch永遠不會改變目標，不管多少人阻擋Witch的路、燒Witch、丟膽汁瓶
   * [witch_glow](/L4D_插件/Witch_女巫/witch_glow): Sets glows on witches everyone can see
     * 在Witch身上打上光圈，所有人都可以看見Witch在哪裡
   * [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map

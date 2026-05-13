@@ -83,6 +83,30 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 卡住的時候輸入命令，玩家會自動被傳送到附近解除卡住狀態
 	* 特感也能使用
 
-* 功能
-	* 可設置每回合可使用命令的次數
-	* 可設置特感是否也能使用
+* <details><summary>指令中文介紹 (點我展開)</summary>
+
+	* cfg/sourcemod/l4d_unstuck.cfg
+		```php
+		// 為1時，每回合開始時提示可以使用!stuck
+		l4d_unstuck_announce "1"
+
+		// 為1時，特感是否也能使用
+		l4d_unstuck_infected_enable "1"
+
+		// 每回合可使用命令的次數
+		l4d_unstuck_teleports "10"
+		```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **解除卡住狀態(玩家會自動被傳送到附近)**
+		```php
+		sm_stuck
+		```
+
+	* **管理員幫玩家解除控制 (權限: ADMFLAG_GENERIC)**
+		```php
+		sm_unstick <玩家名稱>
+		```
+</details>
