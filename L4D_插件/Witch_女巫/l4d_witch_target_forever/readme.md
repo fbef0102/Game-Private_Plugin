@@ -30,6 +30,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	3. [Actions](https://forums.alliedmods.net/showthread.php?t=336374)
 	4. [l4d_change_witch_victim](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_change_witch_victim)
     5. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
+    6. [witch_target_patch](https://forums.alliedmods.net/showthread.php?t=315481): If you have 5+ survivors in server, better install this plugin
+        * 伺服器有5+以上的倖存者時需安裝此插件
 
 * <details><summary>Support | 支援插件</summary>
 

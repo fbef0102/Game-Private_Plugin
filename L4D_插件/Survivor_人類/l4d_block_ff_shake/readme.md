@@ -11,6 +11,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	L4D2
 	```
 
+* [Video | 影片展示](https://youtu.be/0OrwigCSTMY)
+
 * Image | 圖示
 	| Before (裝此插件之前) | After (裝此插件之後) |
 	| -------------|:-----------------:|
@@ -21,7 +23,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Before
 		* When teammmates or ai bots shoot you
-			* Has FF damage
 			* Screen shaking
 			* Experiencing recoil
 		* When teammmates or ai bots shoves you
@@ -29,15 +30,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			* Experiencing recoil
 	* After
 		* When teammates or ai bots shoot you
-			* No FF damage
 			* No screen shaking
 			* Not getting experiencing recoil
 		* When teammates or ai bots shove you
 			* No screen shaking
 			* Not getting experiencing recoil
-
-	* 🟥 This plugin will disable any friendly fire bullet damage between survivors, don't install this with other plugins which modify friendly fire damage.
-		* Molotove, gascan, flame, explosive proptank still does FF damage
 </details>
 
 * Require | 必要安裝
@@ -63,6 +60,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2026-5-15)
+		* Improve code
+		* Use detour to remove scree shaking
+		* 不會與友傷插件產生衝突
+		* Won't conflict with other friend fire damage modify plugins
+
 	* v1.2 (2024-12-23)
 		* Update cvars
 
@@ -80,7 +83,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
 	* 裝此插件之前
 		* 官方預設中，當你被隊友或Bots的子彈打中
-			* 有友傷
 			* 使得隊友螢幕晃動
 			* 隊友的後座力會降低
 		* 官方預設中，當你被隊友或Bots的右鍵推到
@@ -88,14 +90,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			* 隊友的後座力會降低
 	* 裝此插件之後
 		* 當你被隊友或Bots的子彈打中
-			* 不會造成友傷，子彈穿透隊友
 			* 不會使得隊友螢幕晃動
 			* 不會使得隊友的後座力降低
 		* 當你被隊友或Bots的右鍵推到
 			* 不會使得隊友螢幕晃動
 			* 不會使得隊友的後座力降低
-	* 🟥 安裝上此插件會使得倖存者的子彈友傷強制變成0，會與其他有關友傷的插件產生衝突
-		* 火燒傷、瓦斯桶爆炸依然會有傷害
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

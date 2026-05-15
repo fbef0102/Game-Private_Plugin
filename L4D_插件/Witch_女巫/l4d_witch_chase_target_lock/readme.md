@@ -31,14 +31,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Require | 必要安裝
-	1. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
-	2. [actions](https://forums.alliedmods.net/showthread.php?t=336374)
-	3. [l4d_change_witch_victim](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_change_witch_victim)
+	1. [actions](https://forums.alliedmods.net/showthread.php?t=336374)
+	2. [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace)
+    3. [witch_target_patch](https://forums.alliedmods.net/showthread.php?t=315481): If you have 5+ survivors in server, better install this plugin
+        * 伺服器有5+以上的倖存者時需安裝此插件
 
 * <details><summary>Support | 支援插件</summary>
 
 	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): If install both plugins, witch kills the initial target first, then go for other survivors
 		* 如果兩個插件同時裝, Witch會優先殺死原始目標, 之後開始攻擊其他人
+	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
+		* 四個修復Witch的插件可以裝, 不會跟此插件有衝突
 </details>
 
 * <details><summary>ConVar | 指令</summary>

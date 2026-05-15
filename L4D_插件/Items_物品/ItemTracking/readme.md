@@ -21,14 +21,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			* Melee weapons, chainsaws
 			* Pistol, magnum pistols
 			* All primary weapons
+	* The weapons/items won't be replaced or removed if weapons are transitioned entities between maps
+	* Keep weapons/items spawns the same position number on both rounds in versus/scavenge
 	* Modify [data/ItemTracking.cfg](data/ItemTracking.cfg) and control weapons and items limit on the map
 		* Click file for more details...
-	* Keep item spawns the same position number on both rounds in versus/scavenge
 </details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
+	3. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
 
 * <details><summary>Support | 支援插件</summary>
 
