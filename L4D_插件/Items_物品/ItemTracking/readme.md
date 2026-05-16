@@ -21,7 +21,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			* Melee weapons, chainsaws
 			* Pistol, magnum pistols
 			* All primary weapons
-	* The weapons/items won't be replaced or removed if weapons are transitioned entities between maps
+	* The weapons/items won't be replaced or removed if weapons are transitioned entities between maps (Coop mode)
 	* Keep weapons/items spawns the same position number on both rounds in versus/scavenge
 	* Modify [data/ItemTracking.cfg](data/ItemTracking.cfg) and control weapons and items limit on the map
 		* Click file for more details...
@@ -139,9 +139,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 			* 近戰武器、電鋸
 			* 手槍, 瑪格南手槍
 			* 所有主武器
+	* 不會取代過關攜帶的物品與武器 (戰役模式)
+	* 對抗/清道夫模式的第二回合，所有物品位置與數量與第一回合相同
 	* 設置文件[data/ItemTracking.cfg](data/ItemTracking.cfg)，控制地圖上的物品生成數量或限制
 		* 內有中文說明，可點擊文件查看...
-	* 對抗/清道夫模式的第二回合，所有物品位置與數量與第一回合相同
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

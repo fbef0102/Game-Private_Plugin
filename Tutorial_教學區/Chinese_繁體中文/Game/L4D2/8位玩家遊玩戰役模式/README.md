@@ -163,6 +163,8 @@
 
 * [Back 4 Blood Item hint Improved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint): 使用角色語音"看"，可讓物品標記光圈，亦可以標記特感或地點
 
+* [l4d_reserve_ammo_control](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_reserve_ammo_control): 設置每一種武器的後備彈藥數量
+
 * [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
 
 * [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次

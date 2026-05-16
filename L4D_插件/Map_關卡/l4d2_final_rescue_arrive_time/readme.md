@@ -57,11 +57,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```
 </details>
 
-* Apply to | 適用於
-    ```
-    L4D2 coop/versus/realism
-    ```
-
 * Translation Support | 支援翻譯
 	```
 	translations/l4d2_final_rescue_arrive_time.phrases.txt

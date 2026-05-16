@@ -313,6 +313,8 @@
     * 倖存者/普通殭屍/特感/Witch死亡時，屍體立馬消失
   * [l4d_prop_boost](/L4D_插件/Entity_實體物件/l4d_prop_boost): Give a boost when players jump on specific props
     * 指定物件變成彈簧床, 玩家站上去會跳得很高
+  * [l4d_random_alarm_door](/L4D_插件/Entity_實體物件/l4d_random_alarm_door): Randomly turn doors into alarm doors on the maps, trigger the horde if survivors shoot or open
+    * 隨機將地圖上的門變成警報門，開槍射門或是開關門將會觸發警報
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
