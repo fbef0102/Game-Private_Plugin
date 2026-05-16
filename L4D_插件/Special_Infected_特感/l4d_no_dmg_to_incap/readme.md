@@ -20,9 +20,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* All special infected can not do damage to incapacitated survivors with claw
-	* Hunter unable to pounce incapacitated survivors
-	* Boomer unable to puke incapacitated survivors
-	* Tank can not do damage to incapacitated survivors with hittable car or punch
+		* Hunter unable to pounce incapacitated survivors
+		* Boomer unable to puke incapacitated survivors
+		* Tank can not do damage to incapacitated survivors with hittable car or punch
+	* Players hanging from ledge are also included
 	* To control each special infected, modify file: [data/l4d_no_dmg_to_incap.cfg](data/l4d_no_dmg_to_incap.cfg)
 		* Manual in this file, click for mor details
 </details>
@@ -42,6 +43,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2026-5-17)
+		* Add "hanging from ledge" player
+		* Update data
+
 	* v1.0 (2025-6-3)
 		* Initial Release
 </details>
@@ -52,9 +57,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 所有特感無法使用右鍵對倒地的倖存者造成傷害 (禁止鞭屍的意思)
-	* Hunter 無法撲倒地的倖存者
-	* Boomer 無法噴吐倒地的倖存者
-	* Tank 無法用車子殺死倒地的倖存者，也無法用拳頭造成傷害
+		* Hunter 無法撲倒地的倖存者
+		* Boomer 無法噴吐倒地的倖存者
+		* Tank 無法用車子殺死倒地的倖存者，也無法用拳頭造成傷害
+	* 掛邊的玩家也包含在內
 	* 控制參數請查看文件: [data/l4d_no_dmg_to_incap.cfg](data/l4d_no_dmg_to_incap.cfg)
 		* 內有中文說明，可打開文件查看
 
