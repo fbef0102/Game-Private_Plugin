@@ -22,7 +22,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Randomly turn doors into alarm doors on the maps
 	* If survivors shoot or open/close or shove, trigger the alarm and horde
-	* You can customize alarm door spawn change, color and other settings in file [data/l4d_random_alarm_door.cfg](data/l4d_random_alarm_door.cfg)
+	* You can customize alarm door spawn chance, color and other settings in file [data/l4d_random_alarm_door.cfg](data/l4d_random_alarm_door.cfg)
 		* Manual in this file, click for more details...
 </details>
 

@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* When someone enters the CEDA Trailer, a timer will display how many time left. If a player is not inside the CEDA Trailer, slay him
 	* Support offical maps. 
 	* If wanna support custom maps, please find entity via stripper extension and modify data: [data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
+		* Manual in this file, click for more details...
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -50,12 +51,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, When time is up, all survivor bots are teleported into the elevator
 		l4d_elevator_getin_timer_teleport_bot "1"
 		```
-</details>
-
-* <details><summary>Data Config</summary>
-
-	* [data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
-		> Manual in this file, click for more details...
 </details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
@@ -87,8 +82,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 當時間到之後，還在外面的玩家將處在中毒狀態，每秒受到傷害
 		* 也可以改成先傳送玩家到電梯內
 	* 目前支援所有官方地圖
-	* 三方圖也支援，但必須利用stripper_dump尋找三方圖的電梯實體填寫文件[data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
 	* 包括但不限於電梯、CEDA大拖車、船隻
+	* 三方圖也支援，但必須利用stripper_dump尋找三方圖的電梯實體填寫文件[data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)
+		* 內有中文說明，可點擊查看
+		* 請自行利用stripper_dump尋找地圖上的電梯
 
 * 用意在哪?
 	* 總有傻B不進入電梯在外面閒晃，害得大家一直等待被特感打到滅團
@@ -115,11 +112,4 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 為1時，時間到之後，將所有AI倖存者傳送到電梯內
 		l4d_elevator_getin_timer_teleport_bot "1"
 		```
-</details>
-
-* <details><summary>文件設定範例</summary>
-
-	* 設置文件[data/l4d_elevator_info.cfg](data/l4d_elevator_info.cfg)，修改每一張地圖的電梯或CEDA大拖車
-	* 支援所有官方地圖 (三方圖不支援，請自行利用stripper_dump尋找地圖上的電梯或付錢)
-		> 內有中文說明，可點擊查看
 </details>

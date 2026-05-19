@@ -16,11 +16,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Detect all weapons/items/melees and replace with other guns/items/melees on round start 0.8 sec later
+	* Detect all weapons/items/melees and replace with other guns/items/melees on round start 1.8 sec later
 	* Replace the weapon if the weapon is late spawn during the game. For example:
 		* Bile jar, nightstick from uncommon infected
 		* Items from Foot Locker
-	* The weapons won't be replaced or removed if weapons are transitioned entities between maps
+	* The weapons/items won't be replaced or removed if weapons/items are transitioned entities between maps
 	* Modify [data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		* Replace big guns with other guns
 		* Replace items with other items
@@ -34,8 +34,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	
 * <details><summary>Support | 支援插件</summary>
 
-	1. [ItemTracking](/L4D_插件/Items_物品/ItemTracking): Control weapons and items limit on map
-		* 控制地圖上的武器、物品的數量與限制
+	1. [ItemTracking](/L4D_插件/Items_物品/ItemTracking): Modify weapons/items after round start, ItemTracking first -> l4d2_replace_gun_item
+		* 地圖載入完成之後，修改地圖武器與物品的順序為: ItemTracking -> l4d2_replace_gun_item
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -121,7 +121,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 刪除地圖上的大槍、治療包、近戰、其他投擲物與物品，並替換成其他武器、物品、近戰
 
 * 原理
-	* 地圖載入後的0.8秒後
+	* 地圖載入後的1.8秒後
 		* 將所有大槍武器刪除並替換成小槍
 		* 將所有治療包與電擊器刪除並替換成藥丸
 	* 遊戲中途生成或掉落的物資也能被替換，譬如
@@ -129,7 +129,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* CEDA掉落的膽汁瓶
 		* 綠色補給箱的無限物資
 		* 警察掉落的警棍
-	* 過關攜帶的武器在下一關不會被取代或刪除
+	* 過關攜帶的武器或物品在下一關不會被取代或刪除
 	* 設定文件[data/l4d2_replace_gun_item.cfg](data/l4d2_replace_gun_item.cfg)
 		* 自行修改要取代的其他武器/物品/近戰
 		* 內有中文說明，可點擊查看

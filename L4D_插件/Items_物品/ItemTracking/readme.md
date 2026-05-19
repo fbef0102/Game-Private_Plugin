@@ -13,7 +13,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* On map starts loading 0.5 second later
+	* On map starts loading 1.5 second later
 		* Find all weapons/items on the map and control them
 		* Removes weapons/items until total numbers match the limit
 		* Or replace weapons/items with other weapons/items
@@ -34,8 +34,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d2_replace_gun_item](/L4D_插件/Items_物品/l4d2_replace_gun_item): Delete weapons and items on the map and replace guns/items/melees with other guns/items/melees
-		* 刪除地圖上的大槍、治療包、近戰、其他投擲物與物品，並替換成其他武器、物品、近戰
+	1. [l4d2_replace_gun_item](/L4D_插件/Items_物品/l4d2_replace_gun_item): Modify weapons/items after round start, ItemTracking first -> l4d2_replace_gun_item
+		* 地圖載入完成之後，修改地圖武器與物品的順序為: ItemTracking -> l4d2_replace_gun_item
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -79,12 +79,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	| director_finale_item_cluster_count         	| 3 	| How many clusters of items will be populated in the finale |
 	| director_item_cluster_range         			| 50 	| Scavenge items of the same kind that are this close to each other are considered a single 'cluster' for population purposes |
 	| director_weapon_cluster_range         		| 100 	| Scavenge weapons within this range are selected to be of the same tier, and not contain duplicate types |
-</details>
-
-* <details><summary>Related | 相關插件</summary>
-
-	1. [coopbosses_ifier](/L4D_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		> 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -131,7 +125,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 控制地圖上的武器、物品的數量與限制
 
 * 原理
-	* 地圖載入後的0.5秒後
+	* 地圖載入後的1.5秒後
 		* 找出地圖上的所有武器、物品
 		* 然後限制其生成數量或是取代成其他武器、物品
 		* 目前能控制的物品

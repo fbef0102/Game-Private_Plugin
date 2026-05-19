@@ -83,12 +83,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-  
-	* [data/anti-friendly_fire_RPG.cfg](data/anti-friendly_fire_RPG.cfg)
-		> Manual in this file, click for more details...
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/anti-friendly_fire_RPG.phrases.txt

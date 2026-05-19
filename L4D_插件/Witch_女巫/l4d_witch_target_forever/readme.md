@@ -14,7 +14,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * [Video | 影片展示](https://youtube.com/shorts/MRTO6KnmbN4)
 
 * Image | 圖示
-	<br/>![l4d_witch_target_forever_1](image/l4d_witch_target_forever_1.gif)
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![l4d_witch_target_forever_before_1](image/l4d_witch_target_forever_before_1.gif)|![l4d_witch_target_forever_after_1](image/l4d_witch_target_forever_after_1.gif)|
+	| ![l4d_witch_target_forever_before_2](image/l4d_witch_target_forever_before_2.gif)|![l4d_witch_target_forever_after_2](image/l4d_witch_target_forever_after_2.gif)|
+	| ![l4d_witch_target_forever_before_3](image/l4d_witch_target_forever_before_3.gif)|![l4d_witch_target_forever_after_3](image/l4d_witch_target_forever_after_3.gif)|
 
 * <details><summary>How does it work?</summary>
 
@@ -39,6 +43,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 如果兩個插件同時裝, Witch會優先攻擊並殺死原始目標, 之後才會改變目標
     2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
         * 四個修復Witch的插件可以裝, 不會跟此插件有衝突
+</details>
+
+* <details><summary>Known Conflicts | 會衝突的插件</summary>
+	
+	* If you don't use any of these plugins at all, no need to worry about conflicts.
+		* 如果沒安裝以下插件就不需要擔心衝突
+	1. [l4d_witch_chase_target_lock](/L4D_插件/Witch_女巫/l4d_witch_chase_target_lock): Functions conflict, remove
+		* 功能衝突, 請擇一安裝
 </details>
 
 * <details><summary>ConVar | 指令</summary>

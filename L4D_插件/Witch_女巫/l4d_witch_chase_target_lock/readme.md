@@ -38,10 +38,18 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d_witch_follow_kill_everyone](/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_follow_kill_everyone): If install both plugins, witch kills the initial target first, then go for other survivors
-		* 如果兩個插件同時裝, Witch會優先殺死原始目標, 之後開始攻擊其他人
+	1. [l4d_witch_follow_kill_everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Both plugins can be installed, the functions do not interfere or conflict with each other.
+		* 可以兩個插件同時裝, 功能不會互相影響或衝突
 	2. [Witch fixes](https://forums.alliedmods.net/showthread.php?t=315481): 4 witch fix plugins By Lux, no conflict with this plugin
 		* 四個修復Witch的插件可以裝, 不會跟此插件有衝突
+</details>
+
+* <details><summary>Known Conflicts | 會衝突的插件</summary>
+	
+	* If you don't use any of these plugins at all, no need to worry about conflicts.
+		* 如果沒安裝以下插件就不需要擔心衝突
+	1. [l4d_witch_target_forever](https://github.com/fbef0102/Game-Private_Plugin/tree/main/L4D_%E6%8F%92%E4%BB%B6/Witch_%E5%A5%B3%E5%B7%AB/l4d_witch_target_forever): Functions conflict, remove
+		* 功能衝突, 請擇一安裝
 </details>
 
 * <details><summary>ConVar | 指令</summary>
