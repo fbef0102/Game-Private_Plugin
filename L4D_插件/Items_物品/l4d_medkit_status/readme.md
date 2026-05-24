@@ -78,7 +78,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 即使玩家離線仍然保留數據
 	* 輸入```!med```顯示所有人的治療包使用數量
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_saferoom_prevent_kit.cfg
 		```php

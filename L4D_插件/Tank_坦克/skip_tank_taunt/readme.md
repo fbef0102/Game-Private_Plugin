@@ -8,7 +8,26 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * [Video | 影片展示](https://youtu.be/UYLsDKxyHs8)
 
 * Image | 圖示
-<br/>None
+	| Before (裝此插件之前)  			| After (裝此插件之後) |
+	| -------------|:-----------------:|
+	| ![skip_tank_taunt_before_1](image/skip_tank_taunt_before_1.gif)|![skip_tank_taunt_after_1](image/skip_tank_taunt_after_1.gif)|
+	| ![skip_tank_taunt_before_2](image/skip_tank_taunt_before_2.gif)|![skip_tank_taunt_after_2](image/skip_tank_taunt_after_2.gif)|
+	| ![skip_tank_taunt_before_3](image/skip_tank_taunt_before_3.gif)|![skip_tank_taunt_after_3](image/skip_tank_taunt_after_3.gif)|
+
+* <details><summary>How does it work?</summary>
+
+	* (Before Plugin) 
+		* AI Tank will do victory animation around 3 seconds (In coop/realism mode) when the following situations
+			* After punch low-health survivors
+			* After Tank Rock successfully hit survivors
+		* AI Tank climb the wall or obstacle extremely slowly
+		* Tank stumble(stagger) animation playback around 3 seconds
+	* (After Plugin) 
+		* Remove any victory animation on AI Tank
+		* AI Tank can climb the wall or obstacle fast
+		* Speed up stumble(stagger) animation 
+		* This plugin also apply to real tank player
+</details>
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
@@ -26,11 +45,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, Skip Tank VICTORY/RAGE_AT_ENEMY/RAGE_AT_KNOCKDOWN animation skip 
 		skip_tank_taunt_victory_animation_skip "1"
 		```
-</details>
-
-* <details><summary>Command | 命令</summary>
-
-	None
 </details>
 
 * Apply to | 適用於
@@ -73,7 +87,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 Tank爬行障礙物速度變快 + 略過咆哮勝利動畫
 
 * 原理
-	* 戰役/寫實模式之下的Tank打中倖存者之時偶而會有咆哮與勝利姿勢，浪費Tank攻擊時間
+	* (裝此插件之前) 
+		* AI Tank 在以下情況發生後會原地做咆哮動畫與勝利姿勢，浪費Tank大概三秒的進攻時間 (戰役/寫實模式)
+			* 揮拳打到低血量的倖存者
+			* Tank石頭砸中倖存者時
+		* Tank被爆炸物炸到時，有三秒的後退動畫
+		* AI Tank 爬行障礙物的速度非常慢
+	* (裝此插件之後) 
+		* 刪除任何咆哮與勝利姿勢，不浪費Tank的進攻節奏
+		* AI Tank 爬行障礙物的速度變快
+		* Tank被震退的動畫時間變短
+		* 此插件也適用真人Tank玩家
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

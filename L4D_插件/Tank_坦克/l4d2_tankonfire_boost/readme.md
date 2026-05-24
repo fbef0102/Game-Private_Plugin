@@ -17,6 +17,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Fire damage the tank deals upon punching (火拳威力)
 	<br/>![l4d2_tankonfire_boost_2](image/l4d2_tankonfire_boost_2.gif)
 
+* <details><summary>How does it work?</summary>
+
+	* Tank speed boost while on fire (LaggedMovement)
+	* Cause extra damage the tank deals upon punching
+	* Apply to both AI Tank and real player
+</details>
+
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
@@ -47,10 +54,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//DarkNoghri @ 2010
-	//HarryPotter @ 2023
-	```
 	* v1.0h (2023-6-6)
 		* Remake code, convert code to latest syntax
 		* Fix warnings when compiling on SourceMod 1.11.
@@ -68,7 +71,8 @@ Tank燃燒時，速度與力量會提升
 
 * 原理
 	* Tank燃燒時，移動速度會變快
-	* Tank燃燒時，提升火拳對人類造成的傷害
+	* Tank燃燒時，拳頭打到人類時會造成額外的傷害
+	* 適用AI Tank與真人玩家
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

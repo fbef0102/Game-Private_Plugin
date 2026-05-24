@@ -21,163 +21,33 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Modify movement speed while special infected get shot by survivor
-	* No gunfire slowdown, make special infected move faster and smoother
-	* Apply to both human and AI infected
+	* Modify each weapon gunfire slowdown in [data/l4d_si_slowdown_gunfire.cfg](data/l4d_si_slowdown_gunfire.cfg)
+		* Manual in this file, click for more details...
+	* Apply to both AI infected and real infected player
 </details>
 
 * Require | 必要安裝
-	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+<br/>None
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_si_slowdown_gunfire.cfg
 		```php
-		// Maximum slowdown from gunfire for AI smoker (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_smoker_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI boomer (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_boomer_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI huhnter (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_hunter_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI spitter (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_spitter_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI jockey (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_jockey_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI charger (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_charger_ai "0.1"
-
-		// Maximum slowdown from gunfire for AI tank (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_tank_ai "0.17"
-
-		// Maximum slowdown from gunfire for smoker player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_smoker_player "0.0"
-
-		// Maximum slowdown from gunfire for boomer player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_boomer_player "0.0"
-
-		// Maximum slowdown from gunfire for hunter player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_hunter_player "0.0"
-
-		// Maximum slowdown from gunfire for spitter player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_spitter_player "0.0"
-
-		// Maximum slowdown from gunfire for jockey player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_jockey_player "0.0"
-
-		// Maximum slowdown from gunfire for charger player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_charger_player "0.0"
-
-		// Maximum slowdown from gunfire for tank player (-1: Game default settings; 0.0: No slowdown, 0.01-1.0: [1-100]% slowdown)
-		l4d_si_slowdown_gunfire_tank_player "0.1"
-
-		// Fire causes this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_fire_percent "0.0"
-
-		// Melee weapons causes this much slowdown * SI/Tank Maximum slowdown . (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_melee_percent "0.5"
-
-		// Chainsaw causes this much slowdown * SI/Tank Maximum slowdown . (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_chainsaw_percent "0.8"
-
-		// Pistols cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_pistol_percent "-1.0"
-
-		// Deagles cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_deagle_percent "0.3"
-
-		// Unsilenced uzis cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_uzi_percent "0.3"
-
-		// MP5s cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_mp5_percent "0.32"
-
-		// Silenced Uzis cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_mac_percent "0.3"
-
-		// AKs cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_ak_percent "0.6"
-
-		// M4s cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_m4_percent "0.6"
-
-		// Scars cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_scar_percent "0.6"
-
-		// Pump Shotguns cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_pump_percent "0.6"
-
-		// Chrome Shotguns cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_chrome_percent "0.6"
-
-		// Auto Shotguns cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_auto_percent "0.6"
-
-		// Hunting Rifles cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_rifle_percent "0.6"
-
-		// Scouts cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_scout_percent "0.8"
-
-		// Military Rifles cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_military_percent "0.6"
-
-		// AWP cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_awp_percent "0.8"
-
-		// M60 cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_m60_percent "1.0"
-
-		// Grenade Launcher cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_grenade_launcher_percent "1.0"
-
-		// Minigun cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_minigun_percent "-1.0"
-
-		// 50cal Machine gun cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_50cal_percent "-1.0"
-
-		// Bomb Explosion cause this much slowdown * SI/Tank Maximum slowdown. (-1: Game default settings; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_bomb_percent "-1.0"
-
-		// Slowdown multiplier when crouch, _weapon_percent * SI/Tank Maximum slowdown * this value. (-1: Unchanged; 0.0: No slowdown)
-		l4d_si_slowdown_gunfire_crouch_multi "0.5"
+		// 0=Plugin off, 1=Plugin on.
+		l4d_si_slowdown_gunfire_enable "1"
 		```
 </details>
 
 * <details><summary>Gunfire Slowdown Calculation Formula</summary>
 	
-	* Tank current speed is 210
-		```php
-		// If AI Tank being shot by ak47 bullet, speed is 210 - (210 * 0.17 * 0.6) = 188
-		// If Tank Player being shot by ak47 bullet, speed is 210 - (210 * 0.1 * 0.6) = 197
-		l4d_si_slowdown_gunfire_tank_ai "0.17"
-		l4d_si_slowdown_gunfire_tank_player "0.1"
-		l4d_si_slowdown_gunfire_ak_percent "0.6"
-		```
-
-	* Infected
-		```php
-		// If AI smoker being shot by any weapon, game default slowdown settings
-		l4d_si_slowdown_gunfire_smoker_ai "-1.0"
-
-		// If smoker Player being shot by any weapon, no slowdown
-		l4d_si_slowdown_gunfire_smoker_player "0.0"
-		```
-
-	* Tank crouch speed is 75
-		```php
-		// If Tank Player being shot by ak47 bullet when crouch, speed is 75 - (75 * 0.8 * 1.0 * 0.5) = 45
-		l4d_si_slowdown_gunfire_tank_player "0.8"
-		l4d_si_slowdown_gunfire_ak_percent "1.0"
-		l4d_si_slowdown_gunfire_crouch_multi "0.5"
-		```
+	* See [data/l4d_si_slowdown_gunfire.cfg](data/l4d_si_slowdown_gunfire.cfg)
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2026-5-24)
+		* Use data to contorl each infected and weapon gunfire slowdown
+		* Update cvars
 
 	* v1.2h (2025-10-8)
 		* Add chainsaw and melee slowdown
@@ -211,157 +81,22 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 依據槍械種類修改特感的槍緩速度 (AI特感也適用)
 
 * 原理
-	* 遊戲中特感被倖存者射中時，特感會停頓下然後移動速度變慢，此插件就是修改特感被子彈射中之後的速度，俗稱"槍緩"
-	* 設置特感
-		* 移動順暢，不會因為被子彈射中而停頓
-		* 移動變慢甚至停頓
-	* 真人與AI特感玩家都適用
+	* 遊戲中特感被倖存者射中時，特感會停頓下然後"移動速度衰減"，俗稱"槍緩"
+	* 此插件就是修改特感被子彈射中之後的"速度衰減"
+	* 想修改武器傷害的速度衰減可到文件[data/l4d_si_slowdown_gunfire.cfg](data/l4d_si_slowdown_gunfire.cfg)
+		* 內有中文說明，可點擊查看
+	* 此插件適用AI特感與真人特感玩家
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_si_slowdown_gunfire.cfg
 		```php
-		// AI smoker 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_smoker_ai "0.1"
-
-		// AI boomer 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_boomer_ai "0.1"
-
-		// AI hunter 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_hunter_ai "0.1"
-
-		// AI spitter 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_spitter_ai "0.1"
-
-		// AI jockey 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_jockey_ai "0.1"
-
-		// AI charger 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_charger_ai "0.1"
-
-		// AI tank 的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_tank_ai "0.17"
-
-		// 真人smoker玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_smoker_player "0.0"
-
-		// 真人boomer玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_boomer_player "0.0"
-
-		// 真人hunter玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_hunter_player "0.0"
-
-		// 真人spitter玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_spitter_player "0.0"
-
-		// 真人jockey玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_jockey_player "0.0"
-
-		// 真人charger玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_charger_player "0.0"
-
-		// 真人tank玩家的槍緩 (-1: 遊戲預設; 0.0: 無槍緩，滿速移動, 0.01-1.0: [1-100]% 槍緩減少移動速度)
-		l4d_si_slowdown_gunfire_tank_player "0.1"
-
-		// 火焰傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
-		l4d_si_slowdown_gunfire_fire_percent "0.0"
-
-		// 近戰武器造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
-		l4d_si_slowdown_gunfire_melee_percent "0.5"
-
-		// 電鋸造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無緩慢，滿速移動)
-		l4d_si_slowdown_gunfire_chainsaw_percent "0.8"
-
-		// 手槍傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_pistol_percent "-1.0"
-
-		// 瑪格南手槍傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_deagle_percent "0.3"
-
-		// UZI機槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_uzi_percent "0.3"
-
-		// MP5機槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_mp5_percent "0.32"
-
-		// 消音機槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_mac_percent "0.3"
-
-		// AK47 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_ak_percent "0.6"
-
-		// M16步槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_m4_percent "0.6"
-
-		// 三連發步槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_scar_percent "0.6"
-
-		// 木製單發散彈槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_pump_percent "0.6"
-
-		// 鐵製單發散彈槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_chrome_percent "0.6"
-
-		// 自動連發散彈槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_auto_percent "0.6"
-
-		// 獵槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_rifle_percent "0.6"
-
-		// Scout狙擊槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_scout_percent "0.8"
-
-		// 軍用狙擊槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_military_percent "0.6"
-
-		// AWP 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_awp_percent "0.8"
-
-		// M60 重型機關槍 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_m60_percent "1.0"
-
-		// 榴彈發射器 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_grenade_launcher_percent "1.0"
-
-		// Mini 機關槍砲台，傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_minigun_percent "-1.0"
-
-		// 50cal 機關槍，傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_50cal_percent "-1.0"
-
-		// 土製炸彈 傷害造成速度變慢，移動速度計算：此數值乘上 特感/Tank的槍緩值. (-1:遊戲預設; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_bomb_percent "-1.0"
-
-		// 特感蹲下時的槍緩速度倍率調整, l4d_slowdown_武器_percent 乘上 特感/Tank的槍緩值 乘上 此數值. (-1: 不改變槍緩; 0.0: 無槍緩，滿速移動)
-		l4d_si_slowdown_gunfire_crouch_multi "0.5"
+		// 0=關閉插件, 1=啟動插件
+		l4d_si_slowdown_gunfire_enable "1"
 		```
 </details>
 
 * <details><summary>槍緩速度計算 (點我展開)</summary>
 
-	* Tank移動速度為210
-		```php
-		// AI Tank被AK47射中時，速度變成210 - (210 * 0.17 * 0.6) = 188
-		// 真人Tank被AK47射中時，速度變成210 - (210 * 0.1 * 0.6) = 197
-		l4d_si_slowdown_gunfire_si_ai "0.17"
-		l4d_si_slowdown_gunfire_si_player "0.1"
-		l4d_si_slowdown_gunfire_ak_percent "0.6"
-		```
-
-	* 當特感射中
-		```php
-		// 當AI smoker被任一槍械射中時，槍緩減速為遊戲預設
-		l4d_si_slowdown_gunfire_smoker_ai "-1.0"
-
-		// 當真人 smoker被任一槍械射中時，沒有槍緩減速
-		l4d_si_slowdown_gunfire_smoker_player "0.0"
-		```
-
-	* Tank蹲下速度為75
-		```php
-		// 真人Tank蹲下狀態被AK47射中時，速度變成 75 - (75 * 0.8 * 1.0 * 0.5) = 45
-		l4d_si_slowdown_gunfire_tank_player "0.8"
-		l4d_si_slowdown_gunfire_ak_percent "1.0"
-		l4d_si_slowdown_gunfire_crouch_multi "0.5"
-		```
+	* 看文件[data/l4d_si_slowdown_gunfire.cfg](data/l4d_si_slowdown_gunfire.cfg), 內有說明
 </details>

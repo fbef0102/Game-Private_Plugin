@@ -20,6 +20,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Type ```!bhop``` -> Hold Space Key -> Jump -> Have Fun
+	* This plugin is for real players, AI bots won't bhop automatically
 </details>
 
 * <details><summary>ConVar | 指令</summary>
@@ -96,6 +97,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 玩家輸入指令```!bhop```，按住空白建鍵就能連跳
+	* 此插件給真人玩家使用，AI特感與AI倖存者不會自動連跳
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

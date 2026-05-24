@@ -57,7 +57,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 官方對抗模式，救援開始後，復活距離會變成兩倍以上
 	* 安裝上這個插件之後，縮短真人靈魂特感玩家的復活距離，提升遊戲難度
 
-* <details><summary>ConVar | 指令</summary>
+* <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_ghost_FinaleSpawn.cfg
 		```php

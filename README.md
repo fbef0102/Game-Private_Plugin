@@ -8,6 +8,7 @@
   - [如何安裝插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
   - [如何編譯源碼](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
   - [檢查插件有無成功運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
+  - [模組跟插件差別在哪](/Questions_問題區/Chinese_繁體中文/插件/README.md#模組跟插件差別在哪)
   - [Questions & Tutorial](#Others) | [其他教程與問題](#其他教程與問題)
 
 - - - -
@@ -926,6 +927,7 @@
 * [問題集合區](/Questions_問題區/Chinese_繁體中文)
   * [為甚麼進不去伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
   * [常見的插件錯誤訊息](/Questions_問題區/Chinese_繁體中文/插件/README.md#常見的插件錯誤訊息)
+  * [模組跟插件差別在哪](/Questions_問題區/Chinese_繁體中文/插件/README.md#模組跟插件差別在哪)
 * [教學區](/Tutorial_教學區/Chinese_繁體中文)
   * [架設多人伺服器，讓8位玩家遊玩戰役模式](/Tutorial_教學區/Chinese_繁體中文/Game/L4D2/8位玩家遊玩戰役模式/README.md#安裝總攬)
   * [安裝Stripper](/Tutorial_教學區/Chinese_繁體中文/Server/安裝其他檔案教學/README.md#安裝stripper)
