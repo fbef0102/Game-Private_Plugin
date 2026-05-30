@@ -136,7 +136,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始
+起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始點
 
 * 圖示
     <br/>![zho/antisaferoomdooropen_1](image/zho/antisaferoomdooropen_1.jpg)
@@ -146,7 +146,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
 	* 回合開始時，將安全室的門鎖住，任何人不得打開安全室的門
     * 當所有玩家已載入遊戲或時間到之後，大門解鎖
-    * 如果關卡沒有安全室，則離開安全區域會被傳送回去
+    * 如果關卡沒有安全室，則離開安全區域會被傳送回去起始點
     * 大門打開後，門掉落在地上 (不能再關回去)
     * 可到文件設置某些三方圖不要修改安全門: [data/antisaferoomdooropen.cfg](data/antisaferoomdooropen.cfg)
 

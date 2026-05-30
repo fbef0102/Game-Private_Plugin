@@ -198,8 +198,6 @@
 
   * [l4d_vocalize_antiflood](/L4D_插件/Anti_Griefer_防惡意路人/l4d_vocalize_antiflood): Stops vocalize flooding when reaching token limit
     * 限制玩家使用角色語音，當語音次數達到限制之後開始禁止，必須等待冷卻時間結束才能再使用角色語音
-  * [anti_end_saferoomdoor](/L4D_插件/Anti_Griefer_防惡意路人/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
-    * 所有人抵達終點安全室之前，不得關門
   * [kickthevoter](/L4D_插件/Anti_Griefer_防惡意路人/kickthevoter): Make It So The Person Calling The Vote Gets Kicked!
     * 使用Esc->發起投票的人將會被反踢出去伺服器
   * [anti-friendly_fire_V2](/L4D_插件/Anti_Griefer_防惡意路人/anti-friendly_fire_V2): shoot teammate = shoot yourself V2
@@ -219,7 +217,7 @@
   * [l4d_anti_juggle_pickup](/L4D_插件/Anti_Griefer_防惡意路人/l4d_anti_juggle_pickup): Limit the numbers of times weapons/items can be picked up within short time
     * 限制玩家頻繁撿取武器或物資，避免搬運或切洗
   * [antisaferoomdooropen](/L4D_插件/Anti_Griefer_防惡意路人/antisaferoomdooropen): Start Saferoom door anti open + teleport survivor back to safe area when leaving out saferoom until certain time pass
-    * 起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始
+    * 起始安全門將會鎖住直到所有玩家載入遊戲或時間到 + 沒有安全門的關卡則是傳送回起始點
 </details>
 
 * <details><summary><b>Boomer | Boomer</b></summary>
@@ -278,8 +276,8 @@
     * 控制地圖上的無限屍潮機關，將無限屍潮改為有限的殭屍數量
   * [l4d2_spawn_uncommons](/L4D_插件/Common_Infected_普通感染者/l4d2_spawn_uncommons): Spawn Uncommon Infected on all maps  (Support The Last Stand New Model)
     * 所有地圖上可生成特殊一般感染者，有鎮暴警察、CEDA人員、小丑、泥人、工人、吉米賽車手、墮落倖存者
-  * [l4d2_common_infected_nightmare](/L4D_插件/Common_Infected_普通感染者/l4d2_common_infected_nightmare): Common infected spawns with random health, speed, size, damage, armor. Make sure that hordes become your worst nightmare.
-    * 改造普通感染者的血量、速度、模型尺寸、攻擊傷害、減傷比，讓普通感染成為倖存者的噩夢
+  * [l4d2_common_infected_control](/L4D_插件/Common_Infected_普通感染者/l4d2_common_infected_control): Custom common infected spawns with random health, speed, damage, armor and change random runing animation
+    * 自定義普通感染者的血量、速度、攻擊傷害、減少受到的傷害，並且改變奔跑的動畫與姿勢
   * [l4d_infected_limit_control](/L4D_插件/Common_Infected_普通感染者/l4d_infected_limit_control): Adjust common infecteds/hordes/mobs depends on 5+ survivors/map/gamemode
     * 根據玩家人數多寡/地圖/遊戲模式，設定普通殭屍與屍潮的數量
   * [l4d2_fallen_survivor_item_change](/L4D_插件/Common_Infected_普通感染者/l4d2_fallen_survivor_item_change): Change what item dropped from fallen survivor
@@ -302,6 +300,16 @@
     * 戰役模式通關之時，恢復倖存者血量 + 補充彈藥 + 補充醫療物品 
 </details>
 
+* <details><summary><b>Door | 門</b></summary> 
+
+  * [end_safedoor_teleport](/L4D_插件/Door_門/end_safedoor_teleport): Teleport ci/si/tank outside the end saferoom if they spawn inside
+    * 如果 普通感染者/特感/Tank 生在終點安全室裡面，則將他們傳送到門前 (避免卡在終點安全室裡面)
+  * [anti_end_saferoomdoor](/L4D_插件/Door_門/anti_end_saferoomdoor): Locks end saferoom door until all survivors get inside.
+    * 所有人抵達終點安全室之前，不得關門
+  * [l4d_random_alarm_door](/L4D_插件/Door_門/l4d_random_alarm_door): Randomly turn doors into alarm doors on the maps, trigger the horde if survivors shoot or open
+    * 隨機將地圖上的門變成警報門，開槍射門或是開關門將會觸發警報
+</details>
+
 * <details><summary><b>Entity | 實體物件</b></summary>
 
   * [grave_break](/L4D_插件/Entity_實體物件/grave_break): say !breakgrave to break all graves
@@ -314,8 +322,6 @@
     * 倖存者/普通殭屍/特感/Witch死亡時，屍體立馬消失
   * [l4d_prop_boost](/L4D_插件/Entity_實體物件/l4d_prop_boost): Give a boost when players jump on specific props
     * 指定物件變成彈簧床, 玩家站上去會跳得很高
-  * [l4d_random_alarm_door](/L4D_插件/Entity_實體物件/l4d_random_alarm_door): Randomly turn doors into alarm doors on the maps, trigger the horde if survivors shoot or open
-    * 隨機將地圖上的門變成警報門，開槍射門或是開關門將會觸發警報
 </details>
 
 * <details><summary><b>Fun | 娛樂</b></summary>
@@ -478,6 +484,8 @@
     * 強制玩家打開設置下載伺服器自製的檔案
   * [l4d_cpu_level](/L4D_插件/Player_玩家/l4d_cpu_level): Don't let player plays game if EFFECT DETAIL is low (Prevent player from seeing through walls)
     * 視訊->效果細節為低的玩家不能遊玩 (防止遊戲的合法透視)
+  * [l4d_remove_screen_shake](/L4D_插件/Player_玩家/l4d_remove_screen_shake): Remove a variety of screen shaking in L4D 1/2
+    * 移除遊戲內各種情況的視角晃動
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
@@ -580,8 +588,6 @@
     * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/倖存者右鍵... 波及而硬直震退
   * [l4d2_si_fire_damage](/L4D_插件/Special_Infected_特感/l4d2_si_fire_damage): Reset Fire Damage To SI/Tank
     * 更改火焰對Tank/特感造成的傷害
-  * [end_safedoor_teleport](/L4D_插件/Special_Infected_特感/end_safedoor_teleport): Teleport ci/si/tank outside the end saferoom if they spawn inside
-    * 如果 普通感染者/特感/Tank 生在終點安全室裡面，則將他們傳送到門前 (避免卡在終點安全室裡面)
   * [l4d_who_kill_you](/L4D_插件/Special_Infected_特感/l4d_who_kill_you): Display who killed you (weapons, distance and damage)
     * 詳細傷害與兇手提示 (武器、距離、傷害部位)
   * [l4d2_kills_manager](/L4D_插件/Special_Infected_特感/l4d2_kills_manager): Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
@@ -668,8 +674,6 @@
     * 給真人倖存者玩家增加許多能力
   * [l4d_kill_combo](/L4D_插件/Survivor_人類/l4d_kill_combo): Display Kill Combo and play sound when killing special infected
     * 連續擊殺特感會有提示與音效
-  * [l4d_block_ff_shake](/L4D_插件/Survivor_人類/l4d_block_ff_shake): Prevent survivor vision from getting experiencing recoil and screen shaking when teammates or bots shoot/shove you
-    * 關閉子彈打中與右鍵推人造成隊友螢幕晃動與後座力降低
   * [l4d2_afk_saveweapons](/L4D_插件/Survivor_人類/l4d2_afk_saveweapons): Save weapons/items when survivor player going AFK or Game Crash
     * 當倖存者玩家閒置、旁觀、崩潰、閃退時，保存攜帶的武器、物資
   * [l4d_disable_ledgehang](/L4D_插件/Survivor_人類/l4d_disable_ledgehang): Disable ledge hanging by player
