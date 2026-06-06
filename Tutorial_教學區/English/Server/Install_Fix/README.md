@@ -144,7 +144,7 @@
 
    * (L4D2 linux/windows) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): Fixing the null pointer dereference in ```SV_SolidMoved```
 
-   * (L4D2 linux/windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): Fixing the crash with null pointer dereference in ```CM_GetCollideableTriggerTestBox```
+   * (L4D2 windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): Fixing the crash with null pointer dereference in ```CM_GetCollideableTriggerTestBox```
 
    * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): Fix Crash ```SurvivorBot::IsReachable``` null pointer
 

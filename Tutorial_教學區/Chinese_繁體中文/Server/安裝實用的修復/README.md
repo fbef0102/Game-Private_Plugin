@@ -154,7 +154,7 @@
 
    * (L4D2 linux/windows) [SV_SolidMoved](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/SV_SolidMoved-Fix): 修復崩潰 ```SV_SolidMoved``` 涵式內的空指針
 
-   * (L4D2 linux/windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): 修復崩潰 ```CM_GetCollideableTriggerTestBox``` 涵式內的空指針
+   * (L4D2 windows) [GetCollideableTriggerTestBox_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/GetCollideableTriggerTestBox_Detour): 修復崩潰 ```CM_GetCollideableTriggerTestBox``` 涵式內的空指針
 
    * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): 修正崩潰: ```SurvivorBot::IsReachable``` 涵式內的空指針
 

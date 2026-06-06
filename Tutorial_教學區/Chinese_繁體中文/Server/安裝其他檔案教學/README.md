@@ -405,7 +405,7 @@
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!
 	<br/>![image](image/29.jpg)
 
-	3. 將以下內容複製貼上到```sourcemod/configs/core.cfg```文件裡面
+	3. 將以下內容複製並到```sourcemod/configs/core.cfg```文件加上去 (不是覆蓋)
 		* 內容
 			```c
 			/**

@@ -228,7 +228,7 @@
 
 - - - -
 ## Sourcemod支援區域伺服器嗎
-> 區域伺服器也稱區域房，英文名是Listen Server
+> 區域伺服器也稱本地房或區域房，英文名是Listen Server
 * **不支援**，盡管[Sourcemod官方](https://wiki.alliedmods.net/Installing_SourceMod_(simple))一再強調SourceMod不能運作在區域伺服器上，依然有許多人把Sourcemod安裝到區域房並開房與朋友遊玩
 * 推薦大家把[Sourcemod安裝在專屬伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md)，所有插件都支援專屬伺服器且較穩定，[與專屬伺服器有巨大差別](/Tutorial_教學區/Chinese_繁體中文/Server/安裝區域房與插件/README.md#與專屬伺服器有何差別)
 

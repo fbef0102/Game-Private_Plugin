@@ -3,16 +3,16 @@
 	"Amount In Tank Wave"
 	{
 		"#format" "{1:d}"
-		"en"	"[{olive}TS{default}] Amount In Tank Wave: {green}{1}"
-		"zho"	"[{olive}TS{default}] 每局Tank數量: {green}{1}"
-		"chi"	"[{olive}TS{default}] 每局坦克数量: {green}{1}"
+		"en"	"[{olive}TS{default}] Amount In Final Tank Wave: {green}{1}"
+		"zho"	"[{olive}TS{default}] 救援期間每波Tank數量: {green}{1}"
+		"chi"	"[{olive}TS{default}] 救援期间每波坦克数量: {green}{1}"
 	}
 	"Escape Tank Amount"
 	{
 		"#format" "{1:d}"
-		"en"	"[{olive}TS{default}] Escape Tank Amount: {green}{1}"
-		"zho"	"[{olive}TS{default}] 最後救援的Tank數量: {green}{1}"
-		"chi"	"[{olive}TS{default}] 最后救援的坦克数量: {green}{1}"
+		"en"	"[{olive}TS{default}] Final Escape Tank Amount: {green}{1}"
+		"zho"	"[{olive}TS{default}] 最後救援逃離的Tank數量: {green}{1}"
+		"chi"	"[{olive}TS{default}] 最后救援逃离的坦克数量: {green}{1}"
 	}
 	"Next Tank Spawn"
 	{

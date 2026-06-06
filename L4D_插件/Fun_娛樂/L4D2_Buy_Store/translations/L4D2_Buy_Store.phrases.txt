@@ -615,8 +615,8 @@
 	{
 		"en"	"Rifle M16"
 		"pt"	"Rifle M16"
-		"zho"	"步槍"
-		"chi"	"步枪"
+		"zho"	"M16步槍"
+		"chi"	"M16步枪"
 		"es"	"Rifle M16"
 		"ru"	"М16"
 	}

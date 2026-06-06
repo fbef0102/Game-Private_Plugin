@@ -11,7 +11,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	L4D2 coop/versus/realism
 	```
 
-* [Video | 影片展示](https://youtube.com/shorts/dEV8-GZUpT4)
+* [Video | 影片展示](https://youtu.be/2YZtoQA3Sb4)
 
 * Image
 	<br/>![l4d2_final_rescue_arrive_time_1](image/l4d2_final_rescue_arrive_time_1.jpg)
@@ -24,10 +24,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Rescue vehicle will not arrive until time passed
 	* Endless hordes after 2 final tank waves
 	* Apply to all official/custom maps
-	* 🟥 Auto disable plugin in the following final type.
+	* 🟥 (L4D2) Auto disable plugin in the following final type.
 		1. Gauntlet final, e.g., c5m5, c13m4
 		2. Scavenge final, e.g., c1m4, c6m3
 	* You can customize time for each map in file [data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)
+		* Manual in this file, click for more details...
 </details>
 
 * Require | 必要安裝
@@ -70,6 +71,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.5 (2025-6-6)
+		* Update data
+		* Support L4D1
+
     * v1.4 (2025-7-14)
 		* Update data
 
@@ -100,10 +105,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 增加救援抵達的時間，救援載具不會來臨直到時間結束
 	* 2波Tank階段後，生成無限屍潮，時間結束之後，強制刷出救援載具
 	* 適用於所有官方地圖與三方地圖
-	* 🟥 遇到以下救援類型則自動關閉插件
+	* 🟥 (L4D2) 遇到以下救援類型則自動關閉插件
 		1. 衝刺跑圖, 譬如: c5m5, c13m4
 		2. 灌汽油載具, 譬如: c1m4, c6m3
 	* 可以設置文件[data/l4d2_final_rescue_arrive_time.cfg](data/l4d2_final_rescue_arrive_time.cfg)，決定每一關的救援抵達時間
+		* 內有中文說明，可點擊查看
 
 * 用意在哪?
 	* 適合屍潮太多或Tank過多的伺服器，導致救援階段卡關

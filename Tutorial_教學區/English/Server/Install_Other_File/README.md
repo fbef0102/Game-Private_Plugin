@@ -410,7 +410,7 @@
 	2. Unzip all files to your server same folder
 	<br/>![image](image/29.jpg)
 
-	3. Copy the folloing and paste into ```sourcemod/configs/core.cfg```
+	3. Copy the folloing and paste into ```sourcemod/configs/core.cfg``` (Do not override any context)
 		* Configuration
 			```c
 			/**

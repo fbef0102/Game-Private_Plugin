@@ -95,7 +95,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, Enables players to vote for the next map or campaign.
 		sm_l4d_fmc_voting_system_enabled "1"
 
-		// When to display vote menu to player in coop/versus/realim? 0=When survivors leave the saferoom, 1=When final rescue starts
+		// When to display vote menu to player in coop/versus/realim? 
+		// -1=No Display, 0=When survivors leave the saferoom, 1=When final rescue starts
 		sm_l4d_fmc_voting_system_when "1"
 
 		// How the next campaign/map is advertised during a finale and scavenge/survival map [0 = DISABLED, 1 = HINT TEXT, 2 = CHAT TEXT]
@@ -332,7 +333,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 為1時，玩家可以投票決定下一張地圖.
 		sm_l4d_fmc_voting_system_enabled "1"
 
-		// (戰役/對抗/寫實模式) 何時顯示投票介面? 0=倖存者離開安全室時, 1=救援開始時
+		// (戰役/對抗/寫實模式) 何時顯示投票介面? 
+		// -1=不顯示, 0=倖存者離開安全室時, 1=救援開始時
 		sm_l4d_fmc_voting_system_when "1"
 
 		// 如何發公告顯示下一張地圖 [0 = 不發公告, 1 = 黑底白字框, 2 = 聊天框]
