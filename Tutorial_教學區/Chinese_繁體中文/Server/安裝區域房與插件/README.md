@@ -90,13 +90,13 @@
    1. 先打開[你的遊戲主目錄的資料夾](/Tutorial_教學區/Chinese_繁體中文/Game/README.md#打開遊戲主目錄的資料夾)
 
    2. [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
-      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
+      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，選擇Windows系統下載即可
       - 紅色圖案代表此版本尚未支援該系統平台
       - [不要下載Dev版本](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼sourcemod下載有分兩種)
       <br/>![image](image/2.jpg)
 
    3. [MetaMod](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
-      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
+      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，選擇Windows系統下載即可
       - 紅色圖案代表此版本尚未支援該系統平台
       <br/>![image](image/3.jpg)
    
@@ -118,6 +118,7 @@
 
    2. 啟動遊戲，看到警告訊息正常的，請按確定繼續
       <br/>![image](image/9.jpg)
+      <br/>![image](image/9_2.jpg)
 
    3. 接下來
       * 法一：單人遊戲

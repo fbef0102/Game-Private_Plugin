@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* This plugin just display message only.
 	* When survival begins, check if the total number of items more than map allowed when survival begins
-		* defibrillator, first aid kit, pill, adrenaline, molotov, pipe bomb, vomitjar, gascan, firework, propane tank, oxygen tank, explosive pack, incendiary pack
+		* Defibrillator, first aid kit, pill, adrenaline, molotov, pipe bomb, vomitjar, gascan, firework, propane tank, oxygen tank, explosive pack, incendiary pack
 		* Edit map defaut count in file: [data/l4d_survival_gas_item_counts_check.cfg](data/l4d_survival_gas_item_counts_check.cfg)
 </details>
 
@@ -32,6 +32,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		// 0=Plugin off, 1=Plugin on.
 		l4d_survival_gas_item_counts_check_enable "1"
+
+		// When to check map items? 0=New round starts 5 seconds later, 1=Survival begins
+		l4d_survival_gas_item_counts_check_type "1"
 		```
 </details>
 
@@ -41,6 +44,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2026-6-15)
+		* Update cvars
 
 	* v1.0 (2025-9-24)
 		* Initial Release
@@ -62,5 +68,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		// 0=關閉插件, 1=啟動插件
 		l4d_survival_gas_item_counts_check_enable "1"
+
+		// 何時檢測所有物資的數量? 0=新的回合開始五秒後, 1=生存模式計時開始時
+		l4d_survival_gas_item_counts_check_type "1"
 		```
 </details>

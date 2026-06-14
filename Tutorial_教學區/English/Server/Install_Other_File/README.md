@@ -511,25 +511,38 @@
 		4. Navigate to where your server is installed
 			* If running 32 bits version
 				* Rename ```srcds_linux``` to ```srcds_linux_original```
-				* Create a script called  ```srcds_linux``` with the following contents:
+				* Create a script called  ```srcds_linux```
+				<br/>![image](image/48.jpg)
+				* Write the following contents:
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="xxxxxx"
+					exec ./srcds_linux_original "$@"
+					```
+				* Copy and past the path of '32 bit' lib files after 'LD_PRELOAD=', multi paths separate by ':'
+				* The results are shown below (varies by system)
 					```c
 					#!/bin/bash
 					export LD_PRELOAD="/usr/lib/i386-linux-gnu/libc.so.6:/usr/lib/i386-linux-gnu/libgcc_s.so.1:/usr/lib/i386-linux-gnu/libstdc++.so.6"
 					exec ./srcds_linux_original "$@"
 					```
-				* Copy and past the path of lib files after 'LD_PRELOAD=', multi paths separate by :
-			<br/>![image](image/48.jpg)
-
 
 			* If running 64 bits version
 				* Rename ```srcds_linux64``` to ```srcds_linux64_original```
-				* Create a script called ```srcds_linux64``` with the following contents:
+				* Create a script called ```srcds_linux64```
+				* Write the following contents:
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="xxxxxx"
+					exec ./srcds_linux64_original "$@"
+					```
+				* Copy and past the path of '64 bit' lib files after 'LD_PRELOAD=', multi paths separate by ':'
+				* The results are shown below (varies by system)
 					```c
 					#!/bin/bash
 					export LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libc.so.6:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30"
 					exec ./srcds_linux64_original "$@"
 					```
-				* Copy and past the path of lib files after 'LD_PRELOAD=', multi path separate by :
 
 	6. Restart Server
 		* (Windows) Launch server as usual

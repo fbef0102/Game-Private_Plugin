@@ -25,6 +25,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Survivor wipe out
 		* Switch into infected team
 		* Take over dead survivor
+	* 🟥 Unable to save weapons/item/health if your steam is not authenticated yet
+	* 🟥 Unable to retore weapons/item/health if your steam is not authenticated yet
 </details>
 
 * Require | 必要安裝
@@ -110,6 +112,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 人類滅團
 		* 切換隊伍當特感
 		* 玩家死亡
+	* 🟥 如果玩家的steam id還沒有被伺服器驗證
+		* 無法保存武器與物資
+		* 重新進伺服器後也必須等待steam id驗證完成才會恢復上次的武器與物資
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

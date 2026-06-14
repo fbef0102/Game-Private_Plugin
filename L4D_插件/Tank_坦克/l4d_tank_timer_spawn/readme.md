@@ -33,8 +33,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=Plugin off, 1=Plugin on.
 		l4d_tank_timer_spawn_enable "1"
 
-		// If 1, Disable director/mutation/static tank spawn
-		l4d_tank_timer_spawn_disable_director "1"
+		// (L4D2) 1=Disable director tank spawn, 2=Disable director/mutation/static/final stage tank spawn (could break the map process and game stuck), 0=Off
+		// (L4D1) 1=Disable director tank spawn (and witch), 0=Off
+		l4d_tank_timer_spawn_disable_director "0"
 
 		// Set max interval time to spawn tank
 		l4d_tank_timer_spawn_interval_max "120"
@@ -93,7 +94,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=關閉插件, 1=啟動插件
 		l4d_tank_timer_spawn_enable "1"
 
-		// 為1時，停止 遊戲導演/突變模式/地圖固定 生成Tank
+		// (L4D2) 1=關閉導演系統生成tank, 2=關閉 遊戲導演/突變模式/地圖固定/救援階段 生成Tank (可能導致遊戲卡關, 不建議使用), 0=關閉這項功能
+		// (L4D1) 1=關閉導演系統生成tank (這也會關閉導演系統生成witch), 0=關閉這項功能
 		l4d_tank_timer_spawn_disable_director "1"
 
 		// 生成tank的時間間隔 (最長時間)

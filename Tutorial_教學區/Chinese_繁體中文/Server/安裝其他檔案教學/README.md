@@ -506,25 +506,38 @@
 		4. 到你安裝的伺服器路徑上
 			* 如果遊戲是使用32 bit的srcds
 				* 將```srcds_linux```命名成```srcds_linux_original```
-				* 新增檔案命名為```srcds_linux```，打開並寫入以下內容
+				* 新增檔案命名為```srcds_linux```
+				<br/>![image](image/48.jpg)
+				* 打開並寫入以下內容
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="xxxxx"
+					exec ./srcds_linux_original "$@"
+					```
+				* 將剛才找到的多個32 bit環境庫路徑貼到LD_PRELOAD=後面取代xxxxx，有多個路徑請使用:區隔
+				* 其呈現結果如下 (因系統而異)
 					```c
 					#!/bin/bash
 					export LD_PRELOAD="/usr/lib/i386-linux-gnu/libc.so.6:/usr/lib/i386-linux-gnu/libgcc_s.so.1:/usr/lib/i386-linux-gnu/libstdc++.so.6"
 					exec ./srcds_linux_original "$@"
 					```
-				* 將剛才找到的環境庫路徑貼到LD_PRELOAD=後面取代，有多個路徑請使用:區隔
-			<br/>![image](image/48.jpg)
-
 
 			* 如果遊戲是使用64 bit的srcds
 				* 將```srcds_linux64```命名成```srcds_linux64_original```
-				* 新增檔案命名為```srcds_linux64```，打開並寫入以下內容
+				* 新增檔案命名為```srcds_linux64```
+				* 打開並寫入以下內容
+					```c
+					#!/bin/bash
+					export LD_PRELOAD="xxxxx"
+					exec ./srcds_linux_original "$@"
+					```
+				* 將剛才找到的多個64 bit環境庫路徑貼到LD_PRELOAD=後面取代xxxxx，有多個路徑請使用:區隔
+				* 其呈現結果如下 (因系統而異)
 					```c
 					#!/bin/bash
 					export LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libc.so.6:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30"
 					exec ./srcds_linux64_original "$@"
 					```
-				* 將剛才找到的環境庫路徑貼到LD_PRELOAD=後面取代，有多個路徑請使用:區隔
 
 	6. 啟動伺服器
 		* (Windows) 正常啟動伺服器

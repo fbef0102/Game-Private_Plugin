@@ -44,7 +44,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=Disable, 1=Enable Plugin, Spawn numbers of Tanks depending on the map (Does not affect director spawn)
 		l4d_tank_spawn_enable "1"
 
-		// If 1, Disable director/mutation/static tank spawn
+		// (L4D2) 1=Disable director tank spawn, 2=Disable director/mutation/static/final stage tank spawn (could break the map process and game stuck), 0=Off
+		// (L4D1) 1=Disable director tank spawn (and witch), 0=Off
 		l4d_tank_spawn_disable_director "0"
 
 		// Set interval time check to spawn
@@ -162,7 +163,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=關閉插件, 1=啟動插件, 在地圖上不同路程分別生成坦克 (不影響遊戲導演生成Tank)
 		l4d_tank_spawn_enable "1"
 
-		// 為1時，停止 遊戲導演/突變模式/地圖固定 生成Tank
+		// (L4D2) 1=關閉導演系統生成tank, 2=關閉 遊戲導演/突變模式/地圖固定/救援階段 生成Tank (可能導致遊戲卡關, 不建議使用), 0=關閉這項功能
+		// (L4D1) 1=關閉導演系統生成tank (這也會關閉導演系統生成witch), 0=關閉這項功能
 		l4d_tank_spawn_disable_director "0"
 
 		// 每0.5秒檢查一次人類路程並生成Tank

@@ -128,13 +128,13 @@
 * <details><summary>安裝步驟 (點我展開)</summary>
 
    1. [Sourcemod Stable](https://www.sourcemod.net/downloads.php?branch=stable)下載最新版本的安裝包
-      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
+      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，選擇Windows系統下載即可
       - 紅色圖案代表此版本尚未支援該系統平台
       - [請不要下載Dev版本](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼sourcemod下載有分兩種)
       <br/>![image](image/9.jpg)
 
    2. [MetaMod Stable](https://www.sourcemm.net/downloads.php?branch=stable)下載最新版本的安裝包
-      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，蘋果圖案的是macOs系統，選擇Windows系統下載即可
+      - 窗戶圖案的是Windows系統，企鵝圖案的是Linux系統，選擇Windows系統下載即可
       - 紅色圖案代表此版本尚未支援該系統平台
       <br/>![image](image/10.jpg)
    

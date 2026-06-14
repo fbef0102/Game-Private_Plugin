@@ -75,6 +75,13 @@
     * [了解GPL條款](https://forums.alliedmods.net/showthread.php?t=348125)
   </details>
 
+  * <details><summary><b>丟失了交易的源碼與文件，是否要重新付費？</b></summary>
+
+    * 如果源碼與文件丟失了
+      * 請提供當初交易的插件名稱、日期、你的暱稱 (即使忘記了也要提供大概)
+      * 交易日期之後已超過半年，我會收點手續費用 (不需要重新購買)
+  </details>
+
 > My Private Plugins (Updating more...) 
 * Every plugin here is private (Most plugins price range: US$6~US$15), Please contact via [Steam](https://steamcommunity.com/profiles/76561198026784913) or [Telegram](https://t.me/HarryPotter_TW)
   * Accept small change or English translation
@@ -131,6 +138,13 @@
     * Nobody forces you to buy plugins and make deal with me
     * [License](https://www.sourcemod.net/license.php)
     * [False accusation](https://forums.alliedmods.net/showthread.php?t=348125)
+  </details>
+
+  * <details><summary><b>I lost the source code and documentation. Do I have to pay again?</b></summary>
+
+    * If you lost the source code and documentation
+      * Please provide the plugin name, transaction date, and your nickname when we made the deal (Even if you forget, please provide an approximation).
+      * If more than half a year has passed since the transaction date, a small processing fee will be charged (You do not need to pay full price).
   </details>
 
 ###### **Source Plugin List | Source遊戲插件列表**
