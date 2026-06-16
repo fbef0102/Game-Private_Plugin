@@ -413,55 +413,15 @@
 	3. Copy the folloing and paste into ```sourcemod/configs/core.cfg``` (Do not override any context)
 		* Configuration
 			```c
-			/**
-			* SteamID64 (Community ID) that will have ownership of uploaded crash reports.
-			* You can share your crash reports with additional users from the website.
-			*
-			* If unset, your crash reports will be uploaded anonymously and you will not be
-			* able to see all of the information.
-			*/
 			"MinidumpAccount"	"xxxxxxxxxxxxx"
-
-			/**
-			* Controls which binaries will be eligible to be processed for symbols and uploaded.
-			* Only modules loaded by the server at the time of the crash can be considered.
-			*
-			* 0 = Disabled: No binaries will be processed or uploaded.
-			* 1 = System Only: Only binaries outside of the game directory (where the srcds binary is).
-			* 2 = System + Game: Loaded modules outside of the addons/ directory.
-			* 3 = System + Game + Addons: All loaded modules.
-			*/
 			"MinidumpSymbolUpload"	"3"
-
-			/**
-			* Controls whether Accelerator can upload complete module binaries when explicitly requested
-			* by the processing server. This also respects the value of the MinidumpSymbolUpload setting.
-			*/
 			"MinidumpBinaryUpload"	"yes"
-
-			/**
-			* Controls whether Accelerator does local processing of crash reports before upload.
-			* This should only be changed if local processing causes issues such as crashes,
-			* the processing server may reject crash reports that have not been presubmitted.
-			*/
 			"MinidumpPresubmit"	"yes"
-
-			/**
-			* URL to upload crash dumps to. Should not be changed.
-			*/
 			"MinidumpUrl"	"http://crash.limetech.org/submit"
-
-			/**
-			* URL to upload processed symbols to. Should not be changed.
-			*/
 			"MinidumpSymbolUrl"	"http://crash.limetech.org/symbols/submit"
-
-			/**
-			* URL to upload binaries to. Should not be changed.
-			*/
 			"MinidumpBinaryUrl"	"http://crash.limetech.org/binary/submit"
 			```
-		* Note that must be inside the "Core"{}, as the image shows
+		* Note that must be inside the "Core"{}, keep the original content unchanged, as the image shows
 		<br/>![image](image/30.jpg)
 	
 	4. Change "xxxxxxxxxxxxxxxxx" and write your own steamid 64 in ```core.cfg```
@@ -513,6 +473,10 @@
 				* Rename ```srcds_linux``` to ```srcds_linux_original```
 				* Create a script called  ```srcds_linux```
 				<br/>![image](image/48.jpg)
+				* Chnage file access permissions: 
+					```c
+					chmod 755 srcds_linux
+					```
 				* Write the following contents:
 					```c
 					#!/bin/bash
@@ -530,6 +494,10 @@
 			* If running 64 bits version
 				* Rename ```srcds_linux64``` to ```srcds_linux64_original```
 				* Create a script called ```srcds_linux64```
+				* Chnage file access permissions: 
+					```c
+					chmod 755 srcds_linux64
+					```
 				* Write the following contents:
 					```c
 					#!/bin/bash

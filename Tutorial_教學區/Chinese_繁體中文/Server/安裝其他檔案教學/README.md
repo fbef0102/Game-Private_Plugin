@@ -408,55 +408,15 @@
 	3. 將以下內容複製並到```sourcemod/configs/core.cfg```文件加上去 (不是覆蓋)
 		* 內容
 			```c
-			/**
-			* SteamID64 (Community ID) that will have ownership of uploaded crash reports.
-			* You can share your crash reports with additional users from the website.
-			*
-			* If unset, your crash reports will be uploaded anonymously and you will not be
-			* able to see all of the information.
-			*/
 			"MinidumpAccount"	"xxxxxxxxxxxxx"
-
-			/**
-			* Controls which binaries will be eligible to be processed for symbols and uploaded.
-			* Only modules loaded by the server at the time of the crash can be considered.
-			*
-			* 0 = Disabled: No binaries will be processed or uploaded.
-			* 1 = System Only: Only binaries outside of the game directory (where the srcds binary is).
-			* 2 = System + Game: Loaded modules outside of the addons/ directory.
-			* 3 = System + Game + Addons: All loaded modules.
-			*/
 			"MinidumpSymbolUpload"	"3"
-
-			/**
-			* Controls whether Accelerator can upload complete module binaries when explicitly requested
-			* by the processing server. This also respects the value of the MinidumpSymbolUpload setting.
-			*/
 			"MinidumpBinaryUpload"	"yes"
-
-			/**
-			* Controls whether Accelerator does local processing of crash reports before upload.
-			* This should only be changed if local processing causes issues such as crashes,
-			* the processing server may reject crash reports that have not been presubmitted.
-			*/
 			"MinidumpPresubmit"	"yes"
-
-			/**
-			* URL to upload crash dumps to. Should not be changed.
-			*/
 			"MinidumpUrl"	"http://crash.limetech.org/submit"
-
-			/**
-			* URL to upload processed symbols to. Should not be changed.
-			*/
 			"MinidumpSymbolUrl"	"http://crash.limetech.org/symbols/submit"
-
-			/**
-			* URL to upload binaries to. Should not be changed.
-			*/
 			"MinidumpBinaryUrl"	"http://crash.limetech.org/binary/submit"
 			```
-		* 請注意要貼在"Core"{}裡面，如圖片所示
+		* 請注意要貼在"Core"{}裡面，不要修改文件內原本的內容，如圖片所示
 		<br/>![image](image/30.jpg)
 	
 	4. ```core.cfg```文件內"xxxxxxxxxxxxxxxxx"請改成你的steamid 64
@@ -508,6 +468,10 @@
 				* 將```srcds_linux```命名成```srcds_linux_original```
 				* 新增檔案命名為```srcds_linux```
 				<br/>![image](image/48.jpg)
+				* 變更文件執行權限: 
+					```c
+					chmod 755 srcds_linux
+					```
 				* 打開並寫入以下內容
 					```c
 					#!/bin/bash
@@ -525,6 +489,10 @@
 			* 如果遊戲是使用64 bit的srcds
 				* 將```srcds_linux64```命名成```srcds_linux64_original```
 				* 新增檔案命名為```srcds_linux64```
+				* 變更文件執行權限: 
+					```c
+					chmod 755 srcds_linux64
+					```
 				* 打開並寫入以下內容
 					```c
 					#!/bin/bash

@@ -52,8 +52,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Max tank limit on the filed (If limit reached, don't spawn tanks)
 		l4d_tank_timer_spawn_limit "2"
 
-		// If 1, Disable tank spawn timer after final starts
-		l4d_tank_timer_spawn_final_disable "1"
+		// When to start the timer to spawn tank 1=After a survivor leaves the saferoom and before final starts, 2=After final starts, 3=After a survivor leaves the saferoom + after final starts
+		l4d_tank_timer_spawn_when "3"
+
+		// If 1, display chat message
+		l4d_tank_timer_spawn_notify "1"
 		```
 </details>
 
@@ -64,6 +67,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2026-6-17)
+		* Update cvars
 
 	* v1.2 (2025-2-16)
 		* Update cvars
@@ -115,5 +121,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 為1時，救援開始後不生成tank
 		l4d_tank_timer_spawn_final_disable "1"
+
+		// 何時開始生成Tank, 1=倖存者離開安全區後+救援開始之前, 2=救援開始之後, 3=倖存者離開安全區後+救援開始之後
+		l4d_tank_timer_spawn_when "3"
+
+		// 為1時，聊天框顯示Tank數量提示
+		l4d_tank_timer_spawn_notify "1"
 		```
 </details>
