@@ -42,7 +42,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
-	3. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+	3. [builtinvotes](https://github.com/fbef0102/builtinvotes/releases)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz)
 	6. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.

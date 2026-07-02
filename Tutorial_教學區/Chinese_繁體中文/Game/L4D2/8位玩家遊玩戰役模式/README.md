@@ -107,12 +107,15 @@
 
 * [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): 修復5+倖存者過關時無法保存武器到下一關 (用DHooks與sourcecramble修改遊戲內部涵式)
 
+* [round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup): 新回合開始時，移除玩家們的 ```predicted_viewmodel``` 實體以防止崩潰: No Free Edict
+    * 譬如地圖: The Passing 第一關
+
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
 * [AFK and Join Team Commands Improved Version](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_afk_commands): 提供多種命令轉換隊伍陣營 (譬如: !afk, !survivors, !infected), 但不可濫用.
 
-* (L4D2) [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
+* [Save Weapon Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): 戰役模式之下儲存所有玩家身上的武器與血量，保存過關到下一關
 
 * [AutoTakeOver 5+ Survivors Improved (哈利版本)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): 當真人玩家死亡時，自動取代另一個有空閒的Bot繼續遊玩倖存者
 

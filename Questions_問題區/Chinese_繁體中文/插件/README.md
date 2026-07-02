@@ -51,9 +51,10 @@
     <br/>![image](image/1.jpg)
     - 若看不懂錯誤原因請洽作者，將錯誤原文發給開發者，無須一堆廢話
     - 🟥要是你有修改源碼請誠實招來，當原作者發現錯誤的行數不相符會放生不想鳥你
-        <details><summary>錯誤原文範例 (點我展開)</summary>
-
-          ```php
+      * <details><summary>錯誤原文範例 (點我展開)</summary>
+        
+          檔案名稱: errors_xxxxx.log
+          ```
           L 03/28/2022 - 02:24:27: [SM] Exception reported: XXXXXXXXXXXXXXXXXXXX
           L 03/28/2022 - 02:24:27: [SM] Blaming: xxxxxxxxxx.smx
           L 03/28/2022 - 02:24:27: [SM] Call stack trace:
@@ -63,7 +64,7 @@
           L 03/28/2022 - 02:24:27: [SM]   [4] L4D_IsAnySurvivorInStartArea
           L 03/28/2022 - 02:24:27: [SM]   [5] Line 172, f:\Stuff\EVERYTHING ELSE\Left 4 Dead 2 Dedicated Servers\left4dead2\addons\sourcemod\scripting\xxxxxxxxxx.sp::OnPluginStart
           ```
-        </details>
+      </details>
 
   4. 重新安裝插件之後，重啟伺服器，檢查插件是否成功運作，直到沒有error為止才能安心 
 </details>

@@ -103,7 +103,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // 啟動電鋸的時間 (解除被特感控制之後、被Charger撞飛之後) [0.0~1.0]
         l4d2_chainsaw_deploy_speed_getup "0.0"
 
-        // 啟動電鋸的時間 (解除被特感控制之後、被Charger撞飛之後) [0.0~1.0]
+        // 啟動電鋸的時間 (地或掛邊之後) [0.0~1.0]
         l4d2_chainsaw_deploy_speed_hanging_incap "0.6"
 
         // 啟動電鋸的時間 (爬梯之後) [0.0~1.0]

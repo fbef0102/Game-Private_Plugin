@@ -107,12 +107,15 @@
 
 * [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): Restoring transition data by player's UserId instead of character (With DHooks and Source Scramble)
 
+* [round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup): When the round resets, remove players' ```predicted_viewmodel``` edicts to prevent crashing from no free edict.
+    * For example: The Passing map 1
+
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install
 * [AFK and Join Team Commands Improved Version](https://forums.alliedmods.net/showpost.php?p=2719702&postcount=32): Add more commands to let the player spectate and join team. (!afk, !survivors, !infected, etc.), but no changing team abuse.
 
-* (L4D2) [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
+* [Save Weapon Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_ty_saveweapons): L4D2 coop save weapon when map transition if more than 4 players.
 
 * [AutoTakeOver 5+ Survivors Improved (Harry Version)](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/_AutoTakeOver): Auto Takes Over an alive free bot UponDeath or OnBotSpawn or OnBotReplace in 5+ survivors.
 

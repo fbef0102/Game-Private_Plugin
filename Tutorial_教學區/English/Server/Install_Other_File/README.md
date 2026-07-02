@@ -260,28 +260,30 @@
 
 	2. Unzip all files to your server addons folder, press yes if ask override. You will have ```l4dtoolz``` files in addons folder
 	<br/>![image](image/6.jpg)
-
-	3. Write down the following cvars in cfg/server.cfg
-		* If you don't have server.cfg, then create it
-			```php
-			// 100 Tickrate, free to modify value
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
-			```
 	
-	4. Input the Launch Parameters
+	3. Input the Launch Parameters, set tickrate
 		* (Dedicated server) Launch Parameters ```-tickrate 100```
 		<br/>![image](image/15.jpg)
 		* (Listen Server) Launch options```-tickrate 100```
 		<br/>![image](image/16.jpg)
 		
+	4. Write down the following cvars in cfg/server.cfg
+		* If you don't have server.cfg, then create it
+		* See [my network settings for l4d2 tickate 100](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server_rates.cfg)
+			```php
+			// 100 Tickrate settings
+			// Please adjust carefully according to the tickrate
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
+			sm_cvar sv_maxupdaterate 		"100"		// tickrate
+			sm_cvar sv_mincmdrate 			"100"		// tickrate
+			sm_cvar sv_maxcmdrate 			"100"		// tickrate
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
+
 	5. Restart Server, type ```plugin_print``` in serve console
 		* This version of l4dtoolz includes the functions to unlock server max players and tickrates
 			```php
@@ -307,27 +309,29 @@
 
 	2. Unzip all files to your server same folder, press yes if ask override. You will have ```tickrate_enabler``` folder in addons folder
 	<br/>![image](image/19.jpg)
-
-	3. Write down the following cvars in cfg/server.cfg
-		* If you don't have server.cfg, then create it
-		```php
-		// 100 Tickrate, free to modify value
-		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-		sm_cvar rate					"100000" 	// tickrate * 1000
-		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-		sm_cvar fps_max					"0"
-		```
 	
-	4. Input the Launch Parameters
+	3. Input the Launch Parameters, set tickrate
 		* (Dedicated server) Launch Parameters ```-tickrate 100```
 		<br/>![image](image/20.jpg)
 		* (Listen Server) Launch options```-tickrate 100```
 		<br/>![image](image/16.jpg)
+
+	4. Write down the following cvars in cfg/server.cfg
+		* If you don't have server.cfg, then create it
+		* See [my network settings for l4d1 tickate 100](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D1/Windows%20Server%20Files/left4dead/cfg/server_rates.cfg)
+			```php
+			// 100 Tickrate settings
+			// Please adjust carefully according to the tickrate
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
+			sm_cvar sv_maxupdaterate 		"100"		// tickrate
+			sm_cvar sv_mincmdrate 			"100"		// tickrate
+			sm_cvar sv_maxcmdrate 			"100"		// tickrate
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
 		
 	5. Restart Server, type ```plugin_print``` in serve console
 		```php
@@ -341,7 +345,8 @@
 
 > __Warning__ 
 > * High Tickrate costs more cpu performance, you can adjust tickrate to 60 or 45
-> * Need to modify server.cfg and Launch Parameters together to change tickrate
+> * Due to source engine, game tickate can only be set 30~100
+> * To change tickrate, please modify server.cfg and launch parameters
 
 * <details><summary>Q&A 1: Why the windows server Tickrate stuck at 64?</summary>
 
@@ -384,12 +389,13 @@
 	2. My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
 	<br/>![image](image/25.jpg)
 
-	3. Seach "GeoLite2 Country" and "GeoLite2 City" -> download databases.
+	3. Seach "GeoLite Country" and "GeoLite City" -> download databases.
 	<br/>![GeoLite2_Country](image/GeoLite2_Country.jpg)
 	<br/>![GeoLite2_City](image/GeoLite2_City.jpg)
 
 	4. Put GeoLite2-City.mmdb and GeoLite2-Country.mmdb files to path ```addons/sourcemod/configs/geoip/``` folder
-	<br/>![image](image/26.jpg)
+		* Press yes if asked to overwrite.
+		<br/>![image](image/26.jpg)
 </details>
 
 - - - -

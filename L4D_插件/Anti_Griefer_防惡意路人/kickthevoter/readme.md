@@ -23,7 +23,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * Require | 必要安裝
-    1. [builtinvotes](https://github.com/fbef0102/Game-Private_Plugin/releases/tag/builtinvotes)
+    1. [builtinvotes](https://github.com/fbef0102/builtinvotes/releases)
 
 * <details><summary>ConVar | 指令</summary>
 

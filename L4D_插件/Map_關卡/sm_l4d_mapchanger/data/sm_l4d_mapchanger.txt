@@ -5,12 +5,49 @@
 	// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs/missioncycle.versus.txt
 	// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs/missioncycle.survival.txt
 	// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs/missioncycle.scavenge.txt
-
-	//"c1m2_streets"
-	//{
-	//	"chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
-	//	"chapter_nextname" "c5m3_cemetery" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-	//}
+	//
+	// "c1m2_streets" // <--- current map
+	// {
+	//	 "chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
+	//	 "chapter_nextname" "c5m3_cemetery" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// }
+	//
+	// "c8m5_rooftop" // <--- current map
+	// {
+	// 	 "next mission map" "c9m1_alleys"   // <-- next campaign in coop/versus/realism
+	// 	 "next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// 	
+	// 	 "survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
+	// 	 "survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// 
+	// 	 "scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
+	// 	 "scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// }
+	// -----------
+	// 中文說明
+ 	// 沒有在此文件寫地圖名的其他關卡
+ 	// (戰役/寫實模式) 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫，下一張地圖依照configs/missioncycle.coop.txt的地圖順序
+ 	// (對抗模式) 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.versus.txt的地圖順序
+ 	// (生存模式) 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.survival.txt的地圖順序
+ 	// (清道夫模式) 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.scavenge.txt的地圖順序
+ 	//
+ 	// "c1m2_streets" // <-- 當前地圖
+ 	// {
+ 	// 	 "chapter_nextmap" "c5m3_cemetery" // <-- 戰役/對抗/寫實模式 過關後的下一關地圖，可以寫三方圖
+ 	// 	 "chapter_nextname" "c5m3_cemetery" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
+ 	// }
+	// 
+ 	// "c8m5_rooftop" // <-- 當前地圖
+ 	// {
+ 	// 	 "next mission map" "c9m2_lots"   // <-- (戰役/對抗/寫實模式) 下一張地圖名，可以寫三方圖
+ 	// 	 "next mission name" "L4D2C9"  	// <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示L4D2C9
+ 	// 	
+ 	// 	 "survival_nextmap" "c1m2_streets"	// <-- (生存模式) 下一張地圖名，可以寫三方圖
+ 	// 	 "survival_nextname" "c1m2_streets" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c1m2_streets
+	// 
+ 	// 	 "scavenge_nextmap" "c2m1_highway" // <-- (清道夫模式)　下一關的地圖名，可以寫三方圖
+ 	// 	 "scavenge_nextname" "c2m1_highway" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c2m1_highway
+ 	// }
 
 	"c1m4_atrium"
 	{
@@ -47,16 +84,10 @@
 		"next mission map" "c8m1_apartment"
 		"next mission name" "L4D2C8"
 	} 
-	"c8m5_rooftop" // current map
+	"c8m5_rooftop"
 	{
-		"next mission map" "c9m1_alleys"   // <-- next campaign in coop/versus/realism
-		"next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-		
-		"survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
-		"survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-
-		"scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
-		"scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+		"next mission map" "c9m1_alleys" 
+		"next mission name" "L4D2C9"
 	}
 	"c9m2_lots"
 	{

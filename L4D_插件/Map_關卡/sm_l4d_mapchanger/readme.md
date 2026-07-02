@@ -27,10 +27,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Automatically change next map when survivors wipe out in survival
 	* Automatically change next map when match end in scavenge
 	* Automatically change next map when final ends in versus/cooo/realism
+	* Modify next map in data: [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
+		* Manual in this file, click for more details...
 	* Automatic parsing of custom maps vpk files - no need to add map names manually
 	* Next map vote starts when 
-		* Leaving the saferoom
+		* Leaving the saferoom in final map 
 		* Survival/Scavenge round starts 
+		* Player types ```!mapvote```
 	* Auto change map to official map if no one in server when playing custom maps
 	* Support fuzzy matching. Example: ```!mapvote dead```, filter maps whose names contain "dead".
 	<br/>![sm_l4d_mapchanger_4](image/sm_l4d_mapchanger_4.jpg)
@@ -154,46 +157,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Example Config</summary>
-
-	* [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
-		```php
-		"ForceMissionChangerSettings"
-		{
-			"c1m2_streets"
-			{
-				"chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
-				"chapter_nextname" "c5m3_cemetery" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-			}
-
-			"c8m5_rooftop" // current map
-			{
-				"next mission map" "c9m2_lots"   // <-- next campaign in coop/versus/realism
-				"next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-				
-				"survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
-				"survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-
-				"scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
-				"scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
-			}
-
-			// If map name not in this file
-			// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs/missioncycle.coop.txt
-			// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs/missioncycle.versus.txt
-			// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs/missioncycle.survival.txt
-			// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs/missioncycle.scavenge.txt
-		} 
-		```
-
-	* [configs/finale.coop.txt](configs/finale.coop.txt)
-		```php
-		// The following maps will be treated as finale maps in Coop/Versus/Realism mode mode. Example: c1m1_hotel. Do not delete this line!
-		l4d2_deathcraft_05_lighthouse
-		l4d2_minecraft_evolution
-		```
-</details>
-
 * Translation Support | 支援翻譯
 	```
 	translations/sm_l4d_mapchanger.phrases.txt
@@ -271,17 +234,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 對抗模式中最後一關當雙方回合結束之時，自動切換到下一張地圖
 	* 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
 	* 清道夫模式中當比賽結束時，自動切換到下一張地圖
+	* 修改文件自行決定下一張地圖: [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
+		* 內有中文說明，可點擊查看
 	* 遊戲開始之後自動出現投票選單，玩家可以投票決定下一張地圖
-		* 戰役/對抗/寫實模式最後一關出安全室之後
+		* 戰役/對抗/寫實模式最後一關，出安全室之後
 		* 生存模式計時開始之後
 		* 清道夫模式計時開始之後
+		* 玩家可以輸入```!mapvote```投票決定下一張地圖
+	* 自動新增三方圖的關卡與地圖名，無須手動新增
 	* 三方圖沒有人時，自動換回官方圖
 	* 支援模糊詞搜尋投票地圖清單，譬如輸入```!mapvote 广```，只會出現有"广"名稱的地圖
 	<br/>![zho/sm_l4d_mapchanger_3](image/zho/sm_l4d_mapchanger_4.jpg)
-
-* 功能
-	* 自動新增三方圖的關卡與地圖名，無須手動新增
-	* 玩家可以輸入!mapvote投票決定下一張地圖
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -381,47 +344,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* **查看所有票數**
 		```php
 		sm_mapvotes
-		```
-</details>
-
-* <details><summary>文件設定</summary>
-
-	* 設定文件[data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)決定切換到哪一張地圖
-		```php
-		"ForceMissionChangerSettings"
-		{
-			"c1m2_streets"
-			{
-				"chapter_nextmap" "c5m3_cemetery" // <-- 戰役/對抗/寫實模式 過關後的下一關地圖 (也可以寫三方圖)
-				"chapter_nextname" "c5m3_cemetery" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
-			}
-
-			"c8m5_rooftop" // 當前地圖
-			{
-				"next mission map" "c9m2_lots"   // <-- 戰役/對抗/寫實模式 下一張地圖名 (也可以寫三方圖)
-				"next mission name" "L4D2C9"  	// <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示L4D2C9
-				
-				"survival_nextmap" "c1m2_streets"	// <-- 生存模式 下一張地圖名 (也可以寫三方圖)
-				"survival_nextname" "c1m2_streets" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c1m2_streets
-
-				"scavenge_nextmap" "c2m1_highway" // <-- 清道夫模式　下一關的地圖名 (也可以寫三方圖)
-				"scavenge_nextname" "c2m1_highway" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c2m1_highway
-			}
-
-			// 沒有寫地圖名的其他關卡，則
-			// 戰役/寫實模式 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.coop.txt的地圖順序
-			// 對抗模式 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.versus.txt的地圖順序
-			// 生存模式 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.survival.txt的地圖順序
-			// 清道夫模式 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫地圖則依照configs/missioncycle.scavenge.txt的地圖順序
-		} 
-		```
-
-	* 設定文件[configs/finale.coop.txt](configs/finale.coop.txt)決定哪些關卡為最終章節
-		```php
-		// 戰役/對抗/寫實模式下 這些關卡將視為最終章節，在這些章節可以投票與自動換圖
-		// 避免一堆垃圾三方圖明明是救援關卡卻不是最後的章節
-		l4d2_deathcraft_05_lighthouse
-		l4d2_minecraft_evolution
 		```
 </details>
 

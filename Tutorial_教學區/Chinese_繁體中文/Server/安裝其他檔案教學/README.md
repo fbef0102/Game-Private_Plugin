@@ -256,26 +256,27 @@
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
 	<br/>![image](image/6.jpg)
 
-	3. 到cfg/server.cfg寫上以下指令
-		* 沒有server.cfg檔案則新建
-			```php
-			// 這是100 Tick的設定，可以自由修改數值
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
-			```
-	
-	4. 輸入參數
+	3. 輸入參數，設置tickrate
 		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
 		<br/>![image](image/15.jpg)
 		* (區域房) 啟動選項輸入```-tickrate 100```
 		<br/>![image](image/16.jpg)
+
+	4. 到cfg/server.cfg寫上以下指令
+		* 沒有server.cfg檔案則新建
+		* 可以參考[我的L4D2設置tickrate 100的網路參數](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server_rates.cfg)
+			```php
+			// 這是100 Tick的設定，不能隨意修改數值
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
+			sm_cvar sv_maxupdaterate 		"100"		// tickrate
+			sm_cvar sv_mincmdrate 			"100"		// tickrate
+			sm_cvar sv_maxcmdrate 			"100"		// tickrate
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
@@ -302,27 +303,28 @@
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多一個 ```tickrate_enabler``` 資料夾
 	<br/>![image](image/19.jpg)
-
-	3. 到cfg/server.cfg寫上以下指令
-		* 沒有server.cfg檔案則新建
-			```php
-			// 這是100 Tick的設定，可以自由修改數值
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
-			```
 	
-	4. 輸入參數
+	3. 輸入參數，設置tickrate
 		* (專屬伺服器) 伺服器啟動選項輸入參數 ```-tickrate 100```
 		<br/>![image](image/20.jpg)
 		* (區域房) 啟動選項輸入```-tickrate 100```
 		<br/>![image](image/16.jpg)
+
+	4. 到cfg/server.cfg寫上以下指令
+		* 沒有server.cfg檔案則新建
+		* 可以參考[我的L4D1設置tickrate 100的網路參數](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D1/Windows%20Server%20Files/left4dead/cfg/server_rates.cfg)
+			```php
+			// 這是100 Tick的設定，不能隨意修改數值
+			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
+			sm_cvar sv_maxupdaterate 		"100"		// tickrate
+			sm_cvar sv_mincmdrate 			"100"		// tickrate
+			sm_cvar sv_maxcmdrate 			"100"		// tickrate
+			sm_cvar rate					"100000" 	// tickrate * 1000
+			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+			sm_cvar fps_max					"0"
+			```
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
 		```php
@@ -335,8 +337,9 @@
 </details>
 
 > __Warning__ 
-> * 高Tickrate很吃電腦的cpu，可以自行降低成60 tick、45 tick
-> * 調整tickate必須一起修改server.cfg與啟動選項
+> * 高Tickrate很吃電腦的cpu，可以自行降低成60、45
+> * 因為受到遊戲引擎限制，tickrate只能設置30~100
+> * 調整tickate必須一起修改server.cfg內網路參數與啟動選項
 
 * <details><summary>問題1: 為什麼windows系統下伺服器的Tickrate只能跑到64?</summary>
 
@@ -379,12 +382,13 @@
 	2. 到個人帳戶: My Account -> MY ACCOUNT -> GeoIP2/GeoLite2 -> Download Files
 	<br/>![image](image/25.jpg)
 
-	3. 搜尋 "GeoLite2 Country" 和 "GeoLite2 City" -> 下載資料庫
+	3. 搜尋 "GeoLite Country" 和 "GeoLite City" -> 下載資料庫
 	<br/>![GeoLite2_Country](image/GeoLite2_Country.jpg)
 	<br/>![GeoLite2_City](image/GeoLite2_City.jpg)
 
 	4. 放 GeoLite2-City.mmdb 與 GeoLite2-Country.mmdb 到路徑 ```addons/sourcemod/configs/geoip/``` 資料夾
-	<br/>![image](image/26.jpg)
+		* 如果檔案已存在，請直接覆蓋
+		<br/>![image](image/26.jpg)
 </details>
 
 - - - -
