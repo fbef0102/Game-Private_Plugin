@@ -91,10 +91,12 @@
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
 			// 1=bypass SteamID verification, 0=Off
-			// This feature can alleviate the No Steam logon (code 6) issue (only for players who enter while the feature is enabled).
-			// Enabling this feature will weaken server security, and Family Sharing functionality will be disabled.
-			// Note: Enabling this feature will cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
-			// Note: Enabling this feature will cause SteamWorks extension not working
+			// This feature can prevent "No Steam logon" issue (only for players who enter while the feature is enabled).
+			// Side effect:
+			// 1. Weaken server security, and Family Sharing functionality will be disabled.
+			// 2. Cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 3. Could not verify player's steam ID (Possibly unable to access permissions and be administrators)
+			// 4. Cause SteamWorks extension not working
 			sv_steam_bypass 1
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
@@ -114,10 +116,12 @@
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
 			// 1=bypass SteamID verification, 0=Off
-			// This feature can alleviate the No Steam logon (code 6) issue (only for players who enter while the feature is enabled).
-			// Enabling this feature will weaken server security, and Family Sharing functionality will be disabled.
-			// Note: Enabling this feature will cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
-			// Note: Enabling this feature will cause SteamWorks extension not working
+			// This feature can prevent "No Steam logon" issue (only for players who enter while the feature is enabled).
+			// Side effect:
+			// 1. Weaken server security, and Family Sharing functionality will be disabled.
+			// 2. Cause abnormal A2S_INFO results, which can be fixed with this plugin: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 3. Could not verify player's steam ID (Possibly unable to access permissions and be administrators)
+			// 4. Cause SteamWorks extension not working
 			sv_steam_bypass 1
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
@@ -151,8 +155,7 @@
 
 	6. Install plugin
 		* (Dedicated server) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): Removes lobby reservation when server is full, allow 9+ players to join server
-		* (Dedicated server) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): Patches A2S_INFO issue (Only when sv_steam_bypass is 1)
-		* [l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix): Patches Boomer Vomit behavior to fix an issue where vomit range scaled inversely with tickrate.
+		* (Dedicated server) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): Patches A2S_INFO issue (Only when ```sv_steam_bypass``` is 1)
 </details>
 
 * <details><summary>L4D1 Installation</summary>

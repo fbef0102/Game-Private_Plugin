@@ -35,6 +35,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// Players with these flags have access to use command to toggle wall hack watching cheat. (Empty = Everyone, -1: Nobody)
 		l4d2_wallhack_cheat_use_command_flag "z"
+
+		// Enable wall hack watching cheat for players by default? [1-Enable/0-Disable]
+		l4d2_wallhack_cheat_default_value "0"
 		```
 </details>
 
@@ -74,6 +77,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4 (2026-7-7)
+		* Update cvars
+
 	* v1.3 (2024-10-26)
 		* Fixed jockey glow disappear if survivor leaves the game during ridden
 
@@ -112,6 +118,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 擁有這些權限的玩家才可以輸入指令開啟WallHack (Empty = 任何人都能輸入, -1: 無人能輸入)
 		l4d2_wallhack_cheat_use_command_flag "z"
+
+		// 為1時，自動幫玩家開啟WallHack
+		l4d2_wallhack_cheat_default_value "0"
 		```
 </details>
 

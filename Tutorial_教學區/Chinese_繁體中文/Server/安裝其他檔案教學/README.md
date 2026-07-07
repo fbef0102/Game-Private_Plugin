@@ -90,10 +90,12 @@
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
 			// 1=不驗證SteamID, 0=驗證
-			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被離線的問題 (僅限開啟狀態下進入的玩家)
-			// 開啟本功能會削弱伺服器安全性,且禁止家庭共享功能將失效
-			// 注意: 開啟此功能會導致A2S_INFO結果異常,可以透過外掛程式修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
-			// 注意: 開啟此功能會導致SteamWorks extension部分功能失效
+			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被踢出伺服器的問題 (僅限開啟狀態下進入的玩家)
+			// 副作用:
+			// 1. 削弱伺服器安全性, 且禁止家庭共享功能將失效 (容易被駭客打)
+			// 2. A2S_INFO結果異常 (外面的人無法查看伺服器裡面的玩家資訊),可以透過這插件修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 3. 沒有steam驗證 (有機率無法使用權限與管理員)
+			// 4. 開啟此功能會導致SteamWorks extension部分功能失效
 			sv_steam_bypass 1
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
@@ -111,10 +113,12 @@
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
 			// 1=不驗證SteamID, 0=驗證
-			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被離線的問題 (僅限開啟狀態下進入的玩家)
-			// 開啟本功能會削弱伺服器安全性,且禁止家庭共享功能將失效
-			// 注意: 開啟此功能會導致A2S_INFO結果異常,可以透過外掛程式修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
-			// 注意: 開啟此功能會導致SteamWorks extension部分功能失效
+			// 本功能可以緩解"No Steam logon(code 6)" 玩家莫名其妙被踢出伺服器的問題 (僅限開啟狀態下進入的玩家)
+			// 副作用:
+			// 1. 削弱伺服器安全性, 且禁止家庭共享功能將失效 (容易被駭客打)
+			// 2. A2S_INFO結果異常 (外面的人無法查看伺服器裡面的玩家資訊),可以透過這插件修復: github.com/lakwsh/l4d2_vomit_fix/blob/master/l4d2_a2s_fix.sp
+			// 3. 沒有steam驗證 (有機率無法使用權限與管理員)
+			// 4. 開啟此功能會導致SteamWorks extension部分功能失效
 			sv_steam_bypass 1
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
@@ -148,7 +152,7 @@
 
 	6. 安裝插件
 		* (專屬伺服器) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
-		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用sv_steam_bypass功能時才需安裝)
+		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用```sv_steam_bypass```功能時才需安裝)
 </details>
 
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
