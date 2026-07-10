@@ -73,4 +73,41 @@
 		"zho"	"還不能離開安全區域, 請稍後!"
 		"chi"	"还不能离开安全区域, 请稍后!"
 	}
+	
+	"Door has been unlock (cmd)"
+	{
+		"en"		"Unable to lock saferoom door, it has been unlock"
+		"zho"		"指令失效! 安全門已被解鎖"
+		"chi"		"指令失效! 安全门已被解锁"
+	}
+	
+	"Door Locked by Admin (cmd)"
+	{
+		"#format"	"{1:N}"
+		"en"		"Saferoom Door Locked by Admin: {lightgreen}{1}"
+		"zho"		"安全門已被管理員鎖住: {lightgreen}{1}"
+		"chi"		"安全门已被管理员锁住: {lightgreen}{1}"
+	}
+	
+	"Door Unlocked by Admin (cmd)"
+	{
+		"#format"	"{1:N}"
+		"en"		"Saferoom Door Unlocked by Admin: {lightgreen}{1}"
+		"zho"		"安全門已被管理員解鎖: {lightgreen}{1}"
+		"chi"		"安全门已被管理员解锁: {lightgreen}{1}"
+	}	
+	
+	"Door Locked by Admin (C)"
+	{
+		"en"		"Saferoom Door locked by Admin, {green}admin must unlock"
+		"zho"		"安全門已被管理員鎖住中!, {green}必須由管理員解鎖"
+		"chi"		"安全门已被管理员锁住中!, {green}必须由管理员解锁"
+	}
+	
+	"Door Locked by Admin"
+	{
+		"en"		"Saferoom Door Unlocked by Admin"
+		"zho"		"安全門已被管理員鎖住中!, 必須由管理員解鎖"
+		"chi"		"安全门已被管理员锁住中!, 必须由管理员解锁"
+	}
 }

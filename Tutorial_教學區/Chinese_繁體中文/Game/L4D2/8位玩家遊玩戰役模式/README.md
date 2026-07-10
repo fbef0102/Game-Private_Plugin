@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2026/4/2 更新
+> 2026/7/9 更新
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -91,11 +91,6 @@
 
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): 修正第五位以上的玩家無法上救援載具，統計顯示其死亡，無法列入對抗分數
 
-* (L4D2 對抗模式) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): 提供以下三種功能
-    * 每一位玩家都算距離分數
-    * 雙方分數打平時，依照傷害量最多的隊伍多加分數
-    * 靈魂特感可以按E傳送到每位倖存者身上
-
 * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): 修復玩家爬梯時偶而會導致伺服器崩潰
 
 * (L4D2) [l4d2_fix_character_mixed](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): 修復在一些地圖中有使用一代NPC角色，如果玩家剛好也有使用一代角色，保護玩家不會被踢或是被跟著傳送
@@ -183,6 +178,13 @@
 ## 不建議安裝的檔案
 > __Note__ 副作用太多，弊大於利，不建議使用
 
+* (L4D2 對抗模式) <s>[Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774)</s> 
+    * 效果: 提供以下三種功能
+        * 每一位玩家都算距離分數
+        * 雙方分數打平時，依照傷害量最多的隊伍多加分數
+        * 靈魂特感可以按E傳送到每位倖存者身上
+    * 🟥已經壞掉
+
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875)</s>
     * 效果: 八位玩家能有更多的角色語音互動
     * 🟥崩潰: 會導致伺服器崩潰，等待作者修復
@@ -210,7 +212,7 @@
 * (L4D2) <s>[The Passing Character Fix with EntityLump](https://forums.alliedmods.net/showthread.php?t=348949)</s>
     * 效果: 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
     * 🟥副作用: 此插件會移除The Passing地圖上的一代倖存者NPC
-    * 可以使用**Fix Mixed Characters**，取代此插件
+    * 可以使用**l4d2_fix_character_mixed**，取代此插件
 
 * <s>[Survivor Character Fixes](https://forums.alliedmods.net/showthread.php?t=336328)</s>
     * 效果: 修復"m_survivorCharacter"角色屬性的內部問題，推薦與能改變角色的插件如CSM一起使用

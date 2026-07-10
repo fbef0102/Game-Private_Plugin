@@ -106,14 +106,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>How do I set up files</summary>
+* <details><summary>How to make player download custom models and sounds</summary>
 
 	1. Preparation
 		* Download all files(addons, models, and sound).
-		* Put them in your game server
-			* If L4D1, ```Left 4 Dead Dedicated Server/left4dead```
-			* If L4D2, ```Left 4 Dead 2 Dedicated Server/left4dead2```
 		* Prepare [your content-server for FastDL](https://developer.valvesoftware.com/wiki/FastDL), if you don't know what "FastDL" is, please google it
+		* Allow HTTP (Port 80 needed to be open), not HTTPS
 
 	2. Setup server to work with downloadable content
 		* Write down in your ```cfg/server.cfg```:
@@ -145,7 +143,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Connect to server. 
 		* Join survivor and type ```!dance```.
 
-	5. Players download custom mp3 files when connecting to your server (They need to set Options-> Multiplayer -> CUSTOM SERVER CONTENT -> Allow All)
+	5. Players download custom mp3 files when connecting to your server
+		* 🟥 They need to set "Options-> Multiplayer -> CUSTOM SERVER CONTENT -> Allow All"
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>
 
@@ -302,15 +301,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>如何安裝與設定檔案</summary>
+* <details><summary>如何使玩家自動下載跳舞檔案</summary>
 
 	1. 準備清單
 		* 下載所有文件（跳舞模組與音樂檔案）。
-		* 將它們放入遊戲伺服器資料夾中
-			* 如果你是 L4D1，```Left 4 Dead Dedicated Server/left4dead```
-			* 如果你是 L4D2，```Left 4 Dead 2 Dedicated Server/left4dead2```
 		* 準備[你的網空並可以支援FastDL](https://developer.valvesoftware.com/wiki/Zh/FastDL), 不知道什麼是FastDL請自行Google
-		
+		* 網空的網站允許HTTP協定 (Port 80 必須打開)，注意不是 HTTPS
+
 	2. 設置伺服器以處理可下載的內容
 		* 寫入以下內容到```cfg/server.cfg```
 			* 如果你是 L4D1
@@ -341,6 +338,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 連線到伺服器
 		* 加入倖存者並輸入```!dance```，測試跳舞是否有動作
 
-	5. 玩家加入伺服器時，會自動下載自製的音樂檔案 (玩家必須自己打開選項->多人連線->自訂伺服器內容->全部允許)
+	5. 玩家加入伺服器時，會自動下載自製的音樂檔案 
+		* 🟥 玩家必須自己打開"選項->多人連線->自訂伺服器內容->全部允許"
 		<br/>![fortnite_dances_emotes_l4d_t1](image/fortnite_dances_emotes_l4d_t1.jpg)
 </details>

@@ -1,5 +1,5 @@
 # Navigation
-> 2026/4/2 updated
+> 2026/7/9 updated
 - [Navigation](#navigation)
 - [Introduction](#introduction)
 - [Prepare](#prepare)
@@ -91,11 +91,6 @@
 
 * [l4d2_rescue_vehicle_multi](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_rescue_vehicle_multi): Try to fix extra 5+ survivors bug after finale rescue leaving, such as: die, fall down, not count as alive, versus score bug
 
-* (L4D2 Versus) [Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): Fixed score bug and provide the following features
-    * Each player earn score points
-    * When both teams complete chapter with the same score Tiebreak manager will be started
-    * Ghost infected can teleport to each survivor
-
 * (L4D2) [Ladder Server Crash - Patch Fix](https://forums.alliedmods.net/showthread.php?t=336298): Fixes a server crash from NavLadder::GetPosAtHeight.
     
 * (L4D2) [l4d2_fix_character_mixed](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_character_mixed): Prioritize character searching (Team 4 bots) to hopefully fix issues with 8+ survivors.
@@ -184,6 +179,13 @@
 ## Not Recommended Install
 > Too many side effects; the drawbacks outweigh the benefits. Use is not recommended.
 
+* (L4D2 Versus) <s>[Left4Fix](https://forums.alliedmods.net/showthread.php?t=219774): </s> 
+    * Function: Fixed score bug and provide the following features
+        * Each player earn score points
+        * When both teams complete chapter with the same score Tiebreak manager will be started
+        * Ghost infected can teleport to each survivor
+    * 🟥It's broken
+
 * <s>[Dialogue Criteria Fix](https://forums.alliedmods.net/showthread.php?t=335875)</s> 
     * Function: For servers that spawn all 8 survivors if you want them to interact more in campaigns instead of being almost always mute
     * 🟥Broken after 2023/05 update, please wait for author to fix🟥
@@ -209,7 +211,7 @@
 
 * (L4D2) [The Passing Character Fix with EntityLump](https://forums.alliedmods.net/showthread.php?t=348949): Fixes the bug where players with L4D1 survivors are teleported away or kicked on The Passing map.
     * 🟥Side effect: This plugin will remove l4d1 survivors npc on The Passing map
-    * Use **Fix Mixed Characters** to replace this plugin
+    * Use **l4d2_fix_character_mixed** to replace this plugin
 
 * <s>[Survivor Character Fixes](https://forums.alliedmods.net/showthread.php?t=336328)</s>
     * Function: Fix internal problems with the "m_survivorCharacter" network property

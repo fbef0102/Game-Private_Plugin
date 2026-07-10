@@ -78,7 +78,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				}
 				```
 
-		2. SQLite: SourceMod built-in Local Database
+		2. SQLite: SourceMod built-in Local Database, you don't have to install an additional database
 			* Set ConVar ```l4d_with_crowns_database_remake_sql "crowns"``` and write the following in ```sourcemod/configs/databases.cfg```
 				```php
 				// There would be a file created: sourcemod/data/sqlite/crowns.sq3

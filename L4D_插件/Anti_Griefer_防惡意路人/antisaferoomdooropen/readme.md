@@ -91,6 +91,19 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         ```
 </details>
 
+* <details><summary>Command | 命令</summary>
+	
+	* **Admin Locks the anti door, count down timer pause until Admin unlocks**
+		```php
+		sm_antidoor_lock
+		```
+
+	* **Admin Unlocks the anti door, count down timer ends**
+		```php
+		sm_antidoor_unlock
+		```
+</details>
+
 * Translation Support | 支援翻譯
 	```
     translations/antisaferoomdooropen.phrases.txt
@@ -105,6 +118,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v3.1 (2026-7-10)
+        * Add cmds for admin to lock and unlock saferoom door
 
     * v3.0 (2025-1-2)
         * Add data file to control enable/disable on specific maps
@@ -208,4 +224,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // (L4D2) 安全室的大門解除鎖住時的光圈顏色，填入RGB三色 (三個數值介於0~255，需要空格)
         antisaferoomdooropen_unlock_glow_color "0 255 0"
         ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+	
+	* **管理員鎖住安全門，倒數計時暫停**
+		```php
+		sm_antidoor_lock
+		```
+
+	* **管理員解鎖住安全門，倒數計時結束**
+		```php
+		sm_antidoor_unlock
+		```
 </details>
