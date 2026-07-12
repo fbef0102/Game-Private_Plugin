@@ -130,11 +130,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-
-	None
-</details>
-
 * <details><summary>Related Official ConVar</summary>
 
 	* write down the following cvars in cfg/server.cfg
@@ -172,10 +167,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	```php
-	//Mortiegama @ 2014-2017
-	//HarryPotter @ 2023
-	```
+	* v1.2h (2026-7-12)
+		* Use other way to spawn witch and bride witch since recent l4d2 update has restricted the maximum number of witch spawns
+
 	* v1.1h (2023-12-29)
 		* Improve code
 

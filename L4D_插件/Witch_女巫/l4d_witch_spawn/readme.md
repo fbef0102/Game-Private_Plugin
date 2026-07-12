@@ -23,6 +23,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+	2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -49,6 +50,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.1 (2026-7-12)
+		* Use other way to spawn witch and bride witch since recent l4d2 update has restricted the maximum number of witch spawns
+		* Require spawn_infected_nolimit by Harry
 
     * v1.0 (2023-12-05)
 		* Initial Release

@@ -36,6 +36,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.1 (2026-7-12)
+		* Use other way to spawn witch and bride witch since recent l4d2 update has restricted the maximum number of witch spawns
+
 	* v1.0 (2025-7-2)
 		* Initial Release
 </details>
