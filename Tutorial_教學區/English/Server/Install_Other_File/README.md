@@ -76,12 +76,12 @@
 			// Suggest to set the same number as sv_maxplayers
 			sv_visiblemaxplayers 18
 
-			// If 0, Allow to join server via matchmaking lobby, connect, or server list
-			// If 0, server has reserve match system when from lobby only
-			// If 0, Allow to change sv_cheats to 1 anytime
-			// If 1, Allow to join this server only when server is reserved
-			// If 1, server has reserve match system no matter how players join server 
+			// If 0, Server is lobby reserved and has match system when first player joins server (from lobby only)
+			// If 0, Allow to use sv_cheats 1 anytime
+			// If 1, Server is lobby reserved and has match system when first player joins server (no matter what method the first player uses to join)
 			// If 1, Not allow to change sv_cheats to 1
+			// Test server only => set 0
+			// Run 5+ slots server => set 1 and install l4d_unreservelobby: https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby
 			sv_allow_lobby_connect_only 1
 
 			// This cvar from l4dtoolz extension: github.com/lakwsh/l4dtoolz
@@ -145,7 +145,7 @@
 			```php
 			] plugin_print
 			Loaded plugins:
-			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			0:      "L4DToolZ v2.5.1, https://github.com/lakwsh/l4dtoolz"
 			```
 		* Type ```maxplayers``` in server console. If "maxplayers" number is not 31, that means not install correctly or l4dtoolz version is old
 			```php
@@ -292,7 +292,7 @@
 			```php
 			] plugin_print
 			Loaded plugins:
-			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			0:      "L4DToolZ v2.5.1, https://github.com/lakwsh/l4dtoolz"
 			```
 
 	6. Join server, open game console and type ```net_graph 4```, you will see the network usage graph on your screen, make sure tickrate is 100

@@ -22,7 +22,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Display HUD Text on player's screen
 	* Adjust each hud in file [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg),
-		* Custom text
+		* Manual in this file, click for more details...
+		* Custom text or set default HUD Text (The predefined default text in the source code)
 		* Position
 		* Animated movement 
 		* Background, blink from white to red
@@ -32,6 +33,21 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* <details><summary>Default HUD Text</summary>
+
+	* The predefined default text in the source code
+	* See "Display List ID" on the top of this file: [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg)
+		```php
+		// 1=CI kill Top Rank
+		// 2=SI kill Top Rank
+		// 3=Damage to tank Top Rank
+		// 4=Damage to witch Top Rank
+		// 5=System data + time + server slots
+		// 6=Tank health
+		// 7=Player has escaped list in end of campaign
+		```
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -51,40 +67,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-  
-	* [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg)
-		> Manual in this file, click for more details...
-</details>
-
-* <details><summary>Default HUD Text</summary>
-
-	* HUD 1: 
-		1. CI kill Top Rank
-	* HUD 2: 
-		1. SI kill Top Rank
-	* HUD 3: 
-		1. Damage to tank Top Rank
-	* HUD 4: 
-		1. Damage to witch Top Rank
-		2. System data + time + server slots
-		3. Tank health
-	* HUD 5: 
-		1. Player has escaped list in end of campaign
-</details>
-
 * <details><summary>FAQ</summary>
 
-	* How to switch HUD Text?
+	* How to modify HUD Text?
+		* Modify ```Texts``` key-value in data file
 		* Modify ```Display``` key-value in data file
 
 	* How to switch HUD position?
 		* Modify ```x_pos``` key-value in data file
 		* Modify ```y_pos``` key-value in data file
 		<br/>![l4d2_scripted_hud_remake_0](image/l4d2_scripted_hud_remake_0.jpg)
-
-	* How to write message in HUD text as I want?
-		1. Modify ```Texts``` key-value in data file
 
 	* Why hud disappear or being cut?	
 		* The limit of each HUD text is up to 127 characters.
@@ -93,7 +85,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* 1.2h-v1 (2024-11-16)
+	* v1.3h-v1 (2026-7-13)
+		* Any HUDs can display any default text in data file
+
+	* v1.2h-v1 (2024-11-16)
 		* l4d2_scripted_hud_remake "v1.2h (2024-11-16)" variant 1
 		* Change hud 1~5 display text
 
@@ -110,7 +105,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 功能
 	* 在玩家的畫面上顯示Hud文字
 	* 修改文件 [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg), 自行調整
-		* 顯示的文字內容
+		* 內有中文說明，可 點擊查看
+		* 顯示的文字內容或是插件內已準備好的預設文字，查看文件最上方"顯示列表ID"
 		* 顯示位置
 		* 文字移動的動畫效果
 		* 黑色背景框, 文字閃紅色的特效
@@ -118,18 +114,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>預設的 HUD 文字 (點我展開)</summary>
 
-	* HUD 1:
-		1. 普通感染者統計排行榜前三名
-	* HUD 2: 
-		1. 擊殺統計排行榜前三名
-	* HUD 3: 
-		1. 打Tank的傷害統計排行榜前三名
-	* HUD 4: 
-		1. 打Witch的傷害統計排行榜前三名
-		2. 伺服器的日期與時間 + 伺服器人數
-		3. 每個Tank的血量狀態
-	* HUD 5:
-		1. 已逃脫成功的倖存者列表 (最後一關上救援載具後才顯示)
+	* 插件內已準備好的預設文字
+	* 查看文件最上方"顯示列表ID": [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg)
+		```php
+		// 1=普通感染者統計排行榜前三名
+		// 2=擊殺統計排行榜前三名
+		// 3=打Tank的傷害統計排行榜前三名
+		// 4=打Witch的傷害統計排行榜前三名
+		// 5=伺服器的日期與時間 + 伺服器人數
+		// 6=每個Tank的血量狀態
+		// 7=已逃脫成功的倖存者列表 (最後一關上救援載具後才顯示)
+		```
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -149,24 +144,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>文件設定範例</summary>
-  
-	* [data/l4d2_scripted_hud_remake_1.cfg](data/l4d2_scripted_hud_remake_1.cfg)
-		> 內有中文說明，可點擊查看
-</details>
-
 * <details><summary>問題區</summary>
 
 	* 如何更換預設的 HUD 文字?
+		* 在data文件裡請修改 ```Texts``
 		* 在data文件裡請修改 ```Display``
 
 	* 如何改變 HUD 位置?
 		* 在data文件裡修改 ```x_pos```
 		* 在data文件裡修改 ```y_pos``` 
 		<br/>![l4d2_scripted_hud_remake_0](image/l4d2_scripted_hud_remake_0.jpg)
-
-	* 如何修改在 HUD 加入自己寫的文字?
-		* 在data文件裡修改 ```Texts```
 
 	* 為何 HUD 會移位或被切掉?	
 		* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了

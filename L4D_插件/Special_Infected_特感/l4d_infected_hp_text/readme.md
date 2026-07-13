@@ -19,7 +19,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Shows the health bar of infected on attacker's screen when injured.
-	* Only the attacker can see.
+	* Real-time Health Bars
+		* All players who attacked S.I./Witch will see the updated health in real-time
+		* You can disble this in cvar
 </details>
 
 * Require | 必要安裝
@@ -45,6 +47,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// How health bar text displays
 		// 0: In Hint Box, 1: In center text
 		l4d_infected_hp_text_type "1"
+
+		// 1=All players who attacked S.I./Witch will see the updated health bar in real-time
+		// 0=Only last attacker can see the health bar
+		l4d_infected_hp_text_realtime "1"
 
 		// If 1, Display health value on health bar
 		l4d_infected_hp_text_number "1"
@@ -88,6 +94,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.2h (2026-7-13)
+		* All players who attacked S.I./Witch will see the updated health in real-time
+
 	* v1.1h (2024-2-21)
 		* Fixed wrong witch health if infected gain some health
 		* Optimize code and improve performance
@@ -111,8 +120,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 向攻擊者顯示特感血條
 
 * 原理
-	* 射傷特感/Tank/Witch時，在攻擊者的螢幕上顯示剩餘血量
-	* 只有攻擊者看得到
+	* 射傷特感/Tank/Witch時，在攻擊者的螢幕上顯示血條 (剩餘血量)
+	* 在這個插件中，會記錄所有攻擊過特感/Tank/Witch的玩家
+		* 當該感染者受到傷害時，所有攻擊過的玩家都會即時看到更新後的生命值血條
+		* 你可以在指令中關閉這項功能
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -134,6 +145,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 血條如何顯示
 		// 0: 黑底白字框 (不推薦), 1: 螢幕正中間
 		l4d_infected_hp_text_type "1"
+
+		// 1=所有攻擊過特感/Tank/Witch的玩家都會即時看到生命值血條
+		// 0=只有最後一個攻擊者能看到生命值血條
+		l4d_infected_hp_text_realtime "1"
 
 		// 為1時，血條顯示剩餘的血量數字
 		l4d_infected_hp_text_number "1"

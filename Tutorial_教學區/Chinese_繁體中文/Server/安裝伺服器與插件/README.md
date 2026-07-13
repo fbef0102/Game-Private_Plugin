@@ -203,6 +203,8 @@
          - 🟥UDP Port 別亂改數值，安全的範圍最好是27016 ~ 27035之間
       - ```+log on``` 打開伺服器紀錄儀
       - ```exec server``` 伺服器啟動先執行cfg/server.cfg文件
+         - 🟥 沒有此文件請自行創立, 內容依照不同遊戲的需求自行修改
+         - 我的[server.cfg範例](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Linux%20Server%20Files/left4dead2/cfg/server.cfg)
       - ```+sv_lan 0``` 改成網際網路
       - ```-maxplayers 31``` 最多客戶端人數上限
       - 可自行添加其他參數(啟動選項)，譬如
@@ -445,15 +447,20 @@
          - 前半部 **192.168.50.106:27016** 是**虛擬IP (內網IP)**
          - 後半部 被塗白的部分 是**公網IP (外網IP)**
 
-   2. 啟動遊戲－＞創建遊戲大廳－＞伺服器類型選擇 **"最佳可用專屬"**－＞打開控制台－＞輸入```mm_dedicated_force_servers x.x.x.x:yyyyy```
+   2. cfg/server.cfg 需要寫上 (文件如果不存在，必須自行創立)
+      ```php
+      sv_allow_lobby_connect_only 1
+      ```
+
+   3. 啟動遊戲－＞創建遊戲大廳－＞伺服器類型選擇 **"最佳可用專屬"**－＞打開控制台－＞輸入```mm_dedicated_force_servers x.x.x.x:yyyyy```
       <br/>![image](image/33.jpg)
       - ```x.x.x.x:yyyyy``` 為伺服器的公網IP
       - 不能輸入虛擬IP，否則只有你能進去
       - 可以輸入其他人的專屬伺服器公網IP
       
-   3. 邀請朋友或等路人進來或者你自己一個人－＞開始遊戲
+   4. 邀請朋友或等路人進來或者你自己一個人－＞開始遊戲
 
-   4. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器
+   5. 連線進去之後遊戲控制台輸入```status```用以確認進到相同的伺服器
       <br/>![image](image/23.jpg)
       - [為什麼無法進伺服器](/Questions_問題區/Chinese_繁體中文/伺服器/README.md#為什麼進不去伺服器)
 

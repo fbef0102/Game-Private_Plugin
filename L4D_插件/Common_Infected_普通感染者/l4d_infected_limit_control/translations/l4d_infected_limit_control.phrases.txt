@@ -50,9 +50,9 @@
 	"z_mob_spawn_x_interval_x"
 	{
 		"#format"	"{1:.0f},{2:.0f}"
-		"en"	"{olive}z_mob_spawn_interval min~max = {lightgreen}{1}~{2}"
-		"zho"	"{olive}自然屍潮 生成間隔 = {lightgreen}{1}~{2}"
-		"chi"	"{olive}自然尸潮 生成间隔 = {lightgreen}{1}~{2}"
+		"en"	"{olive}z_mob_spawn_interval min~max = {lightgreen}{1}~{2}s"
+		"zho"	"{olive}自然屍潮 生成間隔 = {lightgreen}{1}~{2}秒"
+		"chi"	"{olive}自然尸潮 生成间隔 = {lightgreen}{1}~{2}秒"
 	}
 	
 	"z_mob_spawn_x_interval_default"

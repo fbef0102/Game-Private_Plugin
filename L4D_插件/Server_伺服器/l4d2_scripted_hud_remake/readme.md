@@ -24,7 +24,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Display HUD Text on player's screen
 	* Adjust each hud in file [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg),
-		* Custom text
+		* Manual in this file, click for more details...
+		* Custom text or set default HUD Text (The predefined default text in the source code)
 		* Position
 		* Animated movement 
 		* Background, blink from white to red
@@ -34,6 +35,25 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* <details><summary>Default HUD Text</summary>
+
+	* The predefined default text in the source code
+	* See "Display List ID" on the top of this file: [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg)
+		```php
+		// 1=System Time + Map Played Time + Survivor Count + Infected Count
+		// 2=System Time + Survivor Count + Infected Count
+		// 3=System Time + Survivor Count
+		// 4=System Time
+		// 5=Tank Health
+		// 6=Server HostName + Server Slots
+		// 7=S.I. kills rank
+		// 8=C.I.+S.I.+Tank+Witch kills rank
+		// 9=Survivor Mic Speaking
+		// 10=Survivor health
+		// 11=Infected Mic Speaking
+		```
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -53,44 +73,16 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Data Config</summary>
-  
-	* [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg)
-		> Manual in this file, click for more details...
-</details>
-
-* <details><summary>Default HUD Text</summary>
-
-	* HUD 1:
-		1. System Time + Map Played Time + Survivor Count + Infected Count
-		2. System Time + Survivor Count + Infected Count
-        3. System Time + Survivor Count
-        4. System Time
-	* HUD 2:
-		1. Tank Health
-		2. Server HostName + Server Slots
-	* HUD 3: 
-		1. S.I. kills rank
-		2. C.I.+S.I.+Tank+Witch kills rank
-	* HUD 4:
-		1. Survivor Mic Speaking
-		2. Survivor health
-	* HUD 5: 
-		1. Infected Mic Speaking
-</details>
-
 * <details><summary>FAQ</summary>
 
-	* How to switch HUD Text?
+	* How to modify HUD Text?
+		* Modify ```Texts``` key-value in data file
 		* Modify ```Display``` key-value in data file
 
 	* How to switch HUD position?
 		* Modify ```x_pos``` key-value in data file
 		* Modify ```y_pos``` key-value in data file
 		<br/>![l4d2_scripted_hud_remake_0](image/l4d2_scripted_hud_remake_0.jpg)
-
-	* How to write message in HUD text as I want?
-		1. Modify ```Texts``` key-value in data file
 
 	* Why hud disappear or being cut?	
 		* The limit of each HUD text is up to 127 characters.
@@ -112,6 +104,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2026-7-13)
+		* Any HUDs can display any default text in data file
 
 	* v1.2h (2024-11-16)
 		* Remake plugin, support 15 huds
@@ -148,7 +143,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 功能
 	* 在玩家的畫面上顯示Hud文字
 	* 修改文件 [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg), 自行調整
-		* 顯示的文字內容
+		* 內有中文說明，可 點擊查看
+		* 顯示的文字內容或是插件內已準備好的預設文字，查看文件最上方"顯示列表ID"
 		* 顯示位置
 		* 文字移動的動畫效果
 		* 黑色背景框, 文字閃紅色的特效
@@ -156,22 +152,21 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>預設的 HUD 文字 (點我展開)</summary>
 
-	* HUD 1:
-		1. 系統時間 + 地圖已遊玩時間 + 倖存者數量 + 特感數量
-		2. 系統時間 + 倖存者數量 + 特感數量
-        3. 系統時間 + 倖存者數量
-        4. 系統時間
-	* HUD 2:
-		1. Tank 血量
-		2. 房名 + 伺服器人數
-	* HUD 3: 
-		1. 特感擊殺數 統計排行榜
-		2. 普通感染者+特感+Tank+Witch擊殺數 統計排行榜
-	* HUD 4:
-		1. 倖存者玩家語音列表
-		2. 倖存者血量狀態
-	* HUD 5: 
-		1. 特感玩家語音列表
+	* 插件內已準備好的預設文字
+	* 查看文件最上方"顯示列表ID": [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg)
+		```php
+		// 1=系統時間 + 地圖已遊玩時間 + 倖存者數量 + 特感數量
+		// 2=系統時間 + 倖存者數量 + 特感數量
+		// 3=系統時間 + 倖存者數量
+		// 4=系統時間
+		// 5=Tank 血量
+		// 6=房名 + 伺服器人數
+		// 7=特感擊殺數 統計排行榜
+		// 8=普通感染者+特感+Tank+Witch擊殺數 統計排行榜
+		// 9=倖存者玩家語音列表
+		// 10=倖存者血量狀態
+		// 11=特感玩家語音列表
+		```
 </details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
@@ -191,25 +186,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>文件設定範例</summary>
-  
-	* [data/l4d2_scripted_hud_remake.cfg](data/l4d2_scripted_hud_remake.cfg)
-		> 內有中文說明，可點擊查看
-</details>
-
 * <details><summary>問題區</summary>
 
-	* 如何更換預設的 HUD 文字?
+	* 如何修改或更換 HUD 文字?
+		* 在data文件裡請修改 ```Texts``
 		* 在data文件裡請修改 ```Display``
 
 	* 如何改變 HUD 位置?
 		* 在data文件裡修改 ```x_pos```
 		* 在data文件裡修改 ```y_pos``` 
 		<br/>![l4d2_scripted_hud_remake_0](image/l4d2_scripted_hud_remake_0.jpg)
-
-	* 如何修改在 HUD 加入自己寫的文字?
-		* 在data文件裡修改 ```Texts```
-
+		
 	* 為何 HUD 會移位或被切掉?	
 		* 每個Hud文字上限為127，遊戲限制不能增加，認真你就輸了
 		* 根據玩家自己的遊戲分辨率，看到的Hud位置會有不同，請斟酌修改位置

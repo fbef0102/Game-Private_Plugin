@@ -75,17 +75,17 @@
 			// 顯示給外面玩家看到的伺服器空位人數
 			sv_visiblemaxplayers 18
 
-			// 為0時，可以從遊戲大廳或透過控制台與伺服器列表直連IP加入伺服器
-			// 為0時，從大廳匹配時才會有動態大廳(吸引路人)
+			// 為0時，第一位玩家從大廳匹配時，才會有大廳reserved cookie與動態匹配機制 (吸引路人)
 			// 為0時，可以使用 _cheats 1
-			// 為1時，當有動態大廳時，只能從遊戲大廳加入伺服器
-			// 為1時，無論第一位玩家用何種方式加入伺服器都會有動態大廳(吸引路人)
+			// 為1時，無論第一位玩家用何種方式加入伺服器，都會有大廳reserved cookie與動態匹配機制 (吸引路人)
 			// 為1時，不能使用 _cheats 1
+			// 只用於測試的伺服器 => 設置 0
+			// 開5+以上的多人伺服器 => 設置 1 且需安裝l4d_unreservelobby: https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby
 			sv_allow_lobby_connect_only 1
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
 			// 為1時，強制 _allow_lobby_connect_only為0
-			// 為1時，不會處理大廳匹配請求(也不會有lobby reservation cookie)
+			// 為1時，不會處理大廳匹配請求(也不會有大廳reserved cookie)
 			sv_force_unreserved 0
 
 			// 此指令來自 l4dtoolz extension: https://github.com/lakwsh/l4dtoolz
@@ -142,7 +142,7 @@
 			```php
 			] plugin_print
 			Loaded plugins:
-			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			0:      "L4DToolZ v2.5.1, https://github.com/lakwsh/l4dtoolz"
 			```
 		* 控制台輸入```maxplayers```確認數字為31，如果不是31表示你前面步驟有誤或l4dtoolz版本不對
 			```php
@@ -152,7 +152,7 @@
 
 	6. 安裝插件
 		* (專屬伺服器) [l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby): 移除伺服器的大廳人數限制，簡單講就是解鎖伺服器，讓第九位以上的玩家可以加入伺服器
-		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用```sv_steam_bypass```功能時才需安裝)
+		* (專屬伺服器) [l4d2_a2s_fix](https://github.com/lakwsh/l4d2_vomit_fix): 修復A2S_INFO協議問題 (使用```sv_steam_bypass 1```功能時才需安裝)
 </details>
 
 * <details><summary>L4D1 安裝步驟 (點我展開)</summary>
@@ -186,7 +186,7 @@
 
 			// 此指令來自 l4dtoolz extension
 			// 為1時，強制 _allow_lobby_connect_only為0
-			// 為1時，不會處理大廳匹配請求(也不會有lobby reservation cookie)
+			// 為1時，不會處理大廳匹配請求(也不會有動態大廳，無法吸引路人)
 			sv_force_unreserved 0
 			```
 		* (區域房) 到```cfg/listenserver.cfg``` (🟥如果檔案不存在，可自己創建🟥)
@@ -254,7 +254,7 @@
 * <details><summary>L4D2 安裝步驟 (點我展開)</summary>
 
 	1. 到[l4dtoolz](https://github.com/lakwsh/l4dtoolz/releases)，下載檔案
-		* 你沒看錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
+		* 你沒看錯我也沒放錯，這版本的l4dtoolz包含解鎖伺服器人數上限與Tickrate的功能
 		<br/>![image](image/5.jpg)
 
 	2. 解壓縮並移動檔案到伺服器相同的路徑上!最後addons資料夾內看起來如圖片所示，多 ```l4dtoolz``` 為名的檔案
@@ -287,7 +287,7 @@
 			```php
 			] plugin_print
 			Loaded plugins:
-			0:      "L4DToolZ v2.4.0, https://github.com/lakwsh/l4dtoolz"
+			0:      "L4DToolZ v2.5.1, https://github.com/lakwsh/l4dtoolz"
 			```
 
 	6. 進入遊戲後，打開遊戲控制台輸入```net_graph 4```，會看到有一堆網路數據出現在你的螢幕上，確認Tickrate 為 100
