@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Reduce damge taken from Survivors
 		* Change running animation
 	* Also affect special uncommon infected
+		* Deos not affect health: Falle survivor、Jimmy Gibbs Junior
 	* Add more common infected type in file: [data/l4d2_common_infected_control.cfg](data/l4d2_common_infected_control.cfg)
 		* Manual in this file, click for more details...
 </details>
@@ -95,6 +96,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 受到倖存者減傷的減傷比
 		* 奔跑的動畫姿勢
 	* 也會影響特殊一般感染者
+		* 墮落倖存者、吉米賽車手的血量不受影響
 	* 自行新增更多感染者類型，詳見文件: [data/l4d2_common_infected_control.cfg](data/l4d2_common_infected_control.cfg)
 		* 內有中文說明，可點擊查看
 

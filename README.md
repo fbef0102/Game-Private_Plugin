@@ -722,8 +722,8 @@
     * Tank燃燒時，速度與力量會提升
   * [l4d_tank_ghost_spawn](/L4D_插件/Tank_坦克/l4d_tank_ghost_spawn): When player gets the tank, he will become ghost tank and freely choose anywhere to spawn
     * 操控Tank的玩家可以變成靈魂，自由尋找位置復活
-  * [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
-    * 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+  * [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks in different percentage on the map and final rescue
+    * 一個關卡中每隔一段路程生成多隻Tank或救援期間生成多隻Tank，對抗模式也適用
   * [l4d_tank_timer_spawn](/L4D_插件/Tank_坦克/l4d_tank_timer_spawn): Spawn Tanks every amount of time passed after survivors leave the saferoom
     * 地圖每過一段時間自動生成Tank，對抗模式也適用
   * [l4d_tank_roar](/L4D_插件/Tank_坦克/l4d_tank_roar): Tank is given a special roar ability that knockbacks (Towards/Away) survivors by RELOAD button.
@@ -818,7 +818,9 @@
     * Witch永遠不會改變目標，不管多少人阻擋Witch的路、燒Witch、丟膽汁瓶
   * [witch_glow](/L4D_插件/Witch_女巫/witch_glow): Sets glows on witches everyone can see
     * 在Witch身上打上光圈，所有人都可以看見Witch在哪裡
-  * [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+  * [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches in different percentage on the map
+    * 一個關卡中每隔一段路程生成多隻Witch
+  * [l4d_witch_timer_spawn](/L4D_插件/Witch_女巫/l4d_witch_timer_spawn): Spawn Witches every amount of time passed after survivors leave the saferoom
     * 遊戲開始後每隔一段時間在地圖上生成Witch
   * [l4d_witch_target_forever](/L4D_插件/Witch_女巫/l4d_witch_target_forever): If the witch incap/kill players that aren't her initial target, then make the witch proceed to chase her initial target.
     * Witch因為被擋路或改變目標抓傷任何玩家之後，強制繼續追擊原始目標

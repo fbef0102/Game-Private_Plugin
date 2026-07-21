@@ -119,13 +119,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 場上的Tank數量上限 (已達數量時不會繼續生成tank)
 		l4d_tank_timer_spawn_limit "2"
 
-		// 為1時，救援開始後不生成tank
-		l4d_tank_timer_spawn_final_disable "1"
-
 		// 何時開始生成Tank, 1=倖存者離開安全區後+救援開始之前, 2=救援開始之後, 3=倖存者離開安全區後+救援開始之後
 		l4d_tank_timer_spawn_when "3"
 
-		// 為1時，聊天框顯示Tank數量提示
+		// 為1時，聊天框顯示Tank數量與時間提示
 		l4d_tank_timer_spawn_notify "1"
 		```
 </details>

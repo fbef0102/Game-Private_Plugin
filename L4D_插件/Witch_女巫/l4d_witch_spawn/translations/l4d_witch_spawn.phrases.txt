@@ -1,0 +1,28 @@
+"Phrases"
+{
+	"Next Witch Spawn"
+	{
+		"#format" "{1:d},{2:d}"
+		"en"	"[{olive}TS{default}] Next Witch Spawn: {green}{1}%%{default} - Amount: {green}{2}"
+		"zho"	"[{olive}TS{default}] 下次Witch生成: {green}{1}%%{default} - 數量: {green}{2}"
+		"chi"	"[{olive}TS{default}] 下次女巫生成: {green}{1}%%{default} - 数量: {green}{2}"
+	}
+	"No Witch Spawn"
+	{
+		"en"	"[{olive}TS{default}] Next Witch Spawn: {green}None"
+		"zho"	"[{olive}TS{default}] 下次Witch生成: {green}None"
+		"chi"	"[{olive}TS{default}] 下次女巫生成: {green}None"
+	}
+	"Please Wait"
+	{
+		"en"	"[{olive}TS{default}] Next Witch Spawn: {green}Please Wait Until survivors leave saferoom"
+		"zho"	"[{olive}TS{default}] 下次Witch生成: {green}請等待遊戲開始"
+		"chi"	"[{olive}TS{default}] 下次女巫生成: {green}请等待游戏开始"
+	}	
+	"Final rescue stage started"
+	{
+		"en"	"[{olive}TS{default}] Final rescue stage started, stop spawning witches"
+		"zho"	"[{olive}TS{default}] 最終救援已開始，插件已停止生成Witch"
+		"chi"	"[{olive}TS{default}] 最终救援已开始，插件已停止生成Witch"
+	}
+}

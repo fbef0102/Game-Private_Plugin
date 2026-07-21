@@ -63,10 +63,10 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir ./L4D2_Server/```
          - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login xxxxx yyyyy```
+      - ```login "xxxxx" "yyyyy"```
          - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
          - yyyyy 是你的steam帳戶的密碼
-         - 🟥 請記得空格
+         - 🟥 請記得空格與符號"
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
          - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
@@ -98,10 +98,10 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir ./L4D2_Server/```
          - L4D2_Server是創建資料夾名稱，可自取，不要有中文，伺服器所有檔案將會安裝在這裡
-      - ```login xxxxx yyyyy```
+      - ```login "xxxxx" "yyyyy"```
          - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
          - yyyyy 是你的steam帳戶的密碼
-         - 🟥 請記得空格
+         - 🟥 請記得空格與符號"
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
          - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
@@ -848,10 +848,10 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds.exe所在的資料夾 (請輸入完整路徑)
-      - ```login xxxxx yyyyy```
+      - ```login "xxxxx" "yyyyy"```
          - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
          - yyyyy 是你的steam帳戶的密碼
-         - 🟥 請記得空格
+         - 🟥 請記得空格與符號"
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
          - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```
@@ -882,10 +882,10 @@
       <br/>![image](image/3.jpg)
       - ```force_install_dir "My_Server_Path"```
          - My_Server_Path是你的伺服器檔案主目錄的路徑，也就是srcds_run所在的資料夾 (請輸入完整路徑)
-      - ```login xxxxx yyyyy```
+      - ```login "xxxxx" "yyyyy"```
          - xxxxx 是你的steam帳戶的帳號 (不是顯示名稱也不是steam id)
          - yyyyy 是你的steam帳戶的密碼
-         - 🟥 請記得空格
+         - 🟥 請記得空格與符號"
          - 🟥 現在steam政策已改，無法匿名登入安裝伺服器
          - 第一次登入需要二次驗證，輸入Steam Guard Mobile驗證碼
       - ```app_update XXXXXX validate```

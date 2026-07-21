@@ -133,7 +133,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		> 反傷插件，但是有更多的RPG功能
 
 	2. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common including melee in l4d2
-		> 修改槍械傷害比和近戰武器傷害比的插件
+		> 修改槍械傷害倍率的插件
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

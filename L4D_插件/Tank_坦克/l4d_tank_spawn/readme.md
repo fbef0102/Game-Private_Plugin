@@ -1,5 +1,5 @@
 # Description | 內容
-Spawn multi Tanks on the map and final rescue
+Spawn multi Tanks in different percentage on the map and final rescue
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
@@ -134,7 +134,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 - - - -
 # 中文說明
-一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+一個關卡中每隔一段路程生成多隻Tank或救援期間生成多隻Tank，對抗模式也適用
 
 * 圖示
 	<br/>![zho/l4d_tank_spawn_1](image/zho/l4d_tank_spawn_1.jpg)
