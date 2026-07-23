@@ -23,6 +23,12 @@
 	{
 		"en"	"[{olive}TS{default}] Final rescue stage started, stop spawning witches"
 		"zho"	"[{olive}TS{default}] 最終救援已開始，插件已停止生成Witch"
-		"chi"	"[{olive}TS{default}] 最终救援已开始，插件已停止生成Witch"
+		"chi"	"[{olive}TS{default}] 最终救援已开始，插件已停止生成女巫"
+	}
+	"Witch nest has spawned"
+	{
+		"en"	"[{olive}TS{default}] Witch nest has spawned"
+		"zho"	"[{olive}TS{default}] 已生成一群Witch"
+		"chi"	"[{olive}TS{default}] 已生成一群女巫"
 	}
 }

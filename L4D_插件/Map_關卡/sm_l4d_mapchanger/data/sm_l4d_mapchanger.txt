@@ -1,122 +1,258 @@
 "ForceMissionChangerSettings"
 {
-	// If map name not in this file
-	// In Coop/Realism, Next map would be: sm_l4d_fmc_def_coop "xxxxx"，if convar value empty, then map order in configs/missioncycle.coop.txt
-	// In Versus, Next map would be: sm_l4d_fmc_def_versus "xxxxx"，if convar value empty, then map order in configs/missioncycle.versus.txt
-	// In Survival, Next map would be: sm_l4d_fmc_def_survival "xxxxx"，if convar value empty, then map order in configs/missioncycle.survival.txt
-	// In Scavenge, Next map would be: sm_l4d_fmc_def_scavenge "xxxxx"，if convar value empty, then map order in configs/missioncycle.scavenge.txt
-	//
+	// If cvar not set in "xxx" (map name) selection, the plugin will use "default" (Global) selection
+	// Global settings for all maps
+	//--
+	// 如果參數沒有在 "xxx" (地圖名稱) 區段內設置, 則會使用 "default" 區段內預設的參數
+	// 所有地圖預設配置
+	"default"
+	{
+		// If map name not written in this file,
+		// In Coop/Realism, Next map would be: "default" -> "coop_final_nextmap". If empty, then map order in configs/missioncycle.coop.txt
+		// In Versus, Next map would be: "default" -> "versus_final_nextmap". If empty, then map order in configs/missioncycle.versus.txt
+		// In Survival, Next map would be: "default" -> "survival_nextmap". If empty, then map order in configs/missioncycle.survival.txt
+		// In Scavenge, Next map would be: "default" -> "scavenge_nextmap". If empty, then map order in configs/missioncycle.scavenge.txt
+		// ---
+		// 沒有在此文件寫地圖名的關卡
+		// (戰役/寫實模式) 下一張地圖是: "default" -> "coop_final_nextmap"，如果留空，下一張地圖依照configs/missioncycle.coop.txt的地圖順序
+		// (對抗模式) 下一張地圖是: "default" -> "versus_final_nextmap"，如果留空，下一張地圖則依照configs/missioncycle.versus.txt的地圖順序
+		// (生存模式) 下一張地圖是: "default" -> "survival_nextmap"，如果留空，下一張地圖則依照configs/missioncycle.survival.txt的地圖順序
+		// (清道夫模式) 下一張地圖是: default" -> "scavenge_nextmap"，如果留空，下一張地圖則依照configs/missioncycle.scavenge.txt的地圖順序
+		
+		"coop_final_nextmap" 		"c2m1_highway"
+		"coop_final_nextname" 		"L4D2C2"
+		
+		"versus_final_nextmap" 		""
+		"versus_final_nextname" 	""
+		
+		"survival_nextmap" 			"c5m5_bridge"
+		"survival_nextname" 		"c5m5_bridge"
+		
+		"scavenge_nextmap" 			"c14m1_junkyard"
+		"scavenge_nextname" 		"L4D2C14"
+	}
+
 	// "c1m2_streets" // <--- current map
 	// {
-	//	 "chapter_nextmap" "c5m3_cemetery" // <-- next chapter in coop/versus/realism
-	//	 "chapter_nextname" "c5m3_cemetery" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	//	 "coop_chapter_nextmap" 	"c5m3_cemetery" // <-- (coop/realism) Next chapter after survivors made it to the saferoom, you can write custom map
+	//	 "coop_chapter_nextname" 	"c5m3_cemetery" // <-- Translation phrase in maps_displayname.phrases.txt
+	//
+ 	// 	 "versus_chapter_nextmap" 	"c5m3_cemetery" // <-- (versus) Next chapter after second round, you can write custom map
+ 	// 	 "versus_chapter_nextname" 	"c5m3_cemetery" // <-- Translation phrase in maps_displayname.phrases.txt
 	// }
 	//
 	// "c8m5_rooftop" // <--- current map
 	// {
-	// 	 "next mission map" "c9m1_alleys"   // <-- next campaign in coop/versus/realism
-	// 	 "next mission name" "L4D2C9"  	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// 	 "coop_final_nextmap" "c9m1_alleys"   // <-- (coop/realism) Next campaign after finish final map, you can write custom map
+	// 	 "coop_final_nextname" "L4D2C9"  	// <-- Translation phrase in missions_name.phrases.txt
+	//
+ 	// 	 "versus_final_nextmap" "c9m2_lots"   // <-- (versus) Next campaign after finish final map second round, you can write custom map
+ 	// 	 "versus_final_nextname" "L4D2C9"  	// <-- Translation phrase in missions_name.phrases.txt
 	// 	
-	// 	 "survival_nextmap" "c1m2_streets"	// <-- next map in survival mode
-	// 	 "survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// 	 "survival_nextmap" "c1m2_streets"	// <-- (survival) Next map after quantity of survival rounds (tries), you can write custom map
+	// 	 "survival_nextname" "c1m2_streets" 	// <-- Translation phrase in maps_displayname.phrases.txt
 	// 
-	// 	 "scavenge_nextmap" "c2m1_highway" // <-- next map in scavenge mode
-	// 	 "scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps.phrases.txt or missions.phrases.txt
+	// 	 "scavenge_nextmap" "c2m1_highway" // <-- (scavenge) Next map after finish all rounds, you can write custom map
+	// 	 "scavenge_nextname" "c2m1_highway" // <-- Translation phrase in maps_displayname.phrases.txt
 	// }
 	// -----------
 	// 中文說明
- 	// 沒有在此文件寫地圖名的其他關卡
- 	// (戰役/寫實模式) 下一張地圖是: sm_l4d_fmc_def_coop 所寫的地圖，如指令沒有寫，下一張地圖依照configs/missioncycle.coop.txt的地圖順序
- 	// (對抗模式) 下一張地圖是: sm_l4d_fmc_def_versus 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.versus.txt的地圖順序
- 	// (生存模式) 下一張地圖是: sm_l4d_fmc_def_survival 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.survival.txt的地圖順序
- 	// (清道夫模式) 下一張地圖是: sm_l4d_fmc_def_scavenge 所寫的地圖，如指令沒有寫，下一張地圖則依照configs/missioncycle.scavenge.txt的地圖順序
  	//
  	// "c1m2_streets" // <-- 當前地圖
  	// {
- 	// 	 "chapter_nextmap" "c5m3_cemetery" // <-- 戰役/對抗/寫實模式 過關後的下一關地圖，可以寫三方圖
- 	// 	 "chapter_nextname" "c5m3_cemetery" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
+ 	// 	 "coop_chapter_nextmap" 	"c5m3_cemetery" // <-- (戰役/寫實模式) 倖存者到安全室過關後切換下一關地圖，可以寫三方圖
+ 	// 	 "coop_chapter_nextname" 	"c5m3_cemetery" // <-- 對應 maps_displayname.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
+	//
+ 	// 	 "versus_chapter_nextmap" 	"c5m3_cemetery" // <-- (對抗模式) 打完第二回合之後切換下一關地圖，可以寫三方圖
+ 	// 	 "versus_chapter_nextname" 	"c5m3_cemetery" // <-- 對應 maps_displayname.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示c5m3_cemetery
  	// }
 	// 
  	// "c8m5_rooftop" // <-- 當前地圖
  	// {
- 	// 	 "next mission map" "c9m2_lots"   // <-- (戰役/對抗/寫實模式) 下一張地圖名，可以寫三方圖
- 	// 	 "next mission name" "L4D2C9"  	// <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示L4D2C9
+ 	// 	 "coop_final_nextmap" "c9m2_lots"   // <-- (戰役/寫實模式) 最終章救援通關後切換下一張地圖名，可以寫三方圖
+ 	// 	 "coop_final_nextname" "L4D2C9"  	// <-- 對應 missions_name.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示L4D2C9
  	// 	
- 	// 	 "survival_nextmap" "c1m2_streets"	// <-- (生存模式) 下一張地圖名，可以寫三方圖
- 	// 	 "survival_nextname" "c1m2_streets" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c1m2_streets
+ 	// 	 "versus_final_nextmap" "c9m2_lots"  // <-- (對抗模式) 最終章打完第二回合之後切換下一張地圖名，可以寫三方圖
+ 	// 	 "versus_final_nextname" "L4D2C9"  	// <-- 對應 missions_name.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示L4D2C9
+	//
+ 	// 	 "survival_nextmap" "c1m2_streets"	// <-- (生存模式) 打完指定回合數之後切換下一張地圖名，可以寫三方圖
+ 	// 	 "survival_nextname" "c1m2_streets" // <-- 對應 maps_displayname.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示c1m2_streets
 	// 
- 	// 	 "scavenge_nextmap" "c2m1_highway" // <-- (清道夫模式)　下一關的地圖名，可以寫三方圖
- 	// 	 "scavenge_nextname" "c2m1_highway" // <-- 對應maps.phrases.txt或missions.phrases.txt裡面的翻譯句子，沒有寫翻譯則直接顯示c2m1_highway
+ 	// 	 "scavenge_nextmap" "c2m1_highway" // <-- (清道夫模式) 打完之後切換下一關的地圖名，可以寫三方圖
+ 	// 	 "scavenge_nextname" "c2m1_highway" // <-- 對應 maps_displayname.phrases.txt 裡面的翻譯句子，沒有寫翻譯則直接顯示c2m1_highway
  	// }
 
 	"c1m4_atrium"
 	{
-		"next mission map" "c2m1_highway"
-		"next mission name" "L4D2C2"
+		"coop_final_nextmap"	 	"c2m1_highway"
+		"coop_final_nextname" 		"L4D2C2"
+		
+		"versus_final_nextmap" 		"c2m1_highway"
+		"versus_final_nextname" 	"L4D2C2"
 	}
 	"c2m5_concert"
 	{
-		"next mission map" "c3m1_plankcountry"
-		"next mission name" "L4D2C3"
+		"coop_final_nextmap" 		"c3m1_plankcountry"
+		"coop_final_nextname" 		"L4D2C3"		
+		
+		"versus_final_nextmap" 		"c3m1_plankcountry"
+		"versus_final_nextname" 	"L4D2C3"
 	}
 	"c3m4_plantation"
 	{
-		"next mission map" "c4m1_milltown_a"
-		"next mission name" "L4D2C4"
+		"coop_final_nextmap" 		"c4m1_milltown_a"
+		"coop_final_nextname" 		"L4D2C4"		
+		
+		"versus_final_nextmap" 		"c4m1_milltown_a"
+		"versus_final_nextname"		"L4D2C4"
 	}
 	"c4m5_milltown_escape"
 	{
-		"next mission map" "c5m1_waterfront"
-		"next mission name" "L4D2C5"
+		"coop_final_nextmap" 		"c5m1_waterfront"
+		"coop_final_nextname" 		"L4D2C5"		
+		
+		"versus_final_nextmap" 		"c5m1_waterfront"
+		"versus_final_nextname" 	"L4D2C5"
 	}
 	"c5m5_bridge"
 	{
-		"next mission map" "c6m1_riverbank"
-		"next mission name" "L4D2C6"
+		"coop_final_nextmap" 		"c6m1_riverbank"
+		"coop_final_nextname" 		"L4D2C6"		
+		
+		"versus_final_nextmap" 		"c6m1_riverbank"
+		"versus_final_nextname" 	"L4D2C6"
 	}
 	"c6m3_port"
 	{
-		"next mission map" "c7m1_docks"
-		"next mission name" "L4D2C7"
+		"coop_final_nextmap" 		"c7m1_docks"
+		"coop_final_nextname" 		"L4D2C7"		
+		
+		"versus_final_nextmap" 		"c7m1_docks"
+		"versus_final_nextname" 	"L4D2C7"
 	}
 	"c7m3_port"
 	{
-		"next mission map" "c8m1_apartment"
-		"next mission name" "L4D2C8"
+		"coop_final_nextmap" 		"c8m1_apartment"
+		"coop_final_nextname" 		"L4D2C8"		
+		
+		"versus_final_nextmap" 		"c8m1_apartment"
+		"versus_final_nextname" 	"L4D2C8"
 	} 
 	"c8m5_rooftop"
 	{
-		"next mission map" "c9m1_alleys" 
-		"next mission name" "L4D2C9"
+		"coop_final_nextmap" 		"c9m1_alleys" 
+		"coop_final_nextname" 		"L4D2C9"		
+		
+		"versus_final_nextmap" 		"c9m1_alleys" 
+		"versus_final_nextname" 	"L4D2C9"
 	}
 	"c9m2_lots"
 	{
-		"next mission map" "c10m1_caves"
-		"next mission name" "L4D2C10"
+		"coop_final_nextmap" 		"c10m1_caves"
+		"coop_final_nextname" 		"L4D2C10"		
+		
+		"versus_final_nextmap" 		"c10m1_caves"
+		"versus_final_nextname" 	"L4D2C10"
 	}
 	"c10m5_houseboat"
 	{
-		"next mission map" "c11m1_greenhouse"
-		"next mission name" "L4D2C11"
+		"coop_final_nextmap" 		"c11m1_greenhouse"
+		"coop_final_nextname" 		"L4D2C11"		
+		
+		"versus_final_nextmap" 		"c11m1_greenhouse"
+		"versus_final_nextname" 	"L4D2C11"
 	}
 	"c11m5_runway"
 	{
-		"next mission map" "c12m1_hilltop"
-		"next mission name" "L4D2C12"
+		"coop_final_nextmap" 		"c12m1_hilltop"
+		"coop_final_nextname" 		"L4D2C12"		
+		
+		"versus_final_nextmap" 		"c12m1_hilltop"
+		"versus_final_nextname" 	"L4D2C12"
 	}
 	"c12m5_cornfield"
 	{
-		"next mission map" "c13m1_alpinecreek"
-		"next mission name" "L4D2C13"
+		"coop_final_nextmap" 		"c13m1_alpinecreek"
+		"coop_final_nextname" 		"L4D2C13"		
+		
+		"versus_final_nextmap" 		"c13m1_alpinecreek"
+		"versus_final_nextname" 	"L4D2C13"
 	}
 	"c13m4_cutthroatcreek"
 	{
-		"next mission map" "c14m1_junkyard"
-		"next mission name" "L4D2C14"
+		"coop_final_nextmap" 		"c14m1_junkyard"
+		"coop_final_nextname" 		"L4D2C14"		
+		
+		"versus_final_nextmap" 		"c14m1_junkyard"
+		"versus_final_nextname" 	"L4D2C14"
 	}
 	"c14m2_lighthouse"
 	{
-		"next mission map" "c1m1_hotel"
-		"next mission name" "L4D2C1"
+		"coop_final_nextmap" 		"c1m1_hotel"
+		"coop_final_nextname" 		"L4D2C1"		
+		
+		"versus_final_nextmap" 		"c1m1_hotel"
+		"versus_final_nextname" 	"L4D2C1"
+	}
+	
+	// --L4D1 Game--
+	// coop map
+	"l4d_hospital05_rooftop"
+	{
+		"coop_final_nextmap" 		"l4d_garage01_alleys"
+		"coop_final_nextname" 		"Garage"
+	}
+	"l4d_garage02_lots"
+	{
+		"coop_final_nextmap" 		"l4d_hospital01_apartment"
+		"coop_final_nextname" 		"SmallTown"
+		
+		"versus_final_nextmap" 		"l4d_hospital01_apartment"
+		"versus_final_nextname" 	"SmallTown"
+	}
+	"l4d_smalltown05_houseboat"
+	{
+		"coop_final_nextmap" 		"l4d_airport01_greenhouse"
+		"coop_final_nextname" 		"Airport"
+	}
+	"l4d_airport05_runway"
+	{
+		"coop_final_nextmap" 		"l4d_farm01_hilltop"
+		"coop_final_nextname" 		"Farm"
+	}
+	"l4d_farm05_cornfield"
+	{
+		"coop_final_nextmap" 		"l4d_river01_docks"
+		"coop_final_nextname" 		"River"
+	}
+    "l4d_river03_port"
+	{
+		"coop_final_nextmap" 		"l4d_vs_hospital01_apartment"
+		"coop_final_nextname" 		"Hospital"
+		
+		"versus_final_nextmap" 		"l4d_vs_hospital01_apartment"
+		"versus_final_nextname" 	"Hospital"
+	}
+	
+	// versus map
+	"l4d_vs_hospital05_rooftop"
+	{
+		"versus_final_nextmap" 		"l4d_garage01_alleys"
+		"versus_final_nextname" 	"Garage"
+	}
+	"l4d_vs_smalltown05_houseboat"
+	{
+		"versus_final_nextmap" 		"l4d_airport01_greenhouse"
+		"versus_final_nextname" 	"Airport"
+	}
+	"l4d_vs_airport05_runway"
+	{
+		"versus_final_nextmap" 		"l4d_farm01_hilltop"
+		"versus_final_nextname" 	"Farm"
+	}
+	"l4d_vs_farm05_cornfield"
+	{
+		"versus_final_nextmap" 		"l4d_river01_docks"
+		"versus_final_nextname" 	"River"
 	}
 }

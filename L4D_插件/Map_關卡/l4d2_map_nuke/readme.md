@@ -7,6 +7,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Apply to | 適用於
     ```
+    L4D1 coop
     L4D2 coop/versus/realism
     ```
 
@@ -19,8 +20,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Survivors have to make it to saferoom or rescue vehicle within time limit
-		* (Versus/Cooop/Realism) Once map nuke time out, slay all survivors and restart the chapter
-		* (Cooop/Realism) Once city escape time out, slay all survivors and restart the whole campaign
+		* Map Nuke Time
+			* Start timer once survivor has left the saferoom
+			* Once time out, slay all survivors
+		* City Escape Time (Coop/Realism Only)
+			* Start timer once survivor has left the saferoom in the first level of the campain
+			* Once city escape time out, slay all survivors and restart the whole campaign
 	* You can customize time limit for each map in file [data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)
 		* Manual in this file, click for more details...
 </details>
@@ -29,7 +34,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [l4d2_mission_manager](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_mission_manager)
-
+	4. (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	5. (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+		
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_map_nuke.cfg
@@ -59,6 +68,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.2 (2026-7-23)
+        * Support L4D1
+
     * v1.1 (2025-12-3)
 		* Update data file, cvars
 
@@ -72,8 +84,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 倖存者必須在指定時間內逃亡到安全室或者通關上救援
-		* (對抗/戰役/寫實) 一旦章節逃亡時間到，處死所有倖存者並回合重新開始
-		* (戰役/寫實) 一旦城市逃亡時間到，處死所有倖存者並重新回到地圖的第一關
+		* 關卡逃亡時間
+			* 倖存者離開安全室即開始計時
+			* 一旦關卡逃亡時間到，處死所有倖存者
+		* 城市逃亡時間 (只出現於戰役/寫實模式)
+			* 從第一關倖存者離開安全室時，開始計時
+			* 一旦城市逃亡時間到，處死所有倖存者並重新回到地圖的第一關
 	* 可以設置文件[data/l4d2_map_nuke.cfg](data/l4d2_map_nuke.cfg)，決定每一關的逃亡時間
 		* 內有中文說明，可點擊查看
 
@@ -84,7 +100,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=關閉插件, 1=啟動插件
 		l4d2_map_nuke_enable "1.0"
 
-		// 章節逃亡剩餘90秒時，開始顯示倒數
+		// 關卡逃亡剩餘90秒時，開始顯示倒數
 		l4d2_map_nuke_announcer_chapter "90.0"
 
 		// 城市逃亡剩餘90秒時，開始顯示倒數

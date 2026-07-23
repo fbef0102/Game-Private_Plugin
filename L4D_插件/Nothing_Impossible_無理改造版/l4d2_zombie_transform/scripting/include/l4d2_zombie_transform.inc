@@ -42,17 +42,17 @@ forward void OnTurnClientIntoGhost(int client, int classType);
  *
  * @param client                The client index. Only accept infected or survivor
  * @param classType             The zombie classType. (1~8)
- * @param variantModel          The zombie variant model, (0=Random)
- *                                  Smoker: 	1=L4D2 Model, 2=L4D1 Model, 0=Random.
- *                                  Boomer: 	1=L4D2 Model, 2=L4D1 Model, 3=Female Boomer, 0=Random.
- *                                  Hunter: 	1=L4D2 Model, 2=L4D1 Model, 0=Random.
- *                                  Tank: 		1=L4D2 Model, 2=DLC Model, 3=L4D1 Model, 0=Random.
+ * @param variantModel          The zombie variant model, (0=Game Default)
+ *                                  Smoker: 	1=L4D2 Model, 2=L4D1 Model, 0=Game Default.
+ *                                  Boomer: 	1=L4D2 Model, 2=L4D1 Model, 3=Female Boomer, 0=Game Default.
+ *                                  Hunter: 	1=L4D2 Model, 2=L4D1 Model, 0=Game Default.
+ *                                  Tank: 		1=L4D2 Model, 2=DLC Model, 3=L4D1 Model, 0=Game Default.
  * @param bAbility              If true, give infected custom ability
  * 
  * @return                      true if successful, false otherwise
  * @error	client is spectator or classtype is invalid
  */
-native bool Z_TurnClientIntoZombie(int client, int classType, int variantModel = 1, bool bAbility = true);
+native bool Z_TurnClientIntoZombie(int client, int classType, int variantModel = 0, bool bAbility = true);
 
 /** Turn client from infected into survivor
  * @Note Does not work if client is bot

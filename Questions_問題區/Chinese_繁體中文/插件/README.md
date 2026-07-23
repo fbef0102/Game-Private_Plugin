@@ -239,7 +239,7 @@
   [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
   ```
 
-  * 原因: 插件不支援你的遊戲
+  * 原因: 插件不支援你的遊戲。即使是sourcemod自帶的插件，不一定適用每個遊戲
   * 解決方式: 刪除插件，從此不用
 </details>
 
@@ -280,7 +280,13 @@
   ```
 
   * 原因: 找不到翻譯文件裡面對應的翻譯句子
-  * 解決方式: 確認你有安裝插件需要的翻譯文件，如果有了但是報錯請回報給作者
+  * 解決方式: 
+    1. 確認你有安裝插件需要的翻譯文件
+    2. 伺服器語言預設是英文，可於 ```addons/sourcemod/configs/core.cfg``` 查看 (最好不要修改)
+      ```php
+      "ServerLang"    "en"
+      ```
+    3. 如果還是報錯請回報給作者
 </details>
 
 - - - -
@@ -348,7 +354,7 @@
   test.sp(55) : error 147: new-style declarations are required
   ```
 
-  * 原因: 程式並不是新語法，Sourcemod自從1.7版本之後語法大改，在那以前的舊語法如果重新編譯可能會有問題，通常你只要不是拿到十年前的源始碼，不會有這種錯誤
+  * 原因: 程式並不是新語法，Sourcemod自從1.7版本之後語法大改，以前的舊語法如果重新編譯可能會有問題，通常你只要不是拿到十年前的源始碼，不會有這種錯誤
   * 解決方式: 回報給作者
 </details>
 

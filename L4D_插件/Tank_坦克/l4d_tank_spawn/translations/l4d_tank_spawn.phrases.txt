@@ -33,4 +33,10 @@
 		"zho"	"[{olive}TS{default}] 下次Tank生成: {green}請等待遊戲開始"
 		"chi"	"[{olive}TS{default}] 下次坦克生成: {green}请等待游戏开始"
 	}
+	"Tank nest has spawned"
+	{
+		"en"	"[{olive}TS{default}] Tank nest has spawned"
+		"zho"	"[{olive}TS{default}] 已生成一群Tank"
+		"chi"	"[{olive}TS{default}] 已生成一群坦克"
+	}
 }

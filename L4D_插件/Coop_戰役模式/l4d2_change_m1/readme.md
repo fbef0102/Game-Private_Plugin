@@ -3,6 +3,7 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 
 * Apply to | 適用於
     ```
+    L4D1 Coop
     L4D2 Coop/Realism 
     ```
 
@@ -13,7 +14,11 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [l4d2_mission_manager](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_mission_manager)
-
+	4. (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	5. (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+        
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d2_change_m1.cfg
@@ -38,6 +43,9 @@ If all survivors die, change level to the map 1 of current campaign (Restart Cam
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2026-7-23)
+        * Support L4D1
 
     * v1.2 (2024-4-13)
         * Update cvars

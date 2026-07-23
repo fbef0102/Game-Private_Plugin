@@ -9,6 +9,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Apply to | 適用於
 	```
+	L4D1 Dedicated Server
 	L4D2 Dedicated Server
 	```
 
@@ -43,31 +44,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [l4d2_mission_manager](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_mission_manager)
-	4. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+	4. (L4D2) [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 		* 修復手動更換地圖會遇到的問題
-	5. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+	5. (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/sm_l4d_mapchanger.cfg
 		```php
-		// Mission for change by default on final map in coop/realism.
-		// Empty=Use configs/missioncycle.coop.txt map order
-		sm_l4d_fmc_def_coop ""
-
-		// Map for change by default in survival.
-		// Empty=Use configs/missioncycle.survival.txt map order
-		sm_l4d_fmc_def_survival "c5m5_bridge"
-
-		// Mission for change by default on final map in versus.
-		// Empty=Use configs/missioncycle.versus.txt map order
-		sm_l4d_fmc_def_versus ""
-
-		// Map for change by default in scavenge.
-		// Empty=Use configs/missioncycle.scavenge.txt map order
-		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
-
 		// Quantity of rounds (tries) events survivors wipe out before force of changelevel on non-final maps in coop/realism (0=Off)
 		sm_l4d_fmc_crec_coop_map "3"
 
@@ -83,7 +68,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// After quantity of survival rounds (tries), delay before force of changelevel in survival. (0=Don't force to change map)
 		sm_l4d_fmc_delay_survival "15.0"
 
-		// After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
+		// (L4D2) After scavenge match ends, delay before force of changelevel in scavenge. (0=Don't force to change map)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
 		// In coop/realism final map, when to change next map?
@@ -173,6 +158,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0h (2026-7-23)
+		* Support L4D1
+
 	* v1.9h (2026-1-20)
 		* Support fuzzy matching, use ```!mapvote <string>```
 		* Update translation
@@ -250,22 +238,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/sm_l4d_mapchanger.cfg
 		```php
-		// 預設 戰役/寫實模式 最終關之後的下一張地圖
-		// 空=下一張地圖依照configs/missioncycle.coop.txt的地圖順序
-		sm_l4d_fmc_def_coop ""
-
-		// 預設 生存模式 的下一張地圖
-		// 空=下一張地圖依照configs/missioncycle.survival.txt的地圖順序
-		sm_l4d_fmc_def_survival "c5m5_bridge"
-
-		// 預設 對抗模式 最終關之後的下一張地圖
-		// 空=下一張地圖依照configs/missioncycle.versus.txt的地圖順序
-		sm_l4d_fmc_def_versus ""
-
-		// 預設 清道夫模式 的下一張地圖
-		// 空=下一張地圖依照configs/missioncycle.scavenge.txt的地圖順序
-		sm_l4d_fmc_def_scavenge "c14m1_junkyard"
-
 		// 戰役/寫實模式 下非最終關卡，生還者滅團超過三次則切換到下一個關卡 (0=關閉這項功能)
 		sm_l4d_fmc_crec_coop_map "3"
 
@@ -281,7 +253,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 生存模式 回合結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
 		sm_l4d_fmc_delay_survival "15.0"
 
-		// 清道夫模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
+		// (L4D2) 清道夫模式 比賽結束時，15秒之後切換下一張地圖. (0=不要切換地圖)
 		sm_l4d_fmc_delay_scavenge "15.0"
 
 		// 戰役/寫實模式 最後一關結束後，何時換圖?
