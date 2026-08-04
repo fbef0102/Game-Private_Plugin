@@ -21,8 +21,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Lock start saferoom door until all connecting players are loaded or until time pass
-    * Teleport survivor back to safe area if does not have start saferoom door
-    * Saferoom door drops after door open
+	* Players will be teleported back to saferoom if try to leave the safe area when door locks
+	    * Useful if map does not have start saferoom door
+    * Saferoom door drops and fades after door open
     * To control enable/disable on some custom maps, modify file: [data/antisaferoomdooropen.cfg](data/antisaferoomdooropen.cfg)
 </details>
 

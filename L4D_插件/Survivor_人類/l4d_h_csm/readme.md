@@ -20,7 +20,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
 	* Type ```!csm``` to open menu -> Choose l4d1 character or l4d2 character
+	* Can't change character if survivor is incap, hanging or pinned by infected
+		* Prevent bug and glitch
+	* When a player changes model, fixes attachments to their weapons.
+		* Dropping the weapon for 0.1 seconds and re-equipping
+		* Instead of removing weapons and recreate them
 	* Save player character with cookie. Player will have same character if rejoin server next time.
+	* You can change character in custom maps
 </details>
 
 * <details><summary>Notice</summary>
@@ -149,6 +155,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0h (2026-8-4)
+		* Optimize code
+		* Fixed forward not trigger
+
 	* v1.9h (2024-11-11)
 		* Optimize code
 		* Update translation
@@ -204,7 +214,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	<br/>![l4d_h_csm_2](image/chi/l4d_h_csm_2.jpg)
 
 * 原理
-	* 輸入```!csm```打開介面選擇一代或二代角色，
+	* 輸入```!csm```打開介面選擇一代或二代角色
+	* 被特感抓、掛邊、倒地期間，不能切換角色
+		* 避免玩家濫用bug
+	* 當玩家切換角色時，修復身上的裝備不同步的視覺效果
+		* 插件會強制玩家丟到所有武器然後重新裝備
+		* 不會像其他CSM插件移除武器再重新創造新的武器
 	* 有自動保存機制，玩家下次加入倖存者之後自動變成上一次選擇的角色
 	* 適用於三方圖
 

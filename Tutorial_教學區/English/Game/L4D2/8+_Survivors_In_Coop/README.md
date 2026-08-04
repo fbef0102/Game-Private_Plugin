@@ -1,5 +1,5 @@
 # Navigation
-> 2026/7/9 updated
+> 2026/7/26 updated
 - [Navigation](#navigation)
 - [Introduction](#introduction)
 - [Prepare](#prepare)
@@ -101,9 +101,6 @@
 * [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): Fix issues with infected targeting when replacing survivors.
 
 * [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): Restoring transition data by player's UserId instead of character (With DHooks and Source Scramble)
-
-* [round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup): When the round resets, remove players' ```predicted_viewmodel``` edicts to prevent crashing from no free edict.
-    * For example: The Passing map 1
 
 - - - -
 ## Optional
@@ -217,6 +214,11 @@
     * Function: Fix internal problems with the "m_survivorCharacter" network property
     * Recommended for servers that have survivor character changing plug-ins
     * 🟥The actual effects of the fix are unclear, and wait for update from the author
+
+* <s>[round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup)</s>
+    * Function: When the round resets, remove players' ```predicted_viewmodel``` edicts to prevent crashing from no free edict.
+        * For example: The Passing map 1
+    * 🟥Side effect: Survivors are unable to fire their weapons when the entire team is wiped out.
 
 - - - -
 ## Question

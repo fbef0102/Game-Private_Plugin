@@ -102,9 +102,6 @@
 
 * [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): 修復5+倖存者過關時無法保存武器到下一關 (用DHooks與sourcecramble修改遊戲內部涵式)
 
-* [round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup): 新回合開始時，移除玩家們的 ```predicted_viewmodel``` 實體以防止崩潰: No Free Edict
-    * 譬如地圖: The Passing 第一關
-
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
@@ -163,7 +160,7 @@
 
 * [l4d_reserve_ammo_control](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_reserve_ammo_control): 設置每一種武器的後備彈藥數量
 
-* [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone) : Witch會自動走向倖存者 + Witch殺死倖存者之後轉移攻擊目標繼續
+* [Witch Follow kill Everyone](/L4D_插件/Witch_女巫/l4d_witch_follow_kill_everyone): Witch會自動走向倖存者 + Witch殺死目標之後轉移攻擊其他倖存者
 
 * [5+ Survivors More Supply](/L4D_插件/Survivor_人類/l4d_more_supply): 隨著玩家人數越多，地圖上的資源物品可以重複拿很多次
 
@@ -218,13 +215,18 @@
     * 效果: 修復"m_survivorCharacter"角色屬性的內部問題，推薦與能改變角色的插件如CSM一起使用
     * 🟥實際修復什麼效果不明，作者更新緩慢
 
+* <s>[round_end_cleanup](https://github.com/neburaii/l4d2-plugins/tree/main/round_end_cleanup)</s>
+    * 效果: 新回合開始時，移除玩家們的 ```predicted_viewmodel``` 實體以防止崩潰: No Free Edict
+        * 譬如地圖: The Passing 第一關
+    * 🟥副作用: 人類滅團後，無法開槍
+
 - - - -
 ## 問題
 * 問題1: 第五位以上玩家進不去伺服器
     * 答: 沒裝好l4dtoolz與l4d_unreservelobby
 
 * 問題2: 第五以上玩家可以加入伺服器但無法遊玩倖存者或特感
-    * 答: 沒有裝好多人多特感插件
+    * 答: 沒有裝好多人插件與多特感插件
 
 - - - -
 ## 其他
