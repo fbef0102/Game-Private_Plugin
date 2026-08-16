@@ -22,6 +22,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Witch is allowed to chase another target after she incapacitates a survivor. 
     * Witch is allowed to chase another target after she kills a survivor. 
     * Witch will follow survivor if within the range where witch can see
+    * Ｗitch would auto-change-target the closest survivor when chasing the survivors (You can disable in cvar)
+        * If Rochelle was being chased but Ellis ends up closer, witch would attack Ellis instead
 </details>
 
 * Require | 必要安裝
@@ -58,24 +60,35 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // Add witch health if she is allowed to chase another target after she kills a survivor. (0=Off)
         l4d_witch_follow_kill_everyone_kill_health_add "400"
 
-        // This controls the range for witch to reacquire another target. [1.0, 9999.0] (If no targets within range, witch default behavior)
+        // This controls the range for witch to reacquire another target. [1.0~9999.0] (If no targets within range, witch default behavior)
         l4d_witch_follow_kill_everyone_chase_range "9999"
 
-        // Chance of following survivors [0, 100]
+        // Chance of following survivors [0~100]
         l4d_witch_follow_kill_everyone_followsurvivor_chance "100"
 
-        // Witch's vision range, witch will follow survivor if in range. [100.0, 9999.0] 
+        // Witch's vision range, witch will follow survivor if in range. [100.0~9999.0] 
         l4d_witch_follow_kill_everyone_followsurvivor_range "800.0"
 
-        // Witch's following speed.
-        l4d_witch_follow_kill_everyone_followsurvivor_speed "45.0"
+        // Witch's following speed when witch is sitting state.
+        l4d_witch_follow_kill_everyone_followsurvivor_sit_speed "60.0"
 
-        // Witch stops following when her rage over this value. [0.0, 1.0] (Witch will follow again when her rage below this value)
+        // (L4D2 only) Witch's following speed when witch is wandering state.
+        l4d_witch_follow_kill_everyone_followsurvivor_wander_speed "90.0"
+
+        // Witch stops following when her rage over this value. [0.0~1.0] (Witch will follow again when her rage below this value)
         l4d_witch_follow_kill_everyone_followsurvivor_rage "0.5"
+
+        // If 1, witch would auto-change-target the closest survivor when chasing the survivors
+        // e.g., If Rochelle was being chased but Ellis ends up closer, witch would attack Ellis instead)
+        l4d_witch_follow_kill_everyone_crazy_chase "1"
         ```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.1h (2026-8-16)
+        * Update cvars
+        * Witch would auto-change-target the closest survivor when chasing the survivors
 
     * v1.0h (2025-8-5)
         * Remake code, provide a better way to change witch's target without burning, spawning new witch, or HitByVomitJar
@@ -102,7 +115,9 @@ Witch會自動跟蹤你，一旦驚嚇到她，不擊殺任何人絕不罷休
 
 * 原理
     * 出現在Witch看得到的視野之內，她將會自動走向你
-    * 嚇到Witch之後，將目標玩家倒地或擊殺之後，自動把目標轉向剩餘的倖存者繼續追殺
+    * 嚇到Witch之後，Witch將目標玩家倒地或擊殺之後，自動追殺剩餘的倖存者
+    * 當Witch正在追逐倖存者時，如果目標太遠則會自動轉移目標，重新追逐附近的倖存者 (可以透過指令關閉這項功能)
+        * 舉例: Witch正在追逐A玩家過程中，B玩家靠得witch比較近，witch會自動轉向攻擊B玩家
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -132,10 +147,17 @@ Witch會自動跟蹤你，一旦驚嚇到她，不擊殺任何人絕不罷休
         // 倖存者距離Witch的一定可見範圍內，Witch會跟蹤倖存者 [100.0~9999.0] 
         l4d_witch_follow_kill_everyone_followsurvivor_range "800.0"
 
-        // Witch的跟蹤速度
-        l4d_witch_follow_kill_everyone_followsurvivor_speed "45.0"
+        // 坐著的Witch的跟蹤速度
+        l4d_witch_follow_kill_everyone_followsurvivor_sit_speed "60.0"
+
+        // (限L4D2) 站立的Witch的跟蹤速度
+        l4d_witch_follow_kill_everyone_followsurvivor_wander_speed "90.0"
 
         // Witch如果驚嚇值超過此數值會停止跟蹤倖存者. [0.0~1.0] (Witch驚嚇值低於此數值則繼續跟蹤倖存者)
         l4d_witch_follow_kill_everyone_followsurvivor_rage "0.5"
+
+        // 為1時，當Witch正在追逐倖存者時，如果目標太遠則會自動轉移目標，重新追逐附近的倖存者
+        // 舉例: Witch正在追逐A玩家過程中，B玩家靠得witch比較近，witch會自動轉向攻擊B玩家
+        l4d_witch_follow_kill_everyone_crazy_chase "1"
         ```
 </details>

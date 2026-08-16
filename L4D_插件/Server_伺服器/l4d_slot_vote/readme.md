@@ -26,6 +26,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Change server slots
 		* Admin types ```!slots X``` to change server slots (X is number)
 		* Normal player types ```!slots X``` to call vote to change server slots (X is number)
+		* Server slots would be locked after change
 	* Kick all spectators
 		* Admin types ```!kickspec``` to kick all spectators except for admins.
 		* Normal player types ```!kickspec``` to call vote to kick all spectators except for admins. (Ban 5 mins)
@@ -131,6 +132,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * 原理
 	* 玩家輸入```!slots X```，投票調整伺服器的人數上限，管理員無須投票
+		* 修改伺服器的人數之後將會鎖住直到下次投票
 	* 投票輸入```!kickspec```，投票踢出所有非管理員的旁觀者，管理員無須投票 (封鎖時間: 五分鐘)
 
 * 用意在哪
