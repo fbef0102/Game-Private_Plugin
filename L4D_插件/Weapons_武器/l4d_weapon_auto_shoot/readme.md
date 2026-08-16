@@ -18,24 +18,21 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     <br/>![l4d_weapon_auto_shoot_1](image/l4d_weapon_auto_shoot_1.gif)
     <br/>![l4d_weapon_auto_shoot_2](image/l4d_weapon_auto_shoot_2.gif)
     <br/>![l4d_weapon_auto_shoot_3](image/l4d_weapon_auto_shoot_3.gif)
+    * Type ```!autoshoot```
+    <br/>![l4d_weapon_auto_shoot_4](image/l4d_weapon_auto_shoot_4.jpg)
 
 * <details><summary>How does it work?</summary>
 
     * Hold ATTACK1 (Mouse1). Apply the following weapons
         ```php
-        pistol
-        magnum pistol
-        hunting rifle
-        military sniper 
-        css scout
-        css awp
-        pump shotgun 
-        shotgun chrome
-        autoshotgun
-        shotgun spas
+        pistol, magnum pistol
+        hunting rifle, military sniper, css scout, css awp
+        pump shotgun, shotgun chrome, autoshotgun, shotgun spas
         grenade launcher // if change clip
         ```
     * Auto reload weapons if clip is 0 while holding ATTACK1 (Mouse1)
+    * Player can type ```!autoshoot``` to turn on and off auto fire for specific weapons
+        * Save personal settings with cookie
 </details>
 
 * Require | 必要安裝
@@ -53,12 +50,30 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // GL = Grenade Launcher
         l4d_weapon_auto_shoot_weapons "1,2,3,4,5,6,7,8,9"
 
-        // (L4D1) [ALLOWED WEAPONS] separate by ',' (no spaces).\n1=Pistol, 2=Dual Pistol, 3=Hunt Rif, 4=Pump Shot, 5=Autoshot
+        // (L4D1) [ALLOWED WEAPONS] separate by ',' (no spaces).
+        // 1=Pistol, 2=Dual Pistol, 3=Hunt Rif, 4=Pump Shot, 5=Autoshot
         l4d_weapon_auto_shoot_weapons "1,2,3,4,5"
         ```
 </details>
 
+* <details><summary>Command | 命令</summary>
+
+	* **Open menu, people can turn on/off auto shoot for specific weapons (Save settings with cookie)**
+		```php
+		sm_autoshoot
+		```
+</details>
+
+* Translation Support | 支援翻譯
+	```
+	translations/l4d_weapon_auto_shoot.phrases.txt
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.4h (2026-8-17)
+        * Add translation
+        * Add command, player can turn on and off auto fire for specific weapons
 
     * v1.3h (2024-3-19)
         * Auto shoot after reload weapons
@@ -87,19 +102,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
     * 按住左鍵不放可以自動射擊，適用以下武器
         ```php
-        手槍
-        麥格農手槍
-        獵槍
-        軍用狙擊槍
-        CSS-Scout狙擊槍 
-        CSS-AWP狙擊槍
-        木製單發散彈槍
-        鐵製單發散彈槍
-        自動連發散彈槍 
-        自動連發戰鬥散彈槍
+        手槍, 麥格農手槍
+        獵槍, 軍用狙擊槍, CSS-Scout狙擊槍, CSS-AWP狙擊槍
+        木製單發散彈槍, 鐵製單發散彈槍, 自動連發散彈槍, 自動連發戰鬥散彈槍
         榴彈發射器 // 如果彈夾被改變
         ```
     * 彈夾為0時左鍵不用放掉，武器會自動裝彈
+    * 玩家可輸入```!autoshoot```自行決定哪些武器要自動射擊
+        * 伺服器會保存玩家的設置
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -116,4 +126,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // 1=手槍, 2=雙手槍, 3=獵槍, 4=木製單發散彈槍, 5=自動連發散彈槍
         l4d_weapon_auto_shoot_weapons "1,2,3,4,5"
         ```
+</details>
+
+* <details><summary>命令中文介紹 (點我展開)</summary>
+
+	* **打開菜單，玩家自行決定哪些武器要自動射擊 (伺服器會保存玩家的設置)**
+		```php
+		sm_autoshoot
+		```
 </details>

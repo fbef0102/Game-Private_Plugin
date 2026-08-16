@@ -79,7 +79,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         l4d_witch_follow_kill_everyone_followsurvivor_rage "0.5"
 
         // If 1, witch would auto-change-target the closest survivor when chasing the survivors
-        // e.g., If Rochelle was being chased but Ellis ends up closer, witch would attack Ellis instead)
+        // e.g., If Rochelle was being chased but Ellis ends up closer, witch would attack Ellis instead
         l4d_witch_follow_kill_everyone_crazy_chase "1"
         ```
 </details>

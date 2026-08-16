@@ -38,8 +38,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Enable this plugin?
 		l4d_skeet_database_remake_enable "1"
 
-		// If 1, Announce skeet/shots in chatbox when someone skeets.
-		l4d_skeet_database_remake_announce "0"
+		// If 1, Announce skeet/shots in chatbox when someone skeets the hunter.
+		l4d_skeet_database_remake_announce "1"
+
+		// Top 5 panel shows up when someone skeets the hunter. (0=Off, 1=Display only for attacter, 2=Display for all players)
+		l4d_skeet_database_remake_top5_display "2"
 
 		// Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
 		l4d_skeet_database_remake_modes_tog "4"
@@ -102,7 +105,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				```
 </details>
 
+* Translation Support | 支援翻譯
+	```
+	translations/l4d_skeet_database_remake.phrases.txt
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2026-8-17)
+		* Translation support
 
 	* v1.1h (2025-11-24)
 		* Remove data file
@@ -121,7 +132,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 統計一槍擊殺Hunter的數量，並儲存於數據庫當中
 
 * 原理
-	* 當玩家一槍擊殺Hunter時 (Hunter必須是正在飛撲當中)，統計+1
+	* 當玩家一槍擊殺Hunter時 (Hunter必須是正在飛行當中)，統計+1
 	* 使用資料庫保存玩家的統計數據 (支援 MySQL & SQLite)，即使離開伺服器或伺服器重啟，玩家數據依然保存
 	* 輸入 ```!tops``` 查看前五名一槍擊殺Hunter數量的玩家
 	* 輸入 ```!mys``` 查看自己一槍擊殺Hunter的數量與排行榜
@@ -133,8 +144,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 0=關閉插件, 1=啟動插件
 		l4d_skeet_database_remake_enable "1"
 
-		// 為1時，當有玩家秒殺Hunter時，顯示於聊天框
-		l4d_skeet_database_remake_announce "0"
+		// 為1時，當有玩家一槍空爆Hunter時，顯示於聊天框
+		l4d_skeet_database_remake_announce "1"
+
+		// 當有玩家一槍空爆Hunter時，顯示前五名擊殺Hunter高手 (0=不顯示, 1=只顯示給擊殺witch的玩家, 2=顯示給所有玩家)
+		l4d_skeet_database_remake_top5_display "2"
 
 		// 什麼模式下啟動此插件. 0=所有模式, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 請將數字相加起來
 		l4d_skeet_database_remake_modes_tog "4"
@@ -142,10 +156,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 倖存者隊伍至少需要的真人玩家，才會啟動此插件
 		l4d_skeet_database_remake_survivors_required "4"
 
-		// 為1時，秒殺AI Hunter也會列入統計
+		// 為1時，一槍空爆AI Hunter也會列入統計
 		l4d_skeet_database_remake_ai_hunter "0"
 
-		// 在1對1模式時 (一位倖存者VS一位特感)，秒殺Hunter也會列入統計
+		// 在1對1模式時 (一位倖存者VS一位特感)，一槍空爆Hunter也會列入統計
 		l4d_skeet_database_remake_1v1_seprate "1"
 
 		// 儲存統計的資料庫

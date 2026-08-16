@@ -1,0 +1,159 @@
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"You only have 1 skeet (1v1)"
+	{
+		"en"			"You only have {green}1{default} skeet in 1v1."
+		"zho"			"你只有 {green}一個{default} 空爆 (1v1)"
+		"chi"			"你只有 {green}一个{default} 空爆 (1v1)"
+	}
+	"You only have 1 skeet"
+	{
+		"en"			"You only have {green}1{default} skeet."
+		"zho"			"你只有 {green}一個{default} hunter空爆"
+		"chi"			"你只有 {green}一个{default} hunter空爆"
+	}
+	"You don't have skeet (1v1)"
+	{
+		"en"			"You don't have skeets in 1v1."
+		"zho"			"你沒有任何hunter空爆 (1v1)"
+		"chi"			"你没有任何hunter空爆 (1v1)"
+	}
+	"You don't have skeet"
+	{
+		"en"			"You don't have skeets."
+		"zho"			"你沒有任何hunter空爆"
+		"chi"			"你没有任何hunter空爆"
+	}
+	
+	"You have x skeets (1v1)"
+	{
+		"#format"        "{1:d}"
+		"en"            "You have {green}{1}{default} skeets in 1v1."
+		"zho"			"你有 {green}{1}個{default} hunter空爆 (1v1)"
+		"chi"			"你有 {green}{1}个{default} hunter空爆 (1v1)"
+	}	
+	"You have x skeets"
+	{
+		"#format"        "{1:d}"
+		"en"            "You have {green}{1}{default} skeets."
+		"zho"			"你有 {green}{1}個{default} hunter空爆"
+		"chi"			"你有 {green}{1}个{default} hunter空爆"
+	}	
+	"1v1 Skeet Ranking"
+	{
+		"#format"        "{1:d},{2:d}"
+		"en"            "1v1 Skeet Ranking: {green}{1}{default}/{green}{2}{default}."
+		"zho"			"1v1 Hunter空爆 排名: {green}{1}{default}/{green}{2}{default}."
+		"chi"			"1v1 Hunter空爆 排名: {green}{1}{default}/{green}{2}{default}."
+	}
+	"Skeet Ranking"
+	{
+		"#format"        "{1:d},{2:d}"
+		"en"            "Skeet Ranking: {green}{1}{default}/{green}{2}{default}."
+		"zho"			"Hunter空爆 排名: {green}{1}{default}/{green}{2}{default}."
+		"chi"			"Hunter空爆 排名: {green}{1}{default}/{green}{2}{default}."
+	}
+	"Skeet Ranking 2"
+	{
+		"en"            "(Skeet Ranking updated every round)"
+		"zho"			"(每回合更新 Hunter空爆 排名)"
+		"chi"			"(每回合更新 Hunter空爆 排名)"
+	}
+	"skeeted the hunter (1v1)"
+	{
+		"#format"        "{1:N},{2:N}"
+		"en"            "[{olive}TS{default}] {blue}{1}{default} skeeted {green}{2}{default} in {green}1{default} shot in 1v1"
+		"zho"			"[{olive}TS{default}] {blue}{1}{default} 一槍空爆了 {green}{2}{default} (1v1)"
+		"chi"			"[{olive}TS{default}] {blue}{1}{default} 一枪空爆了 {green}{2}{default} (1v1)"
+	}
+	"skeeted the hunter"
+	{
+		"#format"        "{1:N},{2:N}"
+		"en"            "[{olive}TS{default}] {blue}{1}{default} skeeted {green}{2}{default} in {green}1{default} shot"
+		"zho"			"[{olive}TS{default}] {blue}{1}{default} 一槍空爆了 {green}{2}{default}"
+		"chi"			"[{olive}TS{default}] {blue}{1}{default} 一枪空爆了 {green}{2}{default}"
+	}
+	"1v1 skeeted the hunter 2"
+	{
+		"#format"        "{1:d}"
+		"en"            "{lightgreen}1v1 Hunter skeets - ({default}{1}{lightgreen})"
+		"zho"			"{lightgreen}1v1 一槍空爆Hunter的數量 - ({default}{1}{lightgreen})"
+		"chi"			"{lightgreen}1v1 一枪空爆Hunter的数量 - ({default}{1}{lightgreen})"
+	}
+	"skeeted the hunter 2"
+	{
+		"#format"        "{1:d}"
+		"en"            "{lightgreen}Hunter skeets - ({default}{1}{lightgreen})"
+		"zho"			"{lightgreen}一槍空爆Hunter的數量 - ({default}{1}{lightgreen})"
+		"chi"			"{lightgreen}一枪空爆Hunter的数量 - ({default}{1}{lightgreen})"
+	}
+	"Top 5 Title (1v1)"
+	{
+		"#format"        "{1:d}"
+		"en"            "1v1 Top {1} Skeeters"
+		"zho"			"1v1 一槍空爆Hunter 高手前{1}名:"
+		"chi"			"1v1 一枪空爆Hunter 高手前{1}名:"
+	}	
+	"Top 5 item 1"
+	{
+		"#format"        "{1:d},{2:s}"
+		"en"            "{1} skeets - {2}"
+		"zho"			"{1} skeets - {2}"
+		"chi"			"{1} skeets - {2}"
+	}	
+	"Top 5 item 2 (1v1)"
+	{
+		"#format"        "{1:d}"
+		"en"            "Total {1} skeets on the database in 1v1."
+		"zho"			"資料庫中共有 {1} 個Hunter被一槍空爆 (1v1)"
+		"chi"			"数据库中共有 {1} 个Hunter被一枪空爆 (1v1)"
+	}	
+	"Top 5 item 3 (1v1)"
+	{
+		"en"            "There are no skeets on this server yet in 1v1."
+		"zho"			"資料庫目前沒有任何Hunter被一槍空爆 (1v1)"
+		"chi"			"数据库目前没有任何Hunter被一槍空爆 (1v1)"
+	}	
+	"Top 5 Title"
+	{
+		"#format"        "{1:d}"
+		"en"            "Top {1} Skeeters"
+		"zho"			"一槍空爆Hunter 高手前{1}名:"
+		"chi"			"一枪空爆Hunter 高手前{1}名:"
+	}	
+	"Top 5 item 2"
+	{
+		"#format"        "{1:d}"
+		"en"            "Total {1} skeets on the database."
+		"zho"			"資料庫中共有 {1} 個Hunter被一槍空爆"
+		"chi"			"数据库中共有 {1} 个Hunter被一枪空爆"
+	}	
+	"Top 5 item 3"
+	{
+		"en"            "There are no skeets on this server yet."
+		"zho"			"資料庫目前沒有任何Hunter被一槍空爆"
+		"chi"			"数据库目前没有任何Hunter被一槍空爆"
+	}	
+}

@@ -1,0 +1,98 @@
+/*
+	支援以下顏色:
+	 - {default}	(白色)
+	 - {green}		(橘色)
+	 - {olive}		(綠色)
+	 - {lightgreen}	(淺綠色)
+	 - {red}		(紅色) - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	 - {blue}		(藍色) - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	 注意事項: 藍色, 紅色, 淺綠色，這三種顏色的其中任意兩種不可出現在同一句話裡
+*/
+
+/*
+	Following named colors are supported:
+	 - {default}	(whilte)
+	 - {green}		(olive color)
+	 - {olive}		(green color)
+	 - {lightgreen}	(light green)
+	 - {red}		(red) - There must be at least one player or bot in infected team，or red will turn into {green} color
+	 - {blue}		(blue) - There must be at least one player or bot in survivor team，or blue will turn into {green} color 
+	 Warning:  2 of (Blue, Red, Lightgreen) colors can not be used together in one sentence
+*/
+
+"Phrases"
+{
+	"You only have 1 crown."
+	{
+		"en"			"You only have {green}1{default} crown."
+		"zho"			"你只有 {green}一個{default} witch crown"
+		"chi"			"你只有 {green}一个{default} witch crown"
+	}
+	"You don't have crowns."
+	{
+		"en"			"You don't have crowns."
+		"zho"			"你沒有任何witch crown"
+		"chi"			"你没有任何witch crown"
+	}
+	"You have x crowns."
+	{
+		"#format"        "{1:d}"
+		"en"            "You have {green}{1}{default} crowns."
+		"zho"			"你有 {green}{1}個{default} witch crown"
+		"chi"			"你有 {green}{1}个{default} witch crown"
+	}	
+	"Witch Crowns Ranking"
+	{
+		"#format"        "{1:d},{2:d}"
+		"en"            "Witch Crowns Ranking: {green}{1}{default}/{green}{2}{default}."
+		"zho"			"Witch Crowns 排名: {green}{1}{default}/{green}{2}{default}."
+		"chi"			"Witch Crowns 排名: {green}{1}{default}/{green}{2}{default}."
+	}
+	"Witch Crowns Ranking 2"
+	{
+		"en"            "(Witch Crowns Ranking updated every round)"
+		"zho"			"(每回合更新 Witch Crowns 排名)"
+		"chi"			"(每回合更新 Witch Crowns 排名)"
+	}
+	"crowned the witch"
+	{
+		"#format"        "{1:N}"
+		"en"            "{1} {lightgreen}crowned the witch{default} !"
+		"zho"			"{1} {lightgreen}一槍擊殺 Witch{default} !"
+		"chi"			"{1} {lightgreen}一枪击杀 Witch{default} !"
+	}
+	"crowned the witch 2"
+	{
+		"#format"        "{1:d}"
+		"en"            "{lightgreen}Witch crowns - ({default}{1}{lightgreen})"
+		"zho"			"{lightgreen}一槍擊殺Witch的數量 - ({default}{1}{lightgreen})"
+		"chi"			"{lightgreen}一枪击杀Witch的数量 - ({default}{1}{lightgreen})"
+	}
+	"Top 5 Title"
+	{
+		"#format"        "{1:d}"
+		"en"            "Top {1} Witch Crowner:"
+		"zho"			"Witch Crowns 高手前{1}名:"
+		"chi"			"Witch Crowns 高手前{1}名:"
+	}	
+	"Top 5 item 1"
+	{
+		"#format"        "{1:d},{2:s}"
+		"en"            "{1} crowns - {2}"
+		"zho"			"{1} crowns - {2}"
+		"chi"			"{1} crowns - {2}"
+	}	
+	"Top 5 item 2"
+	{
+		"#format"        "{1:d}"
+		"en"            "Total {1} crowns on the database."
+		"zho"			"資料庫中共有 {1} 個witch crowns"
+		"chi"			"数据库中共有 {1} 个witch crowns"
+	}	
+	"Top 5 item 3"
+	{
+		"en"            "There are no crowns on this server yet."
+		"zho"			"資料庫目前沒有任何 witch crowns"
+		"chi"			"数据库目前没有任何 witch crowns"
+	}
+}

@@ -1,0 +1,100 @@
+"Phrases"
+{
+	"Title"
+	{
+		"en"			"Auto Shoot Weapon Select"
+		"zho"			"自動射擊武器菜單"
+		"chi"			"自动射击武器菜单"
+	}
+	"On"
+	{
+		"en"			"On"
+		"zho"			"開啟"
+		"chi"			"开启"
+	}
+	"Off"
+	{
+		"en"			"Off"
+		"zho"			"關閉"
+		"chi"			"关闭"
+	}
+	"Forbidden"
+	{
+		"en"			"Forbidden"
+		"zho"			"禁用"
+		"chi"			"禁用"
+	}
+	
+	"Single Pistol"
+	{
+		"en"	"Single Pistol"
+		"zho"	"單手槍"
+		"chi"	"单手枪"
+	}
+	"Dual Pistol"
+	{
+		"en"	"Dual Pistol"
+		"zho"	"雙手槍"
+		"chi"	"双手枪"
+	}
+	"Hunting Rifle"
+	{
+		"en"	"Hunting Rifle"
+		"zho"	"獵槍"
+		"chi"	"猎枪"
+	}
+	"Magnum"
+	{
+		"en"	"Magnum"
+		"zho"	"沙漠之鷹"
+		"chi"	"沙漠之鹰"
+	}
+	"Military Sniper"
+	{
+		"en"	"Military Sniper"
+		"zho"	"軍用狙擊槍"
+		"chi"	"军用狙击枪"
+	}
+	"Pumpshotgun"
+	{
+		"en"	"Pumpshotgun"
+		"zho"	"木製霰彈槍"
+		"chi"	"木制霰弹枪"
+	}
+	"Chrome Shotgun"
+	{
+		"en"	"Chrome Shotgun"
+		"zho"	"鐵製霰彈槍"
+		"chi"	"铁制霰弹枪"
+	}
+	"Autoshotgun"
+	{
+		"en"	"Autoshotgun"
+		"zho"	"連發霰彈槍"
+		"chi"	"连发霰弹枪"
+	}
+	"Spas Shotgun"
+	{
+		"en"	"Spas Shotgun"
+		"zho"	"戰鬥霰彈槍"
+		"chi"	"战斗霰弹枪"
+	}
+	"SCOUT"
+	{
+		"en"	"CSS SCOUT"
+		"zho"	"SCOUT狙擊槍"
+		"chi"	"SCOUT狙击枪"
+	}
+	"AWP"
+	{
+		"en"	"AWP"
+		"zho"	"AWP"
+		"chi"	"AWP"
+	}
+	"Grenade Launcher"
+	{
+		"en"	"Grenade Launcher"
+		"zho"	"榴彈發射器"
+		"chi"	"榴弹发射器"
+	}
+}

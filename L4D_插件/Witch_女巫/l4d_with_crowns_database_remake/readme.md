@@ -41,6 +41,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Numbers of real survivor players required at least to enable this plugin
 		l4d_with_crowns_database_remake_survivor_required "2"
 
+		// If 1, Announce in chatbox when someone crowns the witch.
+		l4d_with_crowns_database_remake_announce "1"
+
+		// Top 5 panel shows up when someone crowns the witch (0=Off, 1=Display only for attacter, 2=Display for all players)
+		l4d_with_crowns_database_remake_top5_display "2"
+
 		// Database to save crown to.
 		// (MySQL & SQLite supported)
 		l4d_with_crowns_database_remake_sql "crowns"
@@ -90,7 +96,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				```
 </details>
 
+* Translation Support | 支援翻譯
+	```
+	translations/l4d_with_crowns_database_remake.phrases.txt
+	```
+
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.2h (2026-8-17)
+		* Translation support
 
 	* v1.1h (2025-11-24)
 		* Remove data file
@@ -126,6 +140,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 至少需要X位真人玩家在倖存者隊伍才能有記錄
 		l4d_with_crowns_database_remake_survivor_required "2"
+
+		// 為1時，當有玩家一槍擊殺Witch時，顯示於聊天框
+		l4d_with_crowns_database_remake_announce "1"
+
+		// 當有玩家一槍擊殺Witch時，顯示前五名擊殺Witch高手 (0=不顯示, 1=只顯示給擊殺witch的玩家, 2=顯示給所有玩家)
+		l4d_with_crowns_database_remake_top5_display "2"
 
 		// 儲存統計的資料庫
 		// (支援 MySQL & SQLite)
