@@ -16,6 +16,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Immune every friendly fire damage or reflict to attacker, see [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
 		* Manual in this file, click for more details...
 	* Announce total ff damage after 1 second
+	* Immune FF damage when victim or attacker crouches like Back 4 Blood, see data/anti-friendly_fire_V2.cfg
 	* 🟥 Do not use with other plugin which modify friendly fire damage.
 </details>
 
@@ -53,6 +54,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.4 (2026-9-6)
+		* Add minigun damage modify
+		* Update data, add "minigun" keyvalue
 
 	* v2.3 (2026-2-26)
 		* Update data, add two keyvalue
@@ -100,8 +105,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * 原理
 	* 控制每個友傷的種類，免疫受傷或者反彈傷害，詳見文件: [data/anti-friendly_fire_V2.cfg](data/anti-friendly_fire_V2.cfg)
 		* 內有中文說明，可點擊查看
-	* 插件自帶傷害提示
 	* 一秒後計算總友傷，然後反彈給攻擊者
+		* 插件自帶傷害提示
+	* 受害者或是攻擊者蹲下時不會造成與受到友傷，可到data文件調整這項功能
 	* 🟥切勿與其他會修改友傷的插件並用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>

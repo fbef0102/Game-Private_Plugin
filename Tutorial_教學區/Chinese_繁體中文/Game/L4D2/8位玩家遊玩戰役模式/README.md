@@ -205,6 +205,7 @@
     * 效果: 修復人類玩家有使用一代角色，在The Passing或是有使用一代角色NPC的三方地圖，不會被踢或是被跟著傳送
     * 🟥副作用: 在C6M1 切換成一代角色，然後等待滅團重啟，有一代角色的玩家依然會被傳送到橋上
     * 🟥副作用: 一代角色無法在一代地圖順利觸發劇情對話，譬如C8M5呼叫救援無線電
+    * 可以使用**l4d2_fix_character_mixed**，取代此插件
 
 * (L4D2) <s>[The Passing Character Fix with EntityLump](https://forums.alliedmods.net/showthread.php?t=348949)</s>
     * 效果: 避免在The Passing地圖中，一代角色的玩家會被傳送到地圖之外或死亡
