@@ -468,7 +468,7 @@
     * 倖存者打開狙擊鏡能透視看到特感
   * [l4d_climb](/L4D_插件/Nothing_Impossible_無理改造版/l4d_climb): Makes Everyone Climb On Walls.
     * 人類與特感能爬牆
-  * [l4d_pushdrag](/L4D_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to move the objects and players
+  * [l4d_pushdrag](/L4D_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to grab and move the objects and players
     * 玩家對準物品雙擊E鍵，可以使物品或玩家飄浮在半空中
   * [l4d2_wallhack_cheat](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
     * 輸入指令能透視看到特感

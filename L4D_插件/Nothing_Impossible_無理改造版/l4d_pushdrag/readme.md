@@ -1,5 +1,5 @@
 # Description | 內容
-Press Double E key to move the objects and players
+Press Double E key to grab and move the objects and players
 
 > __Note__ <br/>
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
@@ -17,6 +17,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* Aim the car or player or item -> press double E -> use mouse to move the object on air.
 	* Press E again to release the object or Left mouse to throw the object.
+	* You can grab
+		1. Player
+		2. Gun Weapons, Melee Weapons and Items that have dropped on the ground
+		3. Physical props and cars
+		4. Pipe bomb projectile, fuel barrel, holiday gift
+		5. Tank Rock
+	* Unable to grab common infected, special infected, Tank and Witch
 	* Infected can move object too.
 </details>
 
@@ -27,11 +34,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 	* cfg/sourcemod/l4d_pushdrag.cfg
 		```php
-		// 0: Disable survivor grab, 1: Survivor grab object, 2:, Survivor grab teamate 3: Survivor grab all
-		l4d_pushdrag_survivor_grab "3"
+		// Which entity can survivor grab? 
+		// 0: Disable, 1: Player, 2:, Weapon/Item 4: Hittable Prop, 8: Moveable Prop (including pipe bomb projectile, fuel barrel, holiday gift...), 16: Tank Rock, 31: All
+		l4d_pushdrag_survivor_grab "31"
 
-		// 0: Disable infected grab, 1: Infected grab object, 2:, Infected grab teamate 3: Infected grab all
-		l4d_pushdrag_infected_grab "2"
+		// Which entity can infected grab? 
+		// 0: Disable, 1: Player, 2:, Weapon/Item 4: Hittable Prop, 8: Moveable Prop (including pipe bomb projectile, fuel barrel, holiday gift...), 16: Tank Rock, 31: All
+		l4d_pushdrag_infected_grab "31"
 
 		// Player with these flag have access to Grab object (Empty=Everyone, -1=No one)
 		l4d_pushdrag_access_flags ""
@@ -64,7 +73,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Hold Distance when grabbing a hittable prop
 		l4d_pushdrag_hittable_hold_distance "200.0"
 
-		// Hold Distance when grabbing a moveable prop (including pipe bomb, fuel barrel, holiday gift...)
+		// Hold Distance when grabbing a moveable prop (including pipe bomb projectile, fuel barrel, holiday gift...)
 		l4d_pushdrag_prop_hold_distance "120.0"
 
 		// Hold Distance when grabbing a tank rock
@@ -119,6 +128,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6h (2026-9-11)
 	* v1.5h (2025-9-16)
 	* v1.4h (2024-3-9)
 		* Update cvars
@@ -157,18 +167,26 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 玩家對準物品雙擊E鍵，可以使物品飄浮在半空中
     	* 按下E鍵：放下物品
     	* 左鍵：拋出物品
-	* 可以對車子、武器、玩家使用飄浮咒，不能對特感、殭屍、Tank、Witch使用飄浮咒
+	* 可移動的東西有
+		1. 玩家
+		2. 掉落在地上的槍械武器、近戰武器、物品
+		3. 可移動的物件與任何Tank能打動的車子
+		4. 已丟出去的土製炸彈、燃油桶、官方禮物盒
+		5. Tank丟出去的石頭
+	* 不能對特感、Tank、殭屍、Witch使用飄浮咒
 	* 特感也能使用
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
 	* cfg/sourcemod/l4d_pushdrag.cfg
 		```php
-		// 0: 禁止人類使用飄浮咒, 1: 人類可以抓取物品, 2:, 人類可以抓取隊友 3: 人類可以抓取物品與隊友
-		l4d_pushdrag_survivor_grab "3"
+		// 人類可以對哪些物品使用漂浮咒? 
+		// 0=不能使用, 1=隊友, 2=武器與物品 4: Tank可以打得動的車子或是物件, 8: 可以移動的物件 (含已丟出去的土製炸彈、汽油桶、禮物盒等等...), 16: Tank丟出去的石頭, 31: 全部
+		l4d_pushdrag_survivor_grab "31"
 
-		// 0: 禁止特感使用飄浮咒, 1: 特感可以抓取物品, 2:, 特感可以抓取隊友 3: 特感可以抓取物品與隊友
-		l4d_pushdrag_infected_grab "2"
+		// 特感可以對哪些物品使用漂浮咒? 
+		// 0=不能使用, 1=隊友, 2=武器與物品 4: Tank可以打得動的車子或是物件, 8: 可以移動的物件 (含已丟出去的土製炸彈、汽油桶、禮物盒等等...), 16: Tank丟出去的石頭, 31: 全部
+		l4d_pushdrag_infected_grab "31"
 
 		// 擁有這些權限的玩家，才可以使用飄浮咒 (留白 = 任何人都能, -1: 無人)
 		l4d_pushdrag_access_flags ""
@@ -201,7 +219,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 抓取車子的時候，飄浮在空中與你保持的距離
 		l4d_pushdrag_hittable_hold_distance "200.0"
 
-		// 抓取物品的時候，飄浮在空中與你保持的距離 (包含土製炸彈, 汽油桶, 禮物盒等等...)
+		// 抓取物品的時候，飄浮在空中與你保持的距離 (包含已丟出去的土製炸彈、汽油桶、禮物盒等等...)
 		l4d_pushdrag_prop_hold_distance "120.0"
 
 		// 抓取Tank丟出去的石頭時候，飄浮在空中與你保持的距離
