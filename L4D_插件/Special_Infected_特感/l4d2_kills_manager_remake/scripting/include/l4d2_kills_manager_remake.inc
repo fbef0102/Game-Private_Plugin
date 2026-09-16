@@ -18,14 +18,14 @@
 	You should have received a copy of the GNU General Public License along
 	with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#if defined  _l4d2_kills_manager_included_
+#if defined  _l4d2_kills_manager_remake_included_
  #endinput
 #endif
-#define _l4d2_kills_manager_included_
+#define _l4d2_kills_manager_remake_included_
 
 /**
  * @brief Called before event "player_death" is modified and changed
- * @remarks This happens before l4d2_kills_manager.smx tries to modify "player_death" event (EventHookMode_Pre)
+ * @remarks This happens before l4d2_kills_manager_remake.smx tries to modify "player_death" event (EventHookMode_Pre)
  * @remarks You can get the original attacker, weapon, victim,....etc here
  *
  * @param userid			user ID who died
@@ -46,12 +46,12 @@
  *
  * @noreturn
  */
-forward void l4d2_kills_manager_PlayerDeath_Pre(int userid, int entityid, int attacker, const char[] attackername, int attackerentid, const char[] weapon, bool headshot, bool attackerisbot, const char[] victimname, bool victimisbot, bool abort, int type, float victim_x, float victim_y, float victim_z);
+forward void l4d2_kills_manager_remake_PlayerDeath_Pre(int userid, int entityid, int attacker, const char[] attackername, int attackerentid, const char[] weapon, bool headshot, bool attackerisbot, const char[] victimname, bool victimisbot, bool abort, int type, float victim_x, float victim_y, float victim_z);
 
-public SharedPlugin __pl_l4d2_kills_manager =
+public SharedPlugin __pl_l4d2_kills_manager_remake =
 {
-	name = "l4d2_kills_manager",
-	file = "l4d2_kills_manager.smx",
+	name = "l4d2_kills_manager_remake",
+	file = "l4d2_kills_manager_remake.smx",
 #if defined REQUIRE_PLUGIN
 	required = 1,
 #else
@@ -60,7 +60,7 @@ public SharedPlugin __pl_l4d2_kills_manager =
 };
 
 #if !defined REQUIRE_PLUGIN
-public void __pl_l4d2_kills_manager_SetNTVOptional()
+public void __pl_l4d2_kills_manager_remake_SetNTVOptional()
 {
 }
 #endif

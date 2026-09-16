@@ -91,12 +91,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-    1. [l4d_multiple_equipment](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Restrict weapons and melees when carry second equipment (No conflict)
+    1. [l4d_multiple_equipment_remake](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment_remake): Restrict weapons and melees when carry second equipment (No conflict)
         * 每個人攜帶的第二把武器或物品也會被限制 (與此插件不衝突)
 </details>
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -136,7 +133,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * Fixed melee error
 
     * v2.2 (2023-12-13)
-        * Compatible with l4d_multiple_equipment v1.2h or above by harry
+        * Compatible with l4d_multiple_equipment_remake v1.2h or above by harry
         * Support each melee class limit
         * Translation Support
         * Fixed player can not pick up the same weapon

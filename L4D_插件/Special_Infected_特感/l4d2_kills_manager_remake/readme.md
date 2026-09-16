@@ -14,7 +14,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Image | 圖示
 	| Before (裝此插件之前)  			| After (裝此插件之後) |
 	| -------------|:-----------------:|
-	| ![l4d2_kills_manager_1](image/l4d2_kills_manager_1.jpg)|![l4d2_kills_manager_2](image/l4d2_kills_manager_2.jpg)|
+	| ![l4d2_kills_manager_remake_1](image/l4d2_kills_manager_remake_1.jpg)|![l4d2_kills_manager_remake_2](image/l4d2_kills_manager_remake_2.jpg)|
 
 * <details><summary>How does it work?</summary>
 
@@ -30,39 +30,39 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-    * cfg/sourcemod/l4d2_kills_manager.cfg
+    * cfg/sourcemod/l4d2_kills_manager_remake.cfg
         ```php
         // Enable/Disable this plugin.
-        l4d2_kills_manager_enable "1"
+        l4d2_kills_manager_remake_enable "1"
 
         // Kills modify mode. 0=Last-Shot based (Game Default), 1=Most Damage based.
-        l4d2_kills_manager_modify_mode "1"
+        l4d2_kills_manager_remake_modify_mode "1"
 
         // (L4D2) Sets the real killer of Which L4D2 SI death event?  2=SMOKER, 4=BOOMER, 8=HUNTER, 16=SPITTER, 32=JOCKEY, 64=CHARGER, 128=WITCH, 256=TANK (add numbers together, 510=ALL)
-        l4d2_kills_manager_si "510"
+        l4d2_kills_manager_remake_si "510"
 
         // (L4D1) Sets the real killer of Which L4D2 SI death event?  2=SMOKER, 4=BOOMER, 8=HUNTER, 16=WITCH, 32=TANK (add numbers together, 62=ALL)
-        l4d2_kills_manager_si "510"
+        l4d2_kills_manager_remake_si "510"
 
         // Type of statistics notification 0=Off, 1=CenterText, 2=HintBox, 3=Chat
-        l4d2_kills_manager_stats_show_type "3"
+        l4d2_kills_manager_remake_stats_show_type "3"
 
         // (L4D2) Show damage statistics on which L4D2 SI death? 2=SMOKER, 4=BOOMER, 8=HUNTER, 16=SPITTER, 32=JOCKEY, 64=CHARGER, 128=WITCH, 256=TANK (add numbers together, 510=ALL)
-        l4d2_kills_manager_stats_show_si "510"
+        l4d2_kills_manager_remake_stats_show_si "510"
 
         // (L4D1) Show damage statistics on which L4D1 SI death? 2=SMOKER, 4=BOOMER, 8=HUNTER, 16=WITCH, 32=TANK (add numbers together, 62=ALL)
-        l4d2_kills_manager_stats_show_si "510"
+        l4d2_kills_manager_remake_stats_show_si "510"
 
         // Maximum amount of attackers shown in each statistic message. 0=All players
-        l4d2_kills_manager_stats_max "0"
+        l4d2_kills_manager_remake_stats_max "0"
         ```
 </details>
 
 * <details><summary>API | 串接</summary>
 
-    * [l4d2_kills_manager.inc](scripting/include/l4d2_kills_manager.inc)
+    * [l4d2_kills_manager_remake.inc](scripting/include/l4d2_kills_manager_remake.inc)
         ```php
-        library name: l4d2_kills_manager
+        library name: l4d2_kills_manager_remake
         ```
 </details>
 
@@ -118,30 +118,30 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-    * cfg/sourcemod/l4d2_kills_manager.cfg
+    * cfg/sourcemod/l4d2_kills_manager_remake.cfg
         ```php
         // 0=關閉插件, 1=啟動插件
-        l4d2_kills_manager_enable "1"
+        l4d2_kills_manager_remake_enable "1"
 
         // 擊殺者修改模式. 0=最後一擊的玩家 (遊戲預設), 1=造成傷害最多的玩家
-        l4d2_kills_manager_modify_mode "1"
+        l4d2_kills_manager_remake_modify_mode "1"
 
         // (L4D2) 修改哪些特感的擊殺者?  2=SMOKER, 4=BOOMER, 8=HUNTER, 16=SPITTER, 32=JOCKEY, 64=CHARGER, 128=WITCH, 256=TANK (請將數字相加, 510=全部)
-        l4d2_kills_manager_si "510"
+        l4d2_kills_manager_remake_si "510"
 
         // (L4D1) 修改哪些特感的擊殺者?  2=SMOKER, 4=BOOMER, 8=HUNTER, 16=WITCH, 32=TANK (請將數字相加, 510=全部)
-        l4d2_kills_manager_si "510"
+        l4d2_kills_manager_remake_si "510"
 
         // 傷害數據提示 (0: 不提示, 1: 螢幕正中間, 2: 黑底白字框, 3: 聊天框)
-        l4d2_kills_manager_stats_show_type "3"
+        l4d2_kills_manager_remake_stats_show_type "3"
 
         // (L4D2) 哪些特感死亡會提示傷害數據? 2=SMOKER, 4=BOOMER, 8=HUNTER, 16=SPITTER, 32=JOCKEY, 64=CHARGER, 128=WITCH, 256=TANK (請將數字相加, 510=全部)
-        l4d2_kills_manager_stats_show_si "510"
+        l4d2_kills_manager_remake_stats_show_si "510"
 
         // (L4D1) 哪些特感死亡會提示傷害數據? 2=SMOKER, 4=BOOMER, 8=HUNTER, 16=WITCH, 32=TANK (請將數字相加, 510=全部)
-        l4d2_kills_manager_stats_show_si "510"
+        l4d2_kills_manager_remake_stats_show_si "510"
 
         // 傷害數據顯示最多的玩家數量 0=顯示全部
-        l4d2_kills_manager_stats_max "0"
+        l4d2_kills_manager_remake_stats_max "0"
         ```
 </details>

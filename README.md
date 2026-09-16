@@ -468,7 +468,7 @@
     * 倖存者打開狙擊鏡能透視看到特感
   * [l4d_climb](/L4D_插件/Nothing_Impossible_無理改造版/l4d_climb): Makes Everyone Climb On Walls.
     * 人類與特感能爬牆
-  * [l4d_pushdrag](/L4D_插件/Nothing_Impossible_無理改造版/l4d_pushdrag): Press Double E key to grab and move the objects and players
+  * [l4d_pushdrag_remake](/L4D_插件/Nothing_Impossible_無理改造版/l4d_pushdrag_remake): Press Double E key to grab and move the objects and players
     * 玩家對準物品雙擊E鍵，可以使物品或玩家飄浮在半空中
   * [l4d2_wallhack_cheat](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_wallhack_cheat): Admins can use commands to see the infected model glows though the wall
     * 輸入指令能透視看到特感
@@ -476,7 +476,7 @@
     * 輸入指令能透視看到武器與物資
   * [l4d2_shield_equip](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_shield_equip): You can get shield by killing tank/witch or shield dropped by riot uncommon infected
     * 新武器: 防暴盾牌
-  * [l4d_multiple_equipment](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment): Carry 2 weapons or items in each slot
+  * [l4d_multiple_equipment_remake](/L4D_插件/Nothing_Impossible_無理改造版/l4d_multiple_equipment_remake): Carry 2 weapons or items in each slot
     * 每個人可以攜帶兩種武器或物品
   * [l4d2_cso_knockback](/L4D_插件/Nothing_Impossible_無理改造版/l4d2_cso_knockback): Weapons and Melees now have knockback power like CSO
     * 武器與近戰都有CSO 殭屍擊退效果
@@ -602,7 +602,7 @@
     * 更改火焰對Tank/特感造成的傷害
   * [l4d_who_kill_you](/L4D_插件/Special_Infected_特感/l4d_who_kill_you): Display who killed you (weapons, distance and damage)
     * 詳細傷害與兇手提示 (武器、距離、傷害部位)
-  * [l4d2_kills_manager](/L4D_插件/Special_Infected_特感/l4d2_kills_manager): Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
+  * [l4d2_kills_manager_remake](/L4D_插件/Special_Infected_特感/l4d2_kills_manager_remake): Sets the real killer of a special infected, based on who inflicted the most damage, instead of last shot.
     * 強制將特感擊殺者改成造成傷害最多的玩家
   * [l4d_super_si](/L4D_插件/Special_Infected_特感/l4d_super_si): Make special infected become super SI (increase HP/movement/invisibility + catch fire)
     * 增強特感變成超級特感 (增加血量/移動速度/透明度 + 自身著火)

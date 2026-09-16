@@ -15,11 +15,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Image | 圖示
 	* You can carry second primary weapons and items (可攜帶第二把武器或物品)
-    <br/>![l4d_multiple_equipment_1](image/l4d_multiple_equipment_1.jpg)
+    <br/>![l4d_multiple_equipment_remake_1](image/l4d_multiple_equipment_remake_1.jpg)
     * Switch equipments (切換第二把武器)
-    <br/>![l4d_multiple_equipment_2](image/l4d_multiple_equipment_2.gif)
-    <br/>![l4d_multiple_equipment_3](image/l4d_multiple_equipment_3.gif)
-    <br/>![l4d_multiple_equipment_4](image/l4d_multiple_equipment_4.gif)
+    <br/>![l4d_multiple_equipment_remake_2](image/l4d_multiple_equipment_remake_2.gif)
+    <br/>![l4d_multiple_equipment_remake_3](image/l4d_multiple_equipment_remake_3.gif)
+    <br/>![l4d_multiple_equipment_remake_4](image/l4d_multiple_equipment_remake_4.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -68,82 +68,82 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_multiple_equipment.cfg
+	* cfg/sourcemod/l4d_multiple_equipment_remake.cfg
 		```php
         // 0=Plugin off, 1=Plugin on.
-        l4d_multiple_equipment_enable "1"
+        l4d_multiple_equipment_remake_enable "1"
 
         // (Primary Weapon), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot0_enable "1"
+        l4d_multiple_equipment_remake_slot0_enable "1"
 
         // (Melee/Pistol), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot1_enable "0"
+        l4d_multiple_equipment_remake_slot1_enable "0"
 
         // (Throwable Item), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot2_enable "1"
+        l4d_multiple_equipment_remake_slot2_enable "1"
 
         // (Slots 4 Medkit/Defibrillator/Upgrade Pack), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot3_enable "1"
+        l4d_multiple_equipment_remake_slot3_enable "1"
 
         // (Slots 5 Pills/Adrenaline), 0=Disable, 1=Enable
-        l4d_multiple_equipment_slot4_enable "1"
+        l4d_multiple_equipment_remake_slot4_enable "1"
 
         // 1=Allow pick up same primary weapons (0=Not Allow)
-        l4d_multiple_equipment_slot0_same "0"
+        l4d_multiple_equipment_remake_slot0_same "0"
 
         // (L4D2 only) 1=Allow pick up same melee/pistol weapons (0=Not Allow)
-        l4d_multiple_equipment_slot1_same "0"
+        l4d_multiple_equipment_remake_slot1_same "0"
 
         // 1=Allow pick up same throwable items (0=Not Allow)
-        l4d_multiple_equipment_slot2_same "1"
+        l4d_multiple_equipment_remake_slot2_same "1"
 
         // (L4D2 only) 1=Allow pick up same medkit/fefibrillator/upgrade pack items (0=Not Allow)
-        l4d_multiple_equipment_slot3_same "1"
+        l4d_multiple_equipment_remake_slot3_same "1"
 
         // (L4D2 only) 1=Allow pick up same pill/adrenaline items (0=Not Allow)
-        l4d_multiple_equipment_slot4_same "1"
+        l4d_multiple_equipment_remake_slot4_same "1"
 
         // How to switch equipments
         // 0=Single Press slot 1,2,3,4,5
         // 1="_switch_buttons" key + Single Press slot 1,2,3,4,5
-        l4d_multiple_equipment_switch_mode "0"
+        l4d_multiple_equipment_remake_switch_mode "0"
 
         // (_switch_mode=1 only)Hold which button to trigger "Switch Equipments Slot 1,2,3,4,5", 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 65536=Tab, 524288=Middle Mouse
         // You can add numbers together, ex: 655360=Shift + Middle Mouse
-        l4d_multiple_equipment_switch_buttons "65536"
+        l4d_multiple_equipment_remake_switch_buttons "65536"
 
         // If 1, player can type !sw to switch equipments
-        l4d_multiple_equipment_switch_cmd "1"
+        l4d_multiple_equipment_remake_switch_cmd "1"
 
         // If 1, lock primary gun shoot when reaching 0 ammo (For the convenience to switch weapons)
-        l4d_multiple_equipment_ammo_lock "1"
+        l4d_multiple_equipment_remake_ammo_lock "1"
 
         // Players with these flags have access to switch equipments and carry 2 weapons or items in each slot. (Empty = Everyone, -1: Nobody)
-        l4d_multiple_equipment_access_flag ""
+        l4d_multiple_equipment_remake_access_flag ""
 
         // If 1, Display Extra Item Equipment on the survivor
-        l4d_multiple_equipment_view "1"
+        l4d_multiple_equipment_remake_view "1"
 
         // If 1, Enable AFK Save
-        l4d_multiple_equipment_afk_save "1"
+        l4d_multiple_equipment_remake_afk_save "1"
 
         // If 1, Player drops all second equipments and second items when die
-        l4d_multiple_equipment_death_drop "1"
+        l4d_multiple_equipment_remake_death_drop "1"
 
         // Show 'switch_mode' message to players entering survivor, 0=Off, 1=Chatbox, 2=Hint
-        l4d_multiple_equipment_mode_notify "2"
+        l4d_multiple_equipment_remake_mode_notify "2"
 
         // Show 'switch_cmd' message to players entering survivor, 0=Off, 1=Chatbox, 2=Hint
-        l4d_multiple_equipment_cmd_notify "1"
+        l4d_multiple_equipment_remake_cmd_notify "1"
 
         // If 1, Show 'Can't pick up same weapon/melee' message to players, 0=Off
-        l4d_multiple_equipment_same_notify "1"
+        l4d_multiple_equipment_remake_same_notify "1"
 
         // If 1, Show 'You can carry more weapons' message to players, 0=Off
-        l4d_multiple_equipment_more_notify "1"
+        l4d_multiple_equipment_remake_more_notify "1"
 
         // If 1, Show 'Current weapon is out of ammo' message to players, 0=Off
-        l4d_multiple_equipment_empty_notify "1"
+        l4d_multiple_equipment_remake_empty_notify "1"
 		```
 </details>
 
@@ -158,15 +158,15 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>API | 串接</summary>
 
-    * [l4d_multiple_equipment.inc](scripting/include/l4d_multiple_equipment.inc)
+    * [l4d_multiple_equipment_remake.inc](scripting/include/l4d_multiple_equipment_remake.inc)
         ```php
-        library name: l4d_multiple_equipment
+        library name: l4d_multiple_equipment_remake
         ```
 </details>
 
 * Translation Support | 支援翻譯
 	```
-	translations/l4d_multiple_equipment.phrases.txt
+	translations/l4d_multiple_equipment_remake.phrases.txt
 	```
 
 * <details><summary>Related Plugin | 相關插件</summary>
@@ -288,83 +288,83 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d_multiple_equipment.cfg
+	* cfg/sourcemod/l4d_multiple_equipment_remake.cfg
 		```php
         // 0=關閉插件, 1=啟動插件
-        l4d_multiple_equipment_enable "1"
+        l4d_multiple_equipment_remake_enable "1"
 
         // (主武器 可攜帶兩把), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot0_enable "1"
+        l4d_multiple_equipment_remake_slot0_enable "1"
 
         // (近戰/手槍 可攜帶兩把), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot1_enable "0"
+        l4d_multiple_equipment_remake_slot1_enable "0"
 
         // (投擲物品 可攜帶兩瓶), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot2_enable "1"
+        l4d_multiple_equipment_remake_slot2_enable "1"
 
         // (Slots 4 醫療包/電擊器/升級彈包 可攜帶兩個), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot3_enable "1"
+        l4d_multiple_equipment_remake_slot3_enable "1"
 
         // (Slots 5 藥丸/腎上腺素 可攜帶兩個), 0=關閉, 1=啟用
-        l4d_multiple_equipment_slot4_enable "1"
+        l4d_multiple_equipment_remake_slot4_enable "1"
 
         // (可攜帶相同 主武器), 0=不可以, 1=可以
-        l4d_multiple_equipment_slot0_same "0"
+        l4d_multiple_equipment_remake_slot0_same "0"
 
         // (限L4D2) (可攜帶相同 近戰/手槍),  0=不可以, 1=可以
-        l4d_multiple_equipment_slot1_same "0"
+        l4d_multiple_equipment_remake_slot1_same "0"
 
         // (可攜帶相同 投擲物品),  0=不可以, 1=可以
-        l4d_multiple_equipment_slot2_same "1"
+        l4d_multiple_equipment_remake_slot2_same "1"
 
         // (限L4D2) (可攜帶相同 醫療包/電擊器/升級彈包),  0=不可以, 1=可以
-        l4d_multiple_equipment_slot3_same "1"
+        l4d_multiple_equipment_remake_slot3_same "1"
 
         // (限L4D2) (可攜帶相同 藥丸/腎上腺素),  0=不可以, 1=可以
-        l4d_multiple_equipment_slot4_same "1"
+        l4d_multiple_equipment_remake_slot4_same "1"
 
         // 玩家如何切換裝備
         // 0=單擊 Slot 1,2,3,4,5 按鈕
         // 1=按住"switch_buttons"指定的按鍵+單擊 Slot 1,2,3,4,5 按鈕
-        l4d_multiple_equipment_switch_mode "0"
+        l4d_multiple_equipment_remake_switch_mode "0"
 
         // (_switch_mode 必須為1) 按住哪個按鍵開啟"單擊 Slot 1,2,3,4,5 按鈕切換裝備"? 
         // 131072=Shift鍵, 4=蹲下鍵, 32=E鍵, 8192=R鍵, 65536=Tab, 524288=滾輪鍵
 		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
-        l4d_multiple_equipment_switch_buttons "65536"
+        l4d_multiple_equipment_remake_switch_buttons "65536"
 
         // 為1時，玩家也可以輸入 !sw 切換裝備
-        l4d_multiple_equipment_switch_cmd "1"
+        l4d_multiple_equipment_remake_switch_cmd "1"
 
         // 為1時，主武器0彈藥時，會剩下最後一顆子彈並鎖住不能開槍 (為了方便切換主武器使用)
-        l4d_multiple_equipment_ammo_lock "1"
+        l4d_multiple_equipment_remake_ammo_lock "1"
 
         // 擁有這些權限的玩家，才可以輸入切換備用裝備與攜帶雙武器與物品 (留白 = 任何人都能, -1: 無人)
-        l4d_multiple_equipment_access_flag ""
+        l4d_multiple_equipment_remake_access_flag ""
 
         // 為1時，玩家身上顯示額外攜帶的裝備 (裝飾用的)
-        l4d_multiple_equipment_view "1"
+        l4d_multiple_equipment_remake_view "1"
 
         // 為1時，即使玩家閒置或AFK可以保存備用裝備
-        l4d_multiple_equipment_afk_save "1"
+        l4d_multiple_equipment_remake_afk_save "1"
 
         // 為1時，玩家死亡時掉出所有備用裝備的武器與物資
-        l4d_multiple_equipment_death_drop "1"
+        l4d_multiple_equipment_remake_death_drop "1"
 
         // 按鈕操作該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框)
-        l4d_multiple_equipment_mode_notify "2"
+        l4d_multiple_equipment_remake_mode_notify "2"
 
         // 指令操作該如何顯示. (0: 不提示, 1: 聊天框, 2: 黑底白字框)
-        l4d_multiple_equipment_cmd_notify "1"
+        l4d_multiple_equipment_remake_cmd_notify "1"
 
         // 1=顯示'無法撿起相同的武器/近戰'給玩家看, 0=不顯示
-        l4d_multiple_equipment_same_notify "1"
+        l4d_multiple_equipment_remake_same_notify "1"
 
         // 1=顯示'可攜帶額外武器'給玩家看, 0=不顯示
-        l4d_multiple_equipment_more_notify "1"
+        l4d_multiple_equipment_remake_more_notify "1"
 
         // 1=顯示'當前武器子彈已用完'給玩家看, 0=不顯示
-        l4d_multiple_equipment_empty_notify "1"
+        l4d_multiple_equipment_remake_empty_notify "1"
 		```
 </details>
 

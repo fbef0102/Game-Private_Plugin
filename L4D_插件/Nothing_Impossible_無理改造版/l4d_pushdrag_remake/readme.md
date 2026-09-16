@@ -9,9 +9,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Image | 圖示
 	* Wingardium Leviosa! (溫咖癲啦唯啊薩)
-	<br/>![l4d_pushdrag_1](image/l4d_pushdrag_1.gif)
-	<br/>![l4d_pushdrag_2](image/l4d_pushdrag_2.jpg)
-	<br/>![l4d_pushdrag_3](image/l4d_pushdrag_3.jpg)
+	<br/>![l4d_pushdrag_remake_1](image/l4d_pushdrag_remake_1.gif)
+	<br/>![l4d_pushdrag_remake_2](image/l4d_pushdrag_remake_2.jpg)
+	<br/>![l4d_pushdrag_remake_3](image/l4d_pushdrag_remake_3.jpg)
 
 * <details><summary>How does it work?</summary>
 
@@ -32,91 +32,91 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>ConVar | 指令</summary>
 
-	* cfg/sourcemod/l4d_pushdrag.cfg
+	* cfg/sourcemod/l4d_pushdrag_remake.cfg
 		```php
 		// Which entity can survivor grab? 
 		// 0: Disable, 1: Player, 2:, Weapon/Item 4: Hittable Prop, 8: Moveable Prop (including pipe bomb projectile, fuel barrel, holiday gift...), 16: Tank Rock, 31: All
-		l4d_pushdrag_survivor_grab "31"
+		l4d_pushdrag_remake_survivor_grab "31"
 
 		// Which entity can infected grab? 
 		// 0: Disable, 1: Player, 2:, Weapon/Item 4: Hittable Prop, 8: Moveable Prop (including pipe bomb projectile, fuel barrel, holiday gift...), 16: Tank Rock, 31: All
-		l4d_pushdrag_infected_grab "31"
+		l4d_pushdrag_remake_infected_grab "31"
 
 		// Player with these flag have access to Grab object (Empty=Everyone, -1=No one)
-		l4d_pushdrag_access_flags ""
+		l4d_pushdrag_remake_access_flags ""
 
 		// Grab distance within this range
-		l4d_pushdrag_grab_distance "400"
+		l4d_pushdrag_remake_grab_distance "400"
 
 		// Grab tank rock distance within this range
-		l4d_pushdrag_grab_rock_distance "400"
+		l4d_pushdrag_remake_grab_rock_distance "400"
 
 		// Press which button twice to grab the objects, , 131072=Shift, 4=Ctrl, 32=Use, 8192=Reload, 524288=Middle Mouse
 		// You can add numbers together, ex: 655360=Shift + Middle Mouse
-		l4d_pushdrag_grab_buttons "32"
+		l4d_pushdrag_remake_grab_buttons "32"
 
 		// Block players using keys when grabbing the objects. (0=Disable, 1=Attack, 2=Attack2, 4=Reload, 7=All, add numbers together)
-		l4d_pushdrag_grab_block_key "6"
+		l4d_pushdrag_remake_grab_block_key "6"
 
 		// If 1, Prevent players from taking damage with the objects they grab.
-		l4d_pushdrag_grab_protect "1"
+		l4d_pushdrag_remake_grab_protect "1"
 
 		// The velocity of the objects when players throw
-		l4d_pushdrag_throw_force "2000.0"
+		l4d_pushdrag_remake_throw_force "2000.0"
 
 		// Hold Distance when grabbing a player
-		l4d_pushdrag_player_hold_distance "70.0"
+		l4d_pushdrag_remake_player_hold_distance "70.0"
 
 		// Hold Distance when grabbing a weapon
-		l4d_pushdrag_weapon_hold_distance "50.0"
+		l4d_pushdrag_remake_weapon_hold_distance "50.0"
 
 		// Hold Distance when grabbing a hittable prop
-		l4d_pushdrag_hittable_hold_distance "200.0"
+		l4d_pushdrag_remake_hittable_hold_distance "200.0"
 
 		// Hold Distance when grabbing a moveable prop (including pipe bomb projectile, fuel barrel, holiday gift...)
-		l4d_pushdrag_prop_hold_distance "120.0"
+		l4d_pushdrag_remake_prop_hold_distance "120.0"
 
 		// Hold Distance when grabbing a tank rock
-		l4d_pushdrag_rock_hold_distance "300.0"
+		l4d_pushdrag_remake_rock_hold_distance "300.0"
 
 		// How long can players grab a player
-		l4d_pushdrag_player_duration "15.0"
+		l4d_pushdrag_remake_player_duration "15.0"
 
 		// How long can players grab a weapon
-		l4d_pushdrag_weapon_duration "30.0"
+		l4d_pushdrag_remake_weapon_duration "30.0"
 
 		// How long can players grab a hittable prop
-		l4d_pushdrag_hittable_duration "10.0"
+		l4d_pushdrag_remake_hittable_duration "10.0"
 
 		// How long can players grab a moveable prop
-		l4d_pushdrag_prop_duration "15.0"
+		l4d_pushdrag_remake_prop_duration "15.0"
 
 		// How long can players grab a tank rock
-		l4d_pushdrag_rock_duration "8.0"
+		l4d_pushdrag_remake_rock_duration "8.0"
 
 		// Change player move speed when grabbing a player
-		l4d_pushdrag_player_speed "180.0"
+		l4d_pushdrag_remake_player_speed "180.0"
 
 		// Change player move speed when grabbing a weapon
-		l4d_pushdrag_weapon_speed "210.0"
+		l4d_pushdrag_remake_weapon_speed "210.0"
 
 		// Change player move speed when grabbing a hittable prop
-		l4d_pushdrag_hittable_speed "100.0"
+		l4d_pushdrag_remake_hittable_speed "100.0"
 
 		// Change player move speed when grabbing a moveable prop
-		l4d_pushdrag_prop_speed "150.0"
+		l4d_pushdrag_remake_prop_speed "150.0"
 
 		// Change player move speed when grabbing a tank rock
-		l4d_pushdrag_rock_speed "220.0"
+		l4d_pushdrag_remake_rock_speed "220.0"
 
 		// If 1, player can press 'Attack2' key to release himself if grabbed by another player
-		l4d_pushdrag_grabbed_player_release "1"
+		l4d_pushdrag_remake_grabbed_player_release "1"
 
 		// If 1, incapacitated survivor can grab the objects
-		l4d_pushdrag_incap_grab_enable "1"
+		l4d_pushdrag_remake_incap_grab_enable "1"
 
 		// If 1, player can grab the incapacitated survivor
-		l4d_pushdrag_grab_incap_enable "1"
+		l4d_pushdrag_remake_grab_incap_enable "1"
 		```
 </details>
 
@@ -178,91 +178,91 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
-	* cfg/sourcemod/l4d_pushdrag.cfg
+	* cfg/sourcemod/l4d_pushdrag_remake.cfg
 		```php
 		// 人類可以對哪些物品使用漂浮咒? 
 		// 0=不能使用, 1=隊友, 2=武器與物品 4: Tank可以打得動的車子或是物件, 8: 可以移動的物件 (含已丟出去的土製炸彈、汽油桶、禮物盒等等...), 16: Tank丟出去的石頭, 31: 全部
-		l4d_pushdrag_survivor_grab "31"
+		l4d_pushdrag_remake_survivor_grab "31"
 
 		// 特感可以對哪些物品使用漂浮咒? 
 		// 0=不能使用, 1=隊友, 2=武器與物品 4: Tank可以打得動的車子或是物件, 8: 可以移動的物件 (含已丟出去的土製炸彈、汽油桶、禮物盒等等...), 16: Tank丟出去的石頭, 31: 全部
-		l4d_pushdrag_infected_grab "31"
+		l4d_pushdrag_remake_infected_grab "31"
 
 		// 擁有這些權限的玩家，才可以使用飄浮咒 (留白 = 任何人都能, -1: 無人)
-		l4d_pushdrag_access_flags ""
+		l4d_pushdrag_remake_access_flags ""
 
 		// 可以抓400公尺範圍內的 物品
-		l4d_pushdrag_grab_distance "400"
+		l4d_pushdrag_remake_grab_distance "400"
 
 		// 可以抓400公尺範圍內 Tank丟出去的石頭
-		l4d_pushdrag_grab_rock_distance "400"
+		l4d_pushdrag_remake_grab_rock_distance "400"
 
 		// 哪個按鍵雙擊兩下可以使用飄浮咒? 131072=Shift鍵, 4=Ctrl鍵, 32=E鍵, 8192=R鍵, 524288=滾輪鍵
 		// 可以數字相加, 譬如: 655360=必須同時按 "Shift鍵+滾輪鍵"
-		l4d_pushdrag_grab_buttons "32"
+		l4d_pushdrag_remake_grab_buttons "32"
 
 		// 當玩家被其他人使用飄浮咒控制時，禁止使用以下按鈕. (0=關閉這項功能, 1=左鍵, 2=右鍵, 4=裝彈, 請將數字相加起來, 7=全部)
-		l4d_pushdrag_grab_block_key "6"
+		l4d_pushdrag_remake_grab_block_key "6"
 
 		// 為1時，玩家再操控的車子的期間不會砸傷自己
-		l4d_pushdrag_grab_protect "1"
+		l4d_pushdrag_remake_grab_protect "1"
 
 		// 玩家把物品丟出去的力道
-		l4d_pushdrag_throw_force "2000.0"
+		l4d_pushdrag_remake_throw_force "2000.0"
 
 		// 抓取隊友的時候，飄浮在空中與你保持的距離
-		l4d_pushdrag_player_hold_distance "70.0"
+		l4d_pushdrag_remake_player_hold_distance "70.0"
 
 		// 抓取武器的時候，飄浮在空中與你保持的距離
-		l4d_pushdrag_weapon_hold_distance "50.0"
+		l4d_pushdrag_remake_weapon_hold_distance "50.0"
 
 		// 抓取車子的時候，飄浮在空中與你保持的距離
-		l4d_pushdrag_hittable_hold_distance "200.0"
+		l4d_pushdrag_remake_hittable_hold_distance "200.0"
 
 		// 抓取物品的時候，飄浮在空中與你保持的距離 (包含已丟出去的土製炸彈、汽油桶、禮物盒等等...)
-		l4d_pushdrag_prop_hold_distance "120.0"
+		l4d_pushdrag_remake_prop_hold_distance "120.0"
 
 		// 抓取Tank丟出去的石頭時候，飄浮在空中與你保持的距離
-		l4d_pushdrag_rock_hold_distance "300.0"
+		l4d_pushdrag_remake_rock_hold_distance "300.0"
 
 		// 抓取隊友，只能控制15秒
-		l4d_pushdrag_player_duration "15.0"
+		l4d_pushdrag_remake_player_duration "15.0"
 
 		// 抓取武器，只能控制30秒
-		l4d_pushdrag_weapon_duration "30.0"
+		l4d_pushdrag_remake_weapon_duration "30.0"
 
 		// 抓取車子，只能控制10秒
-		l4d_pushdrag_hittable_duration "10.0"
+		l4d_pushdrag_remake_hittable_duration "10.0"
 
 		// 抓取物品，只能控制15秒
-		l4d_pushdrag_prop_duration "15.0"
+		l4d_pushdrag_remake_prop_duration "15.0"
 
 		// 抓取Tank丟出去的石頭，只能控制8秒
-		l4d_pushdrag_rock_duration "8.0"
+		l4d_pushdrag_remake_rock_duration "8.0"
 
 		// 抓取隊友，能移動的速度
-		l4d_pushdrag_player_speed "180.0"
+		l4d_pushdrag_remake_player_speed "180.0"
 
 		// 抓取武器，能移動的速度
-		l4d_pushdrag_weapon_speed "210.0"
+		l4d_pushdrag_remake_weapon_speed "210.0"
 
 		// 抓取車子，能移動的速度
-		l4d_pushdrag_hittable_speed "100.0"
+		l4d_pushdrag_remake_hittable_speed "100.0"
 
 		// 抓取物品，能移動的速度
-		l4d_pushdrag_prop_speed "150.0"
+		l4d_pushdrag_remake_prop_speed "150.0"
 
 		// 抓取Tank丟出去的石頭，能移動的速度
-		l4d_pushdrag_rock_speed "220.0"
+		l4d_pushdrag_remake_rock_speed "220.0"
 
 		// 為1時，玩家被其他人使用飄浮咒控制時，可以按下 '右鍵' 釋放自己
-		l4d_pushdrag_grabbed_player_release "1"
+		l4d_pushdrag_remake_grabbed_player_release "1"
 
 		// 為1時，倒地的玩家也能使用飄浮咒
-		l4d_pushdrag_incap_grab_enable "1"
+		l4d_pushdrag_remake_incap_grab_enable "1"
 
 		// 為1時，可以抓取倒地的玩家
-		l4d_pushdrag_grab_incap_enable "1"
+		l4d_pushdrag_remake_grab_incap_enable "1"
 		```
 </details>
 

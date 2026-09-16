@@ -49,6 +49,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.4h (2026-9-16)
+		* Update data, add "incap_help_buttons" keyvalue
+
 	* v1.3h (2025-10-27)
 		* Fixed buttons detect while incap or hanging from ledge
 
