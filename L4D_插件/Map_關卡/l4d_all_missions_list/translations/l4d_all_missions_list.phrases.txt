@@ -123,27 +123,4 @@
 		"zho"			"尚無地圖"
 		"chi"			"尚无地图"
 	}
-
-	// add translation for custom map if you want
-	// 自行新增三方圖的關卡翻譯
-	"Glubtastic 4"
-	{
-		"en"			"Glubtastic 4"
-		"zho"			"憂鬱4"
-		"chi"			"忧郁4"
-	}
-
-	"glubtastic4_1"
-	{
-		"en"			"Airforce Glub"
-		"zho"			"空軍俱樂部"
-		"chi"			"空军俱乐部"
-	}
-	
-	"The Cure"
-	{
-		"en"		"The Cure"
-		"zho"		"治癒"
-		"chi"		"治愈"
-	}
 }

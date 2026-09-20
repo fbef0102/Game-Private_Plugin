@@ -38,6 +38,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* Auto change map to official map if no one in server when playing custom maps
 	* Support fuzzy matching. Example: ```!mapvote dead```, filter maps whose names contain "dead".
 	<br/>![sm_l4d_mapchanger_4](image/sm_l4d_mapchanger_4.jpg)
+	* To tranlsate map name, install l4d2_mission_manager (see "Require" below) and modify
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
 </details>
 
 * Require | 必要安裝
@@ -48,6 +53,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 修復手動更換地圖會遇到的問題
 	5. (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+
+* FAQ
+	1. <details><summary>How to change map order?</summary>
+
+		* After install this plugin and start the server, the following files would be automatically generated.
+		* You can modify to change map order
+			* configs/sm_l4d_mapchanger.coop.txt
+			* configs/sm_l4d_mapchanger.scavenge.txt
+			* configs/sm_l4d_mapchanger.survival.txt
+			* configs/sm_l4d_mapchanger.versus.txt
+	</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -158,6 +174,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.1h (2026-9-20)
+		* Optimize code
+		* Upate config
+
 	* v2.0h (2026-7-23)
 		* Support L4D1
 
@@ -233,6 +253,22 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* 三方圖沒有人時，自動換回官方圖
 	* 支援模糊詞搜尋投票地圖清單，譬如輸入```!mapvote 广```，只會出現有"广"名稱的地圖
 	<br/>![zho/sm_l4d_mapchanger_3](image/zho/sm_l4d_mapchanger_4.jpg)
+	* 如果想自行翻譯地圖名稱，安裝 l4d2_mission_manager (查看上方 "必要安裝") 然後修改文件
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
+
+* FAQ
+	1. <details><summary>能否修改地圖順序?</summary>
+
+		* 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
+		* 可以更動以下檔案的內容，改變地圖順序
+			* configs/sm_l4d_mapchanger.coop.txt
+			* configs/sm_l4d_mapchanger.scavenge.txt
+			* configs/sm_l4d_mapchanger.survival.txt
+			* configs/sm_l4d_mapchanger.versus.txt
+	</details>
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -318,44 +354,3 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		sm_mapvotes
 		```
 </details>
-
-
-* 注意事項
-	1. <details><summary>安裝此插件之後</summary>
-
-		* 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案
-			* configs/missioncycle.coop.txt
-			* configs/missioncycle.scavenge.txt
-			* configs/missioncycle.survival.txt
-			* configs/missioncycle.versus.txt
-			* configs/finale.coop.txt
-	</details>
-
-	2. <details><summary>安裝新的三方圖</summary>
-
-		* 每當安裝新的三方圖時，left4dead2/addons/sourcemod/configs/內的文件內容會有變化，自動新增三方圖的關卡與地圖名
-			* configs/missioncycle.coop.txt
-			* configs/missioncycle.scavenge.txt
-			* configs/missioncycle.survival.txt
-			* configs/missioncycle.versus.txt
-	</details>
-
-	3. <details><summary>刪除三方圖</summary>
-
-		* 每次刪除三方圖檔案的時候，我建議關閉伺服器然後刪除以下檔案
-			* configs/missioncycle.coop.txt
-			* configs/missioncycle.scavenge.txt
-			* configs/missioncycle.survival.txt
-			* configs/missioncycle.versus.txt
-		* 再重新啟動服務器，如果不這麼做那也沒關係
-	</details>
-
-* FAQ
-	1. <details><summary>能否修改地圖順序?</summary>
-
-		* 可以更動以下檔案的內容，改變地圖順序
-			* configs/missioncycle.coop.txt
-			* configs/missioncycle.scavenge.txt
-			* configs/missioncycle.survival.txt
-			* configs/missioncycle.versus.txt
-	</details>

@@ -37,6 +37,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Manual in this file, click for more details...
 	* Type ```!newmapvote xxxx``` to filter custom map list. Example: ```!newmapvote city```, filter maps whose names contain "city".
 	<br/>![l4d2_vote_change_7](image/l4d2_vote_change_7.jpg)
+	* To tranlsate map name, install l4d2_mission_manager (see "Require" below) and modify
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
 </details>
 
 * Require | 必要安裝
@@ -45,9 +50,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	3. [builtinvotes](https://github.com/fbef0102/builtinvotes/releases)
 	4. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
 	5. [l4dtoolz](/Tutorial_教學區/English/Server/Install_Other_File#l4dtoolz)
-	6. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+	6. [l4d2_mission_manager](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_mission_manager)
+	7. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
 		* 修復手動更換地圖會遇到的問題
-	7. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+	8. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 		
 * <details><summary>Support | 支援插件</summary>
@@ -132,6 +138,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.8h (2026-9-20)
+		* Optimize code
+		* Require l4d2_mission_manager by harry
+		* Update translation
+
 	* v1.7h (2026-1-20)
 		* Custom map vote supports fuzzy matching, use ```!newmapvote <string>```
 		* Update translation
@@ -191,7 +202,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 內有中文說明，可點擊查看
 	* 三方圖投票清單支援模糊詞搜尋，譬如輸入```!newmapvote 广```，只會出現有"广"名稱的地圖
 	<br/>![zho/l4d2_vote_change_7](image/zho/l4d2_vote_change_7.jpg)
-
+	* 如果想自行翻譯地圖名稱，安裝 l4d2_mission_manager (查看上方 "必要安裝") 然後修改文件
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
+		
 * 投票選單表
 	* 請看上方圖示
 	

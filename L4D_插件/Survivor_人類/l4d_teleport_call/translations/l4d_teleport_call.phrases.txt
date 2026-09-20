@@ -12,6 +12,12 @@
 		"zho"		"傳到身邊 (所有倖存者)"
 		"chi"		"传到身边 (所有生还者)"
 	}
+	"warp_all_survivors_crosshair"
+	{
+		"en"		"Warp all survivors to crosshair"
+		"zho"		"傳到準心指向位置 (所有倖存者)"
+		"chi"		"传到准心指向位置 (所有生还者)"
+	}
 	"warp_all_survivors_to_start_area"
 	{
 		"en"		"Warp all survivors to start area"
@@ -35,6 +41,12 @@
 		"en"		"Warp player here"
 		"zho"		"傳到身邊 (選擇玩家)"
 		"chi"		"传到身边 (选择玩家)"
+	}	
+	"warp_survivor_crosshair"
+	{
+		"en"		"Warp player to crosshair"
+		"zho"		"傳到準心指向位置 (選擇玩家)"
+		"chi"		"传到准心指向位置 (选择玩家)"
 	}
 	"warp_to_start_area"
 	{
@@ -69,9 +81,9 @@
 	"Admin calls teleport (C)"
 	{
 		"#format"		"{1:t}"
-		"en"		"Admin calls teleport function: {green}{1}"
-		"zho"		"管理員呼叫傳送功能: {green}{1}"
-		"chi"		"管理员呼叫传送功能: {green}{1}"
+		"en"		"[{olive}TS{default}] Admin calls teleport function: {green}{1}"
+		"zho"		"[{olive}TS{default}] 管理員呼叫傳送功能: {green}{1}"
+		"chi"		"[{olive}TS{default}] 管理员呼叫传送功能: {green}{1}"
 	}
 	"Admin calls teleport"
 	{
@@ -83,9 +95,9 @@
 	"Admin calls teleport for you (C)"
 	{
 		"#format"		"{1:t}"
-		"en"		"Admin calls teleport function for you: {green}{1}"
-		"zho"		"管理員對您使用傳送功能: {green}{1}"
-		"chi"		"管理员对您使用传送功能: {green}{1}"
+		"en"		"[{olive}TS{default}] Admin calls teleport function for you: {green}{1}"
+		"zho"		"[{olive}TS{default}] 管理員對您使用傳送功能: {green}{1}"
+		"chi"		"[{olive}TS{default}] 管理员对您使用传送功能: {green}{1}"
 	}
 	"Admin calls teleport for you"
 	{
@@ -93,12 +105,6 @@
 		"en"		"Admin calls teleport function: {1}"
 		"zho"		"管理員對您使用傳送功能: {1}"
 		"chi"		"管理员对您使用传送功能: {1}"
-	}
-	"Choose Player"
-	{
-		"en"		"Choose Player"
-		"zho"		"選擇玩家"
-		"chi"		"选择玩家"
 	}
 	"No Any alive player"
 	{
@@ -118,12 +124,6 @@
 		"zho"		"救援載具尚未來臨！"
 		"chi"		"救援载具尚未来临！"
 	}
-	"VehicleNotReady"
-	{
-		"en"		"Rescue vehicle is not ready yet!"
-		"zho"		"救援載具尚未來臨！"
-		"chi"		"救援载具尚未来临！"
-	}
 	"warp_to_rescue_vehicle"
 	{
 		"en"		"Warp player to rescue vehicle"
@@ -136,4 +136,10 @@
 		"zho"		"錯誤! 無法找到救援載具區域"
 		"chi"		"错误! 无法找到救援载具区域"
 	}
+	"CrossHair invalid position"
+	{
+		"en"		"Failed to teleport, please change crosshair position"
+		"zho"		"無法傳送, 請變更準心位置"
+		"chi"		"无法传送, 请变更准心位置"
+	}	
 }

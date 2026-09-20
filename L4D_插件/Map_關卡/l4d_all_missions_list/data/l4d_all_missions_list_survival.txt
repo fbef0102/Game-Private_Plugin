@@ -2,345 +2,92 @@
 {
 	"List"
 	{
-		"Custom"
-		{
-			"Total"		"3"
-			"1"		"Beyond Dead"
-			"2"		"Dr. Malroy: The First Encounter"
-			"3"		"Lockdown"
-		}
 		"Valve"
 		{
 			"Total"		"14"
-			"1"		"#L4D360UI_CampaignName_C1"
-			"10"		"#L4D360UI_CampaignName_C10"
-			"11"		"#L4D360UI_CampaignName_C11"
-			"12"		"#L4D360UI_CampaignName_C12"
-			"13"		"#L4D360UI_CampaignName_C13"
-			"14"		"#L4D360UI_CampaignName_C14"
-			"2"		"#L4D360UI_CampaignName_C2"
-			"3"		"#L4D360UI_CampaignName_C3"
-			"4"		"#L4D360UI_CampaignName_C4"
-			"5"		"#L4D360UI_CampaignName_C5"
-			"6"		"#L4D360UI_CampaignName_C6"
-			"7"		"#L4D360UI_CampaignName_C7"
-			"8"		"#L4D360UI_CampaignName_C8"
-			"9"		"#L4D360UI_CampaignName_C9"
-		}
-	}
-	"Missions"
-	{
-		"Beyond Dead"
-		{
-			"Name"		"beyonddead"
 			"1"
 			{
-				"Map"		"e3m2_rotenacht"
-				"DisplayName"		"1: Rote Nacht (Echo Chamber)"
+				"DisplayTitle"		"#L4D360UI_CampaignName_C1"
+				"mission_index"		"0"
 			}
 			"2"
 			{
-				"Map"		"e3m3_descent"
-				"DisplayName"		"2: Descent (Excavation Tunnel)"
+				"DisplayTitle"		"#L4D360UI_CampaignName_C2"
+				"mission_index"		"1"
 			}
 			"3"
 			{
-				"Map"		"e3m4_intothenothing"
-				"DisplayName"		"3: Into the Nothing (Guillotine Room)"
-			}
-		}
-		"#L4D360UI_CampaignName_C1"
-		{
-			"Name"		"L4D2C1"
-			"1"
-			{
-				"Map"		"c1m2_streets"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C1M2"
-			}
-			"2"
-			{
-				"Map"		"c1m4_atrium"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C1M4"
-			}
-		}
-		"#L4D360UI_CampaignName_C10"
-		{
-			"Name"		"L4D2C10"
-			"1"
-			{
-				"Map"		"c10m2_drainage"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C10M2"
-			}
-			"2"
-			{
-				"Map"		"c10m3_ranchhouse"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C10M3"
-			}
-			"3"
-			{
-				"Map"		"c10m4_mainstreet"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C10M4"
+				"DisplayTitle"		"#L4D360UI_CampaignName_C3"
+				"mission_index"		"2"
 			}
 			"4"
 			{
-				"Map"		"c10m5_houseboat"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C10M5"
-			}
-		}
-		"#L4D360UI_CampaignName_C11"
-		{
-			"Name"		"L4D2C11"
-			"1"
-			{
-				"Map"		"c11m2_offices"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C11M2"
-			}
-			"2"
-			{
-				"Map"		"c11m3_garage"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C11M3"
-			}
-			"3"
-			{
-				"Map"		"c11m4_terminal"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C11M4"
-			}
-			"4"
-			{
-				"Map"		"c11m5_runway"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C11M5"
-			}
-		}
-		"#L4D360UI_CampaignName_C12"
-		{
-			"Name"		"L4D2C12"
-			"1"
-			{
-				"Map"		"c12m2_traintunnel"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C12M2"
-			}
-			"2"
-			{
-				"Map"		"c12m3_bridge"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C12M3"
-			}
-			"3"
-			{
-				"Map"		"c12m5_cornfield"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C12M5"
-			}
-		}
-		"#L4D360UI_CampaignName_C13"
-		{
-			"Name"		"L4D2C13"
-			"1"
-			{
-				"Map"		"c13m3_memorialbridge"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C13M3"
-			}
-			"2"
-			{
-				"Map"		"c13m4_cutthroatcreek"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C13M4"
-			}
-		}
-		"#L4D360UI_CampaignName_C14"
-		{
-			"Name"		"L4D2C14"
-			"1"
-			{
-				"Map"		"c14m1_junkyard"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C14M1"
-			}
-			"2"
-			{
-				"Map"		"c14m2_lighthouse"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C14M2"
-			}
-		}
-		"#L4D360UI_CampaignName_C2"
-		{
-			"Name"		"L4D2C2"
-			"1"
-			{
-				"Map"		"c2m1_highway"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C2M1"
-			}
-			"2"
-			{
-				"Map"		"c2m4_barns"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C2M4"
-			}
-			"3"
-			{
-				"Map"		"c2m5_concert"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C2M5"
-			}
-		}
-		"#L4D360UI_CampaignName_C3"
-		{
-			"Name"		"L4D2C3"
-			"1"
-			{
-				"Map"		"c3m1_plankcountry"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C3M1"
-			}
-			"2"
-			{
-				"Map"		"c3m3_shantytown"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C3M3"
-			}
-			"3"
-			{
-				"Map"		"c3m4_plantation"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C3M4"
-			}
-		}
-		"#L4D360UI_CampaignName_C4"
-		{
-			"Name"		"L4D2C4"
-			"1"
-			{
-				"Map"		"c4m1_milltown_a"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C4M1"
-			}
-			"2"
-			{
-				"Map"		"c4m2_sugarmill_a"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C4M2"
-			}
-			"3"
-			{
-				"Map"		"c4m3_sugarmill_b"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C4M3"
-			}
-		}
-		"#L4D360UI_CampaignName_C5"
-		{
-			"Name"		"L4D2C5"
-			"1"
-			{
-				"Map"		"c5m1_waterfront"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C5M1"
-			}
-			"2"
-			{
-				"Map"		"c5m2_park"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C5M2"
-			}
-			"3"
-			{
-				"Map"		"c5m3_cemetery"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C5M3"
-			}
-			"4"
-			{
-				"Map"		"c5m4_quarter"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C5M4"
+				"DisplayTitle"		"#L4D360UI_CampaignName_C4"
+				"mission_index"		"3"
 			}
 			"5"
 			{
-				"Map"		"c5m5_bridge"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C5M5"
+				"DisplayTitle"		"#L4D360UI_CampaignName_C5"
+				"mission_index"		"4"
+			}
+			"6"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C6"
+				"mission_index"		"5"
+			}
+			"7"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C7"
+				"mission_index"		"6"
+			}
+			"8"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C8"
+				"mission_index"		"7"
+			}
+			"9"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C9"
+				"mission_index"		"8"
+			}
+			"10"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C10"
+				"mission_index"		"9"
+			}
+			"11"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C11"
+				"mission_index"		"10"
+			}
+			"12"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C12"
+				"mission_index"		"11"
+			}
+			"13"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C13"
+				"mission_index"		"12"
+			}
+			"14"
+			{
+				"DisplayTitle"		"#L4D360UI_CampaignName_C14"
+				"mission_index"		"13"
 			}
 		}
-		"#L4D360UI_CampaignName_C6"
+		"Custom"
 		{
-			"Name"		"L4D2C6"
+			"Total"		"2"
 			"1"
 			{
-				"Map"		"c6m1_riverbank"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C6M1"
+				"DisplayTitle"		"City of the Dead Redux"
+				"mission_index"		"14"
 			}
 			"2"
 			{
-				"Map"		"c6m2_bedlam"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C6M2"
-			}
-			"3"
-			{
-				"Map"		"c6m3_port"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C6M3"
-			}
-		}
-		"#L4D360UI_CampaignName_C7"
-		{
-			"Name"		"L4D2C7"
-			"1"
-			{
-				"Map"		"c7m1_docks"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C7M1"
-			}
-			"2"
-			{
-				"Map"		"c7m2_barge"
-				"DisplayName"		"#L4D360UI_LevelName_SCAVENGE_C7M2"
-			}
-			"3"
-			{
-				"Map"		"c7m3_port"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C7M3"
-			}
-		}
-		"#L4D360UI_CampaignName_C8"
-		{
-			"Name"		"L4D2C8"
-			"1"
-			{
-				"Map"		"c8m2_subway"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C8M2"
-			}
-			"2"
-			{
-				"Map"		"c8m3_sewers"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C8M3"
-			}
-			"3"
-			{
-				"Map"		"c8m4_interior"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C8M4"
-			}
-			"4"
-			{
-				"Map"		"c8m5_rooftop"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C8M5"
-			}
-		}
-		"#L4D360UI_CampaignName_C9"
-		{
-			"Name"		"L4D2C9"
-			"1"
-			{
-				"Map"		"c9m1_alleys"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C9M1"
-			}
-			"2"
-			{
-				"Map"		"c9m2_lots"
-				"DisplayName"		"#L4D360UI_LevelName_SURVIVAL_C9M2"
-			}
-		}
-		"Dr. Malroy: The First Encounter"
-		{
-			"Name"		"drmalroyfirstencounter"
-			"1"
-			{
-				"Map"		"e10m4_survival"
-				"DisplayName"		"The Crino Chamber"
-			}
-		}
-		"Lockdown"
-		{
-			"Name"		"Lockdown"
-			"1"
-			{
-				"Map"		"bt4"
-				"DisplayName"		"City"
-			}
-			"2"
-			{
-				"Map"		"bt5"
-				"DisplayName"		"Military base"
+				"DisplayTitle"		"广西-南宁 V1.15.1"
+				"mission_index"		"15"
 			}
 		}
 	}

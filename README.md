@@ -662,8 +662,8 @@
     * 使用指令或回合結束的時候顯示對CI、SI、Tank的擊傷統計表
   * [l4d_h_csm](/L4D_插件/Survivor_人類/l4d_h_csm): Allows players to change their L4D1/2 character or model in-game!
     * 允許玩家在遊戲中更換一二代角色
-  * [l4d_teleport_call](/L4D_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, or to admin self
-    * 呼叫傳送功能選單，能傳送玩家到起點、終點、救援載具區域、身邊
+  * [l4d_teleport_call](/L4D_插件/Survivor_人類/l4d_teleport_call): Teleport Call Menu, adm can teleport players to start area, end checkpoint, final rescue vehicle zone, admin self, or crosshair position
+    * 呼叫傳送功能選單，能傳送玩家到起點、終點、救援載具區域、身邊、準心指向位置
   * [l4d2healthglow](/L4D_插件/Survivor_人類/l4d2healthglow): Gives the Survivors a health glow around them + survivors always glow with a non-disappearing aura for infected (Even if survivor doesn't move or walk)
     * 根據玩家生命值狀態給予輪廓光圈適當的顏色 + 對抗模式中，特感永遠能看到人類光圈 (即使人類靜走或不動)
   * [l4d_friendly_fire_stats](/L4D_插件/Survivor_人類/l4d_friendly_fire_stats): Display all friendly fire dealt and received.

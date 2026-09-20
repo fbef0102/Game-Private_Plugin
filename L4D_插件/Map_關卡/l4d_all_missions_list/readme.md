@@ -29,14 +29,18 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Automatically add all official maps and custom maps to menu list, no need to add map manually.
     * Support fuzzy matching. Example: ```!maplist city```, filter maps whose names contain "city".
     <br/>![l4d_all_missions_list_4](image/l4d_all_missions_list_4.jpg)
-    * You can add translation for custom maps
+    * You can add translation for custom maps, install l4d2_mission_manager (see "Require" below) and modify
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
 </details>
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [builtinvotes](https://github.com/fbef0102/builtinvotes/releases)
-    4. [[INC] localizer](https://github.com/dragokas/SM-Localizer/)
+    4. [l4d2_mission_manager](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_mission_manager)
     5. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
         * 修復手動更換地圖會遇到的問題
     6. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
@@ -46,14 +50,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     1. <details><summary>After install plugin</summary>
         * It requires some time to initialize map list at first time server launch. (20 - 60 sec, and < 2 sec. next times)
         * 🟥 Plugin auto-generates the following files, please **DO NOT modify**
-            * data/l4d_all_missions_list_coop.txt
-            * data/l4d_all_missions_list_scavenge.txt
-            * data/l4d_all_missions_list_survival.txt
-            * data/l4d_all_missions_list_versus.txt
-    </details>
-
-    2. <details><summary>Install New Map</summary>
-
         * 🟥 The following files would change once install new map and remove map, please **DO NOT modify**
             * data/l4d_all_missions_list_coop.txt
             * data/l4d_all_missions_list_scavenge.txt
@@ -107,6 +103,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.6h (2026-9-20)
+		* Optimize code
+		* Require l4d2_mission_manager by harry
+		* Update translation
+
     * v1.5h (2026-1-20)
         * Support fuzzy matching, use ```!maplist <string>```
         * Update translation, cvars
@@ -152,7 +153,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * 自動新增三方圖的地圖與關卡，無須手動新增
     * 支援模糊詞搜尋，譬如輸入```!maplist 广```，只會出現有"广"名稱的地圖
     <br/>![zho/l4d_all_missions_list_4](image/zho/l4d_all_missions_list_4.jpg)
-    * 三方圖關卡的英文名稱可自己翻譯
+    * 三方圖關卡的英文名稱可自己翻譯，安裝 l4d2_mission_manager (查看上方 "必要安裝") 然後修改文件
+		* translations/maps_displayname.phrases.txt
+		* translations/maps_map.phrases.txt
+		* translations/missions_displaytitle.phrases.txt
+		* translations/missions_name.phrases.txt
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -197,16 +202,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     1. <details><summary>安裝此插件之後</summary>
 
         * 第一次啟動伺服器時，插件需要花30~60秒讀取分析地圖，因此伺服器卡住是正常的現象，請等待插件跑完
-        * 🟥 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案，請不要修改
-            * data/l4d_all_missions_list_coop.txt
-            * data/l4d_all_missions_list_scavenge.txt
-            * data/l4d_all_missions_list_survival.txt
-            * data/l4d_all_missions_list_versus.txt
-    </details>
-
-    2. <details><summary>安裝新的三方圖</summary>
-
-        * 🟥 每當安裝或移除三方圖時，以下文件內容會有變化，自動新增三方圖的地圖與關卡，請不要修改
+        * 🟥 安裝上這個插件並啟動伺服器之後，伺服器會自動產生以下檔案，**請不要修改**
+        * 🟥 每當安裝或移除三方圖時，以下文件內容會有變化，自動新增三方圖的地圖與關卡，**請不要修改**
             * data/l4d_all_missions_list_coop.txt
             * data/l4d_all_missions_list_scavenge.txt
             * data/l4d_all_missions_list_survival.txt
