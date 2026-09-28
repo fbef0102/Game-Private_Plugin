@@ -40,6 +40,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 	3. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 	4. [Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
+	5. [l4d_save_weapon_ammo](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_save_weapon_ammo)
 
 * <details><summary>ConVar | 指令</summary>
 

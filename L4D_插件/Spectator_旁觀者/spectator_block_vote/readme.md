@@ -77,10 +77,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 # 中文說明
 禁止旁觀者參與官方的投票，移除旁觀者的投票資格
 
-* 圖示
-    * 旁觀者可以在聊天框輸入```!hear```開啟或關閉 監聽模式
-    <br/>![l4d_versus_specListener_1_zho](image/zho/l4d_versus_specListener_1_zho.jpg)
-
 * 原理
     * (裝此插件之前) 
         * 旁觀者可以發起官方投票 (ESC->發起投票)

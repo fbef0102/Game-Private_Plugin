@@ -24,10 +24,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>How does it work?</summary>
 
-	* Automatically change next level when survivors wipe out in coop/realism
-	* Automatically change next map when survivors wipe out in survival
-	* Automatically change next map when match end in scavenge
-	* Automatically change next map when final ends in versus/cooo/realism
+	* Automatically change next level/map
+		* When quantity of rounds (tries) events survivors wipe out in coop/realism
+		* When quantity of rounds (tries) events survivors wipe out in survival
+		* When match end in scavenge
+		* When final ends in versus/coop/realism
 	* Modify next map in data: [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
 		* Manual in this file, click for more details...
 	* Automatic parsing of custom maps vpk files - no need to add map names manually
@@ -53,6 +54,27 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 修復手動更換地圖會遇到的問題
 	5. (L4D2) [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+
+
+* Directory Structure | 檔案結構
+	```
+	/
+	├── plugins/
+	│	└── sm_l4d_mapchanger.smx			# Compiled plugin | 已編譯的插件
+	├── configs/
+	│	├── sm_l4d_mapchanger.coop.txt		# Map list: Coop/Realism | 戰役/寫實模式的地圖
+	│	├── sm_l4d_mapchanger.scavenge.txt	# Map list: Scavenge | 清道夫模式的地圖
+	│	├── sm_l4d_mapchanger.survival.txt	# Map list: Survival | 生存模式的地圖
+	│	└── sm_l4d_mapchanger.versus.txt	# Map list: Versus | 對抗模式的地圖
+	├── data/
+	│	└── sm_l4d_mapchanger.txt			# Set the next map/level | 決定下一張地圖或是關卡
+	├── translations/
+	│	└── sm_l4d_mapchanger.phrases.txt	# Multi-language translation | 翻譯多國語言
+	└── scripting/
+		├── include/ 
+		│	└── sm_l4d_mapchanger.inc		# API | 給會寫插件的人
+		└── sm_l4d_mapchanger.sp			# Source code | 源碼
+	```
 
 * FAQ
 	1. <details><summary>How to change map order?</summary>
@@ -150,19 +172,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>API | 串接</summary>
-
-	* [sm_l4d_mapchanger.inc](scripting/include/sm_l4d_mapchanger.inc)
-		```php
-		library name: sm_l4d_mapchanger
-		```
-</details>
-
-* Translation Support | 支援翻譯
-	```
-	translations/sm_l4d_mapchanger.phrases.txt
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [l4d_restartmap_command](/L4D_插件/Map_%E9%97%9C%E5%8D%A1/l4d_restartmap_command): Admin say !restartmap to restart current map + Force of restartmap after Quantity of rounds (tries) events survivors wipe out
@@ -236,12 +245,13 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * 原理
-	* 戰役/寫實模式中當倖存者滅團超過N次時，自動切換到下一個關卡
-		* 適合用在非常多特效與高難度的戰役伺服器，避免一直卡在同一個關卡，玩家也會疲勞
-	* 戰役/寫實模式中最後一關當倖存者滅團超過N次時或成功通關時，自動切換到下一張地圖
-	* 對抗模式中最後一關當雙方回合結束之時，自動切換到下一張地圖
-	* 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
-	* 清道夫模式中當比賽結束時，自動切換到下一張地圖
+	* 此插件在發生以下情況時自動切換地圖
+		* 戰役/寫實模式中當倖存者滅團超過N次時，自動切換到下一個關卡
+			* 適合用在非常多特效與高難度的戰役伺服器，避免一直卡在同一個關卡，玩家也會疲勞
+		* 戰役/寫實模式中最後一關成功通關時，自動切換到下一張地圖
+		* 對抗模式中最後一關當雙方回合結束之時，自動切換到下一張地圖
+		* 生存模式中當倖存者滅團超過N次時，自動切換到下一張地圖
+		* 清道夫模式中當比賽結束時，自動切換到下一張地圖
 	* 修改文件自行決定下一張地圖: [data/sm_l4d_mapchanger.txt](data/sm_l4d_mapchanger.txt)
 		* 內有中文說明，可點擊查看
 	* 遊戲開始之後自動出現投票選單，玩家可以投票決定下一張地圖

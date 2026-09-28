@@ -26,7 +26,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * <details><summary>How does it work?</summary>
 
     * Press R button to view weapons pick-up animation
-    * Some custom weapon/item mods have changed pick-up animation,  For example: [Weapon mods by Denny凯妈](https://steamcommunity.com/profiles/76561198422460647/myworkshopfiles/)
+    * Some custom weapon/item mods have changed pick-up animation, For example: [Weapon mods by Denny凯妈](https://steamcommunity.com/profiles/76561198422460647/myworkshopfiles/)
         * View hidden or secret animation
         * View weapon or item like csgo
         * If mod adds more pick-up animation, you can modify [data/l4d_view_mods_pickup_anim.cfg](data/l4d_view_mods_pickup_anim.cfg)
@@ -36,6 +36,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
+
+* Directory Structure | 檔案結構
+	```
+	/
+	├── plugins/
+	│	└── l4d2_cs_kill_hud.smx            # Compiled plugin | 已編譯的插件
+	├── data/
+	│	└── l4d2_cs_kill_hud.cfg            # Customize pick-up animation | 新增更多檢視武器動畫
+	└── scripting/
+		└── l4d2_cs_kill_hud.sp             # Source code | 源碼
+	```
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -62,6 +73,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v1.3 (2026-9-29)
+        * Unable to view pick up anim animation when the weapon is unable to fire
 
     * v1.2 (2025-9-10)
         * Update cvars
