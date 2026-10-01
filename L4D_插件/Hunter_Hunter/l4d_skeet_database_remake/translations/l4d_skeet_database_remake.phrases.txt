@@ -98,16 +98,16 @@
 	"1v1 skeeted the hunter 2"
 	{
 		"#format"        "{1:d}"
-		"en"            "{lightgreen}1v1 Hunter skeets - ({default}{1}{lightgreen})"
-		"zho"			"{lightgreen}1v1 一槍空爆Hunter的數量 - ({default}{1}{lightgreen})"
-		"chi"			"{lightgreen}1v1 一枪空爆Hunter的数量 - ({default}{1}{lightgreen})"
+		"en"            "{lightgreen}1v1 Hunter skeets: {default}{1}{lightgreen}"
+		"zho"			"{lightgreen}1v1 一槍空爆Hunter的數量: {default}{1}{lightgreen}"
+		"chi"			"{lightgreen}1v1 一枪空爆Hunter的数量: {default}{1}{lightgreen}"
 	}
 	"skeeted the hunter 2"
 	{
 		"#format"        "{1:d}"
-		"en"            "{lightgreen}Hunter skeets - ({default}{1}{lightgreen})"
-		"zho"			"{lightgreen}一槍空爆Hunter的數量 - ({default}{1}{lightgreen})"
-		"chi"			"{lightgreen}一枪空爆Hunter的数量 - ({default}{1}{lightgreen})"
+		"en"            "{lightgreen}Hunter skeets: {default}{1}{lightgreen}"
+		"zho"			"{lightgreen}一槍空爆Hunter的數量: {default}{1}{lightgreen}"
+		"chi"			"{lightgreen}一枪空爆Hunter的数量: {default}{1}{lightgreen}"
 	}
 	"Top 5 Title (1v1)"
 	{

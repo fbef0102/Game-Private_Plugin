@@ -38,12 +38,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
 * Directory Structure | 檔案結構
-	```
+    ```php
 	/
-	├── plugins/
-	│	└── l4d2_cs_kill_hud.smx            # Compiled plugin | 已編譯的插件
 	├── data/
 	│	└── l4d2_cs_kill_hud.cfg            # Customize pick-up animation | 新增更多檢視武器動畫
+	├── plugins/
+	│	└── l4d2_cs_kill_hud.smx            # Compiled plugin | 已編譯的插件
 	└── scripting/
 		└── l4d2_cs_kill_hud.sp             # Source code | 源碼
 	```

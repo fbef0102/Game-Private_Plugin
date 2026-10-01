@@ -31,6 +31,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── plugins/
+    │   └── l4d_skeet_database_remake.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   └── l4d_skeet_database_remake.sp             # Source code | 源碼
+    └── translations/
+        └── l4d_skeet_database_remake.phrases.txt    # Multi-language translation | 翻譯多國語言
+    ```
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_skeet_database_remake.cfg
@@ -105,12 +116,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 				```
 </details>
 
-* Translation Support | 支援翻譯
-	```
-	translations/l4d_skeet_database_remake.phrases.txt
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2026-10-1)
+		* Use better method to detect if hunter is pouncing ("m_isAttemptingToPounce")
 
 	* v1.2h (2026-8-17)
 		* Translation support

@@ -57,10 +57,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 
 * Directory Structure | 檔案結構
-	```
+    ```php
 	/
-	├── plugins/
-	│	└── sm_l4d_mapchanger.smx			# Compiled plugin | 已編譯的插件
 	├── configs/
 	│	├── sm_l4d_mapchanger.coop.txt		# Map list: Coop/Realism | 戰役/寫實模式的地圖
 	│	├── sm_l4d_mapchanger.scavenge.txt	# Map list: Scavenge | 清道夫模式的地圖
@@ -68,12 +66,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	│	└── sm_l4d_mapchanger.versus.txt	# Map list: Versus | 對抗模式的地圖
 	├── data/
 	│	└── sm_l4d_mapchanger.txt			# Set the next map/level | 決定下一張地圖或是關卡
-	├── translations/
-	│	└── sm_l4d_mapchanger.phrases.txt	# Multi-language translation | 翻譯多國語言
-	└── scripting/
-		├── include/ 
-		│	└── sm_l4d_mapchanger.inc		# API | 給會寫插件的人
-		└── sm_l4d_mapchanger.sp			# Source code | 源碼
+	├── plugins/
+	│	└── sm_l4d_mapchanger.smx			# Compiled plugin | 已編譯的插件
+	├── scripting/
+	│	├── include/ 
+	│	│	└── sm_l4d_mapchanger.inc		# API | 給會寫插件的人
+	│	└── sm_l4d_mapchanger.sp			# Source code | 源碼
+	└── translations/
+		└── sm_l4d_mapchanger.phrases.txt	# Multi-language translation | 翻譯多國語言
 	```
 
 * FAQ
