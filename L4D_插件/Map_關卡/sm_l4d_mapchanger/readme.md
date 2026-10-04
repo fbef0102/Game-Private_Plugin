@@ -170,6 +170,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```php
 		sm_mapvotes
 		```
+
+	* **Adm forces to change next map/level. Can be used by server**
+		```php
+		sm_fmc_force
+		```
 </details>
 
 * <details><summary>Related Plugin | 相關插件</summary>
@@ -182,6 +187,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.2h (2026-10-4)
+		* Update translation file
+		* Add cmd, adm can force to change next map or level, this cmd can be used by server
 
 	* v2.1h (2026-9-20)
 		* Optimize code
@@ -362,5 +371,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	* **查看所有票數**
 		```php
 		sm_mapvotes
+		```
+
+	* **管理員強制換到下一張地圖或是關卡. 此指令也可以輸入在伺服器控制台**
+		```php
+		sm_fmc_force
 		```
 </details>

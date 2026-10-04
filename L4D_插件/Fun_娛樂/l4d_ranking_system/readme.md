@@ -209,6 +209,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v2.0h (2025-10-4)
+		* Require l4d2_skill_detect v2.7h
+
 	* v1.9h (2025-6-21)
 		* Add cmd
 		* Update translation

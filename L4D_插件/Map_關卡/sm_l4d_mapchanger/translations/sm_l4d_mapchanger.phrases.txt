@@ -300,4 +300,66 @@
 		"zho"			"找不到相似名稱的地圖"
 		"chi"			"找不到相似名称的地图"
 	}
+	
+	"No votes yet"
+	{
+		"en"			"No votes for next mission yet"
+		"zho"			"還沒有人投票下一張地圖"
+		"chi"			"还没有人投票下一张地图"
+	}	
+	
+	"Server Forces to change next map"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Server Forces to change next map: {green}{1}{default}, name: {green}{2}"
+		"zho"			"伺服器強制換下一張地圖: {green}{1}{default}, 名稱: {green}{2}"
+		"chi"			"服务器强制换下一张地图: {green}{1}{default}, 名称: {green}{2}"
+	}
+	
+	"Admin Forces to change next map"
+	{
+		"#format"		"{1:N},{2:s},{3:s}"
+		"en"			"{lightgreen}{1}{default} admin forces to change next map: {green}{2}{default}, name: {green}{3}"
+		"zho"			"{lightgreen}{1}{default} 管理員強制換下一張地圖: {green}{2}{default}, name: {green}{3}"
+		"chi"			"{lightgreen}{1}{default} 管理员强制换下一张地图: {green}{2}{default}, name: {green}{3}"
+	}
+	
+	"Server Forces to change next level"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Server Forces to change next level: {green}{1}{default}, name: {green}{2}"
+		"zho"			"伺服器強制換下一個關卡: {green}{1}{default}, 名稱: {green}{2}"
+		"chi"			"服务器强制换下一个关卡: {green}{1}{default}, 名称: {green}{2}"
+	}
+	
+	"Admin Forces to change next level"
+	{
+		"#format"		"{1:N},{2:s},{3:s}"
+		"en"			"{lightgreen}{1}{default} admin forces to change next level: {green}{2}{default}, name: {green}{3}"
+		"zho"			"{lightgreen}{1}{default} 管理員強制換下一個關卡: {green}{2}{default}, name: {green}{3}"
+		"chi"			"{lightgreen}{1}{default} 管理员强制换下一个关卡: {green}{2}{default}, name: {green}{3}"
+	}
+	
+	"Server Forces to change next level (2)"
+	{
+		"#format"		"{1:s}"
+		"en"			"Server Forces to change next level: {green}{1}{default}"
+		"zho"			"伺服器強制換下一個關卡: {green}{1}{default}"
+		"chi"			"服务器强制换下一个关卡: {green}{1}{default}"
+	}
+	
+	"Admin Forces to change next level (2)"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"{lightgreen}{1}{default} admin forces to change next level: {green}{2}{default}"
+		"zho"			"{lightgreen}{1}{default} 管理員強制換下一個關卡: {green}{2}{default}"
+		"chi"			"{lightgreen}{1}{default} 管理员强制换下一个关卡: {green}{2}{default}"
+	}
+	
+	"Coop/Versus next level not found"
+	{
+		"en"			"Coop/Versus next level not found"
+		"zho"			"找不到此地圖的下一個關卡"
+		"chi"			"找不到此地图的下一个关卡"
+	}
 }
