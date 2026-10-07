@@ -55,6 +55,25 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 修復手動更換地圖會遇到的問題
 	8. [l4d2_transition_info_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
 		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── data/
+    │   └── l4d2_vote_change.cfg            # Custom Vote Menu | 自定義投票顯示內容
+    ├── plugins/
+    │   └── l4d2_vote_change.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   ├── include/ 
+    │   │   └── l4d2_vote_change.inc        # API | 給會寫插件的人
+    │   ├── l4d2_vote_change/ 
+    │   │   ├── custommaps.sp               # Source code | 源碼
+    │   │   ├── restartlevel.sp             # Source code | 源碼
+    │   │   └── variables.sp                # Source code | 源碼
+    │   └── l4d2_vote_change.sp             # Source code | 源碼
+    └── translations/
+        └── l4d2_vote_change.phrases.txt    # Multi-language translation | 翻譯多國語言
+    ```
 		
 * <details><summary>Support | 支援插件</summary>
 
@@ -123,20 +142,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>API | 串接</summary>
-
-	* [l4d2_vote_change.inc](scripting/include/l4d2_vote_change.inc)
-		```php
-		library name: l4d2_vote_change
-		```
-</details>
-
-* Translation Support | 支援翻譯
-	```
-	translations/l4d2_vote_change.phrases.txt
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.9h (2026-10-8)
+		* Update data
 
 	* v1.8h (2026-9-20)
 		* Optimize code
