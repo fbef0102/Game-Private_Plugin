@@ -1,0 +1,120 @@
+"Phrases"
+{
+	"Set_Command_1"
+	{
+		"en"			"[SM] {default}You can only set Spawns during Ready-up."
+		"zho"			"[SM] {default}只能在準備階段設置Boss路程"
+		"chi"			"[SM] {default}只能在准备阶段设置Boss路程"
+	}	
+	"SetWitch_Command_2"
+	{
+		"en"			"[SM] {olive}Usage: {default}!setwitch <witch>"
+		"zho"			"[SM] {olive}使用方式: {default}!setwitch <witch>"
+		"chi"			"[SM] {olive}使用方式: {default}!setwitch <witch>"
+	}
+	"SetWitch_Command_3"
+	{
+		"#format"		"{1:d},{2:N}"
+		"en"			"[SM] Witch Spawn forced to {green}{1}%% {default}by {olive}{2}"
+		"zho"			"[SM] {olive}{2}{default} 強制修改Witch路程為 {green}{1}%%"
+		"chi"			"[SM] {olive}{2}{default} 强制修改Witch路程为 {green}{1}%%"
+	}
+	"SetTank_Command_2"
+	{
+		"en"			"[SM] {olive}Usage: {default}!settank <tank>"
+		"zho"			"[SM] {olive}使用方式: {default}!settank <tank>"
+		"chi"			"[SM] {olive}使用方式: {default}!settank <tank>"
+	}
+	"SetTank_Command_3"
+	{
+		"#format"		"{1:d},{2:N}"
+		"en"			"[SM] Tank Spawn forced to {green}{1}%% {default}by {olive}{2}"
+		"zho"			"[SM] {olive}{2}{default} 強制修改Tank路程為 {green}{1}%%"
+		"chi"			"[SM] {olive}{2}{default} 强制修改Tank路程为 {green}{1}%%"
+	}	
+	"Tank_spawn_distance"
+	{
+		"#format"		"{1:d}"
+		"en"			"<{olive}Boss{default}> Tank Spawn in {green}{1}%%{default} distance"
+		"zho"			"<{olive}Boss{default}> Tank 將於 {green}{1}%%{default} 後生成"
+		"chi"			"<{olive}Boss{default}> Tank 将于 {green}{1}%%{default} 后生成"
+	}
+	"Witch_spawn_distance"
+	{
+		"#format"		"{1:d}"
+		"en"			"<{olive}Boss{default}> Witch Spawn in {green}{1}%%{default} distance"
+		"zho"			"<{olive}Boss{default}> Witch 將於 {green}{1}%%{default} 後生成"
+		"chi"			"<{olive}Boss{default}> Witch 将于 {green}{1}%%{default} 后生成"
+	}	
+	"Tank_spawn"
+	{
+		"en"			"[{olive}Boss{default}] {green}Tank{default} has Spawned"
+		"zho"			"[{olive}Boss{default}] {green}Tank{default} 已生成"
+		"chi"			"[{olive}Boss{default}] {green}Tank{default} 已生成"
+	}
+	"Witch_spawn"
+	{
+		"en"			"[{olive}Boss{default}] {green}Witch{default} has Spawned"
+		"zho"			"[{olive}Boss{default}] {green}Witch{default} 已生成"
+		"chi"			"[{olive}Boss{default}] {green}Witch{default} 已生成"
+	}
+	"Tank_Percent_None"
+	{
+		"en"			"Tank: [{blue}None{default}]"
+		"zho"			"Tank: [{blue}無{default}]"
+		"chi"			"Tank: [{blue}无{default}]"
+	}	
+	"Tank_Percent_Num"
+	{
+		"#format"		"{1:d}"
+		"en"			"Tank: [{blue}{1}%%{default}]"
+		"zho"			"Tank: [{blue}{1}%%{default}]"
+		"chi"			"Tank: [{blue}{1}%%{default}]"
+	}	
+	"Witch_Percent_None"
+	{
+		"en"			"Witch: [{blue}None{default}]"
+		"zho"			"Witch: [{blue}無{default}]"
+		"chi"			"Witch: [{blue}无{default}]"
+	}	
+	"Witch_Percent_Num"
+	{
+		"#format"		"{1:d}"
+		"en"			"Witch: [{blue}{1}%%{default}]"
+		"zho"			"Witch: [{blue}{1}%%{default}]"
+		"chi"			"Witch: [{blue}{1}%%{default}]"
+	}
+	"VoteBoss_Cmd_2"
+	{
+		"en"			"{blue}[{default}VoteBoss{blue}] {olive}Usage: {default}!voteboss <tank> <witch>"
+		"zho"			"{blue}[{default}VoteBoss{blue}] {olive}使用方式: {default}!voteboss <tank> <witch>"
+		"chi"			"{blue}[{default}VoteBoss{blue}] {olive}使用方式: {default}!voteboss <tank> <witch>"
+	}
+	"VoteBoss_Cmd_3"
+	{
+		"en"			"{blue}[{default}VoteBoss{blue}] {olive}Use {default}'{blue}0{default}' for {olive}No Spawn."
+		"zho"			"{blue}[{default}VoteBoss{blue}] {olive}使用 {default}'{blue}0{default}' 改為 {olive}不生成."
+		"chi"			"{blue}[{default}VoteBoss{blue}] {olive}使用 {default}'{blue}0{default}' 改为 {olive}不生成."
+	}	
+	"VoteBoss_Cmd_4"
+	{
+		"#format"		"{1:d}"
+		"en"			"{blue}[{default}VoteBoss{blue}] {default}You need at least {green}{1}{default} players to start this vote."
+		"zho"			"{blue}[{default}VoteBoss{blue}] {default}你至少需要 {green}{1}{default} 名玩家才發起投票."
+		"chi"			"{blue}[{default}VoteBoss{blue}] {default}你至少需要 {green}{1}{default} 名玩家才发起投票."
+	}	
+	"VoteBoss_Cmd_5"
+	{
+		"#format"		"{1:d}"
+		"en"			"{blue}[{default}VoteBoss{blue}] {default}Vote can't be started right now..."
+		"zho"			"{blue}[{default}VoteBoss{blue}] {default}目前無法發起投票"
+		"chi"			"{blue}[{default}VoteBoss{blue}] {default}目前无法发起投票"
+	}	
+	
+	//Vote title
+	"Vote_Title"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"Set Tank to {1}%%%% and Witch to {2}%%%%?"
+	}
+}

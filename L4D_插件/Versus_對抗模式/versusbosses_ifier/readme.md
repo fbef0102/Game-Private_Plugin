@@ -65,6 +65,36 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 在Readyup的面板上預先顯示這回合Tank與Witch的生成路程
 </details>
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── data/
+    │   └── mapinfo.txt                        # Control witch/tank spawn flow in each map | 操控Tank/Witch的生成路程
+    ├── plugins/
+    │   └── versusbosses_ifier.smx             # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   ├── include/ 
+    │   │   └── versusbosses_ifier.inc         # API | 給會寫插件的人
+    │   └── versusbosses_ifier.sp              # Source code | 源碼
+    └── translations/
+        └── versusbosses_ifier.phrases.txt     # Multi-language translation | 翻譯多國語言
+    ```
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [coopbosses_ifier](/L4D_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
+		* 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+
+	2. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
+		* 使用指令顯示人類目前的路程
+
+	3. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+
+	4. [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
+		* 遊戲開始後每隔一段時間在地圖上生成Witch
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/versusbosses_ifier.cfg
@@ -90,18 +120,24 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// Display which message? Add numbers together
 		// 1=Tank has spawned, 2=Witch has spawned, 4=Tank flow percentage, 8=Witch flow percentage
 		l4d_versus_boss_chat_flag "15"
+
+		// Notify players X% ahead of distance when a Witch is going to spawn (0=Off)
+		l4d_versus_boss_witch_ahead_notify "5"
+
+		// Notify players X% ahead of distance when a Tank is going to spawn (0=Off)
+		l4d_versus_boss_tank_ahead_notify "5"
 		```
 </details>
 
 * <details><summary>Command | 命令</summary>
 
-	* **force witch spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+	* **force witch spawn percent before leaving saferoom (Adm required: ROOT)**
 		```php
 		sm_setwitch <number>
 		sm_fwitch <number>
 		```
 
-	* **force tank spawn percent before leaving saferoom (Adm required: ADMFLAG_BAN)**
+	* **force tank spawn percent before leaving saferoom (Adm required: ROOT)**
 		```php
 		sm_settank <number>
 		sm_ftank <number>
@@ -122,35 +158,12 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>API | 串接</summary>
-
-	* [versusbosses_ifier.inc](scripting/include/versusbosses_ifier.inc)
-		```php
-		library name: versusbosses_ifier
-		```
-</details>
-
-* Translation Support | 支援翻譯
-	```
-	translations/versusbosses_ifier.phrases.txt
-	```
-
-* <details><summary>Related | 相關插件</summary>
-
-	1. [coopbosses_ifier](/L4D_插件/Coop_戰役模式/coopbosses_ifier): Sets a tank and witch spawn point on every map in coop mode
-		* 戰役模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
-
-	2. [l4d_current_survivor_progress](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_current_survivor_progress): Print survivor progress in flow percents
-		* 使用指令顯示人類目前的路程
-
-	3. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
-		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
-
-	4. [l4d_witch_spawn](/L4D_插件/Witch_女巫/l4d_witch_spawn): Spawn lots of witches on the map
-		* 遊戲開始後每隔一段時間在地圖上生成Witch
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.0h (2026-10-10)
+		* Add translations
+		* Update cvars
+		* Notify players % ahead of distance when a Witch or a tank is going to spawn.
 
 	* v1.9h (2026-7-12)
 		* Use other way to spawn witch and bride witch since recent l4d2 update has restricted the maximum number of witch spawns
@@ -182,6 +195,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 - - - -
 # 中文說明
 對抗模式下每一張地圖挑選隨機路程生成一隻Tank與一個Witch
+
+* 圖示
+	<br/>![zho/coopbosses_ifier_1](image/zho/versusbosses_ifier_1.jpg)
+	<br/>![zho/coopbosses_ifier_2](image/zho/versusbosses_ifier_2.jpg)
 
 * 原理
 	* 此插件控制導演系統，決定何時生成Tank與Witch
@@ -243,19 +260,27 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 顯示以下哪些訊息給玩家看? 請將數字相加
 		// 1=Tank已復活, 2=Witch已復活, 4=Tank路程, 8=Witch路程
 		l4d_versus_boss_chat_flag "15"
+
+		// 提前X%路程提示Witch會生成 (0=不顯示)
+		l4d_versus_boss_witch_ahead_notify "5"
+
+		// 提前X%路程提示Tank會生成 (0=不顯示)
+		l4d_versus_boss_tank_ahead_notify "5"
 		```
 </details>
 
 * <details><summary>命令中文介紹 (點我展開)</summary>
 
-	* **管理員決定 witch 路程，請在出去安全室之前決定好 (權限：ADMFLAG_BAN)**
+	* **管理員決定 witch 路程，請在出去安全室之前決定好 (權限：ROOT)**
 		```php
 		sm_setwitch <數字>
+		sm_fwitch <數字>
 		```
 
-	* **管理員決定 tank 路程，請在出去安全室之前決定好 (權限：ADMFLAG_BAN)**
+	* **管理員決定 tank 路程，請在出去安全室之前決定好 (權限：ROOT)**
 		```php
 		sm_settank <數字>
+		sm_ftank <數字>
 		```
 
 	* **打印該回合 Tank/Witch 路程**

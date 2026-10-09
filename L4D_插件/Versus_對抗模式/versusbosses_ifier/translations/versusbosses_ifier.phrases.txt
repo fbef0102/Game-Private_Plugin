@@ -183,15 +183,30 @@
 	// Boss has spawned
 	"TankSpawned"
 	{
-		"en"        "[{olive}TS{default}] Tank has spawned"
-		"zho"       "[{olive}TS{default}] Tank 已復活"
-		"chi"       "[{olive}TS{default}] 坦克 已复活"
+		"en"        "[{olive}TS{default}] {green}Tank{default} has spawned"
+		"zho"       "[{olive}TS{default}] {green}Tank{default} 已生成"
+		"chi"       "[{olive}TS{default}] {green}坦克{default} 已生成"
 	}
 
 	"WitchSpawned"
 	{
-		"en"        "[{olive}TS{default}] Witch has spawned"
-		"zho"       "[{olive}TS{default}] Witch 已復活"
-		"chi"       "[{olive}TS{default}] Witch 已复活"
+		"en"        "[{olive}TS{default}] {green}Witch{default} has spawned"
+		"zho"       "[{olive}TS{default}] {green}Witch{default} 已生成"
+		"chi"       "[{olive}TS{default}] {green}Witch{default} 已生成"
 	}
+	
+	"Tank_spawn_distance"
+	{
+		"#format"		"{1:d}"
+		"en"			"<{olive}Boss{default}> Tank Spawn in {green}{1}%%{default} distance"
+		"zho"			"<{olive}Boss{default}> Tank 將於 {green}{1}%%{default} 後生成"
+		"chi"			"<{olive}Boss{default}> Tank 将于 {green}{1}%%{default} 后生成"
+	}
+	"Witch_spawn_distance"
+	{
+		"#format"		"{1:d}"
+		"en"			"<{olive}Boss{default}> Witch Spawn in {green}{1}%%{default} distance"
+		"zho"			"<{olive}Boss{default}> Witch 將於 {green}{1}%%{default} 後生成"
+		"chi"			"<{olive}Boss{default}> Witch 将于 {green}{1}%%{default} 后生成"
+	}	
 }
