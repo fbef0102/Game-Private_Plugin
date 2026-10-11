@@ -18,10 +18,10 @@
 	You should have received a copy of the GNU General Public License along
 	with this program. If not, see <http://www.gnu.org/licenses/>.
 */
-#if defined _pause_included_
+#if defined _l4d_pause_included_
 	#endinput
 #endif
-#define _pause_included_
+#define _l4d_pause_included_
 
 /**
  * Called when a pause starts
@@ -45,8 +45,8 @@ native bool IsInPause();
 
 public SharedPlugin __pl_pause =
 {
-	name = "pause",
-	file = "pause.smx",
+	name = "l4d_pause",
+	file = "l4d_pause.smx",
 #if defined REQUIRE_PLUGIN
 	required = 1,
 #else
@@ -55,7 +55,7 @@ public SharedPlugin __pl_pause =
 };
 
 #if !defined REQUIRE_PLUGIN
-public void __pl_pause_SetNTVOptional()
+public void __pl_l4d_pause_SetNTVOptional()
 {
 	MarkNativeAsOptional("IsInPause");
 }

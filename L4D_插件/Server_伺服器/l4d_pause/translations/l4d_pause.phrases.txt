@@ -3,9 +3,9 @@
 	"Pause_1"
 	{
 		"#format"		"{1:N}"
-		"en"	"<{olive}Load{default}>{olive}{1} {default}is now {blue}fully loaded {default} in game"
-		"zho"	"<{olive}Load{default}>{olive}{1} {default}現在已經 {blue}完全載入 {default} 遊戲"
-		"chi"	"<{olive}Load{default}>{olive}{1} {default}现在已经 {blue}完全载入 {default} 游戏"
+		"en"	"<{olive}Pause{default}>{olive}{1} {default}is now {blue}fully loaded {default} in game"
+		"zho"	"<{olive}Pause{default}>{olive}{1} {default}現在已經 {blue}完全載入 {default} 遊戲"
+		"chi"	"<{olive}Pause{default}>{olive}{1} {default}现在已经 {blue}完全载入 {default} 游戏"
 	}
 	"Pause_2"
 	{
@@ -117,9 +117,9 @@
 	}
 	"Pause_12"
 	{
-		"en"	"<{olive}Delay{default}> {blue}Pause has been delayed due to a pick-up in progress!"
-		"zho"	"<{olive}Delay{default}> {blue}暫停延遲，等待救援過程結束!"
-		"chi"	"<{olive}Delay{default}> {blue}暂停延迟，等待救援过程结束!"
+		"en"	"<{olive}Pause{default}> {blue}Pause has been delayed due to a pick-up in progress!"
+		"zho"	"<{olive}Pause{default}> {blue}暫停延遲，等待救援過程結束!"
+		"chi"	"<{olive}Pause{default}> {blue}暂停延迟，等待救援过程结束!"
 	}
 	"Pause_13"
 	{
@@ -134,18 +134,39 @@
 		"zho"	"<{olive}Live{default}> {blue}遊戲將於{default} {olive}{1}{default} 秒後開始"
 		"chi"	"<{olive}Live{default}> {blue}游戏将于{default} {olive}{1}{default} 秒后开始"
 	}
-	"Game Continue"
-	{
-		"en"	"Game Continue!"
-		"zho"	"遊戲繼續!"
-		"chi"	"游戏继续!"
-	}
 	"Pause_15"
 	{
 		"#format"		"{1:N}"
-		"en"	"<{olive}Cancel{default}> {blue}{1} {default}cancelled the countdown!"
-		"zho"	"<{olive}Cancel{default}> {blue}{1} {default}取消了倒數!"
-		"chi"	"<{olive}Cancel{default}> {blue}{1} {default}取消了倒数!"
+		"en"	"<{olive}Pause{default}> {blue}{1} {default}cancelled the countdown!"
+		"zho"	"<{olive}Pause{default}> {blue}{1} {default}取消了倒數!"
+		"chi"	"<{olive}Pause{default}> {blue}{1} {default}取消了倒数!"
+	}
+	"Pause_16"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> The game has been unpaused due to admin disconnecting: {lightgreen}{1}{default}."
+		"zho"	"<{olive}Pause{default}> 遊戲自動解除暫停，因為管理員離開了伺服器: {lightgreen}{1}{default}"
+		"chi"	"<{olive}Pause{default}> 游戏自动解除暂停，因为管理员离开了伺服器: {lightgreen}{1}{default}"
+	}
+	"Pause_17"
+	{
+		"en"	"<{olive}Pause{default}> Only admins can pause the game (Type {green}!forcepause{default})"
+		"zho"	"<{olive}Pause{default}> 只有管理員才可以暫停遊戲 (輸入{green}!forcepause{default})"
+		"chi"	"<{olive}Pause{default}> 只有管理员才可以暂停游戏 (输入{green}!forcepause{default})"
+	}	
+	"Pause_18"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> The game has been unpaused by an admin: {lightgreen}{1}{default}."
+		"zho"	"<{olive}Pause{default}> 管理員強制暫停遊戲: {lightgreen}{1}{default}"
+		"chi"	"<{olive}Pause{default}> 管理员强制暂停游戏: {lightgreen}{1}{default}"
+	}
+	"Pause_19"
+	{
+		"#format"		"{1:N}"
+		"en"	"<{olive}Pause{default}> The game has been unpaused by an admin: {lightgreen}{1}{default}."
+		"zho"	"<{olive}Pause{default}> 管理員解除暫停: {lightgreen}{1}{default}"
+		"chi"	"<{olive}Pause{default}> 管理员解除暂停: {lightgreen}{1}{default}"
 	}
 	"Console"
 	{
@@ -153,5 +174,11 @@
 		"en"	"Console : {1}"
 		"zho"	"控制台 : {1}"
 		"chi"	"控制面板 : {1}"
+	}
+	"GameisLive"
+	{
+		"en"		"Game is live!"
+		"zho"		"遊戲繼續!"
+		"chi"		"游戏继续!"
 	}
 }

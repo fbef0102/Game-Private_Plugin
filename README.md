@@ -530,8 +530,8 @@
     * Script HUD 顯示倖存者路程、Tank、Witch、分數，搭配對抗與Zonemod用
   * [readyup](/L4D_插件/Server_伺服器/readyup): Ready-up plugin
     * 所有玩家準備才能開始遊戲的插件
-  * [pause](/L4D_插件/Server_伺服器/pause): Provide the Command to Pause The Game
-    * 暫停遊戲的插件
+  * [l4d_pause](/L4D_插件/Server_伺服器/l4d_pause): Provides commands for players to pause the game and allows admins to force pause it
+    * 提供指令給玩家暫停遊戲，並且管理員能強制暫停
   * [l4d_playerjoining](/L4D_插件/Server_伺服器/l4d_playerjoining): Informs other players when a client connects to the server and changes teams.
     * 當玩家更換隊伍、連線、離開伺服器之時，通知所有玩家
   * [l4d_scoreboard_panel](/L4D_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.

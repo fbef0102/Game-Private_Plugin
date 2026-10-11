@@ -5,6 +5,12 @@ Tank's rock will trace survivor until hit something.
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
 * [Video | 影片展示](https://youtu.be/W45JutNDX0Q)
 
 * Image | 圖示
@@ -13,6 +19,23 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── plugins/
+    │   └── l4d_tracerock.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   ├── include/ 
+    │   │   └── l4d_tracerock.inc        # API | 給會寫插件的人
+    │   └── l4d_tracerock.sp             # Source code | 源碼
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+	1. [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
+		> Tank不扔石頭而是扔出特感
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_tracerock.cfg
@@ -20,8 +43,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		//  0=Disable, 1=Enable this plugin 
 		l4d_tracerock_enable "1"
 
-		// The chance of trace rock [0-100]%
-		l4d_tracerock_chance "100"
+		// The chance of trace rock [0-100]% (When only 1 survivor standing)
+		l4d_tracerock_chance_1 "0"
+
+		// The chance of trace rock [0-100]% (When only 2 survivors standing)
+		l4d_tracerock_chance_2 "50"
+
+		// The chance of trace rock [0-100]% (When only 3 survivors standing)
+		l4d_tracerock_chance_3 "80"
+
+		// The chance of trace rock [0-100]% (When 4+ survivors standing)
+		l4d_tracerock_chance_4 "100"
 
 		// Trace rock's speed
 		l4d_tracerock_speed "300"
@@ -52,31 +84,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>Command | 命令</summary>
-	
-	None
-</details>
-
-* <details><summary>API | 串接</summary>
-
-	* [l4d_tracerock.inc](scripting/include/l4d_tracerock.inc)
-		```php
-		library name: l4d_tracerock
-		```
-</details>
-
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
-
-* Related Plugin | 相關插件
-	1. [l4d_tankhelper](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_tankhelper): Tanks throw special infected instead of rocks
-		> Tank不扔石頭而是扔出特感
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.8h (2026-10-11)
+		* Update cvars, reduce trace rock chance when only 1~3 survivors standing
 
 	* v1.7h (2025-1-15)
 		* Update cvars
@@ -109,6 +120,7 @@ Tank的石頭自動追蹤倖存者
 	* 石頭在飛行過程中會轉移目標攻擊較近的倖存者
 	* 石頭如果沒有砸到倖存者一直停留在空中會自動消失
 	* 真人Tank玩家也適用
+	* 當倖存者剩下1~3位時會降低石頭追蹤機率 (可以查看指令)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 
@@ -118,7 +130,20 @@ Tank的石頭自動追蹤倖存者
 		l4d_tracerock_enable "1"
 
 		// Tank的石頭變成追蹤石頭的機率 [1-100]%
-		l4d_tracerock_chance "100"
+		// (當倖存者剩下一位站立時, 其餘倖存者皆倒地或死亡)
+		l4d_tracerock_chance_1 "0"
+
+		// Tank的石頭變成追蹤石頭的機率 [1-100]%
+		// (當倖存者剩下兩位站立時, 其餘倖存者皆倒地或死亡)
+		l4d_tracerock_chance_2 "50"
+
+		// Tank的石頭變成追蹤石頭的機率 [1-100]%
+		// (當倖存者剩下三位站立時, 其餘倖存者皆倒地或死亡)
+		l4d_tracerock_chance_3 "80"
+
+		// Tank的石頭變成追蹤石頭的機率 [1-100]%
+		// (四位以上倖存者站立時)
+		l4d_tracerock_chance_4 "100"
 
 		// 追蹤石頭的飛行速度
 		l4d_tracerock_speed "300"

@@ -61,6 +61,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     /
     ├── data/
     │   └── l4d2_vote_change.cfg            # Custom Vote Menu | 自定義投票顯示內容
+    ├── gamedata/
+    │   └── l4d2_vote_change.txt            # GameData | 遊戲數據
     ├── plugins/
     │   └── l4d2_vote_change.smx            # Compiled plugin | 已編譯的插件
     ├── scripting/

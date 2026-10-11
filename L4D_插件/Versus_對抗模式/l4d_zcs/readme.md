@@ -29,6 +29,19 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── plugins/
+    │   └── l4d_zcs.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   ├── include/ 
+    │   │   └── l4d_zcs.inc        # API | 給會寫插件的人
+    │   └── l4d_zcs.sp             # Source code | 源碼
+    └── translations/
+        └── l4d_zcs.phrases.txt    # Multi-language translation | 翻譯多國語言
+    ```
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/l4d_zcs.cfg
@@ -150,21 +163,11 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>API | 串接</summary>
-
-	* [l4d_zcs.inc](scripting/include/l4d_zcs.inc)
-		```php
-		library name: l4d_zcs
-		```
-</details>
-
-
-* Translation Support | 支援翻譯
-	```
-	translations/l4d_zcs.phrases.txt
-	```
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3h (2026-10-11)
+		* Optimize code
+		* Require left4dhooks
 
 	* v1.2h (2024-11-27)
 		* Optimize code
