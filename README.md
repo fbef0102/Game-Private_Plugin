@@ -4,13 +4,12 @@
   - [Public Plugins List | 公開的插件列表](#公開的插件列表-public-plugins-list)
   - [Introduce MySelf](#introduce-myself) | [自我簡介](#自我簡介)
   - [Plugin Paid Work](#plugin-paid-work) | [委託撰寫插件](#委託撰寫插件)
-  - [如何安裝伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝專屬伺服器)
-  - [如何安裝插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
-  - [如何編譯源碼](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
-  - [檢查插件有無成功運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
-  - [模組跟插件差別在哪](/Questions_問題區/Chinese_繁體中文/插件/README.md#模組跟插件差別在哪)
+  - [How to Install a Dedicated Server](/Tutorial_教學區/English/Server/Install_Dedicated_Server_Plugin/README.md#how-to-install-a-dedicated-server) | [如何安裝伺服器](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝專屬伺服器)
+  - [How to Install a Plugin](/Tutorial_教學區/English/Server/Install_Dedicated_Server_Plugin/README.md#how-to-install-plugins) | [如何安裝插件](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何安裝插件)
+  - [How to Compile Source Code](/Tutorial_教學區/English/Server/Install_Dedicated_Server_Plugin/README.md#how-to-compile-source-code) | [如何編譯源碼](/Tutorial_教學區/Chinese_繁體中文/Server/安裝伺服器與插件/README.md#如何編譯源碼)
+  - [Check If Plugin Is Working](/Questions_問題區/English/Plugin/README.md#why-is-the-plugin-not-working) | [檢查插件有無成功運作](/Questions_問題區/Chinese_繁體中文/插件/README.md#為什麼插件沒有運作)
+  - [Difference Between Mods and Plugins](/Questions_問題區/English/Plugin/README.md#what-is-the-difference-between-mods-and-plugins) | [模組跟插件差別在哪](/Questions_問題區/Chinese_繁體中文/插件/README.md#模組跟插件差別在哪)
   - [Questions & Tutorial](#Others) | [其他教程與問題](#其他教程與問題)
-
 - - - -
 # 私人插件列表 Private Plugins List
 ###### **Important | 購買交易**
@@ -1002,6 +1001,10 @@
 
 - - - -
 # Others
+* [Question](/Questions_問題區/English)
+  * [Why Can't I Join the Server](/Questions_問題區/English/Server/README.md#why-cant-i-join-the-server)
+  * [Common Plugin Error](/Questions_問題區/English/Plugin/README.md#common-plugin-error-messages)
+  * [Difference Between Mods and Plugins](/Questions_問題區/English/Plugin/README.md#what-is-the-difference-between-mods-and-plugins)
 * [Tutorial](/Tutorial_教學區/English/)
   * [Install 8+ players server](/Tutorial_教學區/English/Game/L4D2/8+_Survivors_In_Coop/README.md#navigation)
   * [Stripper](/Tutorial_教學區/English/Server/Install_Other_File/README.md#stripper)
