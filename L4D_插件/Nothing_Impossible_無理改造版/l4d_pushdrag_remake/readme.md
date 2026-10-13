@@ -5,13 +5,19 @@ Press Double E key to grab and move the objects and players
 This plugin is private, Please contact [me](/#私人插件列表-private-plugins-list)<br/>
 此為私人插件, 請聯繫[本人](/#私人插件列表-private-plugins-list)
 
-* [Video | 影片展示](https://youtu.be/2f0Rk4AcmFk)
+* Apply to | 適用於
+	```
+	L4D1
+	L4D2
+	```
+
+* [Video | 影片展示](https://youtu.be/r0Q7PaA2rC0)
 
 * Image | 圖示
 	* Wingardium Leviosa! (溫咖癲啦唯啊薩)
 	<br/>![l4d_pushdrag_remake_1](image/l4d_pushdrag_remake_1.gif)
-	<br/>![l4d_pushdrag_remake_2](image/l4d_pushdrag_remake_2.jpg)
-	<br/>![l4d_pushdrag_remake_3](image/l4d_pushdrag_remake_3.jpg)
+	<br/>![l4d_pushdrag_remake_2](image/l4d_pushdrag_remake_2.gif)
+	<br/>![l4d_pushdrag_remake_3](image/l4d_pushdrag_remake_3.gif)
 
 * <details><summary>How does it work?</summary>
 
@@ -119,12 +125,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		l4d_pushdrag_remake_grab_incap_enable "1"
 		```
 </details>
-
-* Apply to | 適用於
-	```
-	L4D1
-	L4D2
-	```
 
 * <details><summary>Changelog | 版本日誌</summary>
 

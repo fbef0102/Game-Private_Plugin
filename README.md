@@ -244,8 +244,8 @@
 
 * <details><summary><b>Bot IQ 200 | Bot智商合集</b></summary>
 
-  * [l4d_bot_healing](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_healing): Set the health value bots require before using First Aid, Pain Pills or Adrenaline. (target is self or bot or player)
-    * 只要生命值不低於一定血量，Bot不會使用醫療包治療對象與傳送藥丸給對象 (對象區分為自己、隊友Bot、真人玩家)
+  * [l4d_bot_block_heal](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_bot_block_heal): Improves survivor bot AI to prevent them from blindly or unnecessarily using pills, adrenaline shots and first aid kits.
+    * 解決倖存者Bot經常亂打包與亂吃藥丸的智商
   * [l4d2_sb_fix](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d2_sb_fix): Improve Survivor Bot's behavior and IQ fix
     * 強化AI Bot的智商與行為
   * [l4d_grenade_throwing_bots](/L4D_插件/Bot_IQ_200_Bot_智商加強/l4d_grenade_throwing_bots): Allows Bots To Throw Grenades Themselves.
@@ -919,11 +919,12 @@
   * ✔翻修舊插件，重寫為Sourcemod 1.12以上能適用的新版本
   * ✔重製十年以上的老插件，檢查程式漏洞，有效解決崩潰、卡頓、記憶體不足等問題
   * ✔翻譯英文，撰寫各國語言的翻譯文件
-  * ✔製作nav改寫AI路徑、Stripper修改地圖機關、Stripper新增障礙物做成地圖迷宮
+  * ✔製作nav改寫AI路徑
+  * ✔Stripper修改地圖機關、修復三方圖卡關、新增障礙物做成地圖迷宮
   * ✔FastDL網空下載，額外的音樂檔案、模組貼圖
   * ✔大廳連線、崩潰、掉線、模組衝突、錯誤等問題解決方式，有一定經驗
-  * ✔所有會碰到的地雷、陷阱坑、問題我大概都知道，有一定經驗
-  * ✔🟦所有程式碼皆手工完成，無使用任何AI生成
+  * ✔所有會碰到的地雷、陷阱坑、問題，有一定經驗
+  * ✔🟦所有程式碼皆手工完成，不會全程使用AI
 </details>
 
 * <details><summary><b>不受理的範圍</b></summary>
@@ -938,8 +939,6 @@
   * ✗如要架設伺服器、安裝插件，請自己先做功課，過程遇到任何問題可以詢問教學，而不是都丟給其他人做
   * ✗不提供懶人安裝包
   * ✗沒有源碼的插件，請附上來源網址
-  * ✗如不接受我受理需求後販賣，請別來
-  * ✗AI生成的代碼
 </details>
 
 - - - -
