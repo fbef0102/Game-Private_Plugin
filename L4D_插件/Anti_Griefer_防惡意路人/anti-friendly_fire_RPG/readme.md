@@ -47,6 +47,18 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── data/
+    │   └── anti-friendly_fire_RPG.cfg         # Set ff damage | 設置友傷
+    ├── plugins/
+    │   └── anti-friendly_fire_RPG.smx         # Compiled plugin | 已編譯的插件
+    │   └── anti-friendly_fire_RPG.sp          # Source code | 源碼
+    └── translations/
+        └── anti-friendly_fire_RPG.phrases.txt # Multi-language translation | 翻譯多國語言
+    ```
+
 * <details><summary>ConVar | 指令</summary>
 
 	* cfg/sourcemod/anti-friendly_fire_RPG.cfg
@@ -84,11 +96,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* Translation Support | 支援翻譯
-	```
-	translations/anti-friendly_fire_RPG.phrases.txt
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
 	1. [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire): shoot teammate = shoot yourself simple version
@@ -98,6 +105,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v2.6 (2026-10-21)
+		* Update data, add "immune_bot" keyvalue
 
 	* v2.7 (2026-9-6)
 		* Add minigun damage modify

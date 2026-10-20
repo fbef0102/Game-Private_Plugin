@@ -30,7 +30,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```php
     /
     ├── data/
-    │   └── l4d_weapon_limits_remake.txt            # Set gun/melee weapon limit | 設置武器或近戰數量限制
+    │   └── l4d_weapon_limits_remake.cfg            # Set gun/melee weapon limit | 設置武器或近戰數量限制
     ├── gamedata/
     │   └── l4d_weapon_limits_remake.txt            # GameData | 遊戲數據
     ├── plugins/
