@@ -769,8 +769,8 @@
 
 * <details><summary><b>Weapons | 武器</b></summary>
 
-  * [l4d_weapon_limits](/L4D_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons and melees individually or together
-    * 限制每個武器與近戰可以拿取的數量，超過就不能拿取
+  * [l4d_weapon_limits_remake](/L4D_插件/Weapons_武器/l4d_weapon_limits_remake): Restrict weapons and melee weapons individually, or by weapon group.
+    * 限制倖存者隊伍的武器與近戰的數量，或按武器類別進行限制，超過數量就不能拿取
   * [l4d2_lasersight](/L4D_插件/Weapons_武器/l4d2_lasersight): Auto upgrade laser sights to weapons or manually upgrade by commands
     * 武器自動升級紅外線雷射或輸入指令升級
   * [l4d2_M60_weapon_patch](/L4D_插件/Weapons_武器/l4d2_M60_weapon_patch): Prevents m60 from dropping and allows use of ammo piles + reload speed + Refill Explosive/Incendiary ammo

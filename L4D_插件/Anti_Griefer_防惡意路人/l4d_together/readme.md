@@ -28,27 +28,47 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
     3. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── plugins/
+    │   └── l4d_together.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   └── l4d_together.sp             # Source code | 源碼
+    └── translations/
+        └── l4d_together.phrases.txt    # Multi-language translation | 翻譯多國語言
+    ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+    1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
+        > 離隊伍太遠的玩家將被傳送或是減速
+</details>
+
 * <details><summary>ConVar | 指令</summary>
 
     * cfg/sourcemod/l4d_together.cfg
         ```php
-        // What percentage of the ALIVE survivors the loner must away from to active loner punish.
-        l4d_together_alive_survivor_percentage "50"
-
-        // Numbers of alive survivor required to active loner punish. (must be greater than or equal to 2 unless you are idiot)
-        l4d_together_alive_survivor_required "2"
-
         // 0=Disable Plugin, 1=Enable Plugin
         l4d_together_enable "1"
+
+        // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
+        l4d_together_modes_tog "0"
+
+        // If someone is away from survivor team, he is the loner
+        l4d_together_loner_range "2000.0"
+
+        // Punish interval min seconds
+        l4d_together_loner_punish_interval_min "5.0"
+
+        // Punish interval max seconds
+        l4d_together_loner_punish_interval_max "15.0"
 
         // Changes how announce displays to the loner (0: Disable, 1:In chat; 2: In Hint Box; 3: In center text)
         l4d_together_loner_punish_announce_type "2"
 
-        // If 1, still punish the loner if he is computer survivor bot
-        l4d_together_loner_punish_fakeclient "0"
-
-        // If 1, kick infected bot after bot incapacitated the loner.
-        l4d_together_loner_punish_infected_incap_kick "1"
+        // loner punish type, 0=behind, 1=360 degree, 2=above his head
+        l4d_together_loner_punish_type "1"
 
         // How many infected spawn every time to punish the loner
         l4d_together_loner_punish_infected_number "2"
@@ -56,54 +76,37 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // After infected bot spawned by this plugin, kick bot after a certain time if bot doesn't pin the loner. (0:Disable)
         l4d_together_loner_punish_infected_spawn_kick "8.0"
 
+        // If 1, kick infected bot after bot incapacitated the loner.
+        l4d_together_loner_punish_infected_incap_kick "1"
+
         // (L4D2) loner punish infected class, 0=All, 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. Add numbers together.
         l4d_together_loner_punish_infected_type "0"
 
         // (L4D1) loner punish infected class, 0=All, 1=Smoker, 2=Boomer, 4=Hunter. Add numbers together.
         l4d_together_loner_punish_infected_type "0"
 
-        // Punish interval max seconds
-        l4d_together_loner_punish_interval_max "15.0"
-
-        // Punish interval min seconds
-        l4d_together_loner_punish_interval_min "5.0"
-
-        // loner punish type, 0=behind, 1=360 degree, 2=above his head
-        l4d_together_loner_punish_type "1"
-
-        // If someone is away from survivor team, he is the loner
-        l4d_together_loner_range "2000.0"
-
-        // Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus, 8=Scavenge. Add numbers together.
-        l4d_together_modes_tog "0"
+        // Numbers of alive survivor required to active loner punish. (must be greater than or equal to 2 unless you are idiot)
+        l4d_together_alive_survivor_required "2"
 
         // If 1, still active loner punish if only two alive survivor left.
         l4d_together_two_alive_survivor_enable "1"
+
+        // What percentage of the ALIVE survivors the loner must far away from to active loner punish.
+        // 100%=Far away from everyone else
+        l4d_together_alive_survivor_percentage "50"
+
+        // If 1, still punish the loner if he is computer survivor bot
+        l4d_together_loner_punish_fakeclient "0"
         ```
 
     * (Example) If there are 4 alive survivors, when the loner is 2000 meter far away (behind or front) from 2 survivors for at least 5 ~ 15 seconds, constantly spawn special infected around the loner.
         ```php
-        // What percentage of the ALIVE survivors the loner must away from to active loner punish.
         l4d_together_alive_survivor_percentage "50"
-
-        // punish interval max seconds
         l4d_together_loner_punish_interval_max "15.0"
-
-        // punish interval min seconds
         l4d_together_loner_punish_interval_min "5.0"
-
-        // How many infected spawn every time to punish the loner
         l4d_together_loner_punish_infected_number "2"
-
-        // If someone is away from survivor team, he is the loner
         l4d_together_loner_range "2000.0"
         ```
-</details>
-
-* <details><summary>Related Plugin | 相關插件</summary>
-
-    1. [Anti Rush](https://forums.alliedmods.net/showthread.php?t=322392): Slowdown or teleport rushers and slackers back to the group. Uses flow distance for accuracy.
-        > 離隊伍太遠的玩家將被傳送或是減速
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
@@ -138,23 +141,26 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
     * cfg/sourcemod/l4d_together.cfg
         ```php
-        // 當玩家距離隊伍50%以上數量的隊友太遠，他就是脫隊的倖存者
-        l4d_together_alive_survivor_percentage "50"
-
-        // 至少要有兩位以上的活著的倖存者，此插件才會啟動. (此數值必須大於2)
-        l4d_together_alive_survivor_required "2"
-
         // 0=關閉插件, 1=開啟插件
         l4d_together_enable "1"
+
+        // 在以下模式開啟此插件. 0=全部, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 將數字加給來
+        l4d_together_modes_tog "0"
+
+        // 當玩家距離隊伍2000公尺範圍之後，他就是脫隊的倖存者
+        l4d_together_loner_range "2000.0"
+
+        // 最小生成秒數生成特感懲罰脫隊的倖存者
+        l4d_together_loner_punish_interval_min "5.0"
+
+        // 最大生成秒數生成特感懲罰脫隊的倖存者
+        l4d_together_loner_punish_interval_max "15.0"
 
         // 訊息如何顯示? (0: 關閉, 1: 聊天視窗; 2: 黑底提示窗; 3: 螢幕中心)
         l4d_together_loner_punish_announce_type "2"
 
-        // 為1時，即使是AI Bot脫隊也會被懲罰
-        l4d_together_loner_punish_fakeclient "0"
-
-        // 為1時，特感抓住脫隊的倖存者直到倒地之後會自動消失
-        l4d_together_loner_punish_infected_incap_kick "1"
+        // 如何在脫隊的倖存者周圍生成特感, 0=背後, 1=全方位360度生成, 2=在頭上
+        l4d_together_loner_punish_type "1"
 
         // 一次生成兩隻特感懲罰脫隊的倖存者
         l4d_together_loner_punish_infected_number "2"
@@ -162,29 +168,27 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         // 由此插件生成的特感，如果8秒內不抓住玩家則自動消失 (0: 不消失)
         l4d_together_loner_punish_infected_spawn_kick "8.0"
 
-        // (僅限二代) 生成的特感有哪些, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. 將數字加給來
+        // 為1時，特感抓住脫隊的倖存者直到倒地之後會自動消失
+        l4d_together_loner_punish_infected_incap_kick "1"
+
+        // (L4D2) 生成的特感有哪些, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter, 8=Spitter, 16=Jockey, 32=Charger. 將數字加給來
         l4d_together_loner_punish_infected_type "0"
 
-        // (僅限一代) loner punish infected class, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter. 將數字加給來
+        // (L4D1) loner punish infected class, 0=全部, 1=Smoker, 2=Boomer, 4=Hunter. 將數字加給來
         l4d_together_loner_punish_infected_type "0"
 
-        // 最大生成秒數生成特感懲罰脫隊的倖存者
-        l4d_together_loner_punish_interval_max "15.0"
-
-        // 最小生成秒數生成特感懲罰脫隊的倖存者
-        l4d_together_loner_punish_interval_min "5.0"
-
-        // 如何在脫隊的倖存者周圍生成特感, 0=背後, 1=全方位360度生成, 2=在頭上
-        l4d_together_loner_punish_type "1"
-
-        // 當玩家距離隊伍2000公尺範圍之後，他就是脫隊的倖存者
-        l4d_together_loner_range "2000.0"
-
-        // 在以下模式開啟此插件. 0=全部, 1=戰役, 2=生存, 4=對抗, 8=清道夫. 將數字加給來
-        l4d_together_modes_tog "0"
+        // 至少要有兩位以上的活著的倖存者，此插件才會啟動. (此數值必須大於或等於2)
+        l4d_together_alive_survivor_required "2"
 
         // 為1時，即使剩下兩位活著的倖存者仍要啟動插件
         l4d_together_two_alive_survivor_enable "1"
+
+        // 當玩家距離隊伍50%以上數量的隊友太遠，他就是脫隊的倖存者
+        // 100%=距離除他以外所有人太遠 (單獨一人)
+        l4d_together_alive_survivor_percentage "50"
+
+        // 為1時，即使是AI Bot脫隊也會被懲罰
+        l4d_together_loner_punish_fakeclient "0"
         ```
 
 

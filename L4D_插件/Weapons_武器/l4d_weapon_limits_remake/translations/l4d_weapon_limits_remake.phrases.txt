@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"Melee Limits"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"{blue}[{default}Melee Limit{blue}] {olive}{1}{default} melee has reached its max of {green}{2}"
+		"zho"			"{blue}[{default}近戰限制{blue}] {olive}{1}{default} 近戰已達限制: {green}{2}"
+		"chi"			"{blue}[{default}近战限制{blue}] {olive}{1}{default} 近战已达限制: {green}{2}"
+	}
+	
+	"Weapon Limits"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"{blue}[{default}Weapon Limit{blue}] {olive}{1}{default} weapon has reached its max of {green}{2}"
+		"zho"			"{blue}[{default}武器限制{blue}] {olive}{1}{default} 武器已達限制: {green}{2}"
+		"chi"			"{blue}[{default}武器限制{blue}] {olive}{1}{default} 武器已达限制: {green}{2}"
+	}
+	
+	"Melee Limits (Category)"
+	{
+		"#format"		"{1:d}"
+		"en"			"{blue}[{default}Category Limit{blue}] {olive}Melee{default} group has reached its max of {green}{1}"
+		"zho"			"{blue}[{default}武器種類限制{blue}] {olive}近戰武器{default} 數量已達團隊限制: {green}{1}"
+		"chi"			"{blue}[{default}武器種類限制{blue}] {olive}近战武器{default} 数量已达团队限制: {green}{1}"
+	}
+	
+	"Weapon Limits (Category)"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"{blue}[{default}Category Limits{blue}] {default}{olive}{1}{default} weapon group has reached its max of {green}{2}"
+		"zho"			"{blue}[{default}武器種類限制{blue}] {olive}{1}{default} 種類的武器數量已達團隊限制: {green}{2}"
+		"chi"			"{blue}[{default}武器種類限制{blue}] {olive}{1}{default} 种类的武器数量已达团队限制: {green}{2}"
+	}
+}
