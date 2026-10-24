@@ -39,24 +39,25 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     2. [sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)
     3. [charging_takedamage_patch](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/charging_takedamage_patch)
 
-* <details><summary>ConVar | 指令</summary>
-
-    * cfg/sourcemod/l4d2_melee_modify_damage.cfg
-        ```php
-        // 0=Plugin off, 1=Plugin on. Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
-        // A common zombie still instantly dies on a headshot by melee.
-        l4d2_melee_modify_damage_enable "1"
-
-        // Set wounds only when the zombie is going to die.
-        l4d2_melee_modify_damage_common_wound_dead "1"
-        ```
-</details>
-
-* <details><summary>API | 串接</summary>
-
-    ```php
-    library name: l4d2_melee_modify_damage
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── data/
+    │   └── l4d2_melee_modify_damage.txt     # Set melee damage | 設置近戰武器傷害
+    ├── gamedata/
+    │   └── l4d2_melee_modify_damage.txt     # GameData | 遊戲數據
+    ├── plugins/
+    │   └── l4d2_melee_modify_damage.smx     # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   └── l4d2_melee_modify_damage.sp      # Source code | 源碼
     ```
+
+* <details><summary>Related Plugin | 相關插件</summary>
+
+    1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
+        * 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
+    1. [l4d2_melee_durability](/L4D_插件/Melee_近戰武器/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
+        * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
 </details>
 
 * <details><summary>Known Conflicts</summary>
@@ -68,12 +69,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * Disable damage modify for melee weapon and Chainsaw
 </details>
 
-* <details><summary>Related Plugin | 相關插件</summary>
+* <details><summary>ConVar | 指令</summary>
 
-    1. [l4d2_gun_damage_modify](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_gun_damage_modify): Modify every weapon damage done to Tank, SI, Witch, Common in l4d2
-        * 修改每一種槍械武器對普通殭屍/Tank/Witch/特感 的傷害倍率
-    1. [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability): Every melee weapons have durability, once run out durability, the melee weapon will be removed
-        * 每個近戰武器都有耐久值，揮砍殭屍會消耗耐力，當耐久值耗盡時移除近戰武器
+    * cfg/sourcemod/l4d2_melee_modify_damage.cfg
+        ```php
+        // 0=Plugin off, 1=Plugin on. Modify Chainsaw and each melee weapon damages dealt to Commons/S.I./Tank/Witch
+        // A common zombie still instantly dies on a headshot by melee.
+        l4d2_melee_modify_damage_enable "1"
+
+        // Set wounds only when the zombie is going to die.
+        l4d2_melee_modify_damage_common_wound_dead "1"
+        ```
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>

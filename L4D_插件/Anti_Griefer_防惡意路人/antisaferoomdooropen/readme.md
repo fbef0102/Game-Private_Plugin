@@ -57,7 +57,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         antisaferoomdooropen_force_start_time "100"
 
         // If 1, saferoom door drops after door open
-        antisaferoomdooropen_fake "1"
+        // Use this cvar carefully, some custom maps would be broken if saferoom door is gone
+        antisaferoomdooropen_fake "0"
 
         // If 1, Door fades after it drops.
         antisaferoomdooropen_fade "1"
@@ -192,7 +193,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         antisaferoomdooropen_force_start_time "100"
 
         // 為1時，安全門打開後會自動掉落且不能再關回去
-        antisaferoomdooropen_fake "1"
+        // 請小心開啟指令，在部分三方圖當中安全門不見將導致地圖卡關
+        antisaferoomdooropen_fake "0"
 
         // 為1時，安全門掉落地上後自動消失
         antisaferoomdooropen_fade "1"

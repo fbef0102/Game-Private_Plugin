@@ -59,7 +59,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Support | 支援插件</summary>
 
-	1. [l4d2_melee_durability](/L4D_%E6%8F%92%E4%BB%B6/Real_Realism_%E7%9C%9F%E5%AF%AB%E5%AF%A6%E6%A8%A1%E5%BC%8F/l4d2_melee_durability): Slot 2 melee equipment has durability
+	1. [l4d2_melee_durability](/L4D_插件/Melee_近戰武器/l4d2_melee_durability): Slot 2 melee equipment has durability
 		* 備用的近戰武器也有耐久值
 
 	2. [fortnite_dances_emotes_l4d](/L4D_%E6%8F%92%E4%BB%B6/Fun_%E5%A8%9B%E6%A8%82/fortnite_dances_emotes_l4d): Hide your equipments when dancing
@@ -171,7 +171,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-    1. [l4d_weapon_limits](/L4D_插件/Weapons_武器/l4d_weapon_limits): Restrict weapons individually or together
+    1. [l4d_weapon_limits_remake](/L4D_插件/Weapons_武器/l4d_weapon_limits_remake): Restrict weapons individually or together
         * 限制每個武器可以拿取的數量，超過就不能拿取
 </details>
 
@@ -206,7 +206,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
     * v2.0h (2024-7-9)
         * Add back primary weapon ammo lock
-        * Compatibility with [l4d2_melee_durability](/L4D_插件/Real_Realism_真寫實模式/l4d2_melee_durability) v1.3 or above
+        * Compatibility with l4d2_melee_durability v1.3 or above
         * Update Cvars
 
     * v1.9h (2024-6-18)

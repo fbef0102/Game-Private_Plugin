@@ -497,6 +497,8 @@
     * 視訊->效果細節為低的玩家不能遊玩 (防止遊戲的合法透視)
   * [l4d_remove_screen_shake](/L4D_插件/Player_玩家/l4d_remove_screen_shake): Remove a variety of screen shaking in L4D 1/2
     * 移除遊戲內各種情況的視角晃動
+  * [l4d_stagger_block](/L4D_插件/Player_玩家/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/survivor shove....
+    * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/倖存者右鍵... 波及而硬直震退
 </details>
 
 * <details><summary><b>Real Realism | 真-寫實模式</b></summary> 
@@ -595,8 +597,6 @@
     * 在特感身上顯示剩餘血量
   * [l4d_infected_hp_text](/L4D_插件/Special_Infected_特感/l4d_infected_hp_text): Display health bar text of Special Infected to attacker
     * 向攻擊者顯示特感血條
-  * [l4d_stagger_block](/L4D_插件/Special_Infected_特感/l4d_stagger_block): Block Tanks/S.I/Survivors stumble by Boomer/Witch/Charger/Propane Tank/Pipebomb/survivor shove....
-    * Tank/特感/人類 不會被Boomer/瓦斯桶/Witch/Charger/倖存者右鍵... 波及而硬直震退
   * [l4d2_si_fire_damage](/L4D_插件/Special_Infected_特感/l4d2_si_fire_damage): Reset Fire Damage To SI/Tank
     * 更改火焰對Tank/特感造成的傷害
   * [l4d_who_kill_you](/L4D_插件/Special_Infected_特感/l4d_who_kill_you): Display who killed you (weapons, distance and damage)
@@ -693,6 +693,8 @@
     * 打開選單設置倖存者的血量
   * [l4d_incap_revive_kill](/L4D_插件/Survivor_人類/l4d_incap_revive_kill): Incapacitated survivors can kill C.I/S.I./Tank/Witch to get up by themselves
     * 倒地的倖存者擊殺特感/Tank/Witch/普通感染者，可以自救並獲得血量
+  * [l4d_autowipe](/L4D_插件/Survivor_人類/l4d_autowipe): Slays all survivors or special infected if survivors are simultaneously incapped/pinned
+    * 當所有倖存者同時倒地與被特感抓時，自動滅團所有倖存者或是處死所有特感
 </details>
 
 * <details><summary><b>Tank | 坦克</b></summary>

@@ -1,0 +1,44 @@
+"Phrases"
+{
+	"AutoWiped_slay_Initiating"
+	{
+		"#format"		"{1:.1f}"
+		"en"	"[{olive}TS{default}] Initiating AutoWipe in {green}{1}{default} sec..."
+		"zho"	"[{olive}TS{default}] 啟動計時，自動滅團於 {green}{1}{default} 秒後..."
+		"chi"	"[{olive}TS{default}] 启动计时，自动灭团于 {green}{1}{default} 秒后..."
+	}
+	"AutoWiped_slay_Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"	"[{olive}TS{default}] AutoWipe in {green}{1}{default} sec..."
+		"zho"	"[{olive}TS{default}] 自動滅團於 {green}{1}{default} 秒後..."
+		"chi"	"[{olive}TS{default}] 自动灭团于 {green}{1}{default} 秒后..."
+	}
+	"AutoWiped_slay"
+	{
+		"en"	"[{olive}TS{default}] AutoSlayed survivors!"
+		"zho"	"[{olive}TS{default}] 自動滅團所有倖存者!"
+		"chi"	"[{olive}TS{default}] 自动灭团所有幸存者!"
+	}
+
+	"AutoWiped_clear_Initiating"
+	{
+		"#format"		"{1:.1f}"
+		"en"	"[{olive}TS{default}] Initiating AutoClear in {green}{1}{default} sec..."
+		"zho"	"[{olive}TS{default}] 啟動計時，清除特感於 {green}{1}{default} 秒後..."
+		"chi"	"[{olive}TS{default}] 启动计时，清除特感于 {green}{1}{default} 秒后..."
+	}
+	"AutoWiped_clear_Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"	"[{olive}TS{default}] AutoClear in {green}{1}{default} sec..."
+		"zho"	"[{olive}TS{default}] 清除特感於 {green}{1}{default} 秒後..."
+		"chi"	"[{olive}TS{default}] 清除特感于 {green}{1}{default} 秒后..."
+	}
+	"AutoWiped_clear"
+	{
+		"en"	"[{olive}TS{default}] AutoSlayed Special Infected!"
+		"zho"	"[{olive}TS{default}] 自動清除特感!"
+		"chi"	"[{olive}TS{default}] 自动清除特感!"
+	}
+}

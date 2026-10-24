@@ -165,6 +165,8 @@
    * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Server_sub_101D7CB0_Detour): 修正崩潰: ```server.dll + 0x1d7cbb``` 涵式內的空指針
 
    * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): 修復崩潰: 傳給```CM_VCollideForModel``` 涵式內的zero pointer
+
+   * (L4D1 linux/windows) [l4d_physenv_teardown_fix](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_physenv_teardown_fix.sp): L4D1 的 vphysics 在換圖時面臨的崩潰問題。這bug非常罕見
 </details>
 
 * <details><summary><b>防駭客與外掛</b></summary>
@@ -178,4 +180,8 @@
    * (L4D1/2) [Little-Anti-Cheat](https://github.com/fbef0102/Little-Anti-Cheat/releases): 2020年左右的反作弊插件
       * 也許已不適用現今的高科技外掛，但有總比沒有好
       * 玩家開透視或自瞄會被此插件檢測並記錄logs文件
+
+   * (L4D1) [L4D1-consistency](https://github.com/Volence/riverside-pugs/tree/main/consistency): 強制一代開啟檔案一致性檢查
+      * 一項伺服器安全機制。它的主要作用是防止玩家透過修改遊戲本地檔案（如模組、材質、模型或腳本）來達到作弊或獲得不公平優勢的目的。
+      * 踢出任何玩家使用模組: 去除樹葉、高亮的特感皮膚、武器消音、膽汁綠幕移除等等...
 </details>

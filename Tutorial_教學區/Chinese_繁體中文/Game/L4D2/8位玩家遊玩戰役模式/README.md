@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2026/7/9 更新
+> 2026/10/24 更新
 - [安裝總攬](#安裝總攬)
   - [前言](#前言)
   - [準備檔案](#準備檔案)
@@ -101,6 +101,8 @@
 * [l4d_fix_target_replace](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_fix_target_replace): 修復bot取代倖存者或倖存者取代bot的一系列問題
 
 * [Transition Restore Fix](https://forums.alliedmods.net/showthread.php?t=336287): 修復5+倖存者過關時無法保存武器到下一關 (用DHooks與sourcecramble修改遊戲內部涵式)
+
+* [l4d_forcefinalestart_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_forcefinalestart_fix): 防止救援無法開始而地圖卡關，當地圖使用 ForceFinaleStart 時並非所有倖存者都在 FINALE 屬性區域內
 
 - - - -
 ## 額外檔案
