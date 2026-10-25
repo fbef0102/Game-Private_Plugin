@@ -18,7 +18,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Open [data/l4d_weapon_limits_remake.cfg](data/l4d_weapon_limits_remake.cfg) and set weapon/melee limit
     * When limit reached, any of players can't pick up specific weapons or melees
     * Or set limit by weapon group, for example: melees, snipers
-    * Apply to bots and real players
+    * Apply to bots and real players, bots won't try to pickup if limit reached
 </details>
 
 * Require | 必要安裝
@@ -64,6 +64,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v2.7 (2026-10-26)
+        * Bots won't try to pickup if limit reached
+
     * v2.6 (2026-10-20)
         * Clean up and organize code (Remake)
         * Add data file
@@ -99,7 +102,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * 打開文件 [data/l4d_weapon_limits_remake.cfg](data/l4d_weapon_limits_remake.cfg)，修改武器數量限制
     * 當玩家要撿起武器時，計算隊友已經攜帶的數量，超過限制便不能撿起武器
     * 可以進一步限制每種近戰種類或武器種類，舉例: 近戰武器、狙擊槍
-    * 適用真人玩家與Bot
+    * 適用真人玩家與Bot，BOT不會嘗試去拿取已達到上限的武器
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
 

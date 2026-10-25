@@ -1,12 +1,12 @@
-#if defined  _l4d_multiple_equipment_included_
+#if defined  _l4d_multiple_equipment_remake_included_
  #endinput
 #endif
-#define _l4d_multiple_equipment_included_
+#define _l4d_multiple_equipment_remake_included_
 
-public SharedPlugin __pl_l4d_multiple_equipment =
+public SharedPlugin __pl_l4d_multiple_equipment_remake =
 {
-	name = "l4d_multiple_equipment",
-	file = "l4d_multiple_equipment.smx",
+	name = "l4d_multiple_equipment_remake",
+	file = "l4d_multiple_equipment_remake.smx",
 #if defined REQUIRE_PLUGIN
 	required = 1,
 #else
@@ -15,7 +15,7 @@ public SharedPlugin __pl_l4d_multiple_equipment =
 };
 
 #if !defined REQUIRE_PLUGIN
-public void __pl_l4d_multiple_equipment_SetNTVOptional()
+public void __pl_l4d_multiple_equipment_remake_SetNTVOptional()
 {
 	MarkNativeAsOptional("Multi_EQ_GetPlayerSlot_BackUpWeapon");
 }
