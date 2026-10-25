@@ -48,8 +48,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     │   └── l4d2_melee_modify_damage.txt     # GameData | 遊戲數據
     ├── plugins/
     │   └── l4d2_melee_modify_damage.smx     # Compiled plugin | 已編譯的插件
-    ├── scripting/
-    │   └── l4d2_melee_modify_damage.sp      # Source code | 源碼
+    └── scripting/
+        └── l4d2_melee_modify_damage.sp      # Source code | 源碼
     ```
 
 * <details><summary>Related Plugin | 相關插件</summary>

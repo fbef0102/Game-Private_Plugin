@@ -24,10 +24,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     /
     ├── plugins/
     │   └── l4d_tracerock.smx            # Compiled plugin | 已編譯的插件
-    ├── scripting/
-    │   ├── include/ 
-    │   │   └── l4d_tracerock.inc        # API | 給會寫插件的人
-    │   └── l4d_tracerock.sp             # Source code | 源碼
+    └── scripting/
+        ├── include/ 
+        │   └── l4d_tracerock.inc        # API | 給會寫插件的人
+        └── l4d_tracerock.sp             # Source code | 源碼
     ```
 
 * <details><summary>Related Plugin | 相關插件</summary>

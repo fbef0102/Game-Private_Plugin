@@ -37,8 +37,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     │   └── l4d_bot_block_heal.txt            # GameData | 遊戲數據
     ├── plugins/
     │   └── l4d_bot_block_heal.smx            # Compiled plugin | 已編譯的插件
-    ├── scripting/
-    │   └── l4d_bot_block_heal.sp             # Source code | 源碼
+    └── scripting/
+        └── l4d_bot_block_heal.sp             # Source code | 源碼
     ```
 
 * <details><summary>ConVar | 指令</summary>
