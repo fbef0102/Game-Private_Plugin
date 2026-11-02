@@ -104,6 +104,9 @@
 
 * [l4d_forcefinalestart_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_forcefinalestart_fix): Prevent finale softlocks when maps use ForceFinaleStart because not all survivors are in FINALE attribute area
 
+* (L4D1) [l4d_fix_tank_jointeam](https://github.com/fbef0102/Rotoblin-AZMod/blob/master/SourceCode/scripting-az/l4d_fix_tank_jointeam.sp): Prevents Tank spawns from being blocked when the Special Infected team is full (z_max_player_zombies +1 slots)
+	* [Gamedata Download](https://github.com/fbef0102/Rotoblin-AZMod/blob/master/left4dead/addons/sourcemod/gamedata/l4d_fix_tank_jointeam.txt)
+
 - - - -
 ## Optional
 > __Note__<br/> Not necessary to install
@@ -232,5 +235,6 @@
 
 - - - -
 ## Others
+* [Install Fix](/Tutorial_教學區/English/Server/Install_Fix)
 * [Questions](/Questions_問題區)
 

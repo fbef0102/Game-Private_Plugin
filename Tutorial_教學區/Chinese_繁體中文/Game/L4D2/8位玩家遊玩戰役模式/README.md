@@ -104,6 +104,9 @@
 
 * [l4d_forcefinalestart_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_forcefinalestart_fix): 防止救援無法開始而地圖卡關，當地圖使用 ForceFinaleStart 時並非所有倖存者都在 FINALE 屬性區域內
 
+* (L4D1) [l4d_fix_tank_jointeam](https://github.com/fbef0102/Rotoblin-AZMod/blob/master/SourceCode/scripting-az/l4d_fix_tank_jointeam.sp): Tank生成不會受到特感隊伍限制 (z_max_player_zombies +1 位置已滿)
+    * [Gamedata下載](https://github.com/fbef0102/Rotoblin-AZMod/blob/master/left4dead/addons/sourcemod/gamedata/l4d_fix_tank_jointeam.txt)
+
 - - - -
 ## 額外檔案
 > __Note__ 此處額外檔案可以不用裝，自行決定
@@ -233,5 +236,6 @@
 
 - - - -
 ## 其他
+* [安裝實用的修復](/Tutorial_教學區/Chinese_繁體中文/Server/安裝實用的修復)
 * [問題集合區 Questions](/Questions_問題區)
 

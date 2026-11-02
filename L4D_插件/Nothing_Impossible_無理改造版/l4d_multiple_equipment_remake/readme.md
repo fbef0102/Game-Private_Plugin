@@ -41,10 +41,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * Can save to next stage in coop/realism
     * Can save if player idle or afk
     * Drop all equipments when player is dead
-</details>
-
-* <details><summary>Notice</summary>
-
     * If player using character mods, the position of equipment will mess up on the body
         * Just a visual issue, the functionality won't be affected
         * Can set cvar to not display extra item equipment 
@@ -56,6 +52,20 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     3. [[INC] l4d2_weapons](/L4D_插件/Require_檔案/scripting/include/l4d2_weapons.inc)
     4. [ThirdPersonShoulder_Detect](https://forums.alliedmods.net/showthread.php?p=2529779)
     5. [l4d_save_weapon_ammo](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_save_weapon_ammo)
+    6. [l4d_transition_entity](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d_transition_entity)
+
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── plugins/
+    │   └── l4d_multiple_equipment_remake.smx            # Compiled plugin | 已編譯的插件
+    ├── scripting/
+    │   ├── include/ 
+    │   │   └── l4d_multiple_equipment_remake.inc        # API | 給會寫插件的人
+    │   └── l4d_multiple_equipment_remake.sp             # Source code | 源碼
+    └── translations/
+        └── l4d_multiple_equipment_remake.phrases.txt    # Multi-language translation | 翻譯多國語言
+    ```
 
 * <details><summary>Support | 支援插件</summary>
 
@@ -156,19 +166,6 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		```
 </details>
 
-* <details><summary>API | 串接</summary>
-
-    * [l4d_multiple_equipment_remake.inc](scripting/include/l4d_multiple_equipment_remake.inc)
-        ```php
-        library name: l4d_multiple_equipment_remake
-        ```
-</details>
-
-* Translation Support | 支援翻譯
-	```
-	translations/l4d_multiple_equipment_remake.phrases.txt
-	```
-
 * <details><summary>Related Plugin | 相關插件</summary>
 
     1. [l4d_weapon_limits_remake](/L4D_插件/Weapons_武器/l4d_weapon_limits_remake): Restrict weapons individually or together
@@ -177,10 +174,14 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v2.8h (2026-11-3)
+        * Require l4d_transition_entity
+        * Fixed "Weapon is not owned by client" error
+
     * v2.7h (2026-4-4)
-       * Fixed primary equipments dropped on the ground have no ammo after player dies
-       * To avoid annonying double Q key or slot 1,2,3,4,5 key, now add a new cvar: player must hold a specific button to trigger "Switch Equipments Slot 1,2,3,4,5"
-       * Update cvars, translations
+        * Fixed primary equipments dropped on the ground have no ammo after player dies
+        * To avoid annonying double Q key or slot 1,2,3,4,5 key, now add a new cvar: player must hold a specific button to trigger "Switch Equipments Slot 1,2,3,4,5"
+        * Update cvars, translations
 
     * v2.6h (2026-2-12)
         * Fixed equipments from last level disappear after survivor wipe out and start second new round
@@ -244,10 +245,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
         * Support Custom Melee
 
     * v1.0h (2023-11-28)
-		* Remake code, convert code to latest syntax
-		* Fix warnings when compiling on SourceMod 1.11.
-		* Optimize code and improve performance
-		* Translation Support
+        * Remake code, convert code to latest syntax
+        * Fix warnings when compiling on SourceMod 1.11.
+        * Optimize code and improve performance
+        * Translation Support
         * Safely remove weapons and items to prevent crash
         * Fix memoery leak
         * Remove menu

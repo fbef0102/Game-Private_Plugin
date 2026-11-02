@@ -148,7 +148,7 @@
 
    * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): Fix Crash ```SurvivorBot::IsReachable``` null pointer
 
-   * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): Fixed server crash due to chainsaw sound issue in l4d2 linux  ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
+   * (L4D2 linux/windows) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): Fixed server crash due to chainsaw sound and ower issue in l4d2
 
    * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): Temp. walkaround agains wrong mem. address access in ```Tier0```, maybe some mem. scan related
 

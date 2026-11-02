@@ -158,7 +158,7 @@
 
    * (L4D2 linux) [IsReachable_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/IsReachable_Detour): 修正崩潰: ```SurvivorBot::IsReachable``` 涵式內的空指針
 
-   * (L4D2 linux) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): 修復L4D2 linux系統下電鋸音效導致伺服器崩潰: ```CSoundPatch::ChangePitch```, ```CSoundControllerImp::SoundChangePitch```
+   * (L4D2 linux/windows) [l4d2_chainsaw_fix](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_chainsaw_fix): 修復電鋸武器的音效與持有人異常引發的L4D2伺服器崩潰問題
 
    * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): 修復崩潰 ```tier0.dll``` 涵式相關記憶體錯誤
 
