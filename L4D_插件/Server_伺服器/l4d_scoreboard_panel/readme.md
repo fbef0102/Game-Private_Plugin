@@ -47,6 +47,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// If 1, display health on panel
 		l4d_scoreboard_panel_display_health "1"
 
+		// Symbol for survivors who are limping (The yellow or red HP)
+		l4d_scoreboard_panel_limping_symbol "!"
+
 		// Symbol for survivors hanging from ledge
 		l4d_scoreboard_panel_hanging_symbol "H"
 
@@ -87,6 +90,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+	* v1.3 (2026-11-5)
+		* Update cvars
+		
 	* v1.2 (2026-1-31)
 		* Update panel, sort survivor list by health from highest to lowest
 		* Update cvars
@@ -124,6 +130,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 		// 為1時，列表上顯示血量
 		l4d_scoreboard_panel_display_health "1"
+
+		// 顯示的符號 - 人類低血量瘸腿狀態 (黃血或紅血)
+		l4d_scoreboard_panel_limping_symbol "!"
 
 		// 顯示的符號 - 人類掛邊
 		l4d_scoreboard_panel_hanging_symbol "H"

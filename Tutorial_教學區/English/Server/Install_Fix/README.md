@@ -152,8 +152,6 @@
 
    * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): Temp. walkaround agains wrong mem. address access in ```Tier0```, maybe some mem. scan related
 
-   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Server_sub_101D7CB0_Detour): Fix Crash ```server.dll + 0x1d7cbb``` null pointer
-
    * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): Fixed server crash caused by zero pointer of model_t passed to ```CM_VCollideForModel``` function
 
    * (L4D1 linux/windows) [l4d_physenv_teardown_fix](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_physenv_teardown_fix.sp): Stops the vphysics use-after-free that can crash the server at a level change.

@@ -162,8 +162,6 @@
 
    * (L4D2 windows) [Tier_MemScan_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Tier_MemScan_Detour): 修復崩潰 ```tier0.dll``` 涵式相關記憶體錯誤
 
-   * (L4D2 windows) [Server_sub_101D7CB0_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Server_sub_101D7CB0_Detour): 修正崩潰: ```server.dll + 0x1d7cbb``` 涵式內的空指針
-
    * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): 修復崩潰: 傳給```CM_VCollideForModel``` 涵式內的zero pointer
 
    * (L4D1 linux/windows) [l4d_physenv_teardown_fix](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_physenv_teardown_fix.sp): L4D1 的 vphysics 在換圖時面臨的崩潰問題。這bug非常罕見

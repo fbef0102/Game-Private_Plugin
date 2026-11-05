@@ -31,6 +31,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     │   └── anti-friendly_fire_V2.cfg         # Set ff damage | 設置友傷
     ├── plugins/
     │   └── anti-friendly_fire_V2.smx         # Compiled plugin | 已編譯的插件
+    ├── scripting/
     │   └── anti-friendly_fire_V2.sp          # Source code | 源碼
     └── translations/
         └── anti-friendly_fire_V2.phrases.txt # Multi-language translation | 翻譯多國語言

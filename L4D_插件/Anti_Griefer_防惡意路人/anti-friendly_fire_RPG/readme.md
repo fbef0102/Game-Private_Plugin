@@ -54,6 +54,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     │   └── anti-friendly_fire_RPG.cfg         # Set ff damage | 設置友傷
     ├── plugins/
     │   └── anti-friendly_fire_RPG.smx         # Compiled plugin | 已編譯的插件
+    ├── scripting/
     │   └── anti-friendly_fire_RPG.sp          # Source code | 源碼
     └── translations/
         └── anti-friendly_fire_RPG.phrases.txt # Multi-language translation | 翻譯多國語言
