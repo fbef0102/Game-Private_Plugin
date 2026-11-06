@@ -11,12 +11,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	L4D2
 	```
 
+* Image | 圖示
+	<br/>![l4d_tank_timer_spawn_1](image/l4d_tank_timer_spawn_1.jpg)
+
 * <details><summary>How does it work?</summary>
 
 	* This plugin spawns multi tanks every amount of time passed
 		1. Spawn random numbers of tanks each time.
 		2. Random time interval
 		3. Disable tank spawn after final starts
+	* Modify data file: [data/l4d_tank_timer_spawn.cfg](data/l4d_tank_timer_spawn.cfg)
+		* Manual in this file, click for more details...
 	* Disable director/mutation/static tank
 	* (Versus) Tanks will pass to players
 </details>
@@ -25,6 +30,23 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [spawn_infected_nolimit](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/spawn_infected_nolimit)
 	3. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* Directory Structure | 檔案結構
+	```php
+    /
+    ├── data/
+    │   └── l4d_tank_timer_spawn.cfg            # Set Tank spawn time and numbers | 設置Tank生成時間與數量
+    ├── plugins/
+    │   └── l4d_tank_timer_spawn.smx            # Compiled plugin | 已編譯的插件
+    └── scripting/
+        └── l4d_tank_timer_spawn.sp             # Source code | 源碼
+    ```
+
+* <details><summary>Related | 相關插件</summary>
+
+	1. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
+		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
+</details>
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -37,36 +59,17 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// (L4D1) 1=Disable director tank spawn (and witch), 0=Off
 		l4d_tank_timer_spawn_disable_director "0"
 
-		// Set max interval time to spawn tank
-		l4d_tank_timer_spawn_interval_max "120"
-
-		// Set min interval time to spawn tank
-		l4d_tank_timer_spawn_interval_min "60"
-
-		// Set total max numbers of Tanks to spawn each time
-		l4d_tank_timer_spawn_number_max "2"
-
-		// Set total min numbers of Tanks to spawn each time
-		l4d_tank_timer_spawn_number_min "0"
-
-		// Max tank limit on the filed (If limit reached, don't spawn tanks)
-		l4d_tank_timer_spawn_limit "2"
-
-		// When to start the timer to spawn tank 1=After a survivor leaves the saferoom and before final starts, 2=After final starts, 3=After a survivor leaves the saferoom + after final starts
-		l4d_tank_timer_spawn_when "3"
-
-		// If 1, display chat message
-		l4d_tank_timer_spawn_notify "1"
+		// Dynamic Adjust Tank Hp depends on, 0=the number of alive survivors, 1=the number of alive + dead survivors.
+		l4d_tank_timer_spawn_including_dead "1"
 		```
 </details>
 
-* <details><summary>Related | 相關插件</summary>
-
-	1. [l4d_tank_spawn](/L4D_插件/Tank_坦克/l4d_tank_spawn): Spawn multi Tanks on the map and final rescue
-		* 一個關卡中或救援期間生成多隻Tank，對抗模式也適用
-</details>
-
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.3 (2026-11-6)
+		* Rewrite code
+		* Add data to control tank spawn time, numbers, and tank limit
+		* Update cvars
 
 	* v1.3 (2026-6-17)
 		* Update cvars
@@ -90,6 +93,8 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		1. 每次數量隨機
 		2. 時間間隔隨機
 		3. 救援開始後不生成tank
+	* 修改文件: [data/l4d_tankhp_dynamic_adjust.cfg](data/l4d_tankhp_dynamic_adjust.cfg)
+		* 內有中文說明書
 	* 此插件會停止遊戲導演生成Tank
 	* (對抗模式) Tank生成後會轉移給玩家操控
 
@@ -104,25 +109,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// (L4D1) 1=關閉導演系統生成tank (這也會關閉導演系統生成witch), 0=關閉這項功能
 		l4d_tank_timer_spawn_disable_director "1"
 
-		// 生成tank的時間間隔 (最長時間)
-		l4d_tank_timer_spawn_interval_max "120"
-
-		// 生成tank的時間間隔 (最短時間)
-		l4d_tank_timer_spawn_interval_min "60"
-
-		// 每次生成tank的數量 (最多)
-		l4d_tank_timer_spawn_number_max "2"
-
-		// 每次生成tank的數量 (最少)
-		l4d_tank_timer_spawn_number_min "0"
-
-		// 場上的Tank數量上限 (已達數量時不會繼續生成tank)
-		l4d_tank_timer_spawn_limit "2"
-
-		// 何時開始生成Tank, 1=倖存者離開安全區後+救援開始之前, 2=救援開始之後, 3=倖存者離開安全區後+救援開始之後
-		l4d_tank_timer_spawn_when "3"
-
-		// 為1時，聊天框顯示Tank數量與時間提示
-		l4d_tank_timer_spawn_notify "1"
+		// 根據何種方式計算倖存者人數, 0=活著的倖存者人數, 1=活著+死亡的倖存者人數
+		l4d_tank_timer_spawn_including_dead "1"
 		```
 </details>

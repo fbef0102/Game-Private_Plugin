@@ -177,6 +177,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
     * v2.8h (2026-11-3)
         * Require l4d_transition_entity
         * Fixed "Weapon is not owned by client" error
+        * Clean up and organize code (Remake)
 
     * v2.7h (2026-4-4)
         * Fixed primary equipments dropped on the ground have no ammo after player dies

@@ -128,7 +128,10 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
-	* v1.6h (2026-9-11)
+	* v1.6h (2026-9-16)
+		* Update cvars
+		* Clean up and organize code (Remake)
+
 	* v1.5h (2025-9-16)
 	* v1.4h (2024-3-9)
 		* Update cvars

@@ -165,6 +165,9 @@
    * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): 修復崩潰: 傳給```CM_VCollideForModel``` 涵式內的zero pointer
 
    * (L4D1 linux/windows) [l4d_physenv_teardown_fix](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_physenv_teardown_fix.sp): L4D1 的 vphysics 在換圖時面臨的崩潰問題。這bug非常罕見
+
+   * (L4D1 linux/windows) [l4d_nullmodel_guard](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_nullmodel_guard.sp): 因 L4D1 Engine 內 CM_VCollideForModel 未做 NULL 判斷，無 model 鍵值的 func_* 實體（SOLID_VPHYSICS / SOLID_BSP）在被任何 Trace 射線擊中時會引發 segfault 崩潰
+      * L4D2 無此問題，故移植二代地圖常包含此漏洞
 </details>
 
 * <details><summary><b>防駭客與外掛</b></summary>

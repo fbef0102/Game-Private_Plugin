@@ -155,6 +155,10 @@
    * (L4D1 linux/windows) [Fix_CM_VCollideForModel_Detour](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Fix_CM_VCollideForModel_Detour): Fixed server crash caused by zero pointer of model_t passed to ```CM_VCollideForModel``` function
 
    * (L4D1 linux/windows) [l4d_physenv_teardown_fix](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_physenv_teardown_fix.sp): Stops the vphysics use-after-free that can crash the server at a level change.
+
+   * (L4D1 linux/windows) [l4d_nullmodel_guard](https://github.com/Volence/riverside-l4d-plugins/blob/main/addons/sourcemod/scripting/l4d_nullmodel_guard.sp): L4D1's CM_VCollideForModel reads model->type with no NULL check (L4D2 has one).
+      * A func_* spawned SOLID_VPHYSICS or SOLID_BSP with `no "model"` key gets model index 0 and a NULL model_t, so the first trace that touches it (a common's path check, a hull trace, a bullet) segfaults the server crash
+      * Ported L4D2 maps carry the trap because L4D2 never crashed on it
 </details>
 
 * <details><summary><b>Hacker and Cheat</b></summary>

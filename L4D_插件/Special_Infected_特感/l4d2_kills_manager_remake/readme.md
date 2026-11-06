@@ -76,6 +76,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 
 * <details><summary>Changelog | 版本日誌</summary>
 
+    * v1.3h (2026-9-16)
+        * Clean up and organize code (Remake)
+
     * v1.2h (2024-12-20)
         * Add API
 
