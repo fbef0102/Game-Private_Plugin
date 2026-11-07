@@ -609,6 +609,8 @@
     * 移除靈魂特感的生成限制，玩家可以在安全室裡面復活、在倖存者眼前復活
   * [l4d_no_dmg_to_incap](/L4D_插件/Special_Infected_特感/l4d_no_dmg_to_incap): S.I can not pin or scratch incapacitated survivors
     * 禁止特感對人類鞭屍，無法對倒地的倖存者造成二次傷害
+  * [l4d_si_hp_dynamic_adjust](/L4D_插件/Special_Infected_特感/l4d_si_hp_dynamic_adjust): Dynamic Adjust Tank HP depends on 5+ survivors in server
+    * 隨著玩家人數越多，Tank血量越厚
 </details>
 
 * <details><summary><b>Spectator | 旁觀者</b></summary>
@@ -731,8 +733,6 @@
     * Tank可以重置所有物件的位置並練習如何揮打車子
   * [l4d2_huge_tank_rock](/L4D_插件/Tank_坦克/l4d2_huge_tank_rock): Make Tank Rock Huge and deals more damage
     * Tank石頭變得巨大且更多傷害
-  * [l4d_tankhp_dynamic_adjust](/L4D_插件/Tank_坦克/l4d_tankhp_dynamic_adjust): Dynamic Adjust Tank HP depends on 5+ survivors in server
-    * 隨著玩家人數越多，Tank血量越厚
   * [l4d_tank_punch_range](/L4D_插件/Tank_坦克/l4d_tank_punch_range): Adjust Tank punch range and hit multi survivors with one punch
     * Tank可以大範圍一拳打倒周圍的倖存者
   * [l4d2_tank_glow](/L4D_插件/Tank_坦克/l4d2_tank_glow): Sets glows on tanks everyone can see

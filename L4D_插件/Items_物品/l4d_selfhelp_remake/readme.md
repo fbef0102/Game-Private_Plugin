@@ -24,7 +24,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* Gain more temp health from incap
 		* Kill special infected attacker
 	* You can pick up medical items within the range around you while incap, Aim items and Press E
-	* While incap, you can Help other players who are incap or hanging from ledge within the range around you
+	* While incap, you can Press E to Help other players who are incap or hanging from ledge within the range around you
 	* Control each medical items in data file: [data/l4d_selfhelp_remake.cfg](data/l4d_selfhelp_remake.cfg)
 </details>
 
@@ -48,6 +48,9 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 	```
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+	* v1.5h (2026-11-7)
+		* Cleened up and optimized code about helping each other
 
 	* v1.4h (2026-9-16)
 		* Update data, add "incap_help_buttons" keyvalue
@@ -88,7 +91,7 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		* 倒地自救後獲得更多的血量
 		* 處死控制你的特感
 	* 倒地期間可以撿起周圍的醫療物品，準心指向物品後按E鍵
-	* 倒地期間, 你可以救起來範圍內倒地或掛邊的玩家
+	* 倒地期間, 按E鍵你可以救起來範圍內倒地或掛邊的玩家
 	* 控制每個醫療物品: [data/l4d_selfhelp_remake.cfg](data/l4d_selfhelp_remake.cfg)
 
 * <details><summary>指令中文介紹 (點我展開)</summary>
