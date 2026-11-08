@@ -158,75 +158,75 @@ This plugin is private, Please contact [me](/#私人插件列表-private-plugins
 		// 為1時，當救援開始後，Bot思考醫療物品時忽略此插件設置的血量限制
 		l4d_bot_block_heal_final_ignore_threshold "0"
 
-		// Bot何時能才會對自己使用治療包
+		// Bot何時才會對自己使用治療包
 		// 自身的血量小於等於此數值 (0=永遠禁止治療)
 		l4d_bot_block_heal_kit_self_threshold "40"
 
-		// Bot何時能才會對其他Bot使用治療包
+		// Bot何時才會對其他Bot使用治療包
 		// 其他Bot的血量小於等於此數值 (0=永遠不會治療其他Bot)
 		l4d_bot_block_heal_kit_bot_threshold "40"
 
-		// Bot何時能才會對真人玩家使用治療包
+		// Bot何時才會對真人玩家使用治療包
 		// 真人玩家的血量小於等於此數值 (0=永遠不會治療真人玩家)
 		l4d_bot_block_heal_kit_player_threshold "40"
 
-		// Bot何時能才會對自己使用治療包
+		// Bot何時才會對自己使用治療包
 		// 自身的倒地次數大於等於此數值 (0=倒地之前可以治療)
 		l4d_bot_block_heal_kit_self_incaps "1"
 
-		// Bot何時能才會對其他Bot使用治療包
+		// Bot何時才會對其他Bot使用治療包
 		// 其他Bot的倒地次數大於等於此數值 (0=可以治療倒地之前的其他Bot)
 		l4d_bot_block_heal_kit_bot_incaps "1"
 
-		// Bot何時能才會對真人玩家使用治療包
+		// Bot何時才會對真人玩家使用治療包
 		// 真人玩家的倒地次數大於等於此數值 (0=可以治療倒地之前的真人玩家)
 		l4d_bot_block_heal_kit_player_incaps "0"
 
-		// Bot何時能才會對自己使用藥丸
+		// Bot何時才會對自己使用藥丸
 		// 自身的血量小於等於此數值 (0=永遠禁止吃藥)
 		l4d_bot_block_heal_pill_self_threshold "40"
 
-		// Bot何時能才會遞給其他Bot藥丸
+		// Bot何時才會遞給其他Bot藥丸
 		// 其他Bot的血量小於等於此數值 (0=永遠不會給其他Bot藥丸)
 		l4d_bot_block_heal_pill_bot_threshold "40"
 
-		// Bot何時能才會遞給真人玩家藥丸
+		// Bot何時才會遞給真人玩家藥丸
 		// 真人玩家的血量小於等於此數值 (0=永遠禁止給真人玩家)
 		l4d_bot_block_heal_pill_player_threshold "50"
 
-		// Bot何時能才會對自己使用藥丸
+		// Bot何時才會對自己使用藥丸
 		// 自身的倒地次數大於等於此數值 (0=倒地之前可以吃藥)
 		l4d_bot_block_heal_pill_self_incaps "1"
 
-		// Bot何時能才會遞給其他Bot藥丸
+		// Bot何時才會遞給其他Bot藥丸
 		// 其他Bot的倒地次數大於等於此數值 (0=可以遞給倒地之前的其他Bot)
 		l4d_bot_block_heal_pill_bot_incaps "1"
 
-		// Bot何時能才會遞給真人玩家藥丸
+		// Bot何時才會遞給真人玩家藥丸
 		// 真人玩家的倒地次數大於等於此數值 (0=可以遞給倒地之前的真人玩家)
 		l4d_bot_block_heal_pill_player_incaps "0"
 
-		// (L4D2) Bot何時能才會對自己使用腎上腺素
+		// (L4D2) Bot何時才會對自己使用腎上腺素
 		// 自身的血量小於等於此數值 (0=永遠禁止打針)
 		l4d_bot_block_heal_adrenaline_self_threshold "30"
 
-		// (L4D2) Bot何時能才會遞給其他Bot腎上腺素
+		// (L4D2) Bot何時才會遞給其他Bot腎上腺素
 		// 其他Bot的血量小於等於此數值 (0=永遠不會給其他Bot)
 		l4d_bot_block_heal_adrenaline_bot_threshold "30"
 
-		// (L4D2) Bot何時能才會對真人玩家腎上腺素
+		// (L4D2) Bot何時才會對真人玩家腎上腺素
 		// 真人玩家的血量小於等於此數值 (0=永遠不會給真人玩家)
 		l4d_bot_block_heal_adrenaline_player_threshold "50"
 
-		// (L4D2) Bot何時能才會對自己使用腎上腺素
+		// (L4D2) Bot何時才會對自己使用腎上腺素
 		// 自身的倒地次數大於等於此數值 (0=倒地之前可以打針)
 		l4d_bot_block_heal_adrenaline_self_incaps "1"
 
-		// (L4D2) Bot何時能才會遞給其他Bot腎上腺素
+		// (L4D2) Bot何時才會遞給其他Bot腎上腺素
 		// 其他Bot的倒地次數大於等於此數值 (0=可以遞給倒地之前的其他Bot)
 		l4d_bot_block_heal_adrenaline_bot_incaps "1"
 
-		// (L4D2) Bot何時能才會遞給真人玩家腎上腺素
+		// (L4D2) Bot何時才會遞給真人玩家腎上腺素
 		// 真人玩家的倒地次數大於等於此數值 (0=可以遞給倒地之前的真人玩家)
 		l4d_bot_block_heal_adrenaline_player_incaps "0"
 		```
