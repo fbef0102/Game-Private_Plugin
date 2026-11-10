@@ -1,5 +1,5 @@
 # 安裝總攬
-> 2026/7/26 更新
+> 2026/11/11 更新
 - [安裝總攬](#安裝總攬)
 	- [安裝Stripper](#安裝stripper)
 	- [安裝l4dtoolz](#安裝l4dtoolz)
@@ -266,20 +266,20 @@
 		* (區域房) 啟動選項輸入```-tickrate 100```
 		<br/>![image](image/16.jpg)
 
-	4. 到cfg/server.cfg寫上以下指令
-		* 沒有server.cfg檔案則新建
+	4. 到cfg資料夾
+		* (專屬伺服器) 到`cfg/server.cfg`寫上以下指令. 沒有`server.cfg`檔案則新建
+		* (區域房) 到`cfg/listenserver.cfg`寫上以下指令. 沒有`listenserver.cfg`檔案則新建
 		* 可以參考[我的L4D2設置tickrate 100的網路參數](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server_rates.cfg)
 			```php
 			// 這是100 Tick的設定，不能隨意修改數值
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
-			sm_cvar sv_maxupdaterate 		"100"		// tickrate
-			sm_cvar sv_mincmdrate 			"100"		// tickrate
-			sm_cvar sv_maxcmdrate 			"100"		// tickrate
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
+			sm_cvar sv_minrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate        "100"	 	// tickrate
+			sm_cvar sv_maxupdaterate        "100"		// tickrate
+			sm_cvar sv_mincmdrate           "100"		// tickrate
+			sm_cvar sv_maxcmdrate           "100"		// tickrate
+			sm_cvar net_splitpacket_maxrate "100000" 	// tickrate * 1000
+			sm_cvar fps_max                 "0"
 			```
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功
@@ -314,20 +314,20 @@
 		* (區域房) 啟動選項輸入```-tickrate 100```
 		<br/>![image](image/16.jpg)
 
-	4. 到cfg/server.cfg寫上以下指令
-		* 沒有server.cfg檔案則新建
+	4. 到cfg資料夾
+		* (專屬伺服器) 到`cfg/server.cfg`寫上以下指令. 沒有`server.cfg`檔案則新建
+		* (區域房) 到`cfg/listenserver.cfg`寫上以下指令. 沒有`listenserver.cfg`檔案則新建
 		* 可以參考[我的L4D1設置tickrate 100的網路參數](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D1/Windows%20Server%20Files/left4dead/cfg/server_rates.cfg)
 			```php
 			// 這是100 Tick的設定，不能隨意修改數值
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
-			sm_cvar sv_maxupdaterate 		"100"		// tickrate
-			sm_cvar sv_mincmdrate 			"100"		// tickrate
-			sm_cvar sv_maxcmdrate 			"100"		// tickrate
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
+			sm_cvar sv_minrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate        "100"	 	// tickrate
+			sm_cvar sv_maxupdaterate        "100"		// tickrate
+			sm_cvar sv_mincmdrate           "100"		// tickrate
+			sm_cvar sv_maxcmdrate           "100"		// tickrate
+			sm_cvar net_splitpacket_maxrate "100000" 	// tickrate * 1000
+			sm_cvar fps_max                 "0"
 			```
 		
 	5. 重啟伺服器，控制台輸入```plugin_print```確認安裝成功

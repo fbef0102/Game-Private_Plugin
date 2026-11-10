@@ -1,5 +1,5 @@
 # Navigation
-> 2025/8/14 updated
+> 2026/11/11 updated
 - [Navigation](#navigation)
 	- [Stripper](#stripper)
 	- [l4dtoolz](#l4dtoolz)
@@ -270,21 +270,21 @@
 		* (Listen Server) Launch options```-tickrate 100```
 		<br/>![image](image/16.jpg)
 		
-	4. Write down the following cvars in cfg/server.cfg
-		* If you don't have server.cfg, then create it
+	4. Go to cfg folder
+		* (Dedicated server) Write the following cvars in `cfg/server.cfg`. If you don't have `server.cfg`, then create it
+		* (Listen server) Write the following cvars in `cfg/listenserver.cfg`. If you don't have `listenserver.cfg`, then create it
 		* See [my network settings for l4d2 tickate 100](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D2/Windows%20Server%20Files/left4dead2/cfg/server_rates.cfg)
 			```php
 			// 100 Tickrate settings
 			// Please adjust carefully according to the tickrate
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
-			sm_cvar sv_maxupdaterate 		"100"		// tickrate
-			sm_cvar sv_mincmdrate 			"100"		// tickrate
-			sm_cvar sv_maxcmdrate 			"100"		// tickrate
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
+			sm_cvar sv_minrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate        "100"	 	// tickrate
+			sm_cvar sv_maxupdaterate        "100"		// tickrate
+			sm_cvar sv_mincmdrate           "100"		// tickrate
+			sm_cvar sv_maxcmdrate           "100"		// tickrate
+			sm_cvar net_splitpacket_maxrate "100000" 	// tickrate * 1000
+			sm_cvar fps_max                 "0"
 			```
 
 	5. Restart Server, type ```plugin_print``` in serve console
@@ -319,21 +319,21 @@
 		* (Listen Server) Launch options```-tickrate 100```
 		<br/>![image](image/16.jpg)
 
-	4. Write down the following cvars in cfg/server.cfg
-		* If you don't have server.cfg, then create it
+	4. Go to cfg folder
+		* (Dedicated server) Write the following cvars in `cfg/server.cfg`. If you don't have `server.cfg`, then create it
+		* (Listen server) Write the following cvars in `cfg/listenserver.cfg`. If you don't have `listenserver.cfg`, then create it
 		* See [my network settings for l4d1 tickate 100](https://github.com/fbef0102/Sourcemod-Server/blob/main/L4D1/Windows%20Server%20Files/left4dead/cfg/server_rates.cfg)
 			```php
 			// 100 Tickrate settings
 			// Please adjust carefully according to the tickrate
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"100"	 	// tickrate
-			sm_cvar sv_maxupdaterate 		"100"		// tickrate
-			sm_cvar sv_mincmdrate 			"100"		// tickrate
-			sm_cvar sv_maxcmdrate 			"100"		// tickrate
-			sm_cvar rate					"100000" 	// tickrate * 1000
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
+			sm_cvar sv_minrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_maxrate              "100000" 	// tickrate * 1000
+			sm_cvar sv_minupdaterate        "100"	 	// tickrate
+			sm_cvar sv_maxupdaterate        "100"		// tickrate
+			sm_cvar sv_mincmdrate           "100"		// tickrate
+			sm_cvar sv_maxcmdrate           "100"		// tickrate
+			sm_cvar net_splitpacket_maxrate "100000" 	// tickrate * 1000
+			sm_cvar fps_max                 "0"
 			```
 		
 	5. Restart Server, type ```plugin_print``` in serve console
